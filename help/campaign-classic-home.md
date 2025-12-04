@@ -3,10 +3,10 @@ keywords: Campaign Classic;accueil;thèmes populaires
 product: campaign
 title: Documentation du produit Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '341'
-ht-degree: 100%
+source-git-commit: 8a2a3239c08521765592491a6fe88c94d9db0640
+workflow-type: tm+mt
+source-wordcount: '342'
+ht-degree: 99%
 
 ---
 
@@ -89,7 +89,7 @@ Certaines modifications importantes apportées au service Android FCM (Firebas
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
 <br/>
-<strong>Envoyer des messages</strong><br/> <a href="delivery/using/communication-channels.md">Canaux de communication</a> - <a href="delivery/using/steps-about-delivery-creation-steps.md#sending-a-proof">Envoyer des BAT</a> - <a href="delivery/using/get-started-a-b-testing.md">Tests AB</a> - <a href="delivery/using/about-message-tracking.md">Tracking des messages</a> - <a href="delivery/using/about-deliverability.md">Délivrabilité</a> - <a href="message-center/using/about-transactional-messaging.md">Messages transactionnels</a>
+<strong>Envoyer des messages</strong><br/> <a href="delivery/using/communication-channels.md">Canaux de communication</a> - <a href="delivery/using/steps-about-delivery-creation-steps.md#sending-a-proof">Envoyer des BAT</a> - <a href="delivery/using/get-started-a-b-testing.md">Tests AB</a> - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">Tracking des messages</a> - <a href="delivery/using/about-deliverability.md">Délivrabilité</a> - <a href="message-center/using/about-transactional-messaging.md">Messages transactionnels</a>
     </td>
   </tr>
   <tr style="border: 0;">

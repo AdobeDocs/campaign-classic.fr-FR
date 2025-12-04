@@ -7,10 +7,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 0188c3fe-8176-4904-8505-c47a72c20fcc
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '144'
-ht-degree: 100%
+source-git-commit: 8a2a3239c08521765592491a6fe88c94d9db0640
+workflow-type: tm+mt
+source-wordcount: '145'
+ht-degree: 90%
 
 ---
 
@@ -31,7 +31,7 @@ Les étapes clés de création d&#39;une diffusion sont les suivantes :
 
 1. **Envoyer la diffusion**. [En savoir plus](steps-sending-the-delivery.md)
 
-1. **Suivre la diffusion** (tracking, mise en quarantaine, rapports, etc.). Pour en savoir plus, consultez les sections [Suivi des diffusions](about-delivery-monitoring.md) et [Tracking des diffusions](about-message-tracking.md).
+1. **Suivre la diffusion** (tracking, mise en quarantaine, rapports, etc.). Pour plus d&#39;informations, consultez les sections [Surveillance des diffusions](about-delivery-monitoring.md) et [Tracking des messages](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"}.
 
 >[!NOTE]
 >
