@@ -5,7 +5,7 @@ description: Découvrez les fonctionnalités de surveillance des diffusions dans
 feature: Monitoring, Deliverability
 role: User
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
-source-git-commit: a85d94e8ff66e8468b4fe2f071df48437393bbce
+source-git-commit: e60a8391416bc9899548971bddb61705467a80e5
 workflow-type: tm+mt
 source-wordcount: '835'
 ht-degree: 64%
@@ -86,7 +86,7 @@ Des actions spécifiques peuvent être effectuées lorsque vous rencontrez des p
 
 * [Problèmes de délivrabilité](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [Problèmes liés à l&#39;affichage des images](../../production/using/image-display-issues.md)
-* [Problèmes de performances des diffusions](delivery-performances.md)
+* [Problèmes de performances des diffusions](delivery-performance-troubleshooting.md)
 * [Problèmes de fichiers temporaires](../../production/using/temporary-files.md) - *clients On-premise uniquement*
 
 ## Surveillance de vos diffusions

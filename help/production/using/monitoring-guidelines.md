@@ -4,8 +4,8 @@ title: Instructions de surveillance
 description: Découvrez les instructions et les bonnes pratiques pour surveiller les instances et les processus Campaign.
 feature: Monitoring
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
+source-git-commit: e60a8391416bc9899548971bddb61705467a80e5
+workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 100%
 
@@ -100,7 +100,7 @@ Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/
 Des actions spécifiques peuvent être entreprises en cas de problème avec des diffusions :
 * [Problèmes de délivrabilité](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [Problèmes liés à l&#39;affichage des images](../../production/using/image-display-issues.md)
-* [Problèmes de performances des diffusions](../../delivery/using/delivery-performances.md)
+* [Problèmes de performances des diffusions](../../delivery/using/delivery-performance-troubleshooting.md)
 * [Problèmes de fichiers temporaires](../../production/using/temporary-files.md) - *sur les modèles d’hébergement on-Premise uniquement*
 
 ### Surveillance de la base de données {#monitoring-database}

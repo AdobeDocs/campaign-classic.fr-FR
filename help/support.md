@@ -6,7 +6,7 @@ feature: Troubleshooting
 hidefromtoc: true
 hide: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: 8a2a3239c08521765592491a6fe88c94d9db0640
+source-git-commit: e60a8391416bc9899548971bddb61705467a80e5
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 98%
@@ -47,7 +47,7 @@ Obtenez de l’aide en utilisant nos FAQ, bonnes pratiques, ressources en ligne 
     <td valign="top">
         <ul>
         <li><a href="production/using/performance-and-throughput-issues.md">Problèmes de performance et de débit</a></li>
-        <li><a href="delivery/using/delivery-performances.md">Performances des diffusions</a></li>
+        <li><a href="delivery/using/delivery-performance-troubleshooting.md">Performances des diffusions</a></li>
         <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=fr" target="_blank">Optimisation des performances des workflows</a></li>
         <li><a href="workflow/using/monitoring-workflow-execution.md">Dépannage de l’exécution d’un workflow</a></li>
         <li><a href="platform/using/sftp-server-usage.md">Utiliser le serveur SFTP</a></li>
