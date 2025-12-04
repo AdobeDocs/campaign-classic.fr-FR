@@ -5,8 +5,8 @@ description: Découvrez les points clés à vérifier lors de la gestion de la d
 feature: Deliverability, Troubleshooting
 role: User
 exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
-source-git-commit: b353b562bd2f0b0bd2dfde22c6477ab66d499483
-workflow-type: ht
+source-git-commit: 0c639cc8b9636c190c868980ab5182a0eccb5f74
+workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 100%
 
@@ -45,17 +45,17 @@ Si le problème persiste, contactez les services commerciaux, les services charg
 
 * **Quelle est la différence entre une adresse email en liste bloquée et une adresse email en quarantaine ?**
 
-   * Le statut **[!UICONTROL Placé sur la liste bloquée]** signifie que l&#39;un de vos destinataires a déclaré un message comme étant un spam.
+   * Le statut **[!UICONTROL Placé sur la liste bloquée]** signifie qu’une personne a déclaré un message comme étant un spam.
 
    * L’application du statut **[!UICONTROL Quarantaine]** est le résultat d’un rebond temporaire ou définitif.
 
-  Voir à ce propos [cette section](understanding-quarantine-management.md#quarantine-vs-denylist).
+  Voir à ce propos [cette section](delivery-failures-quarantine.md#quarantine-vs-denylist).
 
 * **À quoi correspondent les différentes raisons de mise en quarantaine ?**
 
   Il existe dix raisons de mise en quarantaine : non définie, utilisateur inconnu, domaine invalide, sur liste bloquée, refusé, erreur ignorée, inatteignable, compte désactivé, boîte pleine, non connecté.
 
-  Pour plus d’informations, voir [Comprendre la gestion des quarantaines](understanding-quarantine-management.md).
+  Pour plus d’informations, voir [Comprendre la gestion des quarantaines](delivery-failures-quarantine.md).
 
 ## Retrait de la liste bloquée {#remove-from-denylist}
 

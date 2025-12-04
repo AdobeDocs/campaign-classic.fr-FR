@@ -8,7 +8,7 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: 24b2ee47-bec7-43ce-81b3-0b2d1a5cebae
-source-git-commit: aa78a51ebea49f98ef7edad7e87a99a680f02b69
+source-git-commit: 0c639cc8b9636c190c868980ab5182a0eccb5f74
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 100%
@@ -67,7 +67,7 @@ Lorsque vous commencez à envoyer des emails sur une nouvelle plateforme, vous p
 
 * Les destinataires dont l’adresse est en quarantaine sont par défaut exclus lors de l’analyse d’une diffusion : ils ne seront pas ciblés. Le taux d’erreur ayant une incidence importante sur la vitesse de diffusion, les envois sont ainsi accélérés. Une adresse email peut être mise en quarantaine par exemple lorsque la boîte de messagerie est pleine ou si l’adresse n’existe pas. [En savoir plus](#identifying-quarantined-addresses-for-a-delivery)
 
-* Le mode de gestion des adresses en erreur par Adobe Campaign dépend du type d’erreur retourné. Pour plus d’informations, consultez [cette section](understanding-quarantine-management.md).
+* Le mode de gestion des adresses en erreur par Adobe Campaign dépend du type d’erreur retourné. Pour plus d’informations, consultez [cette section](delivery-failures-quarantine.md).
 
 
 * Certains fournisseurs d&#39;accès Internet considèrent automatiquement les emails comme du spam si le taux d&#39;adresses invalides est trop élevé. La quarantaine permet donc d&#39;éviter d&#39;être ajouté à une liste bloquée par ces fournisseurs.
