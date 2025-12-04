@@ -6,9 +6,9 @@ feature: Troubleshooting
 hidefromtoc: true
 hide: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
-source-git-commit: 85bafbac26b5f127499f35f373e96ecfd12b1db8
+source-git-commit: 8a2a3239c08521765592491a6fe88c94d9db0640
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '632'
 ht-degree: 98%
 
 ---
@@ -58,7 +58,7 @@ Obtenez de l’aide en utilisant nos FAQ, bonnes pratiques, ressources en ligne 
         <ul>
         <li><a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=fr" target="_blank">Bonnes pratiques en matière de workflow</a></li>
         <li><a href="workflow/using/monitoring-technical-workflows.md">Surveillance des workflows techniques</a></li>
-        <li><a href="delivery/using/about-message-tracking.md">Présentation de la gestion du tracking</a></li>
+        <li><a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">Présentation de la gestion du tracking</a></li>
         <li><a href="production/using/monitoring-guidelines.md">Découverte des outils de surveillance</a></li>
         <li><a href="platform/using/import-export-workflows.md">Import de données avec des workflows</a></li>
         <li><a href="delivery/using/steps-sending-the-delivery.md">Envoi des messages en plusieurs vagues</a></li>
