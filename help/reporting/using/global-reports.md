@@ -5,10 +5,10 @@ description: Rapports globaux
 badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
-source-git-commit: abaeef25b03a9699a4851786380d467bfa299c9f
+source-git-commit: 2186b8a30449cb023cb07305ba64d53f2c8adab1
 workflow-type: tm+mt
 source-wordcount: '2495'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -82,9 +82,9 @@ Le **[!UICONTROL Nombre de messages traités]** représente le nombre total de m
 
 >[!NOTE]
 >
->Les erreurs présentées dans ce rapport déclenchent le processus de mise en quarantaine. Pour plus d’informations sur la gestion de la quarantaine, consultez [Gestion de la quarantaine](../../delivery/using/understanding-quarantine-management.md).
+>Les erreurs présentées dans ce rapport déclenchent le processus de mise en quarantaine. Pour plus d’informations sur la gestion de la quarantaine, consultez [Gestion de la quarantaine](../../delivery/using/delivery-failures-quarantine.md).
 
-La première partie de ce rapport présente la répartition des messages en échec sous la forme d&#39;un tableau de valeurs et d&#39;un graphique.
+La première partie de ce rapport présente la répartition des non-délivrables sous la forme d’un tableau de valeurs et d’un graphique.
 
 A chaque type d&#39;erreur, est associé :
 
@@ -112,7 +112,7 @@ Les indicateurs utilisés sont les suivants :
 
 **[!UICONTROL Répartition des erreurs par domaine]**
 
-La seconde partie de ce rapport présente la répartition des échecs par domaine Internet sous la forme d&#39;un tableau de valeurs et d&#39;un graphique.
+La seconde partie de ce rapport présente la répartition des erreurs par domaine Internet sous la forme d&#39;un tableau de valeurs et d&#39;un graphique.
 
 A chaque nom de domaine, est associé :
 
@@ -167,9 +167,9 @@ Le tableau de valeurs utilise les indicateurs suivants :
 
 ### Partage vers les réseaux sociaux {#sharing-to-social-networks}
 
-Le marketing viral permet aux personnes destinataires de vos diffusions de partager l’information avec leur réseau de contacts : ils peuvent ajouter un lien vers leur profil (Facebook, Xn anciennement Twitter, etc.) ou envoyer un message à une connaissance. Chaque partage et chaque accès aux informations partagées sont suivis dans la diffusion. Pour plus d’informations sur le marketing viral, consultez [cette section](../../delivery/using/viral-and-social-marketing.md).
+Le marketing viral permet aux destinataires de la diffusion de partager des informations avec leur réseau de contact : ils peuvent ajouter un lien vers leur profil (Facebook, X, anciennement appelé Twitter, etc.) ou envoyer un message à un ami. Chaque partage et chaque accès aux informations partagées sont suivis dans la diffusion. Pour plus d’informations sur le marketing viral, consultez [cette section](../../delivery/using/viral-and-social-marketing.md).
 
-Ce rapport présente la répartition du partage et de l’ouverture des messages par réseau social (Facebook, X, etc.) et/ou par e-mail.
+Ce rapport présente la répartition des messages partagés et ouverts, par réseau social (Facebook, X, etc.) et/ou par email.
 
 ![](assets/s_ncs_user_social_report.png)
 
@@ -202,7 +202,7 @@ Cette section comporte deux graphiques représentant la répartition des partage
 
 ## Statistiques des activités de partage {#statistics-on-sharing-activities}
 
-Ce rapport présente l’évolution des partages vers les réseaux sociaux (Facebook, X, anciennement Twitter, e-mail, etc.) dans le temps.
+Ce rapport montre l&#39;évolution des partages vers les réseaux sociaux (Facebook, X - anciennement appelé Twitter, email, etc.) dans le temps.
 
 Pour plus d&#39;informations sur le marketing viral, consultez [cette section](../../delivery/using/viral-and-social-marketing.md).
 
@@ -294,7 +294,7 @@ Les indicateurs utilisés sont les suivants :
 
   >[!NOTE]
   >
-  >Pour plus d’informations sur les rebonds définitifs et temporaires, consultez la section [Gestion des quarantaines](../../delivery/using/understanding-quarantine-management.md).
+  >Pour plus d’informations sur les rebonds définitifs et temporaires, consultez la section [Gestion des quarantaines](../../delivery/using/delivery-failures-quarantine.md).
 
 * **[!UICONTROL Ouvertures]** : pourcentage du nombre de destinataires ciblés distincts ayant ouvert au moins une fois un même message, par rapport au nombre de messages traités avec succès.
 * **[!UICONTROL Clics]** : Pourcentage du nombre de personnes distinctes ayant cliqué au moins une fois dans une même diffusion, par rapport au nombre de messages traités avec succès.
