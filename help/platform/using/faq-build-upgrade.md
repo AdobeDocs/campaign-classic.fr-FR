@@ -216,6 +216,6 @@ du contenu est présent et s&#39;affiche.
 **Voir aussi**
 
 * [Réalisation d’une mise à niveau de build](../../production/using/build-upgrade.md)
-* [Notes de mise à jour de Campaign Classic ](../../rn/using/rn-overview.md)
+* [Notes de mise à jour de Campaign Classic &#x200B;](../../rn/using/rn-overview.md)
 * [Options d&#39;aide et de support pour Campaign Classic](../../support.md)
 * [Programme de mise à niveau annuelle](../../rn/using/rn-overview.md#yearly-upgrade)

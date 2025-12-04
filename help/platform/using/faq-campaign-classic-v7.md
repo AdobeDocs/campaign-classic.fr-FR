@@ -60,7 +60,7 @@ La migration vers Adobe Managed Services améliore l’évolutivité, la sécuri
 
 **Prise en main :** contactez votre représentant Adobe pour évaluer votre environnement et développer un plan de migration détaillé avec Adobe Professional Services.
 
-En savoir plus sur la [ migration vers Managed Services ](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605){target="_blank"}.
+En savoir plus sur la [&#x200B; migration vers Managed Services &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605){target="_blank"}.
 
 ## Mises à niveau des builds (Campaign Classic v7) {#build-upgrades-v7}
 
@@ -133,7 +133,7 @@ Cette intégration permet d’effectuer les opérations suivantes :
 * Synchronisation automatique des groupes d’utilisateurs et des autorisations
 * Fonctionnalités d’authentification unique
 
-[Cliquez ici pour découvrir comment ](../../installation/using/connecting-through-ldap.md) l&#39;intégration LDAP dans Campaign Classic v7.
+[Cliquez ici pour découvrir comment &#x200B;](../../installation/using/connecting-through-ldap.md) l&#39;intégration LDAP dans Campaign Classic v7.
 
 **Remarque :** intégration LDAP est disponible pour les déploiements on-premise et hybrides. Les clients hébergés utilisent Adobe IMS pour l’authentification.
 
@@ -194,10 +194,10 @@ En savoir plus dans la [documentation de la console cliente Campaign](../../plat
 
 **Documentation et ressources :**
 
-* [Documentation de Campaign Classic v7 ](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=fr){target="_blank"} - Documentation complète
-* [Notes de mise à jour de Campaign Classic v7 ](../../rn/using/latest-release.md) - Informations récentes
-* [Matrice de compatibilité Campaign Classic ](../../rn/using/compatibility-matrix.md) - Systèmes et versions pris en charge
-* [Tutoriels Campaign Classic ](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr){target="_blank"} - Tutoriels vidéo
+* [Documentation de Campaign Classic v7 &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=fr){target="_blank"} - Documentation complète
+* [Notes de mise à jour de Campaign Classic v7 &#x200B;](../../rn/using/latest-release.md) - Informations récentes
+* [Matrice de compatibilité Campaign Classic &#x200B;](../../rn/using/compatibility-matrix.md) - Systèmes et versions pris en charge
+* [Tutoriels Campaign Classic &#x200B;](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr){target="_blank"} - Tutoriels vidéo
 
 **Pour les questions courantes sur Campaign :**
 

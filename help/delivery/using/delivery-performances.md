@@ -20,7 +20,7 @@ ht-degree: 6%
 >
 >Cette page documente les configurations de performances spécifiques à Campaign Classic v7 **pour les déploiements hybrides et on-premise.**
 
-Pour obtenir des bonnes pratiques complètes sur les performances des diffusions, l&#39;optimisation de la plateforme, la gestion des quarantaines, la maintenance de la base de données et les recommandations de planification, reportez-vous à la documentation [ Bonnes pratiques de diffusion de Campaign v8 ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}.
+Pour obtenir des bonnes pratiques complètes sur les performances des diffusions, l&#39;optimisation de la plateforme, la gestion des quarantaines, la maintenance de la base de données et les recommandations de planification, reportez-vous à la documentation [&#x200B; Bonnes pratiques de diffusion de Campaign v8 &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}.
 
 ## Réglage des performances {#best-practices-performance}
 
@@ -36,7 +36,7 @@ Pour les déploiements hybrides/on-premise **Campaign Classic v7**, les optimisa
 
 >[!NOTE]
 >
->Pour les utilisateurs de Campaign v8 Managed Cloud Services, l’optimisation de l’infrastructure et la configuration du MTA sont gérées par Adobe. Pour obtenir des recommandations de performances applicables à votre déploiement[ consultez les bonnes pratiques de diffusion ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}Campaign v8) .
+>Pour les utilisateurs de Campaign v8 Managed Cloud Services, l’optimisation de l’infrastructure et la configuration du MTA sont gérées par Adobe. Pour obtenir des recommandations de performances applicables à votre déploiement[&#x200B; consultez les bonnes pratiques de diffusion &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}Campaign v8) .
 
 ## Maintenance de la base de données {#performance-issues}
 
@@ -56,7 +56,7 @@ Les tâches de maintenance régulières incluent :
 
 ## Rubriques connexes
 
-* [ Bonnes pratiques de diffusion ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} (documentation de Campaign v8)
+* [&#x200B; Bonnes pratiques de diffusion &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} (documentation de Campaign v8)
 * [Surveiller votre délivrabilité](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitoring-deliverability){target="_blank"} (documentation de Campaign v8)
 * [Résolution des problèmes liés aux diffusions](delivery-troubleshooting.md)
 * [Performances de la base de données](../../production/using/database-performances.md) (v7 hybride/on-premise)

@@ -65,7 +65,7 @@ Vérifiez le statut des workflows dans **[!UICONTROL Administration]** > **[!UIC
 ## Rubriques connexes
 
 * [Présentation des diffusions en échec](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (documentation de Campaign v8)
-* [ Bonnes pratiques de diffusion ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} (documentation de Campaign v8)
+* [&#x200B; Bonnes pratiques de diffusion &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} (documentation de Campaign v8)
 * [Surveillance des diffusions dans l’interface utilisateur de Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} (documentation de Campaign v8)
 * [Maintenance de la base de données](../../production/using/recommendations.md) (v7 hybride/on-premise)
 * [Délivrabilité des e-mails](../../installation/using/email-deliverability.md) (v7 hybride/on-premise)
