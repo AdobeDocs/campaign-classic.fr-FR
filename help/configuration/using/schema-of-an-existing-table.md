@@ -6,7 +6,7 @@ feature: Custom Resources
 role: Developer
 exl-id: 964f1027-627c-4f12-91b5-f258e9ba458b
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
 ht-degree: 100%
 

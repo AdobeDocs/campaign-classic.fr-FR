@@ -6,7 +6,7 @@ feature: Configuration, Instance Settings
 role: Developer
 exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1037'
 ht-degree: 100%
 

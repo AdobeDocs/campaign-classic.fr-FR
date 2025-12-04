@@ -6,7 +6,7 @@ feature: Application Settings
 role: Developer
 exl-id: 204d4a24-267c-4976-90d9-7bf5bee8d116
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '135'
 ht-degree: 100%
 

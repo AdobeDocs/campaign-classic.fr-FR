@@ -6,7 +6,7 @@ feature: Configuration
 role: Developer
 exl-id: 6c1e061b-8636-4285-8d83-97474544d252
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '151'
 ht-degree: 100%
 

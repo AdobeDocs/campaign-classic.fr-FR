@@ -7,7 +7,7 @@ role: Developer
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '304'
 ht-degree: 100%
 

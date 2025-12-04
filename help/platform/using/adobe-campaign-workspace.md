@@ -7,7 +7,7 @@ role: Developer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '980'
 ht-degree: 100%
 
@@ -144,4 +144,4 @@ Découvrez comment **utiliser les énumérations** dans la [documentation d’Ad
 
 Cette vidéo présente l’espace de travail de Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/39530?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)
