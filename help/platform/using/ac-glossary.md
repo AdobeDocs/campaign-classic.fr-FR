@@ -5,8 +5,10 @@ description: Glossaire pour Adobe Campaign
 feature: Overview
 role: User, Developer
 level: Beginner
+hide: true
+hidefromtoc: true
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: e60a8391416bc9899548971bddb61705467a80e5
+source-git-commit: 7b3d34ddde08f0bfc8d35f4e17e9eef4eb640483
 workflow-type: tm+mt
 source-wordcount: '6202'
 ht-degree: 99%
@@ -221,7 +223,7 @@ En savoir plus sur l’analyse de diffusion dans la [documentation de Campaign 
 
 Les logs de diffusion contiennent les informations générées lors de l’envoi d’un message. Ces logs indiquent le détail de l’envoi, le message préparé, ignoré, envoyé ou en échec. Ils peuvent être testés directement depuis le tableau de bord de la diffusion.
 
-En savoir plus sur les [logs de diffusion](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}.
+En savoir plus sur les [logs de diffusion](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}.
 +++
 
 <!--
