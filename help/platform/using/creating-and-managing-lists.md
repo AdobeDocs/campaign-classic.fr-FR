@@ -147,6 +147,6 @@ Learn how create a workflow in order to target recipients and how to make it rec
 
 >[!VIDEO](https://video.tv.adobe.com/v/25603?quality=12)
 
-Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
 
 -->
