@@ -89,7 +89,7 @@ Certaines modifications importantes apportées au service Android FCM (Firebas
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
 <br/>
-<strong>Envoyer des messages</strong><br/> <a href="delivery/using/communication-channels.md">Canaux de communication</a> - <a href="delivery/using/steps-about-delivery-creation-steps.md#sending-a-proof">Envoyer des BAT</a> - <a href="delivery/using/get-started-a-b-testing.md">Tests AB</a> - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">Tracking des messages</a> - <a href="delivery/using/about-deliverability.md">Délivrabilité</a> - <a href="message-center/using/about-transactional-messaging.md">Messages transactionnels</a>
+<strong>Envoyer des messages</strong><br/> <a href="delivery/using/communication-channels.md">Canaux de communication</a> - <a href="delivery/using/steps-about-delivery-creation-steps.md#sending-a-proof">Envoyer des BAT</a> - <a href="delivery/using/get-started-a-b-testing.md">Tests AB</a> - <a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">Tracking des messages</a> - <a href="delivery/using/about-deliverability.md">Délivrabilité</a> - <a href="message-center/using/about-transactional-messaging.md">Messages transactionnels</a>
     </td>
   </tr>
   <tr style="border: 0;">
