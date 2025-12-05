@@ -5,8 +5,8 @@ description: Modifier le contenu
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
-source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
-workflow-type: ht
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
+workflow-type: tm+mt
 source-wordcount: '1254'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Pour ajouter une condition de visibilité, sélectionnez un bloc et saisissez la
 
 >[!NOTE]
 >
->L&#39;édition d&#39;expression avancée est présentée dans [cette page](../../platform/using/about-queries-in-campaign.md).
+>L&#39;édition d&#39;expression avancée est présentée dans [cette page](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign).
 
 ![](assets/dce_popup_visibilitycondition.png)
 

@@ -5,7 +5,7 @@ description: Découvrez comment gérer les réponses aux questionnaires
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Surveys
 exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
 workflow-type: tm+mt
 source-wordcount: '904'
 ht-degree: 100%
@@ -96,7 +96,7 @@ Pour chaque formulaire, les réponses fournies peuvent être réutilisées dans 
 
 >[!NOTE]
 >
->Pour les autres types de champs, la syntaxe à utiliser est présentée dans [cette section](../../platform/using/about-queries-in-campaign.md).
+>Pour les autres types de champs, la syntaxe à utiliser est présentée dans [cette section](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign).
 
 ### Paramètres de stockage {#storage-settings}
 

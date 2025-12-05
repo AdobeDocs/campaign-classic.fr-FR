@@ -5,8 +5,8 @@ description: Création de filtres
 hide: true
 hidefromtoc: true
 exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
-source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
-workflow-type: ht
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
+workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 100%
 
@@ -63,7 +63,7 @@ The following filter types are available in Adobe Campaign:
 
   >[!NOTE]
   >
-  >For more on building queries in Adobe Campaign, refer to [this section](../../platform/using/about-queries-in-campaign.md).
+  >For more on building queries in Adobe Campaign, refer to [this section](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign).
 
 * **User filters**
 

@@ -4,8 +4,8 @@ title: Personnalisation et confidentialité
 description: Découvrez les bonnes pratiques de sécurité en matière de confidentialité et de personnalisation.
 feature: Installation, Privacy, Privacy Tools, URL Personalization
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
+workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Lorsque vous ajoutez des liens personnalisés à votre contenu, évitez toujours
 
 ### Recommandation
 
-Pour valider et vous assurer que vous n’utilisez pas les éléments ci-dessus, exécutez une requête sur la table des URL de tracking à l’aide du [requêteur générique de Campaign](../../platform/using/about-queries-in-campaign.md) ou créez un workflow avec des critères de filtre dans l’activité de requête. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=fr){target="_blank"}.
+Pour valider et vous assurer que vous n’utilisez pas les éléments ci-dessus, exécutez une requête sur la table des URL de tracking à l’aide du [requêteur générique de Campaign](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign) ou créez un workflow avec des critères de filtre dans l’activité de requête. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=fr){target="_blank"}.
 
 Exemple :
 
@@ -63,8 +63,8 @@ Si vous exécutez Campaign dans une architecture hybride, avant d’activer la s
 
 Dans le cas contraire, certains des problèmes suivants peuvent se produire :
 
-* Avant la mise à niveau de l&#39;instance de mid-sourcing, les URL sont envoyées sans signature via cette instance.
-* Une fois l&#39;instance de mid-sourcing mise à niveau et la signature d&#39;URL activée sur les deux instances, les URL précédemment envoyées sans signature sont rejetées. Cela est dû au fait qu&#39;une signature est demandée par les fichiers de tracking fournis par l&#39;instance marketing.
+* Avant la mise à niveau de l’instance de mid-sourcing, les URL sont envoyées sans signature via cette instance.
+* Une fois l’instance de mid-sourcing mise à niveau et la signature d’URL activée sur les deux instances, les URL précédemment envoyées sans signature sont rejetées. Cela est dû au fait qu&#39;une signature est demandée par les fichiers de tracking fournis par l&#39;instance marketing.
 
 Pour désactiver les URL qui ont été générées dans les builds précédents, procédez comme suit sur tous les serveurs Campaign en même temps :
 

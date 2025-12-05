@@ -8,7 +8,7 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: 7b3d34ddde08f0bfc8d35f4e17e9eef4eb640483
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
 workflow-type: tm+mt
 source-wordcount: '6202'
 ht-degree: 99%
@@ -223,7 +223,7 @@ En savoir plus sur l’analyse de diffusion dans la [documentation de Campaign 
 
 Les logs de diffusion contiennent les informations générées lors de l’envoi d’un message. Ces logs indiquent le détail de l’envoi, le message préparé, ignoré, envoyé ou en échec. Ils peuvent être testés directement depuis le tableau de bord de la diffusion.
 
-En savoir plus sur les [logs de diffusion](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}.
+En savoir plus sur les [logs de diffusion](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}.
 +++
 
 <!--
@@ -274,7 +274,7 @@ En savoir plus sur le marketing distribué dans la [documentation de Campaign v
 
 La répartition des valeurs est un outil permettant de visualiser la répartition des valeurs d’un attribut de schéma existant actuellement dans la base de données. Vous pouvez ainsi déterminer les valeurs disponibles, leur nombre et leur pourcentage, et éviter tout problème de mise en majuscules et d’orthographe des valeurs lors de la création d’une requête ou d’une expression.
 
-En savoir plus sur la [Répartition des valeurs](../../platform/using/about-queries-in-campaign.md).
+En savoir plus sur la [Répartition des valeurs](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign).
 +++
 
 +++**Délégation de domaine**

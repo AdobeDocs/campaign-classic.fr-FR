@@ -6,8 +6,8 @@ feature: Workflows, Targeting Activity, Data Management
 hide: true
 hidefromtoc: true
 exl-id: 9f5735d2-73b8-469f-bc10-482c99cdd4a1
-source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
-workflow-type: ht
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
+workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 100%
 
@@ -102,7 +102,7 @@ La mise à jour des données et la fusion des collections permet de mettre à jo
 
 1. Indiquez les collections à déplacer vers l&#39;enregistrement primaire et les champs à mettre à jour.
 
-   Renseignez les règles qui s&#39;appliquent à ces derniers lorsqu&#39;un ou plusieurs enregistrements secondaires sont identifiés. Pour ce faire, vous pouvez utiliser le générateur d’expression. Voir à ce propos cette [section](../../platform/using/about-queries-in-campaign.md). Par exemple, en indiquant que c&#39;est la valeur mise à jour le plus récemment parmi les différents enregistrements qui doit être conservée.
+   Renseignez les règles qui s&#39;appliquent à ces derniers lorsqu&#39;un ou plusieurs enregistrements secondaires sont identifiés. Pour ce faire, vous pouvez utiliser le générateur d’expression. Voir à ce propos cette [section](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign). Par exemple, en indiquant que c&#39;est la valeur mise à jour le plus récemment parmi les différents enregistrements qui doit être conservée.
 
    Indiquez ensuite les conditions de prise en compte de la règle.
 

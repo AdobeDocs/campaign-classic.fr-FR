@@ -6,8 +6,8 @@ feature: Query Editor, Workflows
 hide: true
 hidefromtoc: true
 exl-id: 23bccb48-60ab-46c9-be26-2fa35243d61e
-source-git-commit: 9df46ed923831ffdfb28acddfbc371cecafb251c
-workflow-type: ht
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
+workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Pour réaliser cet exemple, les étapes sont les suivantes :
 
 1. Dans la fenêtre **[!UICONTROL Données à extraire]**, sélectionnez les champs **[!UICONTROL Domaine de l’email]** et **[!UICONTROL Clé primaire]**. Faites un comptage du champ **[!UICONTROL Clé primaire]**.
 
-   Pour plus d&#39;informations sur le comptage d&#39;une clé primaire, consultez [cette section](../../platform/using/about-queries-in-campaign.md).
+   Pour plus d&#39;informations sur le comptage d&#39;une clé primaire, consultez [cette section](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign).
 
 1. Sélectionnez la zone **[!UICONTROL Gérer les groupements (GROUP BY + HAVING)]**.
 

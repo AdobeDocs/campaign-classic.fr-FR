@@ -7,7 +7,7 @@ user-guide-title: Guide de Campaign Classic v7
 user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 7b3d34ddde08f0bfc8d35f4e17e9eef4eb640483
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
 workflow-type: tm+mt
 source-wordcount: '2686'
 ht-degree: 99%
@@ -38,7 +38,7 @@ ht-degree: 99%
    + [Parcourir et personnaliser les listes - MASQUÉ](platform/using/adobe-campaign-ui-lists.md)
    + [Énumérations - MASQUÉ](platform/using/managing-enumerations.md)
    + [Connecteurs Campaign](platform/using/about-connectors.md)
-   + [Créer des requêtes dans Campaign](platform/using/about-queries-in-campaign.md)
+   + [Créer des requêtes dans Campaign](platform/using/adobe-campaign-workspace.md#about-queries-in-campaign)
    + Questions fréquentes {#faq}
       + [FAQ Campaign Classic](platform/using/faq-campaign-classic-v7.md)
       + [Mise à niveau de build](platform/using/faq-build-upgrade.md)
@@ -134,7 +134,7 @@ ht-degree: 99%
    + [Envoi de messages LINE](delivery/using/line-channel.md)
    + [Envoyer des notifications push](delivery/using/about-mobile-app-channel.md)
    + Envoyer des notifications push {#sending-push-notifications}
-      + [&#x200B; Intégrer le SDK Campaign dans l’application mobile](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
+      + [ Intégrer le SDK Campaign dans l’application mobile](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + Configurer l’application mobile{#configure-the-mobile-app}
          + [Commencer avec la configuration de l’application - MASQUÉ](delivery/using/get-started-app-config.md)
          + [Étapes de configuration pour iOS - MASQUÉ](delivery/using/configuring-the-mobile-application.md)
@@ -247,7 +247,7 @@ ht-degree: 99%
    + [Cas d’utilisation - MASQUÉ](distributed/using/examples.md)
 + Gestion de la réaction {#response-manager}
    + [Prise en main de la gestion de la réaction](response/using/about-response-manager.md)
-   + [Configuration &#x200B;](response/using/configuration.md)
+   + [Configuration ](response/using/configuration.md)
    + [Modèles d&#39;hypothèse](response/using/hypothesis-templates.md)
    + [Création d’hypothèses](response/using/creating-hypotheses.md)
    + [Suivi des hypothèses](response/using/hypothesis-tracking.md)
@@ -648,7 +648,7 @@ ht-degree: 99%
       + [Points d’entrée réseau Campaign](installation/using/campaign-network-endpoints.md)
       + [Lignes de commande](installation/using/command-lines.md)
       + [Création d’instances](installation/using/creating-new-instances.md)
-      + [Liste des options de Campaign &#x200B;](installation/using/configuring-campaign-options.md)
+      + [Liste des options de Campaign ](installation/using/configuring-campaign-options.md)
       + [Désinstallation de Campaign](installation/using/uninstalling-campaign.md)
       + [Installation de nouvelles polices](installation/using/install-fonts.md)
 + Guide de surveillance {#monitoring-campaign-classic}
@@ -659,8 +659,8 @@ ht-degree: 99%
    + Procédures d’exploitation {#production-procedures}
       + [Principe de configuration](production/using/configuration-principle.md)
       + [Principe de fonctionnement](production/using/operating-principle.md)
-      + [Administration &#x200B;](production/using/administration.md)
-      + [Configuration &#x200B;](production/using/configuration.md)
+      + [Administration ](production/using/administration.md)
+      + [Configuration ](production/using/configuration.md)
       + [Fichiers de log](production/using/log-files.md)
       + [Surveillance des processus](production/using/monitoring-processes.md)
       + [Commandes usuelles](production/using/usual-commands.md)

@@ -8,8 +8,8 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 8e308a9f-14a4-4a25-9fd0-8d4bdbcf74ce
-source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
-workflow-type: ht
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
+workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 100%
 
@@ -83,7 +83,7 @@ Vous devez ensuite vous assurer de ne jamais vendre à une quelconque tierce par
 
    ![](assets/privacy-ccpa-5.png)
 
-1. Configurez la liste des destinataires pour qu&#39;elle affiche la colonne d&#39;opt-out. Pour savoir comment configurer des listes, consultez la [documentation détaillée](../../platform/using/adobe-campaign-workspace.md#configuring-lists).
+1. Configurez la liste des destinataires pour qu&#39;elle affiche la colonne d&#39;opt-out. Pour savoir comment configurer des listes, consultez la [documentation détaillée](../../platform/using/adobe-campaign-ui-lists.md#configuring-lists).
 
    ![](assets/privacy-ccpa-6.png)
 

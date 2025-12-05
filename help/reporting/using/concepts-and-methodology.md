@@ -7,7 +7,7 @@ badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaig
 hide: true
 hidefromtoc: true
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
 workflow-type: tm+mt
 source-wordcount: '1580'
 ht-degree: 98%
@@ -171,7 +171,7 @@ Pour définir une nouvelle mesure, les étapes sont les suivantes :
 
 1. Au besoin, selon l&#39;opérateur sélectionné, choisissez l&#39;expression sur laquelle porte l&#39;opération.
 
-   Le bouton **[!UICONTROL Sélection avancée]** permet de créer des formules de calcul complexes. Pour plus d’informations, consultez [cette section](../../platform/using/about-queries-in-campaign.md).
+   Le bouton **[!UICONTROL Sélection avancée]** permet de créer des formules de calcul complexes. Pour plus d’informations, consultez [cette section](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign).
 
    ![](assets/s_advuser_cube_create_a_measure_01.png)
 
