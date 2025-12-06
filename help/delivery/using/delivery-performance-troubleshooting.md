@@ -60,8 +60,8 @@ Les tâches de maintenance régulières incluent :
 >
 >Des conseils complets sur la résolution des problèmes de diffusion sont documentés dans la documentation de Campaign v8, applicable aux utilisateurs de Campaign Classic v7 et de Campaign v8 :
 >
->* Échecs et solutions de diffusion courants : [Comprendre les échecs de diffusion](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}
->* Diagnostic de diffusion lente : [surveiller les diffusions dans l’interface utilisateur de Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}
+>* Échecs et solutions de diffusion courants : [Comprendre les échecs de diffusion](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}
+>* Diagnostic de diffusion lente : [surveiller les diffusions dans l’interface utilisateur de Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}
 >* Bonnes pratiques de diffusion : [Bonnes pratiques de diffusion](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"}
 >
 >Cette section présente la résolution des problèmes spécifique à **Campaign Classic v7** pour les déploiements hybrides et on-premise.
@@ -100,13 +100,13 @@ Vérifiez le statut des workflows dans **[!UICONTROL Administration]** > **[!UIC
 
 >[!NOTE]
 >
->Pour les utilisateurs et utilisatrices de Campaign v8 Managed Cloud Services, la surveillance des workflows techniques et de l’infrastructure est gérée par Adobe. Concentrez-vous sur le contenu et le ciblage de la diffusion, comme décrit dans la [documentation de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}.
+>Pour les utilisateurs et utilisatrices de Campaign v8 Managed Cloud Services, la surveillance des workflows techniques et de l’infrastructure est gérée par Adobe. Concentrez-vous sur le contenu et le ciblage de la diffusion, comme décrit dans la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}.
 
 ## Rubriques connexes
 
-* [Présentation des diffusions en échec](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (documentation de Campaign v8)
+* [Présentation des diffusions en échec](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (documentation de Campaign v8)
 * [&#x200B; Bonnes pratiques de diffusion &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} (documentation de Campaign v8)
-* [Surveillance des diffusions dans l’interface utilisateur de Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} (documentation de Campaign v8)
+* [Surveillance des diffusions dans l’interface utilisateur de Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} (documentation de Campaign v8)
 * [Maintenance de la base de données](../../production/using/recommendations.md) (v7 hybride/on-premise)
 * [Délivrabilité des e-mails](../../installation/using/email-deliverability.md) (v7 hybride/on-premise)
 * [Performances de la base de données](../../production/using/database-performances.md) (v7 hybride/on-premise)

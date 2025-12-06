@@ -16,11 +16,11 @@ ht-degree: 64%
 
 >[!NOTE]
 >
->Des instructions complètes sur l’accès à la liste des diffusions et l’utilisation du tableau de bord des diffusions sont fournies dans la [documentation de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard). Ce contenu s’applique aux utilisateurs de Campaign Classic v7 et de Campaign v8.
+>Des instructions complètes sur l’accès à la liste des diffusions et l’utilisation du tableau de bord des diffusions sont fournies dans la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-dashboard). Ce contenu s’applique aux utilisateurs de Campaign Classic v7 et de Campaign v8.
 >
 >Cette page présente les personnalisations avancées spécifiques à Campaign Classic v7 **pour les déploiements hybrides et on-premise.**
 
-Pour surveiller les diffusions dans l’interface utilisateur de Campaign, reportez-vous à la section [Surveillance des diffusions de Campaign v8 dans la documentation de l’interface utilisateur de Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}.
+Pour surveiller les diffusions dans l’interface utilisateur de Campaign, reportez-vous à la section [Surveillance des diffusions de Campaign v8 dans la documentation de l’interface utilisateur de Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}.
 
 ## Personnalisation des logs de diffusion {#use-case}
 
@@ -113,9 +113,9 @@ Vous trouverez ci-dessous ce que vous devez voir dans l’onglet **[!UICONTROL D
 
 ## Rubriques connexes
 
-* [Surveillance des diffusions dans l’interface utilisateur de Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} (documentation de Campaign v8)
-* [Statuts des diffusions](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} (documentation de Campaign v8)
-* [Présentation des diffusions en échec](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (documentation de Campaign v8)
-* [Gestion des quarantaines](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (documentation de Campaign v8)
+* [Surveillance des diffusions dans l’interface utilisateur de Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} (documentation de Campaign v8)
+* [Statuts des diffusions](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} (documentation de Campaign v8)
+* [Présentation des diffusions en échec](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (documentation de Campaign v8)
+* [Gestion des quarantaines](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (documentation de Campaign v8)
 * [Extension d&#39;un schéma](../../configuration/using/extending-a-schema.md) (v7 hybride/on-premise)
 

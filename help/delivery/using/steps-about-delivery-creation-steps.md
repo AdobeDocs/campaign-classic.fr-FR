@@ -31,7 +31,7 @@ Les étapes clés de création d&#39;une diffusion sont les suivantes :
 
 1. **Envoyer la diffusion**. [En savoir plus](steps-sending-the-delivery.md)
 
-1. **Suivre la diffusion** (tracking, mise en quarantaine, rapports, etc.). Pour plus d&#39;informations, consultez les sections [Surveillance des diffusions](about-delivery-monitoring.md) et [Tracking des messages](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"}.
+1. **Suivre la diffusion** (tracking, mise en quarantaine, rapports, etc.). Pour plus d&#39;informations, consultez les sections [Surveillance des diffusions](about-delivery-monitoring.md) et [Tracking des messages](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"}.
 
 >[!NOTE]
 >

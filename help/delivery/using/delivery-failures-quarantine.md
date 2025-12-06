@@ -18,14 +18,14 @@ ht-degree: 35%
 >
 >Des conseils complets sur les échecs de diffusion et la gestion des quarantaines sont documentés dans la documentation de Campaign v8 . Ce contenu s’applique aux utilisateurs de Campaign Classic v7 et de Campaign v8 :
 >
->* [Comprendre les échecs de diffusion](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} - Couvre les types d’échecs, les raisons des erreurs, les erreurs synchrones/asynchrones, la gestion des reprises et le dépannage
->* [Gestion des quarantaines](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} - Comprend la quarantaine par rapport à la place sur la liste bloquée, les seuils d’erreur soft, les rapports de quarantaine et la suppression d’adresses
+>* [Comprendre les échecs de diffusion](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} - Couvre les types d’échecs, les raisons des erreurs, les erreurs synchrones/asynchrones, la gestion des reprises et le dépannage
+>* [Gestion des quarantaines](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} - Comprend la quarantaine par rapport à la place sur la liste bloquée, les seuils d’erreur soft, les rapports de quarantaine et la suppression d’adresses
 >
 >Cette page présente la configuration spécifique à **Campaign Classic v7** pour la gestion des e-mails rebonds et des quarantaines dans les déploiements hybrides et on-premise.
 
 ## Comprendre les échecs de diffusion
 
-Pour connaître les concepts courants relatifs aux échecs de diffusion, les types d’erreur et les conseils de dépannage, reportez-vous à la documentation [Présentation des échecs de diffusion dans Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}.
+Pour connaître les concepts courants relatifs aux échecs de diffusion, les types d’erreur et les conseils de dépannage, reportez-vous à la documentation [Présentation des échecs de diffusion dans Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"}.
 
 ## Configuration des e-mails bounce {#bounce-mail-config}
 
@@ -127,7 +127,7 @@ Ces règles sont disponibles dans l’assistant de déploiement et peuvent être
 
 * **[!UICONTROL Limit]** : nombre maximal de messages autorisés par période.
 
-* **[!UICONTROL Type]** : type d’erreur (hard, soft ou ignoré) utilisé pour déterminer le comportement d’envoi. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} pour obtenir des définitions des types d’erreurs.
+* **[!UICONTROL Type]** : type d’erreur (hard, soft ou ignoré) utilisé pour déterminer le comportement d’envoi. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} pour obtenir des définitions des types d’erreurs.
 
 Pour plus d&#39;informations sur la gestion des MX, consultez [cette section](../../installation/using/email-deliverability.md#about-mx-rules).
 
@@ -137,7 +137,7 @@ Pour plus d&#39;informations sur la gestion des MX, consultez [cette section](..
 
 ## Gestion des quarantaines {#quarantine-management}
 
-Pour obtenir des conseils complets sur la gestion des quarantaines, consultez la documentation [Gestion des quarantaines de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"}.
+Pour obtenir des conseils complets sur la gestion des quarantaines, consultez la documentation [Gestion des quarantaines de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"}.
 
 ## Configuration de la quarantaine {#quarantine-config}
 
@@ -189,7 +189,7 @@ Pour Campaign Classic v7, les quarantaines des notifications push suivent le mé
 
 Pour les notifications push **iOS** et **Android**, le mécanisme de quarantaine utilise des jetons d’appareil plutôt que des adresses e-mail. Lorsqu&#39;une application mobile est désinstallée ou réinstallée, le jeton associé est mis en quarantaine.
 
-Pour plus d&#39;informations sur les scénarios de quarantaine des notifications push (types d&#39;erreur iOS et Android, comportement des reprises, etc.), reportez-vous à la documentation [Comprendre les échecs de diffusion](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} qui comprend des tableaux complets sur les types d&#39;erreur des notifications push.
+Pour plus d&#39;informations sur les scénarios de quarantaine des notifications push (types d&#39;erreur iOS et Android, comportement des reprises, etc.), reportez-vous à la documentation [Comprendre les échecs de diffusion](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} qui comprend des tableaux complets sur les types d&#39;erreur des notifications push.
 
 ### Spécifications de la quarantaine SMS {#sms-quarantine-specifics}
 
@@ -201,14 +201,14 @@ Le mécanisme de mise en quarantaine des SMS varie en fonction du connecteur uti
 
 * **Connecteur SMPP générique étendu** : la gestion des erreurs est traitée différemment à l&#39;aide d&#39;expressions régulières (regexes) pour analyser les messages de rapport de statut (SR) renvoyés par le fournisseur SMSC.
 
-Pour plus d’informations sur les scénarios de mise en quarantaine des SMS et les types d’erreur, reportez-vous à la documentation [Comprendre les échecs de diffusion](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} qui comprend des tables complètes de types d’erreur SMS.
+Pour plus d’informations sur les scénarios de mise en quarantaine des SMS et les types d’erreur, reportez-vous à la documentation [Comprendre les échecs de diffusion](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} qui comprend des tables complètes de types d’erreur SMS.
 
 ## Rubriques connexes
 
-* [Présentation des diffusions en échec](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (documentation de Campaign v8)
-* [Gestion des quarantaines](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (documentation de Campaign v8)
+* [Présentation des diffusions en échec](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (documentation de Campaign v8)
+* [Gestion des quarantaines](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (documentation de Campaign v8)
 * [&#x200B; Bonnes pratiques de diffusion &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} (documentation de Campaign v8)
-* [Statuts des diffusions](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} (documentation de Campaign v8)
+* [Statuts des diffusions](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} (documentation de Campaign v8)
 * [Workflow de nettoyage de la base de données](../../production/using/database-cleanup-workflow.md) (v7 hybride/on-premise)
 * [Configuration des reprises de diffusion](communication-channels.md) (v7 hybride/on-premise)
 * [Mettre à jour la qualification des bounces](update-bounce-qualification.md) (v7 hybride/on-premise)

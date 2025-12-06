@@ -79,8 +79,8 @@ Certains fournisseurs d&#39;accès Internet considèrent automatiquement les ema
 
 Voir à ce propos les sections suivantes :
 
-* [Comprendre les échecs de diffusion](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (documentation de Campaign v8 - guide complet)
-* [Comprendre la gestion des quarantaines](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (documentation de Campaign v8 - guide complet)
+* [Comprendre les échecs de diffusion](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (documentation de Campaign v8 - guide complet)
+* [Comprendre la gestion des quarantaines](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (documentation de Campaign v8 - guide complet)
 
 ### Utilisation des outils de surveillance et de reporting
 
