@@ -6,9 +6,9 @@ feature: API
 role: Developer
 exl-id: a392c55e-541a-40b1-a910-4a6dc79abd2d
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1796'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -44,9 +44,9 @@ Pour les colonnes et les conditions, vous pouvez utiliser des Query.
 
 Vous pouvez ainsi isoler le SQL sous-jacent. Le langage des requêtes est indépendant du moteur sous-jacent : certaines fonctions vont être re-mappées, ce qui peut générer de nombreux ordres SELECT SQL.
 
-Voir à ce sujet la section [Exemple sur la méthode &#39;ExecuteQuery&#39; du schéma &#39;xtk:queryDef&#39;](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-).
+Consultez à ce sujet la section [Exemple sur la méthode « ExecuteQuery » du schéma « xtk:queryDef »](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-).
 
-La méthode **ExecuteQuery** est présentée dans [ExecuteQuery (xtk:queryDef)](#executequery--xtk-querydef-)
+La méthode **ExecuteQuery** est présentée dans [ExecuteQuery (xtk:queryDef)](#executequery--xtk-querydef-).
 
 ### Write {#write}
 
@@ -54,15 +54,15 @@ Les commandes Write permettent d&#39;écrire des documents simples ou complexes,
 
 Les API transactionnelles permettent de gérer les réconciliations via la commande **updateOrInsert** : une même commande permet la création ou la mise à jour des données. Vous pouvez également paramétrer la fusion (**merge**) des modifications : ce mode de fonctionnement permet d&#39;autoriser la mise à jour partielle.
 
-La structure XML propose une vision logique des données et permet de s&#39;affranchir de la structure physique de la table SQL.
+La structure XML propose une vision logique des données et permet de s’affranchir de la structure physique de la table SQL.
 
 La méthode Write est présentée dans [Write / WriteCollection (xtk:session)](#write---writecollection--xtk-session-).
 
 ## ExecuteQuery (xtk:queryDef) {#executequery--xtk-querydef-}
 
-Cette méthode permet d&#39;effectuer des requêtes à partir de données associées à un schéma. Elle prend en paramètres une chaîne d&#39;authentification (nécéssité d&#39;être loggé) et un document XML décrivant la requête à soumettre. Le paramètre de retour est un document XML contenant le résultat de la requête au format du schéma sur lequel porte la requête.
+Cette méthode permet d’effectuer des requêtes à partir de données associées à un schéma. Elle prend en paramètres une chaîne d’authentification (connexion nécessaire) et un document XML décrivant la requête à soumettre. Le paramètre de renvoi est un document XML contenant le résultat de la requête au format du schéma sur lequel porte la requête.
 
-Définition de la méthode « ExecuteQuery » dans le schéma « xtk:queryDef » :
+Définition de la méthode « ExecuteQuery » dans le schéma « xtk:queryDef » :
 
 ```xml
 <method name="ExecuteQuery" const="true">
@@ -74,11 +74,11 @@ Définition de la méthode « ExecuteQuery » dans le schéma « xtk:queryDef »
 
 >[!NOTE]
 >
->Il s’agit d’une méthode « const ». Les paramètres d&#39;entrée sont inclus dans un document XML au format du schéma « xtk:queryDef ».
+>Il s’agit d’une méthode « const ». Les paramètres en entrée sont compris dans un document XML au format du schéma « xtk:queryDef ».
 
 ### Format du document XML de la requête en entrée {#format-of-the-xml-document-of-the-input-query}
 
-La structure du document XML de la requête est décrite dans le schéma « xtk:queryDef  ». Ce document décrit les clauses d&#39;une requête SQL : « select », « where », « order by », « group by », « having ».
+La structure du document XML de la requête est décrite dans le schéma « xtk:queryDef ». Ce document décrit les clauses d’une requête SQL : « select », « where », « order by », « group by », « having ».
 
 ```xml
 <queryDef schema="schema_key" operation="operation_type">
@@ -141,7 +141,7 @@ La syntaxe **XPath** sert à localiser les données en fonction du schéma de d�
 
 #### Exemple avec l&#39;opération &#39;get&#39; {#example-with-the--get--operation}
 
-Récupère le nom et le prénom d&#39;un destinataire (schéma « nms:recipient ») avec un filtre sur l&#39;email.
+Récupère le nom et le prénom d’une personne destinataire (schéma « nms:recipient ») avec un filtre sur l’e-mail.
 
 ```xml
 <queryDef schema="nms:recipient" operation="get">
@@ -306,7 +306,7 @@ Cette syntaxe simplifie la requête lorsque plus de deux données sont utilisée
   </where>
   ```
 
-  Pour récupérer les champs du dossier à partir du schéma « nms:recipient » :
+  Pour récupérer les champs du dossier à partir du schéma « nms:recipient » :
 
   ```xml
   <select>
@@ -389,9 +389,9 @@ Pour ne pas binder un paramètre, il faut renseigner l&#39;attribut &quot;noSqlB
 
 ### Format du document de sortie {#output-document-format}
 
-Le paramètre de retour est un document XML au format du schéma associé à la requête.
+Le paramètre de renvoi est un document XML au format du schéma associé à la requête.
 
-Exemple de retour à partir du schéma « nms:recipient » sur une opération « get » :
+Exemple de retour à partir du schéma « nms:recipient » sur une opération de type « get » :
 
 ```
 <recipient email="john.doe@adobe.com" lastName"Doe" firstName="John"/>
@@ -494,7 +494,7 @@ Ce document est complété par des instructions permettant de paramétrer les pr
 
 L&#39;appel ne retourne pas de données, hormis les erreurs.
 
-Définition des méthodes « Write » et « WriteCollection » dans le schéma « xtk:session » :
+Définition des méthodes « Write » et « WriteCollection » dans le schéma « xtk:session » :
 
 ```xml
 <method name="Write" static="true">
@@ -511,7 +511,7 @@ Définition des méthodes « Write » et « WriteCollection » dans le schéma �
 
 >[!NOTE]
 >
->Cette méthode est de type &quot;static&quot;, les paramètres en entrée sont compris dans un document XML au format du schéma à mettre à jour.
+>Cette méthode est de type « static », les paramètres en entrée sont compris dans un document XML au format du schéma à mettre à jour.
 
 ### Vue d’ensemble {#overview}
 
@@ -575,7 +575,7 @@ Associer le dossier sur un destinataire à partir de son nom interne (@name).
 
 Les attributs &quot;_key&quot; et &quot;_operation&quot; peuvent être renseignés sur un élément lié, le comportement sur cet élément est le même que sur l&#39;élément principal du schéma de départ.
 
-La définition de la clé de l&#39;entité principale (« nms:recipient ») est composée d&#39;un champ provenant d&#39;une table liée (élément `<folder>` schéma « xtk:folder ») et de l&#39;email.
+La définition de la clé de l’entité principale (« nms:recipient ») est composée d’un champ provenant d’une table liée (élément `<folder>` du schéma « xtk:folder ») et de l’e-mail.
 
 >[!NOTE]
 >
@@ -583,7 +583,7 @@ La définition de la clé de l&#39;entité principale (« nms:recipient ») est 
 
 #### Exemple 2 {#example-2}
 
-Mettre à jour la société (table liée de schéma « cus:company ») à partir d&#39;un destinataire :
+Mettre à jour la société (table liée de schéma « cus:company ») à partir d’une personne destinataire :
 
 ```xml
 <recipient _key="[folder/@name], @email" email="john.doe@adobe.net" lastName="Doe" firstName="John" xtkschema="nms:recipient">
@@ -591,9 +591,9 @@ Mettre à jour la société (table liée de schéma « cus:company ») à partir
 </recipient>
 ```
 
-#### Exemple 3 {#example-3}
+#### Exemple 3 {#example-3}
 
-Ajouter un destinataire dans un groupe avec la table de relation des groupes (« nms:rcpGrpRel ») :
+Ajouter une personne destinataire dans un groupe avec la table de relation des groupes (« nms:rcpGrpRel ») :
 
 ```xml
 <recipient _key="@email" email="martin.ledger@adobe.net" xtkschema="nms:recipient">
@@ -605,7 +605,7 @@ Ajouter un destinataire dans un groupe avec la table de relation des groupes («
 
 >[!NOTE]
 >
->La définition de la clé n&#39;est pas renseignée dans l&#39;élément `<rcpgroup>` car une clé implicite basée sur le nom du groupe est définie dans le schéma « nms:group ».
+>La définition de la clé n’est pas renseignée sur l’élément `<rcpgroup>`, car une clé implicite basée sur le nom du groupe est définie dans le schéma « nms:group ».
 
 ### Eléments de collections XML {#xml-collection-elements}
 

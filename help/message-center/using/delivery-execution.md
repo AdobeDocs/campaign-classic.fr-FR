@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: event-processing
 exl-id: 930c6395-0c00-40ee-a925-3e0cae67c55f
 source-git-commit: e60a8391416bc9899548971bddb61705467a80e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '244'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

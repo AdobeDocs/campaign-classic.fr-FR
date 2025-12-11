@@ -6,9 +6,9 @@ feature: Schema Extension
 role: Developer
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1012'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Pour une meilleure compréhension des tables intégrées de Campaign et de leur 
 
 ## Extension ou création de schémas {#extending-or-creating-schemas}
 
-Pour ajouter un champ, un index ou tout autre élément à l&#39;un des principaux schémas de données de Campaign, comme la table des destinataires (nms:recipient), vous devez étendre ce schéma. Voir à ce sujet la section [Extension d’un schéma](../../configuration/using/extending-a-schema.md).
+Pour ajouter un champ, un index ou tout autre élément à l’un des principaux schémas de données de Campaign, comme la table des personnes destinataires (nms:recipient), vous devez étendre ce schéma. Voir à ce sujet la section [Extension d’un schéma](../../configuration/using/extending-a-schema.md).
 
 Pour ajouter un nouveau type de données qui n&#39;existe pas par défaut dans Adobe Campaign (une table des contrats par exemple), vous pouvez directement créer un schéma personnalisé. Voir à ce sujet la section [Schémas de données](../../configuration/using/data-schemas.md).
 
@@ -177,7 +177,7 @@ Les liens sont déclarés dans le schéma qui contient la **clé étrangère** d
 
 Il existe trois types de cardinalité : 1-1, 1-N et N-N. C&#39;est le type d&#39;association 1-N qui est utilisé par défaut.
 
-### Exemples       {#examples-1}
+### Exemples {#examples-1}
 
 Exemple de relation 1-N entre la table des destinataires (schéma d&#39;usine) et une table des transactions personnalisée :
 

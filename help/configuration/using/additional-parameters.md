@@ -6,9 +6,9 @@ feature: Configuration, Instance Settings
 role: Developer
 exl-id: d14d94fd-b078-4893-be84-31d37a1d50f5
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '351'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ Votre plateforme Adobe Campaign propose en standard deux paramètres relatifs a
 * **amount** : représente le montant d&#39;une transaction,
 * **article** : représente le nombre d&#39;articles d&#39;une transaction.
 
-Ces paramètres sont définis dans le schéma **nms:webTrackingLog** et sont certains des indicateurs présentés dans les rapports.
+Ces paramètres sont définis dans le schéma **nms:webTrackingLog** et font partie des indicateurs visibles dans le reporting.
 
 Si vous souhaitez définir des paramètres supplémentaires, vous devrez étendre ce schéma.
 

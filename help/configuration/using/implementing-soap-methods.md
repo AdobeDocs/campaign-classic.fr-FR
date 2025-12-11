@@ -6,9 +6,9 @@ feature: Configuration
 role: Developer
 exl-id: 441a0e5c-fa7f-46c8-a65a-5cca4c846d43
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '417'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Ce nom correspond au nom (avec l&#39;espace de noms) de l&#39;entité de type &#
 
 Exemple:
 
-La méthode testLog(msg) est déclarée dans une extension nms:recipient
+La méthode testLog(msg) est déclarée dans une extension nms:recipient.
 
 ```
 <method name="testLog" static="true" library="cus:test">
@@ -51,7 +51,7 @@ La méthode testLog(msg) est déclarée dans une extension nms:recipient
 
 >[!NOTE]
 >
->L&#39;espace de noms et le nom utilisés pour la bibliothèque sont indépendants de l&#39;espace de noms et du nom du schéma dans lequel se trouve la déclaration.
+>L’espace de noms et le nom utilisés pour la bibliothèque sont indépendants de l’espace de noms et du nom du schéma dans lequel se trouve la déclaration.
 
 ### Définition {#definition}
 
@@ -73,7 +73,7 @@ Le nom de la fonction doit respecter le format suivant :
 
 Exemple:
 
-La fonction JavaScript suivante correspond à l&#39;implémentation de la méthode déclarée plus haut. Elle est définie dans l&#39;entité de type &#39;Code JavaScript&#39; par le nom &#39;cus:test&#39;.
+La fonction JavaScript suivante correspond à l&#39;implémentation de la méthode déclarée plus haut. Elle doit être définie dans l’entité de type « Code JavaScript » et de nom « cus:test ».
 
 ```
 function nms_recipient_testLog(message)

@@ -7,9 +7,9 @@ feature: Email Design
 role: User, Developer
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1457'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Un template JavaScript est identifié par son nom et son espace de noms de la m�
 
 ### Structure d&#39;un template JavaScript {#structure-of-a-javascript-template}
 
-Exemple de modèle de formatage JavaScript HTML de type « cus:book » :
+Exemple de modèle de mise en forme HTML JavaScript basé sur le schéma « cus:book » :
 
 ```
 <html>
@@ -191,7 +191,7 @@ Vous trouverez ci-dessous le paramétrage nécessaire à l&#39;implémentation d
 
 Les étapes de réalisation de cet exemple sont les suivantes :
 
-1. Créez le schéma suivant (ici : **neo:news**) :
+1. Créez le schéma suivant (ici : **neo:news**) :
 
    ```
    <srcSchema _cs="Invitation (neo)"   entitySchema="xtk:srcSchema" img="xtk:schema.png" label="Invitation" mappingType="sql" name="news" namespace="neo" xtkschema="xtk:srcSchema">
@@ -230,7 +230,7 @@ Les étapes de réalisation de cet exemple sont les suivantes :
    </srcSchema>
    ```
 
-1. Créez le formulaire lié **[!UICONTROL Gestion de contenu]** (**neo:news**)
+1. Créez le formulaire associé de type **[!UICONTROL Gestion de contenu]** (**neo:news**).
 
    ```
    <form _cs="News (neo)" entitySchema="xtk:form"  img="xtk:form.png" label="News"  name="news" namespace="neo" type="contentForm" xtkschema="xtk:form">
@@ -374,13 +374,13 @@ Cette transformation est elle-même décrite en XML dans un document appelé feu
 
 ### Identification d&#39;une feuille de style {#identifying-a-stylesheet}
 
-Une feuille de style est identifiée par son nom et son espace de noms de la même manière que les schémas et les formulaires. Il est cependant recommandé de compléter le nom de la feuille de style avec l&#39;extension **.xsl**.
+Une feuille de style est identifiée par son nom et son espace de noms de la même manière que les schémas et les formulaires. Il est cependant recommandé de compléter le nom de la feuille de style avec l’extension **.xsl**.
 
-La clé d&#39;identification d&#39;une feuille de style est une chaîne construite avec l&#39;espace de noms et le nom séparés par le caractère &#39;:&#39; (par exemple : **cus:book.xsl**.
+La clé d’identification d’une feuille de style est une chaîne construite avec l’espace de noms et le nom séparés par le caractère « : » (par exemple : **cus:book.xsl**).
 
-### Structure d&#39;une feuille de style {#structure-of-a-stylesheet}
+### Structure d’une feuille de style {#structure-of-a-stylesheet}
 
-Exemple de feuille de style de formatage HTML reposant sur le schéma d&#39;exemple « cus:book » :
+Exemple de feuille de style de mise en forme HTML basé sur l’exemple de schéma « cus:book » :
 
 ```
 <?xml version="1.0" encoding="ISO-8859-1" ?>
@@ -442,13 +442,13 @@ Les instructions suivantes décrivent le paramétrage de la feuille de style pou
 </xsl:template>
 ```
 
-Par défaut, le processeur XSLT recherche le **template** s&#39;appliquant au noeud racine ou principal du document XML en entrée. La construction du document de sortie commence à partir de ce **template**.
+Par défaut, le processeur XSLT recherche le **template** s&#39;appliquant au noeud racine ou principal du document XML en entrée. La construction du document de sortie commence à partir de ce **modèle**.
 
-Dans notre exemple, une page HTML est générée à partir du schéma « cus:book » en affichant le nom du livre et la liste des chapitres.
+Dans notre exemple, une page HTML est générée à partir du schéma « cus:book » en affichant le nom du livre et la liste des chapitres.
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur le langage XSLT, reportez-vous à une documentation de référence.
+>Pour plus d’informations sur le langage XSLT, reportez-vous à une documentation de référence en la matière.
 
 ### Afficher du HTML/XML {#displaying-html-xml}
 

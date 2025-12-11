@@ -6,13 +6,13 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Deliverability
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '461'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Mettre à jour les erreurs hard incorrectes après une panne d’Apple {#update-bounce-qualification.md}
+# Mettre à jour les rebonds définitifs incorrects après une panne d’Apple {#update-bounce-qualification.md}
 
 ## Contexte
 

@@ -8,7 +8,7 @@ hide: true
 hidefromtoc: true
 exl-id: 7a9afe0a-0219-40f1-9fe2-6374db8d555c
 source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '501'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ Notez que si des rebonds de report affichant le message « 452 action demandée
 
 >[!NOTE]
 >
->Vous pouvez vérifier le tableau de bord d&#39;état du système Apple sur [cette page](https://www.apple.com/fr/support/systemstatus/){_blank}.
+>Vous pouvez vérifier le tableau de bord d’état du système Apple sur [cette page](https://www.apple.com/fr/support/systemstatus/){_blank}.
 >
 >Vous pouvez vérifier le tableau de bord d’état de Google Workspace sur [cette page](https://www.google.com/appsstatus#hl=fr&v=status){_blank}.
 >

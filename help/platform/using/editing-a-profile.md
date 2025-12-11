@@ -10,7 +10,7 @@ exl-id: 0f3a5582-5c90-4393-bee8-d9e2f07e5982
 hide: true
 hidefromtoc: true
 source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '119'
 ht-degree: 100%
 
@@ -107,6 +107,6 @@ The list is configurable, and usually contains: the URL clicked, date and time o
 
 >[!NOTE]
 >
->For more on tracking functionality, please refer to [this page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}.
+>For more on tracking functionality, please refer to [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}.
 
 -->

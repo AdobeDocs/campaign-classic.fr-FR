@@ -6,15 +6,15 @@ feature: Custom Resources
 role: Developer
 exl-id: 5745fc60-9df3-4ad0-bbeb-f6ae8c86a5aa
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '89'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
 # Référence des schémas {#schema-reference}
 
-Lors de la modification d&#39;un schéma, un système de validation basé sur le schéma source (xtk:srcSchema) est disponible. Certaines erreurs peuvent également être repérées lors de la mise à jour de la base de données via l’assistant « Mise à jour de la structure de la base de données... ».
+Durant l’édition d’un schéma, un système de validation basé sur le schéma source (xtk:srcSchema) est accessible. Certaines erreurs peuvent également être repérées lors de la mise à jour de la base de données via l’assistant « Mise à jour de la structure de la base de données... ».
 
 Par défaut dans les schémas Adobe Campaign, tous les attributs de type booléen sont « false ». Pour les activer, il faut donc spécifier l’attribut dans le schéma et définir sa valeur sur « true ».
 

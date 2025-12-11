@@ -1,28 +1,28 @@
 ---
 product: campaign
 title: FAQ sur la mise à niveau de build
-description: Questions courantes relatives aux mises à niveau des builds de Campaign Classic v7
+description: Questions courantes relatives aux mises à niveau de build Campaign Classic v7
 feature: Upgrade, Troubleshooting
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
 source-git-commit: 295e3596d9291cbcc55e2d264309141526c3806b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2069'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# FAQ sur la mise à niveau des builds {#build-upgrade-faq}
+# Questions fréquentes sur la mise à niveau des builds {#build-upgrade-faq}
 
-Cette FAQ aborde les questions relatives aux mises à niveau des builds de Campaign Classic v7, en particulier pour les déploiements on-premise et hybrides.
+Cette FAQ aborde les questions relatives aux mises à niveau des builds de Campaign Classic v7, en particulier pour les déploiements on-premise et hybrides.
 
 >[!NOTE]
 >
->Pour obtenir des réponses complètes aux questions courantes de Campaign sur les workflows, les diffusions, les audiences, etc., reportez-vous à la section [FAQ complète de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html){target="_blank"}.
+>Pour obtenir des réponses complètes aux questions courantes de Campaign sur les workflows, les diffusions, les audiences, etc., reportez-vous à la section [Questions fréquentes complètes sur Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html?lang=fr){target="_blank"}.
 
-Adobe Campaign fait l&#39;objet de mises à jour régulières. Si vous connaissez les [notes de mise à jour](../../rn/using/rn-overview.md) que nous publions, vous savez probablement déjà que nous proposons en moyenne deux à trois versions mineures par an contenant de nouvelles fonctionnalités, des améliorations et des correctifs. En outre, nous publions périodiquement des builds avec des correctifs cumulatifs uniquement. Cette cadence régulière de mises à jour vise à vous proposer les fonctionnalités les plus appropriées et les plus récentes, en préservant la sécurité de votre environnement et en améliorant votre expérience avec notre produit.
+Adobe Campaign fait l’objet de mises à jour régulières. Si vous connaissez les [notes de mise à jour](../../rn/using/rn-overview.md) que nous publions, vous savez probablement déjà que nous proposons en moyenne deux à trois versions mineures par an contenant de nouvelles fonctionnalités, des améliorations et des correctifs. En outre, nous publions périodiquement des builds avec des correctifs cumulatifs uniquement. Cette cadence régulière de mises à jour vise à vous proposer les fonctionnalités les plus appropriées et les plus récentes, en préservant la sécurité de votre environnement et en améliorant votre expérience avec notre produit.
 
 C&#39;est pourquoi il est essentiel que nos clients exécutent la version la plus récente d&#39;Adobe Campaign. Nous pouvons ainsi vous aider plus efficacement si vous rencontrez des problèmes ; l&#39;identification, la reproduction et la résolution d&#39;un problème sur un ancien build prend généralement plus de temps, sans compter que vos éventuels problèmes peuvent avoir été corrigés dans un build récent.
 
@@ -216,6 +216,6 @@ du contenu est présent et s&#39;affiche.
 **Voir aussi**
 
 * [Réalisation d’une mise à niveau de build](../../production/using/build-upgrade.md)
-* [Notes de mise à jour de Campaign Classic &#x200B;](../../rn/using/rn-overview.md)
+* [Notes de mise à jour de Campaign Classic ](../../rn/using/rn-overview.md)
 * [Options d&#39;aide et de support pour Campaign Classic](../../support.md)
 * [Programme de mise à niveau annuelle](../../rn/using/rn-overview.md#yearly-upgrade)

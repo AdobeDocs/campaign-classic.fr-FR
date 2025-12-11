@@ -6,9 +6,9 @@ feature: Instance Settings
 role: Developer
 exl-id: b0f30c1f-cdc9-4ad2-8a6c-19d5aae4feb3
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '681'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ Ce mode est le plus coûteux en calcul comme en volume.
 
 >[!NOTE]
 >
->Si le package **[!UICONTROL Leads]** est installé, vous devez effectuer la même opération pour la table d’activité (**crm:incomingLead**)
+>Si le package **[!UICONTROL Leads]** est installé, vous devez faire de même pour la table des activités (**crm:incomingLead**).
 
 Le schéma suivant regroupe les différentes fonctionnalités des trois modes de tracking Web:
 

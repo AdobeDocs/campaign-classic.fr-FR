@@ -7,9 +7,9 @@ role: Developer
 level: Intermediate, Experienced
 exl-id: f36a1b01-a002-4a21-9255-ea78b5f173fe
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '368'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Un schéma de données est identifié par son nom et son espace de noms.
 
 Un espace de noms vous permet de regrouper un ensemble de schémas par domaine d’intérêt. Par exemple, l’espace de noms **cus** est utilisé pour la configuration spécifique aux clientes et clients (**clients**).
 
-La clé d&#39;identification d&#39;un schéma est une chaîne construite avec l&#39;espace de noms et le nom séparés par le caractère &#39;:&#39; (par exemple : **cus:recipient**.
+La clé d’identification d’un schéma est une chaîne construite avec l’espace de noms et le nom séparés par le caractère « : » (par exemple : **cus:recipient**).
 
 >[!IMPORTANT]
 >

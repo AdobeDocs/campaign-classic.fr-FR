@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: connectors
 exl-id: 3d43010e-53f8-4aa2-a651-c422a02191fe
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '932'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Tout d&#39;abord, afin qu&#39;un utilisateur puisse effectuer des opérations su
 
 1. Sélectionnez le noeud **[!UICONTROL Administration > Gestion des accès > Droits nommés]** de l&#39;explorateur Adobe Campaign.
 1. Créez un nouveau droit en indiquant le libellé de votre choix.
-1. Le champ **[!UICONTROL Name]** doit être de la forme suivante **user:base@server**, où :
+1. Le champ **[!UICONTROL Nom]** doit utiliser le format suivant : **user:base@server**, où on retrouver les éléments suivants :
 
    * **user** correspond au nom de l&#39;utilisateur sur la base de données externe.
    * **base** correspond au nom de la base de données externe.
@@ -30,7 +30,7 @@ Tout d&#39;abord, afin qu&#39;un utilisateur puisse effectuer des opérations su
 
      >[!NOTE]
      >
-     >La partie **:base** est facultative dans Oracle.
+     >La partie **:base** est optionnelle sur Oracle.
 
 1. Enregistrez le droit nommé puis associez-le à l&#39;utilisateur de votre choix à partir du noeud **[!UICONTROL Administration > Gestion des accès > Opérateurs]** de l&#39;explorateur Adobe Campaign.
 

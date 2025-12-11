@@ -1,15 +1,15 @@
 ---
 product: campaign
-title: Structure d'un formulaire
-description: Structure d'un formulaire
+title: Structure de formulaire
+description: Structure de formulaire
 feature: Application Settings
 role: Developer
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: e61f2b63-06d3-4b8c-867f-1c729176d2da
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2412'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 
 
-La description d&#39;un formulaire est un document XML structuré respectant la grammaire du schéma de formulaire **xtk:form**.
+La description d’un formulaire est un document XML structuré respectant la grammaire du schéma des formes **xtk:form**.
 
 Le document XML du formulaire de saisie doit contenir l’élément racine `<form>` avec les attributs **nom** et **espace de noms** pour renseigner le nom et l’espace de noms du formulaire.
 
@@ -27,7 +27,7 @@ Le document XML du formulaire de saisie doit contenir l’élément racine `<for
 </form>
 ```
 
-Par défaut, un formulaire est associé au schéma de données possédant un nom et un espace de noms identiques. Pour associer un formulaire avec un nom différent, définissez l&#39;attribut **entity-schema** de l&#39;élément `<form>` sur le nom de la clé de schéma. Pour illustrer la structure d&#39;un formulaire de saisie, nous allons décrire une interface à partir du schéma d&#39;exemple « cus:recipient » :
+Par défaut, un formulaire est associé au schéma de données possédant un nom et un espace de noms identiques. Pour associer un formulaire avec un nom différent, définissez l&#39;attribut **entity-schema** de l&#39;élément `<form>` sur le nom de la clé de schéma. Pour illustrer la structure d’un formulaire de saisie, nous allons décrire une interface à partir du schéma d’exemple « cus:recipient » :
 
 ```xml
 <srcSchema name="recipient" namespace="cus">
@@ -211,9 +211,9 @@ Ce conteneur affiche une barre d&#39;icônes verticale permettant de sélectionn
 
 Le conteneur principal est défini par l’attribut **type=&quot;iconbox&quot;**. Les pages associées aux icônes sont déclarées dans les conteneurs enfants. Le libellé des icônes est renseigné à partir de l’attribut **label**.
 
-L&#39;icône d&#39;une page est renseignée à partir de l&#39;attribut `img="<image>"` , où `<image>` correspond au nom de l&#39;image correspondant à sa clé construite avec le nom et l&#39;espace de noms (par exemple « xtk:properties.png »).
+L’icône d’une page est renseignée à partir de l’attribut `img="<image>"`, où `<image>` est le nom de l’image correspondant à sa clé construite avec le nom et l’espace de noms (par exemple « xtk:properties.png »).
 
-Les images sont disponibles à partir du nœud **[!UICONTROL Administration > Paramétrage > Images]**.
+Les images sont disponibles à partir du nœud **[!UICONTROL Administration > Configuration > Images]**.
 
 #### Conteneur de visibilité {#visibility-container}
 
@@ -277,7 +277,7 @@ L&#39;icône **[!UICONTROL Modifier le lien]** (dossier) lance une forme de sél
 
 ![](assets/d_ncs_integration_form_exemple10.png)
 
-L’icône **[!UICONTROL Modifier le lien]** (loupe) lance le formulaire d’édition de l’élément lié. Le formulaire utilisé est déduit par défaut de la clé du schéma ciblé. L&#39;attribut **form** permet de forcer le nom du formulaire d&#39;édition (par exemple « cus:company2 »).
+L’icône **[!UICONTROL Modifier le lien]** (loupe) lance le formulaire d’édition de l’élément lié. Le formulaire utilisé est déduit par défaut de la clé du schéma ciblé. L’attribut **form** permet d’imposer le nom du formulaire d’édition (par exemple, « cus:company2 »).
 
 Vous pouvez restreindre le choix des éléments de la cible en ajoutant l’élément **`<sysfilter>`** à partir de la définition du lien dans le formulaire de saisie :
 
@@ -378,7 +378,7 @@ Exemple de table de relation dans un schéma :
 </srcSchema>
 ```
 
-Dans notre exemple, nous commençons avec le formulaire de saisie du schéma « cus:recipient ». La liste doit afficher les associations avec les abonnements aux services et permettre d&#39;ajouter un abonnement en sélectionnant un service déjà existant.
+Pour notre exemple, nous partirons du formulaire de saisie du schéma « cus:recipient ». La liste doit afficher les associations avec les abonnements aux services et permettre d’ajouter un abonnement en sélectionnant un service déjà existant.
 
 ![](assets/d_ncs_integration_form_exemple12.png)
 

@@ -7,9 +7,9 @@ role: Developer
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: 0d22b0bc-8fbc-4269-af9e-cee27e29bb27
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '70'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -21,4 +21,4 @@ Un formulaire de saisie permet l&#39;édition d&#39;une instance associée à un
 
 Le formulaire est identifié par ses nom et espace de noms.
 
-La clé d&#39;identification d&#39;un formulaire correspond à une chaîne construite avec l&#39;espace de noms et le nom séparés par le caractère &#39;:&#39; (exemple « cus:contact »).
+La clé d’identification d’un formulaire est une chaîne construite avec l’espace de nommage et le nom séparés par le caractère « : » (par exemple : « cus:contact »).

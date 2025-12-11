@@ -10,9 +10,9 @@ topic-tags: additional-configurations
 hidefromtoc: true
 exl-id: 47f50bf5-4d5b-4c07-af71-de4390177cf5
 source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '832'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -80,7 +80,7 @@ Le mode personnalisé est destiné aux clients avancés qui souhaitent définir 
 
 ## Exemples de rebonds
 
-* **Utilisateur inconnu** (hard bounce) : 550 5.1.1 ... L’utilisateur est inconnu {mx003}
+* **Utilisateur inconnu ou utilisatrice inconnue** (rebond définitif) : 550 5.1.1 … L’utilisateur est inconnu ou l’utilisatrice est inconnue. {mx003}
 * **Boîte pleine** (rebond temporaire) : 550 5.2.2 Dépassement du quota d’utilisateurs
 * **Boîte aux lettres inactive** (rebond temporaire) : 550 5.7.1 : adresse du destinataire refusée : boîte aux lettres inactive, non affichée pendant plus de 6 mois
 * **Domaine non valide** (rebond temporaire) : échec de la requête DNS pour ’ourdan.com’

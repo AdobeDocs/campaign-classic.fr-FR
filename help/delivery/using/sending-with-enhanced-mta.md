@@ -6,9 +6,9 @@ feature: Email
 role: User, Admin, Developer
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
 source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1408'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -140,9 +140,9 @@ Pour en savoir plus sur la signature DKIM, consultez le [Guide des bonnes pratiq
 
 ### Rapports de réussite de diffusion
 
-Dans la vue **[!UICONTROL Résumé]** d’une diffusion par e-mail [tableau de bord](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}, le pourcentage **[!UICONTROL Succès]** commence à 100 %, puis diminue progressivement tout au long de la diffusion [période de validité](communication-channels.md), à mesure que les soft et hard bounces sont signalés depuis le MTA amélioré vers Campaign.
+Dans la vue **[!UICONTROL Résumé]** du [tableau de bord](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} d’une diffusion par e-mail, le pourcentage **[!UICONTROL Succès]** débute à 100 %, puis diminue progressivement tout au long de la [période de validité](communication-channels.md) de la diffusion, à mesure que les rebonds temporaires et définitifs font l’objet de rapports du MTA amélioré vers Campaign.
 
-En effet, tous les messages s&#39;affichent sous la forme **[!UICONTROL Envoyés]** dans les [logs d&#39;envoi](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"} dès qu&#39;ils sont relayés avec succès de Campaign vers le MTA amélioré. Ils conservent ce statut jusqu’à ce qu’un [bounce](delivery-failures-quarantine.md#delivery-failure-types-and-reasons) de ce message soit renvoyé du MTA amélioré à Campaign.
+En effet, tous les messages s’affichent comme **[!UICONTROL Envoyés]** dans les [logs d’envoi](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"} dès qu’ils sont correctement relayés de Campaign vers le MTA amélioré. Ils restent dans cet état à moins ou jusqu’à ce qu’un [rebond](delivery-failures-quarantine.md#delivery-failure-types-and-reasons) pour ce message soit communiqué de nouveau du MTA amélioré à Campaign.
 
 Lorsque les messages hard bounce sont renvoyés du MTA amélioré, leur état passe de **[!UICONTROL Envoyés]** à **[!UICONTROL En échec]** et le pourcentage **[!UICONTROL Succès]** diminue en conséquence.
 
@@ -161,5 +161,5 @@ Le tableau ci-dessous présente les différentes étapes du processus d’envoi 
 | Le message est relayé avec succès de Campaign vers le MTA amélioré | Le pourcentage **[!UICONTROL Succès]** commence à 100 % | Envoyés |
 | Les messages hard bounce sont renvoyés du MTA amélioré. | Le pourcentage **[!UICONTROL Succès]** diminue en conséquence. | En échec |
 | Les messages soft bounce sont renvoyés du MTA amélioré. | Aucun changement du pourcentage **[!UICONTROL Succès]**. | Envoyés |
-| Les reprises des messages soft bounce sont effectuées avec succès | Aucune modification du pourcentage **[!UICONTROL Succès]** \|  Le pourcentage **[!UICONTROL Succès]** augmente en conséquence | Envoyés |
+| Les reprises des messages soft bounce sont effectuées avec succès | Aucune modification du pourcentage **[!UICONTROL Succès]** \| Le pourcentage **[!UICONTROL Succès]** augmente en conséquence. | Envoyés |
 | Échec des reprises des messages soft bounce | Le pourcentage **[!UICONTROL Succès]** diminue en conséquence. | En échec |

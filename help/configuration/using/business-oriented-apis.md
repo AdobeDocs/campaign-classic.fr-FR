@@ -6,9 +6,9 @@ feature: API
 role: Developer
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '618'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Les API métier sont spécifiques à chaque type d&#39;objet. Elles agissent sur
 
 * Diffusions :
 
-   * Lors de la création d&#39;une diffusion, voir [SubmitDelivery (nms:delivery)](#submitdelivery--nms-delivery-)
+   * créer une action de diffusion, voir la section [SubmitDelivery (nms:delivery)](#submitdelivery--nms-delivery-),
    * envoyer une campagne (démarrer, mettre en pause, arrêter, envoyer un BAT),
    * récupérer les logs de diffusion.
 
@@ -30,7 +30,7 @@ Les API métier sont spécifiques à chaque type d&#39;objet. Elles agissent sur
      Pour plus d&#39;informations, consultez la section [Méthodes SOAP en JavaScript](../../configuration/using/soap-methods-in-javascript.md).
 
 * Gestion de contenu
-* La gestion des abonnements, consultez les sections [S’abonner (nms:subscription)](#subscribe--nms-subscription-) et [Se désabonner (nms:subscription)](#unsubscribe--nms-subscription-).
+* Gestion des abonnements, consultez les sections [S’abonner (nms:subscription)](#subscribe--nms-subscription-) et [Se désabonner (nms:subscription)](#unsubscribe--nms-subscription-).
 * Les traitements sur les données : imports, exports.
 
 Cette section montre comment utiliser les services &quot;Subscribe&quot;, &quot;Unsubscribe&quot; et &quot;SubmitDelivery&quot;.
@@ -47,10 +47,10 @@ L&#39;invocation du service nécessite les paramètres suivants :
 
 * une authentification,
 * le nom interne du service d&#39;abonnement,
-* un document XML contenant les informations du destinataire (du schéma « nms:recipient »),
-* un booléen pour la création du destinataire s&#39;il n&#39;existe déjà pas.
+* un document XML contenant les informations de la personne destinataire (de schéma « nms:recipient »),
+* un booléen pour la création de la personne destinataire si elle n’existe pas déjà.
 
-Description de la méthode « subscribe » dans le schéma « nms:subscription » :
+Description de la méthode « subscribe » dans le schéma « nms:subscription » :
 
 ```
 <method name="Subscribe" static="true">
@@ -62,11 +62,11 @@ Description de la méthode « subscribe » dans le schéma « nms:subscription �
 </method>
 ```
 
-La définition de la clé de réconciliation doit être renseignée via l’attribut _&#x200B;**key** sur l’élément `<recipient>` du document XML. Le contenu de cet attribut est une liste XPath séparée par des virgules.
+La définition de la clé de réconciliation doit être renseignée via l’attribut _**key** sur l’élément `<recipient>` du document XML. Le contenu de cet attribut est une liste XPath séparée par des virgules.
 
-Cet appel ne retourne pas de données, hormis les erreurs.
+Cet appel ne renvoie pas de données, hormis les erreurs.
 
-### Exemples      {#examples}
+### Exemples {#examples}
 
 Abonnement avec clé de réconciliation du destinataire sur l’adresse e-mail : le document XML en entrée doit référencer l’adresse e-mail et la définition de la clé sur ce champ.
 
@@ -112,7 +112,7 @@ Mise à jour du destinataire en plus de son abonnement.
   </SOAP-ENV:Envelope>
   ```
 
-## Unsubscribe (nms:subscription) {#unsubscribe--nms-subscription-}
+## Se désabonner (nms:subscription) {#unsubscribe--nms-subscription-}
 
 Ce service permet de désinscrire un destinataire à un service d&#39;information et de mettre à jour son profil.
 
@@ -120,9 +120,9 @@ L&#39;invocation du service nécessite les paramètres suivants :
 
 * une authentification,
 * le nom interne du service à désabonner,
-* un document XML contenant les informations du destinataire (du schéma « nms:recipient »),
+* un document XML contenant les informations de la personne destinataire (de schéma « nms:recipient »),
 
-Description de la méthode « Unsubscribe » dans le schéma « nms:subscription » :
+Description de la méthode « Unsubscribe » dans le schéma « nms:subscription » :
 
 ```
 <method name="Unsubscribe" static="true">
@@ -141,7 +141,7 @@ Si le destinataire n&#39;est pas présent dans la base de données, ou bien s&#3
 >
 >Si le nom du service n&#39;est pas précisé en paramètre, alors le destinataire est automatiquement placé sur la liste bloquée (@blackList=&quot;1&quot;).
 
-Cet appel ne retourne pas de données, hormis les erreurs.
+Cet appel ne renvoie pas de données, hormis les erreurs.
 
 ### Exemple de messages SOAP {#example-of-soap-messages-1}
 
@@ -198,9 +198,9 @@ Description de la méthode dans son schéma :
 
 Un modèle de diffusion doit être créé à partir de la console cliente Adobe Campaign, il contient les paramètres communs à tous les envois (adresse de l&#39;expéditeur ou la durée de validité du message).
 
-Le document XML en entrée est un fragment de modèle de diffusion respectant la structure du schéma « nms:delivery ». Il contiendra toutes les données additionnelles qui n&#39;ont pas pu être définies de manière statique dans le modèle de diffusion (par exemple, la liste des destinataires à cibler).
+Le document XML en entrée est un fragment de modèle de diffusion respectant la structure du schéma « nms:delivery ». Il contiendra toutes les données additionnelles qui n’ont pas pu être définies de manière statique dans le modèle de diffusion (par exemple, la liste des personnes destinataires à cibler).
 
-Cet appel ne retourne pas de données, hormis les erreurs.
+Cet appel ne renvoie pas de données, hormis les erreurs.
 
 ### Exemple de document XML {#xml-document-example}
 

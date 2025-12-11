@@ -7,9 +7,9 @@ role: User, Developer
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '688'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Il est également recommandé de vérifier les valeurs par défaut utilisées da
 Par exemple :
 
 * Certains rapports standards, notamment ceux proposés pour **Interaction** et les **Applications mobiles**, doivent être redéveloppés. Pour plus d&#39;informations, consultez la section [Gestion des rapports](../../configuration/using/managing-reports.md).
-* Les configurations par défaut de certaines activités de workflow font référence au tableau des destinataires standard (**[!UICONTROL nms:recipient]**) : ces configurations doivent être modifiées lorsqu’elles sont utilisées pour un tableau des destinataires externe. Pour plus d&#39;informations, consultez la section [Gestion des workflows](../../configuration/using/managing-workflows.md).
+* Les configurations par défaut de certaines activités de workflow font référence à la table des personnes destinataires standard (**[!UICONTROL nms:recipient]**) : ces configurations doivent être modifiées dans le cadre de l’utilisation d’une table externe de personnes destinataires. Pour plus d&#39;informations, consultez la section [Gestion des workflows](../../configuration/using/managing-workflows.md).
 * Le bloc de personnalisation du **[!UICONTROL Lien de désinscription]** standard doit être adapté.
 * Le mapping de ciblage des modèles de diffusion standard doit être modifié.
 * Les formulaires v4 ne sont pas compatibles avec l‘utilisation d’une table de destinataires externe : vous devez utiliser les applications Web.

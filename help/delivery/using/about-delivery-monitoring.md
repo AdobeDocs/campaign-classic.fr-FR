@@ -6,9 +6,9 @@ feature: Monitoring, Deliverability
 role: User
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
 source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '835'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -16,15 +16,15 @@ ht-degree: 64%
 
 >[!IMPORTANT]
 >
->Cette page présente les fonctionnalités de surveillance spécifiques à Campaign Classic v7 **pour les déploiements hybrides et on-premise.**
+>Cette page présente les **fonctionnalités de surveillance spécifiques à Campaign Classic v7** pour les déploiements hybrides et on-premise.
 
 ## Fonctionnalités de surveillance
 
-### Suivre des diffusions {#monitoring-deliveries}
+### Surveillance des diffusions {#monitoring-deliveries}
 
-**Pour les déploiements hybrides/on-premise de Campaign Classic v7**, une surveillance supplémentaire est requise pour les ressources du serveur et la configuration du MTA (Mail Transfer Agent).
+**Pour les déploiements hybrides/on-premise de Campaign Classic v7**, une surveillance supplémentaire est requise pour les ressources du serveur et la configuration du MTA (Mail Transfer Agent).
 
-#### Résolution des problèmes liés aux diffusions en attente {#pending-deliveries}
+#### Dépanner les problèmes de diffusions en attente {#pending-deliveries}
 
 Que faire si les diffusions ne sont pas envoyées et restent dans un état **En attente** ?
 
@@ -36,7 +36,7 @@ Conseil : vérifiez la configuration relative à la gestion du trafic (affinit�
 
 >[!NOTE]
 >
->Ces étapes ne peuvent être effectuées que par un utilisateur expert sur les installations on-premise.
+>Ces étapes ne peuvent être effectuées que par un expert ou une experte des installations On-Premise.
 
 ### Surveillance de la délivrabilité {#deliverability-monitoring}
 
@@ -46,20 +46,20 @@ Cette fonctionnalité est disponible via un package dédié dans Adobe Campaign
 
 * Pour les clients hébergés et hybrides, la **supervision de la délivrabilité** est configurée sur votre instance par l&#39;assistance technique et les consultants d&#39;Adobe. Pour plus d&#39;informations, contactez votre chargé de compte Adobe.
 
-* Pour les installations on-premise, vous devez installer le package **[!UICONTROL Supervision de la délivrabilité (Email Deliverability)]** via le menu **[!UICONTROL Outils]** > **[!UICONTROL Avancé]** > **[!UICONTROL Import de package]**. Pour plus d&#39;informations, consultez la section [Installer des packages standard Campaign Classic](../../installation/using/installing-campaign-standard-packages.md).
+* Pour les installations on-premise, vous devez installer le package **[!UICONTROL Supervision de la délivrabilité (Email Deliverability)]** via le menu **[!UICONTROL Outils]** > **[!UICONTROL Avancé]** > **[!UICONTROL Import de package]**. Pour plus dʼinformations, consultez la section [Installation de packages standard Campaign Classic](../../installation/using/installing-campaign-standard-packages.md).
 
 #### Workflow de délivrabilité {#deliverability-workflow}
 
 Dans Adobe Campaign Classic, la **supervision de la délivrabilité** est gérée par le workflow **[!UICONTROL Mise à jour pour la délivrabilité]**. Il est installé par défaut sur toutes les instances et permet d’initialiser la liste des règles de qualification des e-mails rejetés, la liste des domaines et la liste des MX. Une fois le package **[!UICONTROL Supervision de la délivrabilité (Email Deliverability)]** installé, ce workflow s’exécute de nuit pour mettre à jour régulièrement la liste des règles et vous permettre de gérer activement la délivrabilité des plateformes.
 
-**Le package Délivrabilité vous donne accès à :**
+**Le package Délivrabilité vous donne accès à ce qui suit :**
 
 * [Rapport Inbox rendering](inbox-rendering.md), qui permet la prévisualisation de vos messages sur les principaux clients de messagerie afin d’analyser le contenu et la réputation.
 * Vue d’ensemble de la qualité des messages (boîte de réception, spam).
 
 #### Outils de surveillance {#monitoring-tools}
 
-**Pour les installations on-premise** vous pouvez utiliser les outils de surveillance suivants :
+**Pour les installations on-premise** vous pouvez utiliser les outils de surveillance suivants :
 
 * Rapport **[!UICONTROL Débit de diffusion]**, qui donne une vue d’ensemble du débit global de la plateforme pour une période donnée. Voir à ce propos [cette section](../../reporting/using/global-reports.md#delivery-throughput).
 * Chaque diffusion génère un rapport de statistiques de diffusion pour les différents fournisseurs d’accès à internet (FAI). Il présente certaines mesures de réputation et de qualité des données qui peuvent avoir un impact sur votre délivrabilité, notamment les chiffres suivants :
@@ -70,7 +70,7 @@ Dans Adobe Campaign Classic, la **supervision de la délivrabilité** est gér
 
 #### Instructions de surveillance {#monitoring-guidelines}
 
-**Pour les installations on-premise** voici quelques instructions supplémentaires pour le suivi de la délivrabilité :
+**Pour les installations on-premise**, voici quelques instructions supplémentaires pour le suivi de la délivrabilité :
 
 * Vérifiez régulièrement le [débit des diffusions](../../reporting/using/global-reports.md#delivery-throughput) pour l’ensemble de la plateforme afin de contrôler qu’il correspond à la configuration d’origine.
 * Vérifiez que les [reprises](delivery-failures-quarantine.md#retries-after-a-delivery-temporary-failure) sont paramétrées correctement (30 minutes pour la période des reprises et plus de 20 reprises) dans les modèles de diffusion.
@@ -82,44 +82,44 @@ Dans Adobe Campaign Classic, la **supervision de la délivrabilité** est gér
 
 ### Résolution des problèmes {#delivery-troubleshooting}
 
-Des actions spécifiques peuvent être effectuées lorsque vous rencontrez des problèmes avec les diffusions sur les **déploiements hybrides/on-premise** :
+Des actions spécifiques peuvent être effectuées lorsque vous rencontrez des problèmes avec les diffusions sur les **déploiements hybrides/on-premise** :
 
 * [Problèmes de délivrabilité](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [Problèmes liés à l&#39;affichage des images](../../production/using/image-display-issues.md)
 * [Problèmes de performances des diffusions](delivery-performance-troubleshooting.md)
 * [Problèmes de fichiers temporaires](../../production/using/temporary-files.md) - *clients On-premise uniquement*
 
-## Surveillance de vos diffusions
+## Surveiller vos diffusions
 
-Les ressources suivantes vous aideront à surveiller et à suivre les performances de vos diffusions dans Campaign Classic v7 :
+Les ressources suivantes vous aideront à surveiller et à suivre les performances de vos diffusions dans Campaign Classic v7 :
 
-### Accès au tableau de bord de la diffusion
+### Accéder au tableau de bord de diffusion
 
-Découvrez comment accéder aux listes de diffusion et utiliser le tableau de bord des diffusions pour surveiller votre activité d’envoi :
+Découvrez comment accéder aux listes de diffusion et utiliser le tableau de bord de diffusion pour surveiller votre activité d’envoi :
 
-* [Surveiller les diffusions dans l’interface utilisateur de Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} (la documentation de Campaign v8 s’applique aux versions 7 et 8)
-* [Statuts des diffusions](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} (documentation de Campaign v8)
-* [Avancé : personnalisation des logs de diffusion](customize-delivery-logs.md) (v7 hybride/on-premise uniquement - extension de schéma)
+* [Surveiller les diffusions dans l’interface d’utilisation de Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} (la documentation de Campaign v8 s’applique aux versions 7 et 8)
+* [Statuts de diffusion](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} (documentation de Campaign v8)
+* [Avancé : personnalisation des logs de diffusion](customize-delivery-logs.md) (v7 hybride/on-premise uniquement - extension de schéma)
 
-### Suivi des interactions des messages
+### Suivre les interactions des messages
 
-Suivez les ouvertures, les clics et les interactions des destinataires avec vos diffusions :
+Suivez les ouvertures, les clics et les interactions des personnes destinataires avec vos diffusions :
 
-* [Documentation sur le tracking des messages](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"} (documentation de Campaign v8 - s’applique aux versions 7 et 8)
-* [Configuration des liens trackés](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/tracking/tracked-links){target="_blank"} (documentation de Campaign v8)
+* [Documentation sur le suivi des messages](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"} (documentation de Campaign v8 - s’applique aux versions 7 et 8)
+* [Configurer les liens suivis](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/tracking/tracked-links){target="_blank"} (documentation de Campaign v8)
 * [Accéder aux logs de tracking](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/tracking/tracking-logs){target="_blank"} (documentation de Campaign v8)
 
-### Optimisation des performances de diffusion
+### Optimiser les performances de diffusion
 
-Bonnes pratiques et résolution des problèmes de performances de diffusion :
+Bonnes pratiques et résolution des problèmes de performances de diffusion :
 
-* [Bonnes pratiques de diffusion](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} (documentation de Campaign v8 - s’applique aux versions 7 et 8)
-* [Performances de diffusion et dépannage](delivery-performance-troubleshooting.md) (configurations hybrides v7/spécifiques à on-premise)
+* [Bonnes pratiques de diffusion](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} (documentation de Campaign v8 - s’applique aux versions 7 et 8)
+* [Performances de diffusion et dépannage](delivery-performance-troubleshooting.md) (configurations hybrides/on-premise spécifiques à la v7)
 
-### Présentation des échecs et des quarantaines
+### Comprendre les échecs et les quarantaines
 
-Gérez les diffusions en échec, les e-mails bounce et les adresses en quarantaine :
+Gérez les diffusions en échec, les rebonds d’e-mails et les adresses en quarantaine :
 
-* [Comprendre les échecs de diffusion](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (documentation de Campaign v8 - guide complet pour les versions 7 et 8)
-* [Gestion des quarantaines](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (documentation de Campaign v8 - guide complet pour les versions 7 et 8)
-* [Échecs de diffusion et configuration de la quarantaine](delivery-failures-quarantine.md) (configurations hybrides v7/spécifiques à on-premise)
+* [Comprendre les diffusions en échec](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (documentation de Campaign v8 - guide complet pour les versions 7 et 8)
+* [Gestion des quarantaines](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (documentation de Campaign v8 - guide complet pour les versions 7 et 8)
+* [Diffusions en échec et configuration de la quarantaine](delivery-failures-quarantine.md) (configurations hybrides/on-premise spécifiques à la v7)

@@ -7,9 +7,9 @@ feature: Seed Address
 role: User, Developer
 exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '447'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -26,17 +26,17 @@ Adobe Campaign permet également de créer des modèles dʼadresses de contrôl
 Pour créer des adresses de contrôle, procédez comme suit :
 
 1. Cliquez sur le bouton **[!UICONTROL Nouveau]** situé au-dessus de la liste des adresses de contrôle.
-1. Saisissez les données associées à l&#39;adresse dans les champs correspondants de l&#39;onglet **[!UICONTROL Destinataire]**. Les champs disponibles correspondent aux champs standards des profils des destinataires des diffusions (nms:recipient tableau) : nom, prénom, e-mail, etc.
+1. Saisissez les données associées à l&#39;adresse dans les champs correspondants de l&#39;onglet **[!UICONTROL Destinataire]**. Les champs disponibles correspondent aux champs standard dans les profils des personnes destinataires de la diffusion (table nms:recipient) : nom, prénom, e-mail, etc.
 
    >[!NOTE]
    >
-   >Le libellé de l&#39;adresse reprend automatiquement le nom et le prénom saisis.
+   >Le libellé de l’adresse reprend automatiquement le nom et le prénom saisis.
    >
    >Lors de la création d’une adresse de contrôle, il n’est pas nécessaire de renseigner tous les champs de chaque onglet. En effet, les éléments de personnalisation manquants sont renseignés de manière aléatoire lors de l’analyse de la diffusion.
 
    ![](assets/s_ncs_user_seedlist_new_address.png)
 
-1. Indiquez dans l’onglet **[!UICONTROL Champs de l’adresse]** les valeurs qui seront insérées dans les logs de diffusion lors de la phase d’analyse (dans la table **[!UICONTROL nms:broadLog]** ).
+1. Indiquez dans l’onglet **[!UICONTROL Champs de l’adresse]** les valeurs qui seront insérées dans les logs de diffusion lors de la phase d’analyse (dans la table **[!UICONTROL nms:broadLog]**).
 
 1. Dans l&#39;onglet **[!UICONTROL Données additionnelles]**, renseignez les données de personnalisation utilisées pour les diffusions créées dans les workflows Data management et auxquelles vous souhaitez affecter une valeur spécifique.
 

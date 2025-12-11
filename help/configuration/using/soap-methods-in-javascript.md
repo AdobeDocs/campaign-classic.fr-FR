@@ -6,9 +6,9 @@ description: Méthodes SOAP en JavaScript
 role: Developer
 exl-id: 62020447-fe59-4363-994d-de4d8032bbd7
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '134'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -18,9 +18,9 @@ Il s&#39;agit dans ce cas du JavaScript exécuté sur le serveur Adobe Campaign
 
 ## Méthodes statiques {#static-methods}
 
-L&#39;accès aux méthodes SOAPs statiques se fait par invocation d&#39;une méthode sur l&#39;objet représentant le schéma. Les schémas sont des propriétés des objets de type &#39;espace de noms&#39;. Ces espaces de noms sont des variables globales, ainsi par exemple, les variables xtk ou nms représentent les espaces de noms correspondants.
+L.accès aux méthodes SOAP statiques se fait par invocation d’une méthode sur l’objet représentant le schéma. Les schémas sont des propriétés des objets de type « espace de noms ». Ces espaces de noms sont des variables globales, ainsi par exemple, les variables xtk ou nms représentent les espaces de noms correspondants.
 
-L&#39;exemple suivant invoque la méthode statique PostEvent du schéma xtk:workflow :
+L’exemple suivant invoque la méthode statique PostEvent du schéma xtk:workflow :
 
 ```
 xtk.workflow.PostEvent("WKF1", "signal", "", $recipient-id='123', false) 
@@ -28,9 +28,9 @@ xtk.workflow.PostEvent("WKF1", "signal", "", $recipient-id='123', false)
 
 ## Méthodes non statiques {#non-static-methods}
 
-Pour utiliser les méthodes SOAPs non statiques, il faut d&#39;abord récupérer une entité en utilisant les méthodes &quot;get&quot; ou &quot;create&quot; sur les schémas correspondants.
+Pour utiliser les méthodes SOAP non statiques, il faut d’abord récupérer une entité en utilisant les méthodes « get » ou « create » sur les schémas correspondants.
 
-L&#39;exemple suivant invoque la méthode ExecuteQuery du schéma « xtk:queryDef » :
+L’exemple suivant invoque la méthode ExecuteQuery du schéma « xtk:queryDef » :
 
 ```
 var query = xtk.queryDef.create(

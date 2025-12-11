@@ -7,9 +7,9 @@ feature: Monitoring
 role: User, Developer
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '651'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Où :
 * **[!DNL object]** : nom de l’objet (exemple : diffusion, fournisseur, autre).
 L’objet peut être :
    * **[!DNL delivery]** : pour la diffusion en cours (voir les détails et les restrictions dans la sous-section ci-dessous).
-   * **[!DNL provider]** : pour le fournisseur/routage de diffusion actuel (nms:externalAccount).
+   * **[!DNL provider]** : pour le fournisseur/routage de diffusion actuel (nms:externalAccount).
    * Objet de script supplémentaire : si un objet est chargé dans le contexte via : **Propriétés** > **Personnalisation** > **Ajouter des objets dans le contexte d’exécution**.
    * Élément de la boucle foreach : voir la section [Foreach](#foreach) ci-dessous.
 * **[!DNL xpath]** : xpath du champ.
@@ -101,7 +101,7 @@ Pour la personnalisation de l’email, l’objet diffusion est accessible de deu
 
 **Attention**
 
-Si vous utilisez l&#39;instruction suivante pour des diffusions envoyées via mid-sourcing, le champ personnalisé **@myCustomField** doit être ajouté au schéma nms:delivery sur les plateformes de marketing et de mid-sourcing :
+Si vous utilisez les instructions suivantes pour les diffusions envoyées par midsourcing, le champ personnalisé **@myCustomField** doit être ajouté au schéma nms:delivery sur les plateformes marketing et de midsourcing :
 
 ```
 <%@ value object="delivery" xpath="@myCustomField" %>

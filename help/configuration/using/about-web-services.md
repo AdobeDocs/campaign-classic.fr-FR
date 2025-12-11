@@ -6,9 +6,9 @@ feature: API
 role: Developer
 exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '644'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -63,13 +63,13 @@ Le schéma suivant montre les différentes ressources interagissant dans l&#39;u
 
 ## Exemple de message SOAP sur la méthode &#39;ExecuteQuery&#39; {#example-of-a-soap-message-on-the--executequery--method--}
 
-Dans cet exemple, une requête SOAP invoque la méthode &quot;ExecuteQuery&quot; qui prend en paramètre une chaîne de caractères pour l&#39;authentification (token de session) et un contenu XML pour la description de la requête à exécuter.
+Dans cet exemple, une requête SOAP invoque la méthode « ExecuteQuery » qui prend comme paramètre une chaîne de caractères pour l’authentification (jeton de session) et un contenu XML pour la description de la requête à exécuter.
 
-Pour plus d’informations, consultez la section [ExecuteQuery (xtk:queryDef)](../../configuration/using/data-oriented-apis.md#executequery--xtk-querydef-).
+Pour plus d’informations, consultez [ExecuteQuery (xtk:queryDef)](../../configuration/using/data-oriented-apis.md#executequery--xtk-querydef-).
 
 >[!NOTE]
 >
->La description WSDL de ce service est renseignée dans l’exemple de la section [Description des services Web : WSDL](../../configuration/using/web-service-calls.md#web-service-description--wsdl).
+>La description WSDL de ce service est renseignée dans l’exemple de la section [Description des services web : WSDL](../../configuration/using/web-service-calls.md#web-service-description--wsdl).
 
 ### Requête SOAP {#soap-query}
 

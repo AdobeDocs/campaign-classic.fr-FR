@@ -7,9 +7,9 @@ role: Developer
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: 38333669-5598-4811-a121-b677c1413f56
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -30,11 +30,11 @@ Pour cela, les étapes sont les suivantes :
 
 1. Créez un nouveau schéma de données intégrant les champs de votre table personnalisée que vous voulez utiliser.
 
-   Pour plus d’informations, consultez la section [Référence du schéma (xtk:srcSchema)](../../configuration/using/about-schema-reference.md).
+   Pour plus d’informations, reportez-vous au chapitre [Référence des schémas (xtk:srcSchema)](../../configuration/using/about-schema-reference.md).
 
-   Dans notre exemple, nous allons créer un schéma client, une table très simple contenant les champs suivants : ID, prénom, nom, adresse e-mail, numéro de téléphone mobile. L’objectif est de pouvoir envoyer des alertes par e-mail ou SMS aux individus stockés dans cette table.
+   Dans notre exemple, nous allons créer un schéma clientèle, une table très simple contenant les champs suivants : ID, prénom, nom, adresse e-mail, numéro de téléphone mobile. L’objectif est de pouvoir envoyer des alertes par e-mail ou SMS aux personnes stockées dans cette table.
 
-   Exemple de schéma (cus:individual)
+   Schéma d’exemple (cus:individual)
 
    ```
    <srcSchema name="individual" namespace="cus" label="Individuals">
