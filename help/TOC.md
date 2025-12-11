@@ -2,8 +2,8 @@
 audience: end-user
 breadcrumb-title: Documentation de Campaign Classic v7
 product: campaign
-title: Guide de Campaign Classic v7
-user-guide-title: Guide de Campaign Classic v7
+title: Guide de Campaign Classic v7
+user-guide-title: Guide de Campaign Classic v7
 user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
@@ -39,7 +39,7 @@ ht-degree: 99%
    + [Énumérations - MASQUÉ](platform/using/managing-enumerations.md)
    + [Connecteurs Campaign](platform/using/about-connectors.md)
    + Questions fréquentes {#faq}
-      + [FAQ Campaign Classic](platform/using/faq-campaign-classic-v7.md)
+      + [Questions fréquentes sur Campaign Classic](platform/using/faq-campaign-classic-v7.md)
       + [Mise à niveau de build](platform/using/faq-build-upgrade.md)
    + [Glossaire - HIDDEN](platform/using/ac-glossary.md)
    + Confidentialité {#privacy}
@@ -133,7 +133,7 @@ ht-degree: 99%
    + [Envoi de messages LINE](delivery/using/line-channel.md)
    + [Envoyer des notifications push](delivery/using/about-mobile-app-channel.md)
    + Envoyer des notifications push {#sending-push-notifications}
-      + [&#x200B; Intégrer le SDK Campaign dans l’application mobile](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
+      + [ Intégrer le SDK Campaign dans l’application mobile](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
       + Configurer l’application mobile{#configure-the-mobile-app}
          + [Commencer avec la configuration de l’application - MASQUÉ](delivery/using/get-started-app-config.md)
          + [Étapes de configuration pour iOS - MASQUÉ](delivery/using/configuring-the-mobile-application.md)
@@ -185,11 +185,11 @@ ht-degree: 99%
       + [Gestion des abonnements](delivery/using/managing-subscriptions.md)
       + [Marketing viral et réseaux sociaux](delivery/using/viral-and-social-marketing.md)
    + Surveiller les diffusions {#monitoring-deliveries}
-      + [Surveillance des performances des diffusions](delivery/using/about-delivery-monitoring.md)
+      + [Surveiller les performances de diffusion](delivery/using/about-delivery-monitoring.md)
       + [Suivre les messages](delivery/using/about-message-tracking.md)
       + [Performances des diffusions et résolution des problèmes](delivery/using/delivery-performance-troubleshooting.md)
-      + [Échecs de diffusion et gestion des quarantaines](delivery/using/delivery-failures-quarantine.md)
-      + [Avancé : personnalisation des logs de diffusion](delivery/using/customize-delivery-logs.md)
+      + [Diffusions en échec et gestion des quarantaines](delivery/using/delivery-failures-quarantine.md)
+      + [Avancé : personnalisation des logs de diffusion](delivery/using/customize-delivery-logs.md)
    + Gestion de la délivrabilité {#deliverability-management}
       + [Qu’est-ce que la délivrabilité ?](delivery/using/about-deliverability.md)
       + [Contrôler le contenu du message](delivery/using/control-message-content.md)
@@ -246,7 +246,7 @@ ht-degree: 99%
    + [Cas d’utilisation - MASQUÉ](distributed/using/examples.md)
 + Gestion de la réaction {#response-manager}
    + [Prise en main de la gestion de la réaction](response/using/about-response-manager.md)
-   + [Configuration &#x200B;](response/using/configuration.md)
+   + [Configuration ](response/using/configuration.md)
    + [Modèles d&#39;hypothèse](response/using/hypothesis-templates.md)
    + [Création d’hypothèses](response/using/creating-hypotheses.md)
    + [Suivi des hypothèses](response/using/hypothesis-tracking.md)
@@ -647,7 +647,7 @@ ht-degree: 99%
       + [Points d’entrée réseau Campaign](installation/using/campaign-network-endpoints.md)
       + [Lignes de commande](installation/using/command-lines.md)
       + [Création d’instances](installation/using/creating-new-instances.md)
-      + [Liste des options de Campaign &#x200B;](installation/using/configuring-campaign-options.md)
+      + [Liste des options de Campaign ](installation/using/configuring-campaign-options.md)
       + [Désinstallation de Campaign](installation/using/uninstalling-campaign.md)
       + [Installation de nouvelles polices](installation/using/install-fonts.md)
 + Guide de surveillance {#monitoring-campaign-classic}
@@ -658,8 +658,8 @@ ht-degree: 99%
    + Procédures d’exploitation {#production-procedures}
       + [Principe de configuration](production/using/configuration-principle.md)
       + [Principe de fonctionnement](production/using/operating-principle.md)
-      + [Administration &#x200B;](production/using/administration.md)
-      + [Configuration &#x200B;](production/using/configuration.md)
+      + [Administration ](production/using/administration.md)
+      + [Configuration ](production/using/configuration.md)
       + [Fichiers de log](production/using/log-files.md)
       + [Surveillance des processus](production/using/monitoring-processes.md)
       + [Commandes usuelles](production/using/usual-commands.md)
@@ -679,7 +679,7 @@ ht-degree: 99%
       + [Recommandations](production/using/recommendations.md)
       + [Tables à maintenir](production/using/tables-to-maintain.md)
       + [Types de maintenance](production/using/types-of-maintenance.md)
-      + [Spécificités par SGBDR](production/using/rdbms-specific-recommendations.md)
+      + [Recommandations spécifiques au SGBDR](production/using/rdbms-specific-recommendations.md)
       + [Objets d&#39;application](production/using/application-objects.md)
    + Résolution des problèmes {#troubleshooting-toc}
       + [Vue d’ensemble de la résolution des problèmes de production](production/using/troubleshooting.md)
@@ -821,4 +821,4 @@ ht-degree: 99%
       + [Migration vers le cloud public](technotes/using/dc-migration.md)
       + [FAQ](technotes/using/dc-migration-faq.md)
    + [Fonctions basées sur GCM](technotes/using/gcm-functions.md)
-+ [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)
++ [Panneau de contrôle Campaign](https://experienceleague.adobe.com/fr/docs/control-panel/using/control-panel-home.html?lang=fr)

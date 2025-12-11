@@ -11,7 +11,7 @@ exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
 source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
 workflow-type: tm+mt
 source-wordcount: '6202'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -1010,7 +1010,7 @@ Learn more about [Total database storage](../../workflow/using/about-workflows.m
 
 Le workflow technique de tracking récupère les données de tracking une fois que la diffusion a été envoyée et que le tracking a été activé. Ces données figurent dans l’onglet Tracking de votre diffusion. Vous trouverez des informations sur les ouvertures et les clics sur un e-mail ou d’autres interactions avec un message reçu par le destinataire.
 
-En savoir plus sur [les logs de tracking dans Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/tracking-logs){target="_blank"}.
+En savoir plus sur [les logs de tracking dans Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/tracking-logs){target="_blank"}.
 +++
 
 +++**Messages transactionnels**

@@ -84,7 +84,7 @@ Certaines modifications importantes apportées au service Android FCM (Firebas
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
 <br/>
-<strong>Expérience client</strong><br/> <a href="workflow/using/about-workflows.md">Automatiser à l’aide des workflows</a> - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=fr" target="_blank">Campagne marketing</a> - <a href="interaction/using/interaction-and-offer-management.md">Interaction et gestion des offres</a> - <a href="delivery/using/about-personalization.md">Personnalisation</a> - <a href="reporting/using/about-adobe-campaign-reporting-tools.md">Reporting</a>
+<strong>Expérience clientèle</strong><br/><a href="workflow/using/about-workflows.md">Automatiser à l’aide des workflows</a> - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=fr" target="_blank">Campagne marketing</a> - <a href="interaction/using/interaction-and-offer-management.md">Interaction et gestion des offres</a> - <a href="delivery/using/about-personalization.md">Personnalisation</a> - <a href="reporting/using/about-adobe-campaign-reporting-tools.md">Reporting</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
@@ -113,4 +113,4 @@ Certaines modifications importantes apportées au service Android FCM (Firebas
 
 ## Autres ressources
 
-[Liste des messages d’erreur](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=fr) - [Description du produit Adobe Campaign](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Matrice de compatibilité](rn/using/compatibility-matrix.md) - [Tutoriels](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr){target="_blank"} - [Panneau de contrôle pour Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr){target="_blank"}
+[Liste des messages d’erreur](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=fr) - [Description du produit Adobe Campaign](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Matrice de compatibilité](rn/using/compatibility-matrix.md) - [Tutoriels](https://experienceleague.adobe.com/fr/docs/campaign-classic-learn/tutorials/overview.html?lang=fr){target="_blank"} - [Panneau de contrôle pour Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr){target="_blank"}

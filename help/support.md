@@ -9,7 +9,7 @@ exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
 source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,10 +38,10 @@ Obtenez de l’aide en utilisant nos FAQ, bonnes pratiques, ressources en ligne 
     <tr>
     <td valign="top">
         <ul>
-        <li><a href="platform/using/faq-campaign-classic-v7.md">FAQ sur Campaign Classic v7</a></li>
+        <li><a href="platform/using/faq-campaign-classic-v7.md">Questions fréquentes de Campaign Classic v7</a></li>
         <li><a href="platform/using/faq-build-upgrade.md">Mise à niveau de build</a></li>
-        <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html" target="_blank">FAQ complète sur Campaign v8</a></li>
-        <li><a href="delivery/using/about-delivery-monitoring.md">Suivre des diffusions</a></li>
+        <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html?lang=fr" target="_blank">Questions fréquentes complètes sur Campaign v8</a></li>
+        <li><a href="delivery/using/about-delivery-monitoring.md">Surveillance des diffusions</a></li>
         </ul>
     </td>
     <td valign="top">
@@ -132,7 +132,7 @@ Le nouveau système de gestion des tickets a été lancé via la console [Adobe�
 
 ### Consultation d’experts
 
-Rejoignez la communauté Campaign Classic : cherchez des réponses à une question existante ou posez votre question à la communauté. [Prenez part à la conversation](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=fr){_blank}.
+Rejoignez la communauté Campaign Classic : cherchez des réponses à une question existante ou posez votre question à la communauté. [Prenez part à la conversation](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}.
 
 ### Accès au Centre de téléchargement Campaign
 
