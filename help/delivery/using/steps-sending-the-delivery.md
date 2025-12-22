@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
 source-git-commit: 2e3a14c97706a873f0791ef83708d704d2eed6c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1629'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -199,4 +199,4 @@ Une fois la diffusion lancée, les messages (et les éventuelles reprises) peuve
 
 * **Limite de validité des ressources** : le champ **[!UICONTROL Limite de validité]** est utilisé pour les ressources téléchargées, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée (afin d&#39;économiser de l&#39;espace disque).
 
-  Les valeurs dans ce champ peuvent être exprimées dans les unités suivantes : **s** pour les secondes, **m** pour les minutes, **h** pour les heures, **d** pour les jours (par défaut), **y** pour les années.
+  Les valeurs dans ce champ peuvent être exprimées dans les unités suivantes : **s** pour les secondes, **m** pour les minutes, **h** pour les heures, **j** pour les jours (par défaut), **a** pour les années.

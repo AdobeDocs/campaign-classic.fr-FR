@@ -6,9 +6,9 @@ feature: Cross Channel Orchestration, Email, SMS, In App, Direct Mail, Push
 role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
 source-git-commit: 2e3a14c97706a873f0791ef83708d704d2eed6c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1011'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -120,7 +120,7 @@ Une fois la diffusion lancée, les messages (et les éventuelles reprises) peuve
 
 * **Limite de validité des ressources** : le champ **[!UICONTROL Limite de validité]** est utilisé pour les ressources téléchargées, principalement pour la page miroir et les images. Les ressources de cette page ont une durée de validité limitée (afin d&#39;économiser de l&#39;espace disque).
 
-  Les valeurs dans ce champ peuvent être exprimées dans les unités suivantes : **s** pour les secondes, **m** pour les minutes, **h** pour les heures, **d** pour les jours (par défaut), **y** pour les années.
+  Les valeurs dans ce champ peuvent être exprimées dans les unités suivantes : **s** pour les secondes, **m** pour les minutes, **h** pour les heures, **j** pour les jours (par défaut), **a** pour les années.
 
 +++
 
@@ -128,7 +128,7 @@ Une fois la diffusion lancée, les messages (et les éventuelles reprises) peuve
 
    Learn how to create a one-shot single delivery. You can create other types of deliveries to build your use cases. 
 
-For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}. 
+For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}. 
 
 >[!NOTE]
 >

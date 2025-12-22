@@ -4,9 +4,9 @@ product: campaign
 title: Documentation du produit Adobe Campaign Classic v7
 exl-id: 6b3f1689-80de-49fd-b7ee-7a2a1931d157
 source-git-commit: 7b3d34ddde08f0bfc8d35f4e17e9eef4eb640483
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '341'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ Certaines modifications importantes apportées au service Android FCM (Firebas
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Prise en main</strong><br/><a href="platform/using/adobe-campaign-workspace.md">Interface utilisateur</a> - <a href="platform/using/launching-adobe-campaign.md">Connexion à Campaign</a> - <a href="platform/using/get-started-data-import-export.md">Importer et exporter des données</a> - <a href="platform/using/access-management.md">Autorisations</a>
+      <strong>Commencer</strong><br/><a href="platform/using/adobe-campaign-workspace.md">Interface d’utilisation</a> - <a href="platform/using/launching-adobe-campaign.md">Se connecter à Campaign</a> - <a href="platform/using/get-started-data-import-export.md">Importer et exporter des données</a> - <a href="platform/using/access-management.md">Autorisations</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">

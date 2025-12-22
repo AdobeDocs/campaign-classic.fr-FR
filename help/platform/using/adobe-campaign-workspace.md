@@ -7,9 +7,9 @@ role: Developer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
 source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1185'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Une fois votre connexion à la base de données établie, vous accédez à la pa
 
 ![](assets/d_ncs_user_interface_home.png)
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; Découvrir l’espace de travail Campaign en vidéo](#video)
+![](assets/do-not-localize/how-to-video.png)[ Découvrir l’espace de travail Campaign en vidéo](#video)
 
 >[!NOTE]
 >
@@ -106,7 +106,7 @@ Par exemple, au niveau de la page des diffusions, utilisez le bouton **[!UICONTR
 
 ## Utilisation de l’explorateur Adobe Campaign {#using-adobe-campaign-explorer}
 
-L&#39;explorateur Adobe Campaign est accessible à partir de l&#39;icône de la barre d&#39;outils. Il permet d’accéder à l’ensemble des fonctionnalités d’Adobe Campaign, aux écrans de configuration et à une vue plus détaillée de certains éléments de la plateforme.
+L&#39;explorateur Adobe Campaign est accessible à partir de l’icône de la barre d&#39;outils. Il permet d’accéder à l’ensemble des fonctionnalités d’Adobe Campaign, aux écrans de paramétrage et à une vue plus détaillée de certains éléments de la plateforme.
 
 Pour en savoir plus sur l’explorateur d’Adobe Campaign, consultez les pages suivantes dans la **documentation de Campaign v8 (console)** :
 
@@ -114,10 +114,10 @@ Pour en savoir plus sur l’explorateur d’Adobe Campaign, consultez les pages
 
 * [Paramètres de l’interface d’utilisation de Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank}
 
-* [Gestion des dossiers et des vues dans l’explorateur](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}
+* [Gérer les dossiers et les vues dans l’explorateur](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}
 
 
-## Utilisation des données {#work-with-data}
+## Utiliser des données {#work-with-data}
 
 ### Filtrer des données {#filters}
 
@@ -125,7 +125,7 @@ Le filtrage des données consiste à réduire un jeu de données aux enregistrem
 
 Lorsque vous naviguez dans Campaign, les données sont affichées dans des listes. Vous pouvez appliquer des filtres intégrés pour accéder rapidement à un sous-ensemble défini, tel que des adresses en quarantaine, des personnes destinataires non ciblées ou des enregistrements avec une plage d’âge spécifique ou une date de création spécifique. Vous pouvez également créer des filtres personnalisés, les enregistrer pour une utilisation ultérieure ou les partager avec d’autres utilisateurs et utilisatrices de Campaign.
 
-Découvrez comment **accéder aux filtres, les concevoir et les partager** dans la documentation de [Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
+Découvrez comment **accéder aux filtres, les concevoir et les partager** dans la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
 
 ### Interrogation de la base de données{#about-queries-in-campaign}
 
@@ -165,7 +165,7 @@ Pour concevoir votre requête, vous devez sélectionner les conditions de filtra
 
 >[!ENDTABS]
 
-### Gestion des listes {#manage-and-customize-lists}
+### Gérer des listes {#manage-and-customize-lists}
 
 Dans la console cliente Campaign, les données sont affichées dans des listes. Vous pouvez adapter ces listes à vos besoins. Vous pouvez par exemple ajouter des colonnes, filtrer les données, comptabiliser les enregistrements, enregistrer et partager vos paramètres.
 
@@ -183,4 +183,4 @@ Découvrez comment **utiliser les énumérations** dans la [documentation d’Ad
 
 Cette vidéo présente l’espace de travail de Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/39530?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)

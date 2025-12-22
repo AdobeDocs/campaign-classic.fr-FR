@@ -8,9 +8,9 @@ hide: true
 hidefromtoc: true
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
 source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1580'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Dans l&#39;exemple ci-dessous, les langues seront réparties dans trois groupes�
 
 Vous pouvez utiliser un masque SQL pour regrouper plusieurs valeurs selon un filtre. Pour cela, cochez l&#39;option **[!UICONTROL Oui]** dans la colonne **[!UICONTROL Utiliser un masque SQL]** et saisissez le filtre SQL à appliquer dans la colonne **[!UICONTROL Valeur ou expression]**.
 
-Dans l&#39;exemple ci-dessous, tous les domaines d&#39;email commençant par **yahoo** (yahoo.fr, yahoo.com, yahoo.be, etc.), ou par **ymail** (ymail.com, ymail.eu, etc.) seront regroupés sous le libellé **YAHOO !**, ainsi que les adresses avec le domaine **rocketmail.com**.
+Dans l’exemple ci-dessous, tous les domaines de messagerie commençant par **yahoo** (yahoo.fr, yahoo.com, yahoo.be, etc.) ou par **ymail** (ymail.com, ymail.eu, etc.) seront regroupés sous le libellé **YAHOO!**, ainsi que les adresses avec le domaine **rocketmail.com**.
 
 ![](assets/s_advuser_cube_class_03b.png)
 
