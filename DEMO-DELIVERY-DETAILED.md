@@ -35,11 +35,11 @@ ht-degree: 7%
 |---|---------|----------|---------|-------|--------|
 | 1 | `about-email-channel.md` | [campaign-web/v8/email](https://experienceleague.adobe.com/en/docs/campaign-web/v8/email) | 95 % | Principes de base des e-mails dans v8 | 🗑️ DELETE |
 | 2 | `communication-channels.md` | [campaign-web/v8/msg](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg) | 85 % | Présentation du canal dans v8 | 🗑️ DELETE |
-| 3 | `steps-about-delivery-creation-steps.md` | [campaign-web/v8/msg/gs-deliveries](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/gs-deliveries) | 90 % | Processus de diffusion dans v8 | 🗑️ DELETE |
-| 4 | `key-steps-when-creating-a-delivery.md` | [campaign-web/v8/msg/gs-deliveries](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/gs-deliveries) | 90 % | Comme ci-dessus | 🗑️ DELETE |
+| 3 | `steps-about-delivery-creation-steps.md` | [campaign-web/v8/msg/gs-deliveries](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/msg/gs-deliveries) | 90 % | Processus de diffusion dans v8 | 🗑️ DELETE |
+| 4 | `key-steps-when-creating-a-delivery.md` | [campaign-web/v8/msg/gs-deliveries](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/msg/gs-deliveries) | 90 % | Comme ci-dessus | 🗑️ DELETE |
 | 5 | `delivery-best-practices.md` | [campaign/v8/send/best-practices](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/best-practices) | 85 % | Bonnes pratiques relatives à v8 | 🗑️ DELETE |
-| 6 | `steps-validating-the-delivery.md` | [campaign-web/v8/msg/gs-deliveries](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/gs-deliveries) | 80 % | Validation dans v8 | 🗑️ DELETE |
-| 7 | `steps-sending-the-delivery.md` | [campaign-web/v8/msg/gs-deliveries](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/gs-deliveries) | 85 % | Envoi dans v8 | 🗑️ DELETE |
+| 6 | `steps-validating-the-delivery.md` | [campaign-web/v8/msg/gs-deliveries](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/msg/gs-deliveries) | 80 % | Validation dans v8 | 🗑️ DELETE |
+| 7 | `steps-sending-the-delivery.md` | [campaign-web/v8/msg/gs-deliveries](https://experienceleague.adobe.com/fr/docs/campaign-web/v8/msg/gs-deliveries) | 85 % | Envoi dans v8 | 🗑️ DELETE |
 | 8 | `deliveries-with-recurring-dates.md` | [campaign-web/v8/workflows](https://experienceleague.adobe.com/en/docs/campaign-web/v8/workflows) | 70 % | Vérifier le planificateur de workflow dans v8 | 🔍 RÉVISION |
 
 **Résumé** : 7 DELETE, 0 CONSERVER, 0 DÉPLACER, 1 RÉVISION
@@ -73,7 +73,7 @@ ht-degree: 7%
 | 27 | `sms-channel.md` | [campaign-web/v8/msg/send-sms](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/send-sms) | 90 % | Principes de base des SMS dans v8 | 🗑️ DELETE |
 | 28 | `sms-send.md` | [campaign-web/v8/msg/send-sms](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/send-sms) | 95 % | Envoi de SMS dans v8 | 🗑️ DELETE |
 | 29 | **`sms-set-up-mid.md`** | AUCUN | **0 %** | **Configuration de mid-sourcing (On-Prem uniquement)** | ✅ **CONSERVER** |
-| 30 | `sms-protocol.md` | [campaign/v8/send/sms/smpp](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms) | 60 % | SMPP avancé, vérification de la profondeur v8 | 🔍 RÉVISION |
+| 30 | `sms-protocol.md` | [campaign/v8/send/sms/smpp](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/sms) | 60 % | SMPP avancé, vérification de la profondeur v8 | 🔍 RÉVISION |
 | 31 | `sms-create.md` | [campaign-web/v8/msg/send-sms](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/send-sms) | 90 % | Création de SMS dans v8 | 🗑️ DELETE |
 | 32 | `line-channel.md` | [campaign/v8/send/line](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/line) | 85 % | Canal LINE dans v8 | 🗑️ DELETE |
 | 33 | `sms-content.md` | [campaign-web/v8/msg/send-sms](https://experienceleague.adobe.com/en/docs/campaign-web/v8/msg/send-sms) | 90 % | Contenu SMS dans v8 | 🗑️ DELETE |
@@ -157,7 +157,7 @@ ht-degree: 7%
 |---|---------|----------|---------|-------|--------|
 | 75 | `understanding-delivery-failures.md` | [campaign/v8/send/delivery-failed](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-failures) | 85 % | Échecs documentés dans v8 | 🗑️ DELETE |
 | 76 | `delivery-troubleshooting.md` | [campaign/v8/send/delivery-failed](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-failures) | 70 % | Bons conseils, **migrer le contenu manquant** | ➡️ MOVE |
-| 77 | `troubleshooting-sms.md` | [campaign/v8/send/sms](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms) | 65 % | Problèmes spécifiques aux SMS, **migration** | ➡️ MOVE |
+| 77 | `troubleshooting-sms.md` | [campaign/v8/send/sms](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/sms) | 65 % | Problèmes spécifiques aux SMS, **migration** | ➡️ MOVE |
 | 78 | **`monitoring-deliverability.md`** | AUCUN | **0 %** | **Outils de surveillance On-premise** | ✅ **CONSERVER** |
 | 79-83 | *(5 fichiers de dépannage supplémentaires)* | Divers v8 | 60-85 % | Mixte, examen au cas par cas | 🗑️ DELETE / ➡️ MOVE |
 
