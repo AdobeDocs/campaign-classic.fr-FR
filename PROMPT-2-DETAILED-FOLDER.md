@@ -9,7 +9,7 @@ ht-degree: 0%
 
 **Génère un rapport Markdown détaillé pour un dossier avec % de correspondance**
 
----
+&#x200B;---
 
 ## INVITE CE DE 📋 COPIER
 
@@ -465,7 +465,7 @@ Include:
 Make all links clickable (v7 files + Experience League URLs).
 ```
 
----
+&#x200B;---
 
 ## UTILISATION
 
@@ -475,12 +475,13 @@ Make all links clickable (v7 files + Experience League URLs).
    ```
    📁 **Analyze**: /Users/.../help/[YOUR-FOLDER]/using/
    ```
+
 3. **Coller dans le curseur**
 4. **Exécuter l’analyse**
 5. **Obtenir un rapport Markdown complet**
 6. **Enregistrer sous** : `[folder]-detailed-analysis.md`
 
----
+&#x200B;---
 
 ## EXEMPLES DE DOSSIERS
 
@@ -490,7 +491,7 @@ Essayez avec :
 - `/help/platform/using/` (61 fichiers)
 - `/help/web/using/` (26 fichiers)
 
----
+&#x200B;---
 
 ## APERÇU DE LA SORTIE
 

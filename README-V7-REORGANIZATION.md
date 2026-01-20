@@ -9,7 +9,7 @@ ht-degree: 0%
 
 invites **2 pour analyzer et réorganiser la doc v7 → v8**
 
----
+&#x200B;---
 
 ## 📁 DES FICHIERS
 
@@ -20,7 +20,7 @@ invites **2 pour analyzer et réorganiser la doc v7 → v8**
 | `PROMPT-1-OVERVIEW-ALL-FOLDERS.md` | Vue d&#39;ensemble de TOUS les dossiers v7 | `v7-reorganization-overview.md` |
 | `PROMPT-2-DETAILED-FOLDER.md` | Analyse détaillée d&#39;un dossier avec % correspondance | `[folder]-detailed-analysis.md` |
 
----
+&#x200B;---
 
 ## Utilisation de 🚀
 
@@ -45,7 +45,7 @@ open PROMPT-1-OVERVIEW-ALL-FOLDERS.md
 
 **Taille** : Markdown de 50 à 60 pages
 
----
+&#x200B;---
 
 ### 2️⃣ Analyse de la détection d&#39;un dossier
 
@@ -78,7 +78,7 @@ open PROMPT-2-DETAILED-FOLDER.md
 
 **Taille** : Markdown de 30 à 40 pages
 
----
+&#x200B;---
 
 ## 📊 Exemple d&#39;Output
 
@@ -117,66 +117,35 @@ open PROMPT-2-DETAILED-FOLDER.md
 ...
 ```
 
----
+&#x200B;---
 
 ## Workflow 🎯 recommandé
 
-### Semaine 1 : Vue d&#39;ensemble
-1. Exécuter **Invite 1** → Obtenir `v7-reorganization-overview.md`
-2. Identifier les dossiers prioritaires
-3. Partager avec les parties prenantes
+### Semaine 1 : Vue d&#39;ensemble1. Exécuter **Invite 1** → Obtenir `v7-reorganization-overview.md`2. Identifier les dossiers prioritaires3. Partager avec les parties prenantes
 
-### Semaine 2-4 : Analyse détaillée
-1. Pour chaque dossier prioritaire :
-   - Exécuter **Invite 2**
-   - Obtenir `[folder]-detailed-analysis.md`
-   - Valider les décisions
-   - Commencer les actions
+### Semaine 2-4 : Analyse détaillée1. Pour chaque dossier prioritaire :   - Exécuter **Invite 2**   - Obtenir `[folder]-detailed-analysis.md`   - Valider les décisions   - Commencer les actions
 
-### Semaine 5+ : Exécution
-1. Supprimer les fichiers identifiés (DELETE)
-2. Badger les fichiers v7 uniquement (KEEP)
-3. Migration du contenu manquant (MOVE)
-4. Reviewer les cas ambigus (REVIEW)
+### Semaine 5+ : Exécution1. Supprimer les fichiers identifiés (DELETE)2. Badger les fichiers v7 uniquement (KEEP)3. Migration du contenu manquant (MOVE)4. Reviewer les cas ambigus (REVIEW)
 
----
+&#x200B;---
 
 ## Conseils 💡
 
-### Pour les invites
-- ✅ Copier/coller l&#39;intégralité du message
-- ✅ Ne pas modifier le format
-- ✅ Adapter seulement le chemin du dossier (Invite 2)
+### Pour les invites- ✅ Copier/coller l&#39;intégralité du message- ✅ Ne pas modifier le format- ✅ Adapter seulement le chemin du dossier (Invite 2)
 
-### Pour les sorties
-- 📝 Output en Markdown (pas HTML)
-- 🔗 les liens cliquables automatiques
-- ✅ des cases à cocher pour le suivi
-- 📊 statistiques et pourcentages
-- 🎨 Emojis et icônes
+### Pour les sorties- 📝 Output en Markdown (pas HTML)- 🔗 les liens cliquables automatiques- ✅ des cases à cocher pour le suivi- 📊 statistiques et pourcentages- 🎨 Emojis et icônes
 
-### Pour l&#39;analyse
-- 🎯 Commencer par les gros dossiers (diffusion, workflow)
-- ⚡ Prioriser les quick wins (95-100% match)
-- 🔍 Reviewer manuellement les cas ambigus (&lt;70% de correspondance)
-- ✅ Valider avec SME avant suppression massive
+### Pour l&#39;analyse- 🎯 Commencer par les gros dossiers (diffusion, workflow)- ⚡ Prioriser les quick wins (95-100% match)- 🔍 Reviewer manuellement les cas ambigus (&lt;70% de correspondance)- ✅ Valider avec SME avant suppression massive
 
----
+&#x200B;---
 
 ## ⚠️ important
 
-### Avant de supprimer
-1. ✅ Vérifier l&#39;équivalent v8
-2. ✅ Vérifier qu&#39;il n&#39;y a pas de contenu spécifique à v7
-3. ✅ Mettre à jour `redirects.csv`
-4. ✅ Valider avec un expert (pour les premiers ministres)
+### Avant de supprimer1. ✅ Vérifier l&#39;équivalent v82. ✅ Vérifier qu&#39;il n&#39;y a pas de contenu spécifique à v73. ✅ Mettre à jour `redirects.csv`4. ✅ Valider avec un expert (pour les premiers ministres)
 
-### Pour les fichiers v7 uniquement
-1. ✅ Ajouter un badge au début du fichier
-2. ✅ Expliquer pourquoi c&#39;est v7-only
-3. ✅ Lien vers les limitations v8
+### Pour les fichiers v7 uniquement1. ✅ Ajouter un badge au début du fichier2. ✅ Expliquer pourquoi c&#39;est v7-only3. ✅ Lien vers les limitations v8
 
----
+&#x200B;---
 
 ## Assistance 🆘
 
@@ -185,7 +154,7 @@ open PROMPT-2-DETAILED-FOLDER.md
 - Sortie trop longue → Demander un résumé
 - Besoin d&#39;aide → Ping l&#39;équipe doc
 
----
+&#x200B;---
 
 **Dernière mise à jour** : 2026-01-13
 

@@ -9,7 +9,7 @@ ht-degree: 0%
 
 **Copiez-collez cette invite entière dans Cursor/ChatGPT pour analyser tout dossier v7**
 
----
+&#x200B;---
 
 ## 📋 L’INVITE (COPIEZ-LA ICI) ⬇️
 
@@ -187,57 +187,27 @@ Generate a complete Markdown report with this structure:
 Generate the complete Markdown report now.
 ```
 
----
+&#x200B;---
 
 ## INSTRUCTIONS POUR LA DÉMONSTRATION 🎯
 
-### Étape 1 : afficher l’invite
-1. Ouvrir ce fichier (`DEMO-PROMPT-STANDALONE.md`)
-2. Faites défiler jusqu’à la section « INVITE »
-3. Dire : *« Ceci est notre invite d’analyse automatisée »*
+### Étape 1 : afficher l’invite1. Ouvrir ce fichier (`DEMO-PROMPT-STANDALONE.md`)2. Faites défiler jusqu’à la section « INVITE »3. Dire : *« Ceci est notre invite d’analyse automatisée »*
 
-### Étape 2 : copier l’invite
-1. Sélectionnez tout depuis « # Analyse de la documentation de Campaign v7 » jusqu’à la fin
-2. Copier dans le presse-papiers
-3. Dire : *« Je copie juste l&#39;invite entière... »*
+### Étape 2 : copier l’invite1. Sélectionnez tout depuis « # Analyse de la documentation de Campaign v7 » jusqu’à la fin2. Copier dans le presse-papiers3. Dire : *« Je copie juste l&#39;invite entière... »*
 
-### Étape 3 : coller et exécuter
-1. Ouvrir le curseur
-2. Coller l’invite
-3. Dire : *»...et collez-le dans Cursor »*
-4. Appuyez sur Entrée
+### Étape 3 : coller et exécuter1. Ouvrir le curseur2. Coller l’invite3. Dire : *»...et collez-le dans Cursor »*4. Appuyez sur Entrée
 
-### Étape 4 : Afficher les résultats
-1. Attente de la génération (~30-60 secondes)
-2. Parcourir le rapport généré
-3. Mettez les sections clés en surbrillance :
-   - 📊 les statistiques récapitulatives
-   - 📋 tableau fichier par fichier
-   - ✅ La section Doit Conserver
-   - 🗑️ Quick Wins
-   - Plan d’exécution 🎯
+### Étape 4 : Afficher les résultats1. Attente de la génération (~30-60 secondes)2. Parcourir le rapport généré3. Mettez les sections clés en surbrillance :   - 📊 les statistiques récapitulatives   - 📋 tableau fichier par fichier   - ✅ La section Doit Conserver   - 🗑️ Quick Wins   - Plan d’exécution 🎯
 
-### Étape 5 : Moment Wow
-1. Afficher l’aperçu Markdown
-2. Soulignez :
-   - *« 111 fichiers analysés automatiquement »*
-   - *« 67 fichiers peuvent être supprimés en toute sécurité (réduction de 60 %) »*
-   - *« 18 fichiers spécifiques à v7 identifiés »*
-   - *« Compléter le plan d&#39;exécution avec les délais »*
+### Étape 5 : Moment Wow1. Afficher l’aperçu Markdown2. Soulignez :   - *« 111 fichiers analysés automatiquement »*   - *« 67 fichiers peuvent être supprimés en toute sécurité (réduction de 60 %) »*   - *« 18 fichiers spécifiques à v7 identifiés »*   - *« Compléter le plan d&#39;exécution avec les délais »*
 
----
+&#x200B;---
 
 ## 💡 DES CONSEILS DE DÉMONSTRATION
 
-### Rendre interactif
-**Demandez à l’audience** : *« Quel dossier devons-nous analyser ? »*
-- ✅ de diffusion (111 fichiers - impressionnant)
-- workflow ✅ (121 fichiers, voire plus)
-- ✅ web (26 fichiers - démonstration rapide)
-- ✅ de création de rapports (32 fichiers - rapide)
+### Rendre interactif&#x200B;**Demandez à l’audience** : *« Quel dossier devons-nous analyser ? »*- ✅ de diffusion (111 fichiers - impressionnant)- workflow ✅ (121 fichiers, voire plus)- ✅ web (26 fichiers - démonstration rapide)- ✅ de création de rapports (32 fichiers - rapide)
 
-### Personnaliser à la volée
-**Afficher la flexibilité** : modifiez le chemin du dossier dans l’invite :
+### Personnaliser à la volée&#x200B;**Afficher la flexibilité** : modifiez le chemin du dossier dans l’invite :
 
 ```
 /help/workflow/using/  → Analyze workflows
@@ -245,19 +215,13 @@ Generate the complete Markdown report now.
 /help/platform/using/  → Analyze platform
 ```
 
-### Fonctionnalités clés en surbrillance
-1. **Automatisation** : *« Aucun travail manuel nécessaire »*
-2. **Exactitude** : *« Utilise la documentation v8 à des fins de comparaison »*
-3. **Exploitable** : *« Plan prêt à l’exécution avec cases à cocher »*
-4. **Smart**: *« Identifie automatiquement les fonctionnalités spécifiques à la v7 »*
+### Fonctionnalités clés en surbrillance1. **Automatisation** : *« Aucun travail manuel nécessaire »*2. **Exactitude** : *« Utilise la documentation v8 à des fins de comparaison »*3. **Exploitable** : *« Plan prêt à l’exécution avec cases à cocher »*4. **Smart**: *« Identifie automatiquement les fonctionnalités spécifiques à la v7 »*
 
-### Comparaison de temps
-**Avant** : *« Analyse manuelle = 2-3 jours par dossier »*\
-**After** : *« Analyse automatisée = 30 secondes par dossier »*
+### Comparaison de temps&#x200B;**Avant** : *« Analyse manuelle = 2-3 jours par dossier »*\**After** : *« Analyse automatisée = 30 secondes par dossier »*
 
 **ROI** : *« 21 dossiers × 2 jours = 42 jours → 15 minutes »*
 
----
+&#x200B;---
 
 ## 📊 APERÇU DE SORTIE ATTENDU
 
@@ -304,7 +268,7 @@ Week 2: Badge 18 files
 Week 3: Review 18 files
 ```
 
----
+&#x200B;---
 
 ## SCRIPT DE DÉMONSTRATION 🎬
 
@@ -336,7 +300,7 @@ Week 3: Review 18 files
 **Fermer** :
 > « Ce même processus fonctionne pour les 21 dossiers. Ce qui prenait auparavant 6 semaines prend désormais 15 minutes. »
 
----
+&#x200B;---
 
 ## 🚀 PRÊT POUR LA DÉMONSTRATION !
 

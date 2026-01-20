@@ -11,7 +11,7 @@ ht-degree: 7%
 **Généré** : 2026-01-13\
 **Nombre Total De Fichiers** : 111
 
----
+&#x200B;---
 
 ## Résumé 📈
 
@@ -25,7 +25,7 @@ ht-degree: 7%
 
 **🎯Impact de la réorganisation** : 67 fichiers à supprimer (réduction de 60 %)
 
----
+&#x200B;---
 
 ## 📋 Terminer l’analyse du fichier
 
@@ -44,7 +44,7 @@ ht-degree: 7%
 
 **Résumé** : 7 DELETE, 0 CONSERVER, 0 DÉPLACER, 1 RÉVISION
 
----
+&#x200B;---
 
 ### 📧 Email (18 fichiers)
 
@@ -64,7 +64,7 @@ ht-degree: 7%
 
 **Résumé** : 16 DELETE, 0 CONSERVER, 0 DÉPLACER, 2 RÉVISER
 
----
+&#x200B;---
 
 ### 📱 SMS (7 fichiers)
 
@@ -80,7 +80,7 @@ ht-degree: 7%
 
 **Résumé** : 5 DELETE, 1 CONSERVER, 0 DÉPLACER, 1 RÉVISION
 
----
+&#x200B;---
 
 ### Notifications push 🔔 (9 fichiers)
 
@@ -95,7 +95,7 @@ ht-degree: 7%
 
 **Résumé** : 8 DELETE, 0 CONSERVER, 0 DÉPLACER, 1 RÉVISION
 
----
+&#x200B;---
 
 ### 📮 Courrier (4 fichiers)
 
@@ -108,7 +108,7 @@ ht-degree: 7%
 
 **Résumé** : 4 DELETE, 0 CONSERVER, 0 DÉPLACER, 0 RÉVISER
 
----
+&#x200B;---
 
 ### 🎯 Personalization (8 fichiers)
 
@@ -123,7 +123,7 @@ ht-degree: 7%
 
 **Résumé** : 6 DELETE, 1 CONSERVER, 0 DÉPLACER, 1 RÉVISION
 
----
+&#x200B;---
 
 ### 📋 Templates &amp; Seeds (6 fichiers)
 
@@ -136,7 +136,7 @@ ht-degree: 7%
 
 **Résumé** : 6 DELETE, 0 CONSERVER, 0 DÉPLACER, 0 RÉVISER
 
----
+&#x200B;---
 
 ### Surveillance 📊 (14 fichiers)
 
@@ -149,7 +149,7 @@ ht-degree: 7%
 
 **Résumé** : 12 DELETE, 0 CONSERVER, 1 DÉPLACER, 1 RÉVISION
 
----
+&#x200B;---
 
 ### Dépannage de 🔧 (9 fichiers)
 
@@ -163,7 +163,7 @@ ht-degree: 7%
 
 **Résumé** : 4 DELETE, 2 CONSERVER, 2 DÉPLACER, 1 RÉVISION
 
----
+&#x200B;---
 
 ### Délivrabilité 📬 (8 fichiers)
 
@@ -176,7 +176,7 @@ ht-degree: 7%
 
 **Résumé** : 4 DELETE, 3 CONSERVER, 0 DÉPLACER, 1 RÉVISION
 
----
+&#x200B;---
 
 ## ✅ doit conserver les fonctionnalités spécifiques à la version 7
 
@@ -190,7 +190,7 @@ ht-degree: 7%
 | `monitoring-deliverability.md` | Outils de surveillance On-premise | « Les outils de surveillance de la délivrabilité on-premise sont spécifiques à Campaign v7 » |
 | ... | *(14 fichiers supplémentaires spécifiques à v7)* | Divers badges v7 uniquement |
 
----
+&#x200B;---
 
 ## 🗑️ Quick Wins - Supprimer en toute sécurité
 
@@ -223,7 +223,7 @@ ht-degree: 7%
 
 **Total** : **67 fichiers** suppression immédiate en toute sécurité
 
----
+&#x200B;---
 
 ## ➡️ le contenu à migrer en premier
 
@@ -240,7 +240,7 @@ ht-degree: 7%
 
 **Processus** : Migrer le contenu → Mettre à jour v8 → le supprimer de v7
 
----
+&#x200B;---
 
 ## Révision manuelle 🔍 requise
 
@@ -253,36 +253,22 @@ ht-degree: 7%
 | `sending-emails-on-japanese-mobiles.md` | 0 % | Spécifique au Japon, vérifier la pertinence | Vérifier si toujours nécessaire |
 | ... | *(15 de plus)* | Diverses correspondances partielles | Comparaison manuelle |
 
----
+&#x200B;---
 
 ## Plan d’exécution 🎯
 
-### Semaine 1 : suppressions rapides
-- [ ] Supprimer des fichiers d&#39;e-mail (16)
-- [ ] Supprimer des fichiers SMS (5)
-- [ ] Supprimer les fichiers push (8)
-- [ ] Supprimer des fichiers de publipostage direct (4)
-- [ ] Supprimer des fichiers de modèles (6)
-- [ ] Supprimer les fichiers de surveillance (12)
-- **Total** : 51 fichiers supprimés
+### Semaine 1 : suppressions rapides- [ ] Supprimer des fichiers d&#39;e-mail (16)- [ ] Supprimer des fichiers SMS (5)- [ ] Supprimer les fichiers push (8)- [ ] Supprimer des fichiers de publipostage direct (4)- [ ] Supprimer des fichiers de modèles (6)- [ ] Supprimer les fichiers de surveillance (12)- **Total** : 51 fichiers supprimés
 
-### Semaine 2 : migration du contenu
-- [ ] Conseils de dépannage pour la migration (2 fichiers)
-- [ ] Bonnes pratiques de migration (3 fichiers)
-- [ ] Migrer les modèles avancés (3 fichiers)
-- [ ] Supprimer après la migration (8 fichiers au total)
+### Semaine 2 : migration du contenu- [ ] Conseils de dépannage pour la migration (2 fichiers)- [ ] Bonnes pratiques de migration (3 fichiers)- [ ] Migrer les modèles avancés (3 fichiers)- [ ] Supprimer après la migration (8 fichiers au total)
 
-### Semaine 3 : badge et révision
-- [ ] des fichiers spécifiques à la version v7 du badge (18 fichiers)
-- [ ] Vérifier les correspondances partielles (18 fichiers)
-- [ ] Prendre les décisions finales
+### Semaine 3 : badge et révision- [ ] des fichiers spécifiques à la version v7 du badge (18 fichiers)- [ ] Vérifier les correspondances partielles (18 fichiers)- [ ] Prendre les décisions finales
 
----
+&#x200B;---
 
 **Délai estimé** : 3 semaines\
 **Résultat attendu** : 111 → 44 dossiers (réduction de 60 %)
 
----
+&#x200B;---
 
 **Dernière mise à jour**: 2026-01-13\
 **Action suivante** : exécuter les suppressions de la semaine 1

@@ -11,7 +11,7 @@ ht-degree: 25%
 **Total des dossiers** : 21\
 **Total Des Fichiers**: ~1 500
 
----
+&#x200B;---
 
 ## Résumé exécutif 📈
 
@@ -25,7 +25,7 @@ ht-degree: 25%
 
 **🎯Réduction Estimée** : 60-75 % (1 500 → 400-600 fichiers)
 
----
+&#x200B;---
 
 ## Analyse des dossiers 📁 par priorité
 
@@ -41,7 +41,7 @@ ht-degree: 25%
 | 📂 `/migration/` | 8 | migration v6.1 → v7 | spécifique à v7 | ✅ CONSERVER TOUT |
 | **TOTAL** | **108** | **7 %** | - | **Badge en v7 uniquement** |
 
----
+&#x200B;---
 
 ### 🔴 Priorité 2 : 60 À 70 % De DELETE - Duplication Élevée
 
@@ -52,9 +52,9 @@ ht-degree: 25%
 | 📂 `/reporting/` | 32 | 3 (10 %) | 22 (70 %) | 2 (6 %) | 5 (14 %) | Rapports repensés dans v8 |
 | 📂 `/platform/` | 61 | 12 (20 %) | 34 (55 %) | 5 (8 %) | 10 (17 %) | Fonctionnalités courantes de v8 |
 | 📂 `/campaign/` | 11 | 2 (18 %) | 7 (64 %) | 1 (9 %) | 1 (9 %) | Gestion de Campaign dans v8 |
-| **TOTAL** | 336 **** | 59 **** | **190** | **28** | 59 **** | **Potentiel de réduction élevé** |
+| **TOTAL** | 336 **&#x200B;**&#x200B;| 59 **&#x200B;**&#x200B;| **190** | **28** | 59 **&#x200B;**&#x200B;| **Potentiel de réduction élevé** |
 
----
+&#x200B;---
 
 ### 🟡 Priorité 3 : 30 à 50 % MIXTE - Analyse détaillée nécessaire
 
@@ -66,9 +66,9 @@ ht-degree: 25%
 | 📂 `/interaction/` | 39 | 51 % | 31 % | Moteur d’offres (vérification v8) |
 | 📂 `/web/` | 26 | 92 % | 8 % | Applications web > Pages de destination v8 |
 | 📂 `/message-center/` | 16 | 60 % | 30 % | Messages transactionnels |
-| **TOTAL** | 230 **** | **~55 %** | **~25 %** | **Nécessite une révision dossier par dossier** |
+| **TOTAL** | 230 **&#x200B;**&#x200B;| **~55 %** | **~25 %** | **Nécessite une révision dossier par dossier** |
 
----
+&#x200B;---
 
 ## 🎯 gains rapides - Semaine 1
 
@@ -89,7 +89,7 @@ ht-degree: 25%
 - ✅ `query.md` (workflow) → `campaign/v8/automation/workflow/query`
 - ✅ `about-workflows.md` → `campaign/v8/automation/workflow`
 
----
+&#x200B;---
 
 ## Répartition détaillée des dossiers 📋
 
@@ -109,7 +109,7 @@ ht-degree: 25%
 | Résolution des problèmes | 9 | 2 | 4 | 2 | 1 | Conserver les conseils sur site |
 | Délivrabilité | 8 | 3 | 4 | 0 | 1 | SpamAssassin = CONSERVER |
 | Avancé | 9 | 11 | 5 | 5 | 8 | Mixte |
-| **TOTAL** | **111** | **18** | 67 **** | 8 **** | **18** | **60 % peuvent être supprimés** |
+| **TOTAL** | **111** | **18** | 67 **&#x200B;**&#x200B;| 8 **&#x200B;**&#x200B;| **18** | **60 % peuvent être supprimés** |
 
 **À conserver** :
 - ✅ `personalized-coupons.md` - PAS dans v8 FFDA
@@ -121,7 +121,7 @@ ht-degree: 25%
 - 🗑️ `creating-an-email-delivery.md` → 95 % en `campaign-web/v8/email/create-email`
 - 🗑️ `sms-channel.md` → 90 % en `campaign-web/v8/msg/send-sms`
 
----
+&#x200B;---
 
 ### Workflow 📂 (`/help/workflow/using/`) - 121 fichiers
 
@@ -136,7 +136,7 @@ ht-degree: 25%
 | Technique | 16 | 4 | 8 | 2 | 2 | Mixte |
 | Avancé | 12 | 3 | 4 | 3 | 2 | Modèles utiles |
 | Cas d’utilisation | 11 | 0 | 5 | 3 | 3 | Bons exemples |
-| **TOTAL** | **121** | **24** | 60 **** | **12** | 25 **** | **50 % peuvent être supprimés** |
+| **TOTAL** | **121** | **24** | 60 **&#x200B;**&#x200B;| **12** | 25 **&#x200B;**&#x200B;| **50 % peuvent être supprimés** |
 
 **À conserver** :
 - ✅ Toutes les activités MRM (5 fichiers) - PAS dans v8 FFDA
@@ -148,7 +148,7 @@ ht-degree: 25%
 - 🗑️ `split.md` → 95 % en `campaign/v8/automation/workflow/split`
 - 🗑️ `enrichment.md` → 95 % en `campaign/v8/automation/workflow/enrichment`
 
----
+&#x200B;---
 
 ### 📂 Installation (`/help/installation/using/`) - 75 fichiers
 
@@ -161,11 +161,11 @@ ht-degree: 25%
 | Intégration | 10 | ✅ CONSERVER | LDAP, etc |
 | Résolution des problèmes | 8 | ✅ CONSERVER | Problèmes on-premise |
 | Documents génériques | 4 | 🗑️ DELETE | Guide de démarrage dans v8 |
-| **TOTAL** | 75 **** | **71 CONSERVER / 4 DELETE** | Spécifique à **95 % v7** |
+| **TOTAL** | 75 **&#x200B;**&#x200B;| **71 CONSERVER / 4 DELETE** | Spécifique à **95 % v7** |
 
 **Raison** : v8 est uniquement cloud, tous les documents de configuration on-premise sont spécifiques à la v7.
 
----
+&#x200B;---
 
 ### 📂 Web (`/help/web/using/`) - 26 fichiers
 
@@ -179,40 +179,19 @@ ht-degree: 25%
 
 **Raison** : v7 dispose d’un framework d’applications web complet, v8 a simplifié les pages de destination.
 
----
+&#x200B;---
 
 ## Plan d&#39;action ✅
 
-### Semaine 1 : suppressions à fort impact
-- [ ] `/delivery/` : suppression de 67 fichiers (e-mail, SMS, principes de base des notifications push)
-- [ ] `/workflow/` : suppression de 60 fichiers (activités courantes)
-- [ ] `/reporting/` : suppression de 22 fichiers (rapports standard)
-- [ ] `/platform/` : supprimer 34 fichiers (fonctionnalités communes)
-- [ ] `/campaign/` : suppression de 7 fichiers (gestion de campagne)
-- **Total** : 190 fichiers supprimés (réduction de 13 %)
+### Semaine 1 : suppressions à fort impact- [ ] `/delivery/` : suppression de 67 fichiers (e-mail, SMS, principes de base des notifications push)- [ ] `/workflow/` : suppression de 60 fichiers (activités courantes)- [ ] `/reporting/` : suppression de 22 fichiers (rapports standard)- [ ] `/platform/` : supprimer 34 fichiers (fonctionnalités communes)- [ ] `/campaign/` : suppression de 7 fichiers (gestion de campagne)- **Total** : 190 fichiers supprimés (réduction de 13 %)
 
-### Semaine 2 : badge spécifique à v7
-- [ ] `/installation/` : passez 71 fichiers en tant que « v7 On-premise uniquement ».
-- [ ] `/mrm/` : passez 5 fichiers sur « Non disponible dans v8 FFDA »
-- [ ] `/surveys/` : badge 8 fichiers comme « Non disponible dans v8 FFDA »
-- [ ] `/distributed/` : badge 7 fichiers comme « Non disponible dans v8 FFDA »
-- [ ] `/web/` : passez 24 fichiers sous la forme « Applications Web v7 ».
-- **Total** : 115 fichiers badgés
+### Semaine 2 : badge spécifique à v7- [ ] `/installation/` : passez 71 fichiers en tant que « v7 On-premise uniquement ».- [ ] `/mrm/` : passez 5 fichiers sur « Non disponible dans v8 FFDA »- [ ] `/surveys/` : badge 8 fichiers comme « Non disponible dans v8 FFDA »- [ ] `/distributed/` : badge 7 fichiers comme « Non disponible dans v8 FFDA »- [ ] `/web/` : passez 24 fichiers sous la forme « Applications Web v7 ».- **Total** : 115 fichiers badgés
 
-### Semaine 3 : migration du contenu
-- [ ] Migrer les conseils de dépannage de `/delivery/` vers v8
-- [ ] Bonnes pratiques relatives à la migration des workflows vers v8
-- [ ] Migrer les modèles avancés de `/platform/` vers v8
-- **Total** : 40 fichiers migrés puis supprimés
+### Semaine 3 : migration du contenu- [ ] Migrer les conseils de dépannage de `/delivery/` vers v8- [ ] Bonnes pratiques relatives à la migration des workflows vers v8- [ ] Migrer les modèles avancés de `/platform/` vers v8- **Total** : 40 fichiers migrés puis supprimés
 
-### Semaine 4 : révision manuelle
-- [ ] la révision `/configuration/` contenu mixte
-- [ ] Vérifier la disponibilité du connecteur `/integrations/`
-- [ ] Vérification de la couverture `/interaction/` moteur d’offres
-- [ ] le statut des fonctionnalités `/response/`
-- **Total** : 50 dossiers examinés et tranchés
+### Semaine 4 : révision manuelle- [ ] la révision `/configuration/` contenu mixte- [ ] Vérifier la disponibilité du connecteur `/integrations/`- [ ] Vérification de la couverture `/interaction/` moteur d’offres- [ ] le statut des fonctionnalités `/response/`- **Total** : 50 dossiers examinés et tranchés
 
----
+&#x200B;---
 
 ## 📊 Résultats Attendus
 
@@ -222,13 +201,13 @@ ht-degree: 25%
 | Semaine 2 : badge | 115 | 20 % |
 | Semaine 3 : migration | 40 | 23 % |
 | Semaine 4 : révision | 50 | 26 % |
-| **TOTAL** | 395 **** | **26 % traités** |
+| **TOTAL** | 395 **&#x200B;**&#x200B;| **26 % traités** |
 
 **Restant** : environ 1 100 fichiers à traiter lors des phases suivantes
 
 **Objectif final** : 1 500 → 400 à 600 fichiers (réduction de 60 à 73 %)
 
----
+&#x200B;---
 
 ## Mesures de succès 🎯
 
@@ -240,7 +219,7 @@ ht-degree: 25%
 | Liens rompus | 0 | ⏳ en attente |
 | Approbation des parties prenantes | ✅ | ⏳ en attente |
 
----
+&#x200B;---
 
 **Dernière mise à jour**: 2026-01-13\
 **Prochaine révision** : après l’exécution de la semaine 1
