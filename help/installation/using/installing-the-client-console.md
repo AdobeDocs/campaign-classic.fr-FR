@@ -173,6 +173,6 @@ Pour vous connecter à une instance existante, procédez comme suit :
 
 Cette vidéo explique comment installer et configurer le client Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/35124?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/38267?captions=fre_fr&quality=12)
 
 D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
