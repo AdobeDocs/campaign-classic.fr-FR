@@ -64,7 +64,7 @@ Pour faciliter la préparation à la protection des données, Adobe Campaign pe
 
 Pour découvrir comment créer des demandes d’**accès** et de **suppression**, ainsi que leur traitement par Adobe Campaign, consultez la section [Étapes d’implémentation](../../platform/using/privacy-requests.md).
 
-<!--Tutorials on Privacy management in Campaign Standard are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=fr).
+<!--Tutorials on Privacy management in Campaign Standard are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html).
 https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html-->
 
 ## Consentement, conservation des données et rôles {#consent-retention-roles}
@@ -89,9 +89,9 @@ Outre les outils de gestion du consentement fournis par Adobe Campaign, vous po
 
 ### Conservation des données {#data-retention}
 
-En ce qui concerne la conservation des données, les tables de logs d&#39;usine de Campaign possèdent des périodes de conservation prédéfinies, limitant généralement le stockage des données à 6 mois ou moins.
+En ce qui concerne la conservation des données, les tables de logs natives de Campaign possèdent des périodes de conservation prédéfinies, limitant généralement le stockage des données à 6 mois ou moins.
 
-Vous trouverez ci-dessous les valeurs de conservation par défaut pour les tables d&#39;usine. Notez que la configuration de conservation est définie par les administrateurs techniques Adobe lors de la mise en œuvre et que les valeurs peuvent varier pour chaque mise en œuvre, selon les exigences du client.
+Vous trouverez ci-dessous les valeurs de conservation par défaut pour les tables natives. Notez que la configuration de conservation est définie par les administrateurs techniques Adobe lors de la mise en œuvre et que les valeurs peuvent varier pour chaque mise en œuvre, selon les exigences du client.
 
 * **Tracking consolidé** : 1 an
 * **Logs de diffusion** : 6 mois

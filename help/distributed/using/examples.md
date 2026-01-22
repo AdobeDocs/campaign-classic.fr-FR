@@ -174,7 +174,7 @@ Vous pouvez désormais ajouter un **kit de campagne** à partir de l’onglet **
 
    ![](assets/mkg_dist_use_case_target_valid1.png)
 
-1. Validez votre kit puis lancez votre workflow pour que le kit soit publié et disponible pour les entités locales dans la liste des kits.
+1. Validez votre kit de campagne puis lancez votre workflow pour que le kit soit publié et disponible pour les entités locales dans la liste des kits.
 
    ![](assets/mkg_dist_use_case_target_valid2.png)
 
@@ -206,7 +206,7 @@ Les étapes sont les suivantes :
 1. Paramétrez les **[!UICONTROL Paramètres avancés de l&#39;opération...]** comme pour une opération locale.
 1. Paramétrez le workflow de l&#39;opération et la diffusion comme pour une opération locale.
 1. Mettez à jour le formulaire web.
-1. Créez le kit d&#39;opération et publiez.
+1. Créez le kit de campagne et publiez.
 
 ### Côté entité locale {#local-entity-side-1}
 
@@ -237,7 +237,7 @@ Les étapes sont les suivantes :
    ![](assets/mkg_dist_use_case_form_2.png)
 
 1. Configurez le workflow de l&#39;opération et le formulaire web. Pour plus d&#39;informations, consultez la section [Créer une campagne locale (par formulaire)](#creating-a-local-campaign--by-form-).
-1. Créez votre kit d&#39;opération en spécifiant le planning de réalisation et les entités locales impliquées.
+1. Créez votre kit de campagne en spécifiant le planning de réalisation et les entités locales impliquées.
 
    ![](assets/mkg_dist_use_case_form_3.png)
 
@@ -245,7 +245,7 @@ Les étapes sont les suivantes :
 
    ![](assets/mkg_dist_use_case_form_4.png)
 
-1. Si besoin, dans l&#39;onglet **[!UICONTROL Description]**, rentrez une description du kit, un message de notification qui sera envoyé aux entités locales lors de la publication du kit, et attachez des documents informatifs à votre kit d&#39;opération.
+1. Si besoin, dans l’onglet **[!UICONTROL Description]**, saisissez une description du kit de campagne, un message de notification qui sera envoyé aux entités locales lors de la publication du kit, et attachez des documents informatifs à votre kit de campagne.
 
    ![](assets/mkg_dist_use_case_form_5.png)
 

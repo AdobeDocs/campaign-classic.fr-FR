@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: connectors
 exl-id: 8b2a9c73-807a-4936-9fd6-9d26c805a31f
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '371'
 ht-degree: 100%
 

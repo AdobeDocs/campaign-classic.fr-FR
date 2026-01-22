@@ -8,7 +8,7 @@ hidefromtoc: true
 exl-id: f4fe97d9-6571-4aa5-8022-b0af9d5a6a13
 source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: ht
-source-wordcount: '367'
+source-wordcount: '366'
 ht-degree: 100%
 
 ---
@@ -46,16 +46,16 @@ L&#39;exemple suivant cherche à constituer une liste des destinataires dont l&#
 ## Paramètres d&#39;entrée {#input-parameters}
 
 * tableName
-* schema
+* schéma
 
 Chacun des événements entrants doit spécifier une cible définie par ces paramètres.
 
 ## Paramètres de sortie {#output-parameters}
 
 * tableName
-* schema
+* schéma
 * recCount
 
-Ce triplet de valeurs identifie la cible résultant de l&#39;exclusion. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (habituellement nms:recipient) et **[!UICONTROL recCount]** est le nombre d’éléments dans la table.
+Ce triplet de valeurs identifie la cible résultant de l&#39;exclusion. **[!UICONTROL tableName]** est le nom de la table qui enregistre les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (généralement nms:recipient) et **[!UICONTROL recCount]** est le nombre d’éléments dans la table.
 
-La transition associée au complémentaire possède les mêmes paramètres.
+La transition associée au complément possède les mêmes paramètres.

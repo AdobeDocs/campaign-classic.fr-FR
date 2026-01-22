@@ -40,7 +40,7 @@ Néanmoins, lorsque vous utilisez des balises de type TRANSACTION, vous devez mo
 
 Pour procéder à une insertion statique des balises, il suffit de copier/coller les balises générées via la console, ou construites manuellement dans le source de votre page Web.
 
-**Exemple** : insertion d&#39;une balise de tracking Web sur une page proposant un formulaire.
+**Exemple** : insertion d’une balise de tracking web sur une page proposant un formulaire.
 
 ```
 <html>

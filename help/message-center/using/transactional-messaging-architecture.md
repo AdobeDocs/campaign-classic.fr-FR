@@ -5,7 +5,7 @@ description: Cette section décrit lʼarchitecture des messages transactionnels 
 feature: Transactional Messaging, Message Center, Architecture
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1225'
 ht-degree: 100%
 
@@ -180,7 +180,7 @@ Lorsqu&#39;ils sont combinés avec le canal LINE, les messages transactionnels p
 Pour utiliser le module des messages transactionnels avec LINE, les éléments suivants sont nécessaires pour la configuration de votre instance **marketing** et de votre instance d&#39;**exécution** :
 
 * Installez le package **[!UICONTROL LINE Connect]** sur les deux instances.
-* Installez le package **[!UICONTROL Transactional message control]** sur l&#39;instance marketing et le package **[!UICONTROL Transactional message execution]** sur l&#39;instance d&#39;exécution.
+* Installez le package **[!UICONTROL Contrôle des messages transactionnels]** sur l’instance marketing et le package **[!UICONTROL Exécution des messages transactionnels]** sur l’instance d’exécution.
 * Créez un **compte externe** et **service** LINE sur les deux instances avec des noms identiques pour les synchroniser. Pour plus d&#39;informations sur la création d&#39;un compte externe et d&#39;un service LINE, consultez [cette section](../../delivery/using/line-channel.md#setting-up-line-channel).
 
 Depuis l&#39;**[!UICONTROL Explorateur]**, dans **[!UICONTROL Plateforme]** > **[!UICONTROL Compte externe]**, vous devez ensuite configurer les différents comptes externes sur les deux instances :

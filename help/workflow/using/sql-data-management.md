@@ -73,7 +73,7 @@ L&#39;activité est maintenant configurée. Elle est prête à être exécutée 
 >
 >Une fois l&#39;activité exécutée, le nombre d&#39;enregistrements de la transition sortante est fourni à titre indicatif uniquement. Il peut varier en fonction du niveau de complexité du script SQL.
 >  
->Si l&#39;activité est redémarrée, l&#39;intégralité du script est exécutée depuis le début, quel que soit le statut d&#39;exécution.
+>Si lactivité est redémarrée, lintégralité du script est exécutée depuis le début, quel que soit le statut dexécution.
 
 ## Exemples de script SQL {#sql-script-samples}
 

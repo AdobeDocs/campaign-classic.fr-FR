@@ -21,7 +21,7 @@ En 2021, Apple a mis en place de nouvelles fonctionnalités de protection de la 
 
 ## Comment cela affecte-t-il mes campagnes ?
 
-Adobe Campaign permet d’utiliser les pixels de tracking pour suivre les ouvertures d’e-mail. Vous pouvez non seulement utiliser cette fonctionnalité pour le ciblage et les campagnes, mais également pour les mesures. Vous pouvez, par exemple, utiliser les taux d’ouverture d’e-mails pour mesurer l’efficacité d’une campagne ainsi que l’interaction client. En bref, il peut y avoir une incidence sur la segmentation, le ciblage et les mesures de vos campagnes.
+Adobe Campaign permet d’utiliser les pixels de tracking pour suivre les ouvertures d’e-mail. Vous pouvez non seulement utiliser cette fonctionnalité pour le ciblage et les campagnes, mais également pour les mesures. Vous pouvez, par exemple, utiliser les taux d’ouverture d’e-mails pour mesurer l’efficacité d’une campagne ainsi que l’engagement client. En bref, il peut y avoir une incidence sur la segmentation, le ciblage et les mesures de vos campagnes.
 
 ## Quelles actions dois-je entreprendre ?
 

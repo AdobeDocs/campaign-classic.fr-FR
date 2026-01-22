@@ -61,7 +61,7 @@ Dans l&#39;exemple suivant, l&#39;activité de mise à jour de liste suit une re
 ## Paramètres d&#39;entrée {#input-parameters}
 
 * tableName
-* schema
+* schéma
 
 Identifie la population à sauvegarder dans le groupe.
 
@@ -73,6 +73,6 @@ Identifie la population à sauvegarder dans le groupe.
 
 Cette vidéo montre comment créer une liste de destinataires à partir de l’Explorateur.
 
->[!VIDEO](https://video.tv.adobe.com/v/30599?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
 D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

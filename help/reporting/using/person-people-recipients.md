@@ -6,7 +6,7 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Reporting, Monitoring
 exl-id: 69b810f3-aa8b-4ab5-95c1-831257d7fcb9
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '800'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ Comme John n&#39;a ni ouvert ni cliqué dans l&#39;email, il n&#39;apparaît pas
 
 ![](assets/s_ncs_user_indicators_example_7.png)
 
-L&#39;ouverture de Marie apparait dans le log suivant :
+L’ouverture de Marie apparait dans le log suivant :
 
 ![](assets/s_ncs_user_indicators_example_4bis.png)
 
@@ -109,7 +109,7 @@ Les logs suivants correspondent à l&#39;ouverture et les 2 clics effectués par
 
 ![](assets/s_ncs_user_indicators_example_12.png)
 
-**Personnes** : en ce qui concerne les clics, nous constatons que le même identifiant (UUID) est affecté à tous les journaux : **`9ab648f9 [...]`**. Cet identifiant n&#39;a pas encore été comptabilisé. Une nouvelle personne est donc ajoutée au décompte.
+**Personnes** : en ce qui concerne les clics, nous constatons que le même identifiant (UUID) est affecté à tous les logs : **`9ab648f9 [...]`**. Cet identifiant n&#39;a pas encore été comptabilisé. Une nouvelle personne est donc ajoutée au décompte.
 
 ![](assets/s_ncs_user_indicators_example_13.png)
 

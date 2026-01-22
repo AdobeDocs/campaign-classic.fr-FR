@@ -88,9 +88,9 @@ Tous les workflows techniques personnalisés doivent être documentés dans une 
 
 La planification de la surveillance des workflows améliore son efficacité. Certaines tâches doivent avoir lieu tous les jours, alors que d&#39;autres sont nécessaires une fois par semaine ou une fois par mois.
 
-Le fait de sauvegarder les workflows dans des dossiers nommés en fonction de leur récurrence et triés par planning d&#39;exécution augmente l&#39;efficacité de la surveillance.
+Le fait de sauvegarder les workflows dans des dossiers nommés en fonction de leur récurrence et triés par planning d’exécution augmente l’efficacité de la surveillance.
 
-L&#39;automatisation de la surveillance permet d&#39;économiser des ressources et garantit la planification des tâches à un intervalle adapté.
+L’automatisation de la surveillance permet d’économiser des ressources et garantit la planification des tâches à une fréquence appropriée.
 
 Il est possible de construire un workflow de surveillance qui enverra un e-mail lorsque certaines tâches échouent ou lorsqu’une table critique devient trop volumineuse.
 

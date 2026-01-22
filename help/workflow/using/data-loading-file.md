@@ -79,14 +79,14 @@ Le formatage des colonnes permet de définir le traitement des valeurs de chaque
 * **[!UICONTROL Gestion des espaces]** : permet d’indiquer si certains espaces doivent être ignorés dans une chaîne. La valeur **[!UICONTROL Ignorer les espaces]** permet d’ignorer les espaces au début et à la fin d’une chaîne seulement.
 * **[!UICONTROL Traitements d&#39;erreur]** : permet de définir le comportement en cas d&#39;erreur.
 
-   * **[!UICONTROL Ignorer la valeur]** : la valeur est ignorée. Un avertissement est généré dans le journal d&#39;exécution du workflow.
+   * **[!UICONTROL Ignorer la valeur]** : la valeur est ignorée. Un avertissement est généré dans le log d&#39;exécution du workflow. 
    * **[!UICONTROL Rejeter la ligne]** : la ligne entière n&#39;est pas traitée.
    * **[!UICONTROL Utiliser une valeur par défaut en cas d&#39;erreur]** : remplace la valeur causant l&#39;erreur par une valeur par défaut, définie dans le champ **[!UICONTROL Valeur par défaut]**.
-   * **[!UICONTROL Rejeter la ligne en cas d&#39;absence de recodification]** : la ligne entière n&#39;est pas traitée sauf si une correspondance a été définie pour la valeur en erreur (voir option **[!UICONTROL Correspondance]** ci-dessous).
-   * **[!UICONTROL Utiliser une valeur par défaut en cas d&#39;absence de recodification]** : remplace la valeur causant l&#39;erreur par une valeur par défaut, définie dans le champ **[!UICONTROL Valeur par défaut]**, sauf si une correspondance a été définie pour la valeur en erreur (voir option **[!UICONTROL Correspondance]** ci-dessous).
+   * **[!UICONTROL Rejeter la ligne en l’absence de valeur de remapping]** : la ligne entière n’est pas traitée sauf si un mapping a été défini pour la valeur en erreur (voir l’option **[!UICONTROL Mapping]** ci-dessous).
+   * **[!UICONTROL Utiliser une valeur par défaut en cas d’absence de remapping]** : remplace la valeur à l’origine de l’erreur par une valeur par défaut, définie dans le champ **[!UICONTROL Valeur par défaut]**, sauf si un mapping a été défini pour la valeur en erreur (voir l’option **[!UICONTROL Mapping]** ci-dessous).
 
 * **[!UICONTROL Valeur par défaut]** : permet de spécifier la valeur par défaut en fonction du choix concernant le traitement des erreurs.
-* **[!UICONTROL Correspondance]** : ce champ est disponible uniquement dans le paramétrage du détail d&#39;une colonne (accessible via un double-clic ou via les options sur la droite de la liste des colonnes). Il permet de transformer certaines valeurs lors de l&#39;import. Par exemple, vous pouvez transformer &quot;trois&quot; en &quot;3&quot;.
+* **[!UICONTROL Mapping]** : ce champ est disponible uniquement dans la configuration des détails d’une colonne (accessible via un double-clic ou via les options sur la droite de la liste des colonnes). Il permet de transformer certaines valeurs lors de l’import. Par exemple, vous pouvez transformer « trois » en « 3 ».
 
 ## Exemple : collecter des données et les charger dans la base {#example--collecting-data-and-loading-it-in-the-database}
 

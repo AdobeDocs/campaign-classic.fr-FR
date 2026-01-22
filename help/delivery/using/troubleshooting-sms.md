@@ -6,7 +6,7 @@ feature: SMS, Troubleshooting
 role: User
 exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
 source-git-commit: f660dcbb111e73f12737d96ebf9be2aeccbca8ee
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3044'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Si vous disposez de plusieurs comptes, procédez comme suit pour isoler le compt
 1. Activez un compte externe.
 1. Essayez de reproduire le problème.
 1. Si le problème initial n&#39;apparaît pas toujours, effectuez un nombre raisonnable de tentatives avant de conclure.
-1. Si le problème n&#39;apparaît pas avec ce compte unique, désactivez-le et redémarrez l&#39;étape 2 sur le compte suivant.
+1. Si le problème napparaît pas avec ce compte unique, désactivez-le et redémarrez létape 2 sur le compte suivant.
 
 Une fois que vous avez vérifié chaque compte individuellement, il existe 2 scénarios possibles :
 
@@ -64,7 +64,7 @@ Adobe Campaign prend en charge la gestion de plusieurs numéros courts sur le m
   ```
 
 * Recherchez (dans le répertoire /postupgrade) si le système a été mis à niveau et quand.
-* Déterminez si des packages affectant les SMS ont pu être mis à jour récemment (/var/log/dpkg.log).
+* Déterminez si des packages affectant les SMS ont pu être mis à niveau récemment (/var/log/dpkg.log).
 
 ## Problème lié au mid-sourcing (hébergé){#issue-mid-sourcing}
 
@@ -102,7 +102,7 @@ Comment résoudre les problèmes de stabilité de connexion :
 
 * Les connexions instables sont rarement la cause première, il s&#39;agit souvent du résultat d&#39;un autre problème qui déclenche une déconnexion. Il est prioritaire d&#39;identifier la cause première.
 
-* Activez les traces SMPP de verbose. Vous aurez besoin d&#39;elles pour voir ce qui se passe au redémarrage de la connexion.
+* Activez les traces SMPP de verbose. Vous aurez besoin delles pour voir ce qui se passe au redémarrage de la connexion.
 
 * Si le fournisseur envoie `BIND PDU`, il se peut qu&#39;il y ait un problème. Demandez à votre fournisseur pourquoi `UNBING` est envoyé.
 
@@ -116,7 +116,7 @@ Comment résoudre les problèmes de stabilité de connexion :
 
 * Vérifiez que la connexion est stable. Une connexion SMPP doit durer au moins une heure en continu, sauf pour les émetteurs sur Adobe Campaign Classic. Pour plus d&#39;informations, consultez la section [Problème de connexion instable](sms-protocol.md#issues-unstable-connection).
 
-* Si le redémarrage du MTA entraîne l&#39;envoi de MT à nouveau opérationnel pendant une petite période de temps, vous avez probablement un ralentissement dû à une connexion instable. Pour plus d&#39;informations, consultez la section [Problème de connexions instables](troubleshooting-sms.md#issues-unstable-connection).
+* Si le redémarrage du MTA entraîne lenvoi de MT à nouveau opérationnel pendant une petite période de temps, vous avez probablement un ralentissement dû à une connexion instable. Pour plus d&#39;informations, consultez la section [Problème de connexions instables](troubleshooting-sms.md#issues-unstable-connection).
 
 * Vérifiez que le broadlog est présent et que son statut est correct avec les dates correctes. Si ce n&#39;est pas le cas, il peut s&#39;agir d&#39;un problème de préparation de diffusion ou de diffusion.
 

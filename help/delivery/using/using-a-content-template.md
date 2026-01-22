@@ -6,7 +6,7 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Templates
 exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '448'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## À propos des modèles de contenu {#about-content-templates}
 
-Les modèles de contenu peuvent être référencés et utilisés directement dans les diffusions. Voir [Créer une diffusion via la gestion du contenu.](#creating-a-delivery-via-content-management)
+Les modèles de contenu peuvent être référencés et utilisés directement dans les diffusions. Voir [Créer une diffusion via la gestion de contenu.](#creating-a-delivery-via-content-management)
 
 Ils peuvent également être utilisés pour créer des instances de contenu. Une fois qu’elles ont été créées, ces instances sont prêtes à être diffusées (voir [Diffuser une instance de contenu](#delivering-a-content-instance)) ou exportées (voir [Créer une instance de contenu](#creating-a-content-instance)).
 

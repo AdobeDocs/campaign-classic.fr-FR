@@ -5,7 +5,7 @@ description: Découvrez comment envoyer les meilleures offres à vos contacts en
 feature: Interaction, Offers
 exl-id: 62b8fdcd-8423-496c-8407-ab89a3a70721
 source-git-commit: de9ff0b50d819038c97e8515ddb7d6cfeb4547a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '268'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Interaction vous permet de créer et gérer un catalogue d’offres, et de param
 
 ![](assets/Offermgt2.png)
 
-![](assets/do-not-localize/how-to-video.png) Pour vous familiariser avec la fonctionnalité d’interaction et les terminologies utilisées dans Interaction de Campaign, regardez [cette vidéo](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com).
+![](assets/do-not-localize/how-to-video.png) Pour vous familiariser avec la fonctionnalité d’interaction et les terminologies utilisées dans Interaction de Campaign, regardez [cette vidéo](https://helpx.adobe.com/campaign/classic/how-to/acs-overview.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com).
 
 ## Rubriques connexes :
 

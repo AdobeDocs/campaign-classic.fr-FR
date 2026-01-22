@@ -121,7 +121,7 @@ Pour plus d&#39;informations sur la conception et le ciblage d&#39;une diffusion
 
 ## Rapport d&#39;inbox rendering {#inbox-rendering-report}
 
-Ce rapport présente les Inbox Renderings tels qu’ils apparaissent côté destinataire. Ils peuvent être différents selon le mode d’ouverture de la diffusion email par la personne destinataire : dans un navigateur, sur un appareil mobile ou via une application de messagerie e-mail.
+Ce rapport présente les inbox renderings tels qu’ils apparaissent côté destinataire. Ils peuvent être différents selon le mode d’ouverture de la diffusion par e-mail par les destinataires : dans un navigateur, sur un appareil mobile ou via une application de messagerie.
 
 La section supérieure présente la répartition du nombre de messages reçus, indésirables (spam), non reçus ou en attente de réception au moyen d’une représentation graphique avec code-couleur.
 

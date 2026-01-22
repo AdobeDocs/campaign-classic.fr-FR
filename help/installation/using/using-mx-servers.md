@@ -82,7 +82,7 @@ Le mode personnalisé est destiné aux clients avancés qui souhaitent définir 
 
 * **Utilisateur inconnu ou utilisatrice inconnue** (rebond définitif) : 550 5.1.1 … L’utilisateur est inconnu ou l’utilisatrice est inconnue. {mx003}
 * **Boîte pleine** (rebond temporaire) : 550 5.2.2 Dépassement du quota d’utilisateurs
-* **Boîte aux lettres inactive** (rebond temporaire) : 550 5.7.1 : adresse du destinataire refusée : boîte aux lettres inactive, non affichée pendant plus de 6 mois
+* **Boîte aux lettres inactive** (rebond temporaire) : 550 5.7.1 : adresse de destination refusée : boîte aux lettres inactive, non affichée pendant plus de 6 mois
 * **Domaine non valide** (rebond temporaire) : échec de la requête DNS pour ’ourdan.com’
 * **Refusé** (rebond temporaire) : retour de mail entrant (la règle ’Feedback_loop_Hotmail’ correspond à ce retour)
 * **Inatteignable** (rebond temporaire) : 421 4.16.55 [TS01] Messages de x.x.x.x reportés temporairement en raison de plaintes excessives de l’utilisateur

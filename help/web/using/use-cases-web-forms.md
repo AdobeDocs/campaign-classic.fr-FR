@@ -6,7 +6,7 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Web Forms
 exl-id: 7aa4646d-1325-47c2-b553-6fe375c48973
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1005'
 ht-degree: 100%
 
@@ -195,7 +195,7 @@ Dans l&#39;exemple suivant, l&#39;utilisateur est invité à choisir un type de 
 
   ![](assets/s_ncs_admin_survey_condition_sample2.png)
 
-* Lorsqu&#39;il sélectionne un véhicule professionnel, il pourra choisir parmi les utilitaires de la liste déroulante :
+* Lorsqu’il sélectionne un véhicule professionnel, il pourra choisir parmi les utilitaires de la liste déroulante :
 
   ![](assets/s_ncs_admin_survey_condition_sample1.png)
 

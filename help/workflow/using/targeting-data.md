@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Cibler les données
+title: Données de ciblage
 description: En savoir plus sur le ciblage des données dans un workflow
 feature: Query Editor, Data Management, Workflows
 hide: true
@@ -109,7 +109,7 @@ Les options de réconciliation des données sont les suivantes :
 
   >[!CAUTION]
   >
-  >Lors de la réconciliation des données, les populations ne sont pas dédoublonnées.
+  >Lors de la réconciliation des données, les populations ne sont pas dédupliquées.
 
   Vous pouvez limiter la taille de la population à un nombre donné d&#39;enregistrements. Pour cela, cochez l&#39;option correspondante et indiquez le nombre d&#39;enregistrements à conserver.
 
@@ -193,7 +193,7 @@ Nous devons ensuite ajouter de nouveaux sous-ensembles :
 
    ![](assets/wf_split_edit_filtering.png)
 
-1. Au besoin, vous pouvez modifier la dimension de filtrage individuellement pour chaque sous-ensemble. Ainsi, vous pouvez, à partir de la même activité de partage, construire un ensemble avec toutes les personnes titulaires d’un contrat Gold, un autre avec toutes les personnes destinataires ayant cliqué dans la dernière newsletter et un troisième regroupant les personnes de 18 à 25 ans ayant effectué un achat en magasin dans les 30 derniers jours. Pour ce faire, sélectionnez l’option **[!UICONTROL Utiliser une dimension de filtrage spécifique]** et sélectionnez le contexte de filtrage des données.
+1. Au besoin, vous pouvez modifier la dimension de filtrage individuellement pour chaque sous-ensemble. Ainsi, vous pouvez, à partir de la même activité de partage, construire un ensemble avec toutes les personnes titulaires d’un contrat Gold, un autre avec toutes les personnes destinataires ayant cliqué dans la dernière newsletter et un troisième regroupant les personnes de 18 à 25 ans ayant effectué un achat en magasin dans les 30 derniers jours. Pour ce faire, sélectionnez l’option **[!UICONTROL Utiliser une dimension de filtrage spécifique]** et sélectionnez le contexte de filtrage des données.
 
    ![](assets/wf_split_change_dimension.png)
 

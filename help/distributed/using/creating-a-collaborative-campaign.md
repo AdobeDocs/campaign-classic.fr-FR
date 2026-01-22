@@ -39,9 +39,9 @@ Dans l&#39;onglet **[!UICONTROL Edition]**, cliquez sur le lien **[!UICONTROL Pa
 
 Sélectionnez le type d’interface web **Par formulaire**. Ce type d’interface permet la création de champs de personnalisation qui seront utilisés par les entités locales lors de la commande de l’opération. Pour plus d&#39;informations, consultez la section [Création d’une campagne locale (par formulaire)](examples.md#creating-a-local-campaign--by-form-).
 
-Enregistrez votre campagne. Vous pouvez désormais l’utiliser depuis la vue **Kits d’opération** de l’onglet **Campagnes**, en cliquant sur le bouton **[!UICONTROL Créer]**.
+Enregistrez votre campagne. Vous pouvez désormais l’utiliser depuis la vue **Kits de campagne** de l’onglet **Campagnes**, en cliquant sur le bouton **[!UICONTROL Créer]**.
 
-La vue **[!UICONTROL Kit d&#39;opération]** vous permet d&#39;utiliser les modèles d&#39;opérations locales (d&#39;usine ou dupliqués), ainsi que les opérations de référence pour les opérations collaboratives, dans le but de créer des campagnes pour vos différentes entités organisationnelles.
+La vue **[!UICONTROL Kit de campagne]** vous permet d’utiliser les modèles de campagnes locales (d’usine ou dupliqués), ainsi que les campagnes de référence pour les campagnes collaboratives, dans le but de créer des campagnes pour vos différentes entités organisationnelles.
 
 ![](assets/mkg_dist_mutual_op_form1b.png)
 
@@ -105,21 +105,21 @@ L&#39;entité locale peut supprimer certains contacts en fonction du contenu de 
 
 Pour créer une opération collaborative simple, le modèle **[!UICONTROL Opération collaborative simple (opCollaborativeSimple)]** doit être sélectionné.
 
-## Créer un kit d&#39;opération collaborative {#creating-a-collaborative-campaign-package}
+## Créer un kit de campagne collaborative {#creating-a-collaborative-campaign-package}
 
-Pour mettre à disposition l&#39;opération auprès des entités locales, l&#39;entité centrale doit créer un kit d&#39;opération.
+Pour mettre à disposition l’opération auprès des entités locales, l’entité centrale doit créer un kit de campagne.
 
 Les étapes sont les suivantes :
 
-1. Dans la section **[!UICONTROL Navigation]** de l&#39;univers **Campagnes**, cliquez sur le lien **[!UICONTROL Kits d&#39;opération]**.
+1. Dans la section **[!UICONTROL Navigation]** de l’univers **Campagnes**, cliquez sur le lien **[!UICONTROL Kits de campagne]**.
 1. Cliquez sur le bouton **[!UICONTROL Créer]**.
 1. La section supérieure de l&#39;éditeur permet de sélectionner le modèle d&#39;opération **[!UICONTROL Nouveau kit collaboratif (mutualizedEmpty)]**.
 1. Sélectionnez l&#39;opération de référence.
-1. Définissez le libellé du kit d&#39;opération, son dossier d&#39;enregistrement et indiquez son planning de réalisation.
+1. Définissez le libellé du kit de campagne, son dossier d’enregistrement et indiquez son planning de réalisation.
 
 ### Dates       {#dates}
 
-Les dates de début et de fin correspondent à la période de visibilité de l&#39;opération dans la liste des kits.
+Les dates de début et de fin correspondent à la période de visibilité de l’opération dans la liste des kits de campagne.
 
 Pour les **opérations collaboratives**, l&#39;entité centrale doit indiquer la date limite d&#39;inscription à l&#39;opération et éventuellement la date de remise des éléments.
 
@@ -157,7 +157,7 @@ Le paramétrage des messages de notification est identique à celui d&#39;une op
 
 ## Commande dʼune opération {#ordering-a-campaign}
 
-Lorsqu&#39;une opération collaborative est ajoutée dans la liste des kits d&#39;opération, les entités locales faisant partie de l&#39;audience définie par l&#39;entité centrale sont avisées par un message de notification (les **opérations collaboratives par validation de la cible** n&#39;ont pas d&#39;audience prédéfinie). Ce message propose un lien pour s&#39;inscrire à l&#39;opération, comme dans l&#39;exemple ci-dessous :
+Lorsqu’une opération collaborative est ajoutée dans la liste des kits de campagne, les entités locales faisant partie de l’audience définie par l’entité centrale sont avisées par un message de notification (les **opérations collaboratives par validation de la cible** n’ont pas d’audience prédéfinie). Ce message propose un lien pour s’inscrire à l’opération, comme dans l’exemple ci-dessous :
 
 ![](assets/mkg_dist_mutual_op_notification.png)
 

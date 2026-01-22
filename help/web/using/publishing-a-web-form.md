@@ -6,7 +6,7 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Web Forms
 exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1373'
 ht-degree: 100%
 
@@ -130,7 +130,7 @@ Pour modifier l&#39;état d&#39;un formulaire, vous devez le publier. Pour cela,
 
 Pour que l’accès au formulaire soit possible, il doit être en production et démarré, c&#39;est-à-dire dans sa période de validité. Les dates de validité sont renseignées depuis le lien **[!UICONTROL Propriétés]** du formulaire.
 
-* Utilisez les champs de la section **[!UICONTROL Projet]** pour indiquer les dates de démarrage et de clôture du formulaire.
+* Utilisez les champs de la section **[!UICONTROL Projet]** pour indiquer les dates de début et de fin du formulaire.
 
   ![](assets/webapp_availability_date.png)
 

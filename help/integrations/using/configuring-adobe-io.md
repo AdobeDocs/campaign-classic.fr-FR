@@ -12,7 +12,7 @@ exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 hide: true
 hidefromtoc: true
 source-git-commit: 8d15a5666b5768bc0f17a4391061c4fcb9f76811
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '312'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ This integration only applies starting **Campaign Classic 20.2.4 and above, 19.1
 Avant de commencer cette implémentation, vérifiez que vous disposez des éléments suivants :
 
 * un **identifiant d’organisation** valide : l’identifiant de l’organisation est l’identifiant unique dans Adobe Experience Cloud. Il est utilisé, entre autres, pour le service VisitorID et l’authentification unique (SSO) de l’IMS. [En savoir plus](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr)
-* Un **accès développeur** à votre organisation. L’administrateur système de l’organisation doit suivre la procédure **Ajouter des développeurs à un profil de produit unique** présentée [dans cette page](https://helpx.adobe.com/fr/enterprise/using/manage-developers.html) pour fournir aux développeurs l’accès au profil du produit `Analytics - {tenantID}` Adobe Analytics associé aux Triggers.
+* Un **accès développeur** à votre organisation. La personne en charge de l’administration système de l’organisation doit suivre la procédure **Ajouter des développeurs à un profil de produit unique** présentée [dans cette page](https://helpx.adobe.com/fr/enterprise/using/manage-developers.html) pour fournir aux développeurs l’accès au profil du produit `Analytics - {tenantID}` Adobe Analytics associé à Triggers.
 
 ## Étape 1 : créer/mettre à jour un projet OAuth {#creating-adobe-io-project}
 

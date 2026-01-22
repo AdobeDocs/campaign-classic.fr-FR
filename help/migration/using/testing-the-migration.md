@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '715'
 ht-degree: 100%
 
@@ -185,4 +185,4 @@ nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<insta
 
 ### Reprise de la migration {#resuming-migration}
 
-Si vous relancez l’opération de postupgrade à la suite d’un échec de migration, celle-ci reprend là où elle s’était arrêtée.
+Si vous redémarrez l’opération de postupgrade à la suite d’un échec de migration, celle-ci reprend là où elle s’était arrêtée.

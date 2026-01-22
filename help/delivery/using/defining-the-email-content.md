@@ -94,7 +94,7 @@ Par défaut, les messages sont envoyés en HTML ou en Texte, selon les préfére
   >
   >L’utilisation des champs de personnalisation est présentée dans la section [À propos de la personnalisation](about-personalization.md).
 
-  Les onglets en bas de page permettent d’afficher le code HTML associé à la page en cours de création et de visualiser le rendu du message, avec sa personnalisation. Pour lancer la visualisation, cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** et sélectionnez un destinataire à partir du bouton **[!UICONTROL Tester la personnalisation]** situé dans la barre d&#39;outils. Vous pouvez sélectionner un destinataire parmi la ou les cibles définies ou choisir un autre destinataire.
+  Les onglets en bas de page permettent d’afficher le code HTML associé à la page en cours de création et de visualiser le rendu du message, avec sa personnalisation. Pour lancer la visualisation, cliquez sur l’onglet **[!UICONTROL Aperçu]** et sélectionnez un destinataire à partir du bouton **[!UICONTROL Tester la personnalisation]** situé dans la barre d’outils. Vous pouvez sélectionner un destinataire parmi la ou les cibles définies ou choisir un autre destinataire.
 
   ![](assets/s_ncs_user_wizard_email01_139.png)
 

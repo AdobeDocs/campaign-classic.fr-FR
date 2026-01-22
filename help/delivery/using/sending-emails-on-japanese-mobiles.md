@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ---
 
-# Envoi dʼe-mails sur mobiles japonais {#sending-emails-on-japanese-mobiles}
+# Envoyer des e-mails sur des mobiles japonais {#sending-emails-on-japanese-mobiles}
 
 ## Formats d&#39;email pour les mobiles japonais {#email-formats-for-japanese-mobiles}
 
@@ -80,7 +80,7 @@ Par exemple, vous pouvez remplacer l&#39;adresse d&#39;un profil par test@softba
 
 ![](assets/deco-mail_05.png)
 
-## Envoi de messages {#sending-messages}
+## Envoyer des messages {#sending-messages}
 
 Pour envoyer une diffusion à des destinataires dont le format des emails est japonais, vous pouvez procéder de deux manières :
 

@@ -107,15 +107,15 @@ Cliquez sur **[!UICONTROL Valider]**.
 
 Les informations sont remontées à différents niveaux :
 
-* Au niveau du journal des validations de l&#39;opération, sous-onglet **[!UICONTROL Validations]** de l&#39;onglet **[!UICONTROL Edition > Tracking]** :
+* Au niveau du log des validations de l&#39;opération, sous-onglet **[!UICONTROL Validations]** de l&#39;onglet **[!UICONTROL Edition > Tracking]** :
 
   ![](assets/s_user_validation_log_from_op.png)
 
-* Dans le journal des diffusions de l&#39;opération, sous-onglet **[!UICONTROL Diffusions]** de l&#39;onglet **[!UICONTROL Edition > Tracking]** :
+* Dans le log des diffusions de l&#39;opération, sous-onglet **[!UICONTROL Diffusions]** de l&#39;onglet **[!UICONTROL Edition > Tracking]** :
 
   ![](assets/s_user_validation_log_from_delivery_list.png)
 
-* Au niveau de chaque diffusion, l&#39;état des validations peut être consulté en cliquant sur l&#39;option **[!UICONTROL Afficher/cacher le journal]**, dans l&#39;onglet **[!UICONTROL Résumé]** :
+* Au niveau de chaque diffusion, l&#39;état des validations peut être consulté en cliquant sur l&#39;option **[!UICONTROL Afficher/cacher le log]**, dans l&#39;onglet **[!UICONTROL Résumé]** :
 
   ![](assets/s_user_validation_log_delivery.png)
 
@@ -125,11 +125,11 @@ Les informations sont remontées à différents niveaux :
 
 >[!NOTE]
 >
->Lorsqu&#39;un opérateur a enregistré une réponse pour une validation, les autres opérateurs validants ne peuvent plus agir sur la validation.
+>Une fous qu’un traitement a été approuvé ou rejeté, les autres opérateurs validants ne peuvent plus agir sur l’approbation.
 
 ### Validation automatique et validation manuelle {#automatic-and-manual-approval}
 
-Lors de la création d&#39;un workflow de ciblage, lorsque la validation est automatique (mode par défaut), Adobe Campaign propose le lien de validation ou envoie une notification dès qu&#39;un ciblage est à valider.
+Lors de la création d’un workflow de ciblage, lorsque la validation est automatique (mode par défaut), Adobe Campaign propose le lien de validation ou envoie une notification dès qu’un ciblage est à valider.
 
 Pour sélectionner le mode de validation (manuelle ou automatique), cliquez sur l&#39;onglet **[!UICONTROL Edition > Propriétés]** de l&#39;opération ou du modèle d&#39;opération, puis sur l&#39;option **[!UICONTROL Paramètres avancés de l&#39;opération...]**, et enfin sur l&#39;onglet **[!UICONTROL Validations]**.
 

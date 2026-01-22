@@ -6,7 +6,7 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Web Forms
 exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
 source-git-commit: 1d4990917fea54e67ed23cd0771295de03a4f01a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1439'
 ht-degree: 100%
 
@@ -120,7 +120,7 @@ Il permet aussi de gérer les traductions. Voir [Traduire un formulaire web](tra
 
 Un formulaire web est accessible aux utilisateurs s’il est **[!UICONTROL En ligne]** et si la date actuelle est comprise dans sa période de validité. Le statut du formulaire est modifié au cours de l’étape de publication (voir [Publier un formulaire](publishing-a-web-form.md#publishing-a-form)). Le statut s’affiche dans la section **Projet** de l’onglet **[!UICONTROL Général]** de la fenêtre des propriétés.
 
-La période de validité est comprise entre la date de **[!UICONTROL Démarrage]** et la date de **[!UICONTROL Clôture]**. Si aucune date n&#39;est spécifiée dans ces champs, la validité du formulaire est permanente.
+La période de validité est comprise entre la date de **[!UICONTROL Début]** et la date de **[!UICONTROL Fin]**. Si aucune date n’est spécifiée dans ces champs, la validité du formulaire est permanente.
 
 ![](assets/s_ncs_admin_survey_properties_date.png)
 

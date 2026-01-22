@@ -56,9 +56,9 @@ Pour générer le jeton d&#39;accès et les clés de configuration du compte, vo
 
 ### Obtention de l&#39;identifiant du client Microsoft Dynamics {#get-client-id-microsoft}
 
-Pour obtenir l&#39;identifiant du client, vous devez enregistrer une application dans Azure Active Directory. L&#39;identifiant du client est identique à l&#39;ID de l&#39;application.
+Pour obtenir l’identifiant du client, vous devez enregistrer une application dans Azure Active Directory. L&#39;identifiant du client est identique à l&#39;ID de l&#39;application.
 
-1. Accédez à **Azure Active Directory > Enregistrements des applications**, puis cliquez sur **Nouvel enregistrement d&#39;application**.
+1. Accédez à **Azure Active Directory > Enregistrements des applications**, puis cliquez sur **Nouvel enregistrement d’application**.
 1. Donnez un nom unique qui peut aider à identifier une instance, par exemple **adobecamcampaign`<instance identifier>`**.
 1. Sélectionnez **Type d&#39;application** comme **application Web/API**.
 1. Utilisez `http://localhost` comme **URL de connexion**.
@@ -71,7 +71,7 @@ En savoir plus sur [cette page](https://docs.microsoft.com/powerapps/developer/c
 
 Pour obtenir l’**identifiant de clé de certificat (customKeyIdentifier)** et l’**identifiant de clé (keyId)**, procédez comme suit :
 
-1. Accédez à **Azure Active Directory > Enregistrements des applications** et sélectionnez l&#39;application qui a été créée précédemment.
+1. Accédez à **Azure Active Directory > Enregistrements des applications** et sélectionnez l’application qui a été créée précédemment.
 1. Cliquez sur **Certificats et secret**.
 1. Cliquez sur **Télécharger le certificat**, puis recherchez et téléchargez le certificat public généré.
 1. Pour générer le certificat, vous pouvez utiliser openssl.
@@ -96,7 +96,7 @@ L’**identifiant de clé de certificat (customKeyIdentifier)** et l’**identif
 
 **Étape 1** : configurez les **autorisations obligatoires** pour l&#39;application qui a été créée.
 
-1. Accédez à **Azure Active Directory > Enregistrements des applications** et sélectionnez l&#39;application qui a été créée précédemment.
+1. Accédez à **Azure Active Directory > Enregistrements des applications** et sélectionnez l’application qui a été créée précédemment.
 1. Cliquez sur **Paramètres** en haut à gauche.
 1. Sur **Autorisations obligatoires**, cliquez sur **Ajouter** et **Sélectionner une API > Dynamics CRM Online**.
 1. Cliquez sur **Sélectionner**, activez la case **Accéder à Dynamics 365 en tant qu’utilisateurs de l’organisation** et cliquez sur **Sélectionner**.
@@ -141,11 +141,11 @@ L&#39;utilisateur de l&#39;application est l&#39;utilisateur que l&#39;applicati
 
 1. Depuis [Microsoft Azure](https://portal.azure.com), accédez à **Paramètres > Sécurité > Utilisateurs**.
 1. Cliquez dans la liste déroulante, sélectionnez **Utilisateurs de l&#39;application** et cliquez sur **Nouveau**.
-1. Utilisez le même nom d&#39;utilisateur que celui créé dans Active Directory ci-dessus
+1. Utilisez le même nom d’utilisateur que celui créé dans Active Directory ci-dessus
 
    >[!NOTE]
    >
-   >L&#39;utilisation du même nom génère une erreur de clé de duplicata. Aussi, tant que nous n&#39;obtenons pas de confirmation indiquant que cette étape est nécessaire, utilisez un autre nom d&#39;utilisateur et continuez.
+   >L’utilisation du même nom génère une erreur de clé en double. Aussi, tant que nous n’obtenons pas de confirmation indiquant que cette étape est nécessaire, utilisez un autre nom d’utilisateur et continuez.
    >
 
 1. Affectez l&#39;**ID de l&#39;application** à [l&#39;application que vous avez créée précédemment](#get-client-id-microsoft).

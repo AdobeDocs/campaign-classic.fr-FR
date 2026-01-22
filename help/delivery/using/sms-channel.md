@@ -16,7 +16,7 @@ ht-degree: 100%
 
 Utilisez Adobe Campaign pour envoyer des messages texte aux clients et aux clientes sur leurs appareils mobiles. Vous pouvez créer, personnaliser et prévisualiser des messages au format texte à partir de l’éditeur de SMS.
 
-Le canal SMS est un moyen direct et particulièrement efficace pour toucher les utilisateurs et utilisatrices, quel que soit l’endroit où ils se trouvent. Grâce à des taux d’ouverture élevés et à une diffusion quasi instantanée, le SMS est idéal pour les alertes urgentes, les notifications transactionnelles et les messages promotionnels concis. Il s’intègre parfaitement à une stratégie cross-canal pour assurer une communication percutante en temps réel. Découvrez comment configurer et utiliser efficacement le canal SMS dans la documentation d’[Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=fr){target=_blank}.
+Le canal SMS est un moyen direct et particulièrement efficace pour toucher les utilisateurs et utilisatrices, quel que soit l’endroit où ils se trouvent. Grâce à des taux d’ouverture élevés et à une diffusion quasi instantanée, le SMS est idéal pour les alertes urgentes, les mises à jour transactionnelles et les messages promotionnels concis. Il s’intègre parfaitement à une stratégie cross-canal pour assurer une communication percutante en temps réel. Découvrez comment configurer et utiliser efficacement le canal SMS dans la documentation d’[Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms.html?lang=fr){target=_blank}.
 
 Dans le cadre de la transition de Campaign v7 vers v8, le jeu de documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8.
 
@@ -48,7 +48,7 @@ Découvrez les étapes clés de la création d’une diffusion SMS dans la **doc
 Consultez les pages suivantes pour en savoir plus sur la configuration des SMS. Ces pages sont spécifiques à Campaign v7.
 
 * [Configuration autonome](sms-set-up.md) : découvrez comment configurer le canal SMS sur une instance autonome.
-* [Configuration de midsourcing](sms-set-up-mid.md) : découvrez comment envoyer des SMS à l’aide de serveurs intermédiaires.
+* [Configuration de midsourcing](sms-set-up-mid.md) : découvrez comment envoyer du contenu à un téléphone mobile à l’aide de serveurs intermédiaires.
 * [Connecteur SMS](sms-protocol.md) : découvrez le protocole et les paramètres du connecteur SMS.
 * [Configuration supplémentaire](sms-send.md) : découvrez les paramètres avancés et autres options de configuration.
 * [Dépannage](troubleshooting-sms.md) : nous avons répertorié une série de problèmes potentiels et leurs solutions.

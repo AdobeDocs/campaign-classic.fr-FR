@@ -44,7 +44,7 @@ Pour sélectionner les destinataires d’une diffusion, procédez comme suit :
 
    ![](assets/s_ncs_user_wizard_email02b.png)
 
-   Vous pouvez sélectionner les destinataires en utilisant les types de ciblage définis dans la base. Pour utiliser un type de cible, sélectionnez-le et cliquez sur **[!UICONTROL Suivant]**. Pour chaque cible, vous pouvez visualiser les destinataires concernés en cliquant sur l&#39;onglet **[!UICONTROL Aperçu]**. Pour certains types de cibles, le bouton **[!UICONTROL Affiner la cible]** permet de conjuguer plusieurs critères de ciblage.
+   Vous pouvez sélectionner les destinataires en utilisant les types de ciblage définis dans la base. Pour utiliser un type de cible, sélectionnez-le et cliquez sur **[!UICONTROL Suivant]**. Pour chaque cible, vous pouvez afficher les destinataires concernés en cliquant sur l’onglet **[!UICONTROL Aperçu]**. Pour certains types de cibles, le bouton **[!UICONTROL Affiner la cible]** permet de conjuguer plusieurs critères de ciblage.
 
    Par défaut, les types de cibles suivants sont proposés :
 
@@ -251,6 +251,6 @@ Ces mappings sont les suivants :
 
 Dans cette vidéo, vous apprendrez comment ajouter des adresses de contrôle et des BAT à un email existant et comment l’envoyer.
 
->[!VIDEO](https://video.tv.adobe.com/v/35541?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25606?quality=12)
 
 D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

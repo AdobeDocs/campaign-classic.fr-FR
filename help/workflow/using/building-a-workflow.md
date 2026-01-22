@@ -53,7 +53,7 @@ Vous devez maintenant définir les différentes activités et les relier entre e
 
 >[!NOTE]
 >
->Si la palette n&#39;est pas visible, cliquez sur le premier bouton de la barre d&#39;outils.
+>Si la palette n’est pas visible, cliquez sur le premier bouton de la barre d’outils.
 
 Les activités sont regroupées par catégories dans les onglets de la palette. Les onglets et activités disponibles peuvent varier en fonction du type de workflow (technique, de ciblage ou workflow de campagne).
 
@@ -99,7 +99,7 @@ Lʼaffichage et la mise en page du diagramme peuvent être modifiés à lʼaide 
   Les icônes relatives à la progression et l’affichage des logs sont présentées en détail dans les sections suivantes :
 
    * [Afficher la progression](../../workflow/using/monitoring-workflow-execution.md#displaying-progress)
-   * [Afficher les journaux](../../workflow/using/monitoring-workflow-execution.md#displaying-logs)
+   * [Afficher le log](../../workflow/using/monitoring-workflow-execution.md#displaying-logs)
 
 * **Alignement des objets**
 

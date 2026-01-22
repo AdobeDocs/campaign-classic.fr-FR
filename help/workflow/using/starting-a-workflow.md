@@ -23,7 +23,7 @@ Les actions relatives à l&#39;exécution du workflow de ciblage (lancement, arr
 
 La barre d&#39;outils permet de lancer et suivre l&#39;exécution du workflow.
 
-La liste des options disponibles dans le menu **[!UICONTROL Actions]** et le menu contextuel sont présentées dans les sections suivantes.
+La liste des options disponibles dans le menu **[!UICONTROL Actions]** et le menu contextuel est présentée dans les sections suivantes.
 
 >[!IMPORTANT]
 >
@@ -124,7 +124,7 @@ Les options disponibles dans le menu contextuel sont les suivantes :
 
 **[!UICONTROL Ouvrir :]** cette option permet d&#39;accéder aux propriétés de l&#39;activité.
 
-**[!UICONTROL Afficher le journal :]** cette option permet de visualiser le journal d&#39;exécution des tâches de l&#39;activité sélectionnée. Pour plus d&#39;informations, consultez la section [Afficher le journal](monitoring-workflow-execution.md#displaying-logs).
+**[!UICONTROL Afficher le log :]** cette option permet de visualiser le log d&#39;exécution des tâches de l&#39;activité sélectionnée. Pour plus d&#39;informations, consultez la section [Afficher le log](monitoring-workflow-execution.md#displaying-logs).
 
 **[!UICONTROL Traitement anticipé de la (des) tâche(s) :]** cette action permet de lancer dès que possible la ou les tâches en attente de l&#39;activité.
 

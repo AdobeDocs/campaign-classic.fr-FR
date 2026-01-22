@@ -158,7 +158,7 @@ Pour envoyer un BAT, procédez comme suit :
 
 En fonction des remarques du groupe de validation qui reçoit le BAT, vous serez amené à modifier le contenu de la diffusion. Une fois vos modifications effectuées, vous devez relancer l&#39;analyse puis envoyer à nouveau un BAT. Chaque nouveau BAT est numéroté et consigné dans le journal de la diffusion.
 
-Une fois la diffusion analysée, vous pouvez en visualiser les différents BAT depuis le sous-onglet **[!UICONTROL Bons à tirer]** du journal (onglet **[!UICONTROL Suivi]**).
+Une fois la diffusion analysée, vous pouvez en visualiser les différents BAT depuis le sous-onglet **[!UICONTROL Bons à tirer]** du log (onglet **[!UICONTROL Suivi]**).
 
 ![](assets/s_ncs_user_delivery_validation_cycle_03.png)
 

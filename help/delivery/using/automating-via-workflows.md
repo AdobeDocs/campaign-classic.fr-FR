@@ -142,7 +142,7 @@ L&#39;action finale de l&#39;activité est d&#39;enregistrer l&#39;instance de c
 
 Le ciblage de la population à diffuser est renseigné via l&#39;activité **Requête**.
 
-Une activité **Rendez-vous** a été ajoutée afin de ne lancer la diffusion qu&#39;une fois le requêtage de la cible et la mise à jour du contenu terminés.
+Une activité **Rendez-vous** a été ajoutée afin de ne lancer la diffusion qu’une fois la requête de la cible et les mises à jour du contenu terminées.
 
 L&#39;action de diffusion est paramétrée à partir de l&#39;activité **Diffusion** :
 

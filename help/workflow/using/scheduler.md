@@ -45,7 +45,7 @@ Un assistant permet de définir la fréquence et la période de validité de l�
 
    ![](assets/s_user_segmentation_scheduler2.png)
 
-1. Indiquez les heures et jours d&#39;activation. Les paramètres de cette étape dépendent de la périodicité sélectionnée à l&#39;étape précédente. Si vous choisissez de lancer l&#39;activité plusieurs fois par jour, les options de paramétrage seront les suivantes :
+1. Indiquez les heures et jours d’activation. Les paramètres de cette étape dépendent de la fréquence sélectionnée à l’étape précédente. Si vous choisissez de lancer l’activité plusieurs fois par jour, les options de configuration seront les suivantes :
 
    ![](assets/s_user_segmentation_scheduler3.png)
 

@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Spécificités par SGBDR
-description: Spécificités par SGBDR
+title: Recommandations spécifiques au SGBDR
+description: Recommandations spécifiques au SGBDR
 feature: Monitoring
 badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 audience: production
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ---
 
-# Spécificités par SGBDR{#rdbms-specific-recommendations}
+# Recommandations spécifiques au SGBDR{#rdbms-specific-recommendations}
 
 
 
@@ -453,7 +453,7 @@ L&#39;exemple ci-dessous concerne Microsoft SQL Server 2005. Si vous utilisez u
      >
      >Le processus de reconstruction de l&#39;index est plus contraignant en termes d&#39;utilisation du processeur et verrouille les ressources de la base de données. Sélectionnez l&#39;option **[!UICONTROL Conserver l&#39;index en ligne lors de la réindexation]** si vous souhaitez que l&#39;index soit disponible pendant la reconstruction.
 
-1. Choisissez les options du rapport d&#39;activité des tâches de maintenance puis cliquez sur **[!UICONTROL Suivant]**.
+1. Choisissez les options du rapport d’activité des tâches de maintenance, puis cliquez sur **[!UICONTROL Suivant]**.
 1. Vérifiez la liste des tâches du plan de maintenance puis cliquez sur **[!UICONTROL Terminer]**.
 
    L&#39;état d&#39;avancement du plan de maintenance et le statut des différentes étapes s&#39;affiche à l&#39;écran.

@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: managing-environments
 exl-id: bdda98f7-a083-4f3b-b691-c28ec79af780
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1037'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Pour créer un nouvel emplacement, procédez comme suit :
 
    ![](assets/offer_space_create_002.png)
 
-1. Cochez la case **[!UICONTROL Autoriser le mode unitaire]** si vous êtes dans l&#39;un des deux cas suivants :
+1. Cochez la case **[!UICONTROL Activer le mode unitaire]** si vous êtes dans l’un des deux cas suivants :
 
    * utilisation d&#39;Interaction avec Message Center
    * si vous utilisez le mode unitaire d&#39;Interaction (interactions entrantes)
@@ -101,7 +101,7 @@ Ces valeurs ne sont pas appliquées par défaut et doivent donc être paramétr�
 
 Lorsqu&#39;une proposition d&#39;offre est créée par le moteur d&#39;interaction, son état est modifié, qu&#39;il s&#39;agisse d&#39;une interaction entrante ou sortante. Le choix entre ces deux valeurs dépend de la configuration des emplacements dans l&#39;environnement **[!UICONTROL Conception]**.
 
-Pour chaque emplacement, vous pouvez paramétrer l&#39;état que vous souhaitez appliquer lors de la création de la proposition, selon l&#39;information que vous voulez voir apparaître dans les rapports d&#39;offre.
+Pour chaque emplacement, vous pouvez configurer l’état que vous souhaitez appliquer lors de la création de la proposition, selon les informations que vous voulez voir apparaître dans les rapports d’offre.
 
 Pour cela :
 
@@ -129,7 +129,7 @@ L&#39;onglet **[!UICONTROL Stockage]** permet de définir les états des proposi
 <BASE_URL>?a=UpdateStatus&p=<PRIMARY_KEY_OF_THE_PROPOSITION>&st=<NEW_STATUS_OF_THE_PROPOSITION>&r=<REDIRECT_URL>
 ```
 
-Par exemple, la proposition (identifiant **40004**) correspondant à l&#39;offre **Assurance habitation** et diffusée sur la page du site **Neobank** contient l&#39;URL suivante :
+Par exemple, la proposition (identifiant **40004**) correspondant à l’offre **Assurance habitation** et diffusée sur la page du site **Neobank** contient l’URL suivante : 
 
 ```
 <BASE_URL>?a=UpdateStatus&p=<40004>&st=<3>&r=<"http://www.neobank.com/insurance/subscribe.html">

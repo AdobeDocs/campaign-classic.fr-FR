@@ -34,7 +34,7 @@ La page de connexion de la console cliente permet de configurer ou de sélection
 
 ### Vous connecter avec votre Adobe ID
 
-Les utilisateurs de Campaign se connectent à la console Adobe Campaign à l&#39;aide de leur Adobe ID, via le système IMS (Adobe Identity Management System). Ils peuvent utiliser le même identifiant pour toutes les solutions d&#39;Adobe. La connexion est enregistrée lors de l&#39;utilisation d&#39;Adobe Campaign avec d&#39;autres solutions. Pour en savoir plus sur Adobe IMS, consultez [cette page](https://helpx.adobe.com/fr/enterprise/using/identity.html).
+Les utilisateurs de Campaign se connectent à la console Adobe Campaign à l&#39;aide de leur Adobe ID, via le système IMS (Adobe Identity Management System). Ils peuvent utiliser le même identifiant pour toutes les solutions d&#39;Adobe. La connexion est enregistrée lors de l&#39;utilisation d&#39;Adobe Campaign avec d&#39;autres solutions. Pour en savoir plus sur Adobe IMS, consultez [cette page](https://helpx.adobe.com/enterprise/using/identity.html).
 
 Pour configurer la connexion de Campaign Classic v7 avec le système de gestion des identités Adobe (IMS), consultez [cette page](../../integrations/using/about-adobe-id.md).
 

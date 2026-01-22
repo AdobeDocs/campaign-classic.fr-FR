@@ -5,7 +5,7 @@ description: élément key
 feature: Schema Extension
 exl-id: 3d0ef574-27a3-40f2-91a0-70e9583d9980
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '322'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ Par convention, les clefs sont déclarées après la déclaration de l&#39;élé
 
 Une clé est connue sous le nom de composite si elle comprend plusieurs champs (plusieurs `<keyfield>` enfants, par exemple). N’utilisez pas de clé composite pour définir une clé primaire.
 
-Si l&#39;élément principal du schéma contient l&#39;attribut &quot;@autopk=true&quot; alors la clef primaire est unique. Une seule clef primaire doit être déclarée par schéma.
+Si l’élément principal du schéma contient l’attribut « @autopk=true », alors la clé primaire est unique. Une seule clé primaire doit être déclarée par schéma.
 
 Les 1000 premiers identifiants sont réservés donc si une plage de valeurs doit être définies pour les clefs, il faut la commencer après la valeur 1000.
 
@@ -71,7 +71,7 @@ Déclaration d&#39;une clef composite autorisant un des deux champs la composant
  </key>
 ```
 
-Déclaration d&#39;une clef primaire sur le champ « Name » de type STRING dans `<srcschema>` et la requête SQL correspondante :
+Déclaration dune clé primaire sur le champ « Name » de type STRING dans `<srcschema>` et la requête SQL correspondante :
 
 ```
  

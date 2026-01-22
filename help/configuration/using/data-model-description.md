@@ -157,14 +157,14 @@ Ce tableau contient des informations importantes stockées au format XML, notamm
 Le contexte d’exécution renseigne les tables et les champs à prendre en compte pour le calcul des mesures, à savoir :
 * Le schéma de stockage des logs de réaction nms:remaMatchRcp
 *  Le schéma de la table de transaction (achats, par exemple)
-* Le schéma de requêtage, destiné à définir la table de départ des conditions des hypothèses
-* Les liens vers les personnes, pour les identifier spécifiquement en fonction du schéma de requêtage
+* Le schéma de requête, qui vous permet de définir la table de départ des conditions de l’hypothèse.
+* Les liens vers les personnes, pour les identifier spécifiquement en fonction du schéma de requête
 * La date de transaction Ce champ n’est pas obligatoire, mais nous vous recommandons de l’utiliser pour limiter le périmètre de calcul.
 * Le montant de la transaction : il s’agit d’un champ facultatif pour calculer automatiquement les indicateurs de chiffre d’affaires.
 
 **Périmètre de l’hypothèse (informations stockées au format XML)**
 
-Le périmètre de l’hypothèse consiste à filtrer l’hypothèse en fonction de la table du schéma de requêtage.
+Le périmètre de l’hypothèse consiste à filtrer l’hypothèse en fonction de la table du schéma de requête.
 
 **Script de surcharge d’hypothèse (informations stockées au format XML)**
 

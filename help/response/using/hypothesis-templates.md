@@ -119,7 +119,7 @@ Cet onglet contient les différents champs et tables permettant de conserver l&#
 
 * **[!UICONTROL Schéma (stockage des logs de réaction)]** : indiquez la table des réactions des destinataires. La table livrée d&#39;usine dans Adobe Campaign est **NmsRemaMatchRcp**.
 * **[!UICONTROL Schéma des transactions]** : choisissez la table sur laquelle vous allez effectuer vos hypothèses, soit la table des transactions ou des achats.
-* **[!UICONTROL Schéma de requêtage]** : sélectionnez les critères permettant de filtrer l&#39;hypothèse.
+* **[!UICONTROL Schéma de requête]** : sélectionnez les critères permettant de filtrer l’hypothèse.
 * **[!UICONTROL Lien vers les individus]** : sélectionnez le lien entre les individus et la table sélectionnée comme schéma des transactions.
 * **[!UICONTROL Lien vers le foyer]** : sélectionnez le lien vers le foyer dans le schéma des transactions si vous souhaitez inclure l&#39;ensemble des membres d&#39;un foyer dans votre hypothèse. Ce champ est optionnel.
 * **[!UICONTROL Date de transaction]** : ce champ est optionnel mais recommandé car il permet de délimiter le périmètre du calcul de l&#39;hypothèse.
@@ -212,7 +212,7 @@ Dans cet exemple, vous allez créer un modèle d&#39;hypothèse sur une diffusio
 
    ![](assets/response_hypothesis_model_example_007.png)
 
-1. Sélectionnez les lignes d&#39;achat dans le champ **[!UICONTROL Schéma de requêtage]**.
+1. Sélectionnez les lignes d’achat dans le champ **[!UICONTROL Schéma de requête]**. 
 
    ![](assets/response_hypothesis_model_example_008.png)
 

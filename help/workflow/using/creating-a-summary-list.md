@@ -145,7 +145,7 @@ L&#39;objectif de ce deuxième enrichissement est de créer un agrégat sur le s
 1. Positionnez une activité **Requête** permettant de récupérer l&#39;intégralité des **Contacts** stockés.
 1. Positionnez une activité **Enrichissement** puis sélectionnez l&#39;ensemble principal résultant de la requête précédente.
 1. Cliquez sur **[!UICONTROL Ajouter des données]**.
-1. Cliquez sur l&#39;option **[!UICONTROL Données liées à la dimension de filtrage]**.
+1. Cliquez sur l’option **[!UICONTROL Données liées à la dimension de ciblage]**.
 1. Cliquez sur **[!UICONTROL Données liées à la dimension de filtrage]** dans la fenêtre **[!UICONTROL Choix des données à ajouter]**.
 1. Sélectionnez le noeud **[!UICONTROL Achats]** puis cliquez sur **[!UICONTROL Suivant]**.
 

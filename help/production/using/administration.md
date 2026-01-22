@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Administration
-description: Administration
+title: 'Administration '
+description: 'Administration '
 feature: Monitoring
 badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 audience: production
@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: production-procedures
 exl-id: 12a255fe-66f9-40ce-b19e-c24322c2e009
 source-git-commit: b7dedddc080d1ea8db700fabc9ee03238b3706cc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '425'
 ht-degree: 100%
 
@@ -103,4 +103,4 @@ Voici une liste des commandes usuelles d&#39;administration accessibles sous Lin
 
   >[!NOTE]
   >
-  >Certaines modifications de la configuration ne sont pas prises en compte dynamiquement et nécessitent un arrêt/démarrage complet d&#39;Adobe Campaign.
+  >Certaines modifications de la configuration ne sont pas prises en compte dynamiquement et nécessitent un arrêt complet puis redémarrage dAdobe Campaign.

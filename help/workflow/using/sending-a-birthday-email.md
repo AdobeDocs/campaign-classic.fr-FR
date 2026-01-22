@@ -204,7 +204,7 @@ Ajoutez une activité de type **Diffusion récurrente** basée sur le modèle de
 
 >[!CAUTION]
 >
->Pour que les workflows s’exécutent, les workflows techniques liés au package Campaign doivent être démarrés. Voir à ce sujet la section [Liste des workflows techniques](about-technical-workflows.md).
+>Pour que les workflows s’exécutent, les workflows techniques liés au kit de campagne doivent être démarrés. Voir à ce sujet la section [Liste des workflows techniques](about-technical-workflows.md).
 >
 >Si les étapes d&#39;approbation sont activées pour la campagne, les diffusions ne sont envoyées qu&#39;une fois ces étapes confirmées. Voir à ce sujet la section [Choix des processus à approuver](../../campaign/using/marketing-campaign-approval.md#choosing-the-processes-to-be-approved).
 

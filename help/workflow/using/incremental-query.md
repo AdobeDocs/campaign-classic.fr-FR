@@ -8,7 +8,7 @@ hidefromtoc: true
 exl-id: abc08232-1a92-41e8-90f1-02e0a673539b
 source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: ht
-source-wordcount: '380'
+source-wordcount: '379'
 ht-degree: 100%
 
 ---
@@ -64,7 +64,7 @@ Pour cela :
 ## Paramètres de sortie {#output-parameters}
 
 * tableName
-* schema
+* schéma
 * recCount
 
-Ce jeu de trois valeurs identifie la population ciblée par la requête. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (habituellement nms:recipient) et **[!UICONTROL recCount]** est le nombre d’éléments dans la table.
+Ce jeu de trois valeurs identifie la population ciblée par la requête. **[!UICONTROL tableName]** est le nom de la table qui enregistre les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (généralement nms:recipient) et **[!UICONTROL recCount]** est le nombre d’éléments dans la table.

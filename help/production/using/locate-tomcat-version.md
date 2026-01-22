@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: troubleshooting
 exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '515'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ Tomcat s’exécute sur Java et nécessite l’installation du JDK. Pour plus d�
 
 La version de Tomcat utilisée dans Adobe Campaign est une version intégrée personnalisée qui n&#39;utilise pas toutes les fonctionnalités de la version complète de Tomcat disponible en général. Elle peut donc ne pas présenter toutes les vulnérabilités de la version complète. Le Tomcat ne devrait pas non plus être exposé à l’Internet extérieur. Par ailleurs, les instances d’Adobe Campaign exposées devraient avoir un serveur web externe (IIS, Apache, etc.) devant le Tomcat pour le protéger.
 
-Les versions nouvelles ou mises à niveau des versions intégrées de Tomcat ne sont publiées qu’avec de nouvelles builds d’Adobe Campaign et non comme des correctifs distincts en dehors des versions Adobe Campaign.
+Les versions nouvelles ou mises à niveau des versions intégrées de Tomcat ne sont publiées qu’avec de nouvelles versions d’Adobe Campaign et non comme des correctifs distincts en dehors des versions Adobe Campaign.
 
 >[!AVAILABILITY]
 >

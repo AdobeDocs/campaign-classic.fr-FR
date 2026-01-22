@@ -23,7 +23,7 @@ Lors de la conception du contenu de votre message, évitez les problèmes couran
 
 Pour éviter des problèmes courants qui peuvent vous empêcher d&#39;exécuter votre diffusion et d&#39;améliorer l&#39;expérience de vos destinataires, Adobe Campaign vous permet de personnaliser vos messages.
 
-Vous pouvez utiliser les données des destinataires stockées dans la base de données Adobe Campaign ou collectées par le biais du tracking, des landing pages, des inscriptions, etc.
+Vous pouvez utiliser les données des destinataires stockées dans la base de données Adobe Campaign ou collectées par le biais du tracking, des landing pages, des inscriptions, etc.
 Les principes de base de la personnalisation sont présentés dans [cette section](personalization-fields.md).
 
 Vérifiez que le contenu de votre message est correctement conçu pour éviter les erreurs généralement liées à la personnalisation.

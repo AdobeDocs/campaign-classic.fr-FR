@@ -147,7 +147,7 @@ Pour plus d’informations sur la résolution des problèmes d’exécution des 
 
 ## Traiter les erreurs {#processing-errors}
 
-Au niveau des activités, l&#39;option **[!UICONTROL Traiter les erreurs]** fait apparaître une transition particulière qui sera activée si une erreur est générée. Dans ce cas, le workflow ne passe pas en état d&#39;erreur et continue son exécution.
+Au niveau des activités, l’option **[!UICONTROL Traiter les erreurs]** fait apparaître une transition particulière qui sera activée si une erreur est générée. Dans ce cas, le workflow ne passe pas en état d’’erreur et continue son exécution. 
 
 Les erreurs prises en compte sont les erreurs du système de fichiers (impossible de déplacer un fichier, impossible d&#39;accéder au répertoire, etc.).
 

@@ -6,7 +6,7 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Landing Pages, Web Forms
 exl-id: 63602bed-ace6-4632-a735-5d268a7d72d0
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '521'
 ht-degree: 100%
 
@@ -77,13 +77,13 @@ La définition du contenu et de la mise en page des écrans du formulaire sont p
 
 >[!NOTE]
 >
->* Au cours de la conception des pages, vous pouvez visualiser le rendu final dans l&#39;onglet **[!UICONTROL Aperçu]**. Pour visualiser les modifications, vous devez d’abord enregistrer le formulaire. Les erreurs éventuelles sont affichées dans l&#39;onglet **[!UICONTROL Journal]**.
->* Vous pouvez contrôler le bon enchaînement des pages et le stockage des informations en activant le mode debug au niveau du formulaire Web. Pour cela, à partir du sous-onglet **[!UICONTROL Aperçu]**, cochez l&#39;option **[!UICONTROL Activer le mode debug]** : les informations collectées et les éventuelles erreurs d&#39;exécution seront alors affichées en bas de chaque page.
+>* Au cours de la conception des pages, vous pouvez visualiser le rendu final dans l&#39;onglet **[!UICONTROL Aperçu]**. Pour visualiser les modifications, vous devez d’abord enregistrer le formulaire. Les erreurs éventuelles sont affichées dans l&#39;onglet **[!UICONTROL Log]**.
+>* Vous pouvez contrôler le bon enchaînement des pages et le stockage des informations en activant le mode debug au niveau du formulaire web. Pour cela, à partir du sous-onglet **[!UICONTROL Aperçu]**, cochez l&#39;option **[!UICONTROL Activer le mode debug]** : les informations collectées et les éventuelles erreurs d&#39;exécution seront alors affichées en bas de chaque page.
 >
 
 ### Utiliser les icônes de la barre d&#39;outils {#using-the-icons-in-the-toolbar}
 
-Vous pouvez également utiliser les icônes de la barre d&#39;outils ou le bouton droit de la souris pour insérer une zone de saisie.
+Vous pouvez également utiliser les icônes de la barre d’outils ou le bouton droit de la souris pour insérer une zone de saisie.
 
 ![](assets/s_ncs_admin_webform_add_selection.png)
 

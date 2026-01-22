@@ -74,7 +74,7 @@ Adobe s’engage à vous offrir une expérience optimale et de la valeur ajouté
 
 Adobe Campaign Classic, en particulier, utilise toute une gamme de technologies pour offrir une valeur ajoutée. Cette combinaison de technologies requiert que vous effectuiez régulièrement une mise à niveau de votre ou vos instances Campaign Classic afin que les toutes dernières versions soient utilisées pour offrir une sécurité, une stabilité et des performances supérieures.
 
-En tant qu’utilisateur hébergé, vous bénéficiez automatiquement de la mise à niveau vers la dernière build stable sans aucune action à effectuer. Pour en savoir plus, consultez les FAQ ci-dessous.
+En tant qu’utilisateur hébergé, vous bénéficiez automatiquement de la mise à niveau avec le dernier build GA sans que vous n’ayez aucune action à effectuer. Pour en savoir plus, consultez les FAQ ci-dessous.
 
 ### Pourquoi mon entreprise a-t-elle besoin de cette mise à niveau ?
 
@@ -84,7 +84,7 @@ En tant que client on-premise ou hybride utilisant une build plus ancienne, Adob
 
 Votre compte sera ainsi protégé contre les vulnérabilités et pourra tirer parti des technologies de performances les plus récentes. Cette mise à niveau permettra aussi d’effectuer à l’avenir des mises à niveau plus simples et régulières de votre compte. Celles-ci nécessiteront, en outre, moins de tâches manuelles et d’intervention.
 
-### Quels sont la procédure et le calendrier de cette mise à niveau ?
+### Quelles sont la procédure et la chronologie de cette mise à niveau ?
 
 L’équipe d’Adobe accompagne et guide votre entreprise tout au long de ce parcours.
 
@@ -114,7 +114,7 @@ Une équipe constituée de représentants et représentantes de l’assistance c
     <ul>
     <li>De fait, la plupart des problèmes sont résolus grâce aux mises à niveau et peuvent être évités.</li>
     <li>Des mises à niveau régulières permettent de relever les défis auxquels les entreprises doivent faire face et augmentent ainsi leur efficacité.</li>
-    <li>Le nombre d’interventions de l’assistance clientèle est réduit, ce qui entraîne des résolutions plus rapides. Il est ainsi possible d’accorder davantage d’attention aux problèmes non liés aux mises à niveau.</li>
+    <li>Le nombre d’interventions de l’assistance clientèle est réduit, ce qui entraîne des résolutions plus rapides. Il est ainsi possible d’accorder davantage d’attention aux problèmes non liés aux mises à niveau</li>
     </ul>
   </td>
 </tr>
@@ -133,7 +133,7 @@ Une équipe constituée de représentants et représentantes de l’assistance c
   </td>
 
 <td>
-      <img alt="Mise à niveau des builds" src="assets/do-not-localize/upgrades.png" />
+      <img alt="Mise à niveau de build" src="assets/do-not-localize/upgrades.png" />
     <div>
     <strong>Mises à niveau plus faciles</strong>
     </a>
@@ -141,7 +141,7 @@ Une équipe constituée de représentants et représentantes de l’assistance c
     <ul>
     <li>Les efforts que demande une mise à niveau de votre instance Campaign Classic et la complexité de celle-ci augmentent avec l’écart entre deux versions.</li>
     <li>Plus votre entreprise attend, plus la mise à niveau est complexe (et plus vous êtes exposé à des vulnérabilités).</li>
-    <li>Des mises à niveau régulières réduisent le temps d’arrêt nécessaire pour les effectuer et limitent le risque de régression.</li>
+    <li>Des mises à jours régulières réduisent le temps d’arrêt nécessaire pour les effectuer et limitent le risque de régression.</li>
     </ul>
   </td>
 </tr>
@@ -153,6 +153,6 @@ Une équipe constituée de représentants et représentantes de l’assistance c
 * [Aide et support](../../support.md)
 * [Versions du Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr)
 * [Fonctionnalités obsolètes et supprimées](../../rn/using/deprecated-features.md)
-* [FAQ sur la mise à niveau des builds](../../platform/using/faq-build-upgrade.md)
+* [FAQ sur la mise à niveau de build](../../platform/using/faq-build-upgrade.md)
 
 Pour être informé des nouvelles versions de la solution Experience Cloud, abonnez-vous à la [Mise à jour produit prioritaire d’Adobe](https://www.adobe.com/fr/subscription/priority-product-update.html).

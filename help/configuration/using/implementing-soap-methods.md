@@ -105,7 +105,7 @@ function nms_recipient_setLastName(self, name)
  }
 ```
 
-Lorsque plusieurs valeurs doivent être retournées, celles-ci doivent être retournées sous la forme d&#39;un tableau.
+Lorsque plusieurs valeurs doivent être renvoyées, elles doivent l’être sous la forme d’un tableau.
 
 Exemple:
 

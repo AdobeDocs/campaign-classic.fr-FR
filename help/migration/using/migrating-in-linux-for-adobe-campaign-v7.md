@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 exl-id: 9dc0699c-0fbf-4f8e-81f7-8ca3d7e98798
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '491'
 ht-degree: 100%
 
@@ -214,7 +214,7 @@ Arrêtez d&#39;abord tous les processus accédant à la base de données, sur to
 Cette section montre comment désinstaller les packages Adobe Campaign v6.1.
 
 1. Connectez-vous en tant que **root**.
-1. Identifiez les packages Adobe Campaign installés à l&#39;aide de la commande suivante.
+1. Identifiez les packages Adobe Campaign installés à l’aide de la commande suivante.
 
    * Sous **Debian** :
 
@@ -467,7 +467,7 @@ To deploy Adobe Campaign, apply the following steps:
 Le déploiement d&#39;Adobe Campaign se déroule en deux parties :
 
 * L&#39;installation des packages Adobe Campaign v7 : cette opération doit être effectuée sur chaque serveur.
-* Le postupgrade : cette commande doit être lancée sur chaque instance.
+* Après la mise à niveau : cette commande doit être lancée sur chaque instance.
 
 Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
 

@@ -61,7 +61,7 @@ Le schéma suivant montre les différentes ressources interagissant dans l&#39;u
 
 ![](assets/s_ncs_integration_webservices_schema_pres.png)
 
-## Exemple de message SOAP sur la méthode &#39;ExecuteQuery&#39; {#example-of-a-soap-message-on-the--executequery--method--}
+## Exemple de message SOAP sur la méthode « ExecuteQuery » {#example-of-a-soap-message-on-the--executequery--method--}
 
 Dans cet exemple, une requête SOAP invoque la méthode « ExecuteQuery » qui prend comme paramètre une chaîne de caractères pour l’authentification (jeton de session) et un contenu XML pour la description de la requête à exécuter.
 

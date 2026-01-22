@@ -175,7 +175,7 @@ Cette tâche purge toutes les diffusions à supprimer ou à recycler.
 
 Le workflow **[!UICONTROL Nettoyage de la base]** supprime également les diffusions sur le(s) serveur(s) de mid-sourcing.
 
-1. Pour cela, le workflow vérifie que chaque diffusion est inactive (en se basant sur son état). Si une diffusion est active, elle sera interrompue avant d&#39;être supprimée. La vérification est effectuée en exécutant la requête suivante :
+1. Pour cela, le workflow vérifie que chaque diffusion est inactive (en se basant sur son statut). Si une diffusion est active, elle sera interrompue avant d’être supprimée. La vérification est effectuée en exécutant la requête suivante :
 
    ```sql
    SELECT iState FROM NmsDelivery WHERE iDeliveryId = $(l) AND iState <> 100;

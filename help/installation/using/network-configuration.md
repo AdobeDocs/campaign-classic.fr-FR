@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: b86236ae-95e9-4406-b60f-6d90ad0d4a01
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '704'
 ht-degree: 100%
 
@@ -192,7 +192,7 @@ En outre, certains composants doivent être accessibles depuis l’Internet publ
 
 ### Serveur Web externe {#external-web-server}
 
-Ce serveur héberge les formulaires Web, pages miroir, etc. Les ports suivants doivent être ouverts :
+Ce serveur héberge les formulaires web, pages miroir, etc. Les ports suivants doivent être ouverts :
 
 <table> 
  <tbody> 

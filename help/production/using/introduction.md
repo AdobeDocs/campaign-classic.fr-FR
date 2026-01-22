@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 3e39a0d2-ff7e-4233-82bb-2b360f696a33
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '193'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Ce chapitre présente la procédure à suivre pour mettre à niveau Adobe Campa
 >Pour les instances de services hébergés/gérés, vous devez collaborer avec votre administrateur Adobe.\
 >Pour les instances on-premise, vous pouvez obtenir de l&#39;aide auprès des consultants Adobe.
 
-L&#39;opération de mise à niveau doit être effectuée sur l&#39;ensemble des serveurs où Adobe Campaign est installé.
+L’opération de mise à niveau doit être effectuée sur l’ensemble des serveurs où Adobe Campaign est installé.
 
 1. Migrez les serveurs de redirection et de tracking (Apache / IIS).
 1. Migrez les serveurs de Power Booster/Cluster.

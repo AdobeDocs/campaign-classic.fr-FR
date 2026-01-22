@@ -5,7 +5,7 @@ description: En savoir plus sur les bonnes pratiques relatives à la gestion des
 feature: Installation, Access Management, Permissions
 exl-id: af88e4e7-0ee3-48b4-9db4-7dd390d9d46a
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
 ht-degree: 100%
 
@@ -27,7 +27,7 @@ L’opérateur webApp par défaut est un administrateur. Pour améliorer la séc
 
    1. Dupliquez l’opérateur webApp.
 
-   1. Saisissez un nom pour chaque duplicata. Par exemple : webapp_brand, webapp_brand2, etc.
+   1. Saisissez un nom pour chaque doublon. Par exemple : webapp_brand, webapp_brand2, etc.
 
    1. Dupliquez un modèle d’application web pour disposer d’un modèle par marque et modifiez les propriétés afin de changer l’opérateur en sélectionnant l’option Utiliser un compte spécifique.  En savoir plus sur [cette page](../../web/using/defining-web-forms-properties.md).
 

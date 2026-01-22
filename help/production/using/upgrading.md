@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Upgrade vers un nouveau build
-description: Découvrez les étapes techniques clés de l'upgrade vers un nouveau build
+description: Découvrez les étapes techniques clés de la mise à niveau vers un nouveau build
 feature: Monitoring, Upgrade
 badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 audience: production
@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
 source-git-commit: 0da7fb912a909af222d796652efba4b30e39dc1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1247'
 ht-degree: 100%
 
@@ -17,13 +17,13 @@ ht-degree: 100%
 
 # Upgrade vers un nouveau build (On-Premise){#upgrading}
 
-Avant de commencer la mise à jour, déterminez et confirmez la version d’Adobe Campaign vers laquelle elle s’effectue et consultez les [notes de mises à jour](../../rn/using/latest-release.md) 
+Avant de commencer la mise à niveau, déterminez et confirmez la version d’Adobe Campaign vers laquelle elle s’effectue et consultez les [notes de mises à jour](../../rn/using/latest-release.md)
 
 >[!IMPORTANT]
 >
 >* Adobe recommande vivement d’effectuer une sauvegarde de base de données sur chaque instance avant de procéder à la mise à jour. Pour plus d’informations, consultez [cette section](../../production/using/backup.md).
 >* Pour effectuer une mise à niveau, vérifiez que vous avez la possibilité et les autorisations d’accéder aux instances et aux logs.
->* Lisez [cette section](../../installation/using/general-architecture.md) et le chapitre [Upgrade de build](https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html) avant de commencer.
+>* Lisez [cette section](../../installation/using/general-architecture.md) et le chapitre [Mise à niveau de build](https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html) avant de commencer.
 >
 
 ## Windows {#in-windows}
@@ -95,7 +95,7 @@ Vous pourrez ainsi effectuer les opérations suivantes :
 >
 >Cette opération n&#39;est à effectuer qu&#39;une seule fois et uniquement sur un serveur applicatif (**nlserver web**).
 
-Vérifiez ensuite si la synchronisation a généré des erreurs ou des avertissements. Voir à ce sujet la section [Résoudre les conflits de mise à jour](#resolving-upgrade-conflicts).
+Vérifiez ensuite si la synchronisation a généré des erreurs ou des avertissements. Voir à ce sujet la section [Résoudre les conflits de mise à niveau](#resolving-upgrade-conflicts).
 
 ### Redémarrer les services {#restart-services}
 
@@ -176,7 +176,7 @@ Vous pouvez ensuite installer les packages requis, comme indiqué ci-dessous :
 
 >[!NOTE]
 >
->Les procédures complètes d’installation sont décrites dans [cette section](../../installation/using/installing-packages-with-linux.md). La synchronisation des ressources se fait automatiquement. En revanche, vous devez vérifier qu’elle s’est déroulée sans erreur. Voir à ce sujet la section [Résoudre les conflits d’upgrade](#resolving-upgrade-conflicts).
+>Les procédures complètes d’installation sont décrites dans [cette section](../../installation/using/installing-packages-with-linux.md). La synchronisation des ressources se fait automatiquement. En revanche, vous devez vérifier qu’elle s’est déroulée sans erreur. Voir à ce sujet la section [Résoudre les conflits de mise à niveau](#resolving-upgrade-conflicts).
 >
 
 ### Redémarrer le serveur Web {#reboot-the-web-server}
@@ -202,7 +202,7 @@ Puis redémarrez Apache :
 /etc/init.d/apache start
 ```
 
-## Résoudre les conflits d’upgrade {#resolving-upgrade-conflicts}
+## Résoudre les conflits de mise à niveau {#resolving-upgrade-conflicts}
 
 Lors de la synchronisation des ressources, la commande **postupgrade** permet de détecter si la synchronisation génère des erreurs ou des avertissements.
 

@@ -21,7 +21,7 @@ Intégrée à un workflow de ciblage, l&#39;activité **[!UICONTROL Validation e
 
 >[!CAUTION]
 >
->Pour utiliser cette fonction, vous devez acquérir le module Distributed Marketing, qui est une option de Campaign. Vérifiez votre contrat de licence.
+>Pour utiliser cette fonction, vous devez acheter le module Distributed Marketing, qui est une option de Campaign. Vérifiez votre contrat de licence.
 
 Pour réaliser ce cas d&#39;utilisation, nous avons créé le workflow de ciblage suivant :
 

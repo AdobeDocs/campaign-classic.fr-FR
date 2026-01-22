@@ -6,7 +6,7 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Surveys
 exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '831'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Dans un formulaire, les champs permettent aux utilisateurs de saisir des informa
 
 >[!NOTE]
 >
->Vous pouvez également utiliser le bouton droit de la souris pour insérer une zone de saisie. Par défaut, la zone est toujours insérée à la fin de l&#39;arborescence courante. Elle peut être déplacée en utilisant les flèches de la barre d&#39;outils.
+>Vous pouvez également utiliser le bouton droit de la souris pour insérer une zone de saisie. Par défaut, la zone est toujours insérée à la fin de l’arborescence courante. Elle peut être déplacée en utilisant les flèches de la barre d’outils.
 
 ### Types de champs {#types-of-fields}
 

@@ -19,7 +19,7 @@ L&#39;écran de création et de configuration des documents de paramétrage de l
 
 ![](assets/d_ncs_integration_navigation_arbo.png)
 
-Le paramétrage de l&#39;arborescence de navigation est réparti entre plusieurs documents XML. Le principe est similaire à celui de l&#39;extension des schémas : tous les documents sont fusionnés pour générer un document unique contenant l&#39;ensemble du paramétrage. Celui-ci n&#39;est pas éditable et peut être visualisé à partir de l&#39;onglet &quot;Aperçu&quot;.
+La configuration de l’arborescence de navigation est répartie entre plusieurs documents XML. Le principe est semblable à celui de l’extension des schémas : tous les documents sont fusionnés pour générer un document unique contenant l’ensemble de la configuration. Celui-ci n’est pas modifiable et peut être visualisé à partir de l’onglet « Aperçu ».
 
 La zone d&#39;édition renseigne le contenu du document XML :
 

@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 1ce89c3a-1fe6-4ed6-9547-2eb9713a0ec3
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '427'
 ht-degree: 100%
 
@@ -43,8 +43,8 @@ Dans le compte externe **Adobe Marketing Cloud** de Campaign, vérifiez que la v
 
 **Masque de correspondance**
 
-* Vérifiez que l&#39;utilisateur tentant de se connecter fait partie d&#39;un groupe d&#39;opérateurs dans Enterprise Dashboard.
-* Vérifiez que le **[!UICONTROL masque de correspondance]** est un préfixe du nom de groupe d&#39;opérateurs de l&#39;utilisateur dans Enterprise Dashboard.
+* Vérifiez que l’utilisateur tentant de se connecter fait partie d’un groupe d’opérateurs dans Enterprise Dashboard.
+* Vérifiez que le **[!UICONTROL masque de correspondance]** est un préfixe du nom de groupe d’opérateurs de l’utilisateur dans Enterprise Dashboard.
 * Assurez-vous qu&#39;il n&#39;y a aucun espace blanc ni faute d&#39;orthographe.
 * Vérifiez que les noms des groupes d&#39;opérateurs dans Campaign n&#39;ont pas été modifiés et qu&#39;ils respectent la syntaxe suivante :
 

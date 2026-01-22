@@ -37,7 +37,7 @@ Si vous avez déjà effectué la mise à niveau, mais que vous utilisez une anci
 
 * En tant que client hébergé, Adobe a déjà mis à niveau votre ou vos instances vers la version la plus récente.
 
-* En tant que client On-premise/hybride, vous devez effectuer la mise à niveau vers l&#39;une des versions répertoriées ci-dessus pour bénéficier de la nouvelle console cliente et assurer une transition harmonieuse **avant le 30 juin 2021**.
+* En tant que client On-premise/hybride, vous devez effectuer la mise à niveau vers l’une des versions répertoriées ci-dessus pour bénéficier de la nouvelle console cliente et assurer une transition harmonieuse **avant le 30 juin 2021**.
 
   La mise à niveau vers l’une des nouvelles versions répertoriées ci-dessous est obligatoire :
 
@@ -92,7 +92,7 @@ Si vous n’avez pas mis à jour votre version d’Internet Explorer, le message
 ## Liens utiles
 
 * [Mise à niveau de votre environnement](../../production/using/build-upgrade.md)
-* [FAQ sur la mise à niveau des builds](../../platform/using/faq-build-upgrade.md)
+* [FAQ sur la mise à niveau de build](../../platform/using/faq-build-upgrade.md)
 * [Mise à disposition de la nouvelle console cliente auprès des utilisateurs](../../installation/using/client-console-availability-for-windows.md)
 * [Installer la console cliente Campaign](../../installation/using/installing-the-client-console.md)
 * [Accéder à la distribution logicielle Adobe](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=fr)

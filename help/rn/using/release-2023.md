@@ -38,7 +38,7 @@ _5 décembre 2023_
 
 ### Correctifs {#release-7-3-5-patches}
 
-* Correction d’un problème lors de l’utilisation de données d’une base de données Google Big Query et de la mise à jour de données dans une base de données Oracle : toutes les clés étaient définies sur `0` dans la table temporaire du workflow. (NEO-65091)
+* Correction d’un problème lors de l’utilisation de données d’une base de données Google BigQuery et de la mise à jour de données dans une base de données Oracle : toutes les clés étaient définies sur `0` dans la table temporaire du workflow. (NEO-65091)
 * Correction d’un problème qui entraînait l’échec de l’exécution d’un workflow lorsque deux requêtes sur une base de données Google Big Query étaient combinées dans une activité de workflow d’**Union**. (NEO-63705)
 * Correction d’un problème en raison duquel la personne était invitée à se réauthentifier lors du clic sur le bouton `Back` d’un rapport Campaign. (NEO-65087)
 * Correction d’une erreur dans le workflow Nettoyage de la base qui se produisait lorsqu’une diffusion était supprimée avant ses BAT. (NEO-48114)
@@ -96,14 +96,14 @@ _7 septembre 2023_
 * Correction d’un problème en raison duquel une fenêtre contextuelle s’ouvrait lors d’un clic sur une image dans l’éditeur de contenu d’e-mail. (NEO-60752)
 * Correction d’une erreur qui entraînait le codage incorrect des caractères spéciaux dans le contenu HTML d’une diffusion dans plusieurs navigateurs. (NEO-60081)
 * Correction d’un problème de synchronisation qui pouvait se produire lors de l’utilisation de l’activité de workflow inSMS. (NEO-59544)
-* Correction d’un problème lors de l’utilisation du connecteur Big Query avec les champs datetime ou date et heure. (NEO-59502, NEO-49768)
+* Correction d’un problème lors de l’utilisation du connecteur BigQuery avec les champs datetime ou date et heure. (NEO-59502, NEO-49768)
 * Correction d’un problème qui empêchait l’utilisation des rapports de diffusion cumulés. (NEO-59211)
 * Correction d’un problème qui pouvait entraîner des erreurs lors du partage d’audiences avec People Core Service. (NEO-58637)
 * Correction d’un problème lors de l’affichage de la page miroir d’une diffusion. (NEO-58325)
 * Correction d’un problème qui empêchait le fonctionnement de l’expression xtk XtkLibrary.Right(). (NEO-57870)
 * Correction d’un problème qui entraînait la modification de l’attribut de style de la balise body lors du chargement d’une image dans Digital Content Editor. (NEO-57697)
 * Correction d’un problème lié aux caractères spéciaux lors de l’exécution d’exports par lots avec l’activité du connecteur CRM. (NEO-54300)
-* Correction d’un problème qui empêchait le chargement en masse de fonctionner avec les types de données « string » lors de l’utilisation d’une activité de chargement de données et du connecteur Big Query. (NEO-53748)
+* Correction d’un problème qui empêchait le chargement en masse de fonctionner avec les types de données « string » lors de l’utilisation d’une activité de chargement de données et du connecteur BigQuery. (NEO-53748)
 * Correction d’un problème de clé de cache qui entraînait des problèmes de rendu d’offre. (NEO-51516, NEO-49995)
 * Correction d’un problème qui entraînait une erreur de validation lors de l’envoi d’une diffusion courrier à l’aide du mapping de ciblage avec validations. (NEO-50758)
 * Correction d’un problème de gestion des requêtes qui pouvait avoir un impact sur les performances de diffusion. (NEO-49991)

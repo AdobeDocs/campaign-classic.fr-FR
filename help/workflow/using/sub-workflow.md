@@ -8,7 +8,7 @@ hidefromtoc: true
 exl-id: bc64ca11-2c50-4896-b6c6-ae42c0315924
 source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: ht
-source-wordcount: '441'
+source-wordcount: '440'
 ht-degree: 100%
 
 ---
@@ -64,16 +64,16 @@ Une fois exécuté, le workflow qui a été appelé en tant que sous-workflow re
 ## Paramètres d&#39;entrée (optionnel) {#input-parameters--optional-}
 
 * tableName
-* schema
+* schéma
 
 Chacun des événements entrants doit spécifier une cible définie par ces paramètres.
 
 ## Paramètres de sortie {#output-parameters}
 
 * tableName
-* schema
+* schéma
 * recCount
 
-Ce jeu de trois valeurs identifie la population ciblée par la requête. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (habituellement nms:recipient) et **[!UICONTROL recCount]** est le nombre d’éléments dans la table.
+Ce jeu de trois valeurs identifie la population ciblée par la requête. **[!UICONTROL tableName]** est le nom de la table qui enregistre les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (généralement nms:recipient) et **[!UICONTROL recCount]** est le nombre d’éléments dans la table.
 
 * targetSchema : cette valeur correspond au schéma de la table de travail. Ce paramètre est valide pour toutes les transitions avec **[!UICONTROL tableName]** et **[!UICONTROL schema]**.

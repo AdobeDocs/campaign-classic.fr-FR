@@ -25,7 +25,7 @@ Le processus créé un workflow comme ci-dessous :
 
 1. Utilisez une activité **[!UICONTROL Requête]** sur les données de la cible.
 1. Ajoutez une activité **[!UICONTROL Code JavaScript]** dans le workflow afin d&#39;enregistrer la population de la requête dans la variable d&#39;instance.
-1. Utilisez une activité **[!UICONTROL Test]** pour vérifier le nombre de personnes.
+1. Utilisez une activité **[!UICONTROL Test]** pour vérifier la population.
 1. Utilisez une activité **[!UICONTROL Alerte]** pour envoyer une alerte à un opérateur, selon le résultat de l&#39;activité **[!UICONTROL Test]**.
 
 ![](assets/uc_operator_1.png)
@@ -48,7 +48,7 @@ var query = xtk.queryDef.create(
 
 Assurez-vous que le code JavaScript correspond à vos informations de workflow :
 
-* Le tag **[!UICONTROL queryDef schema]** devrait correspondre au nom de la dimension de ciblage utilisée dans l&#39;activité de requête.
+* La balise **[!UICONTROL queryDef schema]** devrait correspondre au nom de la dimension de ciblage utilisée dans l’activité de requête.
 * Le tag **[!UICONTROL node expr]** devrait correspondre au nom des champs que vous voulez récupérer.
 
 ![](assets/uc_operator_3.png)

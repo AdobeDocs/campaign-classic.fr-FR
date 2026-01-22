@@ -65,9 +65,9 @@ La ou les fonctions à ajouter se présentent sous la forme d&#39;un **fichier &
 
 * Les champs **nom**, **espace de noms**, et **description du package** (&quot;name&quot;, &quot;namespace&quot; et &quot;label&quot;) sont essentiellement indicatifs. Ils permettent de voir le package récapitulé dans la liste des packages installés (Explorateur/Administration/Gestion des packages/Packages installés).
 * Les champs **buildVersion** et **buildNumber** sont obligatoires. Ils doivent correspondre à la version du serveur auquel la console est connectée. Cette information est disponible dans la boîte de dialogue &quot;Aide/À propos&quot;.
-* Les blocs suivants, **entities** et **funclist**, sont obligatoires. Dans funcList, les champs « name » et « namespace » sont obligatoires, mais leur nom est laissé au choix de l’utilisateur, et il désignent la liste de fonctions de manière unique.
+* Les blocs suivants, **entities** et **funclist**, sont obligatoires. Dans funcList, les champs « nom » et « espace de noms » sont obligatoires, mais leur nom est laissé au choix de l’utilisateur ou de l’utilisatrice, et ils désignent la liste de fonctions de manière unique.
 
-  Cela signifie que si l’on importe plus tard une autre liste de fonctions avec le même couple namespace/name (ici « cus::maListe »), les fonctions précédemment importées seront effacées. Inversement, si l’on change ce couple namespace/name, la nouvelle série de fonctions importées s’ajoutera à la précédente. 
+  Cela signifie que si l’on importe plus tard une autre liste de fonctions avec la même paire espace de noms/nom (ici « cus::maListe »), les fonctions précédemment importées seront effacées. Inversement, si l’on change cette paire espace de noms/nom, la nouvelle série de fonctions importées s’ajoutera à la précédente. 
 
 * L&#39;élément **group** permet de définir visuellement dans quel groupe de fonctions la ou les fonctions importées apparaîtront dans l&#39;éditeur de fonction. L&#39;attribut @name peut, soit être un nom déjà existant (auquel cas les fonctions s&#39;ajouteront au groupe considéré), soit un nouveau nom, qui apparaîtra sous forme d&#39;un nouveau groupe.
 * Pour mémoire, les valeurs possibles pour l’attribut @name dans l’élément `<group>` sont :

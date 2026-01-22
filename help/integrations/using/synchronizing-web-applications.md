@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '859'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Dans ce cas pratique, nous allons envoyer une communication, à l&#39;aide de Campaign Standard, comprenant un lien vers une application web de Campaign v7. Lorsqu&#39;un destinataire clique sur le lien dans l&#39;email, l&#39;application web affiche un formulaire contenant plusieurs champs préchargés avec les données du destinataire en question ainsi qu&#39;un lien d&#39;inscription à une newsletter. Le destinataire peut mettre à jour ses informations et s&#39;inscrire au service. Son profil est alors mis à jour dans Campaign v7 et les informations sont répliquées dans Campaign Standard.
 
-Si vous disposez d&#39;un grand nombre de services et d&#39;applications web dans Campaign v7, vous pouvez décider de ne pas tous les recréer dans Campaign Standard. ACS Connector vous permet d&#39;utiliser l&#39;ensemble des services et des applications web de Campaign v7 et de les associer à une diffusion envoyée par Campaign Standard.
+Si vous disposez d’un grand nombre de services et d’applications web dans Campaign v7, vous pouvez décider de ne pas tous les recréer dans Campaign Standard. Le connecteur ACS vous permet d’utiliser l’ensemble des services et des applications web de Campaign v7 et de les associer à une diffusion envoyée par Campaign Standard.
 
 ## Conditions préalables requises {#prerequisites}
 

@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: troubleshooting
 exl-id: dbd50178-0a16-46ed-bfad-47beb3c2a420
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '267'
 ht-degree: 100%
 
@@ -72,7 +72,7 @@ Voici une liste des modules concernés par des problèmes courants :
   </tr> 
   <tr> 
    <td> watchdog </td> 
-   <td> Module de démarrage et suivi<br /> </td> 
+   <td> Instance de démarrage et suivi<br /> </td> 
    <td> Vérifier ce module si aucun processus ne démarre.<br /> </td> 
   </tr> 
   <tr> 

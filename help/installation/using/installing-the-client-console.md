@@ -9,7 +9,7 @@ topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '1152'
 ht-degree: 100%
 
 ---
@@ -140,7 +140,7 @@ Une fois la console cliente installée, procédez comme suit pour créer la conn
 
 1. Cliquez sur **[!UICONTROL OK]** pour enregistrer vos paramètres.
 
-Vous pouvez ajouter autant de connexions que nécessaire pour vous connecter, par exemple, à vos environnements de test, d&#39;évaluation et de production.
+Vous pouvez ajouter autant de connexions que nécessaire pour vous connecter, par exemple, à vos environnements de test, d’évaluation et de production.
 
 >[!NOTE]
 >
@@ -173,6 +173,6 @@ Pour vous connecter à une instance existante, procédez comme suit :
 
 Cette vidéo explique comment installer et configurer le client Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/38267?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/35124?quality=12)
 
 D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

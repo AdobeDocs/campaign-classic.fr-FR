@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: production-procedures
 exl-id: c9d427da-6965-4945-90f0-d0770701d55e
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '445'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ L&#39;enregistrement des logs sur le disque est assuré par le module **nlserver
 
 Par défaut, le module **syslogd** est installé sur la plateforme Adobe Campaign, mais il est possible d’utiliser un autre **daemon syslog**. Ce module crée les fichiers journaux dans le répertoire des **logs**.
 
-Les journaux des modules multi-instances sont stockés dans le répertoire suivant : **`<installation directory>`/var/default/log/**. Le même fichier journal est partagé par toutes les instances (**web.log**, par exemple).
+Les logs des modules multi-instances sont stockés dans le répertoire suivant : **`<installation directory>`/var/default/log/**. Le même fichier journal est partagé par toutes les instances (**web.log**, par exemple).
 
 Les logs des autres modules sont stockés dans un sous-dossier du nom de l&#39;instance. Chaque instance possède ses propres fichiers de log.
 
@@ -55,11 +55,11 @@ Les fichiers de log mono-instance sont listés dans le tableau suivant :
 
 >[!IMPORTANT]
 >
->Le répertoire **redir** existe uniquement sur les serveurs de redirection. Le sous-répertoire **url** contient les correspondances des URL à rediriger et le **journal** du sous-répertoire contient les logs de tracking. Pour générer des logs de tracking, le module **trackinglogd** doit être en cours d’exécution.
+>Le répertoire **redir** existe uniquement sur les serveurs de redirection. Le sous-répertoire **url** contient les correspondances des URL à rediriger et le **log** du sous-répertoire contient les logs de tracking. Pour générer des logs de tracking, le module **trackinglogd** doit être en cours d’exécution.
 
 Pour optimiser les performances et le stockage, le fichier logins.log est divisé en plusieurs fichiers, un par jour (logins.aa-mm-jj.log) avec un maximum de 365 fichiers conservés. Le nombre de jours peut être modifié dans le fichier serverConf.xml, sous syslogd (option **maxNumberOfLoginsFiles**). Consultez la documentation relative au [fichier de configuration du serveur](../../installation/using/the-server-configuration-file.md#syslogd).
 
-Par défaut, les journaux sont limités à deux fichiers de 10 Mo par module et par instance. Le second fichier est appelé : **`<modulename>`_2.log**. La taille des journaux est donc limitée à 2&#42;10 Mo par module et par instance.
+Par défaut, les logs sont limités à deux fichiers de 10 Mo par module et par instance. Le second fichier est appelé : **`<modulename>`_2.log**. La taille des logs est donc limitée à 2&#42;10 Mo par module et par instance.
 
 Vous pouvez toutefois conserver des fichiers plus volumineux. Pour activer cette fonction, modifiez la valeur du paramètre **maxFileSizeMb=&quot;10&quot;** dans le nœud **syslogd** du fichier **conf/serverConf.xml**. Cette valeur représente la taille maximale en Mo d’un fichier de log.
 

@@ -34,7 +34,7 @@ Pour obtenir une présentation du modèle de données, consultez la section [Des
 
 ## Query et Writer {#query-and-writer}
 
-Le schéma introductif suivant montre les échanges bas niveaux pour la lecture (ExecuteQuery) et l&#39;écriture (Writer) entre la base de données et un client (pages web ou console cliente Adobe Campaign).
+Le schéma d’introduction suivant montre les échanges bas niveaux pour la lecture (ExecuteQuery) et l’écriture (Writer) entre la base de données et un client (pages web ou console cliente Adobe Campaign).
 
 ![](assets/s_ncs_integration_webservices_schema_writer.png)
 
@@ -160,7 +160,7 @@ Récupère le nom et le prénom d’une personne destinataire (schéma « nms:r
 
 #### Exemple avec l’opération « select » {#example-with-the--select--operation}
 
-Retourne la liste des destinataires filtrés sur un dossier et le domaine de l’e-mail avec un tri décroissant sur la date de naissance.
+Retourne la liste des destinataires filtrés sur un dossier et le domaine de l’e-mail avec un ordre décroissant sur la date de naissance.
 
 ```xml
 <queryDef schema="nms:recipient" operation="select">

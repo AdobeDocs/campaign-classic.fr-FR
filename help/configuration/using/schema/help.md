@@ -6,7 +6,7 @@ feature: Schema Extension
 exl-id: 8207868c-25ff-4ca9-afdd-41b324c7ac0d
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '49'
 ht-degree: 100%
 
 ---

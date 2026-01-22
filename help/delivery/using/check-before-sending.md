@@ -43,7 +43,7 @@ En savoir plus [dans cette section](inbox-rendering.md).
 
 ## Messages de BAT {#proof-messages}
 
-L&#39;envoi de BAT permet de vérifier le lien de désinscription (opt-out), la page miroir et d&#39;autres liens, de valider le message, de vérifier le bon affichage des images, de détecter les erreurs possibles, etc. Vous souhaiterez peut-être également vérifier votre conception et le rendu sur différents appareils.
+L’envoi de BAT permet de vérifier le lien d’exclusion, la page miroir et d’autres liens, de valider le message, de vérifier le bon affichage des images, de détecter les erreurs possibles, etc. Vous souhaiterez peut-être également vérifier votre conception et le rendu sur différents appareils.
 
 En savoir plus à ce sujet dans [cette section](steps-validating-the-delivery.md#sending-a-proof).
 

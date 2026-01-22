@@ -109,7 +109,7 @@ Pour valider un envoi, un opérateur dispose de deux modes : il peut utiliser l
 
 Sélectionnez l&#39;option **Oui**, puis cliquez sur le bouton **[!UICONTROL Valider]**. Un message vous informe que la réponse est enregistrée.
 
-Revenez sur l&#39;écran des workflows : au bout de quelques dizaines de secondes, le diagramme se présente comme suit:
+Revenez sur l’écran des workflows : au bout de quelques dizaines de secondes, le diagramme se présente comme suit :
 
 ![](assets/new-workflow-8.png)
 

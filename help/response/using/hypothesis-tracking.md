@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: response-manager
 exl-id: 1dc6d03b-698c-4750-9563-0676fcd185df
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '485'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ Vous pouvez obtenir la liste complète des indicateurs en cliquant sur le lien *
 
 Les informations données par les indicateurs sont les suivantes :
 
-* **Chiffre d&#39;affaires total des contactés** : somme des montants sur le nombre d&#39;individus contactés.
+* **Chiffre d’affaires total de la population contactée** : somme des montants sur le nombre de personnes contactées.
 * **Chiffre d’affaires total de la population témoin** : somme des montants sur le nombre de populations témoins.
 * **Chiffre d&#39;affaires moyen des contactés** : somme des montants / nombre des contactés.
 * **Chiffre d’affaires moyen de la population témoin** : somme des montants / population témoin.

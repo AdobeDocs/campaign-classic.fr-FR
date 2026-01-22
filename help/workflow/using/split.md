@@ -8,7 +8,7 @@ hidefromtoc: true
 exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
 source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: ht
-source-wordcount: '2169'
+source-wordcount: '2168'
 ht-degree: 100%
 
 ---
@@ -33,7 +33,7 @@ Pour paramétrer cette activité, vous devez définir le contenu et le libellé 
 
 Pour créer un sous-ensemble :
 
-1. Saisissez un libellé dans le champ correspondant et sélectionnez le mode de filtrage à appliquer.
+1. Cliquez sur le libellé dans le champ correspondant et sélectionnez le filtre à appliquer.
 1. Pour filtrer la population entrante, sélectionnez l&#39;option **[!UICONTROL Ajouter une condition de filtrage]** et cliquez sur le lien **[!UICONTROL Editer...]**.
 
    Sélectionnez le type de filtre à appliquer aux données pour qu&#39;elles soient incluses dans cet ensemble.
@@ -133,7 +133,7 @@ Un exemple de l&#39;activité **[!UICONTROL Validation en local]** avec un modè
 
 >[!IMPORTANT]
 >
->Pour utiliser cette fonction, vous devez acquérir le module Distributed Marketing, qui est une option de Campaign. Vérifiez votre contrat de licence.
+>Pour utiliser cette fonction, vous devez acheter le module Distributed Marketing, qui est une option de Campaign. Vérifiez votre contrat de licence.
 
 Le modèle de répartition de données permet de limiter le nombre d&#39;enregistrements à partir d&#39;une liste de valeurs de groupement. Les étapes de création d&#39;un modèle de répartition de données sont les suivantes :
 
@@ -218,24 +218,24 @@ Par exemple si les données sont lues directement depuis une base de données ex
 
 Pour éviter cela, vous pouvez placer une activité d&#39;**[!UICONTROL Enrichissement]** juste avant l&#39;activité de **[!UICONTROL Partage]**. Dans l&#39;activité d&#39;**[!UICONTROL Enrichissement]**, cochez l&#39;option **[!UICONTROL Conserver toutes les données additionnelles de l&#39;ensemble principal]** et indiquez en données additionnelles les colonnes que vous souhaitez utiliser pour configurer les filtres de l&#39;activité de **[!UICONTROL Partage]**. Les données de la transition entrante de l&#39;activité de **[!UICONTROL Partage]** sont alors stockées dans une table temporaire en local sur le serveur Adobe Campaign et le complémentaire peut être généré correctement.
 
-L&#39;option **[!UICONTROL Permettre le recouvrement des populations de sortie]** permet de gérer les populations qui appartiennent à plusieurs sous-ensembles :
+L’option **[!UICONTROL Permettre le recouvrement des populations de sortie]** permet de gérer les populations qui appartiennent à plusieurs sous-ensembles :
 
-* Lorsque la case est décochée, l&#39;activité de partage assure qu&#39;un destinataire ne sera pas présent dans plusieurs transitions en sortie, même s&#39;il vérifie les critères de plusieurs sous-ensembles. Il sera dans la cible du premier onglet dont les critères sont vérifiés.
+* Lorsque la case est décochée, l’activité de partage assure qu’une personne destinataire ne sera pas présente dans plusieurs transitions en sortie, même si elle vérifie les critères de plusieurs sous-ensembles. Il sera dans la cible du premier onglet dont les critères sont vérifiés.
 * Lorsque la case est cochée, les personnes destinataires peuvent apparaître dans plusieurs sous-ensembles si elles sont associées aux bons critères de filtrage. Adobe Campaign vous recommande d’utiliser des critères exclusifs.
 
 ## Paramètres d&#39;entrée {#input-parameters}
 
 * tableName
-* schema
+* schéma
 
 Chacun des événements entrants doit spécifier une cible définie par ces paramètres.
 
 ## Paramètres de sortie {#output-parameters}
 
 * tableName
-* schema
+* schéma
 * recCount
 
-Ce triplet de valeurs identifie la cible résultant de l&#39;exclusion. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (habituellement nms:recipient) et **[!UICONTROL recCount]** est le nombre d’éléments dans la table.
+Ce triplet de valeurs identifie la cible résultant de l&#39;exclusion. **[!UICONTROL tableName]** est le nom de la table qui enregistre les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (généralement nms:recipient) et **[!UICONTROL recCount]** est le nombre d’éléments dans la table.
 
-La transition associée au complémentaire possède les mêmes paramètres.
+La transition associée au complément possède les mêmes paramètres.

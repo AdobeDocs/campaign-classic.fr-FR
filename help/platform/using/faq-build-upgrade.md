@@ -96,7 +96,7 @@ Pour plus d&#39;informations, [voir ce document](https://helpx.adobe.com/fr/camp
 La mise à niveau de build requiert les ressources suivantes :
 
 * Architecte Adobe : l&#39;architecte doit se charger de la coordination avec l&#39;assistance clientèle en cas d&#39;architecture hébergée ou Cloud Messaging/hybride.
-* Chef de projet - Hébergé : l’équipe chargée de l’hébergement s’associera à l’équipe de l’assistance clientèle et au client pour coordonner le calendrier de la mise à niveau pour toutes les instances.
+* Chef de projet - Hébergé : l’équipe chargée de l’hébergement s’associera à l’équipe de l’assistance clientèle et au client pour coordonner la chronologie de la mise à niveau pour toutes les instances.
 * Administrateur Adobe Campaign - Hébergé : l’équipe chargée de l’hébergement réalise la mise à niveau.
 * Opérateur Adobe Campaign\utilisateur marketing : l&#39;opérateur effectue des tests sur les instances de développement, de test et de production.
 

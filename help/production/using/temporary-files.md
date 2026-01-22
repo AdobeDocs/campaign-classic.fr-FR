@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: troubleshooting
 exl-id: e77800f5-c0ae-446d-8ff3-bc8a18c97dbd
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '142'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 
 
-Lorsque vous lancez le système en production, vous pouvez obtenir des messages d&#39;erreur (notamment dans les logs de diffusion), tels que :
+Lorsque vous lancez le système en production, vous pouvez obtenir des messages d’erreur (notamment dans les logs de diffusion), tels que :
 
 *Unable to rename file &#39;/tmp/tmp0000.tmp&#39; to /usr/local/neolane/nl6/bin/..//var/XXX/mta/86510470.xml ;(errno=18, Invalid cross-device link) (iRc=-52)*
 

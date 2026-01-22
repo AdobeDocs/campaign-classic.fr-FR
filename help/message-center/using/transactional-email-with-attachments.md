@@ -37,7 +37,7 @@ Dans ce scénario, les pièces jointes ne sont pas créées à l&#39;avance, mai
 * Si elle est associée à une transaction (comme dans l’exemple de scénario ci-dessus), elle peut contenir des données dynamiques générées pendant le processus client.
 * L&#39;ajout de fichiers PDF optimise la sécurité lorsque vous pouvez les chiffrer et les envoyer via HTTPS.
 
-## Recommendations et mécanismes de sécurisation {#important-notes}
+## Recommandations et mécanismes de sécurisation {#important-notes}
 
 Pour éviter des problèmes de performances, les images incluses dans les e-mails ne doivent pas dépasser 100 Ko. Cette limite, définie par défaut, peut être modifiée à partir de l’option `NmsDelivery_MaxDownloadedImageSize`. Cependant, Adobe recommande vivement d’éviter les images volumineuses dans vos diffusions e-mail.
 

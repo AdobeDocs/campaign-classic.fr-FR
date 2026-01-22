@@ -91,11 +91,11 @@ Voici une liste descriptive des opérateurs disponibles :
   <tr> 
    <td> <span class="uicontrol">Comme</span> <br /> </td> 
    <td> <span class="uicontrol">Comme</span> est quasiment identique à l'opérateur <span class="uicontrol">Contient. </span> Il vous permet d’insérer un caractère joker <span class="uicontrol">%</span> dans la valeur.<br /> </td> 
-   <td> <strong>Nom (@lastName) comme 'Jon%s'</strong>. Ici, le caractère de substitution sert de « joker » afin de retrouver le nom « Jones » dans le cas très hypothétique où l'opérateur aurait oublié quelle est la lettre située entre « n » et « s ».<br /> </td> 
+   <td> <strong>Nom (@lastName) comme 'Jon%s'</strong>. Ici, le métacaractère sert de « joker » afin de retrouver le nom « Jones » dans le cas très hypothétique où l’opérateur aurait oublié quelle est la lettre située entre « n » et « s ».<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Pas comme</span> <br /> </td> 
-   <td> Est similaire à <span class="uicontrol">Comme</span>. Permet de ne pas récupérer la valeur saisie. La valeur renseignée doit ici aussi comporter le caractère de substitution <span class="uicontrol">%</span>.<br /> </td> 
+   <td> Est similaire à <span class="uicontrol">Comme</span>. Permet de ne pas récupérer la valeur saisie. La valeur renseignée doit ici aussi comporter le caractère joker <span class="uicontrol">%</span>.<br /> </td> 
    <td> <strong>Nom (@lastName) pas comme 'Smi%h'</strong>. Ici, les destinataires répondant au nom de 'Smi%h' ne seront pas retournés en résultat.<br /> </td> 
   </tr> 
   <tr> 
@@ -171,7 +171,7 @@ La condition **[!UICONTROL Genre (@gender) égal à Masculin]** vient d&#39;êtr
 
 ## Sélectionner les données à extraire {#selecting-data-to-extract}
 
-Les champs disponibles varient d&#39;une table à l&#39;autre. Tous les champs sont stockés dans un nœud principal, nommé **[!UICONTROL Elément principal]**. Les champs de l&#39;exemple ci-dessous sont ceux de la table des destinataires (nms:recipient). Les champs sont toujours ordonnés alphabétiquement.
+Les champs disponibles varient d&#39;une table à l&#39;autre. Tous les champs sont stockés dans un nœud principal, nommé **[!UICONTROL Elément principal]**. Les champs de l&#39;exemple ci-dessous sont ceux de la table des destinataires (nms:recipient). Les champs sont toujours affichés par ordre alphabétique.
 
 Les détails du champ sélectionné sont visibles au bas de la fenêtre. Par exemple, le champ **[!UICONTROL Domaine d’e-mail]** est un **[!UICONTROL Champ calculé SQL]**. Son extension est **[!UICONTROL (@domain)]**.
 

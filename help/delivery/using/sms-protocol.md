@@ -500,7 +500,7 @@ Ils sont transmis tels quels dans les champs `source_addr_ton`, `source_addr_npi
 
 Ce champ est transmis tel quel dans le champ `service_type` du `SUBMIT_SM PDU`. Définissez cette variable en fonction des besoins du fournisseur.
 
-### Débit et délais {#throughput-timeouts}
+### Débit et délais d’expiration {#throughput-timeouts}
 
 Ces paramètres contrôlent tous les aspects du timing du canal SMPP. Certains fournisseurs ont besoin d&#39;un contrôle très précis du taux de message, des délais de fenêtre et des délais de reprise. Ces paramètres doivent être définis sur des valeurs correspondant à la capacité du fournisseur et aux conditions indiquées dans son contrat.
 
@@ -539,11 +539,11 @@ Lorsque la connexion TCP est perdue, le connecteur attend ce nombre de secondes 
 
 #### Délai d&#39;expiration des MT {#expiration-period}
 
-Délai entre `SUBMIT_SM` et son `SUBMIT_SM_RESP` correspondant. Si `RESP` n&#39;est pas reçu à temps, le message sera considéré comme ayant échoué et la politique de nouvelle tentative globale du MTA s&#39;appliquera.
+Temporisation entre `SUBMIT_SM` et son `SUBMIT_SM_RESP` correspondant. Si `RESP` n&#39;est pas reçu à temps, le message sera considéré comme ayant échoué et la politique de nouvelle tentative globale du MTA s&#39;appliquera.
 
-#### Délai d&#39;attente maximal d&#39;un bind {#bind-timeout}
+#### Délai d’expiration maximal d’un bind {#bind-timeout}
 
-Délai entre la tentative de connexion TCP et la réponse `BIND_*_RESP`. Lorsqu&#39;elle expire, la connexion est fermée par le connecteur Adobe Campaign et il faut attendre le temps avant reconnexion avant de réessayer.
+Délai d’expiration entre la tentative de connexion TCP et la réponse `BIND_*_RESP`. Lorsqu&#39;elle expire, la connexion est fermée par le connecteur Adobe Campaign et il faut attendre le temps avant reconnexion avant de réessayer.
 
 #### Période d&#39;enquire_link {#enquire-link-period}
 

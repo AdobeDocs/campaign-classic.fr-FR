@@ -119,7 +119,7 @@ Les icônes de la barre d&#39;outils permettent d&#39;agir sur l&#39;exécution 
 
    * Les icônes de la barre d&#39;outils permettent d&#39;arrêter ou suspendre un workflow de ciblage en cours d&#39;exécution.
 
-     Lorsque vous cliquez sur l&#39;icône **[!UICONTROL Pause]**, les opérations en cours **[!UICONTROL ne sont pas]** suspendues, mais aucune autre activité n&#39;est lancée jusqu&#39;à la prochaine reprise.
+     Lorsque vous cliquez sur licône **[!UICONTROL Pause]**, les opérations en cours **[!UICONTROL ne sont pas]** suspendues, mais aucune autre activité nest lancée jusquau prochain redémarrage.
 
      ![](assets/s_user_segmentation_pause.png)
 
@@ -246,6 +246,6 @@ Vous pouvez définir une nouvelle population qui sera utilisée comme population
 
 Cette vidéo explique comment créer une campagne et un e-mail dans Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/27487?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 D’autres vidéos pratiques sur Campaign sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

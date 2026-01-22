@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: troubleshooting
 exl-id: 858d00d0-7c65-43be-8bae-f0f945f71f1a
 source-git-commit: 757e3a5395f24e0bdd04737aba0458881e4ea780
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '47'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 
 
-Si certaines **jsp** ne s&#39;exécutent pas correctement, vous devez forcer leur recompilation.
+Si certains traitements **jsp** ne s’exécutent pas correctement, vous devez forcer leur recompilation.
 
 Pour cela, saisissez les commandes suivantes :
 
@@ -30,4 +30,4 @@ rm -r work/
 nlserver start web
 ```
 
-Les **jsp** sont regénérées à la connexion suivante.
+Les traitements **jsp** sont regénérés àla connexion suivante.

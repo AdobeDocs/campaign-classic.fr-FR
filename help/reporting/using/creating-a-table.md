@@ -6,7 +6,7 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Reporting, Monitoring
 exl-id: 05f76bdf-6dcd-4360-9e72-0ba6a4dd0d5e
 source-git-commit: f90df5a5e5b3a2317d86ff2919560ded38f44f44
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2661'
 ht-degree: 100%
 
@@ -79,7 +79,7 @@ Le groupement peut être positionné dans n&#39;importe quelle ligne du tableau 
 
 ![](assets/s_advuser_ergo_listgroup_019.png)
 
-**Ligne et colonne** : pour ajouter ou supprimer une ligne ou une colonne, positionnez-vous sur une ligne ou une colonne existante et utilisez les menus contextuels.
+**Ligne et colonne** : pour ajouter ou supprimer une ligne ou une colonne, positionnez-vous sur une ligne ou une colonne existante et utilisez le menu contextuel.
 
 ![](assets/s_advuser_ergo_listgroup_006.png)
 
@@ -399,7 +399,7 @@ Nous allons ajouter une seconde requête et une seconde page afin d&#39;afficher
 
    ![](assets/s_advuser_report_listgroup_028.png)
 
-1. Ajoutez une nouvelle liste avec groupement à l&#39;aide du menu contextuel et nommez-la **Domaines d&#39;email par destinataires**.
+1. Ajoutez une nouvelle liste avec groupement à l’aide du menu contextuel et nommez-la **Domaines d’e-mail par destinataires**.
 1. Cliquez sur le lien **[!UICONTROL Chemin des données du tableau]** et sélectionnez le lien **[!UICONTROL Logs de diffusion des destinataires]**.
 
    ![](assets/s_advuser_report_listgroup_029.png)
@@ -418,7 +418,7 @@ Nous allons ajouter une seconde requête et une seconde page afin d&#39;afficher
 
    ![](assets/s_advuser_report_listgroup_019.png)
 
-1. Ajoutez un graphique en secteurs dans la page à l&#39;aide du menu contextuel et attribuez-lui le libellé **Domaines d&#39;email**. Voir à ce sujet la section [Types de graphiques et leurs variantes](../../reporting/using/creating-a-chart.md#chart-types-and-variants).
+1. Ajoutez un graphique en secteurs dans la page à l’aide du menu contextuel et attribuez-lui le libellé **Domaines d’e-mail**. Voir à ce sujet la section [Types de graphiques et leurs variantes](../../reporting/using/creating-a-chart.md#chart-types-and-variants).
 1. Cliquez sur le lien **[!UICONTROL Variantes]** et déselectionnez les options **[!UICONTROL Afficher les libellés]** et **[!UICONTROL Afficher la légende]**.
 1. Vérifiez qu&#39;aucun tri de valeurs n&#39;est paramétré. Pour plus d’informations, consultez [cette section](../../reporting/using/processing-a-report.md#configuring-the-layout-of-a-descriptive-analysis-report).
 

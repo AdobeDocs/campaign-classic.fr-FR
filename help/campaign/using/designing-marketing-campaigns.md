@@ -68,6 +68,6 @@ Dans le contexte de Campaign, les concepts listés ci-dessous doivent être conn
 
 Cette vidéo présente les concepts clés des campagnes marketing.
 
->[!VIDEO](https://video.tv.adobe.com/v/326571?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
 
 D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

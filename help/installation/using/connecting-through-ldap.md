@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 0533cd50-3aa4-4160-9152-e916e149e77f
 source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1232'
 ht-degree: 100%
 
@@ -134,7 +134,7 @@ Si vous choisissez de faire une recherche sur l&#39;identifiant, l&#39;assistant
 
 ## Configuration des autorisations LDAP {#configuring-ldap-authorizations}
 
-Cette fenêtre est proposée lorsque vous sélectionnez l&#39;option **[!UICONTROL Activer la synchronisation des droits utilisateurs depuis les autorisations ou groupes de l&#39;annuaire]**.
+Cette fenêtre est proposée lorsque vous sélectionnez l’option **[!UICONTROL Activer la synchronisation des droits utilisateurs depuis les autorisations ou groupes de l’annuaire]**. 
 
 ![](assets/s_ncs_install_deployment_wiz_ldap_04.png)
 
@@ -149,8 +149,8 @@ Vous devez fournir plusieurs paramètres pour retrouver le ou les groupes auxque
 
 * le champ **[!UICONTROL Filtre de recherche de droits]**, basé sur le login et l&#39;identifiant unique de l&#39;utilisateur,
 * le champ **[!UICONTROL Attribut contenant le nom du groupe ou de l&#39;autorisation]** concernant l&#39;utilisateur,
-* le champ **[!UICONTROL Masque de correspondance]** permettant d&#39;extraire le nom d&#39;un groupe dans Adobe Campaign et les droits qui lui sont associés. La recherche sur le nom se fait avec des expressions régulières.
-* Sélectionnez **[!UICONTROL Autoriser la connexion des utilisateurs déclarés dans l&#39;annuaire LDAP si l&#39;opérateur n&#39;est pas déclaré dans Adobe Campaign]** afin que l&#39;utilisateur se voit attribuer automatiquement des droits d&#39;accès lors de sa connexion.
+* le champ **[!UICONTROL Masque de correspondance]** permettant d’extraire le nom d’un groupe dans Adobe Campaign et les droits qui lui sont associés. La recherche sur le nom se fait avec des expressions régulières.
+* Sélectionnez **[!UICONTROL Activer la connexion des utilisateurs déclarés dans l’annuaire LDAP si l’opérateur n’est pas déclaré dans Adobe Campaign]** afin que l’utilisateur se voit attribuer automatiquement des droits d’accès lors de sa connexion.
 
 Cliquez sur **[!UICONTROL Enregistrer]** pour terminer la configuration de l&#39;instance.
 
@@ -168,7 +168,7 @@ Cette section propose quelques cas pratiques simples afin de réaliser les param
 
 1. Un utilisateur existe dans l&#39;annuaire LDAP mais n&#39;a pas été créé dans Adobe Campaign.
 
-   Adobe Campaign peut être configuré de sorte qu’il soit possible d’accéder à la plateforme via l’authentification LDAP. Adobe Campaign doit pouvoir contrôler la validité de la combinaison ID/mot de passe dans l&#39;annuaire LDAP, de sorte que l&#39;opérateur puisse être créé à la volée dans Adobe Campaign. L&#39;opérateur pourra ainsi être créé à la volée dans Adobe Campaign : pour cela, cochez l&#39;option **[!UICONTROL Autoriser la connexion des utilisateurs déclarés dans l&#39;annuaire LDAP si l&#39;opérateur n&#39;est pas déclaré dans Adobe Campaign]**. Dans ce cas, la synchronisation des groupes doit également être paramétrée : l&#39;option **[!UICONTROL Activer la synchronisation des droits utilisateurs depuis les autorisations ou groupes de l&#39;annuaire]** doit être sélectionnée.
+   Adobe Campaign peut être configuré de sorte qu’il soit possible d’accéder à la plateforme via l’authentification LDAP. Adobe Campaign doit pouvoir contrôler la validité de la combinaison ID/mot de passe dans l&#39;annuaire LDAP, de sorte que l&#39;opérateur puisse être créé à la volée dans Adobe Campaign. L’opérateur pourra ainsi être créé à la volée dans Adobe Campaign : pour cela, cochez l’option **[!UICONTROL Activer la connexion des utilisateurs déclarés dans l’annuaire LDAP si l’opérateur n’est pas déclaré dans Adobe Campaign]**. Dans ce cas, la synchronisation des groupes doit également être paramétrée : l&#39;option **[!UICONTROL Activer la synchronisation des droits utilisateurs depuis les autorisations ou groupes de l&#39;annuaire]** doit être sélectionnée.
 
 1. Un utilisateur existe dans Adobe Campaign mais n&#39;a pas été créé dans l&#39;annuaire LDAP.
 

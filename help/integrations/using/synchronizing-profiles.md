@@ -17,7 +17,7 @@ ht-degree: 100%
 
 
 
-ACS Connector réplique les données de Campaign v7 vers Campaign Standard. Le données reçues de Campaign v7 peuvent être utilisées pour créer des diffusions dans Campaign Standard. Les opérations ci-dessous vous permettent de voir la manière dont les profils sont synchronisés.
+Le connecteur ACS réplique les données de Campaign v7 vers Campaign Standard. Le données reçues de Campaign v7 peuvent être utilisées pour créer des diffusions dans Campaign Standard. Les opérations ci-dessous vous permettent de voir la manière dont les profils sont synchronisés.
 
 * **Ajouter de nouveaux destinataires** : créez un nouveau destinataire dans Campaign v7 et vérifiez qu&#39;un profil correspondant a été répliqué vers Campaign Standard. Consultez la section [Création d’un nouveau destinataire](#creating-a-new-recipient).
 * **Mise à jour des destinataires** : modifiez un nouveau destinataire dans Campaign v7 et visualisez le profil correspondant dans Campaign Standard pour vérifier que la mise à jour a été répliquée. Consultez la section [Modification d’un destinataire](#editing-a-recipient).
@@ -27,7 +27,7 @@ ACS Connector réplique les données de Campaign v7 vers Campaign Standard. Le
 
 ## Conditions préalables requises {#prerequisites}
 
-Les sections ci-après décrivent la manière dont ACS Connector permet d&#39;ajouter et d&#39;éditer des destinataires dans Campaign v7 et de les utiliser ensuite dans une diffusion Campaign Standard. ACS Connector requiert les éléments suivants :
+Les sections ci-après décrivent la manière dont le connecteur ACS permet d’ajouter et de modifier des destinataires dans Campaign v7 et de les utiliser ensuite dans une diffusion Campaign Standard. Le connecteur ACS requiert les éléments suivants :
 
 * des destinataires dans Campaign v7 répliqués vers Campaign Standard,
 * les droits utilisateurs pour exécuter des workflows dans Campaign v7 et Campaign Standard,
@@ -51,7 +51,7 @@ Lorsqu&#39;un destinataire clique sur le lien de désinscription dans un email e
 
    ![](assets/acs_connect_profile_sync_02.png)
 
-   Par défaut, la réplication périodique d&#39;ACS Connector a lieu toutes les 15 minutes. Pour plus d’informations, voir [Réplication des données](../../integrations/using/acs-connector-principles-and-data-cycle.md#data-replication).
+   Par défaut, la réplication périodique du connecteur ACS a lieu toutes les 15 minutes. Pour plus d’informations, voir [Réplication des données](../../integrations/using/acs-connector-principles-and-data-cycle.md#data-replication).
 
 ## Modification dʼun destinataire {#editing-a-recipient}
 
@@ -65,7 +65,7 @@ Les étapes ci-dessous qui permettent de modifier un point unique de données co
 
    ![](assets/acs_connect_profile_sync_04.png)
 
-   Par défaut, la réplication périodique d&#39;ACS Connector a lieu toutes les 15 minutes. Pour plus d’informations, voir [Réplication des données](../../integrations/using/acs-connector-principles-and-data-cycle.md#data-replication).
+   Par défaut, la réplication périodique du connecteur ACS a lieu toutes les 15 minutes. Pour plus d’informations, voir [Réplication des données](../../integrations/using/acs-connector-principles-and-data-cycle.md#data-replication).
 
 ## Création dʼun workflow {#creating-a-workflow}
 

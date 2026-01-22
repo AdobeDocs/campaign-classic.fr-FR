@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: managing-environments
 exl-id: ba588591-5171-4c35-bc8c-3979274e21b2
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '73'
 ht-degree: 100%
 
@@ -26,4 +26,4 @@ Plusieurs profils d&#39;utilisation différents interviennent dans la gestion et
 >
 >Les paramétrages suivants doivent être effectués par un **administrateur technique**.
 
-![](assets/do-not-localize/how-to-video.png) Regardez cette [vidéo](https://helpx.adobe.com/campaign/classic/how-to/architecture-of-acs-v6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&amp;ref=helpx.adobe.com) pour en savoir plus sur l’architecture de l’interaction Campaign et voir comment fonctionne le moteur d’offres.
+![](assets/do-not-localize/how-to-video.png) Regardez cette [vidéo](https://helpx.adobe.com/campaign/classic/how-to/architecture-of-acs-v6.html?playlist=/ccx/v1/collection/product/campaign/classic/segment/digital-marketers/explevel/intermediate/applaunch/get-started/collection.ccx.js&ref=helpx.adobe.com) pour en savoir plus sur l’architecture de l’interaction Campaign et voir comment fonctionne le moteur d’offres.

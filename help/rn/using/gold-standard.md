@@ -9,7 +9,7 @@ hidefromtoc: true
 hide: true
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1774'
 ht-degree: 100%
 
@@ -52,12 +52,12 @@ Le build 9032@d030c36 comprend le correctif suivant :
 * Correction d&#39;une régression de la console cliente qui provoquait des messages d&#39;erreur persistants sur l&#39;écran de connexion IMS. (NEO-34821)
 * Cette version de console est requise pour conserver [l’accès IMS](../../technotes/using/ims-updates.md).
 
-**La mise à niveau de la console uniquement est obligatoire. Aucune mise à niveau du serveur n&#39;est requise.**
+**La mise à niveau de la console uniquement est obligatoire. Aucune mise à niveau du serveur n’est requise.**
 
 >[!CAUTION]
 >
 > * Si vous vous connectez à Campaign avec votre Adobe ID, par le biais du service Adobe IDentity Management (IMS), la mise à niveau est obligatoire pour que le serveur Campaign et la console cliente puissent se connecter à Campaign après le **30 juin 2021**. [En savoir plus](../../technotes/using/ims-updates.md)
-> * Cette version s&#39;accompagne d&#39;un [correctif de sécurité](https://helpx.adobe.com/fr/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
+> * Cette version s’accompagne d’un [correctif de sécurité](https://helpx.adobe.com/fr/security/products/campaign/apsb21-04.html) : la mise à niveau est obligatoire pour renforcer la sécurité de votre environnement.
 > * Si vous utilisez l’intégration Experience Cloud Triggers via l’authentification OAuth, vous devez migrer vers Adobe I/O comme décrit [sur cette page](../../integrations/using/about-triggers.md#implement). Lʼancien mode dʼauthentification oAuth avec Campaign [a été retiré](https://experienceleaguecommunities.adobe.com/t5/adobe-analytics-discussions/adobe-analytics-legacy-api-end-of-life-notice/td-p/385411?profile.language=fr) en **septembre 2021**. Les environnements hébergés bénéficient dʼune extension jusquʼau **23 février 2022**. En tant que client on-premise ou hybride, contactez l’assistance clientèle d’Adobe pour étendre l’assistance jusqu’en février 2022. Vous devez fournir [l’AppID de l’application OAuth](../../integrations/using/configuring-pipeline.md#step-optional) à Adobe.
 >
 >Pour en savoir plus, rendez-vous dans la [[!DNL Gold Standard] section](../../rn/using/gold-standard.md)
@@ -68,7 +68,7 @@ Le build 9032@10c2709 comprend le correctif suivant :
 
 * Correction d’une régression qui empêchait l’utilisation de certains composants de la console, tels que le sélecteur de date et la gestion des images dans les diffusions. (NEO-31453, NEO-31454)
 
-**La mise à niveau de la console uniquement est obligatoire. Aucune mise à niveau du serveur n&#39;est requise.**
+**La mise à niveau de la console uniquement est obligatoire. Aucune mise à niveau du serveur n’est requise.**
 
 >[!NOTE]
 >
@@ -80,7 +80,7 @@ Le build 9032@d3b452f comprend les améliorations et correctifs suivants :
 
 * Le protocole de connexion a été mis à jour pour suivre le nouveau mécanisme dʼauthentification IMS.
 
-* L’authentification de l’intégration des Triggers basée à lʼorigine sur la configuration de lʼauthentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers Adobe I/O. [En savoir plus](../../integrations/using/about-triggers.md#implement)
+* L’authentification de l’intégration de Triggers basée à l’origine sur la configuration de l’authentification oAUTH pour accéder au pipeline a été modifiée et déplacée vers Adobe I/O. [En savoir plus](../../integrations/using/about-triggers.md#implement)
 
 * Après la [fin de la prise en charge du protocole binaire hérité des APN iOS](https://developer.apple.com/news/?id=c88acm2b), toutes les instances utilisant ce protocole sont mises à jour vers le protocole HTTP/2 durant la mise à niveau.
 

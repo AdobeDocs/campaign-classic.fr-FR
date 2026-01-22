@@ -8,7 +8,7 @@ hidefromtoc: true
 exl-id: 1cda3146-c333-4743-a871-c44583b6e5b2
 source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
 workflow-type: ht
-source-wordcount: '316'
+source-wordcount: '315'
 ht-degree: 100%
 
 ---
@@ -45,14 +45,14 @@ Dans l&#39;exemple suivant, les résultats de deux requêtes sont réunis afin d
 ## Paramètres d&#39;entrée {#input-parameters}
 
 * tableName
-* schema
+* schéma
 
 Chacun des événements entrants doit spécifier une cible définie par ces paramètres.
 
 ## Paramètres de sortie {#output-parameters}
 
 * tableName
-* schema
+* schéma
 * recCount
 
-Ce triplet de valeurs identifie la cible résultant de l&#39;union. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (habituellement nms:recipient) et **[!UICONTROL recCount]** est le nombre d’éléments dans la table.
+Ce triplet de valeurs identifie la cible résultant de l&#39;union. **[!UICONTROL tableName]** est le nom de la table qui enregistre les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (généralement nms:recipient) et **[!UICONTROL recCount]** est le nombre d’éléments dans la table.

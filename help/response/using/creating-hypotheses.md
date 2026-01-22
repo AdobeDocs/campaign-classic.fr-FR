@@ -85,7 +85,7 @@ Vous pouvez référencer une hypothèse dans une campagne marketing avant son d�
 1. Selon vos besoins, créez un ou plusieurs modèles de type **[!UICONTROL Diffusion]** comme décrit dans [cette section](hypothesis-templates.md#creating-a-hypothesis-model).
 1. Créez votre opération marketing et vos workflows de ciblage.
 1. Dans la fenêtre de diffusion, cliquez sur l&#39;icône **[!UICONTROL Mesure de la diffusion]**.
-1. Sélectionnez le modèle d&#39;hypothèse (la requête paramétrée dans le modèle apparaît dans la fenêtre de l&#39;hypothèse).
+1. Sélectionnez le modèle d’hypothèse (la requête paramétrée dans le modèle apparaît dans la fenêtre de l’hypothèse).
 
    L&#39;hypothèse sera calculée automatiquement lorsque la campagne sera terminée, en fonction des dates fixées dans le modèle. [Apprenez-en davantage](hypothesis-templates.md#hypothesis-template-execution-settings)
 

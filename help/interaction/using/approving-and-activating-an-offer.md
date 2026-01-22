@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '669'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ Pour valider le contenu d&#39;une offre, procédez comme suit :
 
 ## Valider l&#39;éligibilité d&#39;une offre {#approving-offer-eligibility}
 
-Une tâche parent planifiée pour finir le mardi 9 octobre à 17h a 2 tâches enfants, la tâche A et la tâche B. La tâche A est planifiée pour commencer le 10 octobre à 14h et la tâche B, planifiée pour commencer le 12 octobre à 8h.
+Approuver l’éligibilité d’une offre signifie accepter ou rejeter les pondérations de l’offre et les règles d’éligibilité également configurées dans l’offre ou héritées des règles créées dans la catégorie parente.
 
 >[!IMPORTANT]
 >
@@ -97,12 +97,12 @@ Le suivi des validations est disponible dans le tableau de bord de l&#39;offre. 
 >
 >Le suivi est également disponible dans l&#39;onglet **[!UICONTROL Suivi]** de l&#39;offre, avec le détail des commentaires des validants.
 
-## Réinitialiser la validation {#restart-the-approval}
+## Redémarrer la validation {#restart-the-approval}
 
 Une fois la validation lancée, il est possible de la réinitialiser. Pour ce faire, suivez les instructions suivantes :
 
 1. Sur le tableau de bord de l&#39;offre, cliquez sur **[!UICONTROL Contenu validé]**.
-1. Dans la fenêtre **[!UICONTROL Edition]** qui apparait, sélectionnez la validation à réinitialiser, puis cliquez sur **[!UICONTROL Réinitialiser la validation pour la soumettre à nouveau]**.
+1. Dans la fenêtre **[!UICONTROL Édition]** qui apparait, sélectionnez la validation à redémarrer, puis cliquez sur **[!UICONTROL Réinitialiser la validation pour la soumettre à nouveau]**.
 1. Confirmez en cliquant sur **[!UICONTROL Ok]**.
 
 ![](assets/offer_validate_013.png)

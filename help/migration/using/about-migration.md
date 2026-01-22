@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 exl-id: 3050238d-6f77-4ffa-9aef-677ab8009388
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '446'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ D’autres prérequis sont disponibles dans [cette page](../../migration/using/b
 
 ## Environnement modernisé {#modernizing-your-environment}
 
-La mise en œuvre d’une migration peut être l’occasion de moderniser votre environnement (moteurs de base de données, systèmes d’exploitation). Nous vous recommandons vivement d’étudier la possibilité de mettre à niveau vos environnements de production avec des versions plus récentes.
+La mise en œuvre d’une migration peut être l’occasion de mettre à jour votre environnement (moteurs de base de données, systèmes d’exploitation). Nous vous recommandons vivement d’étudier la possibilité de mettre à niveau vos environnements de production avec des versions plus récentes.
 
 >[!CAUTION]
 >

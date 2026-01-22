@@ -6,7 +6,7 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Web Forms
 exl-id: 723a6c47-5323-4914-a014-58be493852cc
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1051'
 ht-degree: 100%
 
@@ -107,7 +107,7 @@ Pour rendre obligatoire le renseignement d&#39;un champ, vous devez cocher l&#39
 
 ![](assets/s_ncs_admin_survey_required_field.png)
 
-Lorsque l&#39;utilisateur valide la page, si le champ n&#39;est pas renseigné, le message d&#39;erreur sera le suivant :
+Lorsque l’utilisateur ou l’utilisatrice valide la page, si le champ n’est pas renseigné, le message d’erreur sera le suivant :
 
 ![](assets/s_ncs_admin_survey_required_default_msg.png)
 
@@ -115,7 +115,7 @@ Vous pouvez personnaliser ce message en cliquant sur le lien **[!UICONTROL Perso
 
 ![](assets/s_ncs_admin_survey_required_custom_msg.png)
 
-Lorsque l&#39;utilisateur valide la page, si le champ n&#39;est pas renseigné, le message d&#39;erreur sera le suivant :
+Lorsque l’utilisateur ou l’utilisatrice valide la page, si le champ n’est pas renseigné, le message d’erreur sera le suivant :
 
 ![](assets/s_ncs_admin_survey_required_custom_msg2.png)
 

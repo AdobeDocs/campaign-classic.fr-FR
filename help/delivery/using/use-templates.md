@@ -8,7 +8,7 @@ hide: true
 hidefromtoc: true
 exl-id: a5da3f29-5eab-428c-b7c3-d9e4243fe628
 source-git-commit: f469689f9e8a4d805fb95a1ae120ccd35aba3731
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '606'
 ht-degree: 100%
 
@@ -64,7 +64,7 @@ Pour configurer une population témoin, cliquez sur le lien **[!UICONTROL Pour]*
 
 ## Utiliser des typologies pour appliquer des filtres ou des règles de contrôle
 
-Une typologie contient les règles de vérification qui sont appliquées lors de la phase d&#39;analyse, avant tout envoi.
+Une typologie contient les règles de vérification qui sont appliquées lors de la phase d’analyse, avant tout envoi.
 
 Dans l’onglet **[!UICONTROL Typologie]** des propriétés du modèle, changez la typologie par défaut en fonction de vos besoins.
 

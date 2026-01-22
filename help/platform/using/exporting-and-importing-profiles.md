@@ -20,7 +20,7 @@ ht-degree: 100%
 
 
 
-Vous pouvez [utiliser des workflows](#use-workflows) pour importer et exporter des profils de destinataires dans la base de données Adobe Campaign ou pour configurer des [imports ou des exports génériques](#create-jobs).
+Vous pouvez [utiliser des workflows](#use-workflows) pour importer et exporter des profils de destinataires dans la base de données Adobe Campaign ou pour configurer des [traitements d’import ou d’export génériques](#create-jobs).
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#import-profiles-video)
 
@@ -48,7 +48,7 @@ To configure and execute data imports and exports jobs, go to the **[!UICONTROL 
 
 This video explains how to import profiles in Adobe Campaign, for an occasional import.
 
->[!VIDEO](https://video.tv.adobe.com/v/30597?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25608?quality=12)
 
-Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
 -->

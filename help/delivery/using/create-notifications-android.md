@@ -64,7 +64,7 @@ Les **[!UICONTROL variables d&#39;application]** sont automatiquement ajoutées 
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**, puis envoyez votre diffusion.
 
-L&#39;image et la page web doivent s&#39;afficher dans la notification push lors de la réception sur les appareils Android des abonnés.
+L’image et la page web doivent s’afficher dans la notification push lors de la réception sur les appareils mobiles Android des personnes abonnées.
 
 ![](assets/nmac_android_4.png)
 
@@ -122,4 +122,4 @@ L&#39;image et la page web doivent s&#39;afficher dans la notification push lors
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**, puis envoyez votre diffusion.
 
-L&#39;image et la page web doivent s&#39;afficher dans la notification push lors de la réception sur les appareils Android des abonnés.
+L’image et la page web doivent s’afficher dans la notification push lors de la réception sur les appareils mobiles Android des personnes abonnées.

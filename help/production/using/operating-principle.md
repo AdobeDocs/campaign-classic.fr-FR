@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: production-procedures
 exl-id: 1c032ef9-af11-4947-90c6-76cb9434ae85
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '506'
 ht-degree: 100%
 
@@ -51,7 +51,7 @@ Les modules disponibles sont décrits dans le tableau suivant :
 | inMail | Analyseur des mails entrants |
 | installsetup | Mise à disposition du fichier d&#39;installation du client |
 | javascript | Exécution de scripts JavaScript, ayant accès aux APIs SOAP |
-| job | Traitement ligne de commande |
+| traitement | Traitement ligne de commande |
 | merge | Fusion de formulaires |
 | midSourcing | Récupération des informations des envois en mode mid-sourcing |
 | monitor | Affichage, au format XML, de l&#39;état des processus serveur et des tâches planifiées, par instance |
@@ -59,7 +59,7 @@ Les modules disponibles sont décrits dans le tableau suivant :
 | package | Import ou export de fichier de package d&#39;entités |
 | pdump | Affichage de l&#39;état des processus serveur |
 | prepareda | Préparer une action de diffusion |
-| restart | Redémarrage partiel du serveur |
+| redémarrer | Redémarrage partiel du serveur |
 | runwf | Exécution d&#39;une instance de workflow |
 | shutdown | Arrêt complet du système |
 | sms | Traitement des notifications SMS |
@@ -71,7 +71,7 @@ Les modules disponibles sont décrits dans le tableau suivant :
 | syslogd | Serveur d&#39;écriture des logs et traces |
 | tracking | Consolidation et récupération des logs de tracking |
 | trackinglogd | Serveur d&#39;écriture et de purge des logs de tracking |
-| watchdog | Module de démarrage et suivi |
+| watchdog | Instance de démarrage et suivi |
 | web | Serveur applicatif (HTTP et SOAP) |
 | wfserver | Serveur de workflows |
 

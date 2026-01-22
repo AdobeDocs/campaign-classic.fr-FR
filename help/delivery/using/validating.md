@@ -26,7 +26,7 @@ Le fichier de sortie d&#39;une diffusion par courrier est généré pendant l&#3
 >
 >La phase d&#39;analyse est détaillée dans la section [Analyser la diffusion](steps-validating-the-delivery.md#analyzing-the-delivery).
 
-Pendant la phase d&#39;analyse, le fichier est généré mais aucune information concernant les destinataires (à savoir les logs de diffusion) n&#39;est mise à jour. Vous pouvez donc annuler cette opération sans aucun risque.
+Pendant la phase d’analyse, le fichier est généré mais aucune information concernant les destinataires (à savoir les logs de diffusion) n’est mise à jour. Vous pouvez donc annuler ce traitement sans aucun risque.
 
 Vérifiez le résultat de l&#39;analyse et le contenu du fichier de sortie avant de cliquer sur le bouton **[!UICONTROL Confirmer l&#39;envoi]**. Un message d&#39;avertissement vous permet de confirmer la diffusion.
 

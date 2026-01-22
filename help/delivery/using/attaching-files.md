@@ -15,7 +15,7 @@ ht-degree: 100%
 
 ---
 
-# Joindre des fichiers à un email {#attaching-files}
+# Joindre des fichiers à un e-mail{#attaching-files}
 
 ## À propos des pièces jointes à un email {#about-email-attachments}
 
@@ -142,7 +142,7 @@ Vous pouvez calculer le nom d’une pièce jointe pendant la préparation de la 
 
 1. Analysez puis démarrez votre diffusion.
 
-   Le calcul du nom du fichier est visible dans le journal de l&#39;analyse.
+   Le calcul du nom du fichier est visible dans le log de l&#39;analyse.
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_05.png)
 

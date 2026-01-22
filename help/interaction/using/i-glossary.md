@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: interaction-overview
 exl-id: 9e199b7c-9307-4797-bf86-7940388555bc
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1122'
 ht-degree: 100%
 
@@ -76,7 +76,7 @@ Voici la définition des éléments principaux d&#39;Interaction.
 * **Fonction de rendu** : fonction définie au niveau de l&#39;emplacement permettant de construire la représentation de l&#39;offre pour ce même emplacement à partir d&#39;attributs définis au niveau de l&#39;offre. Trois modes de fonctions de rendu existent : HTML, XML et texte.
 * **Proposition d&#39;offre** : résultat de l&#39;action qui consiste à présenter une ou plusieurs offres à un contact sur un emplacement donné (une bannière sur un site web, un email ou un SMS par exemple). Ce résultat est stocké dans la table des propositions d&#39;offre. Il n&#39;est cependant pas obligatoire de stocker les propositions.
 * **Simulation** : module permettant de tester la présentation d&#39;offres auprès des personnes à cibler avant de procéder à la véritable présentation.
-* **Prévisualisation** : aperçu de l&#39;offre telle qu&#39;elle apparaîtra dans son emplacement. La prévisualisation d&#39;une offre est accessible depuis la fenêtre de paramétrage des offres ou le profil d&#39;un contact.
+* **Prévisualisation** : aperçu de l’offre telle qu’elle apparaîtra dans son emplacement. La prévisualisation d’une offre est accessible depuis la fenêtre de paramétrage des offres ou le profil d’un contact.
 * **Filtres prédéfinis** : règles de filtrage prédéfinis pouvant prendre en compte des paramètres d&#39;une offre (par exemple le code de l&#39;offre). Ils peuvent être réutilisés lors de la création des offres.
 * **Représentation d&#39;offre** : information exploitée par le canal afin d&#39;afficher l&#39;offre. La représentation d&#39;une offre peut être construite à partir de la fonction de rendu de l&#39;emplacement sur lequel l&#39;offre est représentée ou saisie directement dans l&#39;interface (par exemple : dans le bloc HTML). Une offre peut avoir une représentation par emplacement.
 * **Processus de basculement** : processus activé dans un environnement identifié, chargé de diriger l&#39;appel vers un environnement anonyme si le contact n&#39;a pas pu être identifié explicitement et/ou implicitement.

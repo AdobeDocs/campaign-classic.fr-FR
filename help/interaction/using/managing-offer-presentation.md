@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: 6158ffaa-cb08-4f77-82b8-b3e5e1bf7fd7
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1098'
 ht-degree: 100%
 
@@ -116,7 +116,7 @@ Ces critères constituent les cas d&#39;application les plus courants d&#39;une 
 
   >[!NOTE]
   >
-  >Il s&#39;agit bien du canal et non de l&#39;emplacement. Si la règle doit exclure une offre sur le canal web, l&#39;offre destinée à être proposée sur un site web à deux emplacements, (une bannière et le corps de texte de la page par exemple), n&#39;apparaîtra pas sur le site si elle a déjà été proposée auparavant.
+  >Il s’agit bien du canal et non de l’emplacement. Si la règle doit exclure une offre sur le canal web, l’offre destinée à être proposée sur un site web à deux emplacements (une bannière et le corps de texte de la page par exemple) n’apparaîtra pas sur le site si elle a déjà été proposée auparavant. 
   >
   >Dans le cas d&#39;un workflow impliquant la présentation d&#39;offres, les règles ne sont correctement prises en compte que si elles sont paramétrées sur **[!UICONTROL Tous les canaux]**.
 

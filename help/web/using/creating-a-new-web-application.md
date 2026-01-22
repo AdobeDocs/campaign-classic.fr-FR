@@ -6,7 +6,7 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Web Apps
 exl-id: 5ccf5a21-48aa-4c0d-8cc8-457eb07d9f74
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '368'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Ce modèle détermine le type d&#39;application web. Vous pouvez ainsi créer :
 
    Adobe Campaign permet de créer des applications web destinées à être exposées sur une plateforme web ou dans le contexte d&#39;un extranet, par exemple. Elles permettent alors l&#39;édition de données et l&#39;enregistrement d&#39;informations dans Adobe Campaign. Dans ce cas, vous pouvez réserver leur accès à des utilisateurs authentifiés (via le contrôle d&#39;accès) et mettre en place un préchargement des données selon plusieurs critères. Pour plus d’informations, consultez [cette section](about-web-applications.md).
 
-1. Pages de destination
+1. Landing pages
 
    Une page de destination est une page HTML dont le contenu est proposé sur un site Web et qui permet aux internautes de renseigner des informations qui seront stockées au niveau de leur profil dans la base Adobe Campaign. Le contenu de ce type de page est généralement réalisé par une agence Web spécialisée et il est ensuite importé dans Adobe Campaign pour en assurer la mise en ligne, la gestion et le suivi. Pour plus d’informations, consultez [cette page](creating-a-landing-page.md).
 

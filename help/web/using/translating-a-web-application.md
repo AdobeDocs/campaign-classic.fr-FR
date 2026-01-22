@@ -6,7 +6,7 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Web Apps
 exl-id: 82c5c610-8161-4686-aa79-1b690e763765
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '384'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Pour marquer les chaînes à traduire :
    Trois cas spécifiques sont à noter :
 
    * Lorsqu&#39;un bloc sélectionné contient plusieurs chaînes/blocs, ce dernier est ajouté sous forme d&#39;une seule chaîne à traduire. La chaîne contient alors le code HTML des éléments que le bloc contient.
-   * Lorsque vous souhaitez traduire un bloc contenant plusieurs chaînes dont au moins l&#39;une d&#39;entre-elles est déjà marquée comme à traduire, un message vous en avertit. Vous pouvez alors choisir de retirer la chaîne isolée et d&#39;ajouter le bloc entier.
+   * Lorsque vous souhaitez traduire un bloc contenant plusieurs chaînes dont au moins l’une d’entre-elles est déjà marquée comme à traduire, un message vous en avertit. Vous pouvez alors choisir de retirer la chaîne isolée et d’ajouter le bloc entier.
 
      ![](assets/dce_translation_4.png)
 

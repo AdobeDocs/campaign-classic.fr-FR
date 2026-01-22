@@ -69,6 +69,6 @@ Si votre système de base de données pour Campaign est PostgreSQL, vous devez e
 ## Liens utiles
 
 * [Mise à niveau de votre environnement](../../production/using/build-upgrade.md)
-* [FAQ sur la mise à niveau des builds](../../platform/using/faq-build-upgrade.md)
+* [FAQ sur la mise à niveau de build](../../platform/using/faq-build-upgrade.md)
 * [Télécharger la dernière version de Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
 * [Mettre à disposition la nouvelle console cliente auprès des utilisateurs et des utilisatrices](../../installation/using/client-console-availability-for-windows.md)

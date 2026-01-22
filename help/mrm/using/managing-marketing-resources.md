@@ -63,7 +63,7 @@ Vous pouvez modifier et mettre à jour une ressource marketing et, au besoin, en
 
 >[!NOTE]
 >
->L’onglet **[!UICONTROL Historique]** contient le journal de téléchargement et de mise à jour de la ressource. Le bouton **[!UICONTROL Détails]** permet de visualiser la version sélectionnée.
+>L’onglet **[!UICONTROL Historique]** contient le log de téléchargement et de mise à jour de la ressource. Le bouton **[!UICONTROL Détails]** permet de visualiser la version sélectionnée.
 
 ### Verrouiller/déverrouiller une ressource {#locking-unlocking-a-resource}
 

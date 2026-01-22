@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 exl-id: e7d4331b-7149-4768-8e46-2e2911319074
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '387'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 
 
-Suite à des modifications récentes, les URL trackées peuvent échouer lorsque la signature d&#39;URL est active dans Campaign. Certaines boîtes de réception peuvent être plus touchées que d&#39;autres, car certaines sociétés disposent d&#39;outils de sécurité spécifiques qui peuvent affecter les liens et modifier le mécanisme de signature d&#39;URL.
+Suite à des modifications récentes, les URL trackées peuvent échouer lorsque la signature d’URL est active dans Campaign. Certaines boîtes de réception peuvent être plus touchées que d&#39;autres, car certaines sociétés disposent d&#39;outils de sécurité spécifiques qui peuvent affecter les liens et modifier le mécanisme de signature d&#39;URL.
 
 Par conséquent, Adobe vous recommande de désactiver le mécanisme de signature pour les liens de tracking. Cette procédure corrige les anciens liens de tracking, à l&#39;exception de ceux qui ont été reçus avec un double échappement.
 

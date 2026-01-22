@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: ec40498e-e673-4792-8dcf-8bb7e852b532
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '445'
 ht-degree: 100%
 
@@ -55,7 +55,7 @@ Lorsque vous effectuez des tâches de développement dans Adobe Campaign (workf
 
 * **Sécurisation du modèle de données** : utilisez des droits nommés pour limiter les actions des opérateurs et ajoutez des filtres système (sysFilter).
 
-* **Ajout de captchas dans les applications web** : découvrez comment ajouter des captchas dans vos pages d’inscription et landing pages publiques.
+* **Ajout de captchas dans les applications web** : découvrez comment ajouter des captchas dans vos pages d’inscription et landing pages publiques.
 
 [En savoir plus](../../installation/using/scripting-coding-guidelines.md)
 

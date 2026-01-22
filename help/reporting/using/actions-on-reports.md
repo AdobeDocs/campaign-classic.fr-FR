@@ -6,7 +6,7 @@ feature: Reporting, Monitoring
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
 ht-degree: 100%
 

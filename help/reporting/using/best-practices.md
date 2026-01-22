@@ -40,9 +40,9 @@ Afin d&#39;optimiser la création, l&#39;utilisation et la pérennité d&#39;un 
    * Utiliser un assistant pour analyser les données. En savoir plus dans [cette section](../../reporting/using/about-descriptive-analysis.md)
    * Analyser de grands volumes de données. En savoir plus dans [cette section](../../reporting/using/about-reports-creation-in-campaign.md)
 
-1. Identifier le public auquel le rapport est destiné
+1. Identifier la population cible
 
-   Vous devez ensuite savoir à qui le rapport que vous souhaitez créer s&#39;adresse, connaître le ou les publics qui seront amenés à le consulter et connaître le mode d&#39;affichage du rapport (dans un navigateur, dans Adobe Campaign, pour un objet précis, pour toute la plateforme, etc.).
+   Vous devez ensuite savoir à quelle cible le rapport que vous souhaitez créer s’adresse, connaître le ou les publics qui seront amenés à le consulter et connaître le mode d’affichage du rapport (dans un navigateur, dans Adobe Campaign, pour un objet précis, pour toute la plateforme, etc.).
 
    Vous pouvez ainsi créer des rapports pour :
 

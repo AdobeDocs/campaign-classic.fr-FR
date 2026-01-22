@@ -39,9 +39,9 @@ Pour parvenir à effectuer un filtre du type **Date de création = max (Date de 
 
    ![](assets/datamanagement_usecase_2.png)
 
-1. Cliquez sur **[!UICONTROL Editer les données additionnelles]**, puis sur **[!UICONTROL Paramètres avancés…]** Sélectionnez l’option **[!UICONTROL Désactiver l&#39;ajout automatique des clés primaires de la dimension de ciblage]**.
+1. Cliquez sur **[!UICONTROL Editer les données additionnelles]**, puis sur **[!UICONTROL Paramètres avancés…]** Sélectionnez l’option **[!UICONTROL Désactiver l’ajout automatique des clés primaires de la dimension de ciblage]**.
 
-   Cette option permet de ne pas renvoyer tous les destinataires comme résultat et de ne conserver que les données explicitement ajoutées. Dans le cas présent, il s&#39;agit de la dernière date à laquelle un destinataire a été créé.
+   Cette option permet de ne pas renvoyer tous les destinataires comme résultat et de ne conserver que les données explicitement ajoutées. Dans le cas présent, il s’agit de la dernière date à laquelle un destinataire a été créé.
 
    Laissez l&#39;option **[!UICONTROL Supprimer les doublons (DISTINCT)]** cochée.
 

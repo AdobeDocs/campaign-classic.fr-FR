@@ -191,7 +191,7 @@ Ce rapport présente les statistiques sur les taux d&#39;ouverture, clics et tra
 
 Il vous permet de suivre l&#39;impact marketing de la diffusion. Vous pouvez paramétrer l&#39;affichage des valeurs en sélectionnant l’échelle de temps (vue sur 1 heure, sur 3 heures, sur 24 heures, etc.). Cliquez sur **[!UICONTROL Actualiser]** pour confirmer votre sélection.
 
-Ce rapport se présente sous la forme d’un tableau de valeur et d’un diagramme de Pareto permettant de mesurer le temps mis pour que la diffusion atteigne son efficacité maximum. Les indicateurs utilisés sont les suivants :
+Ce rapport se présente sous la forme d’un tableau de valeur et d’un graphique de Pareto permettant de mesurer le temps mis pour que la diffusion atteigne son efficacité maximum. Les indicateurs utilisés sont les suivants :
 
 * **[!UICONTROL Ouvertures]** : estimation du temps mis pour atteindre un pourcentage du nombre total de messages ouverts. Les emails au format texte ne sont pas comptabilisés. Pour plus d’informations sur le tracking des ouvertures, consultez la section [Tracking des ouvertures](../../reporting/using/indicator-calculation.md#tracking-opens-).
 * **[!UICONTROL Clics]** : Estimation du temps mis pour atteindre un pourcentage du nombre total de clics enregistrés. Les clics sur le lien d&#39;opt-out et la page miroir ne sont pas pris en compte.

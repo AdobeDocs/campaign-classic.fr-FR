@@ -23,7 +23,7 @@ L&#39;activité **[!UICONTROL Modifier la source de données]** permet de modifi
 La **[!UICONTROL table de travail]** permet au workflow Adobe Campaign Classic de gérer les données et de partager les données avec les activités de workflow.
 Par défaut, la **[!UICONTROL table de travail]** est créée dans la même base de données que la source des données sur lesquelles nous effectuons une requête.
 
-Par exemple, lors de l&#39;interrogation de la table **[!UICONTROL Profils]** stockée dans la base de données cloud, vous allez créer une **[!UICONTROL table de travail]** sur la même base de données cloud.
+Par exemple, lors de l’interrogation de la table **[!UICONTROL Profils]** stockée dans la base de données cloud, vous allez créer une **[!UICONTROL table de travail]** sur la même base de données cloud.
 Pour modifier ce paramètre, vous pouvez ajouter l&#39;activité **[!UICONTROL Modifier la source de données]** afin de choisir une autre source de données pour votre **[!UICONTROL table de travail]**.
 
 Notez que lorsque vous utilisez l&#39;activité **[!UICONTROL Modifier la source de données]**, vous devez revenir à la base de données cloud pour continuer l&#39;exécution des workflows.

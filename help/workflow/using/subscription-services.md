@@ -47,7 +47,7 @@ Pour cela, il faut également exclure les destinataires déjà abonnés.
 
 1. Placez les trois requêtes suivantes :
 
-   * Une première ciblant les destinataires âgés de 18 à 60 ans.
+   * Une première ciblant les destinataires âgés de 18 à 60 ans.
    * Une seconde ciblant les destinataires résidant à Paris.
    * Une troisième ciblant les destinataires n&#39;étant pas actuellement pas abonnés à la newsletter.
 
@@ -68,6 +68,6 @@ Vous avez la possibilité de vérifier que l&#39;abonnement a bien été effectu
 ## Paramètres d&#39;entrée {#input-parameters}
 
 * tableName
-* schema
+* schéma
 
 Chacun des événements entrants doit spécifier une cible définie par ces paramètres.

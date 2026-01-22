@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
 source-git-commit: ab38c7fd45513c6f7a8ecf7ef8601f0b5a4b5757
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1118'
 ht-degree: 100%
 
@@ -195,7 +195,7 @@ Au besoin, éditez le fichier **customer.sh** à l&#39;aide de la commande **vi 
   su - neolane
   ```
 
-Vous devez relancer le service Adobe Campaign afin que les changements d&#39;environnement soient pris en compte.
+Vous devez redémarrer le service Adobe Campaign afin que les changements denvironnement soient pris en compte.
 
 Les commandes sont les suivantes :
 

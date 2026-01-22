@@ -283,14 +283,14 @@ Les paramètres disponibles pour chacune des règles sont les suivants :
 * **[!UICONTROL Nombre maximum de connexions]** : nombre maximum de connexions simultanées au domaine de l’expéditeur.
 * **[!UICONTROL Nombre maximum de messages]** : nombre maximum de messages qui peuvent être envoyés sur une connexion. Au-delà, la connexion est fermée puis une nouvelle est rouverte.
 * **[!UICONTROL Messages par heure]** : nombre maximum de messages pouvant être envoyés en une heure au domaine de l’expéditeur.
-* **[!UICONTROL Timeout de connexion]** : délai maximum pour tenter de se connecter à un domaine.
+* **[!UICONTROL Délai d’expiration de connexion]** : délai maximum pour tenter de se connecter à un domaine.
 
   >[!NOTE]
   >
-  >Le système d&#39;exploitation Windows peut émettre un **timeout** avant cette limite. Cette limite dépend de la version de Windows.
+  >Le système d’exploitation Windows peut émettre un **délai d’expiration** avant cette limite. Cette limite dépend de la version de Windows.
 
-* **[!UICONTROL Timeout Data]** : durée maximale d&#39;attente d&#39;une réponse du serveur après l&#39;envoi du contenu du message (section DATA du protocole SMTP).
-* **[!UICONTROL Timeout]** : durée maximale d&#39;attente de réponse pour les autres échanges avec le serveur SMTP.
+* **[!UICONTROL Données de délai d’expiration]** : durée maximale d’attente d’une réponse du serveur après l’envoi du contenu du message (section DATA du protocole SMTP).
+* **[!UICONTROL Délai d’expiration]** : durée maximale d’attente de réponse pour les autres échanges avec le serveur SMTP.
 * **[!UICONTROL TLS]** : le protocole TLS, qui permet de chiffrer la diffusion des e-mails, peut être activé de manière sélective. Pour chaque masque de MX, les options suivantes sont disponibles :
 
    * **[!UICONTROL Configuration par défaut]** : c&#39;est la configuration générale indiquée dans le fichier de configuration serverConf.xml qui est appliquée.

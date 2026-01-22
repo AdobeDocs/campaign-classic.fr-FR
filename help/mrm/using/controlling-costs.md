@@ -159,7 +159,7 @@ Ainsi, chaque ligne de dépense contient les informations suivantes :
 * La ligne de facture correspondante (MRM seulement)
 * La liste des coûts calculés par postes de coûts (si une structure de coûts existe)
 
-Dans l’exemple ci-dessus, la ligne de dépense éditée contient les coûts calculés pour la diffusion des **nouvelles cartes** de la campagne **Loyalty Spring Pack**. Lorsque la diffusion est éditée, l’onglet **[!UICONTROL Courrier]** permet de visualiser le mode de calcul de la ligne de dépense.
+Dans l’exemple ci-dessus, la ligne de dépense modifiée contient les coûts calculés pour la diffusion des **nouvelles cartes** de la campagne **Loyalty Spring Pack**. Lorsque la diffusion est éditée, l’onglet **[!UICONTROL Courrier]** permet de visualiser le mode de calcul de la ligne de dépense.
 
 Le calcul des coûts pour cette diffusion se base sur les postes de coûts sélectionnés pour le prestataire concerné :
 

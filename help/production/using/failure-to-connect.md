@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: troubleshooting
 exl-id: 3c793dc1-9654-4289-a3d2-30c3078fd848
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '371'
 ht-degree: 100%
 
@@ -39,11 +39,11 @@ Vous pouvez effectuer les tests suivants. Si la connexion échoue toujours, cont
 </tr>
 <tr> 
 <td>Pouvez-vous vous connecter sur le serveur hébergeant Adobe Campaign par un autre service ?</td> 
-<td>Connectez-vous en SSH ou tout autre moyen sur le serveur. En cas d'impossibilité, il y a un problème réseau chez votre hébergeur, contactez leur administrateur réseau.</td>
+<td>Connectez-vous en SSH ou tout autre moyen sur le serveur. En cas d’impossibilité, il y a un problème réseau chez votre hébergeur, contactez leur responsable de l’administration réseau.</td>
 </tr>
 <tr> 
 <td>Le serveur Web répond-t-il ?</td> 
-<td>Connectez-vous à l’URL d’accès au serveur Adobe Campaign à l’aide d’un navigateur web : <b>http(s):// &lt;urlserver&gt;</b>. S’il ne répond pas, le serveur web est arrêté sur l’ordinateur. Contactez l’administrateur système de votre hébergeur pour redémarrer le service.</td>
+<td>Connectez-vous à l’URL d’accès au serveur Adobe Campaign à l’aide d’un navigateur web : <b>http(s):// &lt;urlserver&gt;</b>. S’il ne répond pas, le serveur web est arrêté sur l’ordinateur. Contactez l’équipe d’administration système de votre hébergeur pour redémarrer le service.</td>
 </tr>
 <tr> 
 <td>L'intégration Adobe Campaign est-elle bien effectuée ?</td> 

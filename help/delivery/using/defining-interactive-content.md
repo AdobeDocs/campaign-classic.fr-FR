@@ -53,7 +53,7 @@ Pour tester et envoyer un email AMP avec Adobe Campaign, procédez comme suit 
 1. Installez le package de **[!UICONTROL support AMP]**. Voir [Installation des packages natifs de Campaign](../../installation/using/installing-campaign-standard-packages.md).
 1. Créez un email et concevez le contenu AMP dans Adobe Campaign. Voir [Créer du contenu d’email AMP avec Adobe Campaign](#build-amp-email-content).
 1. Veillez à respecter toutes les exigences en matière de diffusion des fournisseurs de messagerie qui prennent en charge le format AMP. Voir [Prérequis de diffusion AMP for Email](#amp-for-email-delivery-requirements).
-1. Lorsque vous définissez votre cible, assurez-vous de sélectionner les destinataires qui pourront afficher le format AMP. Voir [Cibler un email AMP](#targeting-amp-email).
+1. Lorsque vous définissez votre cible, assurez-vous de sélectionner les destinataires qui pourront afficher le format AMP. Voir [Cibler un e-mail AMP](#targeting-amp-email).
 
    >[!NOTE]
    >
@@ -208,6 +208,6 @@ Si, par exemple, vous avez inclus une liste de produits dans votre email, lors d
 
 La vidéo ci-dessous explique comment activer AMP dans Adobe Campaign et présente son utilisation.
 
->[!VIDEO](https://video.tv.adobe.com/v/33568?quality=12&learn=on&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on)
 
 D’autres vidéos pratiques sur Campaign sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

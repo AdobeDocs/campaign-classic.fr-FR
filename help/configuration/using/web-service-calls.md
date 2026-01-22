@@ -127,7 +127,7 @@ Les définitions de type reposent sur des schémas XML. Dans notre exemple, la m
 
 #### Messages {#messages}
 
-Le `<message>` décrit les noms et les types d&#39;un ensemble de champs à envoyer. La méthode utilise deux messages à transmettre en tant que paramètre (&quot;ExecuteQueryIn&quot;) et la valeur renvoyée (&quot;ExecuteQueryOut&quot;).
+Le `<message>` décrit les noms et les types d&#39;un ensemble de champs à envoyer. La méthode utilise deux messages à transmettre en tant que paramètre (« ExecuteQueryIn ») et la valeur renvoyée (« ExecuteQueryOut »).
 
 ```
 <message name="ExecuteQueryIn">
@@ -154,7 +154,7 @@ La partie `<porttype>` associe les messages sur l&#39;opération &quot;ExecuteQu
 
 #### Binding {#binding}
 
-La partie `<binding>` spécifie le protocole de communication SOAP ( `<soap:binding>` ), le transport de données en HTTP (valeur de l&#39;attribut &quot;transport&quot;) et le format de données pour l&#39;opération &quot;ExecuteQuery&quot;. Le corps de l&#39;enveloppe SOAP contient les segments de message, directement, sans transformation.
+La partie `<binding>` spécifie le protocole de communication SOAP ( `<soap:binding>` ), le transport de données en HTTP (valeur de l’attribut « ransport ») et le format de données pour l’opération « ExecuteQuery ». Le corps de l&#39;enveloppe SOAP contient les segments de message, directement, sans transformation.
 
 ```
 <binding name="queryDefMethodsSoap" type="tns:queryDefMethodsSoap">

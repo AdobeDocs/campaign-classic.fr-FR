@@ -6,7 +6,7 @@ feature: Social Marketing
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: 10fd561f-1b07-490e-9f66-d67e44a0def5
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '621'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Le rendu sera le suivant :
 
 ![](assets/s_ncs_user_viral_add_link_rendering.png)
 
-Lorsque le destinataire clique sur l&#39;icône d&#39;un des réseaux sociaux proposés, il est automatiquement redirigé vers son compte afin de partager le lien vers le contenu de ce message. Les membres de son réseau pourront ainsi accéder à cette communication.
+Lorsque le destinataire clique sur l’icône d’un des réseaux sociaux proposés, il est automatiquement redirigé vers son compte afin de partager le lien vers le contenu de ce message. Les membres de son réseau pourront ainsi accéder à cette communication.
 
 >[!NOTE]
 >

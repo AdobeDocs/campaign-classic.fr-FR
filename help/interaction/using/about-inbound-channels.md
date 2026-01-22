@@ -5,7 +5,7 @@ description: À propos des canaux entrants
 feature: Interaction, Offers
 exl-id: 33247728-b865-4dfd-814f-2900965a7187
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
 ht-degree: 100%
 
@@ -27,6 +27,6 @@ Avant de pouvoir proposer des offres sur un canal entrant, vous devez paramétre
 
 >[!NOTE]
 >
->Dans le cas d&#39;interactions entrantes, il est nécessaire de paramétrer spécifiquement le moteur d&#39;offres pour proposer et mettre à jour une ou plusieurs offres.
+>Dans le cas d’interactions entrantes, il est nécessaire de paramétrer spécifiquement le moteur d’offres pour proposer et mettre à jour une ou plusieurs offres.
 >
->Vous devez également autoriser le mode unitaire sur vos emplacements. Voir à ce sujet la section [Créer des emplacements](../../interaction/using/creating-offer-spaces.md).
+>Vous devez également activer le mode unitaire sur vos emplacements. Voir à ce sujet la section [Créer des emplacements](../../interaction/using/creating-offer-spaces.md).

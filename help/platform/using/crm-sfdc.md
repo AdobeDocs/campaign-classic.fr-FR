@@ -40,10 +40,10 @@ Compte utilisé pour se connecter à Salesforce CRM
 Mot de passe utilisé pour se connecter à Salesforce CRM.
 
    * **[!UICONTROL Identifiant du client]**
-Pour savoir où trouver l’identifiant du client, consultez [cette page](https://help.salesforce.com/articleView?id=000205876&amp;type=1).
+Pour savoir où trouver l’identifiant du client, consultez [cette page](https://help.salesforce.com/articleView?id=000205876&type=1).
 
    * **[!UICONTROL Jeton de sécurité]**
-Pour savoir où trouver le jeton de sécurité, consultez [cette page](https://help.salesforce.com/articleView?id=000205876&amp;type=1).
+Pour savoir où trouver le jeton de sécurité, consultez [cette page](https://help.salesforce.com/articleView?id=000205876&type=1).
 
    * **[!UICONTROL Version de l’API]**
 Sélectionnez la version de l’API.
@@ -76,7 +76,7 @@ Sélectionnez la version de l’API.
 
    Cliquez sur **[!UICONTROL Suivant]** puis **[!UICONTROL Démarrer]** pour lancer l&#39;import de la liste.
 
-1. Vérifiez les valeurs importées sous le menu **[!UICONTROL Administration > Plateforme > Enumérations]**.
+1. Vérifiez les valeurs importées sous le menu **[!UICONTROL Administration > Plateforme > Énumérations]**.
 
    ![](assets/crm_connectors_sfdc_exe.png)
 

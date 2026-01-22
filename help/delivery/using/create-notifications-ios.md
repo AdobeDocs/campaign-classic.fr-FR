@@ -174,7 +174,7 @@ Vous devez maintenant créer une nouvelle diffusion et l’associer à l’appli
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**, puis envoyez votre diffusion.
 
-L’image et la page web doivent s’afficher dans la notification push lors de la réception sur les appareils iOS des abonnés.
+L’image et la page web doivent s’afficher dans la notification push lors de la réception sur les appareils mobiles iOS des personnes abonnées.
 
 ![](assets/nmac_ios_8.png)
 

@@ -25,7 +25,7 @@ L&#39;onglet **[!UICONTROL Exécution]** de la fenêtre **[!UICONTROL Propriét�
 
 ### Planificateur {#scheduler}
 
-Cette section n&#39;apparaît que dans les workflows d&#39;opérations.
+Cette section n’apparaît que dans les workflows de campagne.
 
 * **[!UICONTROL Priorité]**
 
@@ -45,13 +45,13 @@ Cette section n&#39;apparaît que dans les workflows d&#39;opérations.
 
 * **[!UICONTROL Jours d&#39;historique]**
 
-  Les tables de travail de la base conservent un historique des exécutions (tâches, évènements, journal). Définissez ici le nombre de jours d&#39;historique que vous voulez conserver pour ce workflow : les processus de nettoyage de la base supprimeront chaque jour les historiques plus anciens. Si la valeur de ce champ est zéro, l&#39;historique ne sera jamais supprimé.
+  Les tables de travail de la base conservent un historique des exécutions (tâches, évènements, log). Définissez ici le nombre de jours d&#39;historique que vous voulez conserver pour ce workflow : les processus de nettoyage de la base supprimeront chaque jour les historiques plus anciens. Si la valeur de ce champ est zéro, l&#39;historique ne sera jamais supprimé.
 
 * **[!UICONTROL Enregistrer les requêtes SQL dans le journal]**
 
   Cette fonctionnalité est réservée aux utilisateurs experts. Elle concerne les workflows qui contiennent des activités de ciblage (requête, union, intersection, etc.). Lorsque cette option est cochée, les requêtes SQL envoyées vers la base lors de l&#39;exécution du workflow sont affichées dans Adobe Campaign : vous pouvez ainsi les analyser afin d&#39;optimiser les requêtes ou diagnostiquer d&#39;éventuels problèmes.
 
-  Les requêtes sont affichées dans un onglet **[!UICONTROL Journaux SQL]** ajouté au workflow (sauf pour les workflows de campagne) et à l’activité **[!UICONTROL Propriétés]** lorsque l’option est activée. L’onglet **[!UICONTROL Audit]** comprend également des requêtes SQL.
+  Les requêtes sont affichées dans un onglet **[!UICONTROL Logs SQL]** ajouté au workflow (sauf pour les workflows de campagne) et à l’activité **[!UICONTROL Propriétés]** lorsque l’option est activée. L’onglet **[!UICONTROL Audit]** comprend également des requêtes SQL.
 
   ![](assets/wf_tab_log_sql.png)
 
@@ -59,7 +59,7 @@ Cette section n&#39;apparaît que dans les workflows d&#39;opérations.
 
   Cette option ne doit être utilisée qu&#39;à des fins de débuggage et jamais en production. Lorsque cette option est activée, le workflow devient prioritaire, et tous les autres workflows sont stoppés par le moteur de workflow tant qu&#39;il n&#39;est pas terminé.
 
-### Gestion des erreurs        {#error-management}
+### Gestion des erreurs {#error-management}
 
 * **[!UICONTROL Résolution des problèmes]**
 

@@ -827,7 +827,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsServer_LastPostUpgrade</span> <br /> </td> 
-   <td> Numéro de build de l'instance AC avant la dernière mise à niveau.<br /> </td> 
+   <td> Numéro de build de l’instance AC avant la dernière mise à niveau.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsServer_URL</span> <br /> </td> 

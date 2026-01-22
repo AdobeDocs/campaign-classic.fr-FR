@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 1f1004e2-dcd2-4ec5-98ec-720c205646d5
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '988'
 ht-degree: 100%
 
@@ -60,11 +60,11 @@ Pour installer et configurer SpamAssassin sous Windows afin d&#39;en permettre l
 
 1. Accédez au dossier dans lequel vous avez décompressé le fichier puis double-cliquez sur le fichier **run_me.bat** afin de lancer le script d&#39;installation.
 
-   Si un Shell Windows apparaît et reste affiché durant plusieurs secondes, attendez que l&#39;installation et la mise à jour soient terminées puis appuyez sur **Entrée**.
+   Si un Shell Windows apparaît et reste affiché durant plusieurs secondes, attendez que l’installation et la mise à jour soient terminées, puis cliquez sur **Entrée**.
 
    Si le shell Windows n’apparaît pas ou s’il apparaît puis disparaît instantanément, procédez comme suit : double-cliquez sur le fichier **portableShell.bat** afin d&#39;afficher un shell Windows et vérifiez que le chemin du shell correspond au dossier dans lequel le fichier **spamassassin.zip** a été décompressé. Si ce n’est pas le cas, accédez-y à l’aide de la commande **cd**.
 
-   Entrez **run_me.bat** puis appuyez sur **Entrée** afin de lancer le processus d&#39;installation et de mise à jour. L&#39;opération renvoie l&#39;une des valeurs suivantes afin d&#39;indiquer le résultat de la mise à jour :
+   Entrez **run_me.bat** puis cliquez sur **Entrée** afin de lancer le processus d’installation et de mise à jour. L’opération renvoie l’une des valeurs suivantes afin d’indiquer le résultat de la mise à jour :
 
    * **0** : une mise à jour a été effectuée.
    * **1** : aucune nouvelle mise à jour n&#39;était disponible.

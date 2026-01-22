@@ -5,7 +5,7 @@ description: Recommandations relatives au dimensionnement du matériel pour Camp
 feature: Technote
 exl-id: c47e73a0-dbd8-43f5-a363-7e6783dc7685
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2569'
 ht-degree: 100%
 
@@ -45,7 +45,7 @@ Les diagrammes de déploiement et les recommandations relatives au dimensionneme
 Ce document suppose également que les trois scénarios ont recours aux types d’utilisation suivants :
 
 * Des campagnes par e-mail volumineuses sont envoyées deux fois par semaine à environ 50 % de vos destinataires actifs.
-* Le publipostage est généré une fois par mois pour chaque destinataire du système.
+* Le courrier est généré une fois par mois pour chaque destinataire du système.
 * Des SMS sont envoyés à environ 10 % de vos destinataires actifs chaque mois.
 * Le schéma de la base de données qui définit chaque destinataire a été étendu avec une table supplémentaire, laquelle contient environ 200 octets de données relatives à chaque destinataire.
 * Le module Interaction d’Adobe Campaign est utilisé pour ajouter des offres aux e-mails sortants.
@@ -61,7 +61,7 @@ Les applications web de Campaign peuvent également être déployées sur les se
 
 Pour des raisons de sécurité et de disponibilité, Adobe recommande de séparer le trafic Internet du trafic généré par les utilisateurs professionnels. Pour cette raison, les diagrammes contiennent deux groupes de serveurs : le serveur web (Web1 et Web2 avec accès via Internet) et les serveurs d’applications (App1 et App2 avec processus d’entreprise).
 
-Les expéditeurs d’e-mails commerciaux ont l’obligation légale de disposer d’une page web d&#39;opt-out fonctionnelle. Adobe recommande de disposer d’une machine redondante dans chacun des serveurs de ces groupes pour les scénarios de basculement. C’est d’autant plus vrai si Adobe Campaign héberge les pages d&#39;opt-out.
+Les expéditeurs d’e-mails commerciaux ont l’obligation légale de disposer d’une page web d&#39;opt-out fonctionnelle. Adobe recommande de disposer d’une machine redondante dans chacun des serveurs de ces groupes pour les scénarios de basculement. C’est d’autant plus vrai si Adobe Campaign héberge les pages d’opt-out.
 
 ### Serveurs proxy inverses
 
@@ -148,7 +148,7 @@ Dans ce scénario, Adobe recommande d’installer Adobe Campaign sur quatre mac
 
 Les serveurs d’application prennent directement en charge les utilisateurs de la console Campaign et l’exécution des workflows de campagne. Cette fonctionnalité est déployée sur deux serveurs identiques pour permettre une haute disponibilité ; ils partagent un système de fichiers NAS (Network-Attached Storage) pour activer le basculement.
 
-Les serveurs Web hébergent des applications Web Campaign qui prennent en charge les 10 millions de destinataires actifs du système.
+Les serveurs web hébergent des applications Web Campaign qui prennent en charge les 10 millions de destinataires actifs du système.
 
 Voir [Scénario 1 : Déploiement de taille moyenne ](#scenario-1) pour plus de commentaires sur les proxies, les centres de préférences/la gestion des abonnements et l’utilisation de l’espace disque.
 
@@ -196,7 +196,7 @@ Dans ce scénario, Adobe recommande d’installer Adobe Campaign sur quatre mac
 
 Les serveurs d’application prennent directement en charge les utilisateurs de la console Campaign et l’exécution des workflows de campagne. Cette fonctionnalité est déployée sur deux serveurs identiques pour permettre une haute disponibilité ; ils partagent un système de fichiers NAS (Network-Attached Storage) pour activer le basculement.
 
-Les serveurs Web hébergent des applications Web Campaign qui prennent en charge les 10 millions de destinataires actifs du système.
+Les serveurs web hébergent des applications Web Campaign qui prennent en charge les 10 millions de destinataires actifs du système.
 
 Voir [Scénario 1 : Déploiement de taille moyenne ](#scenario-1) pour plus de commentaires sur les proxies, les centres de préférences/la gestion des abonnements et l’utilisation de l’espace disque.
 

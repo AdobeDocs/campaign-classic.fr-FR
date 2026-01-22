@@ -6,7 +6,7 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Surveys
 exl-id: 7061a4f1-006f-4f19-8761-918d8930d885
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '567'
 ht-degree: 100%
 
@@ -79,7 +79,7 @@ Par défaut, les questionnaires sont disponibles dans le nœud **[!UICONTROL Res
 Les paramètres sont stockés dans les dossiers suivants :
 
 * **[!UICONTROL Administration > Paramétrage > Rendus des formulaires]** : contient les modèles de rendu pour la présentation des formulaires Web (applications et questionnaires).
-* **[!UICONTROL Ressources > Modèles > Modèles d&#39;application Web]** : contient des modèles de formulaires. Pour créer un formulaire, vous devez partir d&#39;un modèle.
+* **[!UICONTROL Ressources > Modèles > Modèles d’application web]** : contient des modèles de formulaires. Pour créer un formulaire, vous devez partir d’un modèle.
 
 >[!NOTE]
 >

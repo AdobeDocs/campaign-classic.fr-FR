@@ -6,7 +6,7 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Web Apps, Reporting, Monitoring
 exl-id: 07bd36ce-c701-4998-974f-81fd4fac22a0
 source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '413'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ Les principales fonctionnalités proposées dans cette version sont les suivante
 
   Les principaux indicateurs sont les suivants :
 
-   * **Taux de conversion** : nombre de personnes qui ont parcouru toutes les étapes d&#39;un chemin de navigation.
+   * **Taux de conversion** : nombre de personnes qui ont parcouru toutes les étapes d’un chemin de navigation.
    * **Taux de rebond** : nombre de personnes qui n&#39;ont affiché que la première étape.
    * **Entonnoir de conversion** : taux de perte entre chacune des étapes.
 

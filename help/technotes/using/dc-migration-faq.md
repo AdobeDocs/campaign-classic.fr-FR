@@ -21,7 +21,7 @@ Adobe désactive l’ancien centre de données : les instances Campaign Classi
 
 Vous trouverez ci-dessous un ensemble de questions courantes concernant ce projet, l’impact sur vos environnements Campaign et d’autres ressources utiles.
 
-Pour toute autre question, contactez l’[Assistance clientèle d’Adobe](https://experienceleague.adobe.com/fr?support-solution=Campaign&lang=fr#support).
+Pour toute autre question, contactez l’[Assistance clientèle d’Adobe](https://experienceleague.adobe.com/?support-solution=Campaign&lang=fr#support).
 
 ## Incidences sur l’infrastructure
 
@@ -51,7 +51,7 @@ Les incidences globales sur la base de données et l’infrastructure sont répe
 
 * **En quoi consiste le plan pour résoudre les problèmes consécutifs à la migration ?**
 
-  Des tests approfondis doivent être effectués avant la migration des systèmes de production. Toutefois, en cas de problèmes, l’[Assistance clientèle d’Adobe](https://experienceleague.adobe.com/fr?support-solution=Campaign#support) reste le principal point de contact. Adobe a mis en place une équipe d’experts chargée, si nécessaire, d’apporter une assistance avancée.
+  Des tests approfondis doivent être effectués avant la migration des systèmes de production. Toutefois, en cas de problèmes, l’[Assistance clientèle d’Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support) reste le principal point de contact. Adobe a mis en place une équipe d’experts chargée, si nécessaire, d’apporter une assistance avancée.
 
 ## Incidences sur la délivrabilité
 
@@ -97,7 +97,7 @@ Les incidences globales sur les adresses IP, la liste bloquée, les sous-domaine
 
   Tout d’abord, l’équipe chargée de la délivrabilité d’Adobe évaluera le statut de la plateforme concernant la délivrabilité et recommandera un plan de basculement vers les nouvelles adresses IP.
 
-  Aucun préchauffage n’est nécessaire après la migration. Il peut y avoir certaines exceptions. Dans ce cas, l’[Assistance clientèle d’Adobe](https://experienceleague.adobe.com/fr?support-solution=Campaign&lang=fr#support) contactera les clients.
+  Aucun préchauffage n’est nécessaire après la migration. Il peut y avoir certaines exceptions. Dans ce cas, l’[Assistance clientèle d’Adobe](https://experienceleague.adobe.com/?support-solution=Campaign&lang=fr#support) contactera les clients.
 
   Cependant, le plan est destiné à réaliser cette opération de manière transparente pour l’entreprise, contrairement à la montée en réputation initiale qui est effectuée pendant la phase de démarrage.
 

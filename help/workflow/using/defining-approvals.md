@@ -81,7 +81,7 @@ Pour ajouter une nouvelle expiration, cliquez sur le bouton **[!UICONTROL Ajoute
 >
 >Il n&#39;est pas nécessaire d&#39;ordonner les expirations, elles seront traitées par ordre chronologique.
 
-L&#39;option **[!UICONTROL Ne pas terminer la tâche]** laisse la validation active une fois le délai expiré. Ce mode de fonctionnement permet de gérer des relances tout en laissant la validation active : les opérateurs ont toujours la possibilité de répondre. Cette option est désactivée par défaut : lorsque le délai est expiré la tâche est terminée et les opérateurs ne peuvent plus répondre.
+L’option **[!UICONTROL Ne pas terminer la tâche]** laisse la validation active une fois le délai expiré. Ce mode de fonctionnement permet de gérer des relances tout en laissant la validation active : les opérateurs ont toujours la possibilité de répondre. Cette option est désactivée par défaut : lorsque le délai est expiré la tâche est terminée et les opérateurs ne peuvent plus répondre.
 
 Vous pouvez créer quatre types d&#39;expirations :
 

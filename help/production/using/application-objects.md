@@ -34,7 +34,7 @@ Si le cycle de la séquence est déjà terminé, la meilleure solution consiste 
 
 ## Dossiers {#folders}
 
-Le nombre de dossiers sur chaque instance doit être inférieur à 1 000. Un nombre de dossiers supérieur peut entraîner des problèmes de performance du client Campaign. Vous pouvez configurer une opération de suivi pour comptabiliser le nombre de dossiers, de workflows, etc. Vous pouvez créer des rapports régulièrement.
+Le nombre de dossiers sur chaque instance doit être inférieur à 1 000. Un nombre de dossiers supérieur peut entraîner des problèmes de performance du client Campaign. Vous pouvez configurer un traitement de surveillance pour comptabiliser le nombre de dossiers, de workflows, etc. Vous pouvez créer des rapports régulièrement.
 
 Cette méthode permet également de mettre en lumière les utilisateurs qui créent trop d&#39;objets.
 

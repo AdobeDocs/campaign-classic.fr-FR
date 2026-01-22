@@ -5,7 +5,7 @@ description: élément dbindex
 feature: Schema Extension
 exl-id: d7d1e427-12e0-4f07-9e01-d184dbe2ebf1
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '338'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Il est possible de définir plusieurs index. Un index peut référencer un ou pl
 
 L&#39;ordre des éléments `<keyfield>` définis dans un `<dbindex>` est très important. Le premier `<keyfield>` doit être le critère d&#39;indexation sur lequel reposent principalement les requêtes.
 
-Le nom de l’index en base est calculé par concaténation du nom de la table et du nom de l’index. Exemple : Nom de la table : « Sample », Namespace : « Cus », nom de l’index : « MyIndex » - nom du champ de l’index lors de la requête de création de l’index en table : « CusSample_myIndex ».
+Le nom de l’index dans la base de données est calculé par concaténation du nom de la table et du nom de l’index. Exemple : Nom de la table : « Sample », Namespace : « Cus », nom de l’index : « MyIndex » - nom du champ de l’index lors de la requête de création de l’index : « CusSample_myIndex ».
 
 ## Description des attributs {#attribute-description-3}
 

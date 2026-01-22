@@ -7,7 +7,7 @@ hide: true
 hidefromtoc: true
 exl-id: e4806bb8-de9d-47e4-8b37-d6c0565b7f5a
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '748'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Les étapes de création d&#39;un cube sont les suivantes :
 1. Définissez des mesures. Consultez la section [Construction des indicateurs](#building-indicators).
 1. Créez des agrégats (facultatif). Consultez la section [Calcul et utilisation dʼagrégats](../../reporting/using/concepts-and-methodology.md#calculating-and-using-aggregates).
 
-L&#39;exemple ci-après permet de créer rapidement un cube simple et de l&#39;utiliser dans un rapport afin d&#39;en explorer les mesures.
+L’exemple ci-après permet de créer rapidement un cube simple et de l’utiliser dans un rapport afin d’en exporter les mesures.
 
 Les étapes de réalisation sont présentées ci-après, les options et descriptions exhaustives sont présentées dans les autres sections de ce chapitre.
 

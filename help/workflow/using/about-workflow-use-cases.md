@@ -65,7 +65,7 @@ Vous pourrez ainsi découvrir les différents contextes d’utilisation des work
 * [Réaliser un calcul d&#39;agrégats](performing-aggregate-computing.md)
 * [Requête avec gestion des regroupements](querying-using-grouping-management.md)
 * [Requête avec une relation multiple-à-multiple](querying-using-many-to-many-relationship.md)
-* [Ajout d&#39;un champ calculé de type Enumérations](adding-enumeration-type-calculated-field.md)
+* [Ajout d’un champ calculé de type Énumérations](adding-enumeration-type-calculated-field.md)
 * [Création d&#39;un filtre](creating-a-filter.md)
 * [Filtrer les destinataires en double](filtering-duplicated-recipients.md)
 * [Appeler une variable d&#39;instance dans une requête](javascript-scripts-and-templates.md#calling-an-instance-variable-in-a-query)

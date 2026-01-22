@@ -5,7 +5,7 @@ description: élément condition
 feature: Schema Extension
 exl-id: 71e98d45-3660-4d86-a5ca-8e55ae5896eb
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '95'
 ht-degree: 100%
 

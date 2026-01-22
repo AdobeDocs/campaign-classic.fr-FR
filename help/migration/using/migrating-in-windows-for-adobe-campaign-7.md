@@ -10,7 +10,7 @@ hide: true
 hidefromtoc: true
 exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1115'
 ht-degree: 100%
 
@@ -201,7 +201,7 @@ La procédure de sauvegarde d’Adobe Campaign 6.1 est décrite ci-après.
 Le déploiement d&#39;Adobe Campaign se déroule en deux parties :
 
 * L&#39;installation du build v7 : cette opération doit être effectuée sur chaque serveur.
-* Le postupgrade : cette commande doit être lancée sur chaque instance.
+* Après la mise à niveau : cette commande doit être lancée sur chaque instance.
 
 Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
 
@@ -402,7 +402,7 @@ Before you delete and cleanse the Adobe Campaign v6.02 installation, you must ap
 Avant de supprimer et nettoyer l&#39;installation d&#39;Adobe Campaign v6, il est impératif de suivre les recommandations ci-dessous :
 
 * Effectuez une validation complète de la nouvelle installation par les équipes fonctionnelles.
-* Ne procédez à la désinstallation d&#39;Adobe Campaign v6 qu&#39;une fois que vous êtes certain qu&#39;un retour arrière n&#39;est pas nécessaire.
+* Ne procédez à la désinstallation d’Adobe Campaign v6 qu’une fois que vous êtes certain qu’une restauration n’est pas nécessaire.
 
 1. Dans IIS, supprimez le site web **Adobe Campaign v6** puis le pool d&#39;applications **Adobe Campaign v6**.
 1. Renommez le dossier **Adobe Campaign v6.back** en **Adobe Campaign v6**.

@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: d9ffa58d-81e3-4291-8502-3cb7c326b666
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '176'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ Tout serveur de messagerie peut être utilisé dès lors que les boîtes mails c
 
 >[!CAUTION]
 >
->Ce serveur mail peut être exposé à une lourde charge : en phase initiale, des listes typiques génèrent un taux de 10% de rebonds (si vous faites une première diffusion de 100 000 mails, il est courant de recevoir 10 000 mails rebonds).
+>Ce serveur mail peut être exposé à une lourde charge : en phase initiale, des listes typiques génèrent un taux de 10 % de rebonds (si vous envoyez 100 000 messages, attendez-vous à recevoir 10 000 rebonds).
 >
 >Il est donc fortement déconseillé d&#39;utiliser votre serveur de messagerie d&#39;entreprise pour cette fonction, car il pourrait être fortement impacté.
 >

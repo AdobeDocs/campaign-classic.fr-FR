@@ -139,7 +139,7 @@ Une liste complète est disponible dans la description de l&#39;[`<attribute>`é
 
 Lorsque cet attribut n’est pas renseigné, **string** est le type de données par défaut, sauf si l’élément contient des éléments enfants. Si tel est le cas, il est utilisé uniquement pour structurer les éléments de manière hiérarchique (élément **`<location>`** dans notre exemple).
 
-Les types de données supportés dans un schéma sont les suivants :
+Les types de données pris en charge dans un schéma sont les suivants :
 
 * **string** : chaîne de caractères. Exemples : un prénom, une ville, etc.
 

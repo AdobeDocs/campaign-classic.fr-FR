@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: troubleshooting
 exl-id: 33dcfd4b-51fd-44f4-98e0-23eafb79d7da
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '497'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ Voir à ce propos [cette section](../../production/using/recommendations.md).
 
 **Gestion des tables de travail**
 
-Vous devez vérifier le nombre et la taille des tables de travail. Lorsqu&#39;elles deviennent trop volumineuses, les performances de la base sont affectées. Ces tables sont créées notamment par les workflows et les diffusions. Elles ne disparaissent pas de la base tant que le traitement des workflows et des diffusions n&#39;est pas terminé ou qu&#39;ils n&#39;ont pas été interrompus ou supprimés. Pour limiter les tables de travail vous pouvez effectuer les opérations suivantes :
+Vous devez vérifier le nombre et la taille des tables de travail. Lorsqu’elles deviennent trop volumineuses, les performances de la base sont affectées. Ces tables sont créées notamment par les workflows et les diffusions. Elles ne disparaissent pas de la base tant que les workflows et diffusions sont actifs. Pour limiter les tables de travail vous pouvez effectuer les opérations suivantes :
 
 * Arrêter ou supprimer les diffusions dont le statut est, au choix, **[!UICONTROL En échec]**, **[!UICONTROL En cours]**, **[!UICONTROL Prête à être diffusée]** ou **[!UICONTROL En pause]**.
 * Arrêter ou supprimer les workflows qui sont en pause à cause d&#39;une erreur.

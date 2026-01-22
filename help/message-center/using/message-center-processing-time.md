@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: reports
 exl-id: c797fd94-0c8d-480b-b22a-1489ac331e77
 source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '253'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 
 
-Ce rapport présente les principaux indicateurs associés à la file d&#39;attente en temps réel.
+Ce rapport présente les principaux indicateurs associés à la file d’attente en temps réel.
 
 Ce rapport destiné aux administrateurs techniques est également accessible à partir de l&#39;onglet **[!UICONTROL Supervision]** de l&#39;instance de pilotage.
 

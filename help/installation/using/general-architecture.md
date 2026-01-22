@@ -33,7 +33,7 @@ Un déploiement classique de la solution Adobe Campaign comprend les composants
 
   Reposant sur la technologie de base de données relationnelle, la base de données Adobe Campaign stocke toutes les informations sur les clients, les composants de campagne, les offres et les workflows, ainsi que les résultats de campagne dans des conteneurs de base de données client.
 
-Adobe Campaign repose sur une architecture orientée service (SOA) composée de plusieurs modules fonctionnels. Ces modules peuvent être déployés sur une ou plusieurs machines, en un ou plusieurs exemplaires, afin de respecter les contraintes de tenue en charge, de disponibilité et d&#39;isolation des services. Les configurations de déploiement possibles sont donc multiples, depuis une machine unique centralisant tous les services nécessaires, jusqu&#39;à des configurations comprenant de multiples serveurs dédiés, éventuellement sur des sites différents.
+Adobe Campaign repose sur une architecture orientée service (SOA) composée de plusieurs modules fonctionnels. Ces modules peuvent être déployés sur une ou plusieurs machines, dans une ou plusieurs instances, afin de respecter les contraintes de tenue en charge, de disponibilité et d’isolation des services. Les configurations de déploiement possibles sont donc multiples, depuis une machine unique centralisant tous les services nécessaires, jusqu&#39;à des configurations comprenant de multiples serveurs dédiés, éventuellement sur des sites différents.
 
 >[!NOTE]
 >
@@ -77,13 +77,13 @@ Il prend également en charge les workflows techniques qui s&#39;exécutent pér
 
 **Serveur de diffusion** (nlserver mta)
 
-Adobe Campaign permet d&#39;exécuter nativement les diffusions de type email. Ce processus agit alors comme un agent de transfert de mails (MTA) natif pour la diffusion par le protocole SMTP. Il prend en charge la personnalisation &quot;one-to-one&quot; des messages et leur diffusion physique. Il repose sur la notion de jobs de diffusions et gère les reprises automatiques. De plus, lorsque le tracking est activé, il remplace automatiquement toutes les URL présentes dans un message afin de les faire pointer vers le serveur de redirection.
+Adobe Campaign permet d’exécuter nativement les diffusions de type e-mail. Ce processus agit alors comme un agent de transfert de mails (MTA) natif pour la diffusion par le protocole SMTP. Il prend en charge la personnalisation « one-to-one » des messages et leur diffusion physique. Il repose sur la notion de traitements de diffusion et gère les reprises automatiques. De plus, lorsque le tracking est activé, il remplace automatiquement toutes les URL présentes dans un message afin de les faire pointer vers le serveur de redirection.
 
 Ce processus peut assurer la personnalisation et l&#39;envoi automatique vers un prestataire externe pour les diffusions de type SMS, Fax ou Courrier papier.
 
 **Serveur de redirection** (nlserver webmdl)
 
-Dans le cas des diffusions par email, Adobe Campaign assure automatiquement le suivi des ouvertures et clics dans les messages (et éventuellement le suivi des transactions générées sur le site Web). Pour cela, les URL présentes dans les emails sont réécrites afin de pointer vers ce module, qui assure l&#39;enregistrement de passage de l&#39;internaute avant de le rediriger vers la véritable URL.
+Dans le cas des diffusions par e-mail, Adobe Campaign assure automatiquement le suivi des ouvertures et clics dans les messages (et éventuellement le suivi transactionnel au niveau du site web). Pour cela, les URL présentes dans les e-mails sont réécrites afin de pointer vers ce module, qui assure l’enregistrement de passage de l’internaute avant de le rediriger vers la véritable URL.
 
 Afin d&#39;en garantir la disponibilité maximale, ce processus est totalement indépendant de la base de données : les autres processus serveur dialoguent avec lui en utilisant uniquement des appels SOAP (donc HTTP, HTTPS et XML). Techniquement, cette fonctionnalité est implémentée dans un module d&#39;extension d&#39;un serveur HTTP (extension ISAPI sous IIS, module DSO sous Apache) et n&#39;est accessible que sous Windows.
 
@@ -125,7 +125,7 @@ Ce processus maintient les statistiques du nombre de connexions, de messages env
 
 ## Couche de persistance {#persistence-layer}
 
-La base de données est utilisée en tant que couche persistante et contient quasiment toute l&#39;information gérée par Adobe Campaign, à la fois les données fonctionnelles (gestion des profils, abonnements, contenus, etc.), les données techniques (jobs et logs de diffusion, logs de tracking, etc.) et les données métier (actes d&#39;achat, leads).
+La base de données est utilisée en tant que couche persistante et contient quasiment toutes les informations gérée par Adobe Campaign, à la fois les données fonctionnelles (gestion des profils, abonnements, contenus, etc.), les données techniques (traitements et logs de diffusion, logs de tracking, etc.) et les données métier (actes d’achat, leads).
 
 La fiabilité de la base de données est primordiale puisque la plupart des composants d&#39;Adobe Campaign doivent avoir accès à la base afin d&#39;accomplir leurs tâches (hormis le module de redirection).
 

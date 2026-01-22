@@ -6,7 +6,7 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Web Apps, Web Forms, Landing Pages, Delivery Templates
 exl-id: 69805e60-8fc6-45d1-9087-5f7d949cc76a
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '123'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ Pour ajouter un modèle, consultez la section [Options globales](content-editor-
 
 ## Enregistrer une diffusion comme modèle {#saving-a-delivery-as-a-template}
 
-A la fin du paramétrage d&#39;une diffusion, il vous est possible de l&#39;enregistrer comme modèle afin de la réutiliser lors de prochaines diffusions.
+À la fin du paramétrage d&#39;une diffusion, il vous est possible de l&#39;enregistrer comme modèle afin de la réutiliser lors de prochaines diffusions.
 
 Dans l’onglet **Campagnes**, ouvrez la diffusion sélectionnée. Cliquez sur le bouton **Enregistrer en tant que modèle**, nommez le modèle, puis enregistrez-le.
 

@@ -8,7 +8,7 @@ hide: true
 hidefromtoc: true
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1009'
 ht-degree: 100%
 
@@ -63,7 +63,7 @@ Les boutons **[!UICONTROL Ajouter]** situés sur chacun des axes permettent d&#3
 
    Vous pouvez, au choix :
 
-   * Déplier les données au chargement : les valeurs seront alors affichées par défaut à chaque actualisation du rapport (valeur par défaut : non).
+   * Déplier les données au chargement : les valeurs seront alors affichées par défaut à chaque mise à jour du rapport (valeur par défaut : non).
    * Afficher le total en fin de ligne : pour les données affichées en colonne, une options supplémentaire est proposée afin d&#39;afficher le total en fin de ligne : une colonne supplémentaire est alors ajoutée dans le tableau (valeur par défaut : oui).
    * Appliquer un tri : les valeurs de la colonne peuvent être triées par valeur, par libellé, ou selon une mesure (valeur par défaut : par valeur).
    * Afficher les valeurs dans l&#39;ordre ascendant (a-z, 0-9) ou descendant (z-a, 9-0).
@@ -111,7 +111,7 @@ Par défaut, une seule mesure est affichée. Pour ajouter ou paramétrez les mes
 
    * Proportion : ce type de mesure permet de calculer le nombre d&#39;enregistrements mesurés pour une dimension donnée. Vous pouvez calculer la proportionnalité par rapport à une dimension ou une sous-dimension.
    * Variation : cette mesure permet de calculer la variation des valeurs d&#39;un niveau.
-   * Ecart à la moyenne : ce type de mesure permet de calculer les écarts dans chaque groupe de cellules correspondantes, par rapport à la moyenne des valeurs. Vous pouvez par exemple comparer le volume des ventes pour chaque segment existant.
+   * Écart type : ce type de mesure permet de calculer les écarts dans chaque groupe de cellules, par rapport à la moyenne des valeurs. Vous pouvez par exemple comparer le volume des ventes pour chaque segment existant.
 
    La mesure créée est alors ajoutée dans le rapport.
 

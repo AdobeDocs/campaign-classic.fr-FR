@@ -487,4 +487,4 @@ Les navigateurs suivants, dans leur dernière version, sont compatibles avec Cam
 >* [Architecture générale de Campaign](../../installation/using/general-architecture.md)
 >* [Recommandations relatives au dimensionnement du matériel](../../technotes/using/hardware-sizing.md)
 >* [Fonctionnalités et systèmes obsolètes](../../rn/using/deprecated-features.md)
->* [Procédure d&#39;upgrade de build](../../production/using/build-upgrade.md)
+>* [Procédure de mise à niveau de build](../../production/using/build-upgrade.md)

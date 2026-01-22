@@ -37,7 +37,7 @@ Pour plus d&#39;informations sur la création de listes, reportez-vous à cette 
 
 ## Etape 2 : création du modèle de diffusion {#step-2--creating-the-delivery-template}
 
-1. Dans l&#39;explorateur Adobe Campaign, positionnez-vous sur le nœud **[!UICONTROL Ressources > Modèles > Modèles de diffusion]** et dupliquez le modèle d&#39;usine **[!UICONTROL Diffuser par e-mail]**.
+1. Dans l’explorateur Adobe Campaign, positionnez-vous sur le nœud **[!UICONTROL Ressources > Modèles > Modèles de diffusion]** et dupliquez le modèle d’usine **[!UICONTROL Diffuser par e-mail]**.
 
    ![](assets/use_case_report_2.png)
 

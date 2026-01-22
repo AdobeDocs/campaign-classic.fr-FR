@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: initial-configuration
 exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
 source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1352'
 ht-degree: 100%
 
@@ -113,7 +113,7 @@ Consultez votre accord de licence afin de vérifier les options et solutions que
 
 ### Etape 5 - Etapes de la création {#step-5---creation-steps}
 
-La fenêtre **[!UICONTROL Etapes de la création]** offre notamment la possibilité de vérifier et éditer le script SQL utilisé pour créer les tables.
+La fenêtre **[!UICONTROL Étapes de la création]** offre notamment la possibilité de vérifier et éditer le script SQL utilisé pour créer les tables.
 
 ![](assets/s_ncs_install_db_oracle_creation04.png)
 
@@ -212,7 +212,7 @@ Consultez votre accord de licence afin de vérifier les options et solutions que
 
 ### Etape 4 - Etapes de la création {#step-4---creation-steps}
 
-La fenêtre **[!UICONTROL Etapes de la création]** offre notamment la possibilité de vérifier et éditer le script SQL utilisé pour créer les tables.
+La fenêtre **[!UICONTROL Étapes de la création]** offre notamment la possibilité de vérifier et éditer le script SQL utilisé pour créer les tables.
 
 ![](assets/s_ncs_install_db_oracle_creation04.png)
 

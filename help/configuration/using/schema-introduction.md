@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Référence des schémas {#schema-reference}
 
-Durant l’édition d’un schéma, un système de validation basé sur le schéma source (xtk:srcSchema) est accessible. Certaines erreurs peuvent également être repérées lors de la mise à jour de la base de données via l’assistant « Mise à jour de la structure de la base de données... ».
+Durant l’édition d’un schéma, un système de validation basé sur le schéma source (xtk:srcSchema) est accessible. Certaines erreurs peuvent également être repérées lors de la mise à jour de la base de données via l’assistant « Mise à jour de la structure de la base de données... »
 
 Par défaut dans les schémas Adobe Campaign, tous les attributs de type booléen sont « false ». Pour les activer, il faut donc spécifier l’attribut dans le schéma et définir sa valeur sur « true ».
 

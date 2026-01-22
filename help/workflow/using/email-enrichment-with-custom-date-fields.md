@@ -43,7 +43,7 @@ Pour réaliser cet exemple, les étapes sont les suivantes :
 1. Dans la colonne **[!UICONTROL Opérateur]**, sélectionnez **[!UICONTROL égal à]**.
 1. Filtrez davantage votre condition en ajoutant la **[!UICONTROL Valeur]** de mois de la date actuelle : Month(GetDate()).
 
-   Cela interrogera les destinataires dont le mois d&#39;anniversaire correspond au mois actuel.
+   Cela interrogera les destinataires dont le mois d’anniversaire correspond au mois actuel.
 
    ![](assets/uc_enrichment_4.png)
 

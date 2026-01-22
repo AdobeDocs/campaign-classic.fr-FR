@@ -6,7 +6,7 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Landing Pages
 exl-id: 71c737c2-b0d6-4ae8-a5df-28a08dff82d7
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '779'
 ht-degree: 100%
 
@@ -70,7 +70,7 @@ Pour charger le modèle dans la première page, respectez les étapes suivantes�
 1. Sélectionnez le fichier HTML à utiliser.
 1. Cliquez sur **Ouvrir** afin de démarrer l&#39;import.
 
-   Lors du chargement, la liste des fichiers chargés apparait. Le système d&#39;import vérifie que tous les fichiers liés au HTML sélectionné sont présents (CSS, images, etc.).
+   Lors du chargement, la liste des fichiers chargés apparait. Le système d’import vérifie que tous les fichiers liés au HTML sélectionné sont présents (CSS, images, etc.).
 
    Cliquez sur le bouton **[!UICONTROL Fermer]** lorsque l&#39;import est terminé.
 
@@ -160,12 +160,12 @@ Le contenu est publié à partir du tableau de bord de l’application web. Cliq
 
 ![](assets/dce_uc1_pub_dashboard.png)
 
-Lors de la publication, un journal est affiché. Le système de mise en ligne analyse l&#39;intégralité des contenus présents dans l&#39;application Web.
+Lors de la publication, un log est affiché. Le système de mise en ligne analyse l&#39;intégralité des contenus présents dans l&#39;application Web.
 
 ![](assets/dce_uc1_pub_dashboard_journal.png)
 
 >[!NOTE]
 >
->Dans le journal de publication, les avertissements ou erreurs potentiels sont triés par activité.
+>Dans le log de publication, les avertissements ou erreurs potentiels sont triés par activité.
 
 Le formulaire est maintenant disponible : son URL est accessible dans le tableau de bord de l&#39;application et peut être proposée aux destinataires.

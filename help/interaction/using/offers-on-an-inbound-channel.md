@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: case-study
 exl-id: 90afced3-465d-4370-8a33-51a7e4356135
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2163'
 ht-degree: 100%
 
@@ -112,7 +112,7 @@ Vous obtenez une arborescence contenant votre nouvel environnement :
 
 1. Dans l&#39;onglet **[!UICONTROL Eligibilité]**, définissez les poids de l&#39;offre en fonction de ses contextes d&#39;application.
 
-   Dans notre exemple, l&#39;offre est paramétrée pour apparaître prioritairement dans la page d&#39;accueil du site jusqu&#39;à la fin de l&#39;année.
+   Dans notre exemple, l’offre est paramétrée pour apparaître prioritairement dans la page d’accueil du site jusqu’à la fin de l’année.
 
    ![](assets/offer_inbound_anonymous_example_016.png)
 
@@ -153,7 +153,7 @@ Un même visiteur se présentant plusieurs fois sur la page verra s&#39;afficher
 
 ## Basculer vers un environnement anonyme lorsqu&#39;un contact n&#39;est pas identifié {#switching-to-an-anonymous-environment-in-case-of-unidentified-contacts}
 
-La société Neobank souhaite proposer des offres marketing destinées à deux publics différents. Elle veut pouvoir afficher des offres génériques pour des personnes qui navigueraient anonymement sur son site web. Dans le cas où l&#39;un de ses internautes se révèlerait être un client disposant d&#39;identifiants fournis par Neobank, la société souhaite qu&#39;il puisse voir des offres personnalisées dès lors qu&#39;il se connecte à son compte.
+La société Neobank souhaite proposer des offres marketing destinées à deux cibles différentes. Elle veut pouvoir afficher des offres génériques pour des personnes qui navigueraient anonymement sur son site web. Dans le cas où l’un de ses internautes se révèlerait être un client disposant d’identifiants fournis par Neobank, la société souhaite qu’il puisse voir des offres personnalisées dès lors qu’il se connecte à son compte.
 
 Le scénario de ce cas client se déroule de la manière suivante :
 

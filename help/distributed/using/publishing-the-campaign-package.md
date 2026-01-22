@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Publier le pack de campagnes
-description: Publier le pack de campagnes
+title: Publier le kit de campagne
+description: Publier le kit de campagne
 feature: Distributed Marketing
 hide: true
 hidefromtoc: true
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 ---
 
-# Publier le pack de campagnes{#publishing-the-campaign-package}
+# Publier le kit de campagne{#publishing-the-campaign-package}
 
 
 
@@ -23,7 +23,7 @@ Avant de pouvoir être publiés dans la liste des kits de campagne, les kits de 
 
 ## Définir un opérateur validant {#assigning-a-reviewer}
 
-Pour indiquer le validant, cliquez sur le lien **[!UICONTROL Paramètres de validation...]** du kit d&#39;opération et choisissez l&#39;opérateur concerné dans la liste déroulante.
+Pour indiquer le validant, cliquez sur le lien **[!UICONTROL Paramètres de validation...]** du kit de campagne et choisissez l’opérateur concerné dans la liste déroulante.
 
 ![](assets/s_advuser_mkg_dist_define_valid.png)
 
@@ -31,7 +31,7 @@ Vous pouvez alors lancer le processus de validation en cliquant sur le bouton **
 
 ![](assets/s_advuser_mkg_dist_valid_process.png)
 
-Un message de notification est alors envoyé au validant afin de confirmer la mise à disposition de ce kit d&#39;opération. Ce message propose un lien pour accepter ou refuser la validation via un accès web.
+Un message de notification est alors envoyé au validant afin de confirmer la mise à disposition de ce kit de campagne. Ce message propose un lien pour accepter ou refuser la validation via un accès web.
 
 ![](assets/s_advuser_mkg_dist_valid_process1.png)
 
@@ -41,7 +41,7 @@ Un message de notification est alors envoyé au validant afin de confirmer la mi
 
 ## Ajouter d&#39;autres opérateurs validants {#adding-other-reviewers}
 
-Depuis le lien **[!UICONTROL Paramètres de validation...]** du kit d&#39;opération, le lien **[!UICONTROL Editer...]** permet d&#39;ajouter d&#39;autres opérateurs validants.
+Depuis l’onglet **[!UICONTROL Paramètres de validation...]** du kit de campagne, le lien **[!UICONTROL Éditer...]** permet d’ajouter d’autres réviseurs et réviseuses.
 
 ![](assets/s_advuser_mkg_dist_select_op_valid.png)
 
@@ -59,7 +59,7 @@ Une fois défini et une fois que le package a été soumis à validation, le pla
 
 ## Validation via la console Adobe Campaign {#approving-via-the-adobe-campaign-console}
 
-Si aucun validant n&#39;a été défini ou si aucun des opérateurs notifiés n&#39;a validé le kit, le bouton **[!UICONTROL Valider le kit]** permet de procéder directement à la validation depuis l&#39;onglet **[!UICONTROL Tableau de bord]** du kit d&#39;opération ou depuis la vue d&#39;ensemble des kits.
+Si aucun validant n’a été défini ou si aucun des opérateurs notifiés n’a validé le kit, le bouton **[!UICONTROL Valider le kit]** permet de procéder directement à la validation depuis l’onglet **[!UICONTROL Tableau de bord]** du kit de campagne ou depuis la vue d’ensemble des kits.
 
 ![](assets/s_advuser_mkg_dist_valid_button.png)
 
