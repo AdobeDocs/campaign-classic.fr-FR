@@ -19,7 +19,7 @@ ht-degree: 81%
 >
 >Ces questions fréquentes abordent des questions spécifiques à l’architecture d’Adobe Campaign Classic v7, aux modèles de déploiement et aux fonctionnalités spécifiques à la v7.
 >
->**Pour obtenir des réponses complètes aux questions courantes sur Campaign** (workflows, diffusions, audiences, reporting, personnalisation, etc.), consultez les [**questions fréquentes complètes sur Campaign v8**](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-faq-comprehensive){target="_blank"}, qui fournissent des réponses détaillées organisées par rubrique.
+>**Pour obtenir des réponses complètes aux questions courantes sur Campaign** (workflows, diffusions, audiences, reporting, personnalisation, etc.), consultez les [**questions fréquentes complètes sur Campaign v8**](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-faq-comprehensive){target="_blank"}, qui fournissent des réponses détaillées organisées par rubrique.
 
 ## Architecture et déploiement de Campaign Classic v7 {#v7-architecture}
 
@@ -68,7 +68,7 @@ La migration vers Adobe Managed Services améliore l’évolutivité, la sécu
 
 **Prise en main :** contactez votre représentant ou représentante Adobe pour évaluer votre environnement et développer un plan de migration détaillé avec Adobe Professional Services.
 
-En savoir plus sur la [migration vers Managed Services](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605){target="_blank"}.
+En savoir plus sur la [migration vers Managed Services](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605?profile.language=fr){target="_blank"}.
 
 +++
 
@@ -169,7 +169,7 @@ Les déploiements on-premise et hybrides nécessitent une configuration et un re
 * Correctifs de sécurité standard
 * Journalisation et surveillance des audits
 
-Consultez la [Liste de contrôle relative à la configuration de la sécurité](https://helpx.adobe.com/campaign/kb/acc-security.html){target="_blank"} pour découvrir les éléments essentiels à contrôler en ce qui concerne la configuration et le renforcement de la sécurité pour les déploiements on-premise.
+Consultez la [Liste de contrôle relative à la configuration de la sécurité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html){target="_blank"} pour découvrir les éléments essentiels à contrôler en ce qui concerne la configuration et le renforcement de la sécurité pour les déploiements on-premise.
 
 +++
 
@@ -252,7 +252,7 @@ Consultez les [**questions fréquentes complètes sur Campaign v8**](https://ex
 
 **Communauté et support :**
 
-* [Forums de la communauté Campaign](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
+* [Forums de la communauté Campaign](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=fr){target="_blank"}
 * [Support Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
 
 +++
