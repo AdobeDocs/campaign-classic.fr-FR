@@ -210,7 +210,7 @@ En savoir plus dans la [documentation de la console cliente Campaign](../../plat
 
 +++ Où les clients hébergés peuvent-ils gérer les paramètres des instances ? {#where-to-manage-instance-settings}
 
-Le Panneau de Contrôle [](https://experienceleague.adobe.com/fr/docs/control-panel/using/control-panel-home.html?lang=fr){target="_blank"} aide les administrateurs de produit d’Adobe Campaign à gérer les paramètres et à suivre l’utilisation de chaque instance. Son interface intuitive vous permet de surveiller les ressources essentielles et d’effectuer des tâches administratives telles que les mises à jour de la place sur la liste autorisée IP, la surveillance de l’espace de stockage SFTP, la gestion des clés, etc.
+Le Panneau de Contrôle [&#128279;](https://experienceleague.adobe.com/fr/docs/control-panel/using/control-panel-home.html?lang=fr){target="_blank"} aide les administrateurs de produit d’Adobe Campaign à gérer les paramètres et à suivre l’utilisation de chaque instance. Son interface intuitive vous permet de surveiller les ressources essentielles et d’effectuer des tâches administratives telles que les mises à jour de la place sur la liste autorisée IP, la surveillance de l’espace de stockage SFTP, la gestion des clés, etc.
 
 **Principaux avantages :**
 
