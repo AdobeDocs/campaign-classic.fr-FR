@@ -24,7 +24,7 @@ De plus, le module **Marketing Resource Management (MRM)** vous permet de contr�
 >[!NOTE]
 >
 >Pour plus d’informations sur les [!DNL Adobe Campaign] fonctionnalités de base, consultez [cette section](../../platform/using/about-adobe-campaign-classic.md).\
->Les fonctionnalités relatives au ciblage des populations, à la personnalisation des messages et à la diffusion des messages sur les différents canaux sont présentées dans la [!DNL Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}.
+>Les fonctionnalités relatives au ciblage des populations, à la personnalisation des messages et à la diffusion des messages sur les différents canaux sont présentées dans la [[!DNL Campaign v8 documentation]](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}.
 
 ![Miniature vidéo pratique](assets/do-not-localize/how-to-video.png) [Découvrez en vidéo les concepts clés des campagnes marketing](#video)
 
