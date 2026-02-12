@@ -7,15 +7,15 @@ feature: Campaigns
 hide: true
 hidefromtoc: true
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
-source-git-commit: 4a7ecd170bd27f43d515da71c212bbdaa306d602
+source-git-commit: df014d3f3029a61176e5117e27f3d2e8228fc407
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 76%
+source-wordcount: '434'
+ht-degree: 80%
 
 ---
 
-# Conception et exécution de campagnes marketing{#designing-marketing-campaigns}
 
+# Conception et exécution de campagnes marketing{#designing-marketing-campaigns}
 
 [!DNL Adobe Campaign] vous permet de définir, d’optimiser, d’exécuter et d’analyser des campagnes marketing et de communication. [!DNL Adobe Campaign] agit comme un centre de commande et d’exécution unifié pour les stratégies marketing. Pour plus d’informations à ce sujet, reportez-vous aux sections [Accès aux campagnes](../../distributed/using/accessing-campaigns.md) et [Création de campagnes marketing](../../campaign/using/setting-up-marketing-campaigns.md).
 
@@ -23,8 +23,10 @@ De plus, le module **Marketing Resource Management (MRM)** vous permet de contr�
 
 >[!NOTE]
 >
->Pour plus d’informations sur les [!DNL Adobe Campaign] fonctionnalités de base, consultez [cette section](../../platform/using/about-adobe-campaign-classic.md).\
->Les fonctionnalités relatives au ciblage des populations, à la personnalisation des messages et à la diffusion des messages sur les différents canaux sont présentées dans la [[!DNL Campaign v8 documentation]](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}.
+>Pour plus d’informations sur les [!DNL Adobe Campaign] fonctionnalités de base, consultez [cette section](../../platform/using/about-adobe-campaign-classic.md).
+>
+>Les fonctionnalités relatives au ciblage des populations, à la personnalisation et à la diffusion de messages sur les différents canaux sont présentées dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}.
+
 
 ![Miniature vidéo pratique](assets/do-not-localize/how-to-video.png) [Découvrez en vidéo les concepts clés des campagnes marketing](#video)
 
@@ -68,6 +70,6 @@ Dans le contexte de Campaign, les concepts listés ci-dessous doivent être conn
 
 Cette vidéo présente les concepts clés des campagnes marketing.
 
->[!VIDEO](https://video.tv.adobe.com/v/326571?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
 
 D’autres vidéos pratiques [!DNL Campaign Classic] sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
