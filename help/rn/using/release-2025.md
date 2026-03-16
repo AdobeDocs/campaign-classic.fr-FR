@@ -5,7 +5,7 @@ description: En savoir plus sur les versions de Campaign Classic 2025
 feature: Release Notes
 role: User
 level: Beginner
-source-git-commit: b10055781ff32fb30280adbea281ad9fbddb79e8
+source-git-commit: 66387e2e008051901fe3385f571d7fe798829100
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 100%
