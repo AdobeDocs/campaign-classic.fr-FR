@@ -7,9 +7,9 @@ user-guide-title: Guide de Campaign Classic v7
 user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 2e3a14c97706a873f0791ef83708d704d2eed6c3
-workflow-type: ht
-source-wordcount: '2682'
+source-git-commit: b10055781ff32fb30280adbea281ad9fbddb79e8
+workflow-type: tm+mt
+source-wordcount: '2683'
 ht-degree: 100%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 100%
    + [Prise en main des mises à niveau](rn/using/rn-overview.md)
    + [Dernière version](rn/using/latest-release.md)
    + Versions précédentes {#previous-releases}
+      + [2025](rn/using/release-2025.md)
       + [2024](rn/using/release-2024.md)
       + [2023](rn/using/release-2023.md)
       + [2022 - MASQUÉ](rn/using/release-2022.md)
