@@ -29,7 +29,7 @@ _mardi 16 mars 2026_
 
 ### Améliorations de la sécurité {#security-7-4-3}
 
-* Pour maintenir une sécurité, une stabilité et une conformité optimales, Debian a été mis à niveau vers la version 13 et PostgreSQL vers la version 17. Reportez-vous à la [ matrice de compatibilité ](compatibility-matrix.md).
+* Pour maintenir une sécurité, une stabilité et une conformité optimales, Debian a été mis à niveau vers la version 13 et PostgreSQL vers la version 17. Reportez-vous à la [&#x200B; matrice de compatibilité &#x200B;](compatibility-matrix.md).
 
 ### Correctifs {#fixes-7-4-3}
 
