@@ -1626,9 +1626,9 @@ Voici les différents paramètres du nœud **mta**. Il s’agit du paramétrage 
    <td> statServerAddress<br /> </td> 
    <td> Adresse du serveur des statistiques de diffusion, sous la forme
     &lt;dns or ip&gt; 
-      <code>[</code> : 
+      <code>&lbrack;</code> : 
      &lt;port&gt; 
-       <code>]</code>. Voir la section 
+       <code>&rbrack;</code>. Voir la section 
       <a href="../../installation/using/email-deliverability.md#coordinates-of-the-statistics-server" target="_blank">Coordonnées du serveur de statistiques</a>. 
       <br /> 
      </td> 
