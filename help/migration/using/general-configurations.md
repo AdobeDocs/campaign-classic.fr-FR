@@ -9,10 +9,10 @@ topic-tags: configuration
 hide: true
 hidefromtoc: true
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
-source-git-commit: 349c3dfd936527e50d7d3e03aa3408b395502da0
+source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '2612'
-ht-degree: 100%
+source-wordcount: '2571'
+ht-degree: 96%
 
 ---
 
@@ -31,11 +31,11 @@ En complément :
 
 Le mode &quot;multi timezone&quot; n&#39;était disponible, en v6.02, que pour les moteurs de base de données PostgreSQL. Il est à présent proposé quelle que soit la version de votre moteur de base. Nous vous recommandons fortement de transformer votre base en base &quot;multi timezone&quot;.
 
-Pour utiliser le mode TIMESTAMP WITH TIMEZONE, vous devez également ajouter l&#39;option **‑usetimestamptz:1** dans la ligne de commande du postupgrade.
+Pour utiliser le mode TIMESTAMP WITH TIMEZONE, vous devez également ajouter l&#39;option **-userTimestamptz:1** à la ligne de commande postupgrade.
 
 >[!IMPORTANT]
 >
->En cas d&#39;utilisation du paramètre **-usetimestamptz:1** avec un moteur de base non compatible, votre base de données sera corrompue et il vous sera alors nécessaire de restaurer une sauvegarde de votre base de données et de ré-exécuter la commande ci-dessous.
+>Si le paramètre **-usetimestamptz:1** est utilisé avec un moteur de base de données incompatible, votre base de données sera corrompue et vous devrez restaurer une sauvegarde de votre base de données et exécuter à nouveau la commande ci-dessus.
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Pour vérifier si les deux côtés sont sur les mêmes fuseaux horaires :
 
 >[!IMPORTANT]
 >
->Pour des raisons de sécurité, la plateforme Adobe Campaign n&#39;est plus accessible par défaut : vous devez configurer les zones de sécurité, et pour cela collecter les adresses IP des utilisateurs.
+>Pour des raisons de sécurité, la plateforme Adobe Campaign n’est plus accessible par défaut : vous devez configurer les zones de sécurité, et pour cela collecter les adresses IP des opérateurs et opératrices.
 
 Adobe Campaign v7 implique le concept de **zones de sécurité**. Chaque utilisateur doit être associé à une zone pour se connecter à une instance et l&#39;adresse IP de l&#39;utilisateur doit faire partie des adresses ou des plages d&#39;adresses définies dans la zone de sécurité. Le paramétrage des zones de sécurité peut être effectué dans le fichier de configuration du serveur Adobe Campaign. L&#39;association d&#39;un utilisateur à une zone de sécurité doit être définie dans la console (**[!UICONTROL Administration > Gestion des accès > Opérateurs]**).
 
@@ -172,7 +172,7 @@ Nouveau lien utilisant la page de connexion :
 
 ### Fonctions SQL {#sql-functions}
 
-Les appels de fonctions SQL inconnues ne sont plus naturellement transmis au serveur. Toutes les fonctions SQL doivent à présent être ajoutées dans le schéma **xtk:funcList** (voir à ce sujet [cette section](../../configuration/using/adding-additional-sql-functions.md)). Dans le cadre d&#39;une migration, une option est ajoutée lors du postupgrade permettant de conserver la compatibilité avec d&#39;anciennes fonctions SQL non déclarées. Si vous souhaitez continuer à utiliser ces fonctions, vérifiez que l&#39;option **XtkPassUnknownSQLFunctionsToRDBMS** est bien définie au niveau du nœud **[!UICONTROL Administration > Plateforme > Options]**.
+Les appels de fonctions SQL inconnues ne sont plus naturellement transmis au serveur. Actuellement, toutes les fonctions SQL doivent être ajoutées dans le schéma **xtk:funcList** (voir à ce sujet [cette section](../../configuration/using/adding-additional-sql-functions.md)). Dans le cadre d&#39;une migration, une option est ajoutée lors du postupgrade permettant de conserver la compatibilité avec d&#39;anciennes fonctions SQL non déclarées. Si vous souhaitez continuer à utiliser ces fonctions, vérifiez que l&#39;option **XtkPassUnknownSQLFunctionsToRDBMS** est bien définie au niveau du nœud **[!UICONTROL Administration > Plateforme > Options]**.
 
 >[!IMPORTANT]
 >
@@ -253,10 +253,10 @@ Afin de renforcer la sécurité des instances, une nouvelle syntaxe a été intr
 * Les agrégats : la nouvelle syntaxe est &quot;fonction agrégat(collection)&quot;
 * Le filtrage par jointure : la nouvelle syntaxe est `[schemaName:alias:xPath]`
 
-Le schéma queryDef (xtk:queryDef) a été modifié :
+Le schéma queryDef (xtk:queryDef) a été modifié :
 
 * un nouvel élément `<subQuery>` est disponible pour remplacer le SELECT inclus dans du SQLData
-* deux nouvelles valeurs &quot;IN&quot; et &quot;NOT IN&quot; sont introduites pour l&#39;attribut @setOperator
+* deux nouvelles valeurs « IN » et « NOT IN » sont introduites pour l’attribut @setOperator
 * un nouvel élément `<where>`, enfant de l&#39;élément `<node>` : ceci permet de faire des « sous-sélections » dans SELECT
 
 Lorsqu&#39;un attribut de type &quot;@expr&quot; est utilisé, le SQLData peut être présent. Une recherche peut être effectuée sur les termes suivants : &quot;SQLData&quot;, &quot;aliasSqlTable&quot;, &quot;sql&quot;.
@@ -437,13 +437,13 @@ Le résultat de la synchronisation peut être consulté de deux manières :
   AAAA-MM-DD HH:MM:SS.750Z        00002E7A          1     warning log     Document of identifier 'nms:includeView' and type 'xtk:srcSchema' updated in the database and found in the file system. You will have to merge the two versions manually.
   ```
 
-  Si l&#39;avertissement concerne un conflit de ressources, il requiert l&#39;intervention de l&#39;utilisateur pour être résolu.
+  Si l’avertissement concerne un conflit de ressources, il requiert l’intervention de l’opérateur ou de l’opératrice pour être résolu.
 
 * Le **post-upgrade_`<server version number>`_time du fichier postupgrade`>`.log** contient le résultat de la synchronisation. Il est disponible par défaut dans le répertoire suivant : Répertoire **installation directory/var/`<instance>`postupgrade**. Les erreurs et les avertissements sont indiqués par les attributs **error** et **warning**.
 
 ### Résoudre un conflit {#resolve-a-conflict}
 
-La résolution des conflits est réservé à des utilisateurs avancés et bénéficiant des droits &#39;Administrateur&#39;.
+La résolution des conflits est réservée aux opérateurs et opératrices de niveau avancés, ainsi qu’aux personnes bénéficiant de droits d’administration.
 
 Pour résoudre un conflit, procédez de la manière suivante :
 
@@ -452,13 +452,13 @@ Pour résoudre un conflit, procédez de la manière suivante :
 
 Il existe trois possibilités de résoudre un conflit :
 
-* **[!UICONTROL Déclarer comme résolu]** : requiert une intervention de l&#39;utilisateur au préalable.
+* **[!UICONTROL Déclarer comme résolu]** : requiert une intervention préalable de l’opérateur ou de l’opératrice.
 * **[!UICONTROL Accepter la nouvelle version]** : recommandé si les ressources livrées avec Adobe Campaign n&#39;ont pas été modifiées par l&#39;utilisateur.
 * **[!UICONTROL Conserver la version actuelle]** : a pour conséquence de refuser la mise à jour de la version.
 
   >[!IMPORTANT]
   >
-  >Si vous sélectionnez ce mode de résolution, vous risquez de perdre des correctifs inclus dans la nouvelle version. Cette option est fortement déconseillée et réservée à des utilisateurs experts.
+  >Si vous sélectionnez ce mode de résolution, vous risquez de perdre des correctifs inclus dans la nouvelle version. Cette option est fortement déconseillée et réservée à des opérateurs et opératrices de niveau expert.
 
 Si vous choisissez de résoudre le conflit manuellement, procédez comme suit :
 
@@ -503,7 +503,7 @@ $(XTK_INSTALL_DIR)/tomcat-X/lib/el-api.jar
 
 ### Contenu des offres {#offer-content}
 
-Dans v7, le contenu de l&#39;offre a été déplacé. Dans la version 6.02, le contenu se trouvait dans chaque schéma de représentation (**nms:emailOfferView**). Dans v7, le contenu se trouve désormais dans le schéma d&#39;offre. Après la mise à niveau, le contenu ne sera donc plus visible dans l&#39;interface. Après la mise à niveau, vous devez recréer le contenu de l&#39;offre ou développer un script qui déplace automatiquement le contenu du schéma de représentation vers le schéma d&#39;offre.
+Dans v7, le contenu de l&#39;offre a été déplacé. En v6.02, le contenu se trouvait dans chaque schéma de représentation (**nms:emailOfferView**). Dans v7, le contenu se trouve désormais dans le schéma d&#39;offre. Après la mise à niveau, le contenu ne sera donc plus visible dans l&#39;interface. Après la mise à niveau, vous devez recréer le contenu de l&#39;offre ou développer un script qui déplace automatiquement le contenu du schéma de représentation vers le schéma d&#39;offre.
 
 >[!IMPORTANT]
 >
@@ -623,7 +623,8 @@ Tous les rapports standards utilisent à présent le moteur de rendu v6.x. Si vo
 
 ### Rapports personnalisés {#personalized-reports}
 
-<!--If you want to have the blue banner from v7 (allowing you access to the tabs), you must republish reports. If you encounter problems, you can force the v6.0 rendering engine. To do this, go to **[!UICONTROL Properties]** within the report, click **[!UICONTROL Rendering]** and choose the **[!UICONTROL Version 6.0 (Flash & OpenOffice)]** rendering engine.
+<!--
+If you want to have the blue banner from v7 (allowing you access to the tabs), you must republish reports. If you encounter problems, you can force the v6.0 rendering engine. To do this, go to **[!UICONTROL Properties]** within the report, click **[!UICONTROL Rendering]** and choose the **[!UICONTROL Version 6.0 (Flash & OpenOffice)]** rendering engine.
 
 ![](assets/migration_reports_1.png)
 -->

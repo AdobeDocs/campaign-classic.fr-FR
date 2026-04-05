@@ -5,14 +5,14 @@ description: Découvrez comment configurer Developer Console pour Adobe Experie
 feature: Triggers
 audience: integrations
 content-type: reference
-index: y
+index: true
 internal: n
 snippet: y
 exl-id: ab30f697-3022-4a29-bbdb-14ca12ec9c3e
 hide: true
 hidefromtoc: true
-source-git-commit: 8d15a5666b5768bc0f17a4391061c4fcb9f76811
-workflow-type: ht
+source-git-commit: d38e4e32bbbfc11d4cc6f985608b6bdf6ff53e92
+workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 100%
 

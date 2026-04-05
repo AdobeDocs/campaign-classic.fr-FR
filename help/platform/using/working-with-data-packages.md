@@ -8,8 +8,8 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: d3369b63-a29b-43b7-b2ad-d36d4f46c82e
-source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
-workflow-type: ht
+source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
+workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 100%
 
@@ -291,7 +291,7 @@ Always import within the same version of the platform. You must check that you d
 >[!IMPORTANT]
 >
 >Importing between different versions is not supported by Adobe.
-<!--This is not allowed. Importing from 6.02 to 6.1, for example, is prohibited. If you do so, R&D won't be able to help you resolve any issues you encounter.
+This is not allowed. Importing from 6.02 to 6.1, for example, is prohibited. If you do so, R&D won't be able to help you resolve any issues you encounter.
 
 Pay attention to the schema and database structure. Importation of package with schema must be followed by schema generation.
 
@@ -306,7 +306,7 @@ Start by defining different types of packages. Only four types will be used:
 * You can consider an entity as both an "admin" and "platform" element.
 * You should not include more than one entity in a package when uploading it on a Campaign instance.  
 
-<!--Nothing "works" alone. An entity package does not have a specific role or objective.
+Nothing "works" alone. An entity package does not have a specific role or objective.
 
 If you need to deploy your configuration on a new instance, you can import all your entity packages.
 

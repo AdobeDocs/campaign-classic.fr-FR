@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
-source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
-workflow-type: ht
-source-wordcount: '6202'
+source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
+workflow-type: tm+mt
+source-wordcount: '6200'
 ht-degree: 100%
 
 ---
@@ -288,7 +288,8 @@ En savoir plus sur la [Délégation de domaine](https://experienceleague.adobe.c
 ## E - H {#sec-2}
 
 <!--
-----DEPRECATED------>
+----DEPRECATED----
+-->
 +++**E4X**
 
 Adobe Campaign Classic utilise la version E4X de JavaScript. Également appelé ECMAScript, il s’agit d’une extension de JavaScript qui permet de combiner des primitives JavaScript et XML dans le même code. Notez que E4X est classé comme un langage obsolète.
@@ -299,7 +300,7 @@ Adobe Campaign Classic utilise la version E4X de JavaScript. Également appelé 
 
 *Contexte : Interaction de Campaign*
 
-Les Règles d’éligibilité sont des contraintes appliquées à un environnement, une catégorie ou une offre, liées à la période de validité, la cible et le poids. Elles vous permettent de vous assurer qu’une offre est en phase avec le contact ciblé. Au niveau des environnements, les règles d’éligibilité comprennent les règles de présentation appliquées aux offres et les personnes à cibler. Dans la catégorie , les règles d’éligibilité permettent aux Opérateurs de limiter la validité de la catégorie dans le temps, de définir des thèmes d’application et de déterminer les destinataires à cibler. Elles peuvent également définir un poids multiplicateur pour une période donnée. Ainsi, les opérateurs peuvent partager les règles relatives aux offres d’autres catégories et ainsi simplifier leur gestion. Au niveau des offres, les règles d’éligibilité permettent de limiter la validité des offres dans le temps et de déterminer les personnes à cibler.
+Les Règles d’éligibilité sont des contraintes appliquées à un environnement, une catégorie ou une offre, liées à la période de validité, la cible et le poids. Elles permettent de s’assurer qu’une offre est en phase avec le contact ciblé. Au niveau des environnements, les règles d’éligibilité comprennent les règles de présentation appliquées aux offres et les personnes à cibler. Dans la catégorie , les règles d’éligibilité permettent aux Opérateurs de limiter la validité de la catégorie dans le temps, de définir des thèmes d’application et de déterminer les destinataires à cibler. Elles peuvent également définir un poids multiplicateur pour une période donnée. Ainsi, les opérateurs peuvent partager les règles relatives aux offres d’autres catégories et ainsi simplifier leur gestion. Au niveau des offres, les règles d’éligibilité permettent aux opérateurs et opératrices de limiter la validité des offres dans le temps et de déterminer les destinataires à cibler.
 
 En savoir plus sur les [Règles d’éligibilité](../../interaction/using/interaction-and-offer-management.md).
 +++
@@ -1020,7 +1021,7 @@ La messagerie transactionnelle est un module de Campaign conçu pour gérer les 
 En savoir plus sur la [messagerie transactionnelle](../../message-center/using/about-transactional-messaging.md).
 +++
 
-&lt;!------- UTILE ICI ??----->
+<!-- USEFUL HERE?? -->
 +++**Campagnes déclenchées**
 
 Les campagnes déclenchées sont des campagnes exécutées lorsqu’un workflow reçoit une demande d’API. Les appels d’API sont consommés par une activité Signal dans le workflow qui lance l’exécution du workflow.

@@ -7,10 +7,10 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
-source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
+source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '8067'
-ht-degree: 100%
+source-wordcount: '8066'
+ht-degree: 99%
 
 ---
 
@@ -89,13 +89,13 @@ Voici les différents paramètres du nœud **authentication** :
   </tr> 
   <tr> 
    <td> longSessionTimeOutSec<br /> </td> 
-   <td> Timeout des sessions longues en secondes.<br /> </td> 
+   <td> Délai d’expiration des sessions longues en secondes.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 1296000<br /> </td> 
   </tr> 
   <tr> 
    <td> securityTimeOutSec<br /> </td> 
-   <td> Timeout du jeton de sécurité en secondes.<br /> </td> 
+   <td> Délai d’expiration du jeton de sécurité en secondes.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 86400<br /> </td> 
   </tr> 
@@ -107,7 +107,7 @@ Voici les différents paramètres du nœud **authentication** :
   </tr> 
   <tr> 
    <td> sessionTimeOutSec<br /> </td> 
-   <td> Timeout de session en secondes.<br /> </td> 
+   <td> Délai d’expiration de session en secondes.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 86400<br /> </td> 
   </tr> 
@@ -183,7 +183,7 @@ Voici les différents paramètres du nœud **dataStore**. C’est là que vous d
   </tr> 
   <tr> 
    <td> interactionCacheTimeToLive<br /> </td> 
-   <td> Délai de validité du cache JSSP des interactions : délai en secondes au-delà duquel une entrée du cache est invalidée. Une valeur négative a pour effet l’invalidation systématique du cache. Les valeurs '0', vide, non valides ou absentes sont remplacées par la valeur '60'.<br /> </td> 
+   <td> Délai d’expiration de la validité du cache JSSP des interactions : délai en secondes au-delà duquel une entrée du cache est invalidée. Une valeur négative a pour effet l’invalidation systématique du cache. Les valeurs '0', vide, non valides ou absentes sont remplacées par la valeur '60'.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 300<br /> </td> 
   </tr> 
@@ -231,7 +231,7 @@ Voici les différents paramètres du nœud **dataStore**. C’est là que vous d
   </tr> 
   <tr> 
    <td> viewCacheTimeToLive<br /> </td> 
-   <td> Délai de validité du cache des vues : délai en secondes au-delà duquel une entrée du cache est invalidée. Une valeur négative a pour effet l’invalidation systématique du cache. Les valeurs '0', vide, non valides ou absentes sont remplacées par la valeur '60'.<br /> </td> 
+   <td> Délai d’expiration de la validité du cache des vues : délai en secondes au-delà duquel une entrée du cache est invalidée. Une valeur négative a pour effet l’invalidation systématique du cache. Les valeurs '0', vide, non valides ou absentes sont remplacées par la valeur '60'.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
@@ -530,8 +530,8 @@ Pour plus d’informations, consultez cette [section](../../installation/using/c
    <td> 4<br /> </td> 
   </tr> 
   <tr> 
-   <td> timeout<br /> </td> 
-   <td> Timeout en millisecondes pour une requête DNS.<br /> </td> 
+   <td> temporisation<br /> </td> 
+   <td> Délai d’expiration en millisecondes pour une requête DNS.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 5000<br /> </td> 
   </tr> 
@@ -546,7 +546,7 @@ Pour plus d’informations, consultez cette [section](../../installation/using/c
 >utilisé par le MTA pour obtenir le Mail Exchanger déclaré pour
 >un domaine.
 >
->Si cette valeur n&#39;est pas définie, le MTA recherche ces informations dans la configuration du réseau hôte. Si plusieurs DNS sont possibles, les différentes adresses DNS doivent être séparées par une virgule (exemple : 212.155.207.1,212.155.207.2). Si votre serveur de diffusion comporte plusieurs interfaces réseau, la liste DNS utilisée par le MTA est la première. Dans ce cas, nous vous recommandons de spécifier le paramètre **nameServer** pour éviter toute ambiguïté.
+>Si cette valeur n&#39;est pas définie, le MTA recherche ces informations dans la configuration du réseau hôte. Si plusieurs DNS sont possibles, les différentes adresses DNS doivent être séparées par une virgule (exemple : 212.155.207.1,212.155.207.2). Si votre serveur de diffusion comporte plusieurs interfaces réseau, la liste DNS utilisée par le MTA est la première. Dans ce cas, nous vous recommandons de spécifier le paramètre **nameServer** pour éviter toute ambiguïté.
 
 >[!CAUTION]
 >
@@ -613,7 +613,7 @@ Voici les différents paramètres du nœud **htmlToPdf**. Il s’agit de la conf
    <td> 'phantomjs' <br /> </td> 
   </tr> 
   <tr> 
-   <td> timeout<br /> </td> 
+   <td> délai d’expiration<br /> </td> 
    <td> Timeout pour une conversion : durée maximale d’une conversion en secondes. Au-delà, le processus de conversion est arrêté et une erreur est retournée.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 120<br /> </td> 
@@ -667,7 +667,7 @@ Voici les différents paramètres du nœud **IMS**. Il s&#39;agit de la configur
   </tr> 
   <tr> 
    <td> authIMSCode<br /> </td> 
-   <td> Code d'autorisation (chiffrée en AES)<br /> </td> 
+   <td> Code d’autorisation (chiffrée en AES)<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -1181,7 +1181,7 @@ Pour plus d&#39;informations, voir la section [Activer l&#39;archivage des email
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus d'informations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
+   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus dinformations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -1282,7 +1282,7 @@ Voici les différents paramètres du nœud **inMail**. Il s’agit de la configu
   </tr> 
   <tr> 
    <td> inMailPeriodSec<br /> </td> 
-   <td> Période de lecture des messages : périodicité d’interrogation des files de messages.<br /> </td> 
+   <td> Période de lecture des messages : fréquence d’interrogation des files de messages.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 5<br /> </td> 
   </tr> 
@@ -1336,19 +1336,19 @@ Voici les différents paramètres du nœud **inMail**. Il s’agit de la configu
   </tr> 
   <tr> 
    <td> popTimeoutSec<br /> </td> 
-   <td> Timeout des communications avec le serveur POP3. <br /> </td> 
+   <td> Temporisation des communications avec le serveur POP3. <br /> </td> 
    <td> Long<br /> </td> 
    <td> 300<br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus d'informations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
+   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus dinformations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> reloadPeriodSec<br /> </td> 
-   <td> Périodicité du chargement depuis la base de données des comptes à interroger.<br /> </td> 
+   <td> Fréquence du rechargement depuis la base de données des comptes à interroger.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
@@ -1456,7 +1456,7 @@ Pour plus d&#39;informations, voir la section [Interaction - Mémoire tampon](..
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus d'informations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
+   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus dinformations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -1527,7 +1527,7 @@ Voici les différents paramètres du nœud **mta**. Il s’agit du paramétrage 
   </tr> 
   <tr> 
    <td> errorPeriodSec<br /> </td> 
-   <td> Périodicité de la remontée des erreurs : durée exprimée en secondes définissant la périodicité de la remontée des erreurs dans la base de données. <br /> </td> 
+   <td> Fréquence des statistiques d’erreur : intervalle entre la génération des statistiques et le stockage dans la base de données. <br /> </td> 
    <td> Long<br /> </td> 
    <td> 300<br /> </td> 
   </tr> 
@@ -1593,7 +1593,7 @@ Voici les différents paramètres du nœud **mta**. Il s’agit du paramétrage 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus d'informations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
+   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus dinformations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -1641,12 +1641,14 @@ Voici les différents paramètres du nœud **mta**. Il s’agit du paramétrage 
    <td> Booléen<br /> </td> 
    <td> vrai <br /> </td> 
   </tr> 
-  <!--tr> 
+  <!--
+  tr> 
    <td> statServerVersion<br /> </td> 
    <td> Protocol version used: communication protocol version (1 for a v5.11 and 6.0.2 server, 2 for a v6.1 server).<br /> </td> 
    <td> String<br /> </td> 
    <td> If undefined, the latest version is used. <br /> </td> 
-  </tr--> 
+  </tr
+  --> 
   <tr> 
    <td> useMomentum<br /> </td> 
    <td> Si la valeur est "true", votre instance utilise le <a href="../../delivery/using/sending-with-enhanced-mta.md" target="_blank">MTA amélioré</a>.<br /> </td> 
@@ -1702,7 +1704,7 @@ Dans le nœud **cache**, configurez les paramètres suivants. Il s’agit de la 
   </tr> 
   <tr> 
    <td> purgePeriodSec<br /> </td> 
-   <td> Périodicité de la purge : durée exprimée en secondes définissant la périodicité de réveil du mécanisme de purge du cache.<br /> </td> 
+   <td> Fréquence de purge : durée exprimée en secondes définissant la périodicité de réveil du mécanisme de purge du cache.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 3600<br /> </td> 
   </tr> 
@@ -1857,7 +1859,7 @@ Pour plus d&#39;informations, voir la section [Optimisation de l&#39;envoi d&#39
   </tr> 
   <tr> 
    <td> soapConnectorTimeoutSec<br /> </td> 
-   <td> Timeout (en secondes) après lequel une connexion SOAP pour un connecteur de diffusion est abandonnée.<br /> </td> 
+   <td> Délai d’expiration (en secondes) après lequel une connexion SOAP pour un connecteur de diffusion est abandonnée.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
@@ -1896,7 +1898,7 @@ Dans le nœud **mta > child > smtp**, configurez les paramètres suivants. Il 
   </tr> 
   <tr> 
    <td> idleSessionTimeoutSec<br /> </td> 
-   <td> Timeout de fermeture des sessions inactives : ce paramètre est utilisé uniquement si la session est réutilisée pour transmettre plusieurs messages vers un domaine donné. Lorsque le MTA a terminé la transmission du message, la session SMTP qu’il a utilisée n’est pas systématiquement fermée. Si un message pour le même domaine est prêt à être envoyé, la même session SMTP sera réutilisée. C’est pourquoi elle n’est pas fermée automatiquement. Le paramètre IdleSessionTimeout vous permet d’indiquer la durée pendant laquelle une session SMTP peut rester active en attendant un autre message. Une fois la durée écoulée, la session est automatiquement fermée.<br /> </td> 
+   <td> Délai d’expiration avant fermeture des sessions inactives : ce paramètre est utilisé uniquement si la session est réutilisée pour transmettre plusieurs messages vers un domaine donné. Lorsque le MTA a terminé la transmission du message, la session SMTP qu’il a utilisée n’est pas systématiquement fermée. Si un message pour le même domaine est prêt à être envoyé, la même session SMTP sera réutilisée. C’est pourquoi elle n’est pas fermée automatiquement. Le paramètre IdleSessionTimeout vous permet d’indiquer la durée pendant laquelle une session SMTP peut rester active en attendant un autre message. Une fois la durée écoulée, la session est automatiquement fermée.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 5<br /> </td> 
   </tr> 
@@ -2134,7 +2136,7 @@ Voici les différents paramètres du nœud **pipelined**. Il s’agit de la conf
   </tr> 
   <tr> 
    <td> monitorServerPort<br /> </td> 
-   <td> Port du serveur d’état : port du serveur HTTP permettant d’interroger le statut du processus. Inactif si 0.<br /> </td> 
+   <td> Port du serveur de statut : port du serveur HTTP permettant d’interroger le statut du processus. Inactif si 0.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 7781<br /> </td> 
   </tr> 
@@ -2152,7 +2154,7 @@ Voici les différents paramètres du nœud **pipelined**. Il s’agit de la conf
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus d'informations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
+   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus dinformations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2417,19 +2419,19 @@ Voici les différents paramètres du nœud **sms**. Il s’agit de la configurat
   </tr> 
   <tr> 
    <td> pollPeriod<br /> </td> 
-   <td> Périodicité de recherche : périodicité d’interrogation des comptes SMS.<br /> </td> 
+   <td> Fréquence de recherche : fréquence d’interrogation des comptes SMS.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 300<br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus d'informations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
+   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus dinformations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> reloadPeriod<br /> </td> 
-   <td> Périodicité de chargement des comptes : périodicité du chargement depuis la base de données des comptes à interroger.<br /> </td> 
+   <td> Fréquence de rechargement des comptes : fréquence du rechargement depuis la base de données des comptes à interroger.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 600<br /> </td> 
   </tr> 
@@ -2446,8 +2448,8 @@ Voici les différents paramètres du nœud **sms**. Il s’agit de la configurat
    <td> 600<br /> </td> 
   </tr> 
   <tr> 
-   <td> timeout<br /> </td> 
-   <td> Timeout des communications avec la passerelle SMS.<br /> </td> 
+   <td> temporisation<br /> </td> 
+   <td> Temporisation des communications avec la passerelle SMS.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 300<br /> </td> 
   </tr> 
@@ -2470,7 +2472,7 @@ Voici les différents paramètres du nœud **sms > netsize.**
  <tbody> 
   <tr> 
    <td> netsizeConnectionTimeout<br /> </td> 
-   <td> Timeout en secondes lors de l’établissement d’une connexion avec Netsize.<br /> </td> 
+   <td> Temporisation en secondes lors de l’établissement d’une connexion avec Netsize.<br /> </td> 
    <td> Long<br /> </td> 
    <td> 30<br /> </td> 
   </tr> 
@@ -2529,7 +2531,7 @@ Voici les différents paramètres du nœud **stat**. Il s’agit de la configura
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus d'informations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
+   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus dinformations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2600,7 +2602,7 @@ Voici les différents paramètres du nœud **syslogd**. Il s’agit de la config
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus d'informations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
+   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus dinformations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2713,7 +2715,7 @@ Voici les différents paramètres du nœud **tracking**. Il s’agit de la confi
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus d'informations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
+   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus dinformations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2808,7 +2810,7 @@ Voici les différents paramètres du nœud **trackinglogd**. Il s’agit de la c
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus d'informations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
+   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus dinformations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -2923,7 +2925,7 @@ Pour plus d’informations, consultez cette [section](configuring-campaign-serve
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus d'informations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
+   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus dinformations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 
@@ -3135,7 +3137,7 @@ Pour plus d&#39;informations, voir la section [Sécurité et relais des pages dy
   </tr> 
   <tr> 
    <td> deny<br /> </td> 
-   <td> Ne pas autoriser l’accès à ces URL (renvoie un HTTP 403)<br /> </td> 
+   <td> Ne pas autoriser l’accès à ces URL (renvoie une erreur HTTP 403)<br /> </td> 
    <td> Booléen<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3153,7 +3155,7 @@ Pour plus d&#39;informations, voir la section [Sécurité et relais des pages dy
   </tr> 
   <tr> 
    <td> relayHost<br /> </td> 
-   <td> Ajout du host initial : utiliser l’en-tête HTTP 'Host' de la requête initiale à relayer.<br /> </td> 
+   <td> Ajout de l’hôte initial : utiliser l’en-tête HTTP 'Host' de la requête initiale à relayer.<br /> </td> 
    <td> Booléen<br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -3341,7 +3343,7 @@ Pour plus d’informations, consultez cette [section](../../installation/using/d
   </tr> 
   <tr> 
    <td> maxJobsInCache<br /> </td> 
-   <td> Nb max de jobs : nombre maximum d’actions de diffusion dans le cache. Ne peut pas être inférieur à 50. <br /> </td> 
+   <td> Nb max de traitements : nombre maximum d’actions de diffusion dans le cache. Ne peut pas être inférieur à 50. <br /> </td> 
    <td> Long<br /> </td> 
    <td> 100<br /> </td> 
   </tr> 
@@ -3502,7 +3504,7 @@ Pour plus d&#39;informations, voir la section [Workflows en haute disponibilité
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
-   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus d'informations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
+   <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus dinformations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> '06:00:00' <br /> </td> 
   </tr> 

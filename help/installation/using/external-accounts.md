@@ -7,8 +7,8 @@ audience: platform
 content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
+source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
+workflow-type: tm+mt
 source-wordcount: '1988'
 ht-degree: 100%
 
@@ -209,7 +209,8 @@ Le compte externe SFTP vous permet de configurer et de tester l’accès à un 
 
   Mot de passe utilisé pour se connecter au serveur SFTP.
 
-<!--To add SSH keys on Windows:
+<!--
+To add SSH keys on Windows:
 
 1. Create the **HOME** environment variable with value set as the installation directory.
 

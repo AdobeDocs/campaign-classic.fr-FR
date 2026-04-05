@@ -5,8 +5,8 @@ description: Découvrez comment installer les packages natifs de Campaign
 feature: Installation, Application Settings
 badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
-workflow-type: ht
+source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
+workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 100%
 
@@ -89,12 +89,14 @@ Le tableau ci-après répertorie tous les packages natifs de Campaign.
    <td> Package à installer sur les instances d'exécution pour le moteur d'offres (interaction). <a href="../../interaction/using/distributed-architectures.md">En savoir plus</a> </td> 
    <td> Mid, Exécution <br /> </td>  
   </tr> 
-  <!--tr> 
+  <!--
+  tr> 
    <td> Lead Management (Leads) (deprecated)<br /> </td> 
    <td> Simplifies the process of building and maintaining the entire leads management life cycle. <br /> </td> 
    <td> Yes<br /> </td> 
    <td> Optional, <a href="https://helpx.adobe.com/campaign/kb/deprecated-and-removed-features.html">Learn More</a> </td> 
-  </tr--> 
+  </tr
+  --> 
   <tr> 
    <td> Réseaux sociaux (Social Marketing) <br /> </td> 
    <td> Synchroniser Adobe Campaign avec X (anciennement Twitter) et Facebook. <a href="../../social/using/about-social-marketing.md">En savoir plus</a> <br /> </td> 

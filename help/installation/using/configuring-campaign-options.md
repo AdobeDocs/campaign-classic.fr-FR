@@ -7,8 +7,8 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
+source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
+workflow-type: tm+mt
 source-wordcount: '3837'
 ht-degree: 100%
 
@@ -57,7 +57,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr>
   <tr> 
    <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
-   <td><p> Permet d’autoriser l’opérateur en charge de la diffusion à confirmer l’envoi, si un opérateur ou un groupe spécifique d’opérateurs est désigné pour démarrer une diffusion dans les propriétés de la diffusion.</p><p> Pour ce faire, activez l'option en saisissant "1" comme valeur. Pour désactiver cette option, entrez "0".</p><p> Le processus de confirmation des envois fonctionnera alors comme par défaut : seule la personne opératrice désignée ou le groupe de personnes opératrices désigné pour l’envoi (ou un administrateur ou une administratrice) dans les propriétés de la diffusion pourra confirmer et effectuer l’envoi. Consultez <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=fr#start-a-delivery" target="_blank">cette section</a>.</p> </td>
+   <td><p> Permet d’autoriser l’opérateur en charge de la diffusion à confirmer l’envoi, si un opérateur ou un groupe spécifique d’opérateurs est désigné pour démarrer une diffusion dans les propriétés de la diffusion.</p><p> Pour ce faire, activez l'option en saisissant "1" comme valeur. Pour désactiver cette option, entrez "0".</p><p> Le processus de confirmation d’envoi suivra alors le fonctionnement par défaut : seul l’opérateur ou l’opératrice ou le groupe désigné pour l’envoi (ou un administrateur ou une administratrice) dans les propriétés de la diffusion pourra confirmer et effectuer l’envoi. Consultez <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=fr#start-a-delivery" target="_blank">cette section</a>.</p> </td>
 
 <tr> 
    <td> <span class="uicontrol">Nms_DefaultRcpSchema</span> <br /> </td> 
@@ -270,7 +270,8 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
  </tbody> 
 </table>
 
-<!--<tr> 
+<!--
+<tr> 
    <td> <span class="uicontrol">EMTA_BCC_ADDRESS</span> </td> 
    <td> BCC email address for Momentum to send a raw copy of the sent emails. <br /> </td> 
   </tr>
@@ -962,11 +963,11 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_AppPassword</span> <br /> </td> 
-   <td> Mot de passe chiffré du login applicatif.<br /> </td> 
+   <td> Mot de passe chiffré pour la connexion à l’application.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_AutoOperator</span> <br /> </td> 
-   <td> Activer la création automatique d'utilisateurs et de leurs droits dans Adobe Campaign.<br /> </td> 
+   <td> Activer la création automatique d’opérateurs et d’opératrices et de leurs droits dans Adobe Campaign.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkLdap_DN</span> <br /> </td> 

@@ -5,10 +5,10 @@ description: Découvrez la portée et les spécificités de lʼenvoi dʼe-mails 
 feature: Email
 role: User, Admin, Developer
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
-source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
-workflow-type: ht
+source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
+workflow-type: tm+mt
 source-wordcount: '1408'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,8 @@ Momentum offre une technologie MTA innovante et extrêmement performante. Elle c
 
 **Quels sont les avantages ?**
 
-* Les clients Adobe Campaign qui utilisent le MTA amélioré ont vu une <!--300%-->augmentation importante de la vitesse de débit globale et une <!--90%+-->réduction significative des rebonds temporaires.
+* Les clients Adobe Campaign qui utilisent le MTA amélioré ont vu une <!--300%--> augmentation massive de la vitesse de débit globale et une réduction significative des soft bounces.
+  <!--90%+-->
 * Le MTA amélioré utilise la dernière technologie MTA pour vous offrir des vitesses de débit optimales pour votre diffusion par email.
 * En s&#39;adaptant instantanément et automatiquement aux retours qu&#39;il reçoit, il garantit également une diffusion par email plus précise et plus intelligente avec des données de diffusion en temps réel.
 

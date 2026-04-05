@@ -7,8 +7,8 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
-source-git-commit: 295e3596d9291cbcc55e2d264309141526c3806b
-workflow-type: ht
+source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
+workflow-type: tm+mt
 source-wordcount: '2069'
 ht-degree: 100%
 
@@ -67,7 +67,8 @@ Par exemple, si l&#39;on reprend les informations de serveur figurant dans la ca
 Adobe réalisera une sauvegarde de votre système avant tout changement. Toutefois, si votre système hors production (serveurs de développement ou de test) a fait l’objet de personnalisations critiques, nous vous RECOMMANDONS FORTEMENT d’exporter ces personnalisations sous la forme d’un package avant toute mise à niveau.
 
 <!--
-![](assets/do-not-localize/how-to-video.png) For more information, [watch this how to video](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).-->
+![](assets/do-not-localize/how-to-video.png) For more information, [watch this how to video](https://helpx.adobe.com/campaign/classic/how-to/generate-packages-in-acv6.html).
+-->
 
 ## Quand les mises à niveau auront-elles lieu ?
 

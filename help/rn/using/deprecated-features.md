@@ -6,7 +6,7 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
-source-git-commit: 66387e2e008051901fe3385f571d7fe798829100
+source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
 source-wordcount: '1675'
 ht-degree: 98%
@@ -83,7 +83,7 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Classic.
     <tr>
   <td>Rapport de surveillance de la délivrabilité technique<br></td>
    <td><p>Le rapport de surveillance de la délivrabilité technique n’est plus disponible. Il avait été abandonné avec la version 21.1.3 de Campaign.</p>
-   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
+   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
   </td>
  </tr>
   <tr>
@@ -137,7 +137,7 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Classic.
   <tr> 
    <td>API decryptString</td>
    <td><p>À compter de la version 18.6 de Campaign, pour des raisons de sécurité, l’API <em>decryptString</em> n’est plus disponible par défaut pour les nouvelles installations.</p> 
-   <p>Dans le contexte d’un postupgrade vers la version 18.6 (et versions ultérieures), cette API n’est plus activée et a été remplacée par la fonction <em>decryptPassword. </em> <a href="https://experienceleague.adobe.com/developer/campaign-api/api/f-decryptPassword.html?lang=fr&hl=decrypt">En savoir plus</a></p></td>
+   <p>Dans le contexte d’un postupgrade vers la version 18.6 (et versions ultérieures), cette API n’est plus activée et a été remplacée par la fonction <em>decryptPassword. </em> <a href="https://experienceleague.adobe.com/developer/campaign-api/api/f-decryptPassword.html?hl=decrypt">En savoir plus</a></p></td>
   </tr> 
    <tr> 
    <td>Canal mobile - Messages MMS et WAP Push</td>
@@ -150,9 +150,11 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Classic.
  </tbody> 
 </table>
 
-<!--## Deprecated compatibility {#deprecated-compatibility}
+<!--
+## Deprecated compatibility {#deprecated-compatibility}
 
-The following systems are deprecated for Campaign Classic. Please refer to the [Compatibility matrix](../../rn/using/compatibility-matrix.md) to upgrade to a newer version or move to a new system before the compatibility ends.-->
+The following systems are deprecated for Campaign Classic. Please refer to the [Compatibility matrix](../../rn/using/compatibility-matrix.md) to upgrade to a newer version or move to a new system before the compatibility ends.
+-->
 
 ## Fin de compatibilité {#end-of-compatibility}
 
@@ -208,7 +210,7 @@ Depuis la version 19.1 du printemps, Adobe Campaign n’est plus compatible av
 
 Adobe ne prend pas en charge les moteurs de base de données ci-après, car ils ont été abandonnés par leur éditeur. Les clients utilisant ces versions doivent effectuer la mise à niveau vers la version la plus récente ou passer à une autre.
 
-Consultez la [matrice de compatibilité de Campaign &#x200B;](../../rn/using/compatibility-matrix.md) pour accéder à la liste des versions compatibles.
+Consultez la [matrice de compatibilité de Campaign ](../../rn/using/compatibility-matrix.md) pour accéder à la liste des versions compatibles.
 
 **FEDERATED DATA ACCESS (FDA)**
 
