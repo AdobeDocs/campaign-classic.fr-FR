@@ -4,12 +4,11 @@ title: Effectuer une requête sur la table des destinataires
 description: Découvrez comment effectuer une requête sur la table des destinataires.
 feature: Query Editor, Workflows
 hide: true
-hidefromtoc: true
 exl-id: 5b037798-b092-4c98-9f6a-4af7fc7941c6
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '452'
-ht-degree: 100%
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
+source-wordcount: '450'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +20,7 @@ Dans cet exemple, vous allez récupérer les noms et emails des destinataires do
 
 * Quelle table doit-on sélectionner ?
 
-  La table des destinataires (nms:recipient).
+  Table des personnes destinataires (nms:recipient).
 
 * Champs à sélectionner en colonnes de sortie.
 
@@ -37,7 +36,7 @@ Dans cet exemple, vous allez récupérer les noms et emails des destinataires do
 
 Pour réaliser cet exemple, les étapes sont les suivantes :
 
-1. Cliquez sur **[!UICONTROL Outils > Requêteur générique...]**, choisissez la table des **Destinataires** (**nms:recipient**). Cliquez sur **[!UICONTROL Suivant]**.
+1. Cliquez sur **[!UICONTROL Outils > Requêteur générique...]** et choisissez le tableau **Destinataires** (**nms:recipient**) . Cliquez sur **[!UICONTROL Suivant]**.
 1. Sélectionnez : **[!UICONTROL Nom]**, **[!UICONTROL Prénom]**, **[!UICONTROL Email]**, **[!UICONTROL Ville]** et **[!UICONTROL Numéro de compte]**. Ces champs sont alors ajoutés à **[!UICONTROL Colonnes de sortie]**. Cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/query_editor_03.png)
@@ -77,7 +76,7 @@ Pour réaliser cet exemple, les étapes sont les suivantes :
 
    L&#39;onglet **[!UICONTROL Résultat en colonnes]** vous présente le résultat de la requête en colonnes.
 
-   Le résultat ne comporte que les destinataires dont le domaine d&#39;email est &quot;free.fr&quot; et ne vivant pas à Paris. La colonne &quot;Prénom&quot; n&#39;est pas affichée car elle a été décochée à l&#39;étape précédente. Les numéros de compte sont triés de manière descendante.
+   Le résultat ne comporte que les destinataires dont le domaine d&#39;email est « free.fr » et ne vivant pas à Paris. La colonne « Prénom » n&#39;est pas affichée car elle a été décochée à l&#39;étape précédente. Les numéros de compte sont triés de manière descendante.
 
    ![](assets/query_editor_nveau_12.png)
 

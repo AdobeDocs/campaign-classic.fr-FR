@@ -6,10 +6,9 @@ feature: Release Notes
 role: User
 level: Beginner
 hide: true
-hidefromtoc: true
 exl-id: 8ed11e96-9f23-4e2e-bae2-25c51cfb549a
-source-git-commit: 62fc46e45078fce56eadda3518251e61244bf5d0
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '2336'
 ht-degree: 100%
 
@@ -89,7 +88,7 @@ _7 septembre 2023_
 * Correction d’un problème de régression qui entraînait des problèmes de défilement lors de l’utilisation du Digital Content Editor. (NEO-64671, NEO-59256)
 * Correction d’un problème de régression lors du collage de contenu d’Excel dans le Digital Content Editor. (NEO-63287)
 * Correction d’un problème qui empêchait l’affichage correct des applications web en mode de compatibilité v5. (NEO-63174)
-* Correction d’un problème qui empêchait des personnes non-administratrices d’envoyer des diffusions webAnalytics. (NEO-62750)
+* Correction d’un problème qui empêchait les opérateurs et opératrices n’ayant pas les privilèges d’administration d’envoyer des diffusions webAnalytics. (NEO-62750)
 * Correction d’un problème qui empêchait les navigateurs d’ajouter des espaces supplémentaires lors de l’utilisation de contenu conditionnel dans une diffusion. (NEO-62132)
 * Correction d’un problème de régression qui empêchait le bon fonctionnement du calcul des contacts actifs dans le workflow Facturation lors de l’utilisation de schémas cibles associés à plusieurs schémas de logs. (NEO-61468)
 * Correction d’un problème qui entraînait une erreur et empêchait le défilement lors de l’édition du contenu d’une diffusion. (NEO-61364)

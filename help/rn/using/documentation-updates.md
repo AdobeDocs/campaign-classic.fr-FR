@@ -6,10 +6,9 @@ feature: Release Notes
 role: User
 level: Beginner
 hide: true
-hidefromtoc: true
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 85bafbac26b5f127499f35f373e96ecfd12b1db8
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '415'
 ht-degree: 100%
 

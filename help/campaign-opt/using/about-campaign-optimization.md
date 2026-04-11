@@ -5,10 +5,9 @@ description: À propos des typologies de campagne
 role: User, Developer
 feature: Typology Rules, Campaigns
 hide: true
-hidefromtoc: true
 exl-id: b500bde4-6c81-4420-b1bf-e8eff1c53877
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 100%
 

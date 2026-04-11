@@ -4,12 +4,11 @@ title: Diffusion
 description: En savoir plus sur l’activité de workflow de type Diffusion
 feature: Workflows, Channels Activity
 hide: true
-hidefromtoc: true
 exl-id: 72fbdd1d-a105-4e9f-9e17-2e9d62d2bb80
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '1040'
-ht-degree: 100%
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
+source-wordcount: '1039'
+ht-degree: 96%
 
 ---
 
@@ -45,7 +44,7 @@ Pour la paramétrer, éditez l&#39;activité et renseignez les options de la dif
 
      ![](assets/diffusion_edit_2.png)
 
-     Une fois l&#39;action de diffusion sélectionnée, vous pouvez en visualiser le contenu en cliquant sur l&#39;icône **[!UICONTROL Editer le lien]**.
+     Une fois l’action de diffusion sélectionnée, vous pouvez en visualiser le contenu en cliquant sur l’icône **[!UICONTROL Éditer le lien]**.
 
    * Créez un script pour calculer la diffusion. Pour cela, sélectionnez l’option **[!UICONTROL Calculée par un script]** et saisissez le script. Vous pouvez ouvrir une fenêtre de saisie en cliquant sur **[!UICONTROL Éditer...]**. L’exemple suivant permet de récupérer l’identifiant de la diffusion :
 
@@ -140,7 +139,7 @@ Identifiant de la diffusion, si l&#39;option **[!UICONTROL Spécifiée par la tr
 
 * deliveryId
 * tableName
-* schema
+* schéma
 
 Chacun des événements entrants doit spécifier une cible définie par ces paramètres.
 
@@ -159,10 +158,10 @@ Chacun des événements entrants doit spécifier une cible définie par ces para
 ## Paramètres de sortie {#output-parameters}
 
 * tableName
-* schema
+* schéma
 * recCount
 
-Ce triplet de valeurs identifie la cible résultant de la diffusion. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (habituellement nms:recipient) et **[!UICONTROL recCount]** est le nombre d&#39;éléments dans la table.
+Ce triplet de valeurs identifie la cible résultant de la diffusion. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (généralement nms:recipient) et **[!UICONTROL recCount]** est le nombre d&#39;éléments dans la table.
 
 La transition associée au complément possède les mêmes paramètres.
 

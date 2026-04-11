@@ -4,12 +4,11 @@ title: Synchronisation des audiences
 description: Découvrez comment synchroniser les audiences à lʼaide du connecteur ACS
 feature: ACS Connector
 hide: true
-hidefromtoc: true
 exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 100%
+source-wordcount: '1184'
+ht-degree: 98%
 
 ---
 
@@ -34,7 +33,7 @@ Ce cas pratique montre comment préparer la cible de votre diffusion dans Campai
 Pour ce faire, les éléments suivants sont nécessaires :
 
 * Des destinataires stockés dans la base de données de Campaign v7 et synchronisés avec Campaign Standard. Pour plus d&#39;informations, consultez la section [Synchronisation des profils](../../integrations/using/synchronizing-profiles.md).
-* Des données additionnelles telles que des abonnements ou des transactions stockées dans des tables associées à nms:recipients dans la base de données de Campaign v7. Ces données peuvent provenir de tables personnalisées ou de schémas d&#39;usine de Campaign v7. Par défaut, ces données ne sont pas accessibles dans Campaign Standard, car elles ne sont pas synchronisées.
+* Des données supplémentaires telles que des abonnements ou des transactions stockées dans des tables liées à nms:recipients dans la base de données de Campaign v7. Ces données peuvent provenir de tables personnalisées ou de schémas d&#39;usine de Campaign v7. Par défaut, ces données ne sont pas accessibles dans Campaign Standard, car elles ne sont pas synchronisées.
 * Droits d&#39;exécution de workflows dans Campaign v7 et Campaign Standard.
 * Droits de création et d&#39;exécution d&#39;une diffusion dans Campaign Standard.
 
@@ -98,7 +97,7 @@ Une fois que la population cible est définie, vous pouvez la partager avec ACS 
 
 1. Dans le workflow précédemment créé, ajoutez une activité **[!UICONTROL Mise à jour de liste]** et spécifiez la liste que vous souhaitez mettre à jour ou créer.
 
-   Indiquez le dossier dans lequel vous souhaitez enregistrer la liste dans Campaign v7. Les listes sont soumises au mappage de dossiers défini lors de la mise en œuvre, ce qui peut avoir un impact sur leur visibilité une fois qu’elles sont partagées dans Campaign Standard. Pour plus d&#39;informations, consultez la section [Conversion des droits](../../integrations/using/acs-connector-principles-and-data-cycle.md#rights-conversion).
+   Indiquez le dossier dans lequel vous souhaitez enregistrer la liste dans Campaign v7. Les listes sont soumises au mapping de dossiers défini lors de la mise en œuvre, ce qui peut avoir un impact sur leur visibilité une fois qu’elles sont partagées dans Campaign Standard. Pour plus d&#39;informations, consultez la section [Conversion des droits](../../integrations/using/acs-connector-principles-and-data-cycle.md#rights-conversion).
 
 1. Vérifiez que l&#39;option **[!UICONTROL Partager avec ACS]** est cochée. Elle l&#39;est par défaut.
 
@@ -108,7 +107,7 @@ Une fois que la population cible est définie, vous pouvez la partager avec ACS 
 
    La cible et ses données additionnelles sont enregistrées dans une liste, dans Campaign v7, et sont immédiatement partagées en tant qu&#39;audience de type liste dans Campaign Standard. Seuls les profils qui ont été répliqués sont partagés avec ACS.
 
-Si une erreur se produit dans l&#39;activité **[!UICONTROL Mise à jour de liste]**, cela signifie que la synchronisation avec Campaign Standard n&#39;a peut-être pas été effectuée correctement. Pour déterminer ce qui s&#39;est passé, accédez à **[!UICONTROL Administration]** > **[!UICONTROL ACS Connector]** > **[!UICONTROL Traitement]** > **[!UICONTROL Diagnostic]**. Ce dossier contient les workflows de synchronisation déclenchés par l&#39;exécution de l&#39;activité **[!UICONTROL Mise à jour de liste]**. Pour plus d&#39;informations, consultez la section [Résolution des problèmes liés à ACS Connector](../../integrations/using/troubleshooting-the-acs-connector.md).
+Si une erreur se produit dans l&#39;activité **[!UICONTROL Mise à jour de liste]**, cela signifie que la synchronisation avec Campaign Standard n&#39;a peut-être pas été effectuée correctement. Pour déterminer ce qui s’est passé, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Connecteur ACS]** > **[!UICONTROL Traitement]** > **[!UICONTROL Diagnostic]**. Ce dossier contient les workflows de synchronisation déclenchés par l&#39;exécution de l&#39;activité **[!UICONTROL Mise à jour de liste]**. Pour plus d’informations, consultez la section [Résolution des problèmes liés au connecteur ACS](../../integrations/using/troubleshooting-the-acs-connector.md).
 
 ## Récupérer les données dans Campaign Standard et les utiliser dans une diffusion {#retrieve-the-data-in-campaign-standard-and-use-it-in-a-delivery}
 

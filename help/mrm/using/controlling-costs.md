@@ -6,11 +6,10 @@ feature: Resource Management
 audience: campaign
 content-type: reference
 hide: true
-hidefromtoc: true
 topic-tags: tasks--resources-and-budgets
 exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
-source-git-commit: 942edcf028207eab2ea583949ebc99ab61539ea0
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '2559'
 ht-degree: 100%
 

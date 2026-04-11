@@ -5,10 +5,9 @@ description: Découvrez les options et les paramètres spécifiques à la diffus
 feature: Email
 role: User, Developer
 hide: true
-hidefromtoc: true
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
-source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 100%
 

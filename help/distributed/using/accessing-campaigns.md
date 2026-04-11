@@ -4,10 +4,9 @@ title: Accéder aux opérations
 description: Accéder aux opérations
 feature: Distributed Marketing
 hide: true
-hidefromtoc: true
 exl-id: 5534bd5b-6888-4bf6-8a39-109c6fc0f6c3
-source-git-commit: 36fe54cf6d4d762d96205bd637311a426c741427
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 100%
 

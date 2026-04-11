@@ -5,10 +5,9 @@ description: Découvrez comment définir l’audience de vos campagnes marketing
 role: User
 feature: Campaigns, Audiences
 hide: true
-hidefromtoc: true
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
-source-git-commit: 4f809011a8b4cb3803c4e8151e358e5fd73634e4
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1586'
 ht-degree: 100%
 

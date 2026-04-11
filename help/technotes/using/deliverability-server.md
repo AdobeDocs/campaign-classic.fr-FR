@@ -4,12 +4,11 @@ title: Effectuer une mise à jour vers le nouveau serveur de délivrabilité
 description: Découvrez comment mettre à jour le nouveau serveur de délivrabilité de Campaign
 feature: Technote, Deliverability
 hide: true
-hidefromtoc: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: c42d4022587846081442a39d03546c0ef335c7a0
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
-source-wordcount: '997'
-ht-degree: 100%
+source-wordcount: '992'
+ht-degree: 95%
 
 ---
 
@@ -21,7 +20,7 @@ En tant que client Campaign Classic, vous devez implémenter le nouveau serveur
 
 >[!NOTE]
 >
->Pour plus d’informations sur ces modifications, reportez-vous à la section [FAQ](#faq) ou contactez [l’Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}.
+>Pour plus d’informations sur ces modifications, reportez-vous à la [FAQ](#faq) ou contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}.
 >
 
 ## Qu’est-ce qui a changé ?{#acc-deliverability-changes}
@@ -71,9 +70,9 @@ Avant de commencer l’implémentation, vérifiez la configuration de votre inst
 
 En tant que client On-Premise, vous devez également vérifier qu’un **[!UICONTROL profil de produit]** Campaign est disponible pour votre organisation. Pour ce faire, suivez les étapes ci-après :
 
-1. En tant qu’administrateur, connectez-vous à [Adobe Admin Console](https://adminconsole.adobe.com/){_blank}.
+1. En tant qu&#39;administrateur, connectez-vous à [&#128279;](https://adminconsole.adobe.com/){_blank}.
 1. Accédez à la section **Produit et services** et vérifiez qu’**Adobe Campaign** est répertorié.
-Si vous ne pouvez pas voir **Adobe Campaign**, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} pour l’ajouter.
+Si vous ne pouvez pas voir **&#x200B;**&#x200B;contactez l’assistance clientèle d’Adobe [&#128279;](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} pour l’ajouter.
 1. Cliquez sur **Adobe Campaign** et sélectionnez votre organisation.
    **Attention** : si vous avez plusieurs organisations, veillez à choisir la bonne. En savoir plus sur les organisations [sur cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=fr#ims-org-id){_blank}.
 
@@ -110,7 +109,7 @@ Pour vérifier que l’intégration a réussi, procédez comme suit :
 
 ## Forum aux questions {#faq}
 
-### Quelle est le planning de la mise à jour ?
+### Quelle est la chronologie de la mise à jour ?
 
 La transition vers le nouveau serveur de délivrabilité, permettant l’ajout de ces fonctionnalités améliorées et le renforcement de la sécurité, commencera le 22 juillet pour les clients hébergés (Campaign Managed Services). Tous les clients hébergés seront mis à jour avant la fin du mois d’août.
 

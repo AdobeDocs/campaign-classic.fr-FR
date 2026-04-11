@@ -5,10 +5,9 @@ description: Découvrir les paramètres de diffusion spécifiques à la v7
 feature: Channel Configuration
 role: User
 hide: true
-hidefromtoc: true
 exl-id: 66250817-f829-4b8b-92dd-2daa92a97fe0
-source-git-commit: 2e3a14c97706a873f0791ef83708d704d2eed6c3
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 100%
 

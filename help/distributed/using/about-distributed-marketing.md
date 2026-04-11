@@ -4,12 +4,11 @@ title: Prise en main du marketing distribué
 description: Prise en main du marketing distribué
 feature: Distributed Marketing
 hide: true
-hidefromtoc: true
 exl-id: c166409b-e040-491e-840a-a41310935d75
-source-git-commit: dd6bcb16fe41b6a3f1e3f5aaf2f753b29ad4bc1d
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '140'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 100%
 
 
 
-Adobe Campaign propose une application de Marketing Distribué - **Distributed Marketing** - qui permet de mettre en place des opérations collaboratives entre des entités centrales (par exemple le siège de l&#39;entreprise, le service marketing, etc.) et des entités locales (par exemple des points de vente, des agences régionales, etc.). Cette collaboration s&#39;organise autour d&#39;un espace commun, la **[!UICONTROL liste des kits d&#39;opération]**, où des modèles et des instances d&#39;opérations créés au niveau central sont proposés aux entités locales.
+Adobe Campaign propose une application de Marketing Distribué - **Distributed Marketing** - qui permet de mettre en place des opérations collaboratives entre des entités centrales (par exemple le siège de l’entreprise, le service marketing, etc.) et des entités locales (par exemple des points de vente, des agences régionales, etc.). Cette collaboration s’organise autour d’un espace commun, la **[!UICONTROL liste des kits de campagne]**, où des modèles et des instances d’opérations créés au niveau central sont proposés aux entités locales.
 
 L&#39;entité centrale propose aux entités locales des opérations auxquelles elles peuvent participer. Ces opérations sont matérialisées par des kits, qui peuvent être associés à des opérations locales ou collaboratives. Pour participer, l&#39;entité locale doit faire une commande d&#39;opération et cette commande doit être validée.
 
@@ -27,7 +26,7 @@ L&#39;entité centrale propose aux entités locales des opérations auxquelles e
 
 >[!NOTE]
 >
->Pour en savoir plus sur le marketing distribué pour Adobe Campaign et son utilisation, reportez-vous à la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/distributed-marketing/about-distributed-marketing){target=_blank}.
+>Pour en savoir plus sur le marketing distribué pour Adobe Campaign et son utilisation, reportez-vous à la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/distributed-marketing/about-distributed-marketing){target=_blank}.
 
 <!--
 ## Terminology {#terminology}

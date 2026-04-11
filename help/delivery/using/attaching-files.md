@@ -6,10 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Email
 role: User
 hide: true
-hidefromtoc: true
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1082'
 ht-degree: 100%
 

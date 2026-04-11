@@ -4,10 +4,9 @@ title: Workflows techniques
 description: En savoir plus sur les workflows techniques disponibles avec les packages Campaign Classic
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
-source-git-commit: 2186b8a30449cb023cb07305ba64d53f2c8adab1
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1714'
 ht-degree: 100%
 

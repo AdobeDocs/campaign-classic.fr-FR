@@ -5,9 +5,8 @@ description: Découvrez comment connecter Campaign et Salesforce
 feature: Salesforce Integration
 exl-id: 94a1f00d-e952-4edd-9012-f71c87b897ca
 hide: true
-hidefromtoc: true
-source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 100%
 

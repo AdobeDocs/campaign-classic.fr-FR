@@ -4,11 +4,10 @@ title: Créer un modèle de diffusion
 description: Créer un modèle de diffusion
 feature: Delivery Templates
 hide: true
-hidefromtoc: true
 role: User
 exl-id: 40a03e04-56c7-48c0-95b8-aa7bf1121048
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 100%
 

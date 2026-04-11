@@ -5,10 +5,9 @@ description: Découvrez comment configurer et envoyer la diffusion
 feature: Channel Configuration
 role: User
 hide: true
-hidefromtoc: true
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
-source-git-commit: 2e3a14c97706a873f0791ef83708d704d2eed6c3
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 100%
 

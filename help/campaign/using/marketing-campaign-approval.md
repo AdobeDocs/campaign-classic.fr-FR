@@ -6,9 +6,8 @@ language: en
 role: User
 feature: Approvals, Campaigns
 hide: true
-hidefromtoc: true
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
-source-git-commit: df014d3f3029a61176e5117e27f3d2e8228fc407
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '2834'
 ht-degree: 78%
@@ -243,7 +242,7 @@ Ces informations peuvent cependant être surchargées au niveau de chaque opéra
 
 Au niveau de l&#39;opération, cliquez sur l&#39;onglet **[!UICONTROL Edition > Propriétés]**, puis sur le lien **[!UICONTROL Paramètres avancés de l&#39;opération...]** et enfin sur le sous-onglet **[!UICONTROL Validations]** pour accéder à la page de paramétrage du mode de validation des traitements.
 
-Vous pouvez sélectionner et désélectionner les processus à valider et nommer [!DNL Adobe Campaign] opérateurs chargés de la validation. Il peut s&#39;agir d&#39;un opérateur individuel, d&#39;un groupe d&#39;opérateurs ou d&#39;une liste d&#39;opérateurs.
+Vous pouvez sélectionner et désélectionner les processus à valider et nommer [!DNL Adobe Campaign] opérateurs chargés de la validation. Il peut s’agir d’opérateurs individuels, d’un groupe d’opérateurs ou d’une liste d’opérateurs.
 
 Pour désigner une liste d&#39;opérateurs, cliquez sur le lien **[!UICONTROL Editer...]** situé à droite du champ désignant le premier validant et ajoutez autant d&#39;opérateurs additionnels que nécessaire, comme dans l&#39;exemple ci-dessous :
 
@@ -354,7 +353,7 @@ Cette option vous permet de définir une personne responsable de l’édition du
 
 #### Validation externe du contenu {#external-content-approval}
 
-Cette option permet de définir une personne externe chargée de la validation du rendu des diffusions, comme la cohérence dans la communication de la marque, les tarifs, etc. Lorsque l’option **[!UICONTROL Validation externe du contenu]** est sélectionnée dans la fenêtre de paramétrage de la validation, plusieurs étapes de validation sont ajoutées entre la validation du contenu et l’envoi de la notification à la personne responsable de la campagne :
+Cette option permet de définir un opérateur ou une opératrice externe responsable de l’approbation du rendu des diffusions, comme la cohérence dans la communication de la marque, les tarifs, etc. Lorsque l’option **[!UICONTROL Validation externe du contenu]** est sélectionnée dans la fenêtre de paramétrage de la validation, plusieurs étapes de validation sont ajoutées entre la validation du contenu et l’envoi de la notification à la personne responsable de la campagne :
 
 1. Le responsable externe du contenu reçoit un email de notification l&#39;informant que le contenu a été validé et que la validation externe doit être effectuée.
 1. L&#39;email de notification propose des liens vers les BAT envoyés, lui permettant de visualiser le rendu de la diffusion, et un bouton pour valider ou refuser le contenu de la diffusion.
@@ -367,7 +366,7 @@ Cette option permet de définir une personne externe chargée de la validation d
 
 ### Validation d’un fichier d’extraction {#approving-an-extraction-file}
 
-Pour les diffusions hors ligne, [!DNL Adobe Campaign] génère un fichier d’extraction qui, selon la configuration, est envoyé au routeur. Le contenu du fichier dépend du modèle d&#39;export utilisé.
+Pour les diffusions hors ligne, [!DNL Adobe Campaign] génère un fichier d’extraction qui, selon la configuration, est envoyé au routeur. Son contenu dépend du modèle d’exportation utilisé.
 
 Une fois le contenu, le ciblage et le budget validés, la diffusion passe à l&#39;état **[!UICONTROL Extraction en attente]**, en attendant le lancement du workflow d&#39;extraction pour les opérations.
 

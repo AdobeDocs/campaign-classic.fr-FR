@@ -7,10 +7,9 @@ audience: migration
 content-type: reference
 topic-tags: migration-procedure
 hide: true
-hidefromtoc: true
 exl-id: d666bc0b-596a-4908-9364-7df5bb8d68d0
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 100%
 
