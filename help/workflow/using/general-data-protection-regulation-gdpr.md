@@ -3,9 +3,8 @@ product: campaign
 title: Workflows relatifs au règlement sur la protection des informations personnelles
 description: En savoir plus sur les workflows relatifs au règlement sur la protection des informations personnelles
 hide: true
-hidefromtoc: true
 feature: Workflows, Privacy
-source-git-commit: 0d8cef312371192ee97f88eb33276df9d7fb11f6
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 100%

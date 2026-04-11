@@ -5,12 +5,11 @@ description: En savoir plus sur les versions de Campaign Classic 2021
 feature: Release Notes
 role: User
 level: Beginner
-hidefromtoc: true
 exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
-source-git-commit: a1dbef3e1feca1e3347de013db8bd7809d315016
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
-source-wordcount: '2586'
-ht-degree: 100%
+source-wordcount: '2581'
+ht-degree: 97%
 
 ---
 
@@ -58,7 +57,7 @@ _7 septembre 2021_
 * Les connecteurs Microsoft CRM (déploiements Office 365 et On-premise) précédemment obsolètes ont été supprimés de l’interface. [En savoir plus](../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft)
 * Suite à la migration vers Tomcat 8, le script de configuration IIS a été mis à jour afin de corriger les problèmes d&#39;intégration IIS. (NEO-31019)
 * L&#39;identification de la source de données a été améliorée dans les onglets de données et de schéma de la fenêtre **Visualiser la population** des transitions de workflow.
-* Des index de base de données manquants ont été ajoutés aux schémas suivants afin d’éviter des problèmes de mise à jour de la base de données : xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
+* Des index de base de données manquants ont été ajoutés aux schémas suivants pour éviter des problèmes de mise à jour de la base de données : xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
 
 **Correctifs**
 
@@ -128,7 +127,7 @@ _5 juin 2021_
 <ul> 
 <li><p>Prise en charge du type de message vidéo LINE</p></li>
 <li><p>Prise en charge de l’API d’enregistrement de partenaire LINE</p></li>
-<li><p>Prise en charge des reprises d’envoi de messages en cas d’erreur côté serveur LINE ou d’expiration du réseau</p></li>
+<li><p>Prise en charge des reprises d’envoi de messages en cas d’erreur côté serveur LINE ou de temporisation du réseau</p></li>
 </ul>
 <p>Pour plus d’informations, consultez la <a href="../../delivery/using/line-channel.md">documentation détaillée</a>.</p>
 </td> 
@@ -169,7 +168,7 @@ _5 juin 2021_
 
 **Améliorations de la sécurité**
 
-* L’accès à la méthode d’API **xtk:session#GetCnxInfo** renvoyant les détails complets de la connexion à la base de données est maintenant limité aux utilisateurs administrateurs uniquement. (NEO-27779)
+* L&#39;accès à la méthode d&#39;API **xtk:session#GetCnxInfo** renvoyant les détails complets de connexion à la base de données est désormais limité aux utilisateurs administrateurs uniquement. (NEO-27779)
 * La fonction decryptString obsolète a été remplacée par decryptPassword dans les fichiers JavaScript liés au CRM.
 * La fonctionnalité de signature de tracking a été améliorée afin de réduire le risque d&#39;erreurs de redirection lors de la modification du lien suivi par des outils tiers (clients de messagerie, navigateurs Internet, outils de sécurité des liens).
 * Correction d’un problème qui empêchait le fonctionnement des URL suivies lorsqu’elles contenaient des caractères majuscules. Le mécanisme de signature des URL suivies respecte maintenant la casse. (NEO-28414)
@@ -205,7 +204,7 @@ En savoir plus dans la page [Fonctionnalités obsolètes et supprimées](../../r
 
 **Correctifs**
 
-* Correction d’un problème lors de la modification du timeout de session afin de déconnecter les utilisateurs après une durée spécifique (les utilisateurs restaient connectés même après la durée définie).
+* Correction d’un problème lors de la modification du délai d’expiration de session afin de déconnecter les utilisateurs après une durée spécifique (les utilisateurs restaient connectés même après la durée définie).
 * Correction d’un problème en raison duquel les diffusions s’affichaient en lecture seule mais pouvaient toujours être modifiées dans les propriétés des diffusions.
 * Correction d&#39;une erreur qui entraînait la disparition de la barre d&#39;outils d&#39;édition lors de la conception d&#39;une application web.
 * Correction d&#39;une erreur qui affichait la version texte d&#39;un email avec des en-têtes Adobe Campaign Classic lors de l&#39;ajout d&#39;un lien vers un email. (NEO-29211
@@ -264,7 +263,7 @@ En savoir plus dans la page [Fonctionnalités obsolètes et supprimées](../../r
 **Améliorations**
 
 **Le service de retour d&#39;e-mail (EFS - Email Feedback Service)** est un service évolutif chargé de capturer directement les retours du MTA amélioré, contribuant ainsi à la précision des rapports.
-Cette fonctionnalité est disponible en version bêta privée et sera progressivement disponible pour tous les clients dans les prochaines versions.
+Cette fonctionnalité est disponible en version Private Beta et sera progressivement disponible pour toute la clientèle dans les prochaines versions.
 
 * Toutes les catégories de commentaires sont maintenant capturées pour créer des rapports complets et précis.
 * Le calcul de l&#39;indicateur Délivrés est désormais fondé sur les commentaires en temps réel du MTA amélioré, ce qui contribue à l&#39;amélioration de la précision et de la réactivité.
@@ -274,7 +273,7 @@ Cette fonctionnalité est disponible en version bêta privée et sera progressiv
 **Autres changements**
 
 * La vitesse de transfert a été améliorée pour les logs de tracking volumineux à l&#39;aide de la compression.
-* La carte thermique des workflows a été améliorée afin d&#39;éviter les timeouts lors de l&#39;exécution de workflows avec plusieurs activités. (NEO-27423).
+* La carte thermique des workflows a été améliorée afin d’éviter les temporisations lors de l’exécution de workflows avec plusieurs activités. (NEO-27423).
 * Correction d&#39;un problème en raison duquel une offre pouvait être présentée même si sa date de fin était dépassée. Campaign Classic prend désormais en compte la date et l&#39;heure complètes de la date de fin plutôt que la date uniquement. (NEO-27590)
 * Le lien Google+ a été supprimé du bloc de personnalisation **Liens de partage vers réseaux sociaux**.
 * Correction d&#39;un problème après l&#39;implémentation d&#39;un correctif dans la dernière version. Une vérification a été ajoutée sur le nom d&#39;hôte lors de la connexion à l&#39;aide de SSL/TLS, ce qui a conduit à l&#39;échec des diffusions SMS. La vérification du nom d&#39;hôte a été désactivée pour la plupart des protocoles tels que POP3, SMS et HTTP avec proxy et la vérification du certificat pour le compte externe SMS a été améliorée avec trois valeurs (NEO-29581). [En savoir plus](../../delivery/using/sms-protocol.md#skip-tls)

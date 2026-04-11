@@ -1,19 +1,18 @@
 ---
 product: campaign
-title: Diffusion au fil de l'eau
-description: Diffusion au fil de l'eau
+title: Diffusion continue
+description: Diffusion continue
 feature: Workflows, Channels Activity
 hide: true
-hidefromtoc: true
 exl-id: 9c228cdb-331e-476e-a24c-3c7e23add3bf
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '369'
-ht-degree: 100%
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
+source-wordcount: '368'
+ht-degree: 91%
 
 ---
 
-# Diffusion au fil de l&#39;eau{#continuous-delivery}
+# Diffusion continue{#continuous-delivery}
 
 
 
@@ -25,7 +24,7 @@ Au niveau du modèle de diffusion, vous pouvez spécifier un script pour calcule
 
 ![](assets/edit_diffusion_fil.png)
 
-L&#39;option **[!UICONTROL Traiter les erreurs]** fait apparaître une transition particulière qui sera activée si une erreur est générée. Dans ce cas, le workflow ne passe pas en état d&#39;erreur et continue son exécution.
+L’option **[!UICONTROL Traiter les erreurs]** fait apparaître une transition particulière qui sera activée si une erreur est générée. Dans ce cas, le workflow ne passe pas en état d’erreur et continue son exécution.
 
 Les erreurs prises en compte sont les erreurs du système de fichiers (impossible de déplacer un fichier, impossible d&#39;accéder au répertoire, etc.).
 
@@ -34,7 +33,7 @@ Cette option ne traite pas les erreurs liées au paramétrage de l&#39;activité
 ## Paramètres d&#39;entrée {#input-parameters}
 
 * tableName
-* schema
+* schéma
 
 Chacun des événements entrants doit spécifier une cible définie par ces paramètres.
 
@@ -43,10 +42,10 @@ Uniquement lorsque l&#39;action **[!UICONTROL Spécifiés par l&#39;événement 
 ## Paramètres de sortie {#output-parameters}
 
 * tableName
-* schema
+* schéma
 * recCount
 
-Ce triplet de valeurs identifie la cible résultant de la diffusion à la volée. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (habituellement nms:recipient) et **[!UICONTROL recCount]** est le nombre d&#39;éléments dans la table.
+Ce triplet de valeurs identifie la cible résultant de la diffusion à la volée. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (généralement nms:recipient) et **[!UICONTROL recCount]** est le nombre d&#39;éléments dans la table.
 
 La transition associée au complémentaire possède les mêmes paramètres.
 
@@ -58,12 +57,12 @@ Une **diffusion au fil de l’eau** permet d&#39;ajouter de nouveaux destinatair
 
 Une diffusion au fil de l’eau crée une diffusion et des logs de diffusion UNIQUES (broadLog) et des logs de tracking qui font référence à l&#39;ajout d&#39;une diffusion chaque fois qu&#39;elle s&#39;exécute.
 
-![Diffusion au fil de l’eau](assets/delivery_continuous.jpg)
+![Diffusion continue](assets/delivery_continuous.jpg)
 
 ## Tutoriel vidéo {#continuous-delivery-video}
 
 Cette vidéo montre comment configurer une diffusion en continu avec une requête incrémentale.
 
->[!VIDEO](https://video.tv.adobe.com/v/30233?quality=12&captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
 
 D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

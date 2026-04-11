@@ -7,10 +7,9 @@ audience: migration
 content-type: reference
 topic-tags: rollback
 hide: true
-hidefromtoc: true
 exl-id: 5120a7c4-3760-48d9-94da-d587d333e8d8
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 100%
 

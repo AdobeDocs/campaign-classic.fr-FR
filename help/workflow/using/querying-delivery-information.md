@@ -4,12 +4,11 @@ title: Requête sur les informations de diffusion
 description: Découvrez comment interroger les informations diffusion
 feature: Query Editor, Workflows
 hide: true
-hidefromtoc: true
 exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '1552'
-ht-degree: 100%
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
+source-wordcount: '1551'
+ht-degree: 99%
 
 ---
 
@@ -23,7 +22,7 @@ Dans cet exemple, vous allez rechercher le nombre de clics des destinataires, su
 
 * Quelle table doit-on sélectionner ?
 
-  La table des logs de tracking des destinataires (**[!UICONTROL nms:trackingLogRcp]**).
+  La table de tracking des logs de destinataires (**[!UICONTROL nms:trackingLogRcp]**)
 
 * Quels sont les champs à sélectionner en colonne de sortie ?
 
@@ -95,7 +94,7 @@ Pour réaliser cet exemple, les étapes sont les suivantes :
 
      ![](assets/query_editor_nveau_65.png)
 
-     L&#39;intervalle de temps est configuré. La troisième condition de filtrage est à paramétrer : elle permettra d&#39;identifier la diffusion sur laquelle porte la recherche.
+     L’intervalle de temps est configuré. La troisième condition de filtrage est à paramétrer : elle permettra d’identifier la diffusion sur laquelle porte la recherche.
 
    * Cliquez sur la fonction **[!UICONTROL Ajouter]** pour créer une autre condition de filtrage. Cliquez sur **[!UICONTROL Editer l&#39;expression]** dans la colonne **[!UICONTROL Expression]**. Dans la fenêtre **[!UICONTROL Champ à sélectionner]**, choisissez le champ **[!UICONTROL Libellé]** du noeud **[!UICONTROL Diffusion]**.
 

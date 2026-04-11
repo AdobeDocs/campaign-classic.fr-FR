@@ -4,12 +4,11 @@ title: Requête avec une relation multiple-à-multiple
 description: Découvrez comment exécuter des requêtes à l’aide d’une relation multiple-à-multiple
 feature: Query Editor, Workflows
 hide: true
-hidefromtoc: true
 exl-id: e1d40ba1-2493-45c1-bd54-af9cb332028d
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '475'
-ht-degree: 100%
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +22,7 @@ Ce cas indique par ailleurs comment paramétrer un filtrage découlant du choix 
 
 * Quelle table doit-on sélectionner ?
 
-  La table des destinataires (**nms:recipient**).
+  La table des destinataires (**nms:recipient**)
 
 * Quels sont les champs à sélectionner en colonne de sortie ?
 
@@ -35,7 +34,7 @@ Ce cas indique par ailleurs comment paramétrer un filtrage découlant du choix 
 
 Les étapes sont les suivantes :
 
-1. Ouvrez le Requêteur générique et sélectionnez la table des Destinataires **[!UICONTROL (nms:recipient)]**.
+1. Ouvrez le Requêteur générique et sélectionnez l’**[!UICONTROL Table des destinataires (nms:recipient)]**.
 1. Dans la fenêtre **[!UICONTROL Données à extraire]**, sélectionnez les champs **[!UICONTROL Clé primaire]**, **[!UICONTROL Prénom]**, **[!UICONTROL Nom]** et **[!UICONTROL Email]**.
 
    ![](assets/query_editor_nveau_33.png)

@@ -4,10 +4,9 @@ title: Synchronisation des applications web
 description: Découvrez comment synchroniser des applications web à lʼaide du connecteur ACS
 feature: ACS Connector
 hide: true
-hidefromtoc: true
 exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 100%
 

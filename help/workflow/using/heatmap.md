@@ -4,12 +4,11 @@ title: Carte thermique des workflows Campaign
 description: Surveillez vos workflows avec la Carte thermique des workflows
 feature: Workflows, Heatmap
 hide: true
-hidefromtoc: true
 exl-id: f1016ddf-0c87-4611-a878-d01f3684935f
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '1191'
-ht-degree: 100%
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
+source-wordcount: '1190'
+ht-degree: 98%
 
 ---
 
@@ -99,7 +98,7 @@ Chaque ligne représente une heure de la journée et chaque cellule, 5 minutes 
 
 La grille affiche tous les workflows exécutés à la même heure pour chacune de ces périodes de 5 minutes.
 
-Dans l&#39;exemple suivant, trois workflows sont en cours d&#39;exécution (quelle que soit leur durée) entre 8h00 et 8h05 :
+Dans l’exemple ci-dessous, entre 8 h et 8 :05am, trois workflows sont en cours d’exécution (quelle que soit leur durée individuelle) :
 
 ![](assets/wkf_monitoring_ex_8am.png)
 
@@ -128,7 +127,7 @@ En tant qu&#39;administrateur de Campaign, la carte thermique des workflows peut
 
 1. Examinez les résultats pour analyser la charge de l&#39;instance, puis prenez les mesures adéquates :
 
-   * Si vous rencontrez des problèmes de performances et si la grille contient une ou plusieurs cellules rouges, songez à modifier les heures de début de plusieurs workflows. Demandez aux utilisateurs marketing de déplacer manuellement les workflows des périodes surchargées (&quot;chaudes&quot;) vers des créneaux horaires moins chargés. Un niveau d&#39;activité stable devrait ainsi être maintenu tout au long de la journée.
+   * Si vous rencontrez des problèmes de performances et si la grille contient une ou plusieurs cellules rouges, songez à modifier les heures de début de plusieurs workflows. Demandez aux utilisateurs et utilisatrices marketing de déplacer manuellement les workflows des périodes surchargées (« chaudes ») vers des créneaux horaires moins chargés. Un niveau d’activité stable devrait ainsi être maintenu tout au long de la journée.
    * Pour éviter les pics et la surcharge de l&#39;instance, examinez la carte thermique avant de planifier de nouveaux workflows et choisissez le meilleur horaire. Prenez en compte les créneaux horaires correspondant aux cellules grises ou vertes de la grille pour démarrer de nouveaux workflows.
 
 ### Recherche des workflows de longue exécution ayant un impact sur les performances {#finding-long-running-workflows-that-impact-performance}

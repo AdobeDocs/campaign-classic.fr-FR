@@ -4,12 +4,11 @@ title: Scripts et modèles JavaScript
 description: Scripts et modèles JavaScript
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
-source-wordcount: '1268'
-ht-degree: 100%
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
+source-wordcount: '1264'
+ht-degree: 97%
 
 ---
 
@@ -59,9 +58,9 @@ logInfo("Label: " + instance.label)
 logInfo("Start date: " + task.creationDate)
 ```
 
-La fonction **[!UICONTROL logInfo(message)]** ajoute un message dans le journal.
+La fonction **[!UICONTROL logInfo(message)]** ajoute un message dans le log.
 
-Cliquez sur **[!UICONTROL OK]** pour fermer l’assistant de création, puis démarrez le workflow en utilisant les boutons d’action en haut à droite de la liste des workflows. À la fin de l’exécution, consultez le journal. Vous devez voir deux messages correspondant au script : l’un affiche le libellé du workflow, l’autre affiche la date d’activation du script.
+Cliquez sur **[!UICONTROL OK]** pour fermer l’assistant de création, puis démarrez le workflow en utilisant les boutons d’action en haut à droite de la liste des workflows. À la fin de l’exécution, consultez le log. Vous devez voir deux messages correspondant au script : l’un affiche le libellé du workflow, l’autre affiche la date d’activation du script.
 
 ## Variables {#variables}
 
@@ -145,7 +144,7 @@ Dans cet exemple, une variable d’instance est utilisée pour calculer dynamiqu
    logInfo("task.vars.foo = " + task.vars.foo)
    ```
 
-1. Démarrez le workflow, puis consultez le journal.
+1. Démarrez le workflow, puis consultez le log.
 
    ```
    Workflow finished
@@ -181,13 +180,13 @@ Par exemple :
 
 ## Fonctions avancées {#advanced-functions}
 
-En plus des fonctions JavaScript standard, d&#39;autres fonctions spécifiques sont disponibles pour manipuler les fichiers, lire ou modifier des données dans la base ou encore ajouter des messages dans le journal.
+En plus des fonctions JavaScript standard, d&#39;autres fonctions spécifiques sont disponibles pour manipuler les fichiers, lire ou modifier des données dans la base ou encore ajouter des messages dans le log.
 
 ### Journal {#journal}
 
 **[!UICONTROL logInfo(message)]** a déjà été présenté dans les exemples précédents. Cette fonction ajoute un message d&#39;information au journal.
 
-**[!UICONTROL logError(message)]** ajoute un message d&#39;erreur au journal. Le script interrompt son exécution et le workflow passe en état d&#39;erreur (par défaut, l&#39;instance sera mise en pause).
+**[!UICONTROL logError(message)]** ajoute un message d&#39;erreur au log. Le script interrompt son exécution et le workflow passe en état d&#39;erreur (par défaut, l&#39;instance sera mise en pause).
 
 ## Script d&#39;initialisation {#initialization-script}
 

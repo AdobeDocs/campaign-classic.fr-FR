@@ -4,10 +4,9 @@ title: Configuration dʼun dʼimport récurrent
 description: Découvrez comment paramétrer un modèle de workflow pour les imports récurrents
 feature: Workflows, Data Management
 hide: true
-hidefromtoc: true
 exl-id: e6e140cb-8de0-4ab9-bddc-95abe04124c6
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 100%
 

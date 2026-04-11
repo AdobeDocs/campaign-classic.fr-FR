@@ -6,13 +6,12 @@ feature: Resource Management
 audience: campaign
 content-type: reference
 hide: true
-hidefromtoc: true
 topic-tags: tasks--resources-and-budgets
 exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
-source-git-commit: 942edcf028207eab2ea583949ebc99ab61539ea0
-workflow-type: ht
-source-wordcount: '3912'
-ht-degree: 100%
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
+source-wordcount: '3910'
+ht-degree: 99%
 
 ---
 
@@ -62,7 +61,7 @@ Pour créer une tâche, cliquez sur le lien **[!UICONTROL Tâches]** de l&#39;on
 
 ![](assets/s_ncs_user_task_create_new.png)
 
-Saisissez au minimum le nom de la tâche et sélectionnez l&#39;opération à laquelle elle est rattachée. Vous devez également indiquer les dates de début et de fin. Ces trois informations sont obligatoires.
+Saisissez au minimum le nom de la tâche et sélectionnez l’opération à laquelle elle est rattachée. Vous devez également indiquer les dates de début et de fin. Ces trois informations sont obligatoires.
 
 Cliquez sur **[!UICONTROL Enregistrer]** pour créer la tâche.
 
@@ -231,7 +230,7 @@ Pour programmer une notification, dans la boîte **[!UICONTROL Ressources]**, ut
 ![](assets/mrm_task_alert_before.png)
 
 * Pour les tâches dans les opérations, choisissez une date et une heure précises.
-* Pour les tâches dans les modèles d&#39;opération, le moment de la notification est exprimé en temps avant le début de la tâche (par exemple, si vous entrez 2j dans le champ **[!UICONTROL Notification initiale]**, l&#39;email sera envoyé 2 jours avant le début de la tâche).
+* Pour les tâches dans les modèles d’opération, le moment de la notification est exprimé en temps restant avant le début de la tâche (par exemple, si vous entrez 2j dans le champ **[!UICONTROL Notification initiale]**, l’e-mail sera envoyé 2 jours avant la date début de la tâche).
 
 Si vous avez programmé une notification, lorsque vous enregistrez la tâche, Adobe Campaign vous proposera quand même d&#39;envoyer une notification immédiatement. Si vous choisissez de l&#39;envoyer, celle-ci ne remplacera pas la notification programmée.
 
@@ -374,7 +373,7 @@ Lors de sa création, les éléments suivants doivent être renseignés dans la 
 
 * **[!UICONTROL Affecté à]** : l&#39;opérateur ou le groupe d&#39;opérateurs à qui l&#39;email va être envoyé. Si vous réaffectez la tâche une fois l&#39;email envoyé, l&#39;email ne sera pas renvoyé au nouvel opérateur affecté à la tâche (pour cela, il faut réinitialiser la tâche et changer sa date de début).
 * **Date de début de la tâche** : date à laquelle l&#39;email de notification sera envoyé. Cette date doit impérativement être située dans le futur par rapport au moment où vous enregistrez la tâche.
-* **Date de fin de la tâche** : date à laquelle la tâche prend le statut **[!UICONTROL Terminé]**. Par défaut, la date de fin est identique à celle de début. Cependant, donner une durée à la tâche permet, si besoin, de symboliser dans le planning le temps dont dispose l&#39;opérateur pour agir.
+* **Date de fin de la tâche** : date à laquelle la tâche prend le statut **[!UICONTROL Terminé]**. Par défaut, la date de fin est identique à celle de début. Cependant, donner une durée à la tâche permet, si besoin, de symboliser dans le planning le temps dont dispose l’opérateur ou l’opératrice pour agir.
 * **[!UICONTROL Description]** : le texte entré ici apparaîtra dans le corps de l&#39;email de notification.
 
   ![](assets/mrm_task_notif_dashboard_msg.png)
@@ -409,7 +408,7 @@ La dépendance entre les tâches est matérialisée par des flèches dans le tab
 
 ![](assets/s_ncs_user_task_dependencies_from_board.png)
 
-Dans le cas de tâches groupées, Adobe Campaign attribue automatiquement la date de fin de la tâche parent comme date de début de la tâche enfant. Par exemple, si une tâche **Créer une invitation** se termine le 15 octobre à 15h30, la tâche enfant **Envoyer un email d&#39;invitation** démarre le 15 octobre à 15h30.
+Dans le cas de tâches groupées, Adobe Campaign attribue automatiquement la date de fin de la tâche parent comme date de début de la tâche enfant. Par exemple, si une tâche **Créer une invitation** se termine le 15 octobre à 3:30PM, la tâche enfant **Envoyer un e-mail d&#39;invitation** démarrera le 15 octobre à 3:30PM.
 
 De plus, si vous retardez la fin d&#39;une tâche parent, certaines de ses tâches enfants peuvent être décalées : il s&#39;agit des tâches enfants dont le statut est **[!UICONTROL Planifié]** et dont la date de début est antérieure à la nouvelle date de fin de la tâche parent. La durée de la tâche enfant reste la même. Si la date de début d&#39;une tâche enfant est postérieure à la nouvelle date de fin de la tâche parent, alors la tâche enfant n&#39;est pas décalée.
 
@@ -432,7 +431,7 @@ Une tâche peut être : **[!UICONTROL Planifiée]**, **[!UICONTROL En cours]**,
 * Une fois qu’elle a été lancée, la tâche est **[!UICONTROL En cours]**. Lorsque la personne responsable de la tâche la ferme, elle passe à **[!UICONTROL Terminé]**.
 * Si une personne chargée de la révision a été définie, la tâche est **[!UICONTROL En attente de validation]** entre le moment où la personne responsable la clôt et le moment où la personne chargée de la révision la valide. Si le réviseur ou la réviseuse la refuse, la tâche aura le statut **[!UICONTROL Refusé]**.
 * Une tâche peut être annulée par son responsable depuis le tableau de bord ou à partir de la **[!UICONTROL Vue d&#39;ensemble des tâches]** en cliquant sur le bouton **[!UICONTROL Annuler]**.
-* Pour planifier une tâche, saisissez une date de démarrage dans le futur. Vous pouvez alors envoyer une notification initiale aux opérateurs Adobe Campaign impliqués dans la réalisation de cette tâche. Voir à ce sujet la section [Cycle de vie complet d&#39;une tâche](#complete-task-life-cycle).
+* Pour planifier une tâche, saisissez une date de début dans le futur. Vous pouvez alors envoyer une notification initiale aux opérateurs Adobe Campaign impliqués dans la réalisation de cette tâche. Voir à ce sujet la section [Cycle de vie complet d&#39;une tâche](#complete-task-life-cycle).
 
 >[!NOTE]
 >
@@ -470,7 +469,7 @@ Voici les différentes étapes du cycle de vie complet d&#39;une tâche pour laq
 
      ![](assets/s_ncs_user_task_start_rea.png)
 
-1. À chaque validation d’un intervenant ou d’une intervenante, le statut de progression de la tâche est mis à jour.
+1. À chaque validation d’un intervenant ou d’une intervenante, le statut de progression du traitement est mis à jour.
 
    ![](assets/s_ncs_user_task_percentage_done_op.png)
 

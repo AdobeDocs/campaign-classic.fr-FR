@@ -5,10 +5,9 @@ description: Prise en main des modèles de diffusion
 feature: Delivery Templates
 role: User
 hide: true
-hidefromtoc: true
 exl-id: d943898c-06fe-451d-aa28-8a95665f4112
-source-git-commit: 89e350c727fb9379d28916f79d9749f22fd4974f
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 100%
 

@@ -4,10 +4,9 @@ title: Création d’une opération collaborative
 description: Découvrez comment créer une campagne collaborative
 feature: Distributed Marketing
 hide: true
-hidefromtoc: true
 exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef
-source-git-commit: 36fe54cf6d4d762d96205bd637311a426c741427
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 100%
 
@@ -163,7 +162,7 @@ Lorsqu’une opération collaborative est ajoutée dans la liste des kits de cam
 
 Ce message permet également aux entités locales de visualiser la description renseignée par l&#39;opérateur central qui a créé le kit, et les documents associés à l&#39;opération, s&#39;ils existent. Ces documents permettent de compléter la description de l&#39;opération mais ils n&#39;appartiennent pas à l&#39;opération.
 
-Une fois connecté via une interface Web, l&#39;entité locale peut indiquer les informations de personnalisation pour l&#39;opération collaborative qu&#39;elle souhaite commander :
+Une fois la connexion établie via une interface web, des informations personnalisées peuvent être saisies pour la campagne collaborative que les opérateurs et opératrices souhaitent commander :
 
 ![](assets/mkg_dist_mutual_op_command.png)
 

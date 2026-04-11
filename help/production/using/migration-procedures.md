@@ -7,11 +7,10 @@ badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https:/
 audience: production
 content-type: reference
 hide: true
-hidefromtoc: true
 topic-tags: updating-adobe-campaign
 exl-id: 0b71a4d3-b340-4742-bd69-4073ce271cf3
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 100%
 

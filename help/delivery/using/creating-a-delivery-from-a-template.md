@@ -4,11 +4,10 @@ title: Création d’une diffusion depuis un modèle
 description: Découvrez comment créer une diffusion depuis un modèle
 feature: Delivery Templates
 hide: true
-hidefromtoc: true
 role: User
 exl-id: 7ffb649e-801f-4568-a86b-7982448e3c30
-source-git-commit: 446062946b64c9a4d065b6a56d263914cbe628f8
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 100%
 

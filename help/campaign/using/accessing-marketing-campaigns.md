@@ -5,10 +5,9 @@ description: Accès aux campagnes marketing
 role: User
 feature: Campaigns, Cross Channel Orchestration
 hide: true
-hidefromtoc: true
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '1220'
 ht-degree: 100%
 
@@ -124,7 +123,7 @@ Une campagne centralise un ensemble de diffusions. Pour chaque campagne, le plan
 
 #### Forum {#forum}
 
-Pour chaque campagne, les intervenants peuvent échanger des messages via un forum dédié.
+Pour chaque campagne, les opérateurs et opératrices peuvent échanger des messages via un forum dédié.
 
 Pour en savoir plus, consultez les [forums de discussion](../../mrm/using/discussion-forums.md).
 

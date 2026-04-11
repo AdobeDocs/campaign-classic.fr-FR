@@ -3,9 +3,8 @@ product: campaign
 title: Message Center (Pilotage)
 description: Message Center (Pilotage)
 hide: true
-hidefromtoc: true
 feature: Workflows
-source-git-commit: 0d8cef312371192ee97f88eb33276df9d7fb11f6
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 100%

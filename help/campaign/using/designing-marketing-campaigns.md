@@ -5,12 +5,11 @@ description: Définir, optimiser, exécuter et analyser des campagnes marketing
 role: User
 feature: Campaigns
 hide: true
-hidefromtoc: true
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
-source-git-commit: df014d3f3029a61176e5117e27f3d2e8228fc407
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
 source-wordcount: '434'
-ht-degree: 80%
+ht-degree: 73%
 
 ---
 
@@ -19,7 +18,7 @@ ht-degree: 80%
 
 [!DNL Adobe Campaign] vous permet de définir, d’optimiser, d’exécuter et d’analyser des campagnes marketing et de communication. [!DNL Adobe Campaign] agit comme un centre de commande et d’exécution unifié pour les stratégies marketing. Pour plus d’informations à ce sujet, reportez-vous aux sections [Accès aux campagnes](../../distributed/using/accessing-campaigns.md) et [Création de campagnes marketing](../../campaign/using/setting-up-marketing-campaigns.md).
 
-De plus, le module **Marketing Resource Management (MRM)** vous permet de contrôler les actions marketing de manière collaborative en assurant une gestion complète et le tracking en temps réel des tâches, budgets et ressources marketing impliquées. Marketing Resource Management vous permet d’optimiser et de réguler la gestion des processus, ressources et campagnes marketing internes et externes. Il prend également en charge les relations avec des tiers (agences, imprimeurs, etc.). Pour plus d’informations, consultez [cette section](../../mrm/using/about-marketing-resource-management.md).
+En complément, le module **Marketing Resource Management (MRM)** permet de piloter les actions marketing sur un mode collaboratif, en assurant la gestion complète et le tracking en temps réel des tâches, budgets et ressources marketing impliquées. Marketing Resource Management vous permet d’optimiser et de réguler la gestion des processus, ressources et campagnes marketing internes et externes. Il prend également en charge les relations avec des tiers (agences, imprimeurs, etc.). Pour plus d’informations, consultez [cette section](../../mrm/using/about-marketing-resource-management.md).
 
 >[!NOTE]
 >
@@ -70,6 +69,6 @@ Dans le contexte de Campaign, les concepts listés ci-dessous doivent être conn
 
 Cette vidéo présente les concepts clés des campagnes marketing.
 
->[!VIDEO](https://video.tv.adobe.com/v/326571?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
 
 D’autres vidéos pratiques [!DNL Campaign Classic] sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

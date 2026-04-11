@@ -8,10 +8,9 @@ audience: platform
 content-type: reference
 topic-tags: creating-queries
 hide: true
-hidefromtoc: true
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '3475'
 ht-degree: 100%
 

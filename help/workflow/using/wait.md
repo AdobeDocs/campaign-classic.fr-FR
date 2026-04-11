@@ -4,10 +4,9 @@ title: Attente
 description: En savoir plus sur l’activité de workflow d’attente
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: 4872f756-14d7-4e37-a9cf-b929c77e34ca
-source-git-commit: 776c664a99721063dce5fa003cf40c81d94f8c78
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 100%
 
@@ -23,7 +22,7 @@ L&#39;éditeur permet de saisir le libellé et la durée d&#39;attente, comme da
 
 ![](assets/edit_wait.png)
 
-Dans le champ **[!UICONTROL Durée]**, la valeur peut être exprimée dans l&#39;unité de votre choix (en fonction des paramètres régionaux définis pour l&#39;utilisateur) :
+Dans le champ **[!UICONTROL Durée]**, la valeur peut être exprimée dans l’unité de votre choix (en fonction des paramètres régionaux définis pour l’opérateur ou l’opératrice) :
 
 * Si les paramètres régionaux ne sont pas définis : **s** pour les secondes, **m** pour les minutes, **h** pour les heures, **d** pour les jours, **y** pour les années. Lors de la validation, la valeur est automatiquement traduite dans l&#39;unité la plus lisible.
 

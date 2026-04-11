@@ -4,10 +4,9 @@ title: Surveiller l’exécution des workflows
 description: Surveiller l’exécution des workflows
 feature: Workflows
 hide: true
-hidefromtoc: true
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
-source-git-commit: 221e2ccdaadf793212fcacdf5e13823f1505f4dc
-workflow-type: ht
+source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+workflow-type: tm+mt
 source-wordcount: '2102'
 ht-degree: 100%
 
@@ -119,7 +118,7 @@ Dans l’explorateur Adobe Campaign, la liste des workflows affiche par défaut
 
 ![](assets/wf-explorer_errors_col.png)
 
-Lorsqu’un workflow est en erreur, la ou les personnes appartenant au groupe de supervision du workflow sont averties par e-mail, pour autant que leur adresse e-mail soit indiquée dans leur profil. Ce groupe est sélectionné dans le champ **[!UICONTROL Personnes chargées de la supervision]** des propriétés de workflow.
+Lorsqu’un workflow est en erreur, les opérateurs et opératrices appartenant au groupe de supervision du workflow reçoivent une notification par e-mail, pour autant que leur adresse e-mail soit indiquée dans leur profil. Ce groupe est sélectionné dans le champ **[!UICONTROL Personnes chargées de la supervision]** des propriétés de workflow.
 
 ![](assets/wf-properties_select-supervisors.png)
 
