@@ -5,7 +5,7 @@ description: Gestion des énumérations
 feature: Data Management
 exl-id: 2ece058d-b493-4fea-b3db-322cf7ea7f4f
 hide: true
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '93'
 ht-degree: 100%

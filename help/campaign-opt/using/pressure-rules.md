@@ -6,7 +6,7 @@ role: User, Developer
 feature: Fatigue Management, Typology Rules, Campaigns
 hide: true
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '3512'
 ht-degree: 100%

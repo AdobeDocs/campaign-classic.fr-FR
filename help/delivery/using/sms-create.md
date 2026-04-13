@@ -6,7 +6,7 @@ feature: SMS
 role: User
 hide: true
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 100%

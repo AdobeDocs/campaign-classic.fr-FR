@@ -5,7 +5,7 @@ description: À propos des activités d'action
 feature: Workflows, Data Management
 hide: true
 exl-id: 8758601b-c4bd-4179-8816-305d1a68d499
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 100%

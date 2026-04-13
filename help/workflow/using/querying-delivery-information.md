@@ -5,7 +5,7 @@ description: Découvrez comment interroger les informations diffusion
 feature: Query Editor, Workflows
 hide: true
 exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '1551'
 ht-degree: 99%
@@ -70,7 +70,7 @@ Pour réaliser cet exemple, les étapes sont les suivantes :
 
    Pour cela :
 
-   * Paramétrez le filtrage des données. Cliquez sur **[!UICONTROL Suivant]**.**&#x200B;**
+   * Paramétrez le filtrage des données. Cliquez sur **[!UICONTROL Suivant]**.****
 
      ![](assets/query_editor_nveau_22.png)
 

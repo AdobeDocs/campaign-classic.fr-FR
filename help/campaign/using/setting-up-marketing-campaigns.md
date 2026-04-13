@@ -6,7 +6,7 @@ role: User
 feature: Campaigns, Cross Channel Orchestration, Programs
 hide: true
 exl-id: a8fce21f-ffe3-4819-87ca-ac0ad9f21e41
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '1289'
 ht-degree: 100%
@@ -223,6 +223,6 @@ Chaque opération périodique contient les mêmes éléments. Une fois créée, 
 
 Cette vidéo explique comment créer un plan marketing, des programmes et des campagnes.
 
->[!VIDEO](https://video.tv.adobe.com/v/326555?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35132?quality=12)
 
 D’autres vidéos pratiques sur Campaign sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

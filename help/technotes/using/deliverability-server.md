@@ -5,7 +5,7 @@ description: Découvrez comment mettre à jour le nouveau serveur de délivrabil
 feature: Technote, Deliverability
 hide: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '992'
 ht-degree: 95%
@@ -70,9 +70,9 @@ Avant de commencer l’implémentation, vérifiez la configuration de votre inst
 
 En tant que client On-Premise, vous devez également vérifier qu’un **[!UICONTROL profil de produit]** Campaign est disponible pour votre organisation. Pour ce faire, suivez les étapes ci-après :
 
-1. En tant qu&#39;administrateur, connectez-vous à [&#128279;](https://adminconsole.adobe.com/){_blank}.
+1. En tant qu&#39;administrateur, connectez-vous à [](https://adminconsole.adobe.com/){_blank}.
 1. Accédez à la section **Produit et services** et vérifiez qu’**Adobe Campaign** est répertorié.
-Si vous ne pouvez pas voir **&#x200B;**&#x200B;contactez l’assistance clientèle d’Adobe [&#128279;](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} pour l’ajouter.
+Si vous ne pouvez pas voir **** contactez l’assistance clientèle d’Adobe [](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} pour l’ajouter.
 1. Cliquez sur **Adobe Campaign** et sélectionnez votre organisation.
    **Attention** : si vous avez plusieurs organisations, veillez à choisir la bonne. En savoir plus sur les organisations [sur cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=fr#ims-org-id){_blank}.
 

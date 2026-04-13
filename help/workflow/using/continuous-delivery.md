@@ -5,7 +5,7 @@ description: Diffusion continue
 feature: Workflows, Channels Activity
 hide: true
 exl-id: 9c228cdb-331e-476e-a24c-3c7e23add3bf
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 91%
@@ -63,6 +63,6 @@ Une diffusion au fil de l’eau crée une diffusion et des logs de diffusion UNI
 
 Cette vidéo montre comment configurer une diffusion en continu avec une requête incrémentale.
 
->[!VIDEO](https://video.tv.adobe.com/v/30233?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
 
 D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

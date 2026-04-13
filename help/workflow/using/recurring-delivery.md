@@ -5,7 +5,7 @@ description: En savoir plus sur l’activité de workflow de diffusion récurren
 feature: Workflows
 hide: true
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
@@ -54,6 +54,6 @@ Si vous souhaitez arrêter lʼexécution dʼune diffusion récurrente, vous deve
 
 Cette vidéo explique comment configurer une diffusion récurrente et une activité Planificateur.
 
->[!VIDEO](https://video.tv.adobe.com/v/30589?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
 D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

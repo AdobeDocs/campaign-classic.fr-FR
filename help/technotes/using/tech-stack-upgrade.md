@@ -5,7 +5,7 @@ description: Mise à niveau du système Adobe Campaign
 feature: Technote, Upgrade
 hide: true
 exl-id: 78949d94-60b3-44f1-8e5a-d61b5b723e87
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '502'
 ht-degree: 100%

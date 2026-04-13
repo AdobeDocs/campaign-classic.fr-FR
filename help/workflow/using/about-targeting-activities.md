@@ -5,7 +5,7 @@ description: À propos des activités de ciblage
 feature: Workflows, Audiences, Targeting Activity
 hide: true
 exl-id: 5028ad4c-e427-4e78-962d-c5ea54390db5
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 100%

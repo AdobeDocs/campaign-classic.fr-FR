@@ -5,7 +5,7 @@ description: Découvrez les bonnes pratiques relatives aux workflows de Campaign
 feature: Workflows
 hide: true
 exl-id: 39c57f61-2629-4214-91e4-cb97dc039deb
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '1416'
 ht-degree: 100%

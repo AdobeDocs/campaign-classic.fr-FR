@@ -5,7 +5,7 @@ description: En savoir plus sur l’activité de workflow de collecteur de fichi
 feature: Workflows, Data Management
 hide: true
 exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 100%

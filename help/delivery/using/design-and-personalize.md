@@ -7,7 +7,7 @@ feature: Email Design, Personalization
 role: User
 hide: true
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 100%

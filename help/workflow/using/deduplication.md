@@ -5,7 +5,7 @@ description: En savoir plus sur l’activité de workflow de déduplication
 feature: Workflows, Targeting Activity
 hide: true
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '1171'
 ht-degree: 100%
