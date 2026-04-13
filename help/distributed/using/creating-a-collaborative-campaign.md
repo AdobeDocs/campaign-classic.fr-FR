@@ -5,7 +5,7 @@ description: Découvrez comment créer une campagne collaborative
 feature: Distributed Marketing
 hide: true
 exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 100%

@@ -7,7 +7,7 @@ feature: Email, Push
 role: User, Developer
 hide: true
 exl-id: b8642df3-1960-4f2c-8273-c3988a3e85f0
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 100%

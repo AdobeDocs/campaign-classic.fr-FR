@@ -6,7 +6,7 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Deliverability
 hide: true
 exl-id: 7a9afe0a-0219-40f1-9fe2-6374db8d555c
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 100%

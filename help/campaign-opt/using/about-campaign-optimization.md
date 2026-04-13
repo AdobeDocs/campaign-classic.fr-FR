@@ -6,7 +6,7 @@ role: User, Developer
 feature: Typology Rules, Campaigns
 hide: true
 exl-id: b500bde4-6c81-4420-b1bf-e8eff1c53877
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 100%

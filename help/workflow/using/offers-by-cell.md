@@ -5,7 +5,7 @@ description: Offres par cellule
 feature: Workflows, Targeting Activity, Interaction
 hide: true
 exl-id: 72b17b48-093a-4eb9-a848-3c1570e49b61
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 100%

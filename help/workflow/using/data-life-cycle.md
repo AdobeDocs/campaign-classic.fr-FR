@@ -5,7 +5,7 @@ description: En savoir plus sur le cycle de vie des données dans les workflows
 feature: Workflows, Data Management
 hide: true
 exl-id: 366acc1e-d769-4053-9fa1-f47182627c07
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '537'
 ht-degree: 100%

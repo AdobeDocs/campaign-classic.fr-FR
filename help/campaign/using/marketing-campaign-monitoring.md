@@ -6,7 +6,7 @@ role: User
 feature: Campaigns, Monitoring
 hide: true
 exl-id: c2b523ac-e900-4db8-85b0-dafc6ddb3eca
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 100%

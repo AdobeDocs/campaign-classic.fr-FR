@@ -5,7 +5,7 @@ description: Gestion de contenu
 feature: Workflows, Data Management
 hide: true
 exl-id: eb92a7c7-edfa-4062-b473-6d8b50d35e5f
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 100%

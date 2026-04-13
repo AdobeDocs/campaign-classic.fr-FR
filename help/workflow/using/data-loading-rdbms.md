@@ -5,7 +5,7 @@ description: En savoir plus sur l’activité de workflow de chargement (SGBD)
 feature: Workflows, Data Management Activity
 hide: true
 exl-id: 6e24d5fe-4830-49b4-a0fe-624c5644c920
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 100%

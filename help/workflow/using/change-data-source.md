@@ -4,7 +4,7 @@ description: En savoir plus sur l’activité Modifier la source de données
 feature: Workflows, Data Management, Federated Data Access
 hide: true
 exl-id: d7bf9d62-6f9e-415f-8160-446210f6392e
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 100%

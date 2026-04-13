@@ -5,7 +5,7 @@ description: Découvrez comment utiliser les données d'un workflow
 feature: Workflows, Data Management
 hide: true
 exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 100%

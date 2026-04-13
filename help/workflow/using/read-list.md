@@ -5,7 +5,7 @@ description: En savoir plus sur l’activité de workflow de lecture de liste
 feature: Workflows, Targeting Activity
 hide: true
 exl-id: 99f82e91-45cd-4dff-b8a4-3ad87f2f9639
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 100%

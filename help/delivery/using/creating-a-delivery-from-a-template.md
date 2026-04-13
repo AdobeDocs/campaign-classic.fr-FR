@@ -6,7 +6,7 @@ feature: Delivery Templates
 hide: true
 role: User
 exl-id: 7ffb649e-801f-4568-a86b-7982448e3c30
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 100%

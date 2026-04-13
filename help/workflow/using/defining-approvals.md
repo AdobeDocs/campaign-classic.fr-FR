@@ -5,7 +5,7 @@ description: Les validations permettent à des opérateurs de prendre des décis
 feature: Approvals
 hide: true
 exl-id: 4d413d51-ae5d-4e5e-bfaf-4160a6075281
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 100%

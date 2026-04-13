@@ -5,7 +5,7 @@ description: Accéder à une base de données externe (FDA)
 feature: Workflows, Data Management, Federated Data Access
 hide: true
 exl-id: 9500a7ba-263d-425b-8cc3-b111c6b9108f
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '97'
 ht-degree: 100%

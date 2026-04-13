@@ -5,7 +5,7 @@ description: En savoir plus sur l’activité de workflow de type Diffusion
 feature: Workflows, Channels Activity
 hide: true
 exl-id: 72fbdd1d-a105-4e9f-9e17-2e9d62d2bb80
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
+source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 96%
