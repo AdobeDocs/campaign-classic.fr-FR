@@ -8,10 +8,10 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: 1ce89c3a-1fe6-4ed6-9547-2eb9713a0ec3
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: ht
-source-wordcount: '427'
-ht-degree: 100%
+source-git-commit: f7f88eac33921f60dfe72ce2200132c5ac6acf49
+workflow-type: tm+mt
+source-wordcount: '521'
+ht-degree: 86%
 
 ---
 
@@ -83,3 +83,16 @@ Redémarrez le serveur si des modifications ont été apportées aux paramètres
 * L&#39;utilisateur ne parvient pas à accéder à la page de login Adobe ID :
 
   Reportez-vous aux étapes précédentes pour vérifier le paramétrage du périmètre.
+
+**Problèmes de cache de WebView2**
+
+Si vous rencontrez des problèmes lors de la connexion à la **[!UICONTROL console cliente]** avec votre Adobe ID, essayez d’effacer le cache WebView2 local. Dans la plupart des cas, cela résout le problème. Suivez les étapes ci-dessous :
+
+1. Fermez la **[!UICONTROL console cliente]** et arrêtez tout processus `nlclient` en cours d’exécution.
+
+1. Supprimez tous les dossiers `webview2` et `webview2Cache` des emplacements suivants :
+
+   * `C:\ProgramData\Neolane\NL_5\nlclient\`
+   * `C:\Users\<username>\AppData\Roaming\Neolane\NL_5\nlclient\`
+
+1. Redémarrez la **[!UICONTROL console cliente]** et connectez-vous avec votre Adobe ID. Les dossiers de cache seront automatiquement recréés lors du prochain lancement.
