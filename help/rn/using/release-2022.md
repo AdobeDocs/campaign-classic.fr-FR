@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 exl-id: 28490323-41d0-4d61-b309-6892fb826d21
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2153'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -173,7 +173,7 @@ Adobe Campaign est désormais compatible avec Windows Server 2019. Reportez-v
 * Correction dʼun problème de régression qui empêchait la fonctionnalité **Purger le dossier** de fonctionner correctement. (NEO-37459)
 * Correction d’un problème qui entraînait une erreur de requête incorrecte lors de l’utilisation de champs de données XML avec le compte Microsoft Dynamics CRM si le XML référencé contenait des guillemets doubles.
 * Correction dʼun problème en raison duquel les problèmes de délai dʼexpiration du réseau étaient incorrectement enregistrés en tant que problèmes dʼinterruption de script au lieu dʼerreurs de réseau. Ce problème se produisait dans le cas de requêtes HTTP incluses dans les activités JavaScript. (NEO-38079)
-* Correction d’un problème qui renvoyait des résultats incorrects lors de l’exécution des fonctions Amazon Redshift HoursDiff et MinutesDiff lors de l’extraction du composant Heure.(NEO-31673)
+* Correction dʼun problème en raison duquel des résultats incorrects étaient renvoyés lors de lʼexécution des fonctions Amazon Redshift HoursDiff et MinutesDiff lors de la tentative dʼextraction du composant dʼheure.(NEO-31673)
 * Correction d’un problème qui empêchait le chargement du rapport **Hot Clicks** pour les diffusions depuis la build 9182. (NEO-28900)
 * Correction d’une erreur qui remplaçait le symbole « &amp; » dans une URL par la référence d’entité de caractère (`&amp;`) empêchant l’accès à l’URL associée à un code QR. (NEO-28621)
 * Correction d’un problème en raison duquel un compte externe était créé lors de chaque création d’un workflow de campagne et d’une activité de diffusion associée à un compte Web Analytics. Ce problème était dû à un ID manquant dans l’objet de diffusion webAnalyticsAccount. (NEO-39691)

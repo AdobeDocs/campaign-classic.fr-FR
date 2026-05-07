@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 66387e2e008051901fe3385f571d7fe798829100
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '912'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -257,7 +257,7 @@ Les systèmes de gestion de la relation client (CRM) compatibles avec Adobe Cam
 </tr>
 <tr>
 <td>
-<p>Connecteur Microsoft Dynamics</p>
+<p>Connecteur Microsoft Dynamics</p>
 </td>
 <td>
 <p>API web</p>
@@ -453,7 +453,7 @@ Téléchargez Microsoft Edge WebView2 à partir du [site Microsoft Developer]
 
 Vous pouvez utiliser Campaign pour [envoyer des notifications push](../../delivery/using/about-mobile-app-channel.md) via le SDK mobile Adobe Experience Platform en configurant l’extension Adobe Campaign dans l’interface utilisateur de collecte de données.
 
-Le SDK de Campaign est [obsolète](deprecated-features.md) à partir de Campaign v7.4. Pour garantir une transition en douceur de la mise en œuvre existante vers AEP Mobile SDK, vous pouvez toujours l’utiliser sur les systèmes d’exploitation répertoriés ci-dessous<!--, using the associated [mobile SDK](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)-->.
+Le SDK Campaign est [obsolète](deprecated-features.md) à partir de Campaign 7.4.Pour garantir une transition fluide de la mise en œuvre existante vers le SDK mobile d’AEP, vous pouvez toujours utiliser AEP sur les systèmes d’exploitation répertoriés ci-dessous<!--, using the associated [mobile SDK](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)-->.
 
 
 <table>
@@ -483,9 +483,9 @@ Le SDK de Campaign est [obsolète](deprecated-features.md) à partir de Campaign
 
 Les navigateurs suivants, dans leur dernière version, sont compatibles avec Campaign pour un accès web. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=fr#use-the-web-interface-){target=_blank}.
 
-* Google Chrome
-* Microsoft Edge
-* Mozilla Firefox
+* Google Chrome
+* Microsoft Edge
+* Mozilla Firefox
 * Safari
 
 

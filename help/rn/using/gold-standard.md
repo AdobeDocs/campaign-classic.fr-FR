@@ -8,9 +8,9 @@ level: Beginner
 hide: true
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2018'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ _27 août 2021_
 
 Le build 9032@99a3894 comprend les correctifs suivants :
 
-* La fonctionnalité de signature de tracking a été améliorée afin d’éviter les erreurs liées à la manière dont les outils tiers (clients de messagerie, navigateurs Internet, etc.) gérer les caractères spéciaux. Les paramètres d’URL sont désormais chiffrés.
+* La fonctionnalité de signature de tracking a été améliorée afin d’éviter les erreurs liées à la façon dont les outils tiers (clients de messagerie, navigateurs internet, etc.)traitent les caractères spéciaux.Les paramètres d’URL sont désormais chiffrés.
 * Correction d’un problème lié aux sélecteurs de date qui entraînait l’affichage d’un message d’erreur de blocage dans une console. (NEO-36345)
 
 ### [!DNL Gold Standard] version 11{#gs-11}
@@ -208,10 +208,10 @@ _13 août 2019_
 La version 19.1.4 initiale comprend les correctifs suivants :
 
 * Correction d’un problème lié à l’activité du planificateur qui générait des messages d’erreur indésirables lors de la configuration de l’assistant. Annulation de la mise à jour à partir de NEO-11662. (NEO-17097)
-* Correction d&#39;une régression provoquée par le NEO-12727 qui entraînait l&#39;arrêt des workflows lorsqu&#39;une activité Test était exécutée deux fois. (NEO-16835)
-* Correction d’un problème qui entraînait le renvoi d’un code HTTP erroné (HTTP 200 OK au lieu de HTTP 403 Forbidden) lorsqu’un jeton de session non valide ou expiré était utilisé dans les appels API. (NEO-16826)
-* Correction d&#39;un problème lié à la clé DKIM qui n&#39;était plus incorporée dans les emails, provoquant ainsi des problèmes de délivrabilité. (NEO-16804)
-* Correction de divers problèmes liés à la planification des workflows. Les workflows étaient planifiés pour être exécutés une fois par jour sans prendre en compte la configuration du planificateur. (NEO-16619, NEO-16426)
+* Correction d’une régression causée par NEO-12727 qui entraînait l’arrêt des workflows lorsqu’une activité de test était exécutée deux fois.(NEO-16835)
+* Correction d’un problème qui entraînait le renvoi d’un code HTTP erroné (HTTP 200 OK à la place de HTTP 403 Interdit) lorsqu’un jeton de session non valide ou ayant expiré était utilisé dans les appels API.(NEO-16826)
+* Correction d’un problème lié à la clé DKIM qui n’était plus incorporée dans les e-mails, ce qui entraînait des problèmes de délivrabilité.(NEO-16804)
+* Correction de divers problèmes liés à la planification des workflows.Les workflows étaient planifiés pour être exécutés une fois par jour sans tenir compte de la configuration du planificateur.(NEO-16619, NEO-16426)
 
 
 ## Matrice de compatibilité de [!DNL Gold Standard]{#compatibility-matrix-gs}
@@ -533,7 +533,7 @@ Les navigateurs ci-après sont compatibles avec Campaign pour un accès à inter
 <tbody>
 <tr>
 <td>
-<p>Microsoft Edge</p>
+<p>Microsoft Edge</p>
 </td>
 <td>
 <p>Dernière version</p>
@@ -541,7 +541,7 @@ Les navigateurs ci-après sont compatibles avec Campaign pour un accès à inter
 </tr>
 <tr>
 <td>
-<p>Mozilla Firefox</p>
+<p>Mozilla Firefox</p>
 </td>
 <td>
 <p>Dernière version</p>
@@ -549,7 +549,7 @@ Les navigateurs ci-après sont compatibles avec Campaign pour un accès à inter
 </tr>
 <tr>
 <td>
-<p>Google Chrome</p>
+<p>Google Chrome</p>
 </td>
 <td>
 <p>Dernière version</p>
