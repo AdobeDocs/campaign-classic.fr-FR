@@ -91,6 +91,6 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
 Cette vidéo montre comment utiliser une clé GPG pour chiffrer des données. Elle est également disponible dans
 
->[!VIDEO](https://video.tv.adobe.com/v/36399?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/41327?captions=fre_fr&quality=12)
 
 D&#39;autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
