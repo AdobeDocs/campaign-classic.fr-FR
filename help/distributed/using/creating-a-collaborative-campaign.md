@@ -124,7 +124,7 @@ Pour les **opérations collaboratives**, l&#39;entité centrale doit indiquer la
 
 >[!NOTE]
 >
->L&#39;échéance **** permet à l&#39;entité centrale de choisir une échéance à laquelle les entités locales doivent avoir remis les documents (feuilles de calcul, images) à utiliser pour paramétrer l&#39;opération. Il ne s’agit pas d’une option obligatoire. Le contournement de cette date n’affecte pas la mise en œuvre de la campagne.
+>L&#39;échéance **&#x200B;**&#x200B;permet à l&#39;entité centrale de choisir une échéance à laquelle les entités locales doivent avoir remis les documents (feuilles de calcul, images) à utiliser pour paramétrer l&#39;opération. Il ne s’agit pas d’une option obligatoire. Le contournement de cette date n’affecte pas la mise en œuvre de la campagne.
 
 ![](assets/s_advuser_mkg_dist_create_mutual_entry.png)
 

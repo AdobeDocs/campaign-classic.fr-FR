@@ -34,7 +34,7 @@ Sur un même serveur, deux éléments sont communs à l&#39;ensemble des instanc
 Les fichiers de configuration sont enregistrés dans le répertoire **conf** du répertoire d’installation. La configuration est divisée en trois fichiers :
 
 * **serverConf.xml** : configuration générale pour toutes les instances.
-* **Config-.xml **`<instance>`**.xml** (où **`<instance>`** est le nom de l&#39;instance) : configuration spécifique d’une instance.
+* **Config-.xml &#x200B;**`<instance>`**.xml** (où **`<instance>`** est le nom de l&#39;instance) : configuration spécifique d’une instance.
 * **serverConf.xml.diff** : delta entre la configuration initiale et la configuration actuelle. Ce fichier est généré automatiquement par l&#39;application et ne doit pas être modifié manuellement. Il est utilisé pour propager automatiquement les modifications utilisateur lors de la mise à jour d’une version de build.
 
 Le chargement de la configuration d&#39;une instance est réalisé de la manière suivante :

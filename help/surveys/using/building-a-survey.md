@@ -30,7 +30,7 @@ Les pages du formulaire sont créées au travers d&#39;un éditeur spécifique q
 
 >[!NOTE]
 >
->La définition du contenu et de la mise en page des écrans d&#39;un formulaire web sont présentés dans [ce document ](../../web/using/about-web-forms.md).
+>La définition du contenu et de la mise en page des écrans d&#39;un formulaire web sont présentés dans [ce document &#x200B;](../../web/using/about-web-forms.md).
 
 ## Ajouter des champs {#adding-fields}
 
@@ -108,7 +108,7 @@ Le libellé de la question est saisi dans le champ libellé . Dans ce cas, le st
 
 >[!NOTE]
 >
->L&#39;utilisation de l&#39;éditeur HTML est présentée dans [ce document ](../../web/using/about-web-forms.md).
+>L&#39;utilisation de l&#39;éditeur HTML est présentée dans [ce document &#x200B;](../../web/using/about-web-forms.md).
 
 Par exemple :
 

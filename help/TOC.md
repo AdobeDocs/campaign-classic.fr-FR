@@ -397,14 +397,14 @@ ht-degree: 68%
       + {hide-from-toc}[Mise à jour de liste - MASQUÉ](workflow/using/list-update.md)
       + {hide-from-toc}[Services d’abonnement - MASQUÉ](workflow/using/subscription-services.md)
       + {hide-from-toc}[Mise à jour des données - MASQUÉ](workflow/using/update-data.md)
-      + {hide-from-toc}[ Connecteur CRM - MASQUÉ ](workflow/using/crm-connector.md)
+      + {hide-from-toc}[&#x200B; Connecteur CRM - MASQUÉ &#x200B;](workflow/using/crm-connector.md)
       + {hide-from-toc}[Modifier la source de données - MASQUÉ](workflow/using/change-data-source.md)
    + Activités de contrôle de flux {#flow-control-activities}
       + {hide-from-toc}[À propos des activités d’ordonnancement - MASQUÉ](workflow/using/about-flow-control-activities.md)
       + {hide-from-toc}[Début et fin - MASQUÉ](workflow/using/start-and-end.md)
       + {hide-from-toc}[Branchement - MASQUÉ](workflow/using/fork.md)
       + {hide-from-toc}[Rendez-vous - MASQUÉ](workflow/using/and-join.md)
-      + {hide-from-toc}[ Planificateur - MASQUÉ ](workflow/using/scheduler.md)
+      + {hide-from-toc}[&#x200B; Planificateur - MASQUÉ &#x200B;](workflow/using/scheduler.md)
       + {hide-from-toc}[Test - MASQUÉ](workflow/using/test.md)
       + {hide-from-toc}[Attente - MASQUÉE](workflow/using/wait.md)
       + {hide-from-toc}[Contrainte horaire - MASQUÉ](workflow/using/time-constraint.md)
@@ -675,7 +675,7 @@ ht-degree: 68%
       + [Exécution d’une mise à niveau de build](production/using/build-upgrade.md)
       + [Procédure de mise à niveau (On-Premise)](production/using/upgrading.md)
       + [Basculement vers Unicode](production/using/switching-to-unicode.md)
-      + {hide-from-toc}[ Procédures de migration ](production/using/migration-procedures.md)
+      + {hide-from-toc}[&#x200B; Procédures de migration &#x200B;](production/using/migration-procedures.md)
    + Maintenance de la base de données {#database-maintenance}
       + [Recommandations](production/using/recommendations.md)
       + [Tables à maintenir](production/using/tables-to-maintain.md)
@@ -789,12 +789,12 @@ ht-degree: 68%
    + {hide-from-toc}[Migration vers Adobe Campaign v7](migration/using/about-migration.md)
    + Procédure de migration {#migration-procedure}
       + {hide-from-toc}[Prérequis](migration/using/before-starting-migration.md)
-      + {hide-from-toc}[À propos des tests de migration ](migration/using/testing-the-migration.md)
+      + {hide-from-toc}[À propos des tests de migration &#x200B;](migration/using/testing-the-migration.md)
       + {hide-from-toc}[Adapter votre configuration](migration/using/configuring-your-platform.md)
    + Démarrer la migration {#migrating-to-adobe-campaign-7}
       + {hide-from-toc}[Migration d’une plateforme Microsoft Windows](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
       + {hide-from-toc}[Migration d’une plateforme Linux](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
-   + {hide-from-toc}[Procédure de restauration ](migration/using/about-rollback.md)
+   + {hide-from-toc}[Procédure de restauration &#x200B;](migration/using/about-rollback.md)
 + Notes techniques {#technotes}
    + [Recommandations relatives au dimensionnement du matériel](technotes/using/hardware-sizing.md)
    + [Envoyer avec le MTA amélioré](delivery/using/sending-with-enhanced-mta.md)
@@ -805,11 +805,11 @@ ht-degree: 68%
       + [Migrer un opérateur ou une opératrice technique vers Developer Console](technotes/using/ims-migration.md)
       + [Impact de l’interface après la migration IMS](technotes/using/impact-ims-migration.md)
    + Mises à niveau et compatibilité{#technote-migration}
-      + {hide-from-toc}[ Notes techniques ](technotes/using/technote.md)
+      + {hide-from-toc}[&#x200B; Notes techniques &#x200B;](technotes/using/technote.md)
       + [Activer Microsoft Edge Chromium](technotes/using/edge-chromium.md)
       + {hide-from-toc}[Nouveau serveur de délivrabilité](technotes/using/deliverability-server.md)
       + {hide-from-toc}[Mise à niveau de la sécurité Apache](technotes/using/acc-apache-upgrade.md)
-      + Mises à niveau du système {hide-from-toc}[2023](technotes/using/tech-stack-upgrade.md)
+      + {hide-from-toc}[Mises à niveau du système 2023](technotes/using/tech-stack-upgrade.md)
       + {hide-from-toc}[Mises à jour IMS](technotes/using/ims-updates.md)
       + {hide-from-toc}[Fin de vie de la prise en charge du protocole TLS 1.0 et 1.1](technotes/using/eol-tls-support.md)
    + Emails et notifications push{#technotes-email}

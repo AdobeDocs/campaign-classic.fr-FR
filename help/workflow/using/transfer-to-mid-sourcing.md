@@ -16,7 +16,7 @@ ht-degree: 78%
 
 
 
-Les workflows présentés ci-dessous sont installés par défaut avec le module **Émission vers Mid-sourcing**. Pour en savoir plus à ce sujet consultez le [ Guide d&#39;installation de Campaign Classic v7](../../installation/using/mid-sourcing-deployment.md).
+Les workflows présentés ci-dessous sont installés par défaut avec le module **Émission vers Mid-sourcing**. Pour en savoir plus à ce sujet consultez le [&#x200B; Guide d&#39;installation de Campaign Classic v7](../../installation/using/mid-sourcing-deployment.md).
 
 <table> 
  <tbody> 

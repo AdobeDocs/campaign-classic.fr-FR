@@ -150,7 +150,7 @@ Les serveurs d’application prennent directement en charge les utilisateurs de 
 
 Les serveurs web hébergent des applications Web Campaign qui prennent en charge les 10 millions de destinataires actifs du système.
 
-Voir [Scénario 1 : Déploiement de taille moyenne ](#scenario-1) pour plus de commentaires sur les proxies, les centres de préférences/la gestion des abonnements et l’utilisation de l’espace disque.
+Voir [Scénario 1 : Déploiement de taille moyenne &#x200B;](#scenario-1) pour plus de commentaires sur les proxies, les centres de préférences/la gestion des abonnements et l’utilisation de l’espace disque.
 
 ### Base de données
 
@@ -198,7 +198,7 @@ Les serveurs d’application prennent directement en charge les utilisateurs de 
 
 Les serveurs web hébergent des applications Web Campaign qui prennent en charge les 10 millions de destinataires actifs du système.
 
-Voir [Scénario 1 : Déploiement de taille moyenne ](#scenario-1) pour plus de commentaires sur les proxies, les centres de préférences/la gestion des abonnements et l’utilisation de l’espace disque.
+Voir [Scénario 1 : Déploiement de taille moyenne &#x200B;](#scenario-1) pour plus de commentaires sur les proxies, les centres de préférences/la gestion des abonnements et l’utilisation de l’espace disque.
 
 ### Base de données
 
@@ -249,10 +249,10 @@ Tous les serveurs Campaign sont de bons candidats à la virtualisation. Plusieur
 * **Configuration de basculement**
 Les serveurs en cluster, par exemple les serveurs d’application redondants sous un proxy avec équilibrage de charge, doivent être déployés sur un matériel distinct pour s’assurer que les deux machines virtuelles ne tombent pas en panne en cas de défaillance matérielle.
 
-* Configuration d’E/S ****
+* Configuration d’E/S **&#x200B;**
 Toute configuration RAID recommandée doit être conservée pour la sécurité de la base de données, afin de garantir que la perte d’un appareil de stockage ne provoque pas de perte de données.
 
-* Performances d’E/S ****
+* Performances d’E/S **&#x200B;**
 L’évaluation IOPS recommandée pour le stockage dans la base de données doit être respectée. Il est possible que les services cloud tels qu’Amazon EC2 n’offrent pas les performances requises. Ces services doivent alors être évalués avec soin. Par exemple, les volumes SSD fournis par Amazon EC2 sont actuellement évalués à 20 000 IOPS chacun. Consultez la [documentation Amazon](https://docs.aws.amazon.com/fr_fr/AWSEC2/latest/UserGuide/ebs-volume-types.html) pour en savoir plus. De ce fait, une configuration RAID à 4 volumes est évaluée à 80 000 IOPS, ce qui peut ne pas suffire.
 
 Adobe recommande de tester les performances de chaque déploiement virtualisé d’Adobe Campaign avant la mise en production du système.

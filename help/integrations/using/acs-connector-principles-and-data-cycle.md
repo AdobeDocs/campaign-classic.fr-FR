@@ -28,7 +28,7 @@ Grâce au connecteur ACS, les spécialistes du marketing digital continuent à 
 >
 >ACS Connector est disponible uniquement pour les architectures hébergées et hybrides. Il n’est pas disponible pour les installations on-premise complètes.
 >
->Pour utiliser cette fonctionnalité, vous devez vous connecter à Campaign à l’aide d’un Adobe ID (IMS). Pour plus d&#39;informations, consultez la section [ Connexion via un Adobe ID ](../../integrations/using/about-adobe-id.md).
+>Pour utiliser cette fonctionnalité, vous devez vous connecter à Campaign à l’aide d’un Adobe ID (IMS). Pour plus d&#39;informations, consultez la section [&#x200B; Connexion via un Adobe ID &#x200B;](../../integrations/using/about-adobe-id.md).
 
 Ce document présente les fonctionnalités du connecteur ACS. Les sections ci-dessous fournissent des informations sur la manière dont la fonction réplique les données, ainsi que des instructions sur la manière d’utiliser les profils répliqués.
 

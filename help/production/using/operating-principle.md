@@ -33,7 +33,7 @@ L&#39;administration de ces modules est assurée par l&#39;outil ligne de comman
 
 La syntaxe générale de l&#39;outil **nlserver** est la suivante :
 
-**nlserver `<command>``<command arguments>`**
+**nlserver `<command>` `<command arguments>`**
 
 Pour connaître la liste des modules disponibles, lancez la commande **nlserver**.
 

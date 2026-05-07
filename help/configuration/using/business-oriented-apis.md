@@ -62,7 +62,7 @@ Description de la méthode « subscribe » dans le schéma « nms:subscriptio
 </method>
 ```
 
-La définition de la clé de réconciliation doit être renseignée via l’attribut _**key** sur l’élément `<recipient>` du document XML. Le contenu de cet attribut est une liste XPath séparée par des virgules.
+La définition de la clé de réconciliation doit être renseignée via l’attribut _&#x200B;**key** sur l’élément `<recipient>` du document XML. Le contenu de cet attribut est une liste XPath séparée par des virgules.
 
 Cet appel ne renvoie pas de données, hormis les erreurs.
 

@@ -44,7 +44,7 @@ Pour utiliser le mode TIMESTAMP WITH TIMEZONE, vous devez également ajouter l&#
 
 ### Oracle {#oracle}
 
-Si vous obtenez une erreur de 01805 **** ORA lors du postupgrade, cela signifie que les fichiers de fuseaux horaires Oracle entre le serveur applicatif et le serveur de base de données ne sont pas synchronisés. Pour les resynchroniser, les étapes sont les suivantes :
+Si vous obtenez une erreur de 01805 **&#x200B;**&#x200B;ORA lors du postupgrade, cela signifie que les fichiers de fuseaux horaires Oracle entre le serveur applicatif et le serveur de base de données ne sont pas synchronisés. Pour les resynchroniser, les étapes sont les suivantes :
 
 1. Pour identifier le fichier de fuseau horaire utilisé, exécutez la commande suivante :
 
@@ -196,9 +196,9 @@ Par exemple :
 
 Adobe Campaign v7 intègre un interpréteur JavaScript plus récent. Toutefois, cette mise à jour peut entraîner le mauvais fonctionnement de certains scripts. Comme le moteur précédent était plus permissif, certaines syntaxes fonctionneraient, ce qui n&#39;est plus le cas avec la nouvelle version du moteur.
 
-La syntaxe **** n&#39;est désormais valide que pour les objets XML. Cette syntaxe peut être utilisée pour personnaliser les diffusions et la gestion de contenu. Si vous avez utilisé ce type de syntaxe sur un objet non XML, les fonctions de personnalisation ne fonctionneront plus.
+La syntaxe **&#x200B;**&#x200B;n&#39;est désormais valide que pour les objets XML. Cette syntaxe peut être utilisée pour personnaliser les diffusions et la gestion de contenu. Si vous avez utilisé ce type de syntaxe sur un objet non XML, les fonctions de personnalisation ne fonctionneront plus.
 
-Pour tous les autres types d&#39;objet, la syntaxe est désormais **[!UICONTROL myObject`[`&quot;attribute&quot;`]`]**. Par exemple, un objet non XML qui utilisait la syntaxe suivante : **** doit maintenant utiliser la syntaxe suivante : **[!UICONTROL employee`[`« sn »`]`]**.
+Pour tous les autres types d&#39;objet, la syntaxe est désormais **[!UICONTROL myObject`[`&quot;attribute&quot;`]`]**. Par exemple, un objet non XML qui utilisait la syntaxe suivante : **&#x200B;**&#x200B;doit maintenant utiliser la syntaxe suivante : **[!UICONTROL employee`[`« sn »`]`]**.
 
 * Ancienne syntaxe :
 

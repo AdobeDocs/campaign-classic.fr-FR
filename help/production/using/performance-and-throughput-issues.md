@@ -25,7 +25,7 @@ Consultez les [Notes de mise à jour](../../rn/using/latest-release.md) pour plu
 
 Les instructions générales concernant les exigences matérielles pour Campaign Classic on-premise sont présentées dans cette [page](https://helpx.adobe.com/fr/campaign/kb/hardware-sizing-guide.html).
 
-L’équipe de conseillers peut fournir aux clients hébergés un outil qui vous permet d’afficher facilement la quantité d’espace utilisée par différents types de tables dans la base de données ainsi que l’espace utilisé sur le site SFTP. Il fournit en outre des outils pour vous permettre de nettoyer les données inutiles. Contactez l&#39;[Assistance clientèle d&#39;Adobe ](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) si vous avez besoin que cet outil soit implémenté. Voici quelques éléments importants à vérifier lors de l&#39;utilisation de cet outil :
+L’équipe de conseillers peut fournir aux clients hébergés un outil qui vous permet d’afficher facilement la quantité d’espace utilisée par différents types de tables dans la base de données ainsi que l’espace utilisé sur le site SFTP. Il fournit en outre des outils pour vous permettre de nettoyer les données inutiles. Contactez l&#39;[Assistance clientèle d&#39;Adobe &#x200B;](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) si vous avez besoin que cet outil soit implémenté. Voici quelques éléments importants à vérifier lors de l&#39;utilisation de cet outil :
 
 * Un nettoyage est requis si la taille de l’index est supérieure à la taille de la table.
 * Vérifiez les tables qui ont le maximum de ballonnements. Si ces tables sont fréquemment utilisées, elles doivent être aspirées.

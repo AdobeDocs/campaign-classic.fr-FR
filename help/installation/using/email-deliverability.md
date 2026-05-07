@@ -326,7 +326,7 @@ Le paramètre **structure MIME** (Multipurpose Internet Mail Extensions) permet 
 
   Par défaut, la structure multipart est de type **multipart/alternative**, mais devient automatiquement **multipart/related** lorsque qu&#39;on ajoute une image au message. Certains fournisseurs exigeant le format **multipart/related** par défaut, l&#39;option **[!UICONTROL Forcer multipart/related]** permet d&#39;imposer ce format même si aucune image n&#39;est jointe.
 
-* **** : un message HTML uniquement est envoyé. Si le format HTML n&#39;est pas accepté, le message ne s&#39;affichera pas.
+* **&#x200B;**&#x200B;: un message HTML uniquement est envoyé. Si le format HTML n&#39;est pas accepté, le message ne s&#39;affichera pas.
 * **Texte** : un message au format texte uniquement est envoyé. L&#39;avantage des messages au format texte est leur taille très réduite.
 
 Si l&#39;option **[!UICONTROL Inclusion des images]** est activée, elles sont affichées directement dans le corps de l&#39;email. Les images seront alors chargées et les liens URL seront remplacés par leur contenu.
@@ -428,4 +428,4 @@ Le paramètre **maxWorkingSetMb** est calculé empiriquement en multipliant le n
 
 ### Ajuster le nombre de mtachild {#adjust-the-number-of-mtachild}
 
-Le nombre d&#39;enfants ne doit pas dépasser le nombre de processeurs de la machine (approx. 1000 sessions). L&#39;ordre du millier de sessions semble une bonne valeur. **** Il faut alors augmenter le nombre de messages par **enfant** (**maxMsgPerChild**) pour avoir une durée de vie suffisante.
+Le nombre d&#39;enfants ne doit pas dépasser le nombre de processeurs de la machine (approx. 1000 sessions). L&#39;ordre du millier de sessions semble une bonne valeur. **&#x200B;**&#x200B;Il faut alors augmenter le nombre de messages par **enfant** (**maxMsgPerChild**) pour avoir une durée de vie suffisante.

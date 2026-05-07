@@ -48,7 +48,7 @@ L&#39;origine est une information indiquée dans l&#39;URL du questionnaire en y
 ?origin=xxx
 ```
 
-pendant la modification du questionnaire, son URL contient le paramètre __uuid ]**, qui indique qu&#39;il est en phase de test et pas encore en ligne.**[!UICONTROL  Lorsque vous accédez au questionnaire via cette URL, les enregistrements créés ne sont pas pris en compte dans le suivi (rapports). L&#39;origine est alors forcée à la valeur **[!UICONTROL Adobe Campaign]**.
+pendant la modification du questionnaire, son URL contient le paramètre __uuid **, qui indique qu&#39;il est en phase de test et pas encore en ligne.** Lorsque vous accédez au questionnaire via cette URL, les enregistrements créés ne sont pas pris en compte dans le suivi (rapports). L&#39;origine est alors forcée à la valeur **[!UICONTROL Adobe Campaign]**.
 
 Pour plus d&#39;informations sur les paramètres d&#39;URL, consultez [cette page](../../web/using/defining-web-forms-properties.md#form-url-parameters).
 

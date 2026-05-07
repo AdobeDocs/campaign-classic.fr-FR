@@ -66,7 +66,7 @@ Les attributs et éléments du contenu sont représentés comme des objets JavaS
 
 **Exemple**:
 
-* **** : récupère la valeur de l&#39;attribut « name » de l&#39;élément principal
+* **&#x200B;**&#x200B;: récupère la valeur de l&#39;attribut « name » de l&#39;élément principal
 * **content.@`['name']`** : identique à la syntaxe **content.@name**
 * **content.chapter.length**`<chapter` : retourne le nombre d’éléments sur l’élément de collection
 * **content.chapter`[0]`.@name** : récupère le nom du premier élément `<chapter>`

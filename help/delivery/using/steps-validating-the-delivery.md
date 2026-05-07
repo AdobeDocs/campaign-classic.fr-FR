@@ -192,7 +192,7 @@ Vous pouvez visualiser et éditer les règles de validation, leur contenu, leur 
 
 Vous pouvez créer des règles et définir de nouvelles typologies à partir de ce nœud. Ces tâches sont toutefois réservées aux utilisateurs experts qui connaissent JavaScript.
 
-Pour plus d’informations sur les règles de typologie, consultez [cette page ](../../campaign-opt/using/about-campaign-typologies.md).
+Pour plus d’informations sur les règles de typologie, consultez [cette page &#x200B;](../../campaign-opt/using/about-campaign-typologies.md).
 
 Vous pouvez également éditer la typologie courante en cliquant sur l’icône **[!UICONTROL Editer le lien]** situé à droite du champ **[!UICONTROL Typologie]**.
 

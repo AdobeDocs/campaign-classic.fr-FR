@@ -58,7 +58,7 @@ Lors de l’installation et de la mise à niveau de votre kit de développement 
 
 Le kit de développement Java est spécifique à la plateforme : des programmes d’installation différents sont nécessaires pour chaque système d’exploitation.
 
-Pour télécharger le JDK, connectez-vous au [site web ](https://www.oracle.com/technetwork/java/javase/downloads/index.html){target="_blank"}.
+Pour télécharger le JDK, connectez-vous au [site web &#x200B;](https://www.oracle.com/technetwork/java/javase/downloads/index.html){target="_blank"}.
 
 >[!CAUTION]
 >

@@ -241,7 +241,7 @@ Lorsque vous sélectionnez un bloc contenant une image, vous accédez aux propri
 
 ### Insertion d&#39;un champ de personnalisation {#inserting-a-personalization-field}
 
-L&#39;option Champ **** de l&#39;icône d&#39;insertion permet d&#39;ajouter un champ de base de données dans le contenu, tel que le nom du destinataire. Cette option n’est disponible que pour les blocs de type texte.
+L&#39;option Champ **&#x200B;**&#x200B;de l&#39;icône d&#39;insertion permet d&#39;ajouter un champ de base de données dans le contenu, tel que le nom du destinataire. Cette option n’est disponible que pour les blocs de type texte.
 
 ![](assets/dce_toolbar_textblock_persofield.png)
 

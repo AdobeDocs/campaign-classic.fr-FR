@@ -44,7 +44,7 @@ Pour savoir où trouver votre identifiant client, consultez cette [page](https:/
    * **[!UICONTROL Jeton de sécurité]**
 Pour savoir où trouver votre jeton de sécurité, consultez cette [page](https://help.salesforce.com/articleView?id=000205876&type=1).
 
-   * Version de l’API ****
+   * Version de l’API **&#x200B;**
 Sélectionnez la version de l’API.
 1. Exécutez l’assistant de configuration pour générer le tableau CRM disponible : l’assistant de configuration vous permet de collecter des tableaux et de créer le schéma correspondant.
 

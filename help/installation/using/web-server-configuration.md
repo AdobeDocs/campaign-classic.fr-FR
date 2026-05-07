@@ -67,7 +67,7 @@ Vous trouverez ci-dessous quelques bonnes pratiques clés relatives à la config
 
 * Limitez la taille des requêtes pour empêcher le téléchargement de fichiers volumineux :
 
-  **** Sur Apache, ajoutez la directive **LimitRequestBody** (taille en octets) dans le répertoire /.
+  **&#x200B;**&#x200B;Sur Apache, ajoutez la directive **LimitRequestBody** (taille en octets) dans le répertoire /.
 
   ```
   <Directory />

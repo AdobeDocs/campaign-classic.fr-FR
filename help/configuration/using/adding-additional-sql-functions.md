@@ -117,12 +117,12 @@ Le champ **@name** fait référence au nom de la fonction et « args » corres
   >
   >La description doit être une chaîne de caractères valide au sens XML : noter l&#39;utilisation de &#39;&lt;&#39; et &#39;>&#39; au lieu de &lt; et >.
 
-* **** est le type de retour de la fonction et est une valeur standard (long, string, byte, datetime...). S’il est omis, le serveur détermine le meilleur type parmi les types disponibles dans l’expression implémentant la fonction.
-* **** et **maxArgs** indique le nombre de paramètres (minimum et maximum) pour un paramètre. Par exemple, pour une fonction avec 2 paramètres, minArgs et maxArgs seront 2 et 2. Pour 3 paramètres, plus 1 facultatif, ils seront respectivement 3 et 4.
+* **&#x200B;**&#x200B;est le type de retour de la fonction et est une valeur standard (long, string, byte, datetime...). S’il est omis, le serveur détermine le meilleur type parmi les types disponibles dans l’expression implémentant la fonction.
+* **&#x200B;**&#x200B;et **maxArgs** indique le nombre de paramètres (minimum et maximum) pour un paramètre. Par exemple, pour une fonction avec 2 paramètres, minArgs et maxArgs seront 2 et 2. Pour 3 paramètres, plus 1 facultatif, ils seront respectivement 3 et 4.
 * Enfin, l&#39;élément **providerPart** fournit l&#39;implémentation de la fonction.
 
    * L’attribut **provider** est obligatoire ; il spécifie les systèmes de base de données pour lesquels l’implémentation est fournie. Comme illustré dans l’exemple, lorsque les syntaxes d’expression ou les fonctions sous-jacentes diffèrent, d’autres implémentations peuvent être fournies en fonction de la base de données.
-   * L’attribut **** contient l’implémentation de la fonction. Remarque : cette implémentation doit être une expression, en langage de base de données (et non un bloc de code). En fonction des bases de données, les expressions peuvent être des sous-requêtes (« (sélectionner une colonne dans la table où...) ») renvoie une seule valeur. C&#39;est le cas, par exemple, dans Oracle (la requête doit être écrite entre parenthèses).
+   * L’attribut **&#x200B;**&#x200B;contient l’implémentation de la fonction. Remarque : cette implémentation doit être une expression, en langage de base de données (et non un bloc de code). En fonction des bases de données, les expressions peuvent être des sous-requêtes (« (sélectionner une colonne dans la table où...) ») renvoie une seule valeur. C&#39;est le cas, par exemple, dans Oracle (la requête doit être écrite entre parenthèses).
 
   >[!NOTE]
   >

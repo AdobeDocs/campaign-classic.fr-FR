@@ -143,7 +143,7 @@ L&#39;analyse descriptive est présentée dans cette [section](../../reporting/u
 
 ## Résultats d’une simulation {#results-of-a-simulation}
 
-Les indicateurs présentés dans l&#39;onglet **[!UICONTROL Résultats]** donnent un premier aperçu du résultat de la simulation. **** Pour obtenir une vue plus détaillée des résultats, ouvrez l&#39;onglet **[!UICONTROL Rapports]**.
+Les indicateurs présentés dans l&#39;onglet **[!UICONTROL Résultats]** donnent un premier aperçu du résultat de la simulation. **&#x200B;**&#x200B;Pour obtenir une vue plus détaillée des résultats, ouvrez l&#39;onglet **[!UICONTROL Rapports]**.
 
 ### Rapports {#reports}
 

@@ -23,7 +23,7 @@ Cette section propose la liste des commandes usuelles sous Adobe Campaign.
 
 La commande **nlserver** est la commande d&#39;entrée de l&#39;ensemble de l&#39;applicatif Adobe Campaign.
 
-La syntaxe de cette commande est la suivante : **nlserver **`<command>`****`<arguments>`****
+La syntaxe de cette commande est la suivante : **nlserver &#x200B;**`<command>`**&#x200B;**`<arguments>`**&#x200B;**
 
 Le paramètre **`<command>`** correspond au module.
 
