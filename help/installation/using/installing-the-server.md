@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: c0cb4efa-cae9-4312-88fb-738857a89595
 source-git-commit: 7906e9fee164d731659bbb9f96394faca5961240
-workflow-type: ht
-source-wordcount: '403'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '424'
+ht-degree: 83%
 
 ---
 
@@ -32,7 +32,7 @@ Les étapes d&#39;installation du serveur Adobe Campaign sont les suivantes :
    Plusieurs types d&#39;installation sont proposés :
 
    * **[!UICONTROL Installation d&#39;un serveur applicatif]** : installation du serveur applicatif Adobe Campaign et de la console cliente.
-   * **[!UICONTROL Installation minimale (Réseau)]** : installation d&#39;un poste client depuis le réseau. Seules quelques DLL seront installées sur la machine, si besoin, et tous les autres composants nécessaires seront directement utilisés sur le disque réseau.
+   * **[!UICONTROL Installation minimale (réseau)]** : installation de l’ordinateur client à partir du réseau. Seul un nombre limité de DLL sera installé sur l&#39;ordinateur, si nécessaire, et tous les autres composants seront utilisés à partir d&#39;un lecteur réseau.
    * **[!UICONTROL Installation d&#39;un poste client]** : installation des composants nécessaires pour l&#39;utilisation de la console cliente Adobe Campaign.
    * **[!UICONTROL Installation personnalisée]** : l&#39;utilisateur choisit les éléments à installer.
 
@@ -133,7 +133,7 @@ Les informations affichées sont alors les suivantes :
 
 ## Mot de passe de l&#39;identifiant internal {#password-for-the-internal-identifier}
 
-Le serveur Adobe Campaign définit un identifiant (ou &#39;login&#39;) technique nommé **internal** qui possède tous les droits, sur toutes les instances. Après une installation récente, cet identifiant n&#39;a pas de mot de passe. Il est obligatoire d&#39;en définir un.
+Le serveur Adobe Campaign définit un identifiant (ou login) technique nommé **internal** qui possède tous les droits, sur toutes les instances. Juste après l&#39;installation, le login n&#39;a pas de mot de passe. Il est obligatoire d’en définir un.
 
 En savoir plus dans [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 

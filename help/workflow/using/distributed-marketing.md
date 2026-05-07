@@ -7,7 +7,7 @@ feature: Workflows, Data Management, Distributed Marketing
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '69'
-ht-degree: 100%
+ht-degree: 81%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-Le workflow présenté ci-dessous est installé par défaut avec le module **Marketing distribué**. Pour plus d’informations sur ce module, consultez cette [section](../../distributed/using/about-distributed-marketing.md).
+Le workflow présenté ci-dessous est installé par défaut avec le module **Marketing distribué**. Voir à ce propos [cette section](../../distributed/using/about-distributed-marketing.md).
 
 <table> 
  <tbody> 

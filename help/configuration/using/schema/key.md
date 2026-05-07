@@ -5,9 +5,9 @@ description: élément key
 feature: Schema Extension
 exl-id: 3d0ef574-27a3-40f2-91a0-70e9583d9980
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 100%
+ht-degree: 63%
 
 ---
 
@@ -47,20 +47,20 @@ Par convention, les clefs sont déclarées après la déclaration de l&#39;élé
 
 Une clé est connue sous le nom de composite si elle comprend plusieurs champs (plusieurs `<keyfield>` enfants, par exemple). N’utilisez pas de clé composite pour définir une clé primaire.
 
-Si l’élément principal du schéma contient l’attribut « @autopk=true », alors la clé primaire est unique. Une seule clé primaire doit être déclarée par schéma.
+Si l&#39;élément principal du schéma contient l&#39;attribut « @autopk=true », la clé primaire est unique. Nous ne pouvons avoir qu’une seule clé primaire par schéma.
 
 Les 1000 premiers identifiants sont réservés donc si une plage de valeurs doit être définies pour les clefs, il faut la commencer après la valeur 1000.
 
 ## Description des attributs {#attribute-description-8}
 
-* **allowEmptyPart (boolean)**: dans le cas d&#39;une clef composite, si cet attribut est activé, la clef est considérée comme valide si au moins une des clefs composant la clef composite n&#39;est pas vide. Dans ce cas, la notion de valeur vide est &quot;0&quot; (booléen ou pour tous les types de données numériques). Par défaut, toutes les clefs d&#39;une clef composite doivent être remplies.
-* **applicableIf (string)**: cet attribut permet de rendre la clef optionnelle. Il définit la condition d&#39;applicabilité de la définition de la clef. Cet attribut reçoit une expression XTK.
+* **allowEmptyPart (booléen)** : dans le cas d&#39;une clé composite, si cet attribut est activé, la clé est considérée comme valide si au moins une de ses clés n&#39;est pas vide. Si c&#39;est le cas, la valeur vide de la notion est « 0 » (booléen ou pour tous les types de données numériques). Par défaut, toutes les clés qui constituent une clé composite doivent être saisies.
+* **applicableIf (string)**: cet attribut permet de rendre la clé optionnelle. Il définit la condition selon laquelle la définition de clé sera appliquée. Cet attribut reçoit une expression XTK.
 * **internal (boolean)**: s&#39;il est activé, cet attribut signifie à Adobe Campaign que la clef est primaire.
 * **label (string)**: libellé de la clef.
 * **name (MNTOKEN)**: nom interne de la clef.
 * **noDbIndex (boolean)**: s&#39;il est activé (noDbIndex=&quot;true&quot;), le champ correspondant à la clef ne sera pas indexé.
 
-## Exemples       {#examples-------}
+## Exemples {#examples-------}
 
 Déclaration d&#39;une clef composite autorisant un des deux champs la composant &quot;@expr&quot; ou &quot;@alias&quot; à être vide:
 

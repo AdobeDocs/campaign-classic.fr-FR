@@ -8,7 +8,7 @@ exl-id: f426bf02-9899-49eb-b699-728d51b57c64
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 100%
+ht-degree: 70%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Une activité de type **Intersection** crée une cible à partir de l&#39;intersection des cibles reçues.
 
-Une intersection permet de n&#39;extraire que la population commune à tous les résultats des activités entrantes. La cible est construite avec tous les résultats reçus : toutes les activités antérieures doivent donc être terminées avant que l&#39;intersection ne puisse être exécutée. Pour paramétrer cette activité, vous devez renseigner son libellé et les options relatives au résultat.
+Une intersection permet d’extraire uniquement la population commune à tous les résultats de l’activité entrante. La cible est créée avec tous les résultats reçus : toutes les activités antérieures doivent donc être terminées avant que l&#39;intersection puisse être exécutée. Pour paramétrer cette activité, vous devez renseigner son libellé ainsi que les options relatives au résultat.
 
 ![](assets/s_user_segmentation_inter.png)
 
@@ -42,10 +42,10 @@ Dans l&#39;exemple suivant, l&#39;intersection a pour but de calculer les destin
 1. Paramétrez l&#39;intersection. Pour cela, sélectionnez la méthode de réconciliation **[!UICONTROL Uniquement les clés]** dans la mesure où les populations issues des requêtes contiennent des données homogènes.
 1. Si vous avez ajouté des données additionnelles au niveau des requêtes, vous pouvez éventuellement choisir de ne conserver que celles qui sont communes en cochant la case correspondante.
 1. Si vous souhaitez utiliser le reste des données (correspondant aux requêtes, mais pas à leur intersection), cochez la case **[!UICONTROL Générer le complémentaire]**.
-1. Insérez une activité de mise à jour de liste après le résultat de l&#39;intersection. Insérez également une mise à jour de liste après le complémentaire dans le cas où vous souhaiteriez également l&#39;exploiter.
-1. Exécutez le workflow. Ici, deux destinataires correspondent à la fois aux trois requêtes en entrée. Le complément est composé des cinq destinataires qui correspondent uniquement à une ou deux des trois requêtes.
+1. Ajoutez une activité de mise à jour de liste après le résultat de l’intersection. Vous pouvez également ajouter une mise à jour de liste au complémentaire si vous souhaitez l’utiliser également.
+1. Exécutez le workflow. Ici, deux destinataires s’appliquent aux trois requêtes saisies en même temps. Le complémentaire est constitué de cinq destinataires qui ne s’appliquent qu’à une ou deux des trois requêtes.
 
-   Le résultat de l&#39;intersection est envoyé vers la première mise à jour de liste. Si vous avez choisi d&#39;exploiter le complément, ce dernier est également envoyé vers la seconde mise à jour de liste.
+   Le résultat de l&#39;intersection est envoyé à la première mise à jour de la liste. Si vous avez choisi d’utiliser le complémentaire , il est également envoyé à la deuxième mise à jour de la liste.
 
    ![](assets/intersection_example.png)
 

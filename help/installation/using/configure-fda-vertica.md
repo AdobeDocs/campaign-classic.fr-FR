@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: connectors
 exl-id: 8b2a9c73-807a-4936-9fd6-9d26c805a31f
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '371'
+workflow-type: tm+mt
+source-wordcount: '396'
 ht-degree: 100%
 
 ---
@@ -151,13 +151,13 @@ Vous devez créer un compte externe [!DNL Vertica Analytics] pour connecter votr
 
 1. Sélectionnez **[!UICONTROL Base de données externe]** en tant que **[!UICONTROL Type]** de compte externe.
 
-1. Pour configurer le compte externe **[!UICONTROL Vertica Analytics]**, vous devez spécifier : 
+1. Pour configurer le compte externe **[!UICONTROL Vertica Analytics]**, vous devez spécifier :
 
    * **[!UICONTROL Type]**: [!DNL Vertica Analytics]
 
    * **[!UICONTROL Serveur]** : URL du serveur [!DNL Vertica Analytics]
 
-   * **[!UICONTROL Compte]** : nom de l&#39;utilisateur
+   * **[!UICONTROL Compte]** : nom de l’utilisateur
 
    * **[!UICONTROL Mot de passe]** : mot de passe du compte d’utilisateur
 

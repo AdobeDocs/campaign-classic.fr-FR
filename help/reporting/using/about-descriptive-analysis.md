@@ -6,9 +6,9 @@ feature: Reporting, Monitoring
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: 19920058-e8e8-4e17-9cc3-24ddf9f96d04
 source-git-commit: 5e062f9dbdf6c148e442ac10dbb12cf72ba0179b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -18,7 +18,7 @@ Afin de produire des statistiques sur les données de la base de données, crée
 
 Ces rapports portent sur des populations et sont réservés à l&#39;analyse d&#39;un faible volume de données.
 
-Vous pouvez générer des rapports d&#39;analyse quantitative ou qualitative. L&#39;analyse qualitative permet de représenter les données par exemple sous les formats suivants :
+Vous pouvez générer des rapports d&#39;analyse quantitative ou qualitative. Les analyses qualitatives permettent de représenter les données comme suit :
 
 * Tableau et histogramme :
 

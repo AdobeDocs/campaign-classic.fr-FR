@@ -6,9 +6,9 @@ feature: Reporting, Monitoring
 badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 exl-id: cf621374-88f9-4def-8bea-87e0ea69ecd3
 source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '533'
-ht-degree: 100%
+ht-degree: 76%
 
 ---
 
@@ -30,13 +30,13 @@ Dans tous les cas, les données sont collectées au travers d&#39;une activité 
 
 ![](assets/reporting_query_edit.png)
 
-Ce mode de sélection des données est pertinent lorsque les données du rapport doivent être collectées, ou construites, à partir des données de la base. Dans certains cas, il est également possible de sélectionner directement les données au niveau des éléments utilisés dans le rapport, par exemple lorsque vous insérez un graphique, vous pouvez sélectionner directement les données source. Voir à ce sujet la section [Utiliser le contexte](../../reporting/using/using-the-context.md).
+Ce mode de sélection des données est pertinent lorsque les données du rapport doivent être collectées ou créées à l’aide des données de la base de données. Dans certains cas, vous pouvez également sélectionner les données directement à partir des éléments utilisés dans le rapport. Par exemple, lorsque vous insérez un graphique, vous pouvez sélectionner directement les données sources. Voir à ce sujet la section [Utiliser le contexte](../../reporting/using/using-the-context.md).
 
 ## Utilisation des données provenant dʼun schéma {#using-the-data-from-a-schema}
 
 Pour utiliser directement les données associées à un schéma de la base, sélectionnez l&#39;option correspondante dans le requêteur puis paramétrez la requête à appliquer.
 
-L&#39;exemple suivant permet de collecter le nombre de destinataires de chaque pays, parmi les profils de la base. Ils pourront ensuite être affichés dans un rapport sous la forme d&#39;un tableau.
+L’exemple suivant permet de collecter le nombre de destinataires pour chaque pays, parmi les profils de la base de données. Elles peuvent ensuite être affichées dans un rapport sous la forme d’un tableau.
 
 ![](assets/reporting_query_from_schema.png)
 
@@ -70,7 +70,7 @@ Les données doivent être filtrées afin de ne pas exécuter de requêtes sur l
 
 Vous pouvez sélectionner l&#39;option **[!UICONTROL Filtrer automatiquement avec le contexte]** pour rendre le rapport accessible depuis un noeud spécifique de l&#39;arborescence comme une liste, un destinataire, une diffusion.
 
-L&#39;option **[!UICONTROL Filtrer avec le dossier]** permet de spécifier un dossier précis pour ne prendre en compte que les éléments du dossier spécifié. Ainsi, vous pourrez filtrer les données du rapport pour n&#39;afficher que celles d&#39;un des dossiers de l&#39;arborescence, comme ci-dessous :
+L&#39;option **[!UICONTROL Filtrer avec le dossier]** permet de définir un dossier spécifique et de ne prendre en compte que son contenu. Vous pouvez ainsi filtrer les données du rapport pour n&#39;afficher que celles d&#39;un des dossiers de l&#39;arborescence, comme ci-dessous :
 
 ![](assets/reporting_control_folder.png)
 

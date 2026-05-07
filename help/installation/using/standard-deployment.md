@@ -9,8 +9,8 @@ topic-tags: deployment-types-
 exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
 source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 100%
+source-wordcount: '844'
+ht-degree: 82%
 
 ---
 
@@ -25,9 +25,9 @@ Pour cette configuration, trois machines sont nécessaires :
 
 Les deux machines dans la DMZ prennent en charge le tracking, la gestion des pages miroir et l&#39;envoi des mails, et sont mises en redondance afin d&#39;obtenir une haute disponibilité.
 
-Le serveur applicatif situé dans le LAN sert les utilisateurs et effectue tous les traitements récurrents (moteur de workflow). Ainsi, en cas de pic de charge sur les frontaux, les utilisateurs métier ne sont pas impactés.
+Le serveur applicatif du réseau local sert les utilisateurs finaux et exécute tous les processus récurrents (moteur de workflow). Ainsi, lorsque les charges maximales sont atteintes sur les serveurs frontaux, les utilisateurs de l’application ne sont pas affectés.
 
-Le serveur de base de données peut être une machine déjà existante (ou une nouvelle machine) distincte de ces trois machines. Il est toutefois possible de cumuler les fonctions de serveur applicatif dans le LAN et de serveur de base de données sur la même machine. Ceci suppose cependant qu&#39;elle fonctionne sur un système d&#39;exploitation supporté par Adobe Campaign (Linux ou Windows).
+Le serveur de base de données peut être hébergé sur un ordinateur distinct de ces trois serveurs. Dans le cas contraire, le serveur applicatif et le serveur de base de données doivent partager le même ordinateur sur le LAN, à condition que le système d&#39;exploitation soit pris en charge par Adobe Campaign (Linux ou Windows).
 
 La communication générale entre les serveurs et les processus est réalisée conformément au schéma suivant :
 
@@ -40,7 +40,7 @@ Ce type de configuration peut faire face à un grand nombre de profils de destin
 ### Avantages {#advantages}
 
 * Possibilité de basculer tous les processus sur une seule machine en cas de problème matériel sur l&#39;une des deux machines.
-* Meilleures performances globales, puisque les MTA et la redirection derrière un répartiteur de charge peuvent être déployés sur les deux machines. Avec deux MTA actifs et assez de bande passante, on peut obtenir des taux de diffusion d&#39;environ 100 000 mails par heure.
+* Meilleures performances globales, puisque les fonctions MTA et de redirection peuvent être déployées sur les deux ordinateurs derrière une répartition de charge. Avec deux MTA actifs et une bande passante suffisante, il est possible d&#39;atteindre des taux de diffusion de l&#39;ordre de 100 000 mails par heure.
 
 ## Etapes d&#39;installation et de configuration {#installation-and-configuration-steps}
 
@@ -55,7 +55,7 @@ Ce type de configuration peut faire face à un grand nombre de profils de destin
    * un premier alias exposé au grand public pour le tracking et pointant vers le répartiteur de charge sur une adresse IP virtuelle (VIP) qui est ensuite distribuée sur les deux serveurs frontaux,
    * un deuxième alias exposé aux utilisateurs métiers pour l&#39;accès console et pointant vers serveur applicatif.
 
-* Configuration du firewall pour l&#39;ouverture des ports SMTP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 pour Oracle, 5432 pour PostgreSQL, etc.). Voir à ce sujet la section [Accès à la base de données](../../installation/using/network-configuration.md#database-access).
+* Pare-feu configuré pour ouvrir STMP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 pour Oracle, 5432 pour PostgreSQL, etc.) les ports. Voir à ce sujet la section [Accès à la base de données](../../installation/using/network-configuration.md#database-access).
 
 ### Installation du serveur applicatif {#installing-the-application-server}
 
@@ -68,7 +68,7 @@ Dans les exemples présentés ci-dessous, les paramètres de l&#39;instance sont
 * Nom de l&#39;instance : **demo**
 * Masque DNS : **console.campaign.net&#42;** (uniquement pour la connexion des consoles clientes et pour les rapports)
 * Langue : française
-* Base de données : **campaign:demo@dbsrv**
+* Base : **campaign:demo@dbsrv**
 
 ### Installation des deux serveurs frontaux {#installing-the-two-frontal-servers}
 
@@ -85,7 +85,7 @@ Les étapes sont les suivantes :
    * Pour Linux : [Intégration à un serveur web pour Linux](../../installation/using/integration-into-a-web-server-for-linux.md)
    * Pour Windows : [Intégration à un serveur web pour Windows](../../installation/using/integration-into-a-web-server-for-windows.md)
 
-1. Créez l&#39;instance nommée **demo**. Pour cela, deux méthodes sont possibles :
+1. Créez l’instance **demo**. Vous avez le choix entre les deux méthodes suivantes :
 
    * Créer l&#39;instance via la console :
 
@@ -101,7 +101,7 @@ Les étapes sont les suivantes :
      nlserver config -addinstance:demo/tracking.campaign.net*
      ```
 
-     Voir à ce sujet la section [Création d&#39;une instance](../../installation/using/command-lines.md#creating-an-instance).
+     Voir à ce sujet la section [Création d’une instance](../../installation/using/command-lines.md#creating-an-instance).
 
    Le nom de l&#39;instance est le même que le celui du serveur applicatif.
 
@@ -161,7 +161,7 @@ Les étapes sont les suivantes :
    Voir à ce propos les sections suivantes :
 
    * Pour Linux : [Lancement du serveur Web et test de la configuration](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration)
-   * Pour Windows : [Lancement du serveur Web et test de la configuration](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)
+   * Pour Windows : [](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)Lancement du serveur Web et test de la configuration
 
 1. Démarrer le serveur Adobe Campaign.
 1. Connectez-vous avec une console cliente Adobe Campaign avec l&#39;identifiant (login) **admin** sans mot de passe et lancez l&#39;assistant de déploiement.

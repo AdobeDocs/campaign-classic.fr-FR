@@ -7,8 +7,8 @@ hide: true
 exl-id: bc64ca11-2c50-4896-b6c6-ae42c0315924
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 100%
+source-wordcount: '460'
+ht-degree: 90%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 100%
 
 
 
-L’activité **[!UICONTROL Sous-workflow]** permet de déclencher l’exécution d’un autre workflow et de récupérer le résultat du calcul. Cette activité permet d’utiliser des workflows complexes tout en gardant une interface simplifiée.
+L&#39;activité **[!UICONTROL Sous-workflow]** permet de déclencher l&#39;exécution d&#39;un autre workflow et de récupérer le résultat. Cette activité permet d’utiliser des workflows complexes tout en utilisant une interface simplifiée.
 
-Vous pouvez appeler plusieurs sous-workflows au sein d’un même workflow. Les sous-workflows sont exécutés de manière synchrone.
+Vous pouvez appeler plusieurs sous-workflows dans un seul workflow. Les sous-workflows sont exécutés de manière synchrone.
 
 Dans l’exemple ci-dessous, un workflow principal appelle un sous-workflow à l’aide de sauts. Pour plus d’informations sur les objets graphiques de type saut, voir [cette section](jump-start-point-and-end-point.md).
 

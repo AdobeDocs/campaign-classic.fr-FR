@@ -1,32 +1,32 @@
 ---
 product: campaign
 title: Collecter toutes les visites
-description: Collecter toutes les visites
+description: Collecte de toutes les visites
 feature: Configuration, Instance Settings
 role: Developer
 exl-id: cc554d0d-bbab-4f72-b870-5fef5a2fda9d
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '296'
-ht-degree: 100%
+ht-degree: 51%
 
 ---
 
-# Collecte de toutes les visites{#collecting-all-visits}
+# Collecter toutes les visites{#collecting-all-visits}
 
 Le module de webtracking fourni par Adobe Campaign permet de collecter les visites de certaines pages du site effectuées par un destinataire dans le cadre du tracking de site suite à un clic dans un message.
 
 Toutefois, vous avez la possibilité de configurer votre plateforme de façon à ce qu&#39;elle collecte toutes les visites des pages ayant une balise de tracking Web, lorsqu&#39;elles sont visitées par un utilisateur connu de la plateforme.
 
-Un utilisateur connu de la plateforme est un destinataire qui a déjà été ciblé par une diffusion et qui a cliqué au moins une fois dans un des messages reçus : un cookie permanent est utilisé pour identifier ce destinataire.
+Un utilisateur connu de la plateforme est un destinataire qui a déjà été ciblé par une diffusion et qui a cliqué au moins une fois dans un des messages reçus. Un cookie permanent est utilisé pour identifier ce destinataire.
 
 >[!IMPORTANT]
 >
->La plateforme Adobe Campaign n&#39;a pas vocation à servir d&#39;outil de tracking de site web, hors du cadre de la visite du site suite à un clic dans un message. L&#39;activation de cette option peut provoquer une consommation très importante de ressources sur les machines hébergeant vos différents serveurs (redirection, applicatif et base de données). Nous vous conseillons de vous assurer que vous disposez d&#39;une architecture matérielle suffisamment performante, et de ne pas insérer de balises de tracking Web sur les pages du site les plus fréquentées, par exemple sur la page d&#39;accueil.
+>La plateforme Adobe Campaign n’est pas destinée à être utilisée en tant qu’outil de tracking de site web, hors du cadre de la visite du site suite à un clic dans un message. Lorsque cette option est activée, elle peut entraîner une utilisation très élevée des ressources sur les machines hébergeant vos serveurs (redirection, application et base de données). Nous vous conseillons de vous assurer que votre architecture matérielle peut prendre en charge cette charge et d&#39;éviter de placer des balises de tracking Web sur les pages les plus visitées, comme la page d&#39;accueil.
 
 ## Configuration du serveur {#server-configuration}
 
-La configuration des serveurs se fait en surchargeant certains éléments du fichier **serverConf.xml**. Ce fichier est enregistré dans le sous-répertoire **conf** du répertoire d&#39;installation d&#39;Adobe Campaign.
+La configuration des serveurs se fait en surchargeant certains éléments du fichier **serverConf.xml**. Ces fichiers sont enregistrés dans le sous-répertoire **conf** du répertoire d’installation d’Adobe Campaign.
 
 ### Serveur de redirection {#redirection-server}
 

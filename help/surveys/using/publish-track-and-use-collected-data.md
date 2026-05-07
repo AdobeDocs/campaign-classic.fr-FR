@@ -6,9 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
 source-git-commit: 0db6f107d2c161b07f42dcf7a932d319130b31e0
-workflow-type: ht
-source-wordcount: '901'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '917'
+ht-degree: 67%
 
 ---
 
@@ -24,7 +24,7 @@ Une fois que le formulaire a été créé, paramétré et publié, vous pouvez p
 
 ## Tableau de bord du questionnaire {#survey-dashboard}
 
-Pour chaque questionnaire, le tableau de bord permet de visualiser rapidement l’état, la description, l’URL publique et le planning de disponibilité. Il permet également d’afficher les rapports disponibles. [En savoir plus](#reports-on-surveys).
+Chaque questionnaire possède son propre tableau de bord qui permet de visualiser son statut, sa description, son URL publique et son planning de disponibilité. Il permet également de visualiser les rapports disponibles. [En savoir plus](#reports-on-surveys).
 
 L&#39;URL publique du questionnaire est affichée dans le tableau de bord :
 
@@ -36,11 +36,11 @@ Vous pouvez suivre les réponses au questionnaire dans les logs et dans les rapp
 
 ### Les logs de questionnaires {#survey-logs}
 
-Pour chaque questionnaire diffusé, vous pouvez suivre les réponses dans l&#39;onglet **[!UICONTROL Réponses]**. Cet onglet affiche la liste des utilisateurs ayant remplis le questionnaire et les réponses fournies.
+Pour chaque questionnaire diffusé, vous pouvez tracker les réponses dans l&#39;onglet **[!UICONTROL Logs]**. Cet onglet affiche la liste des utilisateurs ayant répondu au questionnaire et leur origine :
 
 ![](assets/s_ncs_admin_survey_logs.png)
 
-Double-cliquez sur une ligne pour afficher le questionnaire tel qu’il a été rempli par le destinataire. Vous pouvez consulter toutes les pages du questionnaire et ainsi accéder à l’intégralité des réponses. Il est possible d’exporter ensuite ces réponses dans un fichier externe. Voir à ce sujet la section [Exporter les réponses](#exporting-answers).
+Double-cliquez sur une ligne pour afficher le formulaire rempli par le participant. Vous pouvez parcourir le questionnaire dans son intégralité et accéder aux réponses dans leur intégralité. Ils peuvent être exportés dans un fichier externe. Voir à ce sujet la section [Exporter les réponses](#exporting-answers).
 
 L&#39;origine est une information indiquée dans l&#39;URL du questionnaire en y ajoutant les caractères suivants :
 
@@ -48,13 +48,13 @@ L&#39;origine est une information indiquée dans l&#39;URL du questionnaire en y
 ?origin=xxx
 ```
 
-tant que le questionnaire est en édition, son URL contient le paramètre **[!UICONTROL __uuid]**, qui indique qu&#39;il est en phase de test et qu’il n’est pas encore en ligne. Lorsque vous accédez au questionnaire via cette URL, les enregistrements créés ne sont pas pris en compte dans le tracking (rapports). L&#39;origine est alors forcée à la valeur **[!UICONTROL Adobe Campaign]**.
+pendant la modification du questionnaire, son URL contient le paramètre __uuid ]**, qui indique qu&#39;il est en phase de test et pas encore en ligne.**[!UICONTROL  Lorsque vous accédez au questionnaire via cette URL, les enregistrements créés ne sont pas pris en compte dans le suivi (rapports). L&#39;origine est alors forcée à la valeur **[!UICONTROL Adobe Campaign]**.
 
 Pour plus d&#39;informations sur les paramètres d&#39;URL, consultez [cette page](../../web/using/defining-web-forms-properties.md#form-url-parameters).
 
 ### Les rapports sur les questionnaires {#reports-on-surveys}
 
-Le tableau de bord permet d&#39;accéder aux rapports sur le questionnaire. Cliquez sur le nom d&#39;un rapport pour le visualiser.
+L&#39;onglet Tableau de bord permet d&#39;accéder aux rapports du questionnaire. Cliquez sur le nom d’un rapport pour l’afficher.
 
 ![](assets/s_ncs_admin_survey_report_doc.png)
 
@@ -78,7 +78,7 @@ Deux autres rapports sur les questionnaires Web sont également disponibles par 
 
 ## Exporter les réponses {#exporting-answers}
 
-Les réponses à un questionnaire peuvent être exportées dans un fichier externe afin d&#39;être réexploitées ultérieurement. Pour cela, deux opérations sont possibles :
+Les réponses à un questionnaire peuvent être exportées dans un fichier externe afin d&#39;être réexploitées ultérieurement. Vous avez le choix entre les deux méthodes suivantes :
 
 1. Exporter les données d&#39;un rapport
 
@@ -116,7 +116,7 @@ Les réponses à un questionnaire peuvent être exportées dans un fichier exter
 
 Les informations collectées au travers des questionnaires en ligne peuvent être récupérées dans le cadre d&#39;un workflow de ciblage. Pour cela, utilisez la boîte **[!UICONTROL Réponses à un questionnaire]**.
 
-Dans l&#39;exemple suivant, nous allons proposer une offre Web spécifique aux cinq destinataires parents d&#39;au moins deux enfants et ayant réalisé le meilleur score à un questionnaire en ligne. Les réponses à ce questionnaire sont les suivantes :
+Dans l&#39;exemple suivant, nous allons proposer une offre web dédiée aux cinq destinataires ayant au moins deux enfants et ayant obtenu les scores les plus élevés dans le cadre d&#39;un questionnaire en ligne. Les réponses à cette enquête sont les suivantes :
 
 ![](assets/s_ncs_admin_survey_responses_wf_box_4.png)
 
@@ -124,13 +124,13 @@ Dans le workflow de ciblage, la boîte **[!UICONTROL Réponses à un questionnai
 
 ![](assets/s_ncs_admin_survey_responses_wf_box_1.png)
 
-Sélectionnez le questionnaire concerné puis les données à extraire dans la section centrale de la fenêtre. Ici, il est nécessaire d&#39;extraire au moins la colonne du score car elle sera utilisée dans la boîte de partage afin de ne récupérer que les cinq meilleurs scores parmi les réponses fournies.
+Sélectionnez d&#39;abord l&#39;enquête concernée puis les données à extraire dans la partie centrale de la fenêtre. Dans ce cas, nous devons extraire au moins la colonne de score, car elle sera utilisée dans la boîte de partage pour récupérer les cinq scores les plus élevés.
 
 Indiquez les conditions de filtrage des réponses en cliquant sur le lien **[!UICONTROL Editer la requête...]**.
 
 ![](assets/s_ncs_admin_survey_responses_wf_box_2.png)
 
-Démarrez le workflow de ciblage. La requête permet de récupérer 8 destinataires.
+Démarrez le workflow de ciblage. La requête récupère 8 destinataires.
 
 ![](assets/s_ncs_admin_survey_responses_wf_box_5.png)
 
@@ -162,4 +162,4 @@ Editez la boîte de partage pour la paramétrer :
 
 ## Normaliser les données {#standardizing-data}
 
-Vous pouvez mettre en place dans Adobe Campaign des processus de normalisation des données collectées en utilisant les alias. Il est alors possible de normaliser les données stockées en base : pour cela, vous devez définir des alias au niveau des énumérations dans lesquelles les informations sont stockées. Découvrez comment **utiliser les énumérations** dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
+Il est possible de configurer des processus de normalisation dans Adobe Campaign pour les données collectées à l’aide d’alias. Vous pouvez ainsi standardiser les données stockées dans la base : pour cela, définissez des alias dans les énumérations qui contiennent les informations nécessaires. Découvrez comment **utiliser les énumérations** dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.

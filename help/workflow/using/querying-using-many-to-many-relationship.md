@@ -7,8 +7,8 @@ hide: true
 exl-id: e1d40ba1-2493-45c1-bd54-af9cb332028d
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 96%
+source-wordcount: '483'
+ht-degree: 66%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 96%
 
 
 
-Dans cet exemple, vous allez récupérer les destinataires non contactés au cours des 7 derniers jours. Cette requête concerne toutes les diffusions.
+Dans cet exemple, nous allons récupérer les destinataires qui n&#39;ont pas été contactés au cours des 7 derniers jours. Cette requête concerne toutes les diffusions.
 
-Ce cas indique par ailleurs comment paramétrer un filtrage découlant du choix d&#39;un élément de collection (ou noeud orange). Les éléments de collection sont disponibles dans la fenêtre **[!UICONTROL Champ à sélectionner]**.
+Cet exemple montre également comment configurer un filtre associé au choix d&#39;un élément de collection (ou d&#39;un nœud orange). Les éléments de collection sont disponibles dans la fenêtre **[!UICONTROL Champ à sélectionner]**.
 
 * Quelle table doit-on sélectionner ?
 
@@ -44,13 +44,13 @@ Les étapes sont les suivantes :
    ![](assets/query_editor_nveau_34.png)
 
 1. Dans la fenêtre **[!UICONTROL Filtrage des données]**, choisissez **[!UICONTROL Critères de filtrage]**.
-1. Dans la fenêtre **[!UICONTROL Elément de la cible]**, la condition de filtrage qui permet d&#39;extraire de la base les profils qui n&#39;ont aucun log de tracking pour les 7 derniers jours est réalisée en deux étapes. En effet, l&#39;élément de collection que vous allez sélectionner est un lien n-n.
+1. Dans la fenêtre **[!UICONTROL Élément cible]**, la condition de filtrage permettant d&#39;extraire les profils sans log de tracking pour les 7 derniers jours implique deux étapes. L’élément à sélectionner est un lien n-n.
 
    * Tout d&#39;abord, sélectionnez l&#39;élément de collection (noeud orange) **[!UICONTROL Logs de diffusion des destinataires (broadlog)]** pour la première colonne **[!UICONTROL Valeur]**.
 
      ![](assets/query_editor_nveau_67.png)
 
-     Sélectionnez l&#39;opérateur **[!UICONTROL n&#39;existent pas tel que]**. Il n&#39;y a pas de seconde valeur à sélectionner dans cette ligne.
+     Sélectionnez l’opérateur **[!UICONTROL n’existe pas en tant que]**. Il n’est pas nécessaire de sélectionner une deuxième valeur sur cette ligne.
 
    * Le contenu de la seconde condition de filtrage découle directement du choix de la première. Ici, le champ **[!UICONTROL Date de l&#39;événement]** est directement proposé dans la table **[!UICONTROL Logs de diffusion des destinataires]** car un lien s&#39;opère vers cette table.
 
@@ -83,6 +83,6 @@ Les étapes sont les suivantes :
 
    Pour plus d&#39;informations sur l&#39;ajout de champs calculés, consultez cette section.
 
-1. Le résultat s&#39;affiche dans la fenêtre **[!UICONTROL Prévisualisation des données]**. Les destinataires non contactés dans les 7 jours antérieurs à la date courante sont affichés. Ils sont ordonnés alphabétiquement. Les noms sont en majuscules. La colonne supplémentaire qui regroupe les prénoms et les noms est bien là.
+1. Le résultat s’affiche dans la fenêtre **[!UICONTROL Aperçu des données]**. Les destinataires qui n&#39;ont pas été contactés au cours des 7 derniers jours sont affichés par ordre alphabétique. Les noms sont affichés en majuscules et la colonne contenant les noms et prénoms a été créée.
 
    ![](assets/query_editor_nveau_41.png)

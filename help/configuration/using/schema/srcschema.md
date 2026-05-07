@@ -9,8 +9,8 @@ topic-tags: schema-reference
 exl-id: bc4329b4-d272-4d32-bdaa-290cb9912af4
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 100%
+source-wordcount: '459'
+ht-degree: 57%
 
 ---
 
@@ -51,16 +51,16 @@ La présentation du schéma est disponible dans [À propos de la référence du 
 
 ## Description des attributs {#attribute-description-14}
 
-* **created (datetime)**: cet attribut renseigne sur la date et l&#39;heure de la création du schéma. Il est de la forme &quot;Date Heure&quot;. Les valeurs affichées sont celles du serveur. L&#39;heure est donnée au format UTC.
+* **created (datetime)** : cet attribut fournit des informations sur la date et l&#39;heure de création du schéma. Elle comporte un formulaire « Date et heure ». Les valeurs affichées proviennent du serveur. L’heure s’affiche au format UTC.
 * **createdBy-id (long)**: correspond à l&#39;identifiant de l&#39;opérateur qui a crée le schéma.
 * **desc (string)**: description du schéma.
-* **entitySchema (string)**: schéma de base sur lequel on base la syntaxe et la validation du schéma (par défaut pour Adobe Campaign : xtk:srcSchema). Lors de l&#39;enregistrement du schéma courant, Adobe Campaign validera la grammaire du schéma courant avec le schéma déclaré dans l&#39;attribut @xtkschema.
-* **extendedSchema (string)**: reçoit le nom du schéma d&#39;usine sur lequel est basé l&#39;extension du schéma courant. De la forme &quot;namespace:name&quot;.
+* **entitySchema (string)** : schéma de base sur lequel on base la syntaxe et la validation du schéma (par défaut pour Adobe Campaign : xtk:srcSchema). Lors de l&#39;enregistrement du schéma courant, Adobe Campaign validera la grammaire du schéma courant avec le schéma déclaré dans l&#39;attribut @xtkschema.
+* **extendedSchema (string)**: reçoit le nom du schéma d&#39;usine sur lequel est basé l&#39;extension du schéma courant. Le formulaire est « espace de noms :name. »
 * **img (string)** : icône associée au schéma (peut se définir dans l’assistant de création du schéma).
 * **label (string)**: libellé du schéma.
 * **labelSingular (string)**: libellé (au singulier) destiné à l&#39;affichage dans l&#39;interface.
-* **lastModified (datetime)**: cet attribut renseigne sur la date et l&#39;heure de la dernière modification. Il est de la forme &quot;Date Heure&quot;. Les valeurs affichées sont celles du serveur. L&#39;heure est donnée au format UTC.
-* **library (boolean)**: utilisation du schéma comme librairie et non comme entité. Ce schéma peut donc être référencé par d&#39;autres schémas grâce aux attributs &quot;@ref&quot; et &quot;@template&quot;.
+* **lastModified (datetime)** : cet attribut fournit des informations sur la date et l’heure de la dernière modification. Elle comporte un formulaire « Date et heure ». Les valeurs affichées proviennent du serveur. L’heure s’affiche au format UTC.
+* **library (boolean)** : utilisation du schéma en tant que bibliothèque et non en tant qu&#39;entité. Ce schéma peut donc être référencé par d&#39;autres schémas grâce aux attributs « @ref » et « @template ».
 * **mappingType (string)**:
 
    * &quot;sql&quot;: mapping base de données
@@ -70,14 +70,14 @@ La présentation du schéma est disponible dans [À propos de la référence du 
 
 * **modifiedBy-id (long)**: correspond à l&#39;identifiant de l&#39;opérateur qui a modifié le schéma.
 * **name (string)**: nom unique du schéma.
-* **namespace (string)**: espace de noms du schéma (espace par défaut : nms, xtk, nl). Lors de la création d&#39;un nouveau schéma, il est conseillé d&#39;utiliser un namespace spécifique au projet.
-* **useRecycleBin (boolean)**: activation de la corbeille dans l&#39;application. Les enregistrements supprimés seront placés en corbeille avant la destruction définitive. Cette fonctionnalité est disponible uniquement pour le module &quot;Diffusions&quot;.
+* **namespace (string)**: espace de noms du schéma (espace par défaut : nms, xtk, nl). Lors de la création d’un schéma pour un projet, nous vous recommandons d’utiliser un espace de noms dédié.
+* **useRecycleBin (booléen)** : active la fonctionnalité de corbeille dans l&#39;application. Les enregistrements supprimés seront placés dans la corbeille avant la suppression finale. Cette fonction n’est disponible qu’en mode « Diffusion ».
 * **view (boolean)**: s&#39;il est activé (@view=&quot;true&quot;), le schéma sera utilisé comme une vue. L’assistant de mise à jour de la structure de la base ne tiendra pas compte du schéma. Cette option permet le plus souvent de référencer des tables externes.
-* **xtkschema (string)**: nom du schéma définissant la grammaire des schémas (par défaut xtk:srcSchema).
+* **xtkschema (string)** : nom du schéma qui définit la grammaire du schéma (xtk:srcSchema par défaut).
 
-## Exemples       {#examples-11}
+## Exemples {#examples-11}
 
-Élément `<srcschema>` du schéma d’usine « nms:delivery »
+`<srcschema>` du schéma d&#39;usine « nms:delivery »
 
 ```
 <srcSchema desc="Defines all the settings of a delivery (or delivery template)."  

@@ -6,9 +6,9 @@ feature: Schema Extension
 role: Developer
 exl-id: 9e10b24e-c4de-4e76-bbed-0d05f62120b7
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
-source-wordcount: '1012'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1031'
+ht-degree: 86%
 
 ---
 
@@ -34,7 +34,7 @@ Une fois que vous avez créé une extension ou un nouveau schéma, il est recomm
 
 ## Énumérations {#enumerations}
 
-Les énumérations sont définies avant l&#39;élément principal du schéma. Elles permettent d&#39;afficher des valeurs dans une liste afin de restreindre les choix de l&#39;utilisateur pour un champ donné.
+Les énumérations sont définies en premier, avant l&#39;élément principal du schéma. Elles permettent d’afficher des valeurs dans une liste afin de restreindre les choix de l’utilisateur ou de l’utilisatrice pour un champ donné.
 
 Exemple:
 
@@ -55,7 +55,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 >[!NOTE]
 >
->Vous pouvez également ajouter des énumérations gérées par l&#39;utilisateur (accessibles depuis le noeud **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]**) pour spécifier les valeurs d&#39;un champ donné. Cela peut être judicieux si vous envisagez d&#39;utiliser votre énumération en dehors du schéma sur lequel vous travaillez.
+>Vous pouvez également utiliser des énumérations gérées par l&#39;utilisateur (généralement sous **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** ) pour spécifier les valeurs d&#39;un champ donné. Il s’agit en fait d’énumérations globales, un meilleur choix si votre énumération peut être utilisée en dehors du schéma spécifique dans lequel vous travaillez.
 
 Pour en savoir plus sur les énumérations, consultez les sections [Enumérations](../../configuration/using/schema-structure.md#enumerations) et [`<enumeration>`Elément](../../configuration/using/schema/enumeration.md).
 
@@ -84,7 +84,7 @@ L’attribut **xpath** pointe vers le champ de votre schéma que vous souhaitez 
 
 >[!IMPORTANT]
 >
->Les index permettent d&#39;optimiser les performances des requêtes SQL en termes de lecture mais aussi d&#39;écriture. Ils doivent donc être utilisés avec précaution.
+>Il est important de se rappeler que les gains de performances de lecture des requêtes SQL fournis par les index s’accompagnent également d’un accès aux performances lors de l’écriture d’enregistrements. Les index doivent donc être utilisés avec précaution.
 
 Pour en savoir plus sur les index, consultez la section [Champs indexés](../../configuration/using/database-mapping.md#indexed-fields).
 
@@ -171,7 +171,7 @@ Exemple de champ XML également stocké dans un champ SQL et qui a un attribut *
 
 ## Liens {#links}
 
-Les liens sont parmi les derniers éléments de l&#39;élément principal de votre schéma. Ils définissent comment les différents schémas de votre instance sont associés les uns aux autres.
+Les liens sont certains des derniers éléments de l’élément principal de votre schéma. Ils définissent la manière dont tous les différents schémas de votre instance sont liés les uns aux autres.
 
 Les liens sont déclarés dans le schéma qui contient la **clé étrangère** de la table à laquelle il est lié.
 

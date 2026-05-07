@@ -10,8 +10,8 @@ hide: true
 exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 100%
+source-wordcount: '1133'
+ht-degree: 87%
 
 ---
 
@@ -32,7 +32,7 @@ Pour un environnement Microsoft Windows, les étapes de migration sont les suiv
 
 Arrêtez d&#39;abord tous les processus accédant à la base de données, sur toutes les machines concernées.
 
-1. Les serveurs utilisant le module de redirection (service **webmdl**) doivent être arrêtés. Pour IIS, exécutez la commande suivante :
+1. Tous les serveurs utilisant le module de redirection (service **webmdl**) doivent être arrêtés. Pour IIS, exécutez la commande suivante :
 
    ```
    iisreset /stop
@@ -45,7 +45,7 @@ Arrêtez d&#39;abord tous les processus accédant à la base de données, sur to
    nlserver stop mtachild@<instance name>
    ```
 
-1. Arrêtez les services Adobe Campaign sur tous les serveurs. Connectez-vous en tant qu&#39;administrateur et exécutez la commande :
+1. Arrêtez les services Adobe Campaign sur tous les serveurs. Connectez-vous avec des droits d’administrateur et exécutez la commande suivante :
 
    ```
    net stop nlserver6
@@ -61,7 +61,7 @@ Arrêtez d&#39;abord tous les processus accédant à la base de données, sur to
 
 -->
 
-1. Sur chaque serveur, vérifiez que les services Adobe Campaign ont bien été arrêtés. Connectez-vous en tant qu&#39;administrateur et exécutez la commande :
+1. Pour chaque serveur, vérifiez que les services Adobe Campaign sont correctement arrêtés. Connectez-vous avec des droits d’administrateur et exécutez la commande suivante :
 
    ```
    tasklist /FI "IMAGENAME eq nlserver*"
@@ -75,7 +75,7 @@ Arrêtez d&#39;abord tous les processus accédant à la base de données, sur to
    nlserver.exe                  3192 Console                    1     13,108 K
    ```
 
-1. Si un ou plusieurs processus Adobe Campaign sont encore actifs ou bloqués au bout de quelques minutes, forcez leur arrêt. Connectez-vous en tant qu&#39;administrateur et exécutez la commande :
+1. Si un ou plusieurs processus Adobe Campaign sont encore actifs ou bloqués au bout de quelques minutes, forcez leur arrêt. Connectez-vous avec des droits d’administrateur et exécutez la commande suivante :
 
    ```
    taskkill /IM nlserver* /T
@@ -189,7 +189,7 @@ La procédure de sauvegarde d’Adobe Campaign 6.1 est décrite ci-après.
    >
    >Par mesure de précaution, nous vous recommandons vivement de zipper le dossier **Adobe Campaign v6.back**, et de le conserver à un autre emplacement que le serveur, sur un support sécurisé.
 
-1. Dans la console de gestion des services Windows, désactivez le démarrage automatique du service Serveur Applicatif 6.11. Vous pouvez également utiliser la commande suivante :
+1. Dans la console de gestion des services Windows, désactivez le démarrage automatique du service de serveur d’applications 6.11. Vous pouvez également utiliser la commande suivante :
 
    ```
    sc config nlserver6 start= disabled
@@ -285,7 +285,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
 
    * Cliquez avec le bouton droit sur le site utilisé pour la version précédente d&#39;Adobe Campaign et sélectionnez **[!UICONTROL Modifier les liaisons]**.
    * Pour chaque type de port d&#39;écoute (**[!UICONTROL http]** et/ou **[!UICONTROL https]**), sélectionnez la ligne correspondante et cliquez sur **[!UICONTROL Modifier]**.
-   * Saisissez un autre port que celui qui est renseigné. Par défaut, le port d&#39;écoute est 80 pour le http et 443 pour le https. Vérifiez que le nouveau port est disponible.
+   * Entrez un port différent. Par défaut, le port d’écoute est 80 pour http et 443 pour https. Vérifiez que le nouveau port est disponible.
 
      ![](assets/_migration_iis_3_611.png)
 
@@ -302,7 +302,7 @@ Les étapes de déploiement d&#39;Adobe Campaign sont les suivantes :
    * Renseignez le nom du site, par exemple **Adobe Campaign v7**.
    * Le chemin d&#39;accès au répertoire de base du site web n&#39;est pas utilisé, mais le champ **[!UICONTROL Chemin d&#39;accès physique]** doit être renseigné. Saisissez le chemin par défaut du système IIS : **C:\inetpub\wwwroot**.
    * Cliquez sur le bouton **[!UICONTROL Se connecter en tant que]**, et vérifiez que l&#39;option **[!UICONTROL Utilisateur de l&#39;application]** est sélectionnée.
-   * Dans les champs **[!UICONTROL adresse IP]** et **[!UICONTROL Port]**, vous pouvez laisser les valeurs par défaut. Si vous souhaitez utiliser d&#39;autres valeurs, vérifiez que l&#39;adresse IP et/ou le port sont disponibles.
+   * Vous pouvez laisser les valeurs par défaut dans les champs **[!UICONTROL Adresse IP]** et **[!UICONTROL Port]**. Si vous souhaitez utiliser d’autres valeurs, assurez-vous que l’adresse IP et/ou le port sont disponibles.
    * Cochez la case **[!UICONTROL Démarrage immédiat du site Web]**.
 
      ![](assets/_migration_iis_5_7.png)

@@ -8,7 +8,7 @@ exl-id: 7b562dba-7e4b-40a7-91db-7b9379de44ca
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-L&#39;activité **[!UICONTROL Cellules]** propose une vue des différents sous-ensembles sous forme de colonnes de données. Elle permet de faciliter la manipulation de ces sous-ensembles, lorsqu&#39;ils sont nombreux. Elle est également conçue pour favoriser les possibilités de personnalisation.
+L&#39;activité **[!UICONTROL Cellules]** fournit une vue des différents sous-ensembles sous la forme de colonnes de données. Il facilite la manipulation des sous-ensembles et est également conçu pour encourager les possibilités de personnalisation.
 
 ![](assets/wf_split_cells.png)
 

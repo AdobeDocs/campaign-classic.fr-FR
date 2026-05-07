@@ -10,8 +10,8 @@ hide: true
 exl-id: ad71dead-c0ca-42d5-baa8-0f340979231a
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 100%
+source-wordcount: '476'
+ht-degree: 84%
 
 ---
 
@@ -81,9 +81,9 @@ Après avoir exécuté **postupgrade**, vérifiez et configurez les éléments s
 
 * Pages miroir
 
-  Dans la version v6.x, le bloc de personnalisation des pages miroir a changé. Cette nouvelle version renforce la sécurité lors de l&#39;accès à ces pages.
+  Le bloc de personnalisation de la page miroir a été modifié avec v6.x. Cette nouvelle version améliore la sécurité lors de l’accès à ces pages.
 
-  Si vous utilisez le bloc de personnalisation de la version v5 dans vos messages, les pages miroir ne s&#39;affichent pas. Adobe recommande vivement d&#39;utiliser le nouveau bloc de personnalisation lors de l&#39;insertion d&#39;une page miroir dans vos messages.
+  Si vous avez utilisé le bloc de personnalisation v5 dans vos messages, l’affichage de la page miroir échoue. Adobe recommande vivement d’utiliser le nouveau bloc de personnalisation lors de l’insertion d’une page miroir dans vos messages.
 
   Toutefois, à titre de solution temporaire (et comme les pages miroir sont toujours actives), vous pouvez revenir à l’ancien bloc de personnalisation pour éviter ce problème en modifiant l’option **[!UICONTROL XtkAcceptOldPasswords]** et en la définissant sur **[!UICONTROL 1]**. L’utilisation du nouveau bloc de personnalisation v6.x n’en sera pas affectée.
 
@@ -93,7 +93,7 @@ Après avoir exécuté **postupgrade**, vérifiez et configurez les éléments s
 
 * Conflits
 
-  La migration étant effectuée au travers d&#39;un postupgrade, des conflits peuvent apparaître au niveau des rapports, formulaires ou applications web. Ces conflits peuvent être résolus manuellement depuis la console.
+  La migration est effectuée par l&#39;intermédiaire d&#39;un postupgrade et des conflits peuvent apparaître dans les rapports, les formulaires ou les applications web. Ces conflits peuvent être résolus à partir de la console.
 
 * Tomcat
 

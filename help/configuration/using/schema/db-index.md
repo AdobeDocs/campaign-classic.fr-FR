@@ -5,9 +5,9 @@ description: élément dbindex
 feature: Schema Extension
 exl-id: d7d1e427-12e0-4f07-9e01-d184dbe2ebf1
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
-workflow-type: ht
-source-wordcount: '338'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '341'
+ht-degree: 52%
 
 ---
 
@@ -40,11 +40,11 @@ Cet élément permet de définir un index associé à une table.
 
 ## Usage et contexte d&#39;utilisation {#use-and-context-of-use-3}
 
-Il est possible de définir plusieurs index. Un index peut référencer un ou plusieurs champs de la table. Généralement, la déclaration des index suit la définition de l&#39;élément principal du schéma.
+Il est possible de définir plusieurs index. Un index peut référencer un ou plusieurs champs de la table. La déclaration de l’index suit généralement la définition de l’élément de schéma principal.
 
 L&#39;ordre des éléments `<keyfield>` définis dans un `<dbindex>` est très important. Le premier `<keyfield>` doit être le critère d&#39;indexation sur lequel reposent principalement les requêtes.
 
-Le nom de l’index dans la base de données est calculé par concaténation du nom de la table et du nom de l’index. Exemple : Nom de la table : « Sample », Namespace : « Cus », nom de l’index : « MyIndex » - nom du champ de l’index lors de la requête de création de l’index : « CusSample_myIndex ».
+Le nom de l&#39;index en base est calculé par concaténation du nom de la table et du nom de l&#39;index. Par exemple : Nom de la table « Sample », Espace de noms « Cus », nom de l&#39;index « MyIndex »-> nom du champ de l&#39;index lors de la requête de création de l&#39;index : « CusSample_myIndex ».
 
 ## Description des attributs {#attribute-description-3}
 
@@ -54,18 +54,18 @@ Le nom de l’index dans la base de données est calculé par concaténation du 
 
   Les valeurs accessibles sont:
 
-   * &quot;none&quot; : Réconciliation seule. Signifie qu&#39;Adobe Campaign va retrouver l&#39;élément sans le mettre à jour ou générer une erreur s&#39;il n&#39;existe pas.
-   * &quot;insertOrUpdate&quot; : Mise à jour avec insertion. Signifie qu&#39;Adobe Campaign va mettre à jour l&#39;élément ou le créer s&#39;il n&#39;existe pas.
-   * &quot;insert&quot; : Insertion. Signifie qu&#39;Adobe Campaign va insérer l&#39;élément sans vérifier s&#39;il existe.
-   * &quot;update&quot; : Mise à jour. Signifie qu&#39;Adobe Campaign va mettre à jour l&#39;élément ou générer une erreur s&#39;il n&#39;existe pas.
-   * &quot;delete&quot; : Suppression. Signifie qu&#39;Adobe Campaign va retrouver et supprimer l&#39;élément.
+   * « none » : réconciliation seule. Cela signifie qu’Adobe Campaign récupérera l’élément sans le mettre à jour ou générer une erreur s’il n’existe pas.
+   * « insertOrUpdate » : mise à jour avec insertion. Cela signifie qu’Adobe Campaign mettra à jour l’élément ou le créera s’il n’existe pas.
+   * « insert » : insertion. Cela signifie qu’Adobe Campaign insérera l’élément sans vérifier s’il existe.
+   * « update » : mise à jour. Cela signifie qu&#39;Adobe Campaign va mettre à jour l&#39;élément ou générer une erreur s&#39;il n&#39;existe pas.
+   * « delete » : suppression. Cela signifie qu’Adobe Campaign récupérera et supprimera des éléments.
 
 * **applicableIf (string)**: condition de prise en compte de l&#39;index - reçoit une XTK expression.
 * **label (string)**: libellé de l&#39;index.
 * **name (MNTOKEN)**: nom unique de l&#39;index.
 * **unique (boolean)**: si cette option est activée (@unique=&quot;true&quot;), alors cet attribut garantie l&#39;unicité de l&#39;index sur l&#39;ensemble des champs qui le composent.
 
-## Exemples       {#examples-3}
+## Exemples {#examples-3}
 
 Création d’un index sur le champ « id ». (L’attribut « @unique » sur l’élément `<dbindex>` déclenche l’ajout du mot clé SQL « UNIQUE » lorsque l’index est créé dans la base de données (requête)).
 

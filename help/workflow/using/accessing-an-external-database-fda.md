@@ -8,7 +8,7 @@ exl-id: 9500a7ba-263d-425b-8cc3-b111c6b9108f
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '97'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
@@ -25,4 +25,4 @@ Plusieurs activités permettent d&#39;interagir avec les données d&#39;un base 
 * Enrichissement
 * Chargement de données.
 
-L&#39;utilisation de l&#39;option FDA dépend de votre contrat de licence Adobe Campaign. Le paramétrage de cette option ainsi que les bonnes pratiques et limitations liées à son utilisation sont détaillées dans cette [section](../../installation/using/about-fda.md).
+L&#39;utilisation de l&#39;option FDA dépend de votre licence Adobe Campaign. La configuration de cette option, ainsi que les bonnes pratiques et limites de son utilisation, sont détaillées dans cette [section](../../installation/using/about-fda.md).

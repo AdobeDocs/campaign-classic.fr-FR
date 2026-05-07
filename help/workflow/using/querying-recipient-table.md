@@ -8,7 +8,7 @@ exl-id: 5b037798-b092-4c98-9f6a-4af7fc7941c6
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 97%
+ht-degree: 64%
 
 ---
 
@@ -41,7 +41,7 @@ Pour réaliser cet exemple, les étapes sont les suivantes :
 
    ![](assets/query_editor_03.png)
 
-1. Triez les colonnes en fonction de l&#39;ordre d&#39;affichage souhaité. Ici, triez les numéros de compte dans l’ordre décroissant et les noms par ordre alphabétique. Cliquez sur **[!UICONTROL Suivant]**.
+1. Triez les colonnes pour les afficher dans le bon ordre. Ici, nous voulons trier les numéros de compte par ordre décroissant et les noms par ordre alphabétique. Cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/query_editor_04.png)
 
@@ -52,7 +52,7 @@ Pour réaliser cet exemple, les étapes sont les suivantes :
 
    ![](assets/query_editor_05.png)
 
-1. A ce stade de l&#39;exemple, vous pouvez cliquer sur le bouton **[!UICONTROL Répartition des valeurs]**. Il permet d&#39;obtenir une répartition en fonction du domaine d&#39;email des prospects. Un pourcentage est donné pour chaque domaine d&#39;email de la base. Les domaines autres que &quot;free.fr&quot; restent affichés car le filtre n&#39;est pas encore appliqué.
+1. Si nécessaire, cliquez sur le bouton **[!UICONTROL Répartition des valeurs]** pour visualiser une répartition selon le domaine d&#39;email des prospects. Un pourcentage est disponible pour chaque domaine d&#39;e-mail de la base de données. Les domaines autres que « orange.co.uk » sont affichés jusqu’à ce que le filtre soit appliqué.
 
    Le résumé de la requête s&#39;affiche au bas de la fenêtre, soit : **Domaine de l&#39;email égal à &#39;free.fr&#39;**.
 
@@ -66,17 +66,17 @@ Pour réaliser cet exemple, les étapes sont les suivantes :
 
    ![](assets/query_editor_08.png)
 
-1. Accédez à la fenêtre **[!UICONTROL Formatage des données]**. Vérifiez l&#39;ordre des colonnes. Déplacez la ligne &quot;Ville&quot; pour la remonter après le &quot;N° de compte&quot;.
+1. Vous accédez alors à la fenêtre **[!UICONTROL Formatage des données]**. Vérifiez l’ordre des colonnes. Déplacez la colonne « Ville » vers le haut sous la colonne « Numéro de compte ».
 
    Décochez la ligne &quot;Prénom&quot; pour ne plus l&#39;afficher en résultat.
 
    ![](assets/query_editor_nveau_15.png)
 
-1. Dans la fenêtre **[!UICONTROL Prévisualisation des données]**, cliquez sur **[!UICONTROL Lancer la prévisualisation des données]**. Cette fonction calcule le résultat de la requête.
+1. Dans la fenêtre **[!UICONTROL Aperçu des données]**, cliquez sur **[!UICONTROL Démarrer l&#39;aperçu des données]**. Cette fonction calcule le résultat de la requête.
 
    L&#39;onglet **[!UICONTROL Résultat en colonnes]** vous présente le résultat de la requête en colonnes.
 
-   Le résultat ne comporte que les destinataires dont le domaine d&#39;email est « free.fr » et ne vivant pas à Paris. La colonne « Prénom » n&#39;est pas affichée car elle a été décochée à l&#39;étape précédente. Les numéros de compte sont triés de manière descendante.
+   Le résultat affiche tous les destinataires avec un domaine d’e-mail « orange.co.uk » qui ne vivent pas à Londres. La colonne « Prénom » n’est pas affichée, car elle n’a pas été cochée lors de l’étape précédente. Les numéros de compte sont triés par ordre décroissant.
 
    ![](assets/query_editor_nveau_12.png)
 

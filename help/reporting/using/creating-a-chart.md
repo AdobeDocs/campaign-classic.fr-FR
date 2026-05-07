@@ -6,9 +6,9 @@ feature: Reporting, Monitoring
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: d32b614f-82c1-4363-816c-4ebedaa5cfe9
 source-git-commit: f90df5a5e5b3a2317d86ff2919560ded38f44f44
-workflow-type: ht
-source-wordcount: '562'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '565'
+ht-degree: 85%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-Les données de la base peuvent également être collectées et affichées dans un graphique. Adobe Campaign vous propose un ensemble de représentations graphiques possibles dont le paramétrage général est présenté ci-après.
+Les données de la base peuvent également être collectées et affichées dans un graphique. Adobe Campaign fournit un ensemble de représentations graphiques. Leur configuration est présentée ci-dessous.
 
 Comme les tableaux, les graphiques sont insérés directement dans une page de rapport, à partir du menu contextuel ou de la barre d&#39;outils.
 
@@ -28,7 +28,7 @@ Pour créer un graphique dans un rapport, les étapes sont les suivantes :
 
    ![](assets/s_advuser_report_page_activity_04.png)
 
-1. Saisissez le nom du graphique et la légende associée. Au besoin, vous pouvez modifier la position de la légende, à partir de la liste déroulante correspondante.
+1. Saisissez un nom et une légende. Si nécessaire, vous pouvez modifier la position de la légende à l’aide de la liste déroulante.
 
    ![](assets/s_ncs_advuser_report_wizard_018.png)
 
@@ -50,7 +50,7 @@ Pour créer un graphique dans un rapport, les étapes sont les suivantes :
 
 ## Types de graphiques et leurs variantes {#chart-types-and-variants}
 
-Adobe Campaign propose différents types de représentations graphiques. Ils sont présentés ci-après.
+Adobe Campaign propose différents types de représentations graphiques. Elles sont détaillées ci-dessous.
 
 Le type de graphique est sélectionné lors de son insertion dans la page.
 
@@ -132,8 +132,8 @@ Dans les graphiques, vous pouvez afficher des statistiques sur les données coll
 
 Ces statistiques sont définies à partir de la section **[!UICONTROL Paramètres des séries]** de l&#39;onglet **[!UICONTROL Données]**.
 
-Pour créer une nouvelle statistique, cliquez sur l&#39;icône **[!UICONTROL Ajouter]** et paramétrez la fenêtre correspondante. Les types de calculs possibles sont présentés ci-après.
+Pour créer une nouvelle statistique, cliquez sur l’icône **[!UICONTROL Ajouter]** et configurez la fenêtre appropriée. Les types de calcul disponibles sont détaillés ci-dessous.
 
 ![](assets/reporting_add_statistics.png)
 
-Pour plus d’informations, consultez [cette section](../../reporting/using/using-the-descriptive-analysis-wizard.md#statistics-calculation).
+Voir à ce propos [cette section](../../reporting/using/using-the-descriptive-analysis-wizard.md#statistics-calculation).

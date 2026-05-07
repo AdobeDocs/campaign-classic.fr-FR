@@ -9,8 +9,8 @@ topic-tags: additional-configurations
 exl-id: 7250b885-0606-466a-bfc2-6dd3cc5a012d
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 100%
+source-wordcount: '301'
+ht-degree: 45%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 100%
 
 
 
-Il est possible de configurer une zone de mémoire tampon afin d’augmenter les performances d’Interaction entrante en désynchronisant le calcul des propositions d’offre. Cette configuration est à effectuer dans le fichier de configuration propre à l’instance (config-Instance.xml).
+Vous pouvez configurer une zone de mémoire tampon pour augmenter les performances d&#39;Interaction entrante en désynchronisant les calculs des propositions d&#39;offres. Cette configuration doit être effectuée dans le propre fichier de configuration de l’instance (config-Instance.xml).
 
 Dans Adobe Campaign, une **zone de mémoire tampon** a été introduite dans le module Interaction. Elle permet **d&#39;augmenter les performances** d&#39;Interaction entrant en désynchronisant le calcul des propositions, du stockage.
 
 Il concerne uniquement interaction entrant, soit pour un appel (avec ou sans données d&#39;appel), soit pour une mise à jour de statut (updateStatus).
 
-Afin d&#39;éviter une file d&#39;attente lors de l&#39;écriture des propositions liées à un destinataire, un nouveau processus génère une **zone de mémoire tampon** qui permet l&#39;**écriture asynchrone** des propositions. Cette zone de mémoire de tampon est lue et vidée de façon périodique. La période par défaut correspond environ à une seconde. Par conséquent, l&#39;écriture des propositions est regroupée.
+Pour éviter une file d&#39;attente lors de l&#39;écriture de propositions relatives à un destinataire, un nouveau processus génère une **zone de mémoire tampon de données** qui permet l&#39;écriture de propositions de manière **asynchrone**. Cette zone tampon de données est périodiquement lue et vidée. La période par défaut est d&#39;environ une seconde.La rédaction des propositions est donc regroupée.
 
 >[!NOTE]
 >
@@ -34,13 +34,13 @@ La **configuration** de la zone de mémoire tampon est à effectuer dans le fich
 
 >[!CAUTION]
 >
->Pour les déploiements hébergés par Adobe, certaines configurations peuvent uniquement être effectuées par Adobe, comme l&#39;accès aux fichiers de configuration de serveur et d’instance. Pour en savoir plus sur les différents déploiements, consultez la section [Modèles d&#39;hébergement](../../installation/using/hosting-models.md) ou [cette page](../../installation/using/capability-matrix.md).
+>Certaines configurations ne peuvent être effectuées que par Adobe pour les déploiements hébergés par Adobe. Par exemple, pour accéder aux fichiers de configuration du serveur et de l’instance. Pour en savoir plus sur les différents déploiements, consultez la section [Modèles d&#39;hébergement](../../installation/using/hosting-models.md) ou [cette page](../../installation/using/capability-matrix.md).
 >
->Tout changement effectué sur la configuration demande un redémarrage du serveur web (Apache / IIS) et des processus Adobe Campaign.\
->Lors du paramétrage de la zone de mémoire tampon, veillez à disposer d&#39;une configuration matériel adaptée (quantité de mémoire vive).
+>Toute modification apportée à la configuration nécessite un redémarrage du serveur web (Apache:IIS) et des processus Adobe Campaign.\
+>Après avoir configuré la zone de mémoire tampon, vérifiez qu&#39;une configuration matérielle adaptée est disponible. (quantité de mémoire présente).
 
 
-Lors du paramétrage de la zone de mémoire tampon, veillez à disposer d&#39;une configuration matériel adaptée (quantité de mémoire vive).
+Après avoir configuré la zone de mémoire tampon, vérifiez qu&#39;une configuration matérielle adaptée est disponible. (quantité de mémoire présente).
 
 La définition du démon d’écriture (processus nommé : interactiond) est la suivante :
 

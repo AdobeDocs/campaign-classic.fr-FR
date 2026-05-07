@@ -6,20 +6,20 @@ feature: Configuration, Instance Settings
 role: Developer
 exl-id: f251eb21-0f3c-4b46-927a-57a3291e705f
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 100%
+ht-degree: 50%
 
 ---
 
 # Tracking anonyme{#anonymous-tracking}
 
-Adobe Campaign permet d’associer les informations de tracking Web collectées à un destinataire lorsqu’il navigue anonymement sur votre site. En effet, lorsqu’un internaute navigue sur les pages tagguées de votre site web, ses informations de navigation sont collectées. Lorsqu’il clique dans un email envoyé via Adobe Campaign, il est identifié et les informations lui sont automatiquement rattachées.
+Adobe Campaign permet d&#39;associer les informations de tracking Web collectées à un destinataire lorsqu&#39;il navigue anonymement sur votre site. Lorsqu’un utilisateur parcourt les pages balisées de votre site web, ses informations de navigation sont collectées. Lorsqu’il clique dans un e-mail envoyé par Adobe Campaign, il est identifié et les informations lui sont automatiquement liées.
 
 >[!IMPORTANT]
 >
->La mise en place du tracking anonyme sur un site peut entraîner la collecte de très nombreux logs de tracking, et affecter le bon fonctionnement de la base de données. Il doit être configuré avec précaution sur votre site.\
->Les logs de tracking sont enregistrés dans la base de données jusqu’à la purge des données de tracking. La fréquence de purge est configurée à l’aide de l’assistant de déploiement. Consultez à ce propos [cette section](../../installation/using/deploying-an-instance.md#purging-data).
+>La configuration du tracking anonyme sur un site web peut déclencher la collecte d&#39;une quantité importante de logs de tracking, ce qui impacte le fonctionnement de la base de données. Configurez-le avec soin.\
+>Les logs de tracking sont enregistrés dans la base de données jusqu’à la purge des données de tracking. Utilisez l’assistant de déploiement pour configurer la fréquence de purge. Voir à ce propos [cette section](../../installation/using/deploying-an-instance.md#purging-data).
 
 Pour activer le tracking Web anonyme sur votre instance, les éléments suivants doivent être configurés :
 

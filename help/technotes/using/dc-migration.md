@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 2b282221-d048-4f6e-b52e-f8e584af2c0e
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '1533'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1557'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Vous êtes un client important d’Adobe Campaign Classic et nous nous engageons à vous offrir la meilleure expérience et à optimiser la valeur créée. Au fil des ans, nous avons réalisé l’intérêt et la fiabilité de l’hébergement de nos clients dans le cloud.  Dans le cadre de notre [Initiative de mise à niveau annuelle](../../rn/using/rn-overview.md#yearly-upgrade), nous effectuons la migration de tous nos clients vers Adobe Managed Services (cloud public d’AWS) pour offrir des services plus fiables et de meilleure qualité.
 
-Ce programme a trois objectifs principaux : 
+Ce programme a trois objectifs principaux :
 
 * Combler les vulnérabilités de sécurité identifiées en transférant l’infrastructure vers un environnement sécurisé et moderne (AWS).
 * Éliminer les processus d’extension potentiellement fastidieux, assurer l’accès à nos [agents MTA enrichis](../../delivery/using//sending-with-enhanced-mta.md) et améliorer l’ensemble des niveaux de service de maintenance.
@@ -78,7 +78,7 @@ Ce programme a trois objectifs principaux : 
 
 À cet effet, les comptes nécessitant cette migration recevront un email de la part d’Adobe avec un calendrier et un accès à la documentation. Cette notification indiquera que la migration de votre compte est planifiée.
 
-Il est possible de déclencher une migration en [ouvrant un nouveau ticket de support auprès de l’Assistance clientèle](https://experienceleague.adobe.com/fr?support-solution=Campaign#support). Utilisez la ligne d’objet « Migration vers AWS ».
+Il est possible de déclencher une migration en [ouvrant un nouveau ticket de support auprès de l’Assistance clientèle](https://experienceleague.adobe.com/?support-solution=Campaign&lang=fr#support). Utilisez la ligne d’objet « Migration vers AWS ».
 
 ### Cette migration est-elle obligatoire ?
 
@@ -135,7 +135,7 @@ Cas types :
 * HTTP, éventuellement dans les deux directions
 * SMPP (connexion aux fournisseurs de services SMS), Campaign en tant que client, changement d’adresse IP source
 
-En général, le client doit vérifier les éventuelles restrictions d’adresses IP sur ses pare-feu et les adapter en conséquence.*
+En règle générale, cela signifie que le client doit vérifier les restrictions IP possibles définies sur ses pare-feu et les adapter en conséquence.*
 
 **Serveurs Campaign**
 
@@ -152,7 +152,7 @@ Pour l’accès utilisateur et l’intégration des données, les noms définis 
 
 Cela signifie que le changement sera transparent pour les utilisateurs et les implémentations d’intégration des données si les noms de serveur n’ont pas été remplacés par des adresses IP codées en dur.
 
-### Préparation 
+### Préparation
 
 **Adresses IP servant à l’envoi d’e-mails**
 
@@ -162,7 +162,8 @@ Adobe attribuera le même nombre d’adresses IP au nouveau centre de données.
 
 La montée en réputation des nouvelles adresses IP peut commencer dès qu’elles sont mises en service.
 
-**Nettoyage de l’application** Le transfert de données entre centres de données entraîne les temps d’arrêt les plus importants.
+**Nettoyage de l’application**
+Le transfert de données entre centres de données entraîne les temps d’arrêt les plus importants.
 
 Les données sont stockées de deux manières :
 

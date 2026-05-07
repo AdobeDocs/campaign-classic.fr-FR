@@ -6,9 +6,9 @@ feature: Deliverability, Troubleshooting
 role: User
 exl-id: f94897c1-b44c-4100-ac50-a89b13fa6f2f
 source-git-commit: 0c639cc8b9636c190c868980ab5182a0eccb5f74
-workflow-type: ht
-source-wordcount: '662'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '674'
+ht-degree: 83%
 
 ---
 
@@ -22,9 +22,9 @@ Vous rencontrez un problème de délivrabilité ? La solution se trouve peut-ê
 
 Ce message signifie que vous avez atteint le seuil limite pour un MX spécifique et que vous devez attendre pour pouvoir envoyer un autre email au FAI.
 
-Dans Adobe Campaign, il existe une configuration à propos du nombre d&#39;emails pouvant être envoyé par heure. Ce quota doit être utilisé avec précaution car le nombre défini dans l&#39;instance se rapporte au nombre de connexions réalisées avec le FAI et non le nombre de messages réellement envoyés.
+Dans Adobe Campaign, il existe une configuration concernant le nombre d’e-mails par heure qui peuvent être envoyés. Ce paramétrage doit être utilisé avec précaution car le nombre défini dans l&#39;instance concerne le nombre de connexions réalisées avec le FAI et non le nombre d&#39;emails réellement envoyés.
 
-Une connexion peut donc utiliser une règle MX sans réussir l&#39;envoi d&#39;un email. Dans ce cas, une configuration avec une IP ou un nom de domaine à faible réputation devra tenter plusieurs connexions avant de réussir l&#39;envoi d&#39;un email. Pour chaque tentative un crédit Messages par heure sera utilisé. La performance de la campagne marketing sera fortement réduite.
+Cela signifie qu’une connexion peut utiliser une règle MX sans envoyer d’e-mail. Dans ce cas, une configuration avec une adresse IP ou un domaine à faible réputation devra essayer plusieurs connexions avant d&#39;envoyer un e-mail. Pour chaque tentative, un crédit de messages par heure sera utilisé. Par conséquent, les performances de la campagne marketing seront affectées de manière significative.
 
 Le message &quot;quotas atteints&quot; n’indique donc pas seulement un problème de configuration, mais peut aussi être lié à la réputation. Il est important d’analyser les messages d’erreur dans le [log SMTP](../../production/using/monitoring-processes.md#smtp-errors-per-domain).
 
@@ -68,7 +68,7 @@ Si le problème persiste, contactez les services commerciaux, les services charg
 * **Comment puis-je savoir si l&#39;une de mes adresses IP est sur une liste bloquée ? Comment supprimer mes adresses IP d’une liste bloquée ?**
 
   Pour vérifier si votre adresse IP se trouve sur une liste bloquée, vous pouvez utiliser différents sites web, tels que :
-   * [MX Toolbox](https://mxtoolbox.com/)
+   * [MX Toolbox](https://mxtoolbox.com/)
    * [Quelle est mon adresse IP ?](https://whatismyipaddress.com)
 
   En général, la vérification d&#39;une adresse IP renvoie une liste contenant les détails de la liste bloquée et le nom du site web qui a bloqué l&#39;adresse IP.

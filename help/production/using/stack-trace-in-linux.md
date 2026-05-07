@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: troubleshooting
 exl-id: 91662d6d-2177-4440-b31f-7b031bd953cb
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: ht
-source-wordcount: '130'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '149'
+ht-degree: 65%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 
 
-La **stack trace** représente une trace contenue dans un fichier de type **core**. Ce fichier est généré en cas d&#39;erreur sur la machine. Il peut permettre de connaître l&#39;origine de l&#39;erreur.
+Une **trace de pile** représente une trace contenue dans un fichier de type **core**. Ce fichier est généré en cas d&#39;erreur de machine. Il peut identifier l’origine de l’erreur.
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ La **stack trace** représente une trace contenue dans un fichier de type **core
 >* Il faut que **gdb - The GNU Debugger** soit installé sur la machine.
 >
 
-Le support technique d&#39;Adobe Campaign peut vous demander cette **stack trace**. Pour l&#39;obtenir, saisissez les commandes suivantes sous Linux :
+Le support technique d&#39;Adobe Campaign peut vous demander cette **stack trace**. Pour l&#39;obtenir, saisissez les commandes suivantes sous Linux :
 
 ```
 su - neolane

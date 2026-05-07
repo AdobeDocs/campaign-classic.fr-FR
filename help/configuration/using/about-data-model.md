@@ -6,8 +6,8 @@ feature: Data Model, Configuration
 role: Developer
 exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
-source-wordcount: '985'
+workflow-type: tm+mt
+source-wordcount: '1002'
 ht-degree: 100%
 
 ---

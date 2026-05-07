@@ -8,18 +8,18 @@ hide: true
 exl-id: 6d5b8584-4aa1-4d9a-89d9-d41da75dd323
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 100%
+source-wordcount: '114'
+ht-degree: 88%
 
 ---
 
 # À propos des typologies de campagne{#about-campaign-typologies}
 
-Le module d’optimisation des campagnes d’Adobe Campaign permet de contrôler, de filtrer et de surveiller l’envoi des diffusions. Pour éviter les conflits entre les campagnes, Adobe Campaign peut tester différentes combinaisons en appliquant des règles de contrainte spécifiques. Cela permet de s’assurer que les messages envoyés répondent aux attentes et aux besoins des clientes et clients et des politiques de communication de l’entreprise.
+Le module d’optimisation des campagnes d’Adobe Campaign permet de contrôler, de filtrer et de surveiller l’envoi des diffusions. Pour éviter les conflits entre les campagnes, Adobe Campaign peut tester différentes combinaisons en appliquant des règles de contrainte spécifiques. Elles permettent de s’assurer que les messages envoyés répondent aux attentes et aux besoins des clientes et clients et des politiques de communication de l’entreprise.
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#typologies-video)
 
-Selon votre offre, Campaign Optimization peut être inclus ou proposé sous la forme d&#39;un composant additionnel. Vérifiez votre contrat de licence.
+Selon votre offre, Campaign Optimization peut être inclus ou proposé sous la forme d&#39;un module complémentaire. Veuillez vérifier votre contrat de licence.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ During delivery preparation, recipients are excluded when criterion is met. You 
 
 This video explains how to implement fatigue management in Adobe Campaign by leveraging typology rules.
 
->[!VIDEO](https://video.tv.adobe.com/v/30590?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25090?quality=12)
 
 ### How to set up fatigue management using predefined filters
 
@@ -80,7 +80,7 @@ This video explains how to implement fatigue management in Adobe Campaign Classi
 
 >[!VIDEO](https://video.tv.adobe.com/v/25091?quality=12)
 
-Additional Campaign how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+Additional Campaign how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
 
 **Related topic**
 

@@ -8,7 +8,7 @@ exl-id: c7cface2-0837-4e6a-91dc-b8353010a7a4
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 100%
+ht-degree: 62%
 
 ---
 
@@ -22,13 +22,13 @@ Il peut s&#39;agir de la diffusion spécifiée par la transition, d&#39;une diff
 
 ![](assets/edit_diffusion_act.png)
 
-Si vous sélectionnez **[!UICONTROL Démarrer]**, l’activité effectue toutes les étapes requises pour démarrer la diffusion (calcul de la cible, préparation du contenu, diffusion). Si certaines de ces étapes ont déjà été effectuées par une activité de workflow précédente, elles ne seront plus exécutées. Par exemple, si l’estimation de la cible a déjà été effectuée par une activité de type **[!UICONTROL Diffusion]** (voir [Diffusion](delivery.md)), l’activité **[!UICONTROL Agir sur la diffusion]** lancera les étapes restantes (préparation et diffusion du contenu).
+Si vous sélectionnez **[!UICONTROL Démarrer]**, l&#39;activité effectue toutes les étapes nécessaires pour démarrer la diffusion (calcul de la cible, préparation du contenu, diffusion). Si certaines de ces étapes ont déjà été effectuées par une activité de workflow précédente, elles ne seront pas réexécutées. Par exemple, si l’estimation de la cible a déjà été effectuée par une activité de type **[!UICONTROL Diffusion]** (voir [Diffusion](delivery.md)), l’activité **[!UICONTROL Agir sur la diffusion]** lancera les étapes restantes (préparation et diffusion du contenu).
 
 Les options disponibles sont les suivantes :
 
 * **[!UICONTROL Générer une transition sortante]**
 
-  Crée une transition sortante qui sera activée à la fin de l&#39;exécution. Vous pouvez choisir de récupérer la cible de l&#39;action de diffusion en sortie, ou non.
+  Crée une transition sortante qui sera activée en fin d&#39;exécution. Vous pouvez choisir de récupérer ou non la cible de la diffusion sortante.
 
 * **[!UICONTROL Traiter les erreurs]**
 

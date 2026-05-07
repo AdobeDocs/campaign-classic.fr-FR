@@ -7,8 +7,8 @@ hide: true
 exl-id: cada78cb-658f-4b9e-8136-31c17cb1d82f
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 100%
+source-wordcount: '454'
+ht-degree: 79%
 
 ---
 
@@ -46,7 +46,7 @@ Avant de configurer l&#39;activité, vérifiez que les prérequis suivants sont 
 
    >[!CAUTION]
    >
-   >Il incombe à la personne chargée de l&#39;écriture du script SQL de s&#39;assurer que celui-ci est fonctionnel et que ses références (noms de champs, etc.) sont conformes au schéma sortant.
+   >Il incombe au rédacteur de script SQL de s’assurer que le script SQL est fonctionnel et que ses références (noms de champs, etc.) sont conformes au schéma sortant.
 
    Si vous souhaitez charger un code SQL existant, sélectionnez l&#39;option **[!UICONTROL Le code SQL est contenu dans une entité stockée dans la base]**. Les scripts SQL doivent être créés et stockés dans le menu **[!UICONTROL Administration]** / **[!UICONTROL Paramétrage]** / **[!UICONTROL Scripts SQL]**.
 
@@ -63,14 +63,14 @@ Avant de configurer l&#39;activité, vérifiez que les prérequis suivants sont 
      >
      >La valeur (&#39;nom&#39;) correspond au champ **[!UICONTROL Nom]** des propriétés de la transition.
 
-1. Si le script SQL contient déjà des commandes pour créer une table de travail sortante, désélectionnez l&#39;option **[!UICONTROL Créer automatiquement une table de travail]**. Sinon, une table de travail est automatiquement créée lorsque le workflow est exécuté.
+1. Si le script SQL contient déjà des commandes pour créer une table de travail sortante, désélectionnez l&#39;option **[!UICONTROL Créer automatiquement la table de travail]**. Dans le cas contraire, une table de travail est automatiquement créée une fois le workflow exécuté.
 1. Cliquez sur **[!UICONTROL OK]** pour valider la configuration de l&#39;activité.
 
-L&#39;activité est maintenant configurée. Elle est prête à être exécutée dans le workflow.
+L’activité est désormais configurée. Il est prêt à être exécuté dans le workflow.
 
 >[!CAUTION]
 >
->Une fois l&#39;activité exécutée, le nombre d&#39;enregistrements de la transition sortante est fourni à titre indicatif uniquement. Il peut varier en fonction du niveau de complexité du script SQL.
+>Une fois l’activité exécutée, le nombre d’enregistrements de transition sortante n’est qu’indicatif. Elle peut varier en fonction du niveau de complexité du script SQL.
 >  
 >Si lactivité est redémarrée, lintégralité du script est exécutée depuis le début, quel que soit le statut dexécution.
 

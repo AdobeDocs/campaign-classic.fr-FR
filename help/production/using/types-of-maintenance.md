@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: database-maintenance
 exl-id: 08e179aa-fd83-4c0a-879e-ab7aec168d92
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '505'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '528'
+ht-degree: 65%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 ## Maintenance au niveau applicatif {#application-maintenance}
 
-Adobe Campaign met à votre disposition un workflow intégré qui permet de planifier certaines tâches de maintenance. Il s&#39;agit du **workflow de nettoyage de la base** qui effectue les tâches suivantes :
+Adobe Campaign propose un workflow intégré qui permet de planifier certaines tâches de maintenance. Il s’agit du workflow **nettoyage de la base**. Ce workflow effectue les tâches suivantes :
 
 * suppression des enregistrements expirés,
 * suppression des enregistrements orphelins et réinitialisation du statut des objets qui ont expirés,
@@ -29,11 +29,11 @@ Adobe Campaign met à votre disposition un workflow intégré qui permet de pla
 
 >[!IMPORTANT]
 >
->Le workflow de nettoyage assure la maintenance au niveau applicatif et non celle du SGDB (à l&#39;exception de la mise à jour des statistiques). Il est cependant nécessaire d&#39;effectuer des opérations de maintenance sur la base. En effet, le fait que la tâche de nettoyage se déroule sans erreur ne signifie pas que la base de données soit totalement optimisée.
+>Notez que la tâche de nettoyage concerne principalement la maintenance au niveau de l&#39;application, et non au niveau du SGBDR (à l&#39;exception de la mise à jour des statistiques). Toutefois, des opérations de maintenance seront nécessaires sur la base de données. Même si le workflow de nettoyage de la base de données s’exécute correctement, cela ne signifie pas que le réglage de la base de données est optimal.
 
 ## Maintenance technique {#technical-maintenance}
 
-Le workflow de nettoyage de la base ne comprend aucun système pour planifier la maintenance de la base. C&#39;est à vous que revient la responsabilité de planifier la maintenance. Pour cela, vous pouvez, au choix :
+Le workflow de nettoyage de la base ne comprend aucun outil de maintenance de la base. C&#39;est à vous que revient la responsabilité d&#39;organiser la maintenance. Pour ce faire, vous pouvez effectuer l’une des opérations suivantes :
 
 * collaborer avec l&#39;administrateur de la base de données pour configurer la maintenance de la base avec des outils tiers,
 * utiliser le moteur de workflow disponible dans Adobe Campaign pour planifier et suivre les activités de maintenance.
@@ -45,9 +45,9 @@ Ces procédures de maintenance doivent être effectuées régulièrement. Il s&#
 
 ### Planifier la maintenance {#maintenance-schedule}
 
-Vous devez trouver le moment approprié pour effectuer les opérations de maintenance. Celles-ci peuvent avoir un impact important sur les performances de la base de données ou bloquer l&#39;application (du fait du verrouillage).
+Vous devez trouver les emplacements appropriés pour effectuer ces activités de maintenance. Ils peuvent avoir un impact important sur les performances de la base de données lors de l’exécution ou même bloquer l’application (en raison du verrouillage).
 
-Il est courant de lancer les tâches de maintenance une fois par semaine, pendant une période de faible activité et en dehors des périodes de sauvegarde, de rechargement de données ou de calcul des agrégats. Sur certains systèmes très sollicités il peut être nécessaire de le faire plus souvent.
+Ces tâches sont généralement exécutées une fois par semaine pendant une période de faible activité n’entrant pas en conflit avec les sauvegardes, le rechargement de données ou les calculs d’agrégats. Certains systèmes très sollicités nécessitent une maintenance plus fréquente.
 
 Une opération de maintenance plus importante, comme la reconstruction de toutes les tables peut être faite une fois par mois, de préférence lorsque les applications sont totalement arrêtées, le système étant alors inutilisable.
 
@@ -81,7 +81,7 @@ Pour reconstruire une table, plusieurs stratégies sont envisageables :
    <td> Duplication puis renommage et suppression<br /> </td> 
    <td> Cette opération consiste à créer une copie de la table et de ses index, à supprimer la table originelle puis à la remplacer par sa copie après l'avoir renommée.<br /> </td> 
    <td> Cette méthode est plus rapide que la première approche, car elle génère moins d'E/S (pas de copie en tant que fichier ni de lecture à partir de ce fichier).<br /> </td> 
-   <td> Requiert deux fois plus d'espace-disque.<br /> Tous les processus actifs qui accèdent à la table en écriture doivent être arrêtés. Toutefois, les processus de lecture ne sont pas affectés, car la table est échangée au dernier moment une fois la reconstruction effectuée. <br /> </td> 
+   <td> Nécessite deux fois plus d’espace.<br /> Tous les processus actifs qui écrivent dans la table pendant le processus doivent être arrêtés. Toutefois, les processus de lecture ne sont pas affectés, car la table est échangée au dernier moment une fois la reconstruction effectuée. <br /> </td> 
   </tr> 
  </tbody> 
 </table>

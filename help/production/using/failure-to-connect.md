@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: troubleshooting
 exl-id: 3c793dc1-9654-4289-a3d2-30c3078fd848
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: ht
-source-wordcount: '371'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '417'
+ht-degree: 77%
 
 ---
 
@@ -35,11 +35,11 @@ Vous pouvez effectuer les tests suivants. Si la connexion échoue toujours, cont
 <tbody> 
 <tr> 
 <td>Avez-vous accès à internet depuis votre ordinateur ?</td> 
-<td>Vérifiez que vous pouvez vous connecter à des sites sur Internet (par exemple). Si vous ne pouvez pas vous connecter, il s'agit d'un problème sur votre machine : contactez votre administrateur système.</td>
+<td>Vérifiez que vous pouvez vous connecter à des sites Web sur Internet (par exemple). Si vous ne pouvez pas vous connecter, le problème se produit sur votre ordinateur. Contactez votre administrateur système.</td>
 </tr>
 <tr> 
 <td>Pouvez-vous vous connecter sur le serveur hébergeant Adobe Campaign par un autre service ?</td> 
-<td>Connectez-vous en SSH ou tout autre moyen sur le serveur. En cas d’impossibilité, il y a un problème réseau chez votre hébergeur, contactez leur responsable de l’administration réseau.</td>
+<td>Connectez-vous au serveur via SSH ou tout autre moyen. Si cela s’avère impossible, votre société d’accueil rencontre un problème. Contactez leur administrateur système.</td>
 </tr>
 <tr> 
 <td>Le serveur Web répond-t-il ?</td> 
@@ -47,9 +47,8 @@ Vous pouvez effectuer les tests suivants. Si la connexion échoue toujours, cont
 </tr>
 <tr> 
 <td>L'intégration Adobe Campaign est-elle bien effectuée ?</td> 
-<td>Connectez-vous à l’URL <b>http(s)://&lt;urlserver&gt;/r/test</b> URL. Le serveur doit renvoyer le type de message suivant : &lt;redir status='OK' date='YYYY/DD HH:MM:SS' build='XXXX' host='&lt;hostname&gt;' localHost='&lt;server&gt;'/&gt;
-
-Si vous n’obtenez pas ce résultat, vérifiez que l’intégration est prise en compte dans la configuration de votre serveur Web.</td>
+<td>Connectez-vous à l’URL <b>http(s)://&lt;urlserver&gt;/r/test</b> URL. Le serveur doit renvoyer le type de message suivant : &lt;redir status='OK' date='YYYY/MM/DD HH:MM:SS' build='XXXX' host='&lt;hostname&gt;' localHost='&lt;server&gt;'/&gt;
+Si vous n’obtenez pas ce résultat, vérifiez dans la configuration de votre serveur web que l’intégration est prise en compte.</td>
 </tr>
 <tr> 
 <td>Connectez-vous à l’URL suivante : <b>http(s)://&lt;URLSERVER&gt;/nl/jsp/logon.jsp</b></td>

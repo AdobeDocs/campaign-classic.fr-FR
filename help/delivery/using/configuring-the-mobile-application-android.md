@@ -9,7 +9,7 @@ hide: true
 exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '1024'
 ht-degree: 100%
 
 ---
@@ -100,7 +100,7 @@ Après avoir créé votre service, vous devez maintenant créer votre applicatio
 
 1. Sélectionnez la **[!UICONTROL version de l’API]** : HTTP v1 ou HTTP (hérité). Ces fonctions sont présentées en détails dans [cette section](#select-api-version)
 
-1. Renseignez les champs **[!UICONTROL Firebase Cloud Messaging pour paramètres de connexion Android]** 
+1. Renseignez les champs **[!UICONTROL Firebase Cloud Messaging pour paramètres de connexion Android]**
 
 1. Cliquez sur **[!UICONTROL Terminer]**, puis sur **[!UICONTROL Enregistrer]**. Votre application Android est maintenant prête à être utilisée dans Campaign Classic.
 

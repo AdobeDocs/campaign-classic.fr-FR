@@ -6,9 +6,9 @@ feature: Reporting, Monitoring
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: afb11ab5-bd60-4262-9dd1-fcda19cdaca0
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '281'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 73%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-Ce chapitre propose la liste des rapports intégrés d&#39;Adobe Campaign, leur contenu et leur contexte d&#39;affichage. Les informations proposées ci-dessous vous permettront d&#39;éviter de créer des rapports déjà proposés dans la plateforme.
+Ce chapitre présente la liste des rapports natifs d&#39;Adobe Campaign, leur contenu et leur contexte. Les informations ci-dessous vous permettront d’éviter de créer des rapports déjà disponibles dans la plateforme.
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Les types de rapports disponibles sont les suivants :
 * Rapports de diffusion, voir la section [Rapports de diffusion](../../reporting/using/delivery-reports.md).
 * Rapports cumulés, voir la section [Rapports cumulés](../../reporting/using/cumulative-reports.md).
 
-Vous pouvez accéder aux rapports depuis la page d’accueil de la console cliente, le tableau de bord des rapports ou la liste des diffusions. Le mode d’affichage d’un rapport dépend de son contexte. La liste des principaux rapports est disponible sur la page d’accueil et permet d’accéder rapidement aux données des diffusions. Cette liste peut être modifiée selon vos besoins. Pour plus d’informations, consultez [cette section](../../reporting/using/about-reports-creation-in-campaign.md).
+Vous pouvez accéder aux rapports à partir de la page d’accueil de la console cliente, du tableau de bord des rapports ou de la liste des diffusions. Le mode d’affichage d’un rapport dépend de son contexte. La liste des principaux rapports est disponible sur la page d&#39;accueil et permet d&#39;accéder rapidement aux données de la diffusion. Cette liste peut être modifiée en fonction de vos besoins. Pour plus d’informations, consultez [cette section](../../reporting/using/about-reports-creation-in-campaign.md).
 
 Pour accéder aux rapports natifs de Campaign :
 

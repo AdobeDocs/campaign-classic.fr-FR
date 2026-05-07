@@ -7,8 +7,8 @@ hide: true
 exl-id: 5b05788f-498b-4a84-bdde-2852900f0129
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 98%
+source-wordcount: '245'
+ht-degree: 62%
 
 ---
 
@@ -37,17 +37,17 @@ Pour réaliser cet exemple, les étapes sont les suivantes :
    ![](assets/query_editor_nveau_27.png)
 
 1. Dans la fenêtre **[!UICONTROL Tri]**, cliquez sur **[!UICONTROL Suivant]** : aucun tri n&#39;est nécessaire dans cet exemple.
-1. Paramétrez le filtrage des données. Ici, vous allez restreindre la sélection aux contacts domiciliés à Paris.
+1. Paramétrez le filtrage des données. Ici, vous souhaitez limiter la sélection aux contacts qui vivent à Londres.
 
    ![](assets/query_editor_22.png)
 
    >[!NOTE]
    >
-   >Une valeur est sensible à la casse. Si la valeur &#39;paris&#39; est entrée dans la condition sans majuscule et si la liste des destinataires comporte le terme &quot;Paris&quot; avec une majuscule, la requête ne peut pas aboutir.
+   >Les valeurs respectent la casse. Si la valeur &#39;Londres&#39; est saisie dans la condition sans majuscule et que la liste des destinataires contient le mot « Londres » avec majuscule, la requête échoue.
 
 1. Dans la fenêtre **[!UICONTROL Formatage des données]**, cliquez sur **[!UICONTROL Suivant]** : aucun formatage n&#39;est nécessaire dans cet exemple.
 1. Dans la fenêtre de prévisualisation, cliquez sur **[!UICONTROL Lancer la prévisualisation des données]**.
 
-   Il y a trois valeurs distinctes dans un tri par genre : **2** correspond au genre féminin, **1** au genre masculin et la valeur **0** apparaît lorsque le genre est inconnu. Dans cet exemple, la liste comporte 14 femmes, 34 hommes et 2 personnes dont le genre n&#39;est pas renseigné.
+   Il existe trois valeurs distinctes pour chaque tri par genre : **2** pour le genre féminin, **1** pour le genre masculin et **0** lorsque le genre est inconnu. Dans cet exemple, la liste contient 10 femmes, 16 hommes et 2 personnes dont le genre n’est pas connu.
 
    ![](assets/query_editor_agregat_04.png)

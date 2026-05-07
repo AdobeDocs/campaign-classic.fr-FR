@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: managing-environments
 exl-id: e11fb28c-d530-45a2-862a-ff1c20975577
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 
 
-Deux types d&#39;opérateurs sont amenés à utiliser Interaction : un chargé d&#39;offres et un chargé de diffusion. Chacun dispose de droits spécifiques qui ne leur donnent accès qu&#39;à certaines parties de l&#39;arborescence de la plateforme.
+Deux types d&#39;opérateurs sont amenés à utiliser Interaction : un chargé d&#39;offres et un chargé de diffusion. Ils disposent chacun de droits spécifiques qui ne leur donnent accès qu&#39;à certaines parties de l&#39;arborescence et de la plateforme.
 
 * **[!UICONTROL Chargé d’offres]** : crée et gère les offres. Notez que si des offres sont utilisées dans le workflow, l’opérateur doit se trouver dans le groupe d’opérateurs **[!UICONTROL Administrateur]** ou **[!UICONTROL Chargés d’offres]** pour l’exécuter.
 * **[!UICONTROL Chargé de diffusion]** : valide et utilise les offres

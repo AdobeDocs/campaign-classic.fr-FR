@@ -8,7 +8,7 @@ exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '1064'
-ht-degree: 100%
+ht-degree: 89%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-Ce cas pratique détaille la création d&#39;un workflow permettant, à partir d&#39;une collecte de fichiers et suite à plusieurs enrichissements de données, de créer une liste récapitulative. L&#39;exemple est basé sur une liste de contacts ayant effectué des achats dans un magasin.
+Ce cas pratique présente la création d’un workflow qui, après la collecte de fichiers et plusieurs enrichissements, permet de créer une liste récapitulative. L’exemple est basé sur une liste de contacts qui ont effectué des achats dans un magasin.
 
 ![](assets/uc2_enrich_overview.png)
 
@@ -137,7 +137,7 @@ Dans l&#39;activité **Mise à jour de données**, la configuration suivante est
 
 ## Étape 3 : Enrichissement des données &#39;Contacts&#39; {#step-3--enriching--contact--data-}
 
-Le schéma &quot;Contacts&quot; est relié par un lien physique au schéma &quot;Achats&quot;. Il est donc possible d&#39;utiliser une autre option de l&#39;activité &quot;Enrichissement&quot; : l&#39;ajout de données liées à la dimension de filtrage.
+Le schéma « Contacts » est relié par un lien physique au schéma « Achats ». Vous pouvez donc utiliser une autre option de l&#39;option « Enrichissement » : l&#39;ajout de données liées à la dimension de filtrage.
 
 L&#39;objectif de ce deuxième enrichissement est de créer un agrégat sur le schéma des achats pour calculer le montant total des achats pour chaque contact identifié.
 
@@ -175,9 +175,9 @@ Pour préparer la liste récapitulative, il est nécessaire d&#39;ajouter des ch
 
 La dernière étape consiste à écrire toutes les données enrichies dans une liste.
 
-1. Placez une activité **Mise à jour de liste** dans le workflow. Cette activité doit être reliée à la transition sortante de la deuxième activité d’enrichissement.
+1. Ajoutez une activité **Mise à jour de liste** au workflow. Cette activité doit être liée à la transition sortante de la deuxième activité d&#39;enrichissement.
 1. Sélectionnez l&#39;option **[!UICONTROL Créer la liste si besoin (Nom calculé)]**.
-1. Sélectionnez une valeur pour le nom calculé. Le libellé choisi pour la liste est la date courante : &lt;%= formatDate(new Date(), &quot;%2D/%2M/%2Y&quot;) %>.
+1. Sélectionnez une valeur pour le nom calculé. Le libellé choisi pour la liste est la date actuelle : &lt;%= formatDate(new Date(), « %2D/%2M/%2Y ») %>.
 
 Une fois le workflow exécuté, la liste contient :
 

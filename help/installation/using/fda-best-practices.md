@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: connectors
 exl-id: f3980859-2837-416b-a0ef-2b369d2d50bd
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '471'
+workflow-type: tm+mt
+source-wordcount: '517'
 ht-degree: 100%
 
 ---
@@ -50,6 +50,6 @@ Le ciblage des données d’une base de données et le filtrage des résultats �
 
 * collecter les données de la base externe dans Adobe Campaign et effectuer les opérations localement.
 
-Si vous souhaitez effectuer de la personnalisation dans vos diffusions à l&#39;aide des données de la base externe, collectez les données à utiliser dans un workflow afin de les rendre disponibles dans une table temporaire. Utilisez alors les données de la table temporaire pour personnaliser votre diffusion.
+Si vous souhaitez effectuer une personnalisation dans vos diffusions en utilisant les données de la base externe, collectez les données à utiliser dans un workflow afin de les rendre disponibles dans un tableau temporaire. Utilisez ensuite les données du tableau temporaire pour personnaliser votre diffusion.
 
 L&#39;option FDA est assujettie aux limitations du système de la base de données externe que vous utilisez.

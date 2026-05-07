@@ -6,9 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Reporting, Monitoring
 exl-id: 79d5c901-905b-4a0e-adb9-91fd6acb186f
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '441'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '442'
+ht-degree: 82%
 
 ---
 
@@ -20,7 +20,7 @@ En complément des variantes du graphique disponibles, [présentées ici](../../
 
 Vous pouvez utiliser les conteneurs : ils permettent de regrouper plusieurs éléments d&#39;une page et d&#39;en paramétrer la mise en page en colonnes et/ou en cellules. Leur utilisation est présentée dans [cette section](../../web/using/defining-web-forms-layout.md#creating-containers).
 
-Vous pouvez paramétrer la mise en page du rapport au niveau de la page (à la racine de l&#39;arborescence) et la surcharger pour chaque conteneur. Les pages sont organisées en colonnes. Les conteneurs sont également organisés en colonne. Seuls les éléments statiques et les graphiques sont organisés en cellule.
+Vous pouvez configurer la mise en page du rapport à la racine de l&#39;arborescence et la surcharger pour chaque conteneur. Les pages sont triées en colonnes. Les conteneurs sont également triés en colonnes. Seuls les éléments statiques et graphiques sont triés dans des cellules.
 
 ## Définition des options de chaque page {#defining-the-options-for-each-page}
 
@@ -62,4 +62,4 @@ Puis insérer ces identifiants dans les contenus HTML du rapport :
 
 Ils seront remplacés automatiquement à l&#39;affichage du rapport par le contenu correspondant.
 
-Ce mode de fonctionnement permet, comme pour les textes HTML, de centraliser les textes utilisés dans le rapport et d&#39;en gérer les traductions. En effet, les textes créés dans cet onglet sont collectés automatiquement dans l&#39;outil de traduction intégré d&#39;Adobe Campaign.
+Ce mode de fonctionnement permet, comme pour les textes HTML, de centraliser les textes utilisés dans le rapport et d’en gérer les traductions. Les textes créés dans cet onglet sont collectés automatiquement par l&#39;outil de traduction intégré d&#39;Adobe Campaign.

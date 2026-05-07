@@ -7,8 +7,8 @@ hide: true
 exl-id: 88e581cf-43cd-4c43-9347-d016c62fdf42
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1184'
-ht-degree: 98%
+source-wordcount: '1236'
+ht-degree: 70%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 98%
 
 
 
-Vous pouvez créer une liste complexe à l&#39;aide des fonctionnalités avancées de Campaign v7 et la partager de façon transparente en tant qu&#39;audience directement et en temps réel avec Campaign Standard (y compris, les données additionnelles). L&#39;utilisateur d&#39;Adobe Campaign peut ensuite utiliser l&#39;audience dans Adobe Campaign Standard.
+Vous pouvez créer une liste complexe à l&#39;aide des fonctionnalités avancées de Campaign v7 et la partager de manière transparente en tant qu&#39;audience directement et en temps réel avec Campaign Standard (y compris les données supplémentaires). L’utilisateur de Campaign Standard peut ensuite consommer l’audience dans Adobe Campaign Standard.
 
 Un ciblage complexe impliquant des données additionnelles qui ne sont pas répliquées dans Campaign Standard n&#39;est possible qu&#39;avec Campaign v7.
 
@@ -45,12 +45,12 @@ Une fois que la cible et ses données additionnelles ont été définies, il est
 
 >[!NOTE]
 >
->Il s&#39;agit d&#39;un exemple. En fonction de vos besoins, vous pouvez simplement lancer des requêtes sur une liste de destinataires et la partager avec ACS sans appliquer d&#39;autres traitements. Vous pouvez également utiliser d&#39;autres activités de gestion des données pour préparer la cible finale.
+>Voici un exemple. Selon vos besoins, vous pouvez simplement interroger une liste de destinataires et la partager avec ACS sans autre traitement. Vous pouvez également utiliser d’autres activités de gestion des données pour préparer votre cible finale.
 
 Pour obtenir l&#39;audience finale et ses données additionnelles :
 
 1. Créez un nouveau workflow depuis **[!UICONTROL Profils et Cibles]** > **[!UICONTROL Traitements]** > **[!UICONTROL Workflows de ciblage]**.
-1. Ajoutez une activité **[!UICONTROL Requête]** et sélectionnez les destinataires auxquels vous souhaitez envoyer l&#39;email final, tels que par exemple, tous les destinataires ayant entre 18 et 30 ans et habitant en France.
+1. Ajoutez une activité **[!UICONTROL Requête]** et sélectionnez les destinataires auxquels vous souhaitez envoyer l’e-mail final. Par exemple, tous les destinataires âgés de 18 à 30 ans et résidant en France.
 
    ![](assets/acs_connect_query1.png)
 
@@ -78,13 +78,13 @@ Pour obtenir l&#39;audience finale et ses données additionnelles :
 
    ![](assets/acs_connect_query6.png)
 
-1. Définissez les colonnes de sortie. Dans le cas présent, seule la colonne permettant de compter le nombre de diffusions est nécessaire. Pour la définir :
+1. Définissez les colonnes de sortie. Ici, la seule colonne nécessaire est celle qui comptabilise le nombre de diffusions. Pour ce faire :
 
    * Sélectionnez **[!UICONTROL Ajouter]** à droite de la fenêtre.
    * Dans la fenêtre **[!UICONTROL Sélection du champ]**, cliquez sur **[!UICONTROL Sélection avancée]**.
    * Sélectionnez **[!UICONTROL Agrégat]**, puis **[!UICONTROL Comptage]**. Cochez l&#39;option **[!UICONTROL Distinct]**, puis cliquez sur **[!UICONTROL Suivant]**.
    * Dans la liste des champs, sélectionnez le champ utilisé pour la fonction de **Comptage**. Choisissez un champ qui sera toujours renseigné, par exemple le champ **[!UICONTROL Clé primaire]**, puis cliquez sur **[!UICONTROL Terminer]**.
-   * Changez l&#39;expression dans la colonne **[!UICONTROL Alias]**. Cet alias vous permettra de récupérer facilement la colonne ajoutée à la diffusion finale. Par exemple **NBdeliveries**.
+   * Modifiez l’expression dans la colonne **[!UICONTROL Alias]**. Cet alias permet de récupérer facilement la colonne ajoutée dans la diffusion finale. Par exemple **NBdeliveries**.
    * Cliquez sur **[!UICONTROL Terminer]** et enregistrez la configuration de l&#39;activité **[!UICONTROL Requête]**.
 
    ![](assets/acs_connect_query7.png)
@@ -99,13 +99,13 @@ Une fois que la population cible est définie, vous pouvez la partager avec ACS 
 
    Indiquez le dossier dans lequel vous souhaitez enregistrer la liste dans Campaign v7. Les listes sont soumises au mapping de dossiers défini lors de la mise en œuvre, ce qui peut avoir un impact sur leur visibilité une fois qu’elles sont partagées dans Campaign Standard. Pour plus d&#39;informations, consultez la section [Conversion des droits](../../integrations/using/acs-connector-principles-and-data-cycle.md#rights-conversion).
 
-1. Vérifiez que l&#39;option **[!UICONTROL Partager avec ACS]** est cochée. Elle l&#39;est par défaut.
+1. Assurez-vous que l&#39;option **[!UICONTROL Partager avec ACS]** est cochée. Cette option est activée par défaut.
 
    ![](assets/acs_connect_listupdate1.png)
 
 1. Enregistrez et exécutez le workflow.
 
-   La cible et ses données additionnelles sont enregistrées dans une liste, dans Campaign v7, et sont immédiatement partagées en tant qu&#39;audience de type liste dans Campaign Standard. Seuls les profils qui ont été répliqués sont partagés avec ACS.
+   La cible et ses données additionnelles sont enregistrées dans une liste de Campaign v7 et sont partagées immédiatement en tant qu&#39;audience de type liste dans Campaign Standard. Seuls les profils qui ont été répliqués sont partagés avec ACS.
 
 Si une erreur se produit dans l&#39;activité **[!UICONTROL Mise à jour de liste]**, cela signifie que la synchronisation avec Campaign Standard n&#39;a peut-être pas été effectuée correctement. Pour déterminer ce qui s’est passé, accédez à **[!UICONTROL Administration]** > **[!UICONTROL Connecteur ACS]** > **[!UICONTROL Traitement]** > **[!UICONTROL Diagnostic]**. Ce dossier contient les workflows de synchronisation déclenchés par l&#39;exécution de l&#39;activité **[!UICONTROL Mise à jour de liste]**. Pour plus d’informations, consultez la section [Résolution des problèmes liés au connecteur ACS](../../integrations/using/troubleshooting-the-acs-connector.md).
 
@@ -126,13 +126,13 @@ En créant un workflow de diffusion dans Campaign Standard, vous pourrez ensuit
 1. Ouvrez le contenu de la diffusion.
 1. Ajoutez un champ de personnalisation. Dans la fenêtre contextuelle, recherchez le nœud **[!UICONTROL Données additionnelles (targetData)]**. Ce nœud contient les données additionnelles de l&#39;audience qui ont été calculées dans le workflow de ciblage initial. Vous pouvez les utiliser comme tout autre champ de personnalisation.
 
-   Dans cet exemple, les données additionnelles provenant du workflow de ciblage d&#39;origine sont le nombre de diffusions envoyées à chaque destinataire au cours des 365 dernier jours. L&#39;alias NBdeliveries spécifié dans le workflow de ciblage est visible ici.
+   Pour cet exemple, les données additionnelles provenant du workflow de ciblage d’origine correspondent au nombre de diffusions envoyées à chaque destinataire au cours des 365 derniers jours. L&#39;alias NBdeliveries spécifié dans le workflow de ciblage est visible ici.
 
    ![](assets/acs_connect_deliveryworkflow_targetdata.png)
 
 1. Enregistrez la diffusion et le workflow.
 
-   Le workflow est prêt à être exécuté. La diffusion sera analysée et prête à être envoyée.
+   Le workflow est maintenant prêt à être exécuté. La diffusion sera analysée et prête à être envoyée.
 
    ![](assets/acs_connect_deliveryworkflow_ready.png)
 
@@ -140,13 +140,13 @@ En créant un workflow de diffusion dans Campaign Standard, vous pourrez ensuit
 
 Lorsque la diffusion et son contenu sont prêts, envoyez la diffusion :
 
-1. Exécutez le workflow de diffusion. Cette étape prépare l&#39;envoi de l&#39;email.
+1. Exécuter le workflow de diffusion. Cette étape prépare l’e-mail à l’envoi.
 1. Dans le tableau de bord de la diffusion, validez manuellement l&#39;envoi de la diffusion.
 1. Examinez les rapports et les logs de la diffusion :
 
    * **Dans Campaign Standard** : accédez aux [rapports](https://experienceleague.adobe.com/docs/campaign-standard/using/reporting/about-reporting/about-dynamic-reports.html?lang=fr) et [logs](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/monitoring-a-delivery.html?lang=fr) relatifs à la diffusion comme pour toute autre diffusion.
-   * **Dans Campaign v7 et Campaign Standard** : les identifiants des diffusions, les broadLogs et les logs de tracking des emails sont synchronisés dans Campaign v7. Vous obtenez alors une vue à 360° de vos campagnes marketing depuis Campaign v7.
+   * **dans Campaign v7 et Campaign Standard** : les identifiants de diffusion, les broadLogs et les logs de tracking des emails sont synchronisés dans Campaign v7. Vous pouvez ensuite obtenir une vue à 360° de vos campagnes marketing depuis Campaign v7.
 
-     Les quarantaines sont automatiquement synchronisées avec Campaign v7. Ainsi, les informations de non-délivrabilité peuvent être prises en compte pour le prochain ciblage effectué dans Campaign v7.
+     Les quarantaines sont automatiquement resynchronisées dans Campaign v7. Cela permet de prendre en compte les informations de non-délivrabilité pour le prochain ciblage effectué dans Campaign v7.
 
      Pour plus d&#39;informations sur la gestion des quarantaines dans Campaign Standard, reportez-vous à [cette section](https://experienceleague.adobe.com/docs/campaign-standard/using/testing-and-sending/monitoring-messages/understanding-quarantine-management.html?lang=fr).

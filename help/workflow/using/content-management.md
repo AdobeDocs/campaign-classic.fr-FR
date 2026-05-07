@@ -8,7 +8,7 @@ exl-id: eb92a7c7-edfa-4062-b473-6d8b50d35e5f
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 
 
-Une activité de type **Gestion de contenu** permet de créer et de manipuler un contenu ainsi que de générer les fichiers à partir de ce contenu. Ce contenu peut ensuite être diffusé à l&#39;aide d&#39;une activité de type &#39;Diffusion&#39;.
+Une activité **Gestion de contenu** permet de créer et manipuler un contenu et de générer des fichiers sur la base de ce contenu. Ce contenu peut ensuite être diffusé par le biais d’une activité « Diffusion ».
 
 >[!CAUTION]
 >
->La gestion de contenu est un module optionnel d&#39;Adobe Campaign. Vérifiez votre contrat de licence.
+>La gestion de contenu est un module optionnel d&#39;Adobe Campaign. Veuillez vérifier votre contrat de licence.
 
 Les propriétés de l&#39;activité se divisent en trois étapes :
 
@@ -36,7 +36,7 @@ Les propriétés de l&#39;activité se divisent en trois étapes :
 
    * **[!UICONTROL Spécifié par la transition]**
 
-     Cette option permet d&#39;utiliser le contenu spécifié par la transition, c&#39;est-à-dire que l&#39;événement qui active la gestion de contenu doit contenir une variable **[!UICONTROL contentId]**. Cette variable peut avoir été définie par une gestion de contenu précédente ou par un script quelconque.
+     Cette option permet d&#39;utiliser le contenu spécifié dans la transition, c&#39;est-à-dire que l&#39;événement qui active la gestion de contenu doit contenir une variable **[!UICONTROL contentId]**. Cette variable peut avoir été définie par une gestion de contenu précédente ou par n’importe quel script.
 
    * **[!UICONTROL Explicite]**
 
@@ -100,6 +100,6 @@ Identifiant du contenu à utiliser, si l&#39;option **[!UICONTROL Spécifié par
 
   Nom complet du fichier généré, si l&#39;action sélectionnée est **[!UICONTROL Générer]**.
 
-## Exemples     {#examples}
+## Exemples {#examples}
 
 Des exemples sont proposés dans cette [section](../../delivery/using/automating-via-workflows.md#examples).

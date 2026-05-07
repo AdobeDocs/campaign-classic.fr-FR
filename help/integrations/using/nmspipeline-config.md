@@ -7,8 +7,8 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 audience: integrations
 content-type: reference
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '383'
+workflow-type: tm+mt
+source-wordcount: '385'
 ht-degree: 100%
 
 ---
@@ -85,4 +85,4 @@ Assurez-vous que le fichier JSON est valide à l’aide de ce [site Web](https:/
 * &quot;Consumer&quot; est formé de toute chaîne unique qui identifie de manière unique l&#39;instance nlserver. Il peut s&#39;agir généralement du nom de l&#39;instance lui-même. Pour plusieurs environnements (dev/stage/prod), veillez à ce qu&#39;il soit unique pour chacun d&#39;eux afin que chaque instance reçoive une copie du message.
 * [!DNL Pipelined] prend également en charge le topic « alias ».
 
-Redémarrez [!DNL pipelined] après avoir apporté des modifications. 
+Redémarrez [!DNL pipelined] après avoir apporté des modifications.

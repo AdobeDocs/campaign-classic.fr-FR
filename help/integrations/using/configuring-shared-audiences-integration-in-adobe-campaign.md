@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: audience-sharing
 exl-id: a3e26cff-9609-4d91-8976-9213a30c3fd2
 source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
-workflow-type: ht
-source-wordcount: '609'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '675'
+ht-degree: 86%
 
 ---
 
@@ -51,17 +51,18 @@ Nous devons tout d&#39;abord configurer ou vérifier les comptes externes d&#39;
 
 1. Indiquez les informations suivantes :
 
-   * L&#39;URL du **[!UICONTROL serveur de compte AWS S3]** de votre serveur doit être renseignée comme suit :
+   * **[!UICONTROL Serveur De Comptes AWS S3]**
+URL de votre serveur, elle doit être renseignée comme suit :
 
      ```
      <S3bucket name>.s3.amazonaws.com/<s3object path>
      ```
 
-   * **[!UICONTROL Id de la clé d&#39;accès AWS]**
-Pour savoir où trouver votre Id de la clé d&#39;accès AWS, consultez cette [page](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys).
+   * **[!UICONTROL ID de la clé d’accès AWS]**
+Pour savoir où trouver votre identifiant de clé d’accès AWS, consultez cette [page](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) .
 
-   * **[!UICONTROL Clé d&#39;accès secrète à AWS]**
-Pour savoir où trouver votre clé d&#39;accès secrète à AWS, consultez cette [page](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
+   * **[!UICONTROL Clé d’accès secrète à AWS]**
+Pour savoir où trouver votre clé d’accès secrète à AWS, consultez cette [page](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
 
    * **[!UICONTROL Région AWS]**
 Pour en savoir plus sur la région AWS, consultez cette [page](https://aws.amazon.com/fr/about-aws/global-infrastructure/regions_az/).
@@ -74,7 +75,7 @@ Vos comptes externes sont maintenant configurés.
 
 ## Etape 2 : configuration de la source de données {#step-2--configure-the-data-source}
 
-La source de données **Destinataires - Id Visiteur** est créée dans Audience Manager. Il s&#39;agit d&#39;une source de données d&#39;usine configurée par défaut pour le Visitor ID. Les segments créés à partir de Campaign font partie de cette source de données.
+Le **Destinataire - Identifiant visiteur** est créé dans Audience Manager. Il s’agit d’une source de données d’usine configurée par défaut pour l’identifiant visiteur. Les segments créés à partir de Campaign feront partie de cette source de données.
 
 Pour configurer la source de données **[!UICONTROL Destinataires - Id Visiteur]** :
 
@@ -84,7 +85,7 @@ Pour configurer la source de données **[!UICONTROL Destinataires - Id Visiteur]
 
    ![](assets/aam_config_3.png)
 
-## Étape 3 : Configuration du serveur de tracking Campaign         {#step-3--configure-campaign-tracking-server}
+## Étape 3 : Configuration du serveur de tracking Campaign {#step-3--configure-campaign-tracking-server}
 
 Pour la configuration de l’intégration à Audience Manager, il faut également configurer le serveur de tracking Campaign.
 

@@ -7,8 +7,8 @@ hide: true
 exl-id: 366acc1e-d769-4053-9fa1-f47182627c07
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 100%
+source-wordcount: '548'
+ht-degree: 82%
 
 ---
 
@@ -40,7 +40,7 @@ Sélectionnez pour cela le menu correspondant :
 
   Pour plus d’informations à ce sujet, consultez cette [section](../../reporting/using/using-the-descriptive-analysis-wizard.md).
 
-Les données de la cible sont purgées au fur et à mesure de l&#39;exécution du workflow. Seule la dernière table de travail est accessible. Vous pouvez paramétrer le workflow pour que toutes les tables de travail restent accessibles. Pour cela, cochez l&#39;option **[!UICONTROL Conserver le résultat des populations intermédiaires entre deux exécutions]** dans les propriétés du workflow.
+Les données de la cible sont purgées lors de l’exécution du workflow. Seule la dernière table de travail est accessible. Vous pouvez paramétrer le workflow pour que toutes les tables de travail restent accessibles. Pour cela, cochez l&#39;option **[!UICONTROL Conserver le résultat des populations intermédiaires entre deux exécutions]** dans les propriétés du workflow.
 
 Toutefois, l&#39;activation de cette option est à éviter lorsque les données manipulées sont volumineuses.
 
@@ -50,13 +50,13 @@ Toutefois, l&#39;activation de cette option est à éviter lorsque les données 
 
 Les données stockées dans la table de travail du workflow sont accessibles notamment dans les champs de personnalisation.
 
-Vous pouvez ainsi utiliser dans une diffusion des données collectées via une liste ou à partir des réponses fournies à un questionnaire. Pour cela, utilisez la syntaxe suivante :
+Vous pouvez ainsi utiliser dans une diffusion des données collectées via une liste ou à partir des réponses fournies à un questionnaire. Pour ce faire, utilisez la syntaxe suivante :
 
 ```
 %= targetData.FIELD %
 ```
 
-Les éléments de personnalisation de type **[!UICONTROL Extension de la cible]** (targetData) ne sont disponible que dans le cadre des workflows de ciblage. Ainsi, la cible de la diffusion doit être construite dans le workflow et spécifiée dans la transition entrante de la diffusion.
+Les éléments de personnalisation de type **[!UICONTROL Extension de la cible]** (targetData) ne sont pas disponibles pour les workflows de ciblage. La cible de la diffusion doit être construite dans le workflow et spécifiée dans la transition entrante de la diffusion.
 
 Si vous souhaitez créer des BAT pour les diffusions, la cible des BAT doit alors être construite selon le mode **[!UICONTROL Substitution des adresses]**, afin que les données de personnalisation puissent être renseignées. Pour en savoir plus, consultez cette section dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#target-population){target="_blank"}.
 
@@ -110,7 +110,7 @@ Les étapes sont les suivantes :
 
    ![](assets/wf-targetdata-sample-6.png)
 
-   Les données de type **[!UICONTROL Extension de la cible]** (targetData) sont insérées dans les diffusions selon les mêmes caractéristiques que tous les champs de personnalisation. Elles peuvent ainsi par exemple être utilisées dans l&#39;objet du message, les libellés des liens ou les liens eux-mêmes, etc.
+   Les données de type **[!UICONTROL extension cible]** (targetData) sont insérées dans les diffusions en utilisant les mêmes caractéristiques que tous les champs de personnalisation. Ils peuvent également être utilisés dans l’objet, les libellés du lien ou les liens eux-mêmes.
 
    Les messages adressés aux destinataires collectés contiendront donc les données suivantes :
 

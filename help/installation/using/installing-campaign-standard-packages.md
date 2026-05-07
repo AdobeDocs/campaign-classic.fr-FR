@@ -7,8 +7,8 @@ badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https:/
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 100%
+source-wordcount: '1416'
+ht-degree: 95%
 
 ---
 
@@ -134,7 +134,7 @@ Le tableau ci-après répertorie tous les packages natifs de Campaign.
   </tr> 
   <tr> 
    <td> Canal applications mobiles<br /> </td> 
-   <td> Utilise la plateforme Adobe Campaign pour envoyer des notifications personnalisées aux terminaux iOS et Android via des applications. Facultatif. <a href="../../delivery/using/about-mobile-app-channel.md">En savoir plus</a> <br /> </td> 
+   <td> Utilise la plateforme Adobe Campaign pour envoyer des notifications personnalisées aux terminaux iOS et Android via des applications. Facultatif. <a href="../../delivery/using/about-mobile-app-channel.md">En savoir plus </a> <br /> </td> 
    <td> Tous<br /> </td> 
   </tr> 
   <tr> 
@@ -154,7 +154,7 @@ Le tableau ci-après répertorie tous les packages natifs de Campaign.
   </tr> 
   <tr> 
    <td> Gestion de la réaction<br /> </td> 
-   <td> Mesure le succès et la rentabilité des campagnes marketing ou des propositions d'offres pour tous les canaux de communication.  Facultatif. <a href="../../response/using/about-response-manager.md">En savoir plus </a> <br /> </td> 
+   <td> Mesure le succès et la rentabilité des campagnes marketing ou des propositions d'offres pour tous les canaux de communication.  Facultatif. <a href="../../response/using/about-response-manager.md">En savoir plus</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
@@ -164,7 +164,7 @@ Le tableau ci-après répertorie tous les packages natifs de Campaign.
   </tr> 
   <tr> 
    <td> Optimisation des campagnes<br /> </td> 
-   <td> Contrôle, filtre et surveille l'envoi des diffusions afin que les messages envoyés répondent le mieux aux besoins et aux attentes des clients, conformément aux politiques de communication de l'entreprise. Facultatif. <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=fr" target="_blank">En savoir plus </a> <br /> </td> 
+   <td> Contrôle, filtre et surveille l'envoi des diffusions afin que les messages envoyés répondent le mieux aux besoins et aux attentes des clients, conformément aux politiques de communication de l'entreprise. Facultatif. <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=fr" target="_blank">En savoir plus</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
@@ -174,7 +174,7 @@ Le tableau ci-après répertorie tous les packages natifs de Campaign.
   </tr> 
   <tr> 
    <td> Gestion des coupons<br /> </td> 
-   <td> Crée un ensemble de coupons à ajouter aux offres marketing à venir. Facultatif. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html?lang=fr" target="_blank">En savoir plus </a> <br /> </td> 
+   <td> Crée un ensemble de coupons à ajouter aux offres marketing à venir. Facultatif. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html?lang=fr" target="_blank">En savoir plus</a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
@@ -184,7 +184,7 @@ Le tableau ci-après répertorie tous les packages natifs de Campaign.
   </tr> 
   <tr> 
    <td> Marketing central/local (Marketing distribué)<br /> </td> 
-   <td> Met en œuvre les campagnes de coopération entre entités centrales (sièges sociaux, services marketing, etc.) et entités locales (magasins, agences régionales, etc.). Facultatif. <a href="https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=fr" target="_blank">En savoir plus</a><br /> </td> 
+   <td> Met en place des opérations de coopération entre les entités centrales (sièges sociaux, services marketing, etc.) et les entités locales (points de vente, agences régionales, etc.). Facultatif. <a href="https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=fr" target="_blank">En savoir plus</a><br /> </td> 
    <td> Marketing </td> 
   </tr> 
   <tr> 
@@ -219,17 +219,17 @@ Le tableau ci-après répertorie tous les packages natifs de Campaign.
   </tr> 
   <tr> 
    <td> Emission vers Mid-sourcing <br /> </td> 
-   <td> Présente les étapes d'installation et de configuration d'un serveur de midsourcing ainsi que les étapes de déploiement d'une instance permettant à des tiers d'envoyer des messages en mode midsourcing. Facultatif. <a href="../../installation/using/mid-sourcing-server.md">En savoir plus</a> <br /> </td> 
+   <td> Présente les étapes d'installation et de configuration d'un serveur de midsourcing ainsi que les étapes de déploiement d'une instance permettant à des tiers d'envoyer des messages en mode midsourcing. Facultatif. <a href="../../installation/using/mid-sourcing-server.md">En savoir plus </a> <br /> </td> 
    <td> Marketing </td> 
   </tr> 
   <tr> 
    <td> Plateforme de Mid-sourcing<br /> </td> 
-   <td> Cette configuration présente une solution intermédiaire optimale entre le mode hébergé (ASP) et l’internalisation. Toute la partie concernant l’envoi des messages est déportée sur un serveur de "mid-sourcing", hébergé chez Adobe Campaign. Facultatif. <a href="../../installation/using/mid-sourcing-server.md">En savoir plus</a> <br /> </td> 
+   <td> Cette configuration présente une solution intermédiaire optimale entre la configuration hébergée (ASP) et l’internalisation. Les composants d’exécution orientés vers l’extérieur sont exécutés sur un serveur de « mid-sourcing » hébergé sur Adobe Campaign. Facultatif. <a href="../../installation/using/mid-sourcing-server.md">En savoir plus </a> <br /> </td> 
    <td> Mid-sourcing </td> 
   </tr> 
   <tr> 
    <td> Assistance AMP<br /> </td> 
-   <td> Permet d’utiliser le nouveau format interactif AMP pour e-mail et d’envoyer des emails dynamiques. Facultatif. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html?lang=fr" target="_blank">En savoir plus</a> <br /> </td> 
+   <td> Permet d’utiliser le nouveau format interactif AMP pour e-mail et d’envoyer des emails dynamiques. Facultatif. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html?lang=fr" target="_blank">En savoir plus </a> <br /> </td> 
    <td> Tous </td> 
   </tr> 
   <tr> 
@@ -242,7 +242,7 @@ Le tableau ci-après répertorie tous les packages natifs de Campaign.
 
 ### Package Message Center {#message-center-package}
 
-Vous devez installer les canaux de diffusion (e-mail, canal mobile, canal des applications mobiles, LINE, etc.) avant d’installer la messagerie transactionnelle (package Message Center). Si vous avez démarré un projet Message Center réservé aux e-mails et que vous devez ajouter un nouveau canal par la suite, procédez comme suit :
+Vous devez installer des canaux de diffusion (e-mail, canal mobile, canal d’application mobile, LINE, etc.) avant d&#39;installer la messagerie transactionnelle (package Message Center). Si vous avez démarré un projet Message Center réservé aux e-mails et que vous devez ajouter un nouveau canal par la suite, procédez comme suit :
 
 1. Installez le nouveau canal, par exemple le **Canal mobile**, à l’aide de l’assistant d’import de package (**[!UICONTROL Outils > Avancé > Import de package > Package Adobe Campaign]**).
 1. Importez le fichier (**[!UICONTROL Outils > Avancé > Importer un package > Fichier]**), puis sélectionnez :

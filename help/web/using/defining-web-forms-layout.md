@@ -6,9 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Web Forms
 exl-id: 23ca17f8-de1a-4f9c-8357-3965dc3329b1
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '538'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '539'
+ht-degree: 73%
 
 ---
 
@@ -24,13 +24,13 @@ Pour chaque page du formulaire, les conteneurs sont créés à partir du bouton 
 
 ![](assets/s_ncs_admin_survey_containers_add.png)
 
-Utilisez un conteneur pour grouper des éléments de la page sans ajouter de libellé dans le rendu final. Les éléments sont regroupés en sous-arborescence du conteneur. Les conteneurs standards permettent de gérer la mise en page.
+Utilisez un conteneur pour regrouper les éléments de la page sans ajouter de libellé au rendu final. Les éléments sont regroupés dans la sous-arborescence du conteneur. Les conteneurs standard permettent de gérer la mise en page.
 
 Par exemple :
 
 ![](assets/s_ncs_admin_survey_containers_std_arbo.png)
 
-La position des libellés est appliquée aux éléments placés en sous-arborescence du conteneur. Elle peut éventuellement être surchargée au niveau de chaque élément si nécessaire. Le nombre de colonnes permet de modifier la mise en page. Voir [Placer les champs de la page](#positioning-the-fields-on-the-page).
+La position des libellés est appliquée aux éléments placés sous le conteneur dans la hiérarchie. Il peut être surchargé pour chaque élément si nécessaire. Ajoutez ou supprimez des colonnes pour modifier la disposition. Voir [Placer les champs de la page](#positioning-the-fields-on-the-page).
 
 Dans l&#39;exemple ci-dessus, le rendu sera le suivant :
 
@@ -42,11 +42,11 @@ La mise en page du formulaire web est définie page par page, pour chaque conten
 
 Les pages sont organisées en colonnes : chaque page contient un certain nombre de colonnes. Chaque champ de la page occupe **n** cellules. Les conteneurs s’étendent eux aussi sur un certain nombre de colonnes et les champs qu’ils contiennent s’étendent sur un certain nombre de cellules.
 
-Par défaut, les pages sont construites sur une seule colonne et chaque élément occupe une cellule. Ainsi, les zones sont affichées les unes en dessous des autres, chacune occupant toute la ligne, comme ci-dessous :
+Par défaut, les pages sont construites sur une seule colonne et chaque élément occupe une cellule. Ainsi, les champs sont affichés les uns en dessous des autres, chacun occupant toute la ligne, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/s_ncs_admin_survey_container_ex.png)
 
-Dans l&#39;exemple suivant, le paramétrage par défaut a été conservé. La page est construite sur une seule colonne et contient quatre conteneurs.
+Dans l’exemple suivant, la configuration par défaut a été conservée. La page occupe une seule colonne qui comprend quatre conteneurs.
 
 ![](assets/s_ncs_admin_survey_container_ex0.png)
 
@@ -64,7 +64,7 @@ Vous pouvez adapter les paramètres d&#39;affichage pour obtenir le rendu suivan
 
 Dans l&#39;exemple de rendu ci-dessus, chaque zone de saisie, chaque titre et chaque image occupent une seule cellule dans les colonnes des conteneurs.
 
-Vous pouvez modifier la mise en page au niveau de chaque conteneur. Dans notre exemple, vous pouvez passer le contenu du conteneur 4 sur deux colonnes et répartir les éléments.
+Vous pouvez modifier la mise en forme dans chaque conteneur. Dans notre exemple, vous pouvez répartir le contenu du conteneur 4 sur deux colonnes et répartir les éléments.
 
 ![](assets/s_ncs_admin_survey_container_ex2_rend.png)
 

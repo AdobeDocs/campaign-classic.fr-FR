@@ -8,8 +8,8 @@ level: Beginner
 exl-id: b8c1f287-06f4-4c34-8cca-b0c7676abbc2
 source-git-commit: 66387e2e008051901fe3385f571d7fe798829100
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 99%
+source-wordcount: '912'
+ht-degree: 95%
 
 ---
 
@@ -42,8 +42,8 @@ En tant que client ou cliente on-premise/hybride, vous devez installer Adobe Ca
 <p>11</p>
 </td>
 <td>
-<p>7,4,3</p>
-<p>7,4,3</p>
+<p>7.4.3</p>
+<p>7.4.3</p>
 <p>v7.3</p>
 </td>
 </tr>
@@ -257,7 +257,7 @@ Les systèmes de gestion de la relation client (CRM) compatibles avec Adobe Cam
 </tr>
 <tr>
 <td>
-<p>Connecteur Microsoft Dynamics </p>
+<p>Connecteur Microsoft Dynamics</p>
 </td>
 <td>
 <p>API web</p>
@@ -453,7 +453,7 @@ Téléchargez Microsoft Edge WebView2 à partir du [site Microsoft Developer]
 
 Vous pouvez utiliser Campaign pour [envoyer des notifications push](../../delivery/using/about-mobile-app-channel.md) via le SDK mobile Adobe Experience Platform en configurant l’extension Adobe Campaign dans l’interface utilisateur de collecte de données.
 
-Le SDK Campaign est [obsolète](deprecated-features.md) à partir de Campaign v7.4. Pour garantir une transition fluide pour une mise en œuvre existante vers le SDK AEP Mobile, vous pouvez toujours l’utiliser sur les systèmes d’exploitation répertoriés ci-dessous<!--, using the associated [mobile SDK](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)-->.
+Le SDK de Campaign est [obsolète](deprecated-features.md) à partir de Campaign v7.4. Pour garantir une transition en douceur de la mise en œuvre existante vers AEP Mobile SDK, vous pouvez toujours l’utiliser sur les systèmes d’exploitation répertoriés ci-dessous<!--, using the associated [mobile SDK](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)-->.
 
 
 <table>

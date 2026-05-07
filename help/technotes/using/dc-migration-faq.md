@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '2226'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '2269'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe désactive l’ancien centre de données : les instances Campaign Classi
 
 Vous trouverez ci-dessous un ensemble de questions courantes concernant ce projet, l’impact sur vos environnements Campaign et d’autres ressources utiles.
 
-Pour toute autre question, contactez l’[Assistance clientèle d’Adobe](https://experienceleague.adobe.com/fr?support-solution=Campaign&lang=fr#support).
+Pour toute autre question, contactez l’[Assistance clientèle d’Adobe](https://experienceleague.adobe.com/?support-solution=Campaign&lang=fr#support).
 
 ## Incidences sur l’infrastructure
 
@@ -41,7 +41,7 @@ Les incidences globales sur la base de données et l’infrastructure sont répe
 
 * **Existe-t-il des différences de taille du package entre l’ancien centre de données et le cloud public ?**
 
-  Nous fournissons de nouvelles définitions de package dans le cloud public (AWS) en fonction de la taille actuelle de la base de données, de la taille du disque, etc. Par exemple, si un client dispose d’un serveur applicatif dans les anciens centres de données, il peut utiliser deux serveurs applicatifs dans le cloud public (AWS) en fonction des définitions de package.
+  Nous fournissons de nouvelles définitions de package dans le cloud public (AWS) en fonction de la taille actuelle de la base de données, de la taille du disque, etc. Par exemple, si un client dispose d’un serveur d’applications dans les anciens centres de données, il peut disposer de deux serveurs d’applications dans le cloud public (AWS) en fonction des définitions de package.
 
 * **Le numéro de build ou la version de Campaign vont-ils changer ?**
 
@@ -51,7 +51,7 @@ Les incidences globales sur la base de données et l’infrastructure sont répe
 
 * **En quoi consiste le plan pour résoudre les problèmes consécutifs à la migration ?**
 
-  Des tests approfondis doivent être effectués avant la migration des systèmes de production. Toutefois, en cas de problèmes, l’[Assistance clientèle d’Adobe](https://experienceleague.adobe.com/fr?support-solution=Campaign#support) reste le principal point de contact. Adobe a mis en place une équipe d’experts chargée, si nécessaire, d’apporter une assistance avancée.
+  Des tests approfondis doivent être effectués avant la migration des systèmes de production. Toutefois, en cas de problèmes, l’[Assistance clientèle d’Adobe](https://experienceleague.adobe.com/?support-solution=Campaign&lang=fr#support) reste le principal point de contact. Adobe a mis en place une équipe d’experts chargée, si nécessaire, d’apporter une assistance avancée.
 
 ## Incidences sur la délivrabilité
 
@@ -97,7 +97,7 @@ Les incidences globales sur les adresses IP, la liste bloquée, les sous-domaine
 
   Tout d’abord, l’équipe chargée de la délivrabilité d’Adobe évaluera le statut de la plateforme concernant la délivrabilité et recommandera un plan de basculement vers les nouvelles adresses IP.
 
-  Aucun préchauffage n’est nécessaire après la migration. Il peut y avoir certaines exceptions. Dans ce cas, l’[Assistance clientèle d’Adobe](https://experienceleague.adobe.com/fr?support-solution=Campaign&lang=fr#support) contactera les clients.
+  Aucun préchauffage n’est nécessaire après la migration. Il peut y avoir certaines exceptions. Dans ce cas, l’[Assistance clientèle d’Adobe](https://experienceleague.adobe.com/?support-solution=Campaign&lang=fr#support) contactera les clients.
 
   Cependant, le plan est destiné à réaliser cette opération de manière transparente pour l’entreprise, contrairement à la montée en réputation initiale qui est effectuée pendant la phase de démarrage.
 

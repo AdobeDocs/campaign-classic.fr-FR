@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: 6158ffaa-cb08-4f77-82b8-b3e5e1bf7fd7
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '1098'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1101'
+ht-degree: 70%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 ## Aperçu des règles de présentation {#presentation-rules-overview}
 
-Interaction permet de contrôler le flux des propositions d&#39;offres à l&#39;aide de règles dites de présentation. Ces règles, propres à Interaction, sont des règles de typologie. Elles permettent d&#39;exclure certaines offres en fonction de l&#39;historique des propositions déjà faites à un destinataire. Elles sont référencées au niveau de l&#39;environnement.
+Interaction vous permet de contrôler le flux des propositions d&#39;offres à l&#39;aide de règles de présentation. Ces règles, spécifiques à Interaction, sont des règles de typologie. Elles permettent d&#39;exclure les offres en fonction de l&#39;historique des propositions déjà faites à un destinataire. Ils sont référencés dans l’environnement
 
 ## Créer et référencer une règle de présentation d&#39;offre {#creating-and-referencing-an-offer-presentation-rule}
 
@@ -51,7 +51,7 @@ Interaction permet de contrôler le flux des propositions d&#39;offres à l&#39;
 
 ### Critères d&#39;application {#application-criteria-}
 
-Disponibles dans l&#39;onglet **[!UICONTROL Général]**, les critères d&#39;application permettent de déterminer les offres auxquelles la règle de présentation doit s&#39;appliquer. Pour cela, vous devez créer une requête et sélectionner les offres concernées, comme décrit ci-après.
+Les critères d&#39;application disponibles dans l&#39;onglet **[!UICONTROL Général]** permettent de définir les offres auxquelles la règle de présentation s&#39;appliquera. Pour cela, vous devez créer une requête et choisir les offres concernées, comme décrit ci-dessous.
 
 1. Dans votre règle de typologie, cliquez sur le lien **[!UICONTROL Editer les critères d&#39;application de la règle]** pour créer votre requête.
 
@@ -73,11 +73,11 @@ La **[!UICONTROL Dimension de ciblage]** correspond à la table des destinataire
 
 >[!NOTE]
 >
->Vous pouvez utiliser des tables non fournies en standard. Si vous souhaitez utiliser une dimension de ciblage spécifique, vous devez créer les tables ainsi qu&#39;un environnement dédié à l&#39;aide du mapping de ciblage. Pour plus d’informations, reportez-vous à la section [Créer un environnement d’offres](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
+>Vous pouvez également utiliser des tables non standard. Si vous souhaitez utiliser une dimension de ciblage spécifique, vous devez créer des tables ainsi qu’un environnement dédié à l’aide du mapping de ciblage. Pour plus d’informations, reportez-vous à la section [Créer un environnement d’offres](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
 
 ### Période {#period}
 
-Il s&#39;agit de la période glissante durant laquelle les propositions sont prises en compte dans la règle. Elle restreint dans le temps la prise en compte de l&#39;historique des propositions d&#39;offres. La règle ne s&#39;applique pas aux propositions d&#39;offres faites en dehors de cette période.
+Il s&#39;agit d&#39;une période glissante qui commence à la date de présentation de l&#39;offre. Il fixe une limite de temps pour la validité des propositions d’offre. La règle ne s&#39;applique pas aux propositions d&#39;offre faites au-delà de cette période.
 
 La période débute **n** jours avant la date des propositions et prend fin **n** jours après, où **n** correspond au nombre entré au niveau du champ **[!UICONTROL Période concernée]** :
 
@@ -112,11 +112,11 @@ Ces critères constituent les cas d&#39;application les plus courants d&#39;une 
 
   **[!UICONTROL Sur le même canal uniquement]** : permet d&#39;exclure les propositions d&#39;offre sur le canal spécifié dans l&#39;onglet **[!UICONTROL Général]**.
 
-  Par exemple, le canal spécifié pour la règle dans l&#39;onglet **[!UICONTROL Général]** est l&#39;email. Si les offres auxquelles la règle s&#39;applique n&#39;ont été proposées que sur le canal web, le moteur d&#39;interaction pourra présenter les offres dans une diffusion par email. En revanche, dès que les offres auront été présentées par email, le moteur d&#39;interaction choisira un autre canal pour proposer les offres.
+  Par exemple, le canal spécifié pour la règle dans l’onglet **[!UICONTROL Général]** est l’e-mail. Si les offres auxquelles la règle s&#39;applique n&#39;étaient pour l&#39;instant proposées que sur le canal web, le moteur d&#39;Interaction peut les présenter dans une diffusion e-mail. Cependant, une fois les offres présentées par e-mail, le moteur d’interaction choisit un autre canal pour les présenter.
 
   >[!NOTE]
   >
-  >Il s’agit bien du canal et non de l’emplacement. Si la règle doit exclure une offre sur le canal web, l’offre destinée à être proposée sur un site web à deux emplacements (une bannière et le corps de texte de la page par exemple) n’apparaîtra pas sur le site si elle a déjà été proposée auparavant. 
+  >On parle du canal et non de l&#39;espace. Si la règle doit exclure une offre sur le canal web, l&#39;offre destinée à être présentée sur un site web à deux emplacements (dans une bannière et dans le corps de la page, par exemple) ne sera pas affichée sur le site si elle a déjà été présentée auparavant.
   >
   >Dans le cas d&#39;un workflow impliquant la présentation d&#39;offres, les règles ne sont correctement prises en compte que si elles sont paramétrées sur **[!UICONTROL Tous les canaux]**.
 
@@ -124,7 +124,7 @@ Ces critères constituent les cas d&#39;application les plus courants d&#39;une 
 
   Ce filtre permet de limiter à certains ensembles d&#39;offres les propositions d&#39;offres à comptabiliser.
 
-  **[!UICONTROL Toutes les offres]** : valeur par défaut. Aucun filtre sur les offres n&#39;est appliqué.
+  **[!UICONTROL Toutes les offres]** : valeur par défaut. Aucun filtre n’est appliqué aux offres.
 
   **[!UICONTROL L&#39;offre en cours de présentation]** : l&#39;offre spécifiée dans l&#39;onglet **[!UICONTROL Général]** est exclue si elle a déjà été proposée.
 
@@ -132,13 +132,13 @@ Ces critères constituent les cas d&#39;application les plus courants d&#39;une 
 
   **[!UICONTROL Les offres auxquelles la règle s&#39;applique]** : lorsque plusieurs offres sont définies dans l&#39;onglet **[!UICONTROL Général]**, chaque proposition d&#39;offre de cet ensemble d&#39;offres est prise en compte et aboutit à l&#39;exclusion de toutes si le nombre maximum de proposition est atteint.
 
-  Par exemple, les offres N°2, 3 et 5 sont définies dans l&#39;onglet **[!UICONTROL Général]**. Le nombre maximum de propositions est fixé à 2. Si l&#39;offre N°2 et 5 sont proposées chacune une fois, le nombre de propositions comptabilisé est de 2. Par conséquent, l&#39;offre N°3 ne sera jamais présentée.
+  Par exemple, les offres 2, 3 et 5 sont définies dans l&#39;onglet **[!UICONTROL Général]**. Le nombre maximal de propositions est défini sur 2. Si les offres 2 et 5 sont chacune présentées une seule fois, le nombre de propositions comptabilisées sera de 2. Par conséquent, l’offre 3 ne sera jamais présentée.
 
 * **Filtre sur l&#39;état de la proposition**
 
   Ce filtre permet de choisir directement les états les plus courants des propositions d&#39;offres à prendre en compte dans l&#39;historique des propositions.
 
-  **[!UICONTROL Quel que soit l&#39;état des propositions]** : valeur par défaut. Aucun filtre n&#39;est appliqué sur l&#39;état des propositions.
+  **[!UICONTROL Quel que soit l&#39;état des propositions]** : valeur par défaut. Aucun filtre n&#39;est appliqué à l&#39;état des propositions.
 
   **[!UICONTROL Propositions acceptées ou refusées]** : permet d&#39;exclure les offres déjà proposées qui ont été acceptées ou refusées.
 

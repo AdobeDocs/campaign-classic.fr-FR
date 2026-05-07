@@ -10,8 +10,8 @@ topic-tags: production-procedures
 exl-id: 1f5d8c7e-6f9b-46cd-a9b4-a3b48afb1794
 source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
 workflow-type: tm+mt
-source-wordcount: '3816'
-ht-degree: 100%
+source-wordcount: '3857'
+ht-degree: 81%
 
 ---
 
@@ -29,14 +29,14 @@ Pour accéder à la page de surveillance des processus d&#39;Adobe Campaign, acc
 La page qui s&#39;affiche permet de visualiser l&#39;état de l&#39;instance connectée à savoir :
 
 * les informations relatives à l&#39;instance : version, nom, moteur de base de données, packages installés, indicateurs système du serveur,
-* la liste des processus manquants et les informations d&#39;exécution (date de démarrage, PID, etc.),
+* la liste des processus manquants et les informations d’exécution (date de début, PID, etc.),
 * une vue des workflows et des diffusions.
 
 Vous trouverez d&#39;autres méthodes de surveillance des processus de Campaign sur [cette page](../../production/using/monitoring-guidelines.md).
 
 ### Journal des logs {#log-journal}
 
-Il est possible d&#39;afficher les journaux relatif à un processus. Pour cela, cliquez sur un processus, par exemple **mta**, puis sur **[!UICONTROL Ouvrir les journaux]**.
+Il est possible d&#39;afficher les logs relatifs à un processus. Pour cela, cliquez sur un processus, par exemple **mta**, puis sur **[!UICONTROL Ouvrir les journaux]**.
 
 ![](assets/d_ncs_monitoring2.png)
 
@@ -60,7 +60,7 @@ Accédez à la liste des indicateurs système pour afficher les informations rel
 
   **[!UICONTROL Alerte]** : cet indicateur s&#39;affiche lorsque la consommation de la mémoire atteint les 90 % de la quantité totale.
 
-  Lorsque les indicateurs **[!UICONTROL Avertissement]** et **[!UICONTROL Alerte]** s&#39;affichent, vous pouvez remédier au problème en ajoutant de la RAM à la machine sur laquelle est installé le serveur Adobe Campaign. Vous pouvez également choisir d&#39;installer le serveur Adobe Campaign sur une machine dédiée.
+  Lorsque les indicateurs **[!UICONTROL Avertissement]** et **[!UICONTROL Alerte]** s&#39;affichent, vous pouvez remédier au problème en ajoutant de la RAM à la machine sur laquelle est installé le serveur Adobe Campaign. Vous pouvez également choisir d’installer le serveur Adobe Campaign sur une machine dédiée.
 
 * **[!UICONTROL Espace d&#39;échange]** : informations relatives à la mémoire virtuelle qui correspond à un fichier d&#39;échange, soit une zone du disque que Windows utilise comme s&#39;il s&#39;agissait de mémoire vive.
 
@@ -90,9 +90,9 @@ Accédez à la liste des indicateurs système pour afficher les informations rel
 
   **[!UICONTROL Alerte]** : cet indicateur s&#39;affiche lorsque l&#39;espace disque disponible atteint les 90 % de la capacité totale.
 
-* **[!UICONTROL Nombre de processus trop anciens]** : informations relatives aux processus Adobe Campaign en cours depuis plus d&#39;une journée.
+* **[!UICONTROL Nombre de processus trop anciens]** : informations relatives aux processus Adobe Campaign actifs depuis plus d’une journée.
 
-  **[!UICONTROL Valeur actuelle]** : nombre de processus actuellement en cours.
+  **[!UICONTROL Valeur actuelle]** : nombre de processus actuellement actifs.
 
   **[!UICONTROL Valeur max]** : nombre maximal de processus autorisés (1).
 
@@ -128,7 +128,7 @@ Accédez à la liste des indicateurs système pour afficher les informations rel
 
   **[!UICONTROL Alerte]** : cet indicateur s&#39;affiche lorsque la consommation de la mémoire atteint les 90 % de la quantité totale.
 
-  Lorsque les indicateurs **[!UICONTROL Avertissement]** et **[!UICONTROL Alerte]** s&#39;affichent, vous pouvez remédier au problème en ajoutant de la RAM à la machine sur laquelle est installé le serveur Adobe Campaign. Vous pouvez également choisir d&#39;installer le serveur Adobe Campaign sur une machine dédiée.
+  Lorsque les indicateurs **[!UICONTROL Avertissement]** et **[!UICONTROL Alerte]** s&#39;affichent, vous pouvez remédier au problème en ajoutant de la RAM à la machine sur laquelle est installé le serveur Adobe Campaign. Vous pouvez également choisir d’installer le serveur Adobe Campaign sur une machine dédiée.
 
 * **[!UICONTROL Espace d&#39;échange]** : informations relatives à la mémoire virtuelle qui correspond à un fichier d&#39;échange, soit une zone du disque que Windows utilise comme s&#39;il s&#39;agissait de mémoire vive.
 
@@ -144,7 +144,7 @@ Accédez à la liste des indicateurs système pour afficher les informations rel
 
   Lorsque les indicateurs **[!UICONTROL Avertissement]** et **[!UICONTROL Alerte]** s&#39;affichent, vous pouvez remédier au problème en augmentant la taille du fichier d&#39;échange.
 
-* **[!UICONTROL Fichiers principaux]** : informations relatives aux fichiers générés suite au crash d&#39;un processus Adobe Campaign. Ces fichiers permettent de diagnostiquer les raisons du crash.
+* **[!UICONTROL Fichiers principaux]** : informations relatives aux fichiers générés suite au crash d&#39;un processus Adobe Campaign. Ces fichiers vous permettent de diagnostiquer les raisons du crash.
 
   **[!UICONTROL Valeur actuelle]** : nombre de fichiers existants.
 
@@ -166,9 +166,9 @@ Accédez à la liste des indicateurs système pour afficher les informations rel
 
   **[!UICONTROL Alerte]** : cet indicateur s&#39;affiche lorsque le nombre de segments de mémoire atteint 2.
 
-* **[!UICONTROL Nombre de processus trop anciens]** : informations relatives aux processus en cours depuis plus d&#39;une journée.
+* **[!UICONTROL Nombre de processus trop anciens]** : informations relatives aux processus en actifs depuis plus d’une journée.
 
-  **[!UICONTROL Valeur actuelle]** : nombre de processus actuellement en cours.
+  **[!UICONTROL Valeur actuelle]** : nombre de processus actuellement actifs.
 
   **[!UICONTROL Valeur max]** : nombre maximal de processus autorisés.
 
@@ -188,7 +188,7 @@ Accédez à la liste des indicateurs système pour afficher les informations rel
 
 * **[!UICONTROL Processus]** : informations relatives aux processus de la machine.
 
-  **[!UICONTROL Valeur actuelle]** : nombre de processus actuellement en cours.
+  **[!UICONTROL Valeur actuelle]** : nombre de processus actuellement actifs.
 
   **[!UICONTROL Valeur max]** : nombre maximal de processus autorisés.
 
@@ -202,7 +202,7 @@ Accédez à la liste des indicateurs système pour afficher les informations rel
 
 * **[!UICONTROL Processus Zombie]** : informations relatives aux processus qui se sont arrêtés, mais qui disposent toujours d&#39;un identifiant de processus (PID) et restent visibles dans la table des processus.
 
-  **[!UICONTROL Valeur actuelle]** : nombre de processus zombie actuellement en cours.
+  **[!UICONTROL Valeur actuelle]** : nombre de processus zombie actuellement actifs.
 
   **[!UICONTROL Valeur max]** : nombre maximal de processus zombie autorisés (2).
 
@@ -244,7 +244,7 @@ Ce fichier est nommé par Adobe Campaign.
 
 ## Rapports SMTP {#smtp-reports}
 
-Les rapports de surveillance sur les envois SMTP sont intégrés dans la plateforme Adobe Campaign. Ils sont accessibles via la console ou un accès Web.
+Les rapports de surveillance sur les envois SMTP sont intégrés à la plateforme Adobe Campaign. Ils sont accessibles via la console ou un accès web.
 
 Ces rapports affichent les statistiques SMTP d&#39;envoi et les erreurs SMTP par domaine. Pour y accéder, l’opérateur doit disposer des droits d’**administration**.
 
@@ -279,11 +279,11 @@ La liste des indicateurs de ce rapport est proposée sous le graphique.
 
 1. Représente symboliquement deux files du Shaper :
 
-   * Courbe bleue : la file des messages actifs. Ces messages seront envoyés dès que possible.
+   * Courbe bleue : file de messages actifs. Ces messages seront envoyés dès que possible.
 
-   * Courbe kaki : la file d’attente « deferred ». Ces messages ne peuvent pas être envoyés dans l&#39;immédiat pour cause de limitation ou parce qu&#39;aucune connexion à la cible n&#39;est disponible. Des nouvelles tentatives d’envoi auront lieu toutes les 5 s, 10 s, 20 s, 40 s, …, 2 min, etc. pendant la durée **MaxAgeSec** définie, avant l’abandon de la procédure.
+   * Courbe kaki : la file &#39;deferred&#39;. Ces messages ne peuvent pas être renvoyés pour le moment en raison du contrôle de flux ou de l’absence de connexion à la cible. Les reprises auront lieu toutes les 5 s, 10 s, 20 s, 40 s, 2 min, etc. pour la durée **MaxAgeSec** définie avant d’être abandonnées.
 
-1. Ce graphique présente un détail des messages abandonnés (courbe rouge sur le 2e graphe) : il montre la part des messages abandonnés sans avoir essayé de les envoyer (en mauve) par rapport aux messages dont l&#39;envoi a échoué (en rouge). Il permet donc de voir la part des messages qui ne passent pas dans le délai imparti à cause de limitations par le serveur de statistiques (throttling) ou à cause de l&#39;indisponibilité de serveurs distants.
+1. Ce graphique présente un détail des messages abandonnés (courbe rouge sur le 2e graphique) : il montre la proportion de messages abandonnés sans reprise (en mauve) par rapport aux messages dont l&#39;envoi a échoué (en rouge). Vous pouvez ainsi visualiser la proportion de messages non traités dans le délai imparti en raison de limitations par le serveur de statistiques (limitation) ou d’une indisponibilité du serveur distant.
 1. Connexions SMTP ouvertes ou en cours d&#39;ouverture.
 1. Nombre approximatif de **mtachild**.
 
@@ -317,11 +317,11 @@ La liste des indicateurs de ce rapport est proposée sous le tableau.
 
 Cliquez sur un nom de domaine pour en visualiser les erreurs.
 
-Elles sont classées par PublicId : cet identifiant correspond à une adresse IP partagée par plusieurs mta Adobe Campaign derrière un routeur. Le serveur de statistiques utilise cet identifiant pour mémoriser les statistiques de connexions et d&#39;envois entre ce point de départ et le serveur cible.
+Ils sont catégorisés par PublicId : cet identifiant correspond à une adresse IP partagée par plusieurs mta Adobe Campaign derrière un routeur. Le serveur de statistiques utilise cet identifiant pour mémoriser les statistiques de connexions et d&#39;envois entre ce point de départ et le serveur cible.
 
 ![](assets/smtp_error_report_details.png)
 
-Le champ **[!UICONTROL Propriétaire du domaine]** permet de regrouper plusieurs noms de domaine sous un même libellé. Dans la vue initiale du rapport, tous les MX de ces domaines seront associés à ce propriétaire.
+Le champ **[!UICONTROL Propriétaire du domaine]** permet de regrouper différents noms de domaine sous le même libellé. Dans la vue de rapport initiale, tous les noms de domaine MX seront associés à ce propriétaire.
 
 Cliquez sur un identifiant PublicId pour en visualiser le détail.
 
@@ -329,7 +329,7 @@ Cliquez sur un identifiant PublicId pour en visualiser le détail.
 
 >[!NOTE]
 >
->Le pourcentage d’erreurs est représenté par deux graphiques. Le premier est une barre de progression horizontale sur un arrière-plan noir. Le second graphique est chronologique. La période sélectionnée est divisée en douze intervalles de temps, chacun représenté par une barre de progression verticale. Dans les deux représentations, si aucune erreur n’a été détectée, la barre est noire. La couleur de la barre varie en fonction du pourcentage d’erreurs (jaune, puis orange, et enfin rouge). La couleur grise signifie qu’aucun volume de données significatif n’a été remonté. Il est possible d’afficher le pourcentage exact d’erreurs en positionnant le curseur de la souris sur un graphique.
+>Le pourcentage d’erreurs est représenté par deux graphiques. La première est une barre de progression horizontale sur un arrière-plan noir. Le deuxième tableau est chronologique. La période sélectionnée est divisée en douze intervalles de temps, représentés chacun par une barre de progression verticale. Dans les deux représentations, si aucune erreur n&#39;a été détectée, la barre est noire. La couleur de la barre dépend du pourcentage d&#39;erreurs rencontrées (jaune, puis orange et enfin rouge). La couleur grise signifie qu’aucun volume de données significatif n’a été trouvé. Il est possible d&#39;afficher le pourcentage exact d&#39;erreurs en plaçant le curseur sur le graphique.
 
 >[!NOTE]
 >
@@ -349,11 +349,11 @@ Une fois le workflow démarré tous les 25 du mois, votre opérateur de factura
 
 Les mesures suivantes sont disponibles pour effectuer le suivi de vos diffusions :
 
-* **[!UICONTROL Date de démarrage]** : date de démarrage de la diffusion. Notez qu’elle ne peut pas être antérieure à la date indiquée dans le champ « à partir du » du rapport.
+* **[!UICONTROL Date de démarrage]** : date de démarrage de la diffusion. Notez qu’elle peut être antérieure à la date « De » du rapport.
 * **[!UICONTROL Libellé]** : libellé de la diffusion. Les diffusions comportant moins de 100 messages à envoyer sont considérées comme trop petites et sont donc agrégées par date de début, auquel cas le libellé indique le nombre d’agrégats ; par exemple, [Agrégation de 3 petites diffusions].
 * **[!UICONTROL Volume total]** : volume total d’octets transférés pour la diffusion.
 * **[!UICONTROL Volume moyen]** : volume moyen d’octets transférés. Il s’agit du résultat de la formule suivante **(volume total/messages)**, qui est la base de calcul de la mesure **[!UICONTROL Multiplicateur]**.
-* **[!UICONTROL Messages]** : nombre de messages envoyés, incluant à la fois les messages envoyés avec succès et les reprises (suite à la réception d’un message rebond de la part du serveur contacté).
+* **[!UICONTROL Messages]** : Nombre de messages envoyés. Cela inclut les messages qui ont été envoyés avec succès et les reprises (suite à la réception d’un message de rebond du serveur contacté).
 * **[!UICONTROL Multiplicateur (x)]** : la valeur du multiplicateur est déduite du volume moyen des messages.
 * **[!UICONTROL Total]** : résultat de la multiplication des messages et du multiplicateur.
 
@@ -409,7 +409,7 @@ L&#39;opérateur et son login doivent avoir été préalablement configurés dan
 
 ![](assets/ncs_operators_rights_01.png)
 
-**Fréquence** : il s&#39;agit d&#39;un test sollicitant peu de charge, il peut donc être lancé assez souvent, mais pas plus d&#39;une fois par minute.
+**Fréquence** : il s&#39;agit d&#39;un test utilisant très peu de bande passante. Il peut donc être lancé assez souvent, mais pas plus d&#39;une fois par minute.
 
 #### Le /nl/jsp/monitor.jsp {#nl-jsp-monitor-jsp}
 
@@ -425,17 +425,17 @@ L&#39;opérateur et son login doivent avoir été préalablement configurés dan
 
 #### Le /nl/jsp/soaprouter.jsp {#nl-jsp-soaprouter-jsp}
 
-Ce **jsp** représente le point d&#39;entrée des API de l&#39;application Adobe Campaign. Il peut donc servir de monitoring fin de l&#39;application. Il peut également être utilisé pour surveiller les services web Adobe Campaign. Il est utilisé dans nos scripts de surveillance, néanmoins, il est réservé à des utilisateurs experts.
+Ce **jsp** représente le point d’entrée des API de l’application Adobe Campaign. Il peut donc fournir une surveillance détaillée de l’application. Il peut également être utilisé pour surveiller les services web Adobe Campaign. Il est utilisé dans nos scripts de surveillance, mais notez qu’il est réservé aux utilisateurs expérimentés.
 
 ### Surveillance selon les types de déploiements {#monitoring-based-on-deployment-types}
 
-Adobe Campaign permet différentes configurations de déploiement (voir [cette section](../../installation/using/hosting-models.md) à ce sujet). Dans cette section, sont détaillées les différentes techniques de monitoring automatique à appliquer selon le type d&#39;installation dont vous disposez.
+Adobe Campaign permet différentes configurations de déploiement (voir à ce sujet [cette section](../../installation/using/hosting-models.md)). Cette section présente les différentes techniques de surveillance automatique à appliquer selon le type d’installation dont vous disposez.
 
 <table> 
  <thead> 
   <tr> 
    <th> Type de déploiement </th> 
-   <th> Contrôle  </th> 
+   <th> Contrôle </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -480,7 +480,7 @@ Adobe Campaign peut vous fournir un outil de surveillance des instances (netrep
 
 >[!IMPORTANT]
 >
->Cet outil peut être utilisé pour surveiller votre instance mais il n&#39;est pas pris en charge par Adobe Campaign. Contactez votre administrateur de Campaign pour plus d&#39;informations.
+>Cet outil peut être utilisé pour surveiller vos instances, mais il n’est pas pris en charge par Adobe Campaign. Contactez votre administrateur Campaign pour plus d’informations.
 
 ### Eléments requis {#required-elements}
 
@@ -507,7 +507,7 @@ Le fichier XML de configuration contient les éléments suivants :
 
 * [Elément &#39;properties&#39;](#properties--element)
 * [Elément &#39;instance&#39;](#instance--element)
-* [Elément &#39;host&#39;](#host--element)
+* [Élément &#39;host&#39;](#host--element)
 * [Les sous-éléments](#sub-elements)
 
 Voici un exemple de configuration :
@@ -540,7 +540,7 @@ Voici un exemple de configuration :
 
 >[!NOTE]
 >
->Vous pouvez spécifier différentes configurations en ajoutant un suffixe au fichier **netconf.xml**, par exemple **netconf-dev.xml**, **netconf-prod.xml**, etc. Spécifiez ensuite la configuration à utiliser pour exécuter le netreport dans les fichiers **netreport.bat** ou **netreport.sh** en ajoutant **$JAVA_HOME/bin/java netreport dev** ou **@%JAVA_HOME%binjava netreport prod** par exemple.
+>Vous pouvez définir différentes configurations en ajoutant un suffixe au fichier **netconf.xml**, par exemple **netconf-dev.xml**, **netconf-prod.xml**, etc. Spécifiez ensuite la configuration à utiliser pour exécuter le rapport réseau dans les fichiers **netreport.bat** ou **netreport.sh** en ajoutant **$JAVA_HOME/bin/java netreport dev** ou **@%JAVA_HOME%binjava netreport prod** par exemple.
 
 >[!IMPORTANT]
 >
@@ -553,7 +553,7 @@ Cet élément permet de renseigner le paramétrage des mails, soit :
 * **mailServer** : serveur MTP utilisé pour envoyer les emails (ex : smtp.domain.net).
 * **mailFrom** : adresse email de l&#39;expéditeur du rapport (ex : monitoring@domain.net).
 * **recipientList** : liste des adresses email des destinataires du contrôle. Les adresses doivent être séparées par des virgules (sans espaces).
-* Le mode « **nuit** » (facultatif) permet d’éviter d’envoyer des emails entre les heures spécifiées. Les données sont alors consolidées et un email concernant l’activité nocturne est envoyé après l’heure de fin (7 h par défaut).
+* Le mode « **nuit** » (facultatif) permet d’éviter d’envoyer des emails entre les heures spécifiées. Au lieu de cela, les données sont consolidées et un e-mail concernant l’activité de la nuit est envoyé après l’heure de fin (7:00 par défaut).
 * Le sous-élément **buildRange** (facultatif) vous permet de spécifier un nombre de build minimal et maximal. Une erreur sera générée pour toutes les machines dont le numéro de build ne tombe pas dans cette plage.
 
   ```
@@ -568,7 +568,7 @@ Cet élément permet de renseigner le paramétrage des mails, soit :
 
 #### Elément &#39;instance&#39; {#instance--element}
 
-Cet élément permet de regrouper plusieurs machines (hosts) sous une même instance. Les noms d&#39;instances apparaissent dans la première partie de l&#39;e-mail de monitoring. Vous pouvez cliquer sur le nom d&#39;une instance pour accéder au détail de chacune des machines.
+Cet élément permet de regrouper plusieurs machines (hôtes) dans la même instance. Les noms des instances apparaissent dans la première partie de l’e-mail de surveillance. Vous pouvez cliquer sur le nom d’une instance pour accéder aux détails de chaque ordinateur.
 
 ```
 instance name="instance-name" recipientList="mail@mail.com,mail2@mail.com">
@@ -584,9 +584,9 @@ instance name="instance-name" recipientList="mail@mail.com,mail2@mail.com">
 * **name** : nom de l&#39;instance qui apparaitra dans la première partie de l&#39;e-mail.
 * **recipientList** (optionnel) : vous permet d&#39;envoyer par email un rapport de monitoring concernant une instance en particulier.
 
-#### Elément &#39;host&#39; {#host--element}
+#### Élément &#39;host&#39; {#host--element}
 
-Cet élément paramètre la surveillance sur l&#39;host d&#39;un serveur donné, soit :
+Cet élément paramètre la surveillance sur l’hôte d’un serveur donné, soit :
 
 * **name** : nom de la machine à surveiller.
 * **alias** (optionnel) : nom sous lequel apparaîtra la machine surveillée dans le rapport.

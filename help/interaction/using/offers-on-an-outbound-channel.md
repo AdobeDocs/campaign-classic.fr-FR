@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: case-study
 exl-id: 77fee343-09d1-4d60-be43-efe02953a70c
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '477'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '478'
+ht-degree: 84%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 ## Diffusion d&#39;une offre par email {#email-offer-delivery}
 
-Dans votre base, vous disposez d&#39;une catégorie d&#39;offres de voyages à destination de l&#39;Afrique. L&#39;éligibilité, les contextes et les représentations de chaque offre ont été paramétrés. Vous allez à présent créer une campagne pour présenter vos offres par email.
+Dans notre base de données, il y a une catégorie d&#39;offres de voyage en Afrique. L&#39;éligibilité, les contextes et les représentations de chaque offre ont été paramétrés. Nous allons maintenant créer une campagne afin de présenter nos offres par email.
 
 1. Créez votre opération marketing et votre workflow de ciblage.
 
@@ -74,7 +74,7 @@ Dans votre base, vous disposez d&#39;une catégorie d&#39;offres de voyages à d
 
    ![](assets/offer_simulation_example_002.png)
 
-1. Enregistrez la simulation. Celle-ci s&#39;ouvre alors dans un nouvel onglet.
+1. Enregistrez la simulation. Cette action s’ouvre ensuite dans un nouvel onglet.
 
    ![](assets/offer_simulation_example_003.png)
 
@@ -90,7 +90,7 @@ Dans votre base, vous disposez d&#39;une catégorie d&#39;offres de voyages à d
 
    ![](assets/offer_simulation_example_006.png)
 
-1. Entrez des dates de validité. Vous devez obligatoirement spécifier au moins une date de début. Ceci permet au moteur d&#39;offres de filtrer les offres et de choisir celles qui sont valides à la date donnée.
+1. Saisissez les dates de validité. Vous devez au moins saisir une date de début. Cela permet au moteur d&#39;offres de filtrer les offres et de choisir celles qui sont valides à une date donnée.
 1. Si nécessaire, spécifiez un ou plusieurs thèmes pour limiter le nombre d&#39;offres à celles ayant ce mot-clé dans leurs paramètres.
 
    Dans notre exemple, la catégorie **Produits financiers** contient deux sous-catégories ayant chacune un thème distinct. La simulation portera seulement sur les offres de la catégorie dont le thème d&#39;application est **Clients &lt; 1 an**.

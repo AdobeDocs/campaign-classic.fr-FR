@@ -5,9 +5,9 @@ description: élément param
 feature: Schema Extension
 exl-id: d8960a2e-6900-4346-9f06-e7dd9d7b5139
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '177'
-ht-degree: 100%
+ht-degree: 80%
 
 ---
 
@@ -45,7 +45,7 @@ Cet élément permet de définir un paramètre d&#39;un appel à une méthode S
 ## Description des attributs {#attribute-description-12}
 
 * **desc (string)** : description qui concerne l’élément `<param>`.
-* **inout (string)**: cet attribut définit si le paramètre est en entrée de l&#39;appel SOAP (in) ou bien en sortie (out). Si cet attribut n&#39;est pas précisé, le paramètre est par défaut en entrée (&quot;@inout=in&quot;).
+* **inout (string)** : cet attribut définit si le paramètre est à l’entrée (in) ou à la sortie (out) de l’appel SOAP. Si cet attribut n&#39;est pas spécifié, le paramètre par défaut est input (« @inout=in »).
 * **label (string)** : libellé `<param>`
 * **localizable (string)**: s&#39;il est activé, cet attribut indique à l&#39;outil de collecte de récupérer la valeur de l&#39;attribut &quot;@label&quot; pour traduction (usage interne).
 * **name (MNTOKEN)**: nom interne du `<param>`
@@ -82,7 +82,7 @@ Cet élément permet de définir un paramètre d&#39;un appel à une méthode S
    * timespan
    * uuid
 
-## Exemples  {#examples-9}
+## Exemples {#examples-9}
 
 Définition du paramètre en entrée &quot;serviceName&quot; de type chaîne de caractères:
 

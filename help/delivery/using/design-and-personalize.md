@@ -9,8 +9,8 @@ hide: true
 exl-id: 5bf727d2-83b1-4a99-be25-041eee8d234c
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 100%
+source-wordcount: '1401'
+ht-degree: 96%
 
 ---
 
@@ -27,9 +27,9 @@ Les principes de base de la personnalisation sont présentés dans [cette sectio
 
 Vérifiez que le contenu de votre message est correctement conçu pour éviter les erreurs généralement liées à la personnalisation.
 
-**Conseils** : dans les champs de personnalisation provenant de fichiers externes fournis par des prestataires tiers, le contenu HTML externe peut être incorrect. Pour éviter ce problème, vérifiez la syntaxe, l’utilisation des balises, les caractères, etc. Par exemple, une balise de personnalisation Adobe Campaign est toujours de la forme : &lt;%=table.champ%>. Voir à ce propos [cette section](about-personalization.md).
+**Conseils** : dans les champs de personnalisation provenant de fichiers externes fournis par des prestataires tiers, le contenu HTML externe peut être incorrect. Pour éviter cela, vérifiez la syntaxe, l’utilisation de balises, de caractères, etc. Par exemple, une balise de personnalisation Adobe Campaign est toujours de la forme : &lt;%=table.champ%>. Voir à ce propos [cette section](about-personalization.md).
 
-L&#39;utilisation incorrecte des paramètres dans les blocs de personnalisation peut entraîner des problèmes. Par exemple, les variables en JavaScript doivent être utilisées comme suit :
+L’utilisation incorrecte des paramètres dans les blocs de personnalisation peut poser problème. Par exemple, les variables dans JavaScript doivent être utilisées comme suit :
 
 ```
     <%
@@ -73,9 +73,9 @@ Incluez toujours un lien de page miroir. La partie supérieure de l&#39;e-mail c
 
 ### Lien de désabonnement
 
-Le lien de désabonnement est indispensable. Il doit être visible, valide et le formulaire fonctionnel. Par défaut, une [règle de typologie](steps-validating-the-delivery.md#validation-process-with-typologies) vérifie au moment de l’analyse du message qu’un lien d’exclusion est bien présent dans le contenu d’une diffusion et génère un avertissement en cas d’absence.
+Le lien de désinscription est essentiel. Il doit être visible et valide, et le formulaire doit être fonctionnel. Par défaut, une [règle de typologie](steps-validating-the-delivery.md#validation-process-with-typologies) vérifie au moment de l’analyse du message qu’un lien d’exclusion est bien présent dans le contenu d’une diffusion et génère un avertissement en cas d’absence.
 
-**Conseil** : comme une erreur humaine est toujours possible, vérifiez du début à la fin le bon fonctionnement du lien de désabonnement avant chaque envoi. Par exemple, lors de l&#39;envoi du BAT, vérifiez que le lien est valide, que le formulaire est en ligne et que la valeur du champ Ne plus contacter cette personne est changée en Oui.
+**Conseil** : comme une erreur humaine est toujours possible, vérifiez que le lien d’exclusion (opt-out) fonctionne correctement avant chaque envoi. Par exemple, lors de l’envoi du BAT, vérifiez que le lien est valide, que le formulaire est en ligne et que le champ Ne plus contacter cette personne est sur Oui.
 
 Découvrez comment insérer un lien d&#39;opt-out [dans cette section](personalization-blocks.md#personalization-blocks-example).
 
@@ -97,7 +97,7 @@ Veillez à tester toutes les modifications avant l’envoi final
 
 Par défaut, le nombre de caractère d&#39;un SMS respecte la norme de téléphonie mobile GSM (Global System for Mobile Communications). Les SMS utilisant l&#39;encodage GSM sont limités à 160 caractères, ou 153 caractères par SMS pour les messages envoyés en plusieurs parties.
 
-La translittération consiste à remplacer un caractère d’un SMS par un autre lorsque ce caractère n’est pas pris en charge par la norme GSM. Notez que l’insertion de champs de personnalisation dans le contenu de votre SMS peut introduire des caractères qui ne sont pas pris en charge par l’encodage GSM. Vous pouvez autoriser la translittération des caractères en cochant la case correspondante dans l’onglet Paramètres du canal SMPP du **[!UICONTROL compte externe]** correspondant.
+La translittération consiste à remplacer un caractère d’un SMS par un autre lorsque ce caractère n’est pas pris en charge par la norme GSM. Notez que l’insertion de champs de personnalisation dans le contenu du SMS peut introduire des caractères non pris en charge par l’encodage GSM. Vous pouvez autoriser la translittération des caractères en cochant la case correspondante dans l’onglet Paramètres du canal SMPP du **[!UICONTROL compte externe]** correspondant.
 En savoir plus dans [cette section](sms-set-up.md#creating-an-smpp-external-account).
 
 **Conseils** :
@@ -152,9 +152,9 @@ Pour être accessibles depuis l&#39;extérieur, les images utilisées dans les e
 
 * Vous pouvez vérifier si la configuration de l’instance permet la gestion des ressources publiques. [En savoir plus](../../installation/using/deploying-an-instance.md#managing-public-resources)
 
-* Depuis l’assistant de diffusion, vous pouvez importer une page HTML contenant des images ou insérer directement des images à l’aide de l’éditeur HTML via l’icône **[!UICONTROL Image]**  En savoir plus dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=fr#adding-images){target="_blank"}.
+* Depuis l’assistant de diffusion, vous pouvez importer une page HTML contenant des images ou insérer directement des images à l’aide de l’éditeur HTML via l’icône **[!UICONTROL Image]** En savoir plus dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=fr#adding-images){target="_blank"}.
 
-* Si les images ne sont pas affichées, vérifiez qu’elles sont disponibles sur le serveur. Pour ce faire, cliquez sur l’onglet Source de votre diffusion. Recherchez vos images, copiez l’URL de chaque image et collez-la dans un navigateur web. Si les images ne sont toujours pas affichées, contactez votre administrateur ou administratrice informatique ou le fournisseur tiers du contenu de votre diffusion.
+* Si les images ne sont pas affichées, vérifiez qu&#39;elles sont disponibles sur le serveur. Pour ce faire, cliquez sur l’onglet Source de votre diffusion. Recherchez vos images, copiez l&#39;URL de chaque image et collez-la dans un navigateur web. Si les images ne sont toujours pas affichées, contactez votre administrateur ou administratrice informatique ou le fournisseur tiers du contenu de votre diffusion.
 
 ## Prévisualisez votre message {#preview-msg}
 

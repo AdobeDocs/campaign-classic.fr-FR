@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: 'Administration '
-description: 'Administration '
+title: Administration
+description: Administration
 feature: Monitoring
 badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 audience: production
@@ -9,15 +9,15 @@ content-type: reference
 topic-tags: production-procedures
 exl-id: 12a255fe-66f9-40ce-b19e-c24322c2e009
 source-git-commit: b7dedddc080d1ea8db700fabc9ee03238b3706cc
-workflow-type: ht
-source-wordcount: '425'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '449'
+ht-degree: 96%
 
 ---
 
 # Administration{#administration}
 
-Le démarrage automatique des modules Adobe Campaign (**web**, **mta**, **wfserver**, etc.) est assuré par le service **nlserver**.
+Démarrage automatique des modules Adobe Campaign (**web**, **mta**, **wfserver**, etc.) est fourni par le serveur **nlserver**.
 
 L&#39;installation d&#39;Adobe Campaign paramètre automatiquement la machine afin que le service **nlserver** démarre pendant la séquence de boot.
 
@@ -99,7 +99,7 @@ Voici une liste des commandes usuelles d&#39;administration accessibles sous Lin
 
 * Charger à nouveau la configuration du module **nlserver web** (et le cas échéant le module d’extension du serveur web) lorsque les fichiers **serverConf.xml** et **config-`<instance>  .xml </instance>`** ont été édités.
 
-  **nlserver config -reload** 
+  **nlserver config -reload**
 
   >[!NOTE]
   >

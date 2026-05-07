@@ -7,8 +7,8 @@ feature: Web Forms
 exl-id: 5d48bb27-1884-47f1-acb7-dff5113565bc
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 100%
+source-wordcount: '907'
+ht-degree: 59%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## Champs de stockage des réponses {#response-storage-fields}
 
-Les réponses aux formulaires peuvent être enregistrées dans un champ de la base ou temporairement dans une variable locale. Le mode de stockage des réponses est sélectionné lors de la création d&#39;un champ. Il peut être modifié à partir du lien **[!UICONTROL Editer le stockage...]**.
+Les réponses aux formulaires peuvent être enregistrées dans un champ de la base de données ou temporairement dans une variable locale. Le mode de stockage des réponses est choisi lors de la création du champ. Il peut être modifié à partir du lien **[!UICONTROL Modifier le stockage...]** .
 
 Pour chaque champ de saisie d&#39;un formulaire, les options de stockage suivantes sont disponibles :
 
@@ -29,7 +29,7 @@ Pour chaque champ de saisie d&#39;un formulaire, les options de stockage suivant
 
 * **[!UICONTROL Variable]**
 
-  Vous pouvez utiliser une variable si vous ne souhaitez pas stocker les informations dans la base de données. Les variables locales peuvent être déclarées en amont. Voir à ce sujet la section [Stocker les données dans une variable locale](#storing-data-in-a-local-variable).
+  Si vous ne souhaitez pas stocker d’informations dans la base de données, vous pouvez utiliser une variable. Les variables locales peuvent être déclarées en amont. Voir à ce sujet la section [Stocker les données dans une variable locale](#storing-data-in-a-local-variable).
 
 ### Stockage des données dans la base de données {#storing-data-in-the-database}
 
@@ -39,13 +39,13 @@ Pour enregistrer les données dans un champ existant de la base de données, cli
 
 >[!NOTE]
 >
->Le document de référence par défaut est le schéma des destinataires **nms:recipient**. Pour le visualiser ou en choisir un nouveau, sélectionnez le formulaire dans la liste et cliquez sur le bouton **[!UICONTROL Propriétés]**.
+>Le document de référence par défaut est le schéma **nms:recipient**. Pour le visualiser ou en choisir un nouveau, sélectionnez le formulaire dans la liste et cliquez sur le bouton **[!UICONTROL Propriétés]**.
 
 ### Stocker les données dans une variable locale {#storing-data-in-a-local-variable}
 
 Vous pouvez utiliser des variables locales : en effet, quoique non stockées dans la base, les données peuvent ainsi être réutilisées dans la page ou dans les autres pages, par exemple pour conditionner l&#39;affichage d&#39;une zone ou personnaliser un message.
 
-Ainsi, vous pouvez utiliser la valeur d&#39;un champ non enregistré pour autoriser l&#39;affichage d&#39;un groupe d&#39;options dans la page. Dans la page ci-dessous, le type de véhicule n&#39;est pas stocké dans la base :
+Cela signifie que vous pouvez utiliser la valeur d’un champ non enregistré pour autoriser l’affichage d’un groupe d’options sur la page. Dans la page ci-dessous, le type de véhicule n&#39;est pas stocké dans la base de données :
 
 ![](assets/s_ncs_admin_survey_no_storage_variable.png)
 
@@ -83,7 +83,7 @@ Ainsi, si l&#39;utilisateur sélectionne un véhicule utilitaire, le formulaire 
 
 ## Utiliser les informations collectées {#using-collected-information}
 
-Pour chaque formulaire, les réponses fournies peuvent être réutilisées dans les champs ou les libellés. Les syntaxes à utiliser sont les suivantes :
+Pour chaque formulaire, les réponses fournies peuvent être réutilisées dans les champs ou les libellés. Les syntaxes à utiliser sont les suivantes :
 
 * Pour un contenu stocké dans un champ de la base :
 
@@ -117,19 +117,19 @@ Deux modes d&#39;utilisation de cette boîte sont possibles :
 
 * Si l’accès au formulaire web se fait via un lien envoyé dans un email, et donc si l’utilisateur qui a accès à l’application web est déjà en base, vous pouvez cocher l’option **[!UICONTROL Mettre à jour l’enregistrement pré-chargé]**. Voir à ce sujet la section [Diffuser un formulaire par email](publishing-a-web-form.md#delivering-a-form-via-email).
 
-  Adobe Campaign utilise alors par défaut la clé primaire chiffrée du profil de l’utilisateur, qui est un identifiant unique attribué à chaque profil par Adobe Campaign. Vous devez paramétrer les informations à précharger à partir de la boîte de préchargement. Pour plus d’informations, consultez la section [Précharger les données du formulaire](publishing-a-web-form.md#pre-loading-the-form-data).
+  Dans ce cas, Adobe Campaign utilise la clé primaire chiffrée du profil utilisateur, qui est un identifiant unique attribué à chaque profil par Adobe Campaign. Vous devez paramétrer les informations à précharger à partir de la boîte de préchargement. Voir à ce sujet la section [Précharger les données du formulaire](publishing-a-web-form.md#pre-loading-the-form-data).
 
   >[!CAUTION]
   >
-  >Cette option surcharge les données de l’utilisateur, y compris son adresse e-mail si un champ permet de la saisir. Elle ne permet pas de créer des profils et requiert l’utilisation d’une boîte de préchargement dans le formulaire.
+  >Cette option remplace les données de l’utilisateur, y compris son adresse e-mail si un champ permet de la saisir. Il ne peut pas être utilisé pour créer des profils et nécessite l’utilisation d’une boîte de préchargement dans le formulaire.
 
-* Pour enrichir les données des destinataires en base, modifiez la boîte d’enregistrement pour sélectionner la clé de réconciliation. Pour une utilisation en interne (typiquement, sur un intranet) ou pour un formulaire de création de profils, par exemple, vous pouvez sélectionner le ou les champs de réconciliation. La boîte propose tous les champs de la base de données utilisés dans les différentes pages de l’application web :
+* Pour enrichir les données des destinataires en base, éditez la boîte d&#39;enregistrement et sélectionnez la clé de réconciliation. Pour une utilisation en interne (typiquement, sur un intranet) ou pour un formulaire de création de profils par exemple, vous pouvez sélectionner le ou les champs de réconciliation. La boîte propose tous les champs de la base de données utilisés dans les différentes pages de l&#39;application Web :
 
   ![](assets/s_ncs_admin_survey_save_box_edit.png)
 
-Par défaut, les données sont importées dans la base par une opération de **[!UICONTROL Mise à jour ou insertion]** : s’il existe dans la base, l’élément est mis à jour (par exemple la newsletter choisie ou l’e-mail renseigné). S’il n’existe pas, l’information est ajoutée.
+Par défaut, les données sont importées dans la base par une opération de type **[!UICONTROL Mise à jour ou insertion]** : s&#39;il existe dans la base, l&#39;élément est mis à jour (par exemple la newsletter choisie ou l&#39;email renseigné). S’il n’existe pas, l’information est ajoutée.
 
-Vous pouvez toutefois modifier ce comportement. Pour cela, sélectionnez la racine de l&#39;élément et choisissez, dans la liste déroulante, l&#39;opération à effectuer :
+Vous pouvez toutefois modifier ce comportement. Pour cela, sélectionnez la racine de l&#39;élément et choisissez, dans la liste déroulante, l&#39;opération à effectuer :
 
 ![](assets/s_ncs_admin_survey_save_operation.png)
 

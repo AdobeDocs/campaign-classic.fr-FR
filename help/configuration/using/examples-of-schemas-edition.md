@@ -1,14 +1,14 @@
 ---
 product: campaign
 title: Exemples d'édition de schémas
-description: Exemples d'édition de schémas
+description: Exemples dʼédition de schémas
 feature: Schema Extension
 role: Developer
 exl-id: b7ee70e0-89c6-4cd3-8116-2f073d4a2f2f
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
-source-wordcount: '671'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '688'
+ht-degree: 94%
 
 ---
 
@@ -201,7 +201,7 @@ CREATE INDEX NmsRecipient_featureId ON NmsRecipient(iFeatureId);
 
 Une table d&#39;Overflow est une table d&#39;extension (cardinalité 1-1), mais la déclaration du lien vers la table à étendre est renseignée dans le schéma de la table d&#39;Overflow.
 
-C&#39;est la table d&#39;Overflow qui possède la clé étrangère vers la table à étendre : on ne modifie donc pas la table à étendre. La relation entre les deux tables est la valeur de la clé primaire de la table à étendre.
+La table d&#39;Overflow contient la clé étrangère vers la table à étendre. Le tableau à étendre n&#39;est donc pas modifié. La relation entre les deux tables est la valeur de la clé primaire de la table à étendre.
 
 Création du schéma de table overflow (**cus:overflow**) :
 

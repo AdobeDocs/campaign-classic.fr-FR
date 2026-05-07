@@ -7,8 +7,8 @@ hide: true
 exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1551'
-ht-degree: 99%
+source-wordcount: '1559'
+ht-degree: 77%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 ## Nombre de clics pour une diffusion spécifique {#number-of-clicks-for-a-specific-delivery}
 
-Dans cet exemple, vous allez rechercher le nombre de clics des destinataires, sur une diffusion spécifique. Ces clics sont rapportés grâce aux logs de tracking des destinataires, sur une période donnée. Le destinataire va être identifié au moyen de son adresse email. Cette requête utilise la table **[!UICONTROL Logs de tracking des destinataires]**.
+Dans cet exemple, nous allons récupérer le nombre de clics effectués sur une diffusion spécifique. Ces clics sont enregistrés grâce aux logs de tracking des destinataires capturés sur une période donnée. Le destinataire est identifié à partir de son adresse email. Cette requête utilise la table **[!UICONTROL Logs de tracking des destinataires]**.
 
 * Quelle table doit-on sélectionner ?
 
@@ -46,7 +46,7 @@ Pour réaliser cet exemple, les étapes sont les suivantes :
 
      ![](assets/query_editor_tracklog_06.png)
 
-   * Dans la fenêtre **[!UICONTROL Type de formule]**, réalisez un traitement sur la fonction d&#39;agrégat. Ce traitement sera le comptage d&#39;une clé primaire.
+   * Dans la fenêtre **[!UICONTROL Type de formule]**, exécutez un processus sur la fonction d&#39;agrégat. Ce processus sera un comptage de clé primaire.
 
      Sélectionnez **[!UICONTROL Traitement sur une fonction d&#39;agrégat]** dans le champ **[!UICONTROL Agrégat]**. Cliquez sur l&#39;option **[!UICONTROL Comptage]**.
 
@@ -70,11 +70,11 @@ Pour réaliser cet exemple, les étapes sont les suivantes :
 
    Pour cela :
 
-   * Paramétrez le filtrage des données. Cliquez sur **[!UICONTROL Suivant]**.**&#x200B;**
+   * Paramétrez le filtrage des données. Cliquez sur **[!UICONTROL Suivant]**.****
 
      ![](assets/query_editor_nveau_22.png)
 
-   * Récupérez les logs de tracking d&#39;une diffusion spécifique et sur une période donnée. Pour cela, utilisez trois conditions de filtrage : deux conditions de date pour situer la période recherchée entre 15 jours avant la date courante et la veille de la date courante, et une autre condition pour restreindre la recherche à une diffusion particulière.
+   * Récupérer les logs de tracking sur une période donnée pour une diffusion spécifique. Trois conditions de filtrage sont nécessaires : deux conditions de date pour définir la période de recherche entre 2 semaines avant la date actuelle et la veille de la date actuelle ; et une autre condition pour limiter la recherche à une diffusion spécifique.
 
      Dans la fenêtre **[!UICONTROL Elément de la cible]**, paramétrez la date à partir de laquelle les logs de tracking sont pris en compte. Cliquez sur **[!UICONTROL Ajouter]**. Une ligne de condition s&#39;affiche. Editez la colonne **[!UICONTROL Expression]** en cliquant sur la fonction **[!UICONTROL Editer l&#39;expression]**. Dans la fenêtre **[!UICONTROL Champ à sélectionner]**, choisissez **[!UICONTROL Date (@logDate)]**.
 
@@ -113,7 +113,7 @@ Pour réaliser cet exemple, les étapes sont les suivantes :
 
    ![](assets/query_editor_tracklog_04.png)
 
-   Le nombre de logs le plus élevé pour un utilisateur est de 11 sur cette diffusion. 6 utilisateurs différents ont ouvert l&#39;email de diffusion ou cliqué sur un lien de l&#39;email.
+   Le nombre le plus élevé de logs pour un utilisateur est de 6 pour cette diffusion. 5 utilisateurs différents ont ouvert l’e-mail de diffusion ou cliqué sur l’un des liens de l’e-mail.
 
 ## Destinataires n&#39;ayant ouvert aucune diffusion {#recipients-who-did-not-open-any-delivery}
 
@@ -142,7 +142,7 @@ Pour réaliser cet exemple, les étapes sont les suivantes :
    ![](assets/query_open_3.png)
 
 1. Pour définir la valeur sur les 7 derniers jours, cliquez sur le bouton **[!UICONTROL Editer l&#39;expression]** dans le champ **[!UICONTROL Valeur]**.
-1. Dans la catégorie **[!UICONTROL Fonction]**, sélectionnez **[!UICONTROL Date courante moins n jours]** et ajoutez le nombre de jours à cibler. Dans le cas présent, nous voulons cibler les 7 derniers jours.
+1. Dans la catégorie **[!UICONTROL Fonction]**, sélectionnez **[!UICONTROL Date actuelle moins n jours]** et ajoutez le nombre de jours que vous souhaitez cibler. Ici, nous voulons cibler les 7 derniers jours.
 
    ![](assets/query_open_4.png)
 
@@ -188,13 +188,13 @@ Dans un workflow, les boîtes **[!UICONTROL Requête]** et **[!UICONTROL Partage
 
 * Contexte
 
-  Une diffusion &quot;Offre sports d&#39;été&quot; est envoyée. Quatre jours après l&#39;envoi, deux autres diffusions sont renvoyées. L&#39;une est &quot;Offre sports nautiques&quot;, l&#39;autre est une relance de la première diffusion &quot;Offre sports d&#39;été&quot;.
+  Une diffusion « Offre sports d&#39;été » est envoyée. Quatre jours après la diffusion, deux autres diffusions sont envoyées. L&#39;une d&#39;elles est « l&#39;offre sports nautiques », l&#39;autre fait suite à la première « offre sports d&#39;été ».
 
-  La diffusion &quot;Offre sports nautiques&quot; est envoyée aux destinataires qui ont cliqué sur la thématique &quot;sports nautiques&quot; dans la première diffusion. Ces clics montrent l&#39;intérêt des destinataires. Ils peuvent donc être orientés vers des offres similaires. En revanche, les destinataires qui n&#39;ont pas cliqué dans l&#39;email &quot;Offre sports d&#39;été&quot; sont relancés avec le même contenu.
+  La diffusion « Offre sports nautiques » est envoyée aux destinataires qui ont cliqué sur le lien « sports nautiques » dans la première diffusion. Ces clics indiquent que le destinataire est intéressé par la rubrique. Il est logique de les orienter vers des offres similaires. Cependant, les destinataires qui n’ont pas cliqué dans l’« Offre de sports d’été » recevront à nouveau le même contenu.
 
 Les étapes suivantes indiquent comment paramétrer la boîte **[!UICONTROL Partage]** en y intégrant deux comportements différents :
 
-1. Insérez la boîte **[!UICONTROL Partage]** dans le workflow. Elle va répartir les destinataires de la première diffusion vers une des deux diffusions suivantes. Cette répartition est faite en fonction des critères de filtrage liés aux comportements des destinataires dans la première diffusion.
+1. Insérez la zone **[!UICONTROL Fractionner]** dans le workflow. Cette boîte permet de répartir les destinataires de la première diffusion entre les deux diffusions suivantes. La répartition se fait en fonction des conditions de filtrage liées au comportement des destinataires lors de la première diffusion.
 
    ![](assets/query_editor_ex_09.png)
 
@@ -210,13 +210,13 @@ Les étapes suivantes indiquent comment paramétrer la boîte **[!UICONTROL Part
 
 1. Dans la fenêtre **[!UICONTROL Elément de la cible]**, sélectionnez le comportement à appliquer sur cette branche : **[!UICONTROL Les destinataires ayant cliqué (email)]**.
 
-   En dessous, sélectionnez l&#39;option **[!UICONTROL Diffusion spécifiée par la transition]**. Cette fonctionnalité va automatiquement récupérer les personnes ciblées lors de la première diffusion.
+   Sélectionnez ci-dessous l&#39;option **[!UICONTROL Diffusion spécifiée par la transition]**. Cette fonctionnalité récupère automatiquement les personnes ciblées lors de la première diffusion.
 
    Il s&#39;agira donc de la diffusion &quot;Offre sports nautiques&quot;.
 
    ![](assets/query_editor_ex_08.png)
 
-1. Définissez la seconde branche. Cette branche va inclure l&#39;e-mail de relance avec le même contenu que pour la première diffusion. Dans l&#39;onglet **[!UICONTROL Sous-ensembles]**, cliquez sur **[!UICONTROL Ajouter]** afin de la créer.
+1. Définissez la deuxième branche. Cette branche inclura l&#39;email de relance avec le même contenu que pour la première diffusion. Dans l&#39;onglet **[!UICONTROL Sous-ensembles]**, cliquez sur **[!UICONTROL Ajouter]** afin de la créer.
 
    ![](assets/query_editor_ex_06.png)
 

@@ -6,9 +6,9 @@ feature: Reporting, Monitoring
 badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
 source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
-workflow-type: ht
-source-wordcount: '852'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '857'
+ht-degree: 66%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 100%
 
 L&#39;utilisation d&#39;un outil de reporting dépend du volume des données à manipuler, de leur complexité et du type de reporting à mettre en place.
 
-Afin d&#39;optimiser la création, l&#39;utilisation et la pérennité d&#39;un rapport, vous devez étudier précisément les besoins auxquels vous souhaitez répondre. Cette première analyse vous permettra d&#39;identifier le type de rapport à créer et le mode de création à privilégier. Elle doit être menée en suivant les étapes ci-dessous :
+Pour optimiser la création, l’utilisation et la durabilité d’un rapport, vous devez examiner de près les besoins que vous souhaitez satisfaire. Cette première analyse va vous permettre d&#39;identifier le type de rapport à créer et le meilleur mode de création. Les étapes de création du rapport sont les suivantes :
 
 1. Identifier le besoin
 
    La première étape consiste à identifier clairement le besoin : ce que vous souhaitez afficher dans votre rapport et quel est son objectif (suivi, analyse, export de données, etc.).
 
-   De nombreuses capacités de reporting sont proposées dans Adobe Campaign, et il est essentiel d&#39;analyser clairement votre besoin pour identifier la fonctionnalité la mieux adaptée pour y répondre.
+   Adobe Campaign offre un large éventail de capacités de création de rapports. Il est important d’analyser votre besoin d’identifier la fonctionnalité la plus appropriée.
 
    Vous pouvez par exemple :
 
@@ -59,7 +59,7 @@ Afin d&#39;optimiser la création, l&#39;utilisation et la pérennité d&#39;un 
 
    Vous devez également connaître la nature de ces données (simples, issues d&#39;un calcul, volumineuses, etc.), leur localisation (dans Adobe Campaign, dans un système tiers), leur fréquence de mise à jour, afin de définir la périodicité du calcul (quotidien, hebdomadaire, à la volée), ainsi que leur volume.
 
-   Les problématiques liées au volume et à la mise à jour des données doivent être étudiées avec attention afin d&#39;éviter les difficultés d&#39;affichage des rapports, notamment en terme de délais. Dans cette optique, il est recommandé de créer des agrégats afin de pré-calculer certaines données en dehors du rapport. Typiquement, les tables contenant les logs de tracking et les logs de diffusion peuvent atteindre des millions d&#39;enregistrements : les données doivent donc être agrégées, via un workflow, pour être exploitées dans un rapport.
+   Les problèmes liés au volume et à la mise à jour des données doivent être étudiés attentivement afin d&#39;éviter les problèmes d&#39;affichage des rapports, notamment en termes de temps. Nous vous recommandons donc de créer des agrégats pour pré-calculer certaines données en dehors du rapport. Les tables contenant les logs de tracking et de diffusion peuvent atteindre des millions d&#39;enregistrements : les données doivent donc être agrégées via un workflow pour être exploitées dans un rapport.
 
 ## Optimisation de la conception des rapports{#optimizing-report-creation}
 
@@ -75,13 +75,13 @@ Ainsi :
 
 * Lors de l&#39;utilisation de Marketing Analytics, les données de reporting ne doivent pas excéder 10 millions de lignes.
 
-Dans le cas contraire, il est recommandé de calculer des agrégats, par exemple la nuit, lorsque la base de données est la moins sollicitée, puis d&#39;utiliser ces données agrégées directement dans les rapports. Ces agrégats doivent être créés via des workflows de Data Management dédiés (requêtes SQL).
+Nous vous recommandons également de calculer des agrégats la nuit et d’utiliser ces données agrégées directement dans les rapports. Ces agrégats doivent être créés via des workflows de Data Management dédiés (requêtes SQL).
 
 Vous pouvez également calculer les rapports pendant la nuit et créer automatiquement un historique qui pourra être consulté à tout moment, sans surcharger la base de données.
 
 ### Requêtes {#queries}
 
-Il est recommandé de réaliser le maximum de requêtes en SQL et d&#39;éviter au maximum les post-traitements en Javascript. Au besoin, utilisez une activité Script dans un workflow et supprimez les données utilisées pour le calcul. Utilisez également les données historisées pour accélérer les temps de traitement.
+Nous vous recommandons d’utiliser des requêtes SQL chaque fois que possible et d’éviter le post-traitement JavaScript. Si nécessaire, utilisez une activité Script dans un workflow et supprimez les données utilisées pour le calcul. Vous pouvez également utiliser les données archivées pour accélérer le temps de traitement.
 
 Dans ce cas, la syntaxe à utiliser sera du type :
 
@@ -89,7 +89,7 @@ Dans ce cas, la syntaxe à utiliser sera du type :
 if(string(ctx@_historyId)!==""))
 ```
 
-Les requêtes qui permettent de collecter les données affichées dans les rapports ne doivent pas être trop complexes, surtout si elles sont réalisées sur la totalité des données de la base. Il est souvent utile, pour améliorer les performances, de filtrer les données de la base avant d&#39;exécuter ces requêtes : ainsi les calculs ne porteront que sur une partie des données.
+Les requêtes qui permettent de collecter les données affichées dans les rapports ne doivent pas être trop complexes, surtout si elles sont appliquées à l&#39;ensemble des données de la base. Pour améliorer les performances, il peut être utile de filtrer les données avant d&#39;exécuter ces requêtes : ainsi, le calcul ne portera que sur une partie des données.
 
 ### Performances {#performances}
 
@@ -105,7 +105,7 @@ Adobe Campaign vous recommande, en complément, les axes d&#39;optimisation sui
 
 * Assurez-vous que le rapport est évolutif : le volume de données peut augmenter considérablement au fil du temps.
 
-  De même, le volume des données manipulées dans les phases de test peut différer fortement du volume effectif des données en production. Les phases de test ne doivent donc pas être négligées.
+  De même, le volume de données manipulées pendant les phases d&#39;essai peut différer du volume réel de données en production. C’est pourquoi les phases de test sont importantes.
 
   Enfin, les délais de purge des données doivent être connus, et au besoin adaptés pour faciliter la manipulation des informations.
 

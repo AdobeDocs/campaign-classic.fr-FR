@@ -10,7 +10,7 @@ exl-id: a9842e59-120c-4a35-abdf-6540a0bbdd6d
 source-git-commit: 349c3dfd936527e50d7d3e03aa3408b395502da0
 workflow-type: tm+mt
 source-wordcount: '1164'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 
 
-L&#39;appel du moteur d&#39;Interaction dans une page web est effectué par l&#39;insertion d&#39;un appel à un code JavaScript directement dans la page. Cet appel renvoie le contenu de l&#39;offre dans un élément ciblé
+Pour appeler le moteur d’interaction dans une page web, insérez un appel à un code JavaScript directement dans la page. Cet appel renvoie le contenu de l&#39;offre dans un ciblé
 
 element.
 
@@ -52,7 +52,8 @@ Les cas d&#39;utilisations suivants présentent les différentes options possibl
 
    La page HTML doit inclure un
 
-   élément avec un attribut @id avec la valeur du nom interne de l’espace d’offre créé (&quot;i_internal name space&quot;). L’offre sera insérée dans cet élément par Interaction.
+   élément avec un attribut @id avec la valeur du nom interne de l’espace d’offre créé (&quot;i_internal name space&quot;). L&#39;offre sera insérée dans ce(tte)
+élément par Interaction.
 
    Dans l&#39;exemple, l&#39;attribut @id reçoit la valeur &quot;i_SPC12&quot; où &quot;SPC12&quot; est le nom interne de l&#39;emplacement précédemment créé :
 
@@ -116,7 +117,7 @@ Pour présenter une offre à un contact identifié, le processus est similaire �
 
    Dans cet exemple, la clé d&#39;identification est composite puisqu&#39;elle s&#39;appuie à la fois sur l&#39;email et le nom du destinataire.
 
-1. Lors de l&#39;affichage de la page web, l&#39;évaluation du script permet de passer l&#39;identifiant du destinataire au moteur d&#39;offres. Si l&#39;identifiant est composite, les clés sont affichées dans le même ordre que celui utilisé dans les paramètres avancés et sont séparées par un |.
+1. Lors de l&#39;affichage de la page web, l&#39;évaluation du script permet de passer l&#39;identifiant du destinataire au moteur d&#39;offres. Si l’identifiant est composite, les clés sont affichées dans la même séquence que celle utilisée dans les paramètres avancés et sont séparées par un |.
 
    Dans l&#39;exemple suivant, le contact s&#39;est identifié sur le site web et a été reconnu lors de l&#39;appel au moteur d&#39;Interaction via son email et son nom de famille.
 
@@ -142,7 +143,7 @@ Vous pouvez utiliser une fonction de rendu afin que la représentation HTML de l
 
 ### Présenter une offre {#presenting-an-offer}
 
-Interaction permet de renvoyer un noeud XML à la page HTML qui appelle le moteur d&#39;offres. Ce noeud XML peut être traité par des fonctions à développer côté client.
+Interaction vous permet de renvoyer un nœud XML à la page HTML qui appelle le moteur d&#39;offres. Ce nœud XML peut être traité par des fonctions à développer côté client.
 
 L&#39;appel au moteur d&#39;Interaction est de la forme suivante :
 
@@ -152,15 +153,15 @@ L&#39;appel au moteur d&#39;Interaction est de la forme suivante :
 
 Le paramètre &quot;**env**&quot; reçoit le nom interne de l&#39;environnement en ligne.
 
-Le paramètre &quot;**cb**&quot; reçoit le nom de la fonction qui va interpréter le noeud XML renvoyé par le moteur contenant la ou les propositions (callback). Ce paramètre est optionnel.
+Le paramètre « **cb** » reçoit le nom de la fonction qui lira le nœud XML renvoyé par le moteur contenant la ou les propositions (de rappel). Ce paramètre est optionnel.
 
 Le paramètre &quot;**t**&quot; reçoit l&#39;identifiant de la cible, pour une interaction identifiée uniquement. Ce paramètre peut également être passé avec la variable **interactionTarget**. Ce paramètre est optionnel.
 
-le paramètre &quot;**c**&quot; reçoit la liste des noms internes des catégories. Ce paramètre est optionnel.
+Le paramètre « **c** » reçoit la liste des noms internes des catégories. Ce paramètre est optionnel.
 
-Le paramètre &quot;**th**&quot; reçoit la liste des thèmes. Ce paramètre est optionnel.
+Le paramètre « **th** » reçoit la liste des thèmes. Ce paramètre est optionnel.
 
-Le paramètre &quot;**gctx**&quot; reçoit les données d&#39;appel globales (contexte) à toute la page. Ce paramètre est optionnel.
+Le paramètre « **gctx** » reçoit les données d’appel globales (contexte) pour la page entière. Ce paramètre est optionnel.
 
 Le noeud XML retourné est de la forme suivante :
 
@@ -212,9 +213,9 @@ Le cas d&#39;utilisation suivant décrit les paramétrages à effectuer dans Ado
 
    >[!IMPORTANT]
    >
-   >Il est nécessaire de définir deux fois chaque élément. Les éléments de type CDATA (&quot;_jst&quot;) peuvent contenir des champs de personnalisation.
+   >Chaque élément doit être défini deux fois. Les éléments de type CDATA (« _jst ») peuvent contenir des champs de personnalisation.
    >
-   >N&#39;oubliez pas de mettre à jour la structure de la base de données. Pour plus d’informations, consultez [cette section](../../configuration/using/updating-the-database-structure.md).
+   >Ne pas oublier de mettre à jour la structure de la base de données. Pour plus d’informations, consultez [cette section](../../configuration/using/updating-the-database-structure.md).
 
    >[!NOTE]
    >
@@ -289,7 +290,7 @@ Le cas d&#39;utilisation suivant décrit les paramétrages à effectuer dans Ado
 
    Le paramètre &quot;**env**&quot; a pour valeur le nom interne de l&#39;environnement en ligne.
 
-   Le paramètre &quot;**cb**&quot; a pour valeur le nom de la fonction qui doit interpréter le noeud XML renvoyé par le moteur. Dans notre exemple, la fonction appelée ouvre une fenêtre modale (fonction alert() ).
+   La valeur du paramètre « **cb** » est le nom de la fonction qui doit interpréter le nœud XML renvoyé par le moteur. Dans notre exemple, la fonction appelée ouvre une fenêtre modale (alert() function).
 
    Le noeud XML retourné par le moteur d&#39;Interaction est de cette forme :
 
@@ -311,7 +312,7 @@ Le cas d&#39;utilisation suivant décrit les paramétrages à effectuer dans Ado
 
 ### Utiliser une fonction de rendu {#using-a-rendering-function-}
 
-Vous pouvez utiliser une fonction de rendu XML pour créer la présentation d&#39;une offre. Cette fonction modifiera le noeud XML qui est renvoyé vers la page HTML lors de l&#39;appel au moteur.
+Il est possible d&#39;utiliser une fonction de rendu XML pour créer une présentation d&#39;offre. Cette fonction modifie le nœud XML renvoyé à la page HTML lors de l’appel au moteur.
 
 1. Dans l&#39;emplacement de l&#39;offre, cliquez sur le lien **[!UICONTROL Editer les fonctions]**.
 1. Sélectionnez **[!UICONTROL Surcharger la fonction de rendu XML]**.

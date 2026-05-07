@@ -6,9 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Web Forms
 exl-id: 0cbb8e4c-8cb4-4dd7-ad09-b8b3165c19a8
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '235'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '239'
+ht-degree: 75%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-Un modèle de formulaire est un paramétrage réutilisable pour créer de nouveaux formulaires. Les modèles de formulaires sont stockés par défaut avec les modèles d&#39;applications Web, sous le noeud **[!UICONTROL Ressources > Modèles > Modèles d&#39;applications Web]**.
+Les modèles de formulaire sont des configurations réutilisables qui vous permettent de créer des formulaires. Par défaut, les modèles de formulaires sont stockés avec les modèles d&#39;applications Web dans le nœud **[!UICONTROL Ressources > Modèles > Modèles d&#39;applications Web]**.
 
 Vous pouvez créer des modèles depuis ce nœud ou transformer directement un formulaire existant en modèle.
 
@@ -26,7 +26,7 @@ Un formulaire peut être transformé en modèle afin que le paramétrage défini
 
 ![](assets/s_ncs_admin_survey_saveastemplate.png)
 
-Cette action ouvre la fenêtre de création des applications Web. Vous pouvez saisir le nom et la description du modèle et sélectionner son dossier d&#39;enregistrement.
+Cette action ouvre la fenêtre de création des applications web. Vous pouvez saisir le nom et la description du modèle, puis sélectionner le dossier dans lequel il sera enregistré.
 
 ## Créer un modèle de formulaire {#create-a-new-form-template}
 

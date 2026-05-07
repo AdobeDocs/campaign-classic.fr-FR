@@ -6,9 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Web Apps
 exl-id: dcdf6afc-321e-4027-a350-fff6bbf22e71
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '299'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '309'
+ht-degree: 80%
 
 ---
 
@@ -24,7 +24,7 @@ Les applications web sont créées et gérées suivant le même principe que les
 
 ## Insérer des graphiques dans une application web {#inserting-charts-in-a-web-application}
 
-Vous pouvez inclure des graphiques dans les applications Web. Pour cela, utilisez la liste déroulante des graphiques dans la barre des tâches et sélectionnez le type de graphique à insérer.
+Vous pouvez inclure des graphiques dans des applications web. Pour ce faire, utilisez la liste déroulante des graphiques dans la barre des tâches pour sélectionner le type de graphique à insérer.
 
 ![](assets/s_ncs_admin_webapps_bar_graph.png)
 
@@ -56,7 +56,7 @@ Les applications web de type formulaires d&#39;édition pour un extranet sont ca
 
 * Une boîte de préchargement
 
-  Dans la plupart des cas, il est nécessaire de précharger les données à afficher. Les utilisateurs qui accèdent à ces formulaires étant identifiés (via un contrôle d&#39;accès), le préchargement n&#39;est pas nécessairement chiffré.
+  Dans la plupart des cas, les données à afficher doivent être préchargées. Les utilisateurs et utilisatrices qui accèdent à ces formulaires étant identifiés (via un contrôle d’accès), le préchargement n’est pas nécessairement chiffré.
 
 * Une boîte d&#39;enregistrement
 * L&#39;ajout de pages supplémentaires

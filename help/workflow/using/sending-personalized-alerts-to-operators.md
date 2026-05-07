@@ -7,8 +7,8 @@ hide: true
 exl-id: 21c97eb3-60cd-4d19-bc0f-5ba9ec17e70a
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 100%
+source-wordcount: '374'
+ht-degree: 78%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Dans cet exemple, nous souhaitons envoyer à un opérateur une alerte qui contiendra le nom des profils qui ont ouvert une newsletter, sans toutefois cliquer sur le lien qu&#39;il contient.
 
-Les champs de prénom et nom des profils sont liés à la dimension de ciblage **[!UICONTROL Destinataires]**, alors que l&#39;activité **[!UICONTROL Alerte]** est liée à la dimension de ciblage **[!UICONTROL Opérateur]**. En conséquence, aucun champ n&#39;est disponible entre les deux dimensions de ciblage pour effectuer une réconciliation, récupérer les champs de prénom et nom, et les afficher dans l&#39;activité Alerte.
+Les champs de prénom et de nom des profils sont liés à la dimension de ciblage **[!UICONTROL Destinataires]**, tandis que l&#39;activité **[!UICONTROL Alerte]** est liée à la dimension de ciblage **[!UICONTROL Opérateur]**. Par conséquent, aucun champ n’est disponible entre les deux dimensions de ciblage pour effectuer une réconciliation et récupérer les champs de prénom et de nom, puis les afficher dans l’activité Alerte .
 
 Le processus créé un workflow comme ci-dessous :
 
@@ -95,7 +95,7 @@ for each (var item in items){
 
 >[!NOTE]
 >
->La commande **[!UICONTROL &lt;%= item.target.recipient.@fieldName %>]** vous permet d&#39;ajouter l&#39;un des champs qui ont été enregistrés dans la variable d&#39;instance via l&#39;activité **[!UICONTROL Code JavaScript]**.\
+>La commande **[!UICONTROL &lt;%= item.target.recipient.@fieldName %>]** permet d&#39;ajouter un des champs qui a été enregistré dans la variable d&#39;instance via l&#39;activité **[!UICONTROL Code JavaScript]**.\
 >Vous pouvez ajouter autant de champs que vous le souhaitez, dès lors qu&#39;ils ont été insérés dans le code JavaScript.
 
 ![](assets/uc_operator_8.png)

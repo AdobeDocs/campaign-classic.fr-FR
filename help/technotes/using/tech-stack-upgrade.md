@@ -7,8 +7,8 @@ hide: true
 exl-id: 78949d94-60b3-44f1-8e5a-d61b5b723e87
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 100%
+source-wordcount: '529'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ Pour des raisons de sécurité, vous devez [installer la version la plus récent
 
 >[!NOTE]
 >
->Pour toute question sur ces modifications, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Voir aussi la [FAQ sur la mise à niveau de la version](../../platform/using/faq-build-upgrade.md).
+>Pour toute question sur ces modifications, contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Voir aussi la [FAQ sur la mise à niveau de la version](../../platform/using/faq-build-upgrade.md).
 >
 
 ## Mise à niveau de la version de Campaign {#ac-upgrade}

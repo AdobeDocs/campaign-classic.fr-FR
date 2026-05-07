@@ -10,8 +10,8 @@ topic-tags: connecting-via-an-adobe-id
 exl-id: b70ca220-1c81-4b23-b07a-a2cd694877fe
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 100%
+source-wordcount: '392'
+ht-degree: 75%
 
 ---
 
@@ -24,8 +24,8 @@ ht-degree: 100%
 
 ## Conditions préalables {#prerequisites}
 
-* Vous devez disposer d’un nom et d’un identifiant de l’organisation Adobe Experience Cloud. Pour trouver l’identifiant de votre organisation, reportez-vous à [cette page](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr){_blank}.
-* Vous devez ajouter des utilisateurs dans Experience Cloud. Pour en savoir plus, reportez-vous à [cette page](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=fr){_blank}.
+* Vous devez disposer d’un nom et d’un identifiant de l’organisation Adobe Experience Cloud. Pour trouver votre identifiant d’organisation, reportez-vous à [cette page](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr){_blank}.
+* Vous devez ajouter des utilisateurs dans Experience Cloud. Pour plus d’informations, consultez [cette page](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=fr){_blank}.
 
 >[!NOTE]
 >
@@ -51,10 +51,10 @@ Renseignez les informations suivantes :
 
 * Informations de connexion au serveur IMS utilisé (ID et secret). Ces informations sont fournies par l’équipe Assistance clientèle d’Adobe. Pour plus d’informations, voir les [Questions fréquentes à l’intention des administrateurs et administratrices Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/faq.html?lang=fr).
 
-  L&#39;adresse du **[!UICONTROL Serveur de rappel]** (callback server) doit être indiquée en **https**. Ce champ correspond à l&#39;URL d&#39;accès à votre instance Adobe Campaign.
+  L’adresse **[!UICONTROL Serveur de rappel]** doit être spécifiée en **https**. Ce champ correspond à l’URL d’accès à votre instance Adobe Campaign.
 
-* Identifiant de l’organisation : pour trouver l’identifiant de votre organisation, reportez-vous à [cette page](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr){_blank}.
+* Identifiant de l’organisation : pour trouver l’identifiant de votre organisation, reportez-vous à [cette page](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr){_blank}.
 
-* Masque de correspondance : ce champ permet de définir la syntaxe qui permettra de synchroniser les noms de configuration dans Enterprise Dashboard avec les groupes dans Adobe Campaign. Si vous utilisez la syntaxe &quot;Campaign - tenant_id - (.&#42;)&quot;, le groupe de sécurité créé dans Adobe Campaign sera associé au nom de configuration &quot;Campaign - tenant_id - internal_name&quot; dans Enterprise Dashboard.
+* Masque de correspondance : ce champ permet de définir la syntaxe qui permettra la synchronisation des noms de configuration dans Enterprise Dashboard avec les groupes d’Adobe Campaign. Si vous utilisez la syntaxe « Campaign - tenant_id - (.&#42;) », le groupe de sécurité créé dans Adobe Campaign est lié au nom de configuration « Campaign - tenant_id - internal_name » dans Enterprise Dashboard.
 
 * Informations de connexion à Adobe Experience Cloud, c’est-à-dire le nom du client Adobe Experience Cloud.

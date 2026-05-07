@@ -10,7 +10,7 @@ topic-tags: starting-with-adobe-campaign
 exl-id: 23c873fd-9016-4d32-842c-772cfff0e23e
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '916'
 ht-degree: 100%
 
 ---
@@ -67,9 +67,9 @@ Pour faciliter la préparation à la protection des données, Adobe Campaign pe
 Pour découvrir comment créer des demandes d’**accès** et de **suppression**, ainsi que leur traitement par Adobe Campaign, consultez la section [Étapes d’implémentation](../../platform/using/privacy-requests.md).
 
 <!--
-Tutorials on Privacy management in Campaign Standard are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=fr).
+Tutorials on Privacy management in Campaign Standard are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html).
 
-https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=fr
+https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html
 -->
 
 ## Consentement, conservation des données et rôles {#consent-retention-roles}
@@ -82,7 +82,7 @@ En plus des récentes options **Droit d’accès** et **Droit à l’oubli**, Ad
 
 ### Gestion du consentement {#consent-management}
 
-Le consentement signifie l&#39;accord donné par le titulaire des données pour le traitement des données personnelles le concernant. C&#39;est le contrôleur des données qui est responsable d&#39;obtenir les consentements nécessaires pour ce traitement. Bien qu&#39;Adobe Campaign puisse proposer certaines fonctionnalités permettant à un client de gérer les consentements relatifs au service, Adobe n&#39;est pas responsable des consentements. Les clients doivent collaborer avec leurs services juridiques pour établir leurs propres procédures et pratiques pour tout consentement nécessaire.
+Le consentement signifie l’acceptation, par la personne titulaire de données, du traitement des données personnelles la concernant. L’obtention du consentement nécessaire pour ce traitement relève de la responsabilité du contrôleur ou de la contrôleuse de données. Bien qu’Adobe Campaign puisse fournir certaines fonctionnalités pour aider un client ou une cliente à gérer le consentement lié au service, Adobe n’est pas responsable du consentement. Les clientes et clients doivent collaborer avec leurs services juridiques pour déterminer leurs propres processus et pratiques, quel que soit le consentement nécessaire.
 
 Depuis le début, Adobe Campaign se sert de certaines fonctionnalités pour gérer certains aspects du consentement. Grâce au processus de gestion des abonnements, les clients peuvent déterminer quels destinataires ont choisi quel type d’abonnement, qu’il s’agisse de newsletters, de promotions quotidiennes ou hebdomadaires ou de tout autre type de programme marketing.
 

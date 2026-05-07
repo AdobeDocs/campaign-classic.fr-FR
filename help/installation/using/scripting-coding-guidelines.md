@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
 source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
-workflow-type: ht
-source-wordcount: '761'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '791'
+ht-degree: 87%
 
 ---
 
@@ -57,7 +57,7 @@ Pour éviter les injections SQL, les fonctions SQL doivent être ajoutées à la
 >
 >Si vous utilisez un build antérieur au build 8140, l’option **XtkPassUnknownSQLFunctionsToRDBMS** peut être définie sur « 1 ». Si vous souhaitez protéger votre base de données, supprimez cette option (ou définissez-la sur « 0 »).
 
-Si vous utilisez des saisies utilisateur pour créer des filtres dans des requêtes ou des instructions SQL, vous devez toujours les placer dans une séquence d’échappement (reportez-vous à la [documentation JSAPI Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=fr) - Protection des données : fonctions d’échappement). Ces fonctions sont les suivantes :
+Si vous utilisez des entrées utilisateur pour créer des filtres dans des requêtes ou des instructions SQL, vous devez toujours leur appliquer une séquence d’échappement (voir la [documentation JSAPI Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=fr) - Protection des données : fonctions d’échappement). Ces fonctions sont les suivantes :
 
 * NL.XML.escape(data)
 * NL.SQL.escape(data)
@@ -85,7 +85,7 @@ En plus du modèle de sécurité basé sur les dossiers, vous pouvez utiliser de
   </sysFilter>
   ```
 
-* Vous pouvez également protéger certaines actions (méthode SOAP) définies dans les schémas. Il vous suffit de définir l’attribut d’accès avec le droit nommé correspondant comme valeur.
+* Vous pouvez également protéger certaines actions (méthode SOAP) définies dans les schémas. Définissez simplement l’attribut d’accès avec le droit nommé correspondant comme valeur.
 
   ```
   <method name="grantVIPAccess" access="myNewRole">
@@ -95,7 +95,7 @@ En plus du modèle de sécurité basé sur les dossiers, vous pouvez utiliser de
   </method>
   ```
 
-  Pour plus d’informations à ce sujet, consultez [cette page](../../configuration/using/implementing-soap-methods.md).
+  Pour plus d’informations, consultez [cette page](../../configuration/using/implementing-soap-methods.md).
 
 >[!IMPORTANT]
 >
@@ -109,7 +109,7 @@ L’entité entière est chargée par l’écran. Vous pouvez également les aff
 
 ## Ajout de captchas dans les applications web
 
-Il est recommandé d’ajouter un captcha dans les landing pages/pages d’inscription publiques. Il est cependant relativement difficile de le faire dans les pages du DCE (Digital Content Editor). Nous allons vous expliquer dans cette section comment ajouter un captcha v5 ou un reCAPTCHA Google.
+Il est recommandé d’ajouter un captcha dans les pages d’abonnement/landing pages publiques. Malheureusement, l’ajout d’un captcha dans les pages du DCE (Digital Content Editor) n’est pas évident. Nous allons vous montrer comment ajouter un captcha v5 ou un reCAPTCHA Google.
 
 La méthode générale pour ajouter un captcha dans le DCE consiste à créer un bloc de personnalisation pour l’inclure facilement dans le contenu de la page. Vous devrez ajouter une activité **Script** et une activité **Test**.
 

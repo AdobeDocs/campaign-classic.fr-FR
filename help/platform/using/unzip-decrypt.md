@@ -9,8 +9,8 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1a79da3b-2abc-4bfc-a0ee-8471c478638d
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '733'
+workflow-type: tm+mt
+source-wordcount: '870'
 ht-degree: 100%
 
 ---
@@ -54,9 +54,9 @@ Le cas pratique ci-dessous présente un exemple.
 * [Activité Chargement (fichier)](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file.html?lang=fr){target="_blank"}.
 * [Compresser ou chiffrer un fichier](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html?lang=fr){target="_blank"}.
 
-## Cas pratique : import de données chiffrées à l&#39;aide d&#39;une clé générée par le Panneau de contrôle {#use-case-gpg-decrypt}
+## Cas d’utilisation : import de données chiffrées à l’aide d’une clé générée par le Panneau de contrôle {#use-case-gpg-decrypt}
 
-Dans ce cas pratique, nous allons créer un workflow afin d&#39;importer des données chiffrées dans un système externe, à l&#39;aide d&#39;une clé générée dans le Panneau de contrôle.
+Dans ce cas d’utilisation, nous allons créer un workflow afin d’importer des données chiffrées dans un système externe, à l’aide d’une clé générée dans le Panneau de contrôle.
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#video)
 
@@ -107,6 +107,6 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
 Cette vidéo montre comment utiliser une clé GPG pour déchiffrer des données.
 
->[!VIDEO](https://video.tv.adobe.com/v/41358?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36482?quality=12)
 
 D&#39;autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

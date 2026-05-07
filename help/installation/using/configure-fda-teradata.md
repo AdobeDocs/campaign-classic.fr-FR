@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: connectors
 exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
-source-wordcount: '1657'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1787'
+ht-degree: 98%
 
 ---
 
@@ -143,7 +143,7 @@ Pour configurer le query banding, procédez comme suit :
 
 Si l’erreur suivante s’affiche lors du test de la connexion **TIM-030008 Date « 2 » : caractère(s) manquant(s) (iRc=-53)** assurez-vous que le pilote ODBC est correctement installé et que LD_LIBRARY_PATH (Linux) / PATH (Windows) est défini pour le serveur Campaign.
 
-L’erreur **ODB-240000 ODBC : \[Microsoft\]\[ODBC Driver Manager\] Nom de source de données introuvable et aucun pilote par défaut spécifié.** survient avec Windows si vous utilisez un pilote 16.X. Adobe Campaign s’attend à ce que les données Teradata soient nommées « {teradata} » dans odbcinst.ini.
+L’erreur **Erreur ODBC ODB-240000 : \[Microsoft\]\[Gestionnaire de pilotes ODBC\] Nom de source de données introuvable et aucun pilote par défaut spécifié.** se produit avec Windows si vous utilisez un pilote 16.X. Adobe Campaign s’attend à ce que les données Teradata soient nommées « {teradata} » dans odbcinst.ini.
 
 * À compter de Campaign 18.10, vous pouvez ajouter ODBCDriverName=&quot;Teradata Database ODBC Driver 16.10&quot; dans les options du compte externe. Le numéro de version peut changer, le nom exact peut être trouvé en exécutant odbcad32.exe et en accédant à l’onglet Pilotes.
 
@@ -225,7 +225,7 @@ Pour installer sha2 :
    .run file = hash_sha512.sql
    ```
 
-### Installation de UDF_UTF16TO8  {#UDF-UTF16TO8-installation}
+### Installation de UDF_UTF16TO8 {#UDF-UTF16TO8-installation}
 
 Si vous souhaitez utiliser les fonctions udf_utf16to8 dans votre instance d’Adobe Campaign, installez la fonction de mode utilisateur sur votre base de données Teradata à partir de la **boîte à outils Teradata Unicode**.
 

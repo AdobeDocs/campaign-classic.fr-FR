@@ -6,9 +6,9 @@ feature: Configuration, Instance Settings
 role: Developer
 exl-id: 728b509f-2755-48df-8b12-449b7044e317
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
-source-wordcount: '526'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '527'
+ht-degree: 95%
 
 ---
 
@@ -61,7 +61,7 @@ Les règles de nommage des noms SQL sont les suivantes :
 
 >[!NOTE]
 >
->Les noms SQL peuvent être surchargés à partir du schéma source, il faut renseigner les attributs &quot;sqltable&quot; ou &quot;sqlname&quot; sur l&#39;élément concerné.
+>Les noms SQL peuvent être surchargés à partir du schéma source. Pour cela, renseignez les attributs « sqltable » ou « sqlname » sur l&#39;élément concerné.
 
 Le script SQL de création de la table généré à partir du schéma étendu est le suivant :
 

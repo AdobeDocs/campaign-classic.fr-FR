@@ -7,8 +7,8 @@ hide: true
 exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1374'
-ht-degree: 100%
+source-wordcount: '1378'
+ht-degree: 76%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 100%
 
 ## Création dʼune campagne locale (par formulaire) {#creating-a-local-campaign--by-form-}
 
-Le type d’interface web **par formulaire** implique l’utilisation d’une **application web**. Cette application web peut contenir toutes sortes d’éléments définis personnalisés, selon la configuration. Par exemple, vous pouvez proposer des liens pour évaluer la cible, le budget, le contenu, etc. via des API dédiées.
+L’interface web de type **Par formulaire** implique l’utilisation d’une **application web**. Selon sa configuration, cette application web peut contenir n’importe quel type d’éléments personnalisés définis. Vous pouvez par exemple proposer des liens pour évaluer la cible, le budget, le contenu, etc. via des API dédiées.
 
 >[!NOTE]
 >
 >Les API sont décrites en détail dans le document qui leur est consacré. [En savoir plus](../../configuration/using/about-web-services.md).
 >
->L’application web utilisée dans cet exemple n’est pas une application web Adobe Campaign d’usine. Pour utiliser un formulaire dans une campagne, vous devez créer l’application web dédiée.
+>L’application web utilisée dans cet exemple n’est pas une application web prête à l’emploi avec Adobe Campaign. Pour utiliser un formulaire dans une campagne, vous devez créer l&#39;application web dédiée.
 
 Lors de la création du modèle d’opération, cliquez sur l’icône **[!UICONTROL Zoom]** de l’option **[!UICONTROL Interface web]** du lien **[!UICONTROL Paramètres avancés de l’opération...]** pour accéder aux détails de l’application web.
 
@@ -76,7 +76,7 @@ Dans cet exemple, les APIs suivantes sont utilisées :
 
 ### Introduction {#introduction}
 
-Vous êtes le responsable marketing d&#39;une grande marque de vêtements qui possède une boutique en ligne, et plusieurs magasins dans toute la France. A l&#39;annonce des beaux jours vous décidez de créer une offre promotionnelle qui permettra à vos meilleurs clients de bénéficier de 50 % de réduction sur toutes les robes disponibles dans votre catalogue.
+Vous êtes le directeur marketing d&#39;une grande marque de vêtements qui possède une boutique en ligne et plusieurs boutiques aux États-Unis. Maintenant que le printemps est arrivé, vous décidez de créer une offre spéciale qui donnera à vos meilleurs clients 50% de réduction sur toutes les robes de votre catalogue.
 
 Cette offre est destinée aux meilleurs clients de vos magasins français, c&#39;est à dire ceux qui ont dépensé plus de 300 € depuis le début de l&#39;année.
 
@@ -164,8 +164,8 @@ Vous pouvez désormais ajouter un **kit de campagne** à partir de l’onglet **
 
 1. Sélectionnez votre **[!UICONTROL Campagne de référence]**. Dans l&#39;onglet **[!UICONTROL Edition]** de votre package, vous pouvez choisir le **[!UICONTROL Mode d’approbation]** que vous souhaitez utiliser pour votre campagne :
 
-   * avec le mode **Manuel**, les entités locales participent à l&#39;opération si elles acceptent l&#39;invitation de l&#39;entité centrale. Elles peuvent supprimer des contacts pré-sélectionnés si elles le souhaitent et une validation d&#39;un manager est obligatoire pour confirmer la participation.
-   * avec le mode **Automatique**, les entités locales participent obligatoirement à l&#39;opération, à moins qu&#39;elles ne s&#39;en désinscrivent. Elles peuvent supprimer des contacts sans qu&#39;aucune validation ne soit demandée.
+   * en mode **Manuel**, les entités locales participent à l&#39;opération si elles acceptent l&#39;invitation de l&#39;entité centrale. Ils peuvent supprimer les contacts présélectionnés s’ils le souhaitent, et l’approbation du responsable est nécessaire pour confirmer leur participation à la campagne.
+   * en mode **automatique**, les entités locales doivent participer à l&#39;opération, sauf si elles se désinscrivent de celle-ci. Ils peuvent supprimer des contacts sans avoir besoin d’une approbation.
 
    ![](assets/mkg_dist_use_case_target_valid.png)
 
@@ -181,9 +181,9 @@ Vous pouvez désormais ajouter un **kit de campagne** à partir de l’onglet **
 
 ### Introduction {#introduction-1}
 
-Vous êtes le responsable marketing d&#39;une grande marque de cosmétiques qui possède une boutique en ligne, et plusieurs magasins dans toute la France. Pour écouler vos stocks d&#39;hiver, vous décidez de créer une offre promotionnelle qui ciblera deux catégories de clients : les plus de 30 ans, à qui vous proposerez des produits adaptés à leur peau mature, et les moins de 30 ans, à qui vous proposerez des produits de soin plus basiques.
+Vous êtes le responsable marketing d&#39;une grande marque de maquillage qui possède une boutique en ligne et plusieurs boutiques aux États-Unis. Pour décharger votre stock d&#39;hiver et faire de la place pour votre nouveau stock, vous décidez de créer une offre spéciale qui ciblera deux catégories de clients : les plus de 30 ans, à qui vous proposerez des produits de soins sensibles à l&#39;âge, et les moins de 30 ans, à qui vous proposerez les produits de soins de la peau les plus basiques.
 
-Vous décidez donc de créer, grâce au Marketing Distribué, une opération collaborative par formulaire, qui vous permet de sélectionner les clients, de vos différents magasins, par tranches d&#39;âge. Ces clients recevront une diffusion email, personnalisée en fonction de leur âge, contenant l&#39;offre promotionnelle.
+Vous décidez donc d&#39;utiliser le Marketing Distribué pour créer une campagne collaborative (par formulaire) qui permettra de sélectionner des clients de vos différents magasins par tranche d&#39;âge. Ces clients recevront une diffusion par e-mail avec une offre spéciale qui aura été personnalisée en fonction de leur tranche d&#39;âge.
 
 La première partie de cet exemple illustre la réception par vos entités locales de la notification de création de l&#39;opération, et l&#39;utilisation qu&#39;ils peuvent en faire pour évaluer l&#39;opération et la commander.
 
@@ -231,7 +231,7 @@ Les étapes sont les suivantes :
 
    ![](assets/mkg_dist_use_case_form_1.png)
 
-1. Dans l’ongle **[!UICONTROL Editer]** de la campagne, cliquez sur le lien **[!UICONTROL Paramètres avancés de l&#39;opération...]** Pour la configurer comme une campagne locale. Pour plus d&#39;informations, consultez la section [Créer une campagne locale (par formulaire)](#creating-a-local-campaign--by-form-).
+1. Dans l’ongle **[!UICONTROL Editer]** de la campagne, cliquez sur le lien **[!UICONTROL Paramètres avancés de l&#39;opération...]** Pour la configurer comme une campagne locale. Pour plus d&#39;informations, consultez la section [Créer une opération locale (par formulaire)](#creating-a-local-campaign--by-form-).
 
    ![](assets/mkg_dist_use_case_form_2.png)
 

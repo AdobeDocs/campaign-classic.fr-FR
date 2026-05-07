@@ -8,9 +8,9 @@ role: User, Admin
 level: Beginner
 exl-id: d5833d3d-e8ef-4f2b-8084-4ba825c79525
 source-git-commit: a5bbd2e6c102a8afa4cd5931b77b0c83705a7bfa
-workflow-type: ht
-source-wordcount: '621'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '636'
+ht-degree: 90%
 
 ---
 
@@ -56,7 +56,7 @@ Les groupes d&#39;opérateurs par défaut sont les suivants :
 
    * **[!UICONTROL ADMINISTRATION]** : droit pour exécuter, créer, éditer et supprimer tout objet tel que workflow, diffusion, script, etc.
 
-1. **[!UICONTROL Chargés de diffusion]**
+1. **[!UICONTROL Opérateurs et opératrices en charge de la diffusion]**
 
    Les opérateurs de ce groupe sont chargés de la gestion des diffusions : il permet l&#39;accès aux ressources principales nécessaires à la création et la préparation des diffusions (typologies de campagnes, mappings de diffusions, modèles par défaut, blocs de personnalisation, etc.).
 
@@ -67,7 +67,7 @@ Les groupes d&#39;opérateurs par défaut sont les suivants :
 
 1. **[!UICONTROL Chargés d&#39;opération]**
 
-   Les opérateurs et opératrices de ce groupe peuvent gérer les campagnes marketing : il permet d’accéder aux objets relatifs aux opérations (plans, programmes, workflows, budgets, etc.) dans le cadre de **[!UICONTROL Campaign]** (module Adobe Campaign optionnel).
+   Les opérateurs de ce groupe peuvent gérer les campagnes marketing : il permet d&#39;accéder aux objets liés aux opérations (plans, programmes, workflows, budgets, etc.) dans le cadre de **[!UICONTROL Campaign]** (module optionnel Adobe Campaign).
 
    Ce groupe contient les droits nommés suivants :
 
@@ -80,7 +80,7 @@ Les groupes d&#39;opérateurs par défaut sont les suivants :
 
 1. **[!UICONTROL Rédacteurs de contenu]**
 
-   Les opérateurs de ce groupe peuvent accéder aux dossiers Contenus, dans le cadre de la **[!UICONTROL Gestion de Contenu]** (module optionnel d&#39;Adobe Campaign). Ce groupe n&#39;accorde pas de droit supplémentaire.
+   Les opérateurs de ce groupe peuvent accéder aux dossiers Contenus, dans le cadre de la **[!UICONTROL Gestion de contenu]** (module optionnel d&#39;Adobe Campaign). Ce groupe n’accorde aucun droit supplémentaire.
 
 1. **[!UICONTROL Consultation des rapports]**
 

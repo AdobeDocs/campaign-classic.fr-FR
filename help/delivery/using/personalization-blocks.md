@@ -9,14 +9,14 @@ hide: true
 exl-id: 8d155844-d18a-4165-9886-c3b144109f6e
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 100%
+source-wordcount: '1002'
+ht-degree: 86%
 
 ---
 
 # Blocs de personnalisation{#personalization-blocks}
 
-Les blocs de personnalisation sont dynamiques, personnalisés et possèdent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutations ou un lien vers une page miroir. Consultez la section [Insertion de blocs de personnalisation](#inserting-personalization-blocks).
+Les blocs de personnalisation sont dynamiques, personnalisés et contiennent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutations ou un lien vers une page miroir. Consultez la section [Insertion de blocs de personnalisation](#inserting-personalization-blocks).
 
 ![](assets/do-not-localize/how-to-video.png)Découvrez cette fonctionnalité [en vidéo](#personalization-blocks-video)
 
@@ -41,7 +41,7 @@ Pour insérer un bloc de personnalisation dans un message, procédez comme suit�
 
    ![](assets/s_ncs_user_personalized_block02.png)
 
-1. Le bloc de personnalisation est alors inséré sous forme de script. Il sera automatiquement adapté au profil du destinataire lors de la génération de la personnalisation.
+1. Le bloc de personnalisation est alors inséré sous forme de script. Il est automatiquement adapté au profil du ou de la destinataire lors de la génération de la personnalisation.
 
    ![](assets/s_ncs_user_personalized_block03.png)
 
@@ -78,7 +78,7 @@ Pour ce faire, nous devons insérer les blocs de personnalisation suivants :
 
    ![](assets/s_ncs_user_personalized_block_example.png)
 
-1. Cliquez sur l&#39;onglet **[!UICONTROL Aperçu]** pour visualiser le résultat de la personnalisation. Vous devez sélectionner un destinataire pour afficher son message.
+1. Cliquez sur l’onglet **[!UICONTROL Aperçu]** pour afficher le résultat de la personnalisation. Vous devez sélectionner un destinataire pour afficher son message.
 
    ![](assets/s_ncs_user_personalized_block_example2.png)
 
@@ -94,7 +94,7 @@ Une liste des blocs de personnalisation est disponible par défaut pour vous aid
 
 ![](assets/s_ncs_user_personalized_block_list.png)
 
-* **[!UICONTROL Salutations]** : insère des salutations avec le nom du destinataire. Par exemple : &quot;Bonjour John Doe,&quot;.
+* **[!UICONTROL Salutations]** : permet d’insérer des salutations avec le nom du ou de la destinataire. Exemple : « Bonjour Pierre Martin, ».
 * **[!UICONTROL Insertion du logo]** : insère un logo prêt à l&#39;emploi qui a été défini lors du paramétrage de l&#39;instance.
 * **[!UICONTROL Powered by Adobe Campaign]** : insère le logo &quot;Powered by Adobe Campaign&quot;.
 * **[!UICONTROL URL de page miroir]** : insère l&#39;URL de page miroir qui permet aux concepteurs de diffusion de vérifier le lien.
@@ -121,7 +121,7 @@ Une liste des blocs de personnalisation est disponible par défaut pour vous aid
 
 ## Définition de blocs de personnalisation personnalisés {#defining-custom-personalization-blocks}
 
-Vous pouvez définir de nouveaux champs de personnalisation qui pourront être insérés à partir de l&#39;icône des champs personnalisés via le menu **[!UICONTROL Inclure...]**. Ces champs sont définis dans des blocs de personnalisation.
+Vous pouvez définir de nouveaux champs de personnalisation qui pourront être insérés à partir de l&#39;icône des champs personnalisés via le menu **[!UICONTROL Inclure...]** . Ces champs sont définis dans des blocs de personnalisation.
 
 Pour créer un bloc de personnalisation, ouvrez l&#39;Explorateur et respectez les étapes suivantes :
 
@@ -139,12 +139,12 @@ Pour créer un bloc de personnalisation, ouvrez l&#39;Explorateur et respectez l
 
      ![](assets/s_ncs_user_personalized_block_b.png)
 
-   * Saisissez le contenu (en HTML, texte, JavaScript, etc.) du ou des blocs de personnalisation et cliquez sur le bouton **[!UICONTROL Enregistrer]**.
+   * Saisissez le contenu (dans HTML, texte, JavaScript, etc.) du ou des blocs de personnalisation, puis cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Tutoriel vidéo {#personalization-blocks-video}
 
 Découvrez comment créer des blocs de contenu dynamiques et comment les utiliser pour personnaliser le contenu de votre diffusion email.
 
->[!VIDEO](https://video.tv.adobe.com/v/31325?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
 
 D&#39;autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

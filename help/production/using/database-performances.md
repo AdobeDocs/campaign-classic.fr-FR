@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: troubleshooting
 exl-id: 33dcfd4b-51fd-44f4-98e0-23eafb79d7da
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: ht
-source-wordcount: '497'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '527'
+ht-degree: 53%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 100%
 
 
 
-La plupart des problèmes de performance sont liés à l&#39;entretien de la base de données. Nous vous proposons quatre axes de recherche pour vous aider à en trouver les causes :
+La plupart des problèmes de performances sont liés à la maintenance de la base de données. Voici quatre pistes principales pour vous aider à trouver la cause de la lenteur des performances :
 
-* Configuration 
+* Configuration
 * Installation et la configuration de la plateforme Adobe Campaign
 * Maintenance de la base de données
 * Diagnostic en temps réel
 
-## Configuration  {#configuration}
+## Configuration {#configuration}
 
-Vous devez vérifier que la configuration initiale de la plateforme Adobe Campaign est toujours valable et revoir, le cas échéant, les besoins de votre client en termes de délivrabilité ou de taille de la base de données. Nous vous conseillons également d’effectuer une vérification complète de la configuration matérielle (CPU, RAM, système E/S).
+Vérifiez que la configuration initiale de la plateforme Adobe Campaign est toujours valable et réévaluez, si nécessaire, les besoins de votre client en termes de délivrabilité ou de taille de la base de données. Nous vous recommandons également d’effectuer une vérification complète du matériel (CPU, RAM, système d’E/S).
 
 >[!NOTE]
 >
@@ -42,25 +42,25 @@ Une configuration inappropriée peut avoir une incidence sur les performances de
 
 **Tâche de nettoyage de la base**
 
-Vous devez vérifier que la tâche de nettoyage de la base fonctionne correctement. Pour cela, consultez les fichiers journaux afin d&#39;être sûr qu&#39;ils ne contiennent pas d&#39;erreurs. Voir à ce propos [cette section](../../production/using/database-cleanup-workflow.md).
+Assurez-vous que la tâche de nettoyage de la base de données est opérationnelle. Pour ce faire, affichez les fichiers journaux pour voir s’ils contiennent des erreurs. Voir à ce propos [cette section](../../production/using/database-cleanup-workflow.md).
 
 **Plans de maintenance**
 
-Vous devez vous assurer que la maintenance de la base de données est correctement planifiée et effectuée. Pour cela, renseignez-vous auprès de votre administrateur de base de données pour connaître :
+Assurez-vous que la maintenance de la base de données est correctement planifiée et exécutée. Pour ce faire, contactez l’administrateur de votre base de données pour en savoir plus sur :
 
 * Son planning de maintenance
 * Les plans de maintenance déjà exécutés
 * Comment consulter les logs de script
 
-Voir à ce propos [cette section](../../production/using/recommendations.md).
+Pour plus d’informations, consultez [cette section](../../production/using/recommendations.md).
 
 >[!IMPORTANT]
 >
->Si vous utilisez une configuration en mid-sourcing, il est important que les bases de données soient correctement maintenue. Lors de l&#39;analyse d&#39;une diffusion sur la plateforme marketing, l&#39;instance marketing envoie des informations vers l&#39;instance mid-sourcing. Si le processus ralentit, l&#39;activité de l&#39;instance marketing ralentira également afin que l&#39;instance de mid-sourcing puisse effectuer ses opérations correctement.
+>Si vous utilisez une configuration de mid-sourcing, il est essentiel que les bases de données soient gérées régulièrement. Lors de l’analyse d’une diffusion sur la plateforme marketing, l’instance marketing envoie des informations à l’instance de mid-sourcing. Si le processus est ralenti, l’instance marketing sera affectée.
 
 **Gestion des tables de travail**
 
-Vous devez vérifier le nombre et la taille des tables de travail. Lorsqu’elles deviennent trop volumineuses, les performances de la base sont affectées. Ces tables sont créées notamment par les workflows et les diffusions. Elles ne disparaissent pas de la base tant que les workflows et diffusions sont actifs. Pour limiter les tables de travail vous pouvez effectuer les opérations suivantes :
+Merci de vérifier le nombre et la taille des tables de travail. Lorsqu’elles dépassent une certaine taille, les performances de la base de données sont affectées. Ces tables sont créées par les workflows et les diffusions. Elles restent dans la base de données tant que les workflows et les diffusions sont actifs. Pour limiter la taille des tables de travail, vous pouvez effectuer les opérations suivantes :
 
 * Arrêter ou supprimer les diffusions dont le statut est, au choix, **[!UICONTROL En échec]**, **[!UICONTROL En cours]**, **[!UICONTROL Prête à être diffusée]** ou **[!UICONTROL En pause]**.
 * Arrêter ou supprimer les workflows qui sont en pause à cause d&#39;une erreur.
@@ -79,7 +79,7 @@ Selon les paramètres d&#39;installation d&#39;Adobe Campaign, vous avez deux o
 
 ## Cas particuliers {#specifics}
 
-Il peut être nécessaire d&#39;effectuer un diagnostic en temps-réel pour déterminer la cause du problème. Vous devez d&#39;abord vérifier les fichiers journaux des processus et de la plateforme. Puis, suivez l&#39;activité de la base lors de la reproduction du problème. Vous devez particulièrement porter votre attention sur les éléments suivants :
+Il peut s’avérer nécessaire d’effectuer un diagnostic en temps réel pour identifier la cause du problème. Vérifiez d&#39;abord les fichiers journaux des processus et de la plateforme, puis surveillez l&#39;activité de la base de données tout en recréant le problème. Accordez une attention particulière aux éléments suivants :
 
 * Le plan d&#39;exécution de la maintenance
 * les requêtes SQL en cours d&#39;exécution

@@ -6,8 +6,8 @@ feature: Transactional Messaging, Message Center, Architecture
 exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 100%
+source-wordcount: '1226'
+ht-degree: 85%
 
 ---
 
@@ -25,15 +25,15 @@ Les messages transactionnels reposent sur une architecture spécifique, composé
 
 | Instance de pilotage | Instance d&#39;exécution |
 |--- |--- |
-| Les utilisateurs d&#39;Adobe Campaign se connectent à l&#39;instance de pilotage pour : <ul><li>Créer des modèles de messages transactionnels</li><li>Générer l&#39;aperçu du message à l&#39;aide d&#39;une liste d&#39;adresses de contrôle</li><li>Afficher les rapports</li><li>Surveiller les instances d&#39;exécution</li></ul> | Les instances d&#39;exécution sont là pour : <ul><li>Recevoir des événements</li><li>Les lier à des modèles de messages transactionnels</li><li>Envoyer un message personnalisé à chaque destinataire</li></ul> |
+| Les utilisateurs d&#39;Adobe Campaign se connectent à l&#39;instance de pilotage pour : <ul><li>Créer des modèles de messages transactionnels</li><li>Générer l&#39;aperçu du message à l&#39;aide d&#39;une liste d&#39;adresses de contrôle</li><li>Affichage des rapports</li><li>Surveiller les instances d&#39;exécution</li></ul> | Les instances d&#39;exécution sont là pour : <ul><li>Recevoir des événements</li><li>Les lier à des modèles de messages transactionnels</li><li>Envoyer un message personnalisé à chaque destinataire</li></ul> |
 
 ## Installation des instances {#installing-instances}
 
-L&#39;installation des packages des messages transactionnels requiert de nombreuses précautions. Adobe recommande de travailler sur un environnement de test avant une mise en production. Il faut aussi posséder une licence Adobe Campaign compatible. Contactez votre chargé de compte Adobe pour plus d&#39;informations.
+L&#39;installation des packages des messages transactionnels requiert de nombreuses précautions. Adobe vous recommande de travailler dans un environnement de test avant la mise en production. Vous devez également disposer d’une licence Adobe Campaign compatible. Pour plus d&#39;informations, veuillez contacter votre chargé de compte Adobe.
 
 >[!IMPORTANT]
 >
->L&#39;instance de contrôle et la ou les instances d&#39;exécution doivent être installées sur des machines différentes. Elles ne peuvent pas partager la même instance Campaign.
+>L&#39;instance de pilotage et la ou les instance(s) d&#39;exécution doivent être installées sur des machines différentes. Ils ne peuvent pas partager la même instance Campaign.
 
 Si vous devez utiliser plusieurs canaux, vous devez installer et configurer les packages associés avant l&#39;installation des packages des messages transactionnels. Pour plus d&#39;informations, consultez la section [Ajouter un canal de diffusion](#adding-a-delivery-channel).
 
@@ -51,7 +51,7 @@ Les étapes détaillées pour configurer l&#39;instance de pilotage sont présen
 >
 >Le partage d&#39;un cluster d&#39;exécution avec plusieurs instances de pilotage est uniquement pris en charge pour les environnements on-premise.
 
-Il est possible de mutualiser un cluster d&#39;exécution entre différentes instances de pilotage. Par exemple, si vous gérez plusieurs enseignes spécialisées, vous pouvez configurer une instance de pilotage par marque et toutes les relier au même cluster d&#39;exécution.
+Il est possible de partager un cluster d&#39;exécution entre plusieurs instances de pilotage. Par exemple, si vous gérez plusieurs magasins spécialisés, vous pouvez configurer une instance de pilotage par marque et toutes les lier au même cluster d&#39;exécution.
 
 ![](assets/messagecenter_diagram_2.png)
 
@@ -73,7 +73,7 @@ Le canal email est disponible par défaut. Pour diffuser vos messages transactio
 
 >[!IMPORTANT]
 >
->L&#39;ajout d&#39;un canal de diffusion (canal mobile, canal des applications mobiles, etc.) doit être réalisé avant d&#39;installer le package Message transactionnel.
+>Ajouter un canal de diffusion (canal mobile, canal des applications mobiles, etc.) Cette opération doit être effectuée avant d&#39;installer le package Message transactionnel .
 
 ### Ajout d&#39;un canal de diffusion {#adding-a-delivery-channel}
 
@@ -144,7 +144,7 @@ Pour utiliser les modules des messages transactionnels avec le canal des applica
 
 L&#39;évènement doit contenir les éléments suivants :
 
-* L&#39;identifiant de l&#39;appareil mobile (**registrationId** pour Android et **deviceToken** pour iOS). Cet identifiant représente &quot;l&#39;adresse&quot; à laquelle la notification sera envoyée.
+* L’identifiant de l’appareil mobile (**registrationId** pour Android et **deviceToken** pour iOS). Cet identifiant représente « l’adresse » à laquelle la notification sera envoyée.
 * La définition du lien vers l&#39;application mobile ou clé d&#39;intégration (**uuid**) permettant de récupérer les informations de connexion spécifiques à l&#39;application.
 * Le canal sur lequel la notification sera envoyée (**wishedChannel**) : 41 pour iOS et 42 pour Android
 * Toutes les données utiles à la personnalisation
@@ -178,7 +178,7 @@ Voici un exemple de traitement d&#39;un événement contenant ces informations 
 
 ### Messages transactionnels et LINE {#transactional-messaging-and-line}
 
-Lorsqu&#39;ils sont combinés avec le canal LINE, les messages transactionnels permettent d&#39;envoyer des messages en temps réel sur l&#39;application LINE installée sur les appareils mobiles des clients. Ils sont utilisés pour envoyer le message de bienvenue lorsqu&#39;un utilisateur LINE ajoute la page de la marque.
+Associés au canal LINE, les messages transactionnels permettent d&#39;envoyer des messages en temps réel sur l&#39;application LINE installée sur les appareils mobiles des clients. Il est utilisé pour envoyer le message de bienvenue lorsqu’un utilisateur LINE ajoute la page de la marque.
 
 Pour utiliser le module des messages transactionnels avec LINE, les éléments suivants sont nécessaires pour la configuration de votre instance **marketing** et de votre instance d&#39;**exécution** :
 

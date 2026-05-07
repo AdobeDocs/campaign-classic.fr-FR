@@ -5,8 +5,8 @@ description: élément keyfield
 feature: Schema Extension
 exl-id: fb0862f9-5dcc-49f2-b99b-9822aaf3a680
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
-workflow-type: ht
-source-wordcount: '103'
+workflow-type: tm+mt
+source-wordcount: '104'
 ht-degree: 100%
 
 ---
@@ -40,7 +40,7 @@ Cet élément définit les champs à intégrer à un index ou bien à une cl�
 * **xlink (MNTOKEN)** : permet de référencer automatiquement les clefs étrangères définies dans la jointure pour une table de relation (lien N-N).
 * **xpath (MNTOKEN)** : définition d’un index ou d’une clé sur un élément `<attribute>`. Cet attribut reçoit un Xpath qui définit le chemin d’accès à l’attribut du schéma qui définit la clé ou l’index.
 
-## Exemples       {#examples-}
+## Exemples {#examples-}
 
 Sélection du champ « sName » dans un index avec un Xpath sur « @name » :
 

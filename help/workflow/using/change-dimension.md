@@ -7,8 +7,8 @@ hide: true
 exl-id: c3de99f8-089f-4c7c-be11-f375a9463eaa
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 100%
+source-wordcount: '398'
+ht-degree: 60%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-L&#39;activité de changement de dimension permet de modifier la dimension de ciblage au cours du cycle de construction de la cible. Le basculement d&#39;axe dépend du modèle de données et de la dimension en entrée. Vous pouvez ainsi par exemple passer de la dimension &quot;contrats&quot; à la dimension &quot;clients&quot;.
+L&#39;activité Changement de dimension permet de changer de dimension de ciblage au cours du cycle de construction de la cible. Le déplacement de l’axe dépend du modèle de données et de la dimension d’entrée. Vous pouvez ainsi passer de la dimension « contrats » à la dimension « clients », par exemple.
 
 Vous pouvez également utiliser cette activité pour définir les colonnes additionnelles de la nouvelle cible.
 
@@ -30,11 +30,11 @@ Pour paramétrer l&#39;activité de changement de dimension, respectez les étap
 
    ![](assets/s_user_change_dimension_param1.png)
 
-1. Lors du changement de dimension, vous pouvez conserver tous les éléments ou sélectionner ceux à conserver en sortie. Dans l&#39;exemple ci-dessous, le nombre maximal de doublons est fixé à 2.
+1. Lors du changement de dimension, vous pouvez conserver tous les éléments ou les sélectionner pour les conserver dans la sortie. Dans l’exemple suivant, la valeur maximale. nombre de doublons défini sur 2.
 
    ![](assets/s_user_change_dimension_limit.png)
 
-   Lorsque vous choisissez de ne conserver qu’un seul enregistrement, une collection apparaît dans le schéma de travail : cette collection représente tous les enregistrements qui ne seront pas ciblés dans le résultat final (puisqu’un seul enregistrement est conservé). Cette collection permet, comme toute autre collection, de calculer des agrégats ou de récupérer des informations en colonne.
+   Lorsque vous choisissez de ne conserver qu&#39;un seul enregistrement, une collection apparaît dans le schéma de travail : cette collection représente tous les enregistrements qui ne seront pas ciblés dans le résultat final (puisqu&#39;un seul enregistrement est conservé). Comme toutes les autres collections, celle-ci permet de calculer des agrégats ou de récupérer des informations en colonnes.
 
    Par exemple, si on passe de la dimension des **[!UICONTROL Clients]** à celle des **[!UICONTROL Destinataires]**, il sera possible de cibler les clients d&#39;un magasin, en précisant le nombre d&#39;achats réalisés.
 
@@ -74,7 +74,7 @@ Pour paramétrer l&#39;activité de changement de dimension, respectez les étap
 
      ![](assets/wf_change-dimension_sample_05.png)
 
-1. Exécutez le workflow pour visualiser le résultat de ce paramétrage. Comparez les données contenues dans les tables avant et après l&#39;activité de changement de dimension, comparez également la structure des tables du workflow, comme dans les exemples suivants :
+1. Exécutez le workflow pour afficher le résultat de cette configuration. Comparez les données contenues dans les tableaux avant et après l’activité de changement de dimension, comparez également la structure des tableaux de workflow, comme dans les exemples suivants :
 
    ![](assets/wf_change-dimension_sample_06.png)
 

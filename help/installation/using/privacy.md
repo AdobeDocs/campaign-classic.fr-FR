@@ -5,9 +5,9 @@ description: Découvrez les bonnes pratiques de sécurité en matière de confid
 feature: Installation, Privacy, Privacy Tools, URL Personalization
 exl-id: 0a3473bf-0528-486d-a799-8db86fece522
 source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
-workflow-type: ht
-source-wordcount: '827'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '906'
+ht-degree: 92%
 
 ---
 
@@ -44,7 +44,7 @@ Exemple :
 
 ### Signature d&#39;URL
 
-Pour améliorer la sécurité, un mécanisme de signature pour les liens de tracking dans les e-mails été ajouté. Cette fonctionnalité est disponible à partir des versions 19.1.4 (9032@3a9dc9c) et 20.2 et est activée par défaut.
+Pour améliorer la sécurité, un mécanisme de signature pour les liens de tracking dans les e-mails été ajouté. Il est disponible à partir des versions 19.1.4 (9032@3a9dc9c) et 20.2. Cette fonctionnalité est activée par défaut.
 
 >[!NOTE]
 >
@@ -80,7 +80,7 @@ Pour activer la signature d&#39;URL, procédez comme suit sur tous les serveurs 
 
 ## Restriction des données
 
-Vous devez vous assurer que les mots de passe chiffrés ne sont pas accessibles par un(e) utilisateur(utilisatrice) authentifié(e) disposant de faibles privilèges. Pour cela, vous devez restreindre l’accès aux champs de mots de passe uniquement ou à l’entité entière (une version >= 8770 est requise).
+Vous devez vous assurer que l’accès aux mots de passe chiffrés est impossible pour toute personne authentifiée disposant de privilèges restreints. Pour cela, vous devez restreindre l’accès aux champs de mots de passe uniquement ou à l’entité entière (une version >= 8770 est requise).
 
 Cette restriction vous permet de supprimer les champs de mots de passe. Le compte externe reste toutefois accessible par tous les utilisateurs dans l’interface. [En savoir plus](../../configuration/using/restricting-pii-view.md).
 
@@ -155,7 +155,7 @@ Pour ce faire, suivez les étapes ci-après :
 
 Nous conseillons fortement aux utilisateur(utilisatrice)s On-premise de protéger les pages pouvant contenir des informations personnelles (PI), telles que les pages miroir, les applications web, etc.
 
-Cette procédure est destinée à empêcher l’indexation de ces pages et à éviter ainsi un risque de sécurité potentiel. Voici quelques articles utiles :
+L’objectif de cette procédure est d’empêcher l’indexation de ces pages, évitant ainsi un risque potentiel de sécurité. Voici quelques articles utiles :
 
 * [https://developers.google.com/search/reference/robots_txt](https://developers.google.com/search/reference/robots_txt)
 * [https://developers.google.com/search/reference/robots_meta_tag](https://developers.google.com/search/reference/robots_meta_tag)
@@ -174,7 +174,7 @@ Pour protéger vos pages, procédez comme suit :
 
    Pour Apache, vous pouvez placer le fichier dans **/var/www/robots.txt** (Debian).
 
-1. Il arrive que l’ajout d’un fichier **robots.txt** ne soit pas suffisant en termes de sécurité. Par exemple, si un autre site web contient un lien vers votre page, il peut apparaître dans un résultat de recherche.
+1. Parfois, l’ajout d’un fichier **robots.txt** n’est pas suffisant en termes de sécurité. Par exemple, si un autre site web contient un lien vers votre page, il peut s’afficher dans un résultat de recherche.
 
    Outre le fichier **robots.txt**, il est conseillé d’ajouter un en-tête **X-Robots-Tag**. Vous pouvez le faire dans Apache ou IIS, ainsi que dans le fichier de configuration **serverConf.xml**.
 

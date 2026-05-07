@@ -7,8 +7,8 @@ hide: true
 exl-id: dfd36d2c-44ff-49a9-80b4-09eaf3377072
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 100%
+source-wordcount: '775'
+ht-degree: 92%
 
 ---
 
@@ -38,8 +38,8 @@ Pour définir votre cible, créez une requête afin d&#39;identifier les destina
 
 1. Créez une campagne. Pour plus d’informations, consultez [cette section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign).
 1. Dans l’onglet **[!UICONTROL Ciblage et workflows]** de la campagne, ajoutez une activité **Requête** à votre workflow. Pour plus d’informations sur cette activité, consultez [cette section](query.md).
-1. Définissez les destinataires qui recevront vos diffusions. Par exemple, sélectionnez les membres &quot;Gold&quot; en tant que dimension cible.
-1. Ajoutez des conditions de filtrage à votre requête. Dans cet exemple, sélectionnez les destinataires disposant d&#39;une adresse email et d&#39;un numéro de téléphone portable.
+1. Définissez les destinataires qui recevront vos diffusions. Par exemple, sélectionnez Membres « Gold » comme dimension cible.
+1. Ajoutez des conditions de filtrage à votre requête. Dans cet exemple, sélectionnez les destinataires qui disposent d’une adresse e-mail et d’un numéro de mobile.
 
    ![](assets/wkf_cross-channel_3.png)
 

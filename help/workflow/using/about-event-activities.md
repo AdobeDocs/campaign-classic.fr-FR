@@ -8,7 +8,7 @@ exl-id: ed27159e-2fce-4b1c-92e8-581901b82f60
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 100%
+ht-degree: 82%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-La tâche principale de ces activités consiste à attendre un événement. Il peut s&#39;agir par exemple de la réception d&#39;un fichier, d&#39;un mail ou d&#39;un signal envoyé programmatiquement.
+La tâche principale de ces activités consiste à attendre un événement. Il peut s&#39;agir par example de la réception d&#39;un fichier, d&#39;un email, ou d&#39;un signal envoyé par le programme.
 
 * Collecteur de fichiers : effectue un suivi de l’arrivée d’un ou plusieurs fichiers dans un répertoire et active sa transition pour chacun des fichiers reçus. Voir à ce sujet la section [Collecteur de fichiers](file-collector.md).
 * Transfert de fichier : transfère un fichier sur un serveur. Voir à ce sujet la section [Transfert de fichier](file-transfer.md).

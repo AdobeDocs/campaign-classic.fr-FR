@@ -6,9 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Web Forms
 exl-id: c5b5c398-c13b-4ebe-88b2-8ff84741422e
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '748'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 75%
 
 ---
 
@@ -20,7 +20,7 @@ Le formulaire peut contenir une ou plusieurs pages. Il est créé à l’aide d�
 
 ## À propos des pages précédente et suivante {#about-previous-page-and-next-page}
 
-Pour chaque page, il est possible de supprimer les boutons **[!UICONTROL Suivant]** ou **[!UICONTROL Précédent]**. Pour cela, sélectionnez la page concernée et cochez l&#39;option **[!UICONTROL Ne pas autoriser le passage à la page suivante]** ou **[!UICONTROL Ne pas autoriser le retour à la page précédente]** .
+Pour chaque page, vous pouvez supprimer les boutons **[!UICONTROL Suivant]** ou **[!UICONTROL Précédent]**. Pour cela, sélectionnez la page concernée et choisissez l’option **[!UICONTROL Désactiver la page suivante]** ou **[!UICONTROL Désactiver pour revenir à la page précédente]** .
 
 ![](assets/s_ncs_admin_survey_no_next_page.png)
 
@@ -40,7 +40,7 @@ La destination peut être :
 
   ![](assets/s_ncs_admin_jump_param2.png)
 
-* La destination peut être stockée dans une variable. Dans ce cas, il suffit de la sélectionner dans la liste déroulante, comme dans l&#39;exemple suivant :
+* La destination peut être stockée dans une variable . Dans ce cas, sélectionnez-le dans la liste déroulante, comme ci-dessous :
 
   ![](assets/s_ncs_admin_jump_param3.png)
 
@@ -50,7 +50,7 @@ La destination peut être :
 
 ## Exemple : accéder à un autre formulaire en fonction d&#39;un paramètre de l&#39;URL {#example--accessing-another-form-according-to-a-parameter-of-the-url}
 
-Dans cet exemple nous allons paramétrer un formulaire Web qui permet, à la validation, d&#39;afficher un autre formulaire, désigné par un paramètre de l&#39;URL. Les étapes sont les suivantes :
+Dans l&#39;exemple suivant, nous allons paramétrer un formulaire Web qui, lorsqu&#39;il sera validé, affichera un autre formulaire désigné par un paramètre de l&#39;URL. Pour cela, les étapes sont les suivantes :
 
 1. Insérez un saut à la fin d&#39;un formulaire : le saut remplace alors la boîte de **[!UICONTROL Fin]**.
 
@@ -80,7 +80,7 @@ Vous pouvez insérer des liens vers d&#39;autres pages du formulaire. Vous devez
 
 ### Affichage en fonction des réponses {#display-based-on-responses}
 
-La boîte de **[!UICONTROL Test]** permet de conditionner l&#39;enchaînement des pages dans un formulaire. Elle permet de définir différents embranchements en fonction du résultat d&#39;un test. Vous pouvez ainsi afficher des pages différentes en fonction des réponses fournies par l&#39;utilisateur.
+La boîte **[!UICONTROL Test]** permet de conditionner l&#39;enchaînement des pages d&#39;un formulaire. Il permet de définir différentes lignes de dérivation en fonction des résultats du test. Vous pouvez ainsi afficher différentes pages en fonction des réponses fournies par les utilisateurs.
 
 Par exemple, vous pouvez afficher une page différente pour les clients ayant déjà commandé sur internet, et une autre pour ceux ayant effectué plus de dix commandes. Pour cela, dans la première page du formulaire, insérez une zone de saisie de type **[!UICONTROL Nombre]** pour que l&#39;utilisateur indique le nombre de commandes passées.
 
@@ -96,11 +96,11 @@ Dans notre exemple, nous allons utiliser une variable :
 
 ![](assets/s_ncs_admin_survey_test_ex1.png)
 
-Dans le diagramme du formulaire, insérez ensuite une boîte de test afin de définir les conditions. Pour chaque condition, un nouveau branchement sera ajouté en sortie de la boîte de test.
+Dans le diagramme du formulaire, insérez une boîte de test afin de définir les conditions. Pour chaque condition, une nouvelle branche est ajoutée en sortie de la boîte de test.
 
 ![](assets/s_ncs_admin_survey_test_ex2.png)
 
-Cochez l&#39;option **[!UICONTROL Activer le branchement par défaut]** pour ajouter une transition pour les cas où aucune des conditions n&#39;est vraie. Cette option n&#39;est pas utile si tous les cas possibles sont couverts par les conditions définies.
+Sélectionnez l’option **[!UICONTROL Activer l’embranchement par défaut]** pour ajouter une transition dans les cas où aucune des conditions n’est remplie. Cette option n’est pas nécessaire si tous les cas possibles sont couverts par les conditions définies.
 
 Définissez ensuite l&#39;enchaînement des pages lorsque l&#39;une ou l&#39;autre des conditions est vérifiée, par exemple :
 

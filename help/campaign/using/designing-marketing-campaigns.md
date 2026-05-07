@@ -8,8 +8,8 @@ hide: true
 exl-id: 4e0df18f-3623-4dfb-a2f8-ad293dbc4dd5
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 73%
+source-wordcount: '453'
+ht-degree: 49%
 
 ---
 
@@ -45,23 +45,23 @@ Dans le contexte de Campaign, les concepts listés ci-dessous doivent être conn
 
 * **Plan**
 
-  Le plan marketing est composé d&#39;un ensemble de programmes unitaires. Il s&#39;inscrit dans une période calendaire, avec un budget alloué, et peut se voir rattacher des documents et objectifs à remplir.
+  Le plan marketing peut contenir plusieurs programmes. Il est lié à une période calendaire, dispose d&#39;un budget alloué et peut également être associé à des documents et objectifs.
 
   Voir à ce sujet la section [Calendrier des campagnes](../../campaign/using/accessing-marketing-campaigns.md#campaign-calendar).
 
 * **Workflow**
 
-  Un workflow d&#39;opération contient les mêmes activités que tous les workflows, mais il est propre à l&#39;opération. Il permet de créer et configurer des diffusions sur tous les canaux disponibles.
+  Un workflow de campagne contient les mêmes activités que tous les workflows, mais est spécifique à la campagne. Il permet de créer et de configurer des diffusions pour tous les canaux disponibles.
 
   Pour plus d’informations, consultez [cette section](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
 
 * **Objectifs**
 
-  Au niveau de l&#39;opération, du programme ou du plan, vous pouvez indiquer une liste d&#39;objectifs. Il s&#39;agit de valeurs quantifiées à atteindre. Au terme de l&#39;opération, du programme ou du plan, le module MRM permet de comparer les objectifs et les résultats dans des rapports dédiés.
+  Dans la campagne, le programme ou le plan, vous pouvez indiquer une liste d’objectifs. Il s’agit de valeurs quantifiées à atteindre. A la fin de l&#39;opération, du programme ou du plan, le module MRM permet de comparer les objectifs et les résultats dans des rapports dédiés.
 
 * **Composition de diffusion**
 
-  Une composition est une description structurée d&#39;une diffusion. Chaque diffusion peut référencer une composition qui contient, par exemple, les offres associées, des documents à joindre ou un lien vers des magasins. En fonction de la composition sélectionnée, telle ou telle offre sera référencée dans la diffusion.
+  Une composition de diffusion est une description structurée d’une diffusion. Chaque diffusion peut faire référence à une composition de diffusion qui contient, par exemple, les offres associées, les documents à joindre ou un lien vers les magasins. Une offre peut être référencée dans la diffusion en fonction de la composition de diffusion sélectionnée.
 
   Pour plus d’informations, consultez [cette section](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
@@ -69,6 +69,6 @@ Dans le contexte de Campaign, les concepts listés ci-dessous doivent être conn
 
 Cette vidéo présente les concepts clés des campagnes marketing.
 
->[!VIDEO](https://video.tv.adobe.com/v/326571?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
 
 D’autres vidéos pratiques [!DNL Campaign Classic] sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

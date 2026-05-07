@@ -8,8 +8,8 @@ hide: true
 exl-id: 6e37bc14-b1a9-42af-8c28-ae4b5bcaa055
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 100%
+source-wordcount: '285'
+ht-degree: 74%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 Vous pouvez créer une diffusion par le biais de la vue d&#39;ensemble ou du menu **[!UICONTROL Créer > Diffusion]**.
 
 
-Pour créer une diffusion, cliquez sur **[!UICONTROL Créer]** au-dessus de la liste des diffusions. Lorsque vous créez une diffusion, vous devez indiquer le canal de diffusion utilisé. Pour cela, sélectionnez le modèle de diffusion correspondant, à partir de la liste déroulante du champ **[!UICONTROL Modèle de diffusion]**.
+Pour créer une diffusion, cliquez sur **[!UICONTROL Créer]** au-dessus de la liste des diffusions. Lors de la création d’une diffusion, vous devez indiquer le canal de diffusion utilisé. Pour cela, sélectionnez le modèle de diffusion correspondant, à partir de la liste déroulante du champ **[!UICONTROL Modèle de diffusion]**.
 
 ![](assets/s_ncs_user_wizard_email01_1.png)
 
@@ -34,14 +34,14 @@ Vous pouvez créer de nouveaux modèles de diffusion afin de préconfigurer des 
 
 ## Identification de la diffusion {#identifying-the-delivery}
 
-Vous devez renseigner des paramètres pour identifier la diffusion. Pour cela :
+Vous devez renseigner les paramètres pour identifier la diffusion. Pour cela :
 
 1. Saisissez un nom pour le diffusion dans le champ **[!UICONTROL Libellé]**.
 
    Un code de diffusion peut également être attribué à la diffusion. Le nom de la diffusion et son code apparaissent dans la liste des diffusions, mais ne sont pas visibles par les destinataires.
 
 1. Ajoutez une description dans le champ **[!UICONTROL Description]**.
-1. Sélectionnez la nature de la diffusion dans le champ correspondant. Cette information est notamment utile pour le rtacking des diffusions : vous pouvez filtrer sur ce critère dans la liste des diffusions ou construire des requêtes en utilisant ce critère de sélection.
+1. Sélectionnez la nature de la diffusion dans le champ correspondant. Cette information est notamment utile pour le tracking des diffusions : vous pouvez filtrer sur ce critère dans la liste des diffusions ou construire des requêtes en utilisant ce critère de sélection.
 
    ![](assets/s_ncs_user_email_del_nature.png)
 

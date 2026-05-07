@@ -6,15 +6,15 @@ feature: Configuration, Instance Settings
 role: Developer
 exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
-source-wordcount: '1037'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1040'
+ht-degree: 45%
 
 ---
 
 # Définition dʼautres fonctions SQL{#adding-additional-sql-functions}
 
-Adobe Campaign permet à l&#39;utilisateur de définir **ses propres fonctions**, qui peuvent accéder aux fonctions SQL offertes par la base de données, et qui ne seraient pas déjà disponibles dans la console. Ce mécanisme est utile par exemple dans le cas de fonctions d&#39;agrégats (moyenne, maximum, somme) qui ne peuvent être calculées que sur le serveur ou bien quand la base de données offre un moyen plus facile d&#39;implémenter certaines fonctions, plutôt que d&#39;écrire l&#39;expression &quot;à la main&quot; dans la console (par ex. gestion de dates).
+Adobe Campaign permet à l’utilisateur de définir **ses propres fonctions** qui peuvent accéder aux fonctions SQL offertes par la base de données et celles qui ne seraient pas déjà disponibles dans la console. Cela s’avère utile pour les fonctions d’agrégat (moyenne, maximum, somme), par exemple, qui ne peuvent être calculées que sur le serveur ou lorsque la base de données offre un moyen plus facile d’implémenter certaines fonctions, plutôt que d’écrire l’expression « manuellement » dans la console (gestion de dates, par exemple).
 
 Ce mécanisme peut aussi servir dans le cas où l&#39;on souhaiterait utiliser une fonction SQL récente, ou rare, d&#39;un moteur de base de données, et qui ne serait pas encore offerte par la console Adobe Campaign.
 
@@ -36,7 +36,7 @@ Pour l’installer depuis la console, sélectionnez les options de menu **Outils
 
 ## Structure générale du package à importer {#general-structure-of-package-to-import}
 
-La ou les fonctions à ajouter se présentent sous la forme d&#39;un **fichier &quot;package&quot;** au format XML dont voici un exemple :
+La ou les fonctions à ajouter se trouvent dans le fichier **« package »** au format XML. Voici un exemple :
 
 ```
 <?xml version="1.0" encoding='ISO-8859-1' ?>
@@ -63,13 +63,13 @@ La ou les fonctions à ajouter se présentent sous la forme d&#39;un **fichier &
 </package>
 ```
 
-* Les champs **nom**, **espace de noms**, et **description du package** (&quot;name&quot;, &quot;namespace&quot; et &quot;label&quot;) sont essentiellement indicatifs. Ils permettent de voir le package récapitulé dans la liste des packages installés (Explorateur/Administration/Gestion des packages/Packages installés).
-* Les champs **buildVersion** et **buildNumber** sont obligatoires. Ils doivent correspondre à la version du serveur auquel la console est connectée. Cette information est disponible dans la boîte de dialogue &quot;Aide/À propos&quot;.
-* Les blocs suivants, **entities** et **funclist**, sont obligatoires. Dans funcList, les champs « nom » et « espace de noms » sont obligatoires, mais leur nom est laissé au choix de l’utilisateur ou de l’utilisatrice, et ils désignent la liste de fonctions de manière unique.
+* Les **nom**, **espace de noms** et **libellé** sont fournis uniquement à titre d’information. Ils vous permettent d’afficher un résumé du package dans la liste des packages installés (Explorateur/Administration/Gestion des packages/Packages installés).
+* Les champs **buildVersion** et **buildNumber** sont obligatoires. Ils doivent correspondre au numéro du serveur auquel la console est connectée. Ces informations se trouvent dans la zone « Aide/À propos ».
+* Les blocs, **entités** et **funclist** suivants sont obligatoires. Dans funcList, les champs « name » et « namespace » sont obligatoires, mais leur nom est laissé à l’utilisateur ou à l’utilisatrice pour décider, et ils désignent de manière unique la liste de fonctions.
 
-  Cela signifie que si l’on importe plus tard une autre liste de fonctions avec la même paire espace de noms/nom (ici « cus::maListe »), les fonctions précédemment importées seront effacées. Inversement, si l’on change cette paire espace de noms/nom, la nouvelle série de fonctions importées s’ajoutera à la précédente. 
+  Cela signifie que si une autre liste de fonctions avec le même espace de noms/la même paire de noms (ici « cus::myList ») est importée, les fonctions importées précédemment seront supprimées. À l’inverse, si vous modifiez cette paire espace de noms/nom, la nouvelle série de fonctions importées sera ajoutée à la précédente.
 
-* L&#39;élément **group** permet de définir visuellement dans quel groupe de fonctions la ou les fonctions importées apparaîtront dans l&#39;éditeur de fonction. L&#39;attribut @name peut, soit être un nom déjà existant (auquel cas les fonctions s&#39;ajouteront au groupe considéré), soit un nouveau nom, qui apparaîtra sous forme d&#39;un nouveau groupe.
+* L&#39;élément **group** permet de spécifier le groupe de fonctions dans lequel la ou les fonctions importées apparaîtront dans l&#39;éditeur de fonctions. L’attribut @name peut être un nom qui existe déjà (auquel cas les fonctions seront ajoutées au groupe considéré) ou un nouveau nom (auquel cas il apparaîtra dans un nouveau groupe).
 * Pour mémoire, les valeurs possibles pour l’attribut @name dans l’élément `<group>` sont :
 
   ```
@@ -84,7 +84,7 @@ La ou les fonctions à ajouter se présentent sous la forme d&#39;un **fichier &
 
 >[!IMPORTANT]
 >
->Attention à bien remplir l&#39;attribut @label : c&#39;est le nom qui sera affiché dans la liste des fonctions disponibles. Si vous ne mettez rien, le groupe n&#39;aura pas de nom, par contre si vous mettez un autre nom que le nom existant, c&#39;est le tout le groupe qui changera de nom.
+>Veillez à renseigner l&#39;attribut @label : il s&#39;agit du nom qui sera affiché dans la liste des fonctions disponibles. Si vous ne saisissez rien, le groupe n’aura pas de nom. Cependant, si vous saisissez un autre nom que le nom existant, le nom de l’ensemble du groupe change.
 
 Si vous souhaitez ajouter des fonctions dans plusieurs groupes différents, il est possible de faire se suivre plusieurs éléments `<group>` dans la même liste.
 
@@ -111,18 +111,18 @@ Le champ **@name** fait référence au nom de la fonction et « args » corres
 
   >[!NOTE]
   >
-  >Dans les attributs @help et @display, la chaîne &quot;$1&quot; représente le nom qui a été donné au premier paramètre de la fonction (ici, &quot;Âge&quot;). $2, $3... représenteraient les paramètres suivants. Dans l&#39;attribut @body décrit ci-après, $1 désigne la valeur de l&#39;argument passé à la fonction lors de l&#39;appel.
+  >Dans les attributs @help et @display, la chaîne « $1 » représente le nom donné dans le premier paramètre de fonction (ici, « Age »). $2, $3... représenteraient les paramètres suivants. Dans l’attribut @body détaillé ci-dessous, $1 désigne la valeur d’argument transmise à la fonction pendant l’appel.
 
   >[!NOTE]
   >
   >La description doit être une chaîne de caractères valide au sens XML : noter l&#39;utilisation de &#39;&lt;&#39; et &#39;>&#39; au lieu de &lt; et >.
 
-* **@type** est le type de retour de la fonction, il peut prendre les valeurs habituelles (long, string, byte, datetime...). S&#39;il est omis, le serveur détermine le type au mieux d&#39;après les types intervenant dans l&#39;expression implémentant la fonction.
-* **@minArgs** et **maxArgs** désignent le nombre de paramètres (minimum et maximum) de la fonction. Par exemple, dans le cas d&#39;une fonction à 2 paramètres, minArgs et maxArgs vaudront 2 et 2. Dans le cas de 3 paramètres, plus 1 optionnel, ils vaudront 3 et 4 respectivement.
+* **** est le type de retour de la fonction et est une valeur standard (long, string, byte, datetime...). S’il est omis, le serveur détermine le meilleur type parmi les types disponibles dans l’expression implémentant la fonction.
+* **** et **maxArgs** indique le nombre de paramètres (minimum et maximum) pour un paramètre. Par exemple, pour une fonction avec 2 paramètres, minArgs et maxArgs seront 2 et 2. Pour 3 paramètres, plus 1 facultatif, ils seront respectivement 3 et 4.
 * Enfin, l&#39;élément **providerPart** fournit l&#39;implémentation de la fonction.
 
-   * L&#39;attribut **@provider** est obligatoire, il indique pour quels systèmes de bases de données l&#39;implémentation est fournie. Comme le montre l&#39;exemple, on peut fournir des implémentations différentes selon la base de données, quand les syntaxes des expressions ou fonctions sous-jacentes diffèrent.
-   * Et l&#39;attribut **@body** contient l&#39;implémentation de la fonction. Noter que cette implémentation doit être une expression, au sens du langage de la base de données (pas de bloc de code). Selon les bases, les expressions peuvent être des sous-requêtes (&quot;(select column from table where...)&quot;) ne retournant qu&#39;une seule valeur. C&#39;est par exemple le cas sous Oracle (la requête doit être parenthésée).
+   * L’attribut **provider** est obligatoire ; il spécifie les systèmes de base de données pour lesquels l’implémentation est fournie. Comme illustré dans l’exemple, lorsque les syntaxes d’expression ou les fonctions sous-jacentes diffèrent, d’autres implémentations peuvent être fournies en fonction de la base de données.
+   * L’attribut **** contient l’implémentation de la fonction. Remarque : cette implémentation doit être une expression, en langage de base de données (et non un bloc de code). En fonction des bases de données, les expressions peuvent être des sous-requêtes (« (sélectionner une colonne dans la table où...) ») renvoie une seule valeur. C&#39;est le cas, par exemple, dans Oracle (la requête doit être écrite entre parenthèses).
 
   >[!NOTE]
   >
@@ -141,6 +141,6 @@ Un descripteur de fonction spéciale est le bloc **« pass-through »** avec u
 
 Dans ce cas, l&#39;ajout d&#39;une fonction sert uniquement à rendre visible pour le client une fonction de la base de données qui n&#39;aurait pas été rendue disponible par défaut.
 
-## Exemples      {#examples}
+## Exemples {#examples}
 
 D’autres exemples de fonctions sont disponibles dans le package prédéfini « xtkdatakitfuncList.xml ».

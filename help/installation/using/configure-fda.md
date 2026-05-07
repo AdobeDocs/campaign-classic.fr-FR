@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: connectors
 exl-id: 0b53b165-a6d8-4604-b3f0-3fa6fce35146
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '346'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '355'
+ht-degree: 94%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 
 
-En fonction des bases de données externes auxquelles vous souhaitez pouvoir accéder depuis Adobe Campaign, certains paramétrages spécifiques sont nécessaires. Ces paramétrages concernent essentiellement l&#39;installation de pilotes et la déclarations de variables d&#39;environnement propres à chaque SGBDR sur le serveur Adobe Campaign.
+Selon les bases de données externes auxquelles vous souhaitez accéder à partir d’Adobe Campaign, vous devrez effectuer certaines configurations spécifiques. Ces configurations impliquent essentiellement l’installation de pilotes et la déclaration de variables d’environnement appartenant à chaque SGBDR sur le serveur Adobe Campaign.
 
 En règle générale, il est nécessaire d&#39;installer la couche cliente correspondant à la base externe utilisée sur le serveur Adobe Campaign.
 

@@ -10,7 +10,7 @@ exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 100%
+ht-degree: 72%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 100%
 
 ## Fichier d&#39;extraction {#extraction-file}
 
-Le nom du fichier contenant les données extraites est défini dans le champ **[!UICONTROL Fichier]**. Le bouton situé à droite du champ permet d&#39;utiliser des champs de personnalisation pour créer le nom du fichier.
+Le nom du fichier qui contient les données extraites est défini dans le champ **[!UICONTROL Fichier]**. Le bouton situé à droite du champ permet d’utiliser des champs de personnalisation pour créer le nom du fichier.
 
-Par défaut, le fichier d&#39;extraction est créé et stocké sur le serveur. Vous pouvez l&#39;enregistrer sur votre ordinateur. Pour cela, cochez l&#39;option **[!UICONTROL Rapatrier en local le fichier généré après l&#39;export]**. Dans ce cas, vous devez indiquer le chemin d&#39;accès au répertoire de stockage local et le nom du fichier.
+Par défaut, le fichier d’extraction est créé et stocké sur le serveur. Vous pouvez l&#39;enregistrer sur votre ordinateur. Pour cela, cochez l&#39;option **[!UICONTROL Rapatrier en local le fichier généré après l&#39;export]**. Dans ce cas, vous devez indiquer le chemin d&#39;accès au répertoire de stockage local et le nom du fichier.
 
 ![](assets/s_ncs_user_mail_delivery_local_file.png)
 

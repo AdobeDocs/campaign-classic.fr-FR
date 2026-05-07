@@ -8,7 +8,7 @@ exl-id: b2a05e07-a7d7-436b-b2c6-90ab55d031cd
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 100%
+ht-degree: 66%
 
 ---
 
@@ -20,7 +20,7 @@ L&#39;activité **Réception d&#39;emails** permet de récupérer et de traiter 
 
 ![](assets/email_rec_edit_1.png)
 
-Le premier onglet de l&#39;activité **Réception d&#39;email** permet de renseigner les paramètres du serveur POP3 et de saisir le script à exécuter à la réception de chaque message. Le deuxième onglet permet d&#39;affecter un planning à l&#39;activité et le troisième onglet définit les conditions d&#39;expiration de l&#39;activité.
+Le premier onglet de l&#39;activité **Réception d&#39;emails** permet de renseigner les paramètres du serveur POP3 et de renseigner le script à exécuter à la réception de chaque message. Le deuxième onglet permet d&#39;attribuer un planning à l&#39;activité, le troisième définit les conditions d&#39;expiration de l&#39;activité.
 
 1. **[!UICONTROL Réception d&#39;emails]**
 
@@ -50,11 +50,11 @@ Le premier onglet de l&#39;activité **Réception d&#39;email** permet de rensei
 
    * **[!UICONTROL Terminer dès qu&#39;un email est traité]**
 
-     Cette option permet de traiter les emails un par un. L&#39;activité n&#39;active sa transition qu&#39;une seule fois puis termine le traitement en laissant les messages non traités sur le serveur.
+     Cette option permet de traiter les e-mails un par un. L&#39;activité n&#39;active sa transition qu&#39;une seule fois puis termine le traitement, laissant les messages non traités sur le serveur.
 
 1. **[!UICONTROL Script]**
 
-   Le script permet de traiter le message et d&#39;effectuer différentes opérations dépendantes du contenu du message. Le script est exécuté pour chaque message et peut décider de l&#39;opération à effectuer sur la messagerie (laisser ou supprimer le message) et de l&#39;activation de la transition sortante.
+   Le script permet de traiter le message et d’effectuer différentes opérations qui dépendent du contenu du message. Le script est exécuté pour chaque message et peut déterminer l&#39;opération à effectuer sur les messages (laisser ou supprimer le message) et l&#39;activation de la transition sortante.
 
    Le code retour doit être une des valeurs suivantes :
 

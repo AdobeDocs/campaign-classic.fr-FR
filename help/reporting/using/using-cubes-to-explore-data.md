@@ -8,8 +8,8 @@ hide: true
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 100%
+source-wordcount: '1012'
+ht-degree: 85%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 
 
-Marketing Analytics permet de simplifier la création de rapports ainsi que l&#39;identification et la sélection de données de la base via l&#39;utilisation des cubes. Vous pouvez ainsi :
+Marketing Analytics facilite la création de rapports ainsi que l’identification et la sélection de données de la base de données via des cubes. Vous pouvez ainsi effectuer les opérations suivantes :
 
 * Créer des rapports basés sur des cubes. La procédure est décrite dans la section [Exploration des données dans un rapport](#exploring-the-data-in-a-report).
 * Collecter des données de la base et les regrouper dans des listes, par exemple pour identifier et construire les cibles des diffusions. Pour plus dʼinformations, consultez la section [Construction dʼune population cible](#building-a-target-population).
@@ -43,7 +43,7 @@ Les boutons **[!UICONTROL Ajouter]** situés sur chacun des axes permettent d&#3
 
 ![](assets/s_advuser_cube_in_report_03.png)
 
-1. Pour ajouter une dimension, cliquez sur le bouton de la ligne ou de la colonne concernée :
+1. Sélectionnez les dimensions à afficher dans les lignes et les colonnes du tableau. Pour ce faire, faites glisser et déposez les dimensions disponibles comme illustré ci-dessous :
 1. Sélectionnez la dimension à ajouter dans le tableau, parmi celles disponibles :
 
    ![](assets/s_advuser_cube_in_report_04.png)
@@ -78,7 +78,7 @@ Les boutons **[!UICONTROL Ajouter]** situés sur chacun des axes permettent d&#3
 
 Une fois les lignes et colonnes positionnées, indiquez les mesures que vous souhaitez afficher ainsi que leur mode d&#39;affichage.
 
-Par défaut, une seule mesure est affichée. Pour ajouter ou paramétrez les mesures :
+Par défaut, une seule mesure s’affiche. Pour ajouter ou configurer des mesures, procédez comme suit :
 
 1. Cliquez sur le bouton **[!UICONTROL Mesures]**.
 
@@ -88,7 +88,7 @@ Par défaut, une seule mesure est affichée. Pour ajouter ou paramétrez les mes
 
    ![](assets/s_advuser_cube_in_report_08.png)
 
-   Sélectionnez les informations que vous souhaitez afficher et le type de formatage à utiliser. La liste des options dépend du type de mesure paramétré.
+   Sélectionnez les informations à afficher et le type de mise en forme. La liste des options disponibles dépend du type de mesure configuré.
 
    ![](assets/s_advuser_cube_in_report_09.png)
 
@@ -108,9 +108,9 @@ Par défaut, une seule mesure est affichée. Pour ajouter ou paramétrez les mes
 
      Entre ces mesures, les opérateurs disponibles sont : somme, différence, multiplication et taux.
 
-   * Proportion : ce type de mesure permet de calculer le nombre d&#39;enregistrements mesurés pour une dimension donnée. Vous pouvez calculer la proportionnalité par rapport à une dimension ou une sous-dimension.
+   * Proportion : ce type de mesure permet de calculer le nombre d&#39;enregistrements mesurés pour une dimension donnée. Vous pouvez calculer la proportionnalité par rapport à une dimension ou une sous-dimension.
    * Variation : cette mesure permet de calculer la variation des valeurs d&#39;un niveau.
-   * Écart type : ce type de mesure permet de calculer les écarts dans chaque groupe de cellules, par rapport à la moyenne des valeurs. Vous pouvez par exemple comparer le volume des ventes pour chaque segment existant.
+   * Ecart à la moyenne : ce type de mesure permet de calculer les écarts dans chaque groupe de cellules par rapport à la moyenne des valeurs. Par exemple, vous pouvez comparer le volume des achats pour tous les segments existants.
 
    La mesure créée est alors ajoutée dans le rapport.
 
@@ -160,7 +160,7 @@ Pour regrouper une population dans une liste, les étapes sont les suivantes :
 
 Pour créer un tableau qui explore les données d&#39;un cube, les étapes sont les suivantes :
 
-1. Créez un nouveau rapport, avec une seule page, et insérez-y un tableau croisé dynamique. Voir à ce propos [cette page](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table).
+1. Créez un nouveau rapport, avec une seule page, et insérez-y un tableau croisé dynamique. Pour plus d’informations, consultez [cette page](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table).
 
    ![](assets/s_advuser_cube_in_report_01.png)
 

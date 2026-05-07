@@ -7,7 +7,7 @@ feature: Workflows
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '324'
-ht-degree: 100%
+ht-degree: 67%
 
 ---
 
@@ -43,17 +43,17 @@ Les workflows présentés ci-dessous sont installés par défaut avec le module 
   <tr> 
    <td> <span class="uicontrol">Actualiser pour la délivrabilité</span> <br /> </td> 
    <td> <span class="uicontrol">deliverabilityUpdate</span> <br /> </td> 
-   <td> Ce workflow permet de créer la liste des règles de qualification des e-mails rejetés, ainsi que la liste des domaines et des MX dans la plateforme. Ce workflow ne fonctionne que si le port HTTPS est ouvert. Ces listes ne sont pas mises à jour tant que le module Délivrabilité n'est pas installé.<br /> </td> 
+   <td> Ce workflow permet de créer la liste des règles de qualification des mails rebonds, ainsi que la liste des domaines et des MX dans la plateforme. Ce workflow ne fonctionne que si le port HTTPS est ouvert. Ces listes ne sont pas mises à jour tant que le module Délivrabilité n'est pas installé.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Nettoyage de la base</span> <br /> </td> 
-   <td> <span class="uicontrol">nettoyage</span> <br /> </td> 
+   <td> <span class="uicontrol">Nettoyage de la base de données</span> <br /> </td> 
+   <td> <span class="uicontrol">cleanup</span> <br /> </td> 
    <td> <p>Ce workflow est le workflow de maintenance de la base de données : il procède aux différents calculs des statistiques et traitements, et supprime les données obsolètes de la base de données selon la configuration définie dans l’assistant de déploiement. Par défaut, il se déclenche tous les jours à 4H00.</p> <p>Pour plus d'informations, consultez cette <a href="../../production/using/database-cleanup-workflow.md">page</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Nettoyage des workflows en pause</span> <br /> </td> 
    <td> <span class="uicontrol">cleanupPausedWorkflows</span> <br /> </td> 
-   <td> <p>Ce workflow analyse les workflows en pause dont le niveau de priorité est défini sur normal et déclenche des avertissements et des notifications lorsqu'ils sont en pause depuis trop longtemps. Après un mois, les workflows techniques en pause sont arrêtés de manière inconditionnelle. Par défaut, ce workflow est déclenché tous les lundis à 5h00.</p> <p>Pour plus d’informations, voir <a href="monitoring-workflow-execution.md#handling-of-paused-workflows" target="_blank">Gérer les workflows en pause</a>.</p></td> 
+   <td> <p>Ce workflow analyse les workflows en pause dont le niveau de gravité est défini sur normal et déclenche des avertissements et des notifications lorsqu’ils ont été suspendus pendant trop longtemps. Au bout d'un mois, les workflows techniques en pause sont arrêtés de manière inconditionnelle. Par défaut, il est déclenché tous les lundis à 5 heures du matin.</p> <p>Pour plus d’informations, voir <a href="monitoring-workflow-execution.md#handling-of-paused-workflows" target="_blank">Gérer les workflows en pause</a>.</p></td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Notification des offres</span> <br /> </td> 
@@ -68,7 +68,7 @@ Les workflows présentés ci-dessous sont installés par défaut avec le module 
   <tr> 
    <td> <span class="uicontrol">Tracking</span> <br /> </td> 
    <td> <span class="uicontrol">tracking</span> <br /> </td> 
-   <td> Ce workflow effectue la récupération et la consolidation des informations de tracking. Il assure également le recalcul des statistiques de tracking et de diffusion, notamment celles utilisées par les workflows d'archivage de Message Center. Par défaut, il est déclenché une fois par heure. <br /> </td> 
+   <td> Ce workflow effectue la récupération et la consolidation des informations de tracking. Elle assure également le recalcul des statistiques de tracking et de diffusion, notamment celles utilisées par les workflows d'archivage Message Center. Par défaut, il est déclenché une fois par heure. <br /> </td> 
   </tr> 
  </tbody> 
 </table>

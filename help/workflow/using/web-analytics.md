@@ -6,7 +6,7 @@ hide: true
 feature: Workflows, Analytics Integration
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: '183'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Les workflows présentés ci-dessous sont installés par défaut avec le module 
   <tr> 
    <td> <span class="uicontrol">Envoi des indicateurs et des attributs de campagne</span> <br /> </td> 
    <td> <span class="uicontrol">webAnalyticsSendMetrics</span> <br /> </td> 
-   <td> Ce workflow permet d'envoyer les indicateurs des campagnes par e-mail d'Adobe Campaign à Adobe Experience Cloud Suite via le connecteur Adobe® Analytics. Les indicateurs concernés sont les suivants : <strong>Envoyés</strong> (iSent), <strong>Nombre total d'ouvertures</strong> (iTotalRecipientOpen), <strong>Nombre total de destinataires ayant cliqué</strong> (iTotalRecipientClick), <strong>Erreurs</strong> (iError), <strong>Opt-Out</strong> (opt-out) (iOptOut).<br /> </td> 
+   <td> Ce workflow permet d'envoyer les indicateurs des campagnes par e-mail d'Adobe Campaign vers Adobe Experience Cloud Suite via le connecteur Adobe® Analytics. Les indicateurs concernés sont les suivants : <strong>Envoyés</strong> (iSent), <strong>Nombre total d'ouvertures</strong> (iTotalRecipientOpen), <strong>Nombre total de destinataires ayant cliqué</strong> (iTotalRecipientClick), <strong>Erreurs</strong> (iError), <strong>Opt-Out</strong> (opt-out) (iOptOut).<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Identification des contacts convertis</span> <br /> </td> 

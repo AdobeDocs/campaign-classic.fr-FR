@@ -6,8 +6,8 @@ feature: Line App
 role: User
 exl-id: 1baaabbd-9fd7-4d9b-b78e-d2a559d7dddb
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '281'
+workflow-type: tm+mt
+source-wordcount: '361'
 ht-degree: 100%
 
 ---

@@ -9,8 +9,8 @@ topic-tags: interaction-overview
 exl-id: 98413cde-50c9-416c-8316-85837f724c27
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
-source-wordcount: '1204'
-ht-degree: 100%
+source-wordcount: '1210'
+ht-degree: 75%
 
 ---
 
@@ -22,14 +22,14 @@ ht-degree: 100%
 
 Cette section présente les bonnes pratiques pour gérer le module Interaction dans Adobe Campaign Classic, y compris les règles d&#39;éligibilité, les filtres prédéfinis, les activités de workflow et les options de bases de données.
 
-Interaction dans Adobe Campaign requiert une gestion attentive pour fonctionner de manière efficace. Vous devez trouver un équilibre entre le nombre de contacts, de catégories d’offres et d’offres. Si ces facteurs ne sont pas gérés avec attention, votre instance Adobe Campaign peut rencontrer des problèmes.
+Interaction dans Adobe Campaign nécessite une gestion attentive pour fonctionner efficacement. Vous devez trouver le juste équilibre entre le nombre de contacts et le nombre de catégories d&#39;offres et d&#39;offres. Si ces facteurs ne sont pas gérés avec précaution, votre instance Adobe Campaign peut rencontrer des problèmes.
 
 ### Mise en œuvre {#implementation}
 
 Vous trouverez ci-dessous les éléments importants à garder à l’esprit lors de la mise en œuvre et de la configuration des interactions.
 
-* Dans le cas du moteur batch (généralement utilisé dans les communications sortantes, telles que les emails), le débit est la préoccupation centrale, car plusieurs contacts peuvent être gérés simultanément. Le goulot d’étranglement typique est la performance de la base de données.
-* La principale contrainte du moteur unitaire (généralement utilisé dans les communications entrantes, telles qu’une bannière sur un site web) est la latence, car quelqu’un attend une réponse. Le goulot d’étranglement typique est la performance de l’unité centrale.
+* Dans le cas du moteur par lots (généralement utilisé dans les communications sortantes, telles que les e-mails), le débit est la préoccupation principale, car plusieurs contacts peuvent être gérés en même temps. Le goulot d’étranglement typique est la performance de la base de données.
+* La principale contrainte du moteur unitaire (généralement utilisé dans les communications entrantes, telles qu’une bannière sur un site web) est la latence, car quelqu’un attend une réponse. Le goulot d’étranglement typique est la performance de CPU.
 * La conception du catalogue d&#39;offres a un impact considérable sur la performance d&#39;Adobe Campaign Classic.
 * S&#39;il existe de nombreuses offres, fractionnez-les en plusieurs catalogues.
 
@@ -37,14 +37,14 @@ Vous trouverez ci-dessous les éléments importants à garder à l’esprit lors
 
 Vous trouverez ci-dessous certaines bonnes pratiques en matière de règles d’éligibilité.
 
-* Simplifiez les règles. La complexité des règles a une incidence sur la performance, car elle prolonge la recherche. Une règle est complexe si elle comprend plus de cinq conditions.
+* Simplifiez les règles. La complexité des règles a une incidence sur les performances car elle étend la recherche. Une règle complexe est toute règle qui comporte plus de cinq conditions.
 * Afin d’accroître la performance, les règles peuvent être décomposées en différents filtres prédéfinis partagés entre des offres multiples.
-* Placez les règles de catégorie d’offres les plus restrictives à la position la plus élevée possible dans l’arbre. De cette manière, elles excluront le plus grand nombre de contacts en premier, ce qui réduit le nombre de cibles et empêche leur traitement par d’autres règles.
-* Placez les règles les plus coûteuses en termes de temps ou de traitement en bas de l&#39;arbre. De cette façon, ces règles seront uniquement exécutées sur l&#39;audience cible restante.
+* Placez les règles de catégorie d’offres les plus restrictives à la position la plus élevée possible dans l’arborescence. De cette manière, ils filtrent d’abord le plus grand nombre de contacts, ce qui réduit le nombre de cibles et empêche leur traitement par d’autres règles.
+* Placez les règles les plus coûteuses en termes de temps ou de traitement au bas de l&#39;arbre. Ainsi, ces règles ne seront exécutées que sur l’audience cible restante.
 * Démarrez au niveau d&#39;une catégorie spécifique afin d&#39;éviter d&#39;analyser l&#39;ensemble de l&#39;arbre.
-* Pour économiser le temps de traitement, précalculez les agrégats au lieu de créer des règles complexes avec des jointures. Pour ce faire, essayez de stocker les données client dans une table de référence qui peut être consultée au sein des règles d&#39;éligibilité.
+* Pour gagner du temps de traitement, précalculez les agrégats au lieu de créer des règles complexes avec des jointures. Pour ce faire, essayez de stocker les données client dans une table de référence qui peut être recherchée dans les règles d’éligibilité.
 * Utilisez un nombre minimum de poids pour limiter le nombre de requêtes.
-* Il est recommandé de disposer d&#39;un nombre limité d&#39;offres par emplacement d&#39;offre. Cela accélère la récupération des offres dans n&#39;importe quel emplacement donné.
+* Il est recommandé de disposer d&#39;un nombre limité d&#39;offres par emplacement d&#39;offre. Cela permet une récupération plus rapide des offres dans un espace donné.
 * Servez-vous d&#39;index, en particulier pour les colonnes de recherche fréquemment utilisées.
 
 ### Table de propositions {#proposition-table}
@@ -54,7 +54,7 @@ Vous trouverez ci-dessous quelques bonnes pratiques concernant la table de propo
 * Utilisez un nombre minimum de règles pour que le traitement soit le plus rapide possible.
 * Limitez le nombre d&#39;enregistrements dans la table de propositions : conservez uniquement les enregistrements requis pour contrôler la mise à jour de son statut et ce que requièrent les règles, puis archivez-les dans un autre système.
 * Réalisez une maintenance de base de données intensive sur la table de propositions, par exemple, en reconstruisant les index ou en recréant la table.
-* Limitez le nombre de propositions par cible. N&#39;en définissez pas davantage par rapport à ce que vous allez utiliser.
+* Limiter le nombre de propositions demandées par cible. Ne définissez pas une valeur supérieure à celle que vous allez utiliser.
 * Dans la mesure du possible, évitez les jointures dans les critères des règles.
 
 ## Conseils et astuces concernant la gestion des offres {#tips-managing-offers}
@@ -97,7 +97,7 @@ Toutefois, cela ne s&#39;applique qu&#39;aux interactions entrantes.
 
 Il est également possible de stocker des données supplémentaires dans la table des propositions si vous utilisez les interactions sortantes, ou les offres sortantes sans le module Interaction.
 
-Un champ de la table temporaire de workflow dont le nom correspond à celui d&#39;un champ de la table des propositions est copié dans le même champ de la table des propositions.
+Un champ de la table temporaire de workflow dont le nom correspond à celui d’un champ de la table des propositions est copié dans le même champ de la table des propositions.
 
 Par exemple, en cas de sélection manuelle d&#39;une offre (sans le module interaction) dans un Enrichissement, les champs standard sont définis comme suit :
 
@@ -123,7 +123,7 @@ Lorsque vous utilisez le module Interaction et que vous sélectionnez manuelleme
 
 ### Extension du schéma nms:offer {#extending-nms-offer-schema}
 
-Lors de l&#39;extension du schéma nms:offer, veillez à suivre la structure prête à l&#39;emploi déjà configurée :
+Lors de l’extension du schéma nms:offer, veillez à suivre la structure prête à l’emploi déjà configurée :
 * Définissez un nouveau champ pour le stockage du contenu sous `<element name="view">`.
 * Un nouveau champ doit être défini deux fois. Une fois sous forme de champ XML normal, et une autre fois sous forme de champ XML CDATA en ajoutant &quot;_jst&quot; au nom. Par exemple :
 

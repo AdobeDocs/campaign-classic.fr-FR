@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: workflow-general-operation
 exl-id: 03d35202-d221-4136-aad4-00704aabb356
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '529'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '555'
+ht-degree: 99%
 
 ---
 
@@ -29,13 +29,13 @@ L&#39;utilisation de modèles de workflow facilite la préparation d&#39;imports
 
 Pour de nombreux projets, les imports sont construits sans activité de **[!UICONTROL Déduplication]** car les fichiers utilisés n&#39;ont pas de doublon. Des doublons apparaissent parfois suite à l&#39;import d&#39;autres fichiers. La déduplication est alors difficile. C&#39;est pourquoi l&#39;ajout d&#39;une étape de déduplication est une précaution utile pour tous les workflows d&#39;import.
 
-Ne partez pas de l&#39;hypothèse selon laquelle les données entrantes sont cohérentes et justes ou que le département informatique ou le responsable Adobe Campaign s&#39;en occupera. Gardez la normalisation des données à l&#39;esprit tout au long du projet. Veillez à dédupliquer, à réconcilier et à maintenir la cohérence des données lors des imports.
+Ne partez pas de l’hypothèse selon laquelle les données entrantes sont cohérentes et justes ou que le service informatique ou la personne responsable d’Adobe Campaign s’en occupera. Pendant le projet, gardez à l’esprit l’importance de la normalisation des données. Dédupliquez, réconciliez et maintenez la cohérence lorsque vous importez des données.
 
 Un exemple de modèle de workflow générique conçu pour importer des données est disponible dans la section [Exemple : modèle de workflow pour importer des données](../../platform/using/creating-import-export-templates.md).
 
 ## Utiliser des formats de fichier plat {#using-flat-file-formats}
 
-Le format le plus efficace pour les imports est le fichier plat. Les fichiers plats peuvent être importés en masse au niveau de la base de données.
+Le format le plus efficace pour les imports est celui des fichiers plats. Ils peuvent être importés en bloc au niveau de la base de données.
 
 Par exemple :
 
@@ -74,7 +74,7 @@ Les imports complets sont réservés au chargement initial.
 Pour maintenir la cohérence des données dans la base de données Adobe Campaign, veuillez appliquer les principes suivants :
 
 * Si les données importées correspondent à une table de référence dans Adobe Campaign, elles doivent être réconciliées avec ce tableau dans le workflow. Les enregistrements sans correspondance doivent être rejetés.
-* Assurez-vous que les données importées soient toujours **« normalisées »** (e-mail, numéro de téléphone, adresse postale) et que cette normalisation soit fiable et ne risque pas de changer pas au fil des années. Si ce n’est pas le cas, des doublons risquent d’apparaître dans la base de données, et dans la mesure où Adobe Campaign ne fournit pas d’outils de « correspondance approximative », leur suppression sera très difficile.
+* Assurez-vous que les données importées soient toujours **« normalisées »** (adresse e-mail, numéro de téléphone, adresse postale) et que cette normalisation soit fiable et ne risque pas de changer au fil des années. Si ce n’est pas le cas, des doublons risquent d’apparaître dans la base de données, et dans la mesure où Adobe Campaign ne fournit pas d’outils de « correspondance approximative », leur gestion et leur suppression seront très difficiles.
 * Les données transactionnelles doivent être dotées d’une clé de réconciliation et être réconciliées avec les données existantes afin d’éviter la création de doublons.
-* **Les fichiers liés doivent être importés dans l&#39;ordre**. Si l&#39;import est composé de fichiers multiples et interdépendants, le workflow doit vérifier que les fichiers sont importés dans l&#39;ordre. Si un fichier échoue, les autres fichiers ne sont pas importés.
+* **Les fichiers liés doivent être importés dans l&#39;ordre**. Si l’import est composé de fichiers multiples et interdépendants, le workflow doit vérifier que les fichiers sont importés dans l’ordre. Si un fichier échoue, les autres fichiers ne sont pas importés.
 * **Dédupliquez**, réconciliez et maintenez la cohérence lorsque vous importez des données.

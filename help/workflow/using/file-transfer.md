@@ -7,8 +7,8 @@ hide: true
 exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 100%
+source-wordcount: '657'
+ht-degree: 80%
 
 ---
 
@@ -33,7 +33,7 @@ Le paramétrage dépend de l&#39;action sélectionnée.
 
 1. **Réception de fichier**
 
-   Pour recevoir des fichiers stockés sur un serveur distant, sélectionnez l&#39;option **[!UICONTROL Réception de fichier]** dans le champ **[!UICONTROL Action]**. Vous devez en indiquer l&#39;URL dans le champ correspondant.
+   Pour recevoir des fichiers stockés sur un serveur distant, sélectionnez **[!UICONTROL Téléchargement de fichier]** dans le champ **[!UICONTROL Action]**. Vous devez spécifier son URL dans le champ correspondant.
 
    ![](assets/file_transfert_edit.png)
 
@@ -53,19 +53,19 @@ Le paramétrage dépend de l&#39;action sélectionnée.
 
    ![](assets/file_transfert_source.png)
 
-   Utilisez les flèches pour modifier l&#39;ordre des onglets. Il correspond à l&#39;ordre d&#39;envoi des fichiers au serveur.
+   Utilisez les flèches pour modifier l’ordre des onglets. Il s’agit de l’ordre dans lequel les fichiers sont envoyés au serveur.
 
-   L&#39;option **[!UICONTROL Garder un historique des fichiers envoyés]** permet de conserver une trace des envois effectués. Cet historique est accessible dans le répertoire.
+   L&#39;option **[!UICONTROL Conserver l&#39;historique des fichiers envoyés]** permet de tracker les fichiers envoyés. Cet historique est accessible à partir du répertoire .
 
 1. **Test d&#39;existence de fichier**
 
-   Pour tester l’existence d’un fichier, sélectionnez l’option **[!UICONTROL Test d’existence de fichier]** dans le champ **[!UICONTROL Action]**. La configuration du serveur distant est la même que pour le téléchargement de fichiers. Pour plus d’informations, consultez cette [section](#properties).
+   Pour tester l’existence d’un fichier, sélectionnez l’option **[!UICONTROL Tester pour vérifier si le fichier existe]** dans le champ **[!UICONTROL Action]**. La configuration du serveur distant est la même que pour le téléchargement de fichiers. Pour plus d’informations, consultez cette [section](#properties).
 
    ![](assets/file_transfert_edit_test.png)
 
 1. **Listage des fichiers**
 
-   Pour lister les fichiers, sélectionnez l’option **[!UICONTROL Listage de fichiers]** dans le champ **[!UICONTROL Action]**. La configuration du serveur distant est la même que pour la réception de fichiers. Pour plus d&#39;informations, consultez cette [section](#properties).
+   Pour répertorier les fichiers, sélectionnez l’option **[!UICONTROL Listage de fichiers]** dans le champ **[!UICONTROL Action]**. La configuration du serveur distant est la même que pour la réception de fichiers. Pour plus d&#39;informations, consultez cette [section](#properties).
 
    L’option **[!UICONTROL Lister tous les fichiers]**, disponible lors de la sélection de l’action **[!UICONTROL Listage de fichiers]** permet de répertorier tous les fichiers présents sur le serveur dans la variable d’événement **vars.filenames**. Les noms des fichiers y sont séparés par les caractères `\n`.
 

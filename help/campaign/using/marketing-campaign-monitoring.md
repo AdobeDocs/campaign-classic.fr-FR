@@ -8,8 +8,8 @@ hide: true
 exl-id: c2b523ac-e900-4db8-85b0-dafc6ddb3eca
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 100%
+source-wordcount: '262'
+ht-degree: 78%
 
 ---
 
@@ -27,7 +27,7 @@ Pour chaque campagne, l&#39;onglet **[!UICONTROL Tracking]** vous permet de visu
 
   ![](assets/s_ncs_user_op_edit_exe_tab_b.png)
 
-* Le sous-onglet **[!UICONTROL Tâches]** regroupe toutes les tâches rattachées à l’opération. Cette vue vous permet de les éditer ou de les supprimer. Les tâches sont disponibles avec l&#39;application MRM. Elles sont présentées dans [cette section](../../mrm/using/creating-and-managing-tasks.md).
+* Le sous-onglet **[!UICONTROL Tâches]** regroupe toutes les tâches liées à l&#39;opération. Cette vue vous permet de les modifier ou de les supprimer. Les tâches sont disponibles avec l&#39;application MRM. Elles sont présentées dans [cette section](../../mrm/using/creating-and-managing-tasks.md).
 
   ![](assets/s_ncs_user_op_edit_exe_tab_e.png)
 
@@ -53,4 +53,4 @@ Pour contrôler l&#39;état d&#39;une diffusion, éditez-la et consultez son tab
 
 Vous pouvez consulter l&#39;état des diffusions en cliquant sur le lien **[!UICONTROL Diffusions]**, accessible à partir de la page d&#39;accueil d&#39;Adobe Campaign. Voir [Suivi des diffusions](#delivery-tracking).
 
-Les informations relatives aux traitements exécutés dans une opération sont regroupées dans l&#39;onglet **[!UICONTROL Edition > Suivi]** de l’opération. Vous pouvez y visualiser la liste des diffusions de l&#39;opération. [En savoir plus](#tracking-a-campaign).
+Les informations relatives aux processus exécutés lors d&#39;une campagne sont collectées dans l&#39;onglet **[!UICONTROL Modifier > Audit]** de la campagne. Vous pouvez y visualiser la liste des diffusions de la campagne. [En savoir plus](#tracking-a-campaign).

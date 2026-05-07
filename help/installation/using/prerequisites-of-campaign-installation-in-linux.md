@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
 source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
-workflow-type: ht
-source-wordcount: '829'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '854'
+ht-degree: 78%
 
 ---
 
@@ -37,7 +37,7 @@ Pour rappel, les composants suivants doivent être installés et correctement pa
 
 Pour installer Adobe Campaign sous Linux, vérifiez que vous disposez des librairies requises.
 
-* La bibliothèque C doit supporter le mode TLS (Thread Local Storage). Ce mode est actif dans la plupart des cas, sauf avec certains kernels dans lesquels le support Xen a été activé.
+* La bibliothèque C doit pouvoir prendre en charge le mode TLS (Thread Local Storage). Ce mode est actif dans la plupart des cas, sauf pour certains noyaux pour lesquels la prise en charge de Xen a été désactivée.
 
   Pour le vérifier, vous pouvez par exemple utiliser la commande **uname -a | grep xen**.
 
@@ -65,7 +65,7 @@ En complément, dans le fichier **/etc/sysconfig/httpd**, la ligne suivante a é
 . ~neolane/nl6/env.sh
 ```
 
-Sous RHEL et CentOS, des problèmes de compatibilité avec les couches clientes des bases de données ont été constatées lorsque SELinux est activé. Pour assurer le bon fonctionnement d&#39;Adobe Campaign, nous vous conseillons de désactiver SELinux.
+Sous RHEL et CentOS, des problèmes de compatibilité avec les couches clientes des bases de données ont été constatés lorsque SELinux est activé. Pour garantir le bon fonctionnement d’Adobe Campaign, nous vous recommandons de désactiver SELinux.
 
 **Procédez de la manière suivante :**
 
@@ -136,7 +136,7 @@ yum install libreoffice-headless libreoffice-writer libreoffice-calc
 
 ## Couches d&#39;accès base de données {#database-access-layers}
 
-Les couches d&#39;accès pour le moteur de base de données que vous utilisez doivent être installées sur votre serveur et accessibles depuis le compte Adobe Campaign. Selon le moteur de base de données utilisé, les versions et modes d&#39;installation peuvent différer.
+Les couches d’accès pour le moteur de base de données que vous utilisez doivent être installées sur votre serveur et accessibles via le compte Adobe Campaign. Les versions et les modes d&#39;installation peuvent varier en fonction du moteur de base de données utilisé.
 
 Les versions des connecteurs CRM compatibles avec Adobe Campaign sont listées dans la [matrice de compatibilité](../../rn/using/compatibility-matrix.md).
 
@@ -162,11 +162,11 @@ Vous pouvez obtenir un package RPM Linux depuis Oracle Technology Network.
 
 Les problèmes peuvent survenir après la mise à jour ou le changement de version d&#39;un client ou d&#39;un serveur Oracle ou lors de la première installation de l&#39;instance.
 
-Si vous remarquez sur la console cliente qu&#39;il y a des décalages horaires inattendus (une ou plusieurs heures) entre les logs, le dernier traitement de workflow, le traitement suivant, etc, il pourrait y avoir un problème entre la bibliothèque du client Oracle et le serveur Oracle. Pour éviter ces problèmes :
+Si vous constatez sur la console cliente qu’il existe des décalages horaires inattendus (une ou plusieurs heures) dans les journaux, le dernier traitement du workflow, le traitement suivant, etc., il se peut qu’il y ait un problème entre la bibliothèque du client Oracle et le serveur Oracle. Pour éviter de tels problèmes
 
 1. Assurez-vous d&#39;utiliser la version **cliente complète**.
 
-   Plusieurs problèmes ont été identifiés lors de l&#39;utilisation de la version Oracle Instant Client. De plus, il est impossible de modifier le fichier de fuseau horaire de cette version.
+   Divers problèmes ont été identifiés lors de l’utilisation de la version Oracle Instant Client. En outre, il est impossible de modifier le fichier de fuseau horaire sur le client instantané.
 
 1. Assurez-vous que la **version cliente** et la **version du serveur de base de données** sont les **mêmes**.
 
@@ -180,7 +180,7 @@ Si vous remarquez sur la console cliente qu&#39;il y a des décalages horaires i
 
 L&#39;installation d&#39;Adobe Campaign sous Linux doit être réalisée dans l&#39;ordre suivant : installation du serveur puis paramétrage des instances.
 
-Le processus d&#39;installation est décrit dans ce chapitre. Les étapes de l&#39;installation sont les suivantes :
+Le processus d’installation est décrit dans ce chapitre. Les étapes d&#39;installation sont les suivantes :
 
 * Etape 1 : Installation du serveur applicatif, voir la section [Installation de packages avec Linux](../../installation/using/installing-packages-with-linux.md).
 * Etape 2 : Intégration à un serveur Web (optionnel, en fonction des composants déployés).

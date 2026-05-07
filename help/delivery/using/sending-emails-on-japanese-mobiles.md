@@ -9,8 +9,8 @@ hide: true
 exl-id: 44634227-2340-49c4-b330-740c739ea551
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 100%
+source-wordcount: '782'
+ht-degree: 90%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## Formats d&#39;email pour les mobiles japonais {#email-formats-for-japanese-mobiles}
 
-Adobe Campaign gère trois formats japonais spécifiques pour les emails sur les mobiles : **Deco-mail** (mobiles DoCoMo), **Decore Mail** (mobiles Softbank) et **Decoration Mail** (mobiles KDDI AU). Ces formats imposent des contraintes particulières d&#39;encodage, de structure et de taille. Pour plus d&#39;informations sur les limites et pour obtenir des recommandations, consultez [cette section](#limitations-and-recommendations).
+Adobe Campaign gère trois formats japonais spécifiques pour les emails sur les mobiles : **Deco-mail** (mobiles DoCoMo), **Decore Mail** (mobiles Softbank) et **Decoration Mail** (mobiles KDDI AU). Ces formats imposent des contraintes particulières d’encodage, de structure et de taille. En savoir plus sur les limites et les recommandations dans [cette section](#limitations-and-recommendations).
 
 Pour qu&#39;un destinataire puisse recevoir correctement des messages dans l&#39;un de ces formats, il est recommandé de sélectionner **[!UICONTROL Deco-mail (DoCoMo)]**, **[!UICONTROL Decore Mail (Softbank)]** ou **[!UICONTROL Decoration Mail (KDDI AU)]** dans le profil correspondant :
 
@@ -73,7 +73,7 @@ Cette règle permet de s&#39;assurer que la diffusion respecte les [contraintes 
 
 ### Envoi de BAT {#sending-proofs}
 
-Vous pouvez envoyer des BAT pour tester la diffusion. Lors de l&#39;envoi d&#39;un BAT, si vous avez recours à des adresses de substitution, veillez à saisir des adresses correspondant au format des emails du profil utilisé.
+Vous pouvez envoyer des BAT pour tester votre diffusion. Lors de l’envoi du BAT, si vous utilisez des adresses de substitution, veuillez saisir des adresses qui correspondent au format d’e-mail du profil utilisé.
 
 Par exemple, vous pouvez remplacer l&#39;adresse d&#39;un profil par test@softbank.ne.jp si le format des emails de ce profil a été défini au préalable sur **[!UICONTROL Decore Mail (Softbank)]**.
 

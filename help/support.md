@@ -7,8 +7,8 @@ hide: true
 exl-id: 3a84236f-89e5-4b8b-9a98-afdc006fd6e0
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 100%
+source-wordcount: '842'
+ht-degree: 98%
 
 ---
 
@@ -22,7 +22,7 @@ Obtenez de l’aide en utilisant nos FAQ, bonnes pratiques, ressources en ligne 
     <tr>
         <td><img src="platform/using/assets/do-not-localize/icon-faq.svg" width="60px"><p><a href="#faq">Problèmes courants et bonnes pratiques</a></p></td>
         <td><img src="platform/using/assets/do-not-localize/icon-control-panel.svg" width="60px"><p><a href="#control-panel">Panneau de contrôle Campaign</a></p></td>
-        <td><img src="platform/using/assets/do-not-localize/icon-support.svg" width="60px"><p><a href="#support">Demande d’aide</a></p></td>
+        <td><img src="platform/using/assets/do-not-localize/icon-support.svg" width="60px"><p><a href="#support">Demander de l’aide</a></p></td>
     </tr>
 </table>
 
@@ -112,18 +112,18 @@ Dans le Panneau de contrôle, vous pouvez interagir avec tous les serveurs SFTP
 
 Vous pouvez surveiller vos sous-domaines et leurs certificats. En savoir plus dans ces pages :
 * [Branding des sous-domaines](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=fr)
-* [Configuration d&#39;un nouveau sous-domaine](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr)
-* [Surveillance des certificats SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=fr)
+* [Configurer un nouveau sous-domaine](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr)
+* [Surveiller les certificats SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=fr)
 
 ### Paramètres des instances
 
 Découvrez comment gérer vos paramètres d’instances Campaign Classic dans le Panneau de contrôle. En savoir plus dans ces pages :
 * [Ajout d’adresses IP sur la liste autorisée](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=fr) pour accéder à vos instances Campaign
-* [Gestion des autorisations d&#39;URL](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=fr)
-* [Accès aux détails de l&#39;instance](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=fr)
+* [Gestion des autorisations d’URL](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=fr)
+* [Accès aux détails de l’instance](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=fr)
 * [Gestion des clés GPG pour le chiffrement des données](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=fr)
 
-## Demande d’aide {#support}
+## Demander de l’aide {#support}
 
 <img src="platform/using/assets/do-not-localize/icon-support.svg" width="60px">
 
@@ -131,7 +131,7 @@ Le nouveau système de gestion des tickets a été lancé via la console [Adobe�
 
 ### Consultation d’experts
 
-Rejoignez la communauté Campaign Classic : cherchez des réponses à une question existante ou posez votre question à la communauté. [Prenez part à la conversation](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=fr){_blank}.
+Rejoignez la communauté Campaign Classic : cherchez des réponses à une question existante ou posez votre question à la communauté. [Prenez part à la conversation](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){_blank}.
 
 ### Accès au Centre de téléchargement Campaign
 

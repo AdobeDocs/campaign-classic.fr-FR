@@ -8,7 +8,7 @@ exl-id: 6e24d5fe-4830-49b4-a0fe-624c5644c920
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 100%
+ht-degree: 63%
 
 ---
 
@@ -26,7 +26,7 @@ Le principe de fonctionnement est le suivant :
 
    ![](assets/s_advuser_wf_sgbd_sample_1.png)
 
-   Le nom de la table saisi dans le champ correspondant sert de modèle pour collecter les données dans la base externe. Le nom de la table qui sera effectivement traitée par le workflow peut être calculé ou véhiculé par la transition entrante de l’activité de chargement. Pour sélectionner la table à utiliser, cliquez sur le lien **[!UICONTROL Avancé..]**. et sélectionnez l’option **[!UICONTROL Spécifié par la transition]** ou **[!UICONTROL Explicite]**.
+   Le nom de la table renseigné dans le champ correspondant est utilisé comme modèle pour la collecte des données dans la base externe. Le nom de la table traitée par le workflow peut être calculé ou transmis par la transition entrante de l’activité de chargement des données. Pour sélectionner la table à utiliser, cliquez sur le lien **[!UICONTROL Avancé..]**. et choisissez l&#39;option **[!UICONTROL Spécifié par la transition]** ou **[!UICONTROL Explicite]**.
 
    ![](assets/s_advuser_wf_sgbd_sample_5.png)
 
@@ -34,6 +34,6 @@ Le principe de fonctionnement est le suivant :
 
    ![](assets/s_advuser_wf_sgbd_sample_2.png)
 
-1. Vous pouvez définir un filtre sur ces données. Pour ce faire, cliquez sur le lien **[!UICONTROL Modifier la requête...]**
+1. Vous pouvez définir un filtre sur ces données. Pour cela, cliquez sur le lien **[!UICONTROL Éditer la requête...]** .
 
    Les données ainsi collectées peuvent être utilisées tout au long du cycle de vie du workflow.

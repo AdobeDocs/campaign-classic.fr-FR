@@ -10,8 +10,8 @@ topic-tags: prerequisites-and-recommendations-
 exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 100%
+source-wordcount: '677'
+ht-degree: 94%
 
 ---
 
@@ -58,14 +58,14 @@ Lors de l’installation et de la mise à niveau de votre kit de développement 
 
 Le kit de développement Java est spécifique à la plateforme : des programmes d’installation différents sont nécessaires pour chaque système d’exploitation.
 
-Pour télécharger le JDK, connectez-vous au [site web d’Oracle](https://www.oracle.com/technetwork/java/javase/downloads/index.html){target="_blank"}.
+Pour télécharger le JDK, connectez-vous au [site web ](https://www.oracle.com/technetwork/java/javase/downloads/index.html){target="_blank"}.
 
 >[!CAUTION]
 >
 > Assurez-vous de télécharger un kit de développement Java (JDK) et non un environnement d’exécution Java (JRE).
 
 
-Pour installer le JDSL dans un environnement Linux, il est préférable d’utiliser un gestionnaire de packages.
+Pour installer le JDSL dans un environnement Linux, il est préférable d’utiliser un gestionnaire de modules.
 
 Pour Debian, utilisez la commande suivante :
 
@@ -95,9 +95,9 @@ Vous pouvez utiliser Adobe Campaign pour exporter des rapports aux formats Micro
 
 ## SpamAssassin {#spamassassin}
 
-SpamAssassin permet d&#39;attribuer un score aux emails afin de déterminer si un message risque d&#39;être considéré comme indésirable par les outils anti-spams utilisés à sa réception. Son installation est facultative.
+SpamAssassin permet d&#39;attribuer un score aux emails afin de déterminer si un message risque d&#39;être considéré comme indésirable par les outils anti-spams utilisés à la réception. L’installation est facultative.
 
-La qualification des emails par SpamAssassin comme indésirables repose intégralement sur l&#39;utilisation d&#39;un ensemble de règles de filtrage et de scores. La mise à jour de ces règles, au moins une fois par jour, est donc indispensable pour que votre installation de SpamAssassin et son intégration dans Adobe Campaign soient pleinement opérationnelles et garantissent la pertinence des scores attribués à vos diffusions avant leur envoi. Cette mise à jour est de la responsabilité de l&#39;administrateur du serveur qui héberge SpamAssassin.
+La qualification des emails comme indésirables par SpamAssassin repose entièrement sur les règles de filtrage et de scoring. Ces règles doivent donc être mises à jour au moins une fois par jour pour que votre installation de SpamAssassin et son intégration dans Adobe Campaign soient entièrement fonctionnelles et pour garantir la pertinence des scores attribués à vos diffusions avant envoi. Cette mise à jour est de la responsabilité de l&#39;administrateur serveur qui héberge SpamAssassin.
 
 La version minimale prise en charge est : **3.4**
 

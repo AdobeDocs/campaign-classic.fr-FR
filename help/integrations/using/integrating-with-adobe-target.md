@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: adobe-target
 exl-id: 2e29d090-b87b-4cff-a703-58e1da082f04
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '201'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '209'
+ht-degree: 96%
 
 ---
 
@@ -28,7 +28,7 @@ L’intégration a lieu à l’ouverture de l’e-mail. Lorsque le client ouvre 
 
 >[!NOTE]
 >
->L&#39;intégration supporte uniquement les images statiques. Le reste du contenu n&#39;est pas personnalisable.
+>L&#39;intégration prend uniquement en charge les images statiques. Le reste du contenu ne peut pas être personnalisé.
 
 Plusieurs types de données peuvent être exploités par Adobe Target :
 

@@ -8,7 +8,7 @@ exl-id: 94a9d50b-4ead-4815-8d12-942fa78b4e8a
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '118'
-ht-degree: 100%
+ht-degree: 57%
 
 ---
 
@@ -22,7 +22,7 @@ L’activité **Réception de SMS** permet de récupérer et de traiter des SMS 
 
 ![](assets/sms_rec_edit.png)
 
-Le premier onglet de l&#39;activité **Réception de SMS** permet de renseigner les paramètres de routage des SMS et de saisir le script à exécuter à la réception de chaque message. Le deuxième onglet permet d&#39;affecter un planning à l&#39;activité et le troisième onglet définit les conditions d&#39;expiration de l&#39;activité.
+Le premier onglet de l&#39;activité **Réception de SMS** permet de saisir les paramètres de routage des SMS et le script à exécuter à la réception de chaque message. Le deuxième onglet permet d&#39;attribuer un planning à l&#39;activité, le troisième définit les conditions d&#39;expiration de l&#39;activité.
 
 1. **[!UICONTROL Routage SMS]** : sélectionnez le compte externe à utiliser pour la réception des SMS. Les comptes externes sont configurés via le nœud **[!UICONTROL Administration > Plateforme > Comptes externes]** de l&#39;arborescence.
 1. **[!UICONTROL Script]**

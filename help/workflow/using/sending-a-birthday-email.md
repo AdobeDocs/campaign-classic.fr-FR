@@ -7,8 +7,8 @@ hide: true
 exl-id: 38006cca-e945-4b9d-8e2d-ed537b8541d9
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 100%
+source-wordcount: '951'
+ht-degree: 88%
 
 ---
 
@@ -26,7 +26,7 @@ Pour réaliser ce cas d&#39;utilisation, nous avons créé le workflow de ciblag
 
 Ce workflow, exécuté quotidiennement, sélectionne tous les destinataires dont la date de naissance correspond à la date courante.
 
-![](assets/do-not-localize/how-to-video.png) Ce cas pratique est également proposé sous la forme d‘une vidéo. Voir à ce propos la vidéo sur la [création d‘un workflow](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/automating-with-workflows/creating-a-workflow.html?lang=fr).
+![](assets/do-not-localize/how-to-video.png) Ce cas d’utilisation se présente également sous la forme d’une vidéo. Voir à ce sujet la vidéo [Création d&#39;un workflow](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/automating-with-workflows/creating-a-workflow.html?lang=fr).
 
 Pour ce faire, créez une campagne et cliquez sur l’onglet **[!UICONTROL Ciblage et workflows]**. Pour plus d&#39;informations, consultez la section [Construire la cible principale dans un workflow](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
 
@@ -59,11 +59,11 @@ Pour cela, les étapes sont les suivantes :
    ![](assets/s_ncs_user_create_exp_exple_a.png)
 
 1. Choisissez l&#39;option **[!UICONTROL Editer la formule à partir d&#39;une expression]** et cliquez sur le bouton **[!UICONTROL Suivant]** afin d&#39;afficher l&#39;éditeur d&#39;expressions.
-1. Dans la liste des fonctions, double-cliquez sur la fonction **[!UICONTROL Day]** accessible depuis le noeud **[!UICONTROL Date]**. Cette fonction renvoie le nombre représentant le jour de la date passée en paramètre.
+1. Dans la liste des fonctions, double-cliquez sur la fonction **[!UICONTROL Day]** accessible depuis le noeud **[!UICONTROL Date]**. Cette fonction renvoie le nombre représentant le jour correspondant à la date passée en paramètre.
 
    ![](assets/s_ncs_user_create_exp_exple01.png)
 
-1. Dans la liste des champs disponibles, double-cliquez sur la **[!UICONTROL Date de naissance]**. La section supérieure de l&#39;éditeur d&#39;expression affiche alors la formule suivante :
+1. Dans la liste des champs disponibles, double-cliquez sur **[!UICONTROL Date de naissance]**. La section supérieure de l&#39;éditeur affiche alors la formule suivante :
 
    ```
    Day(@birthDate)
@@ -111,7 +111,7 @@ Pour réaliser ce cas d&#39;utilisation, nous avons créé le workflow de ciblag
 
 
 
-Si l&#39;année en cours **n&#39;est pas une année bissextile** et que le workflow est exécuté le 1er mars, il faut sélectionner tous les destinataires dont l&#39;anniversaire était la veille (le 29 février) et les ajouter à la liste des destinataires. Dans tous les autres cas, aucune action supplémentaire n&#39;est requise.
+Si l’année en cours **n’est pas une année bissextile** et que le workflow est exécuté le 1er mars, nous devons sélectionner tous les destinataires qui auraient eu leur anniversaire hier (29 février) et les ajouter à la liste des destinataires. Dans tous les autres cas, aucune action supplémentaire n’est requise.
 
 ### Etape 1 : sélection des destinataires {#step-1--selecting-the-recipients}
 

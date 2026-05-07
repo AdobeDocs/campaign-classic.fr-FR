@@ -8,7 +8,7 @@ exl-id: 8549bf8c-ba23-44cb-95f2-c50f2d0f5479
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 100%
+ht-degree: 69%
 
 ---
 
@@ -28,4 +28,4 @@ La configuration et le fonctionnement d’une tâche sont présentés dans la [d
 
 ![](assets/wkf_task_activity.png)
 
-L&#39;option **[!UICONTROL Ressources]** permet de définir plusieurs opérateurs ainsi qu&#39;un planning de validation de la tâche. Le rejet par le validant n&#39;entraîne pas le rejet de la tâche elle-même.
+L&#39;option **[!UICONTROL Ressources]** permet de définir plusieurs opérateurs et opératrices ainsi qu&#39;un planning de validation de la tâche. Le rejet par la personne validante n’entraîne pas le rejet de la tâche elle-même.

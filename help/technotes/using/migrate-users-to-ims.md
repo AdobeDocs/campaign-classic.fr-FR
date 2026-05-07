@@ -4,8 +4,8 @@ description: Découvrez comment migrer les opérateurs et opératrices Campaign 
 exl-id: f01948c7-b523-492d-a4e8-67f4adde5fc5
 source-git-commit: 02ecc0e6bb3bd361f512baeefc9e0f2271063387
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 86%
+source-wordcount: '1263'
+ht-degree: 85%
 
 ---
 
@@ -39,9 +39,9 @@ Cette modification s’applique à partir de Campaign Classic v7.4.1 (et des d
 >
 >**Impact sur l&#39;accès au Panneau de Contrôle**
 >
->Une fois que vous avez migré vos utilisateurs vers IMS, sachez que tout profil de produit dans le Adobe Admin Console contenant le mot « admin » dans son nom (tel que « Administrateurs », « admin », « admins », « administrateur de validation », etc.) accordera automatiquement l’accès au Panneau de Contrôle Campaign. Panneau de Contrôle est un outil en libre-service qui permet d’apporter des modifications importantes aux instances de Campaign.
+>Une fois que vous avez migré vos utilisateurs vers IMS, sachez que tout profil de produit dans le Adobe Admin Console contenant le mot « admin » dans son nom (par exemple, « Administrateurs », « admin », « admins », « administrateur d’approbation », etc.) accordera automatiquement l&#39;accès au Panneau de Contrôle Campaign. Panneau de Contrôle est un outil en libre-service qui permet d’apporter des modifications importantes aux instances de Campaign.
 >
->Examinez attentivement les conventions de dénomination de votre profil de produit pour vous assurer que seuls les utilisateurs autorisés ont accès à Panneau de Contrôle. En savoir plus sur la gestion des autorisations de Panneau de Contrôle dans la documentation du Panneau de Contrôle [&#128279;](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr){target="_blank"}.
+>Examinez attentivement les conventions de dénomination de votre profil de produit pour vous assurer que seuls les utilisateurs autorisés ont accès à Panneau de Contrôle. En savoir plus sur la gestion des autorisations de Panneau de Contrôle dans la documentation du Panneau de Contrôle [](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}.
 
 
 ## Comment migrer les environnements hébergés et Managed Services ? {#ims-migration-procedure}

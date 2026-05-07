@@ -6,9 +6,9 @@ feature: Configuration, Instance Settings
 role: Developer
 exl-id: faf63c8f-9d10-43c1-a990-91361594af9f
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
-source-wordcount: '617'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '627'
+ht-degree: 78%
 
 ---
 
@@ -128,11 +128,11 @@ Les règles suivantes s’appliquent aux clés :
 
 La clé primaire de la plupart des tables Adobe Campaign est un entier long 32 bits auto-généré par le moteur de base de données. Le calcul de la valeur de la clé repose sur une séquence (par défaut, la fonction SQL **XtkNewId**) générant un nombre unique dans toute la base de données. Le contenu de la clé est automatiquement renseigné à l’insertion de l’enregistrement.
 
-L’avantage d’une clé incrémentale est d’obtenir une clé technique non modifiable utilisée pour les jointures entre les tables. De plus, cette clé n’est pas consommatrice car elle utilise un entier sur deux octets.
+L&#39;avantage d&#39;une clé incrémentale est de fournir une clé technique non modifiable pour les jointures entre les tables. En outre, cette clé n&#39;occupe pas beaucoup de mémoire car elle utilise un entier à deux octets.
 
 Vous pouvez spécifier dans le schéma source le nom de la séquence à utiliser avec l’attribut **pkSequence**. Si cet attribut n’est pas indiqué dans le schéma source, la séquence **XtkNewId** par défaut est utilisée. L’application utilise des séquences dédiées pour les schémas **nms:broadLog** et **nms:trackingLog** (**NmsBroadLogId** et **NmsTrackingLogId**, respectivement), car il s’agit des tables qui contiennent le plus d’enregistrements.
 
-À compter d’ACC 18.10, **XtkNewId** n’est plus la valeur par défaut de la séquence dans les schémas d’usine. Vous pouvez désormais créer ou étendre un schéma avec une séquence dédiée.
+Depuis ACC 18.10, **XtkNewId** n’est plus la valeur par défaut de la séquence dans les schémas d’usine. Vous pouvez désormais créer un schéma ou étendre le schéma existant avec une séquence dédiée.
 
 >[!IMPORTANT]
 >
@@ -176,7 +176,7 @@ En plus de la définition de la clé et de son index, un champ numérique de nom
 
 >[!IMPORTANT]
 >
->Un enregistrement avec une clé primaire à 0 est automatiquement inséré à la création de la table. Cet enregistrement est utilisé pour éviter les jointures externes, non efficaces sur les tables à volumes. Par défaut, toutes les clés étrangères sont initialisées avec la valeur 0, ce qui permet de toujours retourner un résultat sur la jointure lorsque la donnée n’est pas renseignée.
+>Un enregistrement avec une clé primaire à 0 est automatiquement inséré à la création de la table. Cet enregistrement est utilisé pour éviter les jointures externes, qui ne sont pas efficaces sur les tables de volumes. Par défaut, toutes les clés étrangères sont initialisées avec la valeur 0 afin qu&#39;un résultat puisse toujours être retourné sur la jointure lorsque la donnée n&#39;est pas renseignée.
 
 
 ## En savoir plus

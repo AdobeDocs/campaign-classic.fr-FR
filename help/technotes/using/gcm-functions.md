@@ -5,9 +5,9 @@ description: Nouvelles fonctions basées sur GCM
 feature: Technote
 exl-id: 154dee7a-a1e9-40a2-bfa5-3641382d0574
 source-git-commit: b6d64f66d287dba79be5eddec48ee852c2c7740c
-workflow-type: ht
-source-wordcount: '578'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '582'
+ht-degree: 99%
 
 ---
 
@@ -51,7 +51,7 @@ Chiffre la chaîne de caractères avec la clé de l’instance en utilisant l’
 
 **Valeur(s) renvoyée(s)** : chiffrée(s)
 
-**Schéma** : xtk:session
+**Schéma** : xtk:session
 
 **Statique** : oui
 
@@ -75,7 +75,7 @@ Chiffre la chaîne de caractères avec la clé du serveur en utilisant l’algor
 
 **Valeur(s) renvoyée(s)** : chiffrée(s)
 
-**Schéma** : xtk:session
+**Schéma** : xtk:session
 
 **Statique** : oui
 
@@ -101,7 +101,7 @@ Chiffre une chaîne de caractères avec la clé de l’instance ou toute autre c
 
 **Remarques**
 
-Le chiffrement se fait selon la méthode suivante : 
+Le chiffrement se fait selon la méthode suivante :
 
 * La chaîne de caractères unicode est transformée en chaîne UTF-8.
 * Un caractère de vérification est ajouté dans le texte de chiffrement à la fin.

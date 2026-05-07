@@ -7,8 +7,8 @@ feature: Reporting, Monitoring, Surveys
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
 source-git-commit: 0d8cef312371192ee97f88eb33276df9d7fb11f6
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 100%
+source-wordcount: '518'
+ht-degree: 74%
 
 ---
 
@@ -30,7 +30,7 @@ Avant de démarrer ce cas pratique, vous devez disposer d&#39;un questionnaire e
 
 >[!NOTE]
 >
->Ce cas pratique ne peut être mis en oeuvre que si vous avez acquis l&#39;option **Survey Manager**. Vérifiez votre contrat de licence.
+>Ce cas pratique ne peut être implémenté que si vous avez acquis l&#39;option **Survey Manager**. Veuillez vérifier votre accord de licence.
 
 ## Etape 1 - Créer le workflow de collecte et stockage des données {#step-1---creating-the-data-collection-and-storage-workflow}
 
@@ -42,7 +42,7 @@ Pour collecter les réponses du questionnaire, les étapes sont les suivantes :
 
    ![](../../surveys/using/assets/reporting_usecase_1_01.png)
 
-1. Sélectionnez les colonnes à extraire (ici : tous les champs archivés). Les réponses sont stockées dans ces champs.
+1. Sélectionnez ensuite les colonnes à extraire (ici : tous les champs archivés). Ce sont les champs qui contiennent les réponses.
 
    ![](../../surveys/using/assets/reporting_usecase_1_02.png)
 
@@ -50,7 +50,7 @@ Pour collecter les réponses du questionnaire, les étapes sont les suivantes :
 
    ![](../../surveys/using/assets/reporting_usecase_1_04.png)
 
-   Dans cette activité, indiquez la liste à mettre à jour et désélectionnez l&#39;option **[!UICONTROL Purger puis réutiliser la liste si elle existe (sinon la compléter)]** : les réponses seront ajoutées à la table existante. Cette option permettra de référencer la liste dans un cube : le schéma associé à la liste ne sera pas regénéré à chaque mise à jour, ce qui permet de garantir l&#39;intégrité du cube utilisant cette liste.
+   Dans cette activité, indiquez la liste à mettre à jour et désélectionnez l&#39;option **[!UICONTROL Purger puis réutiliser la liste si elle existe (sinon la compléter)]** : les réponses sont ajoutées à la table existante. Cette option permet de référencer la liste dans un cube. Le schéma associé à la liste ne sera pas regénéré à chaque mise à jour, ce qui garantit l&#39;intégrité du cube utilisant cette liste.
 
    ![](../../surveys/using/assets/reporting_usecase_1_03.png)
 
@@ -72,7 +72,7 @@ Dans cet exemple, le cube est basé sur les données de la liste alimentée par 
 
 ![](../../surveys/using/assets/reporting_usecase_2_01.png)
 
-Définissez les dimensions et mesures à afficher dans le rapport. Ici, nous afficherons la date du contrat et le pays du participant.
+Définissez les dimensions et les mesures à afficher dans le rapport. Ici, nous souhaitons afficher la date du contrat et le pays du répondant.
 
 ![](../../surveys/using/assets/reporting_usecase_2_02.png)
 

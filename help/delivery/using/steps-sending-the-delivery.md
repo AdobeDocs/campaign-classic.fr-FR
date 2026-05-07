@@ -8,8 +8,8 @@ hide: true
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1629'
-ht-degree: 100%
+source-wordcount: '1649'
+ht-degree: 90%
 
 ---
 
@@ -93,11 +93,11 @@ Elle vous permet de différer la diffusion à une date ultérieure ou enregistre
 
 * L&#39;option **[!UICONTROL Planifier la diffusion (pas d&#39;exécution automatique)]** permet de planifier une analyse prévisionnelle de la diffusion.
 
-  Lorsque ce paramétrage est enregistré, la diffusion passe alors dans l&#39;état **[!UICONTROL Ciblage en attente]**.L&#39;analyse sera lancée à la date indiquée.
+  Lorsque cette configuration est enregistrée, la diffusion passe au statut **[!UICONTROL Ciblage en attente]**. L’analyse sera lancée à la date spécifiée.
 
 * L&#39;option **[!UICONTROL Planifier la diffusion (exécution automatique à la date prévue)]** permet d&#39;indiquer la date de contact.
 
-  Cliquez sur le bouton **[!UICONTROL Envoyer]** et choisissez **[!UICONTROL Différer la diffusion]** puis lancez l&#39;analyse et confirmez l&#39;envoi. Une fois l&#39;analyse terminée, la cible de la diffusion est prête et les messages seront automatiquement envoyés à la date indiquée.
+  Cliquez sur **[!UICONTROL Envoyer]** et sélectionnez **[!UICONTROL Différer la diffusion]** puis lancez l’analyse et confirmez la diffusion. Une fois l’analyse terminée, la cible de la diffusion est prête et les messages sont automatiquement envoyés à la date spécifiée.
 
 Les dates et heures sont entendues dans le fuseau horaire de l&#39;opérateur courant. La liste déroulante **[!UICONTROL Fuseau horaire]** située sous la zone de saisie de la date de contact permet d&#39;adapter automatiquement la date et l&#39;heure saisie dans le fuseau horaire sélectionné.
 
@@ -107,11 +107,11 @@ Ainsi, si vous planifiez une diffusion pour qu&#39;elle s&#39;exécute automatiq
 
 ## Envoi en plusieurs vagues {#sending-using-multiple-waves}
 
-Pour équilibrer la charge, vous pouvez répartir les envois en plusieurs lots. Configurez le nombre de lots et leur proportion par rapport à l’ensemble de la diffusion.
+Pour équilibrer la charge, vous pouvez diviser les diffusions en plusieurs lots. Configurez le nombre de lots et leur proportion par rapport à l’ensemble de la diffusion.
 
 >[!NOTE]
 >
->Vous pouvez uniquement définir la taille et le délai entre deux vagues consécutives. Le critère de sélection des destinataires pour chaque vague n&#39;est pas paramétrable.
+>Vous ne pouvez définir la taille et le délai qu’entre deux vagues consécutives. Les critères de sélection des destinataires pour chaque vague ne peuvent pas être configurés.
 
 1. Ouvrez la fenêtre des propriétés de la diffusion, puis cliquez sur l&#39;onglet **[!UICONTROL Diffusion]**.
 1. Sélectionnez l&#39;option **[!UICONTROL Envoyer en plusieurs vagues]**, puis cliquez sur le lien **[!UICONTROL Définition des vagues...]**.
@@ -130,7 +130,7 @@ Pour équilibrer la charge, vous pouvez répartir les envois en plusieurs lots. 
 
      Dans la colonne **[!UICONTROL Début]**, indiquez le délai entre le démarrage de deux vagues consécutives. Dans la colonne **[!UICONTROL Taille]**, saisissez un nombre fixe ou un pourcentage.
 
-     Dans l’exemple ci-dessous, la première vague représente 25 % du nombre total des messages inclus dans l’envoi et démarre immédiatement. Les deux vagues suivantes terminent l’envoi et sont définies pour démarrer à six heures d’intervalle.
+     Dans l&#39;exemple ci-dessous, la première vague représente 25 % du nombre total de messages inclus dans la diffusion et démarrera immédiatement. Les deux vagues suivantes terminent la diffusion et sont définies pour commencer à six heures d’intervalle.
 
      ![](assets/s_ncs_user_wizard_waves_create.png)
 
@@ -138,7 +138,7 @@ Pour équilibrer la charge, vous pouvez répartir les envois en plusieurs lots. 
 
    >[!IMPORTANT]
    >
-   >Veillez à ce que les dernières vagues ne dépassent pas la date limite d&#39;envoi qui est définie dans l&#39;onglet **[!UICONTROL Validité]**.Sinon, certains messages peuvent ne pas être envoyés.
+   >Assurez-vous que les dernières vagues ne dépassent pas la date limite de diffusion, qui est définie dans l’onglet **[!UICONTROL Validité]**. Sinon, certains messages risquent de ne pas être envoyés.
    >
    >Lors de la configuration des dernières vagues, veillez également à prévoir assez de temps pour les reprises. Consultez [cette section](steps-sending-the-delivery.md#configuring-retries).
 
@@ -150,9 +150,9 @@ Les deux exemples ci-dessous constituent les cas d&#39;utilisation les plus fré
 
 * **Lors de la phase de démarrage**
 
-  Lorsque vous envoyez des emails à l&#39;aide d&#39;une nouvelle plateforme, rien n&#39;est plus suspect pour un FAI (fournisseur d&#39;accès internet) que les adresses IP qui ne sont pas reconnues. Si des emails sont subitement envoyés en masse, le FAI les range souvent dans le courrier indésirable.
+  Lorsque vous envoyez des e-mails à l’aide d’une nouvelle plateforme, rien n’est plus suspect pour un FAI (fournisseur d’accès internet) que les adresses IP qui ne sont pas reconnues. Si des e-mails sont subitement envoyés en masse, le FAI les range souvent dans le courrier indésirable.
 
-  Pour éviter que les emails soient marqués comme spam, vous pouvez augmenter progressivement le volume envoyé à l&#39;aide de vagues. Cela permet d&#39;entamer la phase de démarrage en douceur et de réduire le nombre total d&#39;adresses invalides.
+  Pour éviter d’être marqué comme indésirable, vous pouvez augmenter progressivement le volume envoyé à l’aide des vagues. Cela permet d’entamer la phase de démarrage en douceur et de réduire le nombre total d’adresses invalides.
 
   Pour ce faire, utilisez l’option **[!UICONTROL Planifier les vagues selon un calendrier]**. Par exemple, définissez la première vague sur 10 %, la deuxième sur 15 %, etc.
 
@@ -188,7 +188,7 @@ Une fois la diffusion lancée, les messages (et les éventuelles reprises) peuve
 
 ![](assets/s_ncs_user_email_del_valid_period.png)
 
-* Le champ **[!UICONTROL Durée de diffusion]** permet de saisir la limite pour des reprises globales de diffusion. Concrètement, Adobe Campaign diffuse les messages à partir de la date de début. Puis, pour les messages en erreur uniquement, des reprises régulières et paramétrables sont effectuées tant que la limite de diffusion n’est pas atteinte.
+* Le champ **[!UICONTROL Durée de diffusion]** permet de saisir la limite pour les reprises globales de diffusion. Concrètement, Adobe Campaign diffuse les messages à partir de la date de début. Puis, pour les messages en erreur uniquement, des reprises régulières et paramétrables sont effectuées tant que la limite de validité n’est pas atteinte.
 
   Vous pouvez également choisir de spécifier des dates. Pour ce faire, sélectionnez **[!UICONTROL Fixer explicitement les dates de validité]**. Dans ce cas, les dates limites de diffusion et de validité permettent également de définir l’heure. L’heure actuelle est utilisée par défaut, mais vous pouvez la modifier directement dans le champ de saisie.
 

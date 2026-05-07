@@ -9,15 +9,15 @@ exl-id: a4d12445-5680-4704-9c67-e43e0ea6631b
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '530'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 # Règles de filtrage{#filtering-rules}
 
-Les règles de filtrage permettent de définir les messages à exclure en fonction de critères définis dans une requête. Ces règles sont associées à une dimension de ciblage.
+Les règles de filtrage permettent de définir les messages à exclure en fonction de critères définis dans une requête. Ces règles sont liées à une dimension de ciblage.
 
-Les règles de filtrage peuvent être associées à d&#39;autres types de règles (contrôle, pression, etc.) dans des typologies, ou regroupées dans une typologie dédiée de type **Filtrage**. Pour plus d&#39;informations, voir la section [Créer et utiliser une typologie de filtrage](#creating-and-using-a-filtering-typology).
+Les règles de filtrage peuvent être associées à d’autres types de règles (contrôle, pression, etc.) dans les typologies, ou regroupées dans une typologie dédiée **Filtrage**. Pour plus d&#39;informations, voir la section [Créer et utiliser une typologie de filtrage](#creating-and-using-a-filtering-typology).
 
 ## Création dʼune règle de filtrage {#creating-a-filtering-rule}
 
@@ -41,7 +41,7 @@ Pour définir ce filtrage, les étapes sont les suivantes :
 
    ![](assets/campaign_opt_create_filter_04.png)
 
-Lorsque cette règle est utilisée dans une diffusion, les abonnés mineurs sont automatiquement exclus. Un message spécifique en indique l&#39;application :
+Lorsque cette règle est utilisée dans une diffusion, les abonnés mineurs sont automatiquement exclus. Un message spécifique indique l’application de la règle :
 
 ![](assets/campaign_opt_create_filter_05.png)
 
@@ -71,7 +71,7 @@ Ces typologies spécifiques peuvent être associées à une diffusion lors du ch
 
 Sélectionnez ensuite la typologie de filtrage à appliquer à la diffusion. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter]** et sélectionnez les typologies à appliquer.
 
-Vous pouvez également associer directement des règles de filtrage depuis cet onglet, sans qu&#39;elles soient regroupées dans une typologie. Pour cela, utilisez la section inférieure de la fenêtre.
+Vous pouvez également lier des règles de filtrage directement à partir de cet onglet, sans qu&#39;elles ne soient regroupées dans une typologie. Pour ce faire, utilisez la section inférieure de la fenêtre.
 
 ![](assets/campaign_opt_select_typo_filtering.png)
 
@@ -82,12 +82,12 @@ Vous pouvez également associer directement des règles de filtrage depuis cet o
 >Ces paramétrages peuvent être définis au niveau du modèle de diffusion afin de les appliquer automatiquement à toute nouvelle diffusion créée à partir de ce modèle.
 >
 
-## Règles d&#39;exclusion de délivrabilité par défaut      {#default-deliverability-exclusion-rules}
+## Règles d&#39;exclusion de délivrabilité par défaut {#default-deliverability-exclusion-rules}
 
-Deux règles de filtrage sont disponibles par défaut : **[!UICONTROL Exclusion des adresses]** (**[!UICONTROL addressExclusions]**) et **[!UICONTROL Exclusion des domaines]** (**[!UICONTROL domainExclusions]**). Pendant l’analyse de l’e-mail, ces règles comparent les adresses e-mail des destinataires aux adresses ou noms de domaine interdits contenus dans une liste de suppression globale chiffrée, gérée dans l’instance de délivrabilité. S’il existe une correspondance, le message n’est pas envoyé au destinataire concerné.
+Deux règles de filtrage sont disponibles par défaut : **[!UICONTROL Exclusion des adresses]** ( **[!UICONTROL addressExclusions]** ) et **[!UICONTROL Exclusion des domaines]** ( **[!UICONTROL domainExclusions]** ). Pendant l’analyse de l’e-mail, ces règles comparent les adresses e-mail des destinataires aux adresses ou noms de domaine interdits contenus dans une liste de suppression globale chiffrée, gérée dans l’instance de délivrabilité. S&#39;il existe une correspondance, le message n&#39;est pas envoyé au destinataire concerné.
 
 Ces règles d’exclusion permettent d’éviter toute mise en liste bloquée liée à une activité malveillante, notamment l’utilisation d’un spam trap (piège à spam). Si un spam trap est par exemple utilisé pour s’abonner par le biais de l’un de vos formulaires web, un email de confirmation lui est automatiquement envoyé. Votre adresse est alors automatiquement mise en liste bloquée.
 
 >[!NOTE]
 >
->Les adresses et les noms de domaine contenus dans la liste de suppression globale sont masqués. Seul le nombre des destinataires exclus est indiqué dans les logs d&#39;analyse de diffusion.
+>Les adresses et les noms de domaine contenus dans la liste de suppression globale sont masqués. Seul le nombre des personnes destinataires exclues est indiqué dans les logs d’analyse de diffusion.

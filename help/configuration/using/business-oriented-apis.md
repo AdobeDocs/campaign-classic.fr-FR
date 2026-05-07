@@ -6,15 +6,15 @@ feature: API
 role: Developer
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
-source-wordcount: '618'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 93%
 
 ---
 
 # API orientées métier{#business-oriented-apis}
 
-Les API métier sont spécifiques à chaque type d&#39;objet. Elles agissent sur :
+Les API métier sont spécifiques à chaque type d’objet. Ils ont un effet sur :
 
 * Diffusions :
 
@@ -196,7 +196,7 @@ Description de la méthode dans son schéma :
 </method>
 ```
 
-Un modèle de diffusion doit être créé à partir de la console cliente Adobe Campaign, il contient les paramètres communs à tous les envois (adresse de l&#39;expéditeur ou la durée de validité du message).
+Un modèle de diffusion doit être créé à partir de la console cliente Adobe Campaign. Il contient les paramètres communs à toutes les diffusions (adresse de l’expéditeur ou durée de validité du message).
 
 Le document XML en entrée est un fragment de modèle de diffusion respectant la structure du schéma « nms:delivery ». Il contiendra toutes les données additionnelles qui n’ont pas pu être définies de manière statique dans le modèle de diffusion (par exemple, la liste des personnes destinataires à cibler).
 

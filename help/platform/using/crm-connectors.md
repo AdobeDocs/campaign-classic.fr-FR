@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: connectors
 exl-id: 7ccab3a4-f323-464a-9ec4-dd597279d0eb
 source-git-commit: 42cec0e9bede94a2995a5ad442822512bda14f2b
-workflow-type: ht
-source-wordcount: '134'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '149'
+ht-degree: 71%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## Prise en main des connecteurs CRM {#about-crm-connectors}
 
-Adobe Campaign propose différents connecteurs CRM pour relier votre plateforme Adobe Campaign à vos systèmes tiers. Ces connecteurs CRM permettent par exemple de synchroniser les contacts, les comptes, les commandes, les achats, etc. Ils facilitent l’intégration de votre application à vos différentes applications tierces et métiers.
+Adobe Campaign fournit divers connecteurs CRM pour lier votre plateforme Adobe Campaign à vos systèmes tiers. Ces connecteurs CRM permettent de synchroniser les contacts, les comptes, les achats, etc. Ils facilitent l’intégration de votre application à diverses applications tierces et commerciales.
 
 Ces connecteurs permettent une intégration rapide et facile des données : Adobe Campaign fournit un assistant dédié à la collecte et à la sélection des tableaux disponibles dans le CRM. Cela garantit une synchronisation bidirectionnelle et permet de s&#39;assurer que les données sont à jour en tout temps, et ce, sur l&#39;ensemble des systèmes.
 

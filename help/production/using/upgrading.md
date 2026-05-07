@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
 source-git-commit: 0da7fb912a909af222d796652efba4b30e39dc1c
-workflow-type: ht
-source-wordcount: '1247'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1308'
+ht-degree: 95%
 
 ---
 
@@ -158,7 +158,7 @@ Vous pouvez ensuite installer les packages requis, comme indiqué ci-dessous :
   >
   >Si vous lisez `Removing:` au lieu de `Upgrading:`, annulez la commande. Des erreurs (répertoriées ci-dessus) sont probablement à l’origine de la suppression. Dans ce cas, corrigez ces erreurs en mettant à jour ou en installant les dépendances manquantes répertoriées, puis réexécutez la commande.
 
-  Le fichier rpm possède des dépendances dans les packages des distributions CentOS/Red Hat. Si vous ne souhaitez pas employer certaines de ces dépendances, vous devrez peut-être utiliser l&#39;option &quot;nodeps&quot; du fichier rpm :
+  Le fichier rpm possède des dépendances sur les packages que vous pouvez trouver sur les distributions CentOS/Red Hat. Si vous ne souhaitez pas utiliser certaines de ces dépendances, vous devrez peut-être utiliser l’option « nodeps » de rpm :
 
   ```
   rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
@@ -176,7 +176,7 @@ Vous pouvez ensuite installer les packages requis, comme indiqué ci-dessous :
 
 >[!NOTE]
 >
->Les procédures complètes d’installation sont décrites dans [cette section](../../installation/using/installing-packages-with-linux.md). La synchronisation des ressources se fait automatiquement. En revanche, vous devez vérifier qu’elle s’est déroulée sans erreur. Voir à ce sujet la section [Résoudre les conflits de mise à niveau](#resolving-upgrade-conflicts).
+>Les procédures d’installation complètes sont présentées dans [cette section](../../installation/using/installing-packages-with-linux.md). Les ressources sont synchronisées automatiquement. Vous devez toutefois vous assurer qu’aucune erreur ne s’est produite. Voir à ce sujet la section [Résoudre les conflits de mise à niveau](#resolving-upgrade-conflicts).
 >
 
 ### Redémarrer le serveur Web {#reboot-the-web-server}

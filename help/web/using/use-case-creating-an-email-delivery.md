@@ -6,9 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: e2679f12-459b-466d-9c82-60a28363b104
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '796'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '804'
+ht-degree: 92%
 
 ---
 
@@ -39,7 +39,7 @@ Pour créer une diffusion, placez le curseur dans l’onglet **Campagnes** et cl
 
 ## Etape 2 - Sélectionner un modèle {#step-2---selecting-a-template}
 
-Sélectionnez un modèle de diffusion, puis nommez votre diffusion. Ce nom sera visible uniquement par les utilisateurs de la console Adobe Campaign et non par vos destinataires mais cet intitulé s&#39;affichera dans la liste de vos diffusions. Cliquez sur **[!UICONTROL Continuer]**.
+Sélectionnez un modèle de diffusion, puis attribuez un nom à votre diffusion. Ce nom sera visible uniquement par les utilisateurs de la console Adobe Campaign et non par vos destinataires, mais cet en-tête s’affichera dans votre liste de diffusions. Cliquez sur **[!UICONTROL Continuer]**.
 
 ![](assets/dce_delivery_model.png)
 
@@ -55,7 +55,7 @@ Vous pouvez également importer du contenu HTML créé en dehors d&#39;Adobe Ca
 
 ![](assets/dce_select_from_file_template.png)
 
-Il est possible d&#39;enregistrer ce contenu en tant que modèle pour le réutiliser ultérieurement. Lorsqu&#39;un modèle de contenu personnalisé est créé, son aperçu figure dans la liste des modèles. Voir à ce sujet la section [Gestion des modèles](template-management.md).
+Vous pouvez enregistrer ce contenu en tant que modèle pour une utilisation ultérieure. Une fois un modèle de contenu personnalisé créé, vous pouvez le prévisualiser dans la liste des modèles. Voir à ce sujet la section [Gestion des modèles](template-management.md).
 
 >[!CAUTION]
 >
@@ -109,7 +109,7 @@ Il est possible d&#39;enregistrer ce contenu en tant que modèle pour le réutil
 
   ![](assets/dce_webapp.png)
 
-  Cliquez sur **Enregistrer** pour valider.
+  Cliquez sur **Enregistrer** pour confirmer.
 
   >[!NOTE]
   >

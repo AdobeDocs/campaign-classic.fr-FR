@@ -6,9 +6,9 @@ badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaig
 feature: Reporting, Monitoring
 exl-id: c01f4850-ab17-44ac-a5e0-ff082ec206b3
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '1020'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1024'
+ht-degree: 97%
 
 ---
 
@@ -339,7 +339,7 @@ Pour plus d&#39;informations sur le contenu de ces rapports, consultez [cette se
 
 ## Autres rapports d&#39;usine {#other-ootb-reports}
 
-Les rapports suivants sont également fournis natifs. Pour plus d&#39;informations, reportez-vous au document relatif à la fonctionnalité à laquelle ils sont associés.
+Les rapports suivants sont également fournis de manière intégrée. Pour plus d’informations, consultez le document sur les fonctionnalités auxquelles ils se rapportent.
 
 <table> 
  <tbody> 

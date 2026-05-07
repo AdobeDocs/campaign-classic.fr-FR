@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: troubleshooting
 exl-id: 58656aa1-aa95-451f-80b8-9e2d28223056
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '71'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '81'
+ht-degree: 76%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 
 
-Lorsque les logs de tracking ne remontent pas, les causes peuvent être multiples. Nous vous recommandons de vérifier les informations suivantes :
+Plusieurs raisons peuvent expliquer l’absence de transfert des logs de tracking. Nous vous recommandons de vérifier les informations suivantes :
 
 * **Le workflow** Tracking **est-il en erreur ?**
 

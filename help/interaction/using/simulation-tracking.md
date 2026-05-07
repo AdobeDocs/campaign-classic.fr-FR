@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: simulating-offers
 exl-id: 490ebbea-9bdc-453e-8a02-c02b095e55e9
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 100%
+ht-degree: 45%
 
 ---
 
@@ -21,16 +21,16 @@ ht-degree: 100%
 
 Une fois la simulation effectuée, vous pouvez analyser son résultat depuis l&#39;onglet **[!UICONTROL Résultats]** qui s&#39;ajoute dans la fenêtre de simulation et le rapport **[!UICONTROL Répartition des offres par rang]** disponible depuis le tableau de bord de la simulation.
 
-Les résultats de la simulation consistent en la répartition des propositions par rang et par personnes ciblées. S&#39;ils ont été paramétrés, les axes de reporting sont également pris en compte et affichés dans cet onglet.
+Les résultats de la simulation contiennent une répartition des propositions par rang et par destinataire. Les axes de reporting sont également pris en compte et affichés dans cet onglet.
 
-Vous pouvez conserver ces résultats et les exporter si nécessaire en créant un rapport d&#39;analyse descriptive. Pour cela, cliquez sur le lien disponible dans la fenêtre des résultats.
+Vous pouvez enregistrer ces résultats et les exporter si nécessaire en créant une analyse descriptive des résultats. Pour ce faire, cliquez sur le lien approprié dans la fenêtre de résultats.
 
 Reportez-vous à [cette section](../../reporting/using/about-descriptive-analysis.md) pour plus d’informations sur l’assistant d’analyse descriptive.
 
 ![](assets/offer_simulation_012.png)
 
-D&#39;autre part, un tableau croisé dynamique permet de visualiser rapidement la répartition des offres par rang. Comme tout rapport dans Adobe Campaign, il peut être exporté, imprimé, historisé ou affiché dans un navigateur web.
+Un tableau croisé dynamique fournit un aperçu rapide des répartitions des offres par classement. Comme tous les rapports dans Adobe Campaign, vous pouvez l’exporter, l’imprimer, l’archiver ou l’afficher dans un navigateur web.
 
-Voir à ce propos [cette section](../../reporting/using/actions-on-reports.md).
+Pour plus d’informations, consultez [cette section](../../reporting/using/actions-on-reports.md).
 
 ![](assets/offer_simulation_013.png)

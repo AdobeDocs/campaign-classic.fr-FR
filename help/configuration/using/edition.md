@@ -6,9 +6,9 @@ feature: Application Settings
 role: Developer
 exl-id: 204d4a24-267c-4976-90d9-7bf5bee8d116
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '135'
-ht-degree: 100%
+ht-degree: 67%
 
 ---
 
@@ -19,7 +19,7 @@ L&#39;écran de création et de configuration des documents de paramétrage de l
 
 ![](assets/d_ncs_integration_navigation_arbo.png)
 
-La configuration de l’arborescence de navigation est répartie entre plusieurs documents XML. Le principe est semblable à celui de l’extension des schémas : tous les documents sont fusionnés pour générer un document unique contenant l’ensemble de la configuration. Celui-ci n’est pas modifiable et peut être visualisé à partir de l’onglet « Aperçu ».
+La configuration de l’arborescence de navigation est divisée en plusieurs documents XML. Le principe de fonctionnement est similaire à celui de l’extension de schéma : tous les documents sont fusionnés pour générer un document unique contenant l’ensemble de la configuration. Ce document n&#39;est pas éditable et s&#39;affiche à partir de l&#39;onglet « Aperçu ».
 
 La zone d&#39;édition renseigne le contenu du document XML :
 

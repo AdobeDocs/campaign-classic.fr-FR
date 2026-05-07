@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: e4a6cc22-05bd-4b8a-984d-d0706fc210e1
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '174'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 
 
-Des modèles d&#39;offre sont livrés d&#39;usine dans Adobe Campaign. Il vous est possible de les utiliser lors de la création de vos offres, de les dupliquer et d&#39;en adapter le paramétrage selon vos besoins. Vous pouvez également créer vos propres modèles. Les modèles d&#39;offre sont stockés dans le dossier **Ressources** > **Modèles** > **Modèles d&#39;offre**.
+Les modèles d’offre sont livrés d’usine dans Adobe Campaign. Vous pouvez les utiliser après avoir créé vos offres, les avoir dupliquées ou avoir adapté leur paramétrage à vos besoins. Vous pouvez également créer vos propres modèles. Les offres de modèles sont stockées dans le dossier **Ressources** > **Modèles** > **Modèles d’offre**.
 
 ## Créer un modèle d&#39;offre {#creating-an-offer-template}
 

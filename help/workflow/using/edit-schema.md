@@ -8,7 +8,7 @@ exl-id: d26966a8-b5db-4fa4-85ec-7ebd770c4ef3
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '118'
-ht-degree: 100%
+ht-degree: 59%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-Les données peuvent être transformées, normalisées et, au besoin, enrichies dans le workflow en utilisant l&#39;activité **[!UICONTROL Edition du schéma]**. Elle est généralement utilisée pour normaliser la structure des données : vous pouvez renommer les colonnes de sortie ou modifier leur contenu, par exemple en calculant la moyenne des valeurs d&#39;un champ ou un agrégat.
+Les données peuvent être transformées, normalisées et, au besoin, enrichies dans le workflow à l&#39;aide de l&#39;activité **[!UICONTROL Modifier le schéma]**. Elle est généralement utilisée pour normaliser la structure des données : vous pouvez renommer les colonnes de sortie ou modifier leur contenu, par exemple en calculant la moyenne des valeurs d&#39;un champ ou d&#39;un agrégat.
 
 Cette activité ne modifie en rien les données de la table de travail, mais uniquement le schéma de cette dernière, c&#39;est-à-dire la vision logique des données.
 

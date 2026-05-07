@@ -8,7 +8,7 @@ content-type: reference
 topic-tags: schema-reference
 exl-id: a0069688-fd05-42e9-91dd-adc10bea3461
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '45'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Cet élément permet de définir un filtre.
 
 Cet élément n&#39;a aucun attribut.
 
-## Exemples       {#examples-12}
+## Exemples {#examples-12}
 
 Définition d&#39;un filtre avec une condition sur l&#39;attribut @name :
 

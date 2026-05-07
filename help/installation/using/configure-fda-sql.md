@@ -5,9 +5,9 @@ description: Découvrez comment configurer l’accès à Microsoft SQL Server
 feature: Installation, Federated Data Access
 exl-id: 65ab4577-3126-4579-8fcc-e93772ebd1e8
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
-source-wordcount: '507'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '572'
+ht-degree: 97%
 
 ---
 
@@ -112,6 +112,6 @@ Le connecteur prend en charge les options suivantes :
 
 | Option | Description |
 |---|---|
-| Authentification | Type d’authentification pris en charge par le connecteur. Valeur actuelle prise en charge : ActiveDirectoryMSI. <br> Voir à ce sujet l’exemple 8 de la [documentation Microsoft](https://docs.microsoft.com/fr-fr/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings). |
+| Authentification | Type d’authentification pris en charge par le connecteur. Valeur actuelle prise en charge : ActiveDirectoryMSI. <br> Pour plus d’informations à ce sujet, consultez l’exemple 8 de la documentation de Microsoft [](https://docs.microsoft.com/fr-fr/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings). |
 | Chiffrer | Indique si les connexions utilisent le chiffrement TLS sur le réseau. Les valeurs possibles sont **oui/obligatoire (18.0 et versions ultérieures)**, **non/facultatif (18.0 et versions ultérieures)** et **strict (18.0 et versions ultérieures)**. La valeur par défaut est définie sur **oui** dans les versions 18.0 et ultérieures et **non** dans les versions précédentes. <br>Pour plus d’informations à ce propos, consultez la [documentation Microsoft](https://docs.microsoft.com/fr-fr/sql/connect/odbc/dsn-connection-string-attribute?view=azure-sqldw-latest#encrypt). |
 | TrustServerCertificate | Active le chiffrement à l’aide d’un certificat de serveur autosigné, lorsqu’il est utilisé avec **Chiffrer**. <br>Valeurs acceptées : **oui** ou **non** (valeur par défaut, ce qui signifie que le certificat du serveur sera validé). |

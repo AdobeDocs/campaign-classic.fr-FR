@@ -8,8 +8,8 @@ hide: true
 exl-id: 313eae5f-40db-4b1a-b013-f4adf8781763
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 100%
+source-wordcount: '109'
+ht-degree: 63%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 Si votre appareil mobile est connecté en Wi-Fi et que vous ne recevez pas les notifications, vérifiez que les ports FCM/APN ne sont pas bloqués par votre pare-feu.
 
-**Android** : l&#39;appareil mobile se connecte aux serveurs FCM sur les ports 5228 à 5230. Vous devez donc configurer votre pare-feu pour qu&#39;il autorise la connexion avec FCM. Les ports à ouvrir sont les suivants : 5228 (le plus fréquemment utilisé), 5229 et 5230.
+**** : l&#39;appareil mobile se connecte aux serveurs FCM sur les ports 5228 à 5230. Vous devez donc configurer votre pare-feu afin qu’il autorise la connexion à FCM. Les ports à ouvrir sont : 5228 (les plus utilisés), 5229 et 5230.
 
 **iOS** :
 

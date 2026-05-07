@@ -9,7 +9,7 @@ sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 4cae5fdb2b78f446f84352046b523d8862e9060c
 workflow-type: tm+mt
-source-wordcount: '2684'
+source-wordcount: '2710'
 ht-degree: 68%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 68%
    + Confidentialité {#privacy}
       + [Confidentialité et consentement](platform/using/privacy-and-recommendations.md)
       + [Gestion de la confidentialité](platform/using/privacy-management.md)
-      + Demandes d&#39;accès à des informations personnelles  {#privacy-requests}
+      + Demandes d&#39;accès à des informations personnelles {#privacy-requests}
          + [À propos des demandes d&#39;accès à des informations personnelles](platform/using/privacy-requests.md)
          + [Créer et gérer les demandes d’accès à des informations personnelles](platform/using/privacy-requests-ui.md)
          + [Processus automatique de demande d&#39;accès à des informations personnelles](platform/using/privacy-requests-api.md)
@@ -247,7 +247,7 @@ ht-degree: 68%
    + {hide-from-toc}[Cas d’utilisation - MASQUÉ](distributed/using/examples.md)
 + Gestion de la réaction {#response-manager}
    + [Prise en main de la gestion de la réaction](response/using/about-response-manager.md)
-   + [Configuration &#x200B;](response/using/configuration.md)
+   + [Configuration](response/using/configuration.md)
    + [Modèles d&#39;hypothèse](response/using/hypothesis-templates.md)
    + [Création d’hypothèses](response/using/creating-hypotheses.md)
    + [Suivi des hypothèses](response/using/hypothesis-tracking.md)
@@ -397,14 +397,14 @@ ht-degree: 68%
       + {hide-from-toc}[Mise à jour de liste - MASQUÉ](workflow/using/list-update.md)
       + {hide-from-toc}[Services d’abonnement - MASQUÉ](workflow/using/subscription-services.md)
       + {hide-from-toc}[Mise à jour des données - MASQUÉ](workflow/using/update-data.md)
-      + {hide-from-toc}[&#x200B; Connecteur CRM - MASQUÉ &#x200B;](workflow/using/crm-connector.md)
+      + {hide-from-toc}[ Connecteur CRM - MASQUÉ ](workflow/using/crm-connector.md)
       + {hide-from-toc}[Modifier la source de données - MASQUÉ](workflow/using/change-data-source.md)
    + Activités de contrôle de flux {#flow-control-activities}
       + {hide-from-toc}[À propos des activités d’ordonnancement - MASQUÉ](workflow/using/about-flow-control-activities.md)
       + {hide-from-toc}[Début et fin - MASQUÉ](workflow/using/start-and-end.md)
       + {hide-from-toc}[Branchement - MASQUÉ](workflow/using/fork.md)
       + {hide-from-toc}[Rendez-vous - MASQUÉ](workflow/using/and-join.md)
-      + {hide-from-toc}[&#x200B; Planificateur - MASQUÉ &#x200B;](workflow/using/scheduler.md)
+      + {hide-from-toc}[ Planificateur - MASQUÉ ](workflow/using/scheduler.md)
       + {hide-from-toc}[Test - MASQUÉ](workflow/using/test.md)
       + {hide-from-toc}[Attente - MASQUÉE](workflow/using/wait.md)
       + {hide-from-toc}[Contrainte horaire - MASQUÉ](workflow/using/time-constraint.md)
@@ -446,7 +446,7 @@ ht-degree: 68%
          + {hide-from-toc}[Charger le contenu de la diffusion - MASQUÉ](workflow/using/loading-delivery-content.md)
          + {hide-from-toc}[Workflow de diffusion cross-canal - MASQUÉ](workflow/using/cross-channel-delivery-workflow.md)
          + {hide-from-toc}[Enrichissement des emails avec des champs de date personnalisés - MASQUÉ](workflow/using/email-enrichment-with-custom-date-fields.md)
-   + Contrôle  {#monitoring}
+   + Contrôle {#monitoring}
       + {hide-from-toc}[Envoyer un rapport à une liste - MASQUÉ](workflow/using/sending-a-report-to-a-list.md)
       + {hide-from-toc}[Supervision de vos workflows - MASQUÉ](workflow/using/supervising-workflows.md)
       + {hide-from-toc}[Envoyer des alertes personnalisées aux opérateurs - MASQUÉ](workflow/using/sending-personalized-alerts-to-operators.md)
@@ -648,7 +648,7 @@ ht-degree: 68%
       + [Points d’entrée réseau Campaign](installation/using/campaign-network-endpoints.md)
       + [Lignes de commande](installation/using/command-lines.md)
       + [Création d’instances](installation/using/creating-new-instances.md)
-      + [Liste des options de Campaign &#x200B;](installation/using/configuring-campaign-options.md)
+      + [Liste des options de Campaign](installation/using/configuring-campaign-options.md)
       + {hide-from-toc}[Désinstaller Campaign](installation/using/uninstalling-campaign.md)
       + [Installation de nouvelles polices](installation/using/install-fonts.md)
 + Guide de surveillance {#monitoring-campaign-classic}
@@ -659,8 +659,8 @@ ht-degree: 68%
    + Procédures d’exploitation {#production-procedures}
       + [Principe de configuration](production/using/configuration-principle.md)
       + [Principe de fonctionnement](production/using/operating-principle.md)
-      + [Administration &#x200B;](production/using/administration.md)
-      + [Configuration &#x200B;](production/using/configuration.md)
+      + [Administration](production/using/administration.md)
+      + [Configuration](production/using/configuration.md)
       + [Fichiers de log](production/using/log-files.md)
       + [Surveillance des processus](production/using/monitoring-processes.md)
       + [Commandes usuelles](production/using/usual-commands.md)
@@ -675,7 +675,7 @@ ht-degree: 68%
       + [Exécution d’une mise à niveau de build](production/using/build-upgrade.md)
       + [Procédure de mise à niveau (On-Premise)](production/using/upgrading.md)
       + [Basculement vers Unicode](production/using/switching-to-unicode.md)
-      + {hide-from-toc}[&#x200B; Procédures de migration &#x200B;](production/using/migration-procedures.md)
+      + {hide-from-toc}[ Procédures de migration ](production/using/migration-procedures.md)
    + Maintenance de la base de données {#database-maintenance}
       + [Recommandations](production/using/recommendations.md)
       + [Tables à maintenir](production/using/tables-to-maintain.md)
@@ -789,12 +789,12 @@ ht-degree: 68%
    + {hide-from-toc}[Migration vers Adobe Campaign v7](migration/using/about-migration.md)
    + Procédure de migration {#migration-procedure}
       + {hide-from-toc}[Prérequis](migration/using/before-starting-migration.md)
-      + {hide-from-toc}[À propos des tests de migration &#x200B;](migration/using/testing-the-migration.md)
+      + {hide-from-toc}[À propos des tests de migration ](migration/using/testing-the-migration.md)
       + {hide-from-toc}[Adapter votre configuration](migration/using/configuring-your-platform.md)
    + Démarrer la migration {#migrating-to-adobe-campaign-7}
       + {hide-from-toc}[Migration d’une plateforme Microsoft Windows](migration/using/migrating-in-windows-for-adobe-campaign-7.md)
       + {hide-from-toc}[Migration d’une plateforme Linux](migration/using/migrating-in-linux-for-adobe-campaign-v7.md)
-   + {hide-from-toc}[Procédure de restauration &#x200B;](migration/using/about-rollback.md)
+   + {hide-from-toc}[Procédure de restauration ](migration/using/about-rollback.md)
 + Notes techniques {#technotes}
    + [Recommandations relatives au dimensionnement du matériel](technotes/using/hardware-sizing.md)
    + [Envoyer avec le MTA amélioré](delivery/using/sending-with-enhanced-mta.md)
@@ -805,11 +805,11 @@ ht-degree: 68%
       + [Migrer un opérateur ou une opératrice technique vers Developer Console](technotes/using/ims-migration.md)
       + [Impact de l’interface après la migration IMS](technotes/using/impact-ims-migration.md)
    + Mises à niveau et compatibilité{#technote-migration}
-      + {hide-from-toc}[&#x200B; Notes techniques &#x200B;](technotes/using/technote.md)
+      + {hide-from-toc}[ Notes techniques ](technotes/using/technote.md)
       + [Activer Microsoft Edge Chromium](technotes/using/edge-chromium.md)
       + {hide-from-toc}[Nouveau serveur de délivrabilité](technotes/using/deliverability-server.md)
       + {hide-from-toc}[Mise à niveau de la sécurité Apache](technotes/using/acc-apache-upgrade.md)
-      + {hide-from-toc}[Mises à niveau du système 2023](technotes/using/tech-stack-upgrade.md)
+      + Mises à niveau du système {hide-from-toc}[2023](technotes/using/tech-stack-upgrade.md)
       + {hide-from-toc}[Mises à jour IMS](technotes/using/ims-updates.md)
       + {hide-from-toc}[Fin de vie de la prise en charge du protocole TLS 1.0 et 1.1](technotes/using/eol-tls-support.md)
    + Emails et notifications push{#technotes-email}
@@ -822,4 +822,4 @@ ht-degree: 68%
       + [Migration vers le cloud public](technotes/using/dc-migration.md)
       + [FAQ](technotes/using/dc-migration-faq.md)
    + [Fonctions basées sur GCM](technotes/using/gcm-functions.md)
-+ [Panneau de contrôle Campaign](https://experienceleague.adobe.com/fr/docs/control-panel/using/control-panel-home.html?lang=fr)
++ [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)

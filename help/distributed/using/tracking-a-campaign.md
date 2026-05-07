@@ -7,8 +7,8 @@ hide: true
 exl-id: 87d1909c-d2eb-47ce-a860-0e78a64d2914
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 100%
+source-wordcount: '441'
+ht-degree: 69%
 
 ---
 
@@ -27,7 +27,7 @@ Ils peuvent ainsi :
 
 ## Filtrer les kits {#filter-packages}
 
-Dans l’onglet **[!UICONTROL Campagnes]**, vous pouvez afficher la liste des **[!UICONTROL Kits de campagne]** qui regroupe toutes les campagnes de marketing distribué existantes. Vous pouvez filtrer cette liste pour faire en sorte qu’elle n’affiche que les campagnes publiées, en retard, en attente de validation, etc. Pour ce faire, cliquez sur les liens dans la section supérieure de cette vue ou utilisez le lien **[!UICONTROL Filtrer la liste]** et sélectionnez l’état du kit de campagne à afficher.
+Dans l’onglet **[!UICONTROL Campagnes]**, vous pouvez afficher la liste des **[!UICONTROL Kits de campagne]** qui regroupe toutes les campagnes de marketing distribué existantes. Vous pouvez filtrer cette liste afin qu’elle n’affiche que les campagnes publiées, en retard, en attente de validation, etc. Pour cela, cliquez sur les liens dans la section supérieure de cette vue ou utilisez le lien **[!UICONTROL Liste de filtres]** et sélectionnez le statut du kit d&#39;opération à afficher.
 
 ![](assets/mkg_dist_catalog_filter.png)
 
@@ -37,13 +37,13 @@ La page des **[!UICONTROL kits de campagne]** permet de visualiser le résumé d
 
 Ce résumé affiche les informations suivantes : le libellé, le type d&#39;opération, le nom de l&#39;opération à partir de laquelle le kit a été créé et le dossier d&#39;enregistrement.
 
-Cliquez sur le nom du kit pour l&#39;éditer. Vous pourrez alors visualiser les commandes réalisées par les entités locales et leur état.
+Cliquez sur le nom du package pour le modifier. Vous pouvez également visualiser les commandes par entité locale et par statut.
 
 Cette information est proposée aussi dans la vue **[!UICONTROL Commandes d&#39;opérations]** qui liste unitairement toutes les commandes réalisées.
 
 ![](assets/mkg_dist_catalog_op_command_details.png)
 
-L&#39;opérateur central peut éditer la commande. Pour cela, il dispose de deux modes :
+L&#39;opérateur central peut modifier la commande. Vous avez le choix entre les deux méthodes suivantes :
 
 1. L’opérateur ou l’opératrice peut cliquer sur le nom de la commande pour l’éditer : il ou elle accède alors aux détails de celle-ci.
 
@@ -69,7 +69,7 @@ Vous avez la possibilité de motiver cette annulation dans le champ **[!UICONTRO
 
 Pour les **opérations locales**, l&#39;annulation d&#39;un kit le supprime de la liste des opérations marketing disponibles.
 
-Pour les **campagnes collaboratives**, l’annulation d’un kit d’opération provoque de nombreuses actions : 
+Pour les **campagnes collaboratives**, l’annulation d’un kit d’opération provoque de nombreuses actions :
 
 1. L&#39;annulation de toutes les commandes relatives à ce kit,
 
@@ -83,7 +83,7 @@ Pour les **campagnes collaboratives**, l’annulation d’un kit d’opération 
 
    ![](assets/mkg_dist_mutual_op_cancelled2.png)
 
-Une fois annulée, l&#39;entité centrale peut toujours accéder au kit et éventuellement le réinitialiser, au besoin. Il ne sera à nouveau proposée aux entités locales que lorsqu&#39;il sera validé et démarré. Le processus de réinitialisation d&#39;un kit d&#39;opération est présenté ci-après.
+Les packages annulés restent accessibles et réinitialisables par l&#39;entité centrale (voir ci-dessous) si nécessaire. Ils ne seront proposés aux entités locales qu&#39;une fois approuvés et démarrés. Le processus de réinitialisation du package est illustré ci-dessous.
 
 ## Réinitialisation dʼun package {#reinitializing-a-package}
 
@@ -98,7 +98,7 @@ Vous pouvez réinitialiser un kit de campagne déjà publié afin de le modifier
 
    ![](assets/mkg_dist_mutual_op_reinit2.png)
 
-1. Le kit prend le statut **[!UICONTROL En édition]**. Il peut alors être modifié puis validé et publié pour être à nouveau proposé dans la liste des kits de campagne.
+1. Le statut du package passe à **[!UICONTROL En édition]**. Modifiez, approuvez et publiez-le à nouveau pour le restaurer dans la liste du package de campagne.
 
 >[!NOTE]
 >

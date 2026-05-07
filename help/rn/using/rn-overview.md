@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 7a05fdff-8f9d-4e8d-812e-0f1509db5499
 source-git-commit: d56038fc8baf766667d89bb73747c20ec041124c
-workflow-type: ht
-source-wordcount: '894'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '922'
+ht-degree: 99%
 
 ---
 
@@ -64,7 +64,7 @@ Pour garder votre implémentation à jour, veillez à lire les pages [Fonctionna
 
 En tant que cliente et client hébergés, Managed Services ou hybride, contactez l’assistance clientèle Adobe pour que votre environnement soit mis à niveau.
 
-En tant qu’utilisateur et utilisatrice On-Premise, vous pouvez effectuer la mise à niveau. Pour cela, vous devez [télécharger la dernière build stable (GA)](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) et mettre à niveau tous vos environnements.
+En tant qu’utilisateur et utilisatrice On-Premise, vous pouvez effectuer la mise à niveau. Pour cela, vous devez [télécharger la dernière build stable (GA)](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html) et mettre à niveau tous vos environnements.
 
 Pour en savoir plus sur le [processus de mise à niveau](../../production/using/build-upgrade.md), consultez la [FAQ sur la mise à niveau des builds](../../platform/using/faq-build-upgrade.md).
 
@@ -135,8 +135,8 @@ Une équipe constituée de représentants et représentantes de l’assistance c
 <td>
       <img alt="Mise à niveau de build" src="assets/do-not-localize/upgrades.png" />
     <div>
-    <strong>Mises à niveau plus faciles</strong>
-    </a>
+    <strong>Mises à niveau simplifiées</strong>
+    </a>
     </div>
     <ul>
     <li>Les efforts que demande une mise à niveau de votre instance Campaign Classic et la complexité de celle-ci augmentent avec l’écart entre deux versions.</li>
@@ -151,7 +151,7 @@ Une équipe constituée de représentants et représentantes de l’assistance c
 
 * [Trouver votre version de Campaign](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)
 * [Aide et support](../../support.md)
-* [Versions du Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr)
+* [Versions du Panneau de Contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr)
 * [Fonctionnalités obsolètes et supprimées](../../rn/using/deprecated-features.md)
 * [FAQ sur la mise à niveau de build](../../platform/using/faq-build-upgrade.md)
 

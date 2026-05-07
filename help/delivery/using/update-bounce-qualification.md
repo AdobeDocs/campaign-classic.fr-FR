@@ -6,8 +6,8 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Deliverability
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
-workflow-type: ht
-source-wordcount: '461'
+workflow-type: tm+mt
+source-wordcount: '468'
 ht-degree: 100%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 100%
 
 Le 26 avril 2021, suite à un problème mondial chez Apple, l’envoi de certains e-mails à des adresses e-mail Apple valides a entraîné des rebonds définitifs incorrects. Ces adresses e-mail ont été considérées comme non valides par les serveurs Apple, avec la réponse de rebond suivante : « 550 5.1.1 &quot;adresse e-mail&quot;: user lookup success but no user record found » (l’utilisateur a été trouvé, mais aucun enregistrement d’utilisateur trouvé).
 
-Ce problème s&#39;est produit le 26 avril et a duré de 7 h à 13 h EST. 
+Ce problème s&#39;est produit le 26 avril et a duré de 7 h à 13 h EST.
 
 >[!NOTE]
 >
->Vous pouvez vérifier le tableau de bord d&#39;état du système Apple sur [cette page](https://www.apple.com/fr/support/systemstatus/).
+>Vous pouvez vérifier le tableau de bord d’état du système Apple sur [cette page](https://www.apple.com/fr/support/systemstatus/).
 
 En cas de panne d&#39;un fournisseur d&#39;accès à Internet, les emails envoyés par la biais de Campaign ne peuvent pas être correctement envoyés à leur destinataire : ils seront incorrectement marqués comme mails rebonds.
 

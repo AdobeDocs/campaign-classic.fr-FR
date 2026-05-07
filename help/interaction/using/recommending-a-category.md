@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: cb062cb2-dfea-46aa-8d9e-580e4dc7bb25
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '170'
-ht-degree: 100%
+ht-degree: 59%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 
 
-Il peut arriver qu&#39;un destinataire soit considéré comme non éligible à toutes les offres. Afin de s&#39;assurer que tous les destinataires reçoivent une proposition d&#39;offre, il est possible d&#39;ajouter systématiquement une ou plusieurs catégories d&#39;offres dans les recommandations. Contrairement aux offres principales, ces offres de &quot;secours&quot; doivent avoir un poids faible (mais non nul), pour n&#39;être prises en compte qu&#39;en cas de non éligibilité aux offres de poids fort. De plus, aucune règle de présentation ne doit s&#39;appliquer à ces offres afin qu&#39;elles soient toujours incluses dans les recommandations. Lors d&#39;une proposition, si aucune offre de poids fort n&#39;est éligible, le destinataire se verra proposer au moins une offre issue de cette catégorie.
+Il se peut qu’un destinataire ne soit pas considéré comme éligible à toutes les offres. Afin de s&#39;assurer que tous les destinataires reçoivent une proposition d&#39;offre, il est possible d&#39;ajouter systématiquement une ou plusieurs catégories d&#39;offres dans les recommandations. Contrairement aux offres principales, ces offres « secondaires » doivent avoir un poids faible (mais pas nul), de sorte qu’elles ne sont prises en compte que si aucune offre de poids élevé n’est éligible. En outre, aucune règle de présentation ne doit être appliquée à ces offres pour assurer qu&#39;elles sont toujours incluses dans les recommandations. Cela signifie que, lors d&#39;une proposition, si aucune offre de poids élevé n&#39;est disponible, le destinataire recevra au moins une offre de cette catégorie.
 
 Pour toujours inclure une catégorie dans les recommandations, suivez les étapes ci-dessous :
 

@@ -10,8 +10,8 @@ exl-id: 0ba8a3d0-36d7-42f3-b281-0255e49b5fa3
 hide: true
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 100%
+source-wordcount: '545'
+ht-degree: 65%
 
 ---
 
@@ -38,15 +38,15 @@ Vous pouvez personnaliser l’arborescence de navigation de l’Explorateur. Dé
 
 ### Qu’est-ce qu’une vue ? {#about-views}
 
-En outre, vous pouvez créer des vues afin de restreindre l&#39;accès aux données et d&#39;organiser le contenu de l&#39;arborescence pour l&#39;adapter à vos besoins. Vous pourrez ensuite attribuer des droits sur les vues.
+En outre, vous pouvez créer des vues afin de restreindre l’accès aux données et organiser le contenu de l’arborescence en fonction de vos besoins. Vous pouvez ensuite attribuer des droits aux vues.
 
-Une vue est un dossier affichant des enregistrements stockés physiquement dans un ou plusieurs autres dossiers du même type. Par exemple, si vous créez un dossier Campagne qui est une vue, il affichera par défaut toutes les campagnes présentes dans la base, quelle que soit leur origine. Ces données peuvent ensuite être filtrées.
+Une vue est un dossier qui affiche les enregistrements physiquement stockés dans un ou plusieurs autres dossiers du même type. Par exemple, si vous créez un dossier Campagne qui est une vue, elle affiche toutes les campagnes présentes dans la base de données par défaut, quelle que soit leur origine. Ces données peuvent ensuite être filtrées.
 
-Lorsque vous transformez un dossier en vue, l&#39;ensemble des données correspondant au type de dossier présentes dans la base sont affichées dans la vue, quel que soit leur dossier d&#39;enregistrement. Vous pouvez ensuite les filtrer pour restreindre la liste des données affichées.
+Lorsque vous convertissez un dossier en vue, toutes les données correspondant au type de dossier présent dans la base de données s&#39;affichent dans la vue, quel que soit le dossier dans lequel elles sont enregistrées. Vous pouvez ensuite le filtrer pour restreindre la liste des données affichées.
 
 >[!IMPORTANT]
 >
->Les vues regroupent des données et permettent d&#39;y accéder. Toutefois, elles ne sont pas physiquement stockées dans le dossier de la vue. L&#39;opérateur doit avoir les droits correspondants à l&#39;action visée dans le ou les dossiers d&#39;origine des données (lecture au minimum).
+>Les vues contiennent des données et permettent d’y accéder, mais les données ne sont pas physiquement stockées dans le dossier de vue. L’opérateur doit disposer des droits adéquats pour l’action souhaitée dans les dossiers des sources de données (accès en lecture au moins).
 >
 >Pour donner accès à une vue sans donner accès à son dossier d&#39;origine, il suffit de ne pas donner de droit en lecture sur le noeud parent du dossier source.
 
@@ -68,7 +68,7 @@ Dans l&#39;exemple ci-dessous, nous allons créer des dossiers afin d&#39;affich
 
    ![Copie d’écran montrant un clic droit sur les propriétés](assets/s_ncs_user_add_folder_exple.png)
 
-1. Depuis l’onglet **[!UICONTROL Restriction]**, sélectionnez l’option **[!UICONTROL Ce dossier est une vue]** : toutes les diffusions de la base de données y seront alors affichées.
+1. Dans l&#39;onglet **[!UICONTROL Restriction]**, sélectionnez **[!UICONTROL Ce dossier est une vue]**. Toutes les diffusions de la base s’affichent alors.
 
    ![Copie d’écran affichant la case d’affichage cochée](assets/s_ncs_user_add_folder_exple01.png)
 

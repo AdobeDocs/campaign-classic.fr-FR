@@ -8,8 +8,8 @@ hide: true
 exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 100%
+source-wordcount: '1100'
+ht-degree: 92%
 
 ---
 
@@ -61,7 +61,7 @@ Pour créer une notification push pour les appareils iOS, procédez comme suit 
 
    ![](assets/nmac_delivery_ios_5.png)
 
-1. Cliquez sur l’icône **[!UICONTROL Insérer une émoticône]** pour insérer des émoticônes dans votre notification push. Pour personnaliser la liste des émoticônes, consultez [cette section](customizing-emoticon-list.md).
+1. Cliquez sur l&#39;icône **[!UICONTROL Insérer une émoticône]** pour insérer des émoticônes dans votre notification push. Pour personnaliser la liste des émoticônes, consultez [cette section](customizing-emoticon-list.md).
 
 1. Dans l’onglet **[!UICONTROL Son et pastille]** vous pouvez modifier les options suivantes :
 
@@ -121,7 +121,7 @@ Pour créer une notification push pour les appareils iOS, procédez comme suit 
 
    >[!NOTE]
    >
-   >Le style de la notification (bannière ou alerte) n&#39;est pas défini dans Adobe Campaign. Il dépend de la configuration choisie par l&#39;utilisateur dans les réglages iOS. Adobe Campaign vous permet cependant d&#39;afficher un aperçu de la notification pour chaque style. Cliquez sur la flèche, en bas à droite, pour basculer d&#39;un style à l&#39;autre.
+   >Le style de notification (bannière ou alerte) n’est pas défini dans Adobe Campaign. Cela dépend de la configuration sélectionnée par l’utilisateur dans ses paramètres iOS. Cependant, Adobe Campaign vous permet de prévisualiser chaque type de style de notification. Cliquez sur la flèche en bas à droite pour passer d’un style à un autre.
    >
    >L&#39;aperçu utilise l&#39;apparence d&#39;iOS 10.
 
@@ -135,7 +135,7 @@ Après l&#39;envoi des messages, vous pouvez surveiller et suivre vos diffusions
 
 ## Créer une notification iOS enrichie {#creating-ios-delivery}
 
-Avec iOS 10 ou version ultérieure, il est possible de générer des notifications enrichies. Adobe Campaign peut envoyer des notifications à l&#39;aide de variables qui permettront à l&#39;appareil d&#39;afficher des notifications enrichies.
+Avec iOS 10 ou version ultérieure, il est possible de générer des notifications enrichies. Adobe Campaign peut envoyer des notifications à l’aide de variables qui permettent à l’appareil d’afficher une notification enrichie.
 
 Vous devez maintenant créer une nouvelle diffusion et l’associer à l’application mobile que vous avez créée.
 

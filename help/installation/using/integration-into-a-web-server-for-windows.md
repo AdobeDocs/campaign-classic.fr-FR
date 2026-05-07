@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 041c4431-baae-4e64-9e9a-0daa5123bd8a
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '763'
+ht-degree: 97%
 
 ---
 
@@ -42,7 +42,7 @@ La procédure de configuration d’un serveur web IIS Microsoft est essentiellem
 Pour intégrer Adobe Campaign au serveur web Microsoft IIS, procédez comme suit :
 
 1. Ouvrez Microsoft IIS.
-1. Créez et paramétrez le site (Adobe Campaign, par exemple) en fonction des contraintes de votre réseau (port TCP de connexion, host DNS, adresse IP).
+1. Créez et paramétrez le site (Adobe Campaign, par exemple) en fonction des contraintes de votre réseau (port TCP de connexion, hôte DNS, adresse IP).
 
    Vous devez au moins spécifier le nom du site et le chemin d&#39;accès au répertoire virtuel. Le chemin d’accès au répertoire du site web n’étant pas utilisé, vous pouvez utiliser le répertoire suivant.
 
@@ -119,7 +119,7 @@ Vous pouvez également vous assurer que la DLL ISAPI est bien chargée.
 
 Pour cela, les étapes sont les suivantes :
 
-1. Editez les filtres ISAPI pour le site Adobe Campaign en cliquant sur l&#39;icône **[!UICONTROL Mappages de gestionnaires]**.
+1. Modifiez les filtres ISAPI pour le site Adobe Campaign en cliquant sur l’icône **[!UICONTROL Mapping de gestionnaires]**.
 1. Vérifiez ensuite le contenu du filtre ISAPI.
 
 
@@ -133,5 +133,5 @@ Par exemple, si vous utilisez une activité de type **Chargement (fichier)** dan
 
 Vous devez, dans ce cas, augmenter cette limite.
 
-Pour plus d’informations sur cette option de Microsoft IIS, consultez la section « Procédure » de la [documentation Microsoft](https://learn.microsoft.com/fr-fr/iis/configuration/system.webServer/security/requestFiltering/requestLimits/){target="_blank"}.
+Pour plus d&#39;informations sur cette option Microsoft IIS, consultez la section « Comment faire » de la documentation de [Microsoft](https://learn.microsoft.com/fr-fr/iis/configuration/system.webServer/security/requestFiltering/requestLimits/){target="_blank"}.
 

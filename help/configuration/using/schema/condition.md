@@ -5,7 +5,7 @@ description: élément condition
 feature: Schema Extension
 exl-id: 71e98d45-3660-4d86-a5ca-8e55ae5896eb
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '95'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Plusieurs conditions de filtrage peuvent être définies dans un même élément
 * **enabledIf (string)**: test d&#39;activation de la condition.
 * **expr (string)**: une expression XTK.
 
-## Exemples       {#examples-2}
+## Exemples {#examples-2}
 
 ```
 <sysfilter>

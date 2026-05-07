@@ -9,8 +9,8 @@ topic-tags: appendices
 exl-id: 5cd4abb0-2bd2-4b23-902c-41b08a1d2f7a
 source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 100%
+source-wordcount: '144'
+ht-degree: 67%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 
 
-Les lignes de commande suivantes requièrent la possibilité d&#39;accéder au serveur applicatif. Pour les déploiements hébergés par Adobe, ces commandes ne peuvent être exécutées que par Adobe.
+Les lignes de commande suivantes requièrent la possibilité d’accéder au serveur d’applications. Pour les déploiements hébergés par Adobe, ces commandes ne peuvent être exécutées que par Adobe.
 
 ## Création d’une instance {#creating-an-instance}
 
@@ -30,7 +30,7 @@ nlserver config -addinstance:instance/masques DNS[/lang]
 
 (où **eng** et **fra** correspondent aux valeurs possibles du paramètre `[lang]`)
 
-La commande **nlserver config -addinstance:instance1/demo&#42;/eng** vous permet de créer une instance appelée **instance1** en anglais avec la démo du masque DNS&#42;.
+La commande **nlserver config -addinstance:instance1/demo&#42;/eng** permet de créer une instance appelée **instance1** en anglais avec la démo du masque DNS&#42;.
 
 ## Déclaration d’une base de données {#declaring-a-database}
 

@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: audience-sharing
 exl-id: 1c90e913-3375-476c-ab60-89f20239eb0d
 source-git-commit: b11185da8236d6100d98eabcc9dc1cf2cffa70af
-workflow-type: ht
-source-wordcount: '245'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 87%
 
 ---
 
@@ -28,9 +28,9 @@ Avec Adobe Campaign, vous pouvez partager des audiences et des segments avec le
 
 1. Intégrez **Adobe Campaign** aux **Audiences Experience Cloud** ou **Adobe Audience Manager**. Vous pourrez alors :
 
-   * importer dans Adobe Campaign des audiences/segments provenant de différentes solutions d’Adobe Experience Cloud. L’import d’audiences peut être réalisé depuis les listes dans Adobe Campaign ;
+   * Importez les audiences/segments partagés de différentes solutions Adobe Experience Cloud dans Adobe Campaign. L&#39;import d&#39;audiences peut être réalisé depuis les listes dans Adobe Campaign.
 
-   * exporter des listes sous la forme d’audiences partagées Adobe Experience Cloud. Ces audiences peuvent être exploitées dans les différentes solutions d’Adobe Experience Cloud que vous utilisez. L’export d’audiences peut être réalisé à la suite d’un ciblage dans un workflow, à l’aide d’une activité dédiée **[!UICONTROL Mise à jour d’audience partagée]**.
+   * exporter des listes sous la forme d’audiences partagées Adobe Experience Cloud ; Ces audiences peuvent être exploitées dans les différentes solutions d’Adobe Experience Cloud que vous utilisez. L’export d’audiences peut être réalisé à la suite d’un ciblage dans un workflow, à l’aide d’une activité dédiée **[!UICONTROL Mise à jour d’audience partagée]**.
 
 L’intégration prend en charge deux types d’identifiants Adobe Experience Cloud :
 

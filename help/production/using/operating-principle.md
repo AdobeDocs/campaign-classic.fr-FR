@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: production-procedures
 exl-id: 1c032ef9-af11-4947-90c6-76cb9434ae85
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: ht
-source-wordcount: '506'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '530'
+ht-degree: 81%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 La plateforme Adobe Campaign repose techniquement sur plusieurs modules.
 
-Il existe de nombreux modules Adobe Campaign. Certains fonctionnent en continu, d&#39;autres sont démarrés ponctuellement pour effectuer des actions d&#39;administration (par exemple : configurer la connexion à la base de données) ou lancer une tâche récurrente (par exemple : consolider les informations de tracking).
+Il existe de nombreux modules Adobe Campaign. Certains fonctionnent en continu, tandis que d&#39;autres sont démarrés occasionnellement pour effectuer des tâches administratives (par exemple configurer la connexion à la base de données) ou exécuter une tâche récurrente (par exemple consolider les informations de tracking).
 
 On distingue trois types de modules Adobe Campaign :
 
@@ -77,7 +77,7 @@ Les modules disponibles sont décrits dans le tableau suivant :
 
 >[!IMPORTANT]
 >
->Il existe un dernier module : le module de tracking et de relais vers le serveur applicatif qui, pour des raisons de performances, s&#39;intègre sous la forme d&#39;une librairie dynamique via des mécanismes natifs à un serveur Web IIS ou Apache. Il n&#39;existe pas de commande Adobe Campaign permettant de démarrer ou d&#39;administrer ce module, vous devez donc utiliser les commandes d&#39;administration du serveur Web.
+>Il existe un dernier module : le module de tracking et de relais vers le serveur applicatif qui, pour des raisons de performances, est intégré par des mécanismes natifs à un serveur web Apache ou IIS via une bibliothèque dynamique. Il n’existe aucune commande Adobe Campaign permettant de démarrer ou d’administrer ce module. Vous devez donc utiliser les commandes du serveur Web lui-même.
 
 L&#39;usage d&#39;un module et la syntaxe de ses paramètres sont affichés à partir de la commande : **nlserver.`[module]`-?**
 

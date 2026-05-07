@@ -8,8 +8,8 @@ hide: true
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 100%
+source-wordcount: '473'
+ht-degree: 75%
 
 ---
 
@@ -45,7 +45,7 @@ Pour définir le contenu du SMS, procédez comme suit :
 
    ![](assets/s_ncs_user_wizard_sms01_139.png)
 
-   Vous pouvez valider le message SMS. Vous pouvez également visualiser le contenu du SMS sur l&#39;écran du téléphone mobile affiché à la droite de l&#39;éditeur de contenu. Cliquez sur l&#39;écran pour faire défiler le contenu avec la souris.
+   Vous pouvez approuver le SMS. Vous pouvez également afficher le contenu du SMS sur l’écran du téléphone mobile affiché à droite de l’éditeur de contenu. Cliquez sur l’écran et utilisez la souris pour faire défiler le contenu.
 
    ![](assets/s_ncs_user_wizard_sms01_140.png)
 
@@ -55,9 +55,9 @@ Pour définir le contenu du SMS, procédez comme suit :
 
    >[!NOTE]
    >
-   >La longueur des messages SMS est limitée à 160 caractères si la page de code Latin-1 (ISO-8859-1) est utilisée. Si le message est rédigé en unicode, il ne peut dépasser 70 caractères. Certains caractères spéciaux peuvent avoir une influence sur la longueur du message. Pour plus d’informations sur la longueur des messages, voir la section [Translittération des caractères SMS](#about-character-transliteration).
+   >Les SMS sont limités à une longueur de 160 caractères si la page de code Latin-1 (ISO-8859-1) est utilisée. Si le message est écrit en Unicode, il ne doit pas dépasser 70 caractères. Certains caractères spéciaux peuvent affecter la longueur du message. Pour plus d’informations sur la longueur des messages, voir la section [Translittération des caractères SMS](#about-character-transliteration).
    >
-   >Lors de la présence de champs de personnalisation ou de contenu conditionnel, la taille du message varie d&#39;un destinataire à l&#39;autre. La longueur du message doit être évaluée une fois la personnalisation effectuée.
+   >En présence de champs de personnalisation ou de contenu conditionnel, la taille du message varie d&#39;un destinataire à l&#39;autre. La longueur du message doit être évaluée une fois la personnalisation effectuée.
    >
    >Lorsque vous lancez l&#39;analyse, la longueur des messages est contrôlée et un message d&#39;avertissement est affiché en cas de dépassement.
 

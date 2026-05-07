@@ -8,7 +8,7 @@ hide: true
 exl-id: 7a9afe0a-0219-40f1-9fe2-6374db8d555c
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '512'
 ht-degree: 100%
 
 ---
@@ -67,7 +67,7 @@ En fonction du calendrier de l’incident et du FAI, voici les instructions reco
    * **Statut de la mise à jour (@lastModified)** le ou avant le `MM/DD/YYYY HH:MM:SS PM`
 
 
-Une fois que vous disposez de la liste des destinataires concernés, vous pouvez soit leur attribuer l’état **[!UICONTROL Valide]** afin qu’ils soient supprimés de la liste de quarantaine par le processus de **[!UICONTROL nettoyage de la base de données]**, soit simplement les supprimer de la table.
+Une fois que vous disposez de la liste des destinataires concernés, vous pouvez soit leur attribuer l&#39;état **[!UICONTROL Valide]** afin qu&#39;ils soient supprimés de la liste de quarantaine par le processus de **[!UICONTROL nettoyage de la base de données]**, soit simplement les supprimer de la table.
 
 **Rubriques connexes :**
 * [Présentation des diffusions en échec](delivery-failures-quarantine.md)

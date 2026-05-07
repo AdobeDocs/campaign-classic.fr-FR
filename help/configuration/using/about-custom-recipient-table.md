@@ -7,9 +7,9 @@ role: User, Developer
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
-source-wordcount: '688'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '704'
+ht-degree: 87%
 
 ---
 
@@ -19,9 +19,9 @@ Cette section présente les principes d’utilisation d’une table de destinata
 
 Par défaut, Adobe Campaign propose une table des destinataires intégrée à laquelle sont liés les fonctions et processus prêts à l’emploi. La table des destinataires intégrée comporte un certain nombre de champs prédéfinis et de tables faciles à étendre à l’aide d’une table d’extension.
 
-Si cette méthode d’extension offre une bonne flexibilité pour étendre une table, elle ne permet pas de réduire le nombre de champs ou de liens dans celle-ci. L’utilisation d’une table non standard, dite « table de destinataires externe », permet une plus grande flexibilité, mais nécessite certaines précautions lors de son implémentation.
+Si cette méthode d’extension offre une bonne flexibilité pour étendre une table, elle ne permet pas de réduire le nombre de champs ou de liens qu’elle contient. L’utilisation d’une table non standard, ou « table de destinataires externe », permet une plus grande flexibilité, mais nécessite certaines précautions lors de son implémentation.
 
-Cette fonctionnalité permet notamment à Adobe Campaign d&#39;exploiter des données provenant d&#39;une base de données externe : ces données seront utilisées comme ensemble de profils pour les diffusions. La mise en oeuvre de ce mode de fonctionnement implique plusieurs spécificités qui peuvent s&#39;avérer pertinentes selon les besoins du client. Ainsi :
+Cette fonctionnalité permet à Adobe Campaign de traiter les données d&#39;une base externe. Ces données sont ensuite utilisées comme un ensemble de profils pour les diffusions. La mise en œuvre de ce processus implique plusieurs précisions qui peuvent être pertinentes selon les besoins du client. Par exemple :
 
 * Pas de flux de mise à jour vers et depuis la base Adobe Campaign : les données de cette table peuvent être mises à jour directement via le moteur de base de données qui l’héberge.
 * Pas de changements dans les processus qui opèrent sur la base existante.

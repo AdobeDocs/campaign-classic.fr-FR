@@ -9,8 +9,8 @@ topic-tags: additional-configurations
 exl-id: 424faf25-2fd5-40d1-a2fc-c715fc0b8190
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 100%
+source-wordcount: '1270'
+ht-degree: 82%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 100%
 
 Vous pouvez paramétrer Adobe Campaign pour conserver une copie des emails envoyés depuis votre plateforme.
 
-Toutefois, Adobe Campaign ne gère pas lui-même les fichiers archivés : il vous permet d&#39;envoyer les messages de votre choix à une adresse dédiée, depuis laquelle ils peuvent être traités et archivés dans un système externe.
+Cependant, Adobe Campaign ne gère pas les fichiers archivés. Il vous permet d’envoyer les messages de votre choix à une adresse dédiée, à partir de laquelle ils peuvent être traités et archivés au moyen d’un système externe.
 
-Pour ce faire, les fichiers .eml correspondant aux emails envoyés sont transférés vers un serveur distant, comme un serveur de messagerie SMTP. La destination de l&#39;archivage est une adresse email en Cci (invisible aux destinataires de la diffusion) que vous devez spécifier.
+Pour ce faire, les fichiers .eml correspondant aux e-mails envoyés sont transférés vers un serveur distant, tel qu’un serveur de messagerie SMTP. La destination d’archivage est une adresse e-mail en Cci (invisible pour les destinataires de la diffusion) que vous devez spécifier.
 
-## Recommandations et limitations    {#recommendations-and-limitations}
+## Recommandations et limitations {#recommendations-and-limitations}
 
 * La fonctionnalité E-mail Cci est facultative. Veuillez vérifier votre accord de licence.
 * Pour les **architectures hybrides et hébergées**, contactez votre chargé de compte Adobe afin de l&#39;activer. L&#39;adresse email en Cci de votre choix doit être fournie à l&#39;équipe Adobe qui la configurera pour vous.
@@ -55,7 +55,7 @@ Le chemin du dossier local doit être spécifié dans le fichier **config-`<inst
 >
 >Les équipes en charge de l’implémentation doivent s’assurer que les conditions de sécurité permettent l’accès au dossier défini via les paramètres **dataLogPath**.
 
-Le chemin complet est comme suit : **`<datalogpath>  YYYY-MM-DDHHh`**. La date et l&#39;heure sont paramétrées par rapport à l&#39;heure locale du serveur qui lance le MTA. Par exemple :
+Le chemin complet est le suivant : **`<datalogpath>  YYYY-MM-DDHHh`**. La date et l’heure sont définies en fonction de l’horloge du serveur MTA (UTC). Par exemple :
 
 ```
 C:\emails\2018-12-02\13h
@@ -83,7 +83,7 @@ Une fois le chemin d’accès au dossier local défini, ajoutez et modifiez les 
            pollDelay="600" acquireLimit="5000" smtpNbConnection="2"/>
 ```
 
-* **compressionFormat** : format utilisé lors de la compression des fichiers .eml. Les valeurs possibles sont les suivantes :
+* **compressionFormat** : format utilisé lors de la compression des fichiers .eml. Les valeurs possibles sont les suivantes :
 
   **0** : pas de compression (valeur par défaut)
 
@@ -130,12 +130,12 @@ Dans le fichier **config-`<instance name>.xml`**, utilisez les paramètres suiva
 >
 >Si vous utilisez un relais SMTP, les modifications apportées aux emails par le relais ne sont pas prises en compte dans le processus d&#39;archivage.
 >
->En outre, le relais affecte le statut **[!UICONTROL Envoyé]** à tous les emails, y compris ceux qui ne sont pas envoyés. Tous les messages sont donc archivés.
+>En outre, le relais attribue un statut **[!UICONTROL Envoyé]** à tous les e-mails, y compris ceux qui ne sont pas envoyés. Par conséquent, tous les messages sont archivés.
 
 <!--
 ## Moving to the new Email BCC {#updated-email-archiving-system--bcc-}
 
-[!BADGE On-premise & Hybrid]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"}
+[!BADGE On-premise & Hybrid]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html" tooltip="Applies to on-premise and hybrid deployments only"}
 
 >[!IMPORTANT]
 >
@@ -155,11 +155,11 @@ Once email BCC is configured, make sure you select the **[!UICONTROL Email BCC]*
 * **Boîte aux lettres d’adresses en Cci** : vérifiez qu’elle dispose de suffisamment de capacité pour archiver tous les e-mails envoyés par le MTA.
 * **Mise en pool du MTA** : la fonctionnalité d’archivage en Cci fonctionne au niveau du MTA. Elle permet de dupliquer chaque e-mail envoyé par le MTA. Le MTA pouvant être mis en pool à travers plusieurs instances (par exemple de développement, de test ou de production), voire entre plusieurs clients (dans un environnement mid-sourcing), l’utilisation de cette fonctionnalité a une incidence sur la sécurité :
 
-   * Si vous partagez un MTA avec plusieurs clients et que l&#39;un d&#39;eux active cette option, il aura accès à la totalité des emails provenant des autres clients utilisant le même MTA. Afin d&#39;éviter une telle situation, utilisez un MTA différent pour chaque client.
+   * Si vous partagez un MTA avec plusieurs clients et que cette option est activée pour l&#39;un d&#39;eux, ce client accédera à tous les emails des autres clients qui partagent le même MTA. Pour éviter une telle situation, utilisez un MTA différent pour chaque client.
    * Si vous utilisez le même MTA entre plusieurs instances (développement, test, production) d’un même client, les messages envoyés depuis ces trois instances combinées seront dupliqués par l’option dataLogPath.
 
-* **Emails par connexion** : l’archivage des emails en Cci fonctionne en ouvrant une connexion et en essayant d’envoyer tous les emails via cette connexion. Adobe recommande de vérifier avec votre contact technique le nombre d’emails acceptés sur une connexion donnée. L’augmentation de ce nombre peut avoir un grand impact sur le débit Cci.
-* **IP d’envoi en Cci** : actuellement, les emails en Cci ne sont pas envoyés par les proxys MTA normaux. En revanche, une connexion directe est ouverte du serveur MTA au serveur de messagerie de destination. Cela signifie que vous devrez peut-être ajouter des adresses IP supplémentaires à la liste autorisée de votre réseau, en fonction de la configuration de votre serveur de messagerie.
+* **E-mails par connexion** : l’archivage des e-mails en Cci fonctionne en ouvrant une connexion et en essayant d’envoyer tous les e-mails via cette connexion. Adobe recommande de vérifier auprès de votre contact technique interne le nombre d’e-mails acceptés sur une connexion donnée. L’augmentation de ce nombre peut avoir un impact important sur le débit en Cci.
+* **IP d’envoi en Cci** : actuellement, les e-mails en Cci ne sont pas envoyés par les proxys MTA normaux. Au lieu de cela, une connexion directe est ouverte du serveur MTA au serveur de messagerie de destination. Cela signifie que vous devrez peut-être ajouter des adresses IP supplémentaires à la liste autorisée de votre réseau, en fonction de la configuration de votre serveur de messagerie.
 
 <!--
 ## Email BCC with Enhanced MTA {#email-bcc-with-enhanced-mta}

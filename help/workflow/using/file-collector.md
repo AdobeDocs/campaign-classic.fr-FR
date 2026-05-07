@@ -8,7 +8,7 @@ exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 100%
+ht-degree: 56%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 100%
 
 
 
-Le **Collecteur de fichiers** assure un suivi de l&#39;arrivée d&#39;un ou plusieurs fichiers dans un répertoire et active sa transition pour chacun des fichiers reçus. Pour chaque événement, une variable **[!UICONTROL filename]** contient le nom complet du fichier reçu. Les fichiers collectés sont déplacés dans un autre répertoire afin de ne les prendre en compte qu&#39;une seule fois et pour historisation.
+Le **Collecteur de fichiers** surveille l&#39;arrivée d&#39;un ou plusieurs fichiers dans un répertoire et active sa transition pour chaque fichier reçu. Pour chaque événement, une variable **[!UICONTROL filename]** contient le nom complet du fichier reçu. Les fichiers collectés sont déplacés vers un autre répertoire à des fins d’archivage et pour s’assurer qu’ils ne sont comptabilisés qu’une seule fois.
 
 Par défaut, le collecteur de fichiers est une tâche persistante testant la présence de fichiers aux heures spécifiées par le planning.
 
-Les fichiers doivent se trouver sur le serveur sur lequel s&#39;exécute le module wfserver qui prend en charge ce workflow. Si plusieurs modules wfserver sont déployés sur une même instance, il faut spécifier soit l&#39;affinité des activités utilisant ces fichiers, soit l&#39;affinité globale du workflow.
+Les fichiers doivent se trouver sur le serveur sur lequel le module wfserver en charge de ce workflow est exécuté. Si plusieurs modules wfserver sont déployés sur une seule instance, il est nécessaire de préciser soit l&#39;affinité des activités utilisant ces fichiers, soit l&#39;affinité globale du workflow.
 
 ## Propriétés {#properties}
 
@@ -32,15 +32,15 @@ Le premier onglet de l’activité du **[!UICONTROL Collecteur de fichiers]** vo
 
    * **[!UICONTROL Répertoire]**
 
-     Répertoire contenant le ou les fichiers à récupérer. Ce répertoire doit être créé au préalable sur le serveur : s&#39;il n&#39;existe pas, une erreur est générée.
+     Répertoire contenant le ou les fichiers à télécharger. Ce répertoire doit être créé au préalable sur le serveur : s&#39;il n&#39;existe pas, une erreur est générée.
 
    * **[!UICONTROL Filtre]**
 
-     Seuls les fichiers correspondant à ce filtre sont pris en compte. Les autres fichiers du répertoire seront ignorés. Si le filtre est vide, tous les fichiers du répertoire seront pris en compte. Exemples de filtre : **&#42;.zip**, **import-&#42;.txt**.
+     Seuls les fichiers correspondant à ce filtre sont pris en compte. Les autres fichiers du répertoire sont ignorés. Si le filtre est vide, tous les fichiers du répertoire sont pris en compte. Exemples de filtre : **&#42;.zip**, **import-&#42;.txt**.
 
    * **[!UICONTROL Terminer dès qu&#39;un fichier est traité]**
 
-     Si cette option est activée, la tâche se termine après réception du premier fichier. Si plusieurs fichiers correspondant au filtre sont présents dans le répertoire, un seul sera pris en compte. Cette option garantit qu&#39;un seul événement sera émis. Le fichier pris en compte est le premier de la liste dans l&#39;ordre alphabétique.
+     Si cette option est activée, la tâche se termine après réception du premier fichier. Si plusieurs fichiers correspondant au filtre sont présents dans le répertoire, un seul sera pris en compte. Cette option garantit qu’un seul événement sera envoyé. Le fichier pris en compte est le premier de la liste par ordre alphabétique.
 
      Dans le cas d&#39;une activité non planifiée, si aucun fichier correspondant au filtre n&#39;est trouvé dans le répertoire spécifié et si l&#39;option **[!UICONTROL Traiter l&#39;absence de fichier]** n&#39;est pas activée, une erreur est générée.
 
@@ -60,7 +60,7 @@ Le premier onglet de l’activité du **[!UICONTROL Collecteur de fichiers]** vo
 
    * **[!UICONTROL Traiter les erreurs]**
 
-     Cette option fait apparaître une transition particulière qui sera activée si une erreur est générée. Dans ce cas, le workflow ne passe pas en état d&#39;erreur et continue son exécution.
+     Cette option fait apparaître une transition spéciale, à activer si une erreur est générée. Dans ce cas, le workflow ne passe pas au statut d’erreur et continue son exécution
 
      Les erreurs prises en compte sont les erreurs du système de fichiers (impossible de déplacer un fichier, impossible d&#39;accéder au répertoire, etc.).
 

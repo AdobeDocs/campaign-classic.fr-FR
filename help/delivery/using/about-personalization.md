@@ -7,8 +7,8 @@ feature: Personalization
 role: User
 exl-id: 555082a2-1b62-4aa4-b80c-77b1a1ef9491
 source-git-commit: 435314fa5907c16166cf7ff6741ff7ad0412d04b
-workflow-type: ht
-source-wordcount: '311'
+workflow-type: tm+mt
+source-wordcount: '400'
 ht-degree: 100%
 
 ---
@@ -61,7 +61,7 @@ Before starting sending emails:
 
 * Make sure recipient profiles contain at least an email address.
 * Learn more about the Adobe Campaign [Delivery best practices](delivery-best-practices.md).
-* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr).
+* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
 The key steps to send an email are as follows:
 

@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: Analyser le résultat
-description: Découvrez comment effectuer des tests AB à lʼaide dʼun cas dʼutilisation spécifique.
+description: Découvrez comment effectuer des tests A/B à lʼaide dʼun cas dʼutilisation spécifique
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: A/B Testing
 role: User
 exl-id: e6f39180-d161-4226-810a-10bb1c3682ca
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 100%
+ht-degree: 80%
 
 ---
 
@@ -29,6 +29,6 @@ Lorsque les diffusions test ont été envoyées, vous avez la possibilité de v�
 
   ![](assets/use_case_abtesting_analysis_003.png)
 
-Dans notre exemple, c&#39;est la diffusion A qui obtient le meilleur taux d&#39;ouverture par rapport à la diffusion B. C&#39;est donc le contenu A qui sera utilisé pour la diffusion finale.
+Dans notre exemple, la diffusion B a obtenu le taux d’ouverture le plus élevé. Cela signifie que le contenu B sera utilisé pour la diffusion finale.
 
 ![](assets/use_case_abtesting_analysis_004.png)

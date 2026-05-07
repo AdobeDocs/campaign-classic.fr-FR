@@ -5,9 +5,9 @@ description: Découvrez comment créer et concevoir un modèle de message transa
 feature: Transactional Messaging, Message Center, Templates
 exl-id: a52bc140-072e-4f81-b6da-f1b38662bce5
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
-source-wordcount: '511'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '513'
+ht-degree: 83%
 
 ---
 
@@ -53,16 +53,16 @@ Les modèles de message transactionnel contiennent les informations nécessaires
 
 ## Création du contenu du message {#creating-message-content}
 
-La définition du contenu du message transactionnel fonctionne selon les mêmes principes que pour une diffusion classique dans Adobe Campaign. Par exemple, pour une diffusion e-mail, vous pouvez créer un contenu au format HTML ou texte, ajouter des pièces jointes ou personnaliser l&#39;objet de la diffusion. Voir à ce sujet le chapitre [Diffuser par email](../../delivery/using/about-email-channel.md).
+La définition du contenu du message transactionnel est la même que pour les diffusions régulières dans Adobe Campaign. Par exemple, pour une diffusion e-mail, vous pouvez créer du contenu au format HTML ou texte, ajouter des pièces jointes ou personnaliser l&#39;objet de diffusion. Voir à ce sujet le chapitre [Diffuser par email](../../delivery/using/about-email-channel.md).
 
 >[!IMPORTANT]
 >
->Les images incluses dans le message doivent être accessibles publiquement. Adobe Campaign ne fournit pas de mécanisme de chargement des images pour les messages transactionnels.\
+>Les images incluses dans le message doivent être accessibles au public. Adobe Campaign ne fournit aucun mécanisme de chargement d’images pour les messages transactionnels.\
 >Contrairement à JSSP ou webApp, `<%=` n&#39;a pas de séquence d&#39;échappement par défaut.
 >
 >Dans ce cas, vous devez appliquer une séquence d&#39;échappement correcte à toutes les données provenant de l&#39;événement. Cette séquence d&#39;échappement dépend de l&#39;utilisation de ce champ. Par exemple, dans une URL, utilisez encodeURIComponent. Pour un affichage dans le code HTML, vous pouvez utiliser escapeXMLString.
 
-Lorsque vous avez défini le contenu de votre message, vous pouvez intégrer les informations de l&#39;événement dans le corps du message et ainsi le personnaliser. Les informations de l&#39;événement sont insérées dans le corps du texte à l&#39;aide des balises de personnalisation.
+Une fois que vous avez défini le contenu de votre message, vous pouvez intégrer des informations d’événement dans le corps du message et les personnaliser. Les informations d’événement sont insérées dans le corps du texte grâce aux balises de personnalisation.
 
 ![](assets/messagecenter_create_content_001.png)
 
@@ -79,7 +79,7 @@ Pour insérer des balises de personnalisation dans le corps d&#39;un message ema
 
    ![](assets/messagecenter_create_custo_002.png)
 
-1. Renseignez la balise en utilisant la syntaxe suivante : **nom de l’élément**.@**nom de l’attribut** comme indiqué ci-dessous.
+1. Complétez la balise selon la syntaxe suivante : **nom de l&#39;élément**.@**nom de l&#39;attribut** comme illustré ci-dessous.
 
    ![](assets/messagecenter_create_custo_003.png)
 

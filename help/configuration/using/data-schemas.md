@@ -6,9 +6,9 @@ feature: Schema Extension
 role: Developer
 exl-id: d4446035-3988-4d89-b7df-7b8528c2e371
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
-source-wordcount: '411'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '413'
+ht-degree: 71%
 
 ---
 
@@ -30,7 +30,7 @@ La zone d&#39;édition affiche le contenu XML du schéma source :
 
 >[!NOTE]
 >
->Le contrôle d&#39;édition &quot;Nom&quot; permet de saisir la clé du schéma, composée du nom et de l&#39;espace de noms. Les attributs &quot;name&quot; et &quot;namespace&quot; de l&#39;élément racine du schéma sont automatiquement mis à jour dans la zone d&#39;édition XML du schéma.
+>Le contrôle d’édition « Nom » permet de saisir la clé du schéma, composée du nom et de l’espace de noms. Les attributs « name » et « namespace » de l&#39;élément racine du schéma sont automatiquement mis à jour dans la zone d&#39;édition XML du schéma.
 
 L&#39;aperçu génère automatiquement le schéma étendu :
 
@@ -40,11 +40,11 @@ L&#39;aperçu génère automatiquement le schéma étendu :
 >
 >La sauvegarde du schéma source va automatiquement lancer la génération du schéma étendu.
 
-Si vous devez vérifier la structure complète d&#39;un schéma, vous pouvez utiliser l&#39;onglet Aperçu. Si le schéma a été étendu, vous serez alors en mesure de visualiser toutes ses extensions. En complément, l&#39;onglet Documentation affiche tous les attributs et les éléments du schéma, ainsi que leurs propriétés (champ SQL, type/longueur, libellé, description). L&#39;onglet Documentation ne s&#39;applique qu&#39;aux schémas générés. Pour plus d&#39;informations, consultez la section [Régénération des schémas](../../configuration/using/regenerating-schemas.md).
+Si vous devez vérifier la structure complète d’un schéma, vous pouvez utiliser l’onglet Aperçu . Si le schéma a été étendu, vous pourrez alors visualiser toutes ses extensions. En complément, l&#39;onglet Documentation affiche tous les attributs et éléments du schéma, ainsi que leurs propriétés (champ SQL, type/longueur, libellé, description). L&#39;onglet Documentation ne s&#39;applique qu&#39;aux schémas générés. Pour plus d&#39;informations, consultez la section [Régénération des schémas](../../configuration/using/regenerating-schemas.md).
 
 ## Exemple : créer une table des contrats {#example--creating-a-contract-table}
 
-Dans l&#39;exemple suivant, nous allons créer une nouvelle table pour les **contrats** dans le modèle de données de la base Adobe Campaign. Cette table permettra de stocker, pour chaque contrat, les noms, prénoms et adresses email des titulaires et co-titulaires.
+Dans l&#39;exemple suivant, nous allons créer une nouvelle table pour **contrats** dans le modèle de base de données de la base de données Adobe Campaign. Cette table vous permet de stocker les noms, prénoms et adresses e-mail des titulaires et co-titulaires pour chaque contrat.
 
 Pour cela, vous devez créer le schéma de la table puis procéder à la mise à jour de la structure de la base pour générer la table correspondante. Les étapes sont les suivantes :
 

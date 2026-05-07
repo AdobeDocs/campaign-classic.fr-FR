@@ -7,8 +7,8 @@ hide: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 95%
+source-wordcount: '1058'
+ht-degree: 93%
 
 ---
 
@@ -49,7 +49,7 @@ Dans le cadre de la nouvelle intégration du serveur de délivrabilité, Campaig
 
 >[!AVAILABILITY]
 >
-> Les informations d’identification de compte de service (JWT) étant abandonnées par Adobe, les intégrations de Campaign aux solutions et aux applications Adobe doivent désormais utiliser des informations d’identification OAuth serveur à serveur.</br>
+> Les informations d’identification du compte de service (JWT) sont en train d’être abandonnées par Adobe. Les intégrations de Campaign aux solutions et applications Adobe doivent désormais s’appuyer sur les informations d’identification de serveur à serveur OAuth. </br>
 >
 > * Si vous avez implémenté des intégrations entrantes pour Campaign, vous devez migrer votre compte technique comme décrit dans [cette documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). Les [informations d’identification de compte de service (JWT)](../../integrations/using/oauth-technical-account.md) existantes continueront de fonctionner jusqu’au 27 janvier 2025.</br>
 >
@@ -70,9 +70,9 @@ Avant de commencer l’implémentation, vérifiez la configuration de votre inst
 
 En tant que client On-Premise, vous devez également vérifier qu’un **[!UICONTROL profil de produit]** Campaign est disponible pour votre organisation. Pour ce faire, suivez les étapes ci-après :
 
-1. En tant qu&#39;administrateur, connectez-vous à [&#128279;](https://adminconsole.adobe.com/){_blank}.
+1. En tant qu&#39;administrateur, connectez-vous à [](https://adminconsole.adobe.com/){_blank}.
 1. Accédez à la section **Produit et services** et vérifiez qu’**Adobe Campaign** est répertorié.
-Si vous ne pouvez pas voir **&#x200B;**&#x200B;contactez l’assistance clientèle d’Adobe [&#128279;](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} pour l’ajouter.
+Si vous ne pouvez pas voir **** contactez l’assistance clientèle d’Adobe [](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} pour l’ajouter.
 1. Cliquez sur **Adobe Campaign** et sélectionnez votre organisation.
    **Attention** : si vous avez plusieurs organisations, veillez à choisir la bonne. En savoir plus sur les organisations [sur cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=fr#ims-org-id){_blank}.
 
@@ -92,7 +92,7 @@ Consultez [cette page](../../integrations/using/oauth-technical-account.md#oauth
 
 ### Étape 2 : ajouter les informations d’identification du projet dans Adobe Campaign {#add-credentials-campaign}
 
-Suivez les étapes décrites sur [cette page](../../integrations/using/oauth-technical-account.md#add-credentials) pour ajouter vos informations d’identification de projet OAuth dans Adobe Campaign.
+Suivez les étapes détaillées sur [cette page](../../integrations/using/oauth-technical-account.md#add-credentials) pour ajouter vos informations d’identification de projet OAuth dans Adobe Campaign.
 
 ### Étape 3 : valider votre configuration
 

@@ -5,8 +5,8 @@ feature: Technote, Privacy, Privacy Tools
 description: Découvrez comment vos campagnes peuvent être affectées par la fonction de protection de la confidentialité dans Mail d’Apple.
 exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '2105'
+workflow-type: tm+mt
+source-wordcount: '2140'
 ht-degree: 100%
 
 ---
@@ -402,7 +402,7 @@ Vous pouvez utiliser une requête incrémentale pour extraire uniquement les enr
 
 Vous pouvez utiliser des workflows pour déterminer si un destinataire utilise l’application Mail d’Apple. Vous pouvez fractionner les logs de tracking par appareil. Par exemple, vous pouvez utiliser des filtres de requête pour ventiler les enregistrements par appareil iOS :
 
-| Application | Système d’exploitation ou appareil | Filtre de requête |
+| Application | Système d’exploitation ou appareil  | Filtre de requête |
 | --- | --- | --- |
 | Apple Mail | iOS 15 | `operating System (Browser) contains 'iOS 15' and browser (Browser) contains 'ApplewebKit'` |
 | Apple Mail | iOS 14 ou iOS 13 | `browser contains 'AppleWebKit' and operating System of browser contains 'iOS 14' or operating System of browser contains 'iOS 13'` |

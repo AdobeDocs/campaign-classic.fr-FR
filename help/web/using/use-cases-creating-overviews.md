@@ -7,9 +7,9 @@ feature: Web Apps
 level: Intermediate, Experienced
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
 source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: ht
-source-wordcount: '1041'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1046'
+ht-degree: 82%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 
 
-Dans l&#39;exemple qui suit, vous allez créer des applications web de type vue d&#39;ensemble permettant d&#39;afficher l&#39;ensemble des applications web contenues dans votre base. Vous allez paramétrer les éléments suivants :
+Dans l&#39;exemple suivant, nous allons créer des applications Web de type vues d&#39;ensemble pour afficher toutes les applications Web de votre base de données. Configurez les éléments suivants :
 
 * un filtre sur le dossier (voir la section [Ajouter un filtre sur dossier](#adding-a-filter-on-a-folder)),
 * un bouton permettant de créer une application web (voir la section [Ajouter un bouton pour paramétrer une nouvelle application web](#adding-a-button-to-configure-a-new-web-application)),
@@ -55,7 +55,7 @@ Dans l&#39;exemple qui suit, vous allez créer des applications web de type vue 
 
 ## Ajouter un filtre sur dossier {#adding-a-filter-on-a-folder}
 
-Dans une vue d&#39;ensemble, vous pouvez choisir d&#39;accéder à certaines données en fonction de leur emplacement dans l&#39;arborescence Adobe Campaign. Il s&#39;agit d&#39;un filtre sur dossier. Procédez comme suit pour l&#39;ajouter dans votre vue d&#39;ensemble.
+Dans une vue d’ensemble, vous pouvez choisir d’accéder aux données en fonction de leur emplacement dans l’arborescence d’Adobe Campaign. Ceci est un filtre sur un dossier. Procédez comme suit pour l’ajouter à votre aperçu.
 
 1. Positionnez-vous sur le noeud **[!UICONTROL Page]** de votre application Web et ajoutez un élément **[!UICONTROL Choix de dossier]** (**[!UICONTROL Contrôle avancés > Choix de dossier]**).
 1. Dans la fenêtre **[!UICONTROL Stockage]** qui s&#39;affiche, cliquez sur le lien **[!UICONTROL Editer les variables]**.
@@ -89,13 +89,13 @@ Dans une vue d&#39;ensemble, vous pouvez choisir d&#39;accéder à certaines don
 
    Dans notre exemple, le libellé est **Nouveau**.
 
-1. Dans le champ URL, insérez l’URL suivante : **xtk://open/?schema=nms:webApp&amp;form=nms:newWebApp**.
+1. Insérez l’URL suivante dans le champ URL : **:webApp&amp;form=nms:newWebApp**.
 
    >[!NOTE]
    >
-   >**nms:webApp** correspond au schéma des applications web.
+   >**nms:webApp** correspond au schéma de l&#39;application Web.
    >
-   >**nms:newWebApp** correspond à l’assistant de création de la nouvelle application web.
+   >**nms:newWebApp** correspond à l&#39;assistant de création de nouvelle application Web.
 
 1. Choisissez d&#39;afficher l&#39;URL dans la même fenêtre.
 1. Ajoutez l’icône des applications web dans le champ image : **/nms/img/webApp.png**.
@@ -158,11 +158,11 @@ Lorsque vous paramétrez une liste dans votre vue d&#39;ensemble, vous pouvez ch
 
 >[!NOTE]
 >
->Les librairies Javascript mettent cinq minutes à se rafraîchir sur le serveur. Vous pouvez redémarrer le serveur pour ne pas attendre ce délai.
+>L’actualisation des bibliothèques JavaScript prend cinq minutes sur le serveur. Vous pouvez redémarrer le serveur pour éviter d’attendre ce délai.
 
-## Filtrer et actualiser la liste {#filtering-and-updating-the-list}
+## Filtrer et mettre à jour la liste {#filtering-and-updating-the-list}
 
-Dans cette section, vous allez créer un filtre afin d&#39;afficher dans la vue d&#39;ensemble les applications Web créées par un opérateur spécifique. Ce filtre se fait à l&#39;aide d&#39;un éditeur de liens. D&#39;autre part, une fois l&#39;opérateur choisi, il vous faudra actualiser la liste pour appliquer votre filtre, d&#39;où la nécessité de créer un lien d&#39;actualisation.
+Dans cette section, vous allez créer un filtre permettant d&#39;afficher la vue d&#39;ensemble des applications Web créées par un opérateur spécifique. Ce filtre est créé avec un éditeur de liens. Une fois que vous avez sélectionné un opérateur ou une opératrice, actualisez la liste pour appliquer votre filtre. Pour ce faire, créez un lien d’actualisation.
 
 Ces deux éléments seront rassemblés dans un même conteneur afin de les regrouper graphiquement dans la vue d&#39;ensemble.
 
@@ -205,7 +205,7 @@ Ces deux éléments seront rassemblés dans un même conteneur afin de les regro
 
 >[!CAUTION]
 >
->L&#39;utilisateur de l&#39;application Web doit être un opérateur identifié et avec les droits adéquats dans Adobe Campaign pour avoir accès aux informations. Ce type de paramétrage ne fonctionnera pas dans le cas d&#39;une application Web anonyme.
+>L&#39;utilisateur de l&#39;application Web doit être un opérateur identifié et disposant des droits Adobe Campaign adéquats pour accéder aux informations. Ce type de configuration ne fonctionne pas pour les applications Web anonymes.
 
 ### Créer un lien d&#39;actualisation {#creating-a-refresh-link}
 

@@ -7,9 +7,9 @@ feature: Data Model
 role: User, Developer
 exl-id: 3e28bfee-0321-40f4-9ef6-1bdb5b25041b
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '566'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -148,7 +148,7 @@ L&#39;attribut **ref** sur l&#39;élément à référencer doit être renseigné
 </srcSchema>
 ```
 
-La structure du chapitre est déplacée dans l&#39;élément de nom &quot;section&quot; en dehors de l&#39;élément principal. Le chapitre et la section référencent l&#39;élément &quot;section&quot;.
+La structure de chapitres est déplacée vers l’élément nommé « section » en dehors de l’élément principal. Le chapitre et la section font référence à l’élément « section ».
 
 ## Compute string {#compute-string}
 

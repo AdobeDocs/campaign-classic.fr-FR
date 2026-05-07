@@ -7,9 +7,9 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '1838'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1842'
+ht-degree: 89%
 
 ---
 
@@ -58,7 +58,7 @@ Pour ce faire, procédez comme suit :
 
    Contactez ensuite votre fournisseur qui vous donnera la valeur à saisir dans le champ **[!UICONTROL Nom de l&#39;implémentation du SMSC]**, en fonction du fournisseur que vous aurez choisi.
 
-   Vous pouvez définir le nombre de connexions au fournisseur par MTA enfant. Par défaut, ce nombre est défini sur 1.
+   Vous pouvez définir le nombre de connexions au fournisseur par enfant MTA. Par défaut, elle est définie sur 1.
 
 1. Par défaut, le nombre de caractère d&#39;un SMS respecte la norme de téléphonie mobile GSM.
 
@@ -76,7 +76,7 @@ Pour ce faire, procédez comme suit :
 
    Pour plus d’informations, consultez [cette section](#about-character-transliteration).
 
-1. Dans l&#39;onglet **[!UICONTROL Débit et délais]**, vous pouvez indiquer le débit maximum des messages sortants (&quot;MT&quot;, Mobile Terminated) en MT par seconde. Si vous indiquez &quot;0&quot; dans le champ correspondant, le débit ne sera pas limité.
+1. Dans l&#39;onglet **[!UICONTROL Débit et délais]**, vous pouvez spécifier le débit maximal de messages sortants (« MT », Mobile Terminated) en MT par seconde. Si vous indiquez « 0 » dans le champ correspondant, le débit ne sera pas limité.
 
    Les valeurs de tous les champs correspondant à des délais sont à renseigner en secondes.
 
@@ -84,7 +84,7 @@ Pour ce faire, procédez comme suit :
 
    Pour plus d’informations, consultez [cette section](#about-text-encodings).
 
-1. Dans l&#39;onglet **[!UICONTROL Spécificités du SMSC]**, l&#39;option **[!UICONTROL Envoyer le numéro de téléphone complet]** est désactivée par défaut. Ne l&#39;activez pas si vous souhaitez respecter le protocole SMPP et ne transmettre que des chiffres au serveur du fournisseur SMS (SMSC).
+1. Dans l&#39;onglet **[!UICONTROL Spécificités du SMSC]**, l&#39;option **[!UICONTROL Envoyer le numéro de téléphone complet]** est désactivée par défaut. Ne l&#39;activez pas si vous souhaitez respecter le protocole SMPP et ne transférer que des chiffres au serveur du fournisseur SMS (SMSC).
 
    Cependant, étant donné que certains fournisseurs requièrent l&#39;utilisation du préfixe &#39;+&#39;, consultez votre propre fournisseur qui vous invitera à activer cette option le cas échéant.
 
@@ -98,10 +98,10 @@ Pour ce faire, procédez comme suit :
 
 La translittération des caractères peut être configurée dans un compte externe de routage vers mobiles par SMPP dans l&#39;onglet **[!UICONTROL Mobile]**.
 
-La translittération consiste à remplacer un caractère d&#39;un SMS par un autre lorsque ce caractère n&#39;est pas pris en charge par la norme GSM.
+La translittération consiste à remplacer un caractère d’un SMS par un autre lorsque ce caractère n’est pas pris en charge par la norme GSM.
 
-* Lorsque la translittération est **[!UICONTROL autorisée]**, chaque caractère non pris en charge est remplacé par un caractère GSM lors de l&#39;envoi du message. Par exemple, la lettre &quot;ë&quot; est remplacée par &quot;e&quot;. Le message est alors légèrement altéré, mais la limite du nombre de caractères demeure identique.
-* Lorsque la translittération **[!UICONTROL n&#39;est pas autorisée]**, chaque message contenant des caractères non pris en charge est envoyé au format binaire (Unicode) : tous les caractères sont transmis tels quels. Or les SMS utilisant l&#39;encodage Unicode sont limités à 70 caractères (ou 67 caractères par SMS pour les messages envoyés en plusieurs parties). Si le nombre de caractères maximal est dépassé, plusieurs messages sont alors envoyés, ce qui peut générer des coûts supplémentaires.
+* Lorsque la translittération est **[!UICONTROL autorisée]**, chaque caractère non pris en charge est remplacé par un caractère GSM lors de l’envoi du message. Par exemple, la lettre « ë » est remplacée par « e ». Le message est donc légèrement modifié, mais la limite de caractères reste la même.
+* Lorsque la translittération **[!UICONTROL n’est pas autorisée]**, chaque message contenant des caractères non pris en charge est envoyé au format binaire (Unicode) : tous les caractères sont transmis tels quels. Or les SMS utilisant l’encodage Unicode sont limités à 70 caractères (ou 67 caractères par SMS pour les messages envoyés en plusieurs parties). Si le nombre de caractères maximal est dépassé, plusieurs messages sont alors envoyés, ce qui peut générer des coûts supplémentaires.
 
 >[!IMPORTANT]
 >
@@ -111,7 +111,7 @@ Par défaut, la translittération des caractères est désactivée. Si vous souh
 
 En revanche, si vos SMS contiennent beaucoup de caractères générant des messages Unicode, vous pouvez choisir d&#39;activer cette option afin de limiter le coût de vos envois.
 
-Le tableau ci-après présente les caractères pris en charge par la norme GSM. Tout caractère inséré dans le corps du message autre que ceux mentionnés ci-dessous convertit le message complet en binaire (Unicode) et le limite donc à 70 caractères.
+Le tableau suivant présente les caractères pris en compte par la norme GSM. Tout caractère inséré dans le corps du message autre que ceux mentionnés ci-dessous convertit le message complet en binaire (Unicode) et le limite donc à 70 caractères.
 
 **Caractères simples**
 
@@ -315,7 +315,7 @@ Vous pouvez déclarer des **data_coding** et forcer l&#39;encodage si besoin : 
 >
 >L’ordre de déclaration est important : il est recommandé d’ordonner la liste par ordre croissant **de coût**, afin de favoriser les encodages permettant de mettre le plus de caractères possible dans chaque SMS.
 >
->Ne déclarez que les encodages que vous souhaitez utiliser. Si certains encodages fournis par le SMSC ne correspondent pas à votre utilisation, ne les déclarez pas dans la liste.
+>Ne déclarez que les encodages que vous souhaitez utiliser. Si certains des encodages fournis par le SMSC ne correspondent pas à votre objectif d&#39;utilisation, ne les déclarez pas dans la liste.
 
 ## Réponse automatique {#automatic-reply}
 
@@ -329,7 +329,7 @@ Lorsqu&#39;un abonné répond à un SMS qui lui a été envoyé via Adobe Campa
 
 Pour chaque mot-clé, indiquez un numéro court (short code), c&#39;est-à-dire un numéro habituellement utilisé pour envoyer les diffusions et qui servira de nom d&#39;expéditeur, puis saisissez le message qui sera adressé à l&#39;abonné.
 
-Vous pouvez également associer une action à votre réponse automatique : **[!UICONTROL Envoyer en quarantaine]** ou **[!UICONTROL Sortir de la quarantaine]**. Par exemple, si un destinataire envoie le mot-clé « STOP », il reçoit automatiquement une confirmation de désinscription et il est mis en quarantaine.
+Vous pouvez également lier une action à votre réponse automatique : **[!UICONTROL Envoyer en quarantaine]** ou **[!UICONTROL Supprimer de la quarantaine]**. Par exemple, si un destinataire envoie le mot-clé « STOP », il reçoit automatiquement une confirmation de désinscription et est mis en quarantaine.
 
 ![](assets/extended_smpp_reply.png)
 
@@ -339,7 +339,7 @@ Les destinataires sont répertoriés dans la table **[!UICONTROL NP@I et Adresse
 
 * Pour envoyer la même réponse quel que soit le numéro court, laissez la colonne **[!UICONTROL Numéro court]** vide.
 * Pour envoyer la même réponse quel que soit le mot-clé, laissez la colonne &quot;**[!UICONTROL Mot-clé]**&quot; vide.
-* Pour effectuer une action sans envoyer de réponse, laissez la colonne **[!UICONTROL Réponse]** vide. Cela permet notamment de retirer de la quarantaine un utilisateur qui envoie un message autre que « STOP ».
+* Pour exécuter une action sans envoyer de réponse, laissez la colonne **[!UICONTROL Réponse]** vide. Vous pouvez, par exemple, supprimer de la quarantaine un utilisateur qui répond avec un message autre que « STOP ».
 
 Si vous disposez de plusieurs comptes externes utilisant le connecteur SMPP générique étendu avec le même compte fournisseur, le problème suivant peut se produire : lors de l&#39;envoi d&#39;une réponse à un code court, il peut être reçu sur n&#39;importe quelle connexion de votre compte externe. La réponse automatique envoyée pourrait donc ne pas être le message attendu.
 Pour éviter cela, appliquez l&#39;une des solutions suivantes, selon le fournisseur utilisé :

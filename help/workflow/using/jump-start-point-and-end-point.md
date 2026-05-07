@@ -7,8 +7,8 @@ hide: true
 exl-id: 0d2d04e7-cb86-4456-b7cf-513c71210355
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 100%
+source-wordcount: '119'
+ht-degree: 77%
 
 ---
 
@@ -26,7 +26,7 @@ Ils vont d’une activité à l’autre, comme dans l’exemple suivant :
 
 Pour chaque saut de type &quot;départ&quot;, un saut de type &quot;arrivée&quot; doit être positionné.
 
-Vous pouvez insérer plusieurs sauts de départ et d&#39;arrivée dans un même workflow. Ils sont identifiés par un numéro qui doit être saisi dans les paramètres :
+Vous pouvez insérer plusieurs sauts de point de départ et d&#39;arrivée dans le même workflow. Ils sont identifiés par un numéro qui doit être saisi dans les paramètres :
 
 ![](assets/s_user_segmentation_jump_in.png)
 

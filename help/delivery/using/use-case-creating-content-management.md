@@ -8,7 +8,7 @@ exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
 workflow-type: tm+mt
 source-wordcount: '1235'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
@@ -53,7 +53,7 @@ Ces éléments sont créés via un schéma dédié qui précise pour chaque cont
 
 ## Étape 2 : création du schéma de données {#step-2---creating-the-data-schema}
 
-Un schéma de données est un document XML associé à un contenu, il décrit la structure XML des données de ce contenu.
+Un schéma de données est un document XML associé à du contenu. Il décrit la structure XML des données de ce contenu.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Pour créer un schéma de données, les étapes sont les suivantes :
 
    ![](assets/s_ncs_content_create_schema.png)
 
-1. Saisissez le nom et le libellé du schéma dans les champs correspondants. Vous pouvez ajouter une description et associer une image spécifique, au besoin.
+1. Saisissez le nom et le libellé du schéma dans les champs appropriés. Vous pouvez ajouter une description et lier une image spécifique si nécessaire.
 
    ![](assets/s_ncs_content_param_schema.png)
 
@@ -138,7 +138,7 @@ Pour créer un schéma de données, les étapes sont les suivantes :
   <tr> 
    <td> Logo d'en-tête (stocké dans les ressources publiques Adobe Campaign)<br /> </td> 
    <td> Attribut<br /> </td> 
-   <td> Lien (link)<br /> </td> 
+   <td> Lien<br /> </td> 
    <td> Image<br /> </td> 
   </tr> 
  </tbody> 
@@ -165,7 +165,7 @@ Le schéma contiendra donc les informations suivantes :
 
 Le formulaire de saisie permet d&#39;éditer une instance de contenu via une interface de saisie à partir de la console cliente Adobe Campaign.
 
-La description d&#39;un formulaire est un document XML structuré respectant la grammaire du schéma des formes &quot;xtk:form&quot;.
+La description d&#39;un formulaire est un document XML structuré respectant la grammaire du schéma des formulaires « xtk:form ».
 
 >[!NOTE]
 >
@@ -215,7 +215,7 @@ Pour créer un formulaire de saisie pour la gestion de contenu, les étapes sont
 
 ## Étape 4 : création du modèle de construction {#step-4---creating-the-construction-template}
 
-Le langage XSLT permet de transformer un document XML en un autre document de sortie. Cette transformation est elle-même décrite en XML dans un document appelé feuille de style.
+Le langage XSLT permet de transformer un document XML en un autre document de sortie. Cette transformation est décrite en XML dans un document appelé feuille de style.
 
 Dans notre exemple, nous allons utiliser un template Javascript pour définir le mode de construction et de disposition des données dans le document généré.
 
@@ -350,7 +350,7 @@ Pour utiliser un template Javascript dans Adobe Campaign, les étapes sont les 
 
 ## Étape 5 : création du modèle de publication {#step-5---creating-the-publication-template}
 
-Vous devez ensuite créer un modèle de publication de contenu qui permettra de faire le lien entre le schéma, le formulaire et le modèle de construction du contenu. Ce modèle de publication peut proposer plusieurs formats de sortie.
+L’étape suivante consiste à créer un modèle de publication de contenu pour lier le schéma, le formulaire et le modèle de construction de contenu. Ce modèle de publication peut avoir plusieurs formats de sortie.
 
 >[!NOTE]
 >
@@ -366,9 +366,9 @@ Pour notre exemple, les étapes sont les suivantes :
 
    >[!NOTE]
    >
-   >L&#39;option **[!UICONTROL interface DOM]** est cochée par défaut, ce qui signifie qu&#39;il ne sera pas possible d&#39;accéder à ce document au moyen de la syntaxe E4X. L&#39;interface DOM doit être utilisée lorsque cette option est cochée et lorsqu&#39;elle est la syntaxe recommandée.
+   >L&#39;option **[!UICONTROL interface DOM]** est cochée par défaut, ce qui signifie que ce document ne sera pas accessible si vous utilisez la syntaxe E4X. L’interface DOM doit être utilisée lorsque cette option est cochée et qu’elle est la syntaxe recommandée.
    >
-   >Vous pouvez continuer à utiliser la syntaxe E4X. Le cas échéant, vérifiez que l&#39;option est décochée.
+   >Vous pouvez toujours utiliser la syntaxe E4X. Si tel est le cas, veillez à décocher cette option.
 
    Utilisez le bouton **[!UICONTROL Ajouter]** si vous souhaitez créer d&#39;autres modèles de transformation.
 
@@ -396,6 +396,6 @@ Pour créer un contenu directement dans les diffusions, la procédure est la sui
 
    ![](assets/s_ncs_content_in_delivery_edition_tab.png)
 
-1. Cliquez sur l&#39;onglet **[!UICONTROL Aperçu HTML]** pour visualiser le rendu. Vous devez sélectionner un destinataire pour tester la personnalisation.
+1. Cliquez sur l’onglet **[!UICONTROL Aperçu]** pour afficher le rendu. Vous devez sélectionner un destinataire pour tester la personnalisation.
 
    ![](assets/s_ncs_content_use_in_delivery_preview.png)

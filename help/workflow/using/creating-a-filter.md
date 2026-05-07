@@ -7,8 +7,8 @@ hide: true
 exl-id: 297ea1e1-39ef-4b99-aaaa-9e88611fb1bf
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 100%
+source-wordcount: '229'
+ht-degree: 94%
 
 ---
 
@@ -56,4 +56,4 @@ La variable **[!UICONTROL Pris en compte si]** permet de définir les critères 
 
 Ici, **$(/tmp/@text)=&#39;agence&#39;**
 
-La variable **$(/tmp/@text) !L&#39;expression =&#39;’** applique chaque condition lorsque le champ de saisie n&#39;est pas vide.
+L’expression **$(/tmp/@text)!=&#39;&#39;** applique chaque condition lorsque le champ d’entrée n’est pas vide.

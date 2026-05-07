@@ -8,7 +8,7 @@ exl-id: 99f82e91-45cd-4dff-b8a4-3ad87f2f9639
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '508'
-ht-degree: 100%
+ht-degree: 67%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 Les données traitées dans un workflow peuvent provenir de listes dont les données ont été préparées et structurées au préalable (lors d&#39;une segmentation antérieure ou d&#39;un chargement de fichier).
 
-L&#39;activité **[!UICONTROL Lecture de liste]** permet de copier les données d&#39;une liste dans une table de travail du workflow, comme les données issues d&#39;une requête. Elles sont alors accessibles tout au long du workflow.
+L&#39;activité **[!UICONTROL Lecture de liste]** permet de copier les données d&#39;une liste dans la table de travail d&#39;un workflow, comme les données d&#39;une requête. Il est ensuite accessible dans l’ensemble du workflow.
 
 La liste à traiter peut être spécifiée explicitement, calculée par un script ou localisée dynamiquement, selon les options sélectionnées et les paramètres définis dans l&#39;activité **[!UICONTROL Lecture de liste]**.
 
@@ -44,7 +44,7 @@ L&#39;exemple suivant permet d&#39;utiliser une liste d&#39;adresses emails à e
 
 ![](assets/s_advuser_list_read_sample_1.png)
 
-Les profils contenus dans le dossier **NvxContacts** doivent être ciblés par une action de diffusion. Les adresses emails à exclure de la cible sont stockées dans une liste externe. Dans notre exemple, seule l&#39;information relative aux adresses emails est nécessaire à l&#39;exclusion.
+Les profils contenus dans le dossier **Nouveaux contacts** doivent être ciblés par une diffusion. Les adresses e-mail à exclure de la cible sont stockées dans une liste externe. Dans notre exemple, seules les informations relatives aux adresses e-mail sont requises pour l’exclusion.
 
 1. La requête de sélection du dossier **NvxContact** doit permettre de charger l&#39;adresse email des profils sélectionnés, ceci afin de permettre le rapprochement avec les informations contenues dans la liste.
 
@@ -54,7 +54,7 @@ Les profils contenus dans le dossier **NvxContacts** doivent être ciblés par u
 
    ![](assets/s_advuser_list_read_sample_2.png)
 
-1. Afin d&#39;exclure de la cible principale les adresses emails de la liste externe, vous devez paramétrer l&#39;activité d&#39;exclusion et indiquer que le dossier **NvxContacts** contient les données à conserver. Les données communes entre cet ensemble et tout autre ensemble en entrée de l&#39;activité d&#39;exclusion seront supprimées de la cible.
+1. Pour exclure les adresses e-mail de la liste externe de la cible principale, vous devez configurer l’activité d’exclusion et spécifier que le dossier **Nouveaux contacts** contient les données à conserver. Les données conjointes entre cet ensemble et tout autre ensemble entrant provenant de l&#39;activité d&#39;exclusion seront supprimées de la cible.
 
    ![](assets/s_advuser_list_read_sample_3.png)
 
@@ -68,4 +68,4 @@ Les profils contenus dans le dossier **NvxContacts** doivent être ciblés par u
 
    ![](assets/s_advuser_list_read_sample_4.png)
 
-1. Sélectionnez ensuite le champ correspondant à l&#39;adresse email dans les deux ensembles (Source et Destination). Les colonnes seront alors associées et les destinataires dont l&#39;adresse email figure dans la liste d&#39;adresses importée seront exlcus de la cible.
+1. Sélectionnez ensuite le champ correspondant à l’adresse e-mail dans les deux ensembles (Source et Destination). Les colonnes seront alors liées et les destinataires dont l&#39;adresse e-mail figure dans la liste des adresses importées seront exclus de la cible.

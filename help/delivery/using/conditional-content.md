@@ -9,14 +9,14 @@ hide: true
 exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 100%
+source-wordcount: '517'
+ht-degree: 88%
 
 ---
 
 # Contenu conditionnel{#conditional-content}
 
-En configurant des champs de contenu conditionnel, vous pouvez créer une personnalisation dynamique basée sur le profil du destinataire, par exemple. Les blocs de texte et/ou les images sont remplacés lorsqu&#39;une condition particulière est remplie.
+En configurant des champs de contenu conditionnel, vous pouvez créer une personnalisation dynamique basée sur le profil du ou de la destinataire, par exemple. Les blocs de texte et/ou les images sont remplacés lorsqu’une condition particulière est remplie.
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#conditionnal-content-video)
 
@@ -25,7 +25,7 @@ En configurant des champs de contenu conditionnel, vous pouvez créer une person
 
 Dans l&#39;exemple ci-dessous, vous allez découvrir comment créer de manière dynamique un message personnalisé selon le genre et les centres d&#39;intérêt du destinataire.
 
-* Affichage de « M. » ou « Mme » suivant la valeur du champ **[!UICONTROL Genre]** (M ou F) dans la source de données.
+* Affichage affichant « M. » ou « Mme » suivant la valeur du champ **[!UICONTROL Genre]** (M ou F) dans la source de données.
 * Assemblage personnalisé d&#39;une newsletter ou d&#39;offres promotionnelles en fonction des centres d&#39;intérêt renseignés ou détectés :
 
    * Centre d&#39;intérêt 1 -- > Bloc 1
@@ -39,7 +39,7 @@ Pour créer un contenu conditionnel en fonction de la valeur d&#39;un champ, res
 
    ![](assets/s_ncs_user_conditional_content02.png)
 
-   Les éléments de personnalisation sont insérés dans le corps du message : vous devez maintenant les paramétrer.
+   Les éléments de personnalisation sont insérés dans le corps du message. Vous devez maintenant les configurer.
 
 1. Renseignez ensuite les paramètres de l&#39;expression **if**.
 
@@ -50,7 +50,7 @@ Pour créer un contenu conditionnel en fonction de la valeur d&#39;un champ, res
      ![](assets/s_ncs_user_conditional_content03.png)
 
    * Remplacez **`<value>`** par la valeur du champ pour lequel la condition sera remplie. Cette valeur doit être entre guillemets.
-   * Spécifiez ensuite le contenu à insérer lorsque la condition est vérifiée. Ce contenu peut être du texte, une image, un formulaire, un lien hypertexte, etc.
+   * Indiquez le contenu à insérer lorsque la condition est remplie. Il peut s’agir de texte, d’une image, d’un formulaire, d’un lien hypertexte, etc.
 
      ![](assets/s_ncs_user_conditional_content04.png)
 
@@ -112,6 +112,6 @@ Dans l’exemple ci-dessous, vous allez découvrir comment créer un email multi
 
 Découvrez comment ajouter du contenu conditionnel à une diffusion en prenant pour exemple une newsletter multilingue.
 
->[!VIDEO](https://video.tv.adobe.com/v/30951?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24926?quality=12)
 
-D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+D&#39;autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

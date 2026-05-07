@@ -6,9 +6,9 @@ role: Developer
 feature: Schema Extension
 exl-id: 6e3e666d-6ab3-4346-93ca-fb0155a4660d
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
-source-wordcount: '302'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '304'
+ht-degree: 81%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 Il existe deux solutions pour étendre un schéma déjà existant :
 
 1. Modifier directement le schéma source.
-1. Créer un autre schéma de même nom, mais avec un espace de noms différent. L&#39;avantage est de pouvoir étendre une table sans avoir à modifier le schéma d&#39;origine.
+1. Création d’un autre schéma portant le même nom, mais avec un espace de noms différent. L’avantage est que vous pouvez étendre une table sans avoir à modifier le schéma d’origine.
 
    L&#39;élément racine du schéma doit contenir l&#39;attribut **extendedSchema** avec comme valeur le nom du schéma à étendre.
 
@@ -32,7 +32,7 @@ Il existe deux solutions pour étendre un schéma déjà existant :
 
    >[!IMPORTANT]
    >
-   >Vous n’êtes pas autorisé à modifier les schémas intégrés à l’application ; vous devez utiliser le mécanisme d’extension des schémas. En effet, lors des futures mises à niveau de l’application, les schémas modifiés ne seraient pas mis à jour, ce qui peut entraîner des dysfonctionnements dans l’utilisation d’Adobe Campaign.
+   >Vous n’êtes pas autorisé à modifier les schémas intégrés de l’application, mais plutôt le mécanisme d’extension de schéma. Sinon, les schémas modifiés ne seront pas mis à jour au moment des futures mises à niveau de l’application. Cela peut entraîner des dysfonctionnements dans l’utilisation d’Adobe Campaign.
 
    **Exemple** : extension du schéma **nms:recipient**.
 
@@ -61,4 +61,4 @@ Il existe deux solutions pour étendre un schéma déjà existant :
 >[!IMPORTANT]
 >
 >Pour que les modifications soient prises en compte, vous devez régénérer les schémas. Pour plus dʼinformations, consultez [cette page](../../configuration/using/regenerating-schemas.md).\
->Si les modifications affectent la structure de la base de données, vous devez exécuter une mise à jour. Pour plus dʼinformations, consultez [cette page](../../configuration/using/updating-the-database-structure.md).
+>Si les modifications affectent la structure de la base de données, vous devez exécuter une mise à jour. Pour plus d’informations, consultez [cette page](../../configuration/using/updating-the-database-structure.md).

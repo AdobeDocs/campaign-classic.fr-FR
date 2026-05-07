@@ -10,8 +10,8 @@ topic-tags: advanced-parameters
 exl-id: d4acf99b-cef4-48f7-b4cd-c032ec12592f
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 100%
+source-wordcount: '160'
+ht-degree: 79%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 
 
-Dans le cas d&#39;un contact entrant (centre d&#39;appel ou site web), les offres les plus pertinentes sont proposées à un contact donné grâce à un ensemble de règles d&#39;éligibilité. Pour enrichir les critères d&#39;éligibilité de vos offres, il est nécessaire d&#39;étendre le schéma **nms:interaction**.
+Dans le cas d&#39;un contact entrant (centre d&#39;appel ou site web), les offres les plus pertinentes sont proposées à un contact donné grâce à un ensemble de règles d&#39;éligibilité. Pour enrichir les critères d&#39;éligibilité de vos offres, étendez le schéma **nms:interaction**.
 
-* Pour ajouter un nouveau contexte d&#39;interaction, étendez le schéma **nms:interaction** et créez autant d&#39;éléments **attribute** que nécessaire dans le schéma.
+* Pour ajouter un nouveau contexte d’interaction, étendez le schéma **nms:interaction** et créez autant d’éléments **attribute** que nécessaire dans le schéma.
 
   Dans l&#39;exemple suivant, les critères ajoutés sont le code du pays et la dernière page visitée.
 

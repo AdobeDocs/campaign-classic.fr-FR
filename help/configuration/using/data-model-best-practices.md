@@ -5,8 +5,8 @@ description: Découvrez comment utiliser le modèle de données de Campaign Cla
 feature: Data Model
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
 source-git-commit: 4d8c4ba846148d3df00a76ecc29375b9047c2b20
-workflow-type: ht
-source-wordcount: '4022'
+workflow-type: tm+mt
+source-wordcount: '4095'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,7 @@ Le modèle de données par défaut d’Adobe Campaign est présenté dans ce [d
 
 >[!NOTE]
 >
-> Adobe Campaign Classic permet de créer une table client personnalisée. Cependant, dans la plupart des cas, il est recommandé d’utiliser la [table des destinataires](../../configuration/using/about-data-model.md#default-recipient-table) standard qui contient des tables et des fonctionnalités supplémentaires préconfigurées.
+>Adobe Campaign Classic permet de créer une table client personnalisée. Cependant, dans la plupart des cas, il est recommandé d’utiliser la [table des destinataires](../../configuration/using/about-data-model.md#default-recipient-table) standard qui contient des tables et des fonctionnalités supplémentaires préconfigurées.
 
 ### Données pour Adobe Campaign {#data-for-campaign}
 
@@ -51,7 +51,7 @@ Quelles données doivent être envoyées à Adobe Campaign ? Il est essentiel 
 
 >[!NOTE]
 >
-> Adobe Campaign n&#39;est ni un entrepôt de données, ni un outil de reporting. Vous devez donc éviter d&#39;importer dans Adobe Campaign tous les clients possibles et les informations qui s&#39;y rapportent, ou d&#39;importer des données uniquement pour créer des rapports.
+>Adobe Campaign n&#39;est ni un entrepôt de données, ni un outil de reporting. Vous devez donc éviter d&#39;importer dans Adobe Campaign tous les clients possibles et les informations qui s&#39;y rapportent, ou d&#39;importer des données uniquement pour créer des rapports.
 
 Pour décider si un attribut est nécessaire ou non dans Adobe Campaign, demandez-vous s&#39;il appartient à l&#39;une des catégories suivantes :
 
@@ -104,7 +104,7 @@ Le tableau ci-après décrit ces identifiants et leur finalité.
 |--- |--- |--- |
 | Id | <ul><li>L’id est la clé primaire physique d’une table Adobe Campaign. Pour les tables d’usine, il s’agit d’un nombre sur 32 bits généré à partir d’une séquence.</li><li>Cet identifiant est généralement unique pour une instance Adobe Campaign spécifique. </li><li>Un id généré automatiquement est visible dans une définition de schéma. Il suffit de rechercher l’attribut *autopk=&quot;true&quot;*.</li></ul> | <ul><li>Les identifiants générés automatiquement ne peuvent pas être utilisés comme référence dans un workflow ou une définition de package.</li><li>Un id n’est pas nécessairement un nombre croissant.</li><li>L’id d’une table d’usine est un nombre sur 32 bits dont le type ne doit pas être modifié. Ce nombre provient d’une « séquence », qui est abordée dans la section éponyme.</li></ul> |
 | Nom (ou nom interne) | <ul><li>Cette information est l&#39;identifiant unique d&#39;un enregistrement dans une table. Cette valeur peut être mise à jour manuellement, généralement avec un nom généré.</li><li>Cet identifiant conserve sa valeur lorsqu&#39;il est déployé dans une autre instance d&#39;Adobe Campaign et ne doit pas être vide.</li></ul> | <ul><li>Changez le nom d’enregistrement généré par Adobe Campaign si l’objet est destiné à être déployé d’un environnement à un autre.</li><li>Si un objet possède un attribut d’espace de noms (par exemple, *schema*), cet espace de noms commun sera appliqué à tous les objets personnalisés créés. Certains espaces de noms réservés ne doivent pas être utilisés : *nms*, *xtk*, *nl*, *ncl*, *crm*, *xxl*.</li><li>Lorsqu’un objet n’a pas d’espace de noms (*workflow* ou *delivery*, par exemple), cette notion d’espace de noms est ajoutée sous la forme d’un préfixe d’un objet de nom interne : *namespaceMyObjectName*.</li><li>N’utilisez pas de caractères spéciaux tels que l’espace «   », le point-virgule « ; » ou le tiret « - ». Tous ces caractères seront remplacés par un trait de soulignement « _ » (caractère autorisé). Par exemple, « abc-def » et « abc:def » seront tous deux stockés sous le nom « abc_def » et s’écraseront mutuellement.</li></ul> |
-| Libellé | <ul><li>Le libellé est l&#39;identifiant d&#39;entreprise d&#39;un objet ou d&#39;un enregistrement dans Adobe Campaign.</li><li>Cet objet autorise les espaces et les caractères spéciaux.</li><li>Il ne garantit pas le caractère unique d&#39;un enregistrement.</li></ul> | <ul><li>Il est recommandé de déterminer une structure pour les libellés de vos objets.</li><li>Il s&#39;agit de la solution la plus conviviale pour identifier un enregistrement ou un objet pour un utilisateur d&#39;Adobe Campaign.</li></ul> |
+| Libellé | <ul><li>Le libellé est l’identifiant d’entreprise d’un objet ou d’un enregistrement dans Adobe Campaign.</li><li>Cet objet autorise les espaces et les caractères spéciaux.</li><li>Il ne garantit pas le caractère unique d’un enregistrement.</li></ul> | <ul><li>Il est recommandé de déterminer une structure pour les libellés de vos objets.</li><li>Il s&#39;agit de la solution la plus conviviale pour identifier un enregistrement ou un objet pour un utilisateur d&#39;Adobe Campaign.</li></ul> |
 
 ## Clés internes personnalisées {#custom-internal-keys}
 
@@ -126,7 +126,7 @@ Pour la création d’une table personnalisée, vous avez deux possibilités :
 
 ## Séquences {#sequences}
 
- La clé primaire d’Adobe Campaign est un id généré automatiquement pour toutes les tables d’usine et elle peut être identique pour les tables personnalisées. Voir à ce propos [cette section](#identifiers).
+La clé primaire d’Adobe Campaign est un id généré automatiquement pour toutes les tables d’usine et elle peut être identique pour les tables personnalisées. Voir à ce propos [cette section](#identifiers).
 
 Cette valeur provient d’une **séquence**, constituée d’un objet de base de données servant à générer une séquence de nombres.
 
@@ -146,7 +146,7 @@ Lorsqu’une table personnalisée est créée dans Adobe Campaign avec une clé
 
 Par défaut, une séquence personnalisée aura des valeurs comprises entre +1 000 et +2,1 milliards. Techniquement, il est possible d’obtenir un intervalle complet de 4 milliards de valeurs en activant les id négatifs. Cette approche doit être utilisée avec précaution. En effet, un id sera perdu lors du passage d’un nombre négatif à un nombre positif : l’enregistrement 0 est généralement ignoré par Adobe Campaign dans les requêtes SQL générées.
 
-Pour en savoir plus sur l’épuisement des séquences, regardez cette [vidéo](https://helpx.adobe.com/fr/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
+Pour en savoir plus sur l’épuisement des séquences, regardez cette [vidéo](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
 
 ## des index ; {#indexes}
 
@@ -198,7 +198,7 @@ Le tableau ci-après indique dans quels cas les trois index décrits ci-dessous 
 | Prénom est égal à « Jean-Luc » | Utilisé | Utilisé | Non utilisé | Comme le prénom est en première position sur l’index 1, il sera utilisé de toute façon : il n’est pas nécessaire d’ajouter un critère au nom. |
 | Prénom est égal à « Jean-Luc » ET Nom est égal à « Durand » | Utilisé | Non utilisé | Non utilisé | La recherche des deux attributs correspondant à la même requête, seul l’index combinant les deux est utilisé. |
 | Nom est égal à « Durand » | Non utilisé | Non utilisé | Utilisé | L’ordre des attributs dans l’index est pris en compte. Si vous ne respectez pas cet ordre, l’index ne peut pas être utilisé. |
-|  Prénom commence par « Jea » | Utilisé | Utilisé | Non utilisé | La « recherche par la gauche » active les index. |
+| Prénom commence par « Jea » | Utilisé | Utilisé | Non utilisé | La « recherche par la gauche » active les index. |
 | Prénom se termine par « Luc » | Non utilisé | Non utilisé | Non utilisé | La « recherche par la droite » désactive les index et une analyse complète est effectuée. Certains types d’index spécifiques peuvent gérer ce cas pratique, mais ils ne sont pas disponibles par défaut dans Adobe Campaign. |
 | Prénom contient « Jean » | Non utilisé | Non utilisé | Non utilisé | Il s’agit d’une combinaison de recherches « par la gauche » et « par la droite ». Pour cette raison, cette recherche désactive les index. Une analyse complète est ensuite effectuée. |
 | Prénom est égal à « jean » | Non utilisé | Non utilisé | Non utilisé | Les index sont sensibles à la casse. Pour qu’ils ne le soient pas, vous devez créer un index spécifique contenant une fonction SQL telle que &quot;upper(firstname)&quot;. Vous devez faire de même avec les autres transformations de données telles que &quot;unaccent(firstname)&quot;. |
@@ -239,7 +239,7 @@ Les liens d&#39;une jointure externe (1-0..1) doivent être utilisés avec soin,
 
 ## Conservation des données - nettoyage et purge {#data-retention}
 
- Adobe Campaign n&#39;est ni un entrepôt de données, ni un outil de reporting. Pour garantir de bonnes performances, la croissance des bases de données doit rester sous contrôle. Pour cela, il peut être utile de suivre certaines des bonnes pratiques ci-dessous.
+Adobe Campaign n&#39;est ni un entrepôt de données, ni un outil de reporting. Pour garantir de bonnes performances, la croissance des bases de données doit rester sous contrôle. Pour cela, il peut être utile de suivre certaines des bonnes pratiques ci-dessous.
 
 Par défaut, les logs de diffusion et de tracking d’Adobe Campaign sont conservés pendant 180 jours. Un processus de nettoyage est appliqué pour supprimer les logs antérieurs.
 
@@ -275,7 +275,7 @@ Afin d&#39;optimiser les performances à tout moment, suivez les bonnes pratique
 * Utilisez une ou plusieurs tables de référence plutôt que de dupliquer un champ dans chaque ligne. Lors de l&#39;utilisation de paires clé/valeur, il est préférable de choisir une clé numérique.
 * Une chaîne courte reste acceptable. Si des tables de références sont déjà en place dans un système externe, les réutiliser facilitera l&#39;intégration des données avec Adobe Campaign.
 
-### Relations de type &quot;un à plusieurs&quot;  {#one-to-many-relationships}
+### Relations de type &quot;un à plusieurs&quot; {#one-to-many-relationships}
 
 * La conception des données a un impact sur la convivialité et les fonctionnalités. Si vous concevez votre modèle de données avec de nombreuses relations de type &quot;un à plusieurs&quot;, il devient plus difficile pour les utilisateurs de construire une logique significative dans l&#39;application. Il peut s’avérer difficile pour les spécialistes marketing n’ayant pas de compétences techniques de construire et de comprendre correctement la logique.
 * Qu&#39;une table comporte tous les champs essentiels est une bonne chose car cela facilite la création de requêtes par les utilisateurs. Parfois, pour des raisons de performances, il est aussi judicieux de dupliquer certains champs d’une table à l’autre si cela permet d’éviter une jointure.
@@ -283,7 +283,7 @@ Afin d&#39;optimiser les performances à tout moment, suivez les bonnes pratique
 
 ## Tables volumineuses {#large-tables}
 
- Adobe Campaign fait appel à des moteurs de bases de données tiers. Selon le fournisseur, l&#39;optimisation des performances des tables les plus volumineuses peut nécessiter une conception spécifique.
+Adobe Campaign fait appel à des moteurs de bases de données tiers. Selon le fournisseur, l&#39;optimisation des performances des tables les plus volumineuses peut nécessiter une conception spécifique.
 
 Vous trouverez ci-dessous quelques bonnes pratiques courantes à appliquer lors de la conception de votre modèle de données utilisant des tables volumineuses et des jointures complexes.
 

@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: connectors
 exl-id: b148d34b-4060-4c54-9cb2-9e712a7c17d7
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '384'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '391'
+ht-degree: 59%
 
 ---
 
@@ -29,8 +29,8 @@ La connexion à une base de données externe Netezza en FDA requiert les paramé
 
 1. Installez les pilotes ODBC pour Netezza, en fonction du système d&#39;exploitation que vous utilisez :
 
-   * **nz-linuxclient-v7.2.0.0.tar.gz pour Linux. Sélectionnez le dossier correspondant à votre système d&#39;exploitation (linux ou linux64) et lancez la commande unpack. Vous pouvez laisser l&#39;installation s&#39;effectuer dans le répertoire par défaut proposé : &quot;/usr/local/nz&quot;.**
-   * **nz-winclient-v7.2.0.0.zip** pour Windows. Décompressez le fichier et lancez le script exécutable correspondant à votre système d’exploitation : nzodbcsetup.exe ou nzodbcsetup64.exe. Suivez les instructions de l’assistant pour terminer l’installation des pilotes.
+   * **nz-linuxclient-v7.2.0.0.tar.gz** pour Linux. Sélectionnez le dossier correspondant à votre système d’exploitation (linux ou linux64) et lancez la commande unpack. Vous pouvez laisser l’installation s’effectuer dans le référentiel proposé par défaut : « /usr/local/nz ».
+   * **nz-winclient-v7.2.0.0.zip** pour Windows. Décompressez le fichier et lancez le script exécutable correspondant à votre système d’exploitation : nzodbcsetup.exe ou nzodbcsetup64.exe. Suivez les instructions de l’assistant pour terminer l’installation des pilotes.
 
 1. Configurez le pilote ODBC. La configuration peut être réalisée dans les fichiers standard : **/etc/odbc.ini** pour les paramètres généraux et **/etc/odbcinst.ini** pour la déclaration des pilotes.
 
@@ -66,9 +66,9 @@ La connexion à une base de données externe Netezza en FDA requiert les paramé
 
 1. Définissez les variables d’environnement du serveur Adobe Campaign :
 
-   * **LD_LIBRARY_PATH** : /usr/local/nz/lib et /usr/local/nz/lib64. &quot;/usr/local/nz&quot; correspond au répertoire d’installation proposé par défaut lors de l’installation des pilotes. Indiquez ici le répertoire que vous avez sélectionné pour l’installation.
+   * **LD_LIBRARY_PATH** : /usr/local/nz/lib et /usr/local/nz/lib64. « /usr/local/nz » correspond au référentiel d’installation proposé par défaut lors de l’installation des pilotes. Ici, vous devez spécifier le référentiel que vous avez sélectionné pour l’installation.
    * **ODBCINI** : emplacement du fichier odbc.ini (par exemple /etc/odbc.ini).
-   * **NZ_ODBC_INI_PATH** : emplacement du fichier odbc.ini. Netezza requiert également cette seconde variable pour l’utilisation du fichier odbc.ini.
+   * **NZ_ODBC_INI_PATH** : emplacement du fichier odbc.ini. Netezza a également besoin de cette seconde variable pour utiliser le fichier odbc.ini.
 
 ## Compte externe Netezza {#netezza-external}
 
@@ -94,4 +94,4 @@ Le compte externe Netezza vous permet de connecter l’instance Campaign à la b
 >
 >Les opérations sur les schémas comportant des clés primaires générées automatiquement ne sont pas prises en charge.
 >
->La table utilise la clause **Organize on** sur le premier index défini dans le schéma. Comme cette clause est limitée de 1 à 4 colonnes avec Netezza, cet index ne peut pas contenir plus de 4 colonnes.
+>Le tableau utilisera la clause **Organiser sur** sur le premier index défini dans le schéma. Cette clause étant limitée à 1 à 4 colonnes avec Netezza, cet index ne peut pas contenir plus de 4 colonnes.

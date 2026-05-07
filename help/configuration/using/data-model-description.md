@@ -7,8 +7,8 @@ role: Developer
 exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '2359'
-ht-degree: 100%
+source-wordcount: '2381'
+ht-degree: 99%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 100%
 
 Un modèle de données d’usine est fourni avec Adobe Campaign. Cette section donne un certain nombre de détails sur les tables intégrées du modèle de données d’Adobe Campaign et leurs interactions.
 
-Pour obtenir la description de chaque table, accédez à **[!UICONTROL Admin > Paramétrage > Schémas de données]**, sélectionnez une ressource dans la liste et cliquez sur l’onglet **[!UICONTROL Documentation]**.
+Pour obtenir la description de chaque table, accédez à **[!UICONTROL Admin > Paramétrage > Schémas de données]**, sélectionnez une ressource dans la liste et cliquez sur l’onglet **[!UICONTROL Documentation]**.
 
 ![](assets/data-model_documentation-tab.png)
 
 >[!NOTE]
 >
->La structure physique et logique des données véhiculées dans l&#39;application est décrite en XML et respecte une grammaire propre à Adobe Campaign appelée schéma. Pour en savoir plus sur les schémas Adobe Campaign, lisez cette [section](../../configuration/using/about-schema-reference.md).
+>La structure physique et logique des données véhiculées dans l’application est décrite en XML. Celui-ci obéit à une grammaire spécifique à Adobe Campaign, appelée un schéma. Pour en savoir plus sur les schémas Adobe Campaign, lisez cette [section](../../configuration/using/about-schema-reference.md).
 
 ## Description des tables principales {#description-main-tables}
 
@@ -156,7 +156,7 @@ Ce tableau contient des informations importantes stockées au format XML, notamm
 
 Le contexte d’exécution renseigne les tables et les champs à prendre en compte pour le calcul des mesures, à savoir :
 * Le schéma de stockage des logs de réaction nms:remaMatchRcp
-*  Le schéma de la table de transaction (achats, par exemple)
+* Le schéma de la table de transaction (achats, par exemple)
 * Le schéma de requête, qui vous permet de définir la table de départ des conditions de l’hypothèse.
 * Les liens vers les personnes, pour les identifier spécifiquement en fonction du schéma de requête
 * La date de transaction Ce champ n’est pas obligatoire, mais nous vous recommandons de l’utiliser pour limiter le périmètre de calcul.
@@ -261,7 +261,7 @@ Cet ensemble de tables est lié au module **Canal des applications mobiles**. Il
 * **NmsTrackingLogAppSubRcp** : cette table correspond au schéma **nms:trackingLogAppSubRcp**.
 * **NmsBroadLogAppSubRcp** : cette table correspond au schéma **nms:broadLogAppSubRcp**.
 
-## Module Social  {#social-marketing-module}
+## Module Social {#social-marketing-module}
 
 Cet ensemble de tables est lié au module **Gestion des réseaux sociaux** qui permet d’interagir avec la clientèle et les prospects via Facebook et X (anciennement Twitter). Pour plus d’informations, consultez la section [À propos du marketing sur les réseaux sociaux (Social Marketing)](../../social/using/about-social-marketing.md).
 

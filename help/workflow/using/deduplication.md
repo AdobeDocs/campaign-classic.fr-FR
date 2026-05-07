@@ -7,8 +7,8 @@ hide: true
 exl-id: 38add4fe-6238-45de-863e-895ebca189b7
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 100%
+source-wordcount: '1192'
+ht-degree: 84%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-La déduplication supprime les doublons dans le ou les résultats des activités entrantes. La déduplication peut être effectuée en fonction de l’adresse e-mail, du numéro de téléphone ou d’un autre champ.
+La déduplication supprime les doublons dans le ou les résultats des activités entrantes. La déduplication peut être effectuée sur l’adresse e-mail, le numéro de téléphone ou un autre champ.
 
 L’activité **[!UICONTROL Déduplication]** est utilisée pour supprimer des lignes en double d’un jeu de données. Par exemple, les enregistrements ci-dessous peuvent être considérés comme des doublons, car ils ont la même adresse e-mail et le même téléphone portable et/ou de domicile.
 
@@ -43,7 +43,7 @@ Complémentaire :
 
 ## Bonnes pratiques {#best-practices}
 
-Lors d’une déduplication, les flux entrants sont traités séparément. Si par exemple, un destinataire « A » est présent dans le résultat de la requête 1 et également dans le résultat de la requête 2, il ne sera pas dédupliqué.
+Pendant la déduplication, les flux entrants sont traités séparément. Par exemple, si le destinataire A est trouvé dans le résultat de la requête 1 ainsi que dans le résultat de la requête 2, il ne sera pas dédupliqué.
 
 Ce cas de figure doit s&#39;aborder de cette manière :
 
@@ -52,7 +52,7 @@ Ce cas de figure doit s&#39;aborder de cette manière :
 
 ![](assets/dedup_bonnepratique.png)
 
-## Configuration  {#configuration}
+## Configuration {#configuration}
 
 Pour paramétrer une déduplication, vous devez renseigner son libellé, la méthode et les critères de déduplication et les options relatives au résultat.
 
@@ -85,7 +85,7 @@ Pour paramétrer une déduplication, vous devez renseigner son libellé, la mét
 
      ![](assets/s_user_segmentation_dedup_param5.png)
 
-   * **[!UICONTROL Valeur non vide]** : permet de conserver en priorité les enregistrements pour lesquels la valeur de l&#39;expression sélectionnée n&#39;est pas vide.
+   * **[!UICONTROL Valeur non vide]** : permet de conserver en priorité les enregistrements pour lesquels la valeur de l’expression sélectionnée n’est pas vide.
 
      ![](assets/s_user_segmentation_dedup_param6.png)
 
@@ -101,11 +101,11 @@ Pour paramétrer une déduplication, vous devez renseigner son libellé, la mét
 
    La section centrale de la fenêtre résume le paramétrage défini.
 
-   Dans la section inférieure de la fenêtre d&#39;édition de l&#39;activité, vous pouvez modifier le libellé de la transition sortante de l&#39;objet graphique et saisir un code segment qui sera associé au résultat de l&#39;activité. Ce code pourra être utilisé ultérieurement comme critère de ciblage.
+   Dans la section inférieure de la fenêtre de l&#39;éditeur d&#39;activité, vous pouvez modifier le libellé de la transition sortante de l&#39;objet graphique et saisir un code segment qui sera associé au résultat de l&#39;activité. Ce code peut ensuite être utilisé comme critère de ciblage.
 
    ![](assets/s_user_segmentation_dedup_param8.png)
 
-1. Cochez l&#39;option **[!UICONTROL Générer le complémentaire]** si vous souhaitez exploiter la population restante. Le complémentaire est constitué de tous les doublons. Une transition supplémentaire sera alors ajoutée à l&#39;activité, comme suit :
+1. Cochez l&#39;option **[!UICONTROL Générer le complémentaire]** si vous souhaitez exploiter la population restante. Le complémentaire est constitué de tous les doublons. Une transition supplémentaire sera ensuite ajoutée à l’activité, comme suit :
 
    ![](assets/s_user_segmentation_dedup_param9.png)
 
@@ -121,7 +121,7 @@ Les doublons identifiés seront également intégrés à une liste constituée e
 
 1. Placez et reliez les différentes activités nécessaires au déroulement du workflow comme indiqué dans l&#39;illustration ci-dessus.
 
-   L&#39;activité d&#39;union est ici utilisée pour « unifier » les trois requêtes en une seule transition. Ainsi, la déduplication ne s&#39;opérera pas individuellement sur chaque requête mais sur l&#39;ensemble. Pour plus d’informations, consultez la section [Meilleures pratiques](#best-practices).
+   L’activité d’union est utilisée ici pour « unifier » les trois requêtes en une seule transition. Ainsi, la déduplication ne fonctionne pas pour chaque requête individuellement, mais pour l’ensemble de la requête. Pour plus d’informations, consultez la section [Meilleures pratiques](#best-practices).
 
 1. Ouvrez l&#39;activité de déduplication puis cliquez sur le lien **[!UICONTROL Editer la configuration...]** afin de pouvoir définir le mode de déduplication.
 1. Dans la fenêtre qui s&#39;ouvre, sélectionnez **[!UICONTROL Schéma de la base]**.
@@ -133,7 +133,7 @@ Les doublons identifiés seront également intégrés à une liste constituée e
 1. Choisissez de ne conserver qu&#39;une seule entrée lorsque la même adresse e-mail est identifiée pour plusieurs destinataires.
 1. Sélectionnez le mode de déduplication **[!UICONTROL Choisir pour moi]** afin que l&#39;enregistrement conservé en cas de doublons identifiés soit choisi au hasard, puis cliquez sur **[!UICONTROL Terminer]**.
 
-Lors de l&#39;exécution du workflow, les destinataires identifiés comme étant des doublons seront exclus du résultat (et donc de la diffusion) et ajoutés à la liste des doublons. Cette liste pourra être réutilisée afin de ne pas avoir à identifier de nouveau les doublons.
+Lors de l’exécution du workflow, tous les destinataires identifiés comme des doublons sont exclus du résultat (et donc de la diffusion) et ajoutés à la liste des doublons. Il est possible d&#39;utiliser à nouveau cette liste plutôt que d&#39;avoir à identifier à nouveau les doublons.
 
 ## Fusion de champs en un seul enregistrement de données {#merging-fields-into-single-record}
 

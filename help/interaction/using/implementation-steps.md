@@ -5,9 +5,9 @@ description: Étapes de lʼimplémentation du module Interaction de Campaign
 feature: Interaction, Offers
 exl-id: 82b88ab7-6a95-4bb3-b8b3-abea0fdd4ca0
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Les étapes suivantes sont destinées à être réalisées par un profil de type **Chargé de diffusions**. Ce dernier intervient uniquement sur les offres présentes dans les environnements en ligne.
+>Les étapes suivantes doivent être exécutées par un profil **Chargé de diffusion**. Ils ne peuvent modifier les offres que dans des environnements en ligne.
 
 1. Créer une campagne.
 1. Référencer une offre dans une campagne ou l’envoi d’une campagne. Voir à ce sujet la section [À propos des canaux sortants](../../interaction/using/about-outbound-channels.md).

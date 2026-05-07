@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: instance-configuration
 exl-id: 23a384d1-27ce-46c2-98c3-0fb60a5c50ee
 source-git-commit: 221e2ccdaadf793212fcacdf5e13823f1505f4dc
-workflow-type: ht
-source-wordcount: '1292'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1312'
+ht-degree: 94%
 
 ---
 
@@ -33,7 +33,7 @@ Toutes les étapes nécessaires pour configurer et connecter les instances de pi
 
 >[!IMPORTANT]
 >
->L&#39;instance de pilotage et la ou les instance(s) d&#39;exécution doivent être installées sur des machines différentes. Elles ne peuvent pas partager la même instance Campaign.
+>L&#39;instance de pilotage et la ou les instance(s) d&#39;exécution doivent être installées sur des machines différentes. Ils ne peuvent pas partager la même instance Campaign.
 
 ## Configuration de l&#39;instance de pilotage {#control-instance}
 
@@ -120,7 +120,7 @@ L&#39;identifiant peut également être **attribué automatiquement**. Pour ce f
 
 ![](assets/messagecenter_create_extaccount_006bis.png)
 
-## Configuration des instances d&#39;exécution  {#execution-instance}
+## Configuration des instances d&#39;exécution {#execution-instance}
 
 >[!NOTE]
 >
@@ -130,7 +130,7 @@ Pour connecter la ou les instances d&#39;exécution à l&#39;instance de pilotag
 
 Pour que l&#39;instance de pilotage puisse se connecter à l&#39;instance d&#39;exécution sans avoir à fournir de mot de passe, il suffit de saisir l&#39;adresse IP de l&#39;instance de pilotage dans la section relative aux droits d&#39;accès de **Message Center**. Cependant, les mots de passe vides sont interdits par défaut.
 
-Pour utiliser un mot de passe vide, accédez aux instances d&#39;exécution et définissez une zone de sécurité limitée à l&#39;adresse IP du système d&#39;information qui diffuse les événements. Cette zone de sécurité doit autoriser les mots de passe vides et accepter les connexions de type `<identifier> / <password>`. Voir à ce propos [cette section](../../installation/using/security-zones.md).
+Pour utiliser un mot de passe vide, accédez aux instances d&#39;exécution et définissez une zone de sécurité limitée à l&#39;adresse IP du système d&#39;information qui diffuse les événements. Cette zone de sécurité doit autoriser les mots de passe vides et accepter les connexions de type `<identifier> / <password>`. Pour plus d’informations, consultez [cette section](../../installation/using/security-zones.md).
 
 >[!NOTE]
 >
@@ -153,7 +153,7 @@ Lors de l&#39;utilisation de plusieurs instances d&#39;exécution, répétez ces
 
 ## Utilisation de plusieurs instances de pilotage {#using-several-control-instances}
 
-Vous pouvez mutualiser un cluster d&#39;exécution entre différentes instances de pilotage. Ce type d&#39;architecture requiert le paramétrage suivant.
+Vous pouvez partager un cluster d&#39;exécution avec différentes instances de pilotage. Ce type d&#39;architecture requiert la configuration suivante.
 
 Imaginez, par exemple, que votre entreprise gère deux marques, chacune disposant de sa propre instance de pilotage : **Pilotage 1** et **Pilotage 2**. Deux instances d&#39;exécution sont également utilisées. Vous devez saisir un opérateur Message Center différent pour chaque instance de pilotage : un opérateur **mc1** pour l&#39;instance **Pilotage 1** et un opérateur **mc2** pour l&#39;instance **Pilotage 2**.
 
@@ -195,7 +195,7 @@ Pour utiliser plusieurs instances de pilotage, ce paramétrage doit être réali
 
    >[!NOTE]
    >
-   >Les opérateurs **mc1** et **mc2** doivent disposer des droits d’**[!UICONTROL exécution Message Center]**, et l&#39;accès à la console cliente Adobe Campaign ne doit pas leur être autorisé. Un opérateur doit toujours être associé à une zone de sécurité. Pour plus d’informations, consultez [cette section](../../installation/using/security-zones.md).
+   >Les opérateurs **mc1** et **mc2** doivent disposer des droits **[!UICONTROL exécution Message Center]** et ne peuvent pas accéder à la console cliente Adobe Campaign. Un opérateur doit toujours être associé à une zone de sécurité. Pour plus d’informations, consultez [cette section](../../installation/using/security-zones.md).
 
 1. Pour chaque opérateur, cochez la case **[!UICONTROL Restreindre aux données présentes dans les sous-dossiers de]**, et sélectionnez le dossier correspondant (**Dossier 1** pour l&#39;opérateur **mc1** et **Dossier 2** pour l&#39;opérateur **mc2**).
 

@@ -5,9 +5,9 @@ description: Découvrez comment mapper des données dans une base de données ex
 feature: Installation, Instance Settings
 exl-id: a7253ca7-47e5-4def-849d-3ce1c9b948fb
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '195'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -37,7 +37,7 @@ Pour cela, les étapes sont les suivantes :
 
    Vous pouvez également gérer ou non le tracking pour ce mapping de diffusion (**trackinglog**).
 
-1. Sélectionnez ensuite les extensions qui seront prises en compte. Le type d&#39;extension dépend des paramètres et options de votre plateforme (consultez votre contrat de licence).
+1. Sélectionnez ensuite les extensions à prendre en compte. Le type d’extension dépend des paramètres et options de votre plateforme (consultez votre contrat de licence).
 
    ![](assets/wf_new_mapping_define_extensions.png)
 

@@ -7,8 +7,8 @@ hide: true
 exl-id: 5354d608-2fea-45f9-a0aa-11c7e965ab04
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 100%
+source-wordcount: '417'
+ht-degree: 77%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 ## Mettre à jour la base de données {#updating-the-database}
 
-Toutes les données collectées peuvent être utilisées pour mettre à jour la base de données, ou dans des diffusions. Par exemple, vous pouvez enrichir les possibilités de personnalisation du contenu des messages (inclure le nombre de contrats dans le message, indiquer le panier moyen pour l&#39;année écoulée, etc) ou affiner le ciblage des populations (adresser un message aux co-titulaires d&#39;un contrat, cibler les 1000 meilleurs acheteurs abonnés aux services en ligne, etc.). Ces données peuvent également être exportées ou archivées dans une liste.
+Toutes les données collectées peuvent être utilisées pour mettre à jour la base de données ou dans des diffusions. Vous pouvez, par exemple, enrichir les possibilités de personnalisation du contenu des messages (inclure le nombre de contrats dans le message, indiquer le panier moyen pour l’année écoulée, etc.) ou un ciblage détaillé de la population (envoyer un message aux co-titulaires d’un contrat, cibler les 1 000 meilleurs abonnés aux services en ligne, etc.). Ces données peuvent également être exportées ou archivées dans une liste.
 
 ### Listes et mises à jour directes {#lists-and-direct-updates}
 
@@ -26,7 +26,7 @@ Les données de la base Adobe Campaign et les listes existantes peuvent être m
 
 * L&#39;activité **[!UICONTROL Mise à jour de liste]** permet de stocker les tables de travail dans une liste de données.
 
-  Vous pouvez sélectionner une liste existante ou la créer. Dans ce cas, le nom et éventuellement le dossier d&#39;enregistrement sont calculés.
+  Vous pouvez sélectionner une liste existante ou la créer. Dans ce cas, le nom et éventuellement le dossier d’enregistrement sont calculés.
 
   ![](assets/s_user_create_list.png)
 

@@ -6,9 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Surveys
 exl-id: bd94c41a-813a-4ddb-a2bd-c3deab022482
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '635'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '644'
+ht-degree: 66%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-Dans cet exemple, nous allons proposer un jeu-concours aux destinataires de la base de données. Le formulaire Web de participation permettra au destinataire, en plus de ses réponses, de parrainer un ami auquel ce jeu pourra être proposé, en communiquant son adresse email.
+Dans cet exemple, nous allons proposer un jeu-concours aux destinataires en base. Le formulaire Web contiendra une section pour saisir les réponses et une autre pour recommander un ami en saisissant son adresse électronique.
 
 ![](assets/s_ncs_admin_survey_viral_sample_0.png)
 
@@ -28,7 +28,7 @@ Les étapes de paramétrage et de réalisation du bloc de parrainage sont les su
 
    ![](assets/s_ncs_admin_survey_viral_sample_2.png)
 
-   Le champ **Votre message** permet de saisir un message à l&#39;intention du filleul. Le parrain doit également saisir **Son nom**, **Son prénom** et **Son email**.
+   Le champ **Votre message** permet de saisir un message pour le filleul. Le référent doit également saisir ses **Nom**, **Prénom** et **E-mail**.
 
    Les informations saisies dans les champs sont stockées dans une table spécifique : la table des visiteurs.
 
@@ -36,7 +36,7 @@ Les étapes de paramétrage et de réalisation du bloc de parrainage sont les su
    >
    >Tant que le destinataire n&#39;a pas exprimé son consentement, vous ne pouvez pas le stocker parmi les destinataires la base de données. Il sera donc provisoirement stocké dans la table des **visiteurs et visiteuses** (**nms:visitor**) conçue pour les campagnes de marketing viral. Cette table est régulièrement purgée de son contenu par les opérations de **cleansing**.
    >
-   >Dans notre exemple, nous allons en cibler les destinataires pour leur proposer de participer à ce concours, sur les conseils de leur parrain. Vous allez toutefois leur proposer, dans ce message, un abonnement à l&#39;un de vos services d&#39;information. S&#39;ils acceptent, ils pourront être stockés en base.
+   >Dans cet exemple, nous allons cibler des destinataires pour leur proposer de participer au jeu-concours proposé par leur parrain. Cependant, dans ce message, nous souhaitons également leur proposer un abonnement à l&#39;un de nos services d&#39;information. S’ils s’abonnent, ils peuvent être stockés dans la base de données.
 
    ![](assets/s_ncs_admin_survey_viral_sample_5.png)
 
@@ -56,7 +56,7 @@ Les étapes de paramétrage et de réalisation du bloc de parrainage sont les su
    ctx.recipient.visitor.@referrerLastName = ctx.recipient.@lastName
    ```
 
-   Le nom, le prénom et l&#39;adresse email renseignées dans le bloc d&#39;identification de la page sont identifiés comme les nom, prénom et adresse email du parrain. Ces champs seront réinjectées dans le corps du message adressé au filleul.
+   Le nom, le prénom et l’adresse e-mail saisis dans le bloc d’identification de la page sont identifiés comme le nom, le prénom et l’adresse e-mail du référent. Ces champs seront réinjectés dans le corps du message envoyé au filleul.
 
    La valeur APP5 correspond au nom interne du formulaire Web : cette information permet de connaître l&#39;origine du filleul, c&#39;est-à-dire d&#39;associer le visiteur au formulaire Web à partir duquel il a été créé.
 
@@ -76,7 +76,7 @@ Les étapes de paramétrage et de réalisation du bloc de parrainage sont les su
 
      ![](assets/s_ncs_admin_survey_viral_sample_7b.png)
 
-   * Les coordonnées du filleul, ainsi que les informations relatives au parrain, proviennent de la table des visiteurs. Elles sont insérées en utilisant le bouton de personnalisation.
+   * Les coordonnées du filleul ainsi que les informations sur le filleul sont extraites du tableau des visiteurs. Il est inséré à l’aide du bouton de personnalisation.
 
      ![](assets/s_ncs_admin_survey_viral_sample_7a.png)
 
@@ -125,4 +125,4 @@ Les étapes de paramétrage et de réalisation du bloc de parrainage sont les su
 
    ![](assets/s_ncs_admin_survey_viral_sample_9.png)
 
-   Son profil contient les informations saisies par son parrain. Elles sont stockées selon les paramétrages saisis dans le script du formulaire. Il sera enregistré dans la table des destinataires s&#39;il choisit de s&#39;inscrire à la newsletter.
+   Leur profil contient les informations saisies par leur référent. Il est stocké en fonction des paramétrages renseignés dans le script du formulaire. S’ils décident de s’abonner à la newsletter, ils seront enregistrés dans le tableau des destinataires.

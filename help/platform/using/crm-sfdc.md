@@ -7,8 +7,8 @@ exl-id: 94a1f00d-e952-4edd-9012-f71c87b897ca
 hide: true
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 100%
+source-wordcount: '361'
+ht-degree: 85%
 
 ---
 
@@ -36,15 +36,15 @@ Pour configurer le connecteur CRM pour Salesforce, procédez comme suit :
 Compte utilisé pour se connecter à Salesforce CRM
 
    * **[!UICONTROL Mot de passe]**
-Mot de passe utilisé pour se connecter à Salesforce CRM.
+Mot de passe utilisé pour se connecter au CRM Salesforce.
 
-   * **[!UICONTROL Identifiant du client]**
-Pour savoir où trouver l’identifiant du client, consultez [cette page](https://help.salesforce.com/articleView?id=000205876&type=1).
+   * **[!UICONTROL Identifiant client]**
+Pour savoir où trouver votre identifiant client, consultez cette [page](https://help.salesforce.com/articleView?id=000205876&type=1).
 
    * **[!UICONTROL Jeton de sécurité]**
-Pour savoir où trouver le jeton de sécurité, consultez [cette page](https://help.salesforce.com/articleView?id=000205876&type=1).
+Pour savoir où trouver votre jeton de sécurité, consultez cette [page](https://help.salesforce.com/articleView?id=000205876&type=1).
 
-   * **[!UICONTROL Version de l’API]**
+   * Version de l’API ****
 Sélectionnez la version de l’API.
 1. Exécutez l’assistant de configuration pour générer le tableau CRM disponible : l’assistant de configuration vous permet de collecter des tableaux et de créer le schéma correspondant.
 

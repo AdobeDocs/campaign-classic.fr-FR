@@ -8,14 +8,14 @@ hide: true
 exl-id: d272d4b9-f1b2-4fb2-9ed9-91a4aea7eca3
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 100%
+source-wordcount: '1187'
+ht-degree: 65%
 
 ---
 
 # Création et configuration de modèles d’opération {#campaign-templates}
 
-Toutes les campagnes marketing sont basées sur un modèle qui stocke les principales caractéristiques et fonctionnalités. Les modèles d’opération sont centralisés dans le nœud **[!UICONTROL Ressources > Modèles > Modèles d’opération]**. Un modèle par défaut est fourni en guise d’exemple standard. Il vous permet de créer une opération qui utilise tous les modules disponibles (Documents, Tâches, Adresses de contrôle et autres). Toutefois, les modules proposés dépendent de vos droits et de la configuration de votre plateforme Adobe Campaign.
+Toutes les campagnes marketing sont basées sur un modèle qui stocke les principales caractéristiques et fonctionnalités. Les modèles d&#39;opération sont centralisés dans le nœud **[!UICONTROL Ressources > Modèles > Modèles d&#39;opération]**. Un modèle par défaut est fourni en standard. Il permet de créer une nouvelle campagne qui utilise tous les modules disponibles (Documents, Tâches, Adresses de contrôle, etc.). Toutefois, les modules proposés dépendent de vos droits et de la configuration de votre plateforme Adobe Campaign.
 
 ![](assets/s_ncs_user_campaign_op_template_node.png)
 
@@ -67,9 +67,9 @@ Le lien **[!UICONTROL Paramètres avancés de l’opération…]** vous permet d
 
 ![](assets/s_ncs_user_op_template_tab1.3.png)
 
-Si une fonctionnalité n’est pas sélectionnée, les éléments relatifs au processus (menus, icônes, options, onglets, sous-onglets, etc.) n’apparaîtront pas dans l’interface du modèle ou dans les campagnes basées sur ce modèle. Les onglets situés à gauche des détails de l’opération coïncident généralement avec les processus sélectionnés dans le modèle. Par exemple, si **Dépenses et objectifs** n’est pas sélectionné, l’onglet **[!UICONTROL Budget]** correspondant n’apparaîtra pas dans les opérations basées sur ce modèle.
+Si une fonctionnalité n&#39;est pas sélectionnée, les éléments relatifs au processus (menus, icônes, options, onglets, sous-onglets, etc.) n&#39;apparaîtra pas dans l&#39;interface du modèle ou dans les campagnes basées sur ce modèle. Les onglets situés à gauche des détails de l’opération coïncident généralement avec les processus sélectionnés dans le modèle. Par exemple, si **Dépenses et objectifs** n’est pas sélectionné, l’onglet **[!UICONTROL Budget]** correspondant n’apparaîtra pas dans les opérations basées sur ce modèle.
 
-De plus, des raccourcis vers les fenêtres de configuration sont ajoutés dans le tableau de bord de l&#39;opération : lorsqu&#39;une fonctionnalité est activée, un lien direct permet d&#39;y accéder depuis le tableau de bord de l&#39;opération.
+De plus, des raccourcis vers les fenêtres de configuration sont ajoutés dans le tableau de bord de la campagne. Lorsqu&#39;une fonctionnalité est activée, un lien direct permet d&#39;y accéder depuis le tableau de bord de la campagne.
 
 Par exemple, avec le paramétrage ci-dessous :
 
@@ -95,19 +95,19 @@ Les liens et onglets affichés seront les suivants :
 
 * **Population témoin**
 
-  Lorsque ce module est sélectionné, un onglet supplémentaire est ajouté dans les paramètres avancés du modèle et des opérations basées sur ce modèle. La configuration peut être définie à partir du modèle ou individuellement, au niveau de chaque opération. En savoir plus sur les populations témoins dans [cette section](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
+  Lorsque ce module est sélectionné, un onglet supplémentaire est ajouté dans les paramètres avancés du modèle et des campagnes basées sur ce modèle. La configuration peut être définie à partir du modèle ou individuellement au niveau de chaque campagne. En savoir plus sur les populations témoins dans [cette section](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
 
   ![](assets/s_ncs_user_op_template_activate_1.png)
 
 * **Adresses de contrôle**
 
-  Lorsque ce module est sélectionné, un onglet supplémentaire est ajouté dans les paramètres avancés du modèle et des opérations basées sur ce modèle. La configuration peut être définie à partir du modèle ou individuellement, au niveau de chaque opération. En savoir plus sur les adresses de contrôle dans [cette section](../../delivery/using/about-seed-addresses.md).
+  Lorsque ce module est sélectionné, un onglet supplémentaire est ajouté dans les paramètres avancés du modèle et des campagnes basées sur ce modèle. La configuration peut être définie à partir du modèle ou individuellement au niveau de chaque campagne. En savoir plus sur les adresses de contrôle dans [cette section](../../delivery/using/about-seed-addresses.md).
 
   ![](assets/s_ncs_user_op_template_activate_2.png)
 
 * **Documents**
 
-  Lorsque ce module est sélectionné, un onglet supplémentaire est ajouté dans l’onglet **[!UICONTROL Édition]** du modèle et des opérations basées sur ce modèle. Les documents attachés peuvent être ajoutés à partir du modèle ou individuellement, au niveau de chaque opération. En savoir plus sur les documents dans [cette section](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents).
+  Lorsque ce module est sélectionné, un onglet supplémentaire est ajouté à l&#39;onglet **[!UICONTROL Édition]** du modèle et des campagnes basées sur ce modèle. Les documents attachés peuvent être ajoutés à partir du modèle ou individuellement au niveau de chaque campagne. En savoir plus sur les documents dans [cette section](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents).
 
   ![](assets/s_ncs_user_op_template_activate_3.png)
 
@@ -119,7 +119,7 @@ Les liens et onglets affichés seront les suivants :
 
 * **Ciblages et workflows**
 
-  Lorsque vous sélectionnez le module **[!UICONTROL Ciblages et workflows]**, un onglet est ajouté pour vous permettre de créer un ou plusieurs workflows pour les opérations basées sur ce modèle. Les workflows peuvent également être configurés individuellement pour chaque opération en fonction de ce modèle. En savoir plus sur les workflows des opérations dans [cette section](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
+  Lorsque vous sélectionnez le module **[!UICONTROL Ciblages et workflows]**, un onglet est ajouté pour vous permettre de créer un ou plusieurs workflows pour les opérations basées sur ce modèle. Les workflows peuvent également être configurés individuellement pour chaque campagne en fonction de ce modèle.En savoir plus sur les workflows de campagne dans [cette section](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
 
   ![](assets/s_ncs_user_op_template_activate_5.png)
 
@@ -133,7 +133,7 @@ Les liens et onglets affichés seront les suivants :
 
   ![](assets/s_ncs_user_op_template_activate_5b.png)
 
-  Vous pouvez choisir d&#39;activer ou non la validation des traitements, à partir de l&#39;onglet **[!UICONTROL Validations]** des paramètres avancés du modèle. Les traitements pour lesquels une validation est sélectionnée devront être validés pour autoriser la diffusion des messages.
+  Vous pouvez choisir d&#39;activer ou non la validation du processus dans l&#39;onglet **[!UICONTROL Validations]** de la section des paramètres avancés des modèles. Les traitements pour lesquels la validation est sélectionnée doivent être validés pour que la diffusion des messages soit autorisée.
 
   Vous devez associer un opérateur ou groupe d&#39;opérateur validant à chaque validation activée.
 
@@ -158,8 +158,8 @@ Lorsque vous créez un modèle de campagne, vous devez indiquer les informations
   >
   >Découvrez comment **utiliser les énumérations** dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
 
-* Sélectionnez le **type de campagne** : unique, récurrente ou périodique. Par défaut, les modèles de campagne s&#39;appliquent aux campagnes uniques. Les opérations périodiques et récurrentes sont décrites dans [cette section](../../campaign/using/setting-up-marketing-campaigns.md#recurring-and-periodic-campaigns).
-* Indiquez la durée de l’opération, c’est-à-dire la période sur laquelle s’étalera l’opération. Lors de la création d’une opération basée sur ce modèle, les dates de début et de fin de l’opération seront alors automatiquement renseignées.
+* Sélectionnez le **type de campagne** : unique, récurrente ou périodique. Par défaut, les modèles de campagne s’appliquent aux campagnes uniques. Les opérations périodiques et récurrentes sont décrites dans [cette section](../../campaign/using/setting-up-marketing-campaigns.md#recurring-and-periodic-campaigns).
+* Spécifiez la durée de la campagne, c’est-à-dire le nombre de jours pendant lesquels la campagne aura lieu. Lors de la création d&#39;une campagne basée sur ce modèle, les dates de début et de fin de la campagne seront automatiquement renseignées.
 
   S’il s’agit d’une opération récurrente, vous devez indiquer les dates de début et de fin de l’opération directement dans le modèle.
 
@@ -167,7 +167,7 @@ Lorsque vous créez un modèle de campagne, vous devez indiquer les informations
 
 ### Paramètres d&#39;exécution du modèle {#template-execution-parameters}
 
-Le lien **[!UICONTROL Paramètres avancés de l&#39;opération...]** permet de configurer les options avancées du modèle pour le traitement de la cible des diffusions (population témoin, adresses de contrôle, etc.), ainsi que la configuration de la mesure des opérations et de l&#39;exécution des workflows.
+Le lien **[!UICONTROL Paramètres avancés de l&#39;opération...]** permet de paramétrer les options avancées du modèle pour le traitement de la cible des diffusions (population témoin, adresses de contrôle, etc.) ainsi que la configuration de la mesure des campagnes et de l’exécution des workflows.
 
 ![](assets/s_ncs_user_op_template_tab1.2.png)
 
@@ -175,8 +175,8 @@ Le lien **[!UICONTROL Paramètres avancés de l&#39;opération...]** permet de c
 
 Vous pouvez créer le planning d’une opération et suivre ainsi les réalisations, par exemple pour préparer un planning d’événement pour une date spécifique. Les modèles d’opération vous permettent maintenant de calculer la date de début d’une tâche en fonction de la date de fin d’une opération.
 
-Dans la boîte de configuration de la tâche, accédez à la section **[!UICONTROL Planning d’implémentation]** et cochez la case **[!UICONTROL La date de début est calculée en fonction de la date de fin de la campagne]**. (Ici, « date de début » est la date de début de la tâche). Dans le champ **[!UICONTROL Démarrage]**, entrez un intervalle : la tâche commencera d&#39;autant avant la date de fin de l&#39;opération. Si vous entrez une durée supérieure à la durée de l&#39;opération, la tâche commencera avant le début de l&#39;opération.
+Dans la boîte de configuration de la tâche, accédez à la zone **[!UICONTROL Planning de mise en œuvre]** et cochez la case **[!UICONTROL La date de début est calculée en fonction de la date de fin de la campagne]**. (Ici, « date de début » est la date de début de la tâche). Dans le champ **[!UICONTROL Démarrage]**, entrez un intervalle : la tâche commencera d&#39;autant avant la date de fin de l&#39;opération. Si vous entrez une durée supérieure à la durée de l&#39;opération, la tâche commencera avant le début de l&#39;opération.
 
 ![](assets/mrm_task_in_template_start_date.png)
 
-Lorsque vous créerez une opération d&#39;après ce modèle, la date de début de la tâche sera calculée automatiquement. Il vous sera cependant toujours possible de la modifier.
+Lorsque vous créez une campagne à partir de ce modèle, la date de début de la tâche est automatiquement calculée. Cependant, vous pourrez toujours le modifier ultérieurement.

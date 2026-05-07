@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!AVAILABILITY]
 >
->`:warning:` Cette fonctionnalité est disponible uniquement dans Campaign Classic v7. [Apprenez-en davantage](../../social/using/about-social-marketing.md)
+>`:warning:` Cette fonctionnalité est disponible uniquement dans Campaign Classic v7. [Apprenez-en davantage](../../social/using/about-social-marketing.md)
 
 Les workflows présentés ci-dessous sont installés par défaut avec le module **Marketing social**.
 

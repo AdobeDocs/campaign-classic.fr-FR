@@ -6,10 +6,11 @@ feature: Overview, Troubleshooting
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-source-git-commit: 8d9bb9d2ff4450646bbf218804b8c8b4459b5a91
+exl-id: 89356b5a-d99c-43d1-892b-5a1d003e76cc
+source-git-commit: c1796e5f827b79f72a07eb07886d345d3b897f86
 workflow-type: tm+mt
-source-wordcount: '1350'
-ht-degree: 81%
+source-wordcount: '1522'
+ht-degree: 80%
 
 ---
 
@@ -19,7 +20,7 @@ ht-degree: 81%
 >
 >Ces questions fréquentes abordent des questions spécifiques à l’architecture d’Adobe Campaign Classic v7, aux modèles de déploiement et aux fonctionnalités spécifiques à la v7.
 >
->**Pour obtenir des réponses complètes aux questions courantes sur Campaign** (workflows, diffusions, audiences, reporting, personnalisation, etc.), consultez les [**questions fréquentes complètes sur Campaign v8**](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-faq-comprehensive){target="_blank"}, qui fournissent des réponses détaillées organisées par rubrique.
+>**Pour obtenir des réponses complètes aux questions courantes sur Campaign** (workflows, diffusions, audiences, reporting, personnalisation, etc.), consultez les [**questions fréquentes complètes sur Campaign v8**](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-faq-comprehensive){target="_blank"}, qui fournissent des réponses détaillées organisées par rubrique.
 
 ## Architecture et déploiement de Campaign Classic v7 {#v7-architecture}
 
@@ -41,7 +42,7 @@ Chaque modèle de déploiement possède des capacités et des responsabilités d
 
 +++
 
-+++ Quelles sont les différences entre un environnement on-premise et un environnement hébergé ?{#what-are-the-differences-when-working-on-premise-vs-in-a-hosted-environment}
++++ Quelles sont les différences entre un environnement On-premise et un environnement hébergé ? {#what-are-the-differences-when-working-on-premise-vs-in-a-hosted-environment}
 
 Adobe Campaign Classic v7 est proposé avec un ensemble de modules et d’options. La disponibilité de ces modules et leur configuration dépend du [type de déploiement](../../installation/using/hosting-models.md) de votre installation : hébergée (Managed Services), hybride ou on-premise.
 
@@ -68,7 +69,7 @@ La migration vers Adobe Managed Services améliore l’évolutivité, la sécu
 
 **Prise en main :** contactez votre représentant ou représentante Adobe pour évaluer votre environnement et développer un plan de migration détaillé avec Adobe Professional Services.
 
-En savoir plus sur la [migration vers Managed Services](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605?profile.language=fr){target="_blank"}.
+En savoir plus sur la [migration vers Managed Services](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605){target="_blank"}.
 
 +++
 
@@ -94,8 +95,8 @@ Campaign v8 est une plateforme stratégique d’Adobe idéale pour les organisa
 
 En savoir plus :
 
-* [Vue d’ensemble de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/whats-new.html){target="_blank"}
-* [Transition de Campaign Classic v7 vers v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/v7-to-v8.html?lang=fr){target="_blank"}
+* [Présentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/whats-new.html){target="_blank"}
+* [Transition de Campaign Classic v7 vers v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/v7-to-v8.html?lang=fr){target="_blank"}
 * [Questions fréquentes complètes sur Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html?lang=fr){target="_blank"}
 
 **Pour obtenir des réponses détaillées aux questions courantes de Campaign sur les workflows, les diffusions, les audiences, le reporting, la personnalisation, et bien d’autres encore**, consultez les [questions fréquentes complètes sur Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html?lang=fr){target="_blank"}.
@@ -169,7 +170,7 @@ Les déploiements on-premise et hybrides nécessitent une configuration et un re
 * Correctifs de sécurité standard
 * Journalisation et surveillance des audits
 
-Consultez la [Liste de contrôle relative à la configuration de la sécurité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html){target="_blank"} pour découvrir les éléments essentiels à contrôler en ce qui concerne la configuration et le renforcement de la sécurité pour les déploiements on-premise.
+Consultez la [Liste de contrôle relative à la configuration de la sécurité](https://helpx.adobe.com/campaign/kb/acc-security.html){target="_blank"} pour découvrir les éléments essentiels à contrôler en ce qui concerne la configuration et le renforcement de la sécurité pour les déploiements on-premise.
 
 +++
 
@@ -210,7 +211,7 @@ En savoir plus dans la [documentation de la console cliente Campaign](../../plat
 
 +++ Où les clients hébergés peuvent-ils gérer les paramètres des instances ? {#where-to-manage-instance-settings}
 
-Le Panneau de Contrôle [&#128279;](https://experienceleague.adobe.com/fr/docs/control-panel/using/control-panel-home.html?lang=fr){target="_blank"} aide les administrateurs de produit d’Adobe Campaign à gérer les paramètres et à suivre l’utilisation de chaque instance. Son interface intuitive vous permet de surveiller les ressources essentielles et d’effectuer des tâches administratives telles que les mises à jour de la place sur la liste autorisée IP, la surveillance de l’espace de stockage SFTP, la gestion des clés, etc.
+Le Panneau de Contrôle [](https://experienceleague.adobe.com/fr/docs/control-panel/using/control-panel-home.html?lang=fr){target="_blank"} aide les administrateurs de produit d’Adobe Campaign à gérer les paramètres et à suivre l’utilisation de chaque instance. Son interface intuitive vous permet de surveiller les ressources essentielles et d’effectuer des tâches administratives telles que les mises à jour de la place sur la liste autorisée IP, la surveillance de l’espace de stockage SFTP, la gestion des clés, etc.
 
 **Principaux avantages :**
 
@@ -252,7 +253,7 @@ Consultez les [**questions fréquentes complètes sur Campaign v8**](https://ex
 
 **Communauté et support :**
 
-* [Forums de la communauté Campaign](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=fr){target="_blank"}
-* [Support Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
+* [Forums de la communauté Campaign](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
+* [Assistance Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
 
 +++

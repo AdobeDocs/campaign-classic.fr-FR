@@ -6,8 +6,8 @@ feature: Monitoring, Deliverability, Troubleshooting
 role: User, Developer
 exl-id: cc793d7b-0a26-4a75-97ed-d79c87d9b3b8
 source-git-commit: 2ebae2b84741bf26dd44c872702dbf3b0ebfc453
-workflow-type: ht
-source-wordcount: '669'
+workflow-type: tm+mt
+source-wordcount: '795'
 ht-degree: 100%
 
 ---
@@ -104,7 +104,7 @@ Vérifiez le statut des workflows dans **[!UICONTROL Administration]** > **[!UI
 
 ## Rubriques connexes
 
-* [Présentation des diffusions en échec](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (documentation de Campaign v8)
+* [Comprendre les diffusions en échec](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-failures){target="_blank"} (documentation de Campaign v8)
 * [Bonnes pratiques de diffusion](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/start/delivery-best-practices){target="_blank"} (documentation de Campaign v8)
 * [Surveiller les diffusions dans l’interface d’utilisation de Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"} (documentation de Campaign v8)
 * [Maintenance de la base de données](../../production/using/recommendations.md) (v7 hybride/on-premise)

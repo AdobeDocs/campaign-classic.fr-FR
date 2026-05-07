@@ -7,8 +7,8 @@ role: User
 exl-id: 92b5e013-b619-4f0b-b0b1-1fc2e653ceac
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 100%
+source-wordcount: '1113'
+ht-degree: 94%
 
 ---
 
@@ -72,9 +72,9 @@ Actuellement, cette option n’est disponible que si les conditions suivantes so
 
 **Configurer la priorité d’analyse**
 
-Lorsque votre diffusion fait partie d&#39;une campagne, l&#39;onglet **[!UICONTROL Avancé]** propose une option supplémentaire : celle-ci vous permet d&#39;organiser l&#39;ordre de traitement des diffusions d&#39;une même campagne.
+Lorsque la diffusion fait partie d&#39;une campagne, l&#39;onglet **[!UICONTROL Avancé]** propose une option supplémentaire. Vous pouvez ainsi organiser l&#39;ordre de traitement des diffusions d&#39;une même campagne.
 
-Avant envoi, chaque diffusion est analysée. La durée d&#39;analyse dépend de la taille du fichier d&#39;extraction de la diffusion. Plus sa taille est importante, plus l&#39;analyse est longue, ce qui met en attente les diffusions suivantes.
+Avant envoi, chaque diffusion est analysée. La durée de l&#39;analyse dépend du fichier d&#39;extraction de la diffusion. Plus la taille du fichier est importante, plus l’analyse prend de temps, ce qui fait attendre les diffusions suivantes.
 
 Les options de la section **[!UICONTROL Préparation des messages par l’ordonnanceur]** vous permettent de prioriser l’analyse des diffusions d’un workflow de campagne.
 
@@ -110,7 +110,7 @@ Une fois la diffusion lancée, les messages (et les éventuelles reprises) peuve
 
 ![](assets/s_ncs_user_email_del_valid_period.png)
 
-* Le champ **[!UICONTROL Durée de diffusion]** permet de saisir la limite pour des reprises globales de diffusion. Concrètement, Adobe Campaign diffuse les messages à partir de la date de début. Puis, pour les messages en erreur uniquement, des reprises régulières et paramétrables sont effectuées tant que la limite de diffusion n’est pas atteinte.
+* Le champ **[!UICONTROL Durée de diffusion]** permet de saisir la limite pour les reprises globales de diffusion. Concrètement, Adobe Campaign diffuse les messages à partir de la date de début. Puis, pour les messages en erreur uniquement, des reprises régulières et paramétrables sont effectuées tant que la limite de validité n’est pas atteinte.
 
   Vous pouvez également choisir de spécifier des dates. Pour ce faire, sélectionnez **[!UICONTROL Fixer explicitement les dates de validité]**. Dans ce cas, les dates limites de diffusion et de validité permettent également de définir l’heure. L’heure actuelle est utilisée par défaut, mais vous pouvez la modifier directement dans le champ de saisie.
 
@@ -128,7 +128,7 @@ Une fois la diffusion lancée, les messages (et les éventuelles reprises) peuve
 
    Learn how to create a one-shot single delivery. You can create other types of deliveries to build your use cases. 
 
-For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}. 
+For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}. 
 
 >[!NOTE]
 >

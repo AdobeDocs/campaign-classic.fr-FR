@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: initial-configuration
 exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
 source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
-workflow-type: ht
-source-wordcount: '1352'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1375'
+ht-degree: 98%
 
 ---
 
@@ -28,11 +28,11 @@ Les étapes de paramétrage sont présentés ci-après.
 >
 >Les noms de la base de données, des utilisateurs ou des schémas ne doivent pas commencer par un chiffre, ni utiliser de caractères spéciaux.
 >
->Seul l’identifiant **interne** peut effectuer ces opérations. Pour plus d’informations à ce sujet, consultez [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
+>Seul l&#39;identifiant **interne** peut effectuer ces opérations. Pour plus d’informations à ce sujet, consultez [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 
 ## 1er cas : créer/recycler une base {#case-1--creating-recycling-a-database}
 
-Les étapes pour créer une base de données ou recycler une base existante sont présentées ci-après. Certains paramétrages dépendent du moteur de base de données utilisé.
+Les étapes de création d&#39;une base de données ou de recyclage d&#39;une base existante sont présentées ci-dessous. Certaines configurations dépendent du moteur de base de données utilisé :
 
 Ces étapes sont les suivantes :
 
@@ -143,7 +143,7 @@ Vous devez à présent lancer l’assistant de déploiement pour terminer la con
 
 Les paramètres de connexion à la base de données associés à l’instance sont regroupés dans le fichier **`/conf/config-<instance>.xml`** enregistré dans le répertoire d’installation d’Adobe Campaign.
 
-Exemple de configuration Microsoft SQL Server sur la base base61 associée au compte « campaign » avec son mot de passe chiffré :
+Exemple de configuration Microsoft SQL Server sur la base base61 associée au compte « campaign » avec son mot de passe chiffré :
 
 ```
 <dbcnx encrypted="1" login="campaign:myBase" password="myPassword" provider="DB" server="dbServer"/>
@@ -234,7 +234,7 @@ Vous devez à présent lancer l’assistant de déploiement pour terminer la con
 
 Les paramètres de connexion à la base de données associés à l’instance sont regroupés dans le fichier **`/conf/config-<instance>.xml`** enregistré dans le répertoire d’installation d’Adobe Campaign.
 
-Exemple de configuration Microsoft SQL Server sur la base base61 associée au compte « campaign » avec son mot de passe chiffré :
+Exemple de configuration Microsoft SQL Server sur la base base61 associée au compte « campaign » avec son mot de passe chiffré :
 
 ```
 <dbcnx encrypted="1" login="campaign:myBase" password="myPassword" provider="DB" server="dbServer"/>

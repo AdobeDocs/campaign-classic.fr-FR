@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 1f1004e2-dcd2-4ec5-98ec-720c205646d5
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: ht
-source-wordcount: '988'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1029'
+ht-degree: 64%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Pour les déploiements hébergés par Adobe, certaines configurations peuvent uniquement être effectuées par Adobe, comme l&#39;accès aux fichiers de configuration de serveur et d’instance. Pour en savoir plus sur les différents déploiements, consultez la section [Modèles d&#39;hébergement](../../installation/using/hosting-models.md) ou [cette page](../../installation/using/capability-matrix.md).
+>Certaines configurations ne peuvent être effectuées que par Adobe pour les déploiements hébergés par Adobe. Par exemple, pour accéder aux fichiers de configuration du serveur et de l’instance. Pour en savoir plus sur les différents déploiements, consultez la section [Modèles d&#39;hébergement](../../installation/using/hosting-models.md) ou [cette page](../../installation/using/capability-matrix.md).
 
 ## Vue d&#39;ensemble {#overview}
 
-SpamAssassin est un logiciel destiné à filtrer les emails indésirables. Intégré à Adobe Campaign, il permet d’attribuer un score aux emails créés dans la plateforme et d’évaluer le risque que les messages soient considérés comme indésirables par les messageries des destinataires avant qu’une diffusion ne soit lancée. Pour cela, SpamAssassin doit être installé et configuré sur le ou les serveurs d’application d’Adobe Campaign et requiert un certain nombre de modules additionnels en Perl pour fonctionner.
+SpamAssassin est un logiciel conçu pour filtrer les e-mails indésirables. Conjointement avec ce logiciel, Adobe Campaign peut attribuer un score aux emails et déterminer si un message est susceptible d&#39;être considéré comme indésirable avant le lancement de la diffusion. Pour ce faire, SpamAssassin doit être installé et configuré sur le ou les serveurs applicatifs d&#39;Adobe Campaign et requiert un certain nombre de modules additionnels en Perl pour fonctionner.
 
-Le déploiement et l&#39;intégration de SpamAssassin décrits dans ce chapitre sont basés sur l&#39;installation par défaut du logiciel, de même que les règles de filtrage et de scores qui sont celles fournies par SpamAssassin sans modification ou optimisation aucune. L&#39;attribution des scores et la qualification des messages reposant exclusivement sur la configuration des options de SpamAssassin et sur l&#39;utilisation des jeux de règles de filtrage, il reviendra à chaque administrateur réseau de les adapter aux besoins de son entreprise.
+Le déploiement et l&#39;intégration de SpamAssassin décrits dans ce chapitre reposent sur l&#39;installation logicielle par défaut, tout comme les règles de filtrage et de scores, qui sont celles fournies par SpamAssassin sans aucune modification ni optimisation. L’attribution des scores et la qualification des messages reposent exclusivement sur la configuration des options de SpamAssassin et sur les règles de filtrage. Les administrateurs réseau sont chargés de les adapter aux besoins de leur entreprise.
 
 >[!IMPORTANT]
 >
@@ -37,7 +37,7 @@ Le déploiement et l&#39;intégration de SpamAssassin décrits dans ce chapitre 
 >
 >Cette mise à jour est de la responsabilité de l&#39;administrateur serveur qui héberge SpamAssassin.
 
-L&#39;utilisation de SpamAssassin dans Adobe Campaign permet de donner une indication sur le comportement éventuel des serveurs de messagerie, utilisant eux-mêmes SpamAssassin, à la réception des emails envoyés par Adobe Campaign. Il se peut toutefois que les serveurs de messagerie des fournisseurs d&#39;accès Internet ou les messageries Web considèrent malgré tout les messages envoyés par Adobe Campaign comme indésirables.
+L’utilisation de SpamAssassin dans Adobe Campaign donne une indication sur le comportement possible des serveurs de messagerie qui utilisent SpamAssassin lorsqu’ils reçoivent des emails envoyés par Adobe Campaign. Cependant, il est possible que les serveurs de messagerie des fournisseurs d&#39;accès Internet ou les serveurs de messagerie en ligne considèrent toujours les messages envoyés par Adobe Campaign comme indésirables.
 
 Le déploiement de SpamAssassin et de ses modules en Perl nécessite impérativement que les serveurs d&#39;application Adobe Campaign sur lesquels ils sont installés aient accès à Internet via une connexion HTTP (flux TCP/80).
 
@@ -56,7 +56,7 @@ Pour installer et configurer SpamAssassin sous Windows afin d&#39;en permettre l
 
    >[!NOTE]
    >
-   >Vous pouvez décompresser le fichier à l&#39;emplacement de votre choix. Cependant, assurez-vous que le chemin d&#39;accès à ce dernier comporte uniquement des caractères de l&#39;expression régulière suivante : **`-_A-Za-z\xA0-\xFF0-9\.\%\@\=\+\,\/\\\:.`**. Le chemin d&#39;installation ne doit pas comporter d&#39;espace.
+   >Vous pouvez décompresser le fichier où vous le souhaitez, à condition que le chemin d’accès soit composé de l’un des caractères d’expression régulière suivants : **`-_A-Za-z\xA0-\xFF0-9\.\%\@\=\+\,\/\\\:.`**. Le chemin d’installation ne doit pas contenir d’espaces.
 
 1. Accédez au dossier dans lequel vous avez décompressé le fichier puis double-cliquez sur le fichier **run_me.bat** afin de lancer le script d&#39;installation.
 
@@ -64,7 +64,7 @@ Pour installer et configurer SpamAssassin sous Windows afin d&#39;en permettre l
 
    Si le shell Windows n’apparaît pas ou s’il apparaît puis disparaît instantanément, procédez comme suit : double-cliquez sur le fichier **portableShell.bat** afin d&#39;afficher un shell Windows et vérifiez que le chemin du shell correspond au dossier dans lequel le fichier **spamassassin.zip** a été décompressé. Si ce n’est pas le cas, accédez-y à l’aide de la commande **cd**.
 
-   Entrez **run_me.bat** puis cliquez sur **Entrée** afin de lancer le processus d’installation et de mise à jour. L’opération renvoie l’une des valeurs suivantes afin d’indiquer le résultat de la mise à jour :
+   Saisissez **run_me.bat** puis cliquez sur **Entrée** pour lancer le processus d’installation et de mise à jour. L’opération renvoie l’une des valeurs suivantes afin d’indiquer le résultat de la mise à jour.
 
    * **0** : une mise à jour a été effectuée.
    * **1** : aucune nouvelle mise à jour n&#39;était disponible.
@@ -97,12 +97,12 @@ Pour installer et configurer SpamAssassin sous Windows afin d&#39;en permettre l
        "<root>\perl\site\bin\spamassassin" "C:\TestSpamMail.txt"
       ```
 
-      Le contenu de cet e-mail de test déclenche l&#39;attribution par SpamAssassin d&#39;un score de 1000 points au message. Cela signifie qu&#39;il a bien été détecté comme indésirable et que l&#39;installation a été correctement réalisée et est désormais fonctionnelle.
+      Le contenu de cet e-mail de test déclenche un score de 1 000 points par SpamAssassin. Cela signifie qu’il a été détecté comme indésirable et que l’installation a réussi et est entièrement fonctionnelle.
 
 ### Intégration de SpamAssassin dans Adobe Campaign {#integrating-spamassassin-into-adobe-campaign}
 
 1. Editez le fichier **`[INSTALL]/conf/serverConf.xml`**. Tous les paramètres disponibles dans le fichier **serverConf.xml** sont répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
-1. Modifiez la valeur de l&#39;attribut **spamCheck** de l&#39;élément **command** du nœud **Web**. Pour cela, exécutez la commande suivante :
+1. Modifiez la valeur de l&#39;attribut **spamCheck** des éléments **command** dans le nœud **Web**. Pour cela, exécutez la commande suivante :
 
    ```
    <spamCheck command='"<absolute path to the folder where you unzipped the zip file>\call_perl_with_args.bat" "<absolute path to nlserver>/spamcheck.pl"'/>
@@ -116,13 +116,13 @@ Pour installer et configurer SpamAssassin sous Windows afin d&#39;en permettre l
 
 1. Vérifiez l&#39;intégration de SpamAssassin dans Adobe Campaign en effectuant le test GTUBE (Generic Test for Unsolicited Bulk Email) :
 
-   Double-cliquez sur le fichier **portableShell.bat** afin d&#39;afficher un Shell Windows puis lancez la commande suivante :
+   Double-cliquez sur le fichier **portableshell.bat**. Cela déclenche l&#39;affichage d&#39;un shell Windows. Exécutez ensuite la commande suivante :
 
    ```
    perl "[INSTALL]\bin\spamcheck.pl" "C:\TestSpamMail.txt"
    ```
 
-   Le contenu de cet e-mail de test déclenche l&#39;attribution par SpamAssassin d&#39;un score de 1000 points au message. Cela signifie qu&#39;il a bien été détecté comme indésirable et que l&#39;intégration dans Adobe Campaign a été correctement réalisée. Elle est désormais fonctionnelle.
+   Le contenu de cet e-mail de test déclenche l&#39;attribution de 1 000 points par SpamAssassin. Cela signifie qu’il a été détecté comme indésirable et que l’intégration à Adobe Campaign a été réussie et est entièrement fonctionnelle.
 
 1. Mettez à jour les règles de filtrage et de scores de SpamAssassin
 

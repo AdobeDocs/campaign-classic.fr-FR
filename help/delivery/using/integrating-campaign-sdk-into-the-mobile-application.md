@@ -8,8 +8,8 @@ hide: true
 exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 100%
+source-wordcount: '1009'
+ht-degree: 86%
 
 ---
 
@@ -63,7 +63,7 @@ Afin d&#39;intégrer le SDK Campaign dans l&#39;application mobile, l&#39;admini
 
   >[!NOTE]
   >
-  >Cette clé d&#39;intégration est renseignée dans la console Adobe Campaign, dans l&#39;onglet **[!UICONTROL Informations]** du service dédié à l&#39;application mobile. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html?lang=fr){target="_blank"}.
+  >Cette clé d&#39;intégration est renseignée dans la console Adobe Campaign, dans l’onglet **[!UICONTROL Informations]** du service dédié à l’application mobile. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/push/push-settings.html?lang=fr){target="_blank"}.
 
 * **Une URL de tracking** correspondant à l&#39;adresse du serveur de tracking Adobe Campaign.
 * **Une URL marketing** permettant de collecter les abonnements.
@@ -301,7 +301,7 @@ La fonction d&#39;enregistrement permet :
 
 +++**Suivi des notifications silencieuses**
 
-iOS permet d&#39;envoyer des notifications silencieuses, des notifications ou des données qui seront directement envoyées à une application mobile sans les afficher. Adobe Campaign vous permet de les tracker.
+iOS permet d&#39;envoyer des notifications silencieuses, une notification ou des données qui seront directement envoyées à une application mobile sans les afficher. Adobe Campaign permet de les tracker.
 
 Pour suivre votre notification silencieuse, suivez l&#39;exemple ci-après.
 
@@ -357,7 +357,7 @@ Le prototype de **registerDeviceStatus** est le suivant :
 
 Le **Statut** vous permet de déterminer si un enregistrement a été effectué avec succès ou si une erreur s’est produite.
 
-**ErrorReason** fournit des informations supplémentaires sur les erreurs qui se sont produites. Pour en savoir plus sur les erreurs disponibles et leur description, reportez-vous au tableau ci-dessous.
+**ErrorReason** vous fournit plus d’informations sur les erreurs qui se sont produites. Pour plus d’informations sur les erreurs disponibles et leur description, reportez-vous au tableau ci-dessous.
 
 <table> 
  <thead>
@@ -633,7 +633,7 @@ A ce niveau, vous devez effectuer les opérations suivantes :
 
 * Associer votre extension de contenu à la catégorie envoyée par Adobe Campaign :
 
-  Si vous souhaitez que l&#39;application mobile affiche une image, définissez la valeur de la catégorie dans Adobe Campaign, par exemple &quot;image&quot;. Dans l&#39;application mobile, vous créez une extension de notification avec le paramètre **UNNotificationExtensionCategory** ayant pour valeur &quot;image&quot;. Lorsque la notification push est reçue sur l&#39;appareil, l&#39;extension est appelée selon la valeur de la catégorie définie.
+  Si vous souhaitez que votre application mobile affiche une image, vous pouvez définir la valeur de la catégorie sur « image » dans Adobe Campaign et, dans votre application mobile, vous créez une extension de notification avec le paramètre **UNNotificationExtensionCategory** défini sur « image ». Lorsque la notification push est reçue sur l’appareil, l’extension est appelée en fonction de la valeur de catégorie définie.
 
 * Définir la mise en page de la notification
 
@@ -641,7 +641,7 @@ A ce niveau, vous devez effectuer les opérations suivantes :
 
 * Afficher le contenu multimédia
 
-  Vous devez ajouter du code pour alimenter le widget avec les données multimédia. Voici un exemple de code pour une image :
+  Vous devez ajouter du code pour alimenter le widget avec les données multimédia. Voici un exemple de code pour une image :
 
   ```
   #import "NotificationViewController.h"
