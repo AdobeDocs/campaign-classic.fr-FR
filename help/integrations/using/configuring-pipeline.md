@@ -9,9 +9,9 @@ content-type: reference
 level: Intermediate, Experienced
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
 source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: ht
-source-wordcount: '844'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '865'
+ht-degree: 94%
 
 ---
 
@@ -28,7 +28,7 @@ Les déclencheurs sont utilisés pour le ciblage par un workflow de campagne qui
 Avant de commencer cette configuration, vérifiez que vous disposez des éléments suivants :
 
 * Un projet Adobe Developer.
-* Un identifiant d’organisation valide : pour trouver votre identifiant d’organisation, consultez [cette page](https://experienceleague.adobe.com/fr/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255){_blank}.
+* Un identifiant d’organisation valide : pour trouver votre identifiant d’organisation, reportez-vous à [cette page](https://experienceleague.adobe.com/fr/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255){_blank}
 * Un accès de développement à votre organisation.
 * Une configuration de déclencheurs valide dans Adobe Analytics.
 
@@ -120,15 +120,15 @@ Voici la liste des paramètres facultatifs :
 |:-:|:-:|
 | appName (hérité) | AppID de l&#39;application OAuth enregistrée dans l&#39;application Legacy Oath où la clé publique a été chargée. Voir à ce propos [cette page](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) |
 | authGatewayEndpoint(hérité) | URL permettant d&#39;obtenir des jetons de passerelle. Par défaut: ```https://api.omniture.com``` |
-| authPrivateKey(hérité) | La clé privée, la partie publique téléchargée dans l&#39;application Legacy Oath, AES chiffré avec l&#39;option XtkKey : ```cryptString("PRIVATE_KEY")``` |
+| authPrivateKey(hérité) | La clé privée, la partie publique chargée dans l’application Legacy Oath, AES chiffré avec l’option XtkKey : ```cryptString("PRIVATE_KEY")``` |
 | disableAuth(hérité) | La désactivation de l&#39;authentification, la connexion sans jetons de passerelle n&#39;est acceptée que par certains points d’entrée du pipeline de développement. |
 | discoverPipelineEndpoint | URL permettant de trouver le point d’entrée de Pipeline Services à utiliser pour ce tenant. Par défaut: ```https://producer-pipeline-pnw.adobe.net``` |
 | dumpStatePeriodSec | La période entre deux vidages du processus d&#39;état interne dans ```var/INSTANCE/pipelined.json.``` <br> L&#39;état interne est également accessible à la demande ici : ```http://INSTANCE:7781/pipelined/status``` |
 | forcedPipelineEndpoint | Désactiver la détection de PipelineServicesEndpoint et la forcer |
 | monitorServerPort | Le processus en pipeline écoutera sur ce port pour fournir le processus d&#39;état interne ici : ```http://INSTANCE:PORT/pipelined/status```. <br>La valeur par défaut est de 7781 |
-| pointerFlushMessageCount | Lorsque ce nombre de messages est traité, les décalages seront enregistrés dans la base de données. <br> La valeur par défaut est de 1000 |
+| pointerFlushMessageCount | Lorsque ce nombre de messages est traité, les décalages sont enregistrés dans la base de données. <br> La valeur par défaut est 1 000 |
 | pointerFlushPeriodSec | Après cette période, les décalages seront enregistrés dans la base de données. <br>La valeur par défaut est de 5 (secondes) |
-| processingJSThreads | Nombre de messages de traitement de threads dédiés avec des connecteurs JS personnalisés. <br> La valeur par défaut est de 4 |
+| processingJSThreads | Nombre de threads dédiés traitant des messages avec des connecteurs JS personnalisés. <br> La valeur par défaut est 4 |
 | processingThreads | Nombre de messages de traitement de threads dédiés avec code natif. <br>La valeur par défaut est de 4 |
 | retryPeriodSec | Délai entre les reprises en cas d&#39;erreurs de traitement. <br>La valeur par défaut est de 30 (secondes) |
 | retryValiditySec | Ignorer le message s&#39;il n&#39;est pas traité correctement après cette période (trop de reprises). <br>La valeur par défaut est de 300 (secondes) |

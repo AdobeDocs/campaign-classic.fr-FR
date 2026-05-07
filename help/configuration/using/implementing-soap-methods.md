@@ -6,9 +6,9 @@ feature: Configuration
 role: Developer
 exl-id: 441a0e5c-fa7f-46c8-a65a-5cca4c846d43
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
-source-wordcount: '417'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '418'
+ht-degree: 74%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 100%
 
 ## Introduction {#introduction}
 
-Il est possible de créer des méthodes SOAP en Javascript. Cette fonctionnalité permet simplement des traitements applicatifs, elle peut remplacer le développement de JSPs et leur invocation dans les formulaire.
+Il est possible de créer des méthodes SOAP dans JavaScript. Cette fonction active simplement les processus d’application. Elle peut éviter de développer des JSP et de les appeler dans les formulaires.
 
-Ces méthodes SOAP se comporteront de la même façon que celles définies nativement dans l&#39;application. Les mêmes attributs sont supportés : statique, clé seule et const.
+Ces méthodes SOAP se comportent de la même manière que celles définies nativement dans l’application. Les mêmes attributs sont pris en charge : statique, clé seule et const.
 
 ## Définition dʼune bibliothèque de méthodes {#defining-a-method-library}
 
@@ -93,7 +93,7 @@ Cas particuliers :
 
 **3. Valeurs retournées**
 
-La fonction doit retourner une valeur pour chaque paramètre déclaré de type &#39;out&#39; ou &#39;inout&#39;. Cas particulier : Si la méthode est déclarée avec aucun des attributs &#39;statique&#39;, &#39;clé seule&#39; et &#39;const&#39;, La première valeur retournée doit correspondre à l&#39;entité modifiée. Il est possible de retourner un nouvel objet ou de retourner le premier paramètre modifié.
+La fonction doit retourner une valeur pour chaque paramètre de type &#39;out&#39; ou &#39;inout&#39;. Cas spécifique : si la méthode est déclarée sans aucun des attributs &#39;static&#39;, &#39;key only&#39; ou &#39;const&#39;, la première valeur renvoyée doit coïncider avec l&#39;entité modifiée. Il est possible de renvoyer un nouvel objet ou de renvoyer le premier paramètre modifié.
 
 Par exemple :
 

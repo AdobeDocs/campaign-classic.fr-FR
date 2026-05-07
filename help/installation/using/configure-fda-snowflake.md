@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: connectors
 exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
 source-git-commit: 22420452d4df2e8161c91a42ad0d20ceb4796e82
-workflow-type: ht
-source-wordcount: '529'
+workflow-type: tm+mt
+source-wordcount: '560'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ Utilisez l&#39;option Campaign **Federated Data Access** (FDA) pour traiter les 
 
 ## Snowflake sous Linux {#snowflake-linux}
 
-Pour effectuer la configuration de [!DNL Snowflake] sous Linux, procédez comme suit :
+Pour effectuer la configuration de [!DNL Snowflake] sur Linux, procédez comme suit :
 
 1. Avant d’installer ODBC, vérifiez que les packages suivants sont installés sur votre distribution Linux :
 
@@ -121,7 +121,7 @@ Le connecteur prend en charge les options suivantes :
 |---|---|
 | workschema | Schéma de base de données à utiliser pour les tables de travail. |
 | warehouse | Nom de l&#39;entrepôt par défaut à utiliser. Il remplace la valeur par défaut de l&#39;utilisateur. |
-| TimeZoneName | Vide par défaut. C&#39;est le fuseau horaire système du serveur applicatif Campaign Classic qui est utilisé. Il est possible d&#39;utiliser cette option pour forcer le paramètre de session TIMEZONE. <br>Pour plus d&#39;informations à ce sujet, consultez [cette page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
+| TimeZoneName | Vide par défaut. C&#39;est le fuseau horaire système du serveur applicatif Campaign Classic qui est utilisé. Il est possible d’utiliser cette option pour forcer le paramètre de session TIMEZONE. <br>Pour plus d&#39;informations à ce sujet, consultez [cette page](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
 | WeekStart | Paramètre de session WEEK_START. Par défaut, cette valeur est définie sur 0. <br>Pour plus d&#39;informations à ce sujet, consultez [cette page](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start). |
 | UseCachedResult | Paramètre de session USE_CACHED_RESULTS. Par défaut, cette valeur est définie sur TRUE. Il est possible d’utiliser cette option pour désactiver les résultats de Snowflake mis en mémoire cache. <br>Pour plus d’informations à ce sujet, consultez [cette page](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
 | bulkThreads | Nombre de threads à utiliser pour le chargeur en masse de Snowflake ; plus de threads signifient de meilleures performances pour les chargements en masse plus volumineux. Par défaut, cette valeur est définie sur 1. Le nombre peut être ajusté en fonction du nombre de threads de la machine. |

@@ -9,8 +9,8 @@ content-type: reference
 topic-tags: troubleshooting
 exl-id: dbd50178-0a16-46ed-bfad-47beb3c2a420
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: ht
-source-wordcount: '267'
+workflow-type: tm+mt
+source-wordcount: '288'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ Voici une liste des modules concernés par des problèmes courants :
   <tr> 
    <td> import </td> 
    <td> Exécution d'un traitement d'import<br /> </td> 
-   <td> L'opérateur qui a programmé cet import doit le relancer. Vérification de non insertion de doublon dans la base de données.<br /> </td> 
+   <td> L'opérateur qui a programmé cet export doit le relancer. Vérification de non insertion de doublon dans la base de données.<br /> </td> 
   </tr> 
   <tr> 
    <td> inMail </td> 

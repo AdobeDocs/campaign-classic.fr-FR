@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: Configurer des échantillons de population
-description: Découvrez comment effectuer des tests A/B à lʼaide dʼun cas dʼutilisation spécifique.
+description: Découvrez comment effectuer des tests A/B à lʼaide dʼun cas dʼutilisation spécifique
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: A/B Testing
 role: User
 exl-id: 1ca01cab-734a-4299-b112-04eec51222fb
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '204'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '206'
+ht-degree: 82%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 100%
 
 ## Configurer l&#39;activité Partage {#configuring-the-split-activity}
 
-Cette activité permet de créer plusieurs populations : celle qui reçoit la diffusion A, celle qui reçoit la diffusion B et la population restante. D&#39;autre part, l&#39;utilisation du tirage aléatoire permet de ne cibler qu&#39;une partie de la population de chacune des diffusions.
+Cette activité permet de créer plusieurs populations : celle qui reçoit la diffusion A, celle qui reçoit la diffusion B et la population restante. L&#39;utilisation du tirage aléatoire permet de ne cibler qu&#39;une partie de la population de chaque diffusion.
 
 1. Création de la population A :
 

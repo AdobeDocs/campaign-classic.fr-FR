@@ -6,9 +6,9 @@ feature: Schema Extension
 role: Developer
 exl-id: 2350a531-7a26-4f26-90fe-8dac0cc26605
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
-source-wordcount: '205'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '206'
+ht-degree: 80%
 
 ---
 
@@ -47,4 +47,4 @@ Un fichier d’extension, « cus:recipient » dans notre exemple, est automati
 
 >[!NOTE]
 >
->Par défaut, les champs ajoutés sont déclarés avec la propriété **user** (avec la valeur « true »). Celle-ci permet d’afficher et de modifier le champ dans le formulaire de saisie du schéma étendu avec l’utilisation d’un contrôle de type « treeEdit » (consultez à ce sujet le chapitre Formulaires de saisie).
+>Par défaut, les champs ajoutés sont déclarés avec la propriété **user** (avec la valeur « true »). Vous pouvez ainsi afficher et modifier le champ dans le formulaire de saisie du schéma étendu à l&#39;aide d&#39;un contrôle de type « treeEdit » (voir Formulaire de saisie).

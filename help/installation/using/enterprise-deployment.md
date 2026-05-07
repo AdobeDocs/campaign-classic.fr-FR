@@ -9,8 +9,8 @@ topic-tags: deployment-types-
 exl-id: 38c14010-203a-47ab-b23d-6f431dab9a88
 source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 100%
+source-wordcount: '1251'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 
 
-Il s&#39;agit de la configuration la plus complète. Elle étend la configuration standard pour une sécurité accrue et une disponibilité supérieure :
+Il s’agit de la configuration la plus complète. Il s’appuie sur la configuration standard pour une sécurité et une disponibilité accrues :
 
 * serveurs de redirection dédiés, derrière un répartiteur de charge agissant au niveau HTTP ou au niveau TCP, pour une montée en charge et une grande disponibilité,
 * deux serveurs applicatifs, pour un meilleur débit et des capacités de fail-over (fonctionnement même en cas de panne d&#39;un serveur), isolés dans le LAN.
@@ -62,7 +62,7 @@ Coûts du matériel et d&#39;administration plus élevés.
    * un premier alias exposé au grand public pour le tracking et pointant vers le répartiteur de charge sur une adresse IP virtuelle (VIP) qui est ensuite distribuée sur les deux serveurs frontaux,
    * un deuxième alias exposé aux utilisateurs métiers pour l&#39;accès console et pointant vers un répartiteur de charge sur une adresse IP virtuelle (VIP) qui est ensuite distribuée sur les deux serveurs applicatifs.
 
-* Configuration du firewall pour l&#39;ouverture des ports SMTP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 pour Oracle, 5432 pour PostgreSQL, etc.). Voir à ce sujet la section [Accès à la base de données](../../installation/using/network-configuration.md#database-access).
+* Pare-feu configuré pour ouvrir STMP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 pour Oracle, 5432 pour PostgreSQL, etc.) les ports. Voir à ce sujet la section [Accès à la base de données](../../installation/using/network-configuration.md#database-access).
 
 >[!CAUTION]
 >
@@ -79,7 +79,7 @@ Dans les exemples présentés ci-dessous, les paramètres de l&#39;instance sont
 * Nom de l&#39;instance : demo
 * Masque DNS : tracking.campaign.net&#42;, console.campaign.net&#42; (le serveur applicatif gère les URL pour la connexion des consoles clientes et les rapports, ainsi que les URL des pages miroir et de désinscription).
 * Langue : française
-* Base de données : campaign:demo@dbsrv
+* Base de données : campaign:demo@dbsrv
 
 Les étapes d&#39;installation du premier serveur sont les suivantes :
 
@@ -154,7 +154,7 @@ Les étapes d&#39;installation du premier serveur sont les suivantes :
 
    Pour plus d’informations à ce sujet, consultez [cette section](../../installation/using/configuring-campaign-server.md#enabling-processes).
 
-1. Editez le fichier **serverConf.xml** et renseignez le domaine de diffusion puis indiquez les adresses IP (ou host) des serveurs DNS utilisés pour répondre aux requêtes DNS de type MX par le module MTA.
+1. Modifiez le fichier **serverConf.xml** et renseignez le domaine de diffusion, puis indiquez les adresses IP (ou hôtes) des serveurs DNS utilisés pour répondre aux requêtes DNS de type MX par le module MTA.
 
    ```xml
    <dnsConfig localDomain="campaign.com" nameServers="192.0.0.1, 192.0.0.2"/>

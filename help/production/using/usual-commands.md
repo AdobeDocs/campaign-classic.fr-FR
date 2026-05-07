@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: production-procedures
 exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
 source-git-commit: b8a6a0db27826309456c285c08d4f1d85de70283
-workflow-type: ht
-source-wordcount: '439'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '458'
+ht-degree: 89%
 
 ---
 
@@ -23,7 +23,7 @@ Cette section propose la liste des commandes usuelles sous Adobe Campaign.
 
 La commande **nlserver** est la commande d&#39;entrée de l&#39;ensemble de l&#39;applicatif Adobe Campaign.
 
-La syntaxe de cette commande est la suivante : **nlserver **`<command>`****`<arguments>`****
+La syntaxe de cette commande est la suivante : **nlserver &#x200B;**`<command>`**&#x200B;**`<arguments>`**&#x200B;**
 
 Le paramètre **`<command>`** correspond au module.
 
@@ -160,8 +160,8 @@ Pour changer le mode de passe **internal** : **nlserver config -internalpasswor
 >[!NOTE]
 >
 >* D&#39;une manière générale, au lieu de modifier les fichiers de configuration à la main, vous pouvez utiliser la commande **config**.
->* Pour obtenir la liste des paramètres, utilisez le paramètre **-?** : **nlserver config -?**
->* Dans le cas d&#39;une base Oracle, il ne faut pas préciser le compte. La syntaxe sera donc la suivante :
+>* Pour obtenir la liste des paramètres, utilisez le **-?** paramètre : **nlserver config -?**
+>* Dans le cas d’une base Oracle, vous ne devez pas spécifier le compte. La syntaxe sera la suivante :
 >
 >  `nlserver config -setdblogin:Oracle:test6@dbserver`
 >
@@ -172,6 +172,6 @@ Voici un exemple MSSQL :
 nlserver config -setdblogin:mssql:<login>/"<password>"@<server> -instance:<instance_name> 
 ```
 
-* les éléments login (par exemple account:user) et server se trouvent dans le nœud dataSource du fichier config-&lt;nom_instance>.xml.
+* connexion (par exemple, compte:user) et serveur se trouvent dans le nœud dataSource du fichier config-&lt;nom_instance>.xml.
 * Le mot de passe doit être placé entre guillemets (&quot;&quot;).
 

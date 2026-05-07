@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '1152'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1187'
+ht-degree: 96%
 
 ---
 
@@ -132,7 +132,7 @@ Une fois la console cliente installée, procédez comme suit pour créer la conn
 
    ![](assets/s_ncs_install_define_connection_02.png)
 
-1. Définissez une connexion vers votre serveur applicatif Adobe Campaign à partir d&#39;une URL. Utilisez soit un DNS ou un alias de la machine, soit votre adresse IP.
+1. Définissez une connexion vers votre serveur applicatif Adobe Campaign via une URL. Utilisez un DNS ou un alias de la machine, ou votre adresse IP.
 
    Par exemple, vous pouvez utiliser une URL de type `https://<machine>.<domain>.com`.
 
@@ -144,7 +144,7 @@ Vous pouvez ajouter autant de connexions que nécessaire pour vous connecter, pa
 
 >[!NOTE]
 >
->Le bouton **[!UICONTROL Ajouter]** permet de créer des **[!UICONTROL dossiers]** dans lesquels vous pourrez classer vos différentes connexions par des opérations de glisser-déposer.
+>Le bouton **[!UICONTROL Ajouter]** permet de créer **[!UICONTROL dossiers]** pour organiser l&#39;ensemble des connexions. Il vous suffit de glisser-déposer chaque connexion dans un dossier.
 
 ### Connexion à Adobe Campaign
 
@@ -175,4 +175,4 @@ Cette vidéo explique comment installer et configurer le client Adobe Campaign.
 
 >[!VIDEO](https://video.tv.adobe.com/v/38267?captions=fre_fr&quality=12)
 
-D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+D&#39;autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

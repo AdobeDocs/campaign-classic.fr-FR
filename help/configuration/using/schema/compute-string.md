@@ -5,8 +5,8 @@ description: élément compute-string
 feature: Schema Extension
 exl-id: 8a079bb8-3f53-4144-a065-5bd402649cc7
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
-workflow-type: ht
-source-wordcount: '90'
+workflow-type: tm+mt
+source-wordcount: '95'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ Lorsqu’aucun `<compute-string>` n’est défini, un élément `<compute-string
 
 * **expr (string)** : expression XTK et/ou Xpath.
 
-## Exemples       {#examples-1}
+## Exemples {#examples-1}
 
 ```
 <compute-string expr="@label + Iif(@code='','', ' (' + [folder/@label] + ')')"/>  

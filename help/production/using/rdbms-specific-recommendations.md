@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: database-maintenance
 exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '1273'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1305'
+ht-degree: 90%
 
 ---
 
@@ -84,7 +84,7 @@ Pour vous aider à configurer des plans de maintenance, cette section répertori
 
 >[!IMPORTANT]
 >
->Adobe recommande vivement de ne pas exécuter VACUUM FULL sur les configurations de base de données hébergées par Adobe Campaign. La maintenance proposée est un guide pour les installations On-Premise uniquement. Pour les mises en œuvre et schémas de table personnalisés, utilisez VACUUM FULL à vos risques et périls, car VACUUM sans surveillance peut verrouiller exclusivement les tables à l’origine de requêtes bloquées et, dans certains cas, verrouiller la base de données entière.
+>Adobe recommande vivement de ne pas exécuter VACUUM FULL sur les configurations de base de données hébergées sur Campaign Adobe.Les opérations de maintenance suggérées ne constituent qu’un guide pour les installations ON-PREMISE. Pour les mises en œuvre et schémas de table personnalisés, utilisez VACUUM FULL à vos risques et périls, car VACUUM sans surveillance peut verrouiller exclusivement les tables à l’origine de requêtes bloquées et, dans certains cas, verrouiller la base de données entière.
 
 Dans PostgreSQL, vous pouvez utiliser les mots-clés habituels suivants :
 
@@ -157,7 +157,7 @@ PostgreSQL ne propose pas de moyen efficace pour effectuer une reconstruction de
 
 Voici un exemple de défragmentation de table à l&#39;aide de fonctions spécifiques pour le langage de définition de données (DDL) voulu. La requête SQL suivante permet de créer deux nouvelles fonctions : **GenRebuildTablePart1** et **GenRebuildTablePart2** qui peuvent être utilisées pour générer le DDL destiné à recréer une table.
 
-* La première fonction permet de créer une table de travail (** _tmp** dans notre exemple) qui est une copie de la table d&#39;origine.
+* La première fonction permet de créer une table de travail (**&#x200B; _tmp** dans notre exemple) qui est une copie de la table d&#39;origine.
 * La deuxième fonction supprime la table d&#39;origine et renomme la table de travail et ses index comme celle d&#39;origine.
 * L&#39;utilisation de deux fonctions au lieu d&#39;une permet d&#39;éviter de supprimer définitivement la table d&#39;origine au cas où la première fonction échouerait.
 
@@ -414,7 +414,7 @@ Veuillez consulter votre administrateur de base de données pour connaître les 
 >
 >Pour Microsoft SQL Server, vous pouvez utiliser le plan de maintenance décrit sur [cette page](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html).
 
-L&#39;exemple ci-dessous concerne Microsoft SQL Server 2005. Si vous utilisez une autre version, contactez l&#39;administrateur de base de données pour connaître les procédures de maintenance de cette version.
+L’exemple ci-dessous concerne Microsoft SQL Server 2005. Si vous utilisez une autre version, contactez l’administrateur de votre base de données pour en savoir plus sur les procédures de maintenance.
 
 1. Connectez-vous à Microsoft SQL Server Management Studio avec un identifiant auquel ont été attribués des droits administrateur.
 1. Cliquez avec le bouton droit de la souris sur le dossier **[!UICONTROL Gestion > Plans de maintenance]** et sélectionnez **[!UICONTROL Assistant Plan de maintenance]**.
@@ -425,7 +425,7 @@ L&#39;exemple ci-dessous concerne Microsoft SQL Server 2005. Si vous utilisez u
 
    >[!NOTE]
    >
-   >Nous vous conseillons d&#39;effectuer au moins les tâches de maintenance comme illustré ci-dessus. Vous pouvez également sélectionner la tâche de mise à jour des statistiques si vous le souhaitez, sachant que cette tâche est déjà effectuée par le workflow de nettoyage de la base.
+   >Nous vous recommandons d’effectuer au moins les tâches de maintenance indiquées ci-dessous. Vous pouvez également sélectionner la tâche de mise à jour des statistiques si vous le souhaitez, sachant qu&#39;elle est déjà effectuée par le workflow de nettoyage de la base.
 
 1. Dans la liste déroulante, sélectionnez la base de données sur laquelle vous souhaitez effectuer la tâche **[!UICONTROL Vérifier l&#39;intégrité de la base de données]**.
 1. Sélectionnez la base concernée et cliquez sur **[!UICONTROL OK]** puis **[!UICONTROL Suivant]**.
@@ -462,7 +462,7 @@ L&#39;exemple ci-dessous concerne Microsoft SQL Server 2005. Si vous utilisez u
 1. Dans l&#39;explorateur de Microsoft SQL Server, double-cliquez sur le dossier **[!UICONTROL Gestion > Plans de maintenance]**.
 1. Sélectionnez le plan de maintenance d&#39;Adobe Campaign : les différentes étapes sont présentées sous la forme d&#39;un workflow.
 
-   Vous remarquerez qu&#39;un objet a été créé dans le dossier **[!UICONTROL SQL Server Agent > Traitements]**. Cet objet permet de lancer le plan de maintenance. Dans notre exemple il n&#39;y a qu&#39;un seul objet car toutes les tâches de maintenance font partie du même plan de maintenance.
+   Notez qu&#39;un objet a été créé dans le dossier **[!UICONTROL SQL Server Agent > Tâches]**. Cet objet permet de lancer le plan de maintenance. Dans notre exemple, il n’y a qu’un seul objet car toutes les tâches de maintenance font partie du même plan.
 
    >[!IMPORTANT]
    >

@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: d9ffa58d-81e3-4291-8502-3cb7c326b666
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: ht
-source-wordcount: '176'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '198'
+ht-degree: 53%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 100%
 
 
 
-Adobe Campaign gère nativement l&#39;envoi d&#39;emails. Toutefois, un serveur de messagerie traditionnel est nécessaire afin de recevoir les retours liés aux mails non livrables (mailer daemons). Les boîtes aux lettres configurées sur ce serveur sont automatiquement relevées et traitées par l&#39;application.
+Adobe Campaign gère nativement l&#39;envoi d&#39;emails. Toutefois, un serveur de messagerie traditionnel est nécessaire pour recevoir les retours liés aux mails non livrés (mailer daemons). Les boîtes aux lettres configurées sur ce serveur seront automatiquement traitées par l&#39;application.
 
-Tout serveur de messagerie peut être utilisé dès lors que les boîtes mails configurées pour recevoir les mails rebonds peuvent être relevées à l&#39;aide du protocole POP3 et que ce serveur préserve les en-têtes SMTP &quot;Message-ID&quot; lors du relevé des emails. Par exemple, des déploiements à base de Qmail, SendMail et Microsoft Exchange sont actuellement en production. Toutefois, certaines installations de Lotus Notes/Domino ont révélé un problème de préservation des en-têtes &quot;Message-ID&quot;.
+Tous les serveurs configurés pour un accès POP3 peuvent être utilisés pour recevoir des retours d’e-mail s’ils conservent les en-têtes « Message-ID » SMTP lors de la réception de l’e-mail. Par exemple, les implémentations utilisant Qmail, SendMail et Microsoft Exchange sont actuellement en production. Cependant, certaines installations de Lotus Notes/domino ont révélé un problème de conservation des en-têtes « Message-Id ».
 
 >[!CAUTION]
 >

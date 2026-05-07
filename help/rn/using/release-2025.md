@@ -1,14 +1,15 @@
 ---
 product: campaign
-title: Versions de Campaign Classic 2025
-description: En savoir plus sur les versions de Campaign Classic 2025
+title: Versions de Campaign Classic 2025
+description: En savoir plus sur les versions de Campaign Classic 2025
 feature: Release Notes
 role: User
 level: Beginner
-source-git-commit: b9a716f327b8fdd68c3bf36dbe864535308def30
+exl-id: 8fd7a66b-cdff-427d-b78f-4becaba51129
+source-git-commit: b757b7ebc297acd10b4c57ab03862a039ae930cb
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 100%
+source-wordcount: '899'
+ht-degree: 98%
 
 ---
 

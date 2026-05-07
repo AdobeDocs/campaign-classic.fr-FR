@@ -10,8 +10,8 @@ hide: true
 exl-id: d666bc0b-596a-4908-9364-7df5bb8d68d0
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 100%
+source-wordcount: '323'
+ht-degree: 91%
 
 ---
 
@@ -40,7 +40,7 @@ La procédure de migration doit être effectuée sur **tous** les serveurs, dans
    1. Migrez le serveur d&#39;envoi (mta).
    1. Migrez les serveurs de redirection et de tracking (Apache / IIS).
 
-* Dans le cas d&#39;une **plateforme Cloud Messaging**, les serveurs d&#39;exécution sont hébergés chez Adobe. Veuillez nous contacter pour coordonner la migration sur les différents serveurs.
+* Dans le cas d&#39;une **plateforme Cloud Messaging**, les serveurs d&#39;exécution sont hébergés chez Adobe Campaign. Veuillez contacter Adobe Campaign pour coordonner la migration entre les différents serveurs.
 * Dans le cas d&#39;une **plateforme Power Booster ou Power Cluster**, les étapes de migration sont les suivantes :
 
    1. Migrez les serveurs de redirection et de tracking (Apache / IIS).

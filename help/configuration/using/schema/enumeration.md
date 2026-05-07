@@ -5,9 +5,9 @@ description: élément enumeration
 feature: Schema Extension
 exl-id: 4cd67278-2623-4508-9a9f-9007c6a5f8ac
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 100%
+ht-degree: 77%
 
 ---
 
@@ -38,7 +38,7 @@ enumeration:==(help| value)
 
 ## Description {#description-5}
 
-Cet élément permet de définir une énumération de valeurs. Une énumération appartient au schéma dans laquelle elle est définie mais elle reste accessible depuis un autre schéma.
+Cet élément permet de définir une énumération de valeurs. Une énumération appartient au schéma dans lequel elle est définie, mais elle est accessible via un autre schéma.
 
 ## Usage et contexte d&#39;utilisation {#use-and-context-of-use-4}
 
@@ -79,13 +79,13 @@ Une énumération se définit au tout début d&#39;un schéma (avant la définit
    * timespan
    * uuid
 
-* **default (string)**: valeur par défaut. La valeur par défaut peut aussi être une des valeurs définies dans l&#39;énumération.
+* **default (string)** : valeur par défaut. La valeur par défaut peut également être l’une des valeurs définies dans l’énumération .
 * **desc (string)**: description de l&#39;énumération.
 * **label (string)**: libellé de l&#39;énumération.
 * **name (string)**: nom interne de l&#39;énumération.
 * **template (string)** : cet attribut définit une référence à un élément `<enumeration>` partagé par plusieurs schémas. La définition est automatiquement copiée dans le schéma actuel.
 
-## Exemples  {#examples-4}
+## Exemples {#examples-4}
 
 Exemple d&#39;énumération dont les valeurs sont stockées en base:
 

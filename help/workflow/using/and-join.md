@@ -7,8 +7,8 @@ hide: true
 exl-id: 8b6d5c03-e104-4cf0-82ab-a08467e3e478
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 100%
+source-wordcount: '197'
+ht-degree: 72%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-Un rendez-vous ne déclenche sa transition sortante qu&#39;une fois toutes les transitions entrantes activées, donc quand toutes les activités précédentes sont terminées. Cela permet de s&#39;assurer que certaines activités sont bien terminées avant de continuer l&#39;exécution du workflow.
+Une jointure ne déclenche sa transition sortante que lorsque toutes les transitions entrantes sont activées, c&#39;est-à-dire lorsque toutes les activités précédentes sont terminées. Vous pouvez ainsi vous assurer que certaines activités sont terminées avant de continuer à exécuter le workflow.
 
 Par exemple, vous pouvez utiliser une activité Rendez-vous dans le cadre de la création de contenu et de l’automatisation de l’envoi de diffusions, afin de vous assurer qu’une diffusion n’est lancée qu’une fois les étapes d’interrogation de cible et de mise à jour du contenu terminées. Un cas pratique dédié est disponible dans [cette section](../../delivery/using/automating-via-workflows.md#creating-the-delivery-and-its-content)
 
@@ -28,7 +28,7 @@ Par exemple, vous pouvez utiliser une activité Rendez-vous dans le cadre de la 
 
 La population transmise en sortie de l&#39;activité est déterminée par le choix d&#39;un ensemble principal parmi les transitions entrantes dans l&#39;activité.
 
-La transition sortante ne peut contenir que l&#39;une des populations des transitions entrantes. Si l&#39;activité n&#39;est pas paramétrée, la transition sortante contiendra aléatoirement l&#39;une des populations entrantes.
+La transition sortante ne peut contenir que l’une des populations de la transition entrante. Si l’activité n’est pas configurée, la transition sortante sélectionne aléatoirement une des populations entrantes.
 
 >[!CAUTION]
 >

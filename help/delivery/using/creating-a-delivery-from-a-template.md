@@ -8,8 +8,8 @@ role: User
 exl-id: 7ffb649e-801f-4568-a86b-7982448e3c30
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 100%
+source-wordcount: '199'
+ht-degree: 93%
 
 ---
 
@@ -39,7 +39,7 @@ Vous pouvez aussi utiliser le menu **[!UICONTROL Fichier > Actions > Exécuter l
 
 Renseignez ensuite les paramètres de la diffusion et cliquez sur **[!UICONTROL Envoyer]**.
 
-Cette action crée une diffusion dans le dossier attaché au modèle. Le nom de cette diffusion est le nom du modèle de diffusion à partir duquel elle a été créée.
+Cette action génère une diffusion dans le dossier attaché au modèle. Le nom de cette diffusion est le nom du modèle de diffusion à partir duquel elle a été créée.
 
 >[!NOTE]
 >

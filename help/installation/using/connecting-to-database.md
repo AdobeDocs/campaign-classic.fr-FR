@@ -9,8 +9,8 @@ topic-tags: connectors
 exl-id: 240d7e11-da3a-4d64-8986-1f1c8ebcea3c
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 100%
+source-wordcount: '687'
+ht-degree: 77%
 
 ---
 
@@ -34,7 +34,7 @@ Pour activer une connexion à une base de données externe partagée, tant que c
 1. Cliquez sur le lien **[!UICONTROL Nouveau]** et sélectionnez le type **[!UICONTROL Base de données externe]**.
 1. Définissez les paramètres **[!UICONTROL Connexion]** de la base de données externe.
 
-   Pour les connexions à une base de données de type **ODBC**, le champ **[!UICONTROL Serveur]** doit contenir le nom de la source de données ODBC, et non le nom du serveur. De plus, certains paramétrages supplémentaires peuvent être nécessaires en fonction des bases de données utilisées. Pour plus d&#39;informations, consultez la section [Configurations spécifiques par type de base de données](../../installation/using/configure-fda.md).
+   Pour les connexions à une base de données de type **ODBC**, le champ **[!UICONTROL Serveur]** doit contenir le nom de la source de données ODBC et non le nom du serveur. De plus, certaines configurations supplémentaires peuvent être nécessaires en fonction des bases de données utilisées. Pour plus d&#39;informations, consultez la section [Configurations spécifiques par type de base de données](../../installation/using/configure-fda.md).
 
 1. Une fois les paramètres renseignés, cliquez sur le bouton **[!UICONTROL Tester la connexion]** pour les valider.
 
@@ -45,11 +45,11 @@ Pour activer une connexion à une base de données externe partagée, tant que c
 
    ![](assets/wf-external-account-functions.png)
 
-Vous pouvez définir des tablespaces de travail spécifiques pour les tables et pour les index dans l&#39;onglet **[!UICONTROL Paramètres]**.
+Vous pouvez définir des espaces de table de travail spécifiques pour les tables et pour les index dans l&#39;onglet **[!UICONTROL Paramètres]**.
 
 ## Créer une connexion ponctuelle {#creating-a-temporary-connection}
 
-Vous pouvez définir directement une connexion à une base de données externe à partir des activités de workflow. Dans ce cas, il s&#39;agira d&#39;une base externe locale, réservée à une utilisation dans le cadre du workflow courant : elle ne sera pas enregistrée dans les comptes externes. Ce type de connexion ponctuelle peut être créée dans différentes activités du workflow, notamment l&#39;activité de **[!UICONTROL Requête]**, l&#39;activité de **[!UICONTROL Chargement (SGBD)]**, l&#39;activité d&#39;**[!UICONTROL Enrichissement]** ou l&#39;activité de **[!UICONTROL Partage]**.
+Vous pouvez définir directement une connexion à une base externe à partir des activités de workflow. Dans ce cas, elle sera stockée dans une base externe locale, réservée à une utilisation dans le workflow courant : elle ne sera pas enregistrée sur les comptes externes. Ce type de connexion ponctuelle peut être créée dans différentes activités du workflow, notamment l&#39;activité de **[!UICONTROL Requête]**, l&#39;activité de **[!UICONTROL Chargement (SGBD)]**, l&#39;activité d&#39;**[!UICONTROL Enrichissement]** ou l&#39;activité de **[!UICONTROL Partage]**.
 
 >[!CAUTION]
 >
@@ -62,7 +62,7 @@ Par exemple, dans l&#39;activité de requête, les étapes sont les suivantes po
 
    ![](assets/wf_add_data_local_external_data.png)
 
-1. Sélectionnez le moteur de la base de données cible dans la liste déroulante. Saisissez le nom du server et renseignez les paramètres d&#39;authentification.
+1. Sélectionnez le moteur de la base de données cible dans la liste déroulante. Saisissez le nom du serveur et renseignez les paramètres d&#39;authentification.
 
    Indiquez également le nom de la base externe.
 
@@ -95,13 +95,13 @@ Par exemple, dans l&#39;activité de requête, les étapes sont les suivantes po
 
 Vous pouvez sécuriser l&#39;accès à une base externe lors du paramétrage d&#39;un compte externe FDA.
 
-Pour cela, ajoutez &quot;**:ssl**&quot; à la suite de l&#39;adresse du serveur et du port utilisé. Par exemple : **192.168.0.52:4501:ssl**.
+Pour cela, ajoutez « **:ssl** » à la suite de l&#39;adresse du serveur et du port utilisé. Par exemple : **192.168.0.52:4501:ssl**.
 
 Les données seront ainsi envoyées via le protocole sécurisé SSL.
 
 ## Configurations supplémentaires {#additional-configurations}
 
-Au besoin, vous pouvez créer le schéma nécessaire à l&#39;exploitation des données contenues dans une base externe. De même, Adobe Campaign permet de définir un mapping sur les données d&#39;une table externe. Ces paramétrages sont généraux et ne s&#39;appliquent pas exclusivement au contexte des workflows.
+Si nécessaire, vous pouvez créer le schéma pour le traitement des données dans une base de données externe. De même, Adobe Campaign permet de définir un mapping sur les données d&#39;une table externe. Ces configurations sont générales et ne s’appliquent pas exclusivement aux workflows.
 
 >[!NOTE]
 >

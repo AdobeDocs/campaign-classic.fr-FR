@@ -9,8 +9,8 @@ hide: true
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1774'
-ht-degree: 100%
+source-wordcount: '2018'
+ht-degree: 93%
 
 ---
 
@@ -37,7 +37,7 @@ _27 août 2021_
 
 Le build 9032@99a3894 comprend les correctifs suivants :
 
-* La fonctionnalité de signature de tracking a été améliorée afin d’éviter les erreurs liées à la façon dont les outils tiers (clients de messagerie, navigateurs internet, etc.) gèrent les caractères spéciaux. Les paramètres d’URL sont désormais chiffrés.
+* La fonctionnalité de signature de tracking a été améliorée afin d’éviter les erreurs liées à la manière dont les outils tiers (clients de messagerie, navigateurs Internet, etc.) gérer les caractères spéciaux. Les paramètres d’URL sont désormais chiffrés.
 * Correction d’un problème lié aux sélecteurs de date qui entraînait l’affichage d’un message d’erreur de blocage dans une console. (NEO-36345)
 
 ### [!DNL Gold Standard] version 11{#gs-11}
@@ -118,7 +118,6 @@ Les correctifs suivants sont liés au mécanisme de sécurité des liens de trac
 * Correction d’un problème qui empêchait le suivi des URL à l’aide de fragments dans les paramètres de personnalisation (balises d’ancrage avec signe dièse) de fonctionner. (NEO-25774)
 * Correction d’un problème lié au service anti-hameçonnage. (NEO-25283)
 * Correction d’un problème de suivi lors de l’utilisation de formules de tracking personnalisées spécifiques. (NEO-25277)
-
 
 ### [!DNL Gold Standard] version 8{#gs-8}
 
@@ -209,10 +208,10 @@ _13 août 2019_
 La version 19.1.4 initiale comprend les correctifs suivants :
 
 * Correction d’un problème lié à l’activité du planificateur qui générait des messages d’erreur indésirables lors de la configuration de l’assistant. Annulation de la mise à jour à partir de NEO-11662. (NEO-17097)
-* Correction d&#39;une régression causée par NEO-12727 qui entraînait l&#39;arrêt des workflows lorsqu&#39;une activité de test était exécutée deux fois. (NEO-16835)
-* Correction d&#39;un problème qui entraînait le renvoi d&#39;un code HTTP erroné (HTTP 200 OK à la place de HTTP 403 Interdit) lorsqu&#39;un jeton de session non valide ou ayant expiré était utilisé dans les appels d&#39;API. (NEO-16826)
-* Correction d&#39;un problème lié à la clé DKIM qui n&#39;était plus incorporée dans les emails, ce qui entraînait des problèmes de délivrabilité. (NEO-16804)
-* Correction de divers problèmes liés à la planification des workflows. Les workflows étaient planifiés pour être exécutés une fois par jour sans tenir compte de la configuration du planificateur. (NEO-16619, NEO-16426)
+* Correction d&#39;une régression provoquée par le NEO-12727 qui entraînait l&#39;arrêt des workflows lorsqu&#39;une activité Test était exécutée deux fois. (NEO-16835)
+* Correction d’un problème qui entraînait le renvoi d’un code HTTP erroné (HTTP 200 OK au lieu de HTTP 403 Forbidden) lorsqu’un jeton de session non valide ou expiré était utilisé dans les appels API. (NEO-16826)
+* Correction d&#39;un problème lié à la clé DKIM qui n&#39;était plus incorporée dans les emails, provoquant ainsi des problèmes de délivrabilité. (NEO-16804)
+* Correction de divers problèmes liés à la planification des workflows. Les workflows étaient planifiés pour être exécutés une fois par jour sans prendre en compte la configuration du planificateur. (NEO-16619, NEO-16426)
 
 
 ## Matrice de compatibilité de [!DNL Gold Standard]{#compatibility-matrix-gs}
@@ -266,7 +265,7 @@ Cette section répertorie tous les systèmes et composants pris en charge pour l
 <table>
 <tbody>
 <tr>
-<td>Microsoft IIS </td>
+<td>Microsoft IIS</td>
 <td>
 <p>10.0 sur Windows Server 2016</p>
 <p>8.5 sur Windows Server 2012 R2</p>
@@ -379,7 +378,7 @@ Cette section répertorie tous les systèmes et composants pris en charge pour l
 </td>
 </tr>
 <tr>
-<td>Microsoft Dynamics </td>
+<td>Microsoft Dynamics</td>
 <td>
 <p>API Soap - On-premise : 2007, 2015, 2016</p>
 <p>API Soap - Online : 2015, 2016</p>
@@ -496,7 +495,7 @@ Cette section répertorie tous les systèmes et composants pris en charge pour l
 <tbody>
 <tr>
 <td>
-<p>Microsoft Internet Explorer </p>
+<p>Microsoft Internet Explorer</p>
 </td>
 <td>
 <p>11</p>
@@ -566,7 +565,7 @@ Les navigateurs ci-après sont compatibles avec Campaign pour un accès à inter
 </tr>
 <tr>
 <td>
-<p>Microsoft Internet Explorer </p>
+<p>Microsoft Internet Explorer</p>
 </td>
 <td>
 <p>11</p>

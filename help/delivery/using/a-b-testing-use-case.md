@@ -7,21 +7,21 @@ feature: A/B Testing
 role: User
 exl-id: 4eb139a0-5342-4084-9f6d-d736e05bf1c6
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '265'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '267'
+ht-degree: 65%
 
 ---
 
 # AB Testing : procéder aux tests AB de ce cas d’utilisation {#ab-testing-use-case}
 
-Dans ce cas pratique, vous allez comparer deux contenus de diffusion par e-mail via un workflow de ciblage. Le message et le texte sont identiques dans les deux diffusions. Seules les dispositions diffèrent.
+Dans ce cas pratique, nous allons comparer deux contenus de diffusion par e-mail via un workflow de ciblage. Le message et le texte sont identiques dans les deux diffusions : seule la mise en page change.
 
-La population ciblée est divisée en trois : deux groupes de test et la population restante. Une version différente de la diffusion est envoyée à chaque groupe de test.
+La population ciblée est divisée en trois : deux groupes de test et la population restante. Une version différente de la diffusion est envoyée à chaque groupe de test.
 
 Après la diffusion, une période d’attente de 5 jours est configurée avant de collecter les résultats des meilleurs taux d’ouverture. Le contenu de la diffusion dont le score est le plus élevé est alors récupéré par un script et envoyé à la population qui n’a pas été utilisée comme groupe de test.
 
-Il est à noter que le critère qui doit déterminer la diffusion à retenir peut varier selon vos besoins. Il peut s&#39;agir du taux d&#39;ouverture, du taux de clics, du taux d&#39;inscription, de la réactivité etc.
+Veuillez noter que les critères qui décideront quelle diffusion est la meilleure peuvent être modifiés pour répondre à vos besoins. Il peut s’agir du taux d’ouverture, du taux de clic publicitaire, du taux d’abonnement, de la réactivité, etc.
 
 De plus, le test détaillé dans ce cas pratique ne concernait que deux diffusions, mais vous pouvez tester autant de versions que nécessaire. Il suffit d’ajouter des activités au workflow.
 

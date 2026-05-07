@@ -5,7 +5,7 @@ description: élément help
 feature: Schema Extension
 exl-id: 8207868c-25ff-4ca9-afdd-41b324c7ac0d
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Cet élément vous permet de décrire un élément `<element>` ou `<attribute>`.
 
 Cet élément n&#39;a aucun attribut.
 
-## Exemples       {#examples-5}
+## Exemples {#examples-5}
 
 ```
 <method name="CheckOperation" static="true"

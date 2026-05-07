@@ -6,9 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Web Forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
 source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
-workflow-type: ht
-source-wordcount: '1646'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1689'
+ht-degree: 78%
 
 ---
 
@@ -42,7 +42,7 @@ Pour définir une ou plusieurs langues de traduction, cliquez sur le bouton **[!
 
 Lorsque vous ajoutez des langues de traduction pour une application web (ou lorsque la langue par défaut et la langue d&#39;édition sont différentes), un sous-onglet **[!UICONTROL Traductions]** est ajouté dans l&#39;onglet **[!UICONTROL Edition]** afin de gérer les traductions.
 
-Adobe Campaign intègre un outil de traduction et de suivi des traductions multilingues. Cet éditeur permet de visualiser les termes à traduire ou à valider, de saisir les traductions directement dans l&#39;interface, ou d&#39;importer/exporter les chaînes de caractères afin d&#39;externaliser la traduction.
+Adobe Campaign comprend un outil permettant de traduire et de gérer les traductions multilingues. Cet éditeur permet de visualiser les chaînes à traduire ou à valider, de saisir les traductions directement dans l&#39;interface ou d&#39;importer/exporter les chaînes de caractères afin d&#39;externaliser les traductions.
 
 ## Gérer les traductions dans l&#39;éditeur {#managing-translations-in-the-editor}
 
@@ -52,7 +52,7 @@ L&#39;onglet **[!UICONTROL Traductions]** permet de saisir les traductions des c
 
 A la première ouverture de cet onglet, il ne contient aucun élément. Cliquez sur le lien **[!UICONTROL Collecter les chaînes à traduire]** pour mettre à jour les chaînes de l&#39;application web.
 
-Adobe Campaign collecte les libellés des champs ou les chaînes des onglets **[!UICONTROL Textes]** de tous les éléments statiques : blocs HTML, Javascript, etc. Les éléments statiques sont présentés dans la section [Elements statiques dans un formulaire web](static-elements-in-a-web-form.md).
+Adobe Campaign collecte les libellés des champs et les chaînes des onglets **[!UICONTROL Textes]** de tous les éléments statiques : blocs HTML, Javascript, etc. Les éléments statiques sont présentés dans la section [Eléments statiques dans un formulaire web](static-elements-in-a-web-form.md).
 
 ![](assets/s_ncs_admin_survey_trad_tab.png)
 
@@ -70,13 +70,13 @@ Lorsqu&#39;une chaîne de caractères n&#39;a jamais été traduite, le champ **
 
 ### Filtrer les chaînes {#filtering-strings}
 
-Par défaut, chaque langue de traduction de l&#39;application web est affichée. Il existe deux filtres par défaut : langue et statut. Cliquez sur le bouton **[!UICONTROL Filtres]**, puis sur **[!UICONTROL Par langue ou statut]** pour afficher les menus déroulants correspondants. Vous pouvez également créer un filtre avancé. Pour plus d’informations sur les filtres, consultez la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
+Par défaut, chaque langue de traduction de l&#39;application web est affichée. Il existe deux filtres par défaut : la langue et le statut. Cliquez sur le bouton **[!UICONTROL Filtres]**, puis sur **[!UICONTROL Par langue ou statut]** pour afficher les menus déroulants correspondants. Vous pouvez également créer un filtre avancé. Pour plus d’informations sur les filtres, consultez la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
 
 ![](assets/s_ncs_admin_survey_trad_tab_en.png)
 
 Sélectionnez la langue de traduction souhaitée dans le menu déroulant **[!UICONTROL Langue]**.
 
-Pour n&#39;afficher que les termes non traduits, sélectionnez **[!UICONTROL A traduire]** dans le menu déroulant **[!UICONTROL Statut]**. Vous pouvez également n&#39;afficher que les termes traduits ou validés.
+Pour n&#39;afficher que les termes non traduits, sélectionnez **[!UICONTROL A traduire]** dans le menu déroulant **[!UICONTROL Statut]**. Vous pouvez également afficher uniquement les chaînes traduites ou approuvées.
 
 ### Traduire les chaînes {#translating-strings}
 
@@ -100,7 +100,7 @@ Vous pouvez exporter et importer les chaînes de caractères afin de les traduir
 
 >[!CAUTION]
 >
->Lorsque vous exportez les chaînes, n&#39;effectuez plus aucune traduction via l&#39;éditeur intégré. Celles-ci seraient perdues au moment de l&#39;import en cas de conflit.
+>Une fois que vous avez exporté les chaînes, n’effectuez plus aucune traduction à l’aide de l’outil intégré. Cela entraînera un conflit lorsque vous réimporterez les traductions et celles-ci seront perdues.
 
 ### Exporter les fichiers {#exporting-files}
 
@@ -110,15 +110,15 @@ Vous pouvez exporter et importer les chaînes de caractères afin de les traduir
 
 1. Choisissez la **[!UICONTROL Stratégie d&#39;export]** :
 
-   * **[!UICONTROL Un fichier par langue]** : l&#39;export génèrera un fichier par langue de traduction. Chaque fichier sera commun à toutes les applications web sélectionnées.
-   * **[!UICONTROL Un fichier par application web]** : l&#39;export génèrera un fichier par application web sélectionnée. Chaque fichier contiendra toutes les langues de traduction.
+   * **[!UICONTROL Un fichier par langue]** : l&#39;export génèrera un fichier par langue de traduction. Chaque fichier sera commun à toutes les applications Web sélectionnées.
+   * **[!UICONTROL Un fichier par application web]** : l&#39;export génèrera un fichier par application web sélectionnée. Chaque fichier contiendra toutes les langues de traduction.
 
      >[!NOTE]
      >
      >Ce type d&#39;export n&#39;est pas disponible pour l&#39;export en XLIFF.
 
-   * **[!UICONTROL Un fichier par langue et par application web]** : l&#39;export génèrera plusieurs fichiers. Chaque fichier contiendra une langue de traduction pour une même application web.
-   * **[!UICONTROL Un fichier pour l&#39;ensemble]** : l&#39;export génèrera un seul fichier multilingue commun à toutes les applications web. Il contiendra toutes les langues de traduction pour toutes les applications web sélectionnées.
+   * **[!UICONTROL Un fichier par langue et par application web]** : l&#39;export génèrera plusieurs fichiers. Chaque fichier contiendra une langue de traduction par application web.
+   * **[!UICONTROL Un fichier pour l&#39;ensemble]** : l&#39;export génèrera un seul fichier multilingue commun à toutes les applications web. Il contiendra toutes les langues de traduction pour toutes les applications web sélectionnées.
 
      >[!NOTE]
      >
@@ -131,9 +131,9 @@ Vous pouvez exporter et importer les chaînes de caractères afin de les traduir
 
 >[!NOTE]
 >
->Les noms des fichiers d’export sont générés automatiquement. Si vous effectuez plusieurs fois un même export, les fichiers existants seront remplacés par les nouveaux. Si vous devez conserver les fichiers précédents, modifiez le **[!UICONTROL Dossier cible]**, puis cliquez sur **[!UICONTROL Démarrer]** pour relancer l&#39;export.
+>Les noms des fichiers d’exportation sont générés automatiquement. Si vous effectuez le même export à plusieurs reprises, vous remplacerez les fichiers existants par les nouveaux fichiers. Si vous devez conserver les fichiers précédents, modifiez le **[!UICONTROL Dossier cible]**, puis cliquez sur **[!UICONTROL Démarrer]** pour relancer l&#39;export.
 
-Lorsque vous exportez des fichiers au **format CSV**, chaque langue est associée à un statut et à un statut de validation. La colonne **Valider ?** vous permet de valider une traduction. Cette colonne peut contenir les valeurs **Oui** ou **Non**. Comme dans l&#39;éditeur intégré (voir [Gérer les traductions dans l&#39;éditeur](#managing-translations-in-the-editor)), la validation d&#39;une traduction est optionnelle donc non bloquante.
+Lorsque vous exportez des fichiers au **format CSV**, chaque langue est associée à un statut et à un statut de validation. Le **Valider ?** colonne permet de valider une traduction. Cette colonne peut contenir les valeurs **Oui** ou **Non**. Comme dans l&#39;éditeur intégré (voir [Gérer les traductions dans l&#39;éditeur](#managing-translations-in-the-editor)), la validation d&#39;une traduction est optionnelle donc non bloquante.
 
 ### Importer les fichiers {#importing-files}
 
@@ -153,7 +153,7 @@ Un fois la traduction externe terminée, vous pouvez importer les fichiers tradu
 
 >[!NOTE]
 >
->Une traduction externe a toujours la priorité sur une traduction interne. En cas de conflit, la traduction interne sera donc remplacée par la traduction externe.
+>Les traductions externes ont toujours la priorité sur les traductions internes. En cas de conflit, la traduction interne est remplacée par la traduction externe.
 
 ## Changer la langue d&#39;affichage des formulaires {#changing-forms-display-language}
 
@@ -169,13 +169,13 @@ si la langue est le premier ou le seul paramètre de l&#39;URL. Par exemple : *
 &lang=xx
 ```
 
-lorsque d&#39;autres paramètres précèdent celui de la langue dans l&#39;URL. Par exemple : **https://myserver/webApp/APP34?status=1&amp;lang=en**
+lorsque d&#39;autres paramètres précèdent celui de la langue dans l&#39;URL. Par exemple : **https://myserver/webApp/APP34?status=1&lang=en**
 
 Les langues de traduction et les dictionnaires disponibles par défaut sont répertoriés ci-dessous.
 
 **Dictionnaire système par défaut** : certaines langues incluent par défaut un dictionnaire contenant la traduction des chaînes système. Voir à ce sujet la section [Traduire les chaînes système](#translating-the-system-strings).
 
-**Gestion des calendriers** : les pages d&#39;une application web peuvent intégrer un calendrier permettant de saisir une date. Par défaut, ce calendrier est adapté dans plusieurs langues (traduction des noms de jours, format de la date).
+**Gestion des calendriers** : les pages d&#39;une application web peuvent intégrer un calendrier permettant de saisir une date. Par défaut, ce calendrier est disponible dans plusieurs langues (traduction des jours, format de la date).
 
 <table> 
  <tbody> 
@@ -430,7 +430,7 @@ Vous pouvez ajouter les caractères **?lang=es** ou **?lang=de** pour l&#39;affi
 >[!NOTE]
 >
 >Si d&#39;autres paramètres sont déjà utilisés pour cette application web, ajoutez les caractères **&amp;lang=**.\
->Par exemple : **https://myserver/webApp/APP34?status=1&amp;lang=en**
+>Par exemple : **https://myserver/webApp/APP34?status=1&lang=en**
 
 ## Configuration avancée de traduction {#advanced-translation-configuration}
 
@@ -440,7 +440,7 @@ Vous pouvez ajouter les caractères **?lang=es** ou **?lang=de** pour l&#39;affi
 
 ### Traduire les chaînes système {#translating-the-system-strings}
 
-Les chaînes système sont des chaînes de caractères par défaut utilisées par toutes les applications web. Par exemple : les boutons **[!UICONTROL Suivant]**, **[!UICONTROL Précédent]**, **[!UICONTROL Valider]**, le message **[!UICONTROL Chargement]**, etc. Certaines langues incluent, par défaut, un dictionnaire contenant la traduction de ces chaînes. La liste de ces langues est présentée dans la section [Changer la langue d&#39;affichage des formulaires](#changing-forms-display-language).
+Les chaînes système sont des chaînes de caractères par défaut utilisées par toutes les applications web. Par exemple : boutons **[!UICONTROL Suivant]** , **[!UICONTROL Précédent]**, **[!UICONTROL Approuver]**, **[!UICONTROL Chargement]** messages, etc. Par défaut, certaines langues contiennent un dictionnaire contenant la traduction de ces chaînes. La liste de ces langues est présentée dans la section [Changer la langue d&#39;affichage des formulaires](#changing-forms-display-language).
 
 Si vous traduisez votre application web vers une langue dans laquelle le dictionnaire système n&#39;est pas traduit, un message d&#39;avertissement vous informera que certaines traductions sont manquantes.
 
@@ -473,6 +473,6 @@ Pour traduire vos applications web dans d&#39;autres langues que celles proposé
 
    ![](assets/s_ncs_admin_survey_trad_new_itemized_list_1.png)
 
-1. Cliquez sur le bouton **[!UICONTROL Ajouter]**, puis renseignez le **[!UICONTROL Nom interne]**, le **[!UICONTROL Libellé]** et l&#39;identifiant de l&#39;image correspondant au drapeau de la langue. Pour ajouter une nouvelle image, contactez votre administrateur.
+1. Cliquez sur le bouton **[!UICONTROL Ajouter]** puis saisissez le **[!UICONTROL Nom interne]**, **[!UICONTROL Libellé]** et l&#39;identifiant de l&#39;image (indicateur). Pour ajouter une nouvelle image, contactez votre administrateur.
 
    ![](assets/s_ncs_admin_survey_trad_new_itemized_list_2.png)

@@ -11,8 +11,8 @@ hide: true
 exl-id: b62e23e5-f1b7-44c4-82d9-95c6b3240352
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '3475'
-ht-degree: 100%
+source-wordcount: '3510'
+ht-degree: 91%
 
 ---
 
@@ -38,7 +38,7 @@ Voici une liste descriptive des opérateurs disponibles :
  </thead> 
  <tbody> 
   <tr> 
-   <td> <span class="uicontrol">Egal à</span> <br /> </td> 
+   <td> <span class="uicontrol">Égal à</span> <br /> </td> 
    <td> Retrouver un résultat rigoureusement identique à ce qui est entré dans la seconde colonne Valeur.<br /> </td> 
    <td> <strong>Nom (@lastName) égal à 'Martin'</strong>. Ici ne seront retournés que les destinataires dont le nom est 'Martin', avec les seuls caractères indiqués.<br /> </td> 
   </tr> 
@@ -85,7 +85,7 @@ Voici une liste descriptive des opérateurs disponibles :
   <tr> 
    <td> <span class="uicontrol">Ne contient pas</span> <br /> </td> 
    <td> Ne pas obtenir de résultats contenant au moins la valeur renseignée.<br /> </td> 
-   <td> <strong>Domaine d’e-mail (@domain) ne contient pas 'vo'</strong>. Dans ce cas, les noms de domaine contenant « vo » ne seront pas renvoyés. Ainsi, le nom de domaine 'voila.fr' ne sera pas proposé dans les résultats.<br /> </td> 
+   <td> <strong>Le domaine d'e-mail (@domain) ne contient pas 'vo'</strong>. Dans ce cas, les noms de domaine contenant « vo » ne seront pas renvoyés. Ainsi, le nom de domaine 'voila.fr' ne sera pas proposé dans les résultats.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Comme</span> <br /> </td> 
@@ -94,7 +94,7 @@ Voici une liste descriptive des opérateurs disponibles :
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Pas comme</span> <br /> </td> 
-   <td> Est similaire à <span class="uicontrol">Comme</span>. Permet de ne pas récupérer la valeur saisie. La valeur renseignée doit ici aussi comporter le caractère joker <span class="uicontrol">%</span>.<br /> </td> 
+   <td> Similaire à <span class="uicontrol">Like</span> . Permet de ne pas récupérer la valeur saisie. La valeur renseignée doit ici aussi comporter le caractère joker <span class="uicontrol">%</span>.<br /> </td> 
    <td> <strong>Nom (@lastName) pas comme 'Smi%h'</strong>. Ici, les destinataires répondant au nom de 'Smi%h' ne seront pas retournés en résultat.<br /> </td> 
   </tr> 
   <tr> 
@@ -122,7 +122,7 @@ Voici une liste descriptive des opérateurs disponibles :
 
 ## Utiliser ET, OU, SAUF {#using-and--or--except}
 
-Dans les requêtes utilisant plus d&#39;un critère de filtrage, vous devez définir les liens entre conditions. Il y a trois liens possibles :
+Pour les requêtes qui utilisent plusieurs conditions de filtrage, vous devez définir des liens entre les conditions. Il existe trois liens possibles :
 
 * **[!UICONTROL Et]** permet de cumuler deux conditions de filtrage,
 * **[!UICONTROL Ou]** sert à proposer une alternative,
@@ -166,7 +166,7 @@ Pointez votre curseur sur la condition de filtrage **[!UICONTROL Gender (@gender
 
 ![](assets/query_editor_nveau_32.png)
 
-La condition **[!UICONTROL Genre (@gender) égal à Masculin]** vient d&#39;être extraite de sa parenthèse. Elle se situe désormais au même niveau que la condition « Ville est égal à Saumur ». Ces deux conditions sont liées par un **[!UICONTROL Et]**.
+La condition **[!UICONTROL Genre (@gender) égal à Masculin]** a été retirée de sa parenthèse. Elle est passée au même niveau que la condition « City égal à Londres ». Ces deux conditions sont liées par un **[!UICONTROL Et]**.
 
 ## Sélectionner les données à extraire {#selecting-data-to-extract}
 
@@ -249,12 +249,12 @@ Liens vers une table et éléments de collection :
  <tbody> 
   <tr> 
    <td> <img height="21px" src="assets/query_editor_nveau_51.png" /> </td> 
-   <td> Liens vers une table en particulier. Ils correspondent à des associations de type 1-1. Une occurrence de la table source peut correspondre à une seule occurrence de la table cible. Un seul et même destinataire sera associé à un pays par exemple.<br /> </td> 
+   <td> Liens vers une table en particulier. Elles coïncident avec des associations de type 1-1. Une occurrence de la table source ne peut correspondre qu'à une seule occurrence de la table cible. Un seul et même destinataire sera associé à un pays par exemple.<br /> </td> 
    <td> Dossier, Etat, Pays, etc. <br /> </td> 
   </tr> 
   <tr> 
    <td> <img height="21px" src="assets/query_editor_nveau_52.png" /> </td> 
-   <td> Éléments de collection sur une table spécifique. Ils correspondent à des associations de type 1-N N. Une occurrence de la table source peut correspondre à plusieurs occurrences de la table cible, mais une occurrence de la table cible ne peut correspondre qu’à une seule occurrence de la table source. Par exemple, un seul destinataire peut être inscrit à 'n' lettres d'abonnements.<br /> </td> 
+   <td> Elément de collection sur une table particulière. Elles coïncident avec des associations de type 1-N. Une occurrence de la table source peut correspondre à plusieurs occurrences de la table cible, mais une occurrence de la table cible ne peut correspondre qu'à une seule occurrence de la table source. Par exemple, un seul destinataire peut être inscrit à 'n' lettres d'abonnements.<br /> </td> 
    <td> Abonnements, listes, logs d'exclusion, etc.<br /> </td> 
   </tr> 
  </tbody> 
@@ -269,7 +269,7 @@ Liens vers une table et éléments de collection :
 
 ## Créer des champs calculés {#creating-calculated-fields}
 
-Au besoin, ajoutez une colonne lors du formatage des données. Un champ calculé ajoute une colonne dans la section de prévisualisation des données. Cliquez sur **[!UICONTROL Ajouter un champ calculé]**.
+Si nécessaire, ajoutez une colonne lors de la mise en forme des données. Un champ calculé ajoute une colonne à la section de prévisualisation des données. Cliquez sur **[!UICONTROL Ajouter un champ calculé]**.
 
 ![](assets/query_editor_nveau_43.png)
 
@@ -283,13 +283,13 @@ Quatre types de champ calculé sont proposés :
 
   ![](assets/query_editor_nveau_61.png)
 
-* **[!UICONTROL Expression JavaScript]** : la valeur du champ calculé est le résultat de l&#39;évaluation d&#39;une fonction JavaScript. La valeur retournée peut être typée (nombre, date, etc.).
+* **[!UICONTROL Expression JavaScript]** : la valeur du champ calculé est le résultat de l&#39;évaluation d&#39;une fonction JavaScript. La valeur renvoyée peut être saisie (nombre, date, etc.).
 
   ![](assets/query_editor_nveau_62.png)
 
 * **[!UICONTROL Énumérations]**. Ce type de champ permet d’utiliser/transformer le contenu d’une des colonnes de sortie dans une nouvelle colonne.
 
-  On peut utiliser la valeur source d&#39;une colonne et lui donner une valeur de destination. Cette valeur de destination sera affichée dans la nouvelle colonne de sortie.
+  Il est possible d’utiliser la valeur source d’une colonne et de lui donner une valeur de destination. Cette valeur de destination s’affichera dans la nouvelle colonne de sortie.
 
   Un exemple d’ajout de champ calculé de type **[!UICONTROL Énumérations]** est disponible. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/adding-enumeration-type-calculated-field.html?lang=fr){target="_blank"}.
 
@@ -333,7 +333,7 @@ Voici le détail des choix de la fenêtre **[!UICONTROL Types de formules]** :
 ![](assets/query_editor_nveau_05.png)
 
 1. **[!UICONTROL Champ simple]** permet de revenir à la fenêtre **[!UICONTROL Champ à sélectionner]**.
-1. **[!UICONTROL Agrégat (Traitement sur une fonction d&#39;agrégat)]**. Voici des exemples d&#39;utilisation des agrégats :
+1. **[!UICONTROL Agrégat (Traitement sur une fonction d’agrégat)]**. Voici quelques exemples d’utilisation des agrégats :
 
    * **[!UICONTROL Comptage]** permet d&#39;effectuer un comptage de clé primaire.
    * **[!UICONTROL Somme]** sert à totaliser tous les achats d&#39;un prospect sur une année.
@@ -341,9 +341,9 @@ Voici le détail des choix de la fenêtre **[!UICONTROL Types de formules]** :
    * **[!UICONTROL Valeur minimum]** permet d&#39;obtenir parmi des clients, ceux qui ont souscrit à une offre le plus récemment.
    * **[!UICONTROL Moyenne]**. Cette fonction permet de calculer l&#39;âge moyen des destinataires.
 
-     La case **[!UICONTROL Distinct]** permet de récupérer les valeurs uniques et non nulles d&#39;une colonne. On peut ainsi récupérer les logs de tracking d&#39;un destinataire qui seront ramenés à la valeur 1 car il s&#39;agit d&#39;un seul destinataire.
+     La zone **[!UICONTROL Distinct]** permet de récupérer les valeurs uniques et non nulles d&#39;une colonne. Par exemple, vous pouvez récupérer tous les logs de tracking d’un destinataire et ces logs de tracking sont modifiés sur la valeur 1 car ils concernent tous le même destinataire.
 
-1. **[!UICONTROL Expression]** ouvre la fenêtre **[!UICONTROL Edition de l&#39;expression]**. Par exemple, une expression pourra détecter les numéros de téléphone de plus de 10 chiffres, synonymes de possibles erreurs de saisie.
+1. **[!UICONTROL Expression]** ouvre la fenêtre **[!UICONTROL Modifier l’expression]**. Vous pouvez ainsi détecter les numéros de téléphone comportant trop de chiffres, susceptibles d’être des erreurs de saisie.
 
    ![](assets/query_editor_nveau_71.png)
 
@@ -357,7 +357,7 @@ L&#39;éditeur d&#39;expression se présente comme suit :
 
 ![](assets/s_ncs_user_filter_define_expression.png)
 
-Il permet de sélectionner des champs dans les tables de la base de données et de leur adjoindre des fonctions avancées. Les fonctions disponibles sont les suivantes :
+Il permet de sélectionner des champs dans les tables de la base de données et de leur adjoindre des fonctions avancées. Les fonctions suivantes sont disponibles :
 
 **Agrégats**
 
@@ -569,33 +569,33 @@ Il permet de sélectionner des champs dans les tables de la base de données et 
   </tr> 
   <tr> 
    <td> <strong>AddDays</strong><br /> </td> 
-   <td> Ajoute un nombre de jours à une date<br /> </td> 
-   <td> AddDays(&lt;date&gt;, &lt;nombre&gt;)<br /> </td>  
+   <td> Ajoute un nombre de jours à une date.<br /> </td> 
+   <td> AddDays(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>AddHours</strong><br /> </td> 
-   <td> Ajoute un nombre d'heures à une date<br /> </td> 
-   <td> AddHours(&lt;date&gt;, &lt;nombre&gt;)<br /> </td>  
+   <td> Ajoute un nombre d’heures à une date.<br /> </td> 
+   <td> AddHours(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>AddMinutes</strong><br /> </td> 
-   <td> Ajoute un nombre de minutes à une date<br /> </td> 
-   <td> AddMinutes(&lt;date&gt;, &lt;nombre&gt;)<br /> </td>  
+   <td> Ajoute un nombre de minutes à une date.<br /> </td> 
+   <td> AddMinutes(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>AddMonths</strong><br /> </td> 
-   <td> Ajoute un nombre de mois à une date<br /> </td> 
-   <td> AddMonths(&lt;date&gt;, &lt;nombre&gt;)<br /> </td>  
+   <td> Ajoute un nombre de mois à une date.<br /> </td> 
+   <td> AddMonths(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>AddSeconds</strong><br /> </td> 
-   <td> Ajoute un nombre de secondes à une date<br /> </td> 
-   <td> AddSeconds(&lt;date&gt;, &lt;nombre&gt;)<br /> </td>  
+   <td> Ajoute un nombre de secondes à une date.<br /> </td> 
+   <td> AddSeconds(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>AddYears</strong><br /> </td> 
-   <td> Ajoute un nombre d'années à une date<br /> </td> 
-   <td> AddYears(&lt;date&gt;, &lt;nombre&gt;)<br /> </td>  
+   <td> Ajoute un nombre d’années à une date.<br /> </td> 
+   <td> AddYears(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
@@ -603,8 +603,8 @@ Il permet de sélectionner des champs dans les tables de la base de données et 
    <td> DateOnly(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>Jour</strong><br /> </td> 
-   <td> Renvoie le nombre représentant le jour de la date<br /> </td> 
+   <td> <strong>Day</strong><br /> </td> 
+   <td> Renvoie le nombre représentant le jour de la date.<br /> </td> 
    <td> Day(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -615,171 +615,171 @@ Il permet de sélectionner des champs dans les tables de la base de données et 
   <tr> 
    <td> <strong>DaysAgo</strong><br /> </td> 
    <td> Renvoie la date correspondant à la date courante moins n jours<br /> </td> 
-   <td> DaysAgo(&lt;nombre&gt;)<br /> </td>  
+   <td> DaysAgo(&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>DaysAgoInt</strong><br /> </td> 
    <td> Renvoie la date (entier aaaammjj) correspondant à la date courante moins n jours<br /> </td> 
-   <td> DaysAgoInt(&lt;nombre&gt;)<br /> </td>  
+   <td> DaysAgoInt(&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>DaysDiff</strong><br /> </td> 
-   <td> Nombre de jours entre deux dates<br /> </td> 
-   <td> DaysDiff(&lt;date de fin&gt;, &lt;date de début&gt;)<br /> </td>  
+   <td> Nombre de jours entre deux dates<br /> </td> 
+   <td> DaysDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>DaysOld</strong><br /> </td> 
-   <td> Renvoie l'ancienneté en jours d'une date<br /> </td> 
+   <td> Renvoie l’ancienneté en jours d’une date.<br /> </td> 
    <td> DaysOld(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>GetDate</strong><br /> </td> 
-   <td> Renvoie la date système courante du serveur<br /> </td> 
+   <td> Renvoie la date système courante du serveur.<br /> </td> 
    <td> GetDate()<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Hour</strong><br /> </td> 
-   <td> Renvoie l'heure de la date<br /> </td> 
+   <td> Renvoie l’heure de la date.<br /> </td> 
    <td> Hour(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>HoursDiff</strong><br /> </td> 
-   <td> Renvoie le nombre d'heures entre deux dates<br /> </td> 
-   <td> HoursDiff(&lt;date de fin&gt;, &lt;date de début&gt;)<br /> </td>  
+   <td> Renvoie le nombre d’heures entre deux dates.<br /> </td> 
+   <td> HoursDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Minute</strong><br /> </td> 
-   <td> Renvoie les minutes de la date<br /> </td> 
+   <td> Renvoie les minutes de la date.<br /> </td> 
    <td> Minute(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>MinutesDiff</strong><br /> </td> 
-   <td> Renvoie le nombre de minutes entre deux dates<br /> </td> 
-   <td> MinutesDiff(&lt;date de fin&gt;, &lt;date de début&gt;)<br /> </td>  
+   <td> Renvoie le nombre de minutes entre deux dates.<br /> </td> 
+   <td> MinutesDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Month</strong><br /> </td> 
-   <td> Renvoie le nombre représentant le mois de la date<br /> </td> 
+   <td> Renvoie le nombre représentant le mois de la date.<br /> </td> 
    <td> Month(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>MonthsAgo</strong><br /> </td> 
-   <td> Renvoie la date correspondant à la date courante moins n mois<br /> </td> 
-   <td> MonthsAgo(&lt;nombre&gt;)<br /> </td>  
+   <td> Renvoie la date correspondant à la date courante moins n mois.<br /> </td> 
+   <td> MonthsAgo(&lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>MonthsDiff</strong><br /> </td> 
-   <td> Renvoie le nombre de mois entre deux dates<br /> </td> 
-   <td> MonthsDiff(&lt;date de fin&gt;, &lt;date de début&gt;)<br /> </td>  
+   <td> Renvoie le nombre de mois entre deux dates.<br /> </td> 
+   <td> MonthsDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>MonthsOld</strong><br /> </td> 
-   <td> Renvoie l'ancienneté en mois d'une date<br /> </td> 
+   <td> Renvoie l’ancienneté en mois d’une date.<br /> </td> 
    <td> MonthsOld(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Second</strong><br /> </td> 
-   <td> Renvoie les secondes de la date<br /> </td> 
+   <td> Renvoie les secondes de la date.<br /> </td> 
    <td> Second(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>SecondsDiff</strong><br /> </td> 
-   <td> Renvoie le nombre de secondes entre deux dates<br /> </td> 
-   <td> SecondsDiff(&lt;date de fin&gt;, &lt;date de début&gt;)<br /> </td>  
+   <td> Renvoie le nombre de secondes entre deux dates.<br /> </td> 
+   <td> SecondsDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>SubDays</strong><br /> </td> 
-   <td> Enlève un nombre de jours à une date<br /> </td> 
-   <td> SubDays(&lt;date&gt;, &lt;nombre&gt;)<br /> </td>  
+   <td> Enlève un nombre de jours à une date.<br /> </td> 
+   <td> SubDays(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>SubHours</strong><br /> </td> 
-   <td> Enlève un nombre d'heures à une date<br /> </td> 
-   <td> SubHours(&lt;date&gt;, &lt;nombre&gt;)<br /> </td>  
+   <td> Enlève un nombre d’heures à une date.<br /> </td> 
+   <td> SubHours(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>SubMinutes</strong><br /> </td> 
-   <td> Enlève un nombre de minutes à une date<br /> </td> 
-   <td> SubMinutes(&lt;date&gt;, &lt;nombre&gt;)<br /> </td>  
+   <td> Enlève un nombre de minutes à une date.<br /> </td> 
+   <td> SubMinutes(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>SubMonths</strong><br /> </td> 
-   <td> Enlève un nombre de mois à une date<br /> </td> 
-   <td> SubMonths(&lt;date&gt;, &lt;nombre&gt;)<br /> </td>  
+   <td> Enlève un nombre de mois à une date.<br /> </td> 
+   <td> SubMonths(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>SubSeconds</strong><br /> </td> 
-   <td> Enlève un nombre de secondes à une date<br /> </td> 
-   <td> SubSeconds(&lt;date&gt;, &lt;nombre&gt;)<br /> </td>  
+   <td> Enlève un nombre de secondes à une date.<br /> </td> 
+   <td> SubSeconds(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>SubYears</strong><br /> </td> 
-   <td> Enlève un nombre d'années à une date<br /> </td> 
-   <td> SubYears(&lt;date&gt;, &lt;nombre&gt;)<br /> </td>  
+   <td> Enlève un nombre d’années à une date.<br /> </td> 
+   <td> SubYears(&lt;date&gt;, &lt;number&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToDate</strong><br /> </td> 
-   <td> Convertit une date + heure en date seule<br /> </td> 
-   <td> ToDate(&lt;date + heure&gt;)<br /> </td>  
+   <td> Convertit une date + heure en date seule.<br /> </td> 
+   <td> ToDate(&lt;date + time&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToDateTime</strong><br /> </td> 
-   <td> Convertit une chaîne en date + heure<br /> </td> 
-   <td> ToDateTime(&lt;chaîne&gt;)<br /> </td>  
+   <td> Convertit une chaîne en date + heure.<br /> </td> 
+   <td> ToDateTime(&lt;string&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncDate</strong><br /> </td> 
-   <td> Arrondit une date + heure à la seconde<br /> </td> 
-   <td> TruncDate(@lastModified, &lt;nombre de secondes&gt;)<br /> </td> 
+   <td> Arrondit une date + heure à la seconde.<br /> </td> 
+   <td> TruncDate(@lastModified, &lt;number of seconds&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>TruncDateTZ</strong><br /> </td> 
-   <td> Arrondit une date + heure à la seconde près<br /> </td> 
-   <td> TruncDateTZ(&lt;date&gt;, &lt;nombre de secondes&gt;, &lt;fuseau horaire&gt;)<br /> </td> 
+   <td> Arrondit une date + heure à la seconde près.<br /> </td> 
+   <td> TruncDateTZ(&lt;date&gt;, &lt;number of seconds&gt;, &lt;time zone&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>TruncQuarter</strong><br /> </td> 
-   <td> Arrondit une date au trimestre<br /> </td> 
+   <td> Arrondit une date au trimestre.<br /> </td> 
    <td> TruncQuarter(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncTime</strong><br /> </td> 
-   <td> Arrondit la partie heure à la seconde<br /> </td> 
+   <td> Arrondit la partie heure à la seconde.<br /> </td> 
    <td> TruncTim(e&lt;date&gt;, &lt;nombre de secondes&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncWeek</strong><br /> </td> 
-   <td> Arrondit une date à la semaine<br /> </td> 
+   <td> Arrondit une date à la semaine.<br /> </td> 
    <td> TruncWeek(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncYear</strong><br /> </td> 
-   <td> Arrondit une date + heure au premier janvier de l'année<br /> </td> 
+   <td> Arrondit une date + heure au 1er janvier de l’année.<br /> </td> 
    <td> TruncYear(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncWeek</strong><br /> </td> 
-   <td> Renvoie le numéro du jour dans la semaine de la date<br /> </td> 
+   <td> Renvoie le numéro du jour dans la semaine de la date.<br /> </td> 
    <td> WeekDay(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Year</strong><br /> </td> 
-   <td> Renvoie le nombre représentant l'année de la date<br /> </td> 
+   <td> Renvoie le nombre représentant l’année de la date.<br /> </td> 
    <td> Year(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearAnd Month</strong><br /> </td> 
-   <td> Renvoie le nombre représentant l'année et le mois de la date<br /> </td> 
+   <td> Renvoie le nombre représentant l’année et le mois de la date.<br /> </td> 
    <td> YearAndMonth(&lt;date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearsDiff</strong><br /> </td> 
-   <td> Renvoie le nombre d'années entre deux dates<br /> </td> 
-   <td> YearsDiff(&lt;date de fin&gt;, &lt;date de début&gt;)<br /> </td>  
+   <td> Renvoie le nombre d’années entre deux dates.<br /> </td> 
+   <td> YearsDiff(&lt;end date&gt;, &lt;start date&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearsOld</strong><br /> </td> 
-   <td> Renvoie l'ancienneté en années d'une date<br /> </td> 
+   <td> Renvoie l’ancienneté en années d’une date.<br /> </td> 
    <td> YearsOld(&lt;date&gt;)<br /> </td>  
   </tr> 
  </tbody> 
@@ -920,7 +920,7 @@ Il permet de sélectionner des champs dans les tables de la base de données et 
    <td> <strong>Syntaxe</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Casse</strong><br /> </td> 
+   <td> <strong>Case</strong><br /> </td> 
    <td> Renvoie la valeur 1 si la condition est vérifiée. Sinon, renvoie la valeur 2.<br /> </td> 
    <td> Case(When(&lt;condition&gt;, &lt;valeur 1&gt;), Else(&lt;valeur 2&gt;))<br /> </td> 
   </tr> 

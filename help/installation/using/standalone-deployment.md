@@ -9,8 +9,8 @@ topic-tags: deployment-types-
 exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
 source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 98%
+source-wordcount: '1096'
+ht-degree: 94%
 
 ---
 
@@ -56,7 +56,7 @@ Lorsque le volume s&#39;accroît, une variante de cette architecture déporte le
 * Une machine critique en cas d&#39;incident.
 * Débit limité pendant les diffusions des messages (selon notre expérience, de l&#39;ordre de quelques dizaines de milliers de mails par heure).
 * Ralentissement possible de l&#39;application pendant les diffusions.
-* Le serveur applicatif doit être accessible depuis l&#39;extérieur (en étant placé dans la DMZ, par exemple), puisqu&#39;il accueille le serveur de redirection.
+* Le serveur applicatif doit être accessible depuis l’extérieur (en étant placé dans la DMZ, par exemple), puisqu’il accueille le serveur de redirection.
 
 ## Etapes d&#39;installation et de configuration {#installation-and-configuration-steps}
 
@@ -71,13 +71,13 @@ Lorsque le volume s&#39;accroît, une variante de cette architecture déporte le
    * un premier alias exposé au grand public pour le tracking et pointant vers la machine sur son IP publique ;
    * un deuxième alias exposé aux utilisateurs métier pour l&#39;accès console et pointant vers la même machine.
 
-* Pare-feu configuré pour ouvrir les ports SMTP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 pour l’Oracle, 5432 pour PostgreSQL, etc.). Voir à ce propos [Configuration du réseau](../../installation/using/network-configuration.md).
+* Pare-feu configuré pour ouvrir SMTP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 pour Oracle, 5432 pour PostgreSQL, etc.) les ports. Voir à ce propos [Configuration du réseau](../../installation/using/network-configuration.md).
 
 Dans les exemples présentés ci-dessous, les paramètres de l&#39;instance sont les suivants :
 
 * Nom de l&#39;instance : **demo**
 * Masque DNS : **console.campaign.net&#42;** (uniquement pour la connexion des consoles clientes et pour les rapports)
-* Base de données : **campaign:demo@dbsrv**
+* Base : **campaign:demo@dbsrv**
 
 ### Installer et configurer (mono-machine) {#installing-and-configuring--single-machine-}
 
@@ -153,7 +153,7 @@ Les étapes sont les suivantes :
 
    Pour plus d’informations à ce sujet, consultez [cette section](../../installation/using/configuring-campaign-server.md#enabling-processes).
 
-1. Editez le fichier **serverConf.xml** et renseignez le domaine de diffusion puis indiquez les adresses IP (ou host) des serveurs DNS utilisés pour répondre aux requêtes DNS de type MX par le module MTA.
+1. Modifiez le fichier **serverConf.xml** et renseignez le domaine de diffusion, puis indiquez les adresses IP (ou hôtes) des serveurs DNS utilisés pour répondre aux requêtes DNS de type MX par le module MTA.
 
    ```
    <dnsConfig localDomain="campaign.com" nameServers="192.0.0.1, 192.0.0.2"/>
@@ -239,7 +239,7 @@ Les étapes sont les suivantes :
 
      ![](assets/s_ncs_install_deployment_wiz_09.png)
 
-     Le serveur Adobe Campaign étant le serveur applicatif et de redirection, l&#39;URL interne utilisée pour la collecte des logs de tracking et le transfert des URL est une connexion interne directe sur Tomcat (https://localhost:8080).
+     Le serveur Adobe Campaign étant utilisé à la fois comme serveur applicatif et comme serveur de redirection, l’URL interne utilisée pour collecter les logs de tracking et transférer les URL est une connexion interne directe à Tomcat (https://localhost:8080).
 
    * Gestion des mails rebonds : renseignez les paramètres de gestion des mails rebonds (ne pas tenir compte de la section **Mails rebonds non traités**).
    * Accès depuis Internet : renseignez les deux URL d&#39;accès pour les rapports ou les formulaires Web et les pages miroir.

@@ -1,22 +1,22 @@
 ---
 product: campaign
 title: Créer le script
-description: Découvrez comment effectuer des tests AB à lʼaide dʼun cas dʼutilisation spécifique.
+description: Découvrez comment effectuer des tests A/B à lʼaide dʼun cas dʼutilisation spécifique
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: A/B Testing
 role: User
 exl-id: 4143d1b7-0e2b-4672-ad57-e4d7f8fea028
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '348'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '349'
+ht-degree: 80%
 
 ---
 
 # AB Testing : créer le script {#step-5--creating-the-script}
 
 
-Le choix du contenu de la diffusion destinée à la population restante est calculé par un script. Ce script récupère l&#39;information quant à la diffusion qui a obtenu le plus fort taux d&#39;ouverture et copie le contenu dans la diffusion finale.
+Le choix du contenu de la diffusion destinée à la population restante est calculé par un script. Ce script récupère les informations relatives à la diffusion qui a obtenu le plus fort taux d&#39;ouverture et copie le contenu dans la diffusion finale.
 
 ## Exemple de script {#example-of-a-script}
 
@@ -159,7 +159,7 @@ Cette section détaille les différentes parties du script et leur fonctionnemen
 
 ## Autres critères de sélection {#other-selection-criteria}
 
-L&#39;exemple présenté ci-dessus permet de sélectionner le contenu d&#39;une diffusion en fonction du taux d&#39;ouverture des emails. Vous pouvez l&#39;adapter pour vous baser sur d&#39;autres indicateurs propres aux diffusions :
+L&#39;exemple ci-dessus permet de sélectionner le contenu d&#39;une diffusion en fonction du taux d&#39;ouverture des emails. Vous pouvez l’adapter pour vous baser sur d’autres indicateurs spécifiques à la diffusion :
 
 * Meilleur taux de clic publicitaire :`[indicators/@recipientClickRatio]`,
 * Meilleure réactivité (email ouvert et clics dans le message) : `[indicators/@reactivity]`,

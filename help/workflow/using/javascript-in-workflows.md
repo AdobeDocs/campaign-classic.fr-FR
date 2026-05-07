@@ -7,8 +7,8 @@ hide: true
 exl-id: 7213ea64-3dec-4b16-9d93-4ae941ddfaa7
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1702'
-ht-degree: 100%
+source-wordcount: '1832'
+ht-degree: 99%
 
 ---
 
@@ -619,7 +619,7 @@ Cette vidéo présente un exemple d’utilisation d’une méthode d’API non s
 
 * [Exemples d’appels SOAP](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=fr)
 * Méthodes :
-   * [Create](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=fr)
+   * [Créer](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=fr)
    * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html?lang=fr)
    * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=fr)
    * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=fr)

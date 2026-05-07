@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: data-processing
 exl-id: 2c933fc5-1c0a-4c2f-9ff2-90d09a79c55a
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1340'
+ht-degree: 70%
 
 ---
 
@@ -25,19 +25,19 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Si vous n&#39;avez pas accès au serveur et à la base de données (environnements hébergés), vous ne serez pas en mesure d&#39;effectuer les procédures décrites ci-dessous. Veuillez contacter Adobe.
+>Si vous n’avez pas accès au serveur et à la base de données (environnements hébergés), vous ne pourrez pas effectuer les procédures décrites ci-dessous. Veuillez contacter Adobe.
 
 L&#39;utilisation d&#39;Adobe Campaign requiert l&#39;installation et le paramétrage d&#39;un ou plusieurs environnements : développement, test, pré-production, recette, production, etc.
 
-Chaque environnement contient une instance Adobe Campaign et chaque instance Adobe Campaign est liée à une ou plusieurs bases de données. Le serveur applicatif peut exécuter un ou plusieurs processus : la quasi totalité de ces processus accèdent directement à la base de données de l&#39;instance.
+Chaque environnement contient une instance Adobe Campaign et chaque instance Adobe Campaign est liée à une ou plusieurs bases de données. Le serveur applicatif peut exécuter un ou plusieurs processus : la quasi totalité de ces processus accèdent directement à la base de données de l&#39;instance.
 
-Cette section présente les procédures à appliquer pour dupliquer un environnement Adobe Campaign, c&#39;est-à-dire pour restaurer un environnement-source dans un environnement-cible, et ainsi disposer de deux environnements de travail identiques.
+Cette section présente les procédures à appliquer pour dupliquer un environnement Adobe Campaign, c’est-à-dire pour restaurer un environnement source dans un environnement cible, et ainsi disposer de deux environnements de travail identiques.
 
 Pour cela, les étapes sont les suivantes :
 
 1. Créer une copie des bases de données de toutes les instances de l&#39;environnement-source,
 1. Restaurer ces copies sur toutes les instances de l&#39;environnement-cible,
-1. Exécutez le script de cautérisation **nms:freezeInstance.js** sur l&#39;environnement-cible avant sa mise en route.
+1. Exécutez le script de cautérisation **nms:freezeInstance.js** sur l’environnement cible avant de le démarrer.
 
    Les serveurs et leur configuration ne sont pas impactés par cette procédure.
 
@@ -48,16 +48,16 @@ Pour cela, les étapes sont les suivantes :
 
    >[!IMPORTANT]
    >
-   >Un environnement peut contenir plusieurs instances. Chaque instance Adobe Campaign est sujette à un contrat de licence. Le nombre d&#39;environnements autorisés est mentionné dans votre contrat de licence.\
+   >Un environnement peut contenir plusieurs instances. Chaque instance d’Adobe Campaign est soumise à un contrat de licence. Consultez votre contrat de licence pour connaître le nombre d’environnements disponibles.\
    >La procédure proposée ci-après vous permet de transférer un environnement sans pour autant impacter le nombre d&#39;environnements et d&#39;instances installées.
 
 ### Avant de commencer {#before-you-start}
 
 >[!IMPORTANT]
 >
->Il est vivement recommandé de réaliser des sauvegardes complètes des bases de données de toutes les instances des environnements-source et cible avant toute manipulation. En cas de problème, vous pourrez ainsi restaurer ces sauvegardes et retrouver la configuration initiale.
+>Nous vous recommandons vivement d’effectuer une sauvegarde complète des bases de données pour toutes les instances des environnements source et cible avant de démarrer le processus de transfert. Ainsi, si un problème se produit, vous pourrez restaurer les sauvegardes et revenir à votre configuration initiale.
 
-Afin de mettre en oeuvre la procédure décrite ci-dessous, l&#39;environnement-source et l&#39;environnement-cible doivent disposer du même nombre d&#39;instances. Elles doivent avoir la même finalité (instance marketing, de diffusions) et une configuration similaire. La configuration technique doit correspondre aux pré-requis logiciels. Les mêmes composants doivent être installés dans les deux environnements.
+Pour que ce processus fonctionne, les environnements source et cible doivent avoir le même nombre d’instances, le même objectif (instance marketing, instance de diffusion) et des configurations similaires. La configuration technique doit être conforme aux conditions préalables relatives aux logiciels. Les mêmes composants doivent être installés sur les deux environnements.
 
 ## Mise en œuvre {#implementation}
 
@@ -65,11 +65,11 @@ Afin de mettre en oeuvre la procédure décrite ci-dessous, l&#39;environnement-
 
 Nous vous proposons ici de comprendre les étapes de transfert d&#39;un environnement-source vers un environnement-cible à travers un cas pratique : l&#39;objectif est de restaurer un environnement de production (instance **prod**) dans un environnement de développement (instance **recette**) afin de travailler dans un contexte qui soit le plus proche possible de la plateforme &#39;live&#39;.
 
-Les étapes ci-dessous doivent être réalisées avec précaution : certains processus peuvent être en cours lors de la copie des bases de données de l&#39;environnement-source. La procédure de cautérisation (Etape 3 ci-après) permet de ne pas diffuser les messages plusieurs fois aux mêmes destinataires et de conserver la cohérence des données.
+Les étapes suivantes doivent être réalisées avec précaution : certains processus peuvent être en cours lors de la copie des bases de données de l&#39;environnement-source. La cautérisation (étape 3 ci-dessous) empêche l’envoi répété des messages et maintient la cohérence des données.
 
 >[!IMPORTANT]
 >
->* La procédure ci-dessous est valide en langage PostgreSQL, si le langage SQL est différent (Oracle, par exemple), les requêtes SQL doivent être adaptées.
+>* La procédure suivante est valide en langage PostgreSQL. Si le langage SQL est différent (Oracle, par exemple), les requêtes SQL doivent être adaptées.
 >* Dans les exemples de commandes proposés ci-après, on considère une instance **prod** et une instance **recette** existantes sous PostgreSQL.
 >
 
@@ -77,7 +77,7 @@ Les étapes ci-dessous doivent être réalisées avec précaution : certains pr
 
 Copier les bases de données
 
-Vous devez au préalable copier toutes les bases de données de l&#39;environnement-source. Le mode de réalisation de cette opération dépend du moteur de la base de données et est sous la responsabilité de l&#39;administrateur des bases de données.
+Commencez par copier toutes les bases de données de l’environnement source. L&#39;opération dépend du moteur de base de données et relève de l&#39;administrateur de la base de données.
 
 Sous PostgreSQL, la commande est la suivante :
 
@@ -95,14 +95,14 @@ Cet export permet de conserver la configuration de la recette et de ne rafraîch
 
 Pour cela, effectuez un export de package pour les deux éléments suivants :
 
-* Dans un fichier &#39;options_recette.xml&#39;, exporter la table **xtk:option**, sans les enregistrements avec les noms internes suivants : &#39;WdbcTimeZone&#39;, &#39;NmsServer_LastPostUpgrade&#39; et &#39;NmsBroadcast_RegexRules&#39;.
-* Dans un fichier &#39;extaccount_recette.xml&#39;, exporter la table **nms:extAccount** pour tous les enregistrements dont l&#39;ID est différent de 0 (@id &lt;> 0).
+* Exportez la table **xtk:option** dans un fichier &#39;options_dev.xml&#39;, sans les enregistrements avec les noms internes suivants : &#39;WdbcTimeZone&#39;, &#39;NmsServer_LastPostUpgrade&#39; et &#39;NmsBroadcast_RegexRules&#39;.
+* Dans un fichier &#39;extaccount_dev.xml&#39;, exportez la table **nms:extAccount** pour tous les enregistrements dont l&#39;ID n&#39;est pas 0 (@id &lt;> 0).
 
 Vérifiez dans chaque fichier que le nombre d&#39;options/de comptes exportés est égal au nombre de lignes à exporter.
 
 >[!NOTE]
 >
->Le nombre de lignes à exporter dans un export de package est de 1000 lignes. Si le nombre d&#39;options ou de comptes externes est supérieur à 1000, il faut procéder à plusieurs exports.
+>Le nombre de lignes à exporter dans un export de package est de 1 000 lignes. Si le nombre d&#39;options ou de comptes externes est supérieur à 1000, vous devez effectuer plusieurs exports.
 > 
 >Pour plus d’informations, consultez [cette section](../../platform/using/working-with-data-packages.md#exporting-packages).
 
@@ -112,7 +112,7 @@ Vérifiez dans chaque fichier que le nombre d&#39;options/de comptes exportés e
 
 ### Etape 3 - Arrêter l&#39;environnement cible (recette) {#step-3---stop-the-target-environment--dev-}
 
-Vous devez arrêter les processus Adobe Campaign sur tous les serveurs de l&#39;environnement-cible. Le mode de réalisation de cette opération dépend de votre système d&#39;exploitation.
+Vous devez arrêter les processus Adobe Campaign sur tous les serveurs de l’environnement cible. Cette opération dépend de votre système d’exploitation.
 
 Vous pouvez arrêter tous les processus ou seulement ceux qui écrivent dans la base de données.
 
@@ -220,7 +220,7 @@ Vérifier avant toutes choses les valeurs de plusieurs lignes des fichiers avant
 
 Pour importer la configuration de la base de données de l&#39;environnement-cible (recette) :
 
-1. Ouvrir la console d&#39;administration de la base de données et purger les comptes externes (table nms:extAccount) dont l&#39;ID est différent de 0 (@id &lt;> 0).
+1. Ouvrez la console d&#39;administration de la base de données et purgez les comptes externes (table nms:extAccount) dont l&#39;identifiant n&#39;est pas 0 (@id &lt;> 0).
 1. Au niveau de la console Adobe Campaign, importer le package options_recette.xml précédemment créé via la fonctionnalité d&#39;import de package.
 
    Vérifier que les options ont bien été mises à jour dans le noeud **[!UICONTROL Administration > Plateforme > Options]**.

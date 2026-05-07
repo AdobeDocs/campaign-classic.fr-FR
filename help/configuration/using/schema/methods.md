@@ -5,7 +5,7 @@ description: élément method
 feature: Schema Extension
 exl-id: f45e32ce-6534-4df2-ac7c-ba1134f0ffc8
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '42'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Cet élément permet de définir un élément `<method>`. Il est obligatoire pou
 
 Cet élément n&#39;a aucun attribut.
 
-## Exemples       {#examples-8}
+## Exemples {#examples-8}
 
 ```
 <methods async="true"

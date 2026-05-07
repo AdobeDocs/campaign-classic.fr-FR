@@ -10,8 +10,8 @@ hide: true
 exl-id: 9dc0699c-0fbf-4f8e-81f7-8ca3d7e98798
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 100%
+source-wordcount: '497'
+ht-degree: 96%
 
 ---
 
@@ -32,7 +32,7 @@ Les étapes de migration sous Linux sont les suivantes :
 Arrêtez d&#39;abord tous les processus accédant à la base de données, sur toutes les machines concernées.
 
 1. Connectez-vous en tant que **root**.
-1. Les serveurs utilisant le module de redirection (service **webmdl**) doivent être arrêtés. Pour Apache, exécutez la commande suivante :
+1. Tous les serveurs utilisant le module de redirection (service **webmdl**) doivent être arrêtés. Pour Apache, exécutez la commande suivante :
 
    ```
    /etc/init.d/apache2 stop

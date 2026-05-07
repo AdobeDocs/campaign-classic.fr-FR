@@ -6,9 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Surveys
 exl-id: 387bc362-4064-4181-9385-8e0c3423ba3e
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 100%
 
 ## Propriétés du questionnaire {#survey-properties}
 
-Les questionnaires en ligne sont entièrement paramétrables et personnalisables pour répondre à vos besoins. Les paramètres doivent être renseignés dans la fenêtre des propriétés.
+Les questionnaires en ligne sont entièrement configurables et personnalisables pour répondre à vos besoins. Les paramètres doivent être renseignés dans la fenêtre des propriétés.
 
-Les paramètres disponibles sont présentés dans [ce document ](../../web/using/defining-web-forms-properties.md).
+Les paramètres disponibles sont présentés dans [ce document &#x200B;](../../web/using/defining-web-forms-properties.md).
 
 ![](assets/s_ncs_admin_survey_properties_general.png)
 

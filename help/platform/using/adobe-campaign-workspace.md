@@ -7,9 +7,9 @@ role: Developer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
 source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
-workflow-type: ht
-source-wordcount: '1185'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1335'
+ht-degree: 91%
 
 ---
 
@@ -23,11 +23,11 @@ Une fois votre connexion à la base de données établie, vous accédez à la pa
 
 ![](assets/d_ncs_user_interface_home.png)
 
-![](assets/do-not-localize/how-to-video.png)[ Découvrir l’espace de travail Campaign en vidéo](#video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; Découvrir l’espace de travail Campaign en vidéo](#video)
 
 >[!NOTE]
 >
->Les fonctions Adobe Campaign disponibles sur votre instance dépendent des modules et composants additionnels installés. Selon vos autorisations et configurations spécifiques, certaines d&#39;entre elles peuvent ne pas être disponibles.
+>Les fonctionnalités d’Adobe Campaign disponibles sur votre instance dépendent des modules et modules complémentaires installés. Selon vos autorisations et configurations spécifiques, certains d’entre eux peuvent également ne pas être disponibles.
 >
 >Avant d’installer un module ou un composant additionnel, vous devez vérifier votre contrat de licence ou contacter votre chargé de compte Adobe.
 
@@ -89,7 +89,7 @@ Ainsi, les listes sont accessibles à partir du lien **[!UICONTROL Listes]** pro
 
   ![](assets/d_ncs_user_interface_back_home_buttons.png)
 
-* Dans le cas d&#39;un menu ou d&#39;un raccourci vers un écran terminal (tel qu&#39;une application web, un programme, une diffusion, un rapport, une tâche, etc.), la page correspondante est affichée sous un nouvel onglet. Ainsi, vous pouvez naviguer d&#39;une page à l&#39;autre en cliquant sur l&#39;onglet correspondant.
+* Dans le cas d&#39;un menu ou d&#39;un raccourci vers un écran d&#39;affichage (par exemple application web, programme, diffusion, rapport, etc.), la page correspondante est affichée dans un autre onglet. Vous pouvez ainsi naviguer d’une page à l’autre à l’aide des onglets.
 
   ![](assets/d_ncs_user_interface_tabs.png)
 
@@ -97,7 +97,7 @@ Ainsi, les listes sont accessibles à partir du lien **[!UICONTROL Listes]** pro
 
 Dans chaque section des fonctions principales, vous pouvez naviguer parmi les éléments disponibles. Pour cela, utilisez les raccourcis proposés dans la section **[!UICONTROL Navigation]**. Le lien **[!UICONTROL Autres choix]** permet d&#39;accéder à toutes les autres pages, indépendamment de celles de la fonction courante.
 
-Vous pouvez créer un nouvel élément (diffusion, application web, workflow, etc.) à l’aide des raccourcis dans la section **[!UICONTROL Créer]** sur la gauche de l’écran. Utilisez le bouton **[!UICONTROL Créer]** situé au-dessus de la liste pour ajouter de nouveaux éléments à la liste.
+Vous pouvez créer un nouvel élément (diffusion, application web, workflow, etc.) à l’aide des raccourcis dans la section **[!UICONTROL Créer]** sur la gauche de l’écran. Utilisez le bouton **[!UICONTROL Créer]** situé au-dessus de la liste pour ajouter de nouveaux éléments à la liste.
 
 Par exemple, au niveau de la page des diffusions, utilisez le bouton **[!UICONTROL Créer]** pour créer une nouvelle diffusion.
 
@@ -110,11 +110,11 @@ L&#39;explorateur Adobe Campaign est accessible à partir de l’icône de la b
 
 Pour en savoir plus sur l’explorateur d’Adobe Campaign, consultez les pages suivantes dans la **documentation de Campaign v8 (console)** :
 
-* [Vue d’ensemble de l’interface d’utilisation de Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
+* [Présentation de l’interface utilisateur de Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
 
 * [Paramètres de l’interface d’utilisation de Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/ui-settings){target=_blank}
 
-* [Gérer les dossiers et les vues dans l’explorateur](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}
+* [Gestion des dossiers et des vues dans l’explorateur](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/configuration/folders-and-views){target=_blank}
 
 
 ## Utiliser des données {#work-with-data}

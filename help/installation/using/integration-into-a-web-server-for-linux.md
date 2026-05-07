@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: 4f8ea358-a38d-4137-9dea-f398e60c5f5d
 source-git-commit: 1be1528d657537786c430ea9c8bdb3aad58ba20d
-workflow-type: ht
-source-wordcount: '565'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '589'
+ht-degree: 92%
 
 ---
 
@@ -53,7 +53,7 @@ Les étapes sont les suivantes :
    a2dismod auth_basic authn_file authz_default authz_user autoindex cgi dir env negotiation userdir
    ```
 
-   Assurez-vous que les modules **alias**, **authz_host** et **mime** sont toujours activés. Pour cela, utilisez la commande suivante :
+   Assurez-vous que les modules **alias**, **authz_host** et **mime** sont toujours activés. Pour cela, utilisez la commande suivante :
 
    ```
    a2enmod  alias authz_host mime
@@ -179,7 +179,7 @@ Les étapes sont les suivantes :
    systemctl daemon-reload
    ```
 
-1. Ajoutez ensuite les utilisateurs Adobe Campaign dans le groupe d&#39;utilisateurs Apache et inversement, en effectuant la commande :
+1. Ajoutez ensuite les opérateurs et opératrices Adobe Campaign dans le groupe Apache approprié, et inversement, en exécutant la commande :
 
    ```
    usermod -a -G neolane apache
@@ -199,7 +199,7 @@ Les étapes sont les suivantes :
 
 ## Lancement du serveur Web et test de la configuration{#launching-the-web-server-and-testing-the-configuration}
 
-Vous pouvez à présent tester la configuration en démarrant Apache. Le module Adobe Campaign doit alors afficher sa bannière sur la console (deux bannières sous certains systèmes d&#39;exploitation) :
+Vous pouvez maintenant tester la configuration en démarrant Apache. Le module Adobe Campaign doit alors afficher sa bannière sur la console (deux bannières sous certains systèmes d’exploitation) :
 
 ```
  /etc/init.d/apache start

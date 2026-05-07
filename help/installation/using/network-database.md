@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 2a66dfaa-7fff-48de-bdd4-62f3ebfbab19
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '132'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '138'
+ht-degree: 88%
 
 ---
 
@@ -31,7 +31,7 @@ Vous devez appliquer les bonnes pratiques en matière de sécurité au moteur de
 
 ## Configuration de SSL/TLS
 
-Pour vérifier le certificat, vous pouvez utiliser openssl. Pour contrôler les chiffrements actifs, vous pouvez avoir recours à nmap :
+Pour vérifier le certificat, vous pouvez utiliser openssl. Pour vérifier les chiffrements actifs, vous pouvez utiliser nmap :
 
 ```
 #!/bin/sh

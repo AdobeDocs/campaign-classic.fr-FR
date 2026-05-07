@@ -6,9 +6,9 @@ description: Méthodes SOAP en JavaScript
 role: Developer
 exl-id: 62020447-fe59-4363-994d-de4d8032bbd7
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
-source-wordcount: '134'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '136'
+ht-degree: 72%
 
 ---
 
@@ -18,7 +18,7 @@ Il s&#39;agit dans ce cas du JavaScript exécuté sur le serveur Adobe Campaign
 
 ## Méthodes statiques {#static-methods}
 
-L.accès aux méthodes SOAP statiques se fait par invocation d’une méthode sur l’objet représentant le schéma. Les schémas sont des propriétés des objets de type « espace de noms ». Ces espaces de noms sont des variables globales, ainsi par exemple, les variables xtk ou nms représentent les espaces de noms correspondants.
+Les méthodes SOAP statiques sont accessibles en appelant une méthode sur l’objet représentant le schéma. Les schémas sont des propriétés des objets &#39;namespace&#39;. Ces espaces de noms sont des variables globales. Par exemple, les variables xtk ou nms représentent les espaces de noms correspondants
 
 L’exemple suivant invoque la méthode statique PostEvent du schéma xtk:workflow :
 

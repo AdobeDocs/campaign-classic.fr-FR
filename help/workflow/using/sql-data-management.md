@@ -7,8 +7,8 @@ hide: true
 exl-id: cada78cb-658f-4b9e-8136-31c17cb1d82f
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 100%
+source-wordcount: '454'
+ht-degree: 79%
 
 ---
 
@@ -26,9 +26,9 @@ Avant de configurer l&#39;activité, vérifiez que les prérequis suivants sont 
 
   Pour plus d&#39;informations à ce sujet, en fonction de la version de Campaign, reportez-vous aux sections suivantes :
 
-  ![](assets/do-not-localize/v7.jpeg)[Documentation de Campaign v7](../../installation/using/about-fda.md)
+  ![](assets/do-not-localize/v7.jpeg) [Documentation de Campaign v7](../../installation/using/about-fda.md)
 
-  ![](assets/do-not-localize/v8.png)[Documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=fr)
+  ![](assets/do-not-localize/v8.png) [Documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=fr)
 
 * Le schéma sortant doit exister dans la base de données et être lié à une base de données FDA.
 * L&#39;opérateur qui exécute le workflow doit disposer du droit nommé **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY (useSqlDmActivity)]** [En savoir plus](../../platform/using/access-management-named-rights.md).
@@ -46,7 +46,7 @@ Avant de configurer l&#39;activité, vérifiez que les prérequis suivants sont 
 
    >[!CAUTION]
    >
-   >Il incombe à la personne chargée de l&#39;écriture du script SQL de s&#39;assurer que celui-ci est fonctionnel et que ses références (noms de champs, etc.) sont conformes au schéma sortant.
+   >Il incombe au rédacteur de script SQL de s’assurer que le script SQL est fonctionnel et que ses références (noms de champs, etc.) sont conformes au schéma sortant.
 
    Si vous souhaitez charger un code SQL existant, sélectionnez l&#39;option **[!UICONTROL Le code SQL est contenu dans une entité stockée dans la base]**. Les scripts SQL doivent être créés et stockés dans le menu **[!UICONTROL Administration]** / **[!UICONTROL Paramétrage]** / **[!UICONTROL Scripts SQL]**.
 
@@ -63,14 +63,14 @@ Avant de configurer l&#39;activité, vérifiez que les prérequis suivants sont 
      >
      >La valeur (&#39;nom&#39;) correspond au champ **[!UICONTROL Nom]** des propriétés de la transition.
 
-1. Si le script SQL contient déjà des commandes pour créer une table de travail sortante, désélectionnez l&#39;option **[!UICONTROL Créer automatiquement une table de travail]**. Sinon, une table de travail est automatiquement créée lorsque le workflow est exécuté.
+1. Si le script SQL contient déjà des commandes pour créer une table de travail sortante, désélectionnez l&#39;option **[!UICONTROL Créer automatiquement la table de travail]**. Dans le cas contraire, une table de travail est automatiquement créée une fois le workflow exécuté.
 1. Cliquez sur **[!UICONTROL OK]** pour valider la configuration de l&#39;activité.
 
-L&#39;activité est maintenant configurée. Elle est prête à être exécutée dans le workflow.
+L’activité est désormais configurée. Il est prêt à être exécuté dans le workflow.
 
 >[!CAUTION]
 >
->Une fois l&#39;activité exécutée, le nombre d&#39;enregistrements de la transition sortante est fourni à titre indicatif uniquement. Il peut varier en fonction du niveau de complexité du script SQL.
+>Une fois l’activité exécutée, le nombre d’enregistrements de transition sortante n’est qu’indicatif. Elle peut varier en fonction du niveau de complexité du script SQL.
 >  
 >Si lactivité est redémarrée, lintégralité du script est exécutée depuis le début, quel que soit le statut dexécution.
 

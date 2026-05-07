@@ -9,8 +9,8 @@ content-type: reference
 level: Intermediate, Experienced
 exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
 source-git-commit: 2bfcec5eaa1145cfb88adfa9c8b2f72ee3cd9469
-workflow-type: ht
-source-wordcount: '398'
+workflow-type: tm+mt
+source-wordcount: '418'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Il prend également en charge des volumes élevés de trafic sans affecter les p
 
 ![](assets/do-not-localize/book.png)Découvrez comment [créer un déclencheur Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=fr) et comment identifier, définir et surveiller les comportements critiques des consommateurs et consommatrices.
 
-## Architecture de [!DNL Triggers]  {#triggers-architecture}
+## Architecture de [!DNL Triggers] {#triggers-architecture}
 
 Le processus [!DNL pipelined] est toujours en cours d’exécution sur le serveur marketing d’Adobe Campaign. Il se connecte au pipeline, récupère les événements et les traite immédiatement.
 

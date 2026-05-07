@@ -8,8 +8,8 @@ hide: true
 exl-id: 5a5f26f6-38da-4488-aadb-81fcb5359331
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 100%
+source-wordcount: '397'
+ht-degree: 82%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Les règles de contrôle permettent de s&#39;assurer de la validité et la qualité des messages avant leur diffusion : bon affichage des caractères, taille des SMS, format des adresses, etc.
 
-Un ensemble de règles livrées d&#39;usine assurent les contrôles usuels. Ces règles, qui apparaissent en gras dans l&#39;interface, sont les suivantes :
+Un ensemble de règles d&#39;usine permet d&#39;effectuer les contrôles usuels. Ces contrôles (affichés en gras dans l’interface) sont les suivants :
 
 * **[!UICONTROL Validation du sujet]** (email) : vérifie que le sujet et l&#39;adresse de l&#39;expéditeur du message ne contiennent pas de caractères spéciaux, susceptibles de poser des problèmes sur certains agents mail.
 * **[!UICONTROL Validation des libellés d&#39;URL]** (email) : vérifie la présence d&#39;un libellé pour chaque URL de tracking.
@@ -36,7 +36,7 @@ Afin de répondre à vos besoins, vous pouvez définir de nouvelles règles de c
 
 **Exemple:**
 
-Dans l&#39;exemple suivant, nous allons créer une règle afin de ne pas diffuser une offre par SMS à plus de 100 destinataires. Cette règle sera référencée dans une typologie de campagne qui sera associée aux diffusions SMS proposant l&#39;offre concernée.
+Dans l&#39;exemple suivant, nous allons créer une règle pour empêcher l&#39;envoi d&#39;une offre SMS à plus de 100 destinataires. Cette règle sera associée à une typologie de campagne, puis aux diffusions SMS pour lesquelles l&#39;offre concernée est disponible.
 
 Les étapes sont les suivantes :
 

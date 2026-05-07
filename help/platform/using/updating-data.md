@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: profile-management
 exl-id: f7dfbc22-4ac3-4b61-927f-34ecc4e35154
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '779'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '797'
+ht-degree: 73%
 
 ---
 
@@ -36,7 +36,7 @@ Deux types de mises à jour sont possibles : mise à jour en masse pour un ense
 
 ### Mise à jour en masse {#mass-update}
 
-Pour une mise à jour en masse, utilisez l’option **[!UICONTROL Action > Mettre à jour en masse les lignes sélectionnées...]**. L’assistant vous aide à configurer et lancer la mise à jour.
+Pour la mise à jour en masse, utilisez **[!UICONTROL Action > Mise à jour en masse des lignes sélectionnées...]**. L’assistant vous aide à configurer et à exécuter la mise à jour.
 
 La première étape de l’assistant spéficie le ou les champs sur lesquels porte la mise à jour.
 
@@ -56,7 +56,7 @@ Vous pouvez cliquer sur le bouton **[!UICONTROL Répartition des valeurs]** pour
 
 ![](assets/s_ncs_user_update_wizard01_2.png)
 
-Vous pouvez définir des filtres pour l&#39;affichage dans cette fenêtre de répartition des valeurs ou modifier le dossier courant afin de visualiser la répartition des valeurs dans un autre dossier. Ces actions ne sont que consultatives : elles n&#39;affectent pas le paramétrage de la mise à jour en cours de définition.
+Vous pouvez définir des filtres pour afficher la répartition des valeurs dans cette fenêtre ou modifier le dossier courant pour afficher la répartition des valeurs dans un autre dossier. Il s’agit d’actions en lecture seule qui n’affectent pas la configuration de la mise à jour en cours de définition.
 
 ![](assets/s_ncs_user_update_wizard01_3.png)
 
@@ -66,11 +66,11 @@ Fermez cette fenêtre et cliquez sur **[!UICONTROL Suivant]** pour afficher la s
 
 Les informations relatives à l’exécution de la mise à jour sont affichées dans la section supérieure de l’assistant.
 
-Le bouton **[!UICONTROL Arrêter]** permet d’annuler la mise à jour. Toutefois, certains enregistrements peuvent avoir été mis à jour : l’arrêt du traitement n’annulera pas ces mises à jour. La barre de progression indique l’avancement de l’opération.
+Le **[!UICONTROL Arrêter]** vous permet d&#39;annuler la mise à jour, mais certains enregistrements peuvent avoir été mis à jour, et l&#39;arrêt du processus n&#39;annulera pas ces mises à jour. La barre de progression indique l’avancement de l’opération.
 
 ### Fusion de données {#merge-data}
 
-Sélectionnez **[!UICONTROL Fusionner les lignes sélectionnées...]** pour lancer la fusion de deux profils de destinataires. Les deux profils à fusionner doivent être sélectionnés avant de choisir l’option. La fusion est configurée et lancée à l’aide d’un assistant.
+Sélectionnez **[!UICONTROL Fusionner les lignes sélectionnées...]** pour lancer la fusion de deux profils de destinataires. Les profils à fusionner doivent être sélectionnés avant de sélectionner l’option. La fusion est configurée et lancée à l’aide d’un assistant.
 
 L’assistant affiche les valeurs à récupérer pour chaque champ renseigné dans l’un ou l’autre des profils source. Si un ou plusieurs champs sont renseignés dans les deux profils à fusionner avec des valeurs différentes, ils sont affichés dans la section **[!UICONTROL Liste des conflits]**. Vous pouvez alors choisir le profil par défaut en utilisant les boutons radio situés sous cette liste, comme dans l&#39;exemple suivant :
 
@@ -84,14 +84,14 @@ Vérifiez les colonnes **[!UICONTROL Résultat]** des deux sections de la fenêt
 
 ## Exporter des données {#exporting-data}
 
-Le contenu d&#39;une liste peut être exporté. Pour configurer et lancer l&#39;export :
+Le contenu d’une liste peut être exporté. Pour configurer et exécuter l’exportation :
 
 1. Sélectionnez les enregistrements à exporter.
 1. Cliquez avec le bouton droit et sélectionnez **[!UICONTROL Exporter...]**.
 
    ![](assets/s_ncs_user_export_list.png)
 
-1. Sélectionnez ensuite les données à extraire. Par défaut, toutes les colonnes affichées sont ajoutées parmi les colonnes de sortie.
+1. Sélectionnez ensuite les données à extraire. Par défaut, toutes les colonnes affichées sont ajoutées aux colonnes de sortie.
 
    ![](assets/s_ncs_user_export_list_start.png)
 
@@ -99,7 +99,7 @@ Le contenu d&#39;une liste peut être exporté. Pour configurer et lancer l&#39;
 
 ## S’abonner à un service {#subscribing-to-a-service}
 
-Dans la plupart des cas, les destinataires s&#39;abonnent à une newsletter par le biais d&#39;une landing page dédiée, comme expliqué dans [cette section](../../delivery/using/managing-subscriptions.md). Toutefois, les profils de destinataires filtrés peuvent être abonnés manuellement à un service (Newsletter ou Service viral). Pour cela :
+Dans la plupart des cas, les destinataires s’abonnent à une newsletter par le biais d’une page de destination dédiée, comme expliqué dans [cette section](../../delivery/using/managing-subscriptions.md). Cependant, les profils des destinataires filtrés peuvent être abonnés manuellement à un service (Newsletter ou Service viral). Pour cela :
 
 1. Sélectionnez les destinataires à abonner et cliquez avec le bouton droit de la souris.
 1. Sélectionnez **[!UICONTROL Actions > Abonner la sélection à un service]**.
@@ -114,7 +114,7 @@ Dans la plupart des cas, les destinataires s&#39;abonnent à une newsletter par 
    >
    >Depuis cet éditeur, vous pouvez créer un nouveau service. Pour cela cliquez sur le bouton **[!UICONTROL Créer]**.
 
-1. Vous pouvez choisir d&#39;**[!UICONTROL Envoyer un message de confirmation]** aux destinataires. Le contenu de ce message est paramétré dans le scénario d&#39;inscription associé au service sélectionné.
+1. Vous pouvez **[!UICONTROL Envoyer un message de confirmation]** aux destinataires. Le contenu de ce message peut être paramétré dans le scénario d&#39;abonnement associé au service sélectionné.
 1. Cliquez sur le bouton **[!UICONTROL Démarrer]** pour lancer l&#39;abonnement.
 
    ![](assets/s_ncs_user_selection_subscribe_service_3.png)

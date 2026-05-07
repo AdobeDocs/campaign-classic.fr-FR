@@ -7,14 +7,14 @@ hide: true
 exl-id: 4204350a-c2d2-4033-9bdf-87b49d8211b9
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '2168'
-ht-degree: 100%
+source-wordcount: '2172'
+ht-degree: 76%
 
 ---
 
 # Partage{#split}
 
-Une activité de type **Partage** permet de partitionner une cible en plusieurs sous-ensembles. La cible est construite avec tous les résultats reçus : toutes les activités antérieures doivent donc être terminées pour que cette activité soit exécutée.
+Une activité de type **Partage** permet de partager une cible en plusieurs sous-ensembles. La cible est construite avec tous les résultats reçus : toutes les activités précédentes doivent donc être terminées pour que cette activité soit exécutée.
 
 Cette activité ne fait pas l&#39;union des populations entrantes. Si plusieurs transitions arrivent sur une activité de partage, il est recommandé d’insérer une activité **[!UICONTROL Union]** avant.
 
@@ -55,7 +55,7 @@ Pour créer un sous-ensemble :
 
    >[!NOTE]
    >
-   >Si l&#39;option **[!UICONTROL Permettre le recouvrement des populations de sortie]** n&#39;est pas cochée, les sous-ensembles sont créés dans l&#39;ordre des onglets. Utilisez les flèches situées dans la section supérieure droite de cette fenêtre pour les déplacer. Ainsi, si le premier sous-ensemble récupère 70% de la population initiale, le sous-ensemble suivant n&#39;appliquera ses critères de sélection qu&#39;aux 30% restants, etc.
+   >Si l&#39;option **[!UICONTROL Permettre le recouvrement des populations de sortie]** n&#39;est pas cochée, les sous-ensembles sont créés dans l&#39;ordre des onglets. Utilisez les flèches dans la section supérieure droite de cette fenêtre pour les déplacer. Si le premier sous-ensemble récupère 70 % de la population initiale, par exemple, le sous-ensemble suivant appliquera ses critères de sélection uniquement aux 30 % restants, etc.
 
    Pour chaque sous-ensemble créé, une transition sortante sera ajoutée à l&#39;activité de partage.
 
@@ -63,7 +63,7 @@ Pour créer un sous-ensemble :
 
    Vous pouvez choisir de ne générer qu&#39;une seule transition sortante (et identifier les ensembles par exemple au travers du code segment) : pour cela, sélectionnez l&#39;option **[!UICONTROL Générer tous les sous-ensembles dans la même table]** dans l&#39;onglet **[!UICONTROL Général]**.
 
-   S&#39;il est renseigné, le code segment de chaque sous-ensemble est automatiquement stocké dans une colonne additionnelle. Cette colonne sera accessible parmi les champs de personnalisation, au niveau des diffusions.
+   S’il est terminé, le code segment de chaque sous-ensemble est automatiquement stocké dans une colonne supplémentaire. Cette colonne sera accessible dans les champs de personnalisation au niveau de la diffusion.
 
 ## Limiter le nombre d&#39;enregistrements des sous-ensembles {#limiting-the-number-of-subset-records}
 
@@ -72,9 +72,9 @@ Si vous ne souhaitez pas utiliser l&#39;ensemble de la population d&#39;un sous-
 1. Dans la fenêtre d&#39;édition du sous-ensemble, cochez l&#39;option **[!UICONTROL Limiter les enregistrements sélectionnés]** et cliquez sur le lien **[!UICONTROL Editer...]**.
 1. Sélectionnez le type de limitation de votre choix :
 
-   * **[!UICONTROL Activer le tirage aléatoire]** : cette option applique un tirage aléatoire aux enregistrements. Le tirage aléatoire appliqué dépend du moteur de base de données.
+   * **[!UICONTROL Activer le tirage aléatoire]** : cette option prend un tirage aléatoire sur les enregistrements. Le type d&#39;échantillonnage aléatoire appliqué dépend du moteur de base de données.
    * **[!UICONTROL Conserver les premiers suite à un tri]** : cette option permet de définir une limitation suivant un ou plusieurs ordres de tri. Si vous choisissez le champ **[!UICONTROL Age]** comme critère de tri, et que vous définissez ensuite une limite de 100, seuls les 100 destinataires les moins âgés seront conservés.
-   * **[!UICONTROL Conserver les premiers suite à un tri (critères, aléatoire)]** : cette option regroupe les deux options précédentes. Elle permet de définir une limitation suivant un ou plusieurs ordres de tri puis d&#39;appliquer une sélection aléatoire sur les premiers enregistrements dans le cas où certains enregistrements ont des valeurs égales pour les critères choisis.
+   * **[!UICONTROL Conserver les premières suite à un tri (critères, aléatoire)]** : cette option regroupe les deux options précédentes. Il permet de définir une limitation suivant un ou plusieurs ordres de tri puis d&#39;appliquer une sélection aléatoire sur les premiers enregistrements dans le cas où certains enregistrements ont des valeurs égales pour les critères choisis.
 
      Par exemple, si vous choisissez le champ **[!UICONTROL Age]** comme critère de tri, et que vous définissez ensuite une limite de 100, mais que les 2000 destinataires les plus jeunes en base ont tous 18 ans, alors 100 destinataires seront sélectionnés aléatoirement parmi ces 2000.
 
@@ -90,7 +90,7 @@ Si vous ne souhaitez pas utiliser l&#39;ensemble de la population d&#39;un sous-
 
    Vous avez le choix entre les différentes méthodes suivantes :
 
-   * **[!UICONTROL Taille (en %)]** : un pourcentage d&#39;enregistrements. Par exemple, le paramétrage ci-dessus extraira 10% de la population totale.
+   * **[!UICONTROL Taille (en %)]** : un pourcentage d&#39;enregistrements. Par exemple, la configuration ci-dessous extrait 10 % de la population totale.
 
      Le pourcentage porte sur la population initiale, non sur le résultat de l&#39;activité.
 
@@ -100,11 +100,11 @@ Si vous ne souhaitez pas utiliser l&#39;ensemble de la population d&#39;un sous-
    * **[!UICONTROL Par groupement de données (%)]** : vous pouvez effectuer une limitation du nombre d&#39;enregistrements en fonction des valeurs d&#39;un champ précis de la population entrante, sous la forme d&#39;un pourcentage. Voir à ce sujet la section [Limiter le nombre d’enregistrements des sous-ensembles par répartition de données](#limiting-the-number-of-subset-records-by-data-grouping).
    * **[!UICONTROL Par répartition de données]** : si vos champs de groupement comportent un trop grand nombre de valeurs ou que vous souhaitez éviter de ressaisir les valeurs à chaque nouvelle activité de partage, Adobe Campaign vous offre la possibilité d&#39;effectuer une limitation **[!UICONTROL Par répartition de données]** (module optionnel Distributed Marketing). Voir à ce sujet la section [Limiter le nombre d&#39;enregistrements des sous-ensembles par répartition de données](#limiting-the-number-of-subset-records-per-data-distribution).
 
-1. Cliquez sur **[!UICONTROL Terminer]** pour valider les critères de sélection des enregistrements. Le paramétrage défini est alors affiché dans la fenêtre centrale de l&#39;éditeur.
+1. Cliquez sur **[!UICONTROL Terminer]** pour valider les critères de sélection des enregistrements. La configuration définie est ensuite affichée dans la fenêtre centrale de l’éditeur.
 
 ## Limiter le nombre d&#39;enregistrements des sous-ensembles par groupement de données {#limiting-the-number-of-subset-records-by-data-grouping}
 
-Vous pouvez effectuer une limitation du nombre d&#39;enregistrements par groupement de données. Cette limitation peut être effectuée à l&#39;aide d&#39;une valeur fixe ou d&#39;un pourcentage.
+Vous pouvez limiter le nombre d&#39;enregistrements par groupement de données. Cette limite peut être réalisée à partir d&#39;une valeur fixe ou d&#39;un pourcentage.
 
 Par exemple, si vous choisissez le champ **[!UICONTROL Langue]** comme champ de groupement, vous pourrez définir une limite d&#39;enregistrements pour chaque langue.
 
@@ -132,9 +132,9 @@ Un exemple de l&#39;activité **[!UICONTROL Validation en local]** avec un modè
 
 >[!IMPORTANT]
 >
->Pour utiliser cette fonction, vous devez acheter le module Distributed Marketing, qui est une option de Campaign. Vérifiez votre contrat de licence.
+>Pour utiliser cette fonction, vous devez acheter le module Marketing distribué , qui est une option de Campaign. Veuillez vérifier votre contrat de licence.
 
-Le modèle de répartition de données permet de limiter le nombre d&#39;enregistrements à partir d&#39;une liste de valeurs de groupement. Les étapes de création d&#39;un modèle de répartition de données sont les suivantes :
+Le modèle de répartition de données permet de limiter le nombre d&#39;enregistrements à partir d&#39;une liste de valeurs de groupement. Pour créer un modèle de répartition de données, les étapes sont les suivantes :
 
 1. Pour créer le modèle de répartition de données, positionnez-vous sur le noeud **[!UICONTROL Ressources > Gestion de campagne > Répartition de données]**, et cliquez sur le bouton **[!UICONTROL Nouveau]**.
 
@@ -147,10 +147,10 @@ Le modèle de répartition de données permet de limiter le nombre d&#39;enregis
    Les champs à renseigner sont les suivants :
 
    * **[!UICONTROL Libellé]** : libellé du modèle de répartition.
-   * **[!UICONTROL Dimension de ciblage]** : renseignez le schéma de ciblage sur lequel la répartition de données sera appliquée, par exemple **[!UICONTROL Destinataire]**. Ce schéma doit toujours être compatible avec les données utilisées dans le workflow de ciblage.
+   * **[!UICONTROL Dimension de ciblage]** : renseignez le schéma de ciblage sur lequel la répartition de données sera appliquée, **[!UICONTROL Destinataire]** par exemple. Ce schéma doit toujours être compatible avec les données utilisées dans le workflow de ciblage.
    * **[!UICONTROL Champ de répartition]** : choisissez un champ depuis la dimension de ciblage. Par exemple, si vous sélectionnez le champ **[!UICONTROL Domaine de l&#39;email]**, la liste de destinataires sera répartie par domaine.
    * **[!UICONTROL Type de répartition]** : sélectionnez la manière dont sera exprimée la valeur de limitation de la cible dans l&#39;onglet **[!UICONTROL Distribution]** : **[!UICONTROL Pourcentage]** ou **[!UICONTROL Fixe]**.
-   * **[!UICONTROL Type d&#39;affectation]** : sélectionnez le type d’affectation de répartition de données. Vous pouvez choisir entre une affectation par groupe ou opérateur, ou une affectation par entité locale. L&#39;affectation par entité locale est utilisée dans le cadre du **marketing distribué**. Pour plus d’informations, consultez cette [section](../../distributed/using/about-distributed-marketing.md).
+   * **[!UICONTROL Type d’affectation]** : sélectionnez le type d’affectation de la répartition de données. Vous pouvez choisir entre une affectation par groupe ou opérateur ou une affectation par entité locale. L&#39;affectation par entité locale est utilisée dans le cadre du **marketing distribué**. Pour plus d’informations, consultez cette [section](../../distributed/using/about-distributed-marketing.md).
    * **[!UICONTROL Stockage des validations]** : si vous utilisez une activité **[!UICONTROL Validation en local]** dans votre workflow de ciblage (voir la section [Validation en local](local-approval.md)), indiquez le schéma dans lequel seront stockés les résultats de validation. Vous devez spécifier un schéma de stockage pour chaque schéma de ciblage. Si vous utilisez le schéma de ciblage **[!UICONTROL Destinataires]**, saisissez le schéma de stockage par défaut **[!UICONTROL Validation en local d&#39;un destinataire]**.
 
      Il n&#39;est pas nécessaire de renseigner le champ **[!UICONTROL Stockage des validations]** dans le cas d&#39;une simple limitation par groupement de données, sans validation en local.
@@ -161,7 +161,7 @@ Le modèle de répartition de données permet de limiter le nombre d&#39;enregis
 
    Les champs à renseigner sont les suivants :
 
-   * **[!UICONTROL Valider les messages ciblés]** : cochez cette option si vous souhaitez que tous les destinataires soient pré-sélectionnés dans la liste de destinataires à valider. Si cette option est décochée, aucun destinataire ne sera pré-sélectionné.
+   * **[!UICONTROL Valider les messages ciblés]** : cochez cette option si vous souhaitez que tous les destinataires soient pré-sélectionnés dans la liste de destinataires à valider. Si cette option n’est pas cochée, aucun destinataire n’est présélectionné.
 
      >[!NOTE]
      >
@@ -169,7 +169,7 @@ Le modèle de répartition de données permet de limiter le nombre d&#39;enregis
 
      ![](assets/local_validation_notification.png)
 
-   * **[!UICONTROL Libellé de la diffusion]** : permet de définir une expression pour afficher le libellé de la diffusion dans la notification de retour. L&#39;expression par défaut renseigne le libellé standard de la diffusion (compute string). Vous avez la possibilité de modifier cette expression.
+   * **[!UICONTROL Libellé de la diffusion]** : permet de définir une expression pour afficher le libellé de la diffusion dans la notification de retour. L&#39;expression par défaut renseigne le libellé standard de la diffusion (compute string). Vous pouvez modifier cette expression.
 
      ![](assets/local_validation_notification_3.png)
 
@@ -177,7 +177,7 @@ Le modèle de répartition de données permet de limiter le nombre d&#39;enregis
 
      ![](assets/local_validation_notification_4.png)
 
-   * **[!UICONTROL Interface web]** : permet de lier une application web à la liste des destinataires. Dans la notification de validation et de retour, chaque destinataire sera cliquable et sera associé à l&#39;application web sélectionnée. Le champ **[!UICONTROL Paramètres]** (par exemple, **[!UICONTROL recipientId]**) permet de renseigner le paramètre additionnel qui sera utilisé dans l&#39;URL de l&#39;application web.
+   * **[!UICONTROL Interface web]** : permet d&#39;associer une application web à la liste des destinataires. Dans les notifications de validation et de retour, vous pourrez cliquer sur chaque destinataire qui sera associé à l&#39;application web sélectionnée. Le champ **[!UICONTROL Paramètres]** (par exemple, **[!UICONTROL recipientId]**) permet de renseigner le paramètre additionnel qui sera utilisé dans l&#39;URL de l&#39;application web.
 
      ![](assets/local_validation_notification_5.png)
 
@@ -203,11 +203,11 @@ Le modèle de répartition de données permet de limiter le nombre d&#39;enregis
 
 ## Paramètres de filtrage {#filtering-parameters}
 
-Cliquez sur l&#39;onglet **[!UICONTROL Général]** pour saisir le libellé de l&#39;activité. Sélectionnez les dimensions de ciblage et de filtrage de ce partage. Au besoin, vous pouvez modifier ces dimensions pour tel ou tel sous-ensemble.
+Cliquez sur l&#39;onglet **[!UICONTROL Général]** pour saisir le libellé de l&#39;activité. Sélectionnez la cible et les dimensions de filtre pour cette répartition. Si nécessaire, vous pouvez modifier ces dimensions pour un sous-ensemble donné.
 
 ![](assets/s_user_segmentation_partage_general.png)
 
-Cochez l&#39;option **[!UICONTROL Générer le complémentaire]** si vous souhaitez exploiter la population restante. Le complémentaire est la cible entrante, moins l&#39;union des sous-ensembles. Une transition sortante supplémentaire sera alors ajoutée à l&#39;activité, comme suit :
+Cochez l&#39;option **[!UICONTROL Générer le complémentaire]** si vous souhaitez exploiter la population restante. Le complémentaire est la cible entrante, moins l&#39;union des sous-ensembles. Une seconde transition sortante sera alors ajoutée à l’activité, comme suit :
 
 ![](assets/s_user_segmentation_partage_compl.png)
 
@@ -220,7 +220,7 @@ Pour éviter cela, vous pouvez placer une activité d&#39;**[!UICONTROL Enrichis
 L’option **[!UICONTROL Permettre le recouvrement des populations de sortie]** permet de gérer les populations qui appartiennent à plusieurs sous-ensembles :
 
 * Lorsque la case est décochée, l’activité de partage assure qu’une personne destinataire ne sera pas présente dans plusieurs transitions en sortie, même si elle vérifie les critères de plusieurs sous-ensembles. Il sera dans la cible du premier onglet dont les critères sont vérifiés.
-* Lorsque la case est cochée, les personnes destinataires peuvent apparaître dans plusieurs sous-ensembles si elles sont associées aux bons critères de filtrage. Adobe Campaign vous recommande d’utiliser des critères exclusifs.
+* Lorsque la case est cochée, les destinataires peuvent être trouvés dans plusieurs sous-ensembles s’ils répondent aux critères de filtrage. Adobe Campaign recommande d’utiliser des critères exclusifs.
 
 ## Paramètres d&#39;entrée {#input-parameters}
 

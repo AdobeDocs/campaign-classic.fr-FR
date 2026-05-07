@@ -9,8 +9,8 @@ hide: true
 exl-id: db65e83e-276f-4163-98c3-3658a48acffc
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 100%
+source-wordcount: '1085'
+ht-degree: 85%
 
 ---
 
@@ -65,7 +65,7 @@ Une fois le fichier sélectionné, il est immédiatement téléchargé sur le se
 
 ## Créer une pièce jointe calculée {#creating-a-calculated-attachment}
 
-Lorsque vous créez un attachement calculé, le nom de la pièce jointe peut être calculé au moment de l&#39;analyse ou de l&#39;envoi pour chaque message et dépendre du destinataire. Il peut également être personnalisé et converti en PDF.
+Lorsque vous créez une pièce jointe calculée, le nom de la pièce jointe peut être calculé lors de l’analyse ou de la diffusion de chaque message et peut dépendre du destinataire. Il peut également être personnalisé et converti en PDF.
 
 ![](assets/s_ncs_user_wizard_attachment.png)
 
@@ -89,7 +89,7 @@ Les options disponibles sont les suivantes :
 Si la pièce jointe est un fichier local, sélectionnez l’option : **[!UICONTROL Le nom de fichier est renseigné lors de la création du modèle de diffusion]**. Le fichier est sélectionné en local et téléchargé sur le serveur. Suivez les étapes ci-dessous :
 
 1. Sélectionnez le fichier à télécharger dans le champ **[!UICONTROL Fichier local]**.
-1. Précisez le libellé si nécessaire. Le libellé remplace le nom du fichier lorsqu&#39;il est visualisé dans les systèmes de messagerie. Si rien n&#39;est spécifié, le nom du fichier est utilisé par défaut.
+1. Précisez le libellé si nécessaire. Le libellé remplace le nom de fichier lorsqu’il est affiché dans les systèmes de messagerie. Si rien n’est spécifié, le nom de fichier est utilisé par défaut.
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_02.png)
 
@@ -110,7 +110,7 @@ Pour ce type de pièce jointe, les étapes de configuration sont les suivantes 
 1. Sélectionnez le fichier à télécharger.
 1. Précisez le libellé si nécessaire.
 1. Sélectionnez l&#39;option **[!UICONTROL Télécharger le fichier sur le serveur]**, puis cliquez sur le lien **[!UICONTROL Mettre à jour sur le serveur]** pour lancer le transfert.
-1. Vous pouvez afficher une prévisualisation : pour cela, sélectionnez un destinataire.
+1. Vous pouvez afficher un aperçu. Pour cela, sélectionnez un destinataire.
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_07.png)
 
@@ -147,14 +147,14 @@ Vous pouvez calculer le nom d’une pièce jointe pendant la préparation de la 
 
 ### Joindre un fichier personnalisé {#attach-a-personalized-file}
 
-Lorsque vous sélectionnez la pièce jointe, vous pouvez choisir l’option **[!UICONTROL Le nom de fichier est calculé au moment de l’envoi pour chaque destinataire (il peut dépendre du destinataire)]**. Vous pouvez ensuite associer les données de personnalisation des destinataires au nom du fichier à envoyer.
+Lors de la sélection de la pièce jointe, vous pouvez choisir l&#39;option **[!UICONTROL Le nom de fichier est calculé au moment de la diffusion pour chaque destinataire (il peut dépendre du destinataire)]**. Vous pouvez ensuite mapper les données de personnalisation des destinataires avec le nom du fichier à envoyer.
 
 >[!NOTE]
 >
 >Cette option n&#39;est utilisée que lorsque la diffusion est envoyée par un procédé externe ou par un workflow.
 
 1. Précisez le libellé que vous souhaitez appliquer à la pièce jointe.
-1. Indiquez le chemin d&#39;accès du fichier, ainsi que son nom exact dans la fenêtre de définition. Si le nom du fichier est personnalisé, vous pouvez utiliser les champs de personnalisation pour les valeurs correspondantes.
+1. Indiquez le chemin d&#39;accès au fichier et son nom exact dans la fenêtre de définition. Si le nom de fichier est personnalisé, vous pouvez utiliser les champs de personnalisation pour les valeurs appropriées.
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_010.png)
 
@@ -187,6 +187,6 @@ L&#39;onglet **[!UICONTROL Avancé]** permet de définir des options avancées s
 * Vous pouvez définir des options de filtrage afin de ne pas transmettre le fichier joint à l’ensemble des destinataires. L&#39;option **[!UICONTROL Activer le filtrage des destinataires qui recevront la pièce jointe]** active une zone de saisie utilisée pour définir un script de sélection des destinataires. Ce script doit être saisi en JavaScript.
 * Vous pouvez scripter le nom du fichier afin de le personnaliser.
 
-  Entrez votre texte dans la fenêtre et utilisez les champs de personnalisation disponibles dans la liste déroulante. Dans l&#39;exemple ci-dessous, le nom du fichier est personnalisé pour contenir la date du jour et le nom du destinataire.
+  Saisissez votre texte dans la fenêtre et utilisez les champs de personnalisation disponibles dans la liste déroulante. Dans l&#39;exemple suivant, le nom de fichier est personnalisé afin de contenir la date du jour et le nom du destinataire.
 
   ![](assets/s_ncs_user_wizard_email_calc_attachement_09.png)

@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
 source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
 workflow-type: tm+mt
-source-wordcount: '2581'
-ht-degree: 97%
+source-wordcount: '2672'
+ht-degree: 96%
 
 ---
 
@@ -39,7 +39,7 @@ _8 octobre 2021_
 
 [!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
-_7 septembre 2021_
+_7 septembre 2021_
 
 **Amélioration de la sécurité**
 
@@ -49,7 +49,7 @@ _7 septembre 2021_
 
 * Après sa fin de vie, Flash a été supprimé de toutes les fonctionnalités et composants de Campaign associés, et remplacé par HTML5. Le type de graphique **Jauge** a été supprimé. (NEO-30330) [En savoir plus](../../reporting/using/creating-a-chart.md)
 * Lors de l’installation de la console cliente sous Windows, le programme d’installation vérifie maintenant s’il existe un nœud de registre parent et en crée un s’il n’en existe pas. Cela évite les problèmes potentiels lors du lancement de la console. (NEO-34854)
-* La fonctionnalité de signature de tracking a été améliorée afin d’éviter les erreurs liées à la façon dont les outils tiers (clients de messagerie, navigateurs internet, etc.) gèrent les caractères spéciaux. Les paramètres d’URL sont désormais chiffrés.
+* La fonctionnalité de signature de tracking a été améliorée afin d’éviter les erreurs liées à la manière dont les outils tiers (clients de messagerie, navigateurs Internet, etc.) gérer les caractères spéciaux. Les paramètres d’URL sont désormais chiffrés.
 
 **Autres changements**
 
@@ -262,13 +262,11 @@ En savoir plus dans la page [Fonctionnalités obsolètes et supprimées](../../r
 
 **Améliorations**
 
-**Le service de retour d&#39;e-mail (EFS - Email Feedback Service)** est un service évolutif chargé de capturer directement les retours du MTA amélioré, contribuant ainsi à la précision des rapports.
-Cette fonctionnalité est disponible en version Private Beta et sera progressivement disponible pour toute la clientèle dans les prochaines versions.
+**Le service de retour d&#39;e-mail (EFS - Email Feedback Service)** est un service évolutif chargé de capturer directement les retours du MTA amélioré, contribuant ainsi à la précision des rapports. Cette fonctionnalité est disponible en version Private Beta et sera progressivement disponible pour toute la clientèle dans les prochaines versions.
 
 * Toutes les catégories de commentaires sont maintenant capturées pour créer des rapports complets et précis.
 * Le calcul de l&#39;indicateur Délivrés est désormais fondé sur les commentaires en temps réel du MTA amélioré, ce qui contribue à l&#39;amélioration de la précision et de la réactivité.
 * EFS résout le problème des retards grâce au reporting synchrone des rebonds temporaires.
-
 
 **Autres changements**
 

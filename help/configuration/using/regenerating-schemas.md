@@ -6,15 +6,15 @@ feature: Custom Resources
 role: Developer
 exl-id: 6c48cfea-6d20-4462-a485-71e1575a08a7
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '136'
-ht-degree: 100%
+ht-degree: 81%
 
 ---
 
 # Régénération des schémas{#regenerating-schemas}
 
-Lors de la modification d&#39;un schéma et de l&#39;enregistrement des modifications, le schéma étendu est automatiquement généré. Vous devrez peut-être toutefois régénérer les schémas manuellement pour appliquer les modifications. Pour ce faire :
+Lorsque vous modifiez un schéma et enregistrez les modifications, le schéma étendu est automatiquement généré. Néanmoins, vous devrez peut-être régénérer les schémas manuellement pour appliquer les modifications. Pour cela :
 
 1. Sélectionnez le ou les schémas que vous devez régénérer.
 1. Cliquez avec le bouton droit et sélectionnez **[!UICONTROL Actions > Régénérer les schémas sélectionnés...]** .

@@ -6,9 +6,9 @@ feature: Configuration
 role: Developer
 exl-id: e7fcec75-82fe-45ff-8d45-7d6e95baeb14
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
-source-wordcount: '329'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '331'
+ht-degree: 87%
 
 ---
 
@@ -131,7 +131,7 @@ L’URL que vous créez doit respecter les règles de syntaxe définies dans la 
 
 >[!NOTE]
 >
->La redirection et le tracking Web utilisent des cookies : il est important que le serveur Web effectuant l&#39;appel HTTP synchrone soit sur le même domaine que le serveur de redirection. Les différents échanges HTTP doivent faire transiter les cookies &#39;id&#39;, &#39;uuid&#39; et &#39;uuid230&#39;.
+>La redirection et le tracking web utilisent des cookies. Il est important que le serveur web qui effectue l&#39;appel HTTP synchrone soit dans le même domaine que le serveur de redirection. Les différents échanges HTTP doivent transmettre les cookies &#39;id&#39;, &#39;uuid&#39; et &#39;uuid230&#39;.
 
 **Exemple** : génération dynamique en java, avec authentification du destinataire via son numéro de compte.
 

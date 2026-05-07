@@ -6,8 +6,8 @@ hide: true
 feature: Workflows
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 100%
+source-wordcount: '152'
+ht-degree: 86%
 
 ---
 
@@ -21,9 +21,9 @@ Le workflow présenté ci-dessous est planifié pour s’exécuter toutes les he
 
 Pour plus d&#39;informations à ce sujet, en fonction de la version de Campaign, reportez-vous aux sections suivantes :
 
-![](assets/do-not-localize/v7.jpeg)[Documentation de Campaign v7](../../message-center/using/about-transactional-messaging.md)
+![](assets/do-not-localize/v7.jpeg) [Documentation de Campaign v7](../../message-center/using/about-transactional-messaging.md)
 
-![](assets/do-not-localize/v8.png)[Documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/transactional.html?lang=fr)
+![](assets/do-not-localize/v8.png) [Documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/transactional.html?lang=fr)
 
 
 <table> 

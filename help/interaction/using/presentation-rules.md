@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: case-study
 exl-id: f9dd9ad6-48da-4a80-9405-109a433a1ed5
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '484'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 84%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 ## Création d&#39;une règle de présentation {#creating-a-presentation-rule}
 
-Dans votre base, vous disposez de plusieurs offres de voyages pour l&#39;Europe, l&#39;Afrique, les Etats-Unis et le Canada. Vous souhaitez proposer des offres de voyage pour le Canada mais si un destinataire devait refuser ce type d&#39;offre, vous ne voulez pas lui reproposer.
+Notre base de données contient plusieurs offres de voyage pour l&#39;Europe, l&#39;Afrique, les États-Unis et le Canada. Nous voulons envoyer des offres pour un voyage au Canada, mais si le destinataire refuse ce type d&#39;offre, nous ne voulons pas la lui envoyer de nouveau
 
 Vous allez donc paramétrer votre règle de façon à ne proposer de voyages au Canada qu&#39;une seule fois à un destinataire et à ne pas lui reproposer s&#39;il l&#39;a déjà refusé.
 
@@ -84,7 +84,7 @@ Vous allez donc paramétrer votre règle de façon à ne proposer de voyages au 
 
 Voici un exemple d&#39;application de la règle de typologie créée précédemment.
 
-Vous allez faire une première proposition d&#39;offre appartenant, entre autre, à la catégorie de voyages pour le Canada. Si l&#39;offre est refusée par un des destinataires une première fois, elle n&#39;est pas reproposée au destinataire qui l&#39;a refusée.
+Nous voulons envoyer une première proposition d&#39;offre appartenant à la catégorie Canada. Si l&#39;offre est rejetée une seule fois par l&#39;un des destinataires, elle ne leur sera pas proposée à nouveau.
 
 1. Dans le dossier de destinataires **Grands voyageurs**, sélectionnez un des profils pour vérifier les offres auxquelles il est éligible : cliquez sur l&#39;onglet **[!UICONTROL Propositions]**, puis le sous-onglet **[!UICONTROL Prévisualisation]**.
 

@@ -8,17 +8,17 @@ content-type: reference
 topic-tags: managing-environments
 exl-id: 399e9468-bf70-425d-af0b-72c29636b513
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
-source-wordcount: '102'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 80%
 
 ---
 
-# Création de filtres prédéfinis{#creating-predefined-filters}
+# Créer des filtres prédéfinis{#creating-predefined-filters}
 
 
 
-Les filtres prédéfinis permettent de créer des règles d&#39;éligibilité sur la population ciblée qui pourront être facilement réutilisées lors de la création des offres. Ils sont propres à chaque environnement et permettent de prendre en compte les paramètres des offres.
+Les filtres prédéfinis permettent de créer des règles d&#39;éligibilité pour la population cible qui pourront facilement être réutilisées lors de la création de l&#39;offre. Ils sont spécifiques à chaque environnement et prennent en compte les paramètres de l’offre.
 
 Pour créer un filtre, procédez comme suit :
 

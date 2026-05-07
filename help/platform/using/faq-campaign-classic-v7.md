@@ -6,10 +6,11 @@ feature: Overview, Troubleshooting
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
-source-git-commit: 8d9bb9d2ff4450646bbf218804b8c8b4459b5a91
+exl-id: 89356b5a-d99c-43d1-892b-5a1d003e76cc
+source-git-commit: c1796e5f827b79f72a07eb07886d345d3b897f86
 workflow-type: tm+mt
-source-wordcount: '1350'
-ht-degree: 81%
+source-wordcount: '1522'
+ht-degree: 80%
 
 ---
 
@@ -41,7 +42,7 @@ Chaque modèle de déploiement possède des capacités et des responsabilités d
 
 +++
 
-+++ Quelles sont les différences entre un environnement on-premise et un environnement hébergé ?{#what-are-the-differences-when-working-on-premise-vs-in-a-hosted-environment}
++++ Quelles sont les différences entre un environnement On-premise et un environnement hébergé ? {#what-are-the-differences-when-working-on-premise-vs-in-a-hosted-environment}
 
 Adobe Campaign Classic v7 est proposé avec un ensemble de modules et d’options. La disponibilité de ces modules et leur configuration dépend du [type de déploiement](../../installation/using/hosting-models.md) de votre installation : hébergée (Managed Services), hybride ou on-premise.
 
@@ -94,8 +95,8 @@ Campaign v8 est une plateforme stratégique d’Adobe idéale pour les organisa
 
 En savoir plus :
 
-* [Vue d’ensemble de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/whats-new.html){target="_blank"}
-* [Transition de Campaign Classic v7 vers v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/v7-to-v8.html?lang=fr){target="_blank"}
+* [Présentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/whats-new.html){target="_blank"}
+* [Transition de Campaign Classic v7 vers v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/v7-to-v8.html?lang=fr){target="_blank"}
 * [Questions fréquentes complètes sur Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html?lang=fr){target="_blank"}
 
 **Pour obtenir des réponses détaillées aux questions courantes de Campaign sur les workflows, les diffusions, les audiences, le reporting, la personnalisation, et bien d’autres encore**, consultez les [questions fréquentes complètes sur Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/start/campaign-faq-comprehensive.html?lang=fr){target="_blank"}.
@@ -253,6 +254,6 @@ Consultez les [**questions fréquentes complètes sur Campaign v8**](https://ex
 **Communauté et support :**
 
 * [Forums de la communauté Campaign](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=fr){target="_blank"}
-* [Support Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
+* [Assistance Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
 
 +++

@@ -1,21 +1,21 @@
 ---
 product: campaign
 title: Créer les modèles de diffusion
-description: Découvrez comment effectuer des tests AB à lʼaide dʼun cas dʼutilisation spécifique.
+description: Découvrez comment effectuer des tests A/B à lʼaide dʼun cas dʼutilisation spécifique
 role: User
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: A/B Testing
 exl-id: 77b3a906-b76e-49e1-b524-b6f1ae537259
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '103'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '111'
+ht-degree: 79%
 
 ---
 
 # AB Testing : créer les modèles de diffusion {#step-3--creating-two-delivery-templates}
 
-Vous allez à présent créer deux modèles de diffusions. Chaque modèle sera référencé dans une activité **[!UICONTROL Diffusion e-mail]** rattachée à l’activité **[!UICONTROL Partage]**. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/create-templates.html?lang=fr){target="_blank"}.
+Vous allez à présent créer deux modèles de diffusion. Chaque modèle sera référencé dans une activité **[!UICONTROL Diffusion e-mail]** liée à l&#39;activité **[!UICONTROL Partage]**. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/create-templates.html?lang=fr){target="_blank"}.
 
 1. Accédez au dossier **[!UICONTROL Ressources > Modèle de diffusion]**.
 1. Dupliquez le modèle de diffusion **[!UICONTROL E-mail]**.

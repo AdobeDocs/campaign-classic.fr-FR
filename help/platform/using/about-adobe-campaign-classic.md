@@ -7,17 +7,17 @@ role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
 source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
-workflow-type: ht
-source-wordcount: '181'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '208'
+ht-degree: 65%
 
 ---
 
 # Prise en main de Campaign Classic{#about-adobe-campaign-classic}
 
-Pour favoriser l’engagement de la clientèle et offrir des expériences attrayantes, les marques doivent créer des parcours client cohérents à tous les points de contact. Les spécialistes marketing peuvent désormais concevoir, planifier, exécuter, gérer et optimiser des campagnes marketing cross-canal qui offrent un retour sur investissement élevé et fidélisent les clientes et clients.
+Pour offrir un haut degré d’engagement des clients et des expériences de qualité, les marques doivent créer des parcours client cohérents à tous les points de contact. Les marketeurs peuvent désormais concevoir, planifier, exécuter, gérer et optimiser efficacement des campagnes marketing cross-canal qui offrent un retour sur investissement marketing élevé et fidélisent les clients.
 
-Adobe Campaign permet d&#39;orchestrer les différentes étapes nécessaires à la réalisation d&#39;opérations de marketing conversationnel. Adobe Campaign dispose de capacités innovantes de modélisation, de rationalisation et d&#39;automatisation des processus du marketing et de la communication client.
+Adobe Campaign permet de coordonner la création de campagnes marketing conversationnelles. Adobe Campaign dispose de fonctionnalités innovantes pour modéliser, rationaliser et automatiser les processus de marketing et de communication client.
 
 
 >[!BEGINTABS]
@@ -112,4 +112,4 @@ Cette vidéo présente les principales fonctionnalités de Campaign Classic.
 
 >[!VIDEO](https://video.tv.adobe.com/v/39514?captions=fre_fr&quality=12)
 
-D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+D&#39;autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

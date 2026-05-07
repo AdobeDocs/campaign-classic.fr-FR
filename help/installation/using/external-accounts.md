@@ -9,8 +9,8 @@ topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '1988'
-ht-degree: 100%
+source-wordcount: '2157'
+ht-degree: 95%
 
 ---
 
@@ -105,7 +105,7 @@ Un accès Internet est nécessaire pour la configuration et pour utiliser le bou
 
 Après avoir saisi les différentes informations d’identification, vous pouvez cliquer sur **[!UICONTROL Configurer la connexion]** pour terminer la configuration de votre compte externe.
 
-### Routage {#routing-external-account}
+### Routage{#routing-external-account}
 
 Le compte externe **[!UICONTROL Routage]** vous permet de configurer chaque canal disponible dans Adobe Campaign en fonction des packages installés.
 
@@ -137,7 +137,7 @@ En tant que société cliente on-premise/hybride, vous pouvez créer de nouveaux
 
 ### Instance d&#39;exécution  {#execution-instance-external-account}
 
-Si vous possédez une architecture répartie, vous devez spécifier les instances d’exécution liées à l’instance de pilotage et les connecter. Les modèles de messages transactionnels sont déployés sur l’instance d’exécution.
+Si vous disposez d&#39;une architecture répartie, vous devez spécifier les instances d&#39;exécution liées à l&#39;instance de pilotage et les connecter. Les modèles de messages transactionnels sont déployés vers l’instance d’exécution.
 
 ![](assets/ext_account_13.png)
 
@@ -159,7 +159,7 @@ Pour plus d&#39;informations sur cette configuration, consultez [cette page](../
 
 ### FTP {#ftp-external-account}
 
-Le compte externe FTP vous permet de configurer et de tester l’accès à un serveur en dehors d’Adobe Campaign. Pour configurer des connexions à des systèmes externes tels que des serveurs FTP 898 utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=fr){target="_blank"}.
+Le compte externe FTP permet de configurer et de tester l’accès à un serveur en dehors d’Adobe Campaign. Pour configurer des connexions avec des systèmes externes tels que des serveurs FTP 898 utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=fr){target="_blank"}.
 
 Pour ce faire, spécifiez dans ce compte externe l&#39;adresse et les informations d’identification utilisées pour établir la connexion au serveur FTP.
 
@@ -189,7 +189,7 @@ Pour savoir où trouver ces informations d’identification, consultez [cette pa
 
 ### SFTP {#sftp-external-account}
 
-Le compte externe SFTP vous permet de configurer et de tester l’accès à un serveur en dehors d’Adobe Campaign. Pour configurer des connexions à des systèmes externes tels que des serveurs SFTP utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=fr){target="_blank"}.
+Le compte externe SFTP permet de configurer et de tester l’accès à un serveur en dehors d’Adobe Campaign. Pour configurer des connexions à des systèmes externes tels que des serveurs SFTP utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=fr){target="_blank"}.
 
 ![](assets/ext_account_4.png)
 
@@ -252,7 +252,7 @@ Pour vous connecter à la console Adobe Campaign à l’aide d’un Adobe ID, 
 
 * **[!UICONTROL Serveurs IMS]**
 
-  URL de votre serveur IMS. Assurez-vous que les instances de test et de production pointent sur le même point de terminaison de production IMS.
+  URL de votre serveur IMS. Assurez-vous que les instances d’évaluation et de production pointent sur le même point d’entrée de production IMS.
 
 * **[!UICONTROL Scope IMS]**
 
@@ -380,7 +380,7 @@ Avec le type de déploiement **[!UICONTROL API web]** et l’authentification **
 
 Pour plus d&#39;informations sur cette configuration, consultez [cette page](../../platform/using/crm-connectors.md).
 
-### CRM Salesforce.com   {#salesforce-crm-external-account}
+### CRM Salesforce.com  {#salesforce-crm-external-account}
 
 Le compte externe **[!UICONTROL Salesforce CRM]** vous permet d’importer et d’exporter des données Salesforce vers Adobe Campaign.
 
@@ -416,7 +416,7 @@ Pour plus d’informations sur cette configuration, consultez [cette page](../..
 
 ### Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
 
-Le connecteur Amazon Simple Storage Service (S3) peut être utilisé pour importer ou exporter des données vers Adobe Campaign. Il peut être configuré dans une activité de workflow. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=fr){target="_blank"}.
+Le connecteur Amazon Simple Storage Service (S3) peut être utilisé pour importer ou exporter des données vers Adobe Campaign. Il peut être configuré dans une activité de workflow. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=fr){target="_blank"}.
 
 ![](assets/ext_account_3.png)
 
@@ -464,4 +464,4 @@ Pour configurer le **[!UICONTROL compte externe Azure]** afin de l’utiliser av
 
 * **[!UICONTROL Clé d’accès]**
 
-  Pour savoir où trouver votre **** clé d’accès[, consultez cette page](https://docs.microsoft.com/fr-fr/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
+  Pour savoir où trouver votre **&#x200B;**&#x200B;clé d’accès[, consultez cette page](https://docs.microsoft.com/fr-fr/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).

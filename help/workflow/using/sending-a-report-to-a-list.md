@@ -7,8 +7,8 @@ hide: true
 exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 100%
+source-wordcount: '735'
+ht-degree: 94%
 
 ---
 
@@ -74,7 +74,7 @@ Pour plus d&#39;informations sur la création de listes, reportez-vous à cette 
 
 ## Etape 3 : création du workflow {#step-3--creating-the-workflow}
 
-Pour réaliser ce cas d&#39;utilisation, le workflow suivant a été créé. Celui-ci comporte trois activités :
+Le workflow suivant a été créé pour ce cas d’utilisation. Il propose trois activités :
 
 * une activité de type **[!UICONTROL Planificateur]** permettant d&#39;exécuter le workflow tous les mois,
 * une activité de type **[!UICONTROL Code JavaScript]** permettant de générer le rapport au format PDF,
@@ -112,7 +112,7 @@ Pour réaliser ce cas d&#39;utilisation, le workflow suivant a été créé. Cel
    Les variables utilisées sont les suivantes :
 
    * **var reportName** : saisissez, entre guillemets, le nom interne du rapport. Dans notre exemple, le nom interne du rapport **Indicateur de tracking** est &quot;deliveryFeedback&quot;.
-   * **var path** : saisissez le chemin d’enregistrement du fichier (&quot;tmp/files/&quot;), le nom que vous souhaitez donner au fichier (&quot;deliveryFeedback&quot;) et l’extension du fichier (&quot;.pdf&quot;). Dans notre exemple, nous avons utilisé le nom interne comme nom de fichier. Les valeurs doivent être entre guillemets et séparées par le caractère &quot;+&quot;.
+   * **var path** : saisissez le chemin de sauvegarde du fichier (« tmp/files/ »), le nom que vous souhaitez lui donner (« deliveryFeedback ») et son extension ( ».pdf »). Ici, nous avons utilisé le nom interne comme nom de fichier. Les valeurs doivent être comprises entre guillemets et séparées par le caractère « + ».
 
      >[!CAUTION]
      >

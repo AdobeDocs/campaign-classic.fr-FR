@@ -9,15 +9,15 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '542'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '639'
+ht-degree: 94%
 
 ---
 
 # Compresser ou chiffrer un fichier {#zipping-or-encrypting-a-file}
 
-Adobe Campaign permet d&#39;exporter des fichiers compressés ou chiffrés. Lors de la définition d&#39;un export par le biais d&#39;une activité **[!UICONTROL Extraction (fichier)]**, vous pouvez définir une étape de post-traitement pour le compresser ou le chiffrer.
+Adobe Campaign permet d&#39;exporter des fichiers compressés ou chiffrés. Lors de la définition d’une exportation par le biais d’une activité **[!UICONTROL Extraction (fichier)]** vous pouvez définir une étape de post-traitement pour compresser ou chiffrer le fichier.
 
 Pour ce faire :
 
@@ -36,9 +36,9 @@ Vous pouvez ensuite utiliser des commandes ou du code dans l&#39;onglet **[!UICO
 **Rubriques connexes :**
 
 * [Décompression ou déchiffrement d&#39;un fichier avant traitement](../../platform/using/unzip-decrypt.md)
-* [Activité Extraction des données (fichier)](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html?lang=fr){target="_blank"}
+* [Activité Extraction (fichier)](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html?lang=fr){target="_blank"}
 
-## Cas pratique : chiffrage et export de données à l’aide d’une clé installée sur le Panneau de contrôle {#use-case-gpg-encrypt}
+## Cas d’utilisation : chiffrement et export de données à l’aide d’une clé installée sur le Panneau de contrôle {#use-case-gpg-encrypt}
 
 Dans ce cas pratique, nous allons créer un workflow pour chiffrer et exporter des données à l&#39;aide d&#39;une clé installée sur le Panneau de contrôle.
 
@@ -54,7 +54,7 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
    * Activité **[!UICONTROL Requête]** : dans cet exemple, nous voulons exécuter une requête pour cibler les données de la base de données que nous voulons exporter.
    * Activité **[!UICONTROL Extraction (fichier)]** : extrait les données dans un fichier.
-   * Activité **[!UICONTROL Code JavaScript]** : chiffre les données à extraire.
+   * Activité **[!UICONTROL Code JavaScript]**  : chiffre les données à extraire.
    * Activité **[!UICONTROL Transfert de fichier]** : envoie les données à une source externe (dans cet exemple, un serveur SFTP).
 
 1. Configurez l&#39;activité **[!UICONTROL Requête]** pour qu&#39;elle cible les données de votre choix dans la base de données. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=fr){target="_blank"}.

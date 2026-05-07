@@ -5,9 +5,9 @@ description: Découvrez les instructions et les bonnes pratiques pour surveiller
 feature: Monitoring
 exl-id: ca0c33c5-7350-462a-bc65-4cab51e529d9
 source-git-commit: e60a8391416bc9899548971bddb61705467a80e5
-workflow-type: ht
-source-wordcount: '759'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '836'
+ht-degree: 89%
 
 ---
 
@@ -42,7 +42,7 @@ D’autres méthodes de surveillance des différents processus de Campaign sont 
 
 **Outils de surveillance automatique**
 
-Plusieurs méthodes automatiques sont disponibles. pour vous aider à surveiller votre instance. Vous pouvez, par exemple, configurer des rapports par email avec les anomalies détectées, récupérer une liste d’indicateurs au format XML, etc. [Cliquez ici](../../production/using/monitoring-processes.md#automatic-monitoring) pour plus d’informations.
+Plusieurs méthodes automatiques sont disponibles. pour vous aider à surveiller votre instance. Vous pouvez par exemple configurer des rapports d&#39;email avec des anomalies détectées, récupérer une liste d&#39;indicateurs au format XML, etc. [Cliquez ici](../../production/using/monitoring-processes.md#automatic-monitoring) pour plus d&#39;informations.
 
 **Journal d’audit**
 
@@ -50,7 +50,7 @@ Le journal d’audit vous permet de visualiser l’historique complet des modifi
 
 **Panneau de contrôle**
 
-Le Panneau de contrôle vous permet de gérer plusieurs paramètres de votre instance : gérer les autorisations d’URL, vérifier les détails de votre instance tels que les versions de build de vos serveurs, etc. Il vous permet également de surveiller l’espace disponible sur les serveurs SFTP connectés à votre instance. [Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr) pour plus d’informations.
+Le Panneau de Contrôle vous permet de gérer plusieurs paramètres de votre instance : gérer les autorisations d’URL, vérifier les détails de votre instance tels que les versions de build de vos serveurs, etc. Elle permet également de surveiller l’espace disponible sur les serveurs SFTP connectés à votre instance. [Cliquez ici](https://experienceleague.adobe.com/fr/docs/control-panel/using/control-panel-home.html?lang=fr) pour plus d’informations.
 
 >[!NOTE]
 >
@@ -82,7 +82,7 @@ De plus, vous pouvez créer un processus qui vous permettra de surveiller l’é
 
 Suivez les directives et les bonnes pratiques relatives à l’utilisation de workflows pour améliorer les performances. Pour plus d’informations, consultez les sections suivantes :
 * [Bonnes pratiques relatives à l’utilisation des workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=fr){target="_blank"}
-* [Surveiller l’exécution des workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=fr){target="_blank"}
+* [Surveiller l&#39;exécution des workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=fr){target="_blank"}
 
 ### Surveillance des diffusions {#monitoring-deliveries}
 
@@ -96,8 +96,8 @@ Les rapports SMTP affichent les statistiques de diffusion et les erreurs SMTP pa
 
 Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=fr){target="_blank"} pour en savoir plus sur les bonnes pratiques d’envoi et de conception de diffusion afin d’améliorer les performances.
 
-**Résolution des problèmes liés aux diffusions**
-Des actions spécifiques peuvent être entreprises en cas de problème avec des diffusions :
+**Résolution des problèmes liés à la diffusion**
+Des actions spécifiques peuvent être effectuées lorsque vous rencontrez des problèmes avec les diffusions :
 * [Problèmes de délivrabilité](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [Problèmes liés à l&#39;affichage des images](../../production/using/image-display-issues.md)
 * [Problèmes de performances des diffusions](../../delivery/using/delivery-performance-troubleshooting.md)

@@ -9,8 +9,8 @@ content-type: reference
 exl-id: 76645a6f-9536-49d6-b12a-fdd6113d31fa
 source-git-commit: 8de62db2499449fc9966b6464862748e2514a774
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 100%
+source-wordcount: '723'
+ht-degree: 98%
 
 ---
 
@@ -80,7 +80,7 @@ Lorsque le processus [!DNL pipelined] est en cours d’exécution et qu’aucun 
 1. Recherchez des erreurs dans le log [!DNL pipelined].
 1. Recherchez des erreurs dans la page d’état [!DNL pipelined]. Le nombre d’indicateurs trigger-discarted, trigger-failures doit être nul.
 1. Vérifiez que le nom du déclencheur est configuré dans l’option **[!UICONTROL NmsPipeline_Config]**. En cas de doute, utilisez l’option de caractère générique.
-1. Vérifiez qu’Analytics possède un déclencheur actif et qu’il génère des événements. Il peut y avoir un délai de quelques heures après la configuration dans Analytics.
+1. Vérifiez qu’Analytics possède un déclencheur actif et qu’il génère des événements. Il peut y avoir un délai de quelques heures après la configuration dans Analytics jusqu’à ce qu’elle soit active.
 
 **Les événements ne sont pas liés à un client**
 
@@ -104,6 +104,6 @@ En règle générale, un déclencheur peut prendre 15 à 90 minutes pour lancer
 
 **Mise à niveau des instances d&#39;évaluation de l&#39;authentification héritée vers l&#39;authentification d’Adobe IO**
 
-La modification de l&#39;authentification de l&#39;intégration sur votre instance d&#39;évaluation n&#39;affecte pas la configuration de votre instance de production. Vous pouvez choisir de mettre à niveau votre instance d&#39;évaluation, puis de mettre à jour l&#39;authentification pour Adobe IO et tester vos triggers sur votre instance d&#39;évaluation.
+La modification de l&#39;authentification de l&#39;intégration sur votre instance d&#39;évaluation n&#39;affecte pas la configuration de votre instance de production. Vous pouvez choisir de mettre à niveau votre instance d’évaluation, puis de mettre à jour l’authentification pour Adobe IO et tester vos déclencheurs sur votre instance d’évaluation.
 
 Votre instance de production continuera à utiliser l&#39;authentification héritée et ne sera pas affectée par cette modification.

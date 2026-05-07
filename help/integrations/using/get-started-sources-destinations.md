@@ -1,14 +1,14 @@
 ---
 product: campaign
-title: Prise en main des sources et des destinations
+title: Commencer avec les sources et les destinations
 description: En savoir plus sur les sources et les destinations d’Adobe Experience Platform
 feature: Experience Platform Integration
 audience: integrations
 content-type: reference
 exl-id: 8cee52c7-ea56-4701-8ebb-eb18afffea51
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '291'
+workflow-type: tm+mt
+source-wordcount: '313'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ Adobe Experience Platform permet de partager des données entre Campaign Clas
 
 Pour un aperçu plus détaillé d’Adobe Real-time Customer Data Platform, des destinations et des sources, consultez les pages suivantes :
 
-* [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=fr)
+* [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=fr)
 * [Documentation sur les destinations](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=fr)
 * [Documentation sur les sources](https://experienceleague.adobe.com/docs/experience-platform/sources/home.html?lang=fr)
 

@@ -4,8 +4,8 @@ description: En savoir plus sur les impacts de l’interface de migration d’Ad
 exl-id: 8b13fe4d-d8d3-43b3-bbe4-c8c5574f585a
 source-git-commit: 8eadea9f9cc0a44522726024bfbc825e3b4cad98
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 100%
+source-wordcount: '463'
+ht-degree: 95%
 
 ---
 
@@ -94,7 +94,7 @@ Vous ne pouvez plus créer, modifier, mettre à jour ou supprimer des opérateur
 
 Par conséquent, ces actions ont été désactivées dans la console cliente.
 
-L’administration des opérateurs et opératrices est centralisée dans Adobe Admin Console et les tâches suivantes sont désormais gérées exclusivement via cette console. Découvrez comment créer des utilisateurs et utilisatrices et attribuer des autorisations dans la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/manage-permissions){target="_blank"}.
+L’administration des opérateurs et opératrices est centralisée dans Adobe Admin Console et les tâches suivantes sont désormais gérées exclusivement via cette console. Découvrez comment créer des utilisateurs et attribuer des autorisations dans [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/manage-permissions){target="_blank"}.
 
 ### Options non disponibles {#unavailable-migration}
 
@@ -120,4 +120,4 @@ Après la migration, les tâches suivantes ne sont plus disponibles dans la cons
 >* [Migration des utilisateurs et utilisatrices finaux vers IMS](migrate-users-to-ims.md)
 >* [Migration des opérateurs et opératrices techniques vers Adobe Developer Console](ims-migration.md)
 >* [Dernières notes de mise à jour d’Adobe Campaign Classic v7](../../rn/using/latest-release.md)
->* [Présentation d’Adobe Identity Management System (IMS)](https://helpx.adobe.com/fr/enterprise/using/identity.html){target="_blank"}
+>* [En quoi consiste Adobe Identity Management System (IMS)](https://helpx.adobe.com/fr/enterprise/using/identity.html){target="_blank"}

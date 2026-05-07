@@ -9,8 +9,8 @@ topic-tags: schema-reference
 exl-id: bad7fb4b-43d9-4033-ae0d-cf191d89114b
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 100%
+source-wordcount: '147'
+ht-degree: 57%
 
 ---
 
@@ -48,12 +48,12 @@ Cet élément permet de définir les valeurs stockées dans une énumération.
 * **applicableIf (string)**: cet attribut permet de rendre une valeur d&#39;énumération optionnelle. Il reçoit une expression XTK.
 * **desc (string)**: description de la valeur de l&#39;énumération.
 * **enabledIf (string)**: condition d&#39;activation de la valeur de l&#39;énumération.
-* **img (string)**: image associée à l&#39;énumération sous la forme &quot;namespace:nom_image&quot;. Physiquement l&#39;image doit être importée sur le serveur applicatif.
+* **img (string)** : image associée à l&#39;énumération dans le formulaire « namespace:image_name ». Physiquement l&#39;image doit être importée sur le serveur applicatif.
 * **label (string)**: libellé de la valeur de l&#39;énumération.
 * **name (string)**: nom interne de la valeur de l&#39;énumération.
-* **value (string)**: valeur de la valeur de l&#39;énumération. Le type de la valeur est défini en fonction du type de l&#39;énumération. Si l&#39;énumération est de type chaine de caractère, elle ne peut contenir que des valeurs de type chaine de caractères.
+* **value (string)** : valeur de la valeur de l&#39;énumération. Le type de valeur est défini en fonction du type d’énumération. Si l’énumération est de type chaîne de caractères, elle ne peut contenir que des valeurs de type chaîne de caractères.
 
-## Exemples       {#examples-13}
+## Exemples {#examples-13}
 
 ```
 <enumeration name="myEnum">

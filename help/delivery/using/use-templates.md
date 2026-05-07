@@ -8,7 +8,7 @@ hide: true
 exl-id: a5da3f29-5eab-428c-b7c3-d9e4243fe628
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '614'
 ht-degree: 100%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 
 
-Les modèles de diffusion accroissent l’efficacité en offrant des configurations prêtes à l’emploi pour les types d’activité les plus courants.Grâce aux modèles, les spécialistes marketing peuvent déployer plus rapidement de nouvelles campagnes avec une personnalisation minimale.
+Les modèles de diffusion accroissent l’efficacité en offrant des configurations prêtes à l’emploi pour les types d’activité les plus courants. Grâce aux modèles, les spécialistes marketing peuvent déployer plus rapidement de nouvelles campagnes avec une personnalisation minimale.
 
 En savoir plus sur les modèles de diffusion dans [cette section](about-templates.md).
 
@@ -25,7 +25,7 @@ En savoir plus sur les modèles de diffusion dans [cette section](about-template
 
 Un [modèle de diffusion](about-templates.md) vous permet de définir une fois un ensemble de propriétés techniques et fonctionnelles qui répond à vos besoins et qui peut être réutilisé pour de prochaines diffusions. Vous pouvez ensuite gagner du temps et normaliser les diffusions si nécessaire.
 
-Si vous gérez plusieurs marques dans Adobe Campaign, Adobe recommande de disposer d’un sous-domaine par marque. Une banque peut, par exemple, avoir plusieurs sous-domaines qui correspondent à chacune de ses agences régionales. Si une banque détient le domaine bluebank.com, ses sous-domaines peuvent être @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, etc. Disposer d’un modèle de diffusion par sous-domaine vous permet de toujours utiliser les paramètres préconfigurés adéquats pour chaque marque et d’éviter ainsi des erreurs tout en gagnant du temps.
+Si vous gérez plusieurs marques dans Adobe Campaign, Adobe recommande de disposer d’un sous-domaine par marque. Une banque peut, par exemple, avoir plusieurs sous-domaines qui correspondent à chacune de ses agences régionales. Si une banque possède le domaine bluebank.com, ses sous-domaines peuvent être @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, etc. Disposer d’un modèle de diffusion par sous-domaine vous permet de toujours utiliser les paramètres préconfigurés adéquats pour chaque marque et d’éviter ainsi des erreurs tout en gagnant du temps.
 
 **Conseil :** afin d’éviter toute erreur de paramétrage, il est recommandé de dupliquer un modèle natif et d’en modifier les propriétés plutôt que d’en créer un nouveau.
 
@@ -37,9 +37,9 @@ Si vous gérez plusieurs marques dans Adobe Campaign, Adobe recommande de dispos
 
 * Une adresse erronée peut causer un refus de la part du serveur receveur. Vous devez vous assurer qu’une adresse correcte est bien renseignée.
 
-* L&#39;adresse doit identifier explicitement l&#39;expéditeur. Le domaine doit appartenir à l&#39;expéditeur et être enregistré auprès de lui.
+* L’adresse doit identifier explicitement l’expéditeur ou l’expéditrice. Le domaine doit appartenir à l’expéditeur ou à l’expéditrice et être enregistré en son nom.
 
-* Adobe recommande de créer des comptes email qui correspondent aux adresses indiquées pour les envois et les réponses. Parlez-en avec votre administrateur du système de messagerie.
+* Adobe recommande de créer des comptes e-mail qui correspondent aux adresses indiquées pour les diffusions et les réponses. Parlez-en avec l’administrateur ou l’administratrice de votre messagerie.
 
 Pour configurer les adresses dans l’interface de Campaign, procédez comme suit :
 
@@ -67,6 +67,6 @@ Une typologie contient les règles de vérification qui sont appliquées lors de
 
 Dans l’onglet **[!UICONTROL Typologie]** des propriétés du modèle, changez la typologie par défaut en fonction de vos besoins.
 
-Pour mieux contrôler le trafic sortant, par exemple, vous pouvez définir quelles adresses IP peuvent être utilisées en spécifiant une affinité par sous-domaine et en créant une typologie par affinité. Les affinités sont définies directement dans le fichier de configuration de l&#39;instance. Contactez votre administrateur Adobe Campaign.
+Pour mieux contrôler le trafic sortant, par exemple, vous pouvez définir quelles adresses IP peuvent être utilisées en spécifiant une affinité par sous-domaine et en créant une typologie par affinité. Celles-ci sont définies dans le fichier de configuration de l’instance. Contactez votre administrateur ou administratrice Adobe Campaign.
 
 Pour plus d’informations sur les typologies, consultez [cette section](../../campaign-opt/using/about-campaign-typologies.md).

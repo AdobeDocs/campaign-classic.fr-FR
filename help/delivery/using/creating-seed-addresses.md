@@ -7,9 +7,9 @@ feature: Seed Address
 role: User, Developer
 exl-id: f7dc97f0-3423-4b6f-88e2-08180f9adf8a
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
-source-wordcount: '447'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '452'
+ht-degree: 94%
 
 ---
 
@@ -46,7 +46,7 @@ Pour créer des adresses de contrôle, procédez comme suit :
 
 ## Créer des modèles d&#39;adresses de contrôle {#creating-seed-address-templates}
 
-Pour créer des modèles d&#39;adresses, qui seront importées et pourront être modifiées pour chaque diffusion, la procédure est la même que celle permettant de définir une nouvelle adresse de contrôle, mais les adresses des modèles doivent être stockées dans un dossier de type &#39;Modèle&#39;.
+Pour créer des modèles d’adresses qui seront importés et qui peuvent être modifiés pour chaque diffusion, le processus est le même que lors de la définition d’une nouvelle adresse de contrôle. La seule différence est que les adresses des modèles d’adresses de contrôle doivent être stockées dans un dossier de type Modèle.
 
 Pour définir un dossier de modèle, la procédure est la suivante :
 

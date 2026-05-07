@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '1062'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1149'
+ht-degree: 76%
 
 ---
 
@@ -23,7 +23,7 @@ Cette section présente les étapes d&#39;installation et de configuration d&#39
 
 L&#39;architecture « mid-sourcing » est présentée dans la section [Déploiement Mid-sourcing](../../installation/using/mid-sourcing-deployment.md).
 
-L&#39;installation d&#39;un serveur de mid-sourcing est identique à celle d&#39;une instance classique (se référer à la configuration standard). Il s&#39;agit d&#39;une instance autonome avec sa propre base de données, sur laquelle il est possible de lancer des diffusions. Elle contient simplement une configuration supplémentaire permettant à des instances distantes de lui déléguer des envois à effectuer en mode mid-sourcing.
+L&#39;installation d&#39;un serveur de mid-sourcing suit le même processus que l&#39;installation normale d&#39;un serveur (voir la configuration standard). Il s’agit d’une instance indépendante disposant de sa propre base de données, qui peut être utilisée pour exécuter des diffusions. En d’autres termes, il contient une configuration supplémentaire pour permettre aux instances distantes d’exécuter des diffusions via lui en mode mid-sourcing.
 
 >[!CAUTION]
 >
@@ -37,7 +37,7 @@ L&#39;installation d&#39;un serveur de mid-sourcing est identique à celle d&#39
 * Accès à un serveur de base de données sur le serveur applicatif.
 * Configuration du firewall pour l&#39;ouverture du port HTTP (80) ou HTTPS (443) vers le serveur de mid-sourcing.
 
-La procédure ci-dessous présente une configuration utilisant un seul serveur de mid-sourcing. Il est également possible de faire appel en parallèle à plusieurs serveurs de mid-sourcing, ainsi que de configurer l&#39;envoi de certains messages en mode normal (pour les notifications de workflow, par exemple).
+La procédure suivante décrit une configuration utilisant un seul serveur de mid-sourcing. Il est également possible d’utiliser plusieurs serveurs. De même, il est également possible d’envoyer certains messages (comme des notifications de workflow, par exemple) à partir d’une configuration interne.
 
 ### Installer et configurer le serveur applicatif pour un déploiement en mid-sourcing {#installing-and-configuring-the-application-server-for-mid-sourcing-deployment}
 
@@ -80,7 +80,7 @@ Toutefois, vous devez appliquer les spécificités suivantes :
 
 >[!NOTE]
 >
->L&#39;option **Emission vers Mid-sourcing** crée deux workflows **Mid-sourcing**. Il s&#39;agit d&#39;un traitement, planifié par défaut toutes les heures et 20 minutes, qui effectue la collecte des informations de diffusion sur le serveur de mid-sourcing.
+>L&#39;option **mid-sourcingEmitter** crée deux workflows **Mid-sourcing**. Ce processus s’exécute par défaut toutes les 1 heure et 20 minutes et collecte les informations de diffusion sur le serveur de mid-sourcing.
 
 ## Déploiement d&#39;un serveur de mid-sourcing {#deploying-a-mid-sourcing-server}
 
@@ -106,7 +106,7 @@ Toutefois, vous devez appliquer les spécificités suivantes :
 >
 >Le multiplexage n&#39;est pris en charge que pour les environnements on-premise.
 
-Il est possible de mutualiser une instance de mid-sourcing pour plusieurs instances de soumission. Chaque instance pouvant effectuer des soumissions sera associée à un opérateur dans la base de mid-sourcing. Pour créer un second compte sur le serveur de mid-sourcing :
+Il est possible qu’une instance de mid-sourcing soit partagée par plusieurs instances de soumission. Chacune de ces instances doit être associée à un opérateur dans la base de données de mid-sourcing. Pour créer un second compte sur le serveur de mid-sourcing :
 
 1. Créez un dossier sous le nœud **[!UICONTROL Mid-sourcing > Diffusions]** qui sera associé au compte mid-sourcing par défaut (par exemple : prod).
 1. Créez un dossier sous le nœud **[!UICONTROL Mid-sourcing > Diffusions]** qui aura le même nom que le compte (par exemple : recette).
@@ -125,9 +125,9 @@ Il est possible de mutualiser une instance de mid-sourcing pour plusieurs instan
 
    ![](assets/mid_recette_user_restrictions.png)
 
-1. Redémarrez le module web à l’aide de la commande suivante : ** web**.
+1. Redémarrez le module web à l’aide de la commande suivante : **&#x200B; web**.
 
-Vous devez modifier le paramétrage du serveur de mid-sourcing à partir du fichier serverConf.xml. La ligne suivante doit être ajoutée dans la section &quot;Gestion des affinités avec les adresses IP&quot;, sous la ligne existante :
+Vous devez modifier le paramètre du serveur de mid-sourcing dans le fichier serverConf.xml . La ligne suivante doit être ajoutée à la section « Gestion des affinités avec les adresses IP », sous la ligne existante :
 
 ```
 <IPAffinity IPMask="" localDomain="" name=""/>
@@ -135,13 +135,13 @@ Vous devez modifier le paramétrage du serveur de mid-sourcing à partir du fich
 
 L&#39;attribut &#39;@name&#39; doit respecter les règles suivantes :
 
-**&#39;nom_de_l&#39;opérateur_du_compte_marketing&#39;.&#39;nom_de_l&#39;affinité&#39;.&#39;groupe_d&#39;affinité&#39;**
+**&#39;marketing_account_operator_name&#39;.&#39;affinity_name&#39;.&#39;affinity_group&#39;**
 
 &#39;nom_du_compte_de_l&#39;opérateur_marketing&#39; correspond au nom interne du compte de l&#39;opérateur mid-sourcing déclaré dans l&#39;instance mid-sourcing.
 
-&#39;nom_de_l&#39;affinité&#39; correspond au nom arbitraire donné à l&#39;affinité. Ce nom doit être unique. Les caractères autorisés sont `[a-z]``[A-Z]``[0-9]`. Le but est de déclarer un groupe d&#39;adresses IP publiques.
+&#39;affinity_name&#39; correspond au nom arbitraire donné à l&#39;affinité. Ce nom doit être unique. Les caractères autorisés sont `[a-z]` `[A-Z]` `[0-9]`. Le but est de déclarer un groupe d&#39;adresses IP publiques.
 
-&#39;groupe_d&#39;affinité&#39; est lié à la sous-affinité déclarée dans le mapping de ciblage utilisé dans chacune des diffusions. La dernière partie incluant le « . » est ignorée en l&#39;absence de sous-affinité. Les caractères autorisés sont `[a-z]``[A-Z]``[0-9]`.
+&#39;affinity_group&#39; met en relation la Sous-affinité déclarée dans le mapping de ciblage utilisé dans chacune des diffusions. La dernière partie incluant le caractère &#39;.&#39; est ignorée en l&#39;absence de Sous-affinité. Les caractères autorisés sont `[a-z]` `[A-Z]` `[0-9]`.
 
 Vous devez arrêter et redémarrer le serveur pour que cette modification soit prise en compte.
 
@@ -157,7 +157,7 @@ Vous devez arrêter et redémarrer le serveur pour que cette modification soit p
    ![](assets/s_ncs_install_midsourcing_tracking02.png)
 
 1. Lorsque vous avez complété les paramètres de connexion, cliquez sur **[!UICONTROL Valider le paramétrage]**.
-1. Si besoin est, définissez l&#39;emplacement où seront stockées les images contenues dans les diffusions. Pour cela, choisissez un des modes de publication disponible dans la liste déroulante.
+1. Si nécessaire, indiquez l’emplacement où les images contenues dans les diffusions doivent être stockées. Pour ce faire, sélectionnez l’un des modes de publication dans la liste déroulante.
 
    ![](assets/s_ncs_install_midsourcing_tracking03.png)
 

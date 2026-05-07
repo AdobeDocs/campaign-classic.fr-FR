@@ -6,9 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Reporting, Monitoring
 exl-id: dfa9d329-1086-4f6d-9d03-df159cad5495
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '460'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '462'
+ht-degree: 83%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-Vous pouvez entièrement personnaliser et configurer votre rapport en fonction de vos besoins. Pour ce faire, modifiez ses propriétés. Les propriétés du rapport sont accessibles via le bouton **[!UICONTROL Propriétés]** situé au-dessus du graphique de séquence d&#39;activités.
+Vous pouvez personnaliser et configurer entièrement votre rapport en fonction de vos besoins. Pour ce faire, modifiez ses propriétés. Les propriétés du rapport sont accessibles via le bouton **[!UICONTROL Propriétés]** situé au-dessus du graphique de séquence d&#39;activités.
 
 ![](assets/s_ncs_advuser_report_properties_01.png)
 
@@ -57,7 +57,7 @@ Vous pouvez paramétrer les langues dans lesquelles vous souhaitez que le rappor
 
 ![](assets/s_ncs_advuser_report_properties_06.png)
 
-La langue d&#39;édition correspond à la langue dans laquelle vous rédigez. Lorsque vous ajoutez une langue, un sous-onglet apparaît dans la page d&#39;édition du rapport.
+La langue d&#39;édition est la langue dans laquelle vous écrivez. Lorsque vous ajoutez une langue, le sous-onglet s&#39;affiche dans la page d&#39;édition du rapport.
 
 ![](assets/s_ncs_advuser_report_properties_05a.png)
 
@@ -67,10 +67,10 @@ La langue d&#39;édition correspond à la langue dans laquelle vous rédigez. Lo
 
 ## Personnalisation du rendu HTML {#personalizing-html-rendering}
 
-Dans l&#39;onglet **[!UICONTROL Rendu]**, vous pouvez personnaliser le mode d&#39;affichage des données dans la page. Ainsi, vous pouvez sélectionner :
+Dans l&#39;onglet **[!UICONTROL Rendu]**, vous pouvez personnaliser le mode d&#39;affichage des données de la page. Vous pouvez sélectionner les options suivantes :
 
 * Le type de navigation dans le rapport : via des boutons ou des liens.
-* La position par défaut des libellés des éléments du rapport. Cette position peut être surchargée au niveau de chaque élément.
+* Position par défaut des libellés des éléments de rapport. Cette position peut être surchargée pour chaque élément.
 * Le modèle, ou thème, utilisé pour la génération des pages du rapport.
 
 ![](assets/s_ncs_advuser_report_properties_08.png)

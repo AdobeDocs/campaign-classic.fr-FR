@@ -9,8 +9,8 @@ hide: true
 exl-id: 81f207a0-bb72-450b-abe4-0b229b6b1f3a
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '6200'
-ht-degree: 100%
+source-wordcount: '6654'
+ht-degree: 94%
 
 ---
 
@@ -47,7 +47,8 @@ Learn more about [ACS Connector](../../integrations/using/acs-connector-principl
 
 Une activité est un élément de palette ajouté à un workflow pour définir une fonctionnalité d’exécution. L’activité est un conteneur qui exécute une tâche. Dans un workflow, une activité donnée peut engendrer plusieurs tâches, notamment en cas de boucle ou d’actions récurrentes (périodiques).
 
-En savoir plus sur les activités de workflow dans la [documentation de Campaign v8]&#x200B;(https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=fr){target="_blank"}.
+Pour en savoir plus sur les activités de workflow, consultez la [documentation de Campaign v8]&#x200B;(https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities)
+.html){target="_blank"}.
 +++
 
 +++**Profil actif**
@@ -178,7 +179,7 @@ En savoir plus sur le [Modèle de données](../../configuration/using/about-data
 
 +++**Workflow de nettoyage de la base de données**
 
-Le workflow Nettoyage de la base de données supprime les données obsolètes afin d’éviter une croissance exponentielle de la base de données. Le workflow se déclenche automatiquement sans intervention de l’utilisateur.
+Le workflow Nettoyage de la base de données supprime les données obsolètes afin d’éviter une croissance exponentielle de la base de données. Le workflow est déclenché automatiquement sans intervention de l’utilisateur.
 
 En savoir plus sur le [workflow Nettoyage de la base de données](../../production/using/database-cleanup-workflow.md).
 +++
@@ -241,7 +242,7 @@ Learn more about [Deliverability](../../delivery/using/about-deliverability.md).
 
 *Contexte : publipostage direct*
 
-Une composition de diffusion désigne un ensemble structuré d’éléments (documents, magasins, coupons promotionnels, etc.) créés dans l’entreprise et pour une campagne particulière. Elle est utilisée dans le cadre de diffusions par publipostage direct.
+Une composition de diffusion est un ensemble structuré d&#39;éléments (documents, magasins, coupons promotionnels, etc.) créé par la société et pour une opération particulière. Elle est utilisée dans le cadre de diffusions par publipostage direct.
 
 En savoir plus sur le [publipostage direct](../../delivery/using/about-direct-mail-channel.md).
 +++
@@ -264,7 +265,7 @@ En savoir plus sur l’[analyse descriptive](../../reporting/using/about-descrip
 
 *Contexte : marketing distribué*
 
-Le module complémentaire Marketing distribué offre aux opérateurs et opératrices Campaign un espace de travail collaboratif pour l’implémentation des campagnes entre les entités centrales (siège social, services marketing, etc.) et les entités locales (points de vente, agences régionales, etc.) Cette coopération repose sur un espace de travail partagé appelé la **liste des kits de campagne**, où des modèles et des instances de campagne conçus de manière centralisée sont proposés aux entités locales.
+Le module complémentaire Marketing distribué offre aux opérateurs Campaign un espace de travail collaboratif pour la mise en œuvre des campagnes entre les entités centrales (siège social, services marketing, etc.) et les entités locales (points de vente, agences régionales, etc.). Cette coopération repose sur un espace de travail partagé appelé la **liste des kits de campagne**, où des modèles et des instances de campagne conçus de manière centralisée sont proposés aux entités locales.
 
 En savoir plus sur le marketing distribué dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=fr){target="_blank"}.
 +++
@@ -455,7 +456,7 @@ En savoir plus sur le [Déploiement hybride](../../installation/using/hosting-mo
 Le mode d’identification fait référence au statut d’un contact. Il peut être explicite, implicite ou anonyme.
 
 * **Explicite** : le contact est identifié suite à sa connexion sur l’interface du canal.
-* **Implicite** : le contact a été identifié par un cookie (de session ou permanent). Il peut être traité comme un contact anonyme ou comme un contact identifié.
+* **implicite** : le contact a été identifié par un cookie (permanent ou de session). Ils peuvent être traités comme des contacts anonymes ou identifiés.
 * **Anonyme** : le contact n’a pas pu être identifié.
 
 En savoir plus sur [Interaction](../../interaction/using/interaction-and-offer-management.md).
@@ -591,8 +592,8 @@ En savoir plus sur le [Catalogue d’offres](../../interaction/using/offer-catal
 
 Un contact d’offre est un contact provenant d’une interaction entrante. Lors du traitement des appels au moteur, le contact est associé à une dimension de ciblage. Les contacts anonymes non identifiés sont rattachés à la dimension de ciblage des visiteurs. Il existe deux types de contacts, identifiés et anonymes :
 
-* **Contact identifié** : contact s’étant volontairement identifié sur le canal. Dans les interactions sortantes, le contact est systématiquement identifié.
-* **Contact anonyme** : contact qui ne s’est pas volontairement inscrit sur le canal mais qui peut être identifié implicitement au moyen d’un cookie. Cette terminologie n’a lieu d’être que dans le cadre d’interactions entrantes.
+* **Contact identifié** : contact s’étant volontairement identifié sur le canal. Dans les interactions sortantes, le contact est automatiquement identifié.
+* **Contact anonyme** : contact qui ne s’est pas volontairement inscrit sur le canal mais qui peut être identifié implicitement au moyen d’un cookie. Cette terminologie n’est utilisée que pour les interactions entrantes.
 
 En savoir plus sur [Interaction](../../interaction/using/interaction-and-offer-management.md).
 +++
@@ -682,7 +683,7 @@ En savoir plus sur [Interaction](../../interaction/using/interaction-and-offer-m
 
 *Contexte : Interaction de Campaign*
 
-Une simulation d’offres permet aux opérateurs et opératrices de tester la répartition des offres dans une portée définie (date de diffusion, segment cible, nombre d’offres, thème, etc.) avant d’envoyer les offres. Cela peut être utilisé pour ajuster les priorités des offres et les règles d’éligibilité afin d’optimiser l’efficacité des offres.
+Une simulation d’offres permet aux opérateurs de tester la répartition des offres dans une portée définie (date de diffusion, segment cible, nombre d’offres, thème, etc.) avant d’envoyer les offres. Cela peut être utilisé pour ajuster les priorités des offres et les règles d’éligibilité afin d’optimiser l’efficacité des offres.
 
 En savoir plus sur la [Simulation d’offres](../../interaction/using/about-offers-simulation.md).
 +++
@@ -851,7 +852,7 @@ En savoir plus sur les [notifications push](../../delivery/using/about-mobile-ap
 
 +++**Destinataire**
 
-Dans Adobe Campaign, les destinataires sont les profils par défaut ciblés pour l’envoi de diffusions (e-mails, SMS, etc.) à votre clientèle. Les données des destinataires stockées dans la base de données vous permettent de filtrer la cible et d’ajouter des données de personnalisation. En règle générale, il s’agit d’informations personnelles, de contact, démographiques et transactionnelles, mais il peut s’agir de n’importe quel type d’informations prenant en charge le marketing et l’analyse.
+Dans Adobe Campaign, les destinataires sont les profils par défaut ciblés pour l’envoi de diffusions (e-mails, SMS, etc.) à vos clients. Les données des destinataires stockées dans la base de données vous permettent de filtrer la cible et d’ajouter des données de personnalisation. En règle générale, il s’agit d’informations personnelles, de contact, démographiques et transactionnelles, mais il peut s’agir de n’importe quel type d’informations prenant en charge le marketing et l’analyse.
 
 En savoir plus sur les [destinataire](../../configuration/using/about-data-model.md).
 +++
@@ -875,7 +876,7 @@ Campaigns that re-target the recipients of a previous delivery or deliveries.
 
 +++**Schéma**
 
-Un schéma est un document XML associé à une table de la base de données, il définit la structuration des données et décrit la définition SQL de la table. Les opérateurs manipulent les schémas dans Campaign et le produit convertit leurs actions dans le code SQL requis qui est ensuite exécuté en fonction de la base de données.
+Un schéma est un document XML associé à une table de base de données. Il définit la structure des données et décrit la définition SQL de la table. Les opérateurs manipulent les schémas dans Campaign et le produit convertit leurs actions dans le code SQL requis qui est ensuite exécuté en fonction de la base de données.
 
 En savoir plus sur les [schémas](../../configuration/using/about-schema-reference.md).
 +++
@@ -889,7 +890,7 @@ En savoir plus sur les [extensions de schéma](../../configuration/using/extendi
 
 +++**Adresses de contrôle**
 
-Les adresses de contrôle permettent de cibler des destinataires qui ne correspondent pas aux critères de ciblage définis. Ainsi, les destinataires qui n’entrent pas dans le cadre de la diffusion peuvent la recevoir, comme tout autre destinataire cible. Elles sont ajoutées à l’audience d’un message afin de détecter toute utilisation frauduleuse de votre base de données de destinataires ou d’assurer la diffusion.
+Les adresses de contrôle permettent de cibler des destinataires qui ne correspondent pas aux critères de ciblage définis. Ainsi, les destinataires qui ne font pas partie de la portée de la diffusion peuvent la recevoir, comme tout autre destinataire cible. Elles sont ajoutées à l’audience d’un message afin de détecter toute utilisation frauduleuse de votre base de données de destinataires ou d’assurer la diffusion.
 
 En savoir plus sur les [adresses de contrôle](../../delivery/using/about-seed-addresses.md).
 +++
@@ -952,7 +953,8 @@ En savoir plus sur le mapping de ciblage dans la [documentation de Campaign v8]
 
 Les activités de ciblage sont des activités de workflow spécifiques au ciblage, à la manipulation des données de population et au filtrage des activités. Elles permettent aux opérateurs de construire une ou plusieurs cibles en définissant des ensembles, puis en divisant ou en combinant ces ensembles à l’aide des opérations d’intersection, d’union ou d’exclusion.
 
-En savoir plus sur les activités de ciblage dans la [documentation de Campaign v8]&#x200B;(https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html?lang=fr){target="_blank"}.
+Pour en savoir plus sur les activités de ciblage, consultez la [documentation de Campaign v8]&#x200B;(https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities)
+.html){target="_blank"}.
 +++
 
 +++**Dimension de ciblage**
@@ -1069,7 +1071,7 @@ En savoir plus sur le [mode unitaire](../../interaction/using/about-inbound-chan
 
 +++**Applications web**
 
-Les applications web sont des pages d’applications dynamiques et interactives hébergées par l’instance Campaign. Elles contiennent les données de la base de données et le contenu adapté aux droits de l’utilisateur connecté. Vous pouvez créer, par exemple, un formulaire d’édition sur un extranet, ou des formulaires de notification incluant des données issues de la base de données avec des tables, des graphiques, des formulaires de saisie, etc. Cette fonctionnalité permet de concevoir et de publier des pages web dans lesquelles les utilisateurs peuvent rechercher ou saisir des informations.
+Les applications web sont des pages d’applications dynamiques et interactives hébergées par l’instance Campaign. Elles contiennent les données de la base de données et le contenu adapté aux droits de l’utilisateur connecté. Vous pouvez par exemple créer un formulaire d&#39;édition sur un extranet, ou des formulaires de notification incluant des données de la base avec des tables, des graphiques, des formulaires de saisie, etc. Cette fonctionnalité vous permet de concevoir et de publier des pages web dans lesquelles les utilisateurs peuvent rechercher ou saisir des informations.
 
 En savoir plus sur les [applications web](../../web/using/about-web-applications.md).
 +++

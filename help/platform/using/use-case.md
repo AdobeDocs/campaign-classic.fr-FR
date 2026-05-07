@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: 'Utilisation : '
-description: 'Utilisation : '
+title: 'Utilisation :'
+description: 'Utilisation :'
 feature: Subscriptions, Email, Data Management
 audience: platform
 content-type: reference
@@ -10,8 +10,8 @@ exl-id: 85ded096-7d27-41b3-8ef2-93f5ca8def82
 hide: true
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 100%
+source-wordcount: '293'
+ht-degree: 74%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 Dans le ce cas pratique, nous allons créer un filtre afin de trier les abonnement à des newsletters en fonction du format d&#39;email renseigné par les destinataires.
 
-Pour cela, nous allons utiliser un filtre prédéfini : associés à un type de document, ces filtres sont accessibles depuis le nœud **[!UICONTROL Administration > Paramétrage > Filtres prédéfinis]**. Ces filtres sur les données peuvent être utilisés pour chaque type d&#39;éditeurs (ou documents) de l&#39;application.
+Pour cela, il est nécessaire d&#39;utiliser un filtre prédéfini : ces filtres sont associés à un type de document et sont accessibles à partir du nœud **[!UICONTROL Administration > Paramétrage > Filtres prédéfinis]**. Ces filtres de données peuvent être utilisés pour chaque type d’éditeur (ou de document) dans l’application.
 
 Le mode de création des filtres sur les données est le même que celui des filtres prédéfinis. Toutefois, un champ supplémentaire vous permet de sélectionner le type de document auquel le filtre sera appliqué.
 
@@ -46,7 +46,7 @@ Les étapes sont les suivantes :
 
    ![](assets/s_ncs_user_filter_view_schema.png)
 
-   Ces champs seront accessibles pour la définition des conditions de filtrage dans le corps de l&#39;éditeur de filtres. Le mode de définition d&#39;un filtre applicatif est identique à celui d&#39;un filtre avancé. Pour plus d’informations sur les filtres, consultez la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
+   Vous pouvez accéder à ces champs pour définir des conditions de filtrage dans le corps de l’éditeur de filtres. Un filtre d’application est défini exactement de la même manière qu’un filtre avancé. Pour plus d’informations sur les filtres, consultez la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
 
 
 1. Créez un nouveau filtre sur les abonnements afin de n&#39;afficher que les abonnements pour lequel aucun format des email n&#39;a été défini :

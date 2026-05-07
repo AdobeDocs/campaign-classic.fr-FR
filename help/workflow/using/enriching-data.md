@@ -7,8 +7,8 @@ hide: true
 exl-id: ab786cf1-74a4-4185-a63d-84e776a2f776
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 100%
+source-wordcount: '832'
+ht-degree: 65%
 
 ---
 
@@ -30,11 +30,11 @@ Un jeu concours est proposé, par le biais d&#39;une application web, aux contac
 
 ![](assets/uc1_enrich_1.png)
 
-Un même contact présent dans la table des **[!UICONTROL Destinataires]** peut être associé à plusieurs lignes dans la table **[!UICONTROL Résultats jeux]**. Le lien entre les deux tables est donc de type 1-n. Voici un exemple des logs de résultats pour un destinataire :
+Un contact présent dans le tableau **[!UICONTROL Destinataires]** peut être associé à plusieurs lignes dans le tableau **[!UICONTROL Résultats jeux]**. La relation entre ces deux tables est de type 1-n. Voici un exemple des logs de résultats pour un destinataire :
 
 ![](assets/uc1_enrich_2.png)
 
-L&#39;objectif de ce cas d&#39;utilisation est d&#39;envoyer des diffusions personnalisées aux participants du dernier jeu concours en fonction du meilleur score qu&#39;ils ont obtenu au cours de leurs différents essais. Le participant qui a obtenu le meilleur score se voit offrir le 1er prix, celui qui a obtenu le second score reçoit un lot de consolation, et tous les autres reçoivent un message leur proposant de retenter leur chance lors du prochain jeu.
+Ce cas pratique a pour but d’envoyer des diffusions personnalisées aux personnes ayant participé au dernier jeu-concours en fonction de leurs scores les plus élevés. Le destinataire ayant obtenu la meilleure note obtient le premier prix, le destinataire ayant obtenu la deuxième meilleure note obtient un prix de consolation et tous les autres reçoivent un message leur souhaitant une meilleure chance la prochaine fois.
 
 Pour réaliser ce cas d&#39;utilisation, nous avons créé le workflow de ciblage suivant :
 
@@ -61,7 +61,7 @@ Une activité de type **[!UICONTROL Intersection]** est ensuite ajoutée pour ci
 
 ## Etape 2 : Enrichissement {#step-2--enrichment}
 
-Dans notre exemple, nous souhaitons personnaliser les diffusions en fonction du champ **[!UICONTROL Score]**, stocké dans la table **[!UICONTROL Résultats jeux]**. Cette table possède un lien de type 1-n avec la table des destinataires. L&#39;activité **[!UICONTROL Enrichissement]** nous permet d&#39;ajouter, dans la table de travail du workflow, des données provenant d&#39;une table liée à la dimension de filtrage.
+Dans cet exemple, nous allons personnaliser les diffusions en fonction du champ **[!UICONTROL Score]** stocké dans le tableau **[!UICONTROL Résultats jeux]**. Ce tableau a une relation de type 1-n avec la tableau des destinataires. L&#39;activité **[!UICONTROL Enrichissement]** nous permet d&#39;ajouter, dans la table de travail du workflow, des données provenant d&#39;une table liée à la dimension de filtrage.
 
 1. Dans l’écran d’édition de l’activité d’enrichissement, sélectionnez **[!UICONTROL Ajouter des données]**, puis **[!UICONTROL Données liées]** à la dimension de filtrage, et cliquez sur **[!UICONTROL Suivant]**.
 
@@ -79,7 +79,7 @@ Dans notre exemple, nous souhaitons personnaliser les diffusions en fonction du 
 
    ![](assets/uc1_enrich_9.png)
 
-1. Dans l’écran **[!UICONTROL Tri]**, cliquez sur le bouton **[!UICONTROL Ajouter]**, sélectionnez le champ **[!UICONTROL Score]** et cochez la case dans la colonne **[!UICONTROL Descendant]** afin de classer les éléments des champs **[!UICONTROL Score]** par ordre décroissant. Pour chaque destinataire, l’activité d’enrichissement ajoutera la ligne correspondant au meilleur score réalisé, sur le dernier jeu. Cliquez sur **[!UICONTROL Suivant]**.
+1. Dans l&#39;écran **[!UICONTROL Trier]**, cliquez sur le bouton **[!UICONTROL Ajouter]**, sélectionnez le champ **[!UICONTROL Score]** et cochez la case de la colonne **[!UICONTROL descendant]** pour trier les éléments des champs **[!UICONTROL Score]** par ordre décroissant. Pour chaque destinataire, l’activité d’enrichissement ajoute une ligne correspondant au score le plus élevé du dernier jeu. Cliquez sur **[!UICONTROL Suivant]**.
 
    ![](assets/uc1_enrich_10.png)
 
@@ -87,7 +87,7 @@ Dans notre exemple, nous souhaitons personnaliser les diffusions en fonction du 
 
    ![](assets/uc1_enrich_11.png)
 
-Cliquez, avec le bouton droit de la souris sur la transition entrante de l’activité d’enrichissement, et sélectionnez **[!UICONTROL Afficher la cible]**. La table de travail contient les données suivantes :
+Cliquez avec le bouton droit sur la transition entrante de l&#39;activité d&#39;enrichissement et sélectionnez **[!UICONTROL Afficher la cible]**. La table de travail contient les données suivantes :
 
 ![](assets/uc1_enrich_13.png)
 
@@ -95,7 +95,7 @@ Le schéma associé est le suivant :
 
 ![](assets/uc1_enrich_15.png)
 
-Renouvelez cette opération sur la transition sortante de l’activité d’enrichissement. Vous pouvez constater que les données relatives au score des destinataires ont été ajoutées. Pour chaque destinataire, le score le plus élevé a bien été récupéré.
+Renouvelez cette opération sur la transition sortante de l&#39;activité d&#39;enrichissement. Nous pouvons constater que les données liées aux scores des destinataires ont été ajoutées. Le score le plus élevé de chaque destinataire a été récupéré.
 
 ![](assets/uc1_enrich_12.png)
 
@@ -109,11 +109,11 @@ Afin de répartir les destinataires en fonction de leur score, une activité de 
 
 ![](assets/uc1_enrich_18.png)
 
-1. Un premier sous-ensemble (**Gagnant**), a été défini pour inclure le destinataire ayant obtenu le meilleur score. Pour cela, définissez une limitation du nombre d&#39;enregistrements, appliquez un tri descendant sur le score, et limitez le nombre d&#39;enregistrements à 1.
+1. Un premier sous-ensemble (**gagnant**) a été défini pour inclure le destinataire ayant le score le plus élevé. Pour ce faire, définissez une limitation du nombre d’enregistrements, appliquez un tri décroissant au score et limitez le nombre d’enregistrements à 1.
 
    ![](assets/uc1_enrich_16.png)
 
-1. Le second sous-ensemble (**Second**), inclut le destinataire ayant obtenu le second meilleur score. Le paramétrage est le même que pour le premier sous-ensemble.
+1. Le deuxième sous-ensemble (**deuxième place**) comprend le destinataire ayant le deuxième score le plus élevé. La configuration est la même que pour le premier sous-ensemble.
 
    ![](assets/uc1_enrich_17.png)
 

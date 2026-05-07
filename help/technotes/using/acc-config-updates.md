@@ -1,14 +1,14 @@
 ---
 product: campaign
 title: Note technique - Mises à jour de la configuration Adobe Campaign
-description: Mises à jour de la configuration d’Adobe Campaign 
+description: Mises à jour de la configuration d’Adobe Campaign
 feature: Technote, Upgrade
 hide: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 100%
+source-wordcount: '1178'
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ Pour des raisons de sécurité, vous devez maintenant effectuer la mise à nivea
 
 >[!NOTE]
 >
->Pour toute question sur ces modifications, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Pour toute question sur ces modifications, contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 >
 
 ## Mises à jour de sécurité {#acc-security-updates}
@@ -38,7 +38,7 @@ Les dernières versions de Campaign s’accompagnent d’un correctif de sécuri
 Si votre environnement utilise un build antérieur à ceux répertoriés ci-dessous, cela vous concerne :
 
 * Gold Standard 11. [En savoir plus](../../rn/using/gold-standard.md)
-* Campaign Version 21.1.1. [En savoir plus](../../rn/using/latest-release.md)
+* Campaign Version 21.1.1. [Apprenez-en davantage](../../rn/using/latest-release.md)
 * Campaign Version 20.2.5.
 * Campaign Version 20.1.4.
 * Campaign Version 19.2.4.
@@ -81,7 +81,7 @@ Une mise à niveau de la console cliente Campaign est nécessaire pour assurer l
 Si vous vous connectez à Campaign [via un Adobe ID](../../integrations/using/about-adobe-id.md), par le biais d’Adobe IDentity Management Service (IMS), la mise à niveau vers l’une des nouvelles versions répertoriées ci-dessous est obligatoire :
 
 * Gold Standard 11. [En savoir plus](../../rn/using/gold-standard.md)
-* Campaign Version 21.1.1. [En savoir plus](../../rn/using/latest-release.md)
+* Campaign Version 21.1.1. [Apprenez-en davantage](../../rn/using/latest-release.md)
 * Campaign Version 20.2.5.
 * Campaign Version 20.1.4.
 * Campaign Version 19.2.4.
@@ -114,7 +114,7 @@ Si vos instances s’exécutent sur une **version antérieure à Campaign 19.1.
 La mise à niveau vers l’une des nouvelles versions répertoriées ci-dessous est obligatoire :
 
 * Gold Standard 11. [En savoir plus](../../rn/using/gold-standard.md)
-* Campaign Version 21.1.1. [En savoir plus](../../rn/using/latest-release.md)
+* Campaign Version 21.1.1. [Apprenez-en davantage](../../rn/using/latest-release.md)
 * Campaign Version 20.2.5.
 * Campaign Version 19.1.8.
 
@@ -122,7 +122,7 @@ Découvrez comment vérifier votre version [dans cette section](../../platform/u
 
 **Comment effectuer la mise à jour ?**
 
-Une fois les instances mises à niveau vers une version plus récente, tous les clients doivent suivre la [procédure permettant de passer au nouveau mode d’authentification](../../integrations/using/about-triggers.md#implement). Pour ce faire, vous devez générer le nouveau jeton Adobe I/O et l’utiliser dans l’implémentation.
+Une fois les instances mises à niveau vers une version plus récente, tous les clients doivent suivre la [procédure permettant de passer au nouveau mode d’authentification](../../integrations/using/about-triggers.md#implement). Pour ce faire, vous devez générer le nouveau jeton Adobe I/O et l’utiliser dans l’implémentation.  
 
 En outre, pour les environnements hybrides, les clients doivent s&#39;assurer que pipeline est configuré sur l&#39;instance de mid-sourcing. [En savoir plus](../../integrations/using/configuring-pipeline.md).
 
@@ -168,5 +168,5 @@ En tant que client On-premise/hybride, vous devez mettre à jour votre configura
 
 * [Mise à niveau de votre environnement](../../production/using/build-upgrade.md)
 * [FAQ sur la mise à niveau de build](../../platform/using/faq-build-upgrade.md)
-* [Télécharger le build Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
-* [Mise à disposition de la nouvelle console cliente auprès des utilisateurs](../../installation/using/client-console-availability-for-windows.md)
+* [Télécharger la version de Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
+* [Mettre à disposition la nouvelle console cliente auprès des utilisateurs et des utilisatrices](../../installation/using/client-console-availability-for-windows.md)

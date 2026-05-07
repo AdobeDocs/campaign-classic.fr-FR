@@ -6,9 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Surveys
 exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996
 source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
-workflow-type: ht
-source-wordcount: '904'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '909'
+ht-degree: 78%
 
 ---
 
@@ -22,7 +22,7 @@ En complément des modes de stockage standard communs à tous les formulaires We
 
 >[!CAUTION]
 >
->Cette option n&#39;est disponible que pour les formulaires web de type **Questionnaires**. Elle n&#39;est pas proposée pour d&#39;autres types de formulaires web.
+>Cette option est disponible uniquement pour les applications Web de type **Questionnaire**. Il n&#39;est pas proposé pour d&#39;autres types de formulaires Web.
 
 ### Stocker les réponses dans un champ archivé {#storing-in-an-archived-field}
 
@@ -38,7 +38,7 @@ Pour ajouter une contrainte, sélectionnez-la dans la liste déroulante. Deux ty
 
 1. Sur la casse des caractères
 
-   Les informations saisies peuvent être stockées dans le champ dans les formats suivants : tout en majuscule, tout en minuscule ou avec la première lettre en majuscule. Cette contrainte n&#39;oblige pas l&#39;utilisateur à saisir les informations dans le format choisi, mais le contenu saisi dans le champ sera transformé lors de l&#39;enregistrement.
+   Les informations saisies peuvent être stockées dans le champ dans les formats suivants : tout en majuscule, tout en minuscule ou avec la première lettre en majuscule. Cette contrainte n’oblige pas l’utilisateur à saisir les données au format sélectionné, mais le contenu saisi dans le champ sera converti lors de l’enregistrement.
 
 1. Sur le format des données saisies
 
@@ -84,11 +84,11 @@ Vous pouvez également filtrer les destinataires en fonction des réponses fourn
 
 ![](assets/s_ncs_admin_survey_read_responses_wf.png)
 
-Construisez votre requête en fonction des profils à récupérer. Dans l&#39;exemple ci-dessous, la requête permet de sélectionner les profils ayant au moins deux contrats dont un contrat de type A.
+Créez votre requête en fonction des profils que vous souhaitez récupérer. Dans l&#39;exemple suivant, la requête permet de sélectionner des profils ayant au moins deux contrats, dont un contrat de type A.
 
 ![](assets/s_ncs_admin_survey_read_responses_edit.png)
 
-Pour chaque formulaire, les réponses fournies peuvent être réutilisées dans les champs ou les libellés. La syntaxe à utiliser pour un contenu stocké dans un champ archivé est la suivante :
+Pour chaque formulaire, les réponses fournies peuvent être utilisées dans les champs ou les libellés. Utilisez la syntaxe suivante pour le contenu stocké dans un champ archivé :
 
 ```
 <%= ctx.webAppLogRcpData.name of the archived field %
@@ -119,7 +119,7 @@ Vous pouvez l&#39;activer par défaut pour tous les questionnaires (cette option
 
 ## Gestion des scores {#score-management}
 
-Vous pouvez attribuer un score aux options proposées dans les pages du questionnaire. Les scores ne peuvent être associés qu’à des questions fermées : cases à cocher, valeur d’une liste déroulante, abonnement, etc.
+Vous pouvez attribuer un score aux options proposées dans les pages du formulaire. Les scores ne peuvent être associés qu’à des questions fermées : case à cocher, valeur d’une liste déroulante, abonnement, etc.
 
 ![](assets/s_ncs_admin_survey_score_create.png)
 
@@ -133,7 +133,7 @@ Les scores peuvent être utilisés dans des tests et dans des scripts.
 
 >[!CAUTION]
 >
->Vous ne pouvez pas utiliser le score dans les conditions de visibilité pour les champs d&#39;une même page. Le score peut être utilisé dans les pages suivantes.
+>Les scores ne peuvent pas être utilisés dans les conditions de visibilité des champs qui se trouvent sur la même page. Cependant, elles peuvent être utilisées dans les pages suivantes.
 
 * Pour utiliser les scores dans des tests, vous devez utiliser le champ **[!UICONTROL Score]** dans la formule de calcul du test, comme dans l&#39;exemple ci-dessous :
 
@@ -155,7 +155,7 @@ Les scores peuvent être utilisés dans des tests et dans des scripts.
 
   ![](assets/s_ncs_admin_survey_score_exe.png)
 
-* Il est possible de conditionner la page à afficher en fonction du score. Le paramétrage sera le suivant :
+* Des conditions peuvent être appliquées pour que la page s’affiche en fonction du score. Elle est configurée comme suit :
 
   ![](assets/s_ncs_admin_survey_score_exd.png)
 

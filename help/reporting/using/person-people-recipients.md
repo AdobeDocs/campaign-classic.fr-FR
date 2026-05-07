@@ -6,9 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Reporting, Monitoring
 exl-id: 69b810f3-aa8b-4ab5-95c1-831257d7fcb9
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '800'
-ht-degree: 100%
+ht-degree: 56%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-Cet exemple va vous permettre de comprendre la différence entre une personne et un destinataire dans Adobe Campaign. Nous allons envoyer une diffusion à plusieurs personnes afin de mettre en évidence, au travers d&#39;un cas concret, la distinction entre les personnes et les destinataires. Cela va également nous permettre de voir plus en détails la méthode de calcul des indicateurs suivants :
+Cet exemple vous aidera à comprendre la différence entre une ou plusieurs personnes et un destinataire dans Adobe Campaign. Nous allons envoyer une diffusion à plusieurs personnes afin de mettre en évidence la différence entre les personnes et les destinataires tout en détaillant la méthode de calcul des indicateurs suivants :
 
 * **[!UICONTROL Clics]**
 * **[!UICONTROL Clics distincts sur la population atteinte]**
@@ -28,14 +28,14 @@ Cet exemple va vous permettre de comprendre la différence entre une personne et
 >
 >Ces indicateurs sont utilisés dans le rapport relatif aux **[!UICONTROL Indicateurs de tracking]**. Pour plus d&#39;informations, consultez la section [Indicateurs de tracking](../../reporting/using/delivery-reports.md#tracking-indicators).
 
-Trois liens sont ajoutés dans une diffusion. Celle-ci est envoyée à 4 destinataires :
+Trois liens sont ajoutés à une diffusion. Il est envoyé à 4 destinataires :
 
 ![](assets/s_ncs_user_indicators_example_1.png)
 
 * **[!UICONTROL John Davis]** : ce destinataire n&#39;ouvre pas l&#39;email (il ne clique donc sur aucun lien).
 * **[!UICONTROL Marie Stuart]** : elle ouvre l&#39;email mais ne clique sur aucun lien.
-* **[!UICONTROL Florian David]** : il ouvre l&#39;email et clique à 9 reprises sur les liens. Il transfert également l&#39;email à une personne qui l&#39;ouvre et clique 2 fois.
-* **[!UICONTROL Henry Macdonald]** : ce destinataire a configuré son navigateur internet pour qu&#39;il n&#39;accepte aucun cookie. Il ouvre l&#39;email et clique à 4 reprises sur les liens.
+* **[!UICONTROL Florian David]** : il ouvre l&#39;email et clique à 9 reprises sur les liens. Il transfère également l’e-mail à une personne qui l’ouvre et clique deux fois.
+* **[!UICONTROL Henry Macdonald]** : ce destinataire a configuré son navigateur Internet pour qu&#39;il n&#39;accepte aucun cookie. Il ouvre l’e-mail et clique 4 fois sur les liens.
 
 Les logs de tracking suivants sont remontés :
 
@@ -68,7 +68,7 @@ L’ouverture de Marie apparait dans le log suivant :
 
 ![](assets/s_ncs_user_indicators_example_4bis.png)
 
-L&#39;ouverture est attribuée à un destinataire, Marie. Adobe Campaign comptabilise donc un nouveau destinataire.
+L&#39;ouverture est attribuée à un destinataire : Marie. Adobe Campaign comptabilise donc un nouveau destinataire.
 
 **Calcul intermédiaire :**
 
@@ -80,7 +80,7 @@ L&#39;ouverture est attribuée à un destinataire, Marie. Adobe Campaign compta
 
 ## Etape 3 : Florian {#step-3--florian}
 
-**[!UICONTROL Florian David]** ouvre l&#39;email et clique à 9 reprises sur les liens. Il transfert également l&#39;email à une personne qui l&#39;ouvre et clique 2 fois.
+**[!UICONTROL Florian David]** ouvre l&#39;email et clique à 9 reprises sur les liens. Il transfère également l’e-mail à une personne qui l’ouvre et clique deux fois.
 
 ![](assets/s_ncs_user_indicators_example_9.png)
 
@@ -88,9 +88,9 @@ Les actions effectuées par Florian (une ouverture et 9 clics) apparaissent dans
 
 ![](assets/s_ncs_user_indicators_example_3bis.png)
 
-**Destinataires :** L&#39;ouverture et les clics sont attribués au même destinataire (Florian). Comme ce destinataire est différent du précédent (Marie), Adobe Campaign comptabilise un nouveau destinataire.
+**Destinataires** : L&#39;ouverture et les clics sont attribués au même destinataire (Florian). Comme ce destinataire est différent du précédent (Marie), Adobe Campaign ajoute un nouveau destinataire au décompte.
 
-Personnes : comme le navigateur de ce destinataire accepte les cookies, nous observons que le même identifiant (UUID) est affecté à tous les logs de clics : **`fe37a503 [...]`**. Adobe Campaign interprète donc bien ces clics comme étant effectués par la même personne. Une nouvelle personne est donc comptabilisée. Une nouvelle personne est ajoutée au décompte.
+Personnes : comme le navigateur de ce destinataire accepte les cookies, nous pouvons constater que le même identifiant (UUID) est attribué à tous les journaux de clics : **`fe37a503 [...]`**. Adobe Campaign identifie correctement ces clics comme appartenant à la même personne. Une nouvelle personne est ajoutée au décompte.
 
 **Calcul intermédiaire :**
 
@@ -105,11 +105,11 @@ Les logs suivants correspondent à l&#39;ouverture et les 2 clics effectués par
 
 ![](assets/s_ncs_user_indicators_example_6bis.png)
 
-**Destinataires :** Son ouverture et ses clics sont attribués au destinataire ayant transféré l&#39;email (Florian). Comme ce destinataire a déjà été comptabilisé, le nombre de destinataires reste le même.
+**Destinataires** : Son ouverture et ses clics sont attribués au destinataire qui a transféré l&#39;email (Florian). Comme ce destinataire a déjà été comptabilisé, le nombre de destinataires reste le même.
 
 ![](assets/s_ncs_user_indicators_example_12.png)
 
-**Personnes** : en ce qui concerne les clics, nous constatons que le même identifiant (UUID) est affecté à tous les logs : **`9ab648f9 [...]`**. Cet identifiant n&#39;a pas encore été comptabilisé. Une nouvelle personne est donc ajoutée au décompte.
+**Personnes** : en ce qui concerne les clics, on constate que le même identifiant (UUID) est attribué à tous les logs : **`9ab648f9 [...]`**. Cet identifiant n&#39;a pas encore été comptabilisé. Une nouvelle personne est donc ajoutée au décompte.
 
 ![](assets/s_ncs_user_indicators_example_13.png)
 
@@ -125,7 +125,7 @@ Les logs suivants correspondent à l&#39;ouverture et les 2 clics effectués par
 
 ## Etape 4 : Henry {#step-4--henry}
 
-**[!UICONTROL Henry Macdonald]** a configuré son navigateur internet pour qu&#39;il n&#39;accepte aucun cookie. Il ouvre l&#39;email et clique à 4 reprises sur les liens.
+**[!UICONTROL Henry Macdonald]** a configuré son navigateur Internet pour refuser les cookies. Il ouvre l’e-mail et clique 4 fois sur les liens.
 
 ![](assets/s_ncs_user_indicators_example_10.png)
 
@@ -133,9 +133,9 @@ L&#39;ouverture et les 4 clics effectués par Henry apparaissent dans les logs s
 
 ![](assets/s_ncs_user_indicators_example_5bis.png)
 
-**Destinataires :** L&#39;ouverture et les clics sont attribués au même destinataire (Henry). Comme ce destinataire n&#39;a pas encore été comptabilisé, Adobe Campaign ajoute un destinataire.
+**Destinataires** : l&#39;ouverture et les clics sont attribués au même destinataire (Henry). Comme ce destinataire n&#39;a pas encore été comptabilisé, Adobe Campaign ajoute un destinataire.
 
-**Personnes :** Comme le navigateur d&#39;Henry n&#39;accepte pas les cookies, un nouvel identifiant (UUID) est généré à chaque clic. Chacun de ses quatre clics est interprété comme étant effectué par une nouvelle personne. Ces identifiants n&#39;ayant pas encore été comptabilisés, quatre nouvelles personnes sont donc ajoutées.
+**Personnes** : étant donné que le navigateur d’Henry n’accepte pas les cookies, un nouvel identifiant (UUID) est généré pour chaque clic. Chacun des 4 clics est interprété comme provenant d’une personne différente. Comme ces identifiants n’ont pas encore été comptabilisés, ils sont ajoutés au nombre.
 
 **Calcul intermédiaire :**
 

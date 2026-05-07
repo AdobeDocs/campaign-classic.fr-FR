@@ -9,8 +9,8 @@ topic-tags: starting-with-adobe-campaign
 exl-id: a93bac61-f615-4178-bc12-0f056e48687d
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 100%
+source-wordcount: '670'
+ht-degree: 84%
 
 ---
 
@@ -60,17 +60,17 @@ Voici un exemple d&#39;appel externe de l&#39;API (authentification via l&#39;AP
 
 Tout d&#39;abord, vous devez effectuer l&#39;authentification par le biais de l&#39;API :
 
-1. Téléchargez le WSDL **xtk:session** depuis cette URL : **`<server url>`/nl/jsp/schemawsdl.jsp?schema=xtk:session**.
+1. Téléchargez le WSDL **xtk:session** via cette URL : **`<server url>`/nl/jsp/schemawsdl.jsp?schema=xtk:session**.
 
-1. Utilisez la méthode &quot;Logon&quot; et transmettez un nom d&#39;utilisateur et un mot de passe en tant que paramètres dans la demande. Vous obtiendrez une réponse contenant un jeton de session. Voici un exemple utilisant SoapUI.
+1. Utilisez la méthode « Logon » et transmettez un nom d’utilisateur et un mot de passe en tant que paramètres dans la requête. Vous obtiendrez une réponse contenant un jeton de session. Voici un exemple utilisant SoapUI.
 
    ![](assets/do-not-localize/privacy-api.png)
 
-1. Utilisez le jeton de session retourné comme authentification pour tous les appels d&#39;API suivants. Il arrive à expiration au bout de 24 heures.
+1. Utilisez le jeton de session renvoyé comme authentification pour tous les appels API suivants. Il expire au bout de 24 heures.
 
 Vous pouvez ensuite appeler l&#39;API de protection des données :
 
-1. Téléchargez le WSDL depuis cette URL : **`<server url>`/nl/jsp/schemawsdl.jsp?schema=nms:privacyRequest**.
+1. Téléchargez le WSDL à partir de cette URL : **`<server url>`:privacyRequest**.
 
 1. Utilisez **[!UICONTROL CreateRequestByName]** pour créer une demande d&#39;accès à des informations personnelles spécifique.
 
@@ -80,8 +80,8 @@ Vous pouvez ensuite appeler l&#39;API de protection des données :
 
    Pour vous aider à effectuer les étapes ci-dessus, tenez compte des points suivants :
 
-   * Vous pouvez utiliser une **queryDef** sur le schéma **nms:gdprRequest** pour vérifier le statut de la demande d&#39;accès.
-   * Vous pouvez utiliser une **queryDef** sur le schéma **nms:gdprRequestData** pour obtenir le résultat de la demande d&#39;accès.
+   * Vous pouvez utiliser une **queryDef** sur le schéma **nms:gdprRequest** pour vérifier le statut de la demande d’accès.
+   * Vous pouvez utiliser une **queryDef** sur le schéma **nms:gdprRequestData** pour obtenir le résultat de la demande d’accès.
    * Pour pouvoir télécharger le fichier XML à partir de **&quot;$(serverUrl)&#39;/nms/gdpr.jssp?id=&#39;@id&quot;**, vous devez être connecté et y accéder à partir d’une adresse IP placée sur la liste autorisée. Pour ce faire, créez une application web vous permettant d&#39;accéder au fichier généré par le JSSP.
 
 ## Appel de l&#39;API depuis un script JS {#invoking-api-from-js}

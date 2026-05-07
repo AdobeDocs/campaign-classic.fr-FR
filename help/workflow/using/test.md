@@ -7,8 +7,8 @@ hide: true
 exl-id: 6f246d56-01c8-43f5-b12b-c40d258b93c8
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 100%
+source-wordcount: '198'
+ht-degree: 59%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-Une activité de type **Test** active la première transition qui vérifie la condition qui lui est associée. Si aucune condition n’est vérifiée et si l’option **[!UICONTROL Utiliser le branchement par défaut]** est activée, la transition par défaut sera activée.
+Une activité de type **Test** active la première transition satisfaisant la condition qui lui est associée. Si aucune condition n’est remplie et si l’option **[!UICONTROL Utiliser le branchement par défaut]** est activée, la transition par défaut est activée.
 
 Une condition est une expression JavaScript qui doit être déterminée par « true » ou « false ». Pour saisir l’expression, cliquez sur l’icône située à droite du nom de la condition, puis sélectionnez **[!UICONTROL Modifier...]**.
 
@@ -28,4 +28,4 @@ Vous pouvez insérer directement des variables également depuis cet éditeur. P
 
 Les conditions peuvent être ajoutées, supprimées, ordonnées depuis la fenêtre d&#39;édition des propriétés de l&#39;activité, mais aussi modifiées depuis la transition.
 
-Si le résultat d&#39;un calcul doit être réutilisé par différentes conditions, il est possible de le calculer dans le script d&#39;initialisation de l&#39;activité. Le résultat doit être stocké dans une variable de la tâche pour être accessible par les scripts de conditions (task.vars.xxx).
+Si le résultat d&#39;un calcul doit être réutilisé par des conditions différentes, il est possible de le calculer dans le script d&#39;initialisation de l&#39;activité. Le résultat doit être stocké dans une variable de la tâche pour être accessible par les scripts de condition (task.vars.xxx).

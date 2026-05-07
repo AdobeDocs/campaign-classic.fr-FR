@@ -7,8 +7,8 @@ hide: true
 exl-id: 3bb468e2-7bcf-456f-8d8f-1c4e608e2b25
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 100%
+source-wordcount: '301'
+ht-degree: 86%
 
 ---
 
@@ -35,7 +35,7 @@ Dans l&#39;exemple ci-dessous, nous allons créer un workflow pour envoyer un e-
 
 1. Créez une campagne.
 1. Dans l&#39;onglet **[!UICONTROL Ciblages et workflows]** de votre campagne, ajoutez une **[!UICONTROL Requête]** à votre workflow.
-1. Configurez votre requête. Par exemple, ici, nous sélectionnons les destinataires abonnés aux notification push comme dimension cible.
+1. Configurez votre requête. Par exemple, nous sélectionnons ici les destinataires abonnés aux notifications push en tant que dimension cible.
 
    >[!NOTE]
    >
@@ -43,14 +43,14 @@ Dans l&#39;exemple ci-dessous, nous allons créer un workflow pour envoyer un e-
 
    ![](assets/cross_channel_delivery_1.png)
 
-1. Ajoutez les conditions de filtrage à votre requête. Ici, nous allons sélectionner les destinataires ayant un numéro de mobile ou une adresse email.
+1. Ajoutez les conditions de filtre à votre requête. Dans ce cas, nous sélectionnerons les destinataires qui ont un numéro de mobile ou une adresse e-mail.
 
    ![](assets/cross_channel_delivery_2.png)
 
 1. Ajoutez une activité de **[!UICONTROL Partage]** à votre workflow pour diviser les destinataires ayant un numéro de mobile et ceux ayant une adresse email.
 1. Dans l&#39;onglet **[!UICONTROL Diffusion]**, sélectionnez une diffusion pour chacune de vos cibles.
 
-   Pour créer votre diffusion, procédez de la même manière qu’avec un assistant de diffusion classique en double-cliquant sur l’activité diffusion de votre workflow. Pour en savoir plus à ce sujet, consultez cette [page](../../delivery/using/about-email-channel.md).
+   Pour créer votre diffusion, procédez de la même manière qu’avec un assistant de diffusion classique en double-cliquant sur l’activité diffusion de votre workflow. Pour plus d’informations à ce sujet, consultez cette [page](../../delivery/using/about-email-channel.md).
 
    ![](assets/cross_channel_delivery_3.png)
 

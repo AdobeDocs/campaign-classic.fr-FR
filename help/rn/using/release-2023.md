@@ -9,8 +9,8 @@ hide: true
 exl-id: 8ed11e96-9f23-4e2e-bae2-25c51cfb549a
 source-git-commit: 4cae5fdb2b78f446f84352046b523d8862e9060c
 workflow-type: tm+mt
-source-wordcount: '2336'
-ht-degree: 100%
+source-wordcount: '2391'
+ht-degree: 97%
 
 ---
 
@@ -42,7 +42,7 @@ _5 décembre 2023_
 * Correction d’un problème en raison duquel la personne était invitée à se réauthentifier lors du clic sur le bouton `Back` d’un rapport Campaign. (NEO-65087)
 * Correction d’une erreur dans le workflow Nettoyage de la base qui se produisait lorsqu’une diffusion était supprimée avant ses BAT. (NEO-48114)
 * Correction d’un problème lors de la connexion à la console cliente : les mises à jour récentes de la vérification TLS entraînaient une erreur de connexion. (NEO-50488)
-* Correction d’un problème lié à l’authentification du proxy HTTP après le mise à jour vers Campaign 7.3.1. Les requêtes HTTP dans les workflows de campagne échouaient avec l’erreur suivante : `error 407 – proxy auth required is returned`. (NEO-49624)
+* Correction d’un problème lié à l’authentification du proxy HTTP après le postupgrade de Campaign sur la version 7.3.1. Les requêtes HTTP dans les workflows Campaign échouaient avec `error 407 – proxy auth required is returned`. (NEO-49624)
 * Correction d’un échec intermittent avec le déchiffrement GPG dans les activités de workflow **Script**. Le message d’erreur associé était : `gpg: decryption failed: No secret key`. (NEO-50257)
   <!--* Workflow temporary tables now have a primary index in Teradata with a Federated Data Access (FDA) connection. (NEO-62575)-->
 
@@ -108,11 +108,11 @@ _7 septembre 2023_
 * Correction d’un problème de gestion des requêtes qui pouvait avoir un impact sur les performances de diffusion. (NEO-49991)
 * Correction d’un problème lors de l’utilisation de comptes externes dans les activités de diffusion de workflow de campagne, qui pouvait entraîner des problèmes de configuration de compte externe. (NEO-49959)
 * Correction d’un problème de performances lors de l’envoi de notifications push. (NEO-49953)
-Correction d’un problème en raison duquel les caractères japonais s’affichaient incorrectement lors de l’export de rapports (NEO-49308).
+Correction d’un problème en raison duquel les caractères japonais s’affichaient incorrectement lors de l’exportation de rapports (NEO-49308).
 * Correction d’un problème en raison duquel le rapport d’erreur Tomcat affichait trop de détails d’erreur. (NEO-49029)
 * Correction d’un problème qui entraînait une erreur de diffusion lors de l’utilisation d’un grand nombre d’offres. (NEO-48807)
 * Correction d’un problème qui empêchait le bon fonctionnement de l’activité du workflow **Mettre à jour les données**. (NEO-48140)
-* Correction d’un problème qui empêchait la synchronisation des données de suivi des clics pour les diffusions utilisant un compte externe différent de l’adresse e-mail.(NEO-47277)
+* Correction d&#39;une erreur qui empêchait la synchronisation des données de tracking des clics pour les diffusions à l&#39;aide d&#39;un compte externe autre qu&#39;un e-mail.(NEO-47277)
 * Correction d’une erreur qui empêchait la synchronisation des logs de tracking en temps réel sur l’instance marketing Message Center. (NEO-42540)
 * Correction d’un problème qui empêchait l’affichage du préfixe de l’espace de travail dans la fenêtre de découverte d’un schéma, pour les tableaux de base de données Snowflake. (NEO-40297)
 * Correction d’un problème qui empêchait le fonctionnement des balises `<img-amp>` dans le contenu d’un e-mail. (NEO-38685)

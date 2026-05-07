@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: deployment-types-
 exl-id: 08628efb-9186-4b67-9431-310d4bc276b4
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
-source-wordcount: '136'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '137'
+ht-degree: 68%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 
 
-La conception modulaire d&#39;Adobe Campaign permet de nombreuses configurations de déploiement, d&#39;une installation en &quot;stand-alone&quot; (tous les composants sur une unique machine) à des configurations d&#39;entreprise impliquant une architecture entièrement distribuée et redondante via de multiples serveurs. Tout dépend des niveaux de performance, de redondance et de sécurité souhaités.
+La conception modulaire d’Adobe Campaign permet de nombreuses configurations de déploiement, depuis les configurations autonomes (tous les composants sur une seule machine) jusqu’aux déploiements d’entreprise avec une architecture entièrement distribuée et redondante utilisant plusieurs serveurs. Tout dépend du niveau de performance et de sécurité requis.
 
 Dans le cas d&#39;une configuration sur plusieurs machines, il n&#39;est pas nécessaire qu&#39;elles utilisent toutes le même système d&#39;exploitation. En effet, il est possible d&#39;utiliser par exemple un serveur de redirection sous Linux + Apache avec des serveurs de diffusion sous Windows.
 

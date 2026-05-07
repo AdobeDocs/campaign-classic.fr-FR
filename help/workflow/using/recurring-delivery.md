@@ -7,7 +7,7 @@ hide: true
 exl-id: efd2cdfb-2e5f-4672-8be8-a424481b11ed
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '298'
 ht-degree: 100%
 
 ---
@@ -56,4 +56,4 @@ Cette vidéo explique comment configurer une diffusion récurrente et une activi
 
 >[!VIDEO](https://video.tv.adobe.com/v/30589?captions=fre_fr&quality=12)
 
-D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+D&#39;autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

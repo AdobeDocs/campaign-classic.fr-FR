@@ -9,8 +9,8 @@ hide: true
 exl-id: 8cbb2445-f5e4-4a25-ba7e-56e39ca9d3ce
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '2834'
-ht-degree: 78%
+source-wordcount: '2841'
+ht-degree: 66%
 
 ---
 
@@ -77,7 +77,7 @@ Si aucun réviseur n&#39;est spécifié, la personne responsable de la campagne 
 
 ### Validation via le tableau de bord {#approval-via-the-dashboard}
 
-Pour valider un traitement depuis la console ou l&#39;interface web, cliquez sur le lien correspondant dans le tableau de bord de l&#39;opération. Il est également possible de valider un traitement à partir du tracking des diffusions et du tableau de bord de la diffusion.
+Pour valider un traitement depuis la console ou l&#39;interface web, cliquez sur le lien adéquat dans le tableau de bord de l&#39;opération. Les traitements peuvent également être validés via le tracking des diffusions ou depuis le tableau de bord des diffusions.
 
 ![Actions de validation du tableau de bord Campaign dans la console](assets/s_user_validation_from_console.png)
 
@@ -143,19 +143,19 @@ Lorsqu’un workflow de ciblage est en cours de construction, la validation manu
 
 Un message de confirmation permet d&#39;autoriser les validations sur les traitements sélectionnés pour cette diffusion.
 
-Les boutons de validation sont alors affichés dans le tableau de bord de l&#39;opération (au niveau de cette diffusion), dans le tableau de bord de la diffusion et dans le tracking des diffusions. Si les notifications sont activées, elles seront parallèlement envoyées.
+Les boutons de validation sont alors affichés dans le tableau de bord de l&#39;opération (pour cette diffusion), dans le tableau de bord de la diffusion et dans le tracking des diffusions. Si les notifications sont activées, elles sont envoyées en parallèle.
 
 Ce mode d&#39;activation des validations permet de travailler sur des recherches de ciblage sans notifier les opérateurs validants de façon intempestive.
 
 ## Notifications {#notifications}
 
-Les notifications sont des emails spécifiques envoyés aux opérateurs validants afin de les avertir qu&#39;un traitement est en attente de validation. Lorsque l&#39;opérateur clique sur le lien contenu dans le message, il accède à une page d&#39;authentification. Après connexion, il peut consulter les éléments concernés puis valider ou non le traitement. Il peut également saisir un commentaire dans la fenêtre de validation.
+Les notifications sont des e-mails spécifiques envoyés aux réviseurs pour les informer qu’un processus est en attente de validation. Lorsque l&#39;opérateur clique sur le lien du message, une page d&#39;authentification apparaît et, après connexion, l&#39;opérateur peut visualiser les informations et valider ou refuser le traitement. Un commentaire peut également être saisi dans la fenêtre de validation.
 
 Le contenu des emails de notification peut être personnalisé. Voir [Contenu des notifications](#notification-content).
 
 ### Activation/désactivation de la notification {#enabling-disabling-notification}
 
-Par défaut, les messages de notification sont envoyés si la validation du traitement correspondant est activée au niveau du modèle de la campagne, de la campagne ou de la diffusion concernée. Toutefois, il est possible de désactiver les notifications afin de n&#39;autoriser les validations que depuis la console.
+Par défaut, les messages de notification sont envoyés si l’approbation du traitement correspondant est activée dans le modèle de campagne, la campagne ou la diffusion. Toutefois, les notifications peuvent être désactivées afin d’autoriser les validations à partir de la console uniquement.
 
 Pour cela, éditez la fenêtre de validation de l&#39;opération ou du modèle d&#39;opération concerné (onglet **[!UICONTROL Edition > Propriétés]** > **[!UICONTROL Paramètres avancés de l&#39;opération...]** > **[!UICONTROL Validations]**) et cochez l&#39;option **[!UICONTROL Ne pas activer l&#39;envoi de notifications]**.
 
@@ -202,7 +202,7 @@ Pour chaque diffusion de l&#39;opération, il est possible de valider les traite
 
   >[!NOTE]
   >
-  >La validation du budget n&#39;est disponible que si vous avez activé la validation du ciblage, dans la fenêtre de paramétrage de la validation des traitements. Le lien proposant la validation du budget ne s&#39;affiche qu&#39;une fois que la cible a été analysée. De plus, ce lien s&#39;affiche en même temps que le lien proposant la validation du ciblage.
+  >La validation du budget n&#39;est disponible que si celle du ciblage est activée dans la fenêtre de paramétrage de la validation. Le lien de la validation du budget ne s&#39;affiche qu&#39;une fois la cible analysée. En outre, ce lien s’affiche avec le lien pour la validation de la cible.
 
   Lorsque les options **[!UICONTROL Assigner l&#39;édition du contenu]** ou **[!UICONTROL Validation externe du contenu]** sont sélectionnées dans la fenêtre de paramétrage de la validation des traitements, le tableau de bord propose respectivement les liens **[!UICONTROL Contenu disponible]** et **[!UICONTROL Validation externe du contenu]**.
 
@@ -222,11 +222,11 @@ Pour chaque diffusion de l&#39;opération, il est possible de valider les traite
 
   >[!NOTE]
   >
-  >La prévisualisation du fichier d&#39;extraction porte sur un échantillon de données. Elle ne charge pas l&#39;intégralité du fichier de sortie.
+  >La prévisualisation du fichier d&#39;extraction ne concerne qu&#39;un échantillon de données. Le fichier de sortie complet n&#39;est pas chargé.
 
 * **Valider les diffusions associées**
 
-  L&#39;option **[!UICONTROL Activer la validation individuelle de chaque diffusion associée]** est utilisée dans le cas d&#39;une diffusion principale associée à des diffusions secondaires. Par défaut, cette option n&#39;est pas cochée ce qui permet d&#39;effectuer une validation globale au niveau de la diffusion principale. Si cette option est sélectionnée, chaque diffusion devra faire l&#39;objet d&#39;une validation.
+  L&#39;option **[!UICONTROL Activer la validation individuelle de chaque diffusion associée]** est utilisée pour une diffusion principale associée à des diffusions secondaires. Par défaut, cette option n&#39;est pas sélectionnée afin d&#39;effectuer une validation globale de la diffusion principale. Si cette option est sélectionnée, chaque diffusion doit être validée individuellement.
 
   ![Option permettant d&#39;activer la validation individuelle des diffusions associées](assets/s_ncs_user_task_valid_associate.png)
 
@@ -251,7 +251,7 @@ Pour désigner une liste d&#39;opérateurs, cliquez sur le lien **[!UICONTROL Ed
 >[!NOTE]
 >
 >* Si une liste de validants est définie, un traitement est validé lorsqu’un validant l’accepte. Le lien de validation concerné n’est alors plus proposé dans le tableau de bord. Lorsque l’envoi de notifications est activé et qu’un autre validant clique sur le lien de validation du message de notification, il est alors averti qu’un autre opérateur a déjà validé le traitement.
->* Vous pouvez définir un planning de validation pour l&#39;opération, dans la section inférieure de la fenêtre d&#39;édition des validants. Par défaut, les validants ont trois jours à partir de la date de soumission pour valider les traitements. Il est possible de définir un rappel qui sera automatiquement envoyé aux opérateurs concernés avant l&#39;expiration du délai de validation.
+>* Vous pouvez définir un planning de validation pour l&#39;opération dans la section inférieure de la fenêtre d&#39;édition du validant. Par défaut, les réviseurs disposent de trois jours à partir de la date de soumission pour valider un processus. Il est possible de paramétrer un rappel qui sera automatiquement envoyé aux opérateurs et opératrices concernés avant la date limite de validation.
 >* Vous pouvez ajouter des rappels depuis cette section.
 >
 
@@ -269,7 +269,7 @@ Au niveau de chaque diffusion, cliquez sur le bouton **[!UICONTROL Suivi]** puis
 
 >[!CAUTION]
 >
->Pour valider un contenu, un cycle de BAT est obligatoire. Les BAT vous permettent de valider l’affichage des informations, les données de personnalisation et de vérifier que les liens fonctionnent. Découvrez comment créer une épreuve dans [créer une épreuve](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
+>Pour valider un contenu, un cycle de BAT est obligatoire. Les BAT vous permettent de valider l’affichage des informations et des données de personnalisation, et de vérifier que les liens fonctionnent. Découvrez comment créer une épreuve dans [créer une épreuve](../../delivery/using/steps-validating-the-delivery.md#sending-a-proof).
 >
 >Les fonctionnalités de validation du contenu décrites ci-dessous se rapportent à la diffusion du BAT.
 
@@ -353,14 +353,14 @@ Cette option vous permet de définir une personne responsable de l’édition du
 
 #### Validation externe du contenu {#external-content-approval}
 
-Cette option permet de définir un opérateur ou une opératrice externe responsable de l’approbation du rendu des diffusions, comme la cohérence dans la communication de la marque, les tarifs, etc. Lorsque l’option **[!UICONTROL Validation externe du contenu]** est sélectionnée dans la fenêtre de paramétrage de la validation, plusieurs étapes de validation sont ajoutées entre la validation du contenu et l’envoi de la notification à la personne responsable de la campagne :
+Cette option permet de définir un opérateur externe chargé de valider le rendu de la diffusion, par exemple la cohérence de la communication de la marque, les taux, etc. Lorsque l&#39;option **[!UICONTROL Validation externe du contenu]** est sélectionnée dans la fenêtre de paramétrage de la validation des traitements, plusieurs étapes de validation sont ajoutées entre la validation du contenu par le responsable du traitement et la diffusion de la notification au responsable de l&#39;opération :
 
 1. Le responsable externe du contenu reçoit un email de notification l&#39;informant que le contenu a été validé et que la validation externe doit être effectuée.
 1. L&#39;email de notification propose des liens vers les BAT envoyés, lui permettant de visualiser le rendu de la diffusion, et un bouton pour valider ou refuser le contenu de la diffusion.
 
    >[!NOTE]
    >
-   >Ces liens ne sont disponibles que si un ou plusieurs BAT ont été envoyés. Si ce n&#39;est pas le cas, vous devez accéder à la console ou l&#39;interface web pour visualiser le rendu de la diffusion.
+   >Ces liens ne sont disponibles que si un ou plusieurs BAT ont été envoyés. Dans le cas contraire, le rendu de la diffusion n’est disponible que via la console ou l’interface web.
 
    ![E-mail de validation de contenu externe avec liens vers les BAT](assets/s_user_validation_external_content.png)
 

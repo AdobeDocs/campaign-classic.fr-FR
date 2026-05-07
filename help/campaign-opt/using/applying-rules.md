@@ -8,8 +8,8 @@ hide: true
 exl-id: 09ec0fc0-76ed-4c73-8bdf-c931e2103aa9
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '1051'
-ht-degree: 100%
+source-wordcount: '1063'
+ht-degree: 80%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## Application dʼune typologie à une diffusion {#applying-a-typology-to-a-delivery}
 
-Pour appliquer les règles de typologie que vous avez créées, vous devez les associer à une typologie, puis référencer cette typologie dans votre diffusion. Pour cela :
+Pour appliquer les règles de typologie que vous avez créées, vous devez l’associer à une typologie, puis référencer cette typologie dans votre diffusion. Pour ce faire :
 
 1. Créez une typologie de campagne.
 
@@ -46,7 +46,7 @@ En effet, les règles de typologie peuvent ne concerner que certaines diffusions
 
 Pour définir les critères d&#39;application d&#39;une règle, cliquez sur le lien **[!UICONTROL Editer les critères d&#39;application de la règle...]**, dans l&#39;onglet **[!UICONTROL Général]**.
 
-Utilisez alors le requêteur pour définir les conditions de filtrage. Dans l&#39;exemple ci-dessous, seules les diffusions contenant le terme &#39;offre&#39; dans leur libellé, et celles créées avant le 1er avril 2013, sont concernées par la règle de capacité.
+Utilisez ensuite le requêteur pour définir les conditions de filtrage. Dans l&#39;exemple suivant, la règle de capacité ne concerne que les diffusions dont le libellé contient le mot &#39;offre&#39; ou les diffusions créées avant le 1er avril 2013.
 
 ![](assets/campaign_opt_create_capacity_criterion.png)
 
@@ -56,9 +56,9 @@ Utilisez alors le requêteur pour définir les conditions de filtrage. Dans l&#3
 
 ## Réglage de la fréquence des calculs {#adjusting-calculation-frequency}
 
-Les arbitrages sont automatiquement ré-exécutés chaque nuit, via le workflow de nettoyage de la base de données. Vous pouvez toutefois conserver les valeurs calculées au-delà de ce délai.
+Les arbitrages sont automatiquement ré-exécutés chaque nuit, via le workflow de nettoyage de la base de données. Toutefois, les valeurs peuvent être enregistrées au-delà de cette période.
 
-En effet, certains calculs utilisent des valeurs qui ne changent pas quotidiennement. Il serait donc inutile de recalculer les données tous les jours, et de surcharger inutilement la base de données. Par exemple, si un processus alimente toutes les semaines la base de marketing avec les scores d&#39;appétence des clients et les éléments de consolidation des actes d&#39;achat, il est inutile de recalculer tous les jours les données basées sur ces valeurs.
+En effet, certains calculs utilisent des valeurs qui ne changent pas quotidiennement. Il est donc inutile de recalculer les données chaque jour et de surcharger inutilement la base de données. Par exemple, si un processus enrichit la base de données marketing avec des informations relatives aux affinités et aux achats des clients et des clientes sur une base hebdomadaire, les données basées sur ces valeurs n’ont pas besoin d’être recalculées tous les jours.
 
 Pour cela, le champ **[!UICONTROL Fréquence]** de l’onglet **[!UICONTROL Général]** permet de définir la durée maximale pendant laquelle le ciblage est conservé. Par défaut, la valeur **0s** indique que les calculs restent valides jusqu&#39;à la prochaine exécution du ré-arbitrage quotidien.
 
@@ -84,7 +84,7 @@ Dans un fonctionnement standard, les règles sont appliquées dans l&#39;ordre s
 1. Règles de pression.
 1. Règles de capacité.
 1. Règles de contrôle, si elles s&#39;appliquent à la fin du ciblage.
-1. Règles de contrôle, si elles s&#39;appliquent au début de la personnalisation. Si les règles utilisateurs (filtrage / pression / capacitif) sont à recalculer du fait de leur expiration, elles sont réappliquées à cette étape.
+1. Règles de contrôle, si elles s’appliquent au début de la personnalisation. Si les règles utilisateurs (filtrage/pression/capacitif) ont expiré et doivent être recalculées, elles seront appliquées au cours de cette étape.
 1. Règles de contrôle, si elles s&#39;appliquent à la fin de la personnalisation.
 
 >[!NOTE]
@@ -115,7 +115,7 @@ Les valeurs possibles sont les suivantes :
 
 * **[!UICONTROL Au début de la personnalisation]**
 
-  Cette phase doit être sélectionnée lorsque le contrôle porte sur la validation de la personnalisation des messages. La personnalisation des messages est réalisée au cours de la phase d&#39;analyse.
+  Cette phase doit être sélectionnée si le contrôle concerne la validation de la personnalisation du message. La personnalisation des messages est réalisée au cours de la phase d’analyse.
 
 * **[!UICONTROL A la fin de l&#39;analyse]**
 
@@ -125,7 +125,7 @@ Les valeurs possibles sont les suivantes :
 
 ### Contrôle du trafic SMTP sortant {#control-outgoing-smtp-traffic}
 
-Vous pouvez utiliser le champ **[!UICONTROL Gestion des affinités avec les adresses IP]** pour associer les diffusions au serveur de diffusions (MTA) qui gère l&#39;affinité en question. Ainsi, il est possible de limiter l&#39;envoi d&#39;emails pour des diffusions spécifiques, vers certaines machines ou adresses de sortie.
+Par défaut, vous pouvez utiliser le champ **[!UICONTROL Gestion des affinités avec les adresses IP]** pour lier les diffusions au serveur de diffusion (MTA) avec cette affinité. Ainsi, il est possible de limiter l’envoi d’emails pour des diffusions spécifiques, vers certaines machines ou adresses de sortie.
 
 ![](assets/campaign_opt_select_ip_affinity.png)
 
@@ -136,7 +136,7 @@ Vous pouvez utiliser le champ **[!UICONTROL Gestion des affinités avec les adre
 
 ### Campaign Optimization et le Marketing Distribué {#campaign-optimization-and-distributed-marketing}
 
-L&#39;onglet **[!UICONTROL Marketing Distribué]** permet de définir le paramétrage d&#39;une opération collaborative et les entités locales impliquées par cette opération lors de la commande de celle-ci. Les typologies/règles définies pour une entité locale (associées aux typologies/règles définies pour le central) remplacent les règles/typologies associées au central. Le remapping permet d&#39;adapter les règles du central aux règles des entités locales qui ont commandé l&#39;opération.
+L&#39;onglet **[!UICONTROL Marketing Distribué]** permet de définir le re-mapping des typologies et/ou des règles qui s&#39;applique lorsqu&#39;une campagne partagée est commandée et/ou réservée. Les typologies/règles définies pour une entité locale (liées à celles définies pour l&#39;entité centrale) remplacent les règles/typologies liées à l&#39;entité centrale. Le recodification permet d&#39;adapter les règles des entités centrales aux entités locales qui commandent l&#39;opération.
 
 ![](assets/simu_campaign_opti_distrib_mkg.png)
 

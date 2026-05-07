@@ -7,8 +7,8 @@ hide: true
 exl-id: 975bdc94-5da4-45ae-a3bd-e8674b447098
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 100%
+source-wordcount: '870'
+ht-degree: 61%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 100%
 
 
 
-Dans ce cas pratique, nous allons envoyer une communication, à l&#39;aide de Campaign Standard, comprenant un lien vers une application web de Campaign v7. Lorsqu&#39;un destinataire clique sur le lien dans l&#39;email, l&#39;application web affiche un formulaire contenant plusieurs champs préchargés avec les données du destinataire en question ainsi qu&#39;un lien d&#39;inscription à une newsletter. Le destinataire peut mettre à jour ses informations et s&#39;inscrire au service. Son profil est alors mis à jour dans Campaign v7 et les informations sont répliquées dans Campaign Standard.
+Dans ce cas pratique, nous allons envoyer une communication, à l’aide de Campaign Standard, contenant un lien vers une application web de Campaign v7. Lorsque le destinataire clique sur le lien de l&#39;e-mail, l&#39;application web affiche un formulaire contenant plusieurs champs préchargés avec les données du destinataire ainsi qu&#39;un lien d&#39;inscription à une newsletter. Le destinataire peut mettre à jour ses données et s&#39;abonner au service. Son profil sera mis à jour dans Campaign v7 et les informations seront répliquées dans Campaign Standard.
 
-Si vous disposez d’un grand nombre de services et d’applications web dans Campaign v7, vous pouvez décider de ne pas tous les recréer dans Campaign Standard. Le connecteur ACS vous permet d’utiliser l’ensemble des services et des applications web de Campaign v7 et de les associer à une diffusion envoyée par Campaign Standard.
+Si Campaign v7 contient de nombreux services et applications web, vous pouvez choisir de ne pas tous les recréer dans Campaign Standard. ACS Connector permet d’utiliser toutes les applications et tous les services web de Campaign v7 et de les associer à une diffusion envoyée par Campaign Standard.
 
 ## Conditions préalables requises {#prerequisites}
 
@@ -30,7 +30,7 @@ Pour ce faire, les éléments suivants sont nécessaires :
 
 ## Création de lʼapplication web et du service {#creating-the-web-application-and-service}
 
-Dans Campaign v7, vous pouvez créer une application Web qui permet aux destinataires de s&#39;inscrire à un service. L&#39;application Web et le service sont conçus et stockés dans Campaign v7. Le service peut être mis à jour par le biais d&#39;une communication de Campaign Standard. Pour en savoir plus sur les applications web dans Campaign v7, voir [cette section](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes).
+Dans Campaign v7, vous pouvez créer des applications web qui permettent aux destinataires de s&#39;abonner à un service. L&#39;application web et le service sont conçus et stockés dans Campaign v7 et vous pouvez mettre à jour ce service via une communication Campaign Standard. Pour en savoir plus sur les applications web dans Campaign v7, voir [cette section](../../web/using/adding-fields-to-a-web-form.md#subscription-checkboxes).
 
 Dans Campaign v7, les objets suivants ont été créés :
 
@@ -49,7 +49,7 @@ Dans Campaign v7, les objets suivants ont été créés :
 
    ![](assets/acs_connect_lp_3.png)
 
-1. Accédez à **[!UICONTROL Profils et Cibles > Services et abonnements]**, puis ouvrez le service **[!UICONTROL Newsletter]**. Il s&#39;agit du service qui sera mis à jour à partir du message de communication Campaign Standard. Vous pouvez voir qu&#39;aucun destinataire ne s&#39;est encore inscrit à ce service.
+1. Accédez à **[!UICONTROL Profils et cible > Services et abonnements]** et ouvrez le service **[!UICONTROL Newsletter]**. Il s’agit du service qui sera mis à jour à partir de la communication Campaign Standard. Vous pouvez constater qu’aucun destinataire ne s’est encore inscrit à ce service.
 
    ![](assets/acs_connect_lp_5.png)
 
@@ -73,7 +73,7 @@ Pour vérifier que les données ont été correctement répliquées, suivez la p
 
    ![](assets/acs_connect_lp_8.png)
 
-1. Dans la barre supérieure, cliquez sur **[!UICONTROL Activités marketing]**, puis cherchez l&#39;application web de Campaign v7. Elle apparaît sous forme de landing page dans Campaign Standard.
+1. Dans la barre supérieure, cliquez sur **[!UICONTROL Activités marketing]**, puis recherchez l’application web de Campaign v7. Il s’affiche sous la forme d’une page de destination dans Campaign Standard.
 
    ![](assets/acs_connect_lp_9.png)
 
@@ -107,13 +107,13 @@ Les étapes de création, de conception et d&#39;envoi de l&#39;email sont les m
 
 ## Récupération des informations mises à jour {#retrieving-the-updated-information}
 
-Lorsque le destinataire met ses informations à jour via l&#39;application web, Adobe Campaign v7 récupère de manière synchrone les informations mises à jour. Celles-ci sont ensuite répliquées depuis Campaign v7 vers Campaign Standard.
+Lorsque le destinataire met à jour ses données depuis via l&#39;application web, Adobe Campaign v7 récupère de manière synchrone les informations mises à jour. Il est ensuite répliqué de Campaign v7 vers Campaign Standard.
 
-1. Dans Campaign v7, accédez à **[!UICONTROL Profils et Cibles > Services et abonnements]**, puis ouvrez le service **[!UICONTROL Newsletter]**. Vous pouvez voir que le destinataire apparaît désormais dans la liste des abonnés.
+1. Dans Campaign v7, accédez à **[!UICONTROL Profils et cible > Services et abonnements]** et ouvrez le service **[!UICONTROL Newsletter]**. Le destinataire apparaît désormais dans la liste des abonnés.
 
    ![](assets/acs_connect_lp_16.png)
 
-1. Accédez à **[!UICONTROL Profils et Cibles > Destinataire]** et sélectionnez le destinataire. Vous pouvez voir que le numéro de téléphone est maintenant stocké.
+1. Accédez à **[!UICONTROL Profils et cibles > Destinataire]** et sélectionnez le destinataire. Vous pouvez voir que le numéro de téléphone est maintenant stocké.
 
    ![](assets/acs_connect_lp_17.png)
 
@@ -126,10 +126,10 @@ Lorsque le destinataire met ses informations à jour via l&#39;application web, 
 
    ![](assets/acs_connect_lp_19.png)
 
-1. Editez le profil. Vous pouvez constater que le numéro de téléphone a été mis à jour.
+1. Modifiez le profil. Vous pouvez constater que le numéro de téléphone a été mis à jour.
 
    ![](assets/acs_connect_lp_20.png)
 
-1. Cliquez sur l&#39;onglet **[!UICONTROL Abonnements]**. Le service de newsletter apparaît maintenant.
+1. Cliquez sur l’onglet **[!UICONTROL Abonnements]**. Le service de newsletter s’affiche désormais.
 
    ![](assets/acs_connect_lp_21.png)

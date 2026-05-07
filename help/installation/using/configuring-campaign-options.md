@@ -9,8 +9,8 @@ topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '3837'
-ht-degree: 100%
+source-wordcount: '3901'
+ht-degree: 79%
 
 ---
 
@@ -57,11 +57,11 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr>
   <tr> 
    <td> <span class="uicontrol">NMS_ActivateOwnerConfirmation</span> <br /> </td> 
-   <td><p> Permet d’autoriser l’opérateur en charge de la diffusion à confirmer l’envoi, si un opérateur ou un groupe spécifique d’opérateurs est désigné pour démarrer une diffusion dans les propriétés de la diffusion.</p><p> Pour ce faire, activez l'option en saisissant "1" comme valeur. Pour désactiver cette option, entrez "0".</p><p> Le processus de confirmation d’envoi suivra alors le fonctionnement par défaut : seul l’opérateur ou l’opératrice ou le groupe désigné pour l’envoi (ou un administrateur ou une administratrice) dans les propriétés de la diffusion pourra confirmer et effectuer l’envoi. Consultez <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=fr#start-a-delivery" target="_blank">cette section</a>.</p> </td>
+   <td><p> Permet d’autoriser l’opérateur en charge de la diffusion à confirmer l’envoi, si un opérateur ou un groupe spécifique d’opérateurs est désigné pour démarrer une diffusion dans les propriétés de la diffusion.</p><p> Pour ce faire, activez l’option en saisissant « 1 » comme valeur. Pour désactiver cette option, entrez « 0 ».</p><p> Le processus de confirmation d’envoi suivra alors le fonctionnement par défaut : seul l’opérateur ou l’opératrice ou le groupe désigné pour l’envoi (ou un administrateur ou une administratrice) dans les propriétés de la diffusion pourra confirmer et effectuer l’envoi. Voir <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=fr#start-a-delivery" target="_blank">cette section</a>.</p> </td>
 
 <tr> 
    <td> <span class="uicontrol">Nms_DefaultRcpSchema</span> <br /> </td> 
-   <td> Adobe Campaign utilise une variable globale "Nms_DefaultRcpSchema" pour dialoguer avec la base de destinataires par défaut (nms:recipient).<br /> La valeur de l'option doit correspondre au nom du schéma qui correspond à la table de destinataires externe.<br /> </td> 
+   <td> Adobe Campaign utilise une variable globale « Nms_DefaultRcpSchema » pour dialoguer avec la base de destinataires par défaut (nms:recipient).<br /> La valeur de l'option doit correspondre au nom du schéma correspondant à la table des destinataires externe.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsBilling_MainActionThreshold</span> <br /> </td> 
@@ -149,7 +149,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_ExpOrganization</span> <br /> </td> 
-   <td> Nom usuel du client. Utilisé dans certains messages d’avertissement affichés aux destinataires.<br /> "Vous recevez ce message, car vous avez été en contact avec 'Organization' ou une société affiliée. Pour ne plus recevoir de messages de 'Organization' <br /> </td> 
+   <td> Nom usuel du client. Utilisé dans certains messages d’avertissement affichés aux destinataires.<br /> « Vous recevez ce message, car vous avez été en contact avec 'Organization' ou une société affiliée. Pour ne plus recevoir de messages de 'Organization' <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsEmail_FromName</span> <br /> </td> 
@@ -173,7 +173,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsInmail_AllowlistEmails</span> <br /> </td> 
-   <td> Liste des adresses e-mail de transfert autorisées (à partir du module de traitement des e-mails entrants). Les adresses doivent être séparées par des virgules (ou * pour les autoriser toutes). Par exemple, xyz@abc.com,pqr@abc.com.<br /> </td> 
+   <td> Liste des adresses email de transfert autorisées (à partir du module de traitement des mails entrants). Les adresses doivent être séparées par des virgules (ou * pour autoriser tout). E.g. xyz@abc.com,pqr@abc.com.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsLine_AESKey</span> <br /> </td> 
@@ -197,7 +197,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsMidSourcing_LogsPeriodHour</span> <br /> </td>
-   <td> Permet de spécifier une période maximum (exprimée en heures) afin de limiter le nombre de broadlogs récupérés à chaque exécution du workflow de synchronisation.</a>.<br /> </td> 
+   <td> Permet de spécifier une période maximale (exprimée en heures) pour limiter le nombre de broadlogs récupérés à chaque exécution du workflow de synchronisation.</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsMidSourcing_PrepareFlow</span> <br /> </td> 
@@ -233,7 +233,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr>
   <tr> 
    <td> <span class="uicontrol">NmsServer_MirrorPageUrl</span> <br /> </td> 
-   <td> URL du serveur de page miroir (par défaut, elle devrait être identique à NmsTracking_ServerUrl).<br /> Il s'agit de la valeur par défaut des diffusions par email lorsque l'URL n'est pas spécifiée dans la définition de routage.<br /> </td> 
+   <td> L’URL du serveur de pages miroir (par défaut, doit être identique à NmsTracking_ServerUrl).<br /> Il s’agit de la valeur par défaut des diffusions par e-mail lorsque l’URL n’est pas spécifiée dans la définition de routage.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsSMS_Priority</span> <br /> </td> 
@@ -301,7 +301,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_ImagePublishing</span> </td> 
-   <td> Paramétrage du chargement des images. Les valeurs peuvent être aucun/tracking/script/liste (elles peuvent être remplacées par les paramètres facultatifs de l’opérateur). </td> 
+   <td> Configuration du chargement des images. Les valeurs peuvent être none / tracking / script / list (peuvent être remplacées par les paramètres facultatifs de l'opérateur). </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_ImageSubDirectory</span> <br /> </td> 
@@ -313,11 +313,11 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NcmPublishingDir</span> <br /> </td> 
-   <td> Répertoire utilisé comme racine pour les publications.<br /> Pour plus d’informations sur la génération du contenu HTML et Texte, consultez <a href="../../delivery/using/using-a-content-template.md">cette section</a>.<br /> </td> 
+   <td> Dossier racine des publications.<br /> Pour plus d’informations sur HTML et la génération de contenu texte, consultez <a href="../../delivery/using/using-a-content-template.md">cette section</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkImageUrl</span> <br /> </td> 
-   <td> Permet de définir le serveur sur lequel les images utilisées dans les diffusions sont stockées pour permettre au navigateur de les obtenir.<br /> Pour les versions de build &lt;= 5098, nous utilisons l’URL des images téléchargées sur l’instance.<br /> Pour les versions de build &gt; 5098, nous utilisons à la place l’URL publique de la diffusion ou l’URL de l’option <span class="uicontrol">XtkFileRes_Public_URL</span>.<br /> </td> 
+   <td> Permet de définir le serveur sur lequel seront stockées les images utilisées dans les diffusions afin de permettre au navigateur de les récupérer.<br /> Pour les versions de build &lt;= 5098, nous utilisons l’URL des images qui ont été chargées sur l’instance.<br /> Pour les versions de build &gt; 5098, nous utilisons à la place l’URL publique de la diffusion ou l’URL de l’option <span class="uicontrol">XtkFileRes_Public_URL</span>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsDelivery_MediaInstance</span> <br /> </td> 
@@ -581,52 +581,52 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_BroadLogPurgeDelay</span> <br /> </td> 
-   <td> <p>Permet de définir le délai après lequel le broadlog est effacé de la base de données.</p><p>Cette option est automatiquement créée une fois que le délai est modifié dans l'interface. Si vous modifiez la valeur de la liste d'options, elle doit être exprimée en secondes.</p><br /> </td> 
+   <td> <p>Permet de définir le délai après lequel le broadlog est effacé de la base de données.</p><p>Cette option est automatiquement créée une fois le délai modifié dans l’interface. Si vous modifiez la valeur de la liste des options, elle doit être exprimée en secondes.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_EventHistoPurgeDelay</span> <br /> </td> 
    <td><p> Permet de définir le délai après lequel l'historique des événements est effacé de la base de données.</p><p>
-   Cette option est automatiquement créée une fois que le délai est modifié dans l'interface. Si vous modifiez la valeur de la liste d'options, elle doit être exprimée en secondes.</p><br /> </td> 
+   Cette option est automatiquement créée une fois le délai modifié dans l’interface. Si vous modifiez la valeur de la liste des options, elle doit être exprimée en secondes.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_EventPurgeDelay</span> <br /> </td> 
-   <td><p> Permet de définir le délai après lequel les événements sont effacés de la base de données.</p><p>Cette option est automatiquement créée une fois que le délai est modifié dans l'interface. Si vous modifiez la valeur de la liste d'options, elle doit être exprimée en secondes.</p><br /> </td> 
+   <td><p> Permet de définir le délai après lequel les événements sont effacés de la base de données.</p><p>Cette option est automatiquement créée une fois le délai modifié dans l’interface. Si vous modifiez la valeur de la liste des options, elle doit être exprimée en secondes.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_EventStatPurgeDelay</span> <br /> </td> 
-   <td><p> Permet de définir le délai après lequel les statistiques d'événement sont effacées de la base de données.</p><p>Cette option est automatiquement créée une fois que le délai est modifié dans l'interface. Si vous modifiez la valeur de la liste d'options, elle doit être exprimée en secondes.</p><br /> </td> 
+   <td><p> Permet de définir le délai après lequel les statistiques d'événement sont effacées de la base de données.</p><p>Cette option est automatiquement créée une fois le délai modifié dans l’interface. Si vous modifiez la valeur de la liste des options, elle doit être exprimée en secondes.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_PropositionPurgeDelay</span> <br /> </td> 
-   <td><p> Permet de définir le délai après lequel les propositions sont effacées de la base de données.</p><p> Cette option est automatiquement créée une fois que le délai est modifié dans l'interface. Si vous modifiez la valeur de la liste d'options, elle doit être exprimée en secondes.</p><br /> </td> 
+   <td><p> Permet de définir le délai après lequel les propositions sont effacées de la base de données.</p><p> Cette option est automatiquement créée une fois le délai modifié dans l’interface. Si vous modifiez la valeur de la liste des options, elle doit être exprimée en secondes.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_QuarantineMailboxFull</span> <br /> </td> 
-   <td> <p>Permet de définir le délai après lequel les quarantaines sont effacées de la base de données.</p><p> Cette option est automatiquement créée une fois que le délai est modifié dans l'interface. Si vous modifiez la valeur de la liste d'options, elle doit être exprimée en secondes.</p><br /> </td> 
+   <td> <p>Permet de définir le délai après lequel les quarantaines sont effacées de la base de données.</p><p> Cette option est automatiquement créée une fois le délai modifié dans l’interface. Si vous modifiez la valeur de la liste des options, elle doit être exprimée en secondes.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_RecycledDeliveryPurgeDelay</span> <br /> </td> 
-   <td> <p>Permet de définir le délai après lequel les diffusions recyclées sont effacées de la base de données.</p><p> Cette option est automatiquement créée une fois que le délai est modifié dans l'interface. Si vous modifiez la valeur de la liste d'options, elle doit être exprimée en secondes.</p><br /> </td> 
+   <td> <p>Permet de définir le délai après lequel les diffusions recyclées sont effacées de la base de données.</p><p> Cette option est automatiquement créée une fois le délai modifié dans l’interface. Si vous modifiez la valeur de la liste des options, elle doit être exprimée en secondes.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_RejectsPurgeDelay</span> <br /> </td> 
-   <td> <p>Permet de définir le délai après lequel les rejets sont effacés de la base de données.</p><p>Cette option est automatiquement créée une fois que le délai est modifié dans l'interface. Si vous modifiez la valeur de la liste d'options, elle doit être exprimée en secondes.</p><br /> </td> 
+   <td> <p>Permet de définir le délai après lequel les rejets sont effacés de la base de données.</p><p>Cette option est automatiquement créée une fois le délai modifié dans l’interface. Si vous modifiez la valeur de la liste des options, elle doit être exprimée en secondes.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_TrackingLogPurgeDelay</span> <br /> </td> 
-   <td> <p>Permet de définir le délai après lequel les logs de tracking sont effacés de la base de données.</p><p>Cette option est automatiquement créée une fois que le délai est modifié dans l'interface. Si vous modifiez la valeur de la liste d'options, elle doit être exprimée en secondes.</p><br /> </td> 
+   <td> <p>Permet de définir le délai après lequel les logs de tracking sont effacés de la base de données.</p><p>Cette option est automatiquement créée une fois le délai modifié dans l’interface. Si vous modifiez la valeur de la liste des options, elle doit être exprimée en secondes.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_TrackingStatPurgeDelay</span> <br /> </td> 
-   <td><p> Permet de définir le délai après lequel les statistiques de tracking sont effacées de la base de données.</p><p> Cette option est automatiquement créée une fois que le délai est modifié dans l'interface. Si vous modifiez la valeur de la liste d'options, elle doit être exprimée en secondes.</p><br /> </td> 
+   <td><p> Permet de définir le délai après lequel les statistiques de tracking sont effacées de la base de données.</p><p> Cette option est automatiquement créée une fois le délai modifié dans l’interface. Si vous modifiez la valeur de la liste des options, elle doit être exprimée en secondes.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_VisitorPurgeDelay</span> <br /> </td> 
-   <td> <p>Permet de définir le délai après lequel les visiteurs sont effacés de la base de données.</p><p> Cette option est automatiquement créée une fois que le délai est modifié dans l'interface. Si vous modifiez la valeur de la liste d'options, elle doit être exprimée en secondes.</p><br /> </td> 
+   <td> <p>Permet de définir le délai après lequel les visiteurs sont effacés de la base de données.</p><p> Cette option est automatiquement créée une fois le délai modifié dans l’interface. Si vous modifiez la valeur de la liste des options, elle doit être exprimée en secondes.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsCleanup_WorkflowResultPurgeDelay</span> <br /> </td> 
-   <td> <p>Permet de définir le délai après lequel les résultats de workflow sont effacés de la base de données.</p><p> Cette option est automatiquement créée une fois que le délai est modifié dans l'interface. Si vous modifiez la valeur de la liste d'options, elle doit être exprimée en secondes.</p><br /> </td> 
+   <td> <p>Permet de définir le délai après lequel les résultats de workflow sont effacés de la base de données.</p><p> Cette option est automatiquement créée une fois le délai modifié dans l’interface. Si vous modifiez la valeur de la liste des options, elle doit être exprimée en secondes.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcCapabilities_AzureDw</span> <br /> </td> 
@@ -657,7 +657,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
     <tr> 
    <td> <span class="uicontrol">WdbcOptions_TempDbName</span> <br /> </td> 
-   <td> Permet de configurer une base de données distincte pour les tables de travail sous Microsoft SQL Server, afin d’optimiser les sauvegardes et la réplication. L’option correspond au nom de la base de données temporaire : les tables de travail seront écrites dans cette base de données en cas de spécification. Exemple : 'tempdb.dbo.' (notez que le nom doit se terminer par un point). <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">En savoir plus</a> <br /> </td> 
+   <td> Permet de configurer une base de données distincte pour les tables de travail sous Microsoft SQL Server, afin d’optimiser les sauvegardes et la réplication. L’option correspond au nom de la base de données temporaire : les tables de travail seront écrites dans cette base de données en cas de spécification. Exemple : 'tempdb.dbo.' (notez que le nom doit se terminer par un point). <a href="../../production/using/rdbms-specific-recommendations.md#microsoft-sql-server">En savoir plus</a> <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">WdbcTimeZone</span> <br /> </td> 
@@ -685,7 +685,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSequence_AutoGeneration</span> <br /> </td> 
-   <td> Tous les schémas personnalisés créés après cette période et qui comprennent autopk="true", mais pas l’attribut "pkSequence", obtiendront une séquence générée automatiquement "auto_ 
+   <td> Tous les schémas personnalisés créés après cette période et qui comprennent autopk=« true », mais pas l’attribut « pkSequence », obtiendront une séquence générée automatiquement « auto_ 
     &lt;schemanamespace&gt; 
      &lt;schemaname&gt;
        _seq. 
@@ -693,7 +693,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NlMigration_KeepFolderStructure</span> <br /> </td> 
-   <td> Pendant la migration, la structure arborescente est automatiquement réorganisée selon les standards de la nouvelle version.<br /> Cette option vous permet de désactiver la migration automatique de l'arbre de navigation. Si vous l'utilisez, après la migration vous devrez supprimer les dossiers obsolètes, ajouter les nouveaux dossiers et effectuer toutes les vérifications nécessaires.<br /> 
+   <td> Lors de la migration, l’arborescence est automatiquement réorganisée en fonction des nouvelles normes de version.<br /> Cette option permet de désactiver la migration automatique de l’arborescence de navigation. Si vous l'utilisez, après la migration vous devrez supprimer les dossiers obsolètes, ajouter les nouveaux dossiers et effectuer toutes les vérifications nécessaires.<br /> 
     <ul> 
      <li> <p> <span class="uicontrol">Type de données :</span> entier</p> </li> 
      <li> <p> <span class="uicontrol">Valeur (texte)</span> : 1 </p> </li> 
@@ -730,11 +730,11 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">nmsPipeline_config</span> <br /> </td> 
-   <td> Permet de configurer Experience Cloud Triggers. Le type de données est « texte long » et doit être au format JSON. Voir <a class="anchorLink" href="https://helpx.adobe.com/fr/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">Utilisation des déclencheurs Experience Cloud avec Adobe Campaign Classic</a>.<br /> </td> 
+   <td> Permet de paramétrer les Triggers Experience Cloud. Le type de données est « texte long » et doit être au format JSON. Voir <a class="anchorLink" href="https://helpx.adobe.com/fr/campaign/kb/triggers-and-campaign.html#PipelineoptionNmsPipelineConfig" target="_blank">Utilisation des déclencheurs Experience Cloud avec Adobe Campaign Classic</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</span> <br /> </td> 
-   <td> Cette option est utilisée lors de l’importation de données à partir d’un système tiers via un connecteur CRM. En l’activant, vous pouvez collecter uniquement les objets modifiés depuis la dernière importation. Cette option doit être créée manuellement et remplie comme ci-dessous : 
+   <td> Cette option est utilisée lors de l’importation de données à partir d’un système tiers via un connecteur CRM. L'activation de cette option permet de ne collecter que les objets modifiés depuis la dernière exécution de l'import. Cette option doit être créée et renseignée manuellement comme ci-dessous : 
     <ul> 
      <li> <p> <span class="uicontrol">Nom interne</span> : LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</p> </li> 
      <li> <p> <span class="uicontrol">Valeur (champ)</span>:mm: : date de la dernière importation au format aaaa/mm/jj hh:mm:ss. </p> </li> 
@@ -742,11 +742,11 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">TNT_EdgeServer</span> <br /> </td> 
-   <td> Serveur Adobe Target utilisé pour l'intégration. Cette option est déjà renseignée par défaut. Cette valeur correspond au Server Domain Adobe Target, suivie de la valeur /m2. Par exemple : tt.omtrdc.net/m2.<br /> Reportez-vous à <a href="../../integrations/using/configuring-the-integration-with-adobe-target.md">cette section</a>.<br /> </td> 
+   <td> Serveur Adobe Target utilisé pour l’intégration. Cette option est déjà sélectionnée par défaut. Cette valeur correspond au Server Domain Adobe Target, suivie de la valeur /m2. Par exemple : tt.omtrdc.net/m2.<br /> Voir <a href="../../integrations/using/configuring-the-integration-with-adobe-target.md">cette section</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">TNT_TenantName</span> <br /> </td> 
-   <td> Nom de l'organisation Adobe Target. Cette valeur correspond au nom du Client Adobe Target.<br /> Reportez-vous à <a href="../../integrations/using/configuring-the-integration-with-adobe-target.md">cette section</a>.<br /> </td> 
+   <td> Nom de l’organisation Adobe Target. Cette valeur correspond au nom du Client Adobe Target.<br /> Voir <a href="../../integrations/using/configuring-the-integration-with-adobe-target.md">cette section</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">AAM_DataSourceId</span> <br /> </td> 
@@ -783,11 +783,11 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsInteraction_LastPropositionSynchControl_</span> <br /> </td> 
-   <td> '+ [schéma de la proposition] + "_" + extAccountSource.@executionInstanceId + [schéma de la proposition] + "_" + vars.executionInstanceIdFilter<br /> </td> 
+   <td> '+ [schéma de la proposition] + « _ » + extAccountSource.@executionInstanceId + [schéma de la proposition] + « _ » + vars.executionInstanceIdFilter<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsInteraction_LastPropositionSynchExec_</span> <br /> </td> 
-   <td> '+ [schéma de la proposition] + "_" + extAccountSource.@executionInstanceId + "_" + extAccountTarget.@executionInstanceId<br /> </td> 
+   <td> '+ [ schéma de la proposition] + « _ » + extAccountSource.@executionInstanceId + « _ » + extAccountTarget.@executionInstanceId<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsInteraction_SynchWorkflowIds</span> <br /> </td> 

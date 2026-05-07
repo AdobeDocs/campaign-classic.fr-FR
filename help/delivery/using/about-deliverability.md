@@ -7,8 +7,8 @@ feature: Deliverability
 role: User
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
 source-git-commit: b2b188ee3f202c247ceac1f59a49b7ad1771d537
-workflow-type: ht
-source-wordcount: '663'
+workflow-type: tm+mt
+source-wordcount: '851'
 ht-degree: 100%
 
 ---
@@ -59,7 +59,7 @@ Lors de la configuration, de la conception et du test de votre message, assurez-
 * [Bonnes pratiques de diffusion](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=fr){target="_blank"}
 * [Contrôle du contenu des e-mails](control-message-content.md)
 * [Rendu de la boîte de réception](inbox-rendering.md)
-* [Envoi d’un BAT](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=fr){target="_blank"}
+* [Envoyer un bon à tirer](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=fr){target="_blank"}
 
 ### Vérification du consentement par le biais du double opt-in {#double-opt-in}
 

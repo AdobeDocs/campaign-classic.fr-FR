@@ -7,7 +7,7 @@ hide: true
 exl-id: 7c093b34-6b0e-4403-9d9d-fba9ba39ea41
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '210'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ Vous pourrez ainsi découvrir les différents contextes d’utilisation des work
 * [Enrichissement des emails avec des champs de date personnalisés](email-enrichment-with-custom-date-fields.md)
 * [Automatisation de la création, de l’édition et de la publication de contenu](../../delivery/using/automating-via-workflows.md#examples)
 
-## Contrôle  {#monitoring}
+## Contrôle {#monitoring}
 
 <img src="assets/do-not-localize/icon_monitoring.svg" width="60px">
 
@@ -47,7 +47,7 @@ Vous pourrez ainsi découvrir les différents contextes d’utilisation des work
 
 * [Coordonner les mises à jour des données](coordinating-data-updates.md)
 * [Créer une liste récapitulative](creating-a-summary-list.md)
-* [Enrichir des données ](enriching-data.md)
+* [Enrichir des données](enriching-data.md)
 * [Utilisation d&#39;agrégats](using-aggregates.md)
 * [Import de données chiffrées à l’aide d’une clé générée par le Panneau de contrôle](../../platform/using/unzip-decrypt.md)
 * [Chiffrement et export de données à l’aide d’une clé installée sur le Panneau de contrôle](how-to-use-workflow-data.md#use-case-gpg-encrypt)

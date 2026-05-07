@@ -7,8 +7,8 @@ hide: true
 exl-id: ca6d4bf4-7b3a-4d36-9fc3-0b83531d0132
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 100%
+source-wordcount: '655'
+ht-degree: 95%
 
 ---
 
@@ -38,7 +38,7 @@ Pour suivre le statut d&#39;un ensemble de workflows, vous devez procéder comme
 
 ## Etape 1: Création du workflow de suivi {#step-1--creating-the-monitoring-workflow}
 
-Le dossier de workflows que nous allons suivre est le dossier **&quot;CustomWorkflows&quot;** stocké dans le noeud : **Administration > Exploitation > Workflows Techniques**. Ce dossier contient un ensemble de workflows métiers.
+Le dossier de workflows que nous allons suivre est le dossier **« CustomWorkflows »** stocké dans le nœud **Administration > Exploitation > Workflows techniques**. Ce dossier contient un ensemble de workflows métier.
 
 Le **workflow de suivi** est stocké à la racine du dossier Workflows Techniques. Le libellé utilisé est **&quot;Suivi&quot;**.
 

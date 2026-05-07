@@ -5,9 +5,9 @@ description: élément method
 feature: Schema Extension
 exl-id: 0fb74318-fe09-473c-8e33-1f3afd66b4cc
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 100%
+ht-degree: 79%
 
 ---
 
@@ -51,14 +51,14 @@ L&#39;utilisation de l&#39;attribut &quot;@library&quot; est nécessaire pour d�
 
 ## Description des attributs {#attribute-description-10}
 
-* **access (string)**: cet attribut définit un contrà´le d&#39;accès sur l&#39;utilisation de la méthode. Si cet attribut est absent, l&#39;identification est obligatoire. Les valeurs disponibles sont &#39;anonymous&#39;, &#39;admin&#39; et &#39;sql&#39;.
+* **access (string)** : cet attribut définit le contrôle d’accès pour utiliser la méthode . Si cet attribut est manquant, l’identification est obligatoire. Les valeurs disponibles sont les suivantes : &#39;anonyme&#39;, &#39;admin&#39; et &#39;sql&#39;.
 * **const (boolean)**: si cet attribut est activé, les paramètres sont compris dans un élément XML qui définit la méthode.
 * **label (string)**: libellé de la méthode.
-* **library (string)**: méthode qui n&#39;est pas native à l&#39;application . Cet attribut prend la valeur de la bibliothèque de méthodes dans laquelle se trouve la définition de la méthode (nms:mabibliotheque.js).
+* **library (string)**: méthode qui n&#39;est pas native à l&#39;application . Cet attribut prend la valeur de la bibliothèque de méthodes où se trouve la définition de la méthode (nms:mylibrary.js).
 * **name (MNTOKEN)**: nom unique de la méthode.
 * **static (boolean)**: si cet attribut est activé, la méthode est considérée comme autonome, tous les paramètres doivent être indiqués à la méthode lors de son appel.
 
-## Exemples       {#examples-7}
+## Exemples {#examples-7}
 
 Définition de la méthode d&#39;usine &quot;Subscribe&quot; :
 

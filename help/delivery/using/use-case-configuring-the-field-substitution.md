@@ -6,9 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Seed Address
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '462'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '471'
+ht-degree: 93%
 
 ---
 
@@ -80,7 +80,7 @@ Pour que cette modification du schéma de données soit visible dans le **Formul
 
    ![](assets/dlv_seeds_usecase_28.png)
 
-   Vous pouvez constater qu&#39;un des champs de personnalisation est vide. Comme l&#39;adresse de contrôle ne possède pas de données pour ce champ, l&#39;aperçu du contenu HTML ne peut pas afficher de valeur.
+   Vous pouvez constater que l’un des champs de personnalisation est vide. Comme l’adresse de contrôle ne contient pas de données pour ce champ, l’aperçu du contenu HTML ne peut pas afficher de valeur.
 
    La subsitution aléatoire des champs s&#39;effectue **au moment de l&#39;envoi de la diffusion**.
 

@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
 source-git-commit: dba90a154e08400ae6ab6478623a50d48d72207c
-workflow-type: ht
-source-wordcount: '285'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '332'
+ht-degree: 87%
 
 ---
 
@@ -24,7 +24,7 @@ Vous trouverez ci-dessous quelques bonnes pratiques clés relatives à la config
 
 * Désactivez l’ancienne version de SSL et les chiffrements :
 
-  **Sur Apache**, modifiez le fichier /etc/apache2/mods-available/ssl.conf. Voici un exemple :
+  **Sur Apache**, modifiez /etc/apache2/mods-available/ssl.conf. Voici un exemple :
 
    * `SSLProtocol all -SSLv2 -SSLv3 -TLSv1`
    * `SSLCipherSuite HIGH:MEDIUM:!aNULL:!MD5:!SSLv3:!SSLv2:!TLSv1`
@@ -51,7 +51,7 @@ Vous trouverez ci-dessous quelques bonnes pratiques clés relatives à la config
   **Sur IIS** (voir la [documentation](https://www.iis.net/configreference/system.webserver/security/requestfiltering/verbs)), effectuez la configuration suivante :
 
    * Assurez-vous que la fonctionnalité ou le service de rôle **Filtrage des requêtes** est installé.
-   * Dans le volet **Filtrage des requêtes**, cliquez sur l’onglet Verbes HTTP, puis sur Refuser un verbe. Dans le volet Actions, saisissez TRACE dans la boîte de dialogue ouverte.
+   * Dans le volet **Filtrage des requêtes**, cliquez sur l’onglet Verbes HTTP, puis sur Refuser le verbe. Dans le volet Actions , saisissez TRACE dans la boîte de dialogue ouverte.
 
 * Supprimez la bannière :
 
@@ -67,7 +67,7 @@ Vous trouverez ci-dessous quelques bonnes pratiques clés relatives à la config
 
 * Limitez la taille des requêtes pour empêcher le téléchargement de fichiers volumineux :
 
-  **** Sur Apache, ajoutez la directive **LimitRequestBody** (taille en octets) dans le répertoire /.
+  **&#x200B;**&#x200B;Sur Apache, ajoutez la directive **LimitRequestBody** (taille en octets) dans le répertoire /.
 
   ```
   <Directory />
@@ -81,5 +81,5 @@ Vous trouverez ci-dessous quelques bonnes pratiques clés relatives à la config
 
 Rubriques connexes :
 
-* [Vue d’ensemble de la conformité d’Adobe Marketing Cloud](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/overview#privacy)
-* [Vue d’ensemble de la sécurité d’Adobe Campaign](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/overview#security)
+* [Présentation de la conformité Adobe Marketing Cloud](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/overview#privacy)
+* [Présentation de la sécurité d’Adobe Campaign](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/overview#security)

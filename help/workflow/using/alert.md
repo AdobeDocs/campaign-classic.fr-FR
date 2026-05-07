@@ -8,7 +8,7 @@ exl-id: 21698e85-7b58-4bde-bbd2-0ee06ac90307
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '84'
-ht-degree: 100%
+ht-degree: 51%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-Une activité de type **Alerte** envoie un message à un groupe d’opératrices et d’opérateurs. Son fonctionnement est le même qu’une activité de type validation, mais ici, aucune réponse n’est attendue.
+Une activité **Alerte** envoie un message à un groupe d&#39;opérateurs. Elle fonctionne de la même manière qu’une activité d’approbation, mais aucune réponse n’est attendue dans ce cas.
 
 ![](assets/edit_alerte.png)
 

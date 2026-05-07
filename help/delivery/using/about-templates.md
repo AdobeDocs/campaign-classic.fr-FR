@@ -8,14 +8,14 @@ hide: true
 exl-id: d943898c-06fe-451d-aa28-8a95665f4112
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 100%
+source-wordcount: '200'
+ht-degree: 86%
 
 ---
 
 # Utiliser des modèles de diffusion {#about-templates}
 
-La configuration d’une diffusion peut être sauvegardée dans un modèle de diffusion afin d’être réutilisée. Le modèle peut contenir une configuration complète ou partielle de la diffusion.
+Une configuration de diffusion peut être enregistrée dans un modèle de diffusion afin d’être réutilisée. Le modèle peut contenir une configuration complète ou partielle de la diffusion.
 
 ![](assets/s_user_template_list.png)
 

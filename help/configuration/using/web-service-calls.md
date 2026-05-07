@@ -6,9 +6,9 @@ feature: API
 role: Developer
 exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
-source-wordcount: '918'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '923'
+ht-degree: 81%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## Informations générales {#general-information}
 
-L&#39;ensemble des méthodes de l&#39;API sont exposées sous forme de service Web. Ainsi, il est possible de piloter l&#39;intégralité des fonctionnalités d&#39;Adobe Campaign au travers d&#39;appels SOAP qui sont le point d&#39;entrée natif du serveur d&#39;application Adobe Campaign. La console Adobe Campaign elle-même n&#39;utilise que des appels SOAP.
+Toutes les méthodes d’API sont présentées sous la forme de services web. Vous pouvez ainsi gérer toutes les fonctions d’Adobe Campaign via des appels SOAP, qui sont le point d’entrée natif du serveur d’applications Adobe Campaign. La console Adobe Campaign elle-même utilise uniquement les appels SOAP.
 
 Les services Web permettent de créer, depuis un système tiers, de multiples applications :
 
@@ -51,7 +51,7 @@ La présence de l&#39;attribut &quot;static&quot; (avec la valeur &quot;true&quo
 
 Une méthode de type &quot;const&quot; possède implicitement en entrée un document XML au format de son schéma associé.
 
-Une description complète de l&#39;élément `<method>` d&#39;un schéma Adobe Campaign figure dans la section [Méthode ](../../configuration/using/schema/method.md) du chapitre « Référence des schémas ».
+Une description complète de l&#39;élément `<method>` d&#39;un schéma Adobe Campaign figure dans la section [Méthode &#x200B;](../../configuration/using/schema/method.md) du chapitre « Référence des schémas ».
 
 Exemple de la méthode « ExecuteQuery » de type « const » à partir du schéma « xtk:queryDef » :
 
@@ -68,7 +68,7 @@ Le paramètre d’entrée de cette méthode est un document XML au format du sch
 
 ## Description des services Web : WSDL {#web-service-description--wsdl}
 
-Un fichier WSDL (Web Service Description Library) est disponible pour chaque service. Ce fichier écrit en XML décrit le service dans un méta-langage, il précise les méthodes disponibles, les paramètres et le serveur à contacter pour exécuter le service.
+Un fichier WSDL (Web Service Description Library) est disponible pour chaque service. Ce fichier XML utilise un méta-langage pour décrire le service et spécifier les méthodes disponibles, les paramètres et le serveur à contacter pour exécuter le service.
 
 ### Génération du fichier WSDL {#wsdl-file-generation}
 
@@ -189,11 +189,11 @@ Adobe Campaign a renforcé la sécurité des mécanismes d&#39;authentification
 
 Deux modes d&#39;authentification sont disponibles :
 
-* **via un appel à la méthode logon()**. Ce mode génère un jeton de session et un jeton de sécurité. C&#39;est le mode le plus sécurisé et donc celui qui est conseillé.
+* **via un appel à la méthode de connexion()**. Ce mode génère un jeton de session et un jeton de sécurité. Il s’agit du mode le plus sécurisé et donc le plus recommandé.
 
 ou
 
-* **via login et mot de passe** Adobe Campaign qui crée un jeton de session. Le jeton de session expire automatiquement après un délai. Ce mode est déconseillé et il demande de réduire les paramètres de sécurité de l&#39;application dans la configuration des zones (allowUserPassword=&quot;true&quot; et sessionTokenOnly=&quot;true&quot;).
+* **via login et mot de passe Adobe Campaign** qui crée un jeton de session. Le jeton de session expire automatiquement après une période définie. Ce mode n&#39;est pas recommandé et nécessite de réduire les paramètres de sécurité de l&#39;application pour certains paramètres de zone (allowUserPassword=« true » et sessionTokenOnly=« true »).
 
 ### Caractéristiques du jeton de session {#session-token-characteristics}
 
@@ -215,7 +215,7 @@ Le jeton de sécurité possède les caractéristiques suivantes :
 * il est stocké dans la console Adobe Campaign
 * lors d&#39;un accès Web :
 
-   * il est stocké dans un document.__securityToken, propriété
+   * il est stocké dans une propriété document.__securityToken
    * les URL de la page sont mises à jour pour actualiser le jeton de sécurité
    * les formulaires sont également mises à jour via un champ caché contenant le jeton
 

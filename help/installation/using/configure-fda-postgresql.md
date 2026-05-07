@@ -5,8 +5,8 @@ description: Découvrez comment configurer l’accès à PostgreSQL
 feature: Installation, Instance Settings
 exl-id: 2c678f45-2555-4647-9885-bd002db7df37
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
-source-wordcount: '359'
+workflow-type: tm+mt
+source-wordcount: '402'
 ht-degree: 100%
 
 ---

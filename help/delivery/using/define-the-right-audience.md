@@ -9,14 +9,14 @@ hide: true
 exl-id: c0533148-b027-4158-9b95-8d2df769e963
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '554'
 ht-degree: 100%
 
 ---
 
-# Définition de l&#39;audience appropriée {#define-the-right-audience}
+# Définition de lʼaudience appropriée {#define-the-right-audience}
 
-La population ciblée est essentielle : créez soigneusement vos listes, testez vos emails sur les clients de messagerie et les appareils mobiles les plus utilisés et vérifiez que vos listes e-mail sont à jour (sans adresses inconnues ou obsolètes). Vous pouvez également envoyer des BAT permettant de configurer un cycle de validation complet.
+La population ciblée est essentielle : créez soigneusement vos listes, testez vos emails sur les clients de messagerie et les appareils mobiles les plus utilisés et vérifiez que vos listes email sont à jour (sans adresses inconnues ou obsolètes). Vous pouvez également envoyer des BAT permettant de configurer un cycle de validation complet.
 
 En savoir plus sur les populations cibles dans cette section dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}.
 
@@ -24,7 +24,7 @@ En savoir plus sur les populations cibles dans cette section dans la [documentat
 
 Lorsque votre contenu est prêt, vous devez soigneusement définir qui recevra votre message.
 
-Pour réussir votre diffusion, vous devez envoyer le contenu personnalisé le plus pertinent aux bons destinataires. Adobe Campaign vous permet de créer la cible la plus précise qui soit : vous pouvez sélectionner les destinataires selon leur âge, leur emplacement géographique, leurs achats ou selon qu’ils ont cliqué ou non sur un lien dans une diffusion précédente, par exemple. Avec Adobe Campaign, vous pouvez également définir des profils de test, des populations témoins et des adresses de contrôle pour vérifier que votre cible est correcte.
+Pour réussir votre diffusion, vous devez envoyer le contenu personnalisé le plus pertinent aux bons destinataires. Adobe Campaign vous permet de créer la cible la plus précise qui soit : vous pouvez sélectionner les personnes destinataires selon leur âge, leur emplacement géographique, leurs achats ou selon qu’elles ont cliqué ou non sur un lien dans une diffusion précédente, par exemple. Avec Adobe Campaign, vous pouvez également définir des profils de test, des groupes de contrôle et des adresses de contrôle pour vous assurer que votre ciblage est correct.
 
 ## Mappings de ciblage {#target-mappings}
 

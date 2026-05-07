@@ -6,9 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Reporting, Monitoring
 exl-id: d133efec-33e1-4711-a90f-e40385059386
 source-git-commit: 5e062f9dbdf6c148e442ac10dbb12cf72ba0179b
-workflow-type: ht
-source-wordcount: '891'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '905'
+ht-degree: 83%
 
 ---
 
@@ -46,7 +46,7 @@ Vous pouvez personnaliser l&#39;affichage et la disposition de vos données dans
 
 ### Mode d&#39;affichage du rapport d&#39;analyse {#analysis-report-display-mode}
 
-Lorsque vous créez un rapport selon le modèle de **[!UICONTROL distribution qualitative]**, les modes d&#39;affichage en tableau et en graphe sont sélectionnés par défaut. Si vous ne souhaitez travailler qu&#39;avec un seul mode d&#39;affichage, décochez la case correspondante. Dans ce cas, seul l&#39;onglet du mode d&#39;affichage conservé est disponible.
+Lorsque vous créez un rapport à partir du modèle **[!UICONTROL distribution qualitative]**, les modes d&#39;affichage tableau et graphique sont sélectionnés par défaut. Si vous ne souhaitez qu&#39;un seul mode d&#39;affichage, décochez la case correspondante. Cela signifie que seul l’onglet du mode d’affichage activé est disponible.
 
 ![](assets/s_ncs_advuser_report_display_01.png)
 
@@ -72,7 +72,7 @@ En revanche, si vous déselectionnez l&#39;option d&#39;affichage des libellés 
 
 ![](assets/s_ncs_advuser_report_display_08.png)
 
-Par défaut les statistiques sont affichées en ligne. Pour modifier l&#39;orientation, sélectionnez l&#39;option adéquate dans la liste déroulante.
+Par défaut, les statistiques sont affichées en ligne. Pour modifier l’orientation, sélectionnez l’option appropriée dans la liste déroulante.
 
 ![](assets/s_ncs_advuser_report_wizard_035a.png)
 
@@ -82,7 +82,7 @@ Dans l&#39;exemple ci-dessous, les statistiques sont affichées en colonnes :
 
 ### Disposition des données dans un rapport d&#39;analyse {#analysis-report-data-layout}
 
-Vous pouvez personnaliser la disposition des données directement dans les tableaux d&#39;analyse descriptive. Pour cela, cliquez avec le bouton droit de la souris sur la variable qui vous intéresse. Choisissez les options disponibles dans le menu contextuel :
+Vous pouvez personnaliser la disposition des données directement dans les tableaux d’analyse descriptive. Pour ce faire, cliquez avec le bouton droit sur la variable que vous souhaitez utiliser. Sélectionnez les options disponibles dans le menu déroulant :
 
 * **[!UICONTROL Pivoter]** pour changer la variable sélectionnée d&#39;axe.
 * **[!UICONTROL Monter]** / **[!UICONTROL Descendre]** pour intervertir les variables qui se trouvent en ligne.
@@ -106,7 +106,7 @@ Les options disponibles sont les suivantes :
 * La section supérieure de la fenêtre permet de modifier la zone d&#39;affichage du graphique.
 * Par défaut, les libellés sont affichés dans le graphique. Vous pouvez les masquer en décochant l&#39;option **[!UICONTROL Afficher les valeurs]**.
 * L&#39;option **[!UICONTROL Cumuler les valeurs]** permet d&#39;additionner les différentes valeurs retournées d&#39;une série à l&#39;autre.
-* Vous pouvez choisir d&#39;afficher ou non la légende du graphe : pour ne pas afficher de légende, désélectionnez l&#39;option correspondante. Par défaut, la légende est affichée en haut à droite, à l&#39;extérieur du graphe.
+* Vous pouvez choisir d&#39;afficher ou non la légende du graphique : pour la masquer, désélectionnez l&#39;option correspondante. Par défaut, la légende s’affiche à l’extérieur du graphique, dans le coin supérieur droit.
 
   La légende peut également être affichée au-dessus du graphique afin d&#39;économiser de l&#39;espace. Pour cela, sélectionnez l&#39;option **[!UICONTROL Inclure dans le graphe]**
 
@@ -131,7 +131,7 @@ Pour découvrir comment enregistrer des analyses descriptives, consultez [Sauveg
 Pour créer des rapports d’analyse descriptive, l’assistant d’analyse descriptive doit être exécuté à partir d’une transition de workflow ou depuis le menu **[!UICONTROL Outils > Analyse descriptive]**.
 
 1. Sélectionnez **[!UICONTROL Analyses et rapports existants]** et cliquez sur **[!UICONTROL Suivant]**.
-1. Vous accédez alors à la liste des rapports disponibles. Sélectionnez un rapport pour le générer.
+1. Vous pouvez ainsi accéder à la liste des rapports disponibles. Sélectionnez le rapport que vous souhaitez générer.
 
    ![](assets/s_ncs_user_report_wizard_01.png)
 
@@ -141,7 +141,7 @@ Lorsque vous créez une analyse descriptive à partir d&#39;une analyse existant
 
 Pour créer un historique, les étapes sont les suivantes :
 
-1. Ouvrez une analyse existante ou créez un rapport d’analyse descriptive.
+1. Ouvrez une analyse existante ou créez un nouvel assistant d’analyse descriptive.
 1. Dans la page d&#39;affichage du rapport, cliquez sur le bouton de création d&#39;un historique dans la barre d&#39;outils, et confirmer votre choix, comme dans l&#39;exemple ci-dessous :
 
    ![](assets/reporting_descriptive_historize_icon.png)

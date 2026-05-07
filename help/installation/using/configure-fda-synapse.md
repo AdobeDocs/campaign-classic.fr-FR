@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: connectors
 exl-id: 59d0277a-7588-4504-94e3-50f87b60da8a
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
-source-wordcount: '757'
+workflow-type: tm+mt
+source-wordcount: '876'
 ht-degree: 100%
 
 ---
@@ -87,7 +87,7 @@ Pour configurer Azure Synapse sur CentOS, procédez comme suit :
    /opt/mssql-tools/bin/sqlcmd -S yourServer -U yourUserName -P yourPassword -q "your query" # for example -q "select 1"
    ```
 
-1. Dans Campaign , vous pouvez ensuite configurer votre compte externe [!DNL Azure Synapse]. Pour plus d’informations sur la configuration de votre compte externe, voir [cette section](#azure-external).
+1. Dans Campaign, vous pouvez ensuite configurer votre compte externe [!DNL Azure Synapse]. Pour plus d’informations sur la configuration de votre compte externe, voir [cette section](#azure-external).
 
 1. Comme Azure Synapse Analytics communique par le biais du port TCP 1433, vous devez l’ouvrir sur votre pare-feu. Utilisez la commande suivante :
 
@@ -197,7 +197,7 @@ Le compte externe [!DNL Azure Synapse] vous permet de connecter l’instance Cam
 
 Pour créer votre compte externe [!DNL Azure Synapse], procédez comme suit :
 
-1. Dans l’**[!UICONTROL Explorateur]** Campaign, cliquez sur **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Plateforme]** &#39;>&#39; **[!UICONTROL Comptes externes]**.
+1. Depuis l&#39;**[!UICONTROL Explorateur]** Campaign, cliquez sur **[!UICONTROL Administration]** &#39;>&#39; **[!UICONTROL Plateforme]** &#39;>&#39; **[!UICONTROL Comptes externes]**.
 
 1. Cliquez sur **[!UICONTROL Nouveau]**.
 
@@ -215,7 +215,7 @@ Pour créer votre compte externe [!DNL Azure Synapse], procédez comme suit :
 
       * **[!UICONTROL Serveur]** : URL du serveur Azure Synapse
 
-      * **[!UICONTROL Compte]** : nom de l&#39;utilisateur
+      * **[!UICONTROL Compte]** : nom de l’utilisateur
 
       * **[!UICONTROL Mot de passe]** : mot de passe du compte d’utilisateur
 

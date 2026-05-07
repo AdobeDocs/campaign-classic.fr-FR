@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: production-procedures
 exl-id: c9d427da-6965-4945-90f0-d0770701d55e
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: ht
-source-wordcount: '445'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '470'
+ht-degree: 95%
 
 ---
 
@@ -31,7 +31,7 @@ Par défaut, le module **syslogd** est installé sur la plateforme Adobe Campai
 
 Les logs des modules multi-instances sont stockés dans le répertoire suivant : **`<installation directory>`/var/default/log/**. Le même fichier journal est partagé par toutes les instances (**web.log**, par exemple).
 
-Les logs des autres modules sont stockés dans un sous-dossier du nom de l&#39;instance. Chaque instance possède ses propres fichiers de log.
+Les journaux des autres modules sont stockés dans un sous-dossier nommé en fonction de l’instance . Chaque instance possède ses propres fichiers journaux.
 
 Les fichiers de log multi-instances sont listés dans le tableau suivant :
 

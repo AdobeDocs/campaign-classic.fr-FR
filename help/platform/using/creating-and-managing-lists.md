@@ -7,9 +7,9 @@ role: User
 level: Beginner
 exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
 source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
-workflow-type: ht
-source-wordcount: '93'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 62%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 100%
 
 
 
-## Qu’est-ce qu’une liste ?  {#about-lists-in-adobe-campaign}
+## Qu’est-ce qu’une liste ? {#about-lists-in-adobe-campaign}
 
-Une liste est un ensemble statique de profils qui peut être ciblé dans les actions de diffusion ou mis à jour lors d’opérations d’import ou lors de l’exécution d’un workflow. Par exemple, une population extraite de la base via une requête peut alimenter une liste.
+Une liste est un ensemble statique de profils qui peut être ciblé dans les actions de diffusion ou mis à jour lors des opérations d&#39;import ou lors de l&#39;exécution du workflow. Par exemple, une population extraite de la base de données via une requête peut fournir une liste.
 
 Les listes sont créées et gérées à partir du lien **[!UICONTROL Listes]** dans l’onglet **[!UICONTROL Profils et cibles]**.
 

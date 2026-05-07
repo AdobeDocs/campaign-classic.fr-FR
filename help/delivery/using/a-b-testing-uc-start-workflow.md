@@ -1,14 +1,14 @@
 ---
 product: campaign
 title: Démarrez le workflow.
-description: Découvrez comment effectuer des tests AB à lʼaide dʼun cas dʼutilisation spécifique.
+description: Découvrez comment effectuer des tests A/B à lʼaide dʼun cas dʼutilisation spécifique
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: A/B Testing
 role: User
 exl-id: 9528b67a-8ba7-45d6-a2c0-06ac117d5324
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '97'
+workflow-type: tm+mt
+source-wordcount: '98'
 ht-degree: 100%
 
 ---

@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Prise en main des upgrades de build
-description: Découvrez les étapes principales d'un upgrade vers un nouveau build
+title: Prise en main des mises à niveau de build
+description: Découvrez les étapes principales d’une mise à niveau vers un nouveau build
 feature: Monitoring, Upgrade
 badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 audience: production
@@ -10,18 +10,18 @@ topic-tags: updating-adobe-campaign
 exl-id: c5a9c99a-4078-45d8-847b-6df9047a2fe2
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
-source-wordcount: '2324'
-ht-degree: 100%
+source-wordcount: '2422'
+ht-degree: 84%
 
 ---
 
-# Réalisation d&#39;un upgrade de build{#performing-a-build-upgrade}
+# Réalisation d’une mise à niveau de build{#performing-a-build-upgrade}
 
 
 
-Cette section présente la procédure détaillée pour réaliser un upgrade et les étapes nécessaires pour identifier et résoudre les conflits.
+Cette section présente la procédure détaillée pour réaliser une mise à niveau et les étapes nécessaires pour identifier et résoudre les conflits.
 
-L&#39;upgrade du build doit être effectué avec précaution. Les effets de l&#39;upgrade doivent être entièrement étudiés au préalable et la procédure doit être suivie à la lettre. Pour garantir la réussite d&#39;un upgrade, veillez à ce que seuls les utilisateurs experts effectuent la procédure décrite ci-dessous. De plus, il est vivement recommandé de contacter l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) avant de commencer un upgrade.
+La mise à niveau de la build doit être effectuée avec précaution, ses impacts doivent être entièrement pris en compte au préalable et la procédure doit être menée à bien avec un haut niveau de discipline. Pour garantir une mise à niveau réussie, assurez-vous que seuls des utilisateurs experts effectuent les étapes décrites ci-dessous. De plus, il est vivement recommandé de contacter l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) avant de commencer une mise à niveau.
 
 Les prérequis suivants doivent être remplis :
 
@@ -31,56 +31,56 @@ Les prérequis suivants doivent être remplis :
 
 Vous trouverez plus d’informations dans ces sections : [Mise à jour d’Adobe Campaign](../../production/using/upgrading.md), [Migration vers une nouvelle version](../../migration/using/about-migration.md).
 
-Pour les instances hybrides et hébergées, vous devez demander une mise à niveau de version à l&#39;équipe d&#39;exploitation technique Adobe. Pour plus d&#39;informations, reportez-vous à la section Questions fréquentes située au bas de cette page. Consultez également le [FAQ sur la mise à niveau des builds](../../platform/using/faq-build-upgrade.md).
+Pour les instances hybrides et hébergées, vous devez demander un upgrade de build à l&#39;équipe d&#39;exploitation technique Adobe. Pour plus d’informations, consultez la section Forum aux questions située au bas de cette page. Consultez également le [FAQ sur la mise à niveau des builds](../../platform/using/faq-build-upgrade.md).
 
-## Préparer l&#39;upgrade
+## Préparer la mise à niveau
 
 ![](assets/do-not-localize/icon_planification.png)
 
-Avant de commencer l&#39;upgrade de build, vous devez effectuer une préparation complète, comme décrit ci-après.
-Une fois le système prêt, un upgrade de build dure **au moins** 2 heures.
+Avant de commencer la mise à niveau de build, vous devez effectuer une préparation complète, comme décrit ci-après.
+Une fois que le système prêt, une mise à niveau dure **au moins** 2 heures.
 
-L&#39;upgrade de build requiert les ressources suivantes :
+La mise à niveau de build requiert les ressources suivantes :
 
 * Un architecte Adobe : pour comprendre les structures de base de données (schémas d&#39;usine et autres schémas ajoutés, conceptions de campagnes et fonctionnalités de chemin critique devant être démarrées et testées dans un ordre spécifique).
-* Un chef de projet : dans le cas où l&#39;upgrade de build implique plusieurs instances différentes (production, staging, test) et d&#39;autres serveurs et applications tiers (bases de données, sites SFTP, fournisseurs de services de messagerie), il est recommandé de faire appel à un chef de projet pour coordonner tous les tests.
-* Un administrateur Adobe Campaign : votre administrateur connaît la configuration du serveur, notamment : la sécurité, la disposition des dossiers, le reporting et les exigences en matière d&#39;import et d&#39;export. N&#39;effectuez pas d&#39;upgrade de build sans l&#39;aide de votre administrateur.
-* Un opérateur Adobe Campaign (utilisateur marketing) : la réussite d&#39;un upgrade dépend de la capacité d&#39;un utilisateur à effectuer correctement ses tâches quotidiennes. Pour cette raison. incluez , toujours au moins un de vos opérateurs quotidiens dans vos tests des serveurs mis à jour.
+* Un chef de projet : dans le cas où la mise à niveau de build implique plusieurs instances différentes (production, intermédiaire, test) et d’autres serveurs et applications tiers (bases de données, sites SFTP, fournisseurs de services de messagerie), il est recommandé de faire appel à un chef de projet pour coordonner tous les tests.
+* un administrateur Adobe Campaign : votre administrateur connaît la configuration du serveur, notamment : la sécurité, la disposition des dossiers, le compte rendu des performances et les exigences en matière d’import et d’export. N&#39;effectuez pas de mise à niveau de build sans l&#39;aide de votre administrateur.
+* un opérateur ou une opératrice Adobe Campaign (utilisateur ou utilisatrice marketing) : la réussite d’une mise à niveau dépend de la capacité de l’utilisateur ou de l’utilisatrice à effectuer correctement ses tâches quotidiennes. Pour cette raison, incluez toujours au moins un de vos opérateurs quotidiens dans vos tests des serveurs mis à niveau.
 
 ### Planification
 
-Voici les points essentiels pour planifier un upgrade de build :
+Voici les points essentiels pour planifier une mise à niveau de build :
 
-1. Réservez au moins deux heures à l&#39;upgrade.
+1. Réservez au moins deux heures à la mise à niveau.
 1. Communiquez les coordonnées de l&#39;équipe Adobe et du personnel du client.
-1. Pour les instances hébergées : l&#39;équipe Adobe et le personnel du client coordonneront l&#39;heure et le responsable de l&#39;exécution de l&#39;upgrade.
+1. Pour les instances hébergées : l’équipe Adobe et le personnel du client coordonneront l’heure et le responsable de l’exécution de la mise à niveau.
 1. Pour les instances on-premise : le personnel du client gère la totalité du processus. S&#39;il a besoin d&#39;aide pour les tests des workflows personnalisés et la logique des diffusions, il doit faire appel aux services de consulting.
-1. Déterminez et confirmez la version vers laquelle vous souhaitez mettre à jour Adobe Campaign. Consultez les [notes de mise à jour d&#39;Adobe Campaign Classic](../../rn/using/rn-overview.md).
-1. Vérifiez que vous possédez les exécutables pour l&#39;upgrade.
+1. Déterminez et confirmez la version vers laquelle vous souhaitez mettre à niveau Adobe Campaign. Consultez les [notes de mise à jour d’Adobe Campaign Classic](../../rn/using/rn-overview.md)
+1. Vérifiez que vous possédez les exécutables pour la mise à niveau.
 
 ### Acteurs clés
 
-L&#39;upgrade de build requiert l&#39;implication des personnes suivantes :
+La mise à niveau de build requiert l’implication des personnes suivantes :
 
 * Architecte Adobe : l’architecte doit se charger de la coordination avec l’assistance clientèle d’Adobe Campaign en cas d’architecture hébergée ou hybride.
 
 * Chef de projet :
-   * Pour les installations On Premise : le chef de projet interne du client dirige l&#39;upgrade et gère les tests de cycle de vie.
+   * Pour les installations On Premise : le chef de projet interne du client dirige la mise à niveau et gère les tests de cycle de vie.
 
-   * pour les installations hébergées : l&#39;équipe d&#39;hébergement s&#39;associera à l&#39;équipe de l&#39;Assistance clientèle d’Adobe Campaign et au client pour coordonner le calendrier de l’upgrade pour toutes les instances.
+   * Pour les installations hébergées : l’équipe d’hébergement s’associera à l’équipe de l’Assistance clientèle Adobe Campaign et au client pour coordonner la chronologie de la mise à niveau pour toutes les instances.
 
 * Administrateur Adobe Campaign :
-   * Pour les installations On-Premise : l&#39;administrateur effectue l&#39;upgrade.
+   * Pour les installations On-Premise : l’équipe chargée de l’administration effectue la mise à niveau.
 
-   * Pour les installations hébergées : l&#39;équipe chargée de l&#39;hébergement effectue l&#39;upgrade.
+   * Pour les installations hébergées : l’équipe chargée de l’hébergement effectue la mise à niveau.
 
 * Opérateur Adobe Campaign\utilisateur marketing : l&#39;opérateur effectue des tests sur les instances de développement, de test et de production.
 
-### Préparer l&#39;upgrade de build
+### Préparer la mise à niveau de build
 
-Avant de commencer l&#39;upgrade de build, les clients On-Premise doivent effectuer la préparation suivante :
+Avant de commencer la mise à niveau de build, les clients On-Premise doivent effectuer la préparation suivante :
 
-1. Vérifiez que tout travail de développement peut être exporté avant l&#39;upgrade. Exportez-le sous la forme de packages.
+1. Vérifiez que tout travail de développement peut être exporté avant la mise à niveau. Exportez-le sous la forme de packages.
 
 1. Effectuez une sauvegarde complète des bases de données pour toutes les instances des environnements source et cible.
 
@@ -88,7 +88,7 @@ Avant de commencer l&#39;upgrade de build, les clients On-Premise doivent effect
 
 1. [Téléchargez le dernier build](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html). [En savoir plus](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=fr).
 
-Vous devez également connaître toutes les [lignes de commande utiles](../../installation/using/command-lines.md) avant de commencer un upgrade de build :
+Vous devez également connaître [toutes les lignes de commande utiles](../../installation/using/command-lines.md) avant de commencer une mise à niveau de build :
 
 * **nlserver pdump** : répertorie les processus en cours d&#39;exécution.
 * **nlserver pdump -who** : répertorie les sessions clientes actives.
@@ -99,7 +99,7 @@ Vous devez également connaître toutes les [lignes de commande utiles](../../in
 * **nlserver shutdown** : arrête tous les processus de Campaign.
 * **nlserver watchdog -svc** : démarre le processus watchdog (UNIX uniquement).
 
-## Réaliser l&#39;upgrade
+## Réaliser la mise à niveau
 
 ![](assets/do-not-localize/icon_process.png)
 
@@ -107,7 +107,7 @@ Seuls les clients **On-Premise** doivent suivre ces procédures. Pour les client
 
 ### Dupliquer l&#39;environnement
 
-Cette section décrit comment dupliquer un environnement Adobe Campaign, afin de restaurer un environnement-source dans un environnement-cible, et ainsi disposer de deux environnements de travail identiques.
+Cette section décrit comment dupliquer un environnement Adobe Campaign, afin de restaurer un environnement source dans un environnement cible, et ainsi disposer de deux environnements de travail identiques.
 
 Pour ce faire, procédez comme suit :
 
@@ -115,7 +115,7 @@ Pour ce faire, procédez comme suit :
 
 1. Restaurez ces copies sur toutes les instances de l&#39;environnement-cible.
 
-1. Exécutez le script de cautérisation **nms:freezeInstance.js** sur l&#39;environnement-cible avant sa mise en route (cela permettra l&#39;arrêt de tous les processus qui interagissent avec l&#39;extérieur : logs, tracking, diffusions, workflows de campagne, etc.).
+1. Exécutez le script de cautérisation **nms:freezeInstance.js** sur l’environnement cible avant de le démarrer. (cela permettra l&#39;arrêt de tous les processus qui interagissent avec l&#39;extérieur : logs, tracking, diffusions, workflows de campagne, etc.).
 
    ```
    nlserverjavacsriptnms:freezeInstance.js–instance:<dev> -arg:run
@@ -156,7 +156,7 @@ Afin de pouvoir remplacer tous les fichiers par la nouvelle version, il est néc
    >Assurez-vous que le serveur de redirection (webmdl) est arrêté afin que le fichier nlsrvmod.dll, qui est utilisé par IIS, puisse être remplacé par la nouvelle version.
    >
 
-1. Assurez-vous qu&#39;aucune tâche n&#39;est active à l&#39;aide de la commande **nlserver pdump**. Si aucune tâche n&#39;est active, la sortie doit ressembler à celle-ci :
+1. Vérifiez qu’aucune tâche n’est active en exécutant la commande **nlserver pdump**. S’il n’existe aucune tâche, la sortie doit ressembler à ce qui suit :
 
    ```
    C:\<installation path>\bin>nlserverpdump HH:MM:SS > Application Server for Adobe Campaign version x.x (build xxx) dated xx/xx/xxxx No tasks
@@ -164,9 +164,9 @@ Afin de pouvoir remplacer tous les fichiers par la nouvelle version, il est néc
 
 1. Vérifiez le Gestionnaire de tâches de Windows afin de vous assurer que tous les processus sont arrêtés.
 
-### Mettre à jour l&#39;application serveur Adobe Campaign
+### Mettre à niveau l’application serveur Adobe Campaign
 
-1. Exécutez le fichier **Setup.exe**. Si vous devez télécharger ce fichier, accédez [au Centre de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/fr/campaign.html).
+1. Exécutez le fichier **Setup.exe**. Si vous devez télécharger ce fichier, accédez [au Centre de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html).
 
 1. Sélectionnez le mode d&#39;installation : **Mise à jour** ou **Réparation**.
 
@@ -224,7 +224,7 @@ Pour effectuer la mise à jour vers un nouveau build, certaines configurations i
 
 #### Messages transactionnels
 
-Si les messages transactionnels (Message Center) sont activés sur votre instance Campaign, vous devez effectuer les étapes supplémentaires ci-après dans le cadre de l&#39;upgrade :
+Si les messages transactionnels (Message Center) sont activés sur votre instance Campaign, vous devez effectuer les étapes supplémentaires ci-après dans le cadre de la mise à niveau :
 
 1. Mettez à jour le serveur de production Message Center vers la version choisie.
 1. Exécutez le script de postupgrade.
@@ -237,8 +237,8 @@ Si les messages transactionnels (Message Center) sont activés sur votre instanc
    * Mettez à jour la base de données
    * Déconnectez-vous puis reconnectez-vous
    * Importez le package Admin
-   * Importez le package Content
-   * Importez le package Content Management
+   * Importez le module de contenu
+   * Importez le package de gestion de contenu
    * Déconnectez-vous puis reconnectez-vous
    * Réalisez un contrôle d&#39;intégrité rapide des workflows
 
@@ -248,10 +248,10 @@ Si les messages transactionnels (Message Center) sont activés sur votre instanc
 
 #### Mid-sourcing
 
-Dans le contexte d&#39;un environnement de mid-sourcing, vous devez effectuer les étapes supplémentaires ci-après dans le cadre de l&#39;upgrade :
+Dans le contexte d’un environnement de mid-sourcing, vous devez effectuer les étapes supplémentaires ci-après dans le cadre de la mise à niveau :
 
-1. Contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour coordonner l&#39;upgrade du serveur de mid-sourcing.
-1. Vérifiez que la version a été mise à jour en exécutant un lien de test, par exemple :
+1. Contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour coordonner la mise à niveau du serveur de mid-sourcing.
+1. Vérifiez que la version a été mise à jour en exécutant un lien de test, Par exemple :
 
    ```
    http://[InsertServerURL]/r/test
@@ -266,9 +266,9 @@ Dans le contexte d&#39;un environnement de mid-sourcing, vous devez effectuer le
 
 ### Identifier les conflits
 
-Vous devez vérifier le résultat de la synchronisation. Cette procédure ne doit être suivie que par les clients on-premise. Pour les clients hébergés, elle est gérée par l&#39;équipe d&#39;hébergement. Le résultat de la synchronisation peut être consulté de deux manières différentes :
+Vous devez vérifier le résultat de la synchronisation. Cette procédure est effectuée uniquement par les clients On-Premise. Pour les clients hébergés, elles sont gérées par l&#39;équipe d&#39;hébergement. Le résultat de la synchronisation peut être consulté de deux manières différentes :
 
-Depuis l&#39;invite de commandes, les erreurs sont matérialisées par un triple chevron &#39;>>>&#39; et la synchronisation s&#39;interrompt immédiatement. Les avertissements sont signalés par un double chevron &#39;>>&#39; et doivent être résolus lorsque le processus de synchronisation est terminé. À la fin du postupgrade, un résumé est affiché dans l&#39;invite de commande. Par exemple :
+Dans l&#39;interface de ligne de commande, les erreurs sont matérialisées par un triple chevron &#39;>>>&#39; et la synchronisation s&#39;arrête automatiquement. Les avertissements sont signalés par un double chevron « >> » et doivent être résolus une fois la synchronisation terminée. A la fin du postupgrade, un résumé est affiché dans l&#39;invite de commande. Par exemple :
 
 ```
 YYYY-MM-DD HH:MM:SS.749Z 00002E7A 1 info log =========Summary of the update==========
@@ -289,14 +289,14 @@ Le fichier de **postupgrade_ServerVersionNumber_TimeOfPostupgrade.log** contient
 
 Il est possible de détecter des conflits dans le fichier postupgrade.log situé sur le serveur en question ou dans l&#39;interface du client Campaign (Administration > Paramétrage > Gestion des packages > Edition des conflits).
 
-Le document ayant l&#39;identifiant ‘stockOverview&#39; et le type ‘nms:webApp&#39; est en conflit avec la nouvelle version.
+Le document d&#39;identifiant &#39;stockOverview&#39; et de type &#39;nms:webApp&#39; est en conflit avec la nouvelle version.
 
 Lorsqu&#39;un conflit est détecté, vérifiez si les conditions suivantes sont remplies :
 
 * L&#39;objet a-t-il été modifié ou personnalisé par le client ?
 * L&#39;objet a-t-il changé dans le produit ?
 
-Si aucune de ces deux conditions n&#39;est applicable, il s&#39;agit d&#39;un faux positif. Si ces deux conditions sont applicables, un conflit réel a été détecté.
+Si aucune de ces conditions ne s’applique, il s’agit d’un faux positif. Si ces deux conditions s&#39;appliquent, un véritable conflit a été constaté.
 
 **L&#39;objet a-t-il été modifié par le client ?**
 
@@ -304,12 +304,12 @@ Si aucune de ces deux conditions n&#39;est applicable, il s&#39;agit d&#39;un fa
 1. Demandez au client s&#39;il a modifié l&#39;objet.
 1. L&#39;examen de l&#39;objet relève-t-il une anomalie ?
 1. La date de dernière modification est-elle définie dans le code de l&#39;objet ?
-1. Examinez le code XML depuis le conflit pour les attributs “_conflict”. Peut-il s&#39;agir d&#39;une personnalisation ?
+1. Examinez le code XML du conflit pour trouver les attributs « _Conflict ». Ressemble-t-il à une personnalisation ?
 
 **L&#39;objet a-t-il changé dans le nouveau build ?**
 
-1. Existe-t-il des « suspects habituels » tels que des applications web ou des rapports intégrés (&#39;deliveryValidation&#39;, &#39;deliveryOverview&#39; ou &#39;budget&#39;, par exemple).
-1. Recherchez des mises à jour dans les journaux des modifications.
+1. Des « suspects habituels ? » Applications Web ou rapports natifs (ex : &#39;deliveryValidation&#39;, &#39;deliveryOverview&#39;, &#39;budget&#39;).
+1. Recherchez des mises à jour dans les logs des modifications.
 1. Renseignez-vous auprès des utilisateurs experts d’Adobe Campaign.
 1. Comparez les versions du code pour rechercher des différences avec la commande diff.
 
@@ -331,7 +331,7 @@ Il existe trois façons de résoudre un conflit : **accepter la nouvelle versio
 
 * Lorsque vous disposez de personnalisations.
 * Lorsque vous ne souhaitez pas effectuer de fusion.
-* Lorsque vous n&#39;avez pas besoin de correctifs pour l&#39;objet en conflit depuis l&#39;upgrade.
+* Lorsque vous n’avez pas besoin de correctifs pour l’objet en conflit depuis la mise à niveau.
 
 **Dans quels cas effectuer une fusion ?**
 
@@ -343,7 +343,7 @@ Il existe trois façons de résoudre un conflit : **accepter la nouvelle versio
 **Que se passe-t-il si vous ignorez les conflits ?**
 
 * Le conflit existe toujours.
-* L&#39;objet n&#39;est pas mis à niveau.
+* L’objet n’est pas mis à niveau.
 * Effets à long terme : incompatibilités de versions, client ne tirant pas parti des correctifs.
 
 >[!IMPORTANT]
@@ -355,9 +355,9 @@ Il existe trois façons de résoudre un conflit : **accepter la nouvelle versio
 Il existe différents types de fusions :
 
 1. Fusion simple : les éléments nouveaux et personnalisés sont petits et non liés, et aucun code n&#39;est nécessaire.
-1. Aucune modification : acceptation de la nouvelle version, seule la date de dernière mise à jour a été modifiée, seuls les commentaires, les onglets, les espaces et les nouvelles lignes ont été changés (enregistrement accidentel, par exemple).
-1. Modifications négligeables : seule une ligne a été modifiée, par exemple xpathToLoad.
-1. Fusion complexe : lorsque du code est requis. Des compétences en développement sont nécessaires. Voir [Fusion complexes](#complex-merges).
+1. Aucune modification : acceptez la nouvelle version, seule la date de dernière mise à jour a été modifiée, seuls les commentaires, onglets, espaces ou nouvelles lignes ont été modifiés. Exemple : enregistrement accidentel.
+1. Modifications mineures : une seule ligne a été modifiée. Exemple : xpathToLoad
+1. Fusion complexe : lorsque le codage est requis. Des compétences de développement sont nécessaires. Voir [Fusion complexes](#complex-merges).
 
 #### Comment fusionner ?
 
@@ -369,7 +369,7 @@ Il existe différents types de fusions :
 #### Où trouver le code ?
 
 1. Le code intégré est stocké dans des fichiers XML dans le dossier datakit. Recherchez le fichier XML qui correspond à l&#39;objet en conflit, par exemple : DossierInstallation\datakit\nms\fra\form\recipient.xml
-1. Récupérez la version d&#39;origine : via le [centre de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) ou une autre installation non mise à niveau du produit.
+1. Récupérez la version d’origine : via le [centre de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) ou une autre installation non mise à niveau du produit.
 1. Récupérez la nouvelle version : via le [centre de téléchargement](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) ou les fichiers installés par le client.
 1. Récupérez la version personnalisée : récupérez le code source de l&#39;objet depuis le client Campaign.
 
@@ -389,7 +389,7 @@ Il existe différents types de fusions :
 
 Si vous choisissez de résoudre le conflit manuellement, procédez comme suit :
 
-1. Dans la partie inférieure de la fenêtre, faites une recherche sur la **_conflict_string_** pour localiser les entités en conflit. L&#39;entité installée avec la nouvelle version contient l&#39;argument new, l&#39;entité correspondant à la version précédente contient l&#39;argument custom.
+1. Dans la section inférieure de la fenêtre, recherchez l’**_Conflict_string_** pour localiser les entités en conflit. L&#39;entité installée avec la nouvelle version contient le nouvel argument, l&#39;entité correspondant à la version précédente contient l&#39;argument personnalisé.
 1. Supprimez la version que vous ne souhaitez pas conserver. Effacez la chaîne **_conflict_argument_** de l&#39;entité que vous gardez.
 1. Positionnez-vous sur le conflit que vous venez de résoudre. Cliquez sur l&#39;icône **Actions** et sélectionnez **Déclarer comme résolu**.
 1. Enregistrez vos modifications : le conflit est désormais résolu.
@@ -416,7 +416,7 @@ Voici la procédure pour effectuer une fusion complexe :
 
 **Rubriques connexes :**
 
-* [FAQ sur la mise à niveau des builds](../../platform/using/faq-build-upgrade.md)
-* [Notes de mise à jour de Campaign Classic ](../../rn/using/rn-overview.md)
+* [FAQ sur la mise à niveau de build](../../platform/using/faq-build-upgrade.md)
+* [Notes de mise à jour de Campaign Classic](../../rn/using/rn-overview.md)
 * [Options d&#39;aide et de support pour Campaign Classic](../../support.md)
 * [Programme de mise à niveau annuelle de Campaign](../../rn/using/rn-overview.md)

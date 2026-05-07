@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
 source-git-commit: ab38c7fd45513c6f7a8ecf7ef8601f0b5a4b5757
-workflow-type: ht
-source-wordcount: '1118'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1150'
+ht-degree: 89%
 
 ---
 
@@ -54,7 +54,7 @@ Pour installer Adobe Campaign sur un système d’exploitation RPM (RHEL, CentO
    yum install nlserver6-v7-XXXX-0.x86_64.rpm
    ```
 
-   Le fichier rpm possède des dépendances dans les packages des distributions CentOS/Red Hat. Si vous ne souhaitez pas employer certaines de ces dépendances (par exemple, si vous souhaitez utiliser Oracle JDK au lieu d’OpenJDK), vous devrez peut-être utiliser l&#39;option « nodeps » du fichier rpm :
+   Le fichier rpm possède des dépendances sur les packages que vous pouvez trouver sur les distributions CentOS/Red Hat. Si vous ne souhaitez pas utiliser certaines de ces dépendances (par exemple, si vous souhaitez utiliser le JDK Oracle au lieu d’OpenJDK), vous devrez peut-être utiliser l’option « nodeps » de rpm :
 
    ```sql
    rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
@@ -157,7 +157,7 @@ Au besoin, éditez le fichier **customer.sh** à l&#39;aide de la commande **vi 
 
 * Pour LibreOffice :
 
-  Si vous souhaitez faire fonctionner Adobe Campaign sur une version de LibreOffice existante, une configuration complémentaire est nécessaire : vous devez indiquer les chemins d&#39;accès aux répertoires d&#39;installation. Par exemple :
+  Pour exécuter Adobe Campaign sur une version de LibreOffice existante, des paramétrages additionnels sont nécessaires : vous devez indiquer les chemins d&#39;accès au répertoire d&#39;installation. Par exemple :
 
    * Debian
 
@@ -211,7 +211,7 @@ Lorsque vous utilisez Oracle avec Adobe Campaign, vous devez configurer les cou
 * Utilisez la version cliente complète
 * Définition TNS
 
-  Vous devez ajouter vos définitions TNS lors de la phase d&#39;installation. Pour cela, les commandes sont les suivantes :
+  Les définitions TNS doivent être ajoutées pendant la phase d&#39;installation. Pour cela, les commandes sont les suivantes :
 
   ```sql
   cd /etc
@@ -309,6 +309,6 @@ Les informations affichées sont alors les suivantes :
 
 ## Mot de passe de l&#39;identifiant internal {#password-for-the-internal-identifier}
 
-Le serveur Adobe Campaign définit un identifiant (ou &#39;login&#39;) technique nommé **internal** qui possède tous les droits, sur toutes les instances. Après une installation récente, cet identifiant n&#39;a pas de mot de passe. Il est obligatoire d&#39;en définir un.
+Le serveur Adobe Campaign définit un identifiant (ou login) technique nommé **internal** qui possède tous les droits, sur toutes les instances. Juste après l&#39;installation, le login n&#39;a pas de mot de passe. Il est obligatoire d’en définir un.
 
 En savoir plus dans [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).

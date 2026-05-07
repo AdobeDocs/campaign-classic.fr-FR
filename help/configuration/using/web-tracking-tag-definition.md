@@ -6,9 +6,9 @@ feature: Application Settings
 role: Developer
 exl-id: 0b5575be-57e7-4eee-9c0a-e9ef4b0931bf
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
-source-wordcount: '332'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '362'
+ht-degree: 66%
 
 ---
 
@@ -78,7 +78,8 @@ Le tableau ci-dessous donne la liste des paramètres spéciaux supportés par le
                               <p>paramètre d'URL</p> 
                            </td>
                            <td>
-                              <p>Identifiant de diffusion à utiliser s'il n'y a pas de cookie de session. Cette valeur est à exprimer en base 16.
+                              <p>Identifiant de la diffusion à utiliser en l'absence de cookie de session. Cette valeur doit être
+                                 exprimé en hexadécimal.
                               </p> 
                            </td> 
                         </tr>
@@ -90,7 +91,9 @@ Le tableau ci-dessous donne la liste des paramètres spéciaux supportés par le
                               <p>paramètre d'URL</p> 
                            </td>
                            <td>
-                              <p>Paramètre permettant d'identifier l'internaute. Le format de ce paramètre est "nom=valeur", nom étant un champ du schéma des destinataires. Ce paramètre est prioritaire sur l'identifiant contenu dans le cookie de session.
+                              <p>Paramètre utilisé pour identifier l'internaute. Le format de ce paramètre est « name=value »,
+                                 où le nom est un champ du schéma des destinataires. Ce paramètre a la priorité sur
+                                 identifiant contenu dans le cookie de session.
                               </p> 
                            </td> 
                         </tr> 
@@ -105,23 +108,23 @@ Le tableau ci-dessous donne la liste des paramètres spéciaux supportés par le
 
 * Collecte des informations relatives au chiffre d&#39;affaires
 
-  **https://myserver.adobe.com/r/4567?tagid=command&amp;amount=100&amp;article=2l**
+  **https://myserver.adobe.com/r/4567?tagid=command&amount=100&article=2l**
 
 * Spécification d&#39;un champ pour retrouver le destinataire
 
-  **https://myserver.adobe.com/r/2353?tagid=home&amp;rcpid=saccount%3D10**
+  **https://myserver.adobe.com/r/2353?tagid=home&rcpid=saccount%3D10**
 
   Un destinataire dont le numéro de compte est 10 est passé sur la page d&#39;accueil.
 
 * Utilisation d&#39;une diffusion par défaut
 
-  **https://myserver.adobe.com/r/2456?tagid=home&amp;jobid=e6**
+  **https://myserver.adobe.com/r/2456?tagid=home&jobid=e6**
 
-  Un destinataire est passé sur la page d&#39;accueil. Cette information sera stockée dans la diffusion dont l&#39;identifiant est 230 (soit e6 en base 16), si aucun cookie de session contenant un identifiant de diffusion n&#39;est envoyé avec cette requête.
+  Un destinataire est envoyé à la page d’accueil. Ces informations seront stockées dans la diffusion d&#39;identifiant 230 (e6 dans la base de données 16) sauf si un cookie de session contenant un identifiant de diffusion est envoyé avec cette requête.
 
 >[!NOTE]
 >
->Toutes les valeurs transmises au serveur de redirection via des paramètres d&#39;URL doivent être URL-encodées. Dans les exemples fournis, vous remarquerez que les caractères &#39;=&#39; et &#39;|&#39; sont respectivement encodés en &#39;%3D&#39; et &#39;%7C&#39;.
+>Toutes les valeurs envoyées au serveur de redirection via les paramètres d&#39;URL doivent être encodées en URL. Dans les exemples donnés, notez que les caractères &#39;=&#39; et &#39;|&#39; sont codés respectivement en &#39;%3D&#39; et &#39;%7C&#39;.
 
 ## Méthodes de transmission des données {#data-transmission-methods}
 

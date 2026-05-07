@@ -8,9 +8,9 @@ feature: Seed Address
 level: Intermediate, Experienced
 exl-id: a16103bf-0498-4f59-ad96-8bfdeea26577
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
-source-wordcount: '333'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '336'
+ht-degree: 83%
 
 ---
 
@@ -52,7 +52,7 @@ Les étapes sont les suivantes :
    name="custom_customNamespace_customSchema"
    ```
 
-   Cet élément doit contenir les champs nécessaires à l&#39;export des campagnes. Ces champs doivent porter le même nom que les champs correspondants du schéma externe. Par exemple, si le schéma est **[!UICONTROL cus:person]**, le schéma **[!UICONTROL nms:seedMember]** devra être étendu comme dans l’exemple suivant :
+   Cet élément doit contenir les champs nécessaires à l&#39;export des campagnes. Ces champs doivent porter le même nom que les champs correspondants dans le schéma externe. Par exemple, si le schéma est **[!UICONTROL cus:person]**, le schéma **[!UICONTROL nms:seedMember]** devra être étendu comme dans l’exemple suivant :
 
    ```
      <srcSchema extendedSchema="nms:seedMember" label="Seed addresses" labelSingular="Seed address" name="seedMember" namespace="cus">
@@ -78,7 +78,7 @@ Les étapes sont les suivantes :
    >
    >    
    >    
-   >    * Lors de l’extension, vous devez obligatoirement préciser un **nom SQL (@sqlname)** pour le champ « email ». Le nom SQL doit être différent de « sEmail » qui est réservé pour le schéma des personnes destinataires.
+   >    * Pendant l’extension, vous devez spécifier un **nom SQL (@sqlname)** pour le champ « e-mail ». Le nom SQL doit être différent de &#39;sEmail&#39; qui est réservé au schéma des destinataires.
    >    * Vous devez impérativement mettre à jour la structure de la base de données avec le schéma créé lors de l’extension de **nms:seedMember**.
    >    * Dans l’extension **nms:seedMember**, le champ contenant l’adresse e-mail doit avoir comme attribut **name=&quot;email&quot;**. Le nom SQL doit être différent de « sEmail » qui est déjà utilisé pour le schéma des personnes destinataires. Cet attribut doit être immédiatement déclaré sous l’élément **`<element name="custom_cus_person" />`**.
    >    

@@ -9,7 +9,7 @@ exl-id: ae6eb4b0-b419-4661-9d63-e758f0242a0f
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
 source-wordcount: '355'
-ht-degree: 100%
+ht-degree: 59%
 
 ---
 
@@ -25,7 +25,7 @@ Trois modes d&#39;insertion sont possibles :
 
 1. Vous pouvez saisir les adresses de contrôle.
 
-   Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter]** et définissez le contenu des champs de l&#39;adresse. Répétez l&#39;opération pour chaque adresse à ajouter.
+   Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter]** et définissez le contenu des champs de l&#39;adresse. Répétez l’opération pour chaque adresse.
 
 1. Vous pouvez importer des modèles d&#39;adresses que vous pourrez adapter selon vos besoins.
 
@@ -35,17 +35,17 @@ Trois modes d&#39;insertion sont possibles :
 
 1. Vous pouvez créer une condition pour sélectionner dynamiquement les adresses de contrôle à insérer.
 
-   Pour cela, cliquez sur le lien **[!UICONTROL Editer la condition dynamique...]**, puis indiquez les paramètres de sélection des adresses de contrôle. Vous pouvez par exemple inclure toutes les adresses de contrôle contenues dans un dossier spécifique ou les adresses de contrôle appartenant à un service particulier de votre société.
+   Pour cela, cliquez sur le lien **[!UICONTROL Modifier la condition dynamique...]**, puis renseignez les paramètres de sélection des adresses de contrôle. Par exemple, vous pouvez inclure toutes les adresses de contrôle contenues dans un dossier spécifique ou les adresses de contrôle appartenant à un service spécifique de votre entreprise.
 
    Vous trouverez un exemple dans la section : [Cas pratique : sélectionner des adresses de contrôle selon des critères](use-case-selecting-seed-addresses-on-criteria.md).
 
 >[!NOTE]
 >
->Cette option est notamment utilisée lorsque la table des destinataires utilisée n’est pas la table par défaut **nms:recipient** et que vous utilisez la fonctionnalité d’Inbox Rendering fournie avec le module de **[!UICONTROL Délivrabilité]** d’Adobe Campaign.
+>Cette option est utilisée lorsque la table des destinataires utilisée n’est pas la table **nms:recipient** par défaut et que vous utilisez la fonctionnalité Inbox Rendering fournie par le module **[!UICONTROL Délivrabilité]** d’Adobe Campaign.
 >
 >Voir à ce sujet la section [Utiliser une table de destinataires externe](using-an-external-recipient-table.md) et la documentation sur la fonctionnalité [Inbox rendering](inbox-rendering.md).
 
-Pour les diffusions courrier, vous pouvez personnaliser le mode d&#39;insertion des adresses dans le fichier d&#39;extraction. Par défaut, elles sont insérées dans l&#39;ordre de tri du fichier de sortie, mais vous pouvez choisir de les insérer à la fin ou au début du fichier, ou aléatoirement parmi les destinataires de la cible principale.
+Pour les diffusions , vous pouvez également personnaliser le mode d’insertion des adresses dans le fichier d’extraction. Par défaut, elles sont insérées dans l’ordre de tri du fichier de sortie, mais vous pouvez choisir de les insérer à la fin ou au début du fichier, ou aléatoirement parmi les destinataires de la cible principale.
 
 ![](assets/s_ncs_user_edit_del_addresses_sort.png)
 

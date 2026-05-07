@@ -8,8 +8,8 @@ level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 98%
+source-wordcount: '1767'
+ht-degree: 93%
 
 ---
 
@@ -45,7 +45,7 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
   </tr>
   <tr>
  <td>Ancien SDK de Campaign (Neolane)</td>
- <td><p>Le SDK Campaign (Neolane) pour les applications mobiles est désormais obsolète. À la place, utilisez le SDK mobile Adobe Experience Platform en configurant l’extension Adobe Campaign dans l’interface utilisateur de collecte de données. Le SDK mobile Adobe Experience Platform permet d’optimiser les solutions et services Experience Cloud d’Adobe dans vos applications mobiles. La configuration des SDK s’effectue dans l’interface utilisateur de collecte de données, qui offre des options de configuration flexibles et des intégrations extensibles basées sur des règles. Découvrez comment configurer le canal Applications mobiles dans la <a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/push/push-settings">documentation de Campaign v8</a>.</p>
+ <td><p>Le SDK Campaign (Neolane) pour les applications mobiles est désormais obsolète. À la place, utilisez le SDK mobile Adobe Experience Platform en configurant l’extension Adobe Campaign dans l’interface utilisateur de collecte de données. Le SDK mobile Adobe Experience Platform permet d’optimiser les solutions et services Experience Cloud d’Adobe dans vos applications mobiles. La configuration des SDK s’effectue dans l’interface utilisateur de collecte de données, qui offre des options de configuration flexibles et des intégrations extensibles basées sur des règles. Découvrez comment configurer le canal Applications mobiles dans la <a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/push/push-settings">documentation de Campaign v8</a>.</p>
 <p>Date de suppression cible : jeudi 31 juillet 2025 </p>
 </td>
 </tr>
@@ -108,7 +108,7 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Classic.
   </tr>
    <tr> 
    <td>Authentification Windows NT<br></td>
-   <td><p>À compter de la version 20.3 de Campaign, l’authentification Windows NT a été supprimée des méthodes d’authentification disponibles lors de la configuration d’une nouvelle base de données avec Microsoft SQL Server. <a href="../../installation/using/creating-and-configuring-the-database.md#step-1---selecting-the-database-engine">En savoir plus</a></p></td>
+   <td><p>Depuis la version Campaign 20.3, l’authentification Windows NT a été supprimée des méthodes d’authentification disponibles lors de la configuration d’une nouvelle base de données avec un serveur SQL Server Microsoft. <a href="../../installation/using/creating-and-configuring-the-database.md#step-1---selecting-the-database-engine"> En savoir plus </a></p></td>
   </tr>
    <tr> 
    <td>Archivage des emails basé sur les fichiers<br></td>
@@ -188,7 +188,7 @@ La console cliente d’Adobe Campaign Classic ne peut plus s’exécuter sur l
 
    * CentOS 6. [En savoir plus](https://wiki.centos.org/Download)
    * Debian 7. [En savoir plus](https://wiki.debian.org/DebianReleases)
-   * RHEL 6.x. [En savoir plus](https://access.redhat.com/support/policy/updates/errata)
+   * RHEL 6.x. [En savoir plus](https://access.redhat.com/support/policy/updates/errata)
    * Windows Server 2008. [En savoir plus](https://support.microsoft.com/en-us/lifecycle/search/1163)
    * SLES 11. [En savoir plus](https://www.suse.com/lifecycle)
 
@@ -234,10 +234,10 @@ Campaign Classic n’est pas compatible avec les serveurs ci-après dans Federa
 * MySQL 5.1.
 * InfiniDB a atteint sa fin de vie.
 * Teradata 13, 13.1.
-* Netezza 6.02, 7.0. Netezza a atteint sa fin de vie.
-* AsterData 5.0. AsterData a atteint sa fin de vie.
+* Netezza 6.02, 7.0. Netezza a atteint sa fin de vie.
+* AsterData 5.0. AsterData a atteint sa fin de vie.
 * Sybase IQ 15.2, 15.4, 15.5 et Sybase ASE 15.0.
-* Hadoop via HiveSQL : Hadoop 2.7.3, HiveSQL 1.2.1. Adobe Campaign Classic prend encore en charge les versions répertoriées de Hadoop via HiveSQL par le biais de Federated Data Access (FDA), mais ces versions sont fusionnées avec : HortonWorks (HDP 2.4.X, 2.5.x, 2.6.x) et HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6).
+* Hadoop via HiveSQL : Hadoop 2.7.3, HiveSQL 1.2.1. Adobe Campaign Classic prend toujours en charge les versions répertoriées d’Hadoop via HiveSQL via Federated Data Access (FDA), mais ces versions sont fusionnées avec : HortonWorks (HDP 2.4.X, 2.5.x, 2.6.x) et HDInsight 3.4 (HDP 2.4), 3.5 (HDP 2.5), 3.6 (HDP 2.6)
 
 **SERVEUR SGBDR**
 

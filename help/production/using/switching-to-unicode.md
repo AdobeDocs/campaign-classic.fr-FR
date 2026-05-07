@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4cfecf2f-cf98-42c1-b979-cdd26d5de48b
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: ht
-source-wordcount: '130'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '149'
+ht-degree: 91%
 
 ---
 
@@ -97,7 +97,7 @@ Soit une instance **prod** existante sous Linux/PostgreSQL, les étapes de trans
    /etc/init.d/apache start
    ```
 
-1. Valider la transformation. Pour cela, se connecter via la console Adobe Campaign et :
+1. Confirmez le changement. Pour cela, connectez-vous via la console Adobe Campaign et :
 
    * vérifier que les données s&#39;affichent correctement, notamment les caractères accentués,
    * lancer une diffusion et vérifier que la récupération du tracking fonctionne.

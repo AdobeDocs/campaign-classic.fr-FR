@@ -9,8 +9,8 @@ topic-tags: connectors
 exl-id: 320bfbb4-533b-4c45-a46f-c3c8dd68221f
 source-git-commit: f032ed3bdc0b402c8281bc34e6cb29f3c575aaf9
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 100%
+source-wordcount: '363'
+ht-degree: 87%
 
 ---
 
@@ -30,7 +30,7 @@ La connexion à une base de données externe Oracle en FDA requiert les paramét
 1. Installez le client complet Oracle correspondant à votre version d’Oracle.
 1. Ajoutez vos définitions TNS à votre installation. Pour cela, indiquez-les dans un fichier **tnsnames.ora** dans le répertoire /etc/oracle. Si ce répertoire n’existe pas, créez-le.
 
-   Créez alors une nouvelle variable d&#39;environnement TNS_ADMIN : export TNS_ADMIN=/etc/oracle et redémarrez la machine.
+   Créez alors une nouvelle variable denvironnement TNS_ADMIN : export TNS_ADMIN=/etc/oracle et redémarrez la machine.
 
 1. Intégrez Oracle à votre serveur Adobe Campaign (nlserver). Pour cela, vérifiez que le fichier **customer.sh** est bien présent dans le dossier &quot;nl6&quot; de l’arborescence du serveur Adobe Campaign et que ce dernier comprend bien les liens vers les bibliothèques Oracle.
 
@@ -44,7 +44,7 @@ La connexion à une base de données externe Oracle en FDA requiert les paramét
 
    >[!NOTE]
    >
-   >Ces valeurs (notamment ORACLE_HOME), dépendent de vos répertoires d’installation. Vérifiez bien votre arborescence avant de référencer ces valeurs.
+   >Ces valeurs (en particulier ORACLE_HOME) dépendent de vos référentiels d’installation. Veillez à vérifier l’arborescence avant de référencer ces valeurs.
 
 1. Installez les librairies nécessaires à Oracle :
 
@@ -71,9 +71,9 @@ La connexion à une base de données externe Oracle en FDA requiert les paramét
 
 1. Installez le client Oracle.
 
-1. Dans le dossier C:Oracle, créez un fichier **tnsnames.ora** contenant vos définitions TNS.
+1. Dans le dossier C:Oracle, créez un fichier **tnsnames.ora** contenant votre définition TNS.
 
-1. Ajoutez une variable d’environnement TNS_ADMIN avec pour valeur C:Oracle et redémarrez la machine.
+1. Ajoutez une variable d’environnement TNS_ADMIN avec C:Oracle comme valeur et redémarrez la machine.
 
 1. Dans Campaign Classic, vous pouvez ensuite configurer votre compte externe [!DNL Oracle]. Pour plus d’informations sur la configuration de votre compte externe, voir [cette section](#oracle-external).
 

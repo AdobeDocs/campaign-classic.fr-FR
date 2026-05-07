@@ -6,14 +6,14 @@ role: Admin
 exl-id: 1a409daf-57be-43c9-a3d9-b8ab54c88068
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '1779'
-ht-degree: 94%
+source-wordcount: '1842'
+ht-degree: 96%
 
 ---
 
 # Migration des opérateurs et opératrices techniques Campaign vers Adobe Developer Console {#migrate-tech-users-to-ims}
 
-Dans le cadre des efforts visant à renforcer le processus de sécurité et d’authentification, à partir de Campaign Classic v7.3.5, le processus d’authentification de Campaign Classic est en cours d’amélioration. Les opérateurs ou opératrices techniques doivent maintenant utiliser le système Adobe Identity Management (IMS) [&#x200B; &#x200B;](https://helpx.adobe.com/fr/enterprise/using/identity.html){target="_blank"} pour se connecter à Campaign. En savoir plus sur le nouveau processus d’authentification serveur à serveur dans la documentation de [&#128279;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}. **Adobe recommande d’effectuer cette migration dans Campaign v7 afin de pouvoir migrer en douceur vers Campaign v8.**
+Dans le cadre des efforts visant à renforcer le processus de sécurité et d’authentification, à partir de Campaign Classic v7.3.5, le processus d’authentification de Campaign Classic est en cours d’amélioration. Les opérateurs ou opératrices techniques doivent maintenant utiliser le système Adobe Identity Management (IMS) [&#128279;](https://helpx.adobe.com/fr/enterprise/using/identity.html){target="_blank"}  pour se connecter à Campaign. Pour en savoir plus sur le nouveau processus d’authentification serveur à serveur, consultez la [documentation d’Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}. **Adobe recommande d’effectuer cette migration dans Campaign v7 afin de pouvoir migrer en douceur vers Campaign v8.**
 
 Un opérateur ou une opératrice technique est un profil utilisateur de Campaign qui a été explicitement créé pour l’intégration de l’API. Cet article décrit les étapes à suivre pour migrer un opérateur ou une opératrice technique vers un compte technique par le biais de l’Adobe Developer Console.
 
@@ -65,7 +65,7 @@ Voici une vue d’ensemble des étapes :
 
 Les intégrations sont créées dans le cadre d’un **Projet** dans Adobe Developer Console. En savoir plus sur les projets dans la [documentation d’Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}.
 
-Vous pouvez utiliser n’importe quel projet précédemment créé par vous ou créer un nouveau projet. Les étapes de création d’un projet sont détaillées dans la documentation de Adobe Developer Console [&#128279;](https://developer.adobe.com/developer-console/docs/guides/getting-started/){target="_blank"}. Vous trouverez ci-dessous les étapes clés.
+Vous pouvez utiliser n’importe quel projet précédemment créé par vous ou créer un nouveau projet. Les étapes de création d’un projet sont détaillées dans la [documentation d’Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/getting-started/){target="_blank"}. Vous trouverez ci-dessous les étapes clés.
 
 <!--
 For this migration, you must add below APIs in your project: **I/O Management API** and **Adobe Campaign**.

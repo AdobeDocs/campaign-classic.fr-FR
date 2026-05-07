@@ -9,7 +9,7 @@ sub-product: adobe campaign classic
 type: Documentation
 source-git-commit: 4cae5fdb2b78f446f84352046b523d8862e9060c
 workflow-type: tm+mt
-source-wordcount: '2684'
+source-wordcount: '2710'
 ht-degree: 68%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 68%
    + Confidentialité {#privacy}
       + [Confidentialité et consentement](platform/using/privacy-and-recommendations.md)
       + [Gestion de la confidentialité](platform/using/privacy-management.md)
-      + Demandes d&#39;accès à des informations personnelles  {#privacy-requests}
+      + Demandes d&#39;accès à des informations personnelles {#privacy-requests}
          + [À propos des demandes d&#39;accès à des informations personnelles](platform/using/privacy-requests.md)
          + [Créer et gérer les demandes d’accès à des informations personnelles](platform/using/privacy-requests-ui.md)
          + [Processus automatique de demande d&#39;accès à des informations personnelles](platform/using/privacy-requests-api.md)
@@ -247,7 +247,7 @@ ht-degree: 68%
    + {hide-from-toc}[Cas d’utilisation - MASQUÉ](distributed/using/examples.md)
 + Gestion de la réaction {#response-manager}
    + [Prise en main de la gestion de la réaction](response/using/about-response-manager.md)
-   + [Configuration &#x200B;](response/using/configuration.md)
+   + [Configuration](response/using/configuration.md)
    + [Modèles d&#39;hypothèse](response/using/hypothesis-templates.md)
    + [Création d’hypothèses](response/using/creating-hypotheses.md)
    + [Suivi des hypothèses](response/using/hypothesis-tracking.md)
@@ -446,7 +446,7 @@ ht-degree: 68%
          + {hide-from-toc}[Charger le contenu de la diffusion - MASQUÉ](workflow/using/loading-delivery-content.md)
          + {hide-from-toc}[Workflow de diffusion cross-canal - MASQUÉ](workflow/using/cross-channel-delivery-workflow.md)
          + {hide-from-toc}[Enrichissement des emails avec des champs de date personnalisés - MASQUÉ](workflow/using/email-enrichment-with-custom-date-fields.md)
-   + Contrôle  {#monitoring}
+   + Contrôle {#monitoring}
       + {hide-from-toc}[Envoyer un rapport à une liste - MASQUÉ](workflow/using/sending-a-report-to-a-list.md)
       + {hide-from-toc}[Supervision de vos workflows - MASQUÉ](workflow/using/supervising-workflows.md)
       + {hide-from-toc}[Envoyer des alertes personnalisées aux opérateurs - MASQUÉ](workflow/using/sending-personalized-alerts-to-operators.md)
@@ -648,7 +648,7 @@ ht-degree: 68%
       + [Points d’entrée réseau Campaign](installation/using/campaign-network-endpoints.md)
       + [Lignes de commande](installation/using/command-lines.md)
       + [Création d’instances](installation/using/creating-new-instances.md)
-      + [Liste des options de Campaign &#x200B;](installation/using/configuring-campaign-options.md)
+      + [Liste des options de Campaign](installation/using/configuring-campaign-options.md)
       + {hide-from-toc}[Désinstaller Campaign](installation/using/uninstalling-campaign.md)
       + [Installation de nouvelles polices](installation/using/install-fonts.md)
 + Guide de surveillance {#monitoring-campaign-classic}
@@ -659,8 +659,8 @@ ht-degree: 68%
    + Procédures d’exploitation {#production-procedures}
       + [Principe de configuration](production/using/configuration-principle.md)
       + [Principe de fonctionnement](production/using/operating-principle.md)
-      + [Administration &#x200B;](production/using/administration.md)
-      + [Configuration &#x200B;](production/using/configuration.md)
+      + [Administration](production/using/administration.md)
+      + [Configuration](production/using/configuration.md)
       + [Fichiers de log](production/using/log-files.md)
       + [Surveillance des processus](production/using/monitoring-processes.md)
       + [Commandes usuelles](production/using/usual-commands.md)
@@ -822,4 +822,4 @@ ht-degree: 68%
       + [Migration vers le cloud public](technotes/using/dc-migration.md)
       + [FAQ](technotes/using/dc-migration-faq.md)
    + [Fonctions basées sur GCM](technotes/using/gcm-functions.md)
-+ [Panneau de contrôle Campaign](https://experienceleague.adobe.com/fr/docs/control-panel/using/control-panel-home.html?lang=fr)
++ [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)

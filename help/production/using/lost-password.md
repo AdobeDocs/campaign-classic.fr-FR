@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: troubleshooting
 exl-id: 064eb41f-6685-4ac1-adc5-40f9d5a2f96d
 source-git-commit: 8aceafa362b80f6e34edfd91a71551a58501a3d0
-workflow-type: ht
-source-wordcount: '224'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '255'
+ht-degree: 95%
 
 ---
 
@@ -75,7 +75,7 @@ Pour cela, respectez la procédure suivante :
 
 1. Arrêtez le processus `nlserver`.
 
-1. Configurez ensuite le nouveau mot de passe. Pour cela, saisissez les commandes suivantes :
+1. Configurez le nouveau mot de passe. Pour cela, saisissez les commandes suivantes :
 
    ```javascript
    nlserver config -internalpassword

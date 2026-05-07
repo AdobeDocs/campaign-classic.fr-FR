@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: c6dd2709-06e3-4227-bbec-99f3d80144fe
 source-git-commit: 192505e1c4d387de55ca18b578b837d237cc0607
-workflow-type: ht
-source-wordcount: '838'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '840'
+ht-degree: 71%
 
 ---
 
@@ -52,7 +52,7 @@ Pour définir la période d’éligibilité de l’offre, utilisez les listes d�
 
 ![](assets/offer_eligibility_create_002.png)
 
-En dehors de ces dates, l&#39;offre ne sera pas sélectionnée par le moteur d&#39;Interaction. Si vous avez également paramétré des dates d&#39;éligibilité au niveau de la catégorie de l&#39;offre, la période la plus restrictive s&#39;appliquera.
+En dehors de ces dates, l&#39;offre ne sera pas sélectionnée par le moteur d&#39;Interaction. Si vous avez également paramétré des dates d&#39;éligibilité pour la catégorie d&#39;offre, la période la plus restrictive s&#39;applique.
 
 ### Filtres sur la cible {#filters-on-the-target}
 
@@ -68,11 +68,11 @@ Si des filtres prédéfinis ont déjà été créés, vous pouvez les sélection
 
 ### Poids de l&#39;offre {#offer-weight}
 
-Pour permettre au moteur d&#39;arbitrer entre plusieurs offres auxquelles la personne ciblée serait éligible, vous devez attribuer un ou plusieurs poids à l&#39;offre. Vous pouvez également appliquer des filtres sur la cible si nécessaire ou restreindre l&#39;emplacement auquel doit s&#39;appliquer le poids. Une offre dont le poids est plus important sera préférée à une offre avec un poids moindre.
+Pour permettre au moteur de décider entre plusieurs offres auxquelles la cible est éligible, vous devez attribuer un ou plusieurs poids à l’offre. Vous pouvez également appliquer des filtres sur la cible si nécessaire ou restreindre l&#39;emplacement auquel le poids s&#39;appliquera. Une offre ayant un poids plus important sera préférée à une offre ayant moins de poids.
 
 Vous pouvez paramétrer plusieurs poids pour une même offre, notamment en fonction d&#39;une période, d&#39;une cible ou encore d&#39;un emplacement.
 
-Par exemple, une offre peut avoir un poids A pour les contacts âgés de 18 à 25 ans et un poids B pour les contacts plus âgés. Ou, si une offre est éligible tout l&#39;été, elle peut avoir un poids A au mois de juillet, et un poids B au mois d&#39;août.
+Par exemple, une offre peut avoir un poids de A pour les contacts âgés de 18 à 25 ans et un poids de B pour les contacts au-dessus de cette plage. Si une offre est éligible tout l&#39;été, elle peut également avoir un poids de A en juillet et un poids de B en août.
 
 >[!NOTE]
 >
@@ -84,7 +84,7 @@ Pour créer un poids dans une offre, procédez comme suit :
 
    ![](assets/offer_weight_create_001.png)
 
-1. Modifiez le libellé et attribuez un poids. Par défaut, celui-ci est de 1.
+1. Modifiez le libellé et attribuez un poids. Par défaut, il s’agit de 1.
 
    ![](assets/offer_weight_create_006.png)
 
@@ -110,7 +110,7 @@ Pour créer un poids dans une offre, procédez comme suit :
 
    >[!NOTE]
    >
-   >Si une cible est éligible à plusieurs poids pour une offre sélectionnée, le moteur garde le meilleur poids (le plus grand). Lors d’un appel au moteur, une offre ne sort qu’une seule fois maximum par contact.
+   >Si une cible est éligible à plusieurs poids pour une offre sélectionnée, le moteur conserve le meilleur poids (le plus élevé). Lors d&#39;un appel au moteur d&#39;offres, une offre est sélectionnée au maximum une fois par contact.
 
 ### Résumé des règles d&#39;éligibilité d&#39;une offre {#a-summary-of-offer-eligibility-rules}
 
@@ -129,7 +129,7 @@ Pour le visualiser, cliquez sur le lien **[!UICONTROL Planning et règles d&#39;
 1. Complétez les différents champs du contenu de l&#39;offre.
 
    * **[!UICONTROL Titre]** : indiquez le titre que vous souhaitez faire apparaître dans votre offre. Attention, il ne s’agit pas du libellé de l’offre, celui-ci étant défini dans l’onglet **[!UICONTROL Général]**.
-   * **[!UICONTROL URL de destination]** : indiquez l&#39;URL de votre offre. Pour être traitée correctement, elle doit impérativement débuter par &quot;http://&quot; ou &quot;https://&quot;.
+   * **[!UICONTROL URL de destination]** : indiquez l&#39;URL de votre offre. Pour être traité correctement, il doit commencer par « http:// » ou « https:// ».
    * **[!UICONTROL URL de l&#39;image]** : indiquez une URL ou un chemin d&#39;accès vers l&#39;image de votre offre.
    * **[!UICONTROL Contenu HTML]** / **[!UICONTROL Contenu texte]** : saisissez le corps de votre offre dans l&#39;onglet de votre souhait. Pour générer le tracking, le **[!UICONTROL contenu HTML]** doit être constitué d&#39;éléments HTML intégrables dans un élément de type `<div>`. Par exemple, le résultat d&#39;un élément `<table>` dans la page HTML sera le suivant :
 
@@ -152,7 +152,7 @@ Pour le visualiser, cliquez sur le lien **[!UICONTROL Planning et règles d&#39;
 
    ![](assets/offer_content_create_002.png)
 
-   Pour retrouver les champs requis tels qu&#39;ils ont été définis lors du paramétrage des emplacements, cliquez sur le lien **[!UICONTROL Définitions du contenu]** pour afficher la liste. Voir à ce sujet la section [Créer des emplacements d&#39;offres](../../interaction/using/creating-offer-spaces.md).
+   Pour retrouver les champs requis tels qu&#39;ils ont été définis lors du paramétrage des emplacements, cliquez sur le lien **[!UICONTROL Définitions du contenu]** pour afficher la liste. Voir à ce sujet la section [Créer des emplacements](../../interaction/using/creating-offer-spaces.md).
 
    ![](assets/offer_content_create_003.png)
 
@@ -160,7 +160,7 @@ Pour le visualiser, cliquez sur le lien **[!UICONTROL Planning et règles d&#39;
 
 ## Prévisualiser l&#39;offre {#previewing-the-offer}
 
-Dès lors que le contenu de votre offre a été paramétré, vous pouvez prévisualiser l&#39;offre telle qu&#39;elle apparaîtra pour son destinataire. Pour cela :
+Dès lors que le contenu de votre offre est paramétré, vous pouvez prévisualiser l&#39;offre telle qu&#39;elle apparaîtra pour son destinataire. Pour cela :
 
 1. Cliquez sur l&#39;onglet **[!UICONTROL Aperçu]**.
 
@@ -176,11 +176,11 @@ Dès lors que le contenu de votre offre a été paramétré, vous pouvez prévis
 
 ## Créer une hypothèse sur une offre {#creating-a-hypothesis-on-an-offer}
 
-Vous avez la possibilité de créer des hypothèses sur vos propositions d’offres. Cela vous permet de déterminer l’impact de vos offres sur les achats effectués pour le produit concerné.
+Vous pouvez créer des hypothèses sur vos propositions d&#39;offres. Vous pouvez ainsi déterminer l’impact de vos offres sur les achats effectués pour le produit concerné.
 
 >[!NOTE]
 >
->Ces hypothèses sont réalisées à l&#39;aide du module Response Manager. Vérifiez votre contrat de licence.
+>Ces hypothèses sont réalisées via Response Manager. Veuillez vérifier votre accord de licence.
 
 Les hypothèses réalisées sur une proposition d&#39;offre sont référencées au niveau de leur onglet **[!UICONTROL Mesure]**.
 

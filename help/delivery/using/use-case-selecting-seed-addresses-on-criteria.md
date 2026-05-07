@@ -6,9 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '925'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '935'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,7 @@ Pour partager avec eux le résultat final de leur collaboration, le chargé de d
 Pour utiliser la condition dynamique vous devez disposer :
 
 * d&#39;une diffusion prête à être envoyée,
-* d&#39;adresses de contrôle ayant une valeur commune. Cette valeur peut tout à fait être un champ existant dans Adobe Campaign. Dans cet exemple, les adresses de contrôle partagent la valeur &quot;Achats&quot; du champ &quot;Service&quot;, qui n&#39;est pas présent par défaut dans l&#39;application.
+* les adresses de contrôle ayant une valeur commune. Cette valeur peut être un champ qui existe déjà dans Adobe Campaign. Dans cet exemple, les adresses de contrôle partagent la valeur « Achat » dans le champ « Service », qui n’est pas présent par défaut dans l’application.
 
 ## Étape 1 : création dʼune diffusion {#step-1---creating-a-delivery}
 
@@ -91,9 +91,9 @@ Pour plus d’informations sur les extensions de schéma, consultez [cette secti
 
    ![](assets/dlv_seeds_usecase_14.png)
 
-   Lorsque la mise à jour est terminée, vous pouvez fermer l’assitant.
+   Une fois la mise à jour terminée, vous pouvez fermer l’assistant.
 
-1. Déconnectez-vous, puis reconnectez-vous à Adobe Campaign. Les modifications apportées au schéma de données des adresses de contrôle sont désormais effectives. Pour qu&#39;elles soient visibles depuis l&#39;écran des adresses de contrôle, vous devez mettre à jour le **[!UICONTROL Formulaire de saisie]** associée. Pour plus dʼinformations, consultez la section [Mise à jour du formulaire de saisie](#updating-the-input-form).
+1. Déconnectez-vous d’Adobe Campaign, puis reconnectez-vous. Les modifications apportées au schéma de données des adresses de contrôle sont effectives. Pour qu&#39;elles soient visibles depuis l&#39;écran des adresses de contrôle, vous devez mettre à jour le **[!UICONTROL Formulaire de saisie]** associée. Pour plus dʼinformations, consultez la section [Mise à jour du formulaire de saisie](#updating-the-input-form).
 
 #### Extension du schéma de données à partir dʼune table liée {#extending-the-data-schema-from-a-linked-table}
 
@@ -154,7 +154,7 @@ Pour plus dʼinformations, consultez la section [Mise à jour du formulaire de s
 
 ## Étape 3 : définition de la condition {#step-3---defining-the-condition}
 
-Vous pouvez maintenant définir la condition dynamique de sélection des adresses de contrôle pour la diffusion. Pour cela :
+Vous pouvez maintenant définir la condition dynamique des adresses de contrôle pour la diffusion. Pour cela :
 
 1. Ouvrez votre diffusion.
 

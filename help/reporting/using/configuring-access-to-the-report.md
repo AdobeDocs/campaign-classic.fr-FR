@@ -6,9 +6,9 @@ feature: Reporting, Monitoring
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '809'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '810'
+ht-degree: 81%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 100%
 
 ## Contexte d&#39;affichage des rapports {#report-display-context}
 
-Définissez le contexte d&#39;affichage du rapport dans la plateforme Adobe Campaign à partir de l&#39;onglet **[!UICONTROL Affichage]**. L&#39;accès à un rapport dépend de son type de sélection, de ses conditions d&#39;affichage et des autorisations d&#39;accès.
+Définissez le contexte d&#39;affichage du rapport dans la plateforme Adobe Campaign à partir de l&#39;onglet **[!UICONTROL Affichage]** . L&#39;accès à un rapport dépend de son type de sélection, de ses conditions d&#39;affichage et des autorisations d&#39;accès.
 
 ### Type de sélection {#selection-type}
 
-L&#39;accès au rapport peut être limité à un contexte, ou emplacement, spécifique, par exemple une diffusion, un destinataire, une sélection de destinataires, etc. Cet accès est paramétré dans la section **[!UICONTROL Type de sélection]** de l&#39;onglet **[!UICONTROL Affichage]**.
+L&#39;accès au rapport peut être limité à un contexte ou un emplacement spécifique, par exemple une diffusion, un destinataire, une sélection de destinataires, etc. Cet accès est paramétré dans la section **[!UICONTROL Type de sélection]** de l&#39;onglet **[!UICONTROL Affichage]**.
 
 ![](assets/s_ncs_advuser_report_visibility_4.png)
 
@@ -54,7 +54,7 @@ Donc si le canal principal de l&#39;opération est le canal courrier, le rapport
 
 Le rapport peut être partagé ou non avec d&#39;autres opérateurs.
 
-Pour rendre le rapport accessible, sélectionnez l&#39;option **[!UICONTROL Rapport partagé avec les autres opérateurs]**. Si cette option n&#39;est pas sélectionnée, seul l&#39;opérateur qui a créé le rapport peut accéder au rapport.
+Pour rendre le rapport accessible, sélectionnez l&#39;option **[!UICONTROL Rapport partagé avec les autres opérateurs]**. Si cette option n’est pas sélectionnée, seul l’opérateur ou l’opératrice qui a créé le rapport peut accéder à ce dernier.
 
 Le rapport peut également être partagé avec des opérateurs ou des groupes d&#39;opérateurs spécifiques qui sont ajoutés dans la fenêtre des autorisations.
 
@@ -74,7 +74,7 @@ Pour définir la catégorie d&#39;un rapport, sélectionnez-la à partir de l&#3
 
 ![](assets/report_select_category.png)
 
-Vous pouvez y saisir une nouvelle catégorie pour l&#39;ajouter dans la liste des catégories disponibles. L&#39;énumération correspondante est alors automatiquement mise à jour.
+Vous pouvez saisir une nouvelle catégorie ici et l’ajouter à la liste des catégories disponibles. L&#39;énumération correspondante est mise à jour automatiquement.
 
 ## Création dʼun lien vers un rapport {#creating-a-link-to-a-report-}
 
@@ -90,14 +90,14 @@ A titre d&#39;exemple, nous allons créer un lien vers un rapport afin qu&#39;il
 
    ![](assets/s_ncs_advuser_report_wizard_link_02.png)
 
-1. Précisez un libellé et choisissez le schéma. Dans notre exemple nous choisissons la table des listes de destinataires.
+1. Saisissez un libellé et sélectionnez le schéma. Dans cet exemple, nous allons sélectionner le tableau des listes de destinataires.
 
    ![](assets/s_ncs_advuser_report_wizard_link_03.png)
 
    Cela signifie que ce rapport sera accessible depuis n&#39;importe quelle liste de destinataires et que les statistiques seront effectuées sur les destinataires contenus dans la liste sélectionnée.
 
 1. Enregistrez et affichez votre rapport.
-1. Renseignez la clé de liaison. Dans notre exemple il s&#39;agit de la Clé étrangère du lien &#39;Dossier&#39;.
+1. Saisissez la clé du lien. Dans ce cas, la clé étrangère du lien &#39;Dossiers&#39;.
 
    ![](assets/s_ncs_advuser_report_wizard_link_04.png)
 

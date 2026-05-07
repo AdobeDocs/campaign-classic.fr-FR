@@ -8,8 +8,8 @@ content-type: reference
 topic-tags: asset-sharing
 exl-id: 30a94bce-6d96-4a6d-a62f-7451c822f0e3
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '233'
+workflow-type: tm+mt
+source-wordcount: '246'
 ht-degree: 100%
 
 ---

@@ -8,9 +8,9 @@ role: User, Admin
 level: Beginner
 exl-id: 580282ce-ee30-422a-8724-9c328637cc39
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '1302'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1340'
+ht-degree: 78%
 
 ---
 
@@ -54,7 +54,7 @@ Pour créer un opérateur et accorder des autorisations, procédez comme suit :
 
    ![](assets/s_ncs_user_operator_new.png)
 
-1. Spécifiez les **[!UICONTROL Paramètres d’identification]** de l&#39;utilisateur ou de l’utilisatrice : identifiant, mot de passe et nom. Le nom d’utilisateur et le mot de passe seront utilisés par l’opérateur ou l’opératrice pour se connecter à Adobe Campaign. Une fois connecté, l&#39;utilisateur peut changer son mot de passe depuis le menu **[!UICONTROL Outils > Changement de mot de passe]**. L&#39;email de l&#39;opérateur est essentiel, car il lui permet de recevoir des notifications, par exemple lors du traitement des validations.
+1. Indiquez le **[!UICONTROL Paramètres d&#39;identification]** de l&#39;utilisateur : son login, son mot de passe et son nom. Le nom d’utilisateur et le mot de passe seront utilisés par l’opérateur pour se connecter à Adobe Campaign. Une fois connecté, l&#39;utilisateur peut changer son mot de passe depuis le menu **[!UICONTROL Outils > Changement de mot de passe]**. L&#39;email de l&#39;opérateur est essentiel, car il lui permet de recevoir des notifications, par exemple lors du traitement des validations.
 
    Cette section permet également d&#39;associer l&#39;opérateur à une entité organisationnelle. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=fr){target="_blank"}.
 
@@ -88,13 +88,13 @@ Une fois le profil de l&#39;opérateur créé, vous pouvez compléter ou mettre 
 
 ## Définition du fuseau horaire de l’opérateur {#time-zone-of-the-operator}
 
-Dans l’onglet **[!UICONTROL Général]**, vous pouvez sélectionner le fuseau horaire de l’opérateur. Par défaut, les opérateurs travaillent dans le fuseau horaire du serveur. Il est toutefois possible de sélectionner un autre fuseau horaire parmi ceux proposés dans la liste déroulante.
+Dans l&#39;onglet **[!UICONTROL Général]**, vous pouvez sélectionner le fuseau horaire de l&#39;opérateur. Par défaut, les opérateurs travaillent dans le fuseau horaire du serveur. Cependant, il est possible de sélectionner un autre fuseau horaire à l’aide de la liste déroulante.
 
 Les paramétrages relatifs aux fuseaux horaires sont décrits sur [cette page](../../installation/using/time-zone-management.md).
 
 >[!NOTE]
 >
->Le travail collaboratif dans différents fuseaux horaires nécessite le stockage des dates en UTC. Les dates sont converties dans le fuseau horaire adéquat dans les contextes suivants : affichage d&#39;une date dans le fuseau horaire de l&#39;utilisateur, import et export de fichiers, planification de l&#39;envoi d&#39;un email et activités planifiées dans un workflow (planificateur, attente, contrainte horaire, etc.).
+>Les collaborations dans différents fuseaux horaires nécessitent le stockage des dates en UTC. Les dates sont converties dans le fuseau horaire approprié dans les contextes suivants : lorsqu’une date est affichée dans le fuseau horaire de l’utilisateur, lorsque des fichiers sont importés et exportés, lorsqu’une diffusion par e-mail est planifiée, lorsque des activités sont planifiées dans un workflow (planificateur, attente, contrainte de temps, etc.)
 >
 >Les contraintes et recommandations relatives à ces contextes sont présentées dans les sections correspondantes de la documentation d&#39;Adobe Campaign.
 
@@ -128,17 +128,17 @@ Le lien **[!UICONTROL Editer les paramètres d&#39;accès...]** permet d&#39;acc
   >
   >Afin de préserver la sécurité de l&#39;accès à votre plateforme, cette option doit être utilisée avec précaution.
 
-* L&#39;option **[!UICONTROL Restreindre aux données présentes dans les sous-dossiers de]** permet de limiter les droits attribués à l&#39;opérateur à un dossier. Seuls les sous-dossiers du noeud spécifié dans cette option seront visibles par l&#39;utilisateur :
+* L&#39;option **[!UICONTROL Limiter aux informations présentes dans les sous-dossiers de :]** permet de limiter les droits attribués à l&#39;opérateur à un dossier. Seuls les sous-dossiers du nœud spécifié dans cette option seront visibles par l’utilisateur :
 
   ![](assets/s_ncs_user_restrictions_operators.png)
 
   >[!IMPORTANT]
   >
-  >Il s’agit d’une restriction très stricte qui doit être utilisée avec précaution. Un opérateur connecté avec ce type de droits ne peut visualiser QUE le contenu du dossier spécifié et n’a accès à aucun autre nœud de l’arborescence via l’explorateur. Toutefois, selon les fonctionnalités auxquelles cet opérateur a accès (par exemple : workflows), l’utilisateur peut afficher les données généralement stockées dans des nœuds qui ne sont pas accessibles.
+  >Il s&#39;agit d&#39;une restriction très stricte qui doit être utilisée avec prudence. Un opérateur connecté avec ce type de droits ne peut voir QUE le contenu du dossier spécifié et n’a accès à aucun autre nœud de l’arborescence via l’explorateur. Toutefois, selon les fonctionnalités auxquelles cet opérateur a accès (par exemple : workflows), l’utilisateur peut afficher les données généralement stockées dans des nœuds qui ne sont pas accessibles.
 
 ### Vérification des paramètres {#check-settings}
 
-L&#39;onglet **[!UICONTROL Suivi]** permet de visualiser des informations relatives à l&#39;opérateur. Les différents onglets sont alimentés automatiquement en fonction des paramètres définis et des champs d&#39;intervention de l&#39;opérateur.
+L&#39;onglet **[!UICONTROL Audit]** permet de visualiser les informations relatives à l&#39;opérateur. Les différents onglets sont ajoutés automatiquement à en fonction des paramètres définis dans la zone d’intervention de l’opérateur ou de l’opératrice.
 
 Vous pouvez accéder à :
 
@@ -164,11 +164,11 @@ Adobe Campaign utilise des opérateurs techniques dont les profils sont paramé
 
 >[!IMPORTANT]
 >
->Ces opérateurs techniques sont par défaut notifiés lorsque des alertes ou des messages d&#39;information sont envoyés par la plateforme. Il est vivement recommandé de leur associer un email de contact.
+>Ces opérateurs et opératrices techniques sont avertis par défaut lorsque des messages d’information sont renvoyés par la plateforme. Nous vous recommandons vivement de leur fournir un e-mail de contact.
 >
 >Pour assurer le bon fonctionnement des applications Web, nous vous recommandons également de ne pas définir de paramètres régionaux spécifiques à l&#39;opérateur &#39;webapp&#39;.
 
-Par défaut, l&#39;opérateur technique &#39;webapp&#39; bénéficie du droit nommé ADMINISTRATION, ce qui risque de créer des failles de sécurité. Pour remédier à ce problème, il est recommandé de lui ôter ce droit. Pour cela :
+Par défaut, l’opérateur ou opératrice technique « webapp » dispose du droit nommé ADMINISTRATION, ce qui peut entraîner des risques de sécurité. Pour résoudre ce problème, nous vous recommandons de supprimer ce droit. Pour cela :
 
 1. Depuis le noeud **[!UICONTROL Administration > Gestion des accès > Droits nommés]**, cliquez sur **[!UICONTROL Nouveau]** pour créer un droit que vous nommerez par exemple WEBAPP.
 

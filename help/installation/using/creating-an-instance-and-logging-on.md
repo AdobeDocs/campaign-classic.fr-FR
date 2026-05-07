@@ -8,9 +8,9 @@ content-type: reference
 topic-tags: initial-configuration
 exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b
 source-git-commit: c38150aa8de90f314e1f2a43c6751d4db4059533
-workflow-type: ht
-source-wordcount: '599'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '614'
+ht-degree: 76%
 
 ---
 
@@ -40,13 +40,13 @@ Pour créer une instance, procédez comme suit :
 
    ![](assets/s_ncs_install_define_connection_02.png)
 
-1. Définissez une connexion vers votre serveur applicatif Adobe Campaign à partir d&#39;une URL. Utilisez soit un DNS ou un alias de la machine, soit votre adresse IP.
+1. Définissez une connexion vers votre serveur applicatif Adobe Campaign via une URL. Utilisez un DNS ou un alias de la machine, ou votre adresse IP.
 
    Par exemple, vous pouvez utiliser une URL de type `https://<machine>.<domain>.com`.
 
    >[!CAUTION]
    >
-   >Seuls les caractères `[a-z]`, `[A-Z]`, `[0-9]`, le tiret (-) et le point sont autorisés dans l&#39;URL de connexion. 
+   >Seuls les caractères `[a-z]`, `[A-Z]`, `[0-9]`, le tiret (-) et le point sont autorisés dans l&#39;URL de connexion.
 
 1. Cliquez sur **[!UICONTROL OK]** pour valider ce paramétrage : vous pouvez alors démarrer le processus de création de l&#39;instance.
 1. Dans la fenêtre **[!UICONTROL Paramètres de connexion]**, saisissez le nom d’utilisation **interne** et son mot de passe associé afin de vous connecter au serveur applicatif Adobe Campaign. Une fois la connexion effectuée, vous accédez à l’assistant de création d’instance pour déclarer une nouvelle instance.
@@ -54,9 +54,9 @@ Pour créer une instance, procédez comme suit :
 
    ![](assets/s_ncs_install_create_instance.png)
 
-   Le nom de l&#39;instance accolé au nom de domaine ne doit pas dépasser 40 caractères. Ceci permet de limiter la taille des en-têtes &quot;Message-ID&quot; et d&#39;éviter qu&#39;un message ne soit considéré comme un spam, par exemple par un outil comme SpamAssassin.
+   Le nom de l’instance ajouté au nom de domaine ne doit pas dépasser 40 caractères. Vous pouvez ainsi limiter la taille des en-têtes « Message-ID » et empêcher que les messages ne soient considérés comme du spam, en particulier par des outils tels que SpamAssassin.
 
-1. Dans les champs **[!UICONTROL Masques DNS]**, saisissez la **liste des masques DNS** auxquels l&#39;instance doit être attachée. Le serveur Adobe Campaign utilise le nom d&#39;hôte (hostname) qui apparaît dans les requêtes HTTP pour déterminer quelle instance atteindre.
+1. Dans les champs **[!UICONTROL Masques DNS]** , saisissez la **liste des masques DNS** auxquels l’instance doit être attachée. Le serveur Adobe Campaign utilise le nom d’hôte qui apparaît dans les requêtes HTTP pour déterminer l’instance à atteindre.
 
    Le nom d&#39;hôte (hostname) est contenu entre la chaîne **https://** et la première barre oblique **/** de l&#39;adresse du serveur.
 
@@ -76,9 +76,9 @@ Pour créer une instance, procédez comme suit :
 
    >[!CAUTION]
    >
-   >La langue de l&#39;instance ne peut plus être modifiée après cette étape. Les instances d&#39;Adobe Campaign ne sont pas multilingues : vous ne pouvez pas passer d&#39;une langue à une autre.
+   >La langue de l&#39;instance ne peut pas être modifiée après cette étape. Les instances Adobe Campaign ne sont pas multilingues : vous ne pouvez pas passer d&#39;une langue à une autre.
 
-1. Cliquez sur **[!UICONTROL Ok]** pour valider la déclaration de l&#39;instance. Vous devez alors vous reconnecter pour procéder à la déclaration de la base de données.
+1. Cliquez sur **[!UICONTROL Ok]** pour confirmer la déclaration de l&#39;instance. Déconnectez-vous et reconnectez-vous pour déclarer la base de données.
 
    >[!NOTE]
    >

@@ -10,7 +10,7 @@ topic-tags: additional-configurations
 exl-id: 6fe8da3b-57b9-4a69-8602-a03993630b27
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '380'
 ht-degree: 93%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 93%
 
 
 
-La liste par défaut des URL pouvant être appelées par les codes JavaScript (workflows, etc.) par vos instances de Campaign Classic est limitée. Il s’agit des URL qui permettent à vos instances de fonctionner correctement.
+La liste par défaut des URL pouvant être appelées par les codes JavaScript (workflows, etc.) par vos instances Campaign Classic est limité. Il s’agit des URL qui permettent à vos instances de fonctionner correctement.
 
 Par défaut, les instances ne sont pas autorisées à se connecter à des URL externes. Cependant, il est possible d’ajouter des URL externes à la liste des URL autorisées afin que votre instance puisse s’y connecter. Vous pouvez ainsi connecter vos instances Campaign à des systèmes externes, comme des serveurs SFTP ou des sites Web, afin d’activer le transfert de fichiers et/ou de données.
 
@@ -27,7 +27,7 @@ Par défaut, les instances ne sont pas autorisées à se connecter à des URL ex
 >
 >Cette procédure est limitée aux déploiements **On-premise**.
 >
->En tant que client **hébergé**, si vous pouvez accéder au [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr), vous pouvez utiliser l’interface en libre-service des autorisations d’URL. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=fr)
+>En tant que client **hébergé**, si vous pouvez accéder au [Panneau de contrôle Campaign](https://experienceleague.adobe.com/fr/docs/control-panel/using/control-panel-home.html?lang=fr), vous pouvez utiliser l’interface en libre-service des autorisations d’URL. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=fr)
 >
 >Les autres clients **hybrides/hébergés** doivent contacter l’équipe d’assistance d’Adobe pour ajouter une adresse IP à la liste autorisée.
 >
@@ -57,7 +57,7 @@ Trois modes de protection de la connexion sont disponibles :
 
 Pour plus d’informations, consultez les sections suivantes :
 
-* [Documentation relative au Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)
+* [Documentation du Panneau de Contrôle](https://experienceleague.adobe.com/fr/docs/control-panel/using/control-panel-home.html?lang=fr)
 * [Modèles d&#39;hébergement](hosting-models.md)
 * [Configuration du serveur Campaign](configuring-campaign-server.md)
 * [Paramètres du fichier de configuration du serveur Campaign](the-server-configuration-file.md)

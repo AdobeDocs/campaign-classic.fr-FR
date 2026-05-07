@@ -8,21 +8,21 @@ content-type: reference
 topic-tags: deployment-types-
 exl-id: 8a4d7ef1-de5b-4aee-a527-1b74d987ba61
 source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
-workflow-type: ht
-source-wordcount: '356'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '380'
+ht-degree: 86%
 
 ---
 
-# Déploiement midsourcing{#mid-sourcing-deployment}
+# Déploiement Mid-sourcing{#mid-sourcing-deployment}
 
 
 
-Cette configuration présente une solution intermédiaire optimale entre le mode hébergé (ASP) et l&#39;internalisation. Toute la partie concernant l&#39;envoi des messages est déportée sur un serveur de &quot;mid-sourcing&quot;, hébergé chez Adobe Campaign.
+Cette configuration présente une solution intermédiaire optimale entre la configuration hébergée (ASP) et l’internalisation. Les composants d’exécution orientés vers l’extérieur sont exécutés sur un serveur de « mid-sourcing » hébergé sur Adobe Campaign.
 
 >[!NOTE]
 >
->Pour mettre en place un déploiement en Mid-sourcing, vous devez acquérir l&#39;option correspondante. Vérifiez votre contrat de licence.
+>Pour configurer ce type de déploiement, vous devez acquérir l’option appropriée. Veuillez vérifier votre contrat de licence.
 
 La communication générale entre les serveurs et les processus est réalisée conformément au schéma suivant :
 

@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: simulating-offers
 exl-id: 4f6b3de2-3fdf-441d-925d-476e20e75c6f
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 100%
+ht-degree: 48%
 
 ---
 
@@ -27,29 +27,29 @@ Vous devez définir obligatoirement :
 
 * Un environnement ou une catégorie d&#39;offres.
 * Un emplacement.
-* Une date de contact. Les offres non éligigibles à la date de contact spécifiée ne sont pas prises en compte.
+* Date de contact. Les offres non éligibles à la date de contact ne sont pas prises en compte.
 * Une population cible.
 
   Si vous ne précisez pas de filtre sur votre cible, la totalité de la table des destinataires sera prise en compte dans la simulation.
 
 * Le nombre de propositions à simuler par cible.
 
-  Le destinataire recevra autant de propositions que le nombre fixé. Par exemple, si le chiffre est de 5, chaque personne ciblée recevra au plus 5 propositions d&#39;offre.
+  Le destinataire recevra cette multitude de propositions. Par exemple, si vous saisissez 5, chaque destinataire recevra un maximum de 5 propositions d&#39;offre.
 
   ![](assets/offer_simulation_009.png)
 
 Pour affiner les offres à prendre en compte pour la simulation, vous pouvez ajouter un ou plusieurs thèmes (définis préalablement au niveau des catégories).
 
-Vous pouvez également choisir d&#39;effectuer la simulation sur toutes les offres ou seulement sur celles en ligne. Des filtres vous permettent d&#39;ajuster votre sélection si vous le souhaitez.
+Vous pouvez également choisir d&#39;effectuer la simulation sur toutes les offres ou uniquement celles qui sont en ligne. Certains filtres vous permettent de modifier votre sélection si vous le souhaitez.
 
 >[!NOTE]
 >
->Vous devez obligatoirement spécifier une date de contact. Ceci permet au moteur d&#39;interaction d&#39;effectuer un premier tri parmi la totalité des offres contenues dans l&#39;environnement ou la catégorie sélectionné(e). Si aucune date n&#39;est paramétrée, la simulation se termine en erreur.
+>Vous devez indiquer une date de contact. Cela permet au moteur d&#39;interaction de trier les offres dans l&#39;environnement ou la catégorie sélectionnée. Si aucune date n’est configurée, la simulation génère une erreur.
 
 ## Ajout d&#39;axes de reporting {#adding-reporting-axes}
 
 Vous pouvez enrichir l&#39;analyse de la simulation en ajoutant des axes de reporting sur la cible ou les offres elles-mêmes depuis l&#39;onglet **[!UICONTROL Calculs]**.
 
-Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter]** et sélectionnez les champs voulus. Les axes seront utilisés pour le calcul de la simulation et apparaîtront dans le rapport d’analyse. Pour plus d’informations, consultez [Suivi des simulations](../../interaction/using/simulation-tracking.md).
+Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter]** et choisissez les champs adéquats. Les axes seront utilisés pour calculer la simulation et seront affichés dans le rapport d&#39;analyse. Pour plus d&#39;informations, consultez la section [Suivi des simulations](../../interaction/using/simulation-tracking.md).
 
 ![](assets/offer_simulation_011.png)

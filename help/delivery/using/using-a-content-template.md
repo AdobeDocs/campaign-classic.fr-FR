@@ -6,9 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Templates
 exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
 source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
-workflow-type: ht
-source-wordcount: '448'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '450'
+ht-degree: 91%
 
 ---
 
@@ -56,7 +56,7 @@ Les étapes sont les suivantes :
 
    ![](assets/s_ncs_content_folder_use_a_template.png)
 
-1. Puis cliquez sur l&#39;onglet **[!UICONTROL Aperçu HTML]** pour contrôler le rendu. Ici, les champs de personnalisation issus de la base de données ne sont pas renseignés.
+1. Cliquez ensuite sur l’onglet **[!UICONTROL Aperçu]** pour afficher le rendu. Ici, les champs de personnalisation issus de la base de données ne sont pas renseignés.
 
    ![](assets/s_ncs_content_folder_use_a_template_preview.png)
 
@@ -70,7 +70,7 @@ Les étapes sont les suivantes :
 
    >[!NOTE]
    >
-   >Vous pouvez autoriser la génération de contenus non validés. Pour cela, modifiez l&#39;option correspondante dans le modèle de publication. Voir à ce sujet la section [Création et paramétrage du modèle](publication-templates.md#creating-and-configuring-the-template).
+   >Vous pouvez autoriser la génération de contenus non approuvés. Pour ce faire, modifiez l&#39;option correspondante dans le modèle de publication. Voir à ce sujet la section [Création et paramétrage du modèle](publication-templates.md#creating-and-configuring-the-template).
 
    Les contenus HTML et Texte sont générés par défaut dans le dossier **publishing** de l&#39;instance Adobe Campaign. Vous pouvez modifier le dossier de publication depuis l&#39;option **NcmPublishingDir**.
 

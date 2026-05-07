@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: response-manager
 exl-id: 1dc6d03b-698c-4750-9563-0676fcd185df
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '485'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 81%
 
 ---
 
@@ -25,7 +25,7 @@ Le résultat des calculs des hypothèses est disponible à divers niveaux de la 
 
 ### Indicators {#indicators}
 
-Lorsque l&#39;hypothèse a été calculée, plusieurs indicateurs de mesure sont automatiquement mis à jour. Ils sont disponibles dans l&#39;onglet **[!UICONTROL Général]** de l&#39;hypothèse.
+Une fois l&#39;hypothèse calculée, plusieurs indicateurs de mesure sont automatiquement mis à jour. Elles sont disponibles dans l&#39;onglet **[!UICONTROL Général]** de l&#39;hypothèse.
 
 ![](assets/response_hypothesis_delivery_example_010.png)
 
@@ -67,14 +67,14 @@ Vous pouvez visualiser les réactions des destinataires aux hypothèses depuis l
 
    ![](assets/response_hypothesis_reactions_001.png)
 
-## Rapports  {#reports}
+## Rapports {#reports}
 
 Le **[!UICONTROL Rapport des hypothèses]** permet de consulter les résultats des hypothèses appliquées aux opérations et diffusions. Il contient les indicateurs calculés par l’hypothèse (voir à ce propos la section [Indicateurs](#indicators)).
 
-* **Au niveau d&#39;une opération** : cliquez sur le lien **[!UICONTROL Rapports]** de l&#39;opération concernée et sélectionnez le **[!UICONTROL Rapport des hypothèses]**. Ce rapport contiendra la liste des diffusions de l&#39;opération et les hypothèses calculées pour chacune des diffusions.
+* **Au niveau d&#39;une opération** : cliquez sur le lien **[!UICONTROL Rapports]** de l&#39;opération concernée et sélectionnez le **[!UICONTROL Rapport des hypothèses]**. Ce rapport contient la liste des diffusions de l&#39;opération et les hypothèses calculées pour chacune des diffusions.
 
   ![](assets/response_hypothesis_campaign_report_001.png)
 
-* **Au niveau d&#39;une diffusion** : pour accéder au rapport, ouvrez la diffusion concernée, cliquez sur l&#39;onglet **[!UICONTROL Rapports]** dans l&#39;onglet **[!UICONTROL Résumé]**, et sélectionnez le **[!UICONTROL Rapport des hypothèses]**. Si plusieurs hypothèses ont été calculées pour une même diffusion, le rapport contiendra la totalité des hypothèses.
+* **Au niveau d&#39;une diffusion** : pour accéder au rapport, ouvrez la diffusion concernée, cliquez sur l&#39;onglet **[!UICONTROL Rapports]** dans l&#39;onglet **[!UICONTROL Résumé]** et sélectionnez le **[!UICONTROL Rapport des hypothèses]**. Si plusieurs hypothèses ont été calculées pour une même diffusion, le rapport contiendra l&#39;ensemble des hypothèses.
 
   ![](assets/response_hypothesis_delivery_report_001.png)

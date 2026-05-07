@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 46c8ed46-0947-47fb-abda-6541b12b6f0c
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '1571'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1632'
+ht-degree: 74%
 
 ---
 
@@ -25,11 +25,11 @@ Ce chapitre décrit les configurations côté serveur qui peuvent être exécut�
 
 Ces procédures sont limitées aux déploiements **On-premise**/**hybrides** et nécessitent des autorisations d’administration.
 
-Pour les déploiements **hébergés**, les paramètres côté serveur ne peuvent être configurés que par Adobe. Cependant, certains paramètres peuvent être configurés dans le [Panneau de contrôle de Campaign ](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr), comme la gestion des listes d’adresses IP autorisées ou les autorisations d’URL. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=fr).
+Pour les déploiements **hébergés**, les paramètres côté serveur ne peuvent être configurés que par Adobe. Cependant, certains paramètres peuvent être configurés dans le [Panneau de contrôle de Campaign &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr), comme la gestion des listes d’adresses IP autorisées ou les autorisations d’URL. [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=fr).
 
 Pour plus d’informations, consultez les sections suivantes :
 
-* [Documentation relative au Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)
+* [Documentation du Panneau de Contrôle](https://experienceleague.adobe.com/fr/docs/control-panel/using/control-panel-home.html?lang=fr)
 * [Modèles d&#39;hébergement](../../installation/using/hosting-models.md)
 * [Matrice des fonctionnalités On-premise et hébergées de Campaign Classic](../../installation/using/capability-matrix.md)
 
@@ -37,7 +37,7 @@ Pour plus d’informations, consultez les sections suivantes :
 
 Les fichiers de configuration de Campaign Classic sont stockés dans le dossier **conf** du dossier d’installation d’Adobe Campaign. La configuration est répartie sur deux fichiers :
 
-* **serverConf.xml** : configuration générale pour toutes les instances. Ce fichier regroupe les paramètres techniques du serveur Adobe Campaign : ces paramètres sont communs à toutes les instances. Vous trouverez ci-après la description de certains de ces paramètres. Les différents nœuds et paramètres sont répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
+* **serverConf.xml** : configuration générale pour toutes les instances. Ce fichier regroupe les paramètres techniques du serveur Adobe Campaign : ils sont communs à toutes les instances. La description de certains de ces paramètres est détaillée ci-dessous. Les différents nœuds et paramètres sont répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
 * **config-`<instance>`.xml** (où **instance** est le nom de l’instance) : configuration spécifique de l’instance. Si vous partagez votre serveur entre plusieurs instances, entrez les paramètres propres à chaque instance dans le fichier correspondant.
 
 ## Périmètre de la configuration
@@ -63,9 +63,9 @@ Configurez ou adaptez le serveur Campaign en fonction de vos besoins et de votre
 
 ## Identifiant &#39;internal&#39; {#internal-identifier}
 
-L&#39;identifiant **internal** est un login technique à utiliser lors de la phase d&#39;installation, pour les paramétrages techniques d&#39;administration et de maintenance. Ce login n&#39;est pas associé à une instance.
+L’identifiant **internal** est un identifiant technique à utiliser à des fins d’installation, d’administration et de maintenance. Ce login n&#39;est pas associé à une instance.
 
-L&#39;opérateur connecté avec cet identifiant possède tous les droits, sur toutes les instances. Après une nouvelle installation, cet identifiant n&#39;a pas de mot de passe. Vous devez définir ce mot de passe manuellement.
+Les opérateurs connectés utilisant ce login auront tous les droits sur toutes les instances. Ce login n&#39;aura pas de mot de passe dans le cas d&#39;une nouvelle installation. Vous devez définir manuellement ce mot de passe.
 
 Utilisez la commande suivante :
 
@@ -73,7 +73,7 @@ Utilisez la commande suivante :
 nlserver config -internalpassword
 ```
 
-Les informations suivantes sont alors affichées. Saisissez et confirmez le nouveau mot de passe :
+Les informations suivantes s’affichent alors. Saisissez et confirmez le mot de passe :
 
 ```sql
 17:33:57 >   Application server for Adobe Campaign Classic (7.X YY.R build XXX@SHA1) of DD/MM/YYYY
@@ -194,7 +194,7 @@ Dans cet exemple, la valeur **`<IP_addresses>`** correspond à la liste des adre
 
 ### Gérer les en-têtes HTTP {#managing-http-headers}
 
-Par défaut, tous les en-têtes HTTP ne sont pas relayés. Vous pouvez ajouter des en-têtes spécifiques dans les réponses transmises par le relais. Pour cela :
+Par défaut, tous les en-têtes HTTP ne sont pas relayés. Vous pouvez ajouter des en-têtes spécifiques dans les réponses envoyées par le relais. Pour cela :
 
 1. Accédez au fichier **serverConf.xml**.
 1. Dans le nœud **`<relay>`**, accédez à la liste des en-têtes HTTP relayés.
@@ -257,7 +257,7 @@ Cet utilisateur doit être ajouté à la liste sudoer de l&#39;opérateur &#39;n
 
 ## Tracking redondant {#redundant-tracking}
 
-Lorsque plusieurs serveurs sont utilisés pour servir la redirection, ceux-ci devront pouvoir communiquer entre eux par des appels SOAP afin de partager les informations des URL à rediriger. Il se peut en effet qu&#39;au moment du démarrage de la diffusion tous les serveurs de redirection ne soient pas disponibles, et qu&#39;ils ne possèdent donc pas le même niveau d&#39;information.
+Lorsque plusieurs serveurs sont utilisés pour la redirection, ils doivent pouvoir communiquer entre eux via des appels SOAP afin de partager des informations provenant des URL à rediriger. Au moment du démarrage de la diffusion, il est possible que tous les serveurs de redirection ne soient pas disponibles ; par conséquent, ils peuvent ne pas avoir le même niveau d&#39;information.
 
 >[!NOTE]
 >
@@ -272,7 +272,7 @@ Les URL des serveurs redondants doivent être renseignées dans la configuration
 <spareserver enabledIf="$(hostname)!='front_srv2'" id="2" url="http://front_srv2:8080" />
 ```
 
-La propriété **enableIf** est optionnelle (vide par défaut) et permet de n’activer la connexion que si le résultat est vrai. Ceci afin d’obtenir une configuration identique sur tous les serveurs de redirection.
+La propriété **enableIf** est optionnelle (vide par défaut) et permet de n&#39;activer la connexion que si le résultat est vrai. Vous obtenez ainsi une configuration identique sur tous les serveurs de redirection.
 
 Pour connaître le hostname de la machine, exécutez la commande suivante : **hostname -s**.
 
@@ -280,13 +280,13 @@ Pour connaître le hostname de la machine, exécutez la commande suivante : **h
 
 ## Workflows en haute disponibilité et affinités {#high-availability-workflows-and-affinities}
 
-Vous pouvez configurer plusieurs serveurs de workflow (wfserver) et les répartir sur plusieurs machines. Si vous optez pour une architecture de ce type, paramétrez le mode de connexion des répartiteurs de charge en fonction de l&#39;accès à Adobe Campaign.
+Vous pouvez configurer plusieurs serveurs de workflow (wfserver) et les distribuer sur plusieurs machines. Si vous choisissez ce type d’architecture, configurez le mode de connexion des équilibreurs de charge en fonction de l’accès à Adobe Campaign.
 
 Dans le cas d&#39;un accès depuis le web, choisissez le mode **load balancer** afin de limiter les temps de connexion.
 
-Si l&#39;accès se fait depuis la console Adobe Campaign, préférez le mode **hash** ou **sticky ip**. Cela vous permet de maintenir la connexion entre le client riche et le serveur et d&#39;éviter qu&#39;une session utilisateur ne soit interrompue au cours d&#39;une opération d&#39;import ou d&#39;export par exemple.
+Si vous accédez à via la console Adobe Campaign, choisissez le mode **hash** ou **sticky ip**. Vous pouvez ainsi maintenir la connexion entre le client riche et le serveur et empêcher l’interruption d’une session utilisateur lors d’une opération d’import ou d’export, par exemple.
 
-Vous pouvez choisir de forcer l&#39;exécution d&#39;un workflow ou d&#39;une activité de workflow sur une machine particulière. Vous devez pour cela définir une ou plusieurs affinités au niveau du workflow ou de l&#39;activité concernée.
+Vous pouvez choisir de forcer l&#39;exécution d&#39;un workflow ou d&#39;une activité de workflow sur une machine particulière. Pour cela, vous devez définir une ou plusieurs affinités pour le workflow ou l’activité concernée.
 
 1. Créez la ou les affinités du workflow ou de l&#39;activité en la tapant dans le champ **[!UICONTROL Affinité]**.
 
@@ -296,7 +296,7 @@ Vous pouvez choisir de forcer l&#39;exécution d&#39;un workflow ou d&#39;une ac
 
    ![](assets/s_ncs_install_server_wf_affinity02.png)
 
-   La liste déroulante contient les affinités utilisées auparavant. La liste se complète au fur et à mesure avec les différentes valeurs saisies.
+   La liste déroulante contient les affinités anciennement utilisées. Elle est complétée au fil du temps avec les différentes valeurs saisies.
 
 1. Ouvrez le fichier **nl6/conf/config-`<instance>.xml`**.
 1. Modifiez la ligne correspondant au module **[!UICONTROL wfserver]** de la façon suivante :
@@ -313,7 +313,7 @@ Vous pouvez choisir de forcer l&#39;exécution d&#39;un workflow ou d&#39;une ac
 
    La virgule qui suit le nom de l&#39;affinité est nécessaire afin que les workflows pour lesquels aucune affinité n&#39;est définie puissent s&#39;exécuter.
 
-   Si vous souhaitez n&#39;exécuter que les workflows pour lesquels une affinité est définie, n&#39;ajoutez pas de virgule à la fin de la liste de vos affinités. Par exemple, modifiez la ligne de la façon suivante :
+   Si vous souhaitez exécuter uniquement des workflows pour lesquels une affinité est définie, n’ajoutez pas de virgule à la fin de la liste de vos affinités. Par exemple, modifiez la ligne comme suit :
 
    ```
    <wfserver autoStart="true" affinity="XXX"/>
@@ -327,8 +327,8 @@ Il est néanmoins possible de modifier ce paramétrage.
 
 Pour cela, accédez au fichier **serverConf.xml**, situé dans le répertoire **conf** de votre installation.
 
-Chaque processus paramétré dans ce fichier dispose d&#39;un attribut **processRestartTime**. Vous pouvez modifier la valeur de cet attribut afin d&#39;adapter l&#39;heure de redémarrage de chaque processus à vos besoins.
+Chaque processus configuré dans ce fichier possède un attribut **processRestartTime**. Vous pouvez modifier la valeur de cet attribut afin d’adapter le temps de redémarrage de chaque processus en fonction de vos besoins.
 
 >[!IMPORTANT]
 >
->Ne supprimez pas cet attribut. Tous les processus doivent être redémarrés chaque jour.
+>Ne supprimez pas cet attribut. Tous les processus doivent être redémarrés quotidiennement.

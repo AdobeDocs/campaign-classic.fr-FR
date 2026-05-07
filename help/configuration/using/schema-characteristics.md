@@ -7,9 +7,9 @@ role: Developer
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: 099161b4-b4cb-433c-aed6-71157269a536
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
-source-wordcount: '389'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '392'
+ht-degree: 74%
 
 ---
 
@@ -29,7 +29,7 @@ Les particularités propres à un schéma qui référence une table existante so
 
 ## Attribut view {#the-view-attribute}
 
-Les schémas source acceptent l’attribut **view** pour l’élément racine **srcSchema**. Il doit être utilisé lorsqu’Adobe Campaign est manipulé dans des tableaux personnalisés. L’attribut **view=&quot;true&quot;** indique à l’assistant de mise à jour de la structure de base de données d’ignorer le schéma. Ainsi, on interdit à l&#39;application de synchroniser la table, ses colonnes et ses index avec le schéma correspondant.
+Les schémas Source acceptent l’attribut **view** pour l’élément racine **srcSchema**. Il doit être utilisé lorsqu’Adobe Campaign est manipulé dans des tables personnalisées. L’attribut **view=&quot;true&quot;** indique à l’assistant de mise à jour de la structure de base de données d’ignorer le schéma. Ainsi, on interdit à l&#39;application de synchroniser la table, ses colonnes et ses index avec le schéma correspondant.
 
 Lorsque cet attribut est défini sur **true**, le schéma sert uniquement à générer les requêtes SQL pour accéder aux données de ce tableau.
 
@@ -57,11 +57,11 @@ Lorsque les tableaux sont créés par l’assistant de mise à jour de tableau, 
 
 Dans cet exemple, si les noms des tables et des colonnes n&#39;avaient pas été explicitement précisés, l&#39;application aurait utilisé **CusIndividual** pour la table, **lastName** et **firstName** pour les colonnes.
 
-Dans un schéma, il est possible de ne renseigner qu’une partie des colonnes d’une table existante. Les colonnes non renseignées ne seront pas accessibles aux utilisateurs et utilisatrices.
+Dans un schéma, il est possible de ne renseigner qu&#39;une partie des colonnes d&#39;une table existante. Les colonnes non renseignées ne seront pas accessibles par l’utilisateur ou l’utilisatrice.
 
 ## Champs indexés {#indexed-fields}
 
-Pour trier les enregistrements d&#39;une liste depuis la console cliente, il est préférable, en termes de performances, de trier sur des champs indexés. La déclaration d&#39;un index dans un schéma provoque, dans la console, l&#39;affichage des champs indexés avec un trait rouge sous la flèche de tri située à gauche du libellé de la colonne, comme dans l&#39;écran ci-dessous :
+Lors du tri des enregistrements d’une liste à partir de la console cliente, une meilleure performance est obtenue en triant les champs indexés. Lors de la déclaration d&#39;un index dans un schéma, la console affiche les champs indexés avec une ligne rouge sous la flèche de tri située à gauche du libellé de la colonne, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/s_ncs_integration_mapping_index.png)
 

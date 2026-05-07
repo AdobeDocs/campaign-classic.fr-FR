@@ -6,8 +6,8 @@ feature: Schema Extension
 exl-id: a7ca0300-d250-429c-8ae1-2ae7dee82cf5
 source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 100%
+source-wordcount: '217'
+ht-degree: 90%
 
 ---
 
@@ -44,7 +44,7 @@ Il n’est pas nécessaire de spécifier le nom et l’espace de noms de la tabl
 
 Par convention, les liens sont définis à la fin du schéma.
 
-Si l’élément `<join>` n&#39;est pas précisé lors de la définition d&#39;un élément de type &quot;link&quot;, alors le lien sera automatiquement posé sur les clefs primaires des deux tables.
+Si l’élément `<join>` n’est pas précisé lors de la définition d’un élément de type « link », alors le lien sera automatiquement posé sur les clés primaires des deux tables.
 
 ## Description des attributs {#attribute-description-7}
 
@@ -52,7 +52,7 @@ Si l’élément `<join>` n&#39;est pas précisé lors de la définition d&#39;u
 * **xpath-dst (string)** : cet attribut reçoit un Xpath (attribut « @name » de la table distante).
 * **xpath-src (string)** : cet attribut reçoit un Xpath (attribut « @name » dans le schéma courant).
 
-## Exemples       {#examples-6}
+## Exemples {#examples-6}
 
 Lien entre le champ &#39;email&#39; de la table courante et le champ &quot;@compagny-id&quot; de la table distante:
 
@@ -60,7 +60,7 @@ Lien entre le champ &#39;email&#39; de la table courante et le champ &quot;@comp
 <join xpath-dst="@compagny-id" xpath-src="@email"/>
 ```
 
-Lien &#39;filtré&#39; vers la table &quot;cus:Country&quot; basé sur le contenu du champ &quot;@country&quot; qui doit contenir la valeur &#39;FR&#39; :
+Lien filtré vers la table « cus:Country » à partir du contenu du champ « @country » qui doit contenir la valeur &#39;FR&#39; :
 
 ```
 <element name="StockEN" type="link" label="MyLink" target="cus:Stock">

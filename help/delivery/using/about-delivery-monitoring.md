@@ -6,9 +6,9 @@ feature: Monitoring, Deliverability
 role: User
 exl-id: 9ce11da0-e37b-459e-8ec7-d2bddf59bdf7
 source-git-commit: 62ab16b206563aa25b8943e606d03a3184eb00db
-workflow-type: ht
-source-wordcount: '835'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '952'
+ht-degree: 98%
 
 ---
 
@@ -28,11 +28,11 @@ ht-degree: 100%
 
 Que faire si les diffusions ne sont pas envoyées et restent dans un état **En attente** ?
 
-* Le processus d&#39;exécution attend la disponibilité de certaines ressources. Le MTA n&#39;a peut-être pas été démarré.
+* Le processus d’exécution attend la disponibilité de certaines ressources. Le MTA n’a peut-être pas été démarré.
 Vérifiez que vos modules mta@instance sont lancés sur vos serveurs MTA et démarrez le module MTA si nécessaire. [En savoir plus](../../production/using/administration.md).
 
 * La diffusion peut utiliser une affinité qui n&#39;a pas été configurée sur l&#39;instance d&#39;envoi.
-Conseil : vérifiez la configuration relative à la gestion du trafic (affinité IP). Pour plus d&#39;informations, consultez la section Contrôle du trafic SMTP sortant.
+Conseil : vérifiez la configuration relative à la gestion du trafic (affinité IP). Pour plus d&#39;informations, consultez la section Contrôle du trafic SMTP sortant.
 
 >[!NOTE]
 >

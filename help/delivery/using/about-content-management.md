@@ -7,9 +7,9 @@ feature: Landing Pages, Email Design
 role: User
 exl-id: 87434cc2-1636-4558-ab60-255b7f873c0c
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '261'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '273'
+ht-degree: 78%
 
 ---
 
@@ -23,7 +23,7 @@ Le module Adobe Campaign Content Manager est un [package natif](../../install
 
 Le module de gestion de contenu intègre des fonctionnalités de groupe de travail, de workflow et d’agrégation de contenu. Il permet de mettre automatiquement en forme un message : email, courrier, SMS, web, etc.
 
-L&#39;utilisation de la gestion de contenu dans une diffusion permet de proposer des champs de saisie ou de sélection aux opérateurs chargés de la création des contenus. La mise en page et l’affichage de ces contenus ainsi que leur transformation sont gérées automatiquement au travers de la feuille de style.
+L&#39;utilisation d&#39;un gestionnaire de contenu dans une diffusion permet de proposer des champs de saisie ou de sélection aux opérateurs en charge de la création de contenu. La mise en page et l’affichage de ce contenu, ainsi que les modifications apportées, sont gérés automatiquement à l’aide de la feuille de style.
 
 ![](assets/s_ncs_content_create_content_sample.png)
 
@@ -35,7 +35,7 @@ La gestion de contenu offre les avantages suivants :
 
 * Rédaction structurée des messages via des interfaces de saisie,
 * Séparation des données et de leur présentation (génération au format XML),
-* Génération multi-formats (html, txt, XML, etc.) de documents à partir de feuilles de style garantissant le respect des chartes graphiques,
+* Génération de documents dans plusieurs formats (html, txt, XML, etc.) en se basant sur des feuilles de style pour garantir la conformité aux chartes graphiques,
 * Récupération et agrégation automatique de flux de contenus externes,
 * Collaboration avec workflow de validation et contrôle des données.
 

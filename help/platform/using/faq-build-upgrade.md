@@ -9,8 +9,8 @@ topic-tags: starting-with-adobe-campaign
 exl-id: 85e2135d-a1a3-44f0-a4f9-de38db5c8726
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '2069'
-ht-degree: 100%
+source-wordcount: '2108'
+ht-degree: 97%
 
 ---
 
@@ -88,7 +88,7 @@ La mise à niveau de build est un processus en deux étapes :
 
 1. Préparation du système à la mise à niveau : tenant compte des spécificités de votre environnement, cette phase conduit essentiellement à une mise à niveau complet sur un environnement hors production. Une fois l’environnement mis à niveau validé du point de vue technique et fonctionnel, il est possible de passer à la phase 2. En fonction des facteurs mentionnés ci-dessus, la première phase peut prendre entre plusieurs jours et deux semaines.
 
-1. La mise à niveau proprement dite : l’environnement de production est mis à niveau.  Cette phase prend généralement quelques heures. Dans le cas d&#39;environnements très complexes, vous devez prévoir un temps d’arrêt plus long. En cas de problème, une stratégie de restauration est définie et peut être exécutée.
+1. La mise à niveau proprement dite : l’environnement de production est mis à niveau. Cette phase prend généralement quelques heures. Dans le cas d&#39;environnements très complexes, vous devez prévoir un temps d’arrêt plus long. En cas de problème, une stratégie de restauration est définie et peut être exécutée.
 
 Pour plus d&#39;informations, [voir ce document](https://helpx.adobe.com/fr/campaign/kb/acc-build-upgrade.html).
 
@@ -198,9 +198,12 @@ En savoir plus dans [Options d&#39;aide et de support pour Campaign Classic](..
 
 * Est-il possible de se connecter au serveur ? Vérifier que la console cliente Campaign fonctionne sans erreur/message d&#39;avertissement.
 * Veiller à utiliser la même version de console que la version de build après la mise à niveau.
-* Des applications web insèrent-elles des données dans la base de données Campaign ? Si tel est le cas, les exécuter et vérifier qu&#39;elles peuvent insérer de nouveaux enregistrements via l&#39;API.
-* Est-il possible d&#39;envoyer un email de test ? Créer une diffusion à l&#39;aide d&#39;un modèle connu, l&#39;envoyer à un destinataire de test et vérifier que la personnalisation, le lien de désabonnement et la page miroir fonctionnent.
-* Tous vos workflows de chemin critique sont-ils exécutés ? Vérifier les workflows, ouvrir un journal de workflow et vérifier qu&#39;il n&#39;y a pas d&#39;erreur.
+* Des applications web insèrent-elles des données dans la base de données Campaign ? Si oui, exécutez-les et
+vérifier qu’ils peuvent insérer de nouveaux enregistrements via l’API.
+* Est-il possible d&#39;envoyer un email de test ? Créez une nouvelle diffusion basée sur un modèle connu et envoyez-la à
+un destinataire de test, vérifier la personnalisation, annuler le lien, page miroir fonctionnent tous.
+* Tous vos workflows de chemin critique sont-ils exécutés ? Vérification des workflows, ouverture du journal des workflows, vérification
+qu’il n’y a aucune erreur.
 * Tous vos dossiers sont-ils présents, visibles et accessibles ? Accéder aux différents dossiers et vérifier que l&#39;ensemble
 du contenu est présent et s&#39;affiche.
 * Toutes vos diffusions sont-elles effectuées dans le fuseau horaire approprié ?
@@ -217,6 +220,6 @@ du contenu est présent et s&#39;affiche.
 **Voir aussi**
 
 * [Réalisation d’une mise à niveau de build](../../production/using/build-upgrade.md)
-* [Notes de mise à jour de Campaign Classic ](../../rn/using/rn-overview.md)
+* [Notes de mise à jour de Campaign Classic](../../rn/using/rn-overview.md)
 * [Options d&#39;aide et de support pour Campaign Classic](../../support.md)
 * [Programme de mise à niveau annuelle](../../rn/using/rn-overview.md#yearly-upgrade)

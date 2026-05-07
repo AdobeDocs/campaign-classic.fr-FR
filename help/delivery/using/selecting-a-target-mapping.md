@@ -9,7 +9,7 @@ exl-id: b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -33,4 +33,4 @@ Ces mappings sont les suivants :
 
 >[!NOTE]
 >
->Il est possible de créer dʼautres mappings de ciblage. Cette opération est toutefois réservée à des utilisateurs avancés. Pour plus d’informations, consultez [cette section](../../configuration/using/target-mapping.md).
+>Vous pouvez également créer de nouveaux mappings de ciblage. Cette opération est réservée à des utilisateurs experts. Pour plus d’informations, consultez [cette section](../../configuration/using/target-mapping.md).

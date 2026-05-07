@@ -5,8 +5,8 @@ description: Mise à jour du certificat du serveur du service Apple Push Notific
 feature: Technote, Push
 exl-id: 263fb4b5-ca62-4b92-a82d-8820ee998296
 source-git-commit: 0143e0d6ebcdbd96d183ddd0c7f07beb149a9670
-workflow-type: ht
-source-wordcount: '143'
+workflow-type: tm+mt
+source-wordcount: '160'
 ht-degree: 100%
 
 ---

@@ -7,9 +7,9 @@ feature: Inbox Rendering, Monitoring, Email Rendering
 role: User
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
 source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
-workflow-type: ht
-source-wordcount: '896'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '952'
+ht-degree: 72%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 100%
 
 Avant d&#39;appuyer sur le bouton **Envoyer**, vérifiez que l&#39;affichage de votre message sera optimal pour les destinataires sur divers clients web, webmails et appareils.
 
-Pour permettre cette vérification, Adobe Campaign utilise la solution web de test d&#39;email [Litmus](https://litmus.com/email-testing) afin de capturer les rendus et les rendre disponibles dans un rapport dédié. Vous pouvez ainsi visualiser l&#39;affichage du message envoyé dans les différents contextes de réception et vérifier la compatibilité sur les principaux postes de travail et dans les applications majeures.
+Pour permettre cette vérification, Adobe Campaign utilise la solution web de test d’e-mail [Litmus](https://litmus.com/email-testing) afin de capturer les rendus et de les rendre disponibles dans un rapport dédié. Vous pouvez ainsi prévisualiser le message envoyé dans les différents contextes de réception et vérifier la compatibilité sur les principaux postes de travail et applications.
 
 >[!CAUTION]
 >L’Inbox rendering n’est pas compatible avec les [diffusions récurrentes](communication-channels.md#recurring-delivery).
 >
 
-Litmus est une application de validation et de prévisualisation d&#39;emails offrant de nombreuses fonctionnalités. Elle permet aux créateurs de contenus d&#39;email de prévisualiser le contenu d&#39;un message dans plus de 70 outils de rendu d&#39;email, tels que la boîte de réception Gmail ou le client Apple Mail.
+Litmus est une application de validation et de prévisualisation des e-mails riche en fonctionnalités. Il permet aux créateurs de contenu d&#39;email de prévisualiser le contenu de leur message dans plus de 70 outils de rendu d&#39;email, tels que la boîte de réception Gmail ou le client de messagerie Apple.
 
 Les clients mobiles, de messagerie et webmail disponibles pour l&#39;**Inbox rendering** dans Adobe Campaign sont répertoriés sur le [site web de Litmus](https://litmus.com/email-testing) (cliquez sur **View all email clients**).
 
@@ -33,7 +33,7 @@ Les clients mobiles, de messagerie et webmail disponibles pour l&#39;**Inbox ren
 >
 >L&#39;Inbox rendering n&#39;est pas nécessaire pour tester les personnalisations dans les diffusions. La personnalisation peut être vérifiée à l’aide d’outils d’Adobe Campaign tels que l’**[!UICONTROL Aperçu]** et les BAT. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=fr){target="_blank"}.
 
-## Activation de l&#39;Inbox rendering{#activating-inbox-rendering}
+## Activation de l&#39;Inbox rendering {#activating-inbox-rendering}
 
 [!BADGE On-premise et hybride]{type=Caution url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"}
 
@@ -72,7 +72,7 @@ Pour les installations sur site, suivez la procédure ci-dessous pour configurer
 
 ## À propos des jetons Litmus {#about-litmus-tokens}
 
-Litmus étant un service tiers, il fonctionne selon un modèle de crédit déduit par utilisation. Chaque fois qu&#39;un utilisateur fait appel à la fonctionnalité Litmus, un crédit est déduit.
+Litmus étant un service tiers, il fonctionne sur un modèle de crédit par utilisation. Chaque fois qu’un utilisateur appelle la fonctionnalité Litmus, le crédit est déduit.
 
 Dans Adobe Campaign, le crédit correspond au nombre de rendus disponibles (appelés jetons).
 
@@ -94,7 +94,7 @@ Le nombre de jetons disponibles restants est indiqué dans le [rapport d’inbox
 
 ![](assets/s_tn_inbox_rendering_tokens.png)
 
-En règle générale, la fonctionnalité Inbox Rendering est utilisée pour tester la structure HTML d’un nouvel e-mail. Chaque rendu nécessite environ 70 jetons (en fonction du nombre d’environnements dans lequel il est généralement testé). Toutefois, dans certains cas, vous devrez peut-être générer plusieurs rapports d’Inbox Rendering pour tester entièrement votre diffusion. Plusieurs vérifications peuvent donc nécessiter des jetons supplémentaires.
+En règle générale, la fonction Inbox rendering est utilisée pour tester le framework HTML d’un e-mail nouvellement conçu. Chaque rendu nécessite environ jusqu’à 70 jetons (selon le nombre d’environnements généralement testés sur ). Cependant, dans certains cas, vous aurez peut-être besoin de plusieurs rapports d’inbox rendering pour tester entièrement votre diffusion. Plusieurs contrôles pourraient donc nécessiter davantage de jetons.
 
 ## Accéder au rapport d&#39;inbox rendering {#accessing-the-inbox-rendering-report}
 
@@ -107,9 +107,9 @@ Pour plus d&#39;informations sur la conception et le ciblage d&#39;une diffusion
 
    ![](assets/s_tn_inbox_rendering_button.png)
 
-   Un bon à tirer est envoyé. Les vignettes de rendu sont accessibles dans ce BAT quelques minutes après l&#39;envoi des e-mails. Pour en savoir plus sur l’envoi de BAT, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=fr){target="_blank"}.
+   Un BAT est envoyé. Les miniatures de rendu sont accessibles dans ce BAT quelques minutes après l’envoi des e-mails. Pour en savoir plus sur l’envoi de BAT, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=fr){target="_blank"}.
 
-1. Une fois envoyé, le BAT apparaît dans la liste de diffusion. Double-cliquez dessus.
+1. Après son envoi, le BAT apparaît dans la liste des diffusions. Double-cliquez dessus.
 
    ![](assets/s_tn_inbox_rendering_delivery_list.png)
 
@@ -121,7 +121,7 @@ Pour plus d&#39;informations sur la conception et le ciblage d&#39;une diffusion
 
 ## Rapport d&#39;inbox rendering {#inbox-rendering-report}
 
-Ce rapport présente les inbox renderings tels qu’ils apparaissent côté destinataire. Ils peuvent être différents selon le mode d’ouverture de la diffusion par e-mail par les destinataires : dans un navigateur, sur un appareil mobile ou via une application de messagerie.
+Ce rapport affiche les rendus de la boîte de réception tels qu’ils apparaissent au destinataire. Les rendus peuvent différer en fonction du mode d’ouverture de la diffusion par e-mail par le destinataire : dans un navigateur, sur un appareil mobile ou via une application de messagerie.
 
 La section supérieure présente la répartition du nombre de messages reçus, indésirables (spam), non reçus ou en attente de réception au moyen d’une représentation graphique avec code-couleur.
 
@@ -133,6 +133,6 @@ Le corps du rapport est divisé en trois parties : **[!UICONTROL Mobile]**, **
 
 ![](assets/s_tn_inbox_rendering_report.png)
 
-Pour voir les détails de chaque rapport, cliquez sur la vignette correspondante. Le rendu s&#39;affiche pour le moyen de réception sélectionné.
+Pour voir les détails de chaque rapport, cliquez sur la vignette correspondante. Le rendu s’affiche pour le moyen de réception sélectionné.
 
 ![](assets/s_tn_inbox_rendering_example.png)

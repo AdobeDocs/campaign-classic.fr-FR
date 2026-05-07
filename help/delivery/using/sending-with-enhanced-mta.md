@@ -7,14 +7,14 @@ role: User, Admin, Developer
 exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1461'
 ht-degree: 98%
 
 ---
 
 # Envoi d&#39;emails avec le MTA amélioré {#sending-with-enhanced-mta}
 
-Le **MTA amélioré d’Adobe Campaign** (Mail Transfer Agent) fournit une infrastructure d’envoi mise à niveau qui permet d’améliorer les performances en matière de délivrabilité, de réputation, de débit, de reporting, de gestion des rebonds, de montée en charge des adresses IP et de gestion des paramètres de connexion. 
+Le **MTA amélioré d’Adobe Campaign** (Mail Transfer Agent) fournit une infrastructure d’envoi mise à niveau qui permet d’améliorer les performances en matière de délivrabilité, de réputation, de débit, de reporting, de gestion des rebonds, de montée en charge des adresses IP et de gestion des paramètres de connexion.
 
 Il est implémenté pour améliorer l&#39;évolutivité, augmenter le débit de diffusion et envoyer plus rapidement un plus grand nombre d&#39;emails. Ces améliorations sont possibles grâce à de nouvelles techniques de diffusion adaptatives qui modifient en temps réel les paramètres d’envoi des emails en fonction des retours des fournisseurs d’accès à Internet.
 

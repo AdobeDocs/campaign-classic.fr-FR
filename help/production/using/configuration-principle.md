@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: production-procedures
 exl-id: 03d7e579-8678-44b8-bbe7-cf4204bffb25
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: ht
-source-wordcount: '292'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '311'
+ht-degree: 65%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 100%
 
 
 
-La plateforme Adobe Campaign repose sur le concept d&#39;instance semblable à la notion d&#39;hôte virtuel comme c&#39;est le cas par exemple sous Apache. Ce mode de fonctionnement permet de mutualiser un serveur en y affectant plusieurs instances. Chaque instance est totalement découplée des autres et fonctionne avec sa propre base et son propre fichier de configuration.
+La plateforme Adobe Campaign repose sur le concept d’instances, similaires à celles des hôtes virtuels utilisés par Apache. Ce mode de fonctionnement permet de partager un serveur en lui affectant plusieurs instances. Les instances sont complètement séparées les unes des autres et fonctionnent avec leur propre base de données et leur propre fichier de configuration.
 
 Sur un même serveur, deux éléments sont communs à l&#39;ensemble des instances Adobe Campaign :
 
-* Le mot de passe **internal** : il s&#39;agit du mot de passe administrateur général. Il est commun à toutes les instances d&#39;un même serveur applicatif.
+* Le mot de passe **internal** : il s&#39;agit du mot de passe administrateur général. Elle est commune à toutes les instances d’un serveur d’applications particulier.
 
   >[!IMPORTANT]
   >
@@ -34,8 +34,8 @@ Sur un même serveur, deux éléments sont communs à l&#39;ensemble des instanc
 Les fichiers de configuration sont enregistrés dans le répertoire **conf** du répertoire d’installation. La configuration est divisée en trois fichiers :
 
 * **serverConf.xml** : configuration générale pour toutes les instances.
-* **Config-.xml **`<instance>`**.xml** (où **`<instance>`** est le nom de l&#39;instance) : configuration spécifique d’une instance.
-* **serverConf.xml.diff** : delta entre la configuration initiale et la configuration actuelle. Ce fichier est géré automatiquement par l&#39;application et ne doit pas être modifié manuellement. Il permet de propager automatiquement les modifications utilisateur lors d&#39;une mise à jour de build.
+* **Config-.xml &#x200B;**`<instance>`**.xml** (où **`<instance>`** est le nom de l&#39;instance) : configuration spécifique d’une instance.
+* **serverConf.xml.diff** : delta entre la configuration initiale et la configuration actuelle. Ce fichier est généré automatiquement par l&#39;application et ne doit pas être modifié manuellement. Il est utilisé pour propager automatiquement les modifications utilisateur lors de la mise à jour d’une version de build.
 
 Le chargement de la configuration d&#39;une instance est réalisé de la manière suivante :
 

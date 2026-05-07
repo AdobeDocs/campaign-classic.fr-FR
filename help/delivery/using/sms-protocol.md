@@ -6,9 +6,9 @@ feature: SMS
 role: Developer
 exl-id: fded088a-11a2-4b87-a368-7b197334aca4
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
-source-wordcount: '8457'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '8524'
+ht-degree: 99%
 
 ---
 
@@ -71,7 +71,7 @@ Un SMS contient plus d&#39;informations que de texte. Voici une liste de ce que 
 
 ## Protocole SMPP {#smpp-protocol}
 
-Adobe Campaign Classic prend en charge le protocole SMPP version 3.4. Il s&#39;agit d&#39;un protocole répandu qui permet d&#39;envoyer des SMS à un fournisseur (SMSC) et de recevoir des SMS ainsi que des accusés de réception. Consultez à ce sujet la [documentation SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
+Adobe Campaign Classic prend en charge le protocole SMPP version 3.4. Il s’agit d’un protocole répandu qui permet d’envoyer des SMS à un fournisseur (SMSC) et de recevoir des SMS ainsi que des accusés de réception. Consultez à ce sujet la [documentation SMPP](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 
 L&#39;équipement réseau côté fournisseur SMS est souvent appelé SMSC.
 
@@ -107,7 +107,7 @@ Un `SUBMIT_SM_RESP PDU` réussi déclenche le statut du message &quot;envoyé&qu
 
 ### Aspects liés à la sécurité {#security-aspects}
 
-Le protocole lui-même n&#39;est pas chiffré. La plupart des fournisseurs mettent en œuvre une variante d&#39;IP sur la liste autorisée, de sorte que les adresses IP du serveur Adobe Campaign doivent être déclarées au fournisseur.
+Le protocole proprement dit n’est pas chiffré. La plupart des fournisseurs mettent en œuvre une variante d&#39;IP sur la liste autorisée, de sorte que les adresses IP du serveur Adobe Campaign doivent être déclarées au fournisseur.
 
 Adobe Campaign prend en charge la transmission d&#39;un nom d&#39;utilisateur et d&#39;un mot de passe lors de la phase de liaison. Il prend également en charge le SMPP plutôt que le TLS. Il convient de noter que des certificats sont requis pour assurer une sécurité adéquate. Bien que le connecteur SMPP permette de contourner les vérifications de certificats, il ne doit être utilisé que pour les tests, car un TLS sans certificat offre un niveau de sécurité nettement inférieur.
 
@@ -512,7 +512,8 @@ Exemple de transmission avec une fenêtre maximale de 4 :
 
 ![](assets/do-not-localize/sms_protocol_2.png)
 
-La fenêtre permet d&#39;augmenter le débit lorsque la liaison réseau présente une latence élevée.  La valeur de la fenêtre doit être au moins égale au nombre de SMS/s multiplié par la latence du lien en secondes, de sorte que le connecteur n&#39;attend jamais un `SUBMIT_SM_RESP` avant d&#39;envoyer le message suivant.
+La fenêtre permet d’augmenter le débit lorsque la liaison réseau présente une latence élevée.  La valeur de la fenêtre doit être au moins égale au nombre de SMS/s multiplié par la latence du lien
+en secondes, de sorte que le connecteur n’attend jamais un `SUBMIT_SM_RESP` avant d’envoyer le message suivant.
 Si la fenêtre est trop grande, vous pouvez envoyer plus de messages en double en cas de problème de connexion. En outre, la plupart des fournisseurs ont une limite très stricte pour la fenêtre et refusent les messages qui dépassent la limite.
 
 Comment calculer la formule optimale de la fenêtre d&#39;émission :
@@ -559,7 +560,7 @@ Pour plus d&#39;informations, consultez la section [Encodage de texte SMS](sms-p
 
 Ce paramètre permet de définir un mapping de codage personnalisé différent de la spécification. Vous pourrez déclarer une liste d&#39;encodages, ainsi que leur valeur `data_coding`.
 
-Le MTA tentera d&#39;effectuer un encodage en utilisant le premier de la liste. S&#39;il échoue, il essaiera d&#39;utiliser l&#39;encodage suivant sur la liste, etc. Si aucun encodage ne peut être utilisé pour encoder le message, une erreur se produit. Une fois l&#39;encodage trouvé, le MTA crée le `SUBMIT_SM PDU` avec le texte encodé et le champ `data_coding` défini avec la valeur spécifiée dans le tableau.
+Le MTA tentera d&#39;effectuer un encodage en utilisant le premier de la liste. S’il échoue, il tente d’utiliser le prochain encodage de la liste, etc. Si aucun encodage ne peut être utilisé pour encoder le message, une erreur se produit. Une fois l&#39;encodage trouvé, le MTA crée le `SUBMIT_SM PDU` avec le texte encodé et le champ `data_coding` défini avec la valeur spécifiée dans le tableau.
 
 L&#39;ordre des éléments du tableau est important : les encodages sont des tentatives de haut en bas. Placez l&#39;encodage le moins cher ou le plus recommandé en haut de la liste, puis choisissez des encodages de plus en plus chers.
 
@@ -670,7 +671,7 @@ Indique le format de l&#39;ID renvoyé dans le champ `message_id` du `SUBMIT_SM_
 
 * **Nombre décimal** : l&#39;ID doit être un nombre décimal au format ASCII. Les espaces de début et de fin et les zéros de début sont supprimés lorsque ce paramètre est utilisé.
 
-* **Nombre hexadécimal** : l&#39;ID doit être un nombre hexadécimal au format ASCII, sans 0x ni h à la fin.L&#39;ID est ensuite converti en nombre décimal avant d&#39;être stocké dans la base de données.
+* **Nombre hexadécimal** : l’ID doit être un nombre hexadécimal au format ASCII, sans 0x au début ni h à la fin. L’ID est ensuite converti en nombre décimal avant d’être stocké dans la base de données.
 
 * **Chaîne hexadécimale** : l&#39;ID doit être un texte encodé en ASCII qui est lui-même une chaîne d&#39;octets encodés en hexadécimal. Par exemple, dans le PDU, vous trouverez `0x34 0x31 0x34 0x32 0x34 0x33`, qui se traduit par &quot;414243&quot; en ASCII. Cette chaîne est alors décodée sous la forme d&#39;une chaîne hexadécimale d&#39;octets et vous obtenez &quot;ABC&quot; en conséquence : vous stockerez l&#39;ID &quot;ABC&quot; dans la base de données.
 
@@ -718,7 +719,7 @@ Permet d&#39;ajouter un fichier TLV personnalisé. Ce champ définit la partie b
 
 Ce paramètre permet uniquement d&#39;ajouter une option TLV par message.
 
-### Réponse automatique aux MO   {#automatic-reply}
+### Réponse automatique aux MO {#automatic-reply}
 
 >[!IMPORTANT]
 >
@@ -833,16 +834,16 @@ Même si vous ne pouvez pas vérifier vous-même les logs, il sera plus facile p
 
 ### Tester votre SMS {#test}
 
-* **Envoyer des SMS avec toutes sortes de caractères**
-Si vous devez envoyer des SMS avec des caractères non GSM ou non ASCII, essayez d&#39;envoyer des messages avec autant de caractères différents que possible. Si vous définissez un tableau de mapping de caractères personnalisé, envoyez au moins un SMS pour toutes les valeurs `data_coding` possibles.
+* **Envoyer un SMS avec toutes sortes de caractères**
+Si vous devez envoyer des SMS avec des caractères non GSM ou non ASCII, essayez d’envoyer des messages avec les caractères les plus variés possible. Si vous définissez un tableau de mapping de caractères personnalisé, envoyez au moins un SMS pour toutes les valeurs `data_coding` possibles.
 
-* **Vérifier que les SR sont correctement traités**
+* **Vérifier que les SR sont correctement traités.**
 Le SMS doit être marqué comme reçu dans le log de diffusion. Le log de diffusion ne doit pas rencontrer de problème et se présenter comme suit :
   `SR yourProvider stat=DELIVRD err=000|#MESSAGE`
 Vérifiez que vous avez modifié le nom du fournisseur de diffusions. Le log de diffusion ne doit jamais contenir **SR Generic** sur les environnements de production.
 
-* **Vérifier que les MO sont traités**
-Si vous devez traiter les MO (réponses automatiques, stockage de MO dans la base de données, etc.), essayez de procéder à des tests. Envoyez quelques SMS pour tous les mots-clés de réponse automatique et vérifiez si la réponse est assez rapide, pas plus de quelques secondes.
+* **Vérifier que les MO sont traités.**
+Si vous devez traiter les MO (réponses automatiques, stockage de MO dans la base de données, etc.), essayez de procéder à des tests. Envoyez quelques SMS pour tous les mots-clés de réponse automatique et vérifiez si la réponse est assez rapide, pas plus de quelques secondes.
 Archivez le log auquel Adobe Campaign répond avec un `DELIVER_SM_RESP` réussi (command_status=0).
 
 ### Vérifier les PDU {#check-pdus}
@@ -855,7 +856,7 @@ Cette étape est nécessaire lors de la connexion avec un fournisseur qui n&#39;
 
 Vérifiez que les `BIND_* PDUs` sont correctement envoyés. La chose la plus importante à vérifier est que le fournisseur renvoie toujours un `BIND_*_RESP PDUs` (command_status = 0) réussi.
 
-Vérifiez qu&#39;il n&#39;y a pas trop de `BIND_* PDU`.S&#39;il y en a trop, cela peut indiquer que la connexion est instable. Pour plus d&#39;informations, consultez la section [Problèmes liés aux connexions instables](sms-protocol.md#issues-unstable-connection).
+Vérifiez qu’il n’y ait pas trop de `BIND_* PDU`. S’il y en a trop, cela peut indiquer que la connexion est instable. Pour plus d&#39;informations, consultez la section [Problèmes liés aux connexions instables](sms-protocol.md#issues-unstable-connection).
 
 #### ENQUIRE_LINK {#enquire-link-pdus}
 

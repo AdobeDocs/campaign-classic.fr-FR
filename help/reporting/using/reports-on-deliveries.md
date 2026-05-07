@@ -6,9 +6,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Reporting, Monitoring
 exl-id: dcbf280c-3040-4218-a453-1497662fef2e
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 100%
+ht-degree: 71%
 
 ---
 
@@ -24,7 +24,7 @@ Les types de rapports disponibles sont les suivants :
 * Rapports de diffusion, voir la section [Rapports de diffusion](../../reporting/using/delivery-reports.md).
 * Rapports cumulés, voir la section [Rapports cumulés](../../reporting/using/cumulative-reports.md).
 
-Vous pouvez accéder aux rapports depuis la page d’accueil de la console cliente, le tableau de bord des rapports ou la liste des diffusions. Le mode d’affichage d’un rapport dépend de son contexte. La liste des principaux rapports est disponible sur la page d’accueil et permet d’accéder rapidement aux données des diffusions. Cette liste peut être modifiée selon vos besoins. Pour plus d’informations, consultez [cette section](../../reporting/using/about-reports-creation-in-campaign.md).
+Vous pouvez accéder aux rapports à partir de la page d’accueil de la console cliente, du tableau de bord des rapports ou de la liste des diffusions. Le mode d’affichage d’un rapport dépend de son contexte. La liste des principaux rapports est disponible sur la page d&#39;accueil et permet d&#39;accéder rapidement aux données de la diffusion. Cette liste peut être modifiée en fonction de vos besoins. Pour plus d’informations, consultez [cette section](../../reporting/using/about-reports-creation-in-campaign.md).
 
 
 Un champ de recherche est disponible depuis le tableau de bord des rapports et vous permet d&#39;accéder plus rapidement à l&#39;un des rapports de la liste.
@@ -45,6 +45,6 @@ Vous pouvez ainsi :
 
 >[!NOTE]
 >
->Certains rapports affichent des graphiques (courbes, histogrammes, funnels, etc). Il est possible de déplacer le curseur de la souris sur un graphique pour en afficher les différentes valeurs.
+>Certains rapports comportent des graphiques (courbes, barres, funnel, etc.). Déplacez le curseur sur un graphique pour afficher ses valeurs.
 
 Pour plus d&#39;informations sur ces options, voir [cette section](../../reporting/using/about-adobe-campaign-reporting-tools.md).

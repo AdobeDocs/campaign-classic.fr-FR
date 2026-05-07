@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 8a0426c1-9e8d-4053-bc2b-6a550e2eed2f
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: ht
-source-wordcount: '282'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '310'
+ht-degree: 83%
 
 ---
 
@@ -47,7 +47,7 @@ Les DLL d&#39;accès sont disponibles sur le site de Microsoft.
 
 Les paramètres **NLS_NCHAR_CHARACTERSET** et **NLS_CHARACTERSET** doivent avoir été correctement configurés pour un bon fonctionnement de la base en Unicode ou en ANSI.
 
-Adobe Campaign utilise les encodages par défaut d&#39;Oracle. Si vous en utilisez d&#39;autres, il peut se produire une incompatibilité. Dans ce cas, contactez le support technique.
+Adobe Campaign utilise le codage Oracle par défaut. L’utilisation d’autres encodages peut entraîner des problèmes de compatibilité : dans ce cas, veuillez contacter l’assistance technique.
 
 Pour connaître votre encodage, vous pouvez utiliser la commande **sqlplus** suivante :
 
@@ -80,8 +80,8 @@ Voir également la section [Client Oracle sous Linux](../../installation/using/i
 
 ## PostgresSQL {#postgressql}
 
-Nous vous recommandons d&#39;installer le support UTF-8 lors de l&#39;installation du moteur de base, afin de pouvoir créer des bases Unicode.
+Nous vous recommandons d’installer la prise en charge UTF-8 lors de l’installation du moteur de base de données. Vous pourrez ainsi créer des bases de données Unicode.
 
 **Rubrique connexe**
 
-* [Option non enregistrée dans les tables Adobe Campaign Classic](https://helpx.adobe.com/fr/campaign/kb/unlogged-tables-classic.html)
+* [Option non enregistrée dans les tables Adobe Campaign Classic](https://helpx.adobe.com/fr/campaign/kb/unlogged-tables-classic.html)

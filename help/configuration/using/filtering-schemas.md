@@ -6,9 +6,9 @@ feature: Custom Resources
 role: Developer
 exl-id: 009bed25-cd35-437c-b789-5b58a6d2d7c6
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
-source-wordcount: '382'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '387'
+ht-degree: 79%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 ## Filtres système {#system-filters}
 
-Vous pouvez filtrer l’accès aux schémas pour des utilisateurs spécifiques, selon leurs autorisations. Les filtres système vous permettent de gérer les autorisations de lecture et d’écriture des entités figurant dans les schémas, au moyen des paramètres **readAccess** et **writeAccess**.
+Vous pouvez filtrer l’accès aux schémas pour des utilisateurs spécifiques, selon leurs autorisations. Les filtres système vous permettent de gérer les autorisations de lecture et d’écriture des entités détaillées dans les schémas, à l’aide des paramètres **readAccess** et **writeAccess**.
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ Vous pouvez filtrer l’accès aux schémas pour des utilisateurs spécifiques, 
 
 * **readAccess** : permet d&#39;accéder aux données d&#39;un schéma en lecture seule.
 
-  **Attention** : toutes les tables liées doivent être définies avec la même restriction. Cette configuration peut avoir une incidence sur les performances.
+  **Avertissement** - Toutes les tables liées doivent être définies avec la même restriction. Cette configuration peut avoir un impact sur les performances.
 
 * **writeAccess** : permet d&#39;accéder aux données d&#39;un schéma en écriture.
 
@@ -32,7 +32,7 @@ Ces filtres sont renseignés au niveau de l’**élément** principal des schém
 
 * Restreindre les autorisations d’ÉCRITURE
 
-  Ici, le filtre sert à interdire les autorisations d’ÉCRITURE sur le schéma aux opérateurs ne disposant pas de la autorisation ADMINISTRATION. Ainsi, seuls les administrateurs pourront accéder en écriture aux entités décrites par ce schéma.
+  Ici, le filtre sert à interdire les autorisations d’ÉCRITURE sur le schéma aux opérateurs ne disposant pas de l’autorisation ADMINISTRATION. Cela signifie que seuls les administrateurs disposeront d’autorisations en écriture sur les entités décrites par ce schéma.
 
   ```
   <sysFilter name="writeAccess">      

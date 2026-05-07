@@ -7,8 +7,8 @@ hide: true
 exl-id: 9c228cdb-331e-476e-a24c-3c7e23add3bf
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 91%
+source-wordcount: '377'
+ht-degree: 70%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 91%
 
 
 
-Une action de type **diffusion au fil de l’eau** permet d‘ajouter de nouveaux destinataires à une diffusion existante. Ce type de diffusion évite d’avoir à créer une diffusion à chaque fois. Ce mode est souvent plus efficace, en particulier pour les alertes de faible volume ou les notifications envoyées selon les besoins.
+Une action de type **Diffusion au fil de l&#39;eau** permet d&#39;ajouter de nouveaux destinataires à une diffusion existante. Ce type de diffusion évite d&#39;avoir à créer une diffusion complète à chaque fois : ce mode est souvent plus efficace, en particulier pour les alertes de faible volume ou les notifications envoyées selon les besoins.
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#continuous-delivery-video)
 
@@ -24,7 +24,7 @@ Au niveau du modèle de diffusion, vous pouvez spécifier un script pour calcule
 
 ![](assets/edit_diffusion_fil.png)
 
-L’option **[!UICONTROL Traiter les erreurs]** fait apparaître une transition particulière qui sera activée si une erreur est générée. Dans ce cas, le workflow ne passe pas en état d’erreur et continue son exécution.
+L&#39;option **[!UICONTROL Traiter les erreurs]** affiche une transition particulière qui sera activée si une erreur est générée. Dans ce cas, le workflow ne passe pas en mode erreur et continue l’exécution.
 
 Les erreurs prises en compte sont les erreurs du système de fichiers (impossible de déplacer un fichier, impossible d&#39;accéder au répertoire, etc.).
 
@@ -65,4 +65,4 @@ Cette vidéo montre comment configurer une diffusion en continu avec une requêt
 
 >[!VIDEO](https://video.tv.adobe.com/v/30233?captions=fre_fr&quality=12)
 
-D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+D&#39;autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

@@ -8,8 +8,8 @@ role: User, Developer
 exl-id: 8ec52c96-44a2-4544-93b6-9ba251510682
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 100%
+source-wordcount: '845'
+ht-degree: 86%
 
 ---
 
@@ -31,7 +31,7 @@ Le document XML d’un formulaire de saisie doit contenir l’élément racine 
 
 Par défaut, un formulaire est associé au schéma de données qui porte le même nom et le même espace de noms. Pour associer un formulaire avec un nom différent, saisissez la clé de schéma dans l’attribut **entity-schema** de l’élément **`<form>`**.
 
-Pour illustrer la structure d&#39;un formulaire de saisie, nous allons décrire une interface à partir de notre schéma d&#39;exemple &quot;cus:livre&quot; :
+Pour illustrer la structure d&#39;un formulaire de saisie, nous allons décrire une interface à partir de notre schéma d&#39;exemple « cus:book » :
 
 ![](assets/d_ncs_content_form1.png)
 
@@ -73,7 +73,7 @@ Par défaut, chaque champ est affiché sur une seule ligne et occupe tout l&#39;
 
 ## Mise en forme {#formatting}
 
-La disposition des contrôles entre eux ressemble à celle utilisée dans les tableaux HTML, avec la possibilité de diviser un contrôle en plusieurs colonnes, d&#39;utiliser des imbrications d&#39;éléments ou de spécifier l&#39;occupation de l&#39;espace disponible. Il faut cependant retenir que la mise en page autorise seulement des répartitions de proportions, il n&#39;est pas possible de spécifier des dimensions fixes pour un objet.
+La disposition des commandes les unes par rapport aux autres est similaire à celle utilisée dans les tableaux HTML, avec la possibilité de diviser une commande en plusieurs colonnes, d&#39;entrelacer des éléments, ou de préciser l&#39;occupation de l&#39;espace disponible. Notez toutefois que la mise en forme autorise uniquement la répartition des proportions ; vous ne pouvez pas spécifier de cotes fixes pour un objet.
 
 Pour plus d’informations, consultez [cette section](../../configuration/using/form-structure.md#formatting).
 
@@ -102,7 +102,7 @@ Les colonnes sont déclarées par les éléments **`<input>`** enfants de la lis
 >
 >Les boutons de flèches haut et bas d&#39;ordonnancement sont ajoutés automatiquement lorsque l&#39;attribut **ordered=&quot;true&quot;** est renseigné sur l&#39;élément de collection dans le schéma de données.
 
-Par défaut, les boutons de la barre d&#39;outils sont alignés verticalement. Ils peuvent aussi être alignés horizontalement :
+Par défaut, les boutons de la barre d’outils sont alignés verticalement. Ils peuvent également être alignés horizontalement :
 
 ![](assets/d_ncs_content_form5.png)
 
@@ -146,7 +146,7 @@ Les formes d&#39;édition dans les listes sont utilisées dans les cas suivants�
 
 La définition du formulaire d’édition est spécifiée via l’élément **`<form>`** situé sous l’élément de liste. Sa structure est identique à celle d’un formulaire de saisie.
 
-Un bouton **[!UICONTROL Détail]** est automatiquement ajouté lorsque l&#39;attribut **zoom=&quot;true&quot;** est renseigné dans la définition de la liste, celui-ci permet de lancer le formulaire d&#39;édition sur la ligne sélectionnée.
+Un bouton **[!UICONTROL Détail]** est automatiquement ajouté lorsque l&#39;attribut **zoom=« true »** est renseigné dans la définition de la liste. Vous pouvez ainsi ouvrir le formulaire d&#39;édition sur la ligne sélectionnée.
 
 >[!NOTE]
 >
@@ -182,7 +182,7 @@ Utilisez les boutons de la barre d&#39;outils pour ajouter ou supprimer des él�
 
 ## Conteneurs {#containers}
 
-Les conteneurs vous permettent de regrouper un ensemble de contrôles. Ils existent via l’élément **`<container>`**. Ils ont déjà été utilisés pour mettre en forme les contrôles dans plusieurs colonnes et pour contrôler la liste d’onglets.
+Les conteneurs permettent de regrouper un ensemble de contrôles. Ils existent via l’élément **`<container>`**. Ils ont déjà été utilisés pour mettre en forme les contrôles dans plusieurs colonnes et pour contrôler la liste d’onglets.
 
 Les containers et leur utilisation dans les formulaires de saisie sont présentés dans [cette section](../../configuration/using/form-structure.md#containers).
 

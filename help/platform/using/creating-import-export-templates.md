@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 1180e664-5ead-4d5d-b1c3-6fe397c1f3a2
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 100%
+ht-degree: 87%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 Les modèles d&#39;import et d&#39;export sont stockés dans le répertoire **[!UICONTROL Ressources > Modèles > Modèles de traitement]** de l&#39;arborescence d&#39;Adobe Campaign.
 
-Par défaut, trois modèles d&#39;import et un modèle d&#39;export sont présents dans ce répertoire. Ils ne doivent pas être modifiés.
+Par défaut, trois modèles d’import et un modèle d’export sont présents dans ce répertoire. Ils ne doivent pas être modifiés.
 
 * Le modèle natif **[!UICONTROL Importer la liste bloquée]** est déjà configuré pour importer une liste des adresses email ajoutées à la liste bloquée.
 

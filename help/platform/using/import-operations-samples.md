@@ -10,8 +10,8 @@ topic-tags: importing-and-exporting-data
 exl-id: 4582b524-2b6d-484c-bace-29d2e69f60e9
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 100%
+source-wordcount: '1118'
+ht-degree: 90%
 
 ---
 
@@ -73,7 +73,7 @@ Pour importer dans la base Adobe Campaign de nouveaux profils de destinataires 
 
 1. Réconciliation
 
-   * Positionnez-vous au niveau de la table **Destinataires (nms:recipient)**.
+   * Accédez à la table **Destinataires (nms:recipient)** .
    * Sélectionnez l&#39;opération **[!UICONTROL Insertion]** et laissez les autres champs par défaut.
 
      ![](assets/s_ncs_user_import_example04_01.png)
@@ -104,7 +104,7 @@ Pour importer dans la base Adobe Campaign de nouveaux profils de destinataires 
 
 ## Mise à jour et insertion de destinataires {#example--update-and-insert-recipients}
 
-Vous souhaitez mettre à jour des enregistrements déjà existants dans la base et en créer de nouveaux à partir d&#39;un fichier texte. Voici un exemple de mise en œuvre :
+Nous voulons mettre à jour les enregistrements existants dans la base de données et en créer de nouveaux à partir d&#39;un fichier texte. Voici un exemple de procédure :
 
 1. Choix du modèle
 
@@ -125,7 +125,7 @@ Vous souhaitez mettre à jour des enregistrements déjà existants dans la base 
 1. Réconciliation
 
    * Conservez l&#39;opération **[!UICONTROL Mise à jour ou insertion]** sélectionnée par défaut.
-   * Conservez l&#39;option **[!UICONTROL Gestions des duplicatas]** en mode **[!UICONTROL Mise à jour]**, pour que les enregistrements existants dans la base soient modifiés avec les données du fichier texte.
+   * Conservez l’option **[!UICONTROL Gestion des doublons]** en mode **[!UICONTROL Mise à jour]**, pour que les enregistrements existants dans la base soient modifiés avec les données du fichier texte.
    * Sélectionnez les champs **[!UICONTROL Date de naissance]**, **[!UICONTROL Nom]** et **[!UICONTROL Société]** et attribuez-leur une clé de réconciliation.
 
      ![](assets/s_ncs_user_import_example04_02.png)
@@ -146,7 +146,7 @@ Vous souhaitez mettre à jour des enregistrements déjà existants dans la base 
 
 Vous souhaitez modifier certains champs dans une table de la base de données depuis un fichier texte en privilégiant les valeurs contenues dans la base de données.
 
-Dans cet exemple, vous noterez que certains champs de votre fichier texte ont une valeur alors que les champs correspondants dans la base de données sont vides. D&#39;autres champs contiennent une valeur différente de celle contenue dans la base de données.
+Dans cet exemple, vous pouvez voir que certains champs de votre fichier texte ont une valeur , tandis que les champs correspondants de la base de données sont vides. Les autres champs contiennent une valeur différente de celle contenue dans la base de données.
 
 * Contenu du fichier texte à importer
 
@@ -176,7 +176,7 @@ Les étapes sont les suivantes :
 
    * Positionnez-vous au niveau de la table et sélectionnez l&#39;opération **[!UICONTROL Mise à jour]**
    * Choisissez l&#39;option **[!UICONTROL Rejeter l&#39;entité]** pour le champ **[!UICONTROL Gestion des doublons]**.
-   * Conservez l&#39;option **[!UICONTROL Gestions des duplicatas]** en mode **[!UICONTROL Mise à jour]**, pour que les enregistrements existants dans la base soient modifiés avec les données du fichier texte.
+   * Conservez l’option **[!UICONTROL Gestion des doublons]** en mode **[!UICONTROL Mise à jour]**, pour que les enregistrements existants dans la base soient modifiés avec les données du fichier texte.
    * Positionnez-vous sur le noeud **[!UICONTROL Nom (@lastName)]** et sélectionnez l&#39;option **[!UICONTROL Mettre à jour uniquement si la destination est vide]**.
    * Recommencez l&#39;opération pour le noeud **[!UICONTROL Société (@company)]**.
    * Attribuez une clé de réconciliation aux champs **[!UICONTROL Date de naissance]**, **[!UICONTROL E-mail]** et **[!UICONTROL Prénom]**.
@@ -197,7 +197,7 @@ Les étapes sont les suivantes :
 
 Vous souhaitez modifier certains champs dans une table de la base de données depuis un fichier texte et privilégier les valeurs contenues dans le fichier texte.
 
-Dans cet exemple, vous noterez que certains champs de votre fichier texte ont une valeur vide alors que les champs correspondants dans la base de données ne le sont pas. D&#39;autres champs contiennent une valeur différente de celle contenue dans la base de données.
+Dans cet exemple, vous verrez que certains champs de votre fichier texte ont une valeur vide, tandis que les champs correspondants de la base de données ne sont pas vides. Les autres champs contiennent une valeur différente de celle de la base de données.
 
 * Contenu du fichier texte à importer
 
@@ -225,7 +225,7 @@ Dans cet exemple, vous noterez que certains champs de votre fichier texte ont un
 
    * Positionnez-vous au niveau de la table et sélectionnez l&#39;opération **[!UICONTROL Mise à jour]**.
    * Choisissez l&#39;option **[!UICONTROL Rejeter l&#39;entité]** pour le champ **[!UICONTROL Gestion des doublons]**.
-   * Laissez l&#39;option **[!UICONTROL Gestions des duplicatas]** en mode **[!UICONTROL Mise à jour]**, pour que les enregistrements existants dans la base soient modifiés avec les données du fichier texte.
+   * Laissez l’option **[!UICONTROL Gestion des doublons]** en mode **[!UICONTROL Mise à jour]**, pour que les enregistrements existants dans la base soient modifiés avec les données du fichier texte.
    * Positionnez-vous sur le noeud **[!UICONTROL N° de compte (@account)]** et sélectionnez l&#39;option **[!UICONTROL Tenir compte des valeurs vides]**.
    * Sélectionnez les champs **[!UICONTROL Date de naissance]**, **[!UICONTROL E-mail]** et **[!UICONTROL Prénom]**, puis attribuez-leur une clé de réconciliation.
 
@@ -238,4 +238,4 @@ Dans cet exemple, vous noterez que certains champs de votre fichier texte ont un
 
      ![](assets/s_ncs_user_import_example06_06.png)
 
-     Les valeurs du fichier texte qui étaient vides ont écrasées celles de la base. Les valeurs déjà existantes dans la base ont été mises à jour par celle du fichier d&#39;import, conformément à l&#39;option **[!UICONTROL Mise à jour]** sélectionnée pour les duplicatas à l&#39;étape 4.
+     Les valeurs du fichier texte qui étaient vides ont écrasées celles de la base. Les valeurs déjà existantes dans la base ont été mises à jour par celle du fichier d’import, conformément à l’option **[!UICONTROL Mise à jour]** sélectionnée pour les doublons à l’étape 4.

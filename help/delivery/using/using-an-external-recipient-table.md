@@ -7,8 +7,8 @@ feature: Audiences
 exl-id: b6aabc68-707d-4c6c-b008-277609166c6c
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 100%
+source-wordcount: '92'
+ht-degree: 92%
 
 ---
 
@@ -24,4 +24,4 @@ Dans ce cas, pour ajouter les adresses de contrôle dans la diffusion, renseigne
 
 ![](assets/s_ncs_user_seedlist_add_new_tab.png)
 
-L&#39;extension du schéma **nms:seedMember** est présentée dans [cette section](../../configuration/using/seed-addresses.md).
+L’extension de schéma **nms:seedMember** est [cette section](../../configuration/using/seed-addresses.md).

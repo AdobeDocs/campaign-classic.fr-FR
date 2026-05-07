@@ -9,8 +9,8 @@ content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: a7cf59cc-9260-4109-af4c-b2e2a9c999da
 source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
-workflow-type: ht
-source-wordcount: '153'
+workflow-type: tm+mt
+source-wordcount: '173'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Les étapes principales sont les suivantes :
 1. installation du serveur applicatif, voir la section [Exécution du programme d’installation](../../installation/using/installing-the-server.md#executing-the-installation-program) ;
 1. intégration avec un serveur web (facultatif, selon les composants déployés), voir la section [Configuration du serveur Web IIS](../../installation/using/integration-into-a-web-server-for-windows.md#configuring-the-iis-web-server).
 
-Une fois les étapes d’installation terminées, vous devez configurer les instances, la base de données et le serveur. Voir à ce sujet la section [À propos de la configuration initiale](../../installation/using/about-initial-configuration.md).
+Une fois les étapes d&#39;installation terminées, vous devez configurer les instances, la base de données et le serveur. Voir à ce sujet la section [À propos de la configuration initiale](../../installation/using/about-initial-configuration.md).
 
 >[!NOTE]
 >

@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Configurer l’accès à Hadoop 
+title: Configurer l’accès à Hadoop
 description: Découvrez comment configurer l’accès à Hadoop dans FDA
 feature: Installation, Federated Data Access
 audience: platform
@@ -8,13 +8,13 @@ content-type: reference
 topic-tags: connectors
 exl-id: e3a97e55-dd8b-41e1-b48c-816d973f62a8
 source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
-workflow-type: ht
-source-wordcount: '600'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '645'
+ht-degree: 91%
 
 ---
 
-# Configurer l’accès à Hadoop  {#configure-access-to-hadoop}
+# Configurer l’accès à Hadoop {#configure-access-to-hadoop}
 
 
 
@@ -131,7 +131,7 @@ Si vous devez vous connecter à Hadoop 2.1, suivez les étapes décrites ci-des
    SQLSETPOSIROW Size.: 8
    ```
 
-1. Créez le nom de la source de données et éditez le fichier odbc.ini. Puis, créez un nom de source de données pour votre connexion Hive.
+1. Créez le DSN (Data Source Name) et modifiez le fichier odbc.ini. Créez ensuite un DSN pour votre connexion à Hive.
 
    Voici un exemple pour HDInsight destiné à configurer une connexion appelée &quot;viral&quot; :
 
@@ -154,7 +154,7 @@ Si vous devez vous connecter à Hadoop 2.1, suivez les étapes décrites ci-des
 
    >[!NOTE]
    >
-   >Le paramètre **UseNativeQuery** est ici très important. Campaign est basé sur Hive et ne fonctionnera pas correctement si le paramètre UseNativeQuery n’est pas défini. En règle générale, le pilote ou Hive SQL Connector réécrit les requêtes et modifie l’ordre des colonnes.
+   >Le paramètre **UseNativeQuery** est ici très important. Campaign prend en charge Hive et ne fonctionnera pas correctement si UseNativeQuery n’est pas défini. En règle générale, le pilote ou le connecteur Hive SQL réécrit les requêtes et modifie l&#39;ordre des colonnes.
 
    La configuration de l’authentification dépend de la configuration de Hive/Hadoop. Par exemple, pour HDInsight, utilisez AuthMech=6 pour l’authentification par utilisateur/mot de passe, comme décrit [ici](https://www.simba.com/products/Spark/doc/ODBC_InstallGuide/unix/content/odbc/hi/configuring/authenticating/azuresvc.htm).
 

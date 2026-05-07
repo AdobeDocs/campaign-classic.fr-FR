@@ -7,9 +7,9 @@ role: Developer
 level: Beginner
 exl-id: a06b1365-d487-4df1-8f4a-7268b871a427
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
-source-wordcount: '615'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '637'
+ht-degree: 80%
 
 ---
 
@@ -39,7 +39,7 @@ En tant que client hébergé, la plupart des étapes d&#39;installation et de co
 
 ## On-premise
 
-Adobe Campaign peut être déployé on-premise : tous les composants d’Adobe Campaign, notamment l’interface utilisateur, le moteur de gestion de l’exécution et la base de données, résident sur site dans le centre de données du client. Dans ce modèle de déploiement, le client gère toutes les mises à jour et mises à niveau logicielles et matérielles. De plus, un administrateur de bases de données dédié doit réaliser des tâches de maintenance et d’optimisation afin d’assurer la gestion des instances Campaign.
+Adobe Campaign peut être déployé on-premise : tous les composants d’Adobe Campaign, y compris l’interface utilisateur, le moteur de gestion de l’exécution et la base de données, résident sur site dans le centre de données du client. Dans ce modèle de déploiement, le client gère toutes les mises à jour et mises à niveau logicielles et matérielles. De plus, un administrateur de bases de données dédié doit effectuer des tâches de maintenance et d’optimisation afin d’assurer la gestion des instances Campaign.
 
 ![](assets/deployment_onpremise.png)
 
@@ -55,17 +55,17 @@ En tant que client On-premise, avant de commencer à déployer Campaign Classic
 
 ## Hybride
 
-Lorsqu’il est déployé en tant que modèle hybride, le logiciel de la solution Adobe Campaign réside dans l’environnement du site client, et la gestion de l’exécution est fournie en tant que service cloud par Adobe. L’instance marketing Adobe Campaign est installée à l’intérieur du pare-feu du client ou de la cliente. Par conséquent, les informations d’identification personnelle (PII) restent en interne et seules les données requises pour la personnalisation des e-mails sont envoyées au cloud pour l’exécution des e-mails. L’instance d’exécution, hébergée dans le cloud, reçoit les requêtes de diffusion d’e-mails à partir de l’instance On-premise. Cette instance personnalise tous les e-mails et les diffuse. Aucune donnée d’aucune sorte n’est stockée de manière permanente dans le cloud.
+Lorsqu’il est déployé en tant que modèle hybride, le logiciel de la solution Adobe Campaign réside sur site du client et la gestion de l’exécution est assurée en tant que service cloud par Adobe. L’instance de marketing Adobe Campaign est installée à l’intérieur du pare-feu d’un client, de sorte que les informations d’identification personnelle (PII) restent à l’interne et que seules les données requises pour personnaliser les e-mails sont envoyées au cloud pour l’exécution de l’e-mail. L’instance d’exécution, hébergée dans le cloud, reçoit les requêtes de diffusion d’e-mails à partir de l’instance On-premise. Cette instance personnalise tous les e-mails et les diffuse. Aucune donnée d’aucune sorte n’est stockée de manière permanente dans le cloud.
 
 ![](assets/deployment_hybrid.png)
 
 En tant que client hybride, la plupart des étapes d’installation et de configuration sont effectuées par Adobe. Vous pouvez accéder aux sections suivantes pour personnaliser votre implémentation :
 
 * Configuration des messages transactionnels : consultez [cette section](../../message-center/using/transactional-messaging-architecture.md).
-* Configurez les URL de suivi et de page miroir par marque. Pour les messages transactionnels, consultez [cette section](../../message-center/using/additional-configurations.md#configuring-multibranding).
+* Configurer les URL de suivi et de page miroir par marque. Pour les messages transactionnels, consultez [cette section](../../message-center/using/additional-configurations.md#configuring-multibranding).
 * Installation de la console cliente : consultez [cette section](../../installation/using/installing-the-client-console.md).
 * Installez les packages natifs : consultez [cette section](../../installation/using/installing-campaign-standard-packages.md).
-* Délivrabilité : configuration des [règles MX](../../installation/using/email-deliverability.md#mx-configuration) et des [formats des emails](../../installation/using/email-deliverability.md#managing-email-formats). Pour en savoir plus sur les outils et les bonnes pratiques concernant la délivrabilité, consultez la [documentation détaillée](../../delivery/using/about-deliverability.md).
+* Délivrabilité : configuration des [règles MX](../../installation/using/email-deliverability.md#mx-configuration) et des [formats des emails](../../installation/using/email-deliverability.md#managing-email-formats). Pour en savoir plus sur les outils et les bonnes pratiques concernant la délivrabilité, consultez [la documentation détaillée](../../delivery/using/about-deliverability.md).
 * Configuration des options de Campaign : consultez [cette section](../../installation/using/configuring-campaign-options.md).
 * Configuration d&#39;une base de données externe (Federated Data Access) : consultez [cette section](../../installation/using/about-fda.md).
 * Configuration des connecteurs CRM : consultez [cette section](../../platform/using/crm-connectors.md).

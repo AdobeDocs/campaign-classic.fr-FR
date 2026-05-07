@@ -5,9 +5,9 @@ description: Découvrez comment envoyer les meilleures offres à vos contacts en
 feature: Interaction, Offers
 exl-id: 62b8fdcd-8423-496c-8407-ab89a3a70721
 source-git-commit: de9ff0b50d819038c97e8515ddb7d6cfeb4547a1
-workflow-type: ht
-source-wordcount: '268'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 46%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 100%
 
 
 
-Interaction permet de réagir en temps réel lors d&#39;une interaction avec un contact (un client ou une cible donnée) en lui proposant une ou plusieurs offres adaptées. Il peut s&#39;agir par exemple d&#39;un simple message de communication, d&#39;une promotion sur un ou plusieurs produits ou d&#39;un service.
+Interaction permet de répondre en temps réel lors d&#39;une interaction avec un contact donné (un client ou une cible) en proposant une ou plusieurs offres adaptées. Il peut s&#39;agir par exemple de messages de communication simples, d&#39;offres spéciales sur un ou plusieurs produits ou d&#39;un service.
 
 Les offres sont proposées à un contact à l&#39;occasion d&#39;un contact entrant (via un site web ou un centre d&#39;appels) ou sortant (via une diffusion par email, courrier ou SMS dans le cadre d&#39;une campagne marketing).
 
-Vous pouvez créer un catalogue d&#39;offres qui va s&#39;interfacer avec les canaux entrants et sortants afin de sélectionner la meilleure offre à proposer à un contact dans un contexte donné. La pertinence d&#39;une offre vis-à-vis de son destinataire est définie grâce à des règles dites d&#39;éligibilité. Le choix d&#39;une offre parmi un ensemble d&#39;offres pertinentes est déterminé à l&#39;aide de règles de priorité. Des règles de présentation des offres prennent en compte l&#39;historique des échanges avec le contact et permettent d&#39;éviter qu&#39;un contact reçoive la même offre un certain nombre de fois.
+Vous pouvez créer un catalogue d’offres qui s’interface avec les canaux entrants et sortants afin de sélectionner la meilleure offre à envoyer à un contact dans un contexte donné. La pertinence de l’offre pour un destinataire est définie en fonction des règles d’éligibilité. La sélection d&#39;une offre à partir d&#39;un ensemble d&#39;offres pertinentes est déterminée à l&#39;aide de règles de priorité. Les règles de présentation des offres prennent en compte l&#39;historique d&#39;échange du contact et évitent de lui envoyer plusieurs fois la même offre.
 
-Interaction vous permet de créer et gérer un catalogue d’offres, et de paramétrer les règles d’éligibilité et les thèmes d’application qui leur sont associés. Vous pouvez personnaliser le contenu de votre offre selon le canal choisi à l’aide de différentes représentations. Enfin, pour déterminer l’impact d’une présentation d’offres, vous pouvez utiliser le module de simulation mis à votre disposition.
+Interaction vous permet de créer et de gérer un catalogue d&#39;offres, et de paramétrer les règles d&#39;éligibilité et les thèmes d&#39;application qui leur sont associés. Selon le canal choisi, le contenu de l&#39;offre peut être personnalisé grâce à différentes fonctions de rendu. Enfin, vous pouvez utiliser le module de simulation pour calculer l&#39;impact d&#39;une présentation d&#39;offres.
 
 ![](assets/Offermgt2.png)
 

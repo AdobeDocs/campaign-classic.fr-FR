@@ -7,8 +7,8 @@ hide: true
 exl-id: c166409b-e040-491e-840a-a41310935d75
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 85%
+source-wordcount: '150'
+ht-degree: 20%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 85%
 
 
 
-Adobe Campaign propose une application de Marketing Distribué - **Distributed Marketing** - qui permet de mettre en place des opérations collaboratives entre des entités centrales (par exemple le siège de l’entreprise, le service marketing, etc.) et des entités locales (par exemple des points de vente, des agences régionales, etc.). Cette collaboration s’organise autour d’un espace commun, la **[!UICONTROL liste des kits de campagne]**, où des modèles et des instances d’opérations créés au niveau central sont proposés aux entités locales.
+Adobe Campaign propose une application **Marketing Distribué** pour la mise en place de campagnes collaboratives entre les entités centrales (sièges sociaux, services marketing, etc.) et les entités locales (points de vente, agences régionales, etc.). Cette coopération repose sur un espace de travail partagé appelé la **[!UICONTROL liste des kits d&#39;opération]**, où des modèles et des instances d&#39;opération créés de manière centralisée sont proposés aux entités locales.
 
-L&#39;entité centrale propose aux entités locales des opérations auxquelles elles peuvent participer. Ces opérations sont matérialisées par des kits, qui peuvent être associés à des opérations locales ou collaboratives. Pour participer, l&#39;entité locale doit faire une commande d&#39;opération et cette commande doit être validée.
+L&#39;entité centrale assure les opérations que les entités locales peuvent utiliser. Les campagnes sont matérialisées par des packages représentant des campagnes locales ou collaboratives. Pour utiliser une opération, l&#39;entité locale doit la commander et la commande doit être validée.
 
 >[!CAUTION]
 >
->Le module Distributed Marketing est une option de **Campaign**. Vérifiez votre contrat de licence.
+>Le module Marketing distribué est une option **Campagne**. Veuillez vérifier votre contrat de licence.
 
 >[!NOTE]
 >

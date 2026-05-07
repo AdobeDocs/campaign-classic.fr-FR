@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: 'Envoi d''une demande à Adobe  '
-description: 'Envoi d''une demande à Adobe  '
+title: Envoi d'une demande à Adobe
+description: Envoi d'une demande à Adobe
 feature: Audiences
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 audience: integrations
@@ -10,8 +10,8 @@ topic-tags: audience-sharing
 exl-id: f3c19fcd-12cb-4ca3-b4b7-7dc4be57f4ea
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 82%
+source-wordcount: '146'
+ht-degree: 84%
 
 ---
 
@@ -35,7 +35,7 @@ Une fois qu’Adobe Identity Management Service (IMS) est activé pour votre org
   </tr> 
   <tr> 
    <td> <strong>Identifiant de l’organisation</strong><br /> </td> 
-   <td> L’identifiant de votre organisation. <br> Pour trouver l’identifiant de votre organisation, reportez-vous à <a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr">cette page</a>.</td> 
+   <td> L’identifiant de votre organisation. <br> Pour trouver l’identifiant de votre organisation, reportez-vous à <a href="https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr">cette page</a>.</td> 
   </tr> 
   <tr> 
    <td> <strong>Environnement</strong><br /> </td> 
@@ -49,7 +49,7 @@ Une fois qu’Adobe Identity Management Service (IMS) est activé pour votre org
   --> 
   <tr> 
    <td> <strong>Declared ID ou Visitor ID</strong><br /> </td> 
-   <td> Exemple : Declared ID </td> 
+   <td> Exemple : ID déclaré </td> 
   </tr> 
   <tr> 
    <td> <strong>Informations supplémentaires</strong><br /> </td> 

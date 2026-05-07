@@ -7,9 +7,9 @@ role: Developer
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: 38333669-5598-4811-a121-b677c1413f56
 source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
-workflow-type: ht
-source-wordcount: '506'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '509'
+ht-degree: 90%
 
 ---
 
@@ -32,7 +32,7 @@ Pour cela, les étapes sont les suivantes :
 
    Pour plus d’informations, reportez-vous au chapitre [Référence des schémas (xtk:srcSchema)](../../configuration/using/about-schema-reference.md).
 
-   Dans notre exemple, nous allons créer un schéma clientèle, une table très simple contenant les champs suivants : ID, prénom, nom, adresse e-mail, numéro de téléphone mobile. L’objectif est de pouvoir envoyer des alertes par e-mail ou SMS aux personnes stockées dans cette table.
+   Dans notre exemple, nous allons créer un schéma des clients, une table très simple contenant les champs suivants : identifiant, prénom, nom, adresse e-mail, numéro de téléphone mobile. L’objectif est de pouvoir envoyer des alertes par e-mail ou SMS aux individus stockés dans cette table.
 
    Schéma d’exemple (cus:individual)
 

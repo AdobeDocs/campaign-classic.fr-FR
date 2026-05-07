@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 266ecd49-7101-4ff1-941f-1f9b39b44955
 source-git-commit: 4fb262c616276f785f97b42bec22c150afc6e5c8
-workflow-type: ht
-source-wordcount: '87'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '98'
+ht-degree: 64%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 ## Collecter des données {#collecting-data-workflows}
 
-Les workflows peuvent être utiles pour automatiser certains de vos imports. Que vous importiez des données à partir d&#39;un fichier local ou d&#39;un serveur SFTP, vous pouvez utiliser des workflows pour standardiser vos procédures de Data Management.
+Les workflows peuvent être un moyen utile d’automatiser certains de vos processus d’importation. Que vous importiez des données à partir d’un fichier local ou d’un serveur SFTP, vous pouvez utiliser des workflows pour normaliser vos procédures de gestion des données.
 
 >[!NOTE]
 >

@@ -1,13 +1,13 @@
 ---
 product: campaign
 title: Configurer des diffusions
-description: Découvrez comment effectuer des tests A/B à l'aide d'un cas d'utilisation spécifique
+description: Découvrez comment effectuer des tests A/B à lʼaide dʼun cas dʼutilisation spécifique
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: A/B Testing
 exl-id: 809de30b-7d08-40de-bf3e-dc80d62eae80
 source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
-workflow-type: ht
-source-wordcount: '255'
+workflow-type: tm+mt
+source-wordcount: '259'
 ht-degree: 100%
 
 ---

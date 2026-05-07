@@ -7,8 +7,8 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 exl-id: 8b51d0fc-1692-41cd-9aa8-3bb8f4ee454e
 source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 100%
+source-wordcount: '639'
+ht-degree: 95%
 
 ---
 
@@ -100,7 +100,7 @@ Les **[!UICONTROL En-têtes HTTP de réponse]** permettent d’empêcher le dét
 
 ## Ajouter des variables {#adding-variables}
 
-L&#39;onglet **[!UICONTROL Variables]** contient la liste des variables paramétrées dans le rapport. Ces variables sont exposées dans le contexte du rapport et utilisables dans les calculs.
+L’onglet **[!UICONTROL Variables]** contient la liste des variables configurées dans le rapport. Ces variables sont exposées dans le contexte du rapport et peuvent être utilisées dans les calculs.
 
 Cliquez sur le bouton **[!UICONTROL Ajouter]** pour créer une nouvelle variable.
 
