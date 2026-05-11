@@ -6,10 +6,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
-source-git-commit: b9a716f327b8fdd68c3bf36dbe864535308def30
-workflow-type: ht
-source-wordcount: '294'
-ht-degree: 100%
+source-git-commit: 2296c1a7f6b818991d1620281077547d9250f16d
+workflow-type: tm+mt
+source-wordcount: '378'
+ht-degree: 76%
 
 ---
 
@@ -21,24 +21,47 @@ Cette page répertorie les nouvelles fonctionnalités, les améliorations et les
 
 [!BADGE Disponibilité générale]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Disponibilité générale"}
 
-_16 mars 2026_
-
 >[!CAUTION]
 >
 > La mise à niveau de la console cliente est obligatoire.
 
+_31 mars 2026_
+
 ### Améliorations de la sécurité {#security-7-4-3}
 
-* Pour maintenir une sécurité, une stabilité et une conformité optimales, Debian a été mis à niveau vers la version 13 et PostgreSQL vers la version 17.Reportez-vous à la [matrice de compatibilité](compatibility-matrix.md).
+* Pour maintenir une sécurité, une stabilité et une conformité optimales, Debian a été mis à niveau vers la version 13 et PostgreSQL vers la version 17. Reportez-vous à la [matrice de compatibilité](compatibility-matrix.md).
 
 ### Correctifs {#fixes-7-4-3}
 
-* Correction d’un problème en raison duquel le composant de code à barres autorisait un paramètre de hauteur illimité, ce qui pouvait entraîner une vulnérabilité de sécurité.(NEO-89984)
-* Correction d’un problème où les champs d’énumération dans les listes créées via les workflows ne comportaient pas d’attributs de nom temporaires, ce qui entraînait l’affichage de libellés d’énumération incorrects ou vides dans l’interface.(NEO-91158)
-* Correction d’un problème en raison duquel les statistiques de diffusion n’étaient pas entièrement recalculées pour certaines diffusions, ce qui affectait particulièrement les indicateurs de succès.(NEO-88106)
-* Correction d’un problème en raison duquel la préparation de la diffusion échouait avec des erreurs de personnalisation lors de l’utilisation des champs targetData dans les workflows avec des activités de déduplication.(NEO-87693)
-* Correction d’un problème en raison duquel la concaténation de champs de chaîne à un seul caractère avec d’autres chaînes échouait dans PostgreSQL 15 en raison d’exigences de conversion de type.(NEO-88028)
-* Correction d’un problème où les logs de tracking des campagnes collaboratives dans le marketing distribué n’étaient pas écrits dans la base de données en raison d’une incohérence entre les identifiants de diffusion parents et enfants.(NEO-86836)
-* Correction d’un problème en raison duquel les logs de diffusion affichaient les messages comme annulés même s’ils étaient correctement envoyés, ce qui affectait particulièrement les diffusions avec planification par vagues.(NEO-78933)
-* Correction d’un problème en raison duquel le workflow de nettoyage de la base ne purgeait pas efficacement les données, ce qui pouvait avoir un impact sur les performances.(NEO-76439)
+>[!NOTE]
+>
+> Les correctifs répertoriés ci-dessous ont été progressivement déployés sur plusieurs builds 7.4.3 successifs. Accédez au **[!UICONTROL menu Aide > À propos...]** [](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version) pour vérifier que vous disposez de la dernière version de 9394@28aaec9. Pour plus d’informations, contactez votre représentant Adobe.
+
+* Correction d’un problème en raison duquel le composant de code à barres autorisait un paramètre de hauteur illimité, ce qui pouvait entraîner une vulnérabilité de sécurité. (NEO-89984)
+* Correction d’un problème où les champs d’énumération dans les listes créées via les workflows ne comportaient pas d’attributs de nom temporaires, ce qui entraînait l’affichage de libellés d’énumération incorrects ou vides dans l’interface. (NEO-91158)
+* Correction d’un problème en raison duquel la préparation de la diffusion échouait avec des erreurs de personnalisation lors de l’utilisation des champs targetData dans les workflows avec des activités de déduplication. (NEO-87693)
+* Correction d’un problème en raison duquel la concaténation de champs de chaîne à un seul caractère avec d’autres chaînes échouait dans PostgreSQL 15 en raison d’exigences de conversion de type. (NEO-88028)
+* Correction d’un problème où les logs de tracking des campagnes collaboratives dans le marketing distribué n’étaient pas écrits dans la base de données en raison d’une incohérence entre les identifiants de diffusion parents et enfants. (NEO-86836)
+* Correction d’un problème en raison duquel les logs de diffusion affichaient les messages comme annulés même s’ils étaient correctement envoyés, ce qui affectait particulièrement les diffusions avec planification par vagues. (NEO-78933)
+* Correction d’un problème en raison duquel le workflow de nettoyage de la base ne purgeait pas efficacement les données, ce qui pouvait avoir un impact sur les performances. (NEO-76439)
+
+<!-- BUILD 7.0.9394.28aaec9 -->
+
+* Correction d’un problème en raison duquel les statistiques de diffusion n’étaient pas entièrement recalculées pour certaines diffusions, ce qui affectait particulièrement les indicateurs de succès. (NEO-88106) <!-- moved from original 7.4.3 GA Fixes section -->
+* Correction d’un problème en raison duquel la console cliente pouvait se bloquer à l’ouverture de certains workflows référençant un schéma de ciblage en amont manquant. (NEO-28727)
+* Correction d’un problème en raison duquel la version de la console cliente ne pouvait pas être identifiée après un échec de démarrage, car le fichier de version était absent du package d’installation. (NEO-94798)
+
+<!--
+other fixes - ommitted from release notes
+
+Internal/non-customer-facing:
+
+* Fixed an internal DevOps build race condition when copying the `teradata_timezones.txt` file during build packaging. (NEO-66532) — internal only; the Jira description states "No impact for customers: either it builds (99.9% of the time) or it does not."
+* Fixed an internal CI/CD issue where AWS CodeBuild jobs could fail randomly on EC2 Docker containers when copying files during build. (NEO-90823) — internal CI/CD infrastructure only
+
+Customer-specific hotfixes:
+
+* Fixed an issue where coupon assignment could fail during delivery message preparation due to a SQL syntax error when looking up coupon codes. (NEO-92857) — Verizon only
+* Fixed an issue where the error count and status in the `nms:address` table were not consistently updated on the marketing server after recurring soft bounces, causing recipients to not be quarantined as expected even though they were correctly flagged on the mid-sourcing server. (NEO-94422) — Walgreens only
+-->
 
