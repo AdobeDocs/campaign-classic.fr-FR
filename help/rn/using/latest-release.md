@@ -35,7 +35,7 @@ _31 mars 2026_
 
 >[!NOTE]
 >
-> Les correctifs répertoriés ci-dessous ont été progressivement déployés sur plusieurs builds 7.4.3 successifs. Accédez au **[!UICONTROL menu Aide > À propos...]** [](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version) pour vérifier que vous disposez de la dernière version de 9394@28aaec9. Pour plus d’informations, contactez votre représentant Adobe.
+> Les correctifs répertoriés ci-dessous ont été progressivement déployés sur plusieurs builds 7.4.3 successifs. Accédez au **[!UICONTROL menu Aide > À propos...]** [&#128279;](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version) pour vérifier que vous disposez de la dernière version de 9394@28aaec9. Pour plus d’informations, contactez votre représentant Adobe.
 
 * Correction d’un problème en raison duquel le composant de code à barres autorisait un paramètre de hauteur illimité, ce qui pouvait entraîner une vulnérabilité de sécurité. (NEO-89984)
 * Correction d’un problème où les champs d’énumération dans les listes créées via les workflows ne comportaient pas d’attributs de nom temporaires, ce qui entraînait l’affichage de libellés d’énumération incorrects ou vides dans l’interface. (NEO-91158)
