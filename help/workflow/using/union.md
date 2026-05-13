@@ -5,9 +5,12 @@ description: En savoir plus sur l’activité de workflow d’union
 feature: Workflows, Targeting Activity
 hide: true
 exl-id: 1cda3146-c333-4743-a871-c44583b6e5b2
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/qgrHaoMQwEN1YVWXuRHPiCchaQSaiwW5HgVLWgpUymg
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: 316
 ht-degree: 66%
 
 ---

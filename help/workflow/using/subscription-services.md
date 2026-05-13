@@ -5,9 +5,12 @@ description: En savoir plus sur l’activité de workflow des services d’inscr
 feature: Workflows, Targeting Activity, Subscription Services Activity
 hide: true
 exl-id: 1b526d1c-4a33-45a1-98f4-dcb803c8d228
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/-qfMiHLzlE5uJIV5-ba1MNymo0SHuMYxC6EnurLexI8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: 431
 ht-degree: 100%
 
 ---

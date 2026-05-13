@@ -1,18 +1,23 @@
 ---
 product: campaign
-title: Collecter toutes les visites
+title: Collecte de toutes les visites
 description: Collecte de toutes les visites
 feature: Configuration, Instance Settings
 role: Developer
 exl-id: cc554d0d-bbab-4f72-b870-5fef5a2fda9d
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+TQID: https://experienceleague.adobe.com/EdEX0IPygnmmYAqewEpX2jRqrCZ723itOEW6DhnMSl8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: 296
 ht-degree: 51%
 
 ---
 
-# Collecter toutes les visites{#collecting-all-visits}
+# Collecte de toutes les visites{#collecting-all-visits}
 
 Le module de webtracking fourni par Adobe Campaign permet de collecter les visites de certaines pages du site effectuées par un destinataire dans le cadre du tracking de site suite à un clic dans un message.
 

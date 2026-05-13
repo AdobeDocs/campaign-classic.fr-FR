@@ -6,9 +6,25 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 0cd6bf20-da72-4cf0-9f5d-d4e8acdd324d
-source-git-commit: 76f483dcda9f8a5ed93355d68bb1d1a589d55722
-workflow-type: ht
-source-wordcount: '2672'
+TQID: https://experienceleague.adobe.com/AmqYU4ywJ6B6sus7q6BAHsG7cPGLZRH4m12hoqw68as
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2:
+  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+workflow-type: tm+mt
+source-wordcount: 2672
 ht-degree: 100%
 
 ---
@@ -49,7 +65,7 @@ _7 septembre 2021_
 
 * Après sa fin de vie, Flash a été supprimé de toutes les fonctionnalités et composants de Campaign associés, et remplacé par HTML5. Le type de graphique **Jauge** a été supprimé. (NEO-30330) [En savoir plus](../../reporting/using/creating-a-chart.md)
 * Lors de l’installation de la console cliente sous Windows, le programme d’installation vérifie maintenant s’il existe un nœud de registre parent et en crée un s’il n’en existe pas. Cela évite les problèmes potentiels lors du lancement de la console. (NEO-34854)
-* La fonctionnalité de signature de tracking a été améliorée afin d’éviter les erreurs liées à la façon dont les outils tiers (clients de messagerie, navigateurs internet, etc.)traitent les caractères spéciaux.Les paramètres d’URL sont désormais chiffrés.
+* La fonctionnalité de signature de tracking a été améliorée afin d’éviter les erreurs liées à la façon dont les outils tiers (clients de messagerie, navigateurs internet, etc.) traitent les caractères spéciaux. Les paramètres d’URL sont désormais chiffrés.
 
 **Autres changements**
 
@@ -168,7 +184,7 @@ _5 juin 2021_
 
 **Améliorations de la sécurité**
 
-* L’accès à la méthode API **xtk:session#GetCnxInfo** renvoyant les détails complets de connexion à la base de données est désormais limité à l’administration uniquement.(NEO-27779)
+* L’accès à la méthode API **xtk:session#GetCnxInfo** renvoyant les détails complets de connexion à la base de données est désormais limité à l’administration uniquement. (NEO-27779)
 * La fonction decryptString obsolète a été remplacée par decryptPassword dans les fichiers JavaScript liés au CRM.
 * La fonctionnalité de signature de tracking a été améliorée afin de réduire le risque d&#39;erreurs de redirection lors de la modification du lien suivi par des outils tiers (clients de messagerie, navigateurs Internet, outils de sécurité des liens).
 * Correction d’un problème qui empêchait le fonctionnement des URL suivies lorsqu’elles contenaient des caractères majuscules. Le mécanisme de signature des URL suivies respecte maintenant la casse. (NEO-28414)
@@ -218,7 +234,7 @@ En savoir plus dans la page [Fonctionnalités obsolètes et supprimées](../../r
 * Correction d’un problème en raison duquel la création de l’index FDA SAP HANA échouait. (NEO-29664)
 * Correction d’un problème qui entraînait le maintien des messages transactionnels dans l’état **En attente** lors de l’exécution d’appels SOAP contenant un en-tête. (NEO-28737)
 * Correction d’un problème qui se produisait lors de l’utilisation du connecteur FDA Teradata : toutes les tables temporaires étaient créées sur un seul nœud du cluster, ce qui pouvait consommer tout l’espace du spool et provoquer le blocage de Teradata. Les tables temporaires sont maintenant générées sur de nombreux nœuds. (NEO-28230)
-* Correction d’un problème lors de l’utilisation d’applications web en raison duquel les balises de tracking généraient des clés primaires incorrectes dans le schéma **nms:trackingURL**.(NEO-27931)
+* Correction d’un problème lors de l’utilisation d’applications web en raison duquel les balises de tracking généraient des clés primaires incorrectes dans le schéma **nms:trackingURL**. (NEO-27931)
 * La compatibilité avec ODBC 3.x a été améliorée pour garantir la précision des messages d’erreur.
 * Correction d’un problème qui entraînait des blocages de console lors de l’utilisation de modèles de contenu personnalisés dans des diffusions email. (NEO-31547)
 * Correction d’un problème qui empêchait Tomcat d’envoyer des réponses valides en raison d’une connexion lente ou d’une taille de réponse importante. (NEO-30858)

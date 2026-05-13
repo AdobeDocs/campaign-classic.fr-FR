@@ -5,9 +5,15 @@ description: Définir les propriétés des formulaires web
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Web Forms
 exl-id: 37aaaa03-0656-4a9b-bcae-74de33e3737b
-source-git-commit: 1d4990917fea54e67ed23cd0771295de03a4f01a
+TQID: https://experienceleague.adobe.com/noM8sS3EYxAkGQdb3nLaXLIIXZ-jIKvD56BCz-pNhj0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: 1443
 ht-degree: 67%
 
 ---

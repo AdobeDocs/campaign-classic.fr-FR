@@ -5,9 +5,14 @@ description: Découvrez les bonnes pratiques relatives aux workflows de Campaign
 feature: Workflows
 hide: true
 exl-id: 39c57f61-2629-4214-91e4-cb97dc039deb
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/q-RWgRUdcXuXub4yBi0elAJKVa2OvJZqst87K1KTv0A
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: 1431
 ht-degree: 67%
 
 ---

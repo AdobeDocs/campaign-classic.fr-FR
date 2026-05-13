@@ -5,9 +5,14 @@ description: En savoir plus sur l’activité de workflow de mise à jour des do
 feature: Workflows, Targeting Activity, Data Management
 hide: true
 exl-id: 9f5735d2-73b8-469f-bc10-482c99cdd4a1
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/VrAHuf0Go-6f8-cL-kuZrttoGWUzxkBMUbhDaj-gJRc
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: 949
 ht-degree: 65%
 
 ---

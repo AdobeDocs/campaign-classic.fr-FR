@@ -6,9 +6,12 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Direct Mail
 hide: true
 exl-id: 42bb395b-b3fe-4d48-8720-5a4cae191984
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/I31u-kAqMRpzti-bOtfYjrGbwvmsfeEPwWU7kCFLzcQ
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: 277
 ht-degree: 64%
 
 ---

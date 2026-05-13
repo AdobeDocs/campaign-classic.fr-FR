@@ -5,9 +5,17 @@ description: Gestion et configuration de votre rapport d’analyse
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Reporting, Monitoring
 exl-id: d133efec-33e1-4711-a90f-e40385059386
-source-git-commit: 5e062f9dbdf6c148e442ac10dbb12cf72ba0179b
+TQID: https://experienceleague.adobe.com/031f3x-e6Az-CQMGiQVY0n7xazEo8ijHPz8VEsTbgt0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: 905
 ht-degree: 83%
 
 ---

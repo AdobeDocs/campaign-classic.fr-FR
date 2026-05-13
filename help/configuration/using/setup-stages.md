@@ -5,14 +5,19 @@ description: Étapes de mise en place
 feature: Configuration
 role: Developer
 exl-id: a5ae0b61-3377-46d9-a327-6c897eeda770
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+TQID: https://experienceleague.adobe.com/1Euw5OREQLbcjZLR0g-QKzU3tOI9041En4Z7Uf-NTy8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: 244
 ht-degree: 84%
 
 ---
 
-# Etapes de mise en place{#setup-stages}
+# Étapes de mise en place{#setup-stages}
 
 Le principe de base repose sur l&#39;ajout des balises de tracking Web dans certaines pages de votre site.
 

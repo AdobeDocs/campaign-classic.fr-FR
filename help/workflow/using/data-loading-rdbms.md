@@ -5,9 +5,16 @@ description: En savoir plus sur l’activité de workflow de chargement (SGBD)
 feature: Workflows, Data Management Activity
 hide: true
 exl-id: 6e24d5fe-4830-49b4-a0fe-624c5644c920
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/w7MFQZpUw-a0SIp634sptKz2VKm2MTZisjmN3VLDt2g
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: 203
 ht-degree: 63%
 
 ---
