@@ -5,9 +5,11 @@ description: Découvrez les étapes clés de la conception d'un questionnaire
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Surveys
 exl-id: 8d83dfd5-70ec-4656-965b-f6b5e6f9eec1
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+TQID: https://experienceleague.adobe.com/aeRP0GoE5lu3eUsJ4kg8DoUnqFeipazoax--zX8Lv60
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: 836
 ht-degree: 51%
 
 ---
@@ -30,7 +32,7 @@ Les pages du formulaire sont créées au travers d&#39;un éditeur spécifique q
 
 >[!NOTE]
 >
->La définition du contenu et de la mise en page des écrans d&#39;un formulaire web sont présentés dans [ce document &#x200B;](../../web/using/about-web-forms.md).
+>La définition du contenu et de la mise en page des écrans d&#39;un formulaire web sont présentés dans [ce document ](../../web/using/about-web-forms.md).
 
 ## Ajouter des champs {#adding-fields}
 
@@ -108,7 +110,7 @@ Le libellé de la question est saisi dans le champ libellé . Dans ce cas, le st
 
 >[!NOTE]
 >
->L&#39;utilisation de l&#39;éditeur HTML est présentée dans [ce document &#x200B;](../../web/using/about-web-forms.md).
+>L&#39;utilisation de l&#39;éditeur HTML est présentée dans [ce document ](../../web/using/about-web-forms.md).
 
 Par exemple :
 

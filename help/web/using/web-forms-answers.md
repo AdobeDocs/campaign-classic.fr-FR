@@ -5,9 +5,11 @@ description: Réponses aux formulaires web
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Web Forms
 exl-id: 5d48bb27-1884-47f1-acb7-dff5113565bc
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+TQID: https://experienceleague.adobe.com/WPVKOgF2ilspLhbrTd-s6x8MEX254boeoSzJsgZVaTE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '907'
+source-wordcount: 907
 ht-degree: 59%
 
 ---

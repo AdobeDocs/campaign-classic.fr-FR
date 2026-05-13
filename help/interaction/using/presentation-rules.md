@@ -8,9 +8,12 @@ audience: interaction
 content-type: reference
 topic-tags: case-study
 exl-id: f9dd9ad6-48da-4a80-9405-109a433a1ed5
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+TQID: https://experienceleague.adobe.com/s2QV1BGLtUfyWg1BfYuryciF9STRK3HpIXNc6oQ0ATY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: 487
 ht-degree: 84%
 
 ---

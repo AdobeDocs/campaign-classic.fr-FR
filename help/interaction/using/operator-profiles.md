@@ -7,9 +7,14 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: e11fb28c-d530-45a2-862a-ff1c20975577
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+TQID: https://experienceleague.adobe.com/B-itT3gDb6FELHi2NUfFUL18s3eKPg4-wWAFkCzN8wI
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: 408
 ht-degree: 91%
 
 ---

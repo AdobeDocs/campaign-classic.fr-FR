@@ -4,9 +4,11 @@ title: Éléments et attributs de schéma - élément help
 description: élément help
 feature: Schema Extension
 exl-id: 8207868c-25ff-4ca9-afdd-41b324c7ac0d
-source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
+TQID: https://experienceleague.adobe.com/R-Oa0H6l19qOU9KamHyVFrOWqBOw9uB2ISm2OYdQDrM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: 49
 ht-degree: 100%
 
 ---

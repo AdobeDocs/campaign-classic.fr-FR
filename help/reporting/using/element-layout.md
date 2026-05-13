@@ -5,9 +5,12 @@ description: Disposer les éléments
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Reporting, Monitoring
 exl-id: 79d5c901-905b-4a0e-adb9-91fd6acb186f
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+TQID: https://experienceleague.adobe.com/do7CqEaE2v7cdpI-mXZ2AQ6L4nsyDnEzEXdC-zHEcs4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: 442
 ht-degree: 82%
 
 ---

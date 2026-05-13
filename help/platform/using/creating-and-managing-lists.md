@@ -6,9 +6,13 @@ feature: Profiles
 role: User
 level: Beginner
 exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
-source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
+TQID: https://experienceleague.adobe.com/25OvMdpPcLLcOuH2krs3HseeEV282ujp8Ee8aFdHxNo
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: 104
 ht-degree: 62%
 
 ---
@@ -139,14 +143,14 @@ A list is a static set of recipients that can be targeted in delivery actions or
 
 Learn how to create an audience by configuring a list of recipients from the Explorer.
 
->[!VIDEO](https://video.tv.adobe.com/v/30599?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
 ### How use a workflow to create a list of recipients {#create-list-in-a-wf-video}
 
 Learn how create a workflow in order to target recipients and how to make it recurring before using the list in an email target.
 
->[!VIDEO](https://video.tv.adobe.com/v/30539?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25603?quality=12)
 
-Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
 
 -->

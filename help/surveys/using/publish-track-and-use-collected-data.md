@@ -5,9 +5,12 @@ description: Découvrez comment publier, suivre et utiliser les données collect
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
-source-git-commit: 0db6f107d2c161b07f42dcf7a932d319130b31e0
+TQID: https://experienceleague.adobe.com/5faTMQayKA-bxeGrKlNlk7fxZUV2-TO-eVCSe3iRrgA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: 917
 ht-degree: 67%
 
 ---
@@ -48,7 +51,7 @@ L&#39;origine est une information indiquée dans l&#39;URL du questionnaire en y
 ?origin=xxx
 ```
 
-pendant la modification du questionnaire, son URL contient le paramètre __uuid **, qui indique qu&#39;il est en phase de test et pas encore en ligne.** Lorsque vous accédez au questionnaire via cette URL, les enregistrements créés ne sont pas pris en compte dans le suivi (rapports). L&#39;origine est alors forcée à la valeur **[!UICONTROL Adobe Campaign]**.
+pendant la modification du questionnaire, son URL contient le paramètre __uuid ]**, qui indique qu&#39;il est en phase de test et pas encore en ligne.**[!UICONTROL  Lorsque vous accédez au questionnaire via cette URL, les enregistrements créés ne sont pas pris en compte dans le suivi (rapports). L&#39;origine est alors forcée à la valeur **[!UICONTROL Adobe Campaign]**.
 
 Pour plus d&#39;informations sur les paramètres d&#39;URL, consultez [cette page](../../web/using/defining-web-forms-properties.md#form-url-parameters).
 

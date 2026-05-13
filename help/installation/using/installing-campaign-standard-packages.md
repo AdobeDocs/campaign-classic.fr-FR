@@ -5,9 +5,14 @@ description: Découvrez comment installer les packages natifs de Campaign
 feature: Installation, Application Settings
 badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
-source-git-commit: 647709dd4b0c70c342be03d3012bc02f10ff2c00
+TQID: https://experienceleague.adobe.com/o-8uf081NQCy3ZB8mmLk0Gm8J9Pu--Zh4znqn3HUjr0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a4671286-a59f-47e3-b97b-90627a1977d5
+subfeature_v2: id: d3b34fea-a110-482f-adb2-aae8d686bac8id: ede6e1ec-9279-415e-b828-a09735018d48
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: 1416
 ht-degree: 95%
 
 ---
@@ -76,7 +81,7 @@ Le tableau ci-après répertorie tous les packages natifs de Campaign.
   </tr> 
   <tr> 
    <td> Moteur d'offres (Interaction)<br /> </td> 
-   <td> Répond en temps réel lors d'une interaction avec un contact donné (un client ou une cible) en leur faisant une ou plusieurs offres adaptées.  Facultatif. <a href="../../interaction/using/interaction-and-offer-management.md#packages-configuration">En savoir plus</a> <br /> </td> 
+   <td> Répond en temps réel lors d'une interaction avec un contact donné (un client ou une cible) en leur faisant une ou plusieurs offres adaptées.  Facultatif. <a href="../../interaction/using/interaction-and-offer-management.md#packages-configuration">En savoir plus </a> <br /> </td> 
    <td> Tous<br /> </td> 
   </tr> 
   <tr> 
@@ -124,12 +129,12 @@ Le tableau ci-après répertorie tous les packages natifs de Campaign.
   </tr> 
   <tr> 
    <td> Canal mobile (SMS) <br /> </td> 
-   <td> Envoie les diffusions à l’aide du canal Mobile/SMS avec Adobe Campaign. Facultatif. <a href="../../delivery/using/sms-channel.md">En savoir plus</a> <br /> </td> 
+   <td> Envoie les diffusions à l’aide du canal Mobile/SMS avec Adobe Campaign. Facultatif. <a href="../../delivery/using/sms-channel.md">En savoir plus </a> <br /> </td> 
    <td> Tous<br /> </td> 
   </tr> 
    <tr> 
    <td> Canal Téléphone<br /> </td> 
-   <td> Envoie les diffusions à l'aide du canal téléphonique avec Adobe Campaign. Utilisé pour le centre d'appel. Facultatif. <a href="../../delivery/using/communication-channels.md">En savoir plus</a> <br /> </td> 
+   <td> Envoie les diffusions à l'aide du canal téléphonique avec Adobe Campaign. Utilisé pour le centre d'appel. Facultatif. <a href="../../delivery/using/communication-channels.md">En savoir plus </a> <br /> </td> 
    <td> Tous<br /> </td> 
   </tr> 
   <tr> 
@@ -154,27 +159,27 @@ Le tableau ci-après répertorie tous les packages natifs de Campaign.
   </tr> 
   <tr> 
    <td> Gestion de la réaction<br /> </td> 
-   <td> Mesure le succès et la rentabilité des campagnes marketing ou des propositions d'offres pour tous les canaux de communication.  Facultatif. <a href="../../response/using/about-response-manager.md">En savoir plus</a> <br /> </td> 
+   <td> Mesure le succès et la rentabilité des campagnes marketing ou des propositions d'offres pour tous les canaux de communication.  Facultatif. <a href="../../response/using/about-response-manager.md">En savoir plus </a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
    <td> Accès aux données externes (Federated Data Access)<br /> </td> 
-   <td> Propose l’option Federated Data Access (FDA) afin d’exploiter des informations stockées dans une ou plusieurs bases de données externes : vous pouvez accéder à des données externes sans modifier la structure des données d’Adobe Campaign.  Facultatif. <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html?lang=fr" target="_blank">En savoir plus</a> <br /> </td> 
+   <td> Propose l’option Federated Data Access (FDA) afin d’exploiter des informations stockées dans une ou plusieurs bases de données externes : vous pouvez accéder à des données externes sans modifier la structure des données d’Adobe Campaign.  Facultatif. <a href="https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/accessing-an-external-database-fda.html?lang=fr" target="_blank">En savoir plus </a> <br /> </td> 
    <td> Tous<br /> </td> 
   </tr> 
   <tr> 
    <td> Optimisation des campagnes<br /> </td> 
-   <td> Contrôle, filtre et surveille l'envoi des diffusions afin que les messages envoyés répondent le mieux aux besoins et aux attentes des clients, conformément aux politiques de communication de l'entreprise. Facultatif. <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=fr" target="_blank">En savoir plus</a> <br /> </td> 
+   <td> Contrôle, filtre et surveille l'envoi des diffusions afin que les messages envoyés répondent le mieux aux besoins et aux attentes des clients, conformément aux politiques de communication de l'entreprise. Facultatif. <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=fr" target="_blank">En savoir plus </a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
    <td> Supervision de la délivrabilité (Email Deliverability)<br /> </td> 
-   <td> Mesure le succès de vos campagnes atteignant la boîte de réception de vos destinataires sans rebonds ou sans être marqués comme spam. Facultatif. <a href="../../delivery/using/about-deliverability.md">En savoir plus</a> <br /> </td> 
+   <td> Mesure le succès de vos campagnes atteignant la boîte de réception de vos destinataires sans rebonds ou sans être marqués comme spam. Facultatif. <a href="../../delivery/using/about-deliverability.md">En savoir plus </a> <br /> </td> 
    <td> Tous </td> 
   </tr> 
   <tr> 
    <td> Gestion des coupons<br /> </td> 
-   <td> Crée un ensemble de coupons à ajouter aux offres marketing à venir. Facultatif. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html?lang=fr" target="_blank">En savoir plus</a> <br /> </td> 
+   <td> Crée un ensemble de coupons à ajouter aux offres marketing à venir. Facultatif. <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalized-coupons.html?lang=fr" target="_blank">En savoir plus </a> <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 

@@ -7,9 +7,11 @@ audience: installation
 content-type: reference
 topic-tags: deployment-types-
 exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
-source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
+TQID: https://experienceleague.adobe.com/AgGQgham1xWf9U5mAAc-Eul-izsp-tW6aNNPMobLvT4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: 1096
 ht-degree: 94%
 
 ---
@@ -183,9 +185,9 @@ Les étapes sont les suivantes :
    Voir à ce propos les sections suivantes :
 
    * Pour Linux : [Lancement du serveur Web et test de la configuration](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration)
-   * Pour Windows : [&#128279;](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)Lancement du serveur Web et test de la configuration
+   * Pour Windows : [](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)Lancement du serveur Web et test de la configuration
 
-1. Démarrez le serveur Adobe Campaign (**net start nlserver6** sous Windows, **/etc/init.d/nlserver6 start** sous Linux) et lancez à nouveau la commande **nlserver pdump** afin de vérifier la présence de tous les modules actifs.
+1. Démarrez le serveur Adobe Campaign (**net start nlserver6** sous Windows, **/etc/init.d/nlserver6 start** sous Linux) et exécutez à nouveau la commande **nlserver pdump** afin de vérifier la présence de tous les modules activés.
 
    >[!NOTE]
    >

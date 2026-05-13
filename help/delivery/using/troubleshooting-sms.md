@@ -5,9 +5,13 @@ description: En savoir plus sur la résolution des problèmes liés au canal SMS
 feature: SMS, Troubleshooting
 role: User
 exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
-source-git-commit: f660dcbb111e73f12737d96ebf9be2aeccbca8ee
+TQID: https://experienceleague.adobe.com/h0vsbqdwW-21Ay-v8v8eUQzHyDkCVZoxXWHx5m1Qd7g
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '3072'
+source-wordcount: 3072
 ht-degree: 97%
 
 ---

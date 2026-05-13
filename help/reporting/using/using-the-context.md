@@ -5,9 +5,12 @@ description: Découvrez comment utiliser le contexte dans vos rapports
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Reporting, Monitoring
 exl-id: a19e2843-d3f9-48c3-af72-cc1bc54f6360
-source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
+TQID: https://experienceleague.adobe.com/xFtDxJJKoG88QlTs6AFZtHuxOEGfGtEHqEfnEarJYwY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: 532
 ht-degree: 92%
 
 ---

@@ -5,9 +5,12 @@ description: Découvrez comment créer des balises de tracking web
 feature: Application Settings
 role: Developer
 exl-id: 160df6e1-43e5-4eb9-ad2f-5db444e314ea
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+TQID: https://experienceleague.adobe.com/PG8eMBoER5bR4uc9jaQfDX4mm3rhhMxfmF5Wv4brUtg
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: 277
 ht-degree: 76%
 
 ---

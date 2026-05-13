@@ -5,9 +5,11 @@ description: Découvrez comment effectuer des calculs d'agrégats dans des requ�
 feature: Workflows
 hide: true
 exl-id: 5b05788f-498b-4a84-bdde-2852900f0129
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/hr3jxs4JCrcPXdGBGN8I9edBG4FIg1AakOmWaN-Zplk
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: 245
 ht-degree: 62%
 
 ---

@@ -5,9 +5,12 @@ description: Liste de référence des schémas
 feature: Custom Resources
 role: Developer
 exl-id: 5745fc60-9df3-4ad0-bbeb-f6ae8c86a5aa
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+TQID: https://experienceleague.adobe.com/M8NNQbT-Kt4wYQhIVeq0sceBctFGvHjrfT7qe-X-u0U
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: 89
 ht-degree: 48%
 
 ---

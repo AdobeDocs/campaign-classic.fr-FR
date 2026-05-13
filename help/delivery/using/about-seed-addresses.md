@@ -6,9 +6,13 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Seed Address
 role: User
 exl-id: 1f55eda8-c393-4f86-9118-01bcd981c6df
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+TQID: https://experienceleague.adobe.com/ZFeQSj9pGtKzG-wBsm5Go39ja7jvZ0pVi8h3xKOYR8c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: 400
 ht-degree: 87%
 
 ---

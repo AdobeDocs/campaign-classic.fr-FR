@@ -5,9 +5,13 @@ description: Traduire un formulaire web
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Web Forms
 exl-id: 72959141-ca18-4512-80c7-239efd31f711
-source-git-commit: 8817b485fd5b6d6aeb9d71c1106f16fbb6bc3c5b
+TQID: https://experienceleague.adobe.com/3oyhvCWX30kK7dtytjLYvO5Xnbu2-I7FGeJPcjcreho
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1689'
+source-wordcount: 1689
 ht-degree: 78%
 
 ---
@@ -169,7 +173,7 @@ si la langue est le premier ou le seul paramètre de l&#39;URL. Par exemple : *
 &lang=xx
 ```
 
-lorsque d&#39;autres paramètres précèdent celui de la langue dans l&#39;URL. Par exemple : **https://myserver/webApp/APP34?status=1&lang=en**
+lorsque d&#39;autres paramètres précèdent celui de la langue dans l&#39;URL. Par exemple : **https://myserver/webApp/APP34?status=1&amp;lang=en**
 
 Les langues de traduction et les dictionnaires disponibles par défaut sont répertoriés ci-dessous.
 
@@ -430,7 +434,7 @@ Vous pouvez ajouter les caractères **?lang=es** ou **?lang=de** pour l&#39;affi
 >[!NOTE]
 >
 >Si d&#39;autres paramètres sont déjà utilisés pour cette application web, ajoutez les caractères **&amp;lang=**.\
->Par exemple : **https://myserver/webApp/APP34?status=1&lang=en**
+>Par exemple : **https://myserver/webApp/APP34?status=1&amp;lang=en**
 
 ## Configuration avancée de traduction {#advanced-translation-configuration}
 

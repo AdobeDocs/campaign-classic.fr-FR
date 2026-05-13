@@ -5,9 +5,15 @@ description: Découvrez les instructions générales relatives au tracking dans 
 feature: Monitoring, Email
 role: User
 exl-id: 43779505-9917-4e99-af25-b00a9d29a645
-source-git-commit: ba53107ce06c0484070cbe0943ba439d33d5f710
+TQID: https://experienceleague.adobe.com/nuJsXyGxw2iGUoxFn03ui0DPPxoZ7qW7Ba26BZn7-eY
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875fid: cfc95e9b-b035-4403-a6a9-b27a8a053a37id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: e656c701-3899-4db3-989c-de0980ddfffa
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1364'
+source-wordcount: 1364
 ht-degree: 100%
 
 ---

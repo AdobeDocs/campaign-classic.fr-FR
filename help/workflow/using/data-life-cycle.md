@@ -5,9 +5,12 @@ description: En savoir plus sur le cycle de vie des données dans les workflows
 feature: Workflows, Data Management
 hide: true
 exl-id: 366acc1e-d769-4053-9fa1-f47182627c07
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/eRSi9Eu1u9pMtMiiMZI9kZLjZ1JAWCt5B4HFc4FAm3U
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: 548
 ht-degree: 82%
 
 ---

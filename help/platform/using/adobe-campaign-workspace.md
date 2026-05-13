@@ -6,9 +6,14 @@ feature: Overview
 role: Developer
 level: Beginner
 exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
-source-git-commit: 354fc8fd5d030ed88e2b279ba1dd3eaf2f314d53
+TQID: https://experienceleague.adobe.com/eM26PQIIHJHC-7-QqVYaC9uHcvrYIpi87vMB4eTmVlg
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: 1335
 ht-degree: 91%
 
 ---
@@ -23,7 +28,7 @@ Une fois votre connexion à la base de données établie, vous accédez à la pa
 
 ![](assets/d_ncs_user_interface_home.png)
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; Découvrir l’espace de travail Campaign en vidéo](#video)
+![](assets/do-not-localize/how-to-video.png)[ Découvrir l’espace de travail Campaign en vidéo](#video)
 
 >[!NOTE]
 >
@@ -183,4 +188,4 @@ Découvrez comment **utiliser les énumérations** dans la [documentation d’Ad
 
 Cette vidéo présente l’espace de travail de Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/39530?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)

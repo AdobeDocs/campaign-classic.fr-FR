@@ -7,9 +7,14 @@ role: User
 level: Beginner
 hide: true
 exl-id: 07c1f4a3-cf16-4a9b-b402-e13258799f91
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: ht
-source-wordcount: '415'
+TQID: https://experienceleague.adobe.com/5IWEDkgpDGCUPbzFi-SZalnW1HBqKSPZYmkAKY2zV5w
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+workflow-type: tm+mt
+source-wordcount: 415
 ht-degree: 100%
 
 ---
@@ -37,7 +42,7 @@ Dans le cadre d’une initiative de promotion de Campaign v8, nous avons commen
 
 Les statuts des versions ont été réduits et simplifiés. [En savoir plus](rn-overview.md)
 
-L’installation des packages Linux a été mise à jour pour la version v7.4.1.[En savoir plus](../../installation/using/installing-packages-with-linux.md)
+L’installation des packages Linux a été mise à jour pour la version v7.4.1. [En savoir plus](../../installation/using/installing-packages-with-linux.md)
 
 ### Juin 2024 {#june-2024}
 

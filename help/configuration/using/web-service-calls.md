@@ -5,9 +5,15 @@ description: Appels Web Service
 feature: API
 role: Developer
 exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+TQID: https://experienceleague.adobe.com/-VSnXHtg3Zi3VGHVAF72uRpJa3gulT3h40BIsdnGjqo
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: 923
 ht-degree: 81%
 
 ---
@@ -51,7 +57,7 @@ La présence de l&#39;attribut &quot;static&quot; (avec la valeur &quot;true&quo
 
 Une méthode de type &quot;const&quot; possède implicitement en entrée un document XML au format de son schéma associé.
 
-Une description complète de l&#39;élément `<method>` d&#39;un schéma Adobe Campaign figure dans la section [Méthode &#x200B;](../../configuration/using/schema/method.md) du chapitre « Référence des schémas ».
+Une description complète de l&#39;élément `<method>` d&#39;un schéma Adobe Campaign figure dans la section [Méthode ](../../configuration/using/schema/method.md) du chapitre « Référence des schémas ».
 
 Exemple de la méthode « ExecuteQuery » de type « const » à partir du schéma « xtk:queryDef » :
 

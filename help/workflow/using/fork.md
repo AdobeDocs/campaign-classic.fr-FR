@@ -5,9 +5,11 @@ description: En savoir plus sur l'activité de workflow Branchement
 feature: Workflows
 hide: true
 exl-id: 7a38653b-c15d-4ed8-85dc-f7214409f42b
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/qWYMxQ8mMGQ-LiceOtwKpcKsVDF3oVlvzXNwmTjtQZ0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: 434
 ht-degree: 100%
 
 ---

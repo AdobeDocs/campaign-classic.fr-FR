@@ -7,9 +7,14 @@ audience: platform
 content-type: reference
 topic-tags: connectors
 exl-id: 240d7e11-da3a-4d64-8986-1f1c8ebcea3c
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+TQID: https://experienceleague.adobe.com/Mcd1Z7q66wcVzDNkyk72FlqgOIL52DOjqkg8VQzKlU8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: 687
 ht-degree: 77%
 
 ---

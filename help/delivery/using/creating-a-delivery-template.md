@@ -6,9 +6,13 @@ feature: Delivery Templates
 hide: true
 role: User
 exl-id: 40a03e04-56c7-48c0-95b8-aa7bf1121048
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/5rlrthjXAnU8yfU1z67u-7uD0Z-pRfm0-Or5q7PBs-Q
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: 400
 ht-degree: 100%
 
 ---
@@ -73,18 +77,18 @@ Pour configurer un modèle de diffusion, procédez comme suit :
 
 La vidéo suivante montre comment configurer un modèle pour une diffusion ad hoc.
 
->[!VIDEO](https://video.tv.adobe.com/v/30598?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24066?quality=12)
 
 ### Comment configurer les propriétés des modèles de diffusion
 
 La vidéo suivante montre comment définir les propriétés des modèles de diffusion et explique en détail chaque propriété.
 
->[!VIDEO](https://video.tv.adobe.com/v/37961?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24067?quality=12)
 
 ### Comment déployer un modèle de diffusion ad hoc
 
 Cette vidéo montre comment déployer un modèle de diffusion email ad hoc. Elle explique aussi la différence entre une diffusion email et un workflow de diffusion.
 
->[!VIDEO](https://video.tv.adobe.com/v/27448?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24065?quality=12)
 
 D&#39;autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

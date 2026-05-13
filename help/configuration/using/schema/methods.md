@@ -4,9 +4,11 @@ title: Éléments et attributs de schéma - élément methods
 description: élément method
 feature: Schema Extension
 exl-id: f45e32ce-6534-4df2-ac7c-ba1134f0ffc8
-source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
+TQID: https://experienceleague.adobe.com/aqx3LfLJhRIKdmhGSWS20UFjBltCijAJzmm9bjgf6kg
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '42'
+source-wordcount: 42
 ht-degree: 100%
 
 ---

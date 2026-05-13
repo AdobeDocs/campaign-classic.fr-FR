@@ -5,9 +5,13 @@ description: Découvrez comment synchroniser les profils à lʼaide du connecteu
 feature: ACS Connector
 hide: true
 exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/AmLdA4Rvz3MNJ1U5aqC4ITjfa66N86htyRMJWJKkMb8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bea9e610-36b4-4df2-94bb-0fb6fe46cb50
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: 1255
 ht-degree: 66%
 
 ---
@@ -46,7 +50,7 @@ Lorsqu’un destinataire clique sur le lien de désinscription dans un e-mail en
 
    ![](assets/acs_connect_profile_sync_01.png)
 
-1. Vérifiez que le nouveau destinataire a été ajouté à Campaign Standard. Lors de la vérification du profil, assurez-vous que les données saisies dans Campaign v7 sont également disponibles dans Campaign Standard. Pour savoir où trouver les profils dans Campaign Standard, reportez-vous à la section [Principes de base de navigation](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html?lang=fr).
+1. Vérifiez que le nouveau destinataire a été ajouté à Campaign Standard. Lors de la vérification du profil, assurez-vous que les données saisies dans Campaign v7 sont également disponibles dans Campaign Standard. Pour savoir où trouver les profils dans Campaign Standard, reportez-vous à la section [Principes de navigation](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html?lang=fr).
 
    ![](assets/acs_connect_profile_sync_02.png)
 
@@ -60,7 +64,7 @@ Les étapes ci-dessous qui permettent de modifier un point unique de données co
 
    ![](assets/acs_connect_profile_sync_03.png)
 
-1. Vérifiez que le nom de la personne destinataire a été mis à jour dans Campaign Standard. Pour savoir où trouver les profils dans Campaign Standard, reportez-vous à la section [Principes de base de navigation](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html?lang=fr).
+1. Vérifiez que le nom de la personne destinataire a été mis à jour dans Campaign Standard. Pour savoir où trouver les profils dans Campaign Standard, reportez-vous à la section [Principes de navigation](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html?lang=fr).
 
    ![](assets/acs_connect_profile_sync_04.png)
 

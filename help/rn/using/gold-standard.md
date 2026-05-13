@@ -7,9 +7,16 @@ role: User
 level: Beginner
 hide: true
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: ht
-source-wordcount: '2018'
+TQID: https://experienceleague.adobe.com/AItPQMVIh2I-clE0UymqzG13gYHFKd0z2LW-gk9rJik
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+subfeature_v2: id: ac9c0a9c-8a76-4419-bd64-9c34c5782666id: fb2a841f-c522-491f-9901-a1b939d252df
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+workflow-type: tm+mt
+source-wordcount: 2018
 ht-degree: 100%
 
 ---
@@ -37,7 +44,7 @@ _27 août 2021_
 
 Le build 9032@99a3894 comprend les correctifs suivants :
 
-* La fonctionnalité de signature de tracking a été améliorée afin d’éviter les erreurs liées à la façon dont les outils tiers (clients de messagerie, navigateurs internet, etc.)traitent les caractères spéciaux.Les paramètres d’URL sont désormais chiffrés.
+* La fonctionnalité de signature de tracking a été améliorée afin d’éviter les erreurs liées à la façon dont les outils tiers (clients de messagerie, navigateurs internet, etc.) traitent les caractères spéciaux. Les paramètres d’URL sont désormais chiffrés.
 * Correction d’un problème lié aux sélecteurs de date qui entraînait l’affichage d’un message d’erreur de blocage dans une console. (NEO-36345)
 
 ### [!DNL Gold Standard] version 11{#gs-11}
@@ -208,10 +215,10 @@ _13 août 2019_
 La version 19.1.4 initiale comprend les correctifs suivants :
 
 * Correction d’un problème lié à l’activité du planificateur qui générait des messages d’erreur indésirables lors de la configuration de l’assistant. Annulation de la mise à jour à partir de NEO-11662. (NEO-17097)
-* Correction d’une régression causée par NEO-12727 qui entraînait l’arrêt des workflows lorsqu’une activité de test était exécutée deux fois.(NEO-16835)
-* Correction d’un problème qui entraînait le renvoi d’un code HTTP erroné (HTTP 200 OK à la place de HTTP 403 Interdit) lorsqu’un jeton de session non valide ou ayant expiré était utilisé dans les appels API.(NEO-16826)
-* Correction d’un problème lié à la clé DKIM qui n’était plus incorporée dans les e-mails, ce qui entraînait des problèmes de délivrabilité.(NEO-16804)
-* Correction de divers problèmes liés à la planification des workflows.Les workflows étaient planifiés pour être exécutés une fois par jour sans tenir compte de la configuration du planificateur.(NEO-16619, NEO-16426)
+* Correction d’une régression causée par NEO-12727 qui entraînait l’arrêt des workflows lorsqu’une activité de test était exécutée deux fois. (NEO-16835)
+* Correction d’un problème qui entraînait le renvoi d’un code HTTP erroné (HTTP 200 OK à la place de HTTP 403 Interdit) lorsqu’un jeton de session non valide ou ayant expiré était utilisé dans les appels API. (NEO-16826)
+* Correction d’un problème lié à la clé DKIM qui n’était plus incorporée dans les e-mails, ce qui entraînait des problèmes de délivrabilité. (NEO-16804)
+* Correction de divers problèmes liés à la planification des workflows. Les workflows étaient planifiés pour être exécutés une fois par jour sans tenir compte de la configuration du planificateur. (NEO-16619, NEO-16426)
 
 
 ## Matrice de compatibilité de [!DNL Gold Standard]{#compatibility-matrix-gs}

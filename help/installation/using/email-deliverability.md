@@ -8,9 +8,14 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 515adad2-6129-450a-bb9e-fc80127835af
-source-git-commit: 9f5205ced6b8d81639d4d0cb6a76905a753cddac
+TQID: https://experienceleague.adobe.com/JRN8-kfrbG-UDAJz8wShf-0vi-LyqrUBxNBa3wn83cc
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: b5852c32-876b-41ae-92a7-9f588865ae52id: e656c701-3899-4db3-989c-de0980ddfffaid: eff19c99-440a-4318-b319-444edc4d8d8f
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '3230'
+source-wordcount: 3230
 ht-degree: 68%
 
 ---
@@ -326,7 +331,7 @@ Le paramètre **structure MIME** (Multipurpose Internet Mail Extensions) permet 
 
   Par défaut, la structure multipart est de type **multipart/alternative**, mais devient automatiquement **multipart/related** lorsque qu&#39;on ajoute une image au message. Certains fournisseurs exigeant le format **multipart/related** par défaut, l&#39;option **[!UICONTROL Forcer multipart/related]** permet d&#39;imposer ce format même si aucune image n&#39;est jointe.
 
-* **&#x200B;**&#x200B;: un message HTML uniquement est envoyé. Si le format HTML n&#39;est pas accepté, le message ne s&#39;affichera pas.
+* **** : un message HTML uniquement est envoyé. Si le format HTML n&#39;est pas accepté, le message ne s&#39;affichera pas.
 * **Texte** : un message au format texte uniquement est envoyé. L&#39;avantage des messages au format texte est leur taille très réduite.
 
 Si l&#39;option **[!UICONTROL Inclusion des images]** est activée, elles sont affichées directement dans le corps de l&#39;email. Les images seront alors chargées et les liens URL seront remplacés par leur contenu.
@@ -428,4 +433,4 @@ Le paramètre **maxWorkingSetMb** est calculé empiriquement en multipliant le n
 
 ### Ajuster le nombre de mtachild {#adjust-the-number-of-mtachild}
 
-Le nombre d&#39;enfants ne doit pas dépasser le nombre de processeurs de la machine (approx. 1000 sessions). L&#39;ordre du millier de sessions semble une bonne valeur. **&#x200B;**&#x200B;Il faut alors augmenter le nombre de messages par **enfant** (**maxMsgPerChild**) pour avoir une durée de vie suffisante.
+Le nombre d&#39;enfants ne doit pas dépasser le nombre de processeurs de la machine (approx. 1000 sessions). L&#39;ordre du millier de sessions semble une bonne valeur. **** Il faut alors augmenter le nombre de messages par **enfant** (**maxMsgPerChild**) pour avoir une durée de vie suffisante.

@@ -5,9 +5,13 @@ description: Rendu du formulaire
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Web Forms
 exl-id: 723a6c47-5323-4914-a014-58be493852cc
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+TQID: https://experienceleague.adobe.com/zLf1lFV9vVIHcEbfO5UrFo92epuVlfMUWrl64SqNfCQ
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: 1055
 ht-degree: 84%
 
 ---

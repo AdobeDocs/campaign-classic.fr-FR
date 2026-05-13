@@ -5,9 +5,15 @@ description: Découvrir comment étendre les schémas de logs de diffusion afin 
 feature: Monitoring
 role: User, Developer
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
-source-git-commit: 2ebae2b84741bf26dd44c872702dbf3b0ebfc453
+TQID: https://experienceleague.adobe.com/OXsHpEx96bDHmINu-WR7MDcwn68ZxHjQ1MsxWhbtyG0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: 574
 ht-degree: 100%
 
 ---

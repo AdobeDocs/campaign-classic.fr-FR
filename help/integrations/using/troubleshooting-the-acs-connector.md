@@ -8,9 +8,14 @@ content-type: reference
 topic-tags: acs-connector
 hide: true
 exl-id: 4693dca1-ee55-43f0-b3dc-62a5b67a8058
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/hqQ4rSZpOoCMn9sA0yu2VsHFxTGEnwGwOMi6cu6e-1Q
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875fid: bea9e610-36b4-4df2-94bb-0fb6fe46cb50
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: 901
 ht-degree: 59%
 
 ---

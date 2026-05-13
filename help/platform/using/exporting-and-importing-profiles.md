@@ -8,9 +8,11 @@ content-type: reference
 topic-tags: profile-management
 exl-id: fd0f7b6e-84e1-442d-ae88-817fb6758d64
 hide: true
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/Ora2xniPzzRPwpJYbIqgyPLKHi77-pk6tm-80gFfHmA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '54'
+source-wordcount: 54
 ht-degree: 100%
 
 ---
@@ -47,7 +49,7 @@ To configure and execute data imports and exports jobs, go to the **[!UICONTROL 
 
 This video explains how to import profiles in Adobe Campaign, for an occasional import.
 
->[!VIDEO](https://video.tv.adobe.com/v/30597?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25608?quality=12)
 
-Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
 -->

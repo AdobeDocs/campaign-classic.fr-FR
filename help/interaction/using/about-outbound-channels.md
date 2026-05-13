@@ -4,9 +4,13 @@ title: À propos des canaux sortants
 description: À propos des canaux sortants
 feature: Interaction, Offers
 exl-id: 6e32dadc-097f-4380-b931-88468f3cb3b1
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+TQID: https://experienceleague.adobe.com/vzwHUSw4EejkLqaKBEPA2Cc5hn3xtG-KiSw9lWgaq60
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: 179
 ht-degree: 78%
 
 ---

@@ -7,9 +7,12 @@ audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 1f96c3df-0ef2-4f5f-9c36-988cbcc0769f
-source-git-commit: 0507e0372a81351adc145dafdd3cbe5d5422dc00
+TQID: https://experienceleague.adobe.com/daz7TEa76-e6V3DbFHIzggxj07CKsh1pS-ShT6d-Tfo
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: 791
 ht-degree: 87%
 
 ---

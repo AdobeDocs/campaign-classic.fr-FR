@@ -5,9 +5,11 @@ description: En savoir plus sur l’activité de workflow de tâche
 feature: Workflows
 hide: true
 exl-id: 8549bf8c-ba23-44cb-95f2-c50f2d0f5479
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/1MCN46-ZO9rMal9125rQYOFK-Bx4QKyeTtm402haDvA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: 105
 ht-degree: 69%
 
 ---

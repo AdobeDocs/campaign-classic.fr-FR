@@ -8,9 +8,11 @@ audience: production
 content-type: reference
 topic-tags: database-maintenance
 exl-id: 194f12de-4671-4a56-8cdc-cd5e3dac147b
-source-git-commit: 517b85f5d7691acc2522bf4541f07c34c60c7fbf
+TQID: https://experienceleague.adobe.com/FEOAey8zwfSTX5RNHrLsYk73IFo1So5Kt7pv7M97hxo
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: 1165
 ht-degree: 78%
 
 ---

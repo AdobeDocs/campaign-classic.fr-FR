@@ -5,9 +5,12 @@ description: Ajouter des champs à un formulaire web
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Web Forms, Landing Pages
 exl-id: 827b6575-7206-4dfc-b2c6-b95a6d5730b1
-source-git-commit: c262c27e75869ae2e4bd45642f5a22adec4a5f1e
+TQID: https://experienceleague.adobe.com/uHsP-67EhxMoCun8GEh1CzbeU5FJaDc1cdlsSVyayU4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '2492'
+source-wordcount: 2492
 ht-degree: 73%
 
 ---

@@ -5,9 +5,11 @@ description: Utiliser une table de personnes destinataires externe
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Audiences
 exl-id: b6aabc68-707d-4c6c-b008-277609166c6c
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+TQID: https://experienceleague.adobe.com/Uq5yqNYkyDrFVtueUlkIOEC9XEUaYtBArNy8-t1rKAw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: 92
 ht-degree: 92%
 
 ---

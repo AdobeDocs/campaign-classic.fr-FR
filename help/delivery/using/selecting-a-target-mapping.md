@@ -6,9 +6,12 @@ feature: Delivery Templates
 hide: true
 role: User
 exl-id: b5514fa3-1e65-45dc-8e40-d1ba3b673e7a
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/VpmfQdFoJ2Lfzetqx-s5MAdFdTTEsHxz2ISL15wNXIo
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '178'
+source-wordcount: 178
 ht-degree: 92%
 
 ---

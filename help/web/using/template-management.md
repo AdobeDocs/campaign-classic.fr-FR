@@ -5,9 +5,12 @@ description: Gestion des modèles
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 feature: Web Apps, Web Forms, Landing Pages, Delivery Templates
 exl-id: 69805e60-8fc6-45d1-9087-5f7d949cc76a
-source-git-commit: e34718caefdf5db4ddd61db601420274be77054e
+TQID: https://experienceleague.adobe.com/xTtVppbgtDogVC7uOh7njdrlLCX-nrHfAEshNa9nyfI
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: 124
 ht-degree: 77%
 
 ---

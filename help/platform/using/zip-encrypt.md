@@ -8,9 +8,12 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+TQID: https://experienceleague.adobe.com/mnkVYu3ibG6yFi1Zd5q1b1-CnzdheG8xvmM8q92-8vQ
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: 639
 ht-degree: 94%
 
 ---
@@ -59,7 +62,7 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
 1. Configurez l&#39;activité **[!UICONTROL Requête]** pour qu&#39;elle cible les données de votre choix dans la base de données. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=fr){target="_blank"}.
 
-1. Ouvrez l’activité **[!UICONTROL Extraction des données (fichier)]**, puis configurez-la selon vos besoins. Les concepts généraux de configuration de l’activité sont présentés dans la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html?lang=fr){target="_blank"}.
+1. Ouvrez l’activité **[!UICONTROL Extraction des données (fichier)]**, puis configurez-la selon vos besoins. Les concepts généraux de configuration de l’activité sont présentés dans la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html?lang=fr){target="_blank"}.
 
    ![](assets/gpg-data-extraction.png)
 
@@ -91,6 +94,6 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
 Cette vidéo montre comment utiliser une clé GPG pour chiffrer des données. Elle est également disponible dans
 
->[!VIDEO](https://video.tv.adobe.com/v/41327?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36399?quality=12)
 
 D&#39;autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

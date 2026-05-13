@@ -7,9 +7,11 @@ audience: message-center
 content-type: reference
 topic-tags: reports
 exl-id: c797fd94-0c8d-480b-b22a-1489ac331e77
-source-git-commit: 0fba6a2ad4ffa864e2f726f241aa9d7cd39072a6
+TQID: https://experienceleague.adobe.com/nESBoEHC7YU0SO4yJ0rscDa3E-ePk6yNbPKzusER7C4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: 253
 ht-degree: 60%
 
 ---

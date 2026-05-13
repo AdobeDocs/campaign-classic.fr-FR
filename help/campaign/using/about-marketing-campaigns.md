@@ -5,9 +5,14 @@ description: Définissez, optimisez, exécutez et analysez des campagnes marketi
 role: User
 feature: Campaigns
 exl-id: 07cfa2b3-4e70-437a-ad5f-15fbfe717d5c
-source-git-commit: dd6bcb16fe41b6a3f1e3f5aaf2f753b29ad4bc1d
+TQID: https://experienceleague.adobe.com/rxyAXKDrxdMJWdXAwbbkleIoRHf03mvC5sHZbXZ1H5M
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: 362
 ht-degree: 52%
 
 ---
@@ -93,8 +98,8 @@ The following concepts need to be known in the context of Campaign:
 
 This video presents the key concepts of marketing campaigns.
 
->[!VIDEO](https://video.tv.adobe.com/v/326571?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
 
-Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
 
 -->

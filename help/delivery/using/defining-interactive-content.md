@@ -7,9 +7,13 @@ feature: Email Design
 role: User
 hide: true
 exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/eJvXKGg578zEWsoERyefkE4AiKgCJkfNLHLKFFzpGEQ
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1551'
+source-wordcount: 1551
 ht-degree: 100%
 
 ---
@@ -207,6 +211,6 @@ Si, par exemple, vous avez inclus une liste de produits dans votre email, lors d
 
 La vidéo ci-dessous explique comment activer AMP dans Adobe Campaign et présente son utilisation.
 
->[!VIDEO](https://video.tv.adobe.com/v/33568?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on)
 
 D’autres vidéos pratiques sur Campaign sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

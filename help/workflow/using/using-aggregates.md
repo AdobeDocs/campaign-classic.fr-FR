@@ -5,9 +5,11 @@ description: Découvrez comment utiliser les agrégats
 feature: Workflows
 hide: true
 exl-id: 12b173e9-5068-4d45-9e1e-2aecc9866e9c
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/gGjUc-62oHW0OBV-iPKYGoDWiTebnQ3g7v4cInh3TLw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: 673
 ht-degree: 64%
 
 ---

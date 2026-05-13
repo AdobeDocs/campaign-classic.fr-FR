@@ -7,9 +7,12 @@ audience: interaction
 content-type: reference
 topic-tags: interaction-overview
 exl-id: 98413cde-50c9-416c-8316-85837f724c27
-source-git-commit: 0ed70b3c57714ad6c3926181334f57ed3b409d98
+TQID: https://experienceleague.adobe.com/3EnUxwwGdhqG7vmysgbDBwiCbbBIl2bG1byaRe3j6O8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: 1210
 ht-degree: 75%
 
 ---

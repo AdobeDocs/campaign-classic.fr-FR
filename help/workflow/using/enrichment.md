@@ -5,9 +5,11 @@ description: En savoir plus sur l’activité de workflow d’enrichissement
 feature: Workflows, Enrichment Activity, Targeting Activity
 hide: true
 exl-id: 4c7bc0f3-5877-47dc-bd72-dc94fb7bd479
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/3M3Y5GT1479YcWpoM0MI5C6ru5F5jcPY-EYvAOCBMqU
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: 1431
 ht-degree: 72%
 
 ---

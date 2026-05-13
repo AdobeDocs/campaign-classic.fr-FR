@@ -7,9 +7,14 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 89356b5a-d99c-43d1-892b-5a1d003e76cc
-source-git-commit: c1796e5f827b79f72a07eb07886d345d3b897f86
+TQID: https://experienceleague.adobe.com/FL-v5m07U-OzscVIiQONAa-RMu323ZpTuBrL29ukMc4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: eb007b6d-6e57-46ab-9485-3f24d6102304
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: 1522
 ht-degree: 80%
 
 ---
@@ -20,7 +25,7 @@ ht-degree: 80%
 >
 >Ces questions fréquentes abordent des questions spécifiques à l’architecture d’Adobe Campaign Classic v7, aux modèles de déploiement et aux fonctionnalités spécifiques à la v7.
 >
->**Pour obtenir des réponses complètes aux questions courantes sur Campaign** (workflows, diffusions, audiences, reporting, personnalisation, etc.), consultez les [**questions fréquentes complètes sur Campaign v8**](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-faq-comprehensive){target="_blank"}, qui fournissent des réponses détaillées organisées par rubrique.
+>**Pour obtenir des réponses complètes aux questions courantes sur Campaign** (workflows, diffusions, audiences, reporting, personnalisation, etc.), consultez les [**questions fréquentes complètes sur Campaign v8**](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-faq-comprehensive){target="_blank"}, qui fournissent des réponses détaillées organisées par rubrique.
 
 ## Architecture et déploiement de Campaign Classic v7 {#v7-architecture}
 
@@ -69,7 +74,7 @@ La migration vers Adobe Managed Services améliore l’évolutivité, la sécu
 
 **Prise en main :** contactez votre représentant ou représentante Adobe pour évaluer votre environnement et développer un plan de migration détaillé avec Adobe Professional Services.
 
-En savoir plus sur la [migration vers Managed Services](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605?profile.language=fr){target="_blank"}.
+En savoir plus sur la [migration vers Managed Services](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic-blogs/migrate-your-adobe-campaign-v7-onprem-hybrid-environment-to/ba-p/681605){target="_blank"}.
 
 +++
 
@@ -170,7 +175,7 @@ Les déploiements on-premise et hybrides nécessitent une configuration et un re
 * Correctifs de sécurité standard
 * Journalisation et surveillance des audits
 
-Consultez la [Liste de contrôle relative à la configuration de la sécurité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html){target="_blank"} pour découvrir les éléments essentiels à contrôler en ce qui concerne la configuration et le renforcement de la sécurité pour les déploiements on-premise.
+Consultez la [Liste de contrôle relative à la configuration de la sécurité](https://helpx.adobe.com/campaign/kb/acc-security.html){target="_blank"} pour découvrir les éléments essentiels à contrôler en ce qui concerne la configuration et le renforcement de la sécurité pour les déploiements on-premise.
 
 +++
 
@@ -211,7 +216,7 @@ En savoir plus dans la [documentation de la console cliente Campaign](../../plat
 
 +++ Où les clients hébergés peuvent-ils gérer les paramètres des instances ? {#where-to-manage-instance-settings}
 
-Le Panneau de Contrôle [&#128279;](https://experienceleague.adobe.com/fr/docs/control-panel/using/control-panel-home.html?lang=fr){target="_blank"} aide les administrateurs de produit d’Adobe Campaign à gérer les paramètres et à suivre l’utilisation de chaque instance. Son interface intuitive vous permet de surveiller les ressources essentielles et d’effectuer des tâches administratives telles que les mises à jour de la place sur la liste autorisée IP, la surveillance de l’espace de stockage SFTP, la gestion des clés, etc.
+Le Panneau de Contrôle [](https://experienceleague.adobe.com/fr/docs/control-panel/using/control-panel-home.html?lang=fr){target="_blank"} aide les administrateurs de produit d’Adobe Campaign à gérer les paramètres et à suivre l’utilisation de chaque instance. Son interface intuitive vous permet de surveiller les ressources essentielles et d’effectuer des tâches administratives telles que les mises à jour de la place sur la liste autorisée IP, la surveillance de l’espace de stockage SFTP, la gestion des clés, etc.
 
 **Principaux avantages :**
 
@@ -253,7 +258,7 @@ Consultez les [**questions fréquentes complètes sur Campaign v8**](https://ex
 
 **Communauté et support :**
 
-* [Forums de la communauté Campaign](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=fr){target="_blank"}
+* [Forums de la communauté Campaign](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
 * [Assistance Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
 
 +++

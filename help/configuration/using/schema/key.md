@@ -4,9 +4,11 @@ title: Éléments et attributs de schéma - élément key
 description: élément key
 feature: Schema Extension
 exl-id: 3d0ef574-27a3-40f2-91a0-70e9583d9980
-source-git-commit: 254c89490fefa5d405bcecd2f1781df46450a873
+TQID: https://experienceleague.adobe.com/5LDW8-4YjfDebSOFq6ON8c0ulQQsGGjmRbek67G4Ml4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: 322
 ht-degree: 63%
 
 ---

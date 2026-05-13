@@ -7,9 +7,12 @@ audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: a93bac61-f615-4178-bc12-0f056e48687d
-source-git-commit: b666535f7f82d1b8c2da4fbce1bc25cf8d39d187
+TQID: https://experienceleague.adobe.com/FamgSPCsG0flxP4eUriwPD3SCzGvvsfnqQXZwiMpnYI
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: 670
 ht-degree: 84%
 
 ---

@@ -5,9 +5,12 @@ description: En savoir plus sur l’activité de workflow d’enrichissement
 feature: Workflows, Enrichment Activity
 hide: true
 exl-id: ab786cf1-74a4-4185-a63d-84e776a2f776
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/x2LufRG-rJ-s07Vdo-Ta-FvtqfbUGd6gceDY98DSQTM
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: 832
 ht-degree: 65%
 
 ---

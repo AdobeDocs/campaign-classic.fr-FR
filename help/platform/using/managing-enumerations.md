@@ -5,9 +5,12 @@ description: Gestion des énumérations
 feature: Data Management
 exl-id: 2ece058d-b493-4fea-b3db-322cf7ea7f4f
 hide: true
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/nc2PkzENnuWHVqSlKprqQU0xT9YTrUY8VF1JHI4nA8k
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: 103
 ht-degree: 100%
 
 ---

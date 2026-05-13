@@ -5,9 +5,12 @@ description: Cette section fournit des informations générales spécifiques au 
 feature: Email
 role: User
 exl-id: dbdfc04a-691b-470d-b96d-4c8a9531327d
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+TQID: https://experienceleague.adobe.com/a7m9Ijnja0u2sXCptUXQBwSaFr4qk1ugljCqkmuAEPw
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: 453
 ht-degree: 100%
 
 ---
@@ -64,7 +67,7 @@ Before starting sending emails:
 
 * Make sure recipient profiles contain at least an email address.
 * Learn more about the Adobe Campaign [Delivery best practices](delivery-best-practices.md).
-* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr).
+* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
 The key steps to send an email are as follows:
 

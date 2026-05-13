@@ -5,9 +5,14 @@ description: Découvrez comment connecter Campaign et Microsoft Dynamics
 feature: Microsoft CRM Integration
 exl-id: 26737940-b3ce-425c-9604-f4cefd19afaa
 hide: true
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/44zbpdKmmkaUnaKuvB39Tw8TA-sIFHXlCBKyfRiGEvs
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: 1184
 ht-degree: 100%
 
 ---

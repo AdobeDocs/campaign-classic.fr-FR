@@ -8,9 +8,12 @@ audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: d585a5d4-ea33-43c8-aa37-4d892025374a
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+TQID: https://experienceleague.adobe.com/RrVBjDmV2i349u1NCfjtDApsuAIEOVwbxalPKnKETI4
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '1178'
+source-wordcount: 1178
 ht-degree: 84%
 
 ---

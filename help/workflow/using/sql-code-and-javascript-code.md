@@ -5,9 +5,11 @@ description: En savoir plus sur les activités du workflow des codes SQL et Java
 feature: Workflows
 hide: true
 exl-id: 729a2010-c2d8-481b-8c9e-780b9e5f97ef
-source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
+TQID: https://experienceleague.adobe.com/B-OWeBTtXSxSD1k-qgRq06ymp00LvVH2U7k9yRAN3YE
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: 300
 ht-degree: 86%
 
 ---
