@@ -6,8 +6,10 @@ feature: Workflows, Enrichment Activity
 hide: true
 exl-id: ab786cf1-74a4-4185-a63d-84e776a2f776
 TQID: https://experienceleague.adobe.com/x2LufRG-rJ-s07Vdo-Ta-FvtqfbUGd6gceDY98DSQTM
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 832

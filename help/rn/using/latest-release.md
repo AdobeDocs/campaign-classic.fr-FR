@@ -7,10 +7,16 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 TQID: https://experienceleague.adobe.com/Xq9y8r6xU-hypq1Eeo9ijaiGng7qqkWVqiCXW5fYx2c
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 3ebf57870a8fa7b2ad742f3978e982bc80c798d2
 workflow-type: tm+mt
 source-wordcount: 378
@@ -40,7 +46,7 @@ _31 mars 2026_
 
 >[!NOTE]
 >
-> Les correctifs répertoriés ci-dessous ont été progressivement déployés sur plusieurs builds 7.4.3 successifs. Accédez au **[!UICONTROL menu Aide > À propos...]** [](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version) pour vérifier que vous disposez de la dernière version de 9394@28aaec9. Pour plus d’informations, contactez votre représentant Adobe.
+> Les correctifs répertoriés ci-dessous ont été progressivement déployés sur plusieurs builds 7.4.3 successifs. Accédez au **[!UICONTROL menu Aide > À propos...]** [&#128279;](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version) pour vérifier que vous disposez de la dernière version de 9394@28aaec9. Pour plus d’informations, contactez votre représentant Adobe.
 
 * Correction d’un problème en raison duquel le composant de code à barres autorisait un paramètre de hauteur illimité, ce qui pouvait entraîner une vulnérabilité de sécurité. (NEO-89984)
 * Correction d’un problème où les champs d’énumération dans les listes créées via les workflows ne comportaient pas d’attributs de nom temporaires, ce qui entraînait l’affichage de libellés d’énumération incorrects ou vides dans l’interface. (NEO-91158)

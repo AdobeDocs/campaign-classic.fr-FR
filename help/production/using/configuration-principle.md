@@ -9,7 +9,8 @@ content-type: reference
 topic-tags: production-procedures
 exl-id: 03d7e579-8678-44b8-bbe7-cf4204bffb25
 TQID: https://experienceleague.adobe.com/qh8T4QUwIzRfwYj0j0ZUOJp0V78fiw4ADrSzzMfAsZg
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 311
@@ -36,7 +37,7 @@ Sur un même serveur, deux éléments sont communs à l&#39;ensemble des instanc
 Les fichiers de configuration sont enregistrés dans le répertoire **conf** du répertoire d’installation. La configuration est divisée en trois fichiers :
 
 * **serverConf.xml** : configuration générale pour toutes les instances.
-* **Config-.xml **`<instance>`**.xml** (où **`<instance>`** est le nom de l&#39;instance) : configuration spécifique d’une instance.
+* **Config-.xml &#x200B;**`<instance>`**.xml** (où **`<instance>`** est le nom de l&#39;instance) : configuration spécifique d’une instance.
 * **serverConf.xml.diff** : delta entre la configuration initiale et la configuration actuelle. Ce fichier est généré automatiquement par l&#39;application et ne doit pas être modifié manuellement. Il est utilisé pour propager automatiquement les modifications utilisateur lors de la mise à jour d’une version de build.
 
 Le chargement de la configuration d&#39;une instance est réalisé de la manière suivante :

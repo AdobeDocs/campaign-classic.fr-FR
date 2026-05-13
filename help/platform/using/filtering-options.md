@@ -10,7 +10,8 @@ topic-tags: filtering-data
 exl-id: cf75a435-97e2-4d4f-8b9b-c30a57390deb
 hide: true
 TQID: https://experienceleague.adobe.com/ejZ6S1OMRJCLMvW74ceo1BE58W68xZcUMZ-WPDjdT0o
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 293

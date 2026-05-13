@@ -6,8 +6,10 @@ feature: Technote, Upgrade
 hide: true
 exl-id: 78949d94-60b3-44f1-8e5a-d61b5b723e87
 TQID: https://experienceleague.adobe.com/lfaxfILJCapcyjrRDvppv-FuXrkKciYlfWfKBtayoIY
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 529

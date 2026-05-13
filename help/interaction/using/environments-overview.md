@@ -8,8 +8,10 @@ content-type: reference
 topic-tags: managing-environments
 exl-id: ba588591-5171-4c35-bc8c-3979274e21b2
 TQID: https://experienceleague.adobe.com/MFuBkORHSX2Z06B83bh-RM1KdSLWjs-JGrtAUVnT530
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 101

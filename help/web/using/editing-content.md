@@ -6,8 +6,10 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: 968430d6-b1dd-47f8-8b31-39aaa18bc05c
 TQID: https://experienceleague.adobe.com/vk9ll3YorktZfTylENZ1dgtDU3lfJeT2WHx991jY4dw
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 1275
@@ -244,7 +246,7 @@ Lorsque vous sélectionnez un bloc contenant une image, vous accédez aux propri
 
 ### Insertion d&#39;un champ de personnalisation {#inserting-a-personalization-field}
 
-L&#39;option Champ **** de l&#39;icône d&#39;insertion permet d&#39;ajouter un champ de base de données dans le contenu, tel que le nom du destinataire. Cette option n’est disponible que pour les blocs de type texte.
+L&#39;option Champ **&#x200B;**&#x200B;de l&#39;icône d&#39;insertion permet d&#39;ajouter un champ de base de données dans le contenu, tel que le nom du destinataire. Cette option n’est disponible que pour les blocs de type texte.
 
 ![](assets/dce_toolbar_textblock_persofield.png)
 

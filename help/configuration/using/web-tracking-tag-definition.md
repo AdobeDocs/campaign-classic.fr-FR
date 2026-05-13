@@ -6,8 +6,10 @@ feature: Application Settings
 role: Developer
 exl-id: 0b5575be-57e7-4eee-9c0a-e9ef4b0931bf
 TQID: https://experienceleague.adobe.com/UkA0XyCzaDt2qlxpODQ-zoyC0YdKs3K5qg4UacvT8ck
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 362
@@ -111,17 +113,17 @@ Le tableau ci-dessous donne la liste des paramètres spéciaux supportés par le
 
 * Collecte des informations relatives au chiffre d&#39;affaires
 
-  **https://myserver.adobe.com/r/4567?tagid=command&amp;amount=100&amp;article=2l**
+  **https://myserver.adobe.com/r/4567?tagid=command&amount=100&article=2l**
 
 * Spécification d&#39;un champ pour retrouver le destinataire
 
-  **https://myserver.adobe.com/r/2353?tagid=home&amp;rcpid=saccount%3D10**
+  **https://myserver.adobe.com/r/2353?tagid=home&rcpid=saccount%3D10**
 
   Un destinataire dont le numéro de compte est 10 est passé sur la page d&#39;accueil.
 
 * Utilisation d&#39;une diffusion par défaut
 
-  **https://myserver.adobe.com/r/2456?tagid=home&amp;jobid=e6**
+  **https://myserver.adobe.com/r/2456?tagid=home&jobid=e6**
 
   Un destinataire est envoyé à la page d’accueil. Ces informations seront stockées dans la diffusion d&#39;identifiant 230 (e6 dans la base de données 16) sauf si un cookie de session contenant un identifiant de diffusion est envoyé avec cette requête.
 

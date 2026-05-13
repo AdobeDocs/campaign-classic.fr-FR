@@ -6,9 +6,13 @@ feature: Distributed Marketing
 hide: true
 exl-id: 17313fe5-ad42-45ca-a35a-1e7aa89380ef
 TQID: https://experienceleague.adobe.com/No3N7fj-k3CN10p7SgpLolqvpzFTEOk-BQrFmOdcmeE
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 995
@@ -128,7 +132,7 @@ Pour les **opérations collaboratives**, l&#39;entité centrale doit indiquer la
 
 >[!NOTE]
 >
->L&#39;échéance **** permet à l&#39;entité centrale de choisir une échéance à laquelle les entités locales doivent avoir remis les documents (feuilles de calcul, images) à utiliser pour paramétrer l&#39;opération. Il ne s’agit pas d’une option obligatoire. Le contournement de cette date n’affecte pas la mise en œuvre de la campagne.
+>L&#39;échéance **&#x200B;**&#x200B;permet à l&#39;entité centrale de choisir une échéance à laquelle les entités locales doivent avoir remis les documents (feuilles de calcul, images) à utiliser pour paramétrer l&#39;opération. Il ne s’agit pas d’une option obligatoire. Le contournement de cette date n’affecte pas la mise en œuvre de la campagne.
 
 ![](assets/s_advuser_mkg_dist_create_mutual_entry.png)
 

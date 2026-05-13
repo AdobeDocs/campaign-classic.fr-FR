@@ -6,9 +6,12 @@ feature: ACS Connector
 hide: true
 exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
 TQID: https://experienceleague.adobe.com/AmLdA4Rvz3MNJ1U5aqC4ITjfa66N86htyRMJWJKkMb8
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2: id: bea9e610-36b4-4df2-94bb-0fb6fe46cb50
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2:
+  - id: bea9e610-36b4-4df2-94bb-0fb6fe46cb50
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 1255

@@ -8,8 +8,10 @@ content-type: reference
 topic-tags: connectors
 exl-id: 7ccab3a4-f323-464a-9ec4-dd597279d0eb
 TQID: https://experienceleague.adobe.com/lBBrC9xW0PKnx9yR9gsFhQvWxcG-ykGTICUqPc92hEI
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 149

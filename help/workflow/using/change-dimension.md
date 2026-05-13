@@ -6,7 +6,8 @@ feature: Workflows, Targeting Activity
 hide: true
 exl-id: c3de99f8-089f-4c7c-be11-f375a9463eaa
 TQID: https://experienceleague.adobe.com/b9Vd8VOP-JcDHPeEInwq3UaFYrjLv2rWkcgyYOMAsiE
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 398

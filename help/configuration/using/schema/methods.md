@@ -5,7 +5,8 @@ description: élément method
 feature: Schema Extension
 exl-id: f45e32ce-6534-4df2-ac7c-ba1134f0ffc8
 TQID: https://experienceleague.adobe.com/aqx3LfLJhRIKdmhGSWS20UFjBltCijAJzmm9bjgf6kg
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 42

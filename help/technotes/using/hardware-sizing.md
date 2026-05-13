@@ -5,10 +5,22 @@ description: Recommandations relatives au dimensionnement du matériel pour Camp
 feature: Technote
 exl-id: c47e73a0-dbd8-43f5-a363-7e6783dc7685
 TQID: https://experienceleague.adobe.com/lHuaRF5IduJcVWIKDqnkgYirPrhHDi4ro9SkCAw3nZE
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a7760dfc-5c44-4d77-bb68-c50b1e265c93id: b12f6872-9271-4369-85e5-86969a0b99a2id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-subfeature_v2: id: ac9c0a9c-8a76-4419-bd64-9c34c5782666id: cfc95e9b-b035-4403-a6a9-b27a8a053a37id: fb2a841f-c522-491f-9901-a1b939d252df
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2:
+  - id: ac9c0a9c-8a76-4419-bd64-9c34c5782666
+  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+  - id: fb2a841f-c522-491f-9901-a1b939d252df
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 2637
@@ -155,7 +167,7 @@ Les serveurs d’application prennent directement en charge les utilisateurs de 
 
 Les serveurs web hébergent des applications Web Campaign qui prennent en charge les 10 millions de destinataires actifs du système.
 
-Voir [Scénario 1 : Déploiement de taille moyenne ](#scenario-1) pour plus de commentaires sur les proxies, les centres de préférences/la gestion des abonnements et l’utilisation de l’espace disque.
+Voir [Scénario 1 : Déploiement de taille moyenne &#x200B;](#scenario-1) pour plus de commentaires sur les proxies, les centres de préférences/la gestion des abonnements et l’utilisation de l’espace disque.
 
 ### Base de données
 
@@ -203,7 +215,7 @@ Les serveurs d’application prennent directement en charge les utilisateurs de 
 
 Les serveurs web hébergent des applications Web Campaign qui prennent en charge les 10 millions de destinataires actifs du système.
 
-Voir [Scénario 1 : Déploiement de taille moyenne ](#scenario-1) pour plus de commentaires sur les proxies, les centres de préférences/la gestion des abonnements et l’utilisation de l’espace disque.
+Voir [Scénario 1 : Déploiement de taille moyenne &#x200B;](#scenario-1) pour plus de commentaires sur les proxies, les centres de préférences/la gestion des abonnements et l’utilisation de l’espace disque.
 
 ### Base de données
 
@@ -254,10 +266,10 @@ Tous les serveurs Campaign sont de bons candidats à la virtualisation. Plusieur
 * **Configuration de basculement**
 Les serveurs en cluster, par exemple les serveurs d’application redondants sous un proxy avec équilibrage de charge, doivent être déployés sur un matériel distinct pour s’assurer que les deux machines virtuelles ne tombent pas en panne en cas de défaillance matérielle.
 
-* Configuration d’E/S ****
+* Configuration d’E/S **&#x200B;**
 Toute configuration RAID recommandée doit être conservée pour la sécurité de la base de données, afin de garantir que la perte d’un appareil de stockage ne provoque pas de perte de données.
 
-* Performances d’E/S ****
+* Performances d’E/S **&#x200B;**
 L’évaluation IOPS recommandée pour le stockage dans la base de données doit être respectée. Il est possible que les services cloud tels qu’Amazon EC2 n’offrent pas les performances requises. Ces services doivent alors être évalués avec soin. Par exemple, les volumes SSD fournis par Amazon EC2 sont actuellement évalués à 20 000 IOPS chacun. Consultez la [documentation Amazon](https://docs.aws.amazon.com/fr_fr/AWSEC2/latest/UserGuide/ebs-volume-types.html) pour en savoir plus. De ce fait, une configuration RAID à 4 volumes est évaluée à 80 000 IOPS, ce qui peut ne pas suffire.
 
 Adobe recommande de tester les performances de chaque déploiement virtualisé d’Adobe Campaign avant la mise en production du système.

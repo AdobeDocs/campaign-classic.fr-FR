@@ -6,7 +6,8 @@ feature: Workflows
 hide: true
 exl-id: bc64ca11-2c50-4896-b6c6-ae42c0315924
 TQID: https://experienceleague.adobe.com/6i0ts3-NSZOXHytgDV-sCeJ16pURhMRYVY-pWGf2oWc
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 460

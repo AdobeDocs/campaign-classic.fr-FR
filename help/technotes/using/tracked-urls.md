@@ -6,8 +6,10 @@ feature: Technote
 hide: true
 exl-id: e7d4331b-7149-4768-8e46-2e2911319074
 TQID: https://experienceleague.adobe.com/qZr50JJz-Z0qffT8ZR1Y4PrBC31Oqz5BkgBpg-ScnJM
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 387

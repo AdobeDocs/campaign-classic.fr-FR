@@ -6,8 +6,10 @@ feature: Configuration
 role: Developer
 exl-id: e7fcec75-82fe-45ff-8d45-7d6e95baeb14
 TQID: https://experienceleague.adobe.com/Z8FQ1ukAxvRBTBFOxf2-lZF2-cqIIgA4H0bYDc9uTe4
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
 source-wordcount: 331
