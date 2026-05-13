@@ -211,4 +211,4 @@ Par défaut, l’opérateur ou opératrice technique « webapp » dispose du dro
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur les recommandations en matière de sécurité, consultez la [Liste de contrôle relative à la configuration de la sécurité dans Adobe Campaign](https://helpx.adobe.com/campaign/kb/acc-security.html).
+>Pour plus d&#39;informations sur les recommandations en matière de sécurité, consultez la [Liste de contrôle relative à la configuration de la sécurité dans Adobe Campaign](https://helpx.adobe.com/fr/campaign/kb/acc-security.html).
