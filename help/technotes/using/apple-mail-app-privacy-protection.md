@@ -18,16 +18,14 @@ topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+source-git-commit: f5b6a90cde6c348f0561026dbf18dc55499ef588
 workflow-type: tm+mt
-source-wordcount: 2140
+source-wordcount: 2135
 ht-degree: 100%
 
 ---
 
 # Protection de la confidentialité des e-mails dans l’application Mail d’Apple
-
-![S’applique aux versions 7 et 8](../../assets/common.svg)
 
 ## Qu’est-ce qui a changé ?
 
