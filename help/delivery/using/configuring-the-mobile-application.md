@@ -19,7 +19,7 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+source-git-commit: 8f9e8344b77e50bd2823cc7fa3922466e515327f
 workflow-type: tm+mt
 source-wordcount: 688
 ht-degree: 91%
@@ -46,7 +46,7 @@ Pour configurer ce connecteur, procédez comme suit :
 
 1. Accédez à **[!UICONTROL Administration > Plateforme > Comptes externes]**.
 1. Sélectionnez le compte externe **[!UICONTROL routage iOS]**.
-1. Dans l&#39;onglet **[!UICONTROL Connecteur]**, renseignez le champ **[!UICONTROL URL d&#39;accès au connecteur]** avec l&#39;URL suivante :```http://localhost:8080/nms/jsp/iosHTTP2.jsp```
+1. Dans l&#39;onglet **[!UICONTROL Connecteur]**, renseignez le champ **[!UICONTROL URL d&#39;accès au connecteur]** avec l&#39;URL suivante :`http://localhost:8080/nms/jsp/iosHTTP2.jsp`
 
    ![](assets/nmac_connectors.png)
 
