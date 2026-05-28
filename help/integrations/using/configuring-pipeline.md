@@ -9,18 +9,12 @@ content-type: reference
 level: Intermediate, Experienced
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
 TQID: https://experienceleague.adobe.com/0Sv4efbYyu1kT-sDs4CYjDBP3RphjlqPTerDrNxN93I
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8f9e8344b77e50bd2823cc7fa3922466e515327f
 workflow-type: tm+mt
 source-wordcount: 865
 ht-degree: 94%
@@ -131,13 +125,13 @@ Voici la liste des paramètres facultatifs :
 | Option | Description |
 |:-:|:-:|
 | appName (hérité) | AppID de l&#39;application OAuth enregistrée dans l&#39;application Legacy Oath où la clé publique a été chargée. Voir à ce propos [cette page](https://www.adobe.io/authentication/auth-methods.html#!AdobeDocs/adobeio-auth/master/AuthenticationOverview/ServiceAccountIntegration.md) |
-| authGatewayEndpoint(hérité) | URL permettant d&#39;obtenir des jetons de passerelle. Par défaut: ```https://api.omniture.com``` |
-| authPrivateKey(hérité) | La clé privée, la partie publique chargée dans l’application Legacy Oath, AES chiffré avec l’option XtkKey : ```cryptString("PRIVATE_KEY")``` |
+| authGatewayEndpoint(hérité) | URL permettant d&#39;obtenir des jetons de passerelle. Par défaut: `https://api.omniture.com` |
+| authPrivateKey(hérité) | La clé privée, la partie publique chargée dans l’application Legacy Oath, AES chiffré avec l’option XtkKey : `cryptString("PRIVATE_KEY")` |
 | disableAuth(hérité) | La désactivation de l&#39;authentification, la connexion sans jetons de passerelle n&#39;est acceptée que par certains points d’entrée du pipeline de développement. |
-| discoverPipelineEndpoint | URL permettant de trouver le point d’entrée de Pipeline Services à utiliser pour ce tenant. Par défaut: ```https://producer-pipeline-pnw.adobe.net``` |
-| dumpStatePeriodSec | La période entre deux vidages du processus d&#39;état interne dans ```var/INSTANCE/pipelined.json.``` <br> L&#39;état interne est également accessible à la demande ici : ```http://INSTANCE:7781/pipelined/status``` |
+| discoverPipelineEndpoint | URL permettant de trouver le point d’entrée de Pipeline Services à utiliser pour ce tenant. Par défaut: `https://producer-pipeline-pnw.adobe.net` |
+| dumpStatePeriodSec | La période entre deux vidages du processus d&#39;état interne dans `var/INSTANCE/pipelined.json.` <br> L&#39;état interne est également accessible à la demande ici : `http://INSTANCE:7781/pipelined/status` |
 | forcedPipelineEndpoint | Désactiver la détection de PipelineServicesEndpoint et la forcer |
-| monitorServerPort | Le processus en pipeline écoutera sur ce port pour fournir le processus d&#39;état interne ici : ```http://INSTANCE:PORT/pipelined/status```. <br>La valeur par défaut est de 7781 |
+| monitorServerPort | Le processus en pipeline écoutera sur ce port pour fournir le processus d&#39;état interne ici : `http://INSTANCE:PORT/pipelined/status`. <br>La valeur par défaut est de 7781 |
 | pointerFlushMessageCount | Lorsque ce nombre de messages est traité, les décalages sont enregistrés dans la base de données. <br> La valeur par défaut est 1 000 |
 | pointerFlushPeriodSec | Après cette période, les décalages seront enregistrés dans la base de données. <br>La valeur par défaut est de 5 (secondes) |
 | processingJSThreads | Nombre de threads dédiés traitant des messages avec des connecteurs JS personnalisés. <br> La valeur par défaut est 4 |
