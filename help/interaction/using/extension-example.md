@@ -9,9 +9,12 @@ content-type: reference
 topic-tags: advanced-parameters
 exl-id: d4acf99b-cef4-48f7-b4cd-c032ec12592f
 TQID: https://experienceleague.adobe.com/TQZaYrJop03HAw47XPFqgmoxb073iC-xztTp-f-5dEk
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
-subfeature_v2: id: e739ee2b-6228-412e-878f-45de0791417d
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+subfeature_v2:
+  - id: e739ee2b-6228-412e-878f-45de0791417d
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 160

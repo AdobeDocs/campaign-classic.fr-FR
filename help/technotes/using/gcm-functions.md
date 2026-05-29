@@ -5,10 +5,15 @@ description: Nouvelles fonctions basées sur GCM
 feature: Technote
 exl-id: 154dee7a-a1e9-40a2-bfa5-3641382d0574
 TQID: https://experienceleague.adobe.com/816d3Tu4JM17gYVA-ekpwc2w-ziQYNqm948KnvZxrUg
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080b
-subfeature_v2: id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+subfeature_v2:
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 582

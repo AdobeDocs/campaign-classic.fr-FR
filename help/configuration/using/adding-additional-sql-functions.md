@@ -6,9 +6,13 @@ feature: Configuration, Instance Settings
 role: Developer
 exl-id: 04b0a0e5-d6df-447c-ac67-66adb1bdf717
 TQID: https://experienceleague.adobe.com/HRym19p3YGAa3PEPgFBfU3ka39l5348CkdQaWcHZOJk
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
@@ -123,12 +127,12 @@ Le champ **@name** fait référence au nom de la fonction et « args » corres
   >
   >La description doit être une chaîne de caractères valide au sens XML : noter l&#39;utilisation de &#39;&lt;&#39; et &#39;>&#39; au lieu de &lt; et >.
 
-* **** est le type de retour de la fonction et est une valeur standard (long, string, byte, datetime...). S’il est omis, le serveur détermine le meilleur type parmi les types disponibles dans l’expression implémentant la fonction.
-* **** et **maxArgs** indique le nombre de paramètres (minimum et maximum) pour un paramètre. Par exemple, pour une fonction avec 2 paramètres, minArgs et maxArgs seront 2 et 2. Pour 3 paramètres, plus 1 facultatif, ils seront respectivement 3 et 4.
+* **&#x200B;**&#x200B;est le type de retour de la fonction et est une valeur standard (long, string, byte, datetime...). S’il est omis, le serveur détermine le meilleur type parmi les types disponibles dans l’expression implémentant la fonction.
+* **&#x200B;**&#x200B;et **maxArgs** indique le nombre de paramètres (minimum et maximum) pour un paramètre. Par exemple, pour une fonction avec 2 paramètres, minArgs et maxArgs seront 2 et 2. Pour 3 paramètres, plus 1 facultatif, ils seront respectivement 3 et 4.
 * Enfin, l&#39;élément **providerPart** fournit l&#39;implémentation de la fonction.
 
    * L’attribut **provider** est obligatoire ; il spécifie les systèmes de base de données pour lesquels l’implémentation est fournie. Comme illustré dans l’exemple, lorsque les syntaxes d’expression ou les fonctions sous-jacentes diffèrent, d’autres implémentations peuvent être fournies en fonction de la base de données.
-   * L’attribut **** contient l’implémentation de la fonction. Remarque : cette implémentation doit être une expression, en langage de base de données (et non un bloc de code). En fonction des bases de données, les expressions peuvent être des sous-requêtes (« (sélectionner une colonne dans la table où...) ») renvoie une seule valeur. C&#39;est le cas, par exemple, dans Oracle (la requête doit être écrite entre parenthèses).
+   * L’attribut **&#x200B;**&#x200B;contient l’implémentation de la fonction. Remarque : cette implémentation doit être une expression, en langage de base de données (et non un bloc de code). En fonction des bases de données, les expressions peuvent être des sous-requêtes (« (sélectionner une colonne dans la table où...) ») renvoie une seule valeur. C&#39;est le cas, par exemple, dans Oracle (la requête doit être écrite entre parenthèses).
 
   >[!NOTE]
   >

@@ -9,10 +9,16 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4582b524-2b6d-484c-bace-29d2e69f60e9
 TQID: https://experienceleague.adobe.com/NkKTg-a9jjxPxMawe-IUgd9V99qaoxUwWaM3-h4aUf0
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9id: afa4204e-6d08-4e29-bc35-26aafb656d48
-subfeature_v2: id: f529d0bd-1401-4c88-9833-43228cc1d40fid: e739ee2b-6228-412e-878f-45de0791417d
-topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+subfeature_v2:
+  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+  - id: e739ee2b-6228-412e-878f-45de0791417d
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 1118

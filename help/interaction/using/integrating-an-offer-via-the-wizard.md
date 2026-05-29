@@ -8,9 +8,13 @@ content-type: reference
 topic-tags: delivering-an-offer
 exl-id: 64aea8b9-7f06-4db0-a3e6-6a0e17c3ddcb
 TQID: https://experienceleague.adobe.com/-Q0o3Wq57hsb8ApehXe-CD2MbzkIftqPq21DWKDuauE
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt

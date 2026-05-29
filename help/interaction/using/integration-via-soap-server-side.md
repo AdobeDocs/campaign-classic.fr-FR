@@ -8,8 +8,10 @@ content-type: reference
 topic-tags: unitary-interactions
 exl-id: 3eaef689-44fa-41b3-ade8-9fe447e165ec
 TQID: https://experienceleague.adobe.com/-f0NEfvLKh0PfgkB-c4SiPUyQrGuKx55yXOBfmYMmHs
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt

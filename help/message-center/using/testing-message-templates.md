@@ -8,8 +8,10 @@ content-type: reference
 topic-tags: message-templates
 exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
 TQID: https://experienceleague.adobe.com/jcmXX4aMPaTBatt4m3s-IAaAeoXnjmPaEE4oqIDoIOI
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
@@ -107,7 +109,7 @@ Vous pouvez tester la diffusion du message en envoyant un BAT vers une adresse d
 
 L’envoi d’un BAT engage le même processus que pour une diffusion standard. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=fr){target="_blank"}. Toutefois, avec les messages transactionnels, vous devez effectuer au préalable les opérations suivantes :
 
-* Création d&#39;une ou plusieurs [adresses de contrôle](#managing-seed-addresses-in-transactional-messages)[ avec des données de de personnalisation](#personalization-data).
+* Création d&#39;une ou plusieurs [adresses de contrôle](#managing-seed-addresses-in-transactional-messages) [&#x200B; avec des données de de personnalisation](#personalization-data).
 * [Création du contenu du message](../../message-center/using/creating-the-message-template.md#creating-message-content).
 
 Pour effectuer l&#39;envoi :

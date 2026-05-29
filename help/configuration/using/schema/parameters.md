@@ -5,7 +5,8 @@ description: élément parameters
 feature: Schema Extension
 exl-id: 54538c3e-3232-4bf7-a09c-dacf0f072be5
 TQID: https://experienceleague.adobe.com/tZyI-rIbEifWdgcO80ni6lSHinH0IEeM8UrHFAUpnFs
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232

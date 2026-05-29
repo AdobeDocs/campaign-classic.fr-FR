@@ -5,10 +5,20 @@ feature: Technote, Privacy, Privacy Tools
 description: Découvrez comment vos campagnes peuvent être affectées par la fonction de protection de la confidentialité dans Mail d’Apple.
 exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
 TQID: https://experienceleague.adobe.com/i3aMiL43o3Sj7aR1u2KJmlMVe3UiS6j-tLc5augCryk
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2:
+  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 2083

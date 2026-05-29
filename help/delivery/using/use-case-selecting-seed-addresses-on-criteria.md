@@ -6,10 +6,17 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Seed Address
 exl-id: 091648b8-bf2d-4595-8be3-287f1ac48edd
 TQID: https://experienceleague.adobe.com/vVOd7BFN-EgiwiYk-ssMDkkmcUnRyI62tpMk2R-FVAQ
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: b631758a-142d-425f-b9aa-f756d85cb979id: c858a28b-ea19-49b0-8d48-828717fad89c
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-subfeature_v2: id: e95a583b-fcfa-4524-8666-46a29c828119id: e739ee2b-6228-412e-878f-45de0791417d
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+  - id: c858a28b-ea19-49b0-8d48-828717fad89c
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2:
+  - id: e95a583b-fcfa-4524-8666-46a29c828119
+  - id: e739ee2b-6228-412e-878f-45de0791417d
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 935

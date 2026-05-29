@@ -9,7 +9,8 @@ content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: a7cf59cc-9260-4109-af4c-b2e2a9c999da
 TQID: https://experienceleague.adobe.com/vECxz7-bt6DMteRM-N4BtD6Uo5qonHrkgQQeEOkTSt0
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
