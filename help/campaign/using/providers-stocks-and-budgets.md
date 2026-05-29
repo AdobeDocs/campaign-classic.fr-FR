@@ -7,17 +7,12 @@ feature: Budget Management, Campaigns
 hide: true
 exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
 TQID: https://experienceleague.adobe.com/0yoC9sZaXdvq9iEqK6NLnXBSS-B7aB9RisW5l8uJqtI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: afa4204e-6d08-4e29-bc35-26aafb656d48
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: id: f863efa9-030c-4466-a2b8-a52aea6b722c
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 2017
 ht-degree: 67%
@@ -91,7 +86,7 @@ Pour créer un modèle de prestation et définir son contenu, les étapes sont l
 
      >[!NOTE]
      >
-     >Les lignes de stock sont définies dans le nœud **[!UICONTROL Gestion des stocks]**.\
+     >Les lignes de stock sont définies dans le noeud **[!UICONTROL Gestion des stocks]**.\
      >Voir à ce sujet la section [Gestion des stocks et des commandes](#stock-and-order-management).
 
 1. Vous pouvez présélectionner une valeur pour ce poste de coût. Elle sera proposée par défaut dans les postes de coût des prestataires (au lieu d&#39;une valeur vide). Pour ce faire, sélectionnez l’option dans la colonne **[!UICONTROL Sélectionné]** pour le type de poste concerné :

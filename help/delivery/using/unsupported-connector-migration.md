@@ -5,9 +5,10 @@ description: Migration du connecteur SMS non pris en charge vers le connecteur S
 feature: SMS, Upgrade
 exl-id: 60acf80c-8506-410b-ab2c-4f67a5677b43
 TQID: https://experienceleague.adobe.com/D8kf1pCamwi5BLeP4-7dirW0831g5q0LOVeZuNMBi2o
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979id: c858a28b-ea19-49b0-8d48-828717fad89c
+subfeature_v2: id: e95a583b-fcfa-4524-8666-46a29c828119id: c8da4fdd-eb94-4751-a43c-f82733fb2d6eid: d5bbe3da-ba85-4242-817e-54f7c4b943e0id: f4da0e76-df77-451e-ad61-21afb7bd8810
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 640
 ht-degree: 100%

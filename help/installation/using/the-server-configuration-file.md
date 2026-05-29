@@ -8,17 +8,13 @@ content-type: reference
 topic-tags: appendices
 exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
 TQID: https://experienceleague.adobe.com/BZ4rjzbXYikNoGAVHq4Gy7tY8OugKDgsmVLkKuIB9tw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080b
+subfeature_v2: []
+source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 8103
+source-wordcount: 8061
 ht-degree: 79%
 
 ---
@@ -549,7 +545,7 @@ Pour plus d’informations, consultez cette [section](../../installation/using/c
 
 >[!NOTE]
 >
->Remarque sur **nameSevers** : par défaut, utilise le réseau>paramètres de la première interface réseau déclarée dans Windows>non définie dans UNIX. Définit les serveurs de noms de domaine (DNS)>utilisé par le MTA pour obtenir le Mail Exchanger déclaré pour>un domaine.
+>Remarque sur **nameSevers** : utilise par défaut les paramètres network>parameters de la première interface réseau déclarée sous Windows>non définie sous UNIX. Définit les serveurs de noms de domaine (DNS)>utilisés par le MTA pour obtenir la messagerie déclarée pour > domaine.
 >
 >Si cette valeur n&#39;est pas définie, le MTA recherche ces informations dans la configuration du réseau hôte. Si plusieurs DNS sont possibles, les différentes adresses DNS doivent être séparées par une virgule (exemple : 212.155.207.1,212.155.207.2). Si votre serveur de diffusion comporte plusieurs interfaces réseau, la liste DNS utilisée par le MTA est la première. Dans ce cas, nous vous recommandons de spécifier le paramètre **nameServer** pour éviter toute ambiguïté.
 
@@ -1630,9 +1626,9 @@ Voici les différents paramètres du nœud **mta**. Il s’agit de la configurat
    <td> statServerAddress<br /> </td> 
    <td> Adresse du serveur des statistiques d’envois, au format : 
     &lt;dns ou ip&gt; 
-      <code>&lbrack;</code>: 
+      <code>[</code> : 
      &lt;port&gt; 
-       <code>&rbrack;</code>. Voir 
+       <code>]</code>. Voir 
       <a href="../../installation/using/email-deliverability.md#coordinates-of-the-statistics-server" target="_blank">Coordonnées du serveur de statistiques</a>. 
       <br /> 
      </td> 

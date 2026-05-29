@@ -8,23 +8,13 @@ level: Beginner
 hide: true
 exl-id: 9e3a11b1-3070-4d90-91d5-7c559bdd500e
 TQID: https://experienceleague.adobe.com/AItPQMVIh2I-clE0UymqzG13gYHFKd0z2LW-gk9rJik
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-  - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
-subfeature_v2:
-  - id: ac9c0a9c-8a76-4419-bd64-9c34c5782666
-  - id: fb2a841f-c522-491f-9901-a1b939d252df
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+subfeature_v2: id: ac9c0a9c-8a76-4419-bd64-9c34c5782666id: fb2a841f-c522-491f-9901-a1b939d252dfid: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 2018
 ht-degree: 100%
@@ -550,7 +540,7 @@ Les navigateurs ci-après sont compatibles avec Campaign pour un accès à inter
 <tbody>
 <tr>
 <td>
-<p>Microsoft Edge</p>
+<p>Microsoft Edge</p>
 </td>
 <td>
 <p>Dernière version</p>
@@ -558,7 +548,7 @@ Les navigateurs ci-après sont compatibles avec Campaign pour un accès à inter
 </tr>
 <tr>
 <td>
-<p>Mozilla Firefox</p>
+<p>Mozilla Firefox</p>
 </td>
 <td>
 <p>Dernière version</p>
@@ -566,7 +556,7 @@ Les navigateurs ci-après sont compatibles avec Campaign pour un accès à inter
 </tr>
 <tr>
 <td>
-<p>Google Chrome</p>
+<p>Google Chrome</p>
 </td>
 <td>
 <p>Dernière version</p>

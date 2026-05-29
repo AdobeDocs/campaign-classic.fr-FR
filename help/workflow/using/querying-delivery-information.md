@@ -6,9 +6,10 @@ feature: Query Editor, Workflows
 hide: true
 exl-id: b699b064-1287-41c9-8d94-1c1aa2c145ab
 TQID: https://experienceleague.adobe.com/pjhzFzxC5EBT4NgQtqKY0bMKAHUEJxS3b-80OX1FjKA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: []
+subfeature_v2: id: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845ee
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 1559
 ht-degree: 77%
@@ -73,7 +74,7 @@ Pour réaliser cet exemple, les étapes sont les suivantes :
 
    Pour cela :
 
-   * Paramétrez le filtrage des données. Cliquez sur **[!UICONTROL Suivant]**.**&#x200B;**
+   * Paramétrez le filtrage des données. Cliquez sur **[!UICONTROL Suivant]**.****
 
      ![](assets/query_editor_nveau_22.png)
 

@@ -7,18 +7,12 @@ role: User
 hide: true
 exl-id: c2f4d8d0-f0fe-4d1a-92fd-91edaf9729f3
 TQID: https://experienceleague.adobe.com/iDnlEneRDEJBrD8g9ioJGvKArm7x6qKzNpILDvQC5u8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: b631758a-142d-425f-b9aa-f756d85cb979id: c858a28b-ea19-49b0-8d48-828717fad89c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: id: e95a583b-fcfa-4524-8666-46a29c828119id: c8da4fdd-eb94-4751-a43c-f82733fb2d6eid: d5bbe3da-ba85-4242-817e-54f7c4b943e0id: f4da0e76-df77-451e-ad61-21afb7bd8810
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 1800
 ht-degree: 83%
@@ -157,7 +151,7 @@ Pour envoyer un BAT, procédez comme suit :
 1. Lancez l’analyse des messages. Pour plus d&#39;informations, consultez la section [Analyser la diffusion](steps-validating-the-delivery.md#analyzing-the-delivery).
 1. Vous pouvez maintenant envoyer la diffusion (voir la section [Envoyer la diffusion](steps-sending-the-delivery.md)).
 
-   Une fois la diffusion envoyée, le BAT apparaît dans la liste de diffusion et est automatiquement créé et numéroté. Il peut être modifié si vous souhaitez accéder à son contenu et à ses propriétés. Pour plus d’informations à ce sujet, consultez cette [page](about-delivery-monitoring.md).
+   Une fois la diffusion envoyée, le BAT apparaît dans la liste de diffusion et est automatiquement créé et numéroté. Il peut être modifié si vous souhaitez accéder à son contenu et à ses propriétés. Voir à ce propos [cette page](about-delivery-monitoring.md).
 
    ![](assets/s_ncs_user_delivery_validation_cycle_03a.png)
 
@@ -204,7 +198,7 @@ Vous pouvez visualiser et éditer les règles de validation, leur contenu, leur 
 
 Vous pouvez créer des règles et définir de nouvelles typologies à partir de ce nœud. Ces tâches sont toutefois réservées aux utilisateurs experts qui connaissent JavaScript.
 
-Pour plus d’informations sur les règles de typologie, consultez [cette page &#x200B;](../../campaign-opt/using/about-campaign-typologies.md).
+Pour plus d’informations sur les règles de typologie, consultez [cette page ](../../campaign-opt/using/about-campaign-typologies.md).
 
 Vous pouvez également éditer la typologie courante en cliquant sur l’icône **[!UICONTROL Editer le lien]** situé à droite du champ **[!UICONTROL Typologie]**.
 

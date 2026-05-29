@@ -5,9 +5,10 @@ description: Découvrez comment accéder aux données et les traiter dans une ba
 feature: Installation, Federated Data Access
 exl-id: 9d8d1e9c-63e4-40c4-8338-b921d08ea405
 TQID: https://experienceleague.adobe.com/X-VyiKlGatskoXtPoLYhb8HrAgCRLLHxTbwXDFmg8jI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: []
+subfeature_v2: []
+source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
 source-wordcount: 164
 ht-degree: 100%

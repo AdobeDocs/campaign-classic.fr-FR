@@ -9,11 +9,11 @@ feature: Workflows, Data Management
 hide: true
 exl-id: 3f606d3a-0af5-4315-bb08-1b21a71f1721
 TQID: https://experienceleague.adobe.com/5bTNT0ISIGOSlFtkHAQ7RsAeNleZhUZUtZ34Cgood0Q
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+feature_v2: []
+subfeature_v2: id: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845ee
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 519
 ht-degree: 63%
@@ -61,7 +61,7 @@ Les étapes sont les suivantes :
 
    ![](assets/query_editor_nveau_76.png)
 
-   Définissez les valeurs **&#x200B;**&#x200B;et **Destination** : la valeur de destination facilite la lecture du résultat de la requête. Cette requête doit renvoyer le genre du destinataire et le résultat sera 0, 1 ou 2.
+   Définissez les valeurs **** et **Destination** : la valeur de destination facilite la lecture du résultat de la requête. Cette requête doit renvoyer le genre du destinataire et le résultat sera 0, 1 ou 2.
 
    Pour chaque équivalence &quot;source-destination&quot; à renseigner, cliquez sur **[!UICONTROL Ajouter]** dans le champ **[!UICONTROL Liste des valeurs d&#39;énumérations]** :
 

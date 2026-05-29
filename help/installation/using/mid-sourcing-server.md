@@ -8,9 +8,11 @@ audience: installation
 content-type: reference
 topic-tags: additional-configurations
 exl-id: 3e55d7f5-2858-4390-bba9-8fb5be0c3d98
-source-git-commit: ad6f3f2cf242d28de9e6da5cec100e096c5cbec2
+feature_v2: []
+subfeature_v2: []
+source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: 1149
 ht-degree: 76%
 
 ---
@@ -125,7 +127,7 @@ Il est possible qu’une instance de mid-sourcing soit partagée par plusieurs i
 
    ![](assets/mid_recette_user_restrictions.png)
 
-1. Redémarrez le module web à l’aide de la commande suivante : **&#x200B; web**.
+1. Redémarrez le module web à l’aide de la commande suivante : ** web**.
 
 Vous devez modifier le paramètre du serveur de mid-sourcing dans le fichier serverConf.xml . La ligne suivante doit être ajoutée à la section « Gestion des affinités avec les adresses IP », sous la ligne existante :
 
@@ -139,9 +141,9 @@ L&#39;attribut &#39;@name&#39; doit respecter les règles suivantes :
 
 &#39;nom_du_compte_de_l&#39;opérateur_marketing&#39; correspond au nom interne du compte de l&#39;opérateur mid-sourcing déclaré dans l&#39;instance mid-sourcing.
 
-&#39;affinity_name&#39; correspond au nom arbitraire donné à l&#39;affinité. Ce nom doit être unique. Les caractères autorisés sont `[a-z]` `[A-Z]` `[0-9]`. Le but est de déclarer un groupe d&#39;adresses IP publiques.
+&#39;affinity_name&#39; correspond au nom arbitraire donné à l&#39;affinité. Ce nom doit être unique. Les caractères autorisés sont `[a-z]``[A-Z]``[0-9]`. Le but est de déclarer un groupe d&#39;adresses IP publiques.
 
-&#39;affinity_group&#39; met en relation la Sous-affinité déclarée dans le mapping de ciblage utilisé dans chacune des diffusions. La dernière partie incluant le caractère &#39;.&#39; est ignorée en l&#39;absence de Sous-affinité. Les caractères autorisés sont `[a-z]` `[A-Z]` `[0-9]`.
+&#39;affinity_group&#39; met en relation la Sous-affinité déclarée dans le mapping de ciblage utilisé dans chacune des diffusions. La dernière partie incluant le caractère &#39;.&#39; est ignorée en l&#39;absence de Sous-affinité. Les caractères autorisés sont `[a-z]``[A-Z]``[0-9]`.
 
 Vous devez arrêter et redémarrer le serveur pour que cette modification soit prise en compte.
 

@@ -7,21 +7,15 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
 TQID: https://experienceleague.adobe.com/quIMssNONhvwEBVIEic9Dhe2x4-E0H5U8nIEruSUhtg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979id: c858a28b-ea19-49b0-8d48-828717fad89c
+subfeature_v2: id: e95a583b-fcfa-4524-8666-46a29c828119id: c8da4fdd-eb94-4751-a43c-f82733fb2d6eid: d5bbe3da-ba85-4242-817e-54f7c4b943e0id: f4da0e76-df77-451e-ad61-21afb7bd8810
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1842
-ht-degree: 89%
+source-wordcount: 1801
+ht-degree: 86%
 
 ---
 
@@ -46,7 +40,7 @@ Pour diffuser vers un téléphone mobile, vous devez avoir :
 >L’utilisation du même compte et du même mot de passe pour plusieurs comptes SMS externes peut entraîner des conflits et des chevauchements entre les comptes. Reportez-vous à la [page de résolution des problèmes de SMS](troubleshooting-sms.md#external-account-conflict).
 
 Pour envoyer un SMS à un téléphone mobile, vous devez d’abord créer votre compte externe SMPP.
-Pour plus d’informations sur les paramètres et le protocole SMS, reportez-vous à cette [page](sms-protocol.md).
+Pour plus d’informations sur le protocole et les paramètres SMS, consultez cette [page](sms-protocol.md).
 
 Pour ce faire, procédez comme suit :
 
@@ -353,8 +347,8 @@ Les destinataires sont répertoriés dans la table **[!UICONTROL NP@I et Adresse
 * Pour envoyer la même réponse quel que soit le mot-clé, laissez la colonne &quot;**[!UICONTROL Mot-clé]**&quot; vide.
 * Pour exécuter une action sans envoyer de réponse, laissez la colonne **[!UICONTROL Réponse]** vide. Vous pouvez, par exemple, supprimer de la quarantaine un utilisateur qui répond avec un message autre que « STOP ».
 
-Si vous disposez de plusieurs comptes externes utilisant le connecteur SMPP générique étendu avec le même compte fournisseur, le problème suivant peut se produire : lors de l&#39;envoi d&#39;une réponse à un code court, il peut être reçu sur n&#39;importe quelle connexion de votre compte externe. La réponse automatique envoyée pourrait donc ne pas être le message attendu.
-Pour éviter cela, appliquez l&#39;une des solutions suivantes, selon le fournisseur utilisé :
+Si vous disposez de plusieurs comptes externes utilisant le connecteur SMPP générique étendu avec le même compte de fournisseur, le problème suivant peut se produire : lors de l&#39;envoi d&#39;une réponse à un numéro court, il peut être reçu sur n&#39;importe laquelle de vos connexions de compte externe. Par conséquent, la réponse automatique envoyée ne pouvait pas être le message attendu.
+Pour éviter cela, appliquez l’une des solutions suivantes, selon le fournisseur que vous utilisez :
 
 * Créez un compte fournisseur pour chaque compte externe.
 * Utilisez le champ **[!UICONTROL Type de système]** dans l&#39;onglet **[!UICONTROL Mobile]** > **[!UICONTROL Paramètres de connexion]** pour distinguer chaque code court. Demandez à votre fournisseur une valeur différente pour chaque compte.

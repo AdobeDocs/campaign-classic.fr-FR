@@ -8,10 +8,12 @@ audience: integrations
 content-type: reference
 topic-tags: connecting-via-an-adobe-id
 exl-id: b70ca220-1c81-4b23-b07a-a2cd694877fe
-source-git-commit: 14ba450ebff9bba6a36c0df07d715b7279604222
+feature_v2: []
+subfeature_v2: id: cbcf4d90-26be-46e2-b16a-aebc529dc41eid: df0d6518-6f49-46e2-b46e-3bcc513f553fid: eb007b6d-6e57-46ab-9485-3f24d6102304id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 75%
+source-wordcount: 361
+ht-degree: 69%
 
 ---
 
@@ -19,13 +21,13 @@ ht-degree: 75%
 
 >[!IMPORTANT]
 >
->En tant qu’utilisateur ou utilisatrice de services hébergés ou gérés par Campaign, votre implémentation d’Adobe IMS appartient à Adobe. Les étapes décrites ci-dessous s’appliquent uniquement aux clientes et clients On-Premise et hybrides.
-> L’implémentation d’Adobe IMS ne doit être effectuée que par des administrateurs et administratrices techniques d’Adobe. Contactez votre représentant ou représentante Adobe pour démarrer le processus d’implémentation.
+>En tant qu&#39;utilisateur de Campaign hébergé ou Managed Services, votre implémentation d&#39;Adobe IMS appartient à Adobe. Les étapes décrites ci-dessous s’appliquent uniquement aux clients On-Premise et hybrides.
+> L’implémentation d’Adobe IMS ne doit être effectuée que par les administrateurs techniques d’Adobe. Contactez votre représentant Adobe pour démarrer le processus de mise en œuvre.
 
 ## Conditions préalables {#prerequisites}
 
 * Vous devez disposer d’un nom et d’un identifiant de l’organisation Adobe Experience Cloud. Pour trouver votre identifiant d’organisation, reportez-vous à [cette page](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr){_blank}.
-* Vous devez ajouter des utilisateurs dans Experience Cloud. Pour plus d’informations, consultez [cette page](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=fr){_blank}.
+* Vous devez ajouter des utilisateurs dans Experience Cloud. Voir à ce propos [cette page](https://experienceleague.adobe.com/docs/core-services/interface/administration/admin-getting-started.html?lang=fr){_blank}.
 
 >[!NOTE]
 >

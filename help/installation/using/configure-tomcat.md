@@ -9,12 +9,11 @@ content-type: reference
 topic-tags: initial-configuration
 exl-id: a2126458-2ae5-47c6-ad13-925f0e067ecf
 TQID: https://experienceleague.adobe.com/LaGsFkomGXlahM-Do7Vwfc4OMH0UAXRiiSRq5Q-9Wto
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+feature_v2: []
+subfeature_v2: []
+source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
 source-wordcount: 352
 ht-degree: 100%
@@ -42,7 +41,7 @@ Pour en savoir plus sur Tomcat dans Campaign et comment localiser votre version 
 
 >[!NOTE]
 >
->Cette procédure est limitée aux déploiements **On-Premise**.
+>Cette procédure est limitée aux déploiements **On-premise**.
 >
 
 Lorsque le port d’écoute 8080 du serveur Tomcat est déjà occupé par une autre application requise pour votre configuration, vous devez remplacer le port 8080 par un port disponible (8090 par exemple). Pour changer cela, modifiez le fichier **server.xml** enregistré dans le répertoire **/tomcat-X/conf** du dossier d’installation d’Adobe Campaign.
@@ -61,7 +60,7 @@ Modifiez ensuite le port des pages de relais JSP. Pour ce faire, modifiez le fic
 
 >[!NOTE]
 >
->Cette procédure est limitée aux déploiements **On-Premise**.
+>Cette procédure est limitée aux déploiements **On-premise**.
 >
 
 Afin de définir des paramètres spécifiques aux clientes et aux clients, vous pouvez créer un fichier **user_contexts.xml** dans le dossier **/tomcat-X/conf**, qui contient également le fichier **contexts.xml**.
@@ -79,7 +78,7 @@ Au besoin, cette opération doit être reproduite côté serveur.
 
 >[!NOTE]
 >
->Cette procédure est limitée aux déploiements **On-Premise**.
+>Cette procédure est limitée aux déploiements **On-premise**.
 >
 >Cette modification n’est plus nécessaire à partir de Campaign v7.4.1.
 >

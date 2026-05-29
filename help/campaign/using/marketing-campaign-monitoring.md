@@ -7,13 +7,11 @@ feature: Campaigns, Monitoring
 hide: true
 exl-id: c2b523ac-e900-4db8-85b0-dafc6ddb3eca
 TQID: https://experienceleague.adobe.com/pWtvLbBTzAs8yhya3hnXaW8o-bpMebF24L5tRL4iMD0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: afa4204e-6d08-4e29-bc35-26aafb656d48
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+subfeature_v2: id: f863efa9-030c-4466-a2b8-a52aea6b722c
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 262
 ht-degree: 78%

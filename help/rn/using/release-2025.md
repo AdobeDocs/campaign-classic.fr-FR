@@ -6,9 +6,11 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 8fd7a66b-cdff-427d-b78f-4becaba51129
-source-git-commit: b757b7ebc297acd10b4c57ab03862a039ae930cb
-workflow-type: ht
-source-wordcount: '899'
+feature_v2: []
+subfeature_v2: id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+workflow-type: tm+mt
+source-wordcount: 899
 ht-degree: 100%
 
 ---

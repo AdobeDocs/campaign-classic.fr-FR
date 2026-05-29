@@ -7,11 +7,11 @@ feature: Web Apps
 level: Intermediate, Experienced
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
 TQID: https://experienceleague.adobe.com/Awmu1sag3l7qN8ocg-uzbfSooV-8Cyhtxya4zVlo8EY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5
+subfeature_v2: id: f391046b-0cf3-4e76-bd3b-97fe06654506id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281id: d7be2b01-dc9c-40f7-aace-a151707504edid: e739ee2b-6228-412e-878f-45de0791417d
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 1046
 ht-degree: 82%
@@ -109,7 +109,7 @@ Dans une vue d’ensemble, vous pouvez choisir d’accéder aux données en fonc
 
 1. Entrez **button** dans le champ **[!UICONTROL Style]**.
 
-   Ce style est référencé dans le modèle **[!UICONTROL Application web mono-page]** sélectionné précédemment.
+   Ce style est référencé dans le modèle **[!UICONTROL Application Web Mono-page]** sélectionné précédemment.
 
    ![](assets/s_ncs_configuration_webapp_link.png)
 

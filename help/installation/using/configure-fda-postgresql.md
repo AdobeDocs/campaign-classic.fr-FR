@@ -5,11 +5,11 @@ description: Découvrez comment configurer l’accès à PostgreSQL
 feature: Installation, Instance Settings
 exl-id: 2c678f45-2555-4647-9885-bd002db7df37
 TQID: https://experienceleague.adobe.com/LtYc7Rs7gJon-uE44-UlW0egGg8wdkmDaTY-XWurxUg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+feature_v2: []
+subfeature_v2: []
+source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
 source-wordcount: 402
 ht-degree: 100%
