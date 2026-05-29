@@ -8,9 +8,12 @@ exl-id: fcc51131-15d0-4d39-95cb-371d7044373b
 TQID: https://experienceleague.adobe.com/JvMYAW0wwlFrAa8QIVcVdF7EYivhr2otLlVrIi0Axj4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+feature_v2: []
+subfeature_v2:
+  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+  - id: d1110311-2ca4-442b-be37-088a6db845ee
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 547
 ht-degree: 60%
@@ -79,4 +82,4 @@ Cette vidéo montre comment créer une liste de destinataires à partir de l’E
 
 >[!VIDEO](https://video.tv.adobe.com/v/30599?captions=fre_fr)
 
-D&#39;autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

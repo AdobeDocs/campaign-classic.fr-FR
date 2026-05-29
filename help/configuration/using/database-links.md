@@ -10,10 +10,12 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+feature_v2: []
+subfeature_v2: []
+source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 935
-ht-degree: 97%
+source-wordcount: 932
+ht-degree: 95%
 
 ---
 
@@ -60,8 +62,8 @@ Les liens suivent les règles suivantes :
    * **target** : nom du schéma cible
    * **label** : libellé du lien
    * **revLink** (optionnel) : nom du lien inverse à partir du schéma cible (déduit automatiquement par défaut)
-   * **integrity** (optionnel) : intégrité référentielle de l’occurrence de la table source par rapport à l’occurrence de la table cible.
-Les valeurs possibles sont les suivantes :
+   * **integrity** (optionnel) : intégrité référentielle de l&#39;occurrence de la table source envers l&#39;occurrence de la table cible.
+Les valeurs possibles sont :
 
       * **define** : la suppression de l’occurrence source est possible si elle n’est plus référencée par une occurrence cible
       * **normal** : la suppression de l’occurrence source initialise les clés du lien sur l’occurrence cible (mode par défaut), ce type d’intégrité initialise toutes les clés étrangères

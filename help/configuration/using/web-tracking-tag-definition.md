@@ -10,10 +10,12 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+feature_v2: []
+subfeature_v2: []
+source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 362
-ht-degree: 66%
+source-wordcount: 324
+ht-degree: 79%
 
 ---
 
@@ -83,8 +85,7 @@ Le tableau ci-dessous donne la liste des paramètres spéciaux supportés par le
                               <p>paramètre d'URL</p> 
                            </td>
                            <td>
-                              <p>Identifiant de la diffusion à utiliser en l'absence de cookie de session. Cette valeur doit être
-                                 exprimé en hexadécimal.
+                              <p>Identifiant de diffusion à utiliser s'il n'y a pas de cookie de session. Cette valeur est à exprimer en base 16.
                               </p> 
                            </td> 
                         </tr>
@@ -96,9 +97,7 @@ Le tableau ci-dessous donne la liste des paramètres spéciaux supportés par le
                               <p>paramètre d'URL</p> 
                            </td>
                            <td>
-                              <p>Paramètre utilisé pour identifier l'internaute. Le format de ce paramètre est « name=value »,
-                                 où le nom est un champ du schéma des destinataires. Ce paramètre a la priorité sur
-                                 identifiant contenu dans le cookie de session.
+                              <p>Paramètre permettant d'identifier l'internaute. Le format de ce paramètre est "nom=valeur", nom étant un champ du schéma des destinataires. Ce paramètre est prioritaire sur l'identifiant contenu dans le cookie de session.
                               </p> 
                            </td> 
                         </tr> 

@@ -16,7 +16,11 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+feature_v2: []
+subfeature_v2:
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 922
 ht-degree: 99%
@@ -145,8 +149,8 @@ Une équipe constituée de représentants et représentantes de l’assistance c
 <td>
       <img alt="Mise à niveau de build" src="assets/do-not-localize/upgrades.png" />
     <div>
-    <strong>Mises à niveau simplifiées</strong>
-    </a>
+    <strong>Mises à niveau plus faciles</strong>
+    </a>
     </div>
     <ul>
     <li>Les efforts que demande une mise à niveau de votre instance Campaign Classic et la complexité de celle-ci augmentent avec l’écart entre deux versions.</li>

@@ -16,7 +16,11 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+feature_v2: []
+subfeature_v2:
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 912
 ht-degree: 100%
@@ -267,7 +271,7 @@ Les systèmes de gestion de la relation client (CRM) compatibles avec Adobe Cam
 </tr>
 <tr>
 <td>
-<p>Connecteur Microsoft Dynamics</p>
+<p>Connecteur Microsoft Dynamics</p>
 </td>
 <td>
 <p>API web</p>

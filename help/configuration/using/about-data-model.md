@@ -9,7 +9,6 @@ TQID: https://experienceleague.adobe.com/jyvz5WCdNhYtusE-HwPRwXNlr9Wh0swcQoOT05l
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
 subfeature_v2:
@@ -18,10 +17,10 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 1002
-ht-degree: 100%
+source-wordcount: 921
+ht-degree: 98%
 
 ---
 
@@ -47,9 +46,9 @@ Le modèle de données comprend également une partie dédiée au stockage de to
 
 Une autre partie du modèle de données permet de stocker temporairement tous les logs associés à l’exécution des campagnes.
 
-Les logs de diffusion sont tous des messages envoyés aux destinataires ou aux appareils sur tous les canaux. Le tableau des logs de diffusion principale (**NmsBroadLog**) contient les logs de diffusion pour tous les destinataires.
-La table principale des logs de tracking (**NmsTrackingLog**) stocke les logs de tracking pour tous les destinataires. Les logs de tracking se rapportent aux réactions des destinataires, telles que les ouvertures d’email et les clics. Chaque réaction correspond à un log de tracking.
-Les mpgs de diffusion et de tracking sont supprimés après une certaine période, spécifiée dans Adobe Campaign et modifiable. Il est donc vivement recommandé d&#39;exporter les logs de façon régulière.
+Les logs de diffusion sont tous les messages envoyés aux destinataires ou aux appareils sur tous les canaux. Le tableau principal des logs de diffusion (**NmsBroadLog**) contient les logs de diffusion pour tous les destinataires.
+Le tableau principal des logs de tracking (**NmsTrackingLog**) stocke les logs de tracking pour tous les destinataires. Les logs de tracking se rapportent aux réactions des destinataires, telles que les ouvertures d&#39;e-mail et les clics. Chaque réaction correspond à un log de tracking.
+Les logs de diffusion et de tracking sont supprimés après une certaine période, spécifiée dans Adobe Campaign et modifiable. Par conséquent, il est vivement recommandé d’exporter régulièrement les journaux.
 
 ### Tables techniques {#technical-tables}
 

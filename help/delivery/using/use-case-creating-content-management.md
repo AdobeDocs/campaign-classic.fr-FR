@@ -11,12 +11,15 @@ product_v2:
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+  - id: c858a28b-ea19-49b0-8d48-828717fad89c
 subfeature_v2:
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+  - id: e739ee2b-6228-412e-878f-45de0791417d
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 1235
 ht-degree: 84%

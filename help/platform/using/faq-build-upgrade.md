@@ -12,15 +12,21 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+subfeature_v2:
+  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+  - id: f5293531-9312-4099-bfa3-9e67df6a8750
+  - id: efa38731-2723-4334-8d8b-a778af834835
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 2108
+source-wordcount: 2096
 ht-degree: 97%
 
 ---
@@ -215,8 +221,8 @@ vérifier qu’ils peuvent insérer de nouveaux enregistrements via l’API.
 un destinataire de test, vérifier la personnalisation, annuler le lien, page miroir fonctionnent tous.
 * Tous vos workflows de chemin critique sont-ils exécutés ? Vérification des workflows, ouverture du journal des workflows, vérification
 qu’il n’y a aucune erreur.
-* Tous vos dossiers sont-ils présents, visibles et accessibles ? Accéder aux différents dossiers et vérifier que l&#39;ensemble
-du contenu est présent et s&#39;affiche.
+* Tous vos dossiers sont-ils présents, visibles et accessibles ? Parcourez les différents dossiers et vérifiez.
+tout le contenu est affiché et présent.
 * Toutes vos diffusions sont-elles effectuées dans le fuseau horaire approprié ?
 
    * Vérifier la date de création et de modification avec la date, l&#39;heure et le fuseau horaire.

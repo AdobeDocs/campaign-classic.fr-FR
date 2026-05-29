@@ -16,12 +16,13 @@ subfeature_v2:
   - id: ac9c0a9c-8a76-4419-bd64-9c34c5782666
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
   - id: fb2a841f-c522-491f-9901-a1b939d252df
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 2637
 ht-degree: 89%
@@ -32,7 +33,7 @@ ht-degree: 89%
 
 
 
-## Vue d&#39;ensemble
+## Vue d’ensemble
 
 >[!CAUTION]
 >

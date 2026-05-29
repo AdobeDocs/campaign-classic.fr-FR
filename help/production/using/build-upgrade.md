@@ -15,19 +15,16 @@ feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
 subfeature_v2:
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-  - id: e656c701-3899-4db3-989c-de0980ddfffa
-  - id: eff19c99-440a-4318-b319-444edc4d8d8f
+  - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 2422
-ht-degree: 84%
+source-wordcount: 2379
+ht-degree: 83%
 
 ---
 
@@ -53,8 +50,8 @@ Pour les instances hybrides et hébergées, vous devez demander un upgrade de bu
 
 ![](assets/do-not-localize/icon_planification.png)
 
-Avant de commencer la mise à niveau de build, vous devez effectuer une préparation complète, comme décrit ci-après.
-Une fois que le système prêt, une mise à niveau dure **au moins** 2 heures.
+Avant de commencer la mise à niveau de la build, vous devez effectuer une préparation complète comme décrit ci-dessous.
+Une fois que le système est prêt à être mis à niveau, une mise à niveau de build prend **au moins** 2 heures.
 
 La mise à niveau de build requiert les ressources suivantes :
 
@@ -267,7 +264,7 @@ Si les messages transactionnels (Message Center) sont activés sur votre instanc
 Dans le contexte d’un environnement de mid-sourcing, vous devez effectuer les étapes supplémentaires ci-après dans le cadre de la mise à niveau :
 
 1. Contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) pour coordonner la mise à niveau du serveur de mid-sourcing.
-1. Vérifiez que la version a été mise à jour en exécutant un lien de test, Par exemple :
+1. Vérifiez que la version a été mise à jour en exécutant un lien de test, par exemple :
 
    ```
    http://[InsertServerURL]/r/test
@@ -335,8 +332,8 @@ Pour résoudre un conflit, procédez de la manière suivante :
 
 1. Dans l&#39;explorateur d&#39;Adobe Campaign, accédez à **Administration > Paramétrage > Gestion des packages > Edition des conflits**.
 
-1. Sélectionnez le conflit que vous souhaitez résoudre dans la liste.
-Il existe trois façons de résoudre un conflit : **accepter la nouvelle version**, **conserver la version actuelle**, **fusionner le code (et déclarer le conflit comme résolu)**, **ignorer le conflit (non recommandé)**.
+1. Sélectionnez dans la liste le conflit que vous souhaitez résoudre.
+Il existe trois options pour résoudre les conflits : **Accepter la nouvelle version**, **Conserver la version actuelle**, **Fusionner le code (et déclarer résolu)**, **Ignorer le conflit (non recommandé)**.
 
 **Dans quels cas accepter la nouvelle version ?**
 

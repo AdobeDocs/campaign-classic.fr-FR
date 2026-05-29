@@ -10,10 +10,15 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+feature_v2: []
+subfeature_v2:
+  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+  - id: d1110311-2ca4-442b-be37-088a6db845ee
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1431
-ht-degree: 67%
+source-wordcount: 1383
+ht-degree: 66%
 
 ---
 
@@ -47,8 +52,8 @@ Deux autres solutions sont proposées :
 
   Disponible dans l&#39;onglet **[!UICONTROL Exécution]** des propriétés du workflow, cette option permet de consigner toutes les requêtes SQL générées par l&#39;outil à partir des différentes activités. Il s’agit d’un bon moyen de voir ce qui est réellement exécuté par la plateforme. Toutefois, cette option ne doit être utilisée que temporairement pendant le développement et non activée pendant la production.
 
-Purgez les logs lorsqu’ils ne sont plus nécessaires. L’historique d’un workflow n’est pas purgé automatiquement : tous les messages sont conservés par défaut. Vous pouvez purger l’historique depuis le menu **[!UICONTROL Fichier > Actions]** ou en cliquant sur le bouton Actions situé dans la barre d’outils au-dessus de la liste. Choisissez Purge de l’historique.
-Pour savoir comment purger les logs, consultez cette [documentation](starting-a-workflow.md).
+Vidange les logs lorsqu&#39;ils ne sont plus nécessaires. L’historique d’un workflow n’est pas purgé automatiquement : tous les messages sont conservés par défaut. L&#39;historique peut être purgé à partir du menu **[!UICONTROL Fichier > Actions]** ou en cliquant sur le bouton Actions situé dans la barre d&#39;outils au-dessus de la liste. Sélectionnez Purger l’historique.
+Pour savoir comment purger vos journaux, consultez cette [documentation](starting-a-workflow.md).
 
 ### Planification des workflows {#workflow-planning}
 

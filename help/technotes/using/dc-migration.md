@@ -21,10 +21,12 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+subfeature_v2:
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1557
-ht-degree: 97%
+source-wordcount: 1539
+ht-degree: 96%
 
 ---
 
@@ -143,8 +145,8 @@ Une fois la migration terminée, les adresses IP d’envoi de l’instance Campa
 
 **Adresses IP d’intégration des données**
 
-L’intégration des données côté client peut être affectée par la modification des adresses IP correspondantes. La modification peut concerner les deux directions selon que Campaign fonctionne comme serveur ou client.
-Cas types :
+L’intégration des données côté client peut être affectée par la modification des adresses IP correspondantes. La modification peut concerner les deux directions, selon que Campaign agit comme serveur ou client.
+Cas types :
 
 * SFTP, éventuellement dans les deux directions
 * HTTP, éventuellement dans les deux directions

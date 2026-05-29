@@ -9,7 +9,9 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+feature_v2: []
+subfeature_v2: []
+source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
 source-wordcount: 1226
 ht-degree: 85%
@@ -30,7 +32,7 @@ Les messages transactionnels reposent sur une architecture spécifique, composé
 
 | Instance de pilotage | Instance d&#39;exécution |
 |--- |--- |
-| Les utilisateurs d&#39;Adobe Campaign se connectent à l&#39;instance de pilotage pour : <ul><li>Créer des modèles de messages transactionnels</li><li>Générer l&#39;aperçu du message à l&#39;aide d&#39;une liste d&#39;adresses de contrôle</li><li>Affichage des rapports</li><li>Surveiller les instances d&#39;exécution</li></ul> | Les instances d&#39;exécution sont là pour : <ul><li>Recevoir des événements</li><li>Les lier à des modèles de messages transactionnels</li><li>Envoyer un message personnalisé à chaque destinataire</li></ul> |
+| Les utilisateurs d&#39;Adobe Campaign se connectent à l&#39;instance de pilotage pour : <ul><li>Créer des modèles de messages transactionnels</li><li>Générer l&#39;aperçu du message à l&#39;aide d&#39;une liste d&#39;adresses de contrôle</li><li>Afficher les rapports</li><li>Surveiller les instances d&#39;exécution</li></ul> | Les instances d&#39;exécution sont là pour : <ul><li>Recevoir des événements</li><li>Les lier à des modèles de messages transactionnels</li><li>Envoyer un message personnalisé à chaque destinataire</li></ul> |
 
 ## Installation des instances {#installing-instances}
 

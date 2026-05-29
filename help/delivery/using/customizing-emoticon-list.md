@@ -15,17 +15,25 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+feature_v2:
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+  - id: c858a28b-ea19-49b0-8d48-828717fad89c
+subfeature_v2:
+  - id: e95a583b-fcfa-4524-8666-46a29c828119
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+  - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+  - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 538
-ht-degree: 100%
+source-wordcount: 481
+ht-degree: 89%
 
 ---
 
 # Personnaliser la liste des émoticônes {#customize-emoticons}
 
-La liste des émoticônes affichée dans la fenêtre contextuelle est régie par une énumération. Vous pouvez ainsi afficher les valeurs contenues dans une liste pour limiter les choix de l’utilisateur ou de l’utilisatrice pour un champ donné.
-Il est possible de personnaliser l’ordre des émoticônes dans la liste et d’en ajouter d’autres.
+La liste des émoticônes affichée dans le pop-up est régie par une énumération qui vous permet d’afficher des valeurs dans une liste afin de restreindre les choix de l’utilisateur pour un champ donné.
+L’ordre de la liste des émoticônes peut être personnalisé. Vous pouvez également ajouter d’autres émoticônes à votre liste.
 
 Notez que les émoticônes ne sont disponibles que pour les e-mails et les notifications push. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=fr#inserting-emoticons){target="_blank"}.
 
@@ -50,14 +58,14 @@ Notez que les émoticônes ne sont disponibles que pour les e-mails et les notif
 
 1. Renseignez les champs :
 
-   * **[!UICONTROL U+]** : code de votre nouvelle émoticône. La liste des codes des émoticônes se trouve dans cette [page](https://unicode.org/emoji/charts/full-emoji-list.html).
-Pour éviter tout problème de compatibilité, il est conseillé de choisir des émoticônes prises en charge sur les navigateurs et sur tous les systèmes d’exploitation.
+   * **[!UICONTROL U+]** : code de votre nouvelle émoticône. La liste des codes des émoticônes est disponible sur cette [page](https://unicode.org/emoji/charts/full-emoji-list.html).
+Pour éviter tout problème de compatibilité, nous vous conseillons de choisir des émoticônes qui sont prises en charge sur les navigateurs et sur chaque système d&#39;exploitation.
 
    * **[!UICONTROL Libellé]** : libellé de la nouvelle émoticône.
 
    ![](assets/emoticon_5.png)
 
-1. Cliquez sur **[!UICONTROL Ok]**, puis sur **[!UICONTROL Enregistrer]** lorsque la configuration est terminée.
+1. Cliquez sur **[!UICONTROL Ok]** puis **[!UICONTROL Enregistrer]** lorsque la configuration est terminée.
 Votre nouvelle émoticône sera automatiquement placée dans le magasin.
 
 1. Pour l’afficher dans la fenêtre **[!UICONTROL Insérer une émoticône]** de vos diffusions, sélectionnez-la en double-cliquant dessus.

@@ -11,7 +11,10 @@ product_v2:
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+subfeature_v2:
+  - id: a6187aac-0a00-4394-8937-e8d4c1a40aa4
+  - id: e739ee2b-6228-412e-878f-45de0791417d
+source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
 source-wordcount: 1378
 ht-degree: 76%
@@ -237,7 +240,7 @@ Les étapes sont les suivantes :
 
    ![](assets/mkg_dist_use_case_form_1.png)
 
-1. Dans l’ongle **[!UICONTROL Editer]** de la campagne, cliquez sur le lien **[!UICONTROL Paramètres avancés de l&#39;opération...]** Pour la configurer comme une campagne locale. Pour plus d&#39;informations, consultez la section [Créer une opération locale (par formulaire)](#creating-a-local-campaign--by-form-).
+1. Dans l’ongle **[!UICONTROL Editer]** de la campagne, cliquez sur le lien **[!UICONTROL Paramètres avancés de l&#39;opération...]** Pour la configurer comme une campagne locale. Pour plus d&#39;informations, consultez la section [Créer une campagne locale (par formulaire)](#creating-a-local-campaign--by-form-).
 
    ![](assets/mkg_dist_use_case_form_2.png)
 

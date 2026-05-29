@@ -14,7 +14,8 @@ feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+subfeature_v2: []
+source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
 source-wordcount: 1092
 ht-degree: 82%
@@ -33,7 +34,7 @@ Utilisez l&#39;option Adobe Campaign Classic **Federated Data Access** (FDA)
 
 >[!NOTE]
 >
-> Le connecteur [!DNL Google BigQuery] est disponible pour les déploiements hébergés, hybrides et on-premise. Pour plus d’informations, consultez [cette page](../../installation/using/capability-matrix.md).
+> Le connecteur [!DNL Google BigQuery] est disponible pour les déploiements hébergés, hybrides et on-premise. Pour plus dʼinformations, consultez [cette page](../../installation/using/capability-matrix.md).
 
 ![](assets/snowflake_3.png)
 
