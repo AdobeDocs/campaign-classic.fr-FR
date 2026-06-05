@@ -13,7 +13,7 @@ landing-page-name: campaign
 landing-page-breadcrumb-title: Campaign
 index: true
 source-git-commit: f0551d9ffc6ff602a5e72be010873a5358a16f39
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 13
 ht-degree: 100%
 

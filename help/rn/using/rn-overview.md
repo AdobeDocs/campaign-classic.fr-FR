@@ -21,9 +21,9 @@ subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 922
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -165,7 +165,7 @@ Une équipe constituée de représentants et représentantes de l’assistance c
 
 * [Trouver votre version de Campaign](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)
 * [Aide et support](../../support.md)
-* [Versions du Panneau de Contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr)
+* [Versions du panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=fr)
 * [Fonctionnalités obsolètes et supprimées](../../rn/using/deprecated-features.md)
 * [FAQ sur la mise à niveau de build](../../platform/using/faq-build-upgrade.md)
 

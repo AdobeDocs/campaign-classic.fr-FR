@@ -22,9 +22,9 @@ subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 378
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Cette page répertorie les nouvelles fonctionnalités, les améliorations et les
 >
 > La mise à niveau de la console cliente est obligatoire.
 
-_31 mars 2026_
+_31 mars 2026_
 
 ### Améliorations de la sécurité {#security-7-4-3}
 
@@ -50,7 +50,7 @@ _31 mars 2026_
 
 >[!NOTE]
 >
-> Les correctifs répertoriés ci-dessous ont été progressivement déployés sur plusieurs builds 7.4.3 successifs. Accédez au **[!UICONTROL menu Aide > À propos...]** [&#128279;](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version) pour vérifier que vous disposez de la dernière version de 9394@28aaec9. Pour plus d’informations, contactez votre représentant Adobe.
+> Les correctifs répertoriés ci-dessous ont été progressivement déployés sur plusieurs builds 7.4.3 successifs.Accédez au [menu](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version) **[!UICONTROL Aide > À propos…]** pour vérifier que vous disposez du dernier build 9394@28aaec9.Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
 * Correction d’un problème en raison duquel le composant de code à barres autorisait un paramètre de hauteur illimité, ce qui pouvait entraîner une vulnérabilité de sécurité. (NEO-89984)
 * Correction d’un problème où les champs d’énumération dans les listes créées via les workflows ne comportaient pas d’attributs de nom temporaires, ce qui entraînait l’affichage de libellés d’énumération incorrects ou vides dans l’interface. (NEO-91158)
@@ -63,8 +63,8 @@ _31 mars 2026_
 <!-- BUILD 7.0.9394.28aaec9 -->
 
 * Correction d’un problème en raison duquel les statistiques de diffusion n’étaient pas entièrement recalculées pour certaines diffusions, ce qui affectait particulièrement les indicateurs de succès. (NEO-88106) <!-- moved from original 7.4.3 GA Fixes section -->
-* Correction d’un problème en raison duquel la console cliente pouvait se bloquer à l’ouverture de certains workflows référençant un schéma de ciblage en amont manquant. (NEO-28727)
-* Correction d’un problème en raison duquel la version de la console cliente ne pouvait pas être identifiée après un échec de démarrage, car le fichier de version était absent du package d’installation. (NEO-94798)
+* Correction d’un problème où la console cliente pouvait se bloquer à l’ouverture de certains workflows référençant un schéma de ciblage en amont manquant.(NEO-28727)
+* Correction d’un problème où la version de la console cliente ne pouvait pas être identifiée après un échec de démarrage, car le fichier de version était absent du package d’installation.(NEO-94798)
 
 <!--
 other fixes - ommitted from release notes
