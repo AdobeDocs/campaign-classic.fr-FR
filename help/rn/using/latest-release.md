@@ -7,24 +7,16 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 TQID: https://experienceleague.adobe.com/Xq9y8r6xU-hypq1Eeo9ijaiGng7qqkWVqiCXW5fYx2c
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
 feature_v2: []
-subfeature_v2:
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+subfeature_v2: id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 378
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +32,7 @@ Cette page répertorie les nouvelles fonctionnalités, les améliorations et les
 >
 > La mise à niveau de la console cliente est obligatoire.
 
-_31 mars 2026_
+_31 mars 2026_
 
 ### Améliorations de la sécurité {#security-7-4-3}
 
@@ -50,7 +42,7 @@ _31 mars 2026_
 
 >[!NOTE]
 >
-> Les correctifs répertoriés ci-dessous ont été progressivement déployés sur plusieurs builds 7.4.3 successifs. Accédez au **[!UICONTROL menu Aide > À propos...]** [&#128279;](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version) pour vérifier que vous disposez de la dernière version de 9394@28aaec9. Pour plus d’informations, contactez votre représentant Adobe.
+> Les correctifs répertoriés ci-dessous ont été progressivement déployés sur plusieurs builds 7.4.3 successifs.Accédez au [menu](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version) **[!UICONTROL Aide > À propos…]** pour vérifier que vous disposez du dernier build 9394@28aaec9.Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
 * Correction d’un problème en raison duquel le composant de code à barres autorisait un paramètre de hauteur illimité, ce qui pouvait entraîner une vulnérabilité de sécurité. (NEO-89984)
 * Correction d’un problème où les champs d’énumération dans les listes créées via les workflows ne comportaient pas d’attributs de nom temporaires, ce qui entraînait l’affichage de libellés d’énumération incorrects ou vides dans l’interface. (NEO-91158)
@@ -63,8 +55,8 @@ _31 mars 2026_
 <!-- BUILD 7.0.9394.28aaec9 -->
 
 * Correction d’un problème en raison duquel les statistiques de diffusion n’étaient pas entièrement recalculées pour certaines diffusions, ce qui affectait particulièrement les indicateurs de succès. (NEO-88106) <!-- moved from original 7.4.3 GA Fixes section -->
-* Correction d’un problème en raison duquel la console cliente pouvait se bloquer à l’ouverture de certains workflows référençant un schéma de ciblage en amont manquant. (NEO-28727)
-* Correction d’un problème en raison duquel la version de la console cliente ne pouvait pas être identifiée après un échec de démarrage, car le fichier de version était absent du package d’installation. (NEO-94798)
+* Correction d’un problème où la console cliente pouvait se bloquer à l’ouverture de certains workflows référençant un schéma de ciblage en amont manquant.(NEO-28727)
+* Correction d’un problème où la version de la console cliente ne pouvait pas être identifiée après un échec de démarrage, car le fichier de version était absent du package d’installation.(NEO-94798)
 
 <!--
 other fixes - ommitted from release notes
