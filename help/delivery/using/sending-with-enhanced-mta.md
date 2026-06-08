@@ -25,10 +25,10 @@ subfeature_v2:
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: c8d13469884744554fd504fed8842dd0c9ab5feb
 workflow-type: tm+mt
-source-wordcount: 1427
-ht-degree: 97%
+source-wordcount: 1420
+ht-degree: 94%
 
 ---
 
@@ -56,9 +56,9 @@ L’implémentation du MTA amélioré peut avoir un impact sur certaines fonctio
 
 **Qu’est-ce que le MTA amélioré ?**
 
-Adobe Campaign peut maintenant être mis à niveau en vue d’utiliser un nouveau MTA (Mail Transfer Agent) qui exécute le MTA d’e-mail commercial de SparkPost appelé **Momentum**.
+Adobe Campaign peut maintenant être mis à niveau en vue d&#39;utiliser le **MTA amélioré** (Mail Transfer Agent), un moteur de diffusion d&#39;email haute performance.
 
-Momentum offre une technologie MTA innovante et extrêmement performante. Elle comprend une gestion des rebonds plus intelligente et une fonctionnalité d’optimisation de la délivrabilité automatisée qui aide les expéditeurs à atteindre et à maintenir des taux de remise optimaux aux boîtes de réception.<!--More than 37% of the world's business email is sent using SparkPost's MTA technology.-->
+Le MTA amélioré comprend une gestion des retours plus intelligente et une fonctionnalité d’optimisation de la délivrabilité automatisée qui aide les expéditeurs à atteindre et à maintenir des taux de diffusion optimaux dans les boîtes de réception.
 
 **Quels sont les avantages ?**
 
