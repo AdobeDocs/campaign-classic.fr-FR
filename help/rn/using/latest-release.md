@@ -21,10 +21,10 @@ feature_v2: []
 subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 378
-ht-degree: 100%
+source-git-commit: a35dcdddded4483beefc126ee3d603bab36bf9c9
+workflow-type: tm+mt
+source-wordcount: 417
+ht-degree: 93%
 
 ---
 
@@ -32,9 +32,19 @@ ht-degree: 100%
 
 Cette page répertorie les nouvelles fonctionnalités, les améliorations et les correctifs apportés à la **dernière version de Campaign Classic v7**. Chaque nouvelle build est fournie avec un statut matérialisé par une couleur. En savoir plus sur les statuts de build de Campaign Classic v7 dans [cette page](rn-overview.md).
 
-## Version 7.4.3 - Build 9394 {#release-7-4-3}
+## Version 7.4.3 {#release-7-4-3}
+
+### Build 9396 {#build-9396}
 
 [!BADGE Disponibilité générale]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Disponibilité générale"}
+
+_9 juin 2026_
+
+Cette version comprend des correctifs de sécurité. Il s’agit du build Disponibilité générale recommandée qui remplace les builds Campaign Classic v7 précédents.
+
+### Build 9394 {#build-9394}
+
+[!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
 >[!CAUTION]
 >
@@ -42,15 +52,15 @@ Cette page répertorie les nouvelles fonctionnalités, les améliorations et les
 
 _31 mars 2026_
 
-### Améliorations de la sécurité {#security-7-4-3}
+#### Améliorations de la sécurité {#security-7-4-3}
 
 * Pour maintenir une sécurité, une stabilité et une conformité optimales, Debian a été mis à niveau vers la version 13 et PostgreSQL vers la version 17. Reportez-vous à la [matrice de compatibilité](compatibility-matrix.md).
 
-### Correctifs {#fixes-7-4-3}
+#### Correctifs {#fixes-7-4-3}
 
 >[!NOTE]
 >
-> Les correctifs répertoriés ci-dessous ont été progressivement déployés sur plusieurs builds 7.4.3 successifs.Accédez au [menu](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version) **[!UICONTROL Aide > À propos…]** pour vérifier que vous disposez du dernier build 9394@28aaec9.Pour plus d’informations, contactez votre représentant ou représentante Adobe.
+> Les correctifs répertoriés ci-dessous ont été progressivement déployés sur plusieurs builds 7.4.3 successifs. Accédez au [menu](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version) **[!UICONTROL Aide > À propos…]** pour vérifier que vous disposez du dernier build 9394@28aaec9. Pour plus d’informations, contactez votre représentant ou représentante Adobe.
 
 * Correction d’un problème en raison duquel le composant de code à barres autorisait un paramètre de hauteur illimité, ce qui pouvait entraîner une vulnérabilité de sécurité. (NEO-89984)
 * Correction d’un problème où les champs d’énumération dans les listes créées via les workflows ne comportaient pas d’attributs de nom temporaires, ce qui entraînait l’affichage de libellés d’énumération incorrects ou vides dans l’interface. (NEO-91158)
@@ -63,8 +73,8 @@ _31 mars 2026_
 <!-- BUILD 7.0.9394.28aaec9 -->
 
 * Correction d’un problème en raison duquel les statistiques de diffusion n’étaient pas entièrement recalculées pour certaines diffusions, ce qui affectait particulièrement les indicateurs de succès. (NEO-88106) <!-- moved from original 7.4.3 GA Fixes section -->
-* Correction d’un problème où la console cliente pouvait se bloquer à l’ouverture de certains workflows référençant un schéma de ciblage en amont manquant.(NEO-28727)
-* Correction d’un problème où la version de la console cliente ne pouvait pas être identifiée après un échec de démarrage, car le fichier de version était absent du package d’installation.(NEO-94798)
+* Correction d’un problème où la console cliente pouvait se bloquer à l’ouverture de certains workflows référençant un schéma de ciblage en amont manquant. (NEO-28727)
+* Correction d’un problème où la version de la console cliente ne pouvait pas être identifiée après un échec de démarrage, car le fichier de version était absent du package d’installation. (NEO-94798)
 
 <!--
 other fixes - ommitted from release notes

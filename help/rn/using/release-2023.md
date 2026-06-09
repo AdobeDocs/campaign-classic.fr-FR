@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 2384
+source-git-commit: c372a3d67ec413fa8cf9fdbb4530762a8f2f5177
+workflow-type: tm+mt
+source-wordcount: 2376
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 ## Version 7.3.5 - Build 9368 {#release-7-3-5}
 
-[!BADGE Disponibilité limitée]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Disponibilité limitée"}
+[!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
 _5 décembre 2023_
 
@@ -61,14 +61,15 @@ _5 décembre 2023_
 * Correction d’une erreur dans le workflow Nettoyage de la base qui se produisait lorsqu’une diffusion était supprimée avant ses BAT. (NEO-48114)
 * Correction d’un problème lors de la connexion à la console cliente : les mises à jour récentes de la vérification TLS entraînaient une erreur de connexion. (NEO-50488)
 * Correction d’un problème lié à l’authentification du proxy HTTP après le mise à jour vers Campaign 7.3.1. Échec des requêtes HTTP dans les workflows de campagne avec `error 407 – proxy auth required is returned`. (NEO-49624)
-* Correction d’un échec intermittent avec le déchiffrement GPG dans les activités de workflow **Script**. Le message d’erreur associé était : `gpg: decryption failed: No secret key`. (NEO-50257)  <!--* Workflow temporary tables now have a primary index in Teradata with a Federated Data Access (FDA) connection. (NEO-62575)-->
+* Correction d’un échec intermittent avec le déchiffrement GPG dans les activités de workflow **Script**. Le message d’erreur associé était : `gpg: decryption failed: No secret key`. (NEO-50257)
+  <!--* Workflow temporary tables now have a primary index in Teradata with a Federated Data Access (FDA) connection. (NEO-62575)-->
 
 
 
 
 ## Version 7.3.4 - Build 9364 {#release-7-3-4}
 
-[!BADGE Disponibilité limitée]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Disponibilité limitée"}
+[!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
 
 >[!CAUTION]
@@ -138,7 +139,7 @@ Correction d’un problème en raison duquel les caractères japonais s’affich
 
 ## Version 7.3.3 - Build 9359 {#release-7-3-3}
 
-[!BADGE Disponibilité limitée]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Disponibilité limitée"}
+[!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
 >[!AVAILABILITY]
 >
@@ -174,7 +175,7 @@ _20 mars 2023_
 
 ## Version 7.3.2 - Build 9356 {#release-7-3-2}
 
-[!BADGE Disponibilité limitée]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Disponibilité limitée"}
+[!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
 
 >[!AVAILABILITY]
