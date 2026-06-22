@@ -7,18 +7,12 @@ feature: Campaigns, Cross Channel Orchestration
 hide: true
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
 TQID: https://experienceleague.adobe.com/BSnBL3-RQ5UUgRFlU3RsNP7CLJrBHgjxHDLtvVvmtAg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-subfeature_v2:
-  - id: f863efa9-030c-4466-a2b8-a52aea6b722c
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: afa4204e-6d08-4e29-bc35-26aafb656d48
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+subfeature_v2: id: f863efa9-030c-4466-a2b8-a52aea6b722c
+source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 1216
 ht-degree: 82%
@@ -206,3 +200,4 @@ Les validations (de la cible ou du contenu d&#39;une diffusion, par exemple) peu
 ![](assets/campaign_web_interface_validation.png)
 
 Vous pouvez également utiliser le lien contenu dans les messages de notification. Pour plus d&#39;informations, reportez-vous à la section [Contrôler et valider les diffusions](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries).
+
