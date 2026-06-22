@@ -7,8 +7,9 @@ user-guide-title: Guide de Campaign Classic v7
 user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
-source-git-commit: 4cae5fdb2b78f446f84352046b523d8862e9060c
-workflow-type: ht
+nudge: true
+source-git-commit: b3fbad7d9b746305753ab80692efb91fb2f40fae
+workflow-type: tm+mt
 source-wordcount: '2710'
 ht-degree: 100%
 
