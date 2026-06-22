@@ -6,10 +6,15 @@ feature: Workflows, Targeting Activity, Data Management
 hide: true
 exl-id: 9f5735d2-73b8-469f-bc10-482c99cdd4a1
 TQID: https://experienceleague.adobe.com/VrAHuf0Go-6f8-cL-kuZrttoGWUzxkBMUbhDaj-gJRc
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 feature_v2: []
-subfeature_v2: id: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845ee
+subfeature_v2:
+  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+  - id: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 949
