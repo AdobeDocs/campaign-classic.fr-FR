@@ -15,7 +15,7 @@ subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 2172
 ht-degree: 76%
@@ -248,3 +248,4 @@ Chacun des événements entrants doit spécifier une cible définie par ces para
 Ce triplet de valeurs identifie la cible résultant de l&#39;exclusion. **[!UICONTROL tableName]** est le nom de la table qui enregistre les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (généralement nms:recipient) et **[!UICONTROL recCount]** est le nombre d’éléments dans la table.
 
 La transition associée au complément possède les mêmes paramètres.
+

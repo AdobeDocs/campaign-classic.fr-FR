@@ -19,7 +19,7 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 2039
 ht-degree: 73%
@@ -273,3 +273,4 @@ Les données identifiées et collectées peuvent être enrichies, regroupées et
 * L’activité **[!UICONTROL Enrichissement]** permet d’ajouter momentanément des colonnes à un schéma et d’ajouter des informations à certains éléments. Elle est présentée dans la section [Enrichissement](enrichment.md) du référentiel des activités.
 * L’activité **[!UICONTROL Edition du schéma]** permet de modifier la structure d’un schéma. Elle est présentée dans la section [Edition du schéma](edit-schema.md) du référentiel des activités.
 * L’activité **[!UICONTROL Changement de dimension]** permet de modifier la dimension de ciblage pendant le cycle de construction de la cible. Elle est présentée dans la section [Changement de dimension](change-dimension.md).
+

@@ -19,7 +19,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 subfeature_v2:
   - id: e5fb657f-3c0a-4fcc-9980-3589a23ab4de
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 113
 ht-degree: 88%
@@ -100,3 +100,4 @@ Additional Campaign how-to videos are available [here](https://experienceleague.
 * [Get started with typologies and fatigue management](pressure-rules.md)
 
 -->
+

@@ -13,7 +13,7 @@ subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 1442
 ht-degree: 82%
@@ -226,3 +226,4 @@ Cet onglet affiche les informations suivantes :
 L&#39;onglet **[!UICONTROL Ciblés]** du journal de validation affiche la liste des destinataires ciblés et leur statut de validation. Vous pouvez modifier ce statut si nécessaire.
 
 ![](assets/local_validation_admin_6.png)
+

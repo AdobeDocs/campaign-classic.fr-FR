@@ -13,7 +13,7 @@ subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 460
 ht-degree: 90%
@@ -84,3 +84,4 @@ Chacun des événements entrants doit spécifier une cible définie par ces para
 Ce jeu de trois valeurs identifie la population ciblée par la requête. **[!UICONTROL tableName]** est le nom de la table qui enregistre les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (généralement nms:recipient) et **[!UICONTROL recCount]** est le nombre d’éléments dans la table.
 
 * targetSchema : cette valeur correspond au schéma de la table de travail. Ce paramètre est valide pour toutes les transitions avec **[!UICONTROL tableName]** et **[!UICONTROL schema]**.
+

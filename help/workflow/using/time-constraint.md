@@ -13,7 +13,7 @@ subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 89
 ht-degree: 51%
@@ -31,3 +31,4 @@ Saisissez le libellé de l&#39;activité et indiquez la plage horaire pendant la
 Lorsque l&#39;option **[!UICONTROL Réessayer plus tard si en dehors de la période d&#39;exécution]** est sélectionnée, elle permet de redémarrer la tâche en dehors de la période d&#39;exécution. si vous souhaitez que l’action de workflow soit définitivement abandonnée après sa suspension, désélectionnez cette option.
 
 ![](assets/s_user_scheduled_wait.png)
+

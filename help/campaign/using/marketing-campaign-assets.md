@@ -18,7 +18,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2:
   - id: f863efa9-030c-4466-a2b8-a52aea6b722c
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 788
 ht-degree: 68%
@@ -143,3 +143,4 @@ Le modèle d&#39;export doit être associé au prestataire sélectionné pour la
 >[!NOTE]
 >
 >Pour plus d’informations sur les exports, reportez-vous à [cette section](../../platform/using/get-started-data-import-export.md).
+

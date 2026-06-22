@@ -20,7 +20,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2:
   - id: f863efa9-030c-4466-a2b8-a52aea6b722c
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 1576
 ht-degree: 73%
@@ -254,3 +254,4 @@ Cette vidéo explique comment créer une campagne et un e-mail dans Adobe Campa
 >[!VIDEO](https://video.tv.adobe.com/v/27487?captions=fre_fr&quality=12)
 
 D’autres vidéos pratiques sur Campaign sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+

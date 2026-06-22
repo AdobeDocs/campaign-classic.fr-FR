@@ -13,7 +13,7 @@ subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 193
 ht-degree: 59%
@@ -39,3 +39,4 @@ Dans le champ **[!UICONTROL Durée]**, la valeur peut être exprimée dans l’u
 * Tandis que si, par exemple, les paramètres régionaux sont définis sur &#39;Français&#39; : **s** pour les secondes, **mn** pour les minutes, **h** pour les heures, **j** pour les jours, **m** pour les mois, **a** pour les années. Lors de la validation, la valeur est automatiquement traduite dans l&#39;unité la plus lisible, comme dans l&#39;exemple ci-dessus : **90s** a été traduit en **1mn 30s**.
 
   L&#39;unité par défaut est le jour (**j**).
+

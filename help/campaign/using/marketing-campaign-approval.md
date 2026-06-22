@@ -23,7 +23,7 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 2841
 ht-degree: 66%
@@ -394,3 +394,4 @@ A la date de la demande d&#39;extraction, le fichier d&#39;extraction est créé
 Vous pouvez visualiser le contenu du fichier extrait (en cliquant sur son nom), le valider, ou, au besoin, modifier le format et relancer l&#39;extraction, via les liens proposés dans le tableau de bord.
 
 Une fois le fichier validé, vous pouvez envoyer l’e-mail de notification au routeur. Pour plus d’informations à ce sujet, consultez la section [Démarrage d’une diffusion hors ligne](../../campaign/using/marketing-campaign-deliveries.md#starting-an-offline-delivery).
+
