@@ -9,14 +9,13 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: b86236ae-95e9-4406-b60f-6d90ad0d4a01
 TQID: https://experienceleague.adobe.com/jynrfZrBNI6ergWQ2ONvI97Or1coFkVD-cLeaK14K70
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 725
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +25,7 @@ ht-degree: 73%
 
 ## Communication entre les processus {#communication-between-processes}
 
-Certains processus de l&#39;application doivent communiquer avec d&#39;autres ou accéder au réseau local et à Internet. Cela signifie que certains ports TCP doivent être ouverts pour ces processus.
+Certains processus de l’application ont besoin de communiquer entre eux ou d’accéder au réseau, à la fois au LAN et à Internet.Cela signifie que certains ports TCP doivent être ouverts pour ces processus.
 
 Vous devez privilégier l&#39;utilisation du port Apache Tomcat embarqué (8080 par défaut) pour toutes les communications internes entre les différents serveurs d&#39;application d&#39;une plateforme Adobe Campaign.
 
@@ -107,7 +106,7 @@ Pour le serveur applicatif (**nlserver web**), les ports suivants doivent être 
  </tbody> 
 </table>
 
-Lorsque plusieurs serveurs applicatifs d&#39;une plateforme Adobe Campaign doivent communiquer entre eux, il est recommandé d&#39;utiliser le port du serveur Apache Tomcat (par défaut : 8080) plutôt que celui du port HTTP du serveur Web avec lequel l&#39;intégration du module de redirection a été réalisée. Cela signifie que le port doit être ouvert entre ces serveurs.
+Lorsque plusieurs serveurs applicatifs d’une plateforme Adobe Campaign doivent communiquer entre eux, il est recommandé de privilégier l’utilisation du port du serveur Apache Tomcat (par défaut : 8080) plutôt que celle du port HTTP du serveur web avec lequel l’intégration du module de redirection a été réalisée.Cela signifie que le port doit être ouvert entre ces serveurs.
 
 ### Etat de diffusion des SMS {#sms-delivery-status}
 
@@ -149,7 +148,7 @@ Pour le client riche Adobe Campaign (**nlclient**), les ports suivants doivent 
 
 ## Accès à la base de données {#database-access}
 
-Tous les composants qui utilisent la base de données doivent pouvoir s’y connecter. C’est le cas pour la plupart des composants, à l’exception du serveur de redirection, qui peut fonctionner seul, et du client Win32 léger, qui utilise HTTP (ou HTTPS) uniquement pour communiquer avec le serveur d’applications.
+Tous les composants qui utilisent la base de données doivent pouvoir s’y connecter.Cela concerne la plupart des composants, à l’exception du serveur de redirection qui peut travailler seul, et du client léger Win32 qui utilise uniquement le protocole HTTP (ou HTTPS) pour communiquer avec le serveur applicatif.
 
 Les ports par défaut sont les suivants :
 
@@ -178,7 +177,7 @@ Les ports par défaut sont les suivants :
 
 ## Accès depuis l’extérieur {#external-access}
 
-En outre, certains composants doivent être accessibles à partir de l’internet public afin que les campagnes par e-mail exécutées directement à partir d’Adobe Campaign puissent être visualisées. Cela signifie que certains ports doivent être ouverts pour les composants.
+En outre, certains composants doivent être accessibles depuis l’Internet public afin que les campagnes e-mail exécutées directement depuis Adobe Campaign puissent être visualisées.Cela signifie que certains ports doivent être ouverts pour les composants.
 
 ### Serveur de redirection {#redirection-server}
 
@@ -238,11 +237,11 @@ L&#39;intégration entre Adobe Campaign et Adobe Experience Manager nécessit
    <td> Description<br /> </td> 
   </tr> 
   <tr> 
-   <td> 80<br /> </td> 
+   <td>80<br /></td> 
    <td> Connexion d'AEM vers Adobe Campaign.<br /> </td> 
   </tr> 
   <tr> 
-   <td><p> 4502</p><p> 4503</p><br /> </td> 
+   <td><p>4502</p><p>4503</p><br /> </td> 
    <td> Connexion d'Adobe Campaign vers les instances "author" et "publish" d'AEM. Les ports à ouvrir peuvent être différents des ports par défaut, selon votre configuration d'AEM.<br /> </td> 
   </tr> 
  </tbody> 
@@ -250,7 +249,7 @@ L&#39;intégration entre Adobe Campaign et Adobe Experience Manager nécessit
 
 ## Bande passante {#bandwidth}
 
-Un autre paramètre clé de la configuration réseau à prendre en compte. Il est presque toujours sortant et très demandé lors des diffusions par e-mail. Voici quelques exemples de configurations basés sur notre expérience :
+Il s’agit-là d’un autre paramètre clé de la configuration réseau à prendre en compte.Il est presque toujours sortant et très sollicité lors des envois d’e-mails en masse.Voici quelques exemples de configurations basés sur notre expérience :
 
 * 1 Mb/s pour 10 000 emails par heure (taille moyenne de 30 Ko)
 * 8 à 10 Mb/s pour 100 000 emails par heure (taille moyenne de 30 Ko)

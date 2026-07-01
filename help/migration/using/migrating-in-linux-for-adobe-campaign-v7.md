@@ -9,16 +9,13 @@ topic-tags: migrating-to-adobe-campaign-7
 hide: true
 exl-id: 9dc0699c-0fbf-4f8e-81f7-8ca3d7e98798
 TQID: https://experienceleague.adobe.com/xOZ-wqEKA-BFYROy7iQpjdYpqENHJWrSK3ltj0JNVoE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: eff19c99-440a-4318-b319-444edc4d8d8f
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: eff19c99-440a-4318-b319-444edc4d8d8f
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 497
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +36,7 @@ Les étapes de migration sous Linux sont les suivantes :
 Arrêtez d&#39;abord tous les processus accédant à la base de données, sur toutes les machines concernées.
 
 1. Connectez-vous en tant que **root**.
-1. Tous les serveurs utilisant le module de redirection (service **webmdl**) doivent être arrêtés. Pour Apache, exécutez la commande suivante :
+1. Les serveurs utilisant le module de redirection (service **webmdl**) doivent être arrêtés.Pour Apache, exécutez la commande suivante :
 
    ```
    /etc/init.d/apache2 stop

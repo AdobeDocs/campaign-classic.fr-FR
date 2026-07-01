@@ -6,20 +6,14 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Seed Address
 exl-id: 3f567b2d-6f98-4831-af84-7db17fd12c6e
 TQID: https://experienceleague.adobe.com/IJ-Kie5L-2m-7GDoYregJNglQRPeWsCnXaWjUcDT6TU
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-feature_v2:
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-  - id: c858a28b-ea19-49b0-8d48-828717fad89c
-subfeature_v2:
-  - id: e95a583b-fcfa-4524-8666-46a29c828119
-  - id: e739ee2b-6228-412e-878f-45de0791417d
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979id: c858a28b-ea19-49b0-8d48-828717fad89c
+subfeature_v2: id: e95a583b-fcfa-4524-8666-46a29c828119id: e739ee2b-6228-412e-878f-45de0791417d
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 471
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +85,7 @@ Pour que cette modification du schéma de données soit visible dans le **Formul
 
    ![](assets/dlv_seeds_usecase_28.png)
 
-   Vous pouvez constater que l’un des champs de personnalisation est vide. Comme l’adresse de contrôle ne contient pas de données pour ce champ, l’aperçu du contenu HTML ne peut pas afficher de valeur.
+   Vous pouvez constater que l’un des champs de personnalisation est vide.Comme l’adresse de contrôle ne possède pas de données pour ce champ, l’aperçu du contenu HTML ne peut pas afficher de valeur.
 
    La subsitution aléatoire des champs s&#39;effectue **au moment de l&#39;envoi de la diffusion**.
 

@@ -7,18 +7,14 @@ role: Developer
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: 099161b4-b4cb-433c-aed6-71157269a536
 TQID: https://experienceleague.adobe.com/Mhlr8UYZ6Fgr5VHrGzHG2NjtU5-9NR7MHsxuBa99FRo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-subfeature_v2:
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 392
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +34,7 @@ Les particularités propres à un schéma qui référence une table existante so
 
 ## Attribut view {#the-view-attribute}
 
-Les schémas Source acceptent l’attribut **view** pour l’élément racine **srcSchema**. Il doit être utilisé lorsqu’Adobe Campaign est manipulé dans des tables personnalisées. L’attribut **view=&quot;true&quot;** indique à l’assistant de mise à jour de la structure de base de données d’ignorer le schéma. Ainsi, on interdit à l&#39;application de synchroniser la table, ses colonnes et ses index avec le schéma correspondant.
+Les schémas source acceptent l’attribut **view** pour l’élément racine **srcSchema**.Il doit être utilisé lorsqu’Adobe Campaign est manipulé dans des tableaux personnalisés.L’attribut **view=&quot;true&quot;** indique à l’assistant de mise à jour de la structure de base de données d’ignorer le schéma. Ainsi, on interdit à l&#39;application de synchroniser la table, ses colonnes et ses index avec le schéma correspondant.
 
 Lorsque cet attribut est défini sur **true**, le schéma sert uniquement à générer les requêtes SQL pour accéder aux données de ce tableau.
 
@@ -66,11 +62,11 @@ Lorsque les tableaux sont créés par l’assistant de mise à jour de tableau, 
 
 Dans cet exemple, si les noms des tables et des colonnes n&#39;avaient pas été explicitement précisés, l&#39;application aurait utilisé **CusIndividual** pour la table, **lastName** et **firstName** pour les colonnes.
 
-Dans un schéma, il est possible de ne renseigner qu&#39;une partie des colonnes d&#39;une table existante. Les colonnes non renseignées ne seront pas accessibles par l’utilisateur ou l’utilisatrice.
+Dans un schéma, il est possible de ne renseigner qu’une partie des colonnes d’une table existante.Les colonnes non renseignées ne seront pas accessibles aux utilisateurs et utilisatrices.
 
 ## Champs indexés {#indexed-fields}
 
-Lors du tri des enregistrements d’une liste à partir de la console cliente, une meilleure performance est obtenue en triant les champs indexés. Lors de la déclaration d&#39;un index dans un schéma, la console affiche les champs indexés avec une ligne rouge sous la flèche de tri située à gauche du libellé de la colonne, comme dans l&#39;exemple ci-dessous :
+Lors du tri des enregistrements d’une liste à partir de la console cliente, le tri des champs indexés permet d’obtenir de meilleures performances.La déclaration d’un index dans un schéma provoque, dans la console, l’affichage des champs indexés avec un trait rouge sous la flèche de tri située à gauche du libellé de la colonne, comme dans l’écran ci-dessous :
 
 ![](assets/s_ncs_integration_mapping_index.png)
 

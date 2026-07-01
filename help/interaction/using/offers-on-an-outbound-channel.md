@@ -9,15 +9,13 @@ content-type: reference
 topic-tags: case-study
 exl-id: 77fee343-09d1-4d60-be43-efe02953a70c
 TQID: https://experienceleague.adobe.com/WGoYaHNR13J47UVmKpHRSm9aw0T8ZrvHUl9zGXezQBU
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 478
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +25,7 @@ ht-degree: 84%
 
 ## Diffusion d&#39;une offre par email {#email-offer-delivery}
 
-Dans notre base de données, il y a une catégorie d&#39;offres de voyage en Afrique. L&#39;éligibilité, les contextes et les représentations de chaque offre ont été paramétrés. Nous allons maintenant créer une campagne afin de présenter nos offres par email.
+Notre base de données comporte une catégorie d’offres de voyages en Afrique.L’éligibilité, les contextes et les représentations de chaque offre ont été configurés.Nous allons maintenant créer une campagne afin de présenter nos offres par e-mail.
 
 1. Créez votre opération marketing et votre workflow de ciblage.
 
@@ -80,7 +78,7 @@ Dans notre base de données, il y a une catégorie d&#39;offres de voyage en Afr
 
    ![](assets/offer_simulation_example_002.png)
 
-1. Enregistrez la simulation. Cette action s’ouvre ensuite dans un nouvel onglet.
+1. Enregistrez la simulation.Celle-ci s’ouvre alors dans un nouvel onglet.
 
    ![](assets/offer_simulation_example_003.png)
 
@@ -96,7 +94,7 @@ Dans notre base de données, il y a une catégorie d&#39;offres de voyage en Afr
 
    ![](assets/offer_simulation_example_006.png)
 
-1. Saisissez les dates de validité. Vous devez au moins saisir une date de début. Cela permet au moteur d&#39;offres de filtrer les offres et de choisir celles qui sont valides à une date donnée.
+1. Saisissez les dates de validité.Vous devez au moins saisir une date de début.Ceci permet au moteur d’offres de filtrer les offres et de choisir celles qui sont valides à une date donnée.
 1. Si nécessaire, spécifiez un ou plusieurs thèmes pour limiter le nombre d&#39;offres à celles ayant ce mot-clé dans leurs paramètres.
 
    Dans notre exemple, la catégorie **Produits financiers** contient deux sous-catégories ayant chacune un thème distinct. La simulation portera seulement sur les offres de la catégorie dont le thème d&#39;application est **Clients &lt; 1 an**.

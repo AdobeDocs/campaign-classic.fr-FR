@@ -7,22 +7,14 @@ feature: Seed Address
 role: User
 exl-id: ae6eb4b0-b419-4661-9d63-e758f0242a0f
 TQID: https://experienceleague.adobe.com/pVYaTG48-HiK0RwJXgBbIMWa-o-R7jlEpauXNXvGi5E
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-feature_v2:
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-  - id: c858a28b-ea19-49b0-8d48-828717fad89c
-subfeature_v2:
-  - id: e95a583b-fcfa-4524-8666-46a29c828119
-  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
-  - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
-  - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979id: c858a28b-ea19-49b0-8d48-828717fad89c
+subfeature_v2: id: e95a583b-fcfa-4524-8666-46a29c828119id: c8da4fdd-eb94-4751-a43c-f82733fb2d6eid: d5bbe3da-ba85-4242-817e-54f7c4b943e0id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 355
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +30,7 @@ Trois modes d&#39;insertion sont possibles :
 
 1. Vous pouvez saisir les adresses de contrôle.
 
-   Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter]** et définissez le contenu des champs de l&#39;adresse. Répétez l’opération pour chaque adresse.
+   Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter]** et définissez le contenu des champs de l’adresse.Répétez l’opération pour chaque adresse.
 
 1. Vous pouvez importer des modèles d&#39;adresses que vous pourrez adapter selon vos besoins.
 
@@ -48,17 +40,17 @@ Trois modes d&#39;insertion sont possibles :
 
 1. Vous pouvez créer une condition pour sélectionner dynamiquement les adresses de contrôle à insérer.
 
-   Pour cela, cliquez sur le lien **[!UICONTROL Modifier la condition dynamique...]**, puis renseignez les paramètres de sélection des adresses de contrôle. Par exemple, vous pouvez inclure toutes les adresses de contrôle contenues dans un dossier spécifique ou les adresses de contrôle appartenant à un service spécifique de votre entreprise.
+   Pour cela, cliquez sur le lien **[!UICONTROL Modifier la condition dynamique…]**, puis renseignez les paramètres de sélection des adresses de contrôle.Vous pouvez par exemple inclure toutes les adresses de contrôle contenues dans un dossier spécifique ou les adresses de contrôle appartenant à un service particulier de votre société.
 
    Vous trouverez un exemple dans la section : [Cas pratique : sélectionner des adresses de contrôle selon des critères](use-case-selecting-seed-addresses-on-criteria.md).
 
 >[!NOTE]
 >
->Cette option est utilisée lorsque la table des destinataires utilisée n’est pas la table **nms:recipient** par défaut et que vous utilisez la fonctionnalité Inbox Rendering fournie par le module **[!UICONTROL Délivrabilité]** d’Adobe Campaign.
+>Cette option est utilisée lorsque la table des destinataires utilisée n’est pas la table **nms:recipient** par défaut et que vous utilisez la fonctionnalité Rendu de la boîte de réception fournie par le module **[!UICONTROL Délivrabilité]** d’Adobe Campaign.
 >
 >Voir à ce sujet la section [Utiliser une table de destinataires externe](using-an-external-recipient-table.md) et la documentation sur la fonctionnalité [Inbox rendering](inbox-rendering.md).
 
-Pour les diffusions , vous pouvez également personnaliser le mode d’insertion des adresses dans le fichier d’extraction. Par défaut, elles sont insérées dans l’ordre de tri du fichier de sortie, mais vous pouvez choisir de les insérer à la fin ou au début du fichier, ou aléatoirement parmi les destinataires de la cible principale.
+Pour les diffusions, vous pouvez également personnaliser le mode d’insertion des adresses dans le fichier d’extraction.Par défaut, elles sont insérées dans l’ordre de tri du fichier de sortie, mais vous pouvez choisir de les insérer au début ou à la fin du fichier, ou de manière aléatoire parmi les destinataires de la cible principale.
 
 ![](assets/s_ncs_user_edit_del_addresses_sort.png)
 

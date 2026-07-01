@@ -6,24 +6,14 @@ feature: Technote, Deliverability
 hide: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
 TQID: https://experienceleague.adobe.com/ktbzQKuNSjctRAyH-hbZyYajuoZFJy4Yt01y34X-tnk
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1044
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +25,7 @@ En tant que client Campaign Classic, vous devez implémenter le nouveau serveur
 
 >[!NOTE]
 >
->Pour plus d’informations sur ces modifications, reportez-vous à la [FAQ](#faq) ou contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}.
+>Pour toute question sur ces modifications, consultez les [Questions fréquentes](#faq) ou contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank}.
 >
 
 ## Qu’est-ce qui a changé ?{#acc-deliverability-changes}
@@ -85,11 +75,11 @@ Avant de commencer l’implémentation, vérifiez la configuration de votre inst
 
 En tant que client On-Premise, vous devez également vérifier qu’un **[!UICONTROL profil de produit]** Campaign est disponible pour votre organisation. Pour ce faire, suivez les étapes ci-après :
 
-1. En tant qu&#39;administrateur, connectez-vous à [&#128279;](https://adminconsole.adobe.com/){_blank}.
-1. Accédez à la section **Produits et services** et vérifiez que **Adobe Campaign** est répertorié.
-Si vous ne pouvez pas voir **&#x200B;**&#x200B;contactez l’assistance clientèle d’Adobe [&#128279;](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} pour l’ajouter.
+1. En tant qu’administrateur ou administratrice, connectez-vous à [Adobe Admin Console](https://adminconsole.adobe.com/){_blank}.
+1. Accédez à la section **Produits et services** et vérifiez qu’**Adobe Campaign** est répertorié.
+Si vous ne voyez pas **Adobe Campaign**, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} pour l’ajouter.
 1. Cliquez sur **Adobe Campaign** et sélectionnez votre organisation.
-   **Attention** : si vous avez plusieurs organisations, veillez à choisir la bonne. En savoir plus sur les organisations [sur cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=fr#ims-org-id){_blank}.
+   **Attention** : si vous avez plusieurs organisations, veillez à choisir la bonne. Pour en savoir plus sur les organisations, consultez [cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=fr#ims-org-id){_blank}.
 
 1. Vérifiez qu’il existe un **[!UICONTROL profil de produit]**. Dans le cas contraire, créez-le. Aucune autorisation n’est requise pour ce **[!UICONTROL profil de produit]**.
 

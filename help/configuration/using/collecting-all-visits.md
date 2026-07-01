@@ -6,16 +6,14 @@ feature: Configuration, Instance Settings
 role: Developer
 exl-id: cc554d0d-bbab-4f72-b870-5fef5a2fda9d
 TQID: https://experienceleague.adobe.com/EdEX0IPygnmmYAqewEpX2jRqrCZ723itOEW6DhnMSl8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 296
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
@@ -25,15 +23,15 @@ Le module de webtracking fourni par Adobe Campaign permet de collecter les visi
 
 Toutefois, vous avez la possibilité de configurer votre plateforme de façon à ce qu&#39;elle collecte toutes les visites des pages ayant une balise de tracking Web, lorsqu&#39;elles sont visitées par un utilisateur connu de la plateforme.
 
-Un utilisateur connu de la plateforme est un destinataire qui a déjà été ciblé par une diffusion et qui a cliqué au moins une fois dans un des messages reçus. Un cookie permanent est utilisé pour identifier ce destinataire.
+Une personne connue de la plateforme est une personne destinataire qui a déjà été ciblée par une diffusion et qui a cliqué au moins une fois dans un des messages reçus.Un cookie permanent est utilisé pour identifier cette personne destinataire.
 
 >[!IMPORTANT]
 >
->La plateforme Adobe Campaign n’est pas destinée à être utilisée en tant qu’outil de tracking de site web, hors du cadre de la visite du site suite à un clic dans un message. Lorsque cette option est activée, elle peut entraîner une utilisation très élevée des ressources sur les machines hébergeant vos serveurs (redirection, application et base de données). Nous vous conseillons de vous assurer que votre architecture matérielle peut prendre en charge cette charge et d&#39;éviter de placer des balises de tracking Web sur les pages les plus visitées, comme la page d&#39;accueil.
+>La plateforme Adobe Campaign n’est pas destinée à être utilisée en tant qu’outil de tracking de site web, hors du cadre de la visite du site suite à un clic dans un message.Lorsque cette option est activée, elle peut entraîner une utilisation très élevée des ressources sur les machines hébergeant vos serveurs (redirection, application et base de données).Nous vous conseillons de vous assurer que votre architecture matérielle peut supporter cette charge et d’éviter de placer des balises de tracking web sur les pages les plus visitées, comme la page d’accueil.
 
 ## Configuration du serveur {#server-configuration}
 
-La configuration des serveurs se fait en surchargeant certains éléments du fichier **serverConf.xml**. Ces fichiers sont enregistrés dans le sous-répertoire **conf** du répertoire d’installation d’Adobe Campaign.
+La configuration des serveurs se fait en surchargeant certains éléments du fichier **serverConf.xml**.Ce fichier est enregistré dans le sous-répertoire **conf** du répertoire d’installation d’Adobe Campaign.
 
 ### Serveur de redirection {#redirection-server}
 

@@ -9,17 +9,14 @@ content-type: reference
 topic-tags: initial-configuration
 exl-id: 2968d8db-2b4b-48e6-a22e-daba5ffe0576
 TQID: https://experienceleague.adobe.com/UqFS48Wvx9JP84bhLSDfMe1OYscrgzknFcjKT0CWvY8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: d095671a-1355-40aa-8b5f-06c33c68080b
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 514
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +30,7 @@ Les paramètres de diffusion doivent être configurés dans le dossier **serverC
 
   >[!NOTE]
   >
-  >Le paramètre **nameServers** est essentiel pour une installation sous Windows. Pour une installation sous Linux, il doit rester vide.
+  >Le paramètre **nameServers** est indispensable pour une installation sous Windows.Pour une installation Linux, il doit être laissé vide.
 
   ```
   <dnsConfig localDomain="domain.com" nameServers="192.0.0.1,192.0.0.2"/>
@@ -45,7 +42,7 @@ Vous pouvez également effectuer les configurations suivantes en fonction de vos
 
 Le module MTA agit comme un agent de transfert de mails natif pour la diffusion par le protocole SMTP (port 25).
 
-Il est toutefois possible de le remplacer par un serveur relais si votre politique de sécurité l&#39;exige. Dans ce cas, le débit global sera celui du serveur relais (à condition que le débit du serveur relais soit inférieur à celui d&#39;Adobe Campaign).
+Il est toutefois possible de le remplacer par un serveur relais si votre politique de sécurité l’exige.Dans ce cas, le débit global sera celui du relais (si le débit du serveur relais est inférieur à celui d’Adobe Campaign).
 
 Dans ce cas, ces paramètres sont définis en configurant le serveur SMTP dans la section **`<relay>`**. Vous devez spécifier l’adresse IP (ou hôte) du serveur SMTP utilisé pour transférer l’email et son port associé (25 par défaut).
 

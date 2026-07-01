@@ -9,21 +9,14 @@ content-type: reference
 topic-tags: production-procedures
 exl-id: 1c032ef9-af11-4947-90c6-76cb9434ae85
 TQID: https://experienceleague.adobe.com/HCoIXlpEtxAHVh-rj51UD1GTNRnXh8Ir8x4t3QZT9YU
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
-  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: c03a11ff-bdf9-4e5b-b279-f468b4293464id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 530
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +26,7 @@ ht-degree: 81%
 
 La plateforme Adobe Campaign repose techniquement sur plusieurs modules.
 
-Il existe de nombreux modules Adobe Campaign. Certains fonctionnent en continu, tandis que d&#39;autres sont démarrés occasionnellement pour effectuer des tâches administratives (par exemple configurer la connexion à la base de données) ou exécuter une tâche récurrente (par exemple consolider les informations de tracking).
+Il existe de nombreux modules Adobe Campaign.Certains fonctionnent en continu, tandis que d’autres sont démarrés ponctuellement pour effectuer des actions d’administration (par exemple configurer la connexion à la base de données) ou lancer une tâche récurrente (par exemple consolider les informations de tracking).
 
 On distingue trois types de modules Adobe Campaign :
 
@@ -45,7 +38,7 @@ L&#39;administration de ces modules est assurée par l&#39;outil ligne de comman
 
 La syntaxe générale de l&#39;outil **nlserver** est la suivante :
 
-**nlserver `<command>` `<command arguments>`**
+**nlserver `<command>``<command arguments>`**
 
 Pour connaître la liste des modules disponibles, lancez la commande **nlserver**.
 
@@ -89,7 +82,7 @@ Les modules disponibles sont décrits dans le tableau suivant :
 
 >[!IMPORTANT]
 >
->Il existe un dernier module : le module de tracking et de relais vers le serveur applicatif qui, pour des raisons de performances, est intégré par des mécanismes natifs à un serveur web Apache ou IIS via une bibliothèque dynamique. Il n’existe aucune commande Adobe Campaign permettant de démarrer ou d’administrer ce module. Vous devez donc utiliser les commandes du serveur Web lui-même.
+>Il existe un dernier module : le module de tracking et de relais vers le serveur applicatif qui, pour des raisons de performances, s’intègre sous la forme d’une bibliothèque dynamique via des mécanismes natifs à un serveur web IIS ou Apache.Il n’existe aucune commande Adobe Campaign permettant de démarrer ou d’administrer ce module.Vous devez donc utiliser les commandes du serveur web lui-même.
 
 L&#39;usage d&#39;un module et la syntaxe de ses paramètres sont affichés à partir de la commande : **nlserver.`[module]`-?**
 

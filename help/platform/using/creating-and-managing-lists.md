@@ -7,23 +7,15 @@ role: User
 level: Beginner
 exl-id: 711b84cd-bac8-4f1a-9999-0124fbfc3a01
 TQID: https://experienceleague.adobe.com/25OvMdpPcLLcOuH2krs3HseeEV282ujp8Ee8aFdHxNo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-feature_v2:
-  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
-subfeature_v2:
-  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
-  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
-  - id: f5293531-9312-4099-bfa3-9e67df6a8750
-  - id: efa38731-2723-4334-8d8b-a778af834835
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+feature_v2: id: afa4204e-6d08-4e29-bc35-26aafb656d48
+subfeature_v2: id: f529d0bd-1401-4c88-9833-43228cc1d40fid: d6330382-c886-4f7a-a4f7-74e3f36c0d9cid: f5293531-9312-4099-bfa3-9e67df6a8750id: efa38731-2723-4334-8d8b-a778af834835
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 104
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +25,7 @@ ht-degree: 62%
 
 ## Qu’est-ce qu’une liste ? {#about-lists-in-adobe-campaign}
 
-Une liste est un ensemble statique de profils qui peut être ciblé dans les actions de diffusion ou mis à jour lors des opérations d&#39;import ou lors de l&#39;exécution du workflow. Par exemple, une population extraite de la base de données via une requête peut fournir une liste.
+Une liste est un ensemble statique de profils qui peuvent être ciblés dans des actions de diffusion ou mis à jour pendant des opérations d’import ou lors de l’exécution d’un workflow.Par exemple, une population extraite de la base de données via une requête peut fournir une liste.
 
 Les listes sont créées et gérées à partir du lien **[!UICONTROL Listes]** dans l’onglet **[!UICONTROL Profils et cibles]**.
 
@@ -153,14 +145,14 @@ A list is a static set of recipients that can be targeted in delivery actions or
 
 Learn how to create an audience by configuring a list of recipients from the Explorer.
 
->[!VIDEO](https://video.tv.adobe.com/v/30599?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
 ### How use a workflow to create a list of recipients {#create-list-in-a-wf-video}
 
 Learn how create a workflow in order to target recipients and how to make it recurring before using the list in an email target.
 
->[!VIDEO](https://video.tv.adobe.com/v/30539?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25603?quality=12)
 
-Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
 
 -->

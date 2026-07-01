@@ -6,9 +6,9 @@ feature: Technote, Upgrade
 hide: true
 exl-id: 7db02123-2e2a-40d9-8385-728ff69985e4
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1178'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Pour des raisons de sécurité, vous devez maintenant effectuer la mise à nivea
 
 >[!NOTE]
 >
->Pour toute question sur ces modifications, contactez l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+>Pour toute question sur ces modifications, contactez l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 >
 
 ## Mises à jour de sécurité {#acc-security-updates}
@@ -168,5 +168,5 @@ En tant que client On-premise/hybride, vous devez mettre à jour votre configura
 
 * [Mise à niveau de votre environnement](../../production/using/build-upgrade.md)
 * [FAQ sur la mise à niveau de build](../../platform/using/faq-build-upgrade.md)
-* [Télécharger la version de Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
+* [Télécharger le build Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
 * [Mettre à disposition la nouvelle console cliente auprès des utilisateurs et des utilisatrices](../../installation/using/client-console-availability-for-windows.md)

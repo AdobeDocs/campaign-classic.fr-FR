@@ -7,23 +7,14 @@ role: User
 hide: true
 exl-id: 0411686e-4f13-401e-9333-e14b05ebe9cd
 TQID: https://experienceleague.adobe.com/-Wh-pHFGE1kTId3t6g7wVJFfSvh2W5ERHi2K5-0Ohdw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-  - id: c858a28b-ea19-49b0-8d48-828717fad89c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-subfeature_v2:
-  - id: e95a583b-fcfa-4524-8666-46a29c828119
-  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
-  - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
-  - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b631758a-142d-425f-b9aa-f756d85cb979id: c858a28b-ea19-49b0-8d48-828717fad89c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+subfeature_v2: id: e95a583b-fcfa-4524-8666-46a29c828119id: c8da4fdd-eb94-4751-a43c-f82733fb2d6eid: d5bbe3da-ba85-4242-817e-54f7c4b943e0id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1649
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -107,11 +98,11 @@ Elle vous permet de différer la diffusion à une date ultérieure ou enregistre
 
 * L&#39;option **[!UICONTROL Planifier la diffusion (pas d&#39;exécution automatique)]** permet de planifier une analyse prévisionnelle de la diffusion.
 
-  Lorsque cette configuration est enregistrée, la diffusion passe au statut **[!UICONTROL Ciblage en attente]**. L’analyse sera lancée à la date spécifiée.
+  Lorsque cette configuration est enregistrée, la diffusion passe au statut **[!UICONTROL Ciblage en attente]**.L’analyse sera lancée à la date indiquée.
 
 * L&#39;option **[!UICONTROL Planifier la diffusion (exécution automatique à la date prévue)]** permet d&#39;indiquer la date de contact.
 
-  Cliquez sur **[!UICONTROL Envoyer]** et sélectionnez **[!UICONTROL Différer la diffusion]** puis lancez l’analyse et confirmez la diffusion. Une fois l’analyse terminée, la cible de la diffusion est prête et les messages sont automatiquement envoyés à la date spécifiée.
+  Cliquez sur **[!UICONTROL Envoyer]** et sélectionnez **[!UICONTROL Différer la diffusion]**, puis lancez l’analyse et confirmez la diffusion.Une fois l’analyse terminée, la cible de la diffusion est prête et les messages seront automatiquement envoyés à la date indiquée.
 
 Les dates et heures sont entendues dans le fuseau horaire de l&#39;opérateur courant. La liste déroulante **[!UICONTROL Fuseau horaire]** située sous la zone de saisie de la date de contact permet d&#39;adapter automatiquement la date et l&#39;heure saisie dans le fuseau horaire sélectionné.
 
@@ -121,11 +112,11 @@ Ainsi, si vous planifiez une diffusion pour qu&#39;elle s&#39;exécute automatiq
 
 ## Envoi en plusieurs vagues {#sending-using-multiple-waves}
 
-Pour équilibrer la charge, vous pouvez diviser les diffusions en plusieurs lots. Configurez le nombre de lots et leur proportion par rapport à l’ensemble de la diffusion.
+Pour équilibrer la charge, vous pouvez diviser les diffusions en plusieurs lots.Configurez le nombre de lots et leur proportion par rapport à l’ensemble de la diffusion.
 
 >[!NOTE]
 >
->Vous ne pouvez définir la taille et le délai qu’entre deux vagues consécutives. Les critères de sélection des destinataires pour chaque vague ne peuvent pas être configurés.
+>Vous ne pouvez définir la taille et le délai qu’entre deux vagues consécutives. Le critère de sélection des personnes destinataires pour chaque vague ne peut pas être configuré.
 
 1. Ouvrez la fenêtre des propriétés de la diffusion, puis cliquez sur l&#39;onglet **[!UICONTROL Diffusion]**.
 1. Sélectionnez l&#39;option **[!UICONTROL Envoyer en plusieurs vagues]**, puis cliquez sur le lien **[!UICONTROL Définition des vagues...]**.
@@ -144,7 +135,7 @@ Pour équilibrer la charge, vous pouvez diviser les diffusions en plusieurs lots
 
      Dans la colonne **[!UICONTROL Début]**, indiquez le délai entre le démarrage de deux vagues consécutives. Dans la colonne **[!UICONTROL Taille]**, saisissez un nombre fixe ou un pourcentage.
 
-     Dans l&#39;exemple ci-dessous, la première vague représente 25 % du nombre total de messages inclus dans la diffusion et démarrera immédiatement. Les deux vagues suivantes terminent la diffusion et sont définies pour commencer à six heures d’intervalle.
+     Dans l’exemple ci-dessous, la première vague représente 25 % du nombre total de messages inclus dans la diffusion et démarrera immédiatement.Les deux vagues suivantes terminent la diffusion et sont définies pour commencer à six heures d’intervalle.
 
      ![](assets/s_ncs_user_wizard_waves_create.png)
 
@@ -152,7 +143,7 @@ Pour équilibrer la charge, vous pouvez diviser les diffusions en plusieurs lots
 
    >[!IMPORTANT]
    >
-   >Assurez-vous que les dernières vagues ne dépassent pas la date limite de diffusion, qui est définie dans l’onglet **[!UICONTROL Validité]**. Sinon, certains messages risquent de ne pas être envoyés.
+   >Veillez à ce que les dernières vagues ne dépassent pas la date limite de la diffusion qui est définie dans l’onglet **[!UICONTROL Validité]**.Sinon, certains messages peuvent ne pas être envoyés.
    >
    >Lors de la configuration des dernières vagues, veillez également à prévoir assez de temps pour les reprises. Consultez [cette section](steps-sending-the-delivery.md#configuring-retries).
 
@@ -166,7 +157,7 @@ Les deux exemples ci-dessous constituent les cas d&#39;utilisation les plus fré
 
   Lorsque vous envoyez des e-mails à l’aide d’une nouvelle plateforme, rien n’est plus suspect pour un FAI (fournisseur d’accès internet) que les adresses IP qui ne sont pas reconnues. Si des e-mails sont subitement envoyés en masse, le FAI les range souvent dans le courrier indésirable.
 
-  Pour éviter d’être marqué comme indésirable, vous pouvez augmenter progressivement le volume envoyé à l’aide des vagues. Cela permet d’entamer la phase de démarrage en douceur et de réduire le nombre total d’adresses invalides.
+  Pour éviter que les e-mails soient marqués comme spam, vous pouvez augmenter progressivement le volume d’envoi à l’aide de vagues.Cela permet d’entamer la phase de démarrage en douceur et de réduire le nombre total d’adresses invalides.
 
   Pour ce faire, utilisez l’option **[!UICONTROL Planifier les vagues selon un calendrier]**. Par exemple, définissez la première vague sur 10 %, la deuxième sur 15 %, etc.
 

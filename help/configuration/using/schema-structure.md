@@ -10,23 +10,16 @@ level: Intermediate, Experienced
 topic-tags: schema-reference
 exl-id: 3405efb8-a37c-4622-a271-63d7a4148751
 TQID: https://experienceleague.adobe.com/dFZ38qRKX-4vTEYS9GosS5TdW-XhnoIq8ckbjnNEJmo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1523
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -155,17 +148,17 @@ Lorsque cet attribut n’est pas renseigné, **string** est le type de données 
 
 Les types de données pris en charge dans un schéma sont les suivants :
 
-* **string** : chaîne de caractères. Exemples : un prénom, une ville, etc.
+* **string** : chaîne de caractères.Exemples : un prénom, une ville, etc.
 
   La taille peut être spécifiée via l&#39;attribut **length** (optionnel, valeur par défaut &quot;255&quot;).
 
-* **boolean** : champ booléen. Exemple de valeurs possibles : vrai/faux, 0/1, oui/non, etc.
-* **byte**, **short**, **long** : entiers (1 octet, 2 octets, 4 octets). Exemples : un âge, un numéro de compte, un nombre de points, etc.
-* **double** : nombre flottant en double précision. Exemples : un prix, un taux, etc.
-* **date**, **datetime** : dates et dates + heures. Exemples : date de naissance, date d’achat, etc.
+* **boolean** : champ booléen.Exemples de valeurs possibles : vrai/faux, 0/1, oui/non, etc.
+* **byte**, **short**, **long** : entiers (1 octet, 2 octets, 4 octets).Exemples : un âge, un numéro de compte, un nombre de points, etc.
+* **double** : nombre flottant précis à deux décimales.Exemples : un prix, un taux, etc.
+* **date**, **datetime** : dates et dates + heures.Exemples : une date de naissance, une date d’achat, etc.
 * **datetimenotz** : date + heure sans données de fuseau horaire.
-* **timespan** : durées. Exemple : l&#39;ancienneté.
-* **memo** : champs texte longs (multi-lignes). Exemples : description, commentaire, etc.
+* **timespan** : durées.Exemple : l’ancienneté.
+* **memo** : champs texte long (multi-lignes).Exemples : une description, un commentaire, etc.
 * **uuid** : champ de type &quot;uniqueidentifier&quot; pour la prise en charge d’un GUID (pris en charge uniquement sous Microsoft SQL Server).
 
   >[!NOTE]
@@ -454,7 +447,7 @@ Les éléments sont désignés par leur nom, les attributs sont désignés par l
 
 >[!NOTE]
 >
->Une contrainte supplémentaire est ajoutée lorsque le chemin traverse un sous-élément. Dans ce cas, l&#39;expression suivante doit être placée entre crochets :
+>Une contrainte supplémentaire est ajoutée lorsque le chemin traverse un sous-élément.Dans ce cas, l’expression suivante doit être placée entre crochets :
 >
 >* **Location/@city** n&#39;est pas valide ; veuillez utiliser **`[location/@city]`**
 >* **`[@email]`** et **@email** sont équivalents

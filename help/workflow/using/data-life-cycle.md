@@ -6,21 +6,14 @@ feature: Workflows, Data Management
 hide: true
 exl-id: 366acc1e-d769-4053-9fa1-f47182627c07
 TQID: https://experienceleague.adobe.com/eRSi9Eu1u9pMtMiiMZI9kZLjZ1JAWCt5B4HFc4FAm3U
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 feature_v2: []
-subfeature_v2:
-  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
-  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
+subfeature_v2: id: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 548
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +45,7 @@ Sélectionnez pour cela le menu correspondant :
 
   Pour plus d’informations à ce sujet, consultez cette [section](../../reporting/using/using-the-descriptive-analysis-wizard.md).
 
-Les données de la cible sont purgées lors de l’exécution du workflow. Seule la dernière table de travail est accessible. Vous pouvez paramétrer le workflow pour que toutes les tables de travail restent accessibles. Pour cela, cochez l&#39;option **[!UICONTROL Conserver le résultat des populations intermédiaires entre deux exécutions]** dans les propriétés du workflow.
+Les données de la cible sont purgées au fur et à mesure de l’exécution du workflow.Seule la dernière table de travail est accessible.Vous pouvez paramétrer le workflow pour que toutes les tables de travail restent accessibles. Pour cela, cochez l&#39;option **[!UICONTROL Conserver le résultat des populations intermédiaires entre deux exécutions]** dans les propriétés du workflow.
 
 Toutefois, l&#39;activation de cette option est à éviter lorsque les données manipulées sont volumineuses.
 
@@ -62,13 +55,13 @@ Toutefois, l&#39;activation de cette option est à éviter lorsque les données 
 
 Les données stockées dans la table de travail du workflow sont accessibles notamment dans les champs de personnalisation.
 
-Vous pouvez ainsi utiliser dans une diffusion des données collectées via une liste ou à partir des réponses fournies à un questionnaire. Pour ce faire, utilisez la syntaxe suivante :
+Vous pouvez ainsi utiliser dans une diffusion les données collectées via une liste ou à partir des réponses fournies à un questionnaire.Pour ce faire, utilisez la syntaxe suivante :
 
 ```
 %= targetData.FIELD %
 ```
 
-Les éléments de personnalisation de type **[!UICONTROL Extension de la cible]** (targetData) ne sont pas disponibles pour les workflows de ciblage. La cible de la diffusion doit être construite dans le workflow et spécifiée dans la transition entrante de la diffusion.
+Les éléments de personnalisation de type **[!UICONTROL Extension de la cible]** (targetData) ne sont pas disponibles pour les workflows de ciblage.Ainsi, la cible de la diffusion doit être construite dans le workflow et spécifiée dans la transition entrante de la diffusion.
 
 Si vous souhaitez créer des BAT pour les diffusions, la cible des BAT doit alors être construite selon le mode **[!UICONTROL Substitution des adresses]**, afin que les données de personnalisation puissent être renseignées. Pour en savoir plus, consultez cette section dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr#target-population){target="_blank"}.
 
@@ -122,7 +115,7 @@ Les étapes sont les suivantes :
 
    ![](assets/wf-targetdata-sample-6.png)
 
-   Les données de type **[!UICONTROL extension cible]** (targetData) sont insérées dans les diffusions en utilisant les mêmes caractéristiques que tous les champs de personnalisation. Ils peuvent également être utilisés dans l’objet, les libellés du lien ou les liens eux-mêmes.
+   Les données de type **[!UICONTROL Extension de la cible]** (targetData) sont insérées dans les diffusions selon les mêmes caractéristiques que tous les champs de personnalisation.Elles peuvent également être utilisées dans l’objet, les libellés du lien ou les liens eux-mêmes.
 
    Les messages adressés aux destinataires collectés contiendront donc les données suivantes :
 

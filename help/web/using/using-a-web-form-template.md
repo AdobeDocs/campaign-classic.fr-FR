@@ -6,18 +6,13 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Web Forms
 exl-id: 0cbb8e4c-8cb4-4dd7-ad09-b8b3165c19a8
 TQID: https://experienceleague.adobe.com/Rv0Vn64-LJgNufPSOd0-1z0G7cDqMEN9QSrzZYr3ypY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-subfeature_v2:
-  - id: f391046b-0cf3-4e76-bd3b-97fe06654506
-  - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
-  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5
+subfeature_v2: id: f391046b-0cf3-4e76-bd3b-97fe06654506id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281id: d7be2b01-dc9c-40f7-aace-a151707504ed
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 239
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +20,7 @@ ht-degree: 75%
 
 
 
-Les modèles de formulaire sont des configurations réutilisables qui vous permettent de créer des formulaires. Par défaut, les modèles de formulaires sont stockés avec les modèles d&#39;applications Web dans le nœud **[!UICONTROL Ressources > Modèles > Modèles d&#39;applications Web]**.
+Les modèles de formulaire sont des configurations réutilisables qui vous permettent de créer des formulaires.Les modèles de formulaire sont stockés par défaut avec les modèles d’application web dans le nœud **[!UICONTROL Ressources > Modèles > Modèles d’application web]**.
 
 Vous pouvez créer des modèles depuis ce nœud ou transformer directement un formulaire existant en modèle.
 
@@ -35,7 +30,7 @@ Un formulaire peut être transformé en modèle afin que le paramétrage défini
 
 ![](assets/s_ncs_admin_survey_saveastemplate.png)
 
-Cette action ouvre la fenêtre de création des applications web. Vous pouvez saisir le nom et la description du modèle, puis sélectionner le dossier dans lequel il sera enregistré.
+Cette action ouvre la fenêtre de création des applications web.Vous pouvez saisir le nom et la description du modèle et sélectionner son dossier d’enregistrement.
 
 ## Créer un modèle de formulaire {#create-a-new-form-template}
 

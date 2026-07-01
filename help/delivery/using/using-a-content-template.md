@@ -6,23 +6,14 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Templates
 exl-id: e43dd68e-2e95-4367-9029-4622fbcb1759
 TQID: https://experienceleague.adobe.com/IPR6JI-v9PMQYSpvAAepSCrY-tRosNuKvO-5Ve-K-BE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-feature_v2:
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-  - id: c858a28b-ea19-49b0-8d48-828717fad89c
-subfeature_v2:
-  - id: e95a583b-fcfa-4524-8666-46a29c828119
-  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
-  - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
-  - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979id: c858a28b-ea19-49b0-8d48-828717fad89c
+subfeature_v2: id: e95a583b-fcfa-4524-8666-46a29c828119id: c8da4fdd-eb94-4751-a43c-f82733fb2d6eid: d5bbe3da-ba85-4242-817e-54f7c4b943e0id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 450
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +61,7 @@ Les étapes sont les suivantes :
 
    ![](assets/s_ncs_content_folder_use_a_template.png)
 
-1. Cliquez ensuite sur l’onglet **[!UICONTROL Aperçu]** pour afficher le rendu. Ici, les champs de personnalisation issus de la base de données ne sont pas renseignés.
+1. Cliquez ensuite sur l’onglet **[!UICONTROL Aperçu HTML]** pour visualiser le rendu.Ici, les champs de personnalisation issus de la base de données ne sont pas renseignés.
 
    ![](assets/s_ncs_content_folder_use_a_template_preview.png)
 
@@ -84,7 +75,7 @@ Les étapes sont les suivantes :
 
    >[!NOTE]
    >
-   >Vous pouvez autoriser la génération de contenus non approuvés. Pour ce faire, modifiez l&#39;option correspondante dans le modèle de publication. Voir à ce sujet la section [Création et paramétrage du modèle](publication-templates.md#creating-and-configuring-the-template).
+   >Vous pouvez autoriser la génération de contenus non approuvés.Pour cela, modifiez l’option correspondante dans le modèle de publication.Voir à ce sujet la section [Création et paramétrage du modèle](publication-templates.md#creating-and-configuring-the-template).
 
    Les contenus HTML et Texte sont générés par défaut dans le dossier **publishing** de l&#39;instance Adobe Campaign. Vous pouvez modifier le dossier de publication depuis l&#39;option **NcmPublishingDir**.
 

@@ -7,30 +7,21 @@ feature: Seed Address
 role: User
 exl-id: 1f55eda8-c393-4f86-9118-01bcd981c6df
 TQID: https://experienceleague.adobe.com/ZFeQSj9pGtKzG-wBsm5Go39ja7jvZ0pVi8h3xKOYR8c
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-feature_v2:
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-  - id: c858a28b-ea19-49b0-8d48-828717fad89c
-subfeature_v2:
-  - id: e95a583b-fcfa-4524-8666-46a29c828119
-  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
-  - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
-  - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979id: c858a28b-ea19-49b0-8d48-828717fad89c
+subfeature_v2: id: e95a583b-fcfa-4524-8666-46a29c828119id: c8da4fdd-eb94-4751-a43c-f82733fb2d6eid: d5bbe3da-ba85-4242-817e-54f7c4b943e0id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 400
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # À propos des adresses de contrôle{#about-seed-addresses}
 
-Les adresses de contrôle permettent de cibler des destinataires qui ne correspondent pas aux critères de ciblage définis. Ainsi, les destinataires qui ne font pas partie de la portée de la diffusion peuvent la recevoir, comme tout autre destinataire cible.
+Les adresses de contrôle sont utilisées pour cibler des personnes destinataires qui ne correspondent pas aux critères de ciblage définis.Ainsi, les personnes destinataires qui ne font pas partie de la portée de la diffusion peuvent la recevoir, comme toute autre personne destinataire cible.
 
 **La protection de votre liste de diffusion** représente l’une des principales raisons de les utiliser. L’insertion d’adresses de contrôle dans votre liste de diffusion vous permet de savoir si elle est utilisée par un tiers. Les adresses de contrôle qu’elle contient recevront en effet les diffusions envoyées à votre liste de diffusion.
 
@@ -48,7 +39,7 @@ Les adresses de contrôle sont ajoutées à la cible de diffusions en étant imp
 
 >[!NOTE]
 >
->Les adresses de contrôle n’appartiennent pas au tableau des destinataires. Elles sont créées dans un tableau distinct. Si vous étendez le tableau des destinataires avec de nouvelles données, vous devez étendre le tableau des adresses de contrôle avec les mêmes données. Sinon, les champs étendus ne seront pas pris en compte pour les adresses de contrôle.
+>Les adresses de contrôle ne sont pas créées dans la table des destinataires, mais dans une table distincte.Si vous étendez le tableau des destinataires avec de nouvelles données, vous devez étendre le tableau des adresses de contrôle avec les mêmes données. Sinon, les champs étendus ne seront pas pris en compte pour les adresses de contrôle.
 >
 >Vous trouverez un exemple d’extension de table d’adresses de contrôle dans la section suivante : [Cas d’utilisation : sélection des adresses de contrôle selon des critères](use-case-selecting-seed-addresses-on-criteria.md).
 

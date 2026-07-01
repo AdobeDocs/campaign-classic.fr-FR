@@ -6,16 +6,14 @@ feature: Configuration
 role: Developer
 exl-id: a5ae0b61-3377-46d9-a327-6c897eeda770
 TQID: https://experienceleague.adobe.com/1Euw5OREQLbcjZLR0g-QKzU3tOI9041En4Z7Uf-NTy8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 244
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +30,7 @@ Les étapes pour mettre en place ces balises sont les suivantes:
 
 1. Identifier les pages que vous souhaitez tracker et déterminer leur type (WEB ou TRANSACTION).
 1. Déterminer quelles informations supplémentaires vous souhaitez collecter et étendre le schéma **nms:webTrackingLog** avec la description de ces informations. Par défaut, ce schéma propose de stocker le montant des transactions et le nombre d’articles par transaction.
-1. Création des balises de tracking Web. Vous avez le choix entre les deux méthodes suivantes :
+1. Création des balises de tracking web.Vous avez le choix entre les deux méthodes suivantes :
 
    * Insérer les URL correspondant à ces pages dans votre plateforme Adobe Campaign, puis générer et extraire les différentes balises de tracking Web associées (à partir du noeud **[!UICONTROL Ressources>On-line>Balises de tracking Web]** de la console cliente).
    * Créer vous-même les balises de tracking Web en mode &quot;création à la volée&quot; : les URL correspondant à ces pages seront insérées automatiquement dans votre plateforme Adobe Campaign.
@@ -41,7 +39,7 @@ Les étapes pour mettre en place ces balises sont les suivantes:
 
    >[!NOTE]
    >
-   >Toutes les balises de type WEB peuvent être ajoutées telles quelles aux pages de votre site. Les balises TRANSACTION doivent être modifiées ou ajoutées dynamiquement afin de contenir les informations supplémentaires (montant, éléments, etc.).
+   >Toutes les balises de type WEB peuvent être ajoutées telles quelles aux pages de votre site.Les balises de type TRANSACTION doivent être modifiées ou ajoutées dynamiquement afin de contenir les informations supplémentaires (montant, articles, etc.).
 
 **Exemple**:
 

@@ -9,16 +9,13 @@ content-type: reference
 topic-tags: database-maintenance
 exl-id: 194f12de-4671-4a56-8cdc-cd5e3dac147b
 TQID: https://experienceleague.adobe.com/FEOAey8zwfSTX5RNHrLsYk73IFo1So5Kt7pv7M97hxo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
-subfeature_v2:
-  - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
-  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+subfeature_v2: id: c03a11ff-bdf9-4e5b-b279-f468b4293464id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1165
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +25,7 @@ ht-degree: 78%
 
 La liste des tables à maintenir dépend de votre version d’Adobe Campaign, de l’utilisation que vous en faites et de la configuration du modèle de données.
 
-La liste suivante contient uniquement les tables les plus sujettes à la fragmentation. Les impacts sont les suivants :
+La liste ci-dessous ne contient que les tables les plus sujettes à la fragmentation.Les conséquences sont les suivantes :
 
 * une surconsommation de l&#39;espace-disque qui impacte les performances d&#39;accès à la base,
 * des index qui n’ont pas été mis à jour depuis longtemps ce qui réduit les performances des requêtes.
@@ -55,13 +52,13 @@ La liste suivante contient uniquement les tables les plus sujettes à la fragmen
    <td> NmsDeliveryPart<br /> </td> 
    <td> Volume moyen<br /> </td> 
    <td> Insertions, mises à jour, suppressions<br /> </td> 
-   <td> Table de travail dans laquelle sont insérés les enregistrements lors de la préparation de la diffusion. Elles sont ensuite mises à jour au cours de la diffusion et finalement supprimées une fois la diffusion terminée.<br /> Ce tableau a tendance à se fragmenter rapidement même si sa taille moyenne est assez limitée.<br /> </td> 
+   <td>Table de travail dans laquelle les enregistrements sont insérés pendant la préparation de la diffusion.Ils sont ensuite mis à jour pendant la diffusion, puis supprimés une fois la diffusion terminée.<br />Cette table a tendance à se fragmenter rapidement, même si sa taille moyenne reste modeste.<br /></td> 
   </tr> 
   <tr> 
    <td> NmsMirrorPageInfo<br /> </td> 
    <td> Gros volume<br /> </td> 
    <td> Insertions, suppressions<br /> </td> 
-   <td> Ce tableau contient les informations nécessaires à la génération de pages miroir personnalisées. Il contient un champ CLOB (memo) qui, en tant que tel, a tendance à être très grand. Le volume est directement proportionnel à l'historique des pages miroir conservées. <br /> </td> 
+   <td>Cette table contient les informations nécessaires à la génération de pages miroir personnalisées.Elle contient un champ mémo (CLOB) et, par conséquent, a tendance à être très volumineuse.Le volume est directement proportionnel à l'historique des pages miroir conservées. <br /> </td> 
   </tr> 
   <tr> 
    <td> NmsDeliveryStat<br /> </td> 
@@ -97,7 +94,7 @@ La liste suivante contient uniquement les tables les plus sujettes à la fragmen
    <td> XtkWorkflowJob<br /> </td> 
    <td> Très petit volume <br /> </td> 
    <td> Insertions, mises à jour, suppressions<br /> </td> 
-   <td> Ce tableau est spécifique au moteur de workflow. Il permet d’envoyer des commandes aux workflows (démarrer, arrêter, mettre en pause, par exemple). Bien qu'elle soit de petite taille, cette table est prise en compte lors du nettoyage des tables transactionnelles liées aux workflows.<br /> </td> 
+   <td>Cette table est spécifique au moteur de workflow.Elle permet d’envoyer des commandes aux workflows (Démarrer, Arrêter et Mettre en pause, par exemple).Bien qu'elle soit de petite taille, cette table est prise en compte lors du nettoyage des tables transactionnelles liées aux workflows.<br /> </td> 
   </tr> 
   <tr> 
    <td> NmsBroadLog<br /> </td> 
@@ -127,13 +124,13 @@ La liste suivante contient uniquement les tables les plus sujettes à la fragmen
    <td> NmsBroadLogMid (sur une instance de mid-sourcing)<br /> </td> 
    <td> Gros volume<br /> </td> 
    <td> Insertions, mises à jour, suppressions<br /> </td> 
-   <td> Uniquement lorsque l’instance 5.10 (ou ultérieure) est utilisée comme instance de mid-sourcing. Il s'agit de l'une des plus grandes tables de la base de données. Il existe un enregistrement par message envoyé. Ces enregistrements sont insérés, mis à jour pour suivre le statut de la diffusion et supprimés lorsque l’historique est purgé. Dans le cas d'une architecture midsourcing, il est recommandé de limiter l'historique (généralement moins de deux mois), de telle sorte que cette table garde une taille raisonnable, soit moins de 30 Go pour 60 millions de lignes comprenant les données et les index. Il est cependant très important de la reconstruire de temps à autre. <br /> </td> 
+   <td>Uniquement lorsque l’instance 5.10 (ou ultérieure) est utilisée comme instance de midsourcing.C’est la table est la plus volumineuse de la base de données.À chaque message envoyé correspond un enregistrement. Ces enregistrements sont insérés, mis à jour pour assurer le suivi du statut de la diffusion, puis supprimés lorsque l’historique est purgé.Dans le cas d'une architecture midsourcing, il est recommandé de limiter l'historique (généralement moins de deux mois), de telle sorte que cette table garde une taille raisonnable, soit moins de 30 Go pour 60 millions de lignes comprenant les données et les index. Il est cependant très important de la reconstruire de temps à autre. <br /> </td> 
   </tr> 
   <tr> 
    <td> NmsBroadLogRcp (lorsque la table NmsRecipient est utilisée) <br /> </td> 
    <td> Gros volume<br /> </td> 
    <td> Insertions, mises à jour, suppressions<br /> </td> 
-   <td> Cette table est la plus volumineuse du système. Il existe un enregistrement par message envoyé. Ces enregistrements sont insérés, mis à jour pour suivre le statut de la diffusion et supprimés lorsque l’historique est purgé. Notez qu’en version 5.10, ce tableau est plus petit que l’équivalent en 4.05 (NmsBroadLog), car le texte du message SMTP est factorisé dans le tableau NmsBroadLogMsg de la version 5.10. Il est cependant indispensable de recréer l'index de cette table régulièrement (toutes les deux semaines est une bonne base de départ) et de la reconstruire entièrement de temps à autre (tous les mois environ ou avant que les performances ne soient trop dégradées). <br /> </td> 
+   <td> Cette table est la plus volumineuse du système. À chaque message envoyé correspond un enregistrement. Ces enregistrements sont insérés, mis à jour pour assurer le suivi du statut de la diffusion, puis supprimés lorsque l’historique est purgé.Notez que dans la version 5.10, cette table est plus petite que la table équivalente dans la version 4.05 (NmsBroadLog) du fait que le texte du message SMTP est factorisé dans la table NmsBroadLogMsg dans la version 5.10.Il est cependant indispensable de recréer l'index de cette table régulièrement (toutes les deux semaines est une bonne base de départ) et de la reconstruire entièrement de temps à autre (tous les mois environ ou avant que les performances ne soient trop dégradées). <br /> </td> 
   </tr> 
   <tr> 
    <td> YyyBroadLogXxx (lorsqu'une table de destinataires externe est utilisée)<br /> </td> 
@@ -169,13 +166,13 @@ La liste suivante contient uniquement les tables les plus sujettes à la fragmen
    <td> NmsRtEvent (instance d'exécution Message Center)<br /> </td> 
    <td> Gros volume<br /> </td> 
    <td> Insertions, mises à jour, suppressions<br /> </td> 
-   <td> Table contenant la file d’attente des événements Message Center. Le statut de ces événements est mis à jour par Message Center au fur et à mesure de leur traitement. Les suppressions sont effectuées lors de la purge. Il est conseillé de régulièrement recréer l'index de cette table et la reconstruire.<br /> </td> 
+   <td>Table contenant la file d’événements Message Center.Le statut de ces événements est mis à jour par Message Center au fur et à mesure de leur traitement.Les suppressions sont effectuées lors de la purge.Il est conseillé de régulièrement recréer l'index de cette table et la reconstruire.<br /> </td> 
   </tr> 
   <tr> 
    <td> NmsEventHisto (instance de pilotage Message Center)<br /> </td> 
    <td> Gros volume<br /> </td> 
    <td> Insertions, mises à jour, suppressions<br /> </td> 
-   <td> Similaire à NmsRtEvent. Ce tableau archive chaque événement de toutes les instances d'exécution. Elle n'est utilisée par aucun processus temps réel, uniquement par des rapports.<br /> </td> 
+   <td>Semblable à NmsRtEvent.Cette table archive tous les événements de toutes les instances d’exécution.Elle n'est utilisée par aucun processus temps réel, uniquement par des rapports.<br /> </td> 
   </tr> 
   <tr> 
    <td> NmsMobileApp<br /> </td> 

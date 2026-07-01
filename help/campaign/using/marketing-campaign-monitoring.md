@@ -7,19 +7,14 @@ feature: Campaigns, Monitoring
 hide: true
 exl-id: c2b523ac-e900-4db8-85b0-dafc6ddb3eca
 TQID: https://experienceleague.adobe.com/pWtvLbBTzAs8yhya3hnXaW8o-bpMebF24L5tRL4iMD0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-subfeature_v2:
-  - id: f863efa9-030c-4466-a2b8-a52aea6b722c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: afa4204e-6d08-4e29-bc35-26aafb656d48
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+subfeature_v2: id: f863efa9-030c-4466-a2b8-a52aea6b722c
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 262
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +32,7 @@ Pour chaque campagne, l&#39;onglet **[!UICONTROL Tracking]** vous permet de visu
 
   ![](assets/s_ncs_user_op_edit_exe_tab_b.png)
 
-* Le sous-onglet **[!UICONTROL Tâches]** regroupe toutes les tâches liées à l&#39;opération. Cette vue vous permet de les modifier ou de les supprimer. Les tâches sont disponibles avec l&#39;application MRM. Elles sont présentées dans [cette section](../../mrm/using/creating-and-managing-tasks.md).
+* Le sous-onglet **[!UICONTROL Tâches]** regroupe toutes les tâches liées à la campagne.Cette vue vous permet de les modifier ou de les supprimer.Les tâches sont disponibles avec l’application MRM.Elles sont présentées dans [cette section](../../mrm/using/creating-and-managing-tasks.md).
 
   ![](assets/s_ncs_user_op_edit_exe_tab_e.png)
 
@@ -63,4 +58,4 @@ Pour contrôler l&#39;état d&#39;une diffusion, éditez-la et consultez son tab
 
 Vous pouvez consulter l&#39;état des diffusions en cliquant sur le lien **[!UICONTROL Diffusions]**, accessible à partir de la page d&#39;accueil d&#39;Adobe Campaign. Voir [Suivi des diffusions](#delivery-tracking).
 
-Les informations relatives aux processus exécutés lors d&#39;une campagne sont collectées dans l&#39;onglet **[!UICONTROL Modifier > Audit]** de la campagne. Vous pouvez y visualiser la liste des diffusions de la campagne. [En savoir plus](#tracking-a-campaign).
+Les informations relatives aux traitements exécutés dans une campagne sont regroupées dans l’onglet **[!UICONTROL Modifier > Audit]** de la campagne.Vous pouvez visualiser la liste des diffusions de la campagne.[En savoir plus](#tracking-a-campaign).

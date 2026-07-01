@@ -7,22 +7,15 @@ feature: Typology Rules, Campaigns
 hide: true
 exl-id: 5a5f26f6-38da-4488-aadb-81fcb5359331
 TQID: https://experienceleague.adobe.com/zeKJZ7Y-qtGpPtZ6tUPN42ISVU6Fh6wpOuhfcXDsyAA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c858a28b-ea19-49b0-8d48-828717fad89c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-subfeature_v2:
-  - id: e5fb657f-3c0a-4fcc-9980-3589a23ab4de
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c858a28b-ea19-49b0-8d48-828717fad89c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+subfeature_v2: id: e5fb657f-3c0a-4fcc-9980-3589a23ab4de
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 397
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +25,7 @@ ht-degree: 82%
 
 Les règles de contrôle permettent de s&#39;assurer de la validité et la qualité des messages avant leur diffusion : bon affichage des caractères, taille des SMS, format des adresses, etc.
 
-Un ensemble de règles d&#39;usine permet d&#39;effectuer les contrôles usuels. Ces contrôles (affichés en gras dans l’interface) sont les suivants :
+Un ensemble de règles d’usine vous permet d’effectuer les vérifications habituelles.Ces vérifications (affichées en gras dans l’interface) sont les suivantes :
 
 * **[!UICONTROL Validation du sujet]** (email) : vérifie que le sujet et l&#39;adresse de l&#39;expéditeur du message ne contiennent pas de caractères spéciaux, susceptibles de poser des problèmes sur certains agents mail.
 * **[!UICONTROL Validation des libellés d&#39;URL]** (email) : vérifie la présence d&#39;un libellé pour chaque URL de tracking.
@@ -49,7 +42,7 @@ Afin de répondre à vos besoins, vous pouvez définir de nouvelles règles de c
 
 **Exemple:**
 
-Dans l&#39;exemple suivant, nous allons créer une règle pour empêcher l&#39;envoi d&#39;une offre SMS à plus de 100 destinataires. Cette règle sera associée à une typologie de campagne, puis aux diffusions SMS pour lesquelles l&#39;offre concernée est disponible.
+Dans l’exemple suivant, nous allons créer une règle afin de ne pas diffuser une offre par SMS à plus de 100 personnes destinataires.Cette règle sera liée à une typologie de campagne qui sera associée aux diffusions par SMS proposant l’offre concernée.
 
 Les étapes sont les suivantes :
 

@@ -6,17 +6,13 @@ feature: Workflows, Channels Activity
 hide: true
 exl-id: 9c228cdb-331e-476e-a24c-3c7e23add3bf
 TQID: https://experienceleague.adobe.com/ed2gcvqkoOttP8-f0EJlyxWZMc5J2VaZS5FIFo-a6jA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
-subfeature_v2:
-  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
-  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
+subfeature_v2: id: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 377
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +20,7 @@ ht-degree: 70%
 
 
 
-Une action de type **Diffusion au fil de l&#39;eau** permet d&#39;ajouter de nouveaux destinataires à une diffusion existante. Ce type de diffusion évite d&#39;avoir à créer une diffusion complète à chaque fois : ce mode est souvent plus efficace, en particulier pour les alertes de faible volume ou les notifications envoyées selon les besoins.
+L’activité de type **Diffusion continue** permet d’ajouter de nouvelles personnes destinataires à une diffusion existante.Ce type de diffusion évite d’avoir à créer une diffusion à chaque fois : ce mode est souvent plus efficace, plus particulièrement pour les alertes ou notifications à faible volume envoyées selon les besoins.
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#continuous-delivery-video)
 
@@ -32,7 +28,7 @@ Au niveau du modèle de diffusion, vous pouvez spécifier un script pour calcule
 
 ![](assets/edit_diffusion_fil.png)
 
-L&#39;option **[!UICONTROL Traiter les erreurs]** affiche une transition particulière qui sera activée si une erreur est générée. Dans ce cas, le workflow ne passe pas en mode erreur et continue l’exécution.
+L’option **[!UICONTROL Traiter les erreurs]** affiche une transition particulière qui sera activée si une erreur est générée.Dans ce cas, le workflow ne passe pas en état d’erreur et son exécution se poursuit.
 
 Les erreurs prises en compte sont les erreurs du système de fichiers (impossible de déplacer un fichier, impossible d&#39;accéder au répertoire, etc.).
 
@@ -53,7 +49,7 @@ Uniquement lorsque l&#39;action **[!UICONTROL Spécifiés par l&#39;événement 
 * schéma
 * recCount
 
-Ce triplet de valeurs identifie la cible résultant de la diffusion à la volée. **[!UICONTROL tableName]** est le nom de la table qui mémorise les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (généralement nms:recipient) et **[!UICONTROL recCount]** est le nombre d&#39;éléments dans la table.
+Ce triplet de valeurs identifie la cible résultant de la diffusion à la volée. **[!UICONTROL tableName]** est le nom de la table qui enregistre les identifiants de la cible, **[!UICONTROL schema]** est le schéma de la population (habituellement nms:recipient) et **[!UICONTROL recCount]** est le nombre d’éléments dans la table.
 
 La transition associée au complémentaire possède les mêmes paramètres.
 
@@ -71,6 +67,6 @@ Une diffusion au fil de l’eau crée une diffusion et des logs de diffusion UNI
 
 Cette vidéo montre comment configurer une diffusion en continu avec une requête incrémentale.
 
->[!VIDEO](https://video.tv.adobe.com/v/30233?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
 
 D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

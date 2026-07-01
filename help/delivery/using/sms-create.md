@@ -7,24 +7,15 @@ role: User
 hide: true
 exl-id: 94aa4628-d973-433d-b963-b078e2d6672b
 TQID: https://experienceleague.adobe.com/ENt9cwc7OjXcMr5tbkg2f3BxpPBNtVytVTw70NQZPyI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-feature_v2:
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-  - id: c858a28b-ea19-49b0-8d48-828717fad89c
-subfeature_v2:
-  - id: e95a583b-fcfa-4524-8666-46a29c828119
-  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
-  - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
-  - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979id: c858a28b-ea19-49b0-8d48-828717fad89c
+subfeature_v2: id: e95a583b-fcfa-4524-8666-46a29c828119id: c8da4fdd-eb94-4751-a43c-f82733fb2d6eid: d5bbe3da-ba85-4242-817e-54f7c4b943e0id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 473
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +41,7 @@ Pour créer une diffusion SMS, procédez comme suit :
 
 Pour définir le contenu du SMS, procédez comme suit :
 
-1. Saisissez le contenu du message dans la section **[!UICONTROL Contenu texte]** de l’assistant. Les boutons de la barre d’outils permettent d’importer, d’enregistrer ou de rechercher dans un contenu. Le dernier bouton permet d&#39;insérer des champs de personnalisation.
+1. Saisissez le contenu du message dans la section **[!UICONTROL Contenu texte]** de l’assistant. Les boutons de la barre d’outils permettent d’importer, d’enregistrer ou de rechercher dans un contenu. Le dernier bouton permet d’insérer des champs de personnalisation.
 
    ![](assets/s_ncs_user_wizard_sms01_138.png)
 
@@ -60,7 +51,7 @@ Pour définir le contenu du SMS, procédez comme suit :
 
    ![](assets/s_ncs_user_wizard_sms01_139.png)
 
-   Vous pouvez approuver le SMS. Vous pouvez également afficher le contenu du SMS sur l’écran du téléphone mobile affiché à droite de l’éditeur de contenu. Cliquez sur l’écran et utilisez la souris pour faire défiler le contenu.
+   Vous pouvez approuver le SMS.Vous pouvez également visualiser le contenu du SMS sur l’écran de téléphone mobile affiché à la droite de l’éditeur de contenu.Cliquez sur l’écran et utilisez la souris pour faire défiler le contenu.
 
    ![](assets/s_ncs_user_wizard_sms01_140.png)
 
@@ -70,9 +61,9 @@ Pour définir le contenu du SMS, procédez comme suit :
 
    >[!NOTE]
    >
-   >Les SMS sont limités à une longueur de 160 caractères si la page de code Latin-1 (ISO-8859-1) est utilisée. Si le message est écrit en Unicode, il ne doit pas dépasser 70 caractères. Certains caractères spéciaux peuvent affecter la longueur du message. Pour plus d’informations sur la longueur des messages, voir la section [Translittération des caractères SMS](#about-character-transliteration).
+   >Les SMS sont limités à une longueur de 160 caractères si la page de code Latin-1 (ISO-8859-1) est utilisée.Si le message est écrit en Unicode, il ne doit pas dépasser 70 caractères.Certains caractères spéciaux peuvent affecter la longueur du message.Pour plus d’informations sur la longueur des messages, voir la section [Translittération des caractères SMS](#about-character-transliteration).
    >
-   >En présence de champs de personnalisation ou de contenu conditionnel, la taille du message varie d&#39;un destinataire à l&#39;autre. La longueur du message doit être évaluée une fois la personnalisation effectuée.
+   >Lors de la présence de champs de personnalisation ou champs de contenu conditionnel, la taille du message varie d’une personne destinataire à l’autre.La longueur du message doit être évaluée une fois la personnalisation effectuée.
    >
    >Lorsque vous lancez l&#39;analyse, la longueur des messages est contrôlée et un message d&#39;avertissement est affiché en cas de dépassement.
 

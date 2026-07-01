@@ -7,34 +7,24 @@ role: User
 level: Beginner
 exl-id: 8febceb0-9694-4045-a630-a7ff2fd18943
 TQID: https://experienceleague.adobe.com/qngVGmYzQ0Qrr1erTTlSEO7FX6djL-mfax-N4ypchy8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
-  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
-subfeature_v2:
-  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
-  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
-  - id: f5293531-9312-4099-bfa3-9e67df6a8750
-  - id: efa38731-2723-4334-8d8b-a778af834835
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: afa4204e-6d08-4e29-bc35-26aafb656d48
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: b5520579-b31f-4df7-9281-f0d9f91e2edcid: d00e9f03-e50b-4162-b143-0c0817c937c2
+subfeature_v2: id: f529d0bd-1401-4c88-9833-43228cc1d40fid: d6330382-c886-4f7a-a4f7-74e3f36c0d9cid: f5293531-9312-4099-bfa3-9e67df6a8750id: efa38731-2723-4334-8d8b-a778af834835
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 208
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
 # Prise en main de Campaign Classic{#about-adobe-campaign-classic}
 
-Pour offrir un haut degré d’engagement des clients et des expériences de qualité, les marques doivent créer des parcours client cohérents à tous les points de contact. Les marketeurs peuvent désormais concevoir, planifier, exécuter, gérer et optimiser efficacement des campagnes marketing cross-canal qui offrent un retour sur investissement marketing élevé et fidélisent les clients.
+Pour favoriser l’engagement de la clientèle et offrir des expériences de qualité, les marques doivent créer des parcours clientèle cohérents à tous les points de contact.Les spécialistes marketing peuvent désormais concevoir, planifier, exécuter, gérer et optimiser des campagnes marketing cross-canal qui offrent un retour sur investissement élevé et fidélisent les clientes et clients.
 
-Adobe Campaign permet de coordonner la création de campagnes marketing conversationnelles. Adobe Campaign dispose de fonctionnalités innovantes pour modéliser, rationaliser et automatiser les processus de marketing et de communication client.
+Adobe Campaign permet de coordonner la création de campagnes marketing conversationnelles.Adobe Campaign dispose de capacités innovantes de modélisation, de rationalisation et d’automatisation des processus du marketing et de la communication clientèle.
 
 
 >[!BEGINTABS]
@@ -101,7 +91,7 @@ You can combine the delivery functionalities and advanced campaign management fu
 
 ## Core capabilities and add-ons {#core-capabilities-and-add-ons}
 
-Adobe Campaign offers a set of capabilities to help you implementing and optimizing the conversational marketing functionalities depending on your needs and your architecture. Some of them are core capabilities and some depend on the installation of a package and on your configuration. A detailed product description is available here: [Adobe Campaign product description](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+Adobe Campaign offers a set of capabilities to help you implementing and optimizing the conversational marketing functionalities depending on your needs and your architecture. Some of them are core capabilities and some depend on the installation of a package and on your configuration. A detailed product description is available here: [Adobe Campaign product description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 The following capabilities are available. Depending on your license agreement, some of these capabilities can be available or not in your instance.
 
@@ -127,6 +117,6 @@ The following capabilities are available. Depending on your license agreement, s
 
 Cette vidéo présente les principales fonctionnalités de Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/39514?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35129?quality=12)
 
 D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

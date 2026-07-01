@@ -9,19 +9,14 @@ content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: 4f8ea358-a38d-4137-9dea-f398e60c5f5d
 TQID: https://experienceleague.adobe.com/62wVR35WAdf5-Vd9YDODZhqD75YpAPzxt5mqGbASOWQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: e656c701-3899-4db3-989c-de0980ddfffa
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: e656c701-3899-4db3-989c-de0980ddfffa
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 589
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +58,7 @@ Les étapes sont les suivantes :
    a2dismod auth_basic authn_file authz_default authz_user autoindex cgi dir env negotiation userdir
    ```
 
-   Assurez-vous que les modules **alias**, **authz_host** et **mime** sont toujours activés. Pour cela, utilisez la commande suivante :
+   Assurez-vous que les modules **alias**, **authz_host** et **mime** sont toujours activés.Pour cela, utilisez la commande suivante :
 
    ```
    a2enmod  alias authz_host mime
@@ -209,7 +204,7 @@ Les étapes sont les suivantes :
 
 ## Lancement du serveur Web et test de la configuration{#launching-the-web-server-and-testing-the-configuration}
 
-Vous pouvez maintenant tester la configuration en démarrant Apache. Le module Adobe Campaign doit alors afficher sa bannière sur la console (deux bannières sous certains systèmes d’exploitation) :
+Vous pouvez maintenant tester la configuration en démarrant Apache.Le module Adobe Campaign doit alors afficher sa bannière sur la console (deux bannières sous certains systèmes d’exploitation) :
 
 ```
  /etc/init.d/apache start

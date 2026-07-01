@@ -6,20 +6,15 @@ feature: PI
 role: Developer
 exl-id: 0f32d62d-a10a-4feb-99fe-4679b98957d4
 TQID: https://experienceleague.adobe.com/sgAVeWQxzJ6c4DB9VIA-5joGq0Y8bZ8UZfA9dg9xdeU
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 449
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -27,11 +22,11 @@ ht-degree: 67%
 
 ## Vue d&#39;ensemble {#overview}
 
-Certains clients ont besoin que les utilisateurs marketing puissent accéder aux enregistrements de données, mais ne souhaitent pas qu’ils visualisent des informations d’identification personnelle (PII) telles que le prénom, le nom ou l’adresse e-mail. Adobe Campaign propose un moyen de protéger la confidentialité et d’empêcher toute utilisation abusive des données par des opérateurs standard de Campaign.
+Certaines clientes et certains clients ont besoin que les utilisateurs et utilisatrices marketing puissent accéder aux enregistrements de données, mais ne souhaitent pas qu’ils visualisent des informations d’identification personnelles (PII) telles que le prénom, le nom ou l’adresse e-mail.Adobe Campaign propose un moyen de protéger la confidentialité et d’empêcher toute utilisation abusive des données par des opérateurs et opératrices standard.
 
 ## Mise en œuvre {#implementation}
 
-Un nouvel attribut pouvant être appliqué à n’importe quel élément ou attribut a été ajouté aux schémas. Il complète l’attribut existant **[!UICONTROL visibleIf]** . Cet attribut est : **[!UICONTROL accessibleIf]** . Lorsque vous incluez une expression XTK liée au contexte utilisateur actuel, elle peut utiliser **[!UICONTROL HasNamedRight]** ou **[!UICONTROL $(login)]** , par exemple.
+Un nouvel attribut pouvant être appliqué à n’importe quel élément ou attribut a été ajouté aux schémas. Il complète l’attribut existant **[!UICONTROL visibleIf]**.Cet attribut est : **[!UICONTROL accessibleIf]**.Lorsque vous incluez une expression XTK liée au contexte d’utilisation actuel, elle peut utiliser **[!UICONTROL HasNamedRight]** ou **[!UICONTROL $(login)]**, par exemple.
 
 Vous trouverez ci-dessous un exemple d&#39;extension de schéma de destinataire qui illustre cette utilisation :
 
@@ -50,7 +45,7 @@ Vous trouverez ci-dessous un exemple d&#39;extension de schéma de destinataire 
 
 Les principales propriétés sont les suivantes :
 
-* **[!UICONTROL visibleIf]** : masque les champs des métadonnées. Ils ne sont donc pas accessibles dans une vue de schéma, une sélection de colonne ou un créateur d’expression. Toutefois, cela ne masque aucune donnée. Si le nom du champ est saisi manuellement dans une expression, la valeur s’affiche.
+* **[!UICONTROL visibleIf]** : masque les champs des métadonnées. Ils ne sont donc pas accessibles dans la vue d’un schéma, la sélection de colonnes ou un générateur d’expressions.Toutefois, cela ne masque aucune donnée. Si le nom du champ est saisi manuellement dans une expression, la valeur s’affiche.
 * **[!UICONTROL accessibleIf]** : masque les données (en les remplaçant par des valeurs vides) de la requête obtenue. Si visibleIf est vide, il obtient la même expression que l’attribut **[!UICONTROL accessibleIf]**.
 
 Les conséquences de l&#39;utilisation de cet attribut dans Adobe Campaign sont les suivantes :
@@ -103,4 +98,4 @@ Vous trouverez ci-dessous un exemple d’extension de table de logs pour mettre 
 
 >[!NOTE]
 >
->Cette restriction s’applique aux utilisateurs n’ayant pas de connaissances techniques : un utilisateur technique, avec les autorisations associées, sera en mesure de récupérer les données. Cette méthode n&#39;est donc pas 100% sécurisée.
+>Cette restriction s’applique aux utilisateurs et utilisatrices n’ayant pas de connaissances techniques : un utilisateur ou une utilisatrice technique, disposant des autorisations associées, sera en mesure de récupérer des données.Cette méthode n’est donc pas sécurisée à 100 %.

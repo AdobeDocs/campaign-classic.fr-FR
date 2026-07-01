@@ -9,18 +9,14 @@ content-type: reference
 topic-tags: troubleshooting
 exl-id: 76411b29-d300-4aaa-8d3b-d8ff74c3ce93
 TQID: https://experienceleague.adobe.com/cu5oSibc5iznD6CUZSoLxXf1D21g-eoJG3udHBVel7w
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
 feature_v2: []
-subfeature_v2:
-  - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
-  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+subfeature_v2: id: c03a11ff-bdf9-4e5b-b279-f468b4293464id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 539
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +30,7 @@ Suivez la procédure ci-dessous pour découvrir la version exacte de Tomcat util
 
 Tomcat s’exécute sur Java et nécessite l’installation du JDK. Pour plus d’informations, voir Kit de développement Java (JDK) dans la section [Matrice de compatibilité Campaign](../../rn/using/compatibility-matrix.md).
 
-La version de Tomcat utilisée dans Adobe Campaign est une version intégrée personnalisée qui n&#39;utilise pas toutes les fonctionnalités de la version complète de Tomcat disponible en général. Elle peut donc ne pas présenter toutes les vulnérabilités de la version complète. Le Tomcat ne doit pas non plus être exposé à l&#39;Internet extérieur, et toutes les instances d&#39;Adobe Campaign exposées doivent avoir un serveur web externe (IIS, Apache, etc.) devant le Tomcat pour le protéger.
+La version de Tomcat utilisée dans Adobe Campaign est une version intégrée personnalisée qui n&#39;utilise pas toutes les fonctionnalités de la version complète de Tomcat disponible en général. Elle peut donc ne pas présenter toutes les vulnérabilités de la version complète. Le Tomcat ne doit pas non plus être exposé sur l’Internet extérieur. Par ailleurs, les instances d’Adobe Campaign exposées doivent avoir un serveur web externe (IIS, Apache, etc.)devant le Tomcat pour le protéger.
 
 Les versions nouvelles ou mises à niveau des versions intégrées de Tomcat ne sont publiées qu’avec de nouvelles versions d’Adobe Campaign et non comme des correctifs distincts en dehors des versions Adobe Campaign.
 

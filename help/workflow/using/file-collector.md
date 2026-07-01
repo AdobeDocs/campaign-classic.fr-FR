@@ -6,19 +6,14 @@ feature: Workflows, Data Management
 hide: true
 exl-id: bbec389e-c2ba-4b23-847f-b01dca6b8d5a
 TQID: https://experienceleague.adobe.com/P10IkPnf-FyMoIdOZ-t5zUCGN7PL-KPrfn9PgVmHlNk
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 feature_v2: []
-subfeature_v2:
-  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
-  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
+subfeature_v2: id: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 565
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
@@ -26,11 +21,11 @@ ht-degree: 56%
 
 
 
-Le **Collecteur de fichiers** surveille l&#39;arrivée d&#39;un ou plusieurs fichiers dans un répertoire et active sa transition pour chaque fichier reçu. Pour chaque événement, une variable **[!UICONTROL filename]** contient le nom complet du fichier reçu. Les fichiers collectés sont déplacés vers un autre répertoire à des fins d’archivage et pour s’assurer qu’ils ne sont comptabilisés qu’une seule fois.
+Le **Collecteur de fichiers** surveille l’arrivée d’un ou plusieurs fichiers dans un répertoire et active sa transition pour chacun des fichiers reçus.Pour chaque événement, une variable **[!UICONTROL filename]** contient le nom complet du fichier reçu.Les fichiers collectés sont déplacés vers un autre répertoire à des fins d’archivage et pour s’assurer qu’ils ne sont comptabilisés qu’une seule fois.
 
 Par défaut, le collecteur de fichiers est une tâche persistante testant la présence de fichiers aux heures spécifiées par le planning.
 
-Les fichiers doivent se trouver sur le serveur sur lequel le module wfserver en charge de ce workflow est exécuté. Si plusieurs modules wfserver sont déployés sur une seule instance, il est nécessaire de préciser soit l&#39;affinité des activités utilisant ces fichiers, soit l&#39;affinité globale du workflow.
+Les fichiers doivent se trouver sur le serveur sur lequel s’exécute le module wfserver qui prend en charge ce workflow.Si plusieurs modules wfserver sont déployés sur une même instance, il faut spécifier soit l’affinité des activités utilisant ces fichiers, soit l’affinité globale du workflow.
 
 ## Propriétés {#properties}
 
@@ -42,15 +37,15 @@ Le premier onglet de l’activité du **[!UICONTROL Collecteur de fichiers]** vo
 
    * **[!UICONTROL Répertoire]**
 
-     Répertoire contenant le ou les fichiers à télécharger. Ce répertoire doit être créé au préalable sur le serveur : s&#39;il n&#39;existe pas, une erreur est générée.
+     Répertoire contenant le ou les fichiers à télécharger.Ce répertoire doit être créé au préalable sur le serveur : s’il n’existe pas, une erreur est générée.
 
    * **[!UICONTROL Filtre]**
 
-     Seuls les fichiers correspondant à ce filtre sont pris en compte. Les autres fichiers du répertoire sont ignorés. Si le filtre est vide, tous les fichiers du répertoire sont pris en compte. Exemples de filtre : **&#42;.zip**, **import-&#42;.txt**.
+     Seuls les fichiers correspondant à ce filtre sont pris en compte.Les autres fichiers dans le répertoire sont ignorés.Si le filtre est vide, tous les fichiers dans le répertoire sont pris en compte.Exemples de filtre : **&#42;.zip**, **import-&#42;.txt**.
 
    * **[!UICONTROL Terminer dès qu&#39;un fichier est traité]**
 
-     Si cette option est activée, la tâche se termine après réception du premier fichier. Si plusieurs fichiers correspondant au filtre sont présents dans le répertoire, un seul sera pris en compte. Cette option garantit qu’un seul événement sera envoyé. Le fichier pris en compte est le premier de la liste par ordre alphabétique.
+     Si cette option est activée, la tâche se termine après la réception du premier fichier.Si plusieurs fichiers correspondant au filtre sont présents dans le répertoire, un seul sera pris en compte.Cette option garantit qu’un seul événement sera envoyé.Le fichier pris en compte est le premier de la liste par ordre alphabétique.
 
      Dans le cas d&#39;une activité non planifiée, si aucun fichier correspondant au filtre n&#39;est trouvé dans le répertoire spécifié et si l&#39;option **[!UICONTROL Traiter l&#39;absence de fichier]** n&#39;est pas activée, une erreur est générée.
 
@@ -70,7 +65,7 @@ Le premier onglet de l’activité du **[!UICONTROL Collecteur de fichiers]** vo
 
    * **[!UICONTROL Traiter les erreurs]**
 
-     Cette option fait apparaître une transition spéciale, à activer si une erreur est générée. Dans ce cas, le workflow ne passe pas au statut d’erreur et continue son exécution
+     Cette option fait apparaître une transition spéciale, à activer si une erreur est générée.Dans ce cas, le workflow ne passe pas au statut d’erreur et son exécution se poursuit.
 
      Les erreurs prises en compte sont les erreurs du système de fichiers (impossible de déplacer un fichier, impossible d&#39;accéder au répertoire, etc.).
 

@@ -9,21 +9,14 @@ topic-tags: migration-procedure
 hide: true
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
 TQID: https://experienceleague.adobe.com/Oi8b9GLlXTfD62SjhRfEZJviiLN5VXNUG4hYkSOjC8Y
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-  - id: eff19c99-440a-4318-b319-444edc4d8d8f
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37id: eff19c99-440a-4318-b319-444edc4d8d8f
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 722
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +44,7 @@ Vous devez disposer d’un environnement de test/développement pour effectuer l
    >
    >Par défaut la commande se lance en mode **dry**, et liste l&#39;ensemble des requêtes qui seront exécutées par la commande, mais sans les lancer. Pour exécuter les requêtes de cautérisation, utilisez l&#39;argument **run** dans la commande.
 
-1. Vérifiez que vos sauvegardes sont correctes en essayant de les restaurer. Vérifiez que vous pouvez accéder à votre base de données, à vos tables, à vos données, etc.
+1. Vérifiez que vos sauvegardes sont correctes en essayant de les restaurer.Vérifiez que vous avez bien accès à votre base de données, vos tables, vos données, etc.
 1. Testez la procédure de migration sur l&#39;environnement de développement.
 1. Si la migration de l&#39;environnement de développement s&#39;est effectuée sans erreur, migrez l&#39;environnement de production.
 
@@ -62,7 +55,7 @@ Vous devez disposer d’un environnement de test/développement pour effectuer l
 
 ## Outils d&#39;aide à la migration {#migration-tools}
 
-Plusieurs options vous permettent de mesurer l’impact d’une migration et d’identifier les problèmes potentiels. Ces options doivent être exécutées :
+Plusieurs options permettent de mesurer les impacts d’une migration et d’identifier les problèmes potentiels. Ces options sont à exécuter.Ces options doivent être exécutées :
 
 * dans la commande **config** :
 
@@ -79,7 +72,7 @@ Plusieurs options vous permettent de mesurer l’impact d’une migration et d�
 >[!NOTE]
 >
 >* Vous devez utiliser l’option **-instance:`<instanceame>`**. Il est déconseillé d’utiliser l’option  **-allinstances**.
->* La commande de mise à jour d&#39;Adobe Campaign (**postupgrade**) permet de synchroniser les ressources et de mettre à jour les schémas et la base de données. Cette opération ne peut être effectuée qu&#39;une seule fois et uniquement sur le serveur applicatif. Suite à la synchronisation des ressources, la commande **postupgrade** permet de détecter si la synchronisation génère des erreurs ou des avertissements.
+>* La commande de mise à jour d’Adobe Campaign (**postupgrade**) permet de synchroniser les ressources, et de mettre à jour les schémas et la base de données.Cette opération n’est à effectuer qu’une seule fois et uniquement sur le serveur applicatif.Suite à la synchronisation des ressources, la commande **postupgrade** permet de détecter si la synchronisation génère des erreurs ou des avertissements.
 
 ### Objets non standard ou manquants
 
@@ -95,7 +88,7 @@ Plusieurs options vous permettent de mesurer l’impact d’une migration et d�
   xtk_migration:opsecurity2 xtk:entity
   ```
 
-* L&#39;option **-showDeletedEntities** affiche la liste de tous les objets standard manquants dans la base de données ou le système de fichiers. Pour chaque objet manquant, le chemin d’accès est spécifié.
+* L’option **-showDeletedEntities** affiche la liste de tous les objets standard manquants dans la base de données ou le système de fichiers. Pour chaque objet manquant, le chemin est indiqué.Pour chaque objet manquant, le chemin d’accès est spécifié.
 
   ```
   nlserver.exe config -showDeletedEntities -instance:<instance-name>
@@ -109,7 +102,7 @@ Plusieurs options vous permettent de mesurer l’impact d’une migration et d�
 
 ### Processus de vérification {#verification-process}
 
-Intégré en standard dans la commande de postupgrade, ce processus permet d&#39;afficher les avertissements et erreurs qui pourraient faire échouer la migration. **Si des erreurs sont affichées, la migration n’a pas été exécutée.** Si cela se produit, corrigez toutes les erreurs, puis relancez le postupgrade.
+Intégré en standard dans la commande de postupgrade, ce processus permet d&#39;afficher les avertissements et erreurs qui pourraient faire échouer la migration. **Si des erreurs s’affichent, la migration n’a pas été exécutée.** Si cela se produit, corrigez toutes les erreurs, puis relancez l’opération de postupgrade.
 
 Il est possible de lancer la vérification seule (sans migration) à l&#39;aide de la commande :
 
@@ -134,7 +127,7 @@ Les expressions suivantes sont recherchées (sensibilité à la casse) :
  </thead> 
  <tbody> 
   <tr> 
-   <td> .@<br /> </td> 
+   <td>.@<br /></td> 
    <td> PU-0001<br /> </td> 
    <td> Avertissement<br /> </td> 
    <td> Ce type de syntaxe n’est plus pris en charge dans la personnalisation de la diffusion. <br /> </td> 
@@ -184,7 +177,7 @@ Une vérification de la cohérence de la base de données et des schémas est é
 
 ### Option de restauration {#restoration-option}
 
-Cette option permet de restaurer les objets d&#39;usine s&#39;ils ont été modifiés. Pour chaque objet restauré, une sauvegarde de vos modifications est stockée dans le dossier sélectionné :
+Cette option permet de restaurer les objets d’usine s’ils ont été modifiés.Pour chaque objet restauré, une sauvegarde de vos modifications est stockée dans le dossier sélectionné :
 
 ```
 nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<instance-name>
@@ -192,7 +185,7 @@ nlserver.exe config -postupgrade -restoreFactory:<backupfolder> -instance:<insta
 
 >[!NOTE]
 >
->Nous vous recommandons vivement d’utiliser des chemins de dossier absolus et de conserver l’arborescence de dossiers. Par exemple : backupFolder\nms\srcSchema\billing.xml.
+>Nous vous recommandons fortement d’utiliser des chemins de dossiers absolus et de conserver l’arborescence de dossiers.Par exemple : backupFolder\nms\srcSchema\billing.xml.
 
 ### Reprise de la migration {#resuming-migration}
 

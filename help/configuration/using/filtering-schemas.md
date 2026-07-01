@@ -6,22 +6,15 @@ feature: Custom Resources
 role: Developer
 exl-id: 009bed25-cd35-437c-b789-5b58a6d2d7c6
 TQID: https://experienceleague.adobe.com/-EcD9suVVxnqRIgsLdaADQ7T0CIMw1CzSnoqJqNe8xs
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 387
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +22,7 @@ ht-degree: 79%
 
 ## Filtres système {#system-filters}
 
-Vous pouvez filtrer l’accès aux schémas pour des utilisateurs spécifiques, selon leurs autorisations. Les filtres système vous permettent de gérer les autorisations de lecture et d’écriture des entités détaillées dans les schémas, à l’aide des paramètres **readAccess** et **writeAccess**.
+Vous pouvez filtrer l’accès aux schémas pour des utilisateurs et utilisatrices spécifiques, selon leurs autorisations.Les filtres système vous permettent de gérer les autorisations de lecture et d’écriture des entités figurant dans les schémas, au moyen des paramètres **readAccess** et **writeAccess**.
 
 >[!NOTE]
 >
@@ -37,7 +30,7 @@ Vous pouvez filtrer l’accès aux schémas pour des utilisateurs spécifiques, 
 
 * **readAccess** : permet d&#39;accéder aux données d&#39;un schéma en lecture seule.
 
-  **Avertissement** - Toutes les tables liées doivent être définies avec la même restriction. Cette configuration peut avoir un impact sur les performances.
+  **Attention** : toutes les tables liées doivent être définies avec la même restriction.Cette configuration peut avoir une incidence sur les performances.
 
 * **writeAccess** : permet d&#39;accéder aux données d&#39;un schéma en écriture.
 
@@ -45,7 +38,7 @@ Ces filtres sont renseignés au niveau de l’**élément** principal des schém
 
 * Restreindre les autorisations d’ÉCRITURE
 
-  Ici, le filtre sert à interdire les autorisations d’ÉCRITURE sur le schéma aux opérateurs ne disposant pas de l’autorisation ADMINISTRATION. Cela signifie que seuls les administrateurs disposeront d’autorisations en écriture sur les entités décrites par ce schéma.
+  Ici, le filtre sert à interdire les autorisations d’ÉCRITURE sur le schéma aux opérateurs et opératrices ne disposant pas de l’autorisation d’ADMINISTRATION.Cela signifie que seuls les administrateurs et administratrices disposeront d’autorisations d’écriture sur les entités décrites par ce schéma.
 
   ```
   <sysFilter name="writeAccess">      

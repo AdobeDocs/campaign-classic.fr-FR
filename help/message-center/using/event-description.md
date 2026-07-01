@@ -8,14 +8,13 @@ content-type: reference
 topic-tags: introduction
 exl-id: 9f7f4b6c-2ee8-4091-847d-f616d6abeb6b
 TQID: https://experienceleague.adobe.com/Fe-nquKp2-Mp18dsMdNdZnLCjUjKbcat06Arlxi-3-Q
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 759
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -31,21 +30,21 @@ La messagerie transactionnelle repose sur le modèle de données d’Adobe Camp
 
 Cette section décrit les méthodes SOAP associées aux schémas du module des messages transactionnels.
 
-Deux méthodes SOAP **PushEvent** ou **PushEvents** sont liées aux deux schémas de données **nms:rtEvent** et **nms:BatchEvent**. C&#39;est le système d&#39;information qui détermine si un événement est de type &quot;batch&quot; ou &quot;temps réel&quot;.
+Deux méthodes SOAP **PushEvent** ou **PushEvents** sont liées aux deux schémas de données **nms:rtEvent** et **nms:BatchEvent**.C&#39;est le système d&#39;information qui détermine si un événement est de type &quot;batch&quot; ou &quot;temps réel&quot;.
 
 * **PushEvent** permet d&#39;insérer un seul événement dans le message,
 * **PushEvents** permet d&#39;insérer une collection d&#39;événements dans le message.
 
 Le chemin WSDL d&#39;accès aux deux méthodes est :
 
-* **:rtEvent** pour accéder au schéma de type en temps réel.
-* **:batchEvent** pour accéder au schéma de type de lot.
+* **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent** pour accéder au schéma de type en temps réel.
+* **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:batchEvent** pour accéder au schéma de type lot.
 
 Pour plus d’informations sur la génération d’un fichier WSDL, voir [cette section](../../configuration/using/web-service-calls.md#web-service-description--wsdl).
 
 Les deux méthodes contiennent un élément **`<urn:sessiontoken>`** permettant de se connecter au module de message transactionnel. Nous vous recommandons d&#39;utiliser une méthode d&#39;identification via des adresses IP approuvées. Pour récupérer le jeton de session, effectuez un appel SOAP de connexion, puis un jeton get suivi d’une fermeture de session. Utilisez le même jeton pour plusieurs appels RT. Les exemples inclus dans cette section utilisent la méthode du jeton de session qui est recommandée.
 
-Si vous utilisez un serveur avec équilibrage de charge, vous pouvez utiliser l’authentification Utilisateur/Mot de passe (au niveau du message RT). Exemple:
+Si votre serveur présente une répartition de la charge, vous pouvez utiliser l’authentification par utilisateur ou utilisatrice/mot de passe (au niveau du message RT).Exemple:
 
 ```
 <PushEvent xmlns="urn:nms:rtEvent">
@@ -127,13 +126,13 @@ Les attributs obligatoires des éléments **`<rtevent>`** et **`<batchevent>`** 
 
 Dans cet exemple, deux canaux sont renseignés : l&#39;adresse email et le numéro de téléphone portable. Le champ **wishedChannel** permet de définir le canal qui sera utilisé lors de la transformation de l&#39;évènement en message. La valeur &quot;0&quot; correspond au canal email, la valeur &quot;1&quot; au canal mobile, etc.
 
-Si vous souhaitez reporter une diffusion d’événement, ajoutez le champ **[!UICONTROL planifié]** suivi de la date souhaitée. L&#39;événement sera transformé en message à cette date.
+Si vous souhaitez différer la diffusion d’un événement, ajoutez le champ **[!UICONTROL planifié]** suivi de la date souhaitée.L’événement sera transformé en message à cette date.
 
-Nous vous recommandons de renseigner les attributs @wishedChannel et @emailFormat avec des valeurs numériques. La table des fonctions qui lie les valeurs numériques et les libellés se trouve dans la description du schéma de données.
+Nous vous recommandons de renseigner les attributs @wishedChannel et @emailFormat avec des valeurs numériques.La table de correspondance entre les valeurs numériques et les libellés associés se trouve dans la description des schémas de données.
 
 >[!NOTE]
 >
->Une description détaillée de tous les attributs autorisés, ainsi que de leurs valeurs, est disponible dans la section description du schéma de données **nms:rtEvent** et **nms:BatchEvent**.
+>Une description détaillée de tous les attributs autorisés, ainsi que de leurs valeurs, est disponible dans la description des schémas de données **nms:rtEvent** et **nms:BatchEvent**.
 
 L’élément **`<ctx>`** contient les données du message. Son contenu XML est ouvert, ce qui signifie qu’il peut être configuré selon le contenu à diffuser.
 
@@ -164,11 +163,11 @@ Exemple de données :
 
 ## Informations retournées par l&#39;appel SOAP {#information-returned-by-the-soap-call}
 
-Lorsqu’il reçoit un événement, Adobe Campaign génère un identifiant de retour unique. Il s’agit de l’identifiant de la version archivée de l’événement.
+Lorsqu’il reçoit un événement, Adobe Campaign génère un ID de retour unique.Il s’agit de l’ID de la version archivée de l’événement.
 
 >[!IMPORTANT]
 >
->Lors de la réception d’appels SOAP, Adobe Campaign vérifie le format des adresses e-mail. Si une adresse e-mail n’est pas correctement formatée, une erreur est renvoyée.
+>Lors de la réception d’appels SOAP, Adobe Campaign vérifie le format de l’adresse e-mail.Si une adresse e-mail n’est pas correctement formatée, une erreur est renvoyée.
 
 * Exemple d&#39;identifiant renvoyé par la méthode lorsque le traitement d&#39;un événement a réussi :
 

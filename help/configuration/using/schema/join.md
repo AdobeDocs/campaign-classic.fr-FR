@@ -5,14 +5,13 @@ description: élément join
 feature: Schema Extension
 exl-id: a7ca0300-d250-429c-8ae1-2ae7dee82cf5
 TQID: https://experienceleague.adobe.com/qze6zOBr1DxBIClCPPjIAZ2BeS7mMwnTFuoMw2-d9Cw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 217
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +64,7 @@ Lien entre le champ &#39;email&#39; de la table courante et le champ &quot;@comp
 <join xpath-dst="@compagny-id" xpath-src="@email"/>
 ```
 
-Lien filtré vers la table « cus:Country » à partir du contenu du champ « @country » qui doit contenir la valeur &#39;FR&#39; :
+Lien filtré vers la table « cus:Country » à partir du contenu du champ « @country » qui doit contenir la valeur « FR » :
 
 ```
 <element name="StockEN" type="link" label="MyLink" target="cus:Stock">

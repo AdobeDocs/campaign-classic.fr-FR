@@ -9,24 +9,15 @@ content-type: reference
 level: Intermediate, Experienced
 exl-id: 0e337620-a49f-4e14-8c67-9279d74736f1
 TQID: https://experienceleague.adobe.com/gWgUCcgsqeMw-mzVdhVodcp91lgTCCL7XGWp0f2ItKo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-  - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
-  - id: eb007b6d-6e57-46ab-9485-3f24d6102304
-  - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: cbcf4d90-26be-46e2-b16a-aebc529dc41eid: df0d6518-6f49-46e2-b46e-3bcc513f553fid: eb007b6d-6e57-46ab-9485-3f24d6102304id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 392
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +31,7 @@ ht-degree: 95%
 
 [!DNL Triggers] exécute des actions de marketing dans un court délai à la suite d’une action d’un utilisateur ou d’une utilisatrice. Le temps de réponse habituel est inférieur à une heure.
 
-Il permet des intégrations plus agiles, car la configuration est minimale et un tiers n’est pas impliqué.
+Il permet des intégrations plus agiles, car la configuration est minimale et aucun tiers n’est impliqué.
 Il prend également en charge des volumes de trafic élevés sans affecter les performances des activités marketing. Par exemple, l’intégration peut traiter un million de déclencheurs par heure.
 
 ![](assets/do-not-localize/book.png)Découvrez comment [créer un déclencheur Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/triggers/create.html?lang=fr) et comment identifier, définir et surveiller les comportements critiques des consommateurs et consommatrices.

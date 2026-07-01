@@ -7,22 +7,15 @@ feature: Campaigns, Audiences
 hide: true
 exl-id: 04daa67c-4057-42a7-b993-a6eddf2b883d
 TQID: https://experienceleague.adobe.com/uJW1-zNfhCUn15Nxa9T7bXTzX6nGdZJ1QfuUa38L7HY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-subfeature_v2:
-  - id: f863efa9-030c-4466-a2b8-a52aea6b722c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: afa4204e-6d08-4e29-bc35-26aafb656d48
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: id: f863efa9-030c-4466-a2b8-a52aea6b722c
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1602
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +55,7 @@ La cible principale d’une diffusion peut également être définie au travers 
 
 ### Créer le workflow {#creating-a-targeting-workflow}
 
-Le ciblage peut être créé à l’aide d’une combinaison de conditions de filtrage, enchaînées graphiquement dans un workflow. Vous pouvez créer des populations et sous-populations qui seront ciblées en fonction de vos besoins. Pour afficher l&#39;éditeur de workflows, cliquez sur l&#39;onglet **[!UICONTROL Ciblage et workflows]** dans le tableau de bord des campagnes.
+Le ciblage peut être créé au moyen d’une combinaison de conditions de filtrage dans une séquence graphique de workflow.Vous pouvez créer des populations et sous-populations qui seront ciblées en fonction de vos besoins.Pour afficher l&#39;éditeur de workflows, cliquez sur l&#39;onglet **[!UICONTROL Ciblage et workflows]** dans le tableau de bord des campagnes.
 
 ![](assets/s_ncs_user_edit_op_wf_link.png)
 
@@ -74,13 +67,13 @@ Sélectionnez les objets dans les listes situées à gauche de l&#39;espace de t
 
 ![](assets/s_ncs_user_edit_op_wf_tab_a.png)
 
-Dans le diagramme, reliez les requêtes de ciblage et de planification requises pour la construction de la cible. Vous pouvez exécuter le ciblage en cours de construction afin de contrôler la population extraite de la base de données.
+Dans le diagramme, reliez entre elles les requêtes de ciblage et de planification nécessaires à la construction de la cible.Vous pouvez exécuter le ciblage en cours de construction afin de contrôler la population extraite de la base de données.
 
 >[!NOTE]
 >
 >La procédure pour définir des requêtes est présentée avec des exemples dans [cette section](../../workflow/using/query.md).
 
-La section gauche de l&#39;éditeur contient une bibliothèque d&#39;objets graphiques représentant les activités. Le premier onglet contient les activités de ciblage et le second les activités de contrôle de flux, utilisées occasionnellement pour coordonner les activités de ciblage.
+La section gauche de l’éditeur contient une bibliothèque d’objets graphiques représentant les activités.Le premier onglet regroupe les activités de ciblage et le deuxième contient les activités de contrôle du flux, qui sont utilisées occasionnellement afin de coordonner les activités de ciblage.
 
 La barre d&#39;outils de l&#39;éditeur de diagramme permet d&#39;accéder aux fonctions de mise en page et d&#39;exécution du workflow de ciblage.
 
@@ -90,7 +83,7 @@ La barre d&#39;outils de l&#39;éditeur de diagramme permet d&#39;accéder aux f
 >
 >Les activités disponibles pour la construction du diagramme, ainsi que toutes les problématiques d&#39;affichage et de mise en page, sont présentées dans le guide [Automatiser avec des workflows](../../workflow/using/architecture.md).
 
-Vous pouvez créer plusieurs workflows de ciblage pour une même campagne. Pour ajouter un workflow :
+Vous pouvez créer plusieurs workflows de ciblage pour une même campagne.Pour ajouter un workflow, procédez comme suit :
 
 1. Positionnez le pointeur de la souris dans la section supérieure gauche de la zone de création des workflows, cliquez avec le bouton droit et choisissez **[!UICONTROL Ajouter]**. Vous pouvez également utiliser le bouton **[!UICONTROL Nouveau]** situé au-dessus de cette zone.
 
@@ -105,13 +98,13 @@ Les workflows de ciblage peuvent être lancés manuellement via le bouton **[!UI
 
 Le ciblage peut être planifié afin de s&#39;exécuter automatiquement selon un planning (planificateur) ou un événement (signal externe, import d&#39;un fichier, etc.).
 
-Actions liées à l&#39;exécution du workflow de ciblage (lancement, arrêt, pause, etc.) sont des processus **asynchrones** : la commande est enregistrée et sera effective dès que le serveur sera disponible pour l’appliquer.
+Les actions liées à l’exécution du workflow de ciblage (lancement, arrêt, pause, etc.)sont des processus **asynchrones** : la commande est enregistrée et sera effective dès que le serveur est disponible pour l’appliquer.
 
 Les icônes de la barre d&#39;outils permettent d&#39;agir sur l&#39;exécution du workflow de ciblage.
 
 * Démarrer ou redémarrer
 
-   * L&#39;icône **[!UICONTROL Démarrer]** permet de lancer le workflow de ciblage. Lorsque vous cliquez sur cette icône, toutes les activités sans transition d&#39;entrée sont activées (sauf les sauts de fin).
+   * L’icône **[!UICONTROL Démarrer]** permet de lancer le workflow de ciblage.Lorsque vous cliquez sur cette icône, toutes les activités qui n’ont pas de transition entrante sont activées (sauf les sauts de point d’entrée).
 
      ![](assets/s_user_segmentation_start.png)
 
@@ -177,7 +170,7 @@ Les icônes de la barre d&#39;outils permettent d&#39;agir sur l&#39;exécution 
 
   Dans l&#39;Explorateur, sélectionnez **[!UICONTROL Administration > Exploitation > Objets créés automatiquement > Workflows des opérations]** pour accéder aux workflows des opérations et agir sur ces derniers.
 
-  Vous pouvez arrêter votre workflow de manière inconditionnelle en cliquant sur l’icône **[!UICONTROL Actions]** et en sélectionnant **[!UICONTROL Inconditionnel]** arrêter. Cette action met fin à votre workflow de campagne.
+  Vous pouvez effectuer un arrêt sans conditions de votre workflow en cliquant sur l’icône **[!UICONTROL Actions]** et en sélectionnant **[!UICONTROL Arrêt inconditionnel]**.Cette action met fin à votre workflow de campagne.
 
   ![](assets/s_user_segmentation_stop_unconditional.png)
 
@@ -211,7 +204,7 @@ La procédure de paramétrage est présentée dans les sections [Extraire la pop
 
 Vous pouvez définir une population témoin au niveau de la diffusion : elle sera alors appliquée à chaque diffusion de l&#39;opération concernée.
 
-Par défaut, la configuration de la population témoin définie au niveau de la campagne s’applique à chaque diffusion de cette campagne. Vous pouvez toutefois adapter la population témoin à une diffusion particulière.
+Par défaut, le paramétrage de la population témoin défini au niveau de la campagne s’applique pour chaque diffusion de cette campagne.Vous pouvez toutefois adapter la population témoin unitairement pour une diffusion.
 
 >[!NOTE]
 >
@@ -228,24 +221,24 @@ La procédure de paramétrage est présentée dans les sections [Extraire la pop
 
 ### Extraction de la population témoin de la cible principale {#extracting-the-control-group-from-the-main-target}
 
-Vous pouvez extraire des destinataires de la cible principale de la diffusion. Dans ce cas, les destinataires seront issus de la cible des actions de diffusion affectées par cette configuration. Cette extraction peut être aléatoire ou résulter d&#39;un tri des destinataires.
+Vous pouvez extraire des personnes destinataires de la cible principale de la diffusion.Dans ce cas, les destinataires seront issus de la cible des actions de diffusion affectées par cette configuration. Cette extraction peut être aléatoire ou résulter d&#39;un tri des destinataires.
 
 ![](assets/s_ncs_user_extract_from_target_population.png)
 
 Pour extraire une population témoin, activez la population témoin au niveau de l&#39;opération ou de la diffusion et choisissez une des options suivantes : **[!UICONTROL Activer le tirage aléatoire]** ou **[!UICONTROL Conserver les premiers suite à un tri]**.
 
-* **[!UICONTROL Activer le tirage aléatoire]** : cette option applique un tirage aléatoire sur les destinataires présents dans la population ciblée. Ensuite, si vous définissez le seuil à 100, la population témoin sera composée de 100 destinataires sélectionnés de manière aléatoire parmi la population ciblée. L&#39;échantillonnage aléatoire dépend du moteur de base de données.
+* **[!UICONTROL Activer le tirage aléatoire]** : cette option applique un échantillonnage aléatoire aux personnes destinataires de la population ciblée.Ensuite, si vous définissez le seuil à 100, la population témoin sera composée de 100 destinataires sélectionnés de manière aléatoire parmi la population ciblée. L&#39;échantillonnage aléatoire dépend du moteur de base de données.
 * **[!UICONTROL Conserver les premiers suite à un tri]** : cette option permet de définir une limitation suivant un ou plusieurs ordres de tri. Si vous sélectionnez le champ **[!UICONTROL Âge]** comme critère de tri et puis définissez 100 comme seuil, la population témoin sera composée des 100 destinataires les plus jeunes. Par exemple, il pourrait être intéressant de définir une population témoin qui inclut les profils qui font quelques achats ou des achats fréquents et de comparer leur comportement à celui des destinataires contactés.
 
 Cliquez sur **[!UICONTROL Suivant]** pour définir l&#39;ordre de tri (si besoin) et sélectionnez le mode de limitation des destinataires.
 
 ![](assets/s_ncs_user_edit_op_target_param.png)
 
-Cette configuration équivaut à une activité de partage dans le workflow, ce qui permet de diviser la cible en sous-ensembles. La population témoin est l&#39;un de ces sous-ensembles. Pour plus d&#39;informations, consultez [cette section](../../workflow/using/architecture.md).
+Cette configuration équivaut à une activité de partage dans le workflow, ce qui vous permet de diviser la cible en sous-ensembles.La population témoin est l&#39;un de ces sous-ensembles. Pour plus d&#39;informations, consultez [cette section](../../workflow/using/architecture.md).
 
 ### Utilisation d’une nouvelle population comme population témoin {#adding-a-population}
 
-Vous pouvez définir une nouvelle population à utiliser comme population témoin. Cette population peut provenir d’un groupe de destinataires ou vous pouvez la créer via une requête spécifique.
+Vous pouvez définir une nouvelle population qui sera utilisée comme population témoin.Cette population peut provenir d’un groupe de personnes destinataires ou vous pouvez la créer via une requête spécifique.
 
 ![](assets/s_ncs_user_add_to_target_population.png)
 
@@ -258,6 +251,6 @@ Vous pouvez définir une nouvelle population à utiliser comme population témoi
 
 Cette vidéo explique comment créer une campagne et un e-mail dans Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/27487?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 D’autres vidéos pratiques sur Campaign sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

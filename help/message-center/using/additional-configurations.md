@@ -8,18 +8,14 @@ content-type: reference
 topic-tags: instance-configuration
 exl-id: 4d25d740-db57-4d18-8cae-2dd49c4a786e
 TQID: https://experienceleague.adobe.com/TJ5R6T1pu5JQU5SaGoWRgZLG2m29TWWPVB8nniorRUg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 907
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +45,7 @@ Pour ce faire, procédez comme suit :
 
 Vous pouvez utiliser l&#39;[assistant de déploiement](../../production/using/database-cleanup-workflow.md#deployment-assistant) pour configurer la durée pendant laquelle vous souhaitez conserver les événements en base dans la base de données.
 
-La purge des événements est effectuée automatiquement par le workflow [&#x200B; Nettoyage de la base de données &#x200B;](../../production/using/database-cleanup-workflow.md). Ce workflow purge les événements reçus et stockés sur les instances d’exécution et les événements archivés sur une instance de pilotage.
+La purge des événements est effectuée automatiquement par le [workflow de nettoyage de la base de données](../../production/using/database-cleanup-workflow.md).Ce workflow purge les événements reçus et stockés sur les instances d’exécution et les événements archivés sur une instance de pilotage.
 
 Pour modifier les paramètres de purge, utilisez la flèche ascendante et descendante.
 
@@ -88,7 +84,7 @@ Once the control and execution modules are installed on the same instance, you m
 
 ### Workflows de l&#39;instance d&#39;exécution {#execution-instance-workflows}
 
-Sur la ou les instances d&#39;exécution, les workflows techniques des messages transactionnels sont accessibles à partir du dossier **Administration > Exploitation > Message Center**. Il suffit de les lancer. Les workflows de la liste sont les suivants :
+Sur la ou les instances d’exécution, les workflows techniques des messages transactionnels sont accessibles depuis le dossier **Administration > Exploitation > Message Center**.Vous devez simplement les démarrer.La liste des workflows est la suivante :
 
 * **[!UICONTROL Traitement des événements batch]** (nom interne : **[!UICONTROL batchEventsProcessing]**) : ce workflow permet de répartir les événements batch dans une file d&#39;attente avant qu&#39;ils ne soient associés à un modèle de message.
 * **[!UICONTROL Traitement des événements temps réel]** (nom interne : **[!UICONTROL rtEventsProcessing]**) : ce workflow permet de répartir les événements temps réel dans une file d&#39;attente avant qu&#39;ils ne soient associés à un modèle de message.
@@ -96,12 +92,12 @@ Sur la ou les instances d&#39;exécution, les workflows techniques des messages 
 
   Les statuts d&#39;un événement sont les suivants :
 
-   * **[!UICONTROL En attente]** : l’événement est dans la file d’attente. Aucun modèle de message ne lui a encore été associé.
+   * **[!UICONTROL En attente]** : l’événement se trouve dans la file d’attente.Aucun modèle de message ne lui a encore été associé.
    * **[!UICONTROL En attente de diffusion]** : l&#39;événement est dans la file d&#39;attente, un modèle de message lui a été associé et il est en cours de traitement par la diffusion.
-   * **[!UICONTROL Envoyé]** : ce statut est copié depuis les logs de diffusion. Cela signifie que la diffusion a été envoyée.
-   * **[!UICONTROL Ignoré par la diffusion]** : ce statut est copié depuis les logs de diffusion. Il signifie que la diffusion a été ignorée.
-   * **[!UICONTROL La diffusion a échoué]** : ce statut est copié depuis les logs de diffusion. Il signifie que la diffusion a échoué.
-   * **[!UICONTROL Evénement non pris en charge]** : l&#39;association de l&#39;événement à un modèle de message a échoué. L’événement ne sera pas traité.
+   * **[!UICONTROL Envoyé]** : ce statut est copié depuis les logs de diffusion.Il signifie que la diffusion a été envoyée.
+   * **[!UICONTROL Ignoré par la diffusion]** : ce statut est copié depuis les logs de diffusion.Il signifie que la diffusion a été ignorée.
+   * **[!UICONTROL Erreur de diffusion]** : ce statut est copié depuis les logs de diffusion.Il signifie que la diffusion a échoué.
+   * **[!UICONTROL Événement non pris en charge]** : l’association de l’événement à un modèle de message a échoué.L’événement ne sera pas traité.
 
 ### Planning du workflow d’archivage
 
@@ -176,7 +172,7 @@ Sur la ou les instances d&#39;exécution, procédez comme suit :
 
    >[!IMPORTANT]
    >
-   >Ces modifications peuvent entraîner des conflits lors de la mise à niveau. Vous devrez peut-être fusionner manuellement ces formules avec leur nouvelle version.
+   >Ces modifications peuvent entraîner des conflits lors de la mise à niveau.Vous devrez peut-être fusionner manuellement ces formules avec leur nouvelle version.
 
 ### Instance de pilotage {#control-instance}
 

@@ -8,24 +8,15 @@ role: User
 hide: true
 exl-id: 585b2017-9408-4953-8505-2f6d9db8032f
 TQID: https://experienceleague.adobe.com/LybEpDwVDNAGQg5CA2nZ3IkNoyHFiYvNuKm-VXYW4s4
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-feature_v2:
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-  - id: c858a28b-ea19-49b0-8d48-828717fad89c
-subfeature_v2:
-  - id: e95a583b-fcfa-4524-8666-46a29c828119
-  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
-  - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
-  - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979id: c858a28b-ea19-49b0-8d48-828717fad89c
+subfeature_v2: id: e95a583b-fcfa-4524-8666-46a29c828119id: c8da4fdd-eb94-4751-a43c-f82733fb2d6eid: d5bbe3da-ba85-4242-817e-54f7c4b943e0id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 192
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -33,9 +24,9 @@ ht-degree: 72%
 
 ## Fichier d&#39;extraction {#extraction-file}
 
-Le nom du fichier qui contient les données extraites est défini dans le champ **[!UICONTROL Fichier]**. Le bouton situé à droite du champ permet d’utiliser des champs de personnalisation pour créer le nom du fichier.
+Le nom du fichier contenant les données extraites est défini dans le champ **[!UICONTROL Fichier]**.Le bouton situé à droite du champ vous permet d’utiliser des champs de personnalisation pour créer le nom du fichier.
 
-Par défaut, le fichier d’extraction est créé et stocké sur le serveur. Vous pouvez l&#39;enregistrer sur votre ordinateur. Pour cela, cochez l&#39;option **[!UICONTROL Rapatrier en local le fichier généré après l&#39;export]**. Dans ce cas, vous devez indiquer le chemin d&#39;accès au répertoire de stockage local et le nom du fichier.
+Par défaut, le fichier d’extraction est créé et stocké sur le serveur.Vous pouvez l’enregistrer sur votre ordinateur.Pour cela, cochez l&#39;option **[!UICONTROL Rapatrier en local le fichier généré après l&#39;export]**. Dans ce cas, vous devez indiquer le chemin d&#39;accès au répertoire de stockage local et le nom du fichier.
 
 ![](assets/s_ncs_user_mail_delivery_local_file.png)
 

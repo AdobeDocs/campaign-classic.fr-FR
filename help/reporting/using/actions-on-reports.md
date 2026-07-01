@@ -6,22 +6,14 @@ feature: Reporting, Monitoring
 badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
 exl-id: b30cdeaf-4ad6-473d-bdbc-91984755b609
 TQID: https://experienceleague.adobe.com/ds9tKPie-3bcx7H-4tyN2Naq4SgX1ZXJavXvMTYVu8A
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-subfeature_v2:
-  - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
-  - id: cfda811a-e413-43a4-adf0-7370888f5cfc
-  - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: c309ee4e-82e4-4f7e-b608-ef345678c34e
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47id: cfda811a-e413-43a4-adf0-7370888f5cfcid: afe938ea-bc18-44a4-a3fb-03e1031466cb
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 581
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +21,7 @@ ht-degree: 66%
 
 
 
-Lorsque vous consultez un rapport, la barre d’outils permet d’effectuer un certain nombre d’actions. Elles sont présentées ci-après.
+Lorsque vous visualisez un rapport, la barre d’outils vous permet d’effectuer un certain nombre d’actions.Elles sont présentées ci-après.
 
 ![](assets/s_ncs_advuser_report_wizard_2.png)
 
@@ -39,17 +31,17 @@ La barre d&#39;outils vous permet d&#39;exporter, imprimer, créer un historique
 
 ## Exportation dʼun rapport {#exporting-a-report}
 
-Sélectionnez le format dans lequel vous souhaitez exporter votre rapport dans la liste déroulante. (.xls, .pdf ou .ods).
+Sélectionnez le format vers lequel vous souhaitez exporter votre rapport dans la liste déroulante(.xls, .pdf ou .ods).
 
 ![](assets/s_ncs_advuser_report_wizard_06.png)
 
 Lorsqu&#39;un rapport contient plusieurs pages, vous devez répéter l&#39;opération pour chacune des pages.
 
-Vous pouvez configurer votre rapport en vue de l’exporter au format PDF, Excel ou OpenOffice. Ouvrez l’explorateur Adobe Campaign et sélectionnez le rapport concerné.
+Vous pouvez configurer votre rapport en vue de son export au format PDF, Excel ou OpenOffice.Ouvrez l’explorateur Adobe Campaign et sélectionnez le rapport concerné.
 
 Les options d&#39;export sont accessibles depuis la ou les activité(s) **[!UICONTROL Page]** du rapport, dans l&#39;onglet **[!UICONTROL Avancé]**.
 
-Modifiez les paramètres de **[!UICONTROL Papier]** et **[!UICONTROL Marges]** en fonction de vos besoins. Vous pouvez également n’autoriser l’exportation d’une page qu’au format PDF. Pour cela, dé-sélectionnez l&#39;option **[!UICONTROL Activer l&#39;export OpenOffice/ Microsoft Excel]**.
+Modifiez les paramètres **[!UICONTROL Papier]** et **[!UICONTROL Marges]** selon vos besoins.Vous pouvez également n’autoriser l’export d’une page qu’au format PDF.Pour cela, dé-sélectionnez l&#39;option **[!UICONTROL Activer l&#39;export OpenOffice/ Microsoft Excel]**.
 
 ![](assets/s_ncs_advuser_report_wizard_021.png)
 
@@ -72,7 +64,7 @@ Dans les rapports de type **[!UICONTROL Liste avec groupement]** destinés à ê
 
 ### Retarder l&#39;export {#postpone-the-export}
 
-Vous pouvez retarder l&#39;export d&#39;un rapport, par exemple pour attendre des appels asynchrones. Pour cela, saisissez le paramètre suivant dans le script d&#39;initialisation de la page :
+Vous pouvez retarder l’export d’un rapport, par exemple pour attendre des appels asynchrones.Pour cela, saisissez le paramètre suivant dans le script d’initialisation de la page :
 
 ```
 document.nl_waitBeforeRender = true;
@@ -84,7 +76,7 @@ Pour activer l&#39;export et lancer la conversion en PDF, utilisez la fonction *
 
 Lors de l&#39;export de certains rapports volumineux, il peut se produire des erreurs d&#39;allocation de mémoire.
 
-Dans certaines instances, la valeur par défaut **maxMB** (**SKMS** pour les instances hébergées) du JavaScript indiquée dans le fichier de configuration **serverConf.xml** est définie sur 64 Mo. Si vous rencontrez des erreurs de mémoire insuffisante lors de l’exportation d’un rapport, il peut être recommandé d’augmenter ce chiffre à 512 Mo :
+Dans certaines instances, la valeur par défaut **maxMB** (**SKMS** pour les instances hébergées) du JavaScript indiquée dans le fichier de configuration **serverConf.xml** est fixée à 64 Mo.Si vous rencontrez des erreurs de mémoire insuffisante pendant l’export d’un rapport, il peut être recommandé d’augmenter ce chiffre à 512 Mo :
 
 ```
 <javaScript maxMB="512" stackSizeKB="8"/>
@@ -116,10 +108,10 @@ Vous pouvez masquer ou afficher les historiques existants en cliquant sur l&#39;
 
 ![](assets/s_ncs_advuser_report_history_06.png)
 
-Les dates d’archivage s’affichent sous l’icône afficher/masquer . Cliquez sur l’archive pour l’afficher.
+Les dates d’archivage s’affichent sous l’icône d’affichage/de masquage.Cliquez sur l’archive pour l’afficher.
 
 ![](assets/s_ncs_advuser_report_history_04.png)
 
-Il est possible de supprimer une archive de rapport. Pour ce faire, accédez au nœud Adobe Campaign où vos rapports sont stockés. Cliquez sur l&#39;onglet **[!UICONTROL Historiques]**, sélectionnez l&#39;historique voulu et cliquez sur **[!UICONTROL Supprimer]**.
+Il est possible de supprimer une archive de rapport.Pour ce faire, accédez au nœud Adobe Campaign où sont stockés vos rapports.Cliquez sur l&#39;onglet **[!UICONTROL Historiques]**, sélectionnez l&#39;historique voulu et cliquez sur **[!UICONTROL Supprimer]**.
 
 ![](assets/s_ncs_advuser_report_history_01.png)

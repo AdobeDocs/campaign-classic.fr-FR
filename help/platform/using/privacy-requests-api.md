@@ -8,21 +8,14 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: a93bac61-f615-4178-bc12-0f056e48687d
 TQID: https://experienceleague.adobe.com/FamgSPCsG0flxP4eUriwPD3SCzGvvsfnqQXZwiMpnYI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-feature_v2:
-  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
-subfeature_v2:
-  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
-  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
-  - id: f5293531-9312-4099-bfa3-9e67df6a8750
-  - id: efa38731-2723-4334-8d8b-a778af834835
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+feature_v2: id: afa4204e-6d08-4e29-bc35-26aafb656d48
+subfeature_v2: id: f529d0bd-1401-4c88-9833-43228cc1d40fid: d6330382-c886-4f7a-a4f7-74e3f36c0d9cid: f5293531-9312-4099-bfa3-9e67df6a8750id: efa38731-2723-4334-8d8b-a778af834835
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 670
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -72,17 +65,17 @@ Voici un exemple d&#39;appel externe de l&#39;API (authentification via l&#39;AP
 
 Tout d&#39;abord, vous devez effectuer l&#39;authentification par le biais de l&#39;API :
 
-1. Téléchargez le WSDL **xtk:session** via cette URL : **`<server url>`/nl/jsp/schemawsdl.jsp?schema=xtk:session**.
+1. Téléchargez le WSDL **xtk:session** via cette URL : **`<server url>`/nl/jsp/schemawsdl.jsp?schema=xtk:session**.
 
-1. Utilisez la méthode « Logon » et transmettez un nom d’utilisateur et un mot de passe en tant que paramètres dans la requête. Vous obtiendrez une réponse contenant un jeton de session. Voici un exemple utilisant SoapUI.
+1. Utilisez la méthode « Logon » et transmettez un nom d’utilisateur ou d’utilisatrice et un mot de passe en tant que paramètres dans la demande.Vous obtiendrez une réponse contenant un jeton de session.Voici un exemple utilisant SoapUI.
 
    ![](assets/do-not-localize/privacy-api.png)
 
-1. Utilisez le jeton de session renvoyé comme authentification pour tous les appels API suivants. Il expire au bout de 24 heures.
+1. Utilisez le jeton de session renvoyé comme authentification pour tous les appels API suivants.Il expire au bout de 24 heures.
 
 Vous pouvez ensuite appeler l&#39;API de protection des données :
 
-1. Téléchargez le WSDL à partir de cette URL : **`<server url>`:privacyRequest**.
+1. Téléchargez le WSDL à partir de cette URL : **`<server url>`/nl/jsp/schemawsdl.jsp?schema=nms:privacyRequest**.
 
 1. Utilisez **[!UICONTROL CreateRequestByName]** pour créer une demande d&#39;accès à des informations personnelles spécifique.
 

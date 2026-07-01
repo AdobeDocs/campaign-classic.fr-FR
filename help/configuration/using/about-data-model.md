@@ -6,21 +6,15 @@ feature: Data Model, Configuration
 role: Developer
 exl-id: 655b5928-b005-442f-b026-2f1b0c1abb99
 TQID: https://experienceleague.adobe.com/jyvz5WCdNhYtusE-HwPRwXNlr9Wh0swcQoOT05lkOYA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-subfeature_v2:
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 921
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -46,9 +40,9 @@ Le modèle de données comprend également une partie dédiée au stockage de to
 
 Une autre partie du modèle de données permet de stocker temporairement tous les logs associés à l’exécution des campagnes.
 
-Les logs de diffusion sont tous les messages envoyés aux destinataires ou aux appareils sur tous les canaux. Le tableau principal des logs de diffusion (**NmsBroadLog**) contient les logs de diffusion pour tous les destinataires.
-Le tableau principal des logs de tracking (**NmsTrackingLog**) stocke les logs de tracking pour tous les destinataires. Les logs de tracking se rapportent aux réactions des destinataires, telles que les ouvertures d&#39;e-mail et les clics. Chaque réaction correspond à un log de tracking.
-Les logs de diffusion et de tracking sont supprimés après une certaine période, spécifiée dans Adobe Campaign et modifiable. Par conséquent, il est vivement recommandé d’exporter régulièrement les journaux.
+Les logs de diffusion sont tous les messages envoyés aux destinataires ou aux appareils sur tous les canaux. Le tableau principal des logs de diffusion (**NmsBroadLog**) contient les logs de diffusion pour toutes les personnes destinataires.
+Le tableau principal des logs de tracking (**NmsTrackingLog**) stocke les logs de tracking pour toutes les personnes destinataires. Les logs de tracking se rapportent aux réactions des destinataires, telles que les ouvertures d’e-mail et les clics. Chaque réaction correspond à un log de tracking.
+Les logs de diffusion et de tracking sont supprimés après une certaine période, spécifiée dans Adobe Campaign et modifiable. Par conséquent, il est vivement recommandé d’exporter régulièrement les logs.
 
 ### Tables techniques {#technical-tables}
 

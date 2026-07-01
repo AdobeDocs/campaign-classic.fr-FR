@@ -9,24 +9,15 @@ content-type: reference
 level: Intermediate, Experienced
 exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
 TQID: https://experienceleague.adobe.com/0Sv4efbYyu1kT-sDs4CYjDBP3RphjlqPTerDrNxN93I
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-  - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
-  - id: eb007b6d-6e57-46ab-9485-3f24d6102304
-  - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: cbcf4d90-26be-46e2-b16a-aebc529dc41eid: df0d6518-6f49-46e2-b46e-3bcc513f553fid: eb007b6d-6e57-46ab-9485-3f24d6102304id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 865
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +34,7 @@ Les déclencheurs sont utilisés pour le ciblage par un workflow de campagne qui
 Avant de commencer cette configuration, vérifiez que vous disposez des éléments suivants :
 
 * Un projet Adobe Developer.
-* Un identifiant d’organisation valide : pour trouver votre identifiant d’organisation, reportez-vous à [cette page](https://experienceleague.adobe.com/fr/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255){_blank}
+* Identifiant d’organisation valide - Pour trouver l’identifiant de votre organisation, reportez-vous à [cette page](https://experienceleague.adobe.com/fr/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255){_blank}.
 * Un accès de développement à votre organisation.
 * Une configuration de déclencheurs valide dans Adobe Analytics.
 
@@ -141,9 +132,9 @@ Voici la liste des paramètres facultatifs :
 | dumpStatePeriodSec | La période entre deux vidages du processus d&#39;état interne dans `var/INSTANCE/pipelined.json.` <br> L&#39;état interne est également accessible à la demande ici : `http://INSTANCE:7781/pipelined/status` |
 | forcedPipelineEndpoint | Désactiver la détection de PipelineServicesEndpoint et la forcer |
 | monitorServerPort | Le processus en pipeline écoutera sur ce port pour fournir le processus d&#39;état interne ici : `http://INSTANCE:PORT/pipelined/status`. <br>La valeur par défaut est de 7781 |
-| pointerFlushMessageCount | Lorsque ce nombre de messages est traité, les décalages sont enregistrés dans la base de données. <br> La valeur par défaut est 1 000 |
+| pointerFlushMessageCount | Lorsque ce nombre de messages est traité, les décalages seront enregistrés dans la base de données. <br>La valeur par défaut est de 1 000. |
 | pointerFlushPeriodSec | Après cette période, les décalages seront enregistrés dans la base de données. <br>La valeur par défaut est de 5 (secondes) |
-| processingJSThreads | Nombre de threads dédiés traitant des messages avec des connecteurs JS personnalisés. <br> La valeur par défaut est 4 |
+| processingJSThreads | Nombre de messages de traitement de threads dédiés avec des connecteurs JS personnalisés. <br>La valeur par défaut est de 4. |
 | processingThreads | Nombre de messages de traitement de threads dédiés avec code natif. <br>La valeur par défaut est de 4 |
 | retryPeriodSec | Délai entre les reprises en cas d&#39;erreurs de traitement. <br>La valeur par défaut est de 30 (secondes) |
 | retryValiditySec | Ignorer le message s&#39;il n&#39;est pas traité correctement après cette période (trop de reprises). <br>La valeur par défaut est de 300 (secondes) |

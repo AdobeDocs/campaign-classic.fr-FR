@@ -9,19 +9,14 @@ content-type: reference
 topic-tags: updating-adobe-campaign
 exl-id: 4aaa6256-256a-441d-80c9-430f8e427875
 TQID: https://experienceleague.adobe.com/cbtrIjg91oCPHz9jgAT15IyFqk-DAsrdDR-0HvkbMPE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
-  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: c03a11ff-bdf9-4e5b-b279-f468b4293464id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1308
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -168,7 +163,7 @@ Vous pouvez ensuite installer les packages requis, comme indiqué ci-dessous :
   >
   >Si vous lisez `Removing:` au lieu de `Upgrading:`, annulez la commande. Des erreurs (répertoriées ci-dessus) sont probablement à l’origine de la suppression. Dans ce cas, corrigez ces erreurs en mettant à jour ou en installant les dépendances manquantes répertoriées, puis réexécutez la commande.
 
-  Le fichier rpm possède des dépendances sur les packages que vous pouvez trouver sur les distributions CentOS/Red Hat. Si vous ne souhaitez pas utiliser certaines de ces dépendances, vous devrez peut-être utiliser l’option « nodeps » de rpm :
+  Le fichier rpm possède des dépendances sur les packages que vous pouvez trouver sur les distributions CentOS/Red Hat.Si vous ne souhaitez pas employer certaines de ces dépendances, vous devrez peut-être utiliser l’option « nodeps » du fichier rpm :
 
   ```
   rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
@@ -186,7 +181,7 @@ Vous pouvez ensuite installer les packages requis, comme indiqué ci-dessous :
 
 >[!NOTE]
 >
->Les procédures d’installation complètes sont présentées dans [cette section](../../installation/using/installing-packages-with-linux.md). Les ressources sont synchronisées automatiquement. Vous devez toutefois vous assurer qu’aucune erreur ne s’est produite. Voir à ce sujet la section [Résoudre les conflits de mise à niveau](#resolving-upgrade-conflicts).
+>Les procédures d’installation complètes sont présentées dans [cette section](../../installation/using/installing-packages-with-linux.md).La synchronisation des ressources se fait automatiquement. En revanche, vous devez vérifier qu’elle s’est déroulée sans erreur.Voir à ce sujet la section [Résoudre les conflits de mise à niveau](#resolving-upgrade-conflicts).
 >
 
 ### Redémarrer le serveur Web {#reboot-the-web-server}

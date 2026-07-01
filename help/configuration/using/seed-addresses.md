@@ -8,21 +8,16 @@ feature: Seed Address
 level: Intermediate, Experienced
 exl-id: a16103bf-0498-4f59-ad96-8bfdeea26577
 TQID: https://experienceleague.adobe.com/xEP-TmMNJ0On70jE2PdjywSXeXw5oF0LVeCDiA7nKB8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 336
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +59,7 @@ Les étapes sont les suivantes :
    name="custom_customNamespace_customSchema"
    ```
 
-   Cet élément doit contenir les champs nécessaires à l&#39;export des campagnes. Ces champs doivent porter le même nom que les champs correspondants dans le schéma externe. Par exemple, si le schéma est **[!UICONTROL cus:person]**, le schéma **[!UICONTROL nms:seedMember]** devra être étendu comme dans l’exemple suivant :
+   Cet élément doit contenir les champs nécessaires à l’export des campagnes.Ces champs doivent porter le même nom que les champs correspondants du schéma externe.Par exemple, si le schéma est **[!UICONTROL cus:person]**, le schéma **[!UICONTROL nms:seedMember]** devra être étendu comme dans l’exemple suivant :
 
    ```
      <srcSchema extendedSchema="nms:seedMember" label="Seed addresses" labelSingular="Seed address" name="seedMember" namespace="cus">
@@ -90,7 +85,7 @@ Les étapes sont les suivantes :
    >
    >    
    >    
-   >    * Pendant l’extension, vous devez spécifier un **nom SQL (@sqlname)** pour le champ « e-mail ». Le nom SQL doit être différent de &#39;sEmail&#39; qui est réservé au schéma des destinataires.
+   >    * Lors de l’extension, vous devez préciser un **nom SQL (@sqlname)** pour le champ « email ».Le nom SQL doit être différent de « sEmail » qui est réservé pour le schéma des personnes destinataires.
    >    * Vous devez impérativement mettre à jour la structure de la base de données avec le schéma créé lors de l’extension de **nms:seedMember**.
    >    * Dans l’extension **nms:seedMember**, le champ contenant l’adresse e-mail doit avoir comme attribut **name=&quot;email&quot;**. Le nom SQL doit être différent de « sEmail » qui est déjà utilisé pour le schéma des personnes destinataires. Cet attribut doit être immédiatement déclaré sous l’élément **`<element name="custom_cus_person" />`**.
    >    

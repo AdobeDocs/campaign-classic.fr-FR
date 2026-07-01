@@ -6,29 +6,27 @@ feature: Application Settings
 role: Developer
 exl-id: 160df6e1-43e5-4eb9-ad2f-5db444e314ea
 TQID: https://experienceleague.adobe.com/PG8eMBoER5bR4uc9jaQfDX4mm3rhhMxfmF5Wv4brUtg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 277
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
 # Création de balises de tracking web{#creating-web-tracking-tags}
 
-Chaque page du site que vous souhaitez suivre doit être référencée dans votre plateforme Adobe Campaign. Ce référencement peut être effectué de deux manières :
+Chaque page du site que vous souhaitez tracker doit être référencée dans votre plateforme Adobe Campaign.Ce référencement peut se faire de deux façons :
 
 1. Définition manuelle des URL des pages qui font l&#39;objet d&#39;un tracking Web.
 1. Création à la volée des URL des pages qui font l&#39;objet d&#39;un tracking Web.
 
 ## Définir les URL à tracker dans Adobe Campaign {#defining-the-urls-to-be-tracked-in-the-application}
 
-Cette méthode permet de définir manuellement les pages qui font l’objet d’un tracking Web, puis de générer la balise de tracking Web associée. Cette opération est définie dans le nœud **[!UICONTROL Exécution de campagne>Ressources>Balises de tracking Web]** de la console cliente.
+Cette méthode permet de définir manuellement les pages qui font l’objet d’un tracking web, puis de générer la balise de tracking web associée.Cette opération est définie dans le nœud **[!UICONTROL Exécution de campagne >Ressources >Balises de tracking web]** de la console cliente.
 
 ![](assets/d_ncs_integration_webtracking_screen.png)
 

@@ -5,17 +5,14 @@ description: Étapes de lʼimplémentation du module Interaction de Campaign
 feature: Interaction, Offers
 exl-id: 82b88ab7-6a95-4bb3-b8b3-abea0fdd4ca0
 TQID: https://experienceleague.adobe.com/tyQuMLnpH7JPcMah758d4YyG7Kd9ACKQLsMNiWvpOtY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-feature_v2:
-  - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+feature_v2: id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 288
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +57,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->Les étapes suivantes doivent être exécutées par un profil **Chargé de diffusion**. Ils ne peuvent modifier les offres que dans des environnements en ligne.
+>Les étapes suivantes doivent être effectuées par un profil de type **Personne chargée des diffusions**.Ce profil peut uniquement modifier les offres présentes dans les environnements en ligne.
 
 1. Créer une campagne.
 1. Référencer une offre dans une campagne ou l’envoi d’une campagne. Voir à ce sujet la section [À propos des canaux sortants](../../interaction/using/about-outbound-channels.md).

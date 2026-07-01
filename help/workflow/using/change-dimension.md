@@ -6,17 +6,13 @@ feature: Workflows, Targeting Activity
 hide: true
 exl-id: c3de99f8-089f-4c7c-be11-f375a9463eaa
 TQID: https://experienceleague.adobe.com/b9Vd8VOP-JcDHPeEInwq3UaFYrjLv2rWkcgyYOMAsiE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
-subfeature_v2:
-  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
-  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
+subfeature_v2: id: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 398
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +20,7 @@ ht-degree: 60%
 
 
 
-L&#39;activité Changement de dimension permet de changer de dimension de ciblage au cours du cycle de construction de la cible. Le déplacement de l’axe dépend du modèle de données et de la dimension d’entrée. Vous pouvez ainsi passer de la dimension « contrats » à la dimension « clients », par exemple.
+L’activité de changement de dimension vous permet de modifier la dimension de ciblage pendant le cycle de construction de la cible.Le déplacement de l’axe dépend du modèle de données et de la dimension d’entrée.Cela vous permet de passer de la dimension « contrats » à la dimension « clientes et clients », par exemple.
 
 Vous pouvez également utiliser cette activité pour définir les colonnes additionnelles de la nouvelle cible.
 
@@ -38,11 +34,11 @@ Pour paramétrer l&#39;activité de changement de dimension, respectez les étap
 
    ![](assets/s_user_change_dimension_param1.png)
 
-1. Lors du changement de dimension, vous pouvez conserver tous les éléments ou les sélectionner pour les conserver dans la sortie. Dans l’exemple suivant, la valeur maximale. nombre de doublons défini sur 2.
+1. Lors du changement de dimension, vous pouvez conserver tous les éléments ou sélectionner les éléments à conserver dans la sortie.Dans l’exemple suivant, le nombre maximumde doublons est défini sur 2.
 
    ![](assets/s_user_change_dimension_limit.png)
 
-   Lorsque vous choisissez de ne conserver qu&#39;un seul enregistrement, une collection apparaît dans le schéma de travail : cette collection représente tous les enregistrements qui ne seront pas ciblés dans le résultat final (puisqu&#39;un seul enregistrement est conservé). Comme toutes les autres collections, celle-ci permet de calculer des agrégats ou de récupérer des informations en colonnes.
+   Lorsque vous choisissez de ne conserver qu’un seul enregistrement, une collection s’affiche dans le schéma de travail : cette collection représente tous les enregistrements qui ne seront pas ciblés dans le résultat final (puisqu’un seul enregistrement est conservé).Cette collection vous permet, comme toute autre collection, de calculer des agrégats ou de récupérer des informations en colonnes.
 
    Par exemple, si on passe de la dimension des **[!UICONTROL Clients]** à celle des **[!UICONTROL Destinataires]**, il sera possible de cibler les clients d&#39;un magasin, en précisant le nombre d&#39;achats réalisés.
 
@@ -82,7 +78,7 @@ Pour paramétrer l&#39;activité de changement de dimension, respectez les étap
 
      ![](assets/wf_change-dimension_sample_05.png)
 
-1. Exécutez le workflow pour afficher le résultat de cette configuration. Comparez les données contenues dans les tableaux avant et après l’activité de changement de dimension, comparez également la structure des tableaux de workflow, comme dans les exemples suivants :
+1. Exécutez le workflow pour visualiser le résultat de cette configuration.Comparez les données contenues dans les tables avant et après l’activité de changement de dimension, et comparez la structure des tables du workflow, comme dans les exemples suivants :
 
    ![](assets/wf_change-dimension_sample_06.png)
 

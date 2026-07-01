@@ -8,16 +8,14 @@ content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 7cc78214-92b8-4b1f-a307-96ec6af818d1
 TQID: https://experienceleague.adobe.com/TSJbp95dm2tysQBxN7E7JktnHmMJndR1hXVvKkLzRIg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1174
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -32,8 +30,8 @@ Avant de commencer l&#39;installation de la console cliente, vous devez effectue
 * Obtenir vos informations d&#39;identification utilisateur
 * Installez Microsoft Edge Webview2 sur votre système (à partir de la version de build 7.3 de Campaign Classic). [En savoir plus](#webview)
 
-Le processus d’installation ou de mise à jour de la console cliente diffère selon votre implémentation de Adobe Campaign Classic.
-Consultez les détails ci-dessous pour comprendre ce qui est requis pour votre implémentation.
+Le processus d’installation ou de mise à jour de la console cliente varie selon votre implémentation d’Adobe Campaign Classic.
+Consultez les détails ci-dessous pour connaître les processus requis pour votre implémentation.
 
 ![](assets/do-not-localize/how-to-video.png) Découvrez comment installer et configurer le client Adobe Campaign dans une [vidéo](#video)
 
@@ -139,7 +137,7 @@ Une fois la console cliente installée, procédez comme suit pour créer la conn
 
    ![](assets/s_ncs_install_define_connection_02.png)
 
-1. Définissez une connexion vers votre serveur applicatif Adobe Campaign via une URL. Utilisez un DNS ou un alias de la machine, ou votre adresse IP.
+1. Définissez une connexion vers votre serveur applicatif Adobe Campaign via une URL.Utilisez soit un DNS ou un alias de la machine, soit votre adresse IP.
 
    Par exemple, vous pouvez utiliser une URL de type `https://<machine>.<domain>.com`.
 
@@ -151,7 +149,7 @@ Vous pouvez ajouter autant de connexions que nécessaire pour vous connecter, pa
 
 >[!NOTE]
 >
->Le bouton **[!UICONTROL Ajouter]** permet de créer **[!UICONTROL dossiers]** pour organiser l&#39;ensemble des connexions. Il vous suffit de glisser-déposer chaque connexion dans un dossier.
+>Le bouton **[!UICONTROL Ajouter]** permet de créer des **[!UICONTROL dossiers]** dans lesquels vous pourrez classer toutes vos connexions.Il vous suffit de glisser-déposer chaque connexion dans un dossier.
 
 ### Connexion à Adobe Campaign
 
@@ -180,6 +178,6 @@ Pour vous connecter à une instance existante, procédez comme suit :
 
 Cette vidéo explique comment installer et configurer le client Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/38267?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35124?quality=12)
 
 D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

@@ -7,25 +7,15 @@ role: User, Developer
 hide: true
 exl-id: 1bb36e71-9f1a-4553-b266-eca3f48688e2
 TQID: https://experienceleague.adobe.com/MmKuHkMyqQizW9agSWTlcNOzrzG12TkBXcHVHjGvhxA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-feature_v2:
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-  - id: c858a28b-ea19-49b0-8d48-828717fad89c
-subfeature_v2:
-  - id: e95a583b-fcfa-4524-8666-46a29c828119
-  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
-  - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
-  - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979id: c858a28b-ea19-49b0-8d48-828717fad89c
+subfeature_v2: id: e95a583b-fcfa-4524-8666-46a29c828119id: c8da4fdd-eb94-4751-a43c-f82733fb2d6eid: d5bbe3da-ba85-4242-817e-54f7c4b943e0id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 998
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -75,19 +65,19 @@ Sélectionnez le format du mail dans la section inférieure de la fenêtre :
 
 * **[!UICONTROL Tenir compte des préférences des destinataires]** (mode par défaut)
 
-  Le format du message est défini en fonction des données stockées dans le profil du destinataire et stockées par défaut dans le champ **[!UICONTROL format des e-mails]** (@emailFormat). Si une personne destinataire souhaite recevoir les messages dans un format particulier, ce format lui est envoyé. Si le champ n’est pas renseigné, un message multipart-alternative est envoyé (voir ci-dessous).
+  Le format du message est défini en fonction des informations enregistrées dans le profil de la personne destinataire et est stocké par défaut dans le champ **[!UICONTROL Format des e-mails]** (@emailFormat).Si une personne destinataire souhaite recevoir les messages dans un format particulier, ce format lui est envoyé. Si le champ n’est pas renseigné, le message est envoyé au format multipart-alternative (voir ci-dessous).
 
 * **[!UICONTROL Laisser le mailer des destinataires choisir le format le plus adapté]**
 
-  Le message contient les deux formats : texte et HTML. Le format affiché lors de la réception dépend de la configuration du logiciel de messagerie de la personne destinataire (multipart-alternative).
+  Le message contient les deux formats : texte et HTML.Le format affiché lors de la réception dépend de la configuration du logiciel de messagerie de la personne destinataire (multipart-alternative).
 
   >[!IMPORTANT]
   >
-  >Cette option inclut les deux versions du document. Elle affecte donc le taux de diffusion, car la taille du message est supérieure.
+  >Cette option inclut les deux versions du document. Elle a donc un impact sur le taux de diffusion, car la taille du message est plus importante.
 
 * **[!UICONTROL Envoyer tous les messages au format texte]**
 
-  Le message est envoyé au format texte. Le format HTML n’est pas envoyé, mais utilisé pour la page miroir uniquement lorsque le destinataire clique sur le message.
+  Le message est envoyé au format texte.Le format HTML ne sera pas envoyé, mais uniquement utilisé pour la page miroir, lorsque la personne destinataire clique sur le message.
 
 >[!NOTE]
 >
@@ -95,7 +85,7 @@ Sélectionnez le format du mail dans la section inférieure de la fenêtre :
 
 ## Générer la page miroir {#generating-mirror-page}
 
-La page miroir est une page HTML accessible en ligne via un navigateur web. Son contenu est identique à celui de l’e-mail.
+La page miroir est une page HTML accessible en ligne via un navigateur web.Son contenu est identique à celui de l’e-mail.
 
 Par défaut, la page miroir est générée si le lien est inséré dans le contenu de l’email. En savoir plus sur l’insertion de blocs de personnalisation dans la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=fr){target="_blank"}.
 

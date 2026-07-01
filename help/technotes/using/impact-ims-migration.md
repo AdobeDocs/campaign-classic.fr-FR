@@ -3,20 +3,14 @@ title: Mettre à jour l’interface de Campaign après la migration IMS
 description: En savoir plus sur les impacts de l’interface de migration d’Adobe Identity Management System
 exl-id: 8b13fe4d-d8d3-43b3-bbe4-c8c5574f585a
 TQID: https://experienceleague.adobe.com/RkgX2M0BnO5pjgI7oAp7NlycXY551manwFHhcA1LMjw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875fid: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 463
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -105,7 +99,7 @@ Vous ne pouvez plus créer, modifier, mettre à jour ou supprimer des opérateur
 
 Par conséquent, ces actions ont été désactivées dans la console cliente.
 
-L’administration des opérateurs et opératrices est centralisée dans Adobe Admin Console et les tâches suivantes sont désormais gérées exclusivement via cette console. Découvrez comment créer des utilisateurs et attribuer des autorisations dans [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/manage-permissions){target="_blank"}.
+L’administration des opérateurs et opératrices est centralisée dans Adobe Admin Console et les tâches suivantes sont désormais gérées exclusivement via cette console. Découvrez comment créer des utilisateurs et utilisatrices et attribuer des autorisations dans la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/manage-permissions){target="_blank"}.
 
 ### Options non disponibles {#unavailable-migration}
 
@@ -131,4 +125,4 @@ Après la migration, les tâches suivantes ne sont plus disponibles dans la cons
 >* [Migration des utilisateurs et utilisatrices finaux vers IMS](migrate-users-to-ims.md)
 >* [Migration des opérateurs et opératrices techniques vers Adobe Developer Console](ims-migration.md)
 >* [Dernières notes de mise à jour d’Adobe Campaign Classic v7](../../rn/using/latest-release.md)
->* [En quoi consiste Adobe Identity Management System (IMS)](https://helpx.adobe.com/fr/enterprise/using/identity.html){target="_blank"}
+>* [Présentation du système de gestion des identités (IMS) d’Adobe](https://helpx.adobe.com/fr/enterprise/using/identity.html){target="_blank"}

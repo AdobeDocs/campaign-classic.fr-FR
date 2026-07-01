@@ -8,17 +8,14 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: e1aff73a-54fb-444e-b183-df11c9b3df31
 TQID: https://experienceleague.adobe.com/geVW1WFvlnZJmiLeaI01ww-TsQvEN3-zpr57jmz2Miw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 633
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -37,13 +34,13 @@ Demandez aux utilisateurs quels types de fichiers ils téléchargent sur le serv
 
 Ajoutez tous ces types de fichiers dans serverConf/shared/datastore/@uploadAllowlist (expression régulière Java valide). En savoir plus à ce propos sur [cette page](../../installation/using/file-res-management.md).
 
-Adobe Campaign ne limite pas la taille du fichier. Mais vous pouvez le faire en configurant IIS/Apache. En savoir plus dans [cette section](../../installation/using/web-server-configuration.md).
+Adobe Campaign ne limite pas la taille du fichier.Vous pouvez toutefois le faire en configurant IIS/Apache.En savoir plus dans [cette section](../../installation/using/web-server-configuration.md).
 
 ## Relais
 
 Pour plus d’informations, reportez-vous à [cette page](../../installation/using/configuring-campaign-server.md#dynamic-page-security-and-relays).
 
-Par défaut, toutes les pages dynamiques sont relayées automatiquement au serveur Tomcat local de la machine dont le module web est démarré. Vous pouvez choisir de ne pas relayer certains d&#39;entre eux. Si vous n’utilisez pas certains modules Adobe Campaign (tels que webapp, interaction, certains jsp), vous pouvez les supprimer des règles de relais.
+Par défaut, toutes les pages dynamiques sont relayées automatiquement sur le serveur Tomcat local de la machine dont le module web est démarré.Vous pouvez choisir de ne pas relayer certaines d’entre elles.Si vous n’utilisez pas certains modules d’Adobe Campaign (tels que webapp, interaction, certains jsp), vous pouvez les supprimer des règles de relais.
 
 Nous avons forcé la possibilité d’afficher par défaut les ressources des utilisateurs finaux à l’aide de HTTP (httpAllowed=&quot;true&quot;). Comme ces pages peuvent afficher certaines PII (contenu/adresse email), un bon d’échange ou une offre, vous devez forcer de nouveau HTTPS sur ces chemins.
 
@@ -51,7 +48,7 @@ Si vous utilisez des noms d’hôte différents (un nom d’hôte public et un n
 
 ## Protection des connexions sortantes
 
-La liste par défaut des URL pouvant être appelées par les codes JavaScript (workflows, etc.) est limitée. Pour autoriser une nouvelle URL, l’administrateur doit la référencer dans le fichier [serverConf.xml](../../installation/using/the-server-configuration-file.md).
+La liste par défaut des URL pouvant être appelées par des codes JavaScript (workflows, etc.)est limitée.Pour autoriser une nouvelle URL, l’administrateur doit la référencer dans le fichier [serverConf.xml](../../installation/using/the-server-configuration-file.md).
 
 Il existe trois modes de protection des connexions :
 
@@ -69,7 +66,7 @@ Il existe trois modes de protection des connexions :
 
 Les nouveaux clients utiliseront le mode Blocking. S’ils souhaitent autoriser une nouvelle URL, ils doivent contacter leur administrateur pour l’ajouter à la liste autorisée.
 
-Les clients existants provenant d’une migration peuvent utiliser le mode d’avertissement pendant un certain temps. En attendant, ils doivent analyser le trafic sortant avant d’autoriser les URL.
+Les clientes et clients existants provenant d’une migration peuvent utiliser pendant un certain temps le mode d’avertissement.Entre-temps, ils doivent analyser le trafic sortant pour autoriser les URL.
 
 ## Restriction des commandes (côté serveur)
 
@@ -90,6 +87,6 @@ Adobe Campaign vous permet de définir un mot de passe en clair dans l’élém
 
 Par défaut, Adobe Campaign n’associe pas une session à une adresse IP spécifique, mais vous pouvez activer cette option pour empêcher tout vol de la session. Pour ce faire, dans le [fichier serverConf.xml](../../installation/using/the-server-configuration-file.md), définissez l’attribut checkIPConsistent sur **true** dans le nœud `<authentication>`.
 
-Par défaut, le MTA d’Adobe Campaign n’utilise pas de connexion sécurisée pour envoyer du contenu au serveur SMTP. Vous devez activer cette fonctionnalité (ce qui peut réduire la vitesse de diffusion). Pour ce faire, définissez **enableTLS** sur **true** dans le nœud `<smtp ...>`.
+Par défaut, le MTA d’Adobe Campaign n’utilise pas de connexion sécurisée pour envoyer du contenu au serveur SMTP.Vous devez activer cette fonctionnalité (ce qui peut réduire la vitesse de diffusion).Pour ce faire, définissez **enableTLS** sur **true** dans le nœud `<smtp ...>`.
 
 Vous pouvez réduire la durée de vie d’une session dans le nœud d’authentification (attribut sessionTimeOutSec).

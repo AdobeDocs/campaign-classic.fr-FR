@@ -8,16 +8,14 @@ content-type: reference
 topic-tags: message-templates
 exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
 TQID: https://experienceleague.adobe.com/jcmXX4aMPaTBatt4m3s-IAaAeoXnjmPaEE4oqIDoIOI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 607
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +27,7 @@ Une fois que votre [modèle de message](../../message-center/using/creating-the-
 
 ## Gestion des adresses de contrôle dans les messages transactionnels {#managing-seed-addresses-in-transactional-messages}
 
-Une adresse de contrôle vous permet d’afficher une prévisualisation de votre message, d’envoyer un BAT et de tester la personnalisation du message avant sa diffusion par e-mail ou SMS. Les adresses de contrôle sont liées à la diffusion et ne peuvent pas être utilisées pour d&#39;autres diffusions.
+Une adresse de contrôle vous permet d’afficher une prévisualisation de votre message, d’envoyer un BAT et de tester la personnalisation du message avant la diffusion par e-mail ou SMS.Les adresses de contrôle sont liées à la diffusion et ne peuvent pas être utilisées pour d&#39;autres diffusions.
 
 Pour créer des adresses de contrôle dans un message transactionnel, procédez comme suit :
 
@@ -45,7 +43,7 @@ Pour créer des adresses de contrôle dans un message transactionnel, procédez 
 
    ![](assets/messagecenter_create_seedaddr_003.png)
 
-1. Renseignez l&#39;identifiant externe : ce champ optionnel vous permet de renseigner la clé métier (identifiant unique, nom + email, etc.) commun à toutes les applications de votre site web, utilisé pour identifier vos profils. Si ce champ est également présent dans la base de données marketing d’Adobe Campaign, vous pouvez ensuite réconcilier un événement avec un profil dans la base de données.
+1. Saisissez l’identifiant externe : ce champ facultatif vous permet de saisir une clé métier (ID unique, nom + adresse e-mail, etc.)commune à toutes les applications de votre site web, utilisée pour identifier vos profils.Si ce champ est également présent dans la base de données marketing Adobe Campaign, vous pouvez ensuite réconcilier un événement avec un profil dans la base de données.
 
    ![](assets/messagecenter_create_seedaddr_003bis.png)
 
@@ -67,9 +65,9 @@ Lorsque les adresses sont créées, vous pouvez dès lors afficher l&#39;aperçu
 
 ## Données de personnalisation {#personalization-data}
 
-Il est possible d&#39;utiliser des données dans le modèle de message pour tester la personnalisation du message transactionnel. Cette fonctionnalité est utilisée pour générer un aperçu ou envoyer un BAT. Vous pouvez également afficher le rendu du message pour différents fournisseurs d&#39;accès Internet. Pour plus d&#39;informations, consultez la section [Inbox rendering](../../delivery/using/inbox-rendering.md).
+Il est possible d’utiliser des données dans le modèle de message pour tester la personnalisation des messages transactionnels.Cette fonctionnalité est utilisée pour générer une prévisualisation ou envoyer un BAT.Vous pouvez également afficher le rendu du message pour différents fournisseurs d&#39;accès Internet. Pour plus d&#39;informations, consultez la section [Inbox rendering](../../delivery/using/inbox-rendering.md).
 
-Ces données ont pour but de tester vos messages avant leur diffusion finale. Ces messages ne correspondent pas aux données réelles à traiter. Cependant, la structure XML doit être identique à celle de l&#39;événement stocké dans l&#39;instance d&#39;exécution, comme dans l&#39;exemple ci-dessous :
+Ces données ont pour but de tester vos messages avant leur diffusion finale.Ces messages ne correspondent pas aux données réelles à traiter.Cependant, la structure XML doit être identique à celle de l’événement stocké dans l’instance d’exécution, comme illustré ci-dessous :
 
 ![](assets/messagecenter_create_custo_006.png)
 
@@ -109,7 +107,7 @@ Vous pouvez tester la diffusion du message en envoyant un BAT vers une adresse d
 
 L’envoi d’un BAT engage le même processus que pour une diffusion standard. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=fr){target="_blank"}. Toutefois, avec les messages transactionnels, vous devez effectuer au préalable les opérations suivantes :
 
-* Création d&#39;une ou plusieurs [adresses de contrôle](#managing-seed-addresses-in-transactional-messages) [&#x200B; avec des données de de personnalisation](#personalization-data).
+* Création d&#39;une ou plusieurs [adresses de contrôle](#managing-seed-addresses-in-transactional-messages)[ avec des données de de personnalisation](#personalization-data).
 * [Création du contenu du message](../../message-center/using/creating-the-message-template.md#creating-message-content).
 
 Pour effectuer l&#39;envoi :

@@ -5,9 +5,9 @@ description: En savoir plus sur les workflows d’émission vers Mid-sourcing
 hide: true
 feature: Workflows
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '115'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 78%
 
 
 
-Les workflows présentés ci-dessous sont installés par défaut avec le module **Émission vers Mid-sourcing**. Pour en savoir plus à ce sujet consultez le [&#x200B; Guide d&#39;installation de Campaign Classic v7](../../installation/using/mid-sourcing-deployment.md).
+Les workflows présentés ci-dessous sont installés par défaut avec le module **Émission vers Mid-sourcing**. Pour en savoir plus à ce sujet consultez le [ Guide d&#39;installation de Campaign Classic v7](../../installation/using/mid-sourcing-deployment.md).
 
 <table> 
  <tbody> 
@@ -28,7 +28,7 @@ Les workflows présentés ci-dessous sont installés par défaut avec le module 
   <tr> 
    <td> <span class="uicontrol">Mid-sourcing (compteurs des diffusions)</span> <br /> </td> 
    <td> <span class="uicontrol">defaultMidSourcingDlv</span> <br /> </td> 
-   <td> <p>Ce workflow collecte les informations de comptage pour les diffusions sur le serveur de mid-sourcing. Les informations de comptage incluent des indicateurs généraux de diffusion, tels que le nombre de diffusions envoyées, etc.</p> <p>Les informations de tracking comme les ouvertures ne sont pas incluses.</p> <p>Par défaut, il se déclenche toutes les dix minutes.</p> </td> 
+   <td> <p>Ce workflow collecte les informations de comptage pour les diffusions sur le serveur de midsourcing.Les informations de comptage comprennent les indicateurs généraux de diffusion tels que le nombre de diffusions envoyées, etc.</p> <p>Les informations de tracking comme les ouvertures ne sont pas incluses.</p> <p>Par défaut, il se déclenche toutes les dix minutes.</p> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Mid-sourcing (logs de diffusion)</span> <br /> </td> 

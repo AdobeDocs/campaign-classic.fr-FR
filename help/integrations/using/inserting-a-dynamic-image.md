@@ -9,22 +9,14 @@ content-type: reference
 topic-tags: adobe-target
 exl-id: 6177f57b-534c-4d86-8f73-d96980c48a77
 TQID: https://experienceleague.adobe.com/ZAYETj1vL8BW-5r9YkP0teEP47bUbfmQ0GqctUrJqxs
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-  - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
-  - id: eb007b6d-6e57-46ab-9485-3f24d6102304
-  - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: cbcf4d90-26be-46e2-b16a-aebc529dc41eid: df0d6518-6f49-46e2-b46e-3bcc513f553fid: eb007b6d-6e57-46ab-9485-3f24d6102304id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 909
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +63,7 @@ Dans Adobe Campaign, vous pouvez insérer une image dynamique de Target dans un
 ### Définition des paramètres de l’image {#defining-image-parameters}
 
 * L’**[!UICONTROL URL de l’image par défaut]** : il s’agit de l’image affichée si aucune des conditions n’est remplie. Vous pouvez également sélectionner une image dans votre bibliothèque Assets.
-* Le **[!UICONTROL Emplacement cible]** : saisissez un nom pour l&#39;emplacement de votre offre dynamique. Vous devrez sélectionner cet emplacement dans votre activité Target.
+* L’**[!UICONTROL Emplacement cible]** : saisissez le nom de l’emplacement de votre offre dynamique.Vous devrez sélectionner cet emplacement dans votre activité Target.
 * La **[!UICONTROL Landing Page]** : si vous souhaitez que l’image par défaut soit redirigée vers une landing page par défaut. Cette adresse URL ne s’applique qu’aux cas où l’image par défaut est affichée dans l’email final et est facultative.
 * Les **[!UICONTROL Paramètres de décision additionnels]** : spécifiez le mapping entre les champs définis dans les segments d’Adobe Target et les champs d’Adobe Campaign. Les champs d’Adobe Campaign utilisés doivent avoir été spécifiés au niveau du « rawbox ». Dans notre exemple, nous avons ajouté le champ Pays.
 
@@ -109,7 +101,7 @@ Avec Target, vous devez créer les deux audiences dans lesquelles les visiteurs 
 
    ![](assets/audiences_2.png)
 
-1. Cliquez sur **[!UICONTROL Ajouter une règle]** et sélectionnez une catégorie. La règle utilise des critères spécifiques pour cibler les visiteurs. Vous pouvez affiner les règles en ajoutant des conditions ou en créant des règles dans d’autres catégories.
+1. Cliquez sur **[!UICONTROL Ajouter une règle]** et sélectionnez une catégorie.La règle utilise des critères spécifiques pour cibler les visiteurs et visiteuses.Vous pouvez affiner les règles en ajoutant des conditions ou en créant des règles dans d’autres catégories.
 
 1. Suivez la même procédure pour les audiences restantes.
 
@@ -155,7 +147,7 @@ Ajoutez un contenu pour chaque audience :
 
 ### Définition de l’activité {#defining-activity}
 
-La fenêtre **[!UICONTROL Target]** résume votre activité. Si nécessaire, vous pouvez ajouter d’autres expériences.
+La fenêtre **[!UICONTROL Target]** résume votre activité.Si nécessaire, vous pouvez ajouter d’autres expériences.
 
 ![](assets/target_experience.png)
 

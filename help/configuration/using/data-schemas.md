@@ -6,21 +6,15 @@ feature: Schema Extension
 role: Developer
 exl-id: d4446035-3988-4d89-b7df-7b8528c2e371
 TQID: https://experienceleague.adobe.com/4iwfPoaz5-vnbH-mPd819bB6rxGGdqGjJPwQ-kqCl-c
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 413
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +36,7 @@ La zone d&#39;édition affiche le contenu XML du schéma source :
 
 >[!NOTE]
 >
->Le contrôle d’édition « Nom » permet de saisir la clé du schéma, composée du nom et de l’espace de noms. Les attributs « name » et « namespace » de l&#39;élément racine du schéma sont automatiquement mis à jour dans la zone d&#39;édition XML du schéma.
+>Le contrôle d’édition « Nom » vous permet de saisir la clé du schéma composée du nom et de l’espace de noms.Les attributs « name » et « namespace » de l’élément racine du schéma sont automatiquement mis à jour dans la zone d’édition XML du schéma.
 
 L&#39;aperçu génère automatiquement le schéma étendu :
 
@@ -52,11 +46,11 @@ L&#39;aperçu génère automatiquement le schéma étendu :
 >
 >La sauvegarde du schéma source va automatiquement lancer la génération du schéma étendu.
 
-Si vous devez vérifier la structure complète d’un schéma, vous pouvez utiliser l’onglet Aperçu . Si le schéma a été étendu, vous pourrez alors visualiser toutes ses extensions. En complément, l&#39;onglet Documentation affiche tous les attributs et éléments du schéma, ainsi que leurs propriétés (champ SQL, type/longueur, libellé, description). L&#39;onglet Documentation ne s&#39;applique qu&#39;aux schémas générés. Pour plus d&#39;informations, consultez la section [Régénération des schémas](../../configuration/using/regenerating-schemas.md).
+Si vous devez vérifier la structure complète d’un schéma, vous pouvez utiliser l’onglet Prévisualisation.Si le schéma a été étendu, vous pourrez visualiser toutes ses extensions.En complément, l’onglet Documentation affiche tous les attributs et éléments du schéma, ainsi que ses propriétés (champ SQL, type/longueur, libellé, description).L&#39;onglet Documentation ne s&#39;applique qu&#39;aux schémas générés. Pour plus d&#39;informations, consultez la section [Régénération des schémas](../../configuration/using/regenerating-schemas.md).
 
 ## Exemple : créer une table des contrats {#example--creating-a-contract-table}
 
-Dans l&#39;exemple suivant, nous allons créer une nouvelle table pour **contrats** dans le modèle de base de données de la base de données Adobe Campaign. Cette table vous permet de stocker les noms, prénoms et adresses e-mail des titulaires et co-titulaires pour chaque contrat.
+Dans l’exemple suivant, nous voulons créer une nouvelle table pour les **contrats** dans le modèle de la base de données Adobe Campaign.Cette table vous permet de stocker les noms, prénoms et adresses e-mail des titulaires et co-titulaires pour chaque contrat.
 
 Pour cela, vous devez créer le schéma de la table puis procéder à la mise à jour de la structure de la base pour générer la table correspondante. Les étapes sont les suivantes :
 

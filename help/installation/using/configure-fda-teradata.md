@@ -8,17 +8,14 @@ content-type: reference
 topic-tags: connectors
 exl-id: 3a5856c3-b642-4722-97ff-6ae7107efdbe
 TQID: https://experienceleague.adobe.com/tsmDBbWBQljV8wF-75sSzrF6v7kO3YeTLqk8L4-ifag
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1787
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -151,7 +148,7 @@ Pour configurer le query banding, procédez comme suit :
 
 Si l’erreur suivante s’affiche lors du test de la connexion **TIM-030008 Date « 2 » : caractère(s) manquant(s) (iRc=-53)** assurez-vous que le pilote ODBC est correctement installé et que LD_LIBRARY_PATH (Linux) / PATH (Windows) est défini pour le serveur Campaign.
 
-L’erreur **Erreur ODBC ODB-240000 : \[Microsoft\]\[Gestionnaire de pilotes ODBC\] Nom de source de données introuvable et aucun pilote par défaut spécifié.** se produit avec Windows si vous utilisez un pilote 16.X. Adobe Campaign s’attend à ce que les données Teradata soient nommées « {teradata} » dans odbcinst.ini.
+L’erreur **ODB-240000 ODBC : \[Microsoft\]\[ODBC Driver Manager\] Nom de source de données introuvable et aucun pilote par défaut spécifié.** survient avec Windows si vous utilisez un pilote 16.X.Adobe Campaign s’attend à ce que les données Teradata soient nommées « {teradata} » dans odbcinst.ini.
 
 * À compter de Campaign 18.10, vous pouvez ajouter ODBCDriverName=&quot;Teradata Database ODBC Driver 16.10&quot; dans les options du compte externe. Le numéro de version peut changer, le nom exact peut être trouvé en exécutant odbcad32.exe et en accédant à l’onglet Pilotes.
 

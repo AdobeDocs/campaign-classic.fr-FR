@@ -6,19 +6,14 @@ feature: Workflows, Data Management
 hide: true
 exl-id: 9959e22e-9aa0-410f-b22c-9ca1cac46b97
 TQID: https://experienceleague.adobe.com/G82StaXeELHRHF4C1qMnRK0IekJoF0n-r6xQi63KPlk
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 feature_v2: []
-subfeature_v2:
-  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
-  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
+subfeature_v2: id: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 304
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +23,7 @@ ht-degree: 70%
 
 Ce cas pratique présente la création d’un workflow permettant de gérer des mises à jour concomitantes lors de l’utilisation de plusieurs exécutions d’un workflow.
 
-Le but est de vérifier que le processus de mise à jour est terminé avant d&#39;exécuter une autre opération de mise à jour. Pour ce faire, nous allons configurer une variable d’instance et laisser le workflow tester si l’instance est en cours d’exécution afin de décider de continuer ou non l’exécution du workflow et d’effectuer la mise à jour.
+Le but est de vérifier que le processus de mise à jour est terminé avant d’exécuter une autre opération de mise à jour.Pour cela, nous allons configurer une variable d’instance et laisser le workflow tester si l’instance est en cours d’exécution afin de décider de poursuivre ou non l’exécution du workflow et d’effectuer la mise à jour.
 
 ![](assets/uc_dataupdate_wkf.png)
 
@@ -46,11 +41,11 @@ Pour créer le workflow, procédez comme suit :
 
    >[!NOTE]
    >
-   >« isRunning » est le nom de la variable d&#39;instance choisi pour cet exemple. Il ne s’agit pas d’une variable intégrée.
+   >« isRunning » est le nom de la variable d’instance choisie pour cet exemple.Il ne s’agit pas d’une variable intégrée.
 
    ![](assets/uc_dataupdate_test.png)
 
-1. Ajoutez une activité **Fin** au branchement **Non**. Ainsi, rien ne sera exécuté si le workflow est déjà en cours d&#39;exécution.
+1. Ajoutez une activité **Fin** au branchement **Non**.Ainsi, rien ne sera exécuté si le workflow est déjà en cours d’exécution.
 1. Ajoutez les activités souhaitées au branchement **Oui**. Dans le cas présent, il s&#39;agit des activités **Requête** et **Mise à jour des données**.
 1. Ouvrez la première activité, puis ajoutez la commande **instance.vars.isRunning = true** dans l&#39;onglet **[!UICONTROL Avancé]**. Ainsi, la variable d&#39;instance est définie comme étant en cours d&#39;exécution.
 

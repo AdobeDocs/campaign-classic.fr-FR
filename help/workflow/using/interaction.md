@@ -5,9 +5,9 @@ description: Interaction
 hide: true
 feature: Workflows, Interaction, Offers
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '169'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -20,9 +20,9 @@ Les workflows présentés ci-dessous sont installés par défaut avec le module 
 
 Pour plus d&#39;informations à ce sujet, en fonction de la version de Campaign, reportez-vous aux sections suivantes :
 
-![](assets/do-not-localize/v7.jpeg) [Documentation de Campaign v7](../../interaction/using/interaction-and-offer-management.md)
+![](assets/do-not-localize/v7.jpeg)[Documentation de Campaign v7](../../interaction/using/interaction-and-offer-management.md)
 
-![](assets/do-not-localize/v8.png) [Documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/interaction/interaction.html?lang=fr)
+![](assets/do-not-localize/v8.png)[Documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/interaction/interaction.html?lang=fr)
 
 
 <table> 
@@ -35,12 +35,12 @@ Pour plus d&#39;informations à ce sujet, en fonction de la version de Campaign,
   <tr> 
    <td> <span class="uicontrol">Calcul de l'agrégat full (cube propositionrcp)</span> <br /> </td> 
    <td> <span class="uicontrol">agg_nmspropositionrcp_full</span> <br /> </td> 
-   <td> Ce workflow met à jour l’agrégat <strong>Complet</strong> pour le cube <strong>Proposition d’offre</strong>. Par défaut, il est déclenché tous les jours à 6 heures du matin. Cet agrégat capture les dimensions suivantes : canal, diffusion, offre marketing et date.<br /> Le cube <strong>Proposition d’offre</strong> est ensuite utilisé pour générer des rapports basés sur des offres. Vous pouvez en savoir plus sur les cubes dans <a href="../../reporting/using/ac-cubes.md">cette section</a>.<br /> </td> 
+   <td>Ce workflow met à jour l’agrégat <strong>Full</strong> du cube <strong>Proposition d’offre</strong>.Par défaut, il se déclenche tous les jours à 6 h 00.Cet agrégat capture les dimensions suivantes : Canal, Diffusion, Offre marketing et Date.<br />Le cube <strong>Proposition d’offre</strong> est ensuite utilisé pour générer des rapports basés sur les offres.Vous pouvez en savoir plus sur les cubes dans <a href="../../reporting/using/ac-cubes.md">cette section</a>.<br /> </td> 
   </tr> 
    <tr> 
    <td> <span class="uicontrol">Calcul de l'agrégat full (cube propositionrcp) du MessageCenter</span> <br /> </td> 
    <td> <span class="uicontrol">agg_messageCenter_full</span> <br /> </td> 
-   <td> Ce workflow met à jour l’agrégat complet<strong>(Full)</strong> du cube <strong>Message Center</strong>. Il est déclenché tous les jours à 3h du matin par défaut. Cet agrégat capture les dimensions suivantes : Canal, Date, Statut et Type d’événement.<br /> Le cube <strong>Message Center</strong> est ensuite utilisé pour générer des rapports basés sur des événements. Vous pouvez en savoir plus sur les cubes dans <a href="../../reporting/using/ac-cubes.md">cette section</a>.<br /> </td> 
+   <td> Ce workflow met à jour l’agrégat complet<strong>(Full)</strong> du cube <strong>Message Center</strong>. Il est déclenché tous les jours à 3h du matin par défaut. Cet agrégat capture les dimensions suivantes : Canal, Date, Statut et Type d’événement.<br />Le cube <strong>Message Center</strong> est ensuite utilisé pour générer des rapports basés sur les événements.Vous pouvez en savoir plus sur les cubes dans <a href="../../reporting/using/ac-cubes.md">cette section</a>.<br /> </td> 
    <td> <br /> </td> 
   </tr> 
  </tbody> 

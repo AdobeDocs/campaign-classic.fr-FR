@@ -8,16 +8,14 @@ content-type: reference
 topic-tags: connectors
 exl-id: e3a97e55-dd8b-41e1-b48c-816d973f62a8
 TQID: https://experienceleague.adobe.com/-5lcbNCBW2O9H9bLk5zbvuDrH711BkCSHYmW9jTBWUo
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 645
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -138,7 +136,7 @@ Si vous devez vous connecter à Hadoop 2.1, suivez les étapes décrites ci-des
    SQLSETPOSIROW Size.: 8
    ```
 
-1. Créez le DSN (Data Source Name) et modifiez le fichier odbc.ini. Créez ensuite un DSN pour votre connexion à Hive.
+1. Créez le nom de la source de données (DNS) et modifiez le fichier odbc.ini.Créez ensuite un DSN pour votre connexion à Hive.
 
    Voici un exemple pour HDInsight destiné à configurer une connexion appelée &quot;viral&quot; :
 
@@ -161,7 +159,7 @@ Si vous devez vous connecter à Hadoop 2.1, suivez les étapes décrites ci-des
 
    >[!NOTE]
    >
-   >Le paramètre **UseNativeQuery** est ici très important. Campaign prend en charge Hive et ne fonctionnera pas correctement si UseNativeQuery n’est pas défini. En règle générale, le pilote ou le connecteur Hive SQL réécrit les requêtes et modifie l&#39;ordre des colonnes.
+   >Le paramètre **UseNativeQuery** est ici très important.Campaign prend en charge Hive et ne fonctionnera pas correctement si UseNativeQuery n’est pas défini.En règle générale, le pilote ou le connecteur SQL Hive réécrit les requêtes et modifie l’ordre des colonnes.
 
    La configuration de l’authentification dépend de la configuration de Hive/Hadoop. Par exemple, pour HDInsight, utilisez AuthMech=6 pour l’authentification par utilisateur/mot de passe, comme décrit [ici](https://www.simba.com/products/Spark/doc/ODBC_InstallGuide/unix/content/odbc/hi/configuring/authenticating/azuresvc.htm).
 

@@ -6,21 +6,15 @@ role: User
 feature: Campaigns
 exl-id: 07cfa2b3-4e70-437a-ad5f-15fbfe717d5c
 TQID: https://experienceleague.adobe.com/rxyAXKDrxdMJWdXAwbbkleIoRHf03mvC5sHZbXZ1H5M
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-subfeature_v2:
-  - id: f863efa9-030c-4466-a2b8-a52aea6b722c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: afa4204e-6d08-4e29-bc35-26aafb656d48
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+subfeature_v2: id: f863efa9-030c-4466-a2b8-a52aea6b722c
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 362
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -28,29 +22,29 @@ ht-degree: 52%
 
 Adobe Campaign propose un ensemble de solutions qui vous permettent de personnaliser et diffuser des campagnes à travers l’ensemble de vos canaux en ligne et hors ligne. Vous pouvez ainsi créer, configurer, exécuter et analyser des campagnes marketing. Toutes les campagnes marketing peuvent être gérées à partir d’un centre de contrôle unifié.
 
-Les campagnes incluent des actions (diffusions) et des processus (importation ou extraction de fichiers), ainsi que des ressources (documents marketing, compositions de diffusion). Ils sont utilisés dans les campagnes marketing. Les campagnes font partie d&#39;un programme et les programmes sont inclus dans un plan de campagne.
+Les campagnes comprennent des actions (diffusions) et des processus (import ou extraction de fichiers), ainsi que des ressources (documents marketing, compositions de diffusion).Ces dernières sont utilisées dans les campagnes marketing.Les campagnes font partie d&#39;un programme et les programmes sont inclus dans un plan de campagne.
 
-Pour en savoir plus sur la gestion des campagnes, reportez-vous à la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=fr){target=_blank}.
+Pour en savoir plus sur la gestion de campagne, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaigns/campaigns.html?lang=fr){target=_blank}.
 
 ![](assets/do-not-localize/campaign.jpg){width="40%"}
 
 Découvrez les étapes clés liées à la gestion de campagnes :
 
-* [Prise en main](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=fr){target=_blank} : découvrez, étape par étape, comment créer et exécuter une campagne marketing dans Adobe Campaign.
+* [Prise en main](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=fr){target=_blank} : découvrez, étape par étape, comment créer et exécuter une campagne marketing dans Adobe Campaign.
 
-* [Créer votre première campagne](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=fr){target=_blank} : découvrez comment planifier et configurer la logique pour orchestrer vos campagnes. Une campagne centralise tous les éléments relatifs à une campagne marketing : diffusions, règles de ciblage, coûts, fichiers d’export, documents associés, etc.
+* [Créer votre première campagne](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=fr){target=_blank} : découvrez comment planifier et configurer la logique pour orchestrer vos campagnes.Une campagne centralise tous les éléments relatifs à une campagne marketing : diffusions, règles de ciblage, coûts, fichiers d’export, documents associés, etc.
 
-* [Envoyer des messages dans une campagne](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=fr){target=_blank} : orchestrez vos diffusions cross-canal dans vos campagnes : rationalisez vos communications avec Adobe Campaign par le biais d’e-mails personnalisés, de SMS, de notifications push et de messages in-app.
+* [Envoyer des messages dans une campagne](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=fr){target=_blank} : orchestrez vos diffusions cross-canal dans vos campagnes ; rationalisez vos communications avec Adobe Campaign par le biais d’e-mails personnalisés, de SMS, de notifications push et de messages in-app.
 
 ![](assets/do-not-localize/add-on.jpg){width="40%"}
 
 Trois modules complémentaires sont disponibles pour la gestion de campagnes :
 
-* [Optimisation des campagnes](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=fr){target=_blank} : ce module vous permet de contrôler, de filtrer et de surveiller l’envoi des diffusions. Cela permet de s’assurer que les messages envoyés répondent aux attentes et aux besoins des clientes et clients et des politiques de communication de l’entreprise.
+* [Optimisation de campagne](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=fr){target=_blank} : ce module permet de contrôler, de filtrer et de surveiller l’envoi des diffusions.Cela permet de s’assurer que les messages envoyés répondent aux attentes et aux besoins des clientes et clients et des politiques de communication de l’entreprise.
 
-* [Marketing Resource Management](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=fr){target=_blank} : ce module permet de piloter les actions marketing sur un mode collaboratif, en assurant la gestion complète et le tracking en temps réel des tâches, budgets et ressources marketing impliquées.
+* [Gestion de ressources marketing](https://experienceleague.adobe.com/docs/campaign/automation/mrm/about-marketing-resource-management.html?lang=fr){target=_blank} : ce module permet de piloter les actions marketing sur un mode collaboratif, en assurant la gestion complète et le tracking en temps réel des tâches, budgets et ressources marketing impliqués.
 
-* [Marketing Distribué](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=fr){target=_blank} : ce module permet de piloter les actions marketing sur un mode collaboratif, en assurant la gestion complète et le tracking en temps réel des tâches, budgets et ressources marketing impliquées.
+* [Marketing distribué](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=fr){target=_blank} : ce module permet de piloter les actions marketing sur un mode collaboratif, en assurant la gestion complète et le tracking en temps réel des tâches, budgets et ressources marketing impliqués.
 
 <!--
 
@@ -105,8 +99,8 @@ The following concepts need to be known in the context of Campaign:
 
 This video presents the key concepts of marketing campaigns.
 
->[!VIDEO](https://video.tv.adobe.com/v/326571?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)
 
-Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
 
 -->

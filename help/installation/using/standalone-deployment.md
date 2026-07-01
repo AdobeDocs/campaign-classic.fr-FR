@@ -8,14 +8,13 @@ content-type: reference
 topic-tags: deployment-types-
 exl-id: 194366ab-fd9f-4431-9163-ae16c1f96db2
 TQID: https://experienceleague.adobe.com/AgGQgham1xWf9U5mAAc-Eul-izsp-tW6aNNPMobLvT4
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1096
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -76,13 +75,13 @@ Lorsque le volume s&#39;accroît, une variante de cette architecture déporte le
    * un premier alias exposé au grand public pour le tracking et pointant vers la machine sur son IP publique ;
    * un deuxième alias exposé aux utilisateurs métier pour l&#39;accès console et pointant vers la même machine.
 
-* Pare-feu configuré pour ouvrir SMTP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 pour Oracle, 5432 pour PostgreSQL, etc.) les ports. Voir à ce propos [Configuration du réseau](../../installation/using/network-configuration.md).
+* Configuration du firewall pour l’ouverture des ports SMTP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 pour Oracle, 5432 pour PostgreSQL, etc.).Voir à ce propos [Configuration du réseau](../../installation/using/network-configuration.md).
 
 Dans les exemples présentés ci-dessous, les paramètres de l&#39;instance sont les suivants :
 
 * Nom de l&#39;instance : **demo**
 * Masque DNS : **console.campaign.net&#42;** (uniquement pour la connexion des consoles clientes et pour les rapports)
-* Base : **campaign:demo@dbsrv**
+* Base de données : **campaign:demo@dbsrv**
 
 ### Installer et configurer (mono-machine) {#installing-and-configuring--single-machine-}
 
@@ -188,7 +187,7 @@ Les étapes sont les suivantes :
    Voir à ce propos les sections suivantes :
 
    * Pour Linux : [Lancement du serveur Web et test de la configuration](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration)
-   * Pour Windows : [&#128279;](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)Lancement du serveur Web et test de la configuration
+   * Pour Windows : [](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)Lancement du serveur Web et test de la configuration
 
 1. Démarrez le serveur Adobe Campaign (**net start nlserver6** sous Windows, **/etc/init.d/nlserver6 start** sous Linux) et lancez à nouveau la commande **nlserver pdump** afin de vérifier la présence de tous les modules actifs.
 
@@ -244,7 +243,7 @@ Les étapes sont les suivantes :
 
      ![](assets/s_ncs_install_deployment_wiz_09.png)
 
-     Le serveur Adobe Campaign étant utilisé à la fois comme serveur applicatif et comme serveur de redirection, l’URL interne utilisée pour collecter les logs de tracking et transférer les URL est une connexion interne directe à Tomcat (https://localhost:8080).
+     Le serveur Adobe Campaign étant utilisé à la fois comme serveur d’applications et comme serveur de redirection, l’URL interne utilisée pour collecter les logs de tracking et transférer les URL est une connexion interne directe à Tomcat (https://localhost:8080).
 
    * Gestion des mails rebonds : renseignez les paramètres de gestion des mails rebonds (ne pas tenir compte de la section **Mails rebonds non traités**).
    * Accès depuis Internet : renseignez les deux URL d&#39;accès pour les rapports ou les formulaires Web et les pages miroir.

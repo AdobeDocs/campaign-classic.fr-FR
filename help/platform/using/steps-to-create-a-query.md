@@ -10,19 +10,13 @@ topic-tags: creating-queries
 exl-id: cf914366-8bac-4d68-a0cc-2a43d102eef2
 hide: true
 TQID: https://experienceleague.adobe.com/LzWl-FTFuwEnkum23W9nPjZi7Nhi6hdgztsyjrrzPQM
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
-subfeature_v2:
-  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
-  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
-  - id: f5293531-9312-4099-bfa3-9e67df6a8750
-  - id: efa38731-2723-4334-8d8b-a778af834835
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: afa4204e-6d08-4e29-bc35-26aafb656d48
+subfeature_v2: id: f529d0bd-1401-4c88-9833-43228cc1d40fid: d6330382-c886-4f7a-a4f7-74e3f36c0d9cid: f5293531-9312-4099-bfa3-9e67df6a8750id: efa38731-2723-4334-8d8b-a778af834835
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 147
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +35,7 @@ Les étapes de construction d&#39;une requête dans Adobe Campaign sont les sui
 
 >[!NOTE]
 >
->* Toutes ces étapes sont disponibles dans le requêteur générique. Lorsqu’une requête est créée dans un autre contexte, certaines étapes peuvent être ignorées.\
+>* Toutes ces étapes sont disponibles dans le requêteur générique.Lorsqu’une requête est créée dans un autre contexte, certaines étapes peuvent être omises.\
 >L&#39;activité Requête est présentée dans [cette section](../../workflow/using/query.md).
 >* Pour en savoir plus sur les requêtes et leur création, consultez la [documentation de Campaign v8](../../workflow/using/query.md).
 

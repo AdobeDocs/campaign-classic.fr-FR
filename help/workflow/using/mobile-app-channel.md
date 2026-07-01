@@ -5,9 +5,9 @@ description: Canal des applications mobiles
 hide: true
 feature: Workflows
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '66'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 51%
 
 
 
-Le workflow présenté ci-dessous est installé par défaut avec le module **Canal des applications mobiles**. Voir à ce propos [cette section](../../delivery/using/about-mobile-app-channel.md).
+Le workflow détaillé ci-dessous est installé par défaut avec le module **Canal applications mobiles (Mobile App Channel)**.Voir à ce propos [cette section](../../delivery/using/about-mobile-app-channel.md).
 
 <table> 
  <tbody> 
@@ -28,7 +28,7 @@ Le workflow présenté ci-dessous est installé par défaut avec le module **Can
   <tr> 
    <td> <span class="uicontrol">Gestion des opt-out NMAC</span> <br /> </td> 
    <td> <span class="uicontrol">mobileAppOptOutMgt</span> <br /> </td> 
-   <td> Ce workflow met à jour les désabonnements aux notifications sur les appareils mobiles. Il est déclenché toutes les 6 heures entre 1h00 et minuit. Pour plus d’informations, consultez cette <a href="../../delivery/using/delivery-failures-quarantine.md#push-notification-quarantines">section</a>.<br /> </td> 
+   <td>Ce workflow met à jour les désabonnements aux notifications sur les appareils mobiles.Il est déclenché toutes les 6 heures entre 1 h 00 et minuit.Pour plus d’informations, consultez cette <a href="../../delivery/using/delivery-failures-quarantine.md#push-notification-quarantines">section</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

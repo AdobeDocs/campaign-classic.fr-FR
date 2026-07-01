@@ -7,21 +7,14 @@ feature: Web Apps
 level: Intermediate, Experienced
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
 TQID: https://experienceleague.adobe.com/Awmu1sag3l7qN8ocg-uzbfSooV-8Cyhtxya4zVlo8EY
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-feature_v2:
-  - id: a4671286-a59f-47e3-b97b-90627a1977d5
-subfeature_v2:
-  - id: f391046b-0cf3-4e76-bd3b-97fe06654506
-  - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
-  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
-  - id: e739ee2b-6228-412e-878f-45de0791417d
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5
+subfeature_v2: id: f391046b-0cf3-4e76-bd3b-97fe06654506id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281id: d7be2b01-dc9c-40f7-aace-a151707504edid: e739ee2b-6228-412e-878f-45de0791417d
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1046
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +22,7 @@ ht-degree: 82%
 
 
 
-Dans l&#39;exemple suivant, nous allons créer des applications Web de type vues d&#39;ensemble pour afficher toutes les applications Web de votre base de données. Configurez les éléments suivants :
+Dans l’exemple suivant, nous allons créer des applications web de type vue d’ensemble permettant d’afficher l’ensemble des applications web contenues dans votre base de données.Configurez les éléments suivants :
 
 * un filtre sur le dossier (voir la section [Ajouter un filtre sur dossier](#adding-a-filter-on-a-folder)),
 * un bouton permettant de créer une application web (voir la section [Ajouter un bouton pour paramétrer une nouvelle application web](#adding-a-button-to-configure-a-new-web-application)),
@@ -67,7 +60,7 @@ Dans l&#39;exemple suivant, nous allons créer des applications Web de type vues
 
 ## Ajouter un filtre sur dossier {#adding-a-filter-on-a-folder}
 
-Dans une vue d’ensemble, vous pouvez choisir d’accéder aux données en fonction de leur emplacement dans l’arborescence d’Adobe Campaign. Ceci est un filtre sur un dossier. Procédez comme suit pour l’ajouter à votre aperçu.
+Dans une vue d’ensemble, vous pouvez choisir d’accéder aux données en fonction de leur emplacement dans l’arborescence d’Adobe Campaign.Il s’agit d’un filtre sur un dossier.Procédez comme suit pour l’ajouter à votre vue d’ensemble.
 
 1. Positionnez-vous sur le noeud **[!UICONTROL Page]** de votre application Web et ajoutez un élément **[!UICONTROL Choix de dossier]** (**[!UICONTROL Contrôle avancés > Choix de dossier]**).
 1. Dans la fenêtre **[!UICONTROL Stockage]** qui s&#39;affiche, cliquez sur le lien **[!UICONTROL Editer les variables]**.
@@ -101,13 +94,13 @@ Dans une vue d’ensemble, vous pouvez choisir d’accéder aux données en fonc
 
    Dans notre exemple, le libellé est **Nouveau**.
 
-1. Insérez l’URL suivante dans le champ URL : **:webApp&amp;form=nms:newWebApp**.
+1. Insérez l’URL suivante dans le champ URL : **xtk://open/?schema=nms:webApp&amp;form=nms:newWebApp**.
 
    >[!NOTE]
    >
-   >**nms:webApp** correspond au schéma de l&#39;application Web.
+   >**nms:webApp** correspond au schéma de l’application web.
    >
-   >**nms:newWebApp** correspond à l&#39;assistant de création de nouvelle application Web.
+   >**nms:newWebApp** correspond à l’assistant de création d’application web.
 
 1. Choisissez d&#39;afficher l&#39;URL dans la même fenêtre.
 1. Ajoutez l’icône des applications web dans le champ image : **/nms/img/webApp.png**.
@@ -170,11 +163,11 @@ Lorsque vous paramétrez une liste dans votre vue d&#39;ensemble, vous pouvez ch
 
 >[!NOTE]
 >
->L’actualisation des bibliothèques JavaScript prend cinq minutes sur le serveur. Vous pouvez redémarrer le serveur pour éviter d’attendre ce délai.
+>Le rafraîchissement des bibliothèques JavaScript demande cinq minutes sur le serveur.Vous pouvez redémarrer le serveur pour ne pas avoir à attendre.
 
 ## Filtrer et mettre à jour la liste {#filtering-and-updating-the-list}
 
-Dans cette section, vous allez créer un filtre permettant d&#39;afficher la vue d&#39;ensemble des applications Web créées par un opérateur spécifique. Ce filtre est créé avec un éditeur de liens. Une fois que vous avez sélectionné un opérateur ou une opératrice, actualisez la liste pour appliquer votre filtre. Pour ce faire, créez un lien d’actualisation.
+Dans cette section, vous allez créer un filtre permettant d’afficher la vue d’ensemble des applications web créées par un opérateur ou une opératrice spécifique.Ce filtre est créé avec un éditeur de liens.Une fois que vous avez sélectionné un opérateur ou une opératrice, actualisez la liste pour appliquer votre filtre. Pour ce faire, créez un lien d’actualisation.
 
 Ces deux éléments seront rassemblés dans un même conteneur afin de les regrouper graphiquement dans la vue d&#39;ensemble.
 
@@ -217,7 +210,7 @@ Ces deux éléments seront rassemblés dans un même conteneur afin de les regro
 
 >[!CAUTION]
 >
->L&#39;utilisateur de l&#39;application Web doit être un opérateur identifié et disposant des droits Adobe Campaign adéquats pour accéder aux informations. Ce type de configuration ne fonctionne pas pour les applications Web anonymes.
+>La personne utilisant l’application web doit être une personne opératrice identifiée disposant des droits adéquats dans Adobe Campaign pour avoir accès aux informations.Ce type de configuration ne fonctionne pas pour les applications web anonymes.
 
 ### Créer un lien d&#39;actualisation {#creating-a-refresh-link}
 

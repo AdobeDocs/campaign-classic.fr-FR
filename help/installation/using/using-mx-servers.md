@@ -9,14 +9,13 @@ content-type: reference
 topic-tags: additional-configurations
 exl-id: 47f50bf5-4d5b-4c07-af71-de4390177cf5
 TQID: https://experienceleague.adobe.com/iXiiqwE6-FqHpRFes1bzJ5mLc3-z-HQBUR7ASL5A1G8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 864
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -95,4 +94,4 @@ Le mode personnalisé est destiné aux clients avancés qui souhaitent définir 
 * [Configuration des MX](../../installation/using/email-deliverability.md#mx-configuration)
 * [Configuration technique des emails](../../installation/using/email-deliverability.md)
 * [Présentation des diffusions en échec](../../delivery/using/delivery-failures-quarantine.md)
-* [Campaign Classic - Recommandations techniques](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=fr)
+* [Campaign Classic - Recommandations techniques](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=fr)

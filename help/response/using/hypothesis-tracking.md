@@ -9,19 +9,14 @@ content-type: reference
 topic-tags: response-manager
 exl-id: 1dc6d03b-698c-4750-9563-0676fcd185df
 TQID: https://experienceleague.adobe.com/MKJg0M0gWR9XvgsRkXvZqAkNx2IzLg24l9c4nG26r20
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-subfeature_v2:
-  - id: d72afaa0-c842-48c8-9a3c-51b7911edc1b
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+subfeature_v2: id: d72afaa0-c842-48c8-9a3c-51b7911edc1b
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 487
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +30,7 @@ Le résultat des calculs des hypothèses est disponible à divers niveaux de la 
 
 ### Indicators {#indicators}
 
-Une fois l&#39;hypothèse calculée, plusieurs indicateurs de mesure sont automatiquement mis à jour. Elles sont disponibles dans l&#39;onglet **[!UICONTROL Général]** de l&#39;hypothèse.
+Lorsque l’hypothèse a été calculée, plusieurs indicateurs de mesure sont automatiquement mis à jour.Ils sont disponibles dans l’onglet **[!UICONTROL Général]** de l’hypothèse.
 
 ![](assets/response_hypothesis_delivery_example_010.png)
 
@@ -81,10 +76,10 @@ Vous pouvez visualiser les réactions des destinataires aux hypothèses depuis l
 
 Le **[!UICONTROL Rapport des hypothèses]** permet de consulter les résultats des hypothèses appliquées aux opérations et diffusions. Il contient les indicateurs calculés par l’hypothèse (voir à ce propos la section [Indicateurs](#indicators)).
 
-* **Au niveau d&#39;une opération** : cliquez sur le lien **[!UICONTROL Rapports]** de l&#39;opération concernée et sélectionnez le **[!UICONTROL Rapport des hypothèses]**. Ce rapport contient la liste des diffusions de l&#39;opération et les hypothèses calculées pour chacune des diffusions.
+* **Au niveau d’une campagne** : cliquez sur le lien **[!UICONTROL Rapports]** de la campagne concernée et sélectionnez le **[!UICONTROL Rapport des hypothèses]**.Ce rapport contiendra la liste des diffusions de la campagne et les hypothèses calculées pour chacune des diffusions.
 
   ![](assets/response_hypothesis_campaign_report_001.png)
 
-* **Au niveau d&#39;une diffusion** : pour accéder au rapport, ouvrez la diffusion concernée, cliquez sur l&#39;onglet **[!UICONTROL Rapports]** dans l&#39;onglet **[!UICONTROL Résumé]** et sélectionnez le **[!UICONTROL Rapport des hypothèses]**. Si plusieurs hypothèses ont été calculées pour une même diffusion, le rapport contiendra l&#39;ensemble des hypothèses.
+* **Au niveau d’une diffusion** : pour accéder au rapport, ouvrez la diffusion concernée, cliquez sur **[!UICONTROL Rapports]** dans l’onglet **[!UICONTROL Résumé]**, et sélectionnez le **[!UICONTROL Rapport des hypothèses]**.Si plusieurs hypothèses ont été calculées pour une même diffusion, le rapport contiendra l’ensemble des hypothèses.
 
   ![](assets/response_hypothesis_delivery_report_001.png)

@@ -7,24 +7,14 @@ feature: Data Model
 role: User, Developer
 exl-id: 3e28bfee-0321-40f4-9ef6-1bdb5b25041b
 TQID: https://experienceleague.adobe.com/o90zid7-rdTsQVYd-PZZEWFhrBLiK-Yo7KhAHmzv2is
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-  - id: c858a28b-ea19-49b0-8d48-828717fad89c
-subfeature_v2:
-  - id: e95a583b-fcfa-4524-8666-46a29c828119
-  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
-  - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
-  - id: f4da0e76-df77-451e-ad61-21afb7bd8810
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9id: b631758a-142d-425f-b9aa-f756d85cb979id: c858a28b-ea19-49b0-8d48-828717fad89c
+subfeature_v2: id: e95a583b-fcfa-4524-8666-46a29c828119id: c8da4fdd-eb94-4751-a43c-f82733fb2d6eid: d5bbe3da-ba85-4242-817e-54f7c4b943e0id: f4da0e76-df77-451e-ad61-21afb7bd8810
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 566
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +34,7 @@ Le document XML d&#39;un schéma de données doit contenir l&#39;élément racin
 </srcSchema>
 ```
 
-Le point d&#39;entrée du schéma est son élément principal. Il est facilement identifiable car son nom est identique à celui du schéma et il doit être enfant de l&#39;élément racine. C&#39;est à partir de cet élément que commence la description du contenu.
+Le point d’entrée du schéma est son élément principal.Il est facilement identifiable car son nom est identique à celui du schéma et il doit être enfant de l&#39;élément racine. C&#39;est à partir de cet élément que commence la description du contenu.
 
 Dans un schéma de gestion de contenu, l&#39;élément principal est représenté par la ligne :
 
@@ -163,7 +153,7 @@ L&#39;attribut **ref** sur l&#39;élément à référencer doit être renseigné
 </srcSchema>
 ```
 
-La structure de chapitres est déplacée vers l’élément nommé « section » en dehors de l’élément principal. Le chapitre et la section font référence à l’élément « section ».
+La structure du chapitre est déplacée dans l’élément portant le nom « section » en dehors de l’élément principal.Le chapitre et la section référencent l’élément « section ».
 
 ## Compute string {#compute-string}
 

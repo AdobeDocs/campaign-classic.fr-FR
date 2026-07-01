@@ -8,16 +8,14 @@ content-type: reference
 topic-tags: connectors
 exl-id: 39bfe775-e182-4a0b-ad3c-b7a901297c90
 TQID: https://experienceleague.adobe.com/m2ibPllvRz-0vRS80bsktgY2qKdxL-fH9UEmHDgokT8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 272
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -36,10 +34,10 @@ La connexion à une base de données externe SAP HANA en FDA requiert certains p
 
 1. Installez les pilotes ODBC pour SAP HANA, en fonction du système d’exploitation que vous utilisez :
 
-   * **hdb_client_linux.tgz** pour Linux. Une fois décompressé, lancez la commande hdbinst et suivez les instructions pour terminer l&#39;installation des pilotes.
+   * **hdb_client_linux.tgz** pour Linux.Une fois le fichier décompressé, lancez la commande hdbinst et suivez les instructions pour terminer l’installation des pilotes.
    * **Hdb_client_windows.zip** pour Windows. Décompressez le fichier et lancez l’exécutable : **hdbinst.exe**. Suivez les instructions de l’assistant pour terminer l’installation des pilotes.
 
-1. Configurez le pilote ODBC. Le paramétrage peut être effectué dans les fichiers standards : /etc/odbc.ini pour les paramètres généraux et /etc/odbcinst.ini pour déclarer les pilotes.
+1. Configurez le pilote ODBC. La configuration peut être réalisée dans les fichiers standard : /etc/odbc.ini pour les paramètres généraux et /etc/odbcinst.ini pour la déclaration des pilotes.
 
    * **/etc/odbc.ini**
 

@@ -6,17 +6,14 @@ feature: API
 role: Developer
 exl-id: 7aa2aef1-2eb6-48a6-82fa-4451bed66216
 TQID: https://experienceleague.adobe.com/fZRtM-J9LP9AqvrRMeyzErpCXsfBbC1UIUpskV4PEqU
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 665
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +23,7 @@ ht-degree: 89%
 
 Le serveur applicatif Adobe Campaign a été conçu dans un souci d&#39;ouverture afin de faciliter son implémentation applicative et son intégration dans des environnements d&#39;entreprise de plus en plus hétérogènes et complexes.
 
-Les API Adobe Campaign sont utilisées dans JavaScript au sein de l’application et dans SOAP en dehors. Ils constituent une bibliothèque de fonctions génériques qui peuvent être enrichies. Pour plus d’informations, voir la section [Implémenter des méthodes SOAP](../../configuration/using/implementing-soap-methods.md).
+Les API Adobe Campaign sont utilisées dans l’application avec JavaScript et en externe avec SOAP.Elles constituent une bibliothèque de fonctions génériques qui peuvent être enrichies.Pour plus d’informations, voir la section [Implémenter des méthodes SOAP](../../configuration/using/implementing-soap-methods.md).
 
 >[!IMPORTANT]
 >
@@ -46,7 +43,7 @@ Afin d’utiliser les API Adobe Campaign, il est conseillé de posséder des no
 Adobe Campaign utilise deux types d’API :
 
 * API génériques d’accès aux données pour interroger les données du modèle de données. Pour plus d&#39;informations, consultez la section [API orientées données](../../configuration/using/data-oriented-apis.md).
-* Les API spécifiques métier qui permettent d&#39;agir sur chaque objet : diffusions, workflows, abonnements, etc. Pour plus d&#39;informations, consultez la section [API orientées métier](../../configuration/using/business-oriented-apis.md).
+* API spécifiques métier qui permettent d’agir sur chaque type d’objet : diffusions, workflows, abonnements, etc. Consultez la section [API orientées métier](../../configuration/using/business-oriented-apis.md).
 
 Pour développer des API et interagir avec Adobe Campaign, vous devez connaître votre modèle de données. Adobe Campaign permet de générer une description complète de la base. Pour plus d&#39;informations, consultez la section [Description du modèle](../../configuration/using/data-oriented-apis.md#description-of-the-model).
 
@@ -156,7 +153,7 @@ Le succès ou l’échec de l’invocation du service est identifié par la vér
 
 >[!IMPORTANT]
 >
->Tous les services Web Adobe Campaign gèrent les erreurs. Il est donc vivement recommandé de tester chaque appel afin de gérer les erreurs renvoyées.
+>Tous les services web Adobe Campaign gèrent les erreurs.Il est donc fortement recommandé de tester chaque appel afin de gérer les retours d’erreur.
 
 Exemple de gestion des erreurs en C# :
 

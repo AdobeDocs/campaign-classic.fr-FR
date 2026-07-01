@@ -6,19 +6,14 @@ feature: Workflows, Channels Activity
 hide: true
 exl-id: dfd36d2c-44ff-49a9-80b4-09eaf3377072
 TQID: https://experienceleague.adobe.com/oW8I9CvGs9L0tubxdAtdD1kviQbgsC7rKTSeCIWSKy8
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-subfeature_v2:
-  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
-  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+subfeature_v2: id: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 775
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +21,7 @@ ht-degree: 92%
 
 
 
-Ce cas pratique présente un exemple impliquant un workflow de diffusion cross-canal. Le concept général des diffusions cross-canal est présenté dans [cette section](cross-channel-deliveries.md).
+Ce cas d’utilisation présente un exemple impliquant un workflow de diffusion cross-canal.Le concept général des diffusions cross-canal est présenté dans [cette section](cross-channel-deliveries.md).
 
 L’objectif est de segmenter une audience des destinataires de votre base de données en différents groupes dans le but d’envoyer un e-mail à un groupe et un SMS à un autre.
 
@@ -48,8 +43,8 @@ Pour définir votre cible, créez une requête afin d&#39;identifier les destina
 
 1. Créez une campagne. Pour plus d’informations, consultez [cette section](../../campaign/using/setting-up-marketing-campaigns.md#creating-a-campaign).
 1. Dans l’onglet **[!UICONTROL Ciblage et workflows]** de la campagne, ajoutez une activité **Requête** à votre workflow. Pour plus d’informations sur cette activité, consultez [cette section](query.md).
-1. Définissez les destinataires qui recevront vos diffusions. Par exemple, sélectionnez Membres « Gold » comme dimension cible.
-1. Ajoutez des conditions de filtrage à votre requête. Dans cet exemple, sélectionnez les destinataires qui disposent d’une adresse e-mail et d’un numéro de mobile.
+1. Définissez les personnes destinataires qui recevront vos diffusions.Par exemple, sélectionnez les membres « Gold » comme dimension cible.
+1. Ajoutez des conditions de filtrage à votre requête.Dans cet exemple, sélectionnez les personnes destinataires disposant d’une adresse e-mail et d’un numéro de téléphone portable.
 
    ![](assets/wkf_cross-channel_3.png)
 

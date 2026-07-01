@@ -5,22 +5,14 @@ description: Découvrez les étapes principales pour créer un rapport
 feature: Reporting, Monitoring
 exl-id: 4c2aad47-0e2d-4d0b-8898-b437f4a05e11
 TQID: https://experienceleague.adobe.com/ikcjJaLsw4qYhd4wCaSTlg4FP-QYL33R--V3lnUAaV0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-subfeature_v2:
-  - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
-  - id: cfda811a-e413-43a4-adf0-7370888f5cfc
-  - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: c309ee4e-82e4-4f7e-b608-ef345678c34e
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2: id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47id: cfda811a-e413-43a4-adf0-7370888f5cfcid: afe938ea-bc18-44a4-a3fb-03e1031466cb
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 967
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +44,7 @@ Pour créer un rapport, les étapes sont les suivantes :
 
 ## Modélisation du graphique {#modelizing-the-chart}
 
-Une fois votre rapport enregistré, il doit s’afficher. Vous pouvez maintenant créer le graphique de votre rapport.
+Une fois votre rapport enregistré, ceci doit s’afficher.Vous pouvez maintenant créer le graphique de votre rapport.
 
 ![](assets/s_ncs_user_report_wizard_021.png)
 
@@ -66,17 +58,17 @@ Les activités sont reliées les unes aux autres par des transitions, représent
 
 Pour construire votre rapport, selon sa nature et son contexte d&#39;utilisation, vous devez identifier les éléments utiles et modéliser leur enchaînement logique.
 
-1. Utilisez l&#39;activité **[!UICONTROL Démarrer]** pour matérialiser le premier traitement à effectuer pour construire le rapport. Vous ne pouvez utiliser qu’une seule de ces activités par rapport.
+1. Utilisez l’activité **[!UICONTROL Début]** pour matérialiser le premier traitement à effectuer afin de construire le rapport.Vous ne pouvez positionner qu’une seule activité de ce type dans un même rapport.
 
    Elle est obligatoire lorsque le diagramme contient une boucle.
 
-1. Ajoutez une ou plusieurs activités **[!UICONTROL Requête]** pour collecter des données utiles à la création du rapport. Les données peuvent être collectées soit directement à partir d&#39;une requête sur un schéma de la base de données, soit à partir d&#39;une liste importée ou d&#39;un cube existant.
+1. Ajoutez une ou plusieurs activités **[!UICONTROL Requête]** pour collecter des données utiles à la création du rapport.Les données peuvent être collectées directement via une requête sur un schéma de la base de données, ou au travers d’une liste importée ou d’un cube existant.
 
    Pour plus dʼinformations, consultez la section [Collecte des données à analyser](../../reporting/using/collecting-data-to-analyze.md).
 
    Ces données seront affichées ou non dans le rapport, selon la configuration des pages.
 
-1. Placez une ou plusieurs activités **[!UICONTROL Page]** pour définir la représentation graphique des données collectées. Vous pouvez insérer des tableaux, des graphiques, des champs de saisie et conditionner l’affichage d’une ou de plusieurs pages ou d’éléments de la page. Le contenu affiché est entièrement configurable.
+1. Positionnez une ou plusieurs activités **[!UICONTROL Page]** pour définir la représentation graphique des données collectées.Vous pouvez y insérer des tableaux, graphiques et champs de saisie, et conditionner l’affichage d’une ou plusieurs pages, ou de certains éléments de la page.Le contenu affiché est entièrement configurable.
 
    Voir à ce sujet la section [Éléments statiques](#static-elements).
 
@@ -88,7 +80,7 @@ Pour construire votre rapport, selon sa nature et son contexte d&#39;utilisation
 
    Voir à ce sujet la section [Activité Script](../../reporting/using/advanced-functionalities.md#script-activity).
 
-1. Enfin, vous pouvez simplifier la lecture des rapports complexes en insérant une ou plusieurs activités de type **[!UICONTROL Saut]**. Vous pouvez ainsi passer d&#39;une activité à l&#39;autre sans matérialiser la transition sur le rapport. L&#39;activité **[!UICONTROL Saut]** peut également être utilisée pour afficher un autre rapport.
+1. Enfin, vous pouvez simplifier la lisibilité des rapports complexes en y insérant une ou plusieurs activités de type **[!UICONTROL Saut]**.Elles permettent de passer d’une activité à l’autre sans matérialiser la transition dans le rapport.L&#39;activité **[!UICONTROL Saut]** peut également être utilisée pour afficher un autre rapport.
 
    Voir à ce sujet la section [Activité Saut](../../reporting/using/advanced-functionalities.md#jump-activity).
 
@@ -96,7 +88,7 @@ Le mode d&#39;exécution d&#39;un rapport n&#39;est pas celui d&#39;un workflow.
 
 ![](assets/reporting_graph_sample_ko.png)
 
-Vous pouvez toutefois placer plusieurs branches. Un seul d&#39;entre eux sera exécuté :
+Vous pouvez toutefois placer plusieurs branchements.Un seul d’entre eux sera exécuté :
 
 ![](assets/reporting_graph_sample_ok.png)
 
@@ -108,7 +100,7 @@ Pour paramétrer chaque activité, double-cliquez sur son icône.
 
 Le contenu affiché est défini dans les activités de type **Page**.
 
-Un rapport peut contenir une ou plusieurs pages. Les pages sont créées dans un éditeur dédié qui permet d’insérer, dans une arborescence, des champs de saisie, des champs de sélection, des éléments statiques, des graphiques ou des tableaux. Les conteneurs vous aident à définir la disposition. Voir à ce sujet la section [Disposer les éléments](../../reporting/using/element-layout.md).
+Un rapport peut contenir une ou plusieurs pages.Les pages sont créées à travers un éditeur dédié qui permet d’y insérer, dans une arborescence, des zones de saisie, des champs de sélection, des éléments statiques, des graphiques ou des tableaux.Les conteneurs vous aident à définir la disposition.Voir à ce sujet la section [Disposer les éléments](../../reporting/using/element-layout.md).
 
 Pour ajouter un composant dans la page, utilisez les icônes situées dans la section gauche de la barre d&#39;outils.
 
@@ -129,7 +121,7 @@ Une **[!UICONTROL Page]** peut contenir les éléments suivants :
 * Des **[!UICONTROL Contrôles de saisie]** de type Texte ou Nombre.
 * Des **[!UICONTROL Contrôles de sélection]** de type Liste déroulante, Case à cocher, Bouton radio, Choix multiples, Dates ou Matrice.
 * Des **[!UICONTROL Contrôles avancés]** de type Editeur de lien, Constante, Choix de dossier.
-* Valeur, lien, HTML, image, etc. **[!UICONTROL éléments statiques]**.
+* Des **[!UICONTROL Éléments statiques]** de type Valeur, Lien, HTML, Image, etc.
 * Des **[!UICONTROL Conteneurs]** pour assurer la mise en page des composants.
 
 Le mode de paramétrage d&#39;une page et de ses composants est présenté dans [cette section](../../web/using/about-web-forms.md).
@@ -150,11 +142,11 @@ Les contrôles de saisie et de sélection permettent de filtrer les informations
 
 Pour plus d&#39;informations sur la création et le paramétrage des champs de saisie et des champs de sélection, consultez [cette section](../../web/using/about-web-forms.md).
 
-Vous pouvez intégrer un ou plusieurs contrôles de saisie dans vos rapports. Ce type de contrôle permet de filtrer les informations affichées selon une valeur saisie.
+Vous pouvez intégrer un ou plusieurs contrôles de saisie dans vos rapports.Ce type de contrôle vous permet de filtrer les informations affichées selon une valeur saisie.
 
 ![](assets/reporting_control_text.png)
 
-Vous pouvez également intégrer une ou plusieurs commandes de sélection dans vos rapports. Ce type de contrôle permet de filtrer les informations contenues dans le rapport en fonction de la ou des valeurs sélectionnées, par exemple :
+Vous pouvez également intégrer un ou plusieurs contrôles de sélection dans vos rapports.Ce type de contrôle vous permet de filtrer les informations contenues dans le rapport selon la ou les valeurs sélectionnées, par exemple :
 
 * via des boutons radio ou des cases à cocher :
 
@@ -168,7 +160,7 @@ Vous pouvez également intégrer une ou plusieurs commandes de sélection dans v
 
   ![](assets/reporting_control_date.png)
 
-Enfin, vous pouvez intégrer un ou plusieurs contrôles avancés dans vos rapports. Ce type de contrôle permet d&#39;insérer un lien, une constante ou de sélectionner un dossier.
+Enfin, vous pouvez intégrer un ou plusieurs contrôles avancés dans vos rapports.Ce type de contrôle vous permet d’insérer un lien, une constante ou de sélectionner un dossier.
 
 Ici, vous pouvez filtrer les données du rapport pour n&#39;afficher que celles d&#39;un des dossiers de l&#39;arborescence :
 

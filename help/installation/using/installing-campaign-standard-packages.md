@@ -6,18 +6,14 @@ feature: Installation, Application Settings
 badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
 TQID: https://experienceleague.adobe.com/o-8uf081NQCy3ZB8mmLk0Gm8J9Pu--Zh4znqn3HUjr0
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
 subfeature_v2: []
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1416
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -193,7 +189,7 @@ Le tableau ci-après répertorie tous les packages natifs de Campaign.
   </tr> 
   <tr> 
    <td> Marketing central/local (Marketing distribué)<br /> </td> 
-   <td> Met en place des opérations de coopération entre les entités centrales (sièges sociaux, services marketing, etc.) et les entités locales (points de vente, agences régionales, etc.). Facultatif. <a href="https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=fr" target="_blank">En savoir plus</a><br /> </td> 
+   <td>Met en œuvre les campagnes de coopération entre entités centrales (sièges sociaux, services marketing, etc.)et entités locales (magasins, agences régionales, etc.).Facultatif. <a href="https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=fr" target="_blank">En savoir plus</a><br /> </td> 
    <td> Marketing </td> 
   </tr> 
   <tr> 
@@ -233,7 +229,7 @@ Le tableau ci-après répertorie tous les packages natifs de Campaign.
   </tr> 
   <tr> 
    <td> Plateforme de Mid-sourcing<br /> </td> 
-   <td> Cette configuration présente une solution intermédiaire optimale entre la configuration hébergée (ASP) et l’internalisation. Les composants d’exécution orientés vers l’extérieur sont exécutés sur un serveur de « mid-sourcing » hébergé sur Adobe Campaign. Facultatif. <a href="../../installation/using/mid-sourcing-server.md">En savoir plus </a> <br /> </td> 
+   <td> Cette configuration présente une solution intermédiaire optimale, entre la configuration hébergée (ASP) et l’internalisation.Les composants d’exécution orientés vers l’extérieur sont exécutés sur un serveur de « midsourcing » hébergé sur Adobe Campaign.Facultatif. <a href="../../installation/using/mid-sourcing-server.md">En savoir plus </a> <br /> </td> 
    <td> Mid-sourcing </td> 
   </tr> 
   <tr> 
@@ -251,7 +247,7 @@ Le tableau ci-après répertorie tous les packages natifs de Campaign.
 
 ### Package Message Center {#message-center-package}
 
-Vous devez installer des canaux de diffusion (e-mail, canal mobile, canal d’application mobile, LINE, etc.) avant d&#39;installer la messagerie transactionnelle (package Message Center). Si vous avez démarré un projet Message Center réservé aux e-mails et que vous devez ajouter un nouveau canal par la suite, procédez comme suit :
+Vous devez installer les canaux de diffusion (e-mail, canal mobile, canal des applications mobiles, LINE, etc.)avant d’installer la messagerie transactionnelle (package Message Center).Si vous avez démarré un projet Message Center réservé aux e-mails et que vous devez ajouter un nouveau canal par la suite, procédez comme suit :
 
 1. Installez le nouveau canal, par exemple le **Canal mobile**, à l’aide de l’assistant d’import de package (**[!UICONTROL Outils > Avancé > Import de package > Package Adobe Campaign]**).
 1. Importez le fichier (**[!UICONTROL Outils > Avancé > Importer un package > Fichier]**), puis sélectionnez :

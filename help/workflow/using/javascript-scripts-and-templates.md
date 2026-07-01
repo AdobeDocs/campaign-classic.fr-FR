@@ -6,17 +6,13 @@ feature: Workflows
 hide: true
 exl-id: 4a3647d1-cf8c-4867-871e-472287be7c6a
 TQID: https://experienceleague.adobe.com/QIVkWmrdq0Xk58lIqvcDqdAPQTk6w6OaAIui6FnnSLE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
-subfeature_v2:
-  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
-  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
+subfeature_v2: id: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1272
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -28,10 +24,10 @@ Les scripts vont permettre de calculer des valeurs, d&#39;échanger des données
 
 Les scripts sont omniprésents dans un diagramme de workflow :
 
-* Toutes les activités comportent des scripts d’initialisation. Un script d’initialisation est exécuté lorsque l’activité est activée et peut être utilisé pour initialiser des variables et modifier les propriétés.
+* Toutes les activités comportent des scripts d’initialisation.Un script d’initialisation est exécuté à l’activation de l’activité. Il permet d’initialiser des variables et de modifier les propriétés.
 * L&#39;activité &#39;Code JavaScript&#39; a pour seule fonction d&#39;exécuter un script.
 * L&#39;activité &#39;Test&#39; évalue des expressions JavaScript pour activer la bonne transition.
-* La plupart des champs de texte sont des modèles JavaScript : les expressions JavaScript peuvent être incluses entre &lt;%= et %>. Ces champs contiennent un bouton qui ouvre une liste déroulante pour vous aider à saisir des expressions.
+* La plupart des champs de texte sont des modèles JavaScript : les expressions JavaScript peuvent être incluses entre &lt;%= et %>.Ces champs contiennent un bouton qui ouvre une liste déroulante pour vous aider à saisir des expressions.
 
   ![](assets/script-button.png)
 
@@ -41,8 +37,8 @@ Tout script JavaScript exécuté dans le contexte du workflow accède à une sé
 
 * **instance** : représente le workflow en cours d’exécution. Le schéma de cet objet est **xtk:workflow**.
 * **task** : représente les tâches en cours d’exécution. Le schéma de cet objet est **xtk:workflowTask**.
-* **event** : représente les événements qui ont activé la tâche en cours d’exécution. Le schéma de cet objet est **xtk:workflowEvent**. Cet objet n’est pas initialisé pour les activités de type **AND-join** qui ont été activées à partir de plusieurs transitions.
-* **events** : représente la liste des événements qui ont activé la tâche active. Le schéma de cet objet est **xtk:workflowEvent**. Ce tableau contient généralement un élément, mais il peut en contenir plusieurs pour les activités de type **AND-join** qui ont été activées en fonction de plusieurs transitions.
+* **event** : représente les événements qui ont activé la tâche en cours d’exécution. Le schéma de cet objet est **xtk:workflowEvent**.Cet objet n’est pas initialisé pour les activités de type **AND-join** qui ont été activées à partir de plusieurs transitions.
+* **events** : représente la liste des événements qui ont activé la tâche active. Le schéma de cet objet est **xtk:workflowEvent**.Ce tableau contient généralement un élément, mais il peut en contenir plusieurs pour les activités de type **AND-join** qui ont été activées en fonction de plusieurs transitions.
 * **activity** : représente le modèle de la tâche en cours d’exécution. Le schéma de cet objet dépend du type d’activité. Cet objet peut être modifié par le script d’initialisation ; dans d’autres scripts, les modifications auront des effets indéterminés.
 
 Les propriétés disponibles pour ces objets sont accessibles depuis le menu déroulant du bouton situé à droite de la barre d&#39;outils du script.
@@ -51,7 +47,7 @@ Les propriétés disponibles pour ces objets sont accessibles depuis le menu dé
 >
 >Les propriétés de ces objets sont accessibles en lecture seule à l&#39;exception des sous-propriétés de la propriété vars.
 >  
->La plupart de ces propriétés ne sont mises à jour qu&#39;après l&#39;exécution d&#39;une tâche élémentaire ou lorsque l&#39;instance est passivée. Les valeurs lues ne correspondent pas nécessairement au statut actuel, mais au statut précédent.
+>La plupart de ces propriétés ne sont mises à jour qu’après l’exécution d’une tâche élémentaire ou au moment de la passivation de l’instance.Les valeurs lues ne correspondent pas nécessairement au statut en cours mais au statut précédent.
 
 **Exemple**
 
@@ -76,15 +72,15 @@ Les variables sont des propriétés libres des objets **[!UICONTROL instance]**,
 
 ### Les variables d&#39;instances {#instance-variables}
 
-Les variables d’instance (**[!UICONTROL instance.vars.xxx]**) sont comparables à des variables globales. Elles sont partagées par toutes les activités.
+Les variables d’instance (**[!UICONTROL instance.vars.xxx]**) sont comparables à des variables globales.Elles sont partagées par toutes les activités.
 
 ### Les variables de tâches {#task-variables}
 
-Les variables de tâche (**[!UICONTROL task.vars.xxx]**) sont comparables à des variables locales. Elles ne sont utilisées que par la tâche en cours. Ces variables sont utilisées par les activités persistantes pour conserver les données et sont parfois utilisées pour échanger des données entre les différents scripts d’une même activité.
+Les variables de tâche (**[!UICONTROL task.vars.xxx]**) sont comparables à des variables locales.Elles ne sont utilisées que par la tâche en cours. Ces variables sont utilisées par des activités persistantes pour conserver des données et sont parfois utilisées pour échanger des données entre différents scripts d’une même activité.
 
 ### Les variables d&#39;événements {#event-variables}
 
-Les variables d’événement (**[!UICONTROL vars.xxx]**) permettent l’échange de données entre les tâches élémentaires d’un processus de workflow. Ces variables sont transmises par la tâche qui a activé la tâche en cours. Il est possible de les modifier et d’en définir de nouveaux. Elles sont ensuite transmises aux activités suivantes.
+Les variables d’événement (**[!UICONTROL vars.xxx]**) activent l’échange des données entre les tâches élémentaires d’un processus de workflow.Ces variables sont transmises par la tâche qui a activé la tâche en cours. Il est possible de les modifier et d’en définir de nouvelles.Elles sont ensuite transmises aux activités suivantes.
 
 >[!CAUTION]
 >
@@ -92,7 +88,7 @@ Les variables d’événement (**[!UICONTROL vars.xxx]**) permettent l’échang
 
 Les événements sont les variables les plus communément utilisées et doivent être préférées aux variables d&#39;instances.
 
-Certaines variables d’événement sont modifiées ou lues par les différentes activités. Il s’agit toutes de variables de type chaîne. Par exemple, un export définit la variable **[!UICONTROL vars.filename]** avec le nom complet du fichier qui vient d’être exporté. Toutes ces variables lues ou modifiées sont documentées dans [À propos des activités](about-activities.md), dans les sections **Paramètres d’entrée** et **Paramètres de sortie** des activités.
+Certaines variables d’événement sont modifiées ou lues par les différentes activités.Il s’agit de variables de type chaîne.Par exemple, un export définit la variable **[!UICONTROL vars.filename]** avec le nom complet du fichier qui vient d’être exporté. Toutes ces variables lues ou modifiées sont documentées dans [À propos des activités](about-activities.md), dans les sections **Paramètres d’entrée** et **Paramètres de sortie** des activités.
 
 ### Cas pratiques {#example}
 
@@ -176,7 +172,7 @@ Par exemple :
 
    ![](assets/wkf_js_activity_1.png)
 
-1. Créez une requête dont les dimensions de ciblage et de filtrage sont les destinataires. Dans les conditions, indiquez que vous souhaitez rechercher tous les destinataires auxquels a été envoyée la diffusion spécifiée par la variable .
+1. Créez une requête dont les dimensions de ciblage et de filtrage sont les destinataires.Dans les conditions, indiquez que vous souhaitez trouver toutes les personnes destinataires auxquelles la diffusion spécifiée par la variable a été envoyée.
 
    Pour rappel, ces informations sont stockées dans les logs de diffusion.
 
@@ -192,9 +188,9 @@ En plus des fonctions JavaScript standard, d&#39;autres fonctions spécifiques s
 
 ### Journal {#journal}
 
-**[!UICONTROL logInfo(message)]** a été présenté dans les exemples ci-dessus. Cette fonction ajoute un message d&#39;information au journal.
+**[!UICONTROL logInfo(message)]** a déjà été présenté dans les exemples précédents.Cette fonction ajoute un message d’information au journal.
 
-**[!UICONTROL logError(message)]** ajoute un message d’erreur au journal. Le script interrompt son exécution et le workflow passe en statut d’erreur (par défaut, l’instance est mise en pause).
+**[!UICONTROL logError(message)]** ajoute un message d’erreur au log.Le script interrompt son exécution et le workflow passe au statut d’erreur (par défaut, l’instance sera mise en pause).
 
 ## Script d&#39;initialisation {#initialization-script}
 
@@ -202,7 +198,7 @@ Vous pouvez modifier une propriété d&#39;une activité au moment de l&#39;exé
 
 La plupart des propriétés des activités peuvent être calculées dynamiquement, soit en utilisant un template JavaScript, soit parce que les propriétés du workflow permettent explicitement de calculer la valeur par un script.
 
-Toutefois, pour les autres propriétés, vous devez utiliser le script d’initialisation. Ce script est évalué avant l’exécution de la tâche. La variable **[!UICONTROL activity]** référence l&#39;activité correspondant à la tâche. Les propriétés de cette activité peuvent être modifiées et n&#39;affecteront que cette tâche.
+Toutefois, pour les autres propriétés, vous devez utiliser le script d’initialisation.Ce script est évalué avant l’exécution de la tâche.La variable **[!UICONTROL activity]** référence l&#39;activité correspondant à la tâche. Les propriétés de cette activité peuvent être modifiées et n&#39;affecteront que cette tâche.
 
 **Rubriques connexes**
 [Exemples de code JavaScript dans les workflows](javascript-in-workflows.md)

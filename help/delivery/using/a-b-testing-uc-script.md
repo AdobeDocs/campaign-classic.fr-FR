@@ -7,29 +7,22 @@ feature: A/B Testing
 role: User
 exl-id: 4143d1b7-0e2b-4672-ad57-e4d7f8fea028
 TQID: https://experienceleague.adobe.com/5njTLTPfO8RPiofVJ1OFGm2-AspmmHhVTDWBPeKfJ80
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-feature_v2:
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-  - id: c858a28b-ea19-49b0-8d48-828717fad89c
-subfeature_v2:
-  - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
-  - id: e739ee2b-6228-412e-878f-45de0791417d
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979id: c858a28b-ea19-49b0-8d48-828717fad89c
+subfeature_v2: id: d5bbe3da-ba85-4242-817e-54f7c4b943e0id: e739ee2b-6228-412e-878f-45de0791417d
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 349
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 # AB Testing : créer le script {#step-5--creating-the-script}
 
 
-Le choix du contenu de la diffusion destinée à la population restante est calculé par un script. Ce script récupère les informations relatives à la diffusion qui a obtenu le plus fort taux d&#39;ouverture et copie le contenu dans la diffusion finale.
+Le choix du contenu de la diffusion destinée à la population restante est calculé par un script.Ce script récupère l’information relative à la diffusion qui a obtenu le taux d’ouverture le plus élevé et copie le contenu dans la diffusion finale.
 
 ## Exemple de script {#example-of-a-script}
 
@@ -172,7 +165,7 @@ Cette section détaille les différentes parties du script et leur fonctionnemen
 
 ## Autres critères de sélection {#other-selection-criteria}
 
-L&#39;exemple ci-dessus permet de sélectionner le contenu d&#39;une diffusion en fonction du taux d&#39;ouverture des emails. Vous pouvez l’adapter pour vous baser sur d’autres indicateurs spécifiques à la diffusion :
+L’exemple ci-dessus vous permet de sélectionner le contenu d’une diffusion en fonction du taux d’ouverture des e-mails.Vous pouvez l’adapter pour vous baser sur d’autres indicateurs spécifiques à la diffusion :
 
 * Meilleur taux de clic publicitaire :`[indicators/@recipientClickRatio]`,
 * Meilleure réactivité (email ouvert et clics dans le message) : `[indicators/@reactivity]`,

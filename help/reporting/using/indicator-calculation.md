@@ -6,21 +6,14 @@ badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaig
 feature: Reporting, Monitoring
 exl-id: 52ca1595-16b3-4323-9122-d1ac13c08147
 TQID: https://experienceleague.adobe.com/I483H-86ceSbeG1Mk-sHWy5N7Dyy-uRzOV4Lkvvxc3g
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-feature_v2:
-  - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-subfeature_v2:
-  - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
-  - id: cfda811a-e413-43a4-adf0-7370888f5cfc
-  - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: e0eb8757-182f-49f3-94a4-1587d16f5094
+feature_v2: id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+subfeature_v2: id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47id: cfda811a-e413-43a4-adf0-7370888f5cfcid: afe938ea-bc18-44a4-a3fb-03e1031466cb
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 3137
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -61,13 +54,13 @@ ht-degree: 85%
  </tbody> 
 </table>
 
-Ce rapport est basé sur la table **[!UICONTROL Tracking consolidé]** (nms:trackingStats). Ce tableau d’agrégats est utilisé pour des raisons de performances lors de l’affichage des rapports, à la place du tableau **[!UICONTROL Logs de tracking des destinataires]** (nms:trackingLogRcp) et n’est pas calculé en temps réel. La table est générée quelques minutes après la récupération des logs de tracking. Si les indicateurs sont à jour, les résultats seront les mêmes que pour les indicateurs du rapport **Indicateurs de tracking**. L&#39;indicateur @totalclicks correspond à la somme des clics sur une période de 5 minutes.
+Ce rapport est basé sur la table **[!UICONTROL Tracking consolidé]** (nms:trackingStats).Cette table agrégée est utilisée pour des raisons de performances lors de l’affichage des rapports, à la place de la table des **[!UICONTROL logs de tracking des personnes destinataires]** (nms:trackingLogRcp). Elle n’est pas recalculée en temps réel.La table est générée quelques minutes après la récupération des logs de tracking. Si les indicateurs sont à jour, les résultats seront les mêmes que pour les indicateurs du rapport **Indicateurs de tracking**. L&#39;indicateur @totalclicks correspond à la somme des clics sur une période de 5 minutes.
 
 ## Non-délivrables et rebonds {#non-deliverables-and-bounces-1}
 
 **Répartition par type d’erreur**
 
-Ce rapport repose sur le tableau **[!UICONTROL Statistiques de diffusion et de tracking]** (nms:deliveryLogStats).
+Ce rapport est basé sur la table **[!UICONTROL Statistiques de diffusion et de tracking]** (nms:deliveryLogStats).
 
 <table> 
  <thead> 
@@ -129,13 +122,13 @@ Ce rapport repose sur le tableau **[!UICONTROL Statistiques de diffusion et de t
   </tr> 
   <tr> 
    <td> Contribution<br /> </td> 
-   <td> -<br /> </td> 
+   <td>-<br /></td> 
    <td> Pourcentage du nombre de messages en erreur de ce type par rapport au nombre total de messages en erreur.<br /> </td> 
    <td> percent(@value,@totalErrors)<br /> </td> 
   </tr> 
   <tr> 
    <td> Répartition<br /> </td> 
-   <td> -<br /> </td> 
+   <td>-<br /></td> 
    <td> Pourcentage du nombre de messages en erreur de ce type par rapport au nombre total de messages traités.<br /> </td> 
    <td> percent(@value,@totalProcessed)<br /> </td> 
   </tr> 
@@ -176,7 +169,7 @@ Ce rapport est basé sur le tableau **[!UICONTROL Statistiques du navigateur Int
   </tr> 
   <tr> 
    <td> Taux d'utilisation<br /> </td> 
-   <td> -<br /> </td> 
+   <td>-<br /></td> 
    <td> Pourcentage des visiteurs, pour ce navigateur, par rapport au nombre total de visiteurs.<br /> </td> 
    <td> percent(@totalVisitors, sum(@totalVisitors)) <br /> </td> 
   </tr> 
@@ -203,13 +196,13 @@ Ce rapport est basé sur le tableau **[!UICONTROL Statistiques du navigateur Int
   </tr> 
   <tr> 
    <td> Taux global<br /> </td> 
-   <td> -<br /> </td> 
+   <td>-<br /></td> 
    <td> Pourcentage des visiteurs, pour cette version, par rapport au nombre total de visiteurs sur l'ensemble des navigateurs.<br /> </td> 
    <td> percent(@totalVisitors, @globalVisitors)<br /> </td> 
   </tr> 
   <tr> 
    <td> Taux relatif<br /> </td> 
-   <td> -<br /> </td> 
+   <td>-<br /></td> 
    <td> Pourcentage des visiteurs, pour cette version, par rapport au nombre total de visiteurs sur ce navigateur.<br /> </td> 
    <td> percent(@totalVisitors, sum(@totalVisitors)) <br /> </td> 
   </tr> 
@@ -218,7 +211,7 @@ Ce rapport est basé sur le tableau **[!UICONTROL Statistiques du navigateur Int
 
 ## Partage vers les réseaux sociaux {#sharing-to-social-networks-1}
 
-Ce rapport est basé sur les tables **[!UICONTROL Diffusion]** (nms:delivery), **[!UICONTROL Tracking consolidé]** (nms:trackingStats) et **[!UICONTROL Tracking Web]** (nms:webTrackingLog).
+Ce rapport est basé sur les tables **[!UICONTROL Diffusion]** (nms:delivery), **[!UICONTROL Tracking consolidé]** (nms:trackingStats) et **[!UICONTROL Tracking web]** (nms:webTrackingLog).
 
 <table> 
  <thead> 
@@ -355,7 +348,7 @@ Ce rapport est basé sur les tables **[!UICONTROL Diffusion]** (nms:delivery), *
 
 ## Statistiques des activités de partage {#statistics-on-sharing-activities-1}
 
-Ce rapport est basé sur les tables **[!UICONTROL Diffusion]** (nms:delivery), **[!UICONTROL Tracking consolidé]** (nms:trackingStats) et **[!UICONTROL Tracking Web]** (nms:webTrackingLog).
+Ce rapport est basé sur les tables **[!UICONTROL Diffusion]** (nms:delivery), **[!UICONTROL Tracking consolidé]** (nms:trackingStats) et **[!UICONTROL Tracking web]** (nms:webTrackingLog).
 
 <table> 
  <thead> 
@@ -371,7 +364,7 @@ Ce rapport est basé sur les tables **[!UICONTROL Diffusion]** (nms:delivery), *
    <td> Nouveaux contacts<br /> </td> 
    <td> @newContacts<br /> </td> 
    <td> Comptage du nombre de visiteurs liés à un destinataire.<br /> </td> 
-   <td> Formule : count(@id)<br /> Filtre : @recipient-id != 0<br /> </td> 
+   <td>Formule : count(@id)<br /> Filtre : @recipient-id != 0<br /></td> 
   </tr> 
   <tr> 
    <td> Ouvertures (Opens)<br /> </td> 
@@ -390,7 +383,7 @@ Ce rapport est basé sur les tables **[!UICONTROL Diffusion]** (nms:delivery), *
 
 ## Systèmes d’exploitation {#operating-systems-1}
 
-Ce rapport est basé sur le tableau **[!UICONTROL Statistiques du navigateur Internet]** (nms:userAgentsStats).
+Ce rapport est basé sur la table **[!UICONTROL Statistiques du navigateur Internet]** (nms:userAgentsStats).
 
 **Statistiques globales**
 
@@ -418,7 +411,7 @@ Ce rapport est basé sur le tableau **[!UICONTROL Statistiques du navigateur Int
   </tr> 
   <tr> 
    <td> Taux d'utilisation<br /> </td> 
-   <td> -<br /> </td> 
+   <td>-<br /></td> 
    <td> Répartition des visiteurs, par système d'exploitation, par rapport au nombre total de visiteurs.<br /> </td> 
    <td> percent(@totalVisitors, sum(@totalVisitors))<br /> </td> 
   </tr> 
@@ -445,13 +438,13 @@ Ce rapport est basé sur le tableau **[!UICONTROL Statistiques du navigateur Int
   </tr> 
   <tr> 
    <td> Taux global<br /> </td> 
-   <td> -<br /> </td> 
+   <td>-<br /></td> 
    <td> Pourcentage des visiteurs, par version, par rapport au nombre total de visiteurs sur l'ensemble des systèmes d'exploitation.<br /> </td> 
    <td> percent(@totalVisitors, @globalVisitors)<br /> </td> 
   </tr> 
   <tr> 
    <td> Taux relatif<br /> </td> 
-   <td> -<br /> </td> 
+   <td>-<br /></td> 
    <td> Pourcentage des visiteurs, par version, par rapport au nombre total de visiteurs sur ce système d'exploitation.<br /> </td> 
    <td> percent(@totalVisitors, sum(@totalVisitors))<br /> </td> 
   </tr> 
@@ -492,13 +485,13 @@ Ce rapport est basé sur la table **[!UICONTROL Services]** (nms:service).
   </tr> 
   <tr> 
    <td> Evolution<br /> </td> 
-   <td> -<br /> </td> 
+   <td>-<br /></td> 
    <td> Nombre de désabonnements soustrait au nombre d'abonnements. Le taux associé est calculé par rapport au nombre total d'abonnés.<br /> </td> 
    <td> Iif(number(@_subscription) &gt; number(@_unsubscription), '+', '')+format(@_subscription - @_unsubscription, 'number', '# ##0')+ Iif(@_subscriber&gt;0,' (' + format(100*percent(@_subscription - @_unsubscription, @_subscriber), 'number', '#,##0.00')+ '%)','')<br /> </td> 
   </tr> 
   <tr> 
    <td> Fidélité<br /> </td> 
-   <td> -<br /> </td> 
+   <td>-<br /></td> 
    <td> Taux de fidélité des abonnés sur la période correspondante.<br /> </td> 
    <td> 1-percent(@_unsubscription,@_subscriber+@_subscription-@_unsubscription)<br /> </td> 
   </tr> 
@@ -587,7 +580,7 @@ Ce rapport est basé sur les tables **[!UICONTROL Statistiques de diffusion et d
   </tr> 
   <tr> 
    <td> Réactivité brute<br /> </td> 
-   <td> -<br /> </td> 
+   <td>-<br /></td> 
    <td> Pourcentage du nombre de destinataires ayant cliqué au moins une fois dans une même diffusion par rapport au nombre de destinataires ayant ouvert au moins une fois une même diffusion.<br /> </td> 
    <td> percent(@recipientClick,@recipientOpen)<br /> </td> 
   </tr> 
@@ -611,7 +604,7 @@ Ce rapport est basé sur les tables **[!UICONTROL Statistiques de diffusion et d
   </tr> 
   <tr> 
    <td> Réactivité estimée<br /> </td> 
-   <td> -<br /> </td> 
+   <td>-<br /></td> 
    <td> Ratio du nombre de destinataires ayant cliqué au moins une fois dans une même diffusion par rapport à l'estimation du nombre de destinataires ayant ouvert au moins une fois une même diffusion.<br /> </td> 
    <td> percent(@recipientClick, @estimatedRecipientOpen<br /> </td> 
   </tr> 
@@ -635,7 +628,7 @@ Ce rapport est basé sur les tables **[!UICONTROL Statistiques de diffusion et d
   </tr> 
   <tr> 
    <td> Montant moyen des transactions<br /> </td> 
-   <td> -<br /> </td> 
+   <td>-<br /></td> 
    <td> Ratio du montant total par rapport au nombre de transactions.<br /> </td> 
    <td> div(@amount, @transaction)<br /> </td> 
   </tr> 
@@ -647,13 +640,13 @@ Ce rapport est basé sur les tables **[!UICONTROL Statistiques de diffusion et d
   </tr> 
   <tr> 
    <td> Nombre moyen d'articles par transaction<br /> </td> 
-   <td> -<br /> </td> 
+   <td>-<br /></td> 
    <td> Ratio du nombre d'articles par rapport au nombre de transactions.<br /> </td> 
    <td> div(@article, @transaction)<br /> </td> 
   </tr> 
   <tr> 
    <td> Montant moyen par message<br /> </td> 
-   <td> -<br /> </td> 
+   <td>-<br /></td> 
    <td> Ratio du montant total par rapport au nombre de messages à diffuser.<br /> </td> 
    <td> div(@amount, @toDeliver)<br /> </td> 
   </tr> 
@@ -704,7 +697,7 @@ Ce rapport est basé sur les tables **[!UICONTROL Statistiques de diffusion et d
 
 ## URL et flux de clics {#urls-and-click-streams-1}
 
-Ce rapport est basé sur la table **[!UICONTROL Delivery]** (nms:delivery).
+Ce rapport est basé sur la table **[!UICONTROL Diffusion]** (nms:delivery).
 
 <table> 
  <thead> 
@@ -738,11 +731,11 @@ Ce rapport est basé sur la table **[!UICONTROL Delivery]** (nms:delivery).
    <td> Clics<br /> </td> 
    <td> @_click<br /> </td> 
    <td> Comptage de tous les @totalClicks dont la clé primaire de l'url est différente de 1<br /> </td> 
-   <td> count(Iif([@url-id] != 1, @totalClicks, 0))<br /> </td> 
+   <td>count(Iif([@url-id] != 1, @totalClicks, 0))<br /></td> 
   </tr> 
   <tr> 
    <td> Clics (en%)<br /> </td> 
-   <td> -<br /> </td> 
+   <td>-<br /></td> 
    <td> Pourcentage du nombre de clics par rapport au nombre total de clics cumulés.<br /> </td> 
    <td> percent(@_click, @_total)<br /> </td> 
   </tr> 
@@ -751,7 +744,7 @@ Ce rapport est basé sur la table **[!UICONTROL Delivery]** (nms:delivery).
 
 ## Synthèse des diffusions {#delivery-summary-1}
 
-Ce rapport est basé sur la table **[!UICONTROL Delivery]** (nms:delivery).
+Ce rapport est basé sur la table **[!UICONTROL Diffusion]** (nms:delivery).
 
 <table> 
  <thead> 
@@ -804,13 +797,13 @@ Ce rapport est basé sur la table **[!UICONTROL Delivery]** (nms:delivery).
 
 ## Hot clicks {#hot-clicks-1}
 
-Ce rapport est basé sur les tables Diffusion(nms:delivery) et **[!UICONTROL Tracking consolidé]** (nms:trackingStats) .
+Ce rapport est basé sur les tables Diffusion (nms:delivery) et **[!UICONTROL Tracking consolidé]** (nms:trackingStats).
 
-Ce rapport présente le contenu du message (HTML et/ou texte) avec, sur chaque lien, le pourcentage de clics sur les liens. Les liens de désinscription des blocs de personnalisation et des pages miroir sont pris en compte dans le total des clics cumulés mais ne sont pas affichés dans le rapport.
+Ce rapport présente le contenu du message (HTML et/ou texte) avec, sur chaque lien, le pourcentage de clics sur ce lien.Les blocs de personnalisation, liens de désinscription et liens de page miroir sont pris en compte dans le total des clics cumulés, mais ne sont pas affichés dans le rapport.
 
 ## Statistiques de tracking {#tracking-statistics-1}
 
-Ce rapport est basé sur la table **[!UICONTROL Delivery]** (nms:delivery).
+Ce rapport est basé sur la table **[!UICONTROL Diffusion]** (nms:delivery).
 
 <table> 
  <thead> 
@@ -845,7 +838,7 @@ Ce rapport est basé sur la table **[!UICONTROL Delivery]** (nms:delivery).
 
 ## Statistiques de diffusion {#delivery-statistics-1}
 
-Ce rapport repose sur le tableau **[!UICONTROL Statistiques de diffusion et de tracking]** (nms:deliveryLogStats).
+Ce rapport est basé sur la table **[!UICONTROL Statistiques de diffusion et de tracking]** (nms:deliveryLogStats).
 
 <table> 
  <thead> 
@@ -927,7 +920,7 @@ Ce rapport est basé sur les tables **Diffusions** (nms:delivery) et **Logs de t
 
 ## Autres indicateurs {#other-indicators}
 
-L&#39;indicateur **Envoyés** (@sent), accessible à partir du nœud **Diffusions (nms:delivery) > Indicateurs** correspond au nombre total de SMS envoyés au prestataire. Cet indicateur est utilisé uniquement pour les diffusions SMS et ne doit pas être utilisé pour les autres types de diffusions (ne pas confondre avec les indicateurs **@success** et **@processed**).
+L’indicateur **Envoyés** (@sent), accessible à partir du nœud **Diffusions (nms:delivery) > Indicateurs** correspond au nombre total de SMS envoyés au prestataire.Cet indicateur est utilisé uniquement pour les diffusions SMS et ne doit pas être utilisé pour les autres types de diffusions (ne pas confondre avec les indicateurs **@success** et **@processed**).
 
 ## Synchronisation des indicateurs {#indicator-synchronization}
 
@@ -937,7 +930,7 @@ Si vous observez une désynchronisation ou une incohérence de certains indicate
 
 ## Tracking des ouvertures {#tracking-opens-}
 
-Pour qu’Adobe Campaign puisse détecter l’ouverture d’un message, le destinataire doit télécharger les images de l’e-mail. Les e-mails HTML et Multipart/Alternative incluent une image de 0 pixel, qui permet de détecter les messages qui ont été ouverts. Les messages au format texte ne contenant aucune image, il est impossible de détecter s&#39;ils ont été ouverts ou non. Les valeurs calculées à partir des ouvertures de messages sont toujours des estimations, en raison de la marge d’erreur liée à l’affichage des images.
+Pour qu’Adobe Campaign détecte les ouvertures de messages, la personne destinataire doit télécharger les images contenues dans l’e-mail.Les e-mails HTML et Multipart/Alternative incluent une image de 0 pixel, qui vous permet de détecter les messages ouverts.Les messages au format texte ne contenant aucune image, il est impossible de détecter s’ils ont été ouverts ou non.Les valeurs calculées à partir du nombre de messages ouverts sont toujours des estimations, en raison de la marge d’erreur liée à l’affichage des images.
 
 ## Distinction personnes / destinataires ciblés {#targeted-persons---recipients}
 
@@ -945,6 +938,6 @@ Adobe Campaign distingue les personnes et les destinataires ciblés dans les st
 
 Les destinataires ciblés correspondent à tous les destinataires à qui la diffusion a été envoyée.
 
-Le nombre de personnes comprend les destinataires ciblés plus toutes les personnes à qui l’e-mail a été transféré. Chaque fois qu’il y a une ouverture ou un clic dans un nouveau navigateur (dans lequel le message n’a pas encore été ouvert), une autre personne est ajoutée aux statistiques.
+Le nombre de personnes englobe les personnes destinataires ciblées, auxquelles sont ajoutées toutes les personnes à qui l’e-mail a été transféré.À chaque ouverture ou clic dans un nouveau navigateur (dans lequel le message n’a pas encore été ouvert), une personne supplémentaire est ajoutée aux statistiques.
 
-Par exemple, si vous recevez un e-mail (envoyé par Adobe Campaign) au travail et que vous l’ouvrez ou cliquez dessus, vous êtes comptabilisé comme un destinataire ciblé (c’est-à-dire destinataire=1, personne=1). Si vous transférez cet e-mail à deux amis, le nombre de destinataires ciblés sera toujours égal à un, tandis que le nombre de personnes sera égal à trois. La valeur 3 correspond à chaque ouverture/clic dans un nouveau navigateur.
+Par exemple, si vous recevez un e-mail (envoyé par Adobe Campaign) au travail et que vous l’ouvrez ou cliquez dessus, vous comptez comme une personne destinataire ciblée (c’est-à-dire destinataire=1, personne=1).Si vous transférez cet e-mail à deux de vos proches, le nombre de personnes destinataires ciblées sera toujours égal à un, tandis que le nombre de personnes sera égal à trois.La valeur 3 correspond à chaque ouverture/clic dans un nouveau navigateur.

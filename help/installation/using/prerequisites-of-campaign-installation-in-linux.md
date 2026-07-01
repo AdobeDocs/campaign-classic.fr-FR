@@ -9,17 +9,14 @@ content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
 TQID: https://experienceleague.adobe.com/SFdh5L8-oHjpH7rIhDxOQZqw7AukXtkv3lJHZu2oTHQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 854
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +42,7 @@ Pour rappel, les composants suivants doivent être installés et correctement pa
 
 Pour installer Adobe Campaign sous Linux, vérifiez que vous disposez des librairies requises.
 
-* La bibliothèque C doit pouvoir prendre en charge le mode TLS (Thread Local Storage). Ce mode est actif dans la plupart des cas, sauf pour certains noyaux pour lesquels la prise en charge de Xen a été désactivée.
+* La bibliothèque C doit pouvoir prendre en charge le mode TLS (Thread Local Storage).Ce mode est actif dans la plupart des cas, sauf avec certains kernels dans lesquels le support Xen a été désactivé.
 
   Pour le vérifier, vous pouvez par exemple utiliser la commande **uname -a | grep xen**.
 
@@ -73,7 +70,7 @@ En complément, dans le fichier **/etc/sysconfig/httpd**, la ligne suivante a é
 . ~neolane/nl6/env.sh
 ```
 
-Sous RHEL et CentOS, des problèmes de compatibilité avec les couches clientes des bases de données ont été constatés lorsque SELinux est activé. Pour garantir le bon fonctionnement d’Adobe Campaign, nous vous recommandons de désactiver SELinux.
+Sous RHEL et CentOS, des problèmes de compatibilité avec les couches clientes des bases de données ont été constatées lorsque SELinux est activé.Pour assurer le bon fonctionnement d’Adobe Campaign, nous vous conseillons de désactiver SELinux.
 
 **Procédez de la manière suivante :**
 
@@ -144,7 +141,7 @@ yum install libreoffice-headless libreoffice-writer libreoffice-calc
 
 ## Couches d&#39;accès base de données {#database-access-layers}
 
-Les couches d’accès pour le moteur de base de données que vous utilisez doivent être installées sur votre serveur et accessibles via le compte Adobe Campaign. Les versions et les modes d&#39;installation peuvent varier en fonction du moteur de base de données utilisé.
+Les couches d’accès pour le moteur de base de données que vous utilisez doivent être installées sur votre serveur et accessibles depuis le compte Adobe Campaign.Selon le moteur de base de données utilisé, les versions et modes d’installation peuvent différer.
 
 Les versions des connecteurs CRM compatibles avec Adobe Campaign sont listées dans la [matrice de compatibilité](../../rn/using/compatibility-matrix.md).
 
@@ -170,11 +167,11 @@ Vous pouvez obtenir un package RPM Linux depuis Oracle Technology Network.
 
 Les problèmes peuvent survenir après la mise à jour ou le changement de version d&#39;un client ou d&#39;un serveur Oracle ou lors de la première installation de l&#39;instance.
 
-Si vous constatez sur la console cliente qu’il existe des décalages horaires inattendus (une ou plusieurs heures) dans les journaux, le dernier traitement du workflow, le traitement suivant, etc., il se peut qu’il y ait un problème entre la bibliothèque du client Oracle et le serveur Oracle. Pour éviter de tels problèmes
+Si vous remarquez, sur la console cliente, des décalages horaires inattendus (une ou plusieurs heures) entre les logs, le dernier traitement de workflow, le traitement suivant, etc., il pourrait y avoir un problème entre la bibliothèque du client Oracle et le serveur Oracle.Pour éviter de tels problèmes, procédez comme suit :
 
 1. Assurez-vous d&#39;utiliser la version **cliente complète**.
 
-   Divers problèmes ont été identifiés lors de l’utilisation de la version Oracle Instant Client. En outre, il est impossible de modifier le fichier de fuseau horaire sur le client instantané.
+   Divers problèmes ont été identifiés lors de l’utilisation de la version Oracle Instant Client.En outre, il est impossible de modifier le fichier de fuseau horaire sur le client instantané.
 
 1. Assurez-vous que la **version cliente** et la **version du serveur de base de données** sont les **mêmes**.
 
@@ -188,7 +185,7 @@ Si vous constatez sur la console cliente qu’il existe des décalages horaires 
 
 L&#39;installation d&#39;Adobe Campaign sous Linux doit être réalisée dans l&#39;ordre suivant : installation du serveur puis paramétrage des instances.
 
-Le processus d’installation est décrit dans ce chapitre. Les étapes d&#39;installation sont les suivantes :
+Le processus d’installation est décrit dans ce chapitre.Les étapes de l’installation sont les suivantes :
 
 * Etape 1 : Installation du serveur applicatif, voir la section [Installation de packages avec Linux](../../installation/using/installing-packages-with-linux.md).
 * Etape 2 : Intégration à un serveur Web (optionnel, en fonction des composants déployés).

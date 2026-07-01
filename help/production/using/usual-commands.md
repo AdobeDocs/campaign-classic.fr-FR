@@ -9,16 +9,13 @@ content-type: reference
 topic-tags: production-procedures
 exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
 TQID: https://experienceleague.adobe.com/54ErpGUWBV076fqJIdr2ZsJlKVicuFf4xNgk-qDvvmQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
-subfeature_v2:
-  - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
-  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+subfeature_v2: id: c03a11ff-bdf9-4e5b-b279-f468b4293464id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 458
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +27,7 @@ Cette section propose la liste des commandes usuelles sous Adobe Campaign.
 
 La commande **nlserver** est la commande d&#39;entrée de l&#39;ensemble de l&#39;applicatif Adobe Campaign.
 
-La syntaxe de cette commande est la suivante : **nlserver &#x200B;**`<command>`**&#x200B;**`<arguments>`**&#x200B;**
+La syntaxe de cette commande est la suivante : **nlserver **`<command>`****`<arguments>`****
 
 Le paramètre **`<command>`** correspond au module.
 
@@ -167,8 +164,8 @@ Pour changer le mode de passe **internal** : **nlserver config -internalpasswor
 >[!NOTE]
 >
 >* D&#39;une manière générale, au lieu de modifier les fichiers de configuration à la main, vous pouvez utiliser la commande **config**.
->* Pour obtenir la liste des paramètres, utilisez le **-?** paramètre : **nlserver config -?**
->* Dans le cas d’une base Oracle, vous ne devez pas spécifier le compte. La syntaxe sera la suivante :
+>* Pour obtenir la liste des paramètres, utilisez le paramètre **-?** :**nlserver config -?**.
+>* Dans le cas d’une base de données Oracle, il ne faut pas préciser le compte.La syntaxe sera la suivante :
 >
 >  `nlserver config -setdblogin:Oracle:test6@dbserver`
 >

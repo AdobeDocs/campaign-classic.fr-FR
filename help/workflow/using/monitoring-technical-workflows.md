@@ -6,19 +6,14 @@ feature: Workflows
 hide: true
 exl-id: 5e77d196-5c71-438e-8dae-10c6a6e4f29c
 TQID: https://experienceleague.adobe.com/Zil5DwLklAKHSiHbsO6m71Lekcy4f8UYQA53uUzkqRg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 feature_v2: []
-subfeature_v2:
-  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
-  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
+subfeature_v2: id: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 533
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +31,7 @@ Le tableau de bord de supervision de l’instance est accessible à partir de l�
 
 ![](assets/monitoring_technical_workflows1.png)
 
-Sous Indicateurs système et fichiers principaux, vérifiez qu’aucun indicateur n’est mis en surbrillance en rouge. Si c’est le cas et que certains le sont, vous devez :
+Dans Indicateurs système et fichiers core, vérifier qu’aucun indicateur n’est surligné en rouge.Si c’est le cas et que certains le sont :
 
 * Vérifiez que les traitements nécessaire sont toujours en cours d&#39;exécution,
 * Vérifiez qu&#39;aucun des traitement n&#39;est trop vieux,
@@ -95,7 +90,7 @@ Tous les workflows techniques personnalisés doivent être documentés dans une 
 
 ## Planification et automatisation de la surveillance {#planning-and-automation-of-monitoring}
 
-La surveillance des workflows de planification améliore son efficacité. Certaines tâches doivent être effectuées quotidiennement, tandis que d’autres peuvent l’être une fois par semaine ou par mois.
+La surveillance des workflows de planification améliore son efficacité.Certaines tâches doivent avoir lieu tous les jours, alors que d’autres sont nécessaires une fois par semaine ou une fois par mois.
 
 Le fait de sauvegarder les workflows dans des dossiers nommés en fonction de leur récurrence et triés par planning d’exécution augmente l’efficacité de la surveillance.
 

@@ -9,17 +9,14 @@ content-type: reference
 topic-tags: case-study
 exl-id: 90afced3-465d-4370-8a33-51a7e4356135
 TQID: https://experienceleague.adobe.com/HkXtRV9hn2hZSZyxx86o2muGafhdhWuLp-uYBe4xTaU
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-feature_v2:
-  - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+feature_v2: id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2168
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -143,7 +140,7 @@ Vous obtenez une arborescence contenant votre nouvel environnement :
 
 Afin que les offres que vous venez de paramétrer apparaissent dans le site web, vous allez insérer un code Javascript dans la page HTML de votre site destiné à appeler le moteur d&#39;Interaction (voir à ce sujet la section [À propos des canaux entrants](../../interaction/using/about-inbound-channels.md)).
 
-1. Accédez à votre page HTML et insérez un attribut @id dont la valeur correspond au nom interne de l&#39;emplacement anonyme créé précédemment (voir [Créer des emplacements anonymes &#x200B;](#creating-anonymous-offer-spaces)), précédé de **i_**.
+1. Accédez à votre page HTML et insérez un attribut @id dont la valeur correspond au nom interne de l&#39;emplacement anonyme créé précédemment (voir [Créer des emplacements anonymes ](#creating-anonymous-offer-spaces)), précédé de **i_**.
 
    ![](assets/offer_inbound_anonymous_example_019.png)
 
@@ -161,7 +158,7 @@ Un même visiteur se présentant plusieurs fois sur la page verra s&#39;afficher
 
 ## Basculer vers un environnement anonyme lorsqu&#39;un contact n&#39;est pas identifié {#switching-to-an-anonymous-environment-in-case-of-unidentified-contacts}
 
-La société Neobank souhaite créer des offres marketing pour deux cibles différentes. Il souhaite afficher des offres génériques pour ses navigateurs de sites web anonymes. Si l&#39;un de ces utilisateurs s&#39;avère être un client avec des identifiants fournis par Neobank, la société souhaite qu&#39;il reçoive des offres personnalisées dès sa connexion.
+La société Neobank souhaite proposer des offres marketing destinées à deux cibles différentes.Elle veut pouvoir afficher des offres génériques pour des personnes qui navigueraient anonymement sur son site web.Dans le cas où une personne parmi ses utilisateurs et utilisatrices se révélerait être une cliente disposant d’identifiants fournis par Neobank, la société souhaite qu’elle puisse voir des offres personnalisées dès lors qu’elle se connecte à son compte.
 
 Le scénario de ce cas client se déroule de la manière suivante :
 
@@ -181,7 +178,7 @@ Le scénario de ce cas client se déroule de la manière suivante :
 
    ![](assets/offer_inbound_fallback_example_053.png)
 
-Pour mettre en œuvre ce cas client, vous devez disposer de deux environnements d&#39;offres : un environnement destiné aux interactions anonymes et un environnement d&#39;offres paramétrées spécifiquement pour les contacts identifiés. L&#39;environnement d&#39;offres identifié sera configuré pour basculer automatiquement vers l&#39;environnement d&#39;offres anonyme si le contact ne s&#39;est pas connecté et n&#39;est donc pas identifié.
+Pour implémenter cette étude de cas, vous devez disposer de deux environnements d’offres : un environnement destiné aux interactions anonymes et un environnement d’offres configurées spécifiquement pour les personnes contacts identifiées.L’environnement d’offres identifiées sera configuré pour basculer automatiquement vers l’environnement anonyme si la personne contact ne s’est pas connectée et n’est donc pas identifiée.
 
 Les étapes sont les suivantes :
 
@@ -211,7 +208,7 @@ Les étapes sont les suivantes :
 
 ### Paramétrer des emplacements pour l&#39;environnement anonyme {#configuring-offer-spaces-for-the-anonymous-environment}
 
-Les offres qui doivent être présentées sur le site web appartiennent à deux catégories différentes : **Premium** et **Partenaires**. Dans cet exemple, nous allons créer un emplacement spécifique pour chaque catégorie.
+Les offres qui doivent être présentées sur le site web appartiennent à deux catégories distinctes : **Meilleure offre** et **Partenaire**.Dans notre exemple, nous allons créer un emplacement spécifique pour chaque catégorie.
 
 Pour créer l&#39;emplacement correspondant à la catégorie **Premium**, procédez comme suit :
 
@@ -238,7 +235,7 @@ Pour créer l&#39;emplacement correspondant à la catégorie **Premium**, procé
 
 ### Créer des catégories d&#39;offres dans l&#39;environnement anonyme {#creating-offer-categories-in-an-anonymous-environment}
 
-Vous allez créer deux catégories d&#39;offres : la catégorie **Premium** et la catégorie **Partenaires**. Chaque catégorie contiendra deux offres destinées à des contacts anonymes.
+Créez tout d’abord deux catégories d’offres : la catégorie **Meilleure offre** et la catégorie **Partenaire**.Chaque catégorie contiendra deux offres destinées à des personnes contacts anonymes.
 
 1. Dans l&#39;environnement anonyme que vous venez de créer, positionnez-vous sur le noeud **[!UICONTROL Catalogue d&#39;offres]**.
 1. Ajoutez un dossier de type **[!UICONTROL Catégorie d&#39;offres]** et attribuez-lui le libellé **Premium**.
@@ -290,7 +287,7 @@ Vous allez à présent créer deux offres dans chacune des catégories crées pr
 
 ### Paramétrer les emplacements dans l&#39;environnement identifié {#configure-the-offer-spaces-in-the-identified-environment}
 
-Les offres que vous allez présenter sur le site web sont issues de deux catégories différentes : **Premium** et **Partenaires**. Dans cet exemple, nous allons créer un emplacement spécifique pour chaque catégorie.
+Les offres que vous allez présenter sur le site web sont issues de deux catégories différentes : **Meilleure offre** et **Partenaire**.Dans cet exemple, nous voulons créer un emplacement spécifique pour chaque catégorie.
 
 Pour créer les deux emplacements, procédez de la même manière que pour les emplacements anonymes. Consultez la section [Paramétrer des emplacements pour l’environnement anonyme](#configuring-offer-spaces-for-the-anonymous-environment).
 
@@ -309,7 +306,7 @@ Pour créer les deux emplacements, procédez de la même manière que pour les e
 
 ### Spécifier les paramètres avancés de l&#39;emplacement identifié {#specifying-the-advanced-settings-of-the-identified-offer-spaces}
 
-Dans cet exemple, l&#39;identification du contact se fait via son adresse email dans la base de données Adobe Campaign. Pour ajouter l&#39;email du destinataire dans l&#39;emplacement, procédez comme suit :
+Dans cet exemple, l’identification de la personne contact se fait via son adresse e-mail dans la base de données Adobe Campaign.Pour ajouter l’e-mail de la personne destinataire dans l’emplacement, procédez comme suit :
 
 1. Dans l&#39;environnement identifié, positionnez-vous dans le dossier des emplacements.
 1. Sélectionnez l&#39;emplacement **Premium** et cliquez sur **[!UICONTROL Paramètres avancés]**.
@@ -411,7 +408,7 @@ Pour paramétrer les emplacements des offres dans la page HTML du site web, proc
 
    L&#39;URL contient le nom interne **OE18** de l&#39;environnement identifié.
 
-Lors de l&#39;ouverture de la page web, le script permet d&#39;appeler le moteur d&#39;Interaction afin d&#39;afficher le contenu des offres dans les emplacements prévus à cet effet sur la page web. En un seul appel au serveur Adobe Campaign, le moteur détermine l&#39;environnement, l&#39;emplacement et les catégories à sélectionner.
+Lors de l’affichage de la page web, le script vous permet d’appeler le moteur Interaction afin d’afficher le contenu des offres dans les emplacements prévus à cet effet sur la page web.En un seul appel au serveur Adobe Campaign, le moteur détermine l’environnement, l’emplacement et les catégories à sélectionner.
 
 Dans notre exemple, le moteur reconnaît l&#39;environnement identifié (**OE18**). Il identifie l&#39;emplacement (**SPC27**) et la catégorie **Premium** (**OC34**) pour le premier et le deuxième emplacement de la page web, ainsi que l&#39;emplacement (**SPC29**) et la catégorie **Partenaires** (**OC35**) pour le troisième emplacement dans le site.
 

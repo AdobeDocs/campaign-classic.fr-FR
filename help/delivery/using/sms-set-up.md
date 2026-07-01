@@ -7,29 +7,15 @@ role: User, Developer, Admin
 level: Experienced
 exl-id: a2783a5e-6d38-41a1-b5c6-24ab489116f8
 TQID: https://experienceleague.adobe.com/quIMssNONhvwEBVIEic9Dhe2x4-E0H5U8nIEruSUhtg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-feature_v2:
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-  - id: c858a28b-ea19-49b0-8d48-828717fad89c
-subfeature_v2:
-  - id: e95a583b-fcfa-4524-8666-46a29c828119
-  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
-  - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
-  - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979id: c858a28b-ea19-49b0-8d48-828717fad89c
+subfeature_v2: id: e95a583b-fcfa-4524-8666-46a29c828119id: c8da4fdd-eb94-4751-a43c-f82733fb2d6eid: d5bbe3da-ba85-4242-817e-54f7c4b943e0id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1801
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +40,7 @@ Pour diffuser vers un téléphone mobile, vous devez avoir :
 >L’utilisation du même compte et du même mot de passe pour plusieurs comptes SMS externes peut entraîner des conflits et des chevauchements entre les comptes. Reportez-vous à la [page de résolution des problèmes de SMS](troubleshooting-sms.md#external-account-conflict).
 
 Pour envoyer un SMS à un téléphone mobile, vous devez d’abord créer votre compte externe SMPP.
-Pour plus d’informations sur le protocole et les paramètres SMS, consultez cette [page](sms-protocol.md).
+Pour plus d’informations sur le protocole SMS et les paramètres associés, consultez cette [page](sms-protocol.md).
 
 Pour ce faire, procédez comme suit :
 
@@ -78,7 +64,7 @@ Pour ce faire, procédez comme suit :
 
    Contactez ensuite votre fournisseur qui vous donnera la valeur à saisir dans le champ **[!UICONTROL Nom de l&#39;implémentation du SMSC]**, en fonction du fournisseur que vous aurez choisi.
 
-   Vous pouvez définir le nombre de connexions au fournisseur par enfant MTA. Par défaut, elle est définie sur 1.
+   Vous pouvez définir le nombre de connexions au fournisseur par MTA enfant.Par défaut, ce nombre est défini sur 1.
 
 1. Par défaut, le nombre de caractère d&#39;un SMS respecte la norme de téléphonie mobile GSM.
 
@@ -96,7 +82,7 @@ Pour ce faire, procédez comme suit :
 
    Pour plus d’informations, consultez [cette section](#about-character-transliteration).
 
-1. Dans l&#39;onglet **[!UICONTROL Débit et délais]**, vous pouvez spécifier le débit maximal de messages sortants (« MT », Mobile Terminated) en MT par seconde. Si vous indiquez « 0 » dans le champ correspondant, le débit ne sera pas limité.
+1. Dans l’onglet **[!UICONTROL Débit et délais]**, vous pouvez indiquer le débit maximum des messages sortants (MT, Mobile Terminated) en MT par seconde.Si vous indiquez « 0 » dans le champ correspondant, le débit ne sera pas limité.
 
    Les valeurs de tous les champs correspondant à des délais sont à renseigner en secondes.
 
@@ -104,7 +90,7 @@ Pour ce faire, procédez comme suit :
 
    Pour plus d’informations, consultez [cette section](#about-text-encodings).
 
-1. Dans l&#39;onglet **[!UICONTROL Spécificités du SMSC]**, l&#39;option **[!UICONTROL Envoyer le numéro de téléphone complet]** est désactivée par défaut. Ne l&#39;activez pas si vous souhaitez respecter le protocole SMPP et ne transférer que des chiffres au serveur du fournisseur SMS (SMSC).
+1. Dans l’onglet **[!UICONTROL Spécificités du SMSC]**, l’option **[!UICONTROL Envoyer le numéro de téléphone complet]** est désactivée par défaut.Ne l’activez pas si vous souhaitez respecter le protocole SMPP et ne transmettre que des chiffres au serveur du fournisseur SMS (SMSC).
 
    Cependant, étant donné que certains fournisseurs requièrent l&#39;utilisation du préfixe &#39;+&#39;, consultez votre propre fournisseur qui vous invitera à activer cette option le cas échéant.
 
@@ -131,17 +117,17 @@ Par défaut, la translittération des caractères est désactivée. Si vous souh
 
 En revanche, si vos SMS contiennent beaucoup de caractères générant des messages Unicode, vous pouvez choisir d&#39;activer cette option afin de limiter le coût de vos envois.
 
-Le tableau suivant présente les caractères pris en compte par la norme GSM. Tout caractère inséré dans le corps du message autre que ceux mentionnés ci-dessous convertit le message complet en binaire (Unicode) et le limite donc à 70 caractères.
+Le tableau suivant présente les caractères pris en compte par la norme GSM.Tout caractère inséré dans le corps du message autre que ceux mentionnés ci-dessous convertit le message complet en binaire (Unicode) et le limite donc à 70 caractères.
 
 **Caractères simples**
 
 <table> 
  <tbody> 
   <tr> 
-   <td> @ </td> 
+   <td>@</td> 
    <td> <img height="21px" src="assets/delta.png" /> </td> 
    <td> SP </td> 
-   <td> 0 </td> 
+   <td>0 </td> 
    <td> ¡ </td> 
    <td> p </td> 
    <td> ¿ </td> 
@@ -149,19 +135,19 @@ Le tableau suivant présente les caractères pris en compte par la norme GSM. To
   </tr> 
   <tr> 
    <td> £ </td> 
-   <td> _ </td> 
-   <td> ! </td> 
-   <td> 1 </td> 
+   <td>_</td> 
+   <td>!</td> 
+   <td>1</td> 
    <td> a </td> 
    <td> q </td> 
    <td> a </td> 
    <td> q </td> 
   </tr> 
   <tr> 
-   <td> $ </td> 
+   <td>$</td> 
    <td> <img height="21px" src="assets/phi.png" /> </td> 
-   <td> " </td> 
-   <td> 2 </td> 
+   <td>"</td> 
+   <td>2</td> 
    <td> b </td> 
    <td> r </td> 
    <td> b </td> 
@@ -170,8 +156,8 @@ Le tableau suivant présente les caractères pris en compte par la norme GSM. To
   <tr> 
    <td> ¥ </td> 
    <td> <img height="21px" src="assets/gamma.png" /> </td> 
-   <td> # </td> 
-   <td> 3 </td> 
+   <td>#</td> 
+   <td>3</td> 
    <td> c </td> 
    <td> s </td> 
    <td> c </td> 
@@ -181,7 +167,7 @@ Le tableau suivant présente les caractères pris en compte par la norme GSM. To
    <td> è </td> 
    <td> <img height="21px" src="assets/delta.png" /> </td> 
    <td> ¤ </td> 
-   <td> 4 </td> 
+   <td>4</td> 
    <td> D </td> 
    <td> T </td> 
    <td> d </td> 
@@ -190,8 +176,8 @@ Le tableau suivant présente les caractères pris en compte par la norme GSM. To
   <tr> 
    <td> é </td> 
    <td> <img height="21px" src="assets/omega.png" /> </td> 
-   <td> % </td> 
-   <td> 5 </td> 
+   <td>%</td> 
+   <td>5</td> 
    <td> e </td> 
    <td> u </td> 
    <td> e </td> 
@@ -200,8 +186,8 @@ Le tableau suivant présente les caractères pris en compte par la norme GSM. To
   <tr> 
    <td> ù </td> 
    <td> <img height="21px" src="assets/pi.png" /> </td> 
-   <td> &amp; </td> 
-   <td> 6 </td> 
+   <td>&amp;</td> 
+   <td>6</td> 
    <td> f </td> 
    <td> v </td> 
    <td> f </td> 
@@ -210,8 +196,8 @@ Le tableau suivant présente les caractères pris en compte par la norme GSM. To
   <tr> 
    <td> ì </td> 
    <td> <img height="21px" src="assets/psi.png" /> </td> 
-   <td> ' </td> 
-   <td> 7 </td> 
+   <td>'</td> 
+   <td>7</td> 
    <td> g </td> 
    <td> w </td> 
    <td> g </td> 
@@ -220,8 +206,8 @@ Le tableau suivant présente les caractères pris en compte par la norme GSM. To
   <tr> 
    <td> ò </td> 
    <td> <img height="21px" src="assets/sigma.png" /> </td> 
-   <td> ( </td> 
-   <td> 8 </td> 
+   <td>(</td> 
+   <td>8</td> 
    <td> h </td> 
    <td> X </td> 
    <td> h </td> 
@@ -230,8 +216,8 @@ Le tableau suivant présente les caractères pris en compte par la norme GSM. To
   <tr> 
    <td> Ç </td> 
    <td> <img height="21px" src="assets/theta.png" /> </td> 
-   <td> ) </td> 
-   <td> 9 </td> 
+   <td>)</td> 
+   <td>9</td> 
    <td> i </td> 
    <td> y </td> 
    <td> i </td> 
@@ -240,8 +226,8 @@ Le tableau suivant présente les caractères pris en compte par la norme GSM. To
   <tr> 
    <td> LF </td> 
    <td> <img height="21px" src="assets/xi.png" /> </td> 
-   <td> * </td> 
-   <td> : </td> 
+   <td>*</td> 
+   <td>:</td> 
    <td> j </td> 
    <td> z </td> 
    <td> j </td> 
@@ -250,8 +236,8 @@ Le tableau suivant présente les caractères pris en compte par la norme GSM. To
   <tr> 
    <td> Ø </td> 
    <td> ESC </td> 
-   <td> + </td> 
-   <td> ; </td> 
+   <td>+</td> 
+   <td>;</td> 
    <td> k </td> 
    <td> Ä </td> 
    <td> k </td> 
@@ -260,8 +246,8 @@ Le tableau suivant présente les caractères pris en compte par la norme GSM. To
   <tr> 
    <td> ø </td> 
    <td> Æ </td> 
-   <td> , </td> 
-   <td> &lt; </td> 
+   <td>,</td> 
+   <td>&lt;</td> 
    <td> l </td> 
    <td> Ö </td> 
    <td> l </td> 
@@ -270,8 +256,8 @@ Le tableau suivant présente les caractères pris en compte par la norme GSM. To
   <tr> 
    <td> CR </td> 
    <td> æ </td> 
-   <td> - </td> 
-   <td> = </td> 
+   <td>-</td> 
+   <td>=</td> 
    <td> M </td> 
    <td> Ñ </td> 
    <td> m </td> 
@@ -280,8 +266,8 @@ Le tableau suivant présente les caractères pris en compte par la norme GSM. To
   <tr> 
    <td> Å </td> 
    <td> ß </td> 
-   <td> . </td> 
-   <td> &gt; </td> 
+   <td>.</td> 
+   <td>&gt;</td> 
    <td> n </td> 
    <td> Ü </td> 
    <td> n </td> 
@@ -290,8 +276,8 @@ Le tableau suivant présente les caractères pris en compte par la norme GSM. To
   <tr> 
    <td> å </td> 
    <td> É </td> 
-   <td> / </td> 
-   <td> ? </td> 
+   <td>/</td> 
+   <td>?</td> 
    <td> o </td> 
    <td> § </td> 
    <td> o </td> 
@@ -335,7 +321,7 @@ Vous pouvez déclarer des **data_coding** et forcer l&#39;encodage si besoin : 
 >
 >L’ordre de déclaration est important : il est recommandé d’ordonner la liste par ordre croissant **de coût**, afin de favoriser les encodages permettant de mettre le plus de caractères possible dans chaque SMS.
 >
->Ne déclarez que les encodages que vous souhaitez utiliser. Si certains des encodages fournis par le SMSC ne correspondent pas à votre objectif d&#39;utilisation, ne les déclarez pas dans la liste.
+>Ne déclarez que les encodages que vous souhaitez utiliser. Si certains encodages fournis par le SMSC ne correspondent pas à votre utilisation, ne les déclarez pas dans la liste.
 
 ## Réponse automatique {#automatic-reply}
 
@@ -349,7 +335,7 @@ Lorsqu&#39;un abonné répond à un SMS qui lui a été envoyé via Adobe Campa
 
 Pour chaque mot-clé, indiquez un numéro court (short code), c&#39;est-à-dire un numéro habituellement utilisé pour envoyer les diffusions et qui servira de nom d&#39;expéditeur, puis saisissez le message qui sera adressé à l&#39;abonné.
 
-Vous pouvez également lier une action à votre réponse automatique : **[!UICONTROL Envoyer en quarantaine]** ou **[!UICONTROL Supprimer de la quarantaine]**. Par exemple, si un destinataire envoie le mot-clé « STOP », il reçoit automatiquement une confirmation de désinscription et est mis en quarantaine.
+Vous pouvez également associer une action à votre réponse automatique : **[!UICONTROL Envoyer en quarantaine]** ou **[!UICONTROL Sortir de la quarantaine]**.Par exemple, si une personne destinataire envoie le mot-clé « STOP », elle reçoit automatiquement une confirmation de désinscription et est mise en quarantaine.
 
 ![](assets/extended_smpp_reply.png)
 
@@ -359,10 +345,10 @@ Les destinataires sont répertoriés dans la table **[!UICONTROL NP@I et Adresse
 
 * Pour envoyer la même réponse quel que soit le numéro court, laissez la colonne **[!UICONTROL Numéro court]** vide.
 * Pour envoyer la même réponse quel que soit le mot-clé, laissez la colonne &quot;**[!UICONTROL Mot-clé]**&quot; vide.
-* Pour exécuter une action sans envoyer de réponse, laissez la colonne **[!UICONTROL Réponse]** vide. Vous pouvez, par exemple, supprimer de la quarantaine un utilisateur qui répond avec un message autre que « STOP ».
+* Pour effectuer une action sans envoyer de réponse, laissez la colonne **[!UICONTROL Réponse]** vide.Cela permet par exemple de retirer de la quarantaine le numéro de téléphone d’une personne qui envoie un message autre que « STOP ».
 
-Si vous disposez de plusieurs comptes externes utilisant le connecteur SMPP générique étendu avec le même compte de fournisseur, le problème suivant peut se produire : lors de l&#39;envoi d&#39;une réponse à un numéro court, il peut être reçu sur n&#39;importe laquelle de vos connexions de compte externe. Par conséquent, la réponse automatique envoyée ne pouvait pas être le message attendu.
-Pour éviter cela, appliquez l’une des solutions suivantes, selon le fournisseur que vous utilisez :
+Si vous disposez de plusieurs comptes externes utilisant le connecteur SMPP générique étendu avec le même compte fournisseur, le problème suivant peut se produire : lors de l’envoi d’une réponse à un code court, il peut être reçu sur n’importe quelle connexion de votre compte externe. En conséquence, la réponse automatique envoyée n’est peut-être pas le message attendu.
+Pour éviter cela, appliquez l’une des solutions suivantes, selon le fournisseur que vous utilisez :
 
 * Créez un compte fournisseur pour chaque compte externe.
 * Utilisez le champ **[!UICONTROL Type de système]** dans l&#39;onglet **[!UICONTROL Mobile]** > **[!UICONTROL Paramètres de connexion]** pour distinguer chaque code court. Demandez à votre fournisseur une valeur différente pour chaque compte.

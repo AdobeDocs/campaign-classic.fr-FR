@@ -7,9 +7,9 @@ badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaig
 hide: true
 exl-id: 5f22fa2c-b648-4126-9a24-1798adfa8f34
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1584'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 76%
 
 ## Mise en classe des données {#data-binning}
 
-La mise en classe permet de simplifier l’affichage des données en regroupant les valeurs selon des critères. Selon les informations dont vous disposez, vous pouvez définir des tranches d’âge, regrouper des domaines de messagerie, vous limiter à une énumération de valeurs, restreindre explicitement les données à afficher et regrouper toutes les autres données dans une ligne ou une colonne dédiée, etc.
+La mise en classe permet de simplifier l’affichage des données en regroupant les valeurs selon des critères.Selon les informations dont vous disposez, vous pouvez définir des tranches d’âge, regrouper des domaines de messagerie, vous limiter à une énumération de valeurs, restreindre explicitement les données à afficher et regrouper toutes les autres données dans une ligne ou une colonne dédiée, etc.
 
 Globalement, trois types de mise en classe sont possibles :
 
-1. Utilisation de plages de valeurs définies manuellement. Par exemple, l’âge, le panier moyen, le nombre de diffusions ouvertes, etc.). Voir à ce sujet la section [Définir chaque classe](#defining-each-bin).
+1. En utilisant des plages de valeurs définies manuellement.Par exemple, âge, panier moyen, nombre de diffusions ouvertes, etc.).Voir à ce sujet la section [Définir chaque classe](#defining-each-bin).
 1. Dynamiquement, selon les valeurs d&#39;une énumération : on n&#39;affiche que les valeurs contenues dans l’énumération et toutes les valeurs différentes sont regroupées dans « Autres ». Pour plus d&#39;informations, consultez la section [Gérer dynamiquement les classes](#dynamically-managing-bins).
-1. En utilisant des plages de valeurs, toutes les autres étant regroupées. Par exemple, les jeunes de 18 à 25 ans, les jeunes de 26 à 59 ans et les autres. Pour plus d&#39;informations, consultez la section [Créer des plages de valeurs](#creating-value-ranges).
+1. En utilisant des plages de valeurs, toutes les autres étant regroupées.Par exemple, les 18 à 25 ans, les 26 à 59 ans, et les autres.Pour plus d&#39;informations, consultez la section [Créer des plages de valeurs](#creating-value-ranges).
 
 Pour activer la mise en classe, cochez l&#39;option correspondante lors de la création de la dimension.
 
@@ -51,13 +51,13 @@ Dans l&#39;exemple ci-dessous, les langues seront réparties dans trois groupes�
 
 Vous pouvez utiliser un masque SQL pour regrouper plusieurs valeurs selon un filtre. Pour cela, cochez l&#39;option **[!UICONTROL Oui]** dans la colonne **[!UICONTROL Utiliser un masque SQL]** et saisissez le filtre SQL à appliquer dans la colonne **[!UICONTROL Valeur ou expression]**.
 
-Dans l’exemple ci-dessous, tous les domaines d’e-mail commençant par **yahoo** (yahoo.fr, yahoo.com, yahoo.be, etc.) ou par **ymail** (ymail.com, ymail.eu, etc.) sera regroupée sous le libellé **YAHOO!**, ainsi que les adresses appartenant au domaine **rocketmail.com**.
+Dans l’exemple ci-dessous, tous les domaines d’e-mail commençant par **yahoo** (yahoo.fr, yahoo.com, yahoo.be, etc.) ou par **ymail** (ymail.com, ymail.eu, etc.)seront regroupés sous le libellé **YAHOO!**, ainsi que les adresses avec le domaine **rocketmail.com**.
 
 ![](assets/s_advuser_cube_class_03b.png)
 
 ### Gérer dynamiquement les classes {#dynamically-managing-bins}
 
-Les valeurs peuvent être gérées dynamiquement au moyen d’énumérations. Cela signifie que seules les valeurs contenues dans l’énumération seront affichées. Lorsque les valeurs de l&#39;énumération changent, le contenu du cube est automatiquement adapté.
+Les valeurs peuvent être gérées dynamiquement au moyen d’énumérations.Ainsi, seules les valeurs contenues dans l’énumération seront affichées.Lorsque les valeurs de l’énumération changent, le contenu du cube est adapté automatiquement.
 
 Pour créer ce type de mise en classe des valeurs, les étapes sont les suivantes :
 
@@ -98,7 +98,7 @@ Dans ce cas, le filtre sélectionné au niveau du schéma des faits est ignoré.
 
 ### Énumérations {#enumerations}
 
-Pour améliorer la pertinence et la lisibilité d&#39;un rapport, Adobe Campaign permet de créer des énumérations spécifiques pour regrouper différentes valeurs dans la même classe. Ces énumérations, réservées à la mise en classe, sont référencées dans les cubes puis affichées dans les rapports.
+Afin d’améliorer la pertinence et la lisibilité des rapports, Adobe Campaign vous permet de créer des énumérations spécifiques pour regrouper différentes valeurs dans une même classe.Ces énumérations, réservées à la mise en classe, sont référencées dans les cubes puis affichées dans les rapports.
 
 Adobe Campaign propose ainsi une énumération sur les domaines qui permet d&#39;afficher la liste des domaines des emails de tous les contacts en base, regroupés par FAI, comme dans l&#39;exemple ci-dessous :
 
@@ -118,7 +118,7 @@ Il suffira de modifier l&#39;énumération pour mettre à jour le rapport associ
 
 ![](assets/nmx_add_alias.png)
 
-L’énumération **[!UICONTROL Domaines]** est utilisée pour générer des rapports intégrés qui affichent la liste des domaines. Pour adapter le contenu de ces rapports, vous pouvez modifier cette liste.
+L’énumération **[!UICONTROL Domaines]** est utilisée pour générer les rapports intégrés affichant la liste des domaines.Pour adapter le contenu de ces rapports, vous pouvez modifier cette liste.
 
 Vous pouvez créer d&#39;autres énumérations réservées à la mise en classe et les utiliser dans d&#39;autres Cubes : toutes les valeurs d&#39;alias seront regroupées dans les classes définies dans le premier onglet de l&#39;énumération.
 
@@ -126,7 +126,7 @@ Vous pouvez créer d&#39;autres énumérations réservées à la mise en classe 
 
 Vous pouvez précalculer les données les plus volumineuses dans des agrégats.
 
-Les agrégats sont utiles pour manipuler de grands volumes de données. Elles sont mises à jour automatiquement en fonction des paramètres définis dans la zone de workflow dédiée, afin d’intégrer les données collectées le plus récemment dans les indicateurs
+Les agrégats sont utiles lorsque vous manipulez de grands volumes de données.Ils sont mis à jour automatiquement selon les paramètres définis dans la zone de workflow dédiée, afin d’intégrer les dernières données collectées dans les indicateurs.
 
 Les agrégats sont définis au niveau du cube, dans l&#39;onglet correspondant.
 
@@ -144,7 +144,7 @@ Pour créer un nouvel agrégat, les étapes sont les suivantes :
 
    ![](assets/s_advuser_cube_agregate_03.png)
 
-1. Sélectionnez une dimension et un niveau. Répétez ce processus pour chaque dimension et chaque niveau.
+1. Sélectionnez une dimension et un niveau.Répétez l’opération pour chaque dimension et chaque niveau.
 1. Cliquez sur l&#39;onglet **[!UICONTROL Workflow]** pour créer le workflow d&#39;agrégation.
 
    ![](assets/s_advuser_cube_agregate_04.png)
@@ -152,13 +152,13 @@ Pour créer un nouvel agrégat, les étapes sont les suivantes :
    * L&#39;activité **[!UICONTROL Planificateur]** permet de définir la fréquence de mise à jour des calculs. Le planificateur est présenté dans [cette section](../../workflow/using/scheduler.md).
    * L&#39;activité **[!UICONTROL Mise à jour d&#39;agrégat]** permet de choisir le mode de mise à jour à appliquer : complète ou partielle.
 
-     Par défaut, une mise à jour complète est effectuée lors de chaque calcul. Pour activer une mise à jour partielle, sélectionnez l&#39;option correspondante et définissez les conditions de mise à jour.
+     Par défaut, une mise à jour complète est exécutée lors de chaque calcul.Pour activer une mise à jour partielle, sélectionnez l’option correspondante et définissez les conditions de mise à jour.
 
      ![](assets/s_advuser_cube_agregate_05.png)
 
 ## Définition des mesures {#defining-measures}
 
-Les types de mesures sont définis dans l&#39;onglet **[!UICONTROL Mesures]** du cube. Vous pouvez calculer des sommes, des moyennes, des écarts, etc.
+Les types de mesures sont définis dans l’onglet **[!UICONTROL Mesures]** du cube.Vous pouvez calculer des sommes, des moyennes, des écarts, etc.
 
 Il est possible de créer autant de mesures que nécessaire : vous choisirez ensuite celle que vous souhaitez afficher ou masquer dans le tableau. Voir à ce propos [Affichage des mesures](#displaying-measures).
 
@@ -186,19 +186,19 @@ Vous pouvez paramétrer l&#39;affichage des mesures dans le tableau selon vos be
 
 * l’ordre d’affichage des mesures (voir la section [Ordre d’affichage](#display-sequence)),
 * les informations à afficher/masquer dans le rapport (consultez la section [Configuration de l’affichage](#configuring-the-display)).
-* les mesures à afficher : pourcentage, total, nombre de décimales, etc. (voir [Modifier le type de mesure affichée](#changing-the-type-of-measure-displayed)).
+* les mesures à afficher : pourcentage, total, nombre de décimales, etc. (consultez [Changer le type de mesure affiché](#changing-the-type-of-measure-displayed)).
 
 ### Ordre d&#39;affichage {#display-sequence}
 
 Les mesures calculées dans le cube sont configurées à partir du bouton **[!UICONTROL Mesures]**.
 
-Déplacez les lignes pour modifier l’ordre d’affichage. Dans l&#39;exemple suivant, les données de la France sont déplacées en bas de la liste : elles seront alors affichées dans la dernière colonne.
+Déplacez les lignes pour modifier l’ordre d’affichage.Dans l’exemple suivant, les données de la France sont déplacées en bas de la liste : elles seront alors affichées dans la dernière colonne.
 
 ![](assets/s_advuser_cube_in_report_config_04.png)
 
 ### Configuration de l’affichage {#configuring-the-display}
 
-La configuration des mesures, des lignes et des colonnes peut être effectuée individuellement pour chaque mesure ou globalement. Une icône spécifique permet d&#39;accéder à la fenêtre de sélection du mode d&#39;affichage.
+La configuration des mesures, lignes et colonnes peut être réalisée individuellement pour chaque mesure ou de manière globale.Une icône spécifique vous permet d’accéder à la fenêtre de sélection du mode d’affichage.
 
 * Cliquez sur l’icône **[!UICONTROL Modifier la configuration du tableau croisé dynamique]** pour accéder à la fenêtre de configuration.
 
@@ -264,7 +264,7 @@ A chaque modification (ajout, modification, suppression de filtres), cliquez sur
 
 Un filtre peut également être créé à partir d&#39;une sélection. Pour cela, choisissez la ou les cellules, lignes et colonnes sources et cliquez sur l&#39;icône **[!UICONTROL Ajouter un filtre]**.
 
-Pour sélectionner une ligne, une colonne ou une cellule, faites un clic gauche dessus. Pour désélectionner, cliquez de nouveau.
+Pour sélectionner une ligne, une colonne ou une cellule, cliquez dessus avec le bouton gauche de la souris.Pour désélectionner, cliquez à nouveau.
 
 ![](assets/neolap_create_filter_from_selection.png)
 

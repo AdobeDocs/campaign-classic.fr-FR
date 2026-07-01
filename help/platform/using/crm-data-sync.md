@@ -6,21 +6,14 @@ feature: Microsoft CRM Integration, Salesforce Integration
 exl-id: 7f9eda15-76e8-40a1-8302-004cea085778
 hide: true
 TQID: https://experienceleague.adobe.com/ZsejqtL7ja3l0R2bkd99Xc9ukjvcpF9H7iQ1O98D6fg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-feature_v2:
-  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
-subfeature_v2:
-  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
-  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
-  - id: f5293531-9312-4099-bfa3-9e67df6a8750
-  - id: efa38731-2723-4334-8d8b-a778af834835
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+feature_v2: id: afa4204e-6d08-4e29-bc35-26aafb656d48
+subfeature_v2: id: f529d0bd-1401-4c88-9833-43228cc1d40fid: d6330382-c886-4f7a-a4f7-74e3f36c0d9cid: f5293531-9312-4099-bfa3-9e67df6a8750id: efa38731-2723-4334-8d8b-a778af834835
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1628
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -75,7 +68,7 @@ Pour un import, les étapes de paramétrage de l&#39;activité **[!UICONTROL Con
 
    >[!IMPORTANT]
    >
-   >L&#39;identifiant de l&#39;enregistrement dans le CRM est obligatoire pour relier les objets présents dans CRM et dans Adobe Campaign. Il est ajouté automatiquement lorsque la boîte est approuvée.
+   >L’identifiant de l’enregistrement dans le CRM est obligatoire pour relier les objets dans le CRM et dans Adobe Campaign.Il est ajouté automatiquement lorsque la zone est approuvée.
    >
    >La date de la dernière modification côté CRM est également requise pour permettre l&#39;import incrémental des données.
 
@@ -103,7 +96,7 @@ La date de la dernière synchronisation est stockée dans l&#39;option indiquée
 
 >[!NOTE]
 >
->Cette note s’applique uniquement à l’activité générique **[!UICONTROL Connecteur CRM]**. Pour les autres activités CRM, le processus est automatique.
+>Cette note s’applique uniquement à l’activité **[!UICONTROL Connecteur CRM]** générique.Pour les autres activités CRM, le processus est automatique.
 >
 >Cette option doit être créée et renseignée manuellement sous **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Options]**. Il doit s’agir d’une option de texte et sa valeur doit correspondre au format suivant : **`yyyy/MM/dd hh:mm:ss`**.
 > 
@@ -116,7 +109,7 @@ Par défaut, les champs suivants sont utilisés (dans l&#39;ordre indiqué) :
 * Pour Microsoft Dynamics : **modifiedon**,
 * Pour Salesforce.com : **LastModifiedDate**, **SystemModstamp**.
 
-L&#39;activation de l&#39;option **[!UICONTROL Index automatique]** génère trois variables, qui pourront être exploitées dans le workflow de synchronisation, via une activité de type **[!UICONTROL Code JavaScript]**. Ces activités sont les suivantes :
+L’activation de l’option **[!UICONTROL Index automatique]** génère trois variables, qui pourront être utilisées dans le workflow de synchronisation, via une activité de type **[!UICONTROL Code JavaScript]**.Ces activités sont les suivantes :
 
 * **vars.crmOptionName** : représente le nom de l&#39;option contenant la date du dernier import.
 * **vars.crmStartImport** : représente la date de début (incluse) de la dernière récupération des données.
@@ -132,10 +125,10 @@ Afin d&#39;assurer un bon fonctionnement avec les différents CRM, les filtres d
 
 * Chaque niveau de filtrage ne peut utiliser qu&#39;un seul type d&#39;opérateur.
 * L&#39;opérateur AND NOT n&#39;est pas supporté.
-* Les comparaisons peuvent uniquement concerner des valeurs nulles (type &#39;is empty&#39;/&#39;is not empty&#39;) ou des nombres. Cela signifie que la valeur (colonne de droite) est évaluée et que le résultat de cette évaluation doit être un nombre. Les comparaisons de type JOIN ne sont donc pas prises en charge.
+* Les comparaisons peuvent uniquement concerner des valeurs nulles (type « is empty »/« is not empty ») ou des nombres.Cela signifie que la valeur (colonne de droite) est évaluée et que le résultat de cette évaluation doit être un nombre.Les comparaisons de type JOIN ne sont donc pas prises en charge.
 * Les données de la colonne Valeur sont évaluées en JavaScript.
 * Les comparaisons de type JOIN ne sont pas supportées.
-* L’expression dans la colonne de gauche doit être un champ. Il ne peut pas s’agir d’une combinaison de plusieurs expressions, d’un nombre, etc.
+* L’expression dans la colonne de gauche doit être un champ.Elle ne peut pas être une combinaison de plusieurs expressions, un nombre, etc.
 
 Par exemple, les critères de filtrage suivants ne seront PAS valides dans le cadre d&#39;un import CRM, car l&#39;opérateur OU est placé au même niveau que les opérateurs ET :
 
@@ -199,7 +192,7 @@ Pour un export, les étapes de paramétrage de l&#39;activité **[!UICONTROL Con
 
    >[!NOTE]
    >
-   >La liste des enregistrements à exporter et le résultat de l&#39;export sont enregistrés dans un fichier temporaire qui reste accessible jusqu&#39;à ce que le workflow soit terminé ou redémarré. Vous pouvez ainsi relancer le processus en cas d&#39;erreur, sans risquer d&#39;exporter plusieurs fois le même enregistrement ou de perdre des données.
+   >La liste des enregistrements à exporter et le résultat de l&#39;export sont enregistrés dans un fichier temporaire qui reste accessible jusqu&#39;à ce que le workflow soit terminé ou redémarré. Cela vous permet de reprendre le processus en cas d’erreur, sans risquer d’exporter plusieurs fois le même enregistrement et sans perte de données.
 
 ## Paramétrages additionnels {#additional-configurations}
 
@@ -211,7 +204,7 @@ Pour cela, sélectionnez la conversion à appliquer dans la colonne correspondan
 
 ![](assets/crm_task_import.png)
 
-Le mode **[!UICONTROL Par défaut]** applique la conversion automatique des données, qui correspond dans la plupart des cas à un copier/coller des données. Toutefois, la gestion des fuseaux horaires est appliquée.
+Le mode **[!UICONTROL par défaut]** applique une conversion automatique des données, qui correspond dans la plupart des cas à un copier/coller des données.Toutefois, la gestion des fuseaux horaires est appliquée.
 
 Les autres conversions possibles sont les suivantes :
 
@@ -249,13 +242,13 @@ Pour cela, les étapes sont les suivantes :
 
 1. Sélectionnez une opération de type **[!UICONTROL Import des objets supprimés dans le CRM]**.
 1. Accédez à la liste déroulante **[!UICONTROL Objet distant]** et sélectionnez l’objet concerné par le processus. Cet objet correspond à l&#39;une des tables créées dans Adobe Campaign lors de la configuration du connecteur.
-1. Indiquez la période de suppression à prendre en compte dans les champs **[!UICONTROL Date de début]** et **[!UICONTROL Date de fin]**. Ces dates seront incluses dans la période.
+1. Indiquez la période de suppression à prendre en compte dans les champs **[!UICONTROL Date de début]** et **[!UICONTROL Date de fin]**.Ces dates seront incluses dans la période.
 
    ![](assets/crm_import_deleted_obj.png)
 
    >[!IMPORTANT]
    >
-   >La période de suppression des éléments doit correspondre aux limitations spécifiques au CRM. Cela signifie que pour Salesforce.com, par exemple, les éléments supprimés il y a plus de 30 jours ne peuvent pas être récupérés.
+   >La période de suppression des éléments doit correspondre aux limitations spécifiques au CRM.Par exemple, pour Salesforce.com, cela signifie que les éléments supprimés il y a plus de 30 jours ne peuvent pas être récupérés.
 
 ## Suppression d&#39;objets dans le CRM {#deleting-objects-in-the-crm}
 

@@ -8,15 +8,13 @@ content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: ed97a1b5-c870-4b67-98b6-16adc316fd46
 TQID: https://experienceleague.adobe.com/NsHriPMpvkRFG2kEz4-wb5qFz1meeqkWcbA2EMdGbH4
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 292
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +22,9 @@ ht-degree: 60%
 
 
 
-La création des catégories d&#39;offres ne peut avoir lieu que dans l&#39;environnement **[!UICONTROL En édition]**. Elles sont déployées automatiquement dans l&#39;environnement **[!UICONTROL En ligne]** (c&#39;est-à-dire mises à disposition) lorsque la ou les offres créées/modifiées qu&#39;elles contiennent sont validées. Par défaut, l&#39;environnement **[!UICONTROL En édition]** contient une catégorie pour recevoir toutes les offres. Il est possible de créer des sous-catégories pour ajouter une hiérarchie aux offres du catalogue.
+La création des catégories d’offres ne peut se faire que dans l’environnement **[!UICONTROL Conception]**.Elles sont déployées automatiquement dans l’environnement **[!UICONTROL En ligne]** (c’est-à-dire mises à disposition) lorsque les offres créées/modifiées qu’elles contiennent sont approuvées.Par défaut, l’environnement **[!UICONTROL Conception]** contient une catégorie pour recevoir toutes les offres.Il est possible de créer des sous-catégories pour ajouter une hiérarchie aux offres du catalogue.
 
-Pour chaque catégorie, vous pouvez définir des dates d&#39;éligibilité, c&#39;est-à-dire une période au-delà de laquelle les offres contenues dans la catégorie peuvent ne plus être présentées à leur cible. Si vous souhaitez que les offres d&#39;une catégorie spécifique soient sélectionnées en priorité par le moteur d&#39;offres, afin de mieux exposer un produit par exemple, vous pouvez augmenter leur poids pour une période donnée en ajoutant un poids multiplicateur à la catégorie.
+Pour chaque catégorie, vous pouvez définir des dates d’éligibilité, c’est-à-dire une période après laquelle les offres contenues dans la catégorie ne peuvent plus être présentées à leur cible.Si vous souhaitez que les offres d’une catégorie particulière soient sélectionnées en priorité par le moteur d’offres, par exemple pour mieux exposer un produit, vous pouvez augmenter leur poids pendant une période donnée grâce à un poids multiplicateur au niveau de la catégorie.
 
 Pour créer une catégorie supplémentaire, procédez comme suit :
 

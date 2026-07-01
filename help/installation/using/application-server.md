@@ -9,14 +9,13 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
 TQID: https://experienceleague.adobe.com/QB-FFljzZBWLM17tjDhPD-zk5w96W1RfIMKX-IGDEBA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 677
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -63,7 +62,7 @@ Lors de l’installation et de la mise à niveau de votre kit de développement 
 
 Le kit de développement Java est spécifique à la plateforme : des programmes d’installation différents sont nécessaires pour chaque système d’exploitation.
 
-Pour télécharger le JDK, connectez-vous au [site web &#x200B;](https://www.oracle.com/technetwork/java/javase/downloads/index.html){target="_blank"}.
+Pour télécharger le JDK, connectez-vous au [site web d’Oracle](https://www.oracle.com/technetwork/java/javase/downloads/index.html){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -100,7 +99,7 @@ Vous pouvez utiliser Adobe Campaign pour exporter des rapports aux formats Micro
 
 ## SpamAssassin {#spamassassin}
 
-SpamAssassin permet d&#39;attribuer un score aux emails afin de déterminer si un message risque d&#39;être considéré comme indésirable par les outils anti-spams utilisés à la réception. L’installation est facultative.
+SpamAssassin permet d’attribuer un score aux e-mails afin de déterminer si un message risque d’être considéré comme indésirable par les outils anti-spams utilisés à sa réception.L’installation est facultative.
 
 La qualification des emails comme indésirables par SpamAssassin repose entièrement sur les règles de filtrage et de scoring. Ces règles doivent donc être mises à jour au moins une fois par jour pour que votre installation de SpamAssassin et son intégration dans Adobe Campaign soient entièrement fonctionnelles et pour garantir la pertinence des scores attribués à vos diffusions avant envoi. Cette mise à jour est de la responsabilité de l&#39;administrateur serveur qui héberge SpamAssassin.
 

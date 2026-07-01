@@ -8,22 +8,14 @@ content-type: reference
 topic-tags: starting-with-adobe-campaign
 exl-id: 73b90d79-88b6-4aaf-8103-4564de5e06be
 TQID: https://experienceleague.adobe.com/QSUjdyR33N25HEiexhdcwju0-OAj4U1eary2IRvV-AA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-feature_v2:
-  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
-subfeature_v2:
-  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
-  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
-  - id: f5293531-9312-4099-bfa3-9e67df6a8750
-  - id: efa38731-2723-4334-8d8b-a778af834835
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+feature_v2: id: afa4204e-6d08-4e29-bc35-26aafb656d48
+subfeature_v2: id: f529d0bd-1401-4c88-9833-43228cc1d40fid: d6330382-c886-4f7a-a4f7-74e3f36c0d9cid: f5293531-9312-4099-bfa3-9e67df6a8750id: efa38731-2723-4334-8d8b-a778af834835
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 841
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +65,7 @@ Voici la liste des tables d&#39;usine qui sont prises en compte lors de l&#39;ex
 * Abonnements (subscription)
 * Proposition d&#39;offre d&#39;un destinataire (propositionRcp)
 
-Si vous avez créé des tables personnalisées avec un lien vers la table des destinataires (type own), elles seront également prises en compte. Par exemple, si vous avez une table de transactions liée à la table des destinataires et une table de détails de transactions liée à la table des transactions, elles seront toutes deux prises en compte.
+Si vous avez créé des tables personnalisées ayant un lien vers la table de personnes destinataires (type propre), celles-ci sont également prises en compte.Par exemple, si une table de transactions est liée à la table de personnes destinataires et si une table de détails de transaction est liée à la table de transactions, elles sont toutes deux prises en compte.
 
 >[!IMPORTANT]
 >
@@ -90,7 +82,7 @@ Voici les différents états des demandes d&#39;accès à des informations perso
 * **[!UICONTROL Traitement]**/**[!UICONTROL Reprise en cours]** : le workflow traite la demande.
 * **[!UICONTROL Suppression en attente]** : le workflow a identifié toutes les données du destinataire à supprimer.
 * **[!UICONTROL Suppression en cours]** : le workflow traite la suppression.
-* **[!UICONTROL Confirmation de suppression en attente]** (demande de suppression dans le mode de processus en 2 étapes) : le workflow a traité la demande d’accès. Une confirmation manuelle est demandée pour effectuer la suppression. Le bouton est disponible pendant 15 jours.
+* **[!UICONTROL Confirmation de suppression en attente]** (demande de suppression dans le mode de processus en 2 étapes) : le workflow a traité la demande d’accès.Une confirmation manuelle est demandée pour effectuer la suppression.Le bouton est disponible pendant 15 jours.
 * **[!UICONTROL Terminé]** : le traitement de la demande s&#39;est terminé sans erreur.
 * **[!UICONTROL Erreur]** : le workflow a rencontré une erreur. La raison apparaît dans la colonne **[!UICONTROL Statut de la demande]** de la liste des demandes d’accès aux informations personnelles. Par exemple, le statut **[!UICONTROL Erreur : données introuvables]** indique qu’aucune donnée du destinataire correspondant à la **[!UICONTROL Valeur de réconciliation]** du titulaire de données n’a été trouvée dans la base de données.
 
@@ -108,7 +100,7 @@ Lorsque le mode en 2 étapes est activé, une nouvelle demande de suppression p
 
 ## URL JSSP {#jspp-url}
 
-Lors du traitement des demandes d&#39;accès, Adobe Campaign génère un JSSP qui récupère les données du destinataire dans la base de données et les exporte vers un fichier XML stocké sur l&#39;ordinateur local. L’URL JSSP est définie comme suit :
+Lors du traitement des demandes d’accès, Adobe Campaign génère une JSSP qui récupère les données de la personne destinataire dans la base de données et les exporte vers un fichier XML stocké sur la machine locale.L’URL JSSP est définie comme suit :
 
 ```
 "$(serverUrl)+'/nms/gdpr.jssp?id='+@id"
@@ -118,7 +110,7 @@ Où @id correspond à l&#39;identifiant de demande d&#39;accès aux informations
 
 Cette URL est stockée dans le champ **[!UICONTROL &quot;Emplacement du fichier&quot; (@urlFile)]** du schéma **[!UICONTROL Demandes d&#39;accès aux informations personnelles (gdprRequest)]**.
 
-Les informations sont disponibles dans la base de données pendant 90 jours. Une fois la requête nettoyée par le workflow technique, les informations sont supprimées de la base de données et l’URL devient obsolète. Vérifiez que l’URL est toujours valide avant de télécharger les données à partir d’une page web.
+Les informations sont disponibles dans la base de données pendant 90 jours.Une fois la demande nettoyée par le workflow technique, les informations sont supprimées de la base de données et l’URL devient obsolète.Vérifiez que l’URL est toujours valide avant de télécharger les données à partir d’une page web.
 
 Voici un exemple de fichier de données d’un titulaire de données :
 

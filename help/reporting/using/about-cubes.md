@@ -7,9 +7,9 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 hide: true
 exl-id: ade4c857-9233-4bc8-9ba1-2fec84b7c3e6
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '413'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -25,11 +25,11 @@ Les cubes emploient une terminologie spécifique, consultez les termes utilisés
 
 * **Table/schéma des faits** : la table des faits (ou le schéma des faits) contient les données brutes ou élémentaires sur lesquelles vont être construites les analyses. Il s’agit principalement de tables à gros volume (avec éventuellement des tables liées) et sur lesquelles les calculs peuvent être longs. Par exemple, une table des faits peut être : la table des broadlogs, la table des achats, etc.
 
-* **Dimension** : les dimensions permettent de segmenter les données en groupes. Une fois créées, elles font office dʼaxes dʼanalyse. Dans la plupart des cas, pour une même dimension, plusieurs niveaux seront définis. Par exemple, pour une dimension temporelle, les niveaux seront les mois, jours, heures, minutes, etc. Cet ensemble de niveaux représente la hiérarchie des dimensions et permet d&#39;analyser les données à différents niveaux.
+* **Dimension** : les dimensions permettent de segmenter les données en groupes. Une fois créées, elles font office dʼaxes dʼanalyse. Dans la plupart des cas, pour une même dimension, plusieurs niveaux seront définis. Par exemple, pour une dimension temporelle, les niveaux seront les mois, jours, heures, minutes, etc. Cet ensemble de niveaux représente la hiérarchie de la dimension et permet dʼanalyser plus ou moins finement les données.
 
 * **Mise en classe** : pour certains champs, vous pouvez définir une mise en classe afin de regrouper les valeurs et faciliter la lisibilité des informations. Les mises en classe sʼappliquent à des niveaux. Il est recommandé de définir une mise en classe lorsque les valeurs distinctes peuvent être nombreuses.
 
-* **Mesure** - Les mesures les plus fréquentes sont la somme, la moyenne, le maximum, le minimum, l’écart type, etc. Les mesures peuvent être calculées : par exemple, le taux d&#39;acceptation d&#39;une offre est le ratio du nombre de fois où elle a été présentée par rapport au nombre de fois où elle a été acceptée.
+* **Mesure** : les mesures les plus fréquentes sont la somme, la moyenne, le maximum, le minimum, l’écart-type, etc. Les mesures peuvent être calculées, par exemple le taux dʼacceptation dʼune offre est le rapport entre le nombre de fois où une offre a été présentée et le nombre de fois où elle a été acceptée.
 
 ## Espace de travail des cubes {#cube-workspace}
 

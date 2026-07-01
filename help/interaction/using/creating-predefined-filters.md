@@ -8,17 +8,14 @@ content-type: reference
 topic-tags: managing-environments
 exl-id: 399e9468-bf70-425d-af0b-72c29636b513
 TQID: https://experienceleague.adobe.com/mpWWxST2QONNcENLMwiKiCrOFgNo61h5V0Xd9Wdfxck
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-feature_v2:
-  - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+feature_v2: id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 104
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +23,7 @@ ht-degree: 80%
 
 
 
-Les filtres prédéfinis permettent de créer des règles d&#39;éligibilité pour la population cible qui pourront facilement être réutilisées lors de la création de l&#39;offre. Ils sont spécifiques à chaque environnement et prennent en compte les paramètres de l’offre.
+Les filtres prédéfinis vous permettent de créer des règles d’éligibilité pour la population cible qui pourront facilement être réutilisées lors de la création d’offres.Ils sont spécifiques à chaque environnement et prennent en compte les paramètres de l’offre.
 
 Pour créer un filtre, procédez comme suit :
 

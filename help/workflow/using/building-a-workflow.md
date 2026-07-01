@@ -6,25 +6,14 @@ feature: Workflows
 hide: true
 exl-id: 8ba20ccd-b03f-4c4f-87c1-a21e80d8e4be
 TQID: https://experienceleague.adobe.com/0-dipIpnwzpjanXaeOWQiF5l4Ofx6M0YZdif82b8arc
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a658c786-869b-4194-a780-2594d663adda
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
-  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
-  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a658c786-869b-4194-a780-2594d663addaid: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cfid: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845ee
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1693
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +51,7 @@ Saisissez un libellé puis cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Ajout et liaison dʼactivités {#adding-and-linking-activities}
 
-Vous devez maintenant définir les différentes activités et les relier entre elles dans un diagramme. À ce stade de la configuration, nous pouvons voir le libellé du diagramme et le statut du workflow (Modification en cours). La section inférieure de la fenêtre est utilisée uniquement pour modifier le diagramme. Il contient une barre d&#39;outils, une palette d&#39;activités (à gauche) et le diagramme lui-même (à droite).
+Vous devez maintenant définir les différentes activités et les relier entre elles dans un diagramme. À ce stade de la configuration, nous pouvons voir le libellé du diagramme et le statut du workflow (Modification en cours).La section inférieure de la fenêtre est utilisée pour modifier le diagramme uniquement.Elle contient une barre d’outils, une palette d’activités (à gauche) et le diagramme lui-même (à droite).
 
 ![](assets/new-workflow-2.png)
 
@@ -120,7 +109,7 @@ Lʼaffichage et la mise en page du diagramme peuvent être modifiés à lʼaide 
 
   Pour aligner les icônes, sélectionnez-les et cliquez sur l&#39;icône **[!UICONTROL Aligner verticalement]** ou **[!UICONTROL Aligner horizontalement]**.
 
-  Utilisez la touche **CTRL** pour sélectionner plusieurs activités dispersées ou pour désélectionner une ou plusieurs activités. Cliquez sur l’arrière-plan du diagramme pour tout désélectionner.
+  Utilisez la touche **CTRL** pour sélectionner plusieurs activités discontinues ou désélectionner une ou plusieurs activités d’une sélection.Cliquez sur l’arrière-plan du diagramme pour tout désélectionner.
 
 * **Gestion des images**
 
@@ -142,7 +131,7 @@ Afin de faciliter la compréhension des activités et améliorer la lisibilité 
 
 ## Les workflows de ciblage {#targeting-workflows}
 
-Les workflows de ciblage permettent de construire plusieurs cibles de diffusion. Grâce aux activités de workflow, vous pouvez créer des requêtes, définir des unions ou des exclusions en fonction de critères spécifiques, ajouter des planifications. Le résultat de ce ciblage peut être transféré automatiquement vers une liste qui pourra servir de cible aux actions de diffusion
+Les workflows de ciblage vous permettent de créer plusieurs cibles de diffusion.Grâce aux activités de workflow, vous pouvez créer des requêtes, définir des unions ou des exclusions en fonction de critères spécifiques, ou encore ajouter des planifications.Le résultat de ce ciblage peut être transféré automatiquement vers une liste qui pourra servir de cible aux actions de diffusion.
 
 En complément de ces activités, les options de Data Management permettent de manipuler les données et d&#39;accéder à des fonctionnalités avancées pour répondre à des problématiques de ciblage complexes. Voir à ce sujet la section [Data Management](targeting-data.md#data-management).
 
@@ -170,9 +159,9 @@ Les résultats de tous les enrichissements et manipulations effectués lors du c
 
 ### Dimension de ciblage et dimension de filtrage {#targeting-and-filtering-dimensions}
 
-Lors des opérations de segmentation des données, la clé de ciblage est mappée à une dimension de filtrage. La dimension de ciblage permet de définir la population ciblée par l’opération : destinataires, bénéficiaires d’un contrat, opérateur ou opératrice, abonnées et abonnés, etc. La dimension de filtrage permet de sélectionner la population selon certains critères : détention d&#39;un contrat, inscription à une newsletter, etc.
+Lors des opérations de segmentation des données, la clé de ciblage est mappée à une dimension de filtrage.La dimension de ciblage vous permet de définir la population ciblée par l’opération : personnes destinataires, personnes titulaires d’un contrat, opérateur ou opératrice, personnes abonnées, etc. La dimension de filtrage vous permet de sélectionner la population selon certains critères : détention d’un contrat, inscription à une newsletter, etc.
 
-Par exemple, pour sélectionner des clients titulaires d&#39;une police d&#39;assurance-vie depuis plus de 5 ans, choisissez la dimension de ciblage suivante : **Clients** et la dimension de filtrage suivante : **Titulaire du contrat**. Vous pouvez ensuite définir les conditions de filtrage dans l’activité de requête
+Par exemple, pour sélectionner les clientes et clients détenteurs d’une assurance-vie depuis plus de 5 ans, sélectionnez la dimension de ciblage **Clientes et clients** et la dimension de filtrage **Détention d’un contrat**.Vous pouvez ensuite définir les conditions de filtrage dans l’activité de requête.
 
 Lors de la sélection d&#39;une dimension de ciblage, seules les dimensions de filtrage compatibles sont proposées dans l&#39;interface.
 
@@ -188,13 +177,13 @@ Tandis que pour les **Applications Web**, la liste proposera les dimensions de f
 
 ## Les workflows des opérations {#campaign-workflows}
 
-Pour chaque campagne, vous pouvez créer des workflows à exécuter à partir de l&#39;onglet **[!UICONTROL Ciblage et workflows]**. Ces workflows sont spécifiques à la campagne.
+Pour chaque campagne, vous pouvez créer des workflows à exécuter depuis l’onglet **[!UICONTROL Ciblage et workflows]**.Ces workflows sont spécifiques à la campagne.
 
 ![](assets/wf-in-op-edit-delivery-tab.png)
 
 Cet onglet contient les mêmes activités que pour tous les workflows. [En savoir plus](#implementation-steps-)
 
-Outre les campagnes de ciblage, les workflows de campagne vous permettent de créer et de configurer entièrement des diffusions pour tous les canaux disponibles. Une fois créées dans le workflow, ces diffusions sont disponibles dans le tableau de bord de la campagne. [En savoir plus](../../campaign/using/marketing-campaign-deliveries.md)
+Outre les campagnes de ciblage, les workflows de campagne vous permettent de créer et de configurer entièrement des diffusions pour tous les canaux disponibles.Une fois créées dans le workflow, ces diffusions sont disponibles dans le tableau de bord de la campagne.[En savoir plus](../../campaign/using/marketing-campaign-deliveries.md)
 
 Tous les workflows des opérations sont centralisés sous le noeud **[!UICONTROL Administration > Exploitation > Objets créés automatiquement > Workflows des opérations]**.
 
@@ -204,7 +193,7 @@ Les workflows des opérations et des exemples de mise en œuvre sont présentés
 
 ## Workflows techniques {#technical-workflows}
 
-Les workflows techniques sont fournis prêts à l’emploi avec Adobe Campaign. Il s’agit d’opérations ou de traitements planifiés pour une exécution périodique sur le serveur. Ils vous permettent d&#39;effectuer la maintenance de la base de données, de transférer les informations de tracking des diffusions et de mettre en place des traitements provisoires des diffusions. Les workflows techniques sont configurés via le nœud **[!UICONTROL Administration > Exploitation > Workflows techniques]**.
+Les workflows techniques sont fournis d’usine avec Adobe Campaign.Il s’agit d’opérations ou de traitements planifiés pour une exécution périodique sur le serveur.Ils vous permettent de réaliser des opérations de maintenance sur la base de données, de transmettre des informations de tracking sur les diffusions et de configurer des processus provisoires sur les diffusions.Les workflows techniques sont configurés via le nœud **[!UICONTROL Administration > Exploitation > Workflows techniques]**.
 
 ![](assets/navtree.png)
 
@@ -216,13 +205,13 @@ Le sous-dossier **[!UICONTROL Processus de campagne]** centralise les workflows 
 >
 >La liste des workflows techniques installés avec chaque module est disponible dans une [section dédiée](about-technical-workflows.md).
 
-Vous pouvez créer d&#39;autres workflows techniques à partir du nœud **[!UICONTROL Administration > Exploitation > Workflows techniques]** de l&#39;arborescence. Ce processus est toutefois réservé à des personnes expertes.
+Vous pouvez créer d’autres workflows techniques dans le nœud **[!UICONTROL Administration > Exploitation > Workflows techniques]** de l’arborescence.Ce processus est toutefois réservé à des personnes expertes.
 
 Les activités proposées sont les mêmes que pour les workflows de ciblage. [En savoir plus](#implementation-steps-)
 
 ## Les modèles de workflows {#workflow-templates}
 
-Les modèles de workflow contiennent la configuration globale des propriétés et éventuellement une plage d’activités concaténées dans un diagramme. Cette configuration peut être réutilisée pour créer de nouveaux workflows contenant un certain nombre d&#39;éléments préconfigurés
+Les modèles de workflows contiennent la configuration globale des propriétés et éventuellement d’un ensemble d’activités concaténées dans un diagramme.Cette configuration peut être réutilisée pour créer des workflows dont certains éléments sont préconfigurés.
 
 Vous pouvez créer de nouveaux modèles de workflows à partir de modèles existants ou transformer directement un workflow en modèle.
 

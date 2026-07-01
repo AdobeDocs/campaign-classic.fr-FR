@@ -6,17 +6,13 @@ feature: Workflows
 hide: true
 exl-id: c2f6033c-30cd-4eb4-adf1-ab2de7510220
 TQID: https://experienceleague.adobe.com/POlYZz1HCRqIp3TdBvIEsOu1grFmxVgqN1xQ1KnuQlQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
-subfeature_v2:
-  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
-  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
+subfeature_v2: id: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 297
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +20,11 @@ ht-degree: 61%
 
 
 
-Adobe Campaign permet de gérer les décalages horaires entre plusieurs pays concernés par la même instance. La configuration appliquée est configurée lors de la création de l’instance.
+Adobe Campaign vous permet de gérer les décalages horaires entre les différents pays concernés par la même instance.La configuration appliquée est paramétrée lors de la création de l’instance.
 
 Pour plus d&#39;informations sur la configuration des fuseaux horaires dans Adobe Campaign, consultez le [Guide d&#39;installation de Campaign Classic v7](../../installation/using/time-zone-management.md).
 
-Dans un workflow, vous pouvez adapter les plannings d’exécution des activités et associer un fuseau horaire spécifique à une activité ou à l’ensemble du workflow. Cette configuration peut s&#39;avérer utile lors de l&#39;import du fichier ou dans le cadre de la planification des diffusions.
+Dans un workflow, vous pouvez adapter les plannings d’exécution des activités et lier un fuseau horaire spécifique à une activité ou à l’ensemble du workflow.Cette configuration peut être utile lors de l’import du fichier ou dans le cadre de la planification des diffusions.
 
 ## Planifier l&#39;exécution {#execution-scheduling}
 
@@ -60,4 +56,4 @@ Si la valeur **[!UICONTROL Par défaut]** est sélectionnée, le fuseau horaire 
 
 ## Associer un fuseau horaire à une activité {#linking-a-time-zone-to-an-activity}
 
-L&#39;onglet **[!UICONTROL Avancé]** des activités de workflow permet de sélectionner le fuseau horaire de l&#39;activité. Bien que la plupart du temps, le fuseau horaire du workflow soit suffisant, il peut être nécessaire de le surcharger de temps en temps pour une activité spécifique, telle que l’importation de données, afin de lier les dates au fuseau horaire approprié.
+L’onglet **[!UICONTROL Avancé]** des activités de workflow vous permet de sélectionner leur fuseau horaire.Si, la plupart du temps, le fuseau horaire du workflow est suffisant, il peut être nécessaire de le surcharger ponctuellement pour une activité spécifique, l’import de données par exemple, afin de lier des dates au fuseau horaire approprié.

@@ -9,13 +9,11 @@ content-type: reference
 topic-tags: troubleshooting
 exl-id: 4ee05559-e719-4e6e-b42c-1e82df428871
 feature_v2: []
-subfeature_v2:
-  - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
-  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+subfeature_v2: id: c03a11ff-bdf9-4e5b-b279-f468b4293464id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 188
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +21,13 @@ ht-degree: 75%
 
 
 
-Pour les serveurs lourdement chargés, le seuil de connexion peut être dépassé. Quoi qu&#39;il en soit, il est utile de savoir pourquoi.
+Pour les serveurs fortement sollicités, le seuil de connexion peut être dépassé.Quoi qu’il en soit, il est utile de savoir pourquoi.
 
 Il existe trois seuils différents :
 
-* Le **seuil de connexion web**, configuré dans votre serveur web. Pour le modifier, contactez votre administrateur système.
+* Le **seuil de connexion web**, configuré dans votre serveur web.Pour le modifier, contactez votre administrateur ou administratrice système.
 
-* Seuil **connexion à la base de données**. Pour le modifier, contactez votre administrateur de base de données.
+* Le **seuil de connexion de base de données**.Pour le modifier, contactez votre administrateur ou administratrice système.
 
 * Le **seuil de connexion Adobe Campaign**, disponible à deux endroits :
 

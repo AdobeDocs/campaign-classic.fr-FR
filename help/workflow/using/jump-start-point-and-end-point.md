@@ -6,17 +6,13 @@ feature: Workflows
 hide: true
 exl-id: 0d2d04e7-cb86-4456-b7cf-513c71210355
 TQID: https://experienceleague.adobe.com/ImN46HYxSkeHyyhNhSHKB1meyd4tIRuQTyRjbdShU9w
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
-subfeature_v2:
-  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
-  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
+subfeature_v2: id: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 119
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +30,7 @@ Ils vont d’une activité à l’autre, comme dans l’exemple suivant :
 
 Pour chaque saut de type &quot;départ&quot;, un saut de type &quot;arrivée&quot; doit être positionné.
 
-Vous pouvez insérer plusieurs sauts de point de départ et d&#39;arrivée dans le même workflow. Ils sont identifiés par un numéro qui doit être saisi dans les paramètres :
+Vous pouvez insérer plusieurs points de départ et d’arrivée dans un même workflow.Ils sont identifiés par un numéro qui doit être saisi dans les paramètres :
 
 ![](assets/s_user_segmentation_jump_in.png)
 

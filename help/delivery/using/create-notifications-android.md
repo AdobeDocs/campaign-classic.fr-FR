@@ -7,23 +7,14 @@ role: User, Developer
 hide: true
 exl-id: 13ccc5d6-4355-42ba-80dc-30a45d3b69a4
 TQID: https://experienceleague.adobe.com/jH8qR4ch4MGigmPcBNa25SRnCpve-ati-HF1wQhRpcI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-feature_v2:
-  - id: b631758a-142d-425f-b9aa-f756d85cb979
-  - id: c858a28b-ea19-49b0-8d48-828717fad89c
-subfeature_v2:
-  - id: e95a583b-fcfa-4524-8666-46a29c828119
-  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
-  - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
-  - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+feature_v2: id: b631758a-142d-425f-b9aa-f756d85cb979id: c858a28b-ea19-49b0-8d48-828717fad89c
+subfeature_v2: id: e95a583b-fcfa-4524-8666-46a29c828119id: c8da4fdd-eb94-4751-a43c-f82733fb2d6eid: d5bbe3da-ba85-4242-817e-54f7c4b943e0id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 808
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -60,10 +51,10 @@ Pour plus d&#39;informations sur les types de messages Firebase Cloud Messagin
 
    ![](assets/nmac_android_7.png)
 
-1. Dans la fenêtre **[!UICONTROL Type de cible]**&#x200B;**&#x200B;**, sélectionnez Abonnés d&#39;une application mobile Android, puis cliquez sur **[!UICONTROL Suivant]**.
+1. Dans la fenêtre **[!UICONTROL Type de cible]******, sélectionnez Abonnés d&#39;une application mobile Android, puis cliquez sur **[!UICONTROL Suivant]**.
 
-1. Dans la liste déroulante **[!UICONTROL Service]**, sélectionnez le service précédemment créé, puis l’application et cliquez sur **[!UICONTROL Terminer]**.
-Les **[!UICONTROL variables d’application]** sont automatiquement ajoutées en fonction de ce qui a été ajouté lors des étapes de configuration.
+1. Dans le menu déroulant **[!UICONTROL Service]**, sélectionnez le service précédemment créé, puis cliquez sur **[!UICONTROL Terminer]**.
+Les **[!UICONTROL variables d’application]** sont automatiquement ajoutées en fonction de ce qui a été incorporé au cours des étapes de configuration.
 
    ![](assets/nmac_android_6.png)
 
@@ -97,7 +88,7 @@ L’image et la page web doivent s’afficher dans la notification push lors de 
 
    ![](assets/nmac_android_7.png)
 
-1. Dans la fenêtre **[!UICONTROL Type de cible]**&#x200B;**&#x200B;**, sélectionnez Abonnés d&#39;une application mobile Android, puis cliquez sur **[!UICONTROL Suivant]**.
+1. Dans la fenêtre **[!UICONTROL Type de cible]******, sélectionnez Abonnés d&#39;une application mobile Android, puis cliquez sur **[!UICONTROL Suivant]**.
 
 1. Dans la liste déroulante **[!UICONTROL Service]**, sélectionnez le service créé précédemment, puis l&#39;application ciblée, et cliquez sur **[!UICONTROL Terminer]**.
 
