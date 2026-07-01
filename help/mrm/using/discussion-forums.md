@@ -9,10 +9,17 @@ hide: true
 topic-tags: tasks--resources-and-budgets
 exl-id: 222853c5-c754-4c0b-8ee4-a64b2f8677a4
 TQID: https://experienceleague.adobe.com/UDef0tPJLGrBb-i2sVUP2kDLWNQMtbMbdIizKUOdK2Q
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2: id: e3988c18-3cfa-4f16-b812-ac2d2b1056faid: efa38731-2723-4334-8d8b-a778af834835id: a6eada7c-dc79-4b66-a7d3-206cf47dc9d8
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+  - id: efa38731-2723-4334-8d8b-a778af834835
+  - id: a6eada7c-dc79-4b66-a7d3-206cf47dc9d8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: ht
 source-wordcount: 808

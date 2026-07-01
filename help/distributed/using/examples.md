@@ -6,9 +6,14 @@ feature: Distributed Marketing
 hide: true
 exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
 TQID: https://experienceleague.adobe.com/76BtaM1C72-GcMxXoFHtIFV4-dIQTzcNoamtyQ9-gcg
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: b12f6872-9271-4369-85e5-86969a0b99a2
-subfeature_v2: id: a6187aac-0a00-4394-8937-e8d4c1a40aa4id: e739ee2b-6228-412e-878f-45de0791417d
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+subfeature_v2:
+  - id: a6187aac-0a00-4394-8937-e8d4c1a40aa4
+  - id: e739ee2b-6228-412e-878f-45de0791417d
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: ht
 source-wordcount: 1378

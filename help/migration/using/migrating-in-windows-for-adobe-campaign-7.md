@@ -9,10 +9,14 @@ topic-tags: migrating-to-adobe-campaign-7
 hide: true
 exl-id: 3743d018-3316-4ce3-ae1c-25760aaf5785
 TQID: https://experienceleague.adobe.com/PnBnslBSLLV6MNF9KlyJQ-n2jGA-r4N6KASrrG3-65k
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2: id: eff19c99-440a-4318-b319-444edc4d8d8f
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: eff19c99-440a-4318-b319-444edc4d8d8f
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: ht
 source-wordcount: 1133

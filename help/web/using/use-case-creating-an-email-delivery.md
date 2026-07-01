@@ -6,10 +6,18 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: e2679f12-459b-466d-9c82-60a28363b104
 TQID: https://experienceleague.adobe.com/5j2bwBpCx4WAyHD4jyypi5EMhw3NS-11-HkoTQ9AnU4
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a4671286-a59f-47e3-b97b-90627a1977d5
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
-subfeature_v2: id: f391046b-0cf3-4e76-bd3b-97fe06654506id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281id: d7be2b01-dc9c-40f7-aace-a151707504edid: e739ee2b-6228-412e-878f-45de0791417d
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+subfeature_v2:
+  - id: f391046b-0cf3-4e76-bd3b-97fe06654506
+  - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+  - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+  - id: e739ee2b-6228-412e-878f-45de0791417d
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: ht
 source-wordcount: 804

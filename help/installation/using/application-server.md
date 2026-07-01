@@ -9,7 +9,8 @@ content-type: reference
 topic-tags: prerequisites-and-recommendations-
 exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
 TQID: https://experienceleague.adobe.com/QB-FFljzZBWLM17tjDhPD-zk5w96W1RfIMKX-IGDEBA
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232

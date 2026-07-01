@@ -9,10 +9,17 @@ content-type: reference
 topic-tags: production-procedures
 exl-id: 1c032ef9-af11-4947-90c6-76cb9434ae85
 TQID: https://experienceleague.adobe.com/HCoIXlpEtxAHVh-rj51UD1GTNRnXh8Ir8x4t3QZT9YU
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2: id: c03a11ff-bdf9-4e5b-b279-f468b4293464id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: ht
 source-wordcount: 530

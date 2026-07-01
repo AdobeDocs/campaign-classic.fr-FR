@@ -9,10 +9,18 @@ content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
 TQID: https://experienceleague.adobe.com/M1uqZA6cfopJkJ-pg3m-1R-eBbM55zv7R-FSxOfFUwI
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2: id: b5852c32-876b-41ae-92a7-9f588865ae52id: e656c701-3899-4db3-989c-de0980ddfffaid: eff19c99-440a-4318-b319-444edc4d8d8f
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2:
+  - id: b5852c32-876b-41ae-92a7-9f588865ae52
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+  - id: eff19c99-440a-4318-b319-444edc4d8d8f
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: ht
 source-wordcount: 3629

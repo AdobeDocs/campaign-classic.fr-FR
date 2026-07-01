@@ -8,9 +8,12 @@ content-type: reference
 topic-tags: administration-basics
 exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
 TQID: https://experienceleague.adobe.com/-dvlEuumTaNU2K-AHysUyUmwDay9oaZGLerkpR4pzzw
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: ht

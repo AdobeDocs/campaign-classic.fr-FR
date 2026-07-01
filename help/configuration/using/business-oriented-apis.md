@@ -6,9 +6,12 @@ feature: API
 role: Developer
 exl-id: e6638870-3141-4f12-b904-db436127c0d1
 TQID: https://experienceleague.adobe.com/lPAawM33zS2tws0EyHFHW1jD-Vw3ZLDtDcMEd1eJA1c
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: ht

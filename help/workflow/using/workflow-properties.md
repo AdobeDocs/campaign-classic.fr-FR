@@ -6,10 +6,16 @@ feature: Workflows
 hide: true
 exl-id: c7bff902-4f5d-4783-aec4-13561fa7d242
 TQID: https://experienceleague.adobe.com/H8Surh-owYlv-qVNN4efyqWctA53oD0GMexLgYaTxgo
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-subfeature_v2: id: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845ee
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2:
+  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+  - id: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: ht
 source-wordcount: 624

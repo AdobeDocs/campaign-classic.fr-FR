@@ -6,10 +6,18 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Surveys
 exl-id: bd94c41a-813a-4ddb-a2bd-c3deab022482
 TQID: https://experienceleague.adobe.com/n0qp8Q0p18fMbRYxAOu5Qj-0TCf8YgL5vF71F-ZGjbM
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: c5474392-5419-4296-9e41-f6f4ce4f6e9bid: a4671286-a59f-47e3-b97b-90627a1977d5
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-subfeature_v2: id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281id: e739ee2b-6228-412e-878f-45de0791417d
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+subfeature_v2:
+  - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+  - id: e739ee2b-6228-412e-878f-45de0791417d
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: ht
 source-wordcount: 644

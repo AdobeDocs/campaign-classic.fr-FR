@@ -6,10 +6,14 @@ badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S�
 feature: Surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
 TQID: https://experienceleague.adobe.com/5faTMQayKA-bxeGrKlNlk7fxZUV2-TO-eVCSe3iRrgA
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-feature_v2: id: a4671286-a59f-47e3-b97b-90627a1977d5
-subfeature_v2: id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+subfeature_v2:
+  - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: ht
 source-wordcount: 917

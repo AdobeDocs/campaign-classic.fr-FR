@@ -9,10 +9,17 @@ content-type: reference
 topic-tags: importing-and-exporting-data
 exl-id: 4596638c-d75a-4e07-a2d8-5befcaad3430
 TQID: https://experienceleague.adobe.com/mnkVYu3ibG6yFi1Zd5q1b1-CnzdheG8xvmM8q92-8vQ
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-topic_v2: id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-feature_v2: id: afa4204e-6d08-4e29-bc35-26aafb656d48
-subfeature_v2: id: f529d0bd-1401-4c88-9833-43228cc1d40fid: d6330382-c886-4f7a-a4f7-74e3f36c0d9cid: f5293531-9312-4099-bfa3-9e67df6a8750id: efa38731-2723-4334-8d8b-a778af834835
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+topic_v2:
+  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+feature_v2:
+  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+subfeature_v2:
+  - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+  - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+  - id: f5293531-9312-4099-bfa3-9e67df6a8750
+  - id: efa38731-2723-4334-8d8b-a778af834835
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: ht
 source-wordcount: 639

@@ -6,9 +6,13 @@ feature: Workflows, Targeting Activity, Query Editor
 hide: true
 exl-id: 20d03627-cd56-46da-bc02-73b48a02a350
 TQID: https://experienceleague.adobe.com/Htrpo3hCrbp9H7cQD4KWTnMbA-rjgM0K1PFHh-Fak1M
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
-subfeature_v2: id: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845ee
+subfeature_v2:
+  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+  - id: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: ht
 source-wordcount: 1683

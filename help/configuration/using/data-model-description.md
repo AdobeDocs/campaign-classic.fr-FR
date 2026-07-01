@@ -6,11 +6,16 @@ feature: Data Model
 role: Developer
 exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
 TQID: https://experienceleague.adobe.com/Yru-hRxtlHGZpLXmNIPxRbZjgvfz8siQOc9wiOPOP1w
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
 subfeature_v2: []
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e0eb8757-182f-49f3-94a4-1587d16f5094
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: ht
 source-wordcount: 2381

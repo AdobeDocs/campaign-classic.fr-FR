@@ -5,10 +5,23 @@ description: Recommandations relatives au dimensionnement du matériel pour Camp
 feature: Technote
 exl-id: c47e73a0-dbd8-43f5-a363-7e6783dc7685
 TQID: https://experienceleague.adobe.com/lHuaRF5IduJcVWIKDqnkgYirPrhHDi4ro9SkCAw3nZE
-product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: a7760dfc-5c44-4d77-bb68-c50b1e265c93id: b12f6872-9271-4369-85e5-86969a0b99a2id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
-subfeature_v2: id: ac9c0a9c-8a76-4419-bd64-9c34c5782666id: cfc95e9b-b035-4403-a6a9-b27a8a053a37id: fb2a841f-c522-491f-9901-a1b939d252dfid: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2:
+  - id: a075b2c1-7748-4328-b7f6-343aa314616a
+  - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+  - id: b12f6872-9271-4369-85e5-86969a0b99a2
+  - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+subfeature_v2:
+  - id: ac9c0a9c-8a76-4419-bd64-9c34c5782666
+  - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+  - id: fb2a841f-c522-491f-9901-a1b939d252df
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: ht
 source-wordcount: 2637
