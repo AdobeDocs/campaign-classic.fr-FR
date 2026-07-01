@@ -6,17 +6,13 @@ feature: Workflows, Targeting Activity
 hide: true
 exl-id: 1cda3146-c333-4743-a871-c44583b6e5b2
 TQID: https://experienceleague.adobe.com/qgrHaoMQwEN1YVWXuRHPiCchaQSaiwW5HgVLWgpUymg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
-subfeature_v2:
-  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
-  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
+subfeature_v2: id: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 316
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +20,7 @@ ht-degree: 66%
 
 
 
-Une union permet de regrouper le résultat de plusieurs activités entrantes dans une seule cible. La cible est créée avec tous les résultats reçus : toutes les activités antérieures doivent donc être terminées pour que l&#39;union soit exécutée.
+Une union permet de regrouper le résultat de plusieurs activités entrantes dans une seule cible. La cible est créée avec tous les résultats reçus : toutes les activités antérieures doivent donc être terminées pour que l’union soit exécutée.
 
 ![](assets/s_user_segmentation_union.png)
 
@@ -34,7 +30,7 @@ Une union permet de regrouper le résultat de plusieurs activités entrantes dan
 
 ## Exemple d&#39;union {#union-example}
 
-Dans l’exemple suivant, les résultats de deux requêtes ont été combinés afin de mettre à jour la liste. Les deux requêtes ciblent les destinataires. Les résultats sont donc basés sur le même tableau.
+Dans l’exemple suivant, les résultats de deux requêtes sont réunis afin de mettre à jour la liste. Les deux requêtes ciblent les personnes destinataires. Les résultats sont donc basés sur la même table.
 
 1. Insérez une activité de type **[!UICONTROL Union]** directement après les deux requêtes et avant une activité de mise à jour de liste puis ouvrez-la.
 1. Indiquez éventuellement un libellé.
@@ -45,7 +41,7 @@ Dans l’exemple suivant, les résultats de deux requêtes ont été combinés a
    Définissez cette dernière en indiquant le nombre de destinataires maximal et en choisissant la requête dont la population sera prioritaire.
 
 1. Validez l’activité d’union puis paramétrez l’activité de mise à jour de liste (voir la section [Mise à jour de liste](list-update.md)).
-1. Démarrez le workflow. Le nombre de résultats s&#39;affiche et la liste définie dans l&#39;activité de mise à jour de liste est créée ou mise à jour. Cette liste contient l&#39;ensemble des destinataires pour les deux requêtes ou, le cas échéant, le nombre défini à l&#39;étape précédente.
+1. Démarrez le workflow. Le nombre de résultats s’affiche et la liste définie au niveau de l’activité de mise à jour de liste est créée ou mise à jour. Cette liste contient l’ensemble des personnes destinataires des deux requêtes ou le nombre défini à l’étape précédente, le cas échéant.
 
    ![](assets/union_example.png)
 

@@ -7,27 +7,21 @@ feature: Campaigns, Cross Channel Orchestration
 hide: true
 exl-id: 1278bda1-f83c-4d38-8042-e6611755cf36
 TQID: https://experienceleague.adobe.com/BSnBL3-RQ5UUgRFlU3RsNP7CLJrBHgjxHDLtvVvmtAg
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-  - id: afa4204e-6d08-4e29-bc35-26aafb656d48
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-subfeature_v2:
-  - id: f863efa9-030c-4466-a2b8-a52aea6b722c
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616aid: afa4204e-6d08-4e29-bc35-26aafb656d48
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+subfeature_v2: id: f863efa9-030c-4466-a2b8-a52aea6b722c
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 1216
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 # Accès aux campagnes marketing{#accessing-marketing-campaigns}
 
-Adobe Campaign vous permet de créer, configurer, exécuter et analyser des campagnes marketing. Toutes les campagnes marketing peuvent être gérées à partir d’un centre de contrôle unifié.
+Adobe Campaign vous permet de créer, de configurer, d’exécuter et d’analyser des campagnes marketing. Toutes les campagnes marketing peuvent être gérées à partir d’un centre de contrôle unifié.
 
 ## Notions de base sur l&#39;espace de travail {#workspace-basics}
 
@@ -39,7 +33,7 @@ Dans Adobe Campaign, parcourez les différentes fonctionnalités à l&#39;aide d
 ![](assets/campaign_global_view.png)
 
 
-Les éléments d&#39;une campagne se trouvent dans l&#39;onglet **[!UICONTROL Campagnes]** : vous y trouverez une vue d&#39;ensemble des programmes et des campagnes marketing ainsi que de leurs sous-ensembles. Un programme marketing est constitué de campagnes, elles-mêmes constituées de diffusions, de tâches, de ressources liées, etc. Dans le contexte de Marketing Campaign Management à l&#39;aide de Campaign, les informations concernant les diffusions, les budgets, les réviseurs et les documents liés sont disponibles dans chaque campagne.
+Les éléments d&#39;une campagne se trouvent dans l&#39;onglet **[!UICONTROL Campagnes]** : vous y trouverez une vue d&#39;ensemble des programmes et des campagnes marketing ainsi que de leurs sous-ensembles. Un programme marketing est constitué de campagnes, elles-mêmes constituées de diffusions, de tâches, de ressources liées, etc. Dans le contexte de Marketing Campaign Management à l’aide de Campaign, les informations concernant les diffusions, les budgets, les réviseurs et réviseuses et les documents liés sont disponibles dans chaque campagne.
 
 Le bloc de **[!UICONTROL Navigation]** de l&#39;onglet **[!UICONTROL Campagnes]** offre diverses entrées en fonction des modules installés sur l&#39;instance. Vous pouvez, par exemple, accéder aux éléments suivants :
 
@@ -76,7 +70,7 @@ Les icônes associées à chaque élément vous permettent de visualiser son sta
 
 ### Navigation dans un programme marketing {#browsing-in-a-marketing-program}
 
-Campaign permet de gérer un ensemble de programmes composés de différentes campagnes marketing. Chaque campagne contient des diffusions, ainsi que les processus et ressources associés.
+Grâce à Campaign, vous pouvez gérer un ensemble de programmes composés de différentes campagnes marketing. Chaque campagne contient des diffusions et les traitements et ressources associés.
 
 #### Naviguer dans un programme {#browsing-a-program}
 
@@ -115,7 +109,7 @@ Vous pouvez accéder aux opérations à partir du calendrier des campagnes, de l
 
 Pour chaque opération, les traitements, ressources et diffusions sont centralisés dans un écran unique - le tableau de bord - qui permet de gérer les actions marketing dans un mode collaboratif.
 
-Le tableau de bord d’une campagne est utilisé comme interface de contrôle. Il accède directement aux principales étapes de création et de gestion des campagnes : diffusions, fichiers d&#39;extraction, notifications, budgets, etc.
+Le tableau de bord d’une campagne est utilisé comme une interface de contrôle. Il permet d’accéder directement aux principales étapes de création et de gestion de la campagne : diffusions, fichiers d’extraction, notifications, budgets, etc.
 
 ![](assets/s_ncs_user_op_board_start_del.png)
 
@@ -151,10 +145,10 @@ Le lien **[!UICONTROL Rapports]** permet d&#39;accéder aux rapports de l&#39;op
 
 #### Configuration {#configuration}
 
-Les campagnes sont créées à l’aide de modèles de campagne. Vous pouvez configurer des modèles réutilisables pour lesquels certaines options sont sélectionnées et d’autres paramètres sont déjà enregistrés. Pour chaque campagne, les fonctionnalités suivantes sont proposées :
+Les campagnes sont créées à partir de modèles de campagne. Vous pouvez configurer des modèles réutilisables pour lesquels certaines options sont sélectionnées et d’autres paramètres sont déjà enregistrés. Pour chaque campagne, les fonctionnalités suivantes sont proposées :
 
-* Référencement des [documents et ressources](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents) : vous pouvez associer des documents à la campagne (brief, rapport, images, etc.). Tous les formats de document sont pris en charge.
-* Définition des coûts : pour chaque campagne, Adobe Campaign vous permet de définir des [postes de coûts et structures de calcul des coûts](../../campaign/using/providers-stocks-and-budgets.md#defining-cost-categories) qui pourront être utilisés lors de la création de la campagne marketing. Par exemple : coûts d&#39;impression, recours à une agence externe, location de salle.
+* Référencement de [documents et de ressources](../../campaign/using/marketing-campaign-deliveries.md#managing-associated-documents) : vous pouvez associer des documents à la campagne (compte-rendu, rapport, images, etc.). Tous les formats de document sont pris en charge.
+* Définition des coûts : pour chaque campagne, Adobe Campaign vous permet de définir les [postes de coûts et les structures de calcul des coûts](../../campaign/using/providers-stocks-and-budgets.md#defining-cost-categories) qui peuvent être utilisés lors de la création de la campagne marketing. Par exemple : coûts d’impression, recours à une agence externe, location de salle.
 * Définition d&#39;objectifs : vous pouvez définir des objectifs à réaliser dans le cadre d&#39;une campagne. Ces objectifs sont quantifiables, par exemple : nombre d&#39;abonnés à atteindre, chiffre d&#39;affaires à réaliser, etc. Ces informations sont ensuite exploitées dans les rapports sur les campagnes.
 * Gestion des [adresses de contrôle](../../delivery/using/about-seed-addresses.md) et des [populations témoins](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group)
 * Gestion des validations : vous pouvez sélectionner les traitements qui feront l&#39;objet d&#39;une validation et éventuellement sélectionner les opérateurs ou groupes d&#39;opérateurs validants. [En savoir plus](../../campaign/using/marketing-campaign-approval.md#checking-and-approving-deliveries)
@@ -165,7 +159,7 @@ Les campagnes sont créées à l’aide de modèles de campagne. Vous pouvez con
 
 ## Utiliser l&#39;interface web {#using-the-web-interface-}
 
-Vous pouvez accéder aux écrans de la console Adobe Campaign à partir d’un navigateur Internet afin de visualiser l’ensemble des campagnes et diffusions, ainsi que les rapports et informations relatifs aux profils de votre base de données. Cet accès ne permet pas la création d’enregistrements. En fonction des droits de l’opérateur ou de l’opératrice, vous pouvez afficher et/ou agir sur les données présentes dans la base de données. Vous pouvez par exemple approuver le contenu et le ciblage d’une campagne, relancer ou arrêter une diffusion, etc.
+Vous pouvez accéder aux écrans de la console cliente Adobe Campaign à partir d’un navigateur Internet afin de visualiser toutes les campagnes et diffusions, ainsi que les rapports et informations relatifs aux profils de votre base de données. Cet accès ne permet pas la création d’enregistrements. En fonction des droits de l’opérateur ou de l’opératrice, vous pouvez afficher et/ou agir sur les données présentes dans la base de données. Vous pouvez par exemple approuver le contenu et le ciblage d’une campagne, relancer ou arrêter une diffusion, etc.
 
 1. Connectez-vous comme vous le faites habituellement à l&#39;aide de l&#39;adresse https://`<your instance>:<port>/view/home`.
 1. Utilisez les menus pour accéder aux vues d&#39;ensemble.

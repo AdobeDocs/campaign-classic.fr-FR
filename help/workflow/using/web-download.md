@@ -6,21 +6,14 @@ feature: Workflows
 hide: true
 exl-id: b6005eae-5fbc-4e22-ab3a-c9b7ed6506f6
 TQID: https://experienceleague.adobe.com/Z39nBQwynacSYdzAWmUl1B1E0VwgJkg1gsqivrY-iSs
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
-  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845ee
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 546
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -28,15 +21,15 @@ ht-degree: 62%
 
 
 
-L&#39;activité **Téléchargement web** permet de lancer le téléchargement d&#39;un fichier sur une URL explicite, un compte externe ou une instance Adobe Campaign. Le protocole HTTP est utilisé. Il peut s’agir d’un téléchargement GET ou POST.
+L’activité **Téléchargement web** permet de lancer le téléchargement d’un fichier sur une URL explicite, un compte externe ou une instance Adobe Campaign. Le protocole utilisé est HTTP. Il peut s’agir d’un téléchargement de type GET ou POST.
 
 ## Propriétés {#properties}
 
 1. **Sélection du fichier web**
 
-   Pour indiquer le fichier à télécharger, vous pouvez saisir son URL, utiliser le compte HTTP externe où le fichier est stocké ou charger le fichier à partir d’une instance Adobe Campaign. Les paramètres disponibles sont détaillés ci-dessous :
+   Pour indiquer le fichier à télécharger, vous pouvez saisir son URL directement, utiliser le compte HTTP externe où le fichier est stocké ou charger le fichier à partir d’une instance Adobe Campaign. Les paramètres disponibles sont détaillés ci-dessous :
 
-   * Pour saisir directement l&#39;URL du fichier à télécharger, sélectionnez l&#39;option **[!UICONTROL URL explicite]** et indiquez l&#39;URL dans le champ correspondant. Cette URL peut être construite avec des données variables.
+   * Pour saisir directement l’URL du fichier à télécharger, sélectionnez l’option **[!UICONTROL URL explicite]** et indiquez l’URL dans le champ correspondant. Cette URL peut être construite avec des données variables.
 
      ![](assets/download_web_edit.png)
 
@@ -62,9 +55,9 @@ L&#39;activité **Téléchargement web** permet de lancer le téléchargement d&
    * **[!UICONTROL Nombre de fichiers]** : saisissez le nombre maximal de fichiers à conserver dans le répertoire de stockage.
    * **[!UICONTROL Taille maximale (en Mo)]** : saisissez la capacité maximale du répertoire de stockage (en méga octets).
 
-   Chaque fichier est conservé pendant 24 heures avant d&#39;être soumis aux règles de purge définies. La purge a lieu juste avant le début de l&#39;activité et ne prend donc pas en compte le fichier de workflow en cours.
+   Chaque fichier est conservé 24 heures avant d’être soumis aux règles de purge définies. La purge a lieu juste avant le début de l’activité et ne prend donc pas en compte le fichier de workflow en cours.
 
-   Les fichiers sont supprimés en fonction de leur âge (du plus ancien au plus récent). Les fichiers les plus anciens sont purgés jusqu’à ce que les deux règles de purge soient vérifiées. Par conséquent, si une limite de 100 fichiers est définie, cela signifie que le répertoire de stockage contiendra toujours les 100 fichiers les plus récents avant le début du workflow, ainsi que ceux en cours de traitement dans le workflow en cours.
+   Les fichiers sont supprimés en fonction de leur âge (du plus ancien au plus récent). Les fichiers les plus anciens sont purgés jusqu’à ce que les deux règles de purge soient vérifiées. Ainsi, si une limite de 100 fichiers est définie, cela signifie que le répertoire de stockage contiendra toujours les 100 fichiers les plus récents avant le début du workflow, en plus des fichiers traités dans le workflow en cours.
 
    Si vous ne souhaitez pas définir de limite pour les options **[!UICONTROL Nombre de fichiers]** et **[!UICONTROL Taille maximale (en Mo)]**, saisissez la valeur 0.
 

@@ -6,17 +6,13 @@ feature: Workflows
 hide: true
 exl-id: 729a2010-c2d8-481b-8c9e-780b9e5f97ef
 TQID: https://experienceleague.adobe.com/B-OWeBTtXSxSD1k-qgRq06ymp00LvVH2U7k9yRAN3YE
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
-subfeature_v2:
-  - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
-  - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
-  - id: d1110311-2ca4-442b-be37-088a6db845ee
+subfeature_v2: id: ee25c34b-ea50-427b-9369-ba0a160f7d70id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22fid: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 300
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -26,13 +22,13 @@ ht-degree: 86%
 
 ## Code SQL {#sql-code}
 
-Une activité **[!UICONTROL Code SQL]** exécute un script SQL. Le script est un modèle JST.
+Une activité de type **[!UICONTROL Code SQL]** exécute un script SQL. Le script est un modèle JST.
 
 ![](assets/sql_code.png)
 
 * **[!UICONTROL Script]**
 
-  La zone centrale de l&#39;éditeur contient le script à exécuter. Ce script est un template JST et peut donc être configuré en fonction du contexte du workflow.
+  La zone centrale de l’éditeur contient le script à exécuter. Ce script est un modèle JST et peut donc être paramétré en fonction du contexte du workflow.
 
 * **[!UICONTROL Traiter les erreurs]**
 
