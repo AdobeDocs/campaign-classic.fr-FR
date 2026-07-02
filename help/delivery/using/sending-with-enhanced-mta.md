@@ -62,7 +62,8 @@ Le MTA amélioré comprend une gestion des rebonds plus intelligente et une fonc
 
 **Quels sont les avantages ?**
 
-* Les clientes et clients Adobe Campaign qui utilisent le MTA amélioré ont vu une <!--300%-->augmentation importante de la vitesse de débit globale et une réduction significative des rebonds temporaires.  <!--90%+-->
+* Les clientes et clients Adobe Campaign qui utilisent le MTA amélioré ont vu une <!--300%-->augmentation importante de la vitesse de débit globale et une réduction significative des rebonds temporaires.
+  <!--90%+-->
 * Le MTA amélioré utilise la dernière technologie MTA pour vous offrir des vitesses de débit optimales pour votre diffusion par email.
 * En s&#39;adaptant instantanément et automatiquement aux retours qu&#39;il reçoit, il garantit également une diffusion par email plus précise et plus intelligente avec des données de diffusion en temps réel.
 
