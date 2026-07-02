@@ -24,9 +24,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 865
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Les déclencheurs sont utilisés pour le ciblage par un workflow de campagne qui
 Avant de commencer cette configuration, vérifiez que vous disposez des éléments suivants :
 
 * Un projet Adobe Developer.
-* Un identifiant d’organisation valide : pour trouver votre identifiant d’organisation, reportez-vous à [cette page](https://experienceleague.adobe.com/fr/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255){_blank}
+* Identifiant d’organisation valide - Pour trouver l’identifiant de votre organisation, reportez-vous à [cette page](https://experienceleague.adobe.com/fr/docs/core-services/interface/administration/organizations#concept_EA8AEE5B02CF46ACBDAD6A8508646255){_blank}.
 * Un accès de développement à votre organisation.
 * Une configuration de déclencheurs valide dans Adobe Analytics.
 
@@ -141,9 +141,9 @@ Voici la liste des paramètres facultatifs :
 | dumpStatePeriodSec | La période entre deux vidages du processus d&#39;état interne dans `var/INSTANCE/pipelined.json.` <br> L&#39;état interne est également accessible à la demande ici : `http://INSTANCE:7781/pipelined/status` |
 | forcedPipelineEndpoint | Désactiver la détection de PipelineServicesEndpoint et la forcer |
 | monitorServerPort | Le processus en pipeline écoutera sur ce port pour fournir le processus d&#39;état interne ici : `http://INSTANCE:PORT/pipelined/status`. <br>La valeur par défaut est de 7781 |
-| pointerFlushMessageCount | Lorsque ce nombre de messages est traité, les décalages sont enregistrés dans la base de données. <br> La valeur par défaut est 1 000 |
+| pointerFlushMessageCount | Lorsque ce nombre de messages est traité, les décalages seront enregistrés dans la base de données. <br>La valeur par défaut est de 1 000. |
 | pointerFlushPeriodSec | Après cette période, les décalages seront enregistrés dans la base de données. <br>La valeur par défaut est de 5 (secondes) |
-| processingJSThreads | Nombre de threads dédiés traitant des messages avec des connecteurs JS personnalisés. <br> La valeur par défaut est 4 |
+| processingJSThreads | Nombre de messages de traitement de threads dédiés avec des connecteurs JS personnalisés. <br>La valeur par défaut est de 4. |
 | processingThreads | Nombre de messages de traitement de threads dédiés avec code natif. <br>La valeur par défaut est de 4 |
 | retryPeriodSec | Délai entre les reprises en cas d&#39;erreurs de traitement. <br>La valeur par défaut est de 30 (secondes) |
 | retryValiditySec | Ignorer le message s&#39;il n&#39;est pas traité correctement après cette période (trop de reprises). <br>La valeur par défaut est de 300 (secondes) |

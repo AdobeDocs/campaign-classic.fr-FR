@@ -18,9 +18,9 @@ subfeature_v2:
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 639
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -112,7 +112,7 @@ Les **[!UICONTROL En-têtes HTTP de réponse]** permettent d’empêcher le dét
 
 ## Ajouter des variables {#adding-variables}
 
-L’onglet **[!UICONTROL Variables]** contient la liste des variables configurées dans le rapport. Ces variables sont exposées dans le contexte du rapport et peuvent être utilisées dans les calculs.
+L’onglet **[!UICONTROL Variables]** contient la liste des variables configurées dans le rapport.Ces variables sont exposées dans le contexte du rapport et peuvent être utilisées dans les calculs.
 
 Cliquez sur le bouton **[!UICONTROL Ajouter]** pour créer une nouvelle variable.
 

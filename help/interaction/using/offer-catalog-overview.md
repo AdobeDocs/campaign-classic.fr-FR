@@ -14,9 +14,9 @@ feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 134
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 78%
 
 Un catalogue d&#39;offres est toujours constitué de catégories qui contiennent elles-mêmes des sous-catégories ou directement des offres.
 
-Un catalogue d&#39;offres fait partie d&#39;un seul environnement, à spécifier au préalable. Les offres contenues dans ce catalogue ne peuvent être associées qu&#39;aux emplacements spécifiés dans cet environnement.
+Un catalogue d’offres fait partie d’un seul environnement, à préciser au préalable.Les offres contenues dans ce catalogue ne peuvent être associées qu’aux espaces spécifiés dans cet environnement.
 
 La gestion des offres se fait depuis une arborescence de dossiers dans l&#39;explorateur de la console Adobe Campaign.
 

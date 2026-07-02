@@ -23,9 +23,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1771
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ Les messages d’erreur asynchrones sont collectés par la plateforme Adobe Cam
 
 Pour les installations on-premise et les installations hébergées/hybrides utilisant l’ancien MTA de Campaign, lorsque la diffusion d&#39;un email échoue, le serveur de diffusion d&#39;Adobe Campaign reçoit un message d&#39;erreur du serveur de messagerie ou du serveur DNS distant. La liste des erreurs est composée de chaînes contenues dans le message renvoyé par le serveur distant. Les types et raisons des échec sont affectés à chaque message d&#39;erreur.
 
-Cette liste est accessible à partir du nœud **[!UICONTROL Administration > Gestion de campagne > Gestion des échecs > Qualification des logs de diffusion]**. Il contient toutes les règles utilisées par Adobe Campaign pour qualifier les diffusions en échec. Il n&#39;est pas exhaustif et est régulièrement mis à jour par Adobe Campaign et peut également être géré par l&#39;utilisateur.
+Cette liste est accessible à partir du nœud **[!UICONTROL Administration > Gestion des campagnes > Gestion des non-délivrables > Qualification des logs de diffusion]**.Elle contient toutes les règles utilisées par Adobe Campaign pour qualifier les échecs de diffusion.Elle n’est pas exhaustive, elle est régulièrement mise à jour par Adobe Campaign et peut également être gérée par l’utilisateur ou l’utilisatrice.
 
 ![](assets/tech_quarant_rules_qualif.png)
 
@@ -70,17 +70,17 @@ Le message renvoyé par le serveur distant à la première occurrence de ce type
 
 ![](assets/tech_quarant_rules_qualif_text.png)
 
-Adobe Campaign filtre ce message pour supprimer le contenu de la variable (tel que les identifiants, les dates, les adresses e-mail, les numéros de téléphone, etc.) et affiche le résultat filtré dans la colonne **[!UICONTROL Texte]**. Les variables sont remplacées par **`#xxx#`**, à l&#39;exception des adresses remplacées par **`*`**.
+Adobe Campaign filtre ce message pour supprimer le contenu de la variable (identifiants, dates, adresses e-mail, numéros de téléphone, etc.)et affiche le résultat filtré dans la colonne **[!UICONTROL Texte]**.Les variables sont remplacées par **`#xxx#`**, à l&#39;exception des adresses remplacées par **`*`**.
 
 Ce processus permet de regrouper tous les échecs d&#39;un même type et d&#39;éviter plusieurs entrées pour des erreurs similaires dans la table Qualification des logs de diffusion.
 
 >[!NOTE]
 >
->Le champ **[!UICONTROL Nombre d’occurrences]** affiche le nombre d’occurrences du message dans la liste. Il est limité à 100 000 occurrences. Vous pouvez modifier le champ, par exemple pour le réinitialiser.
+>Le champ **[!UICONTROL Nombre d’occurrences]** affiche le nombre d’occurrences du message dans la liste.Il est limité à 100 000 occurrences.Vous pouvez modifier le champ si vous le souhaitez, par exemple pour le réinitialiser.
 
 Les statuts de qualification des mails rebonds sont les suivants :
 
-* **[!UICONTROL A qualifier]** : l&#39;e-mail bounce n&#39;a pas pu être qualifié. La qualification doit être confiée à l&#39;équipe chargée de la délivrabilité afin de garantir une délivrabilité efficace de la plateforme. Tant qu&#39;il n&#39;est pas qualifié, l&#39;e-mail bounce n&#39;est pas utilisé pour enrichir la liste des règles de gestion des e-mails.
+* **[!UICONTROL À qualifier]** : l’e-mail rejeté n’a pas pu être qualifié.La qualification doit être confiée à l’équipe chargée de la délivrabilité afin de garantir une délivrabilité efficace de la plateforme.Tant qu’il n’est pas qualifié, l’e-mail rejeté n’est pas utilisé pour enrichir la liste des règles de gestion des e-mails.
 * **[!UICONTROL Conserver]** : le rebond d’e-mail a été qualifié et sera utilisé par le workflow **Mise à jour pour la délivrabilité** pour être comparé aux règles de gestion des e-mails existantes et en enrichir la liste.
 * **[!UICONTROL Ignorer]** : le rebond d’e-mail est ignoré par le MTA de Campaign, ce qui signifie que ce rebond ne provoquera jamais la mise en quarantaine de l’adresse de la personne destinataire. Il ne sera pas utilisé par le workflow **Mise à jour pour la délivrabilité** et il ne sera pas envoyé aux instances clientes.
 
@@ -92,7 +92,7 @@ Les statuts de qualification des mails rebonds sont les suivants :
 
 ### Configuration des règles de gestion des e-mails {#email-management-rules}
 
-Les règles d&#39;email sont accessibles à partir du nœud **[!UICONTROL Administration > Gestion de campagne > Gestion des échecs > Ensembles de règles d&#39;email]**. Les règles de gestion des emails s’affichent dans la partie inférieure de la fenêtre.
+Les règles d’e-mail sont accessibles depuis le nœud **[!UICONTROL Administration > Gestion des campagnes > Gestion des non-délivrables > Jeux de règles mail]**.Vous pouvez consulter les règles de gestion des e-mails dans la section inférieure de la fenêtre.
 
 ![](assets/tech_quarant_rules.png)
 

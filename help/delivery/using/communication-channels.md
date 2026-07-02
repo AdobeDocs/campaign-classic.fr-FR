@@ -23,9 +23,9 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1113
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -89,9 +89,9 @@ Actuellement, cette option n’est disponible que si les conditions suivantes so
 
 **Configurer la priorité d’analyse**
 
-Lorsque la diffusion fait partie d&#39;une campagne, l&#39;onglet **[!UICONTROL Avancé]** propose une option supplémentaire. Vous pouvez ainsi organiser l&#39;ordre de traitement des diffusions d&#39;une même campagne.
+Lorsque votre diffusion fait partie d’une campagne, l’onglet **[!UICONTROL Avancé]** propose une option supplémentaire.celle-ci vous permet d’organiser l’ordre de traitement des diffusions d’une même campagne.
 
-Avant envoi, chaque diffusion est analysée. La durée de l&#39;analyse dépend du fichier d&#39;extraction de la diffusion. Plus la taille du fichier est importante, plus l’analyse prend de temps, ce qui fait attendre les diffusions suivantes.
+Avant l’envoi, chaque diffusion est analysée.La durée de l’analyse dépend du fichier d’extraction de la diffusion.Plus sa taille est importante, plus l’analyse est longue, ce qui met en attente les diffusions suivantes.
 
 Les options de la section **[!UICONTROL Préparation des messages par l’ordonnanceur]** vous permettent de prioriser l’analyse des diffusions d’un workflow de campagne.
 

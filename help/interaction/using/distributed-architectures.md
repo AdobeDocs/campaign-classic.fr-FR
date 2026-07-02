@@ -16,9 +16,9 @@ feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1030
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 45%
 
 ## Principe {#principle}
 
-Pour être en mesure de prendre en charge l’évolutivité et de fournir un service 24h/24, 7j/7 sur le canal entrant, vous pouvez utiliser Interaction avec une architecture distribuée. Ce type d&#39;architecture est déjà utilisé avec Message Center et est constitué de plusieurs instances :
+Pour pouvoir assurer l’évolutivité et offrir un service 24h/24, 7j/7 sur le canal entrant, vous pouvez utiliser Interaction avec une architecture distribuée.Ce type d’architecture est déjà utilisé avec Message Center et est constitué de plusieurs instances :
 
 * une ou plusieurs instances de pilotage dédiées au canal sortant et contenant la base marketing et l&#39;environnement en édition
 * une ou plusieurs instances d&#39;exécution dédiées au canal entrant
@@ -37,11 +37,11 @@ Pour être en mesure de prendre en charge l’évolutivité et de fournir un ser
 
 >[!NOTE]
 >
->Les instances de pilotage sont dédiées au canal entrant et contiennent la version en ligne du catalogue. Chaque instance d&#39;exécution est indépendante et dédiée à un segment de contact (par exemple, une instance d&#39;exécution par pays). Les appels au moteur d&#39;offres doivent être effectués directement sur l&#39;instance d&#39;exécution (une URL spécifique par instance d&#39;exécution). Étant donné que la synchronisation entre les instances n&#39;est pas automatique, les interactions d&#39;un même contact doivent être envoyées à travers la même instance.
+>Les instances de pilotage sont dédiées au canal entrant et contiennent la version en ligne du catalogue.Chaque instance d’exécution est indépendante et dédiée à un segment de contact (par exemple, une instance d’exécution par pays).Les appels au moteur d’offre doivent être effectués directement sur l’instance d’exécution (une URL spécifique par instance d’exécution).Étant donné que la synchronisation entre les instances n&#39;est pas automatique, les interactions d&#39;un même contact doivent être envoyées à travers la même instance.
 
 ## Synchronisation des propositions {#proposition-synchronization}
 
-La synchronisation des offres s&#39;effectue par packages. Sur les instances d&#39;exécution, tous les objets de catalogue sont précédés du nom du compte externe. Cela signifie que plusieurs instances de pilotage (instances de développement et de production, par exemple) peuvent être prises en charge sur une même instance d&#39;exécution.
+La synchronisation des offres s’effectue par le biais de packages.Sur les instances d’exécution, tous les objets de catalogue sont précédés du nom du compte externe.Cela signifie que plusieurs instances de pilotage (instances de développement et de production, par exemple) peuvent être prises en charge sur une même instance d’exécution.
 
 >[!IMPORTANT]
 >
@@ -53,27 +53,27 @@ Les offres supprimées dans l&#39;environnement en édition sont désactivées s
 
 ![](assets/interaction_powerbooster_schema2.png)
 
-Un workflow est créé pour chaque environnement et compte externe pour la synchronisation des propositions. La fréquence de synchronisation peut être ajustée pour chaque environnement et compte externe.
+Un workflow est créé pour chaque environnement et compte externe pour la synchronisation des propositions.La fréquence de synchronisation peut être ajustée pour chaque environnement et compte externe.
 
 ## Limites {#limitations}
 
 * Si vous utilisez la fonction de basculement (fall back) d&#39;un environnement anonyme vers un environnement identifié, ces deux environnements doivent être sur la même instance d&#39;exécution.
-* La synchronisation entre plusieurs instances d&#39;exécution n&#39;est pas effectuée en temps réel. Les interactions d’un même contact doivent être envoyées à la même instance. L&#39;instance de pilotage doit être dédiée au canal sortant (pas de temps réel).
-* La base de données marketing n&#39;est pas automatiquement synchronisée. Les données marketing utilisées dans les règles de poids et d&#39;éligibilité doivent être dupliquées sur les instances d&#39;exécution. Ce processus n’est pas fourni en standard, vous devez le développer pendant la période d’intégration.
+* La synchronisation entre plusieurs instances d’exécution n’est pas effectuée en temps réel.Les interactions d’une même personne contact doivent être envoyées à la même instance.L’instance de pilotage doit être dédiée au canal sortant (pas en temps réel).
+* La base de données marketing n’est pas synchronisée automatiquement.Les données marketing utilisées dans les règles de poids et d’éligibilité doivent être dupliquées sur les instances d’exécution.Ce processus n’est pas fourni en standard, vous devez le développer pendant la période d’intégration.
 * La synchronisation des propositions s&#39;effectue exclusivement par connexion FDA.
 * Si vous utilisez Interaction et Message Center sur une même instance, la synchronisation s&#39;effectuera par protocole FDA dans les deux cas.
 
 ## Configuration des packages {#packages-configuration}
 
-Les éventuelles extensions de schéma directement liées à **Interaction** (offres, propositions, destinataires, etc.) doit être déployé sur les instances d&#39;exécution.
+Les éventuelles extensions de schémas directement liées à **Interaction** (offres, propositions, personnes destinataires, etc.)doivent être déployées sur les instances d’exécution.
 
-Le package Interaction doit être installé sur toutes les instances (pilotage et exécution). Deux packages supplémentaires sont disponibles : un package à installer sur les instances de pilotage et un autre à installer sur chaque instance d&#39;exécution.
+Le package Interaction doit être installé sur toutes les instances (pilotage et exécution).Deux packages supplémentaires sont disponibles : un package à installer sur les instances de pilotage, et un package à installer sur chaque instance d’exécution.
 
 >[!NOTE]
 >
->Lors de l&#39;installation du package, les champs de type **long** de la table **nms:proposition** tels que l&#39;identifiant de la proposition, deviennent des champs de type **int64**. Les types de données sont décrits dans [cette section](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data).
+>Lors de l’installation du package, les champs de type **long** de la table **nms:proposition** comme l’identifiant de la proposition, deviennent des champs de type **int64**.Les types de données sont décrits dans [cette section](../../configuration/using/schema-structure.md#mapping-the-types-of-adobe-campaign-dbms-data).
 
-La durée de conservation des données doit être configurée sur chaque instance (à partir de la fenêtre **[!UICONTROL Purge des données]** de l&#39;assistant de déploiement). Sur les instances d&#39;exécution, cette période doit correspondre à la profondeur historique nécessaire au calcul des règles de typologie (période glissante) et d&#39;éligibilité.
+La durée de conservation des données doit être configurée sur chaque instance (via la fenêtre **[!UICONTROL Purge des données]** dans l’assistant de déploiement).Sur les instances d&#39;exécution, cette période doit correspondre à la profondeur historique nécessaire au calcul des règles de typologie (période glissante) et d&#39;éligibilité.
 
 Sur les instances de pilotage :
 
@@ -87,7 +87,7 @@ Sur les instances de pilotage :
    * Renseignez les paramètres de connexion à l&#39;instance d&#39;exécution.
    * Chaque instance d&#39;exécution doit être associée à un identifiant. Cet identifiant est attribué lorsque vous cliquez sur le bouton **[!UICONTROL Initialiser la connexion]**.
    * Cochez le type d&#39;application utilisée : **[!UICONTROL Message Center]**, **[!UICONTROL Interaction]**, ou les deux.
-   * Saisissez le compte FDA utilisé. Un opérateur doit être créé sur les instances d&#39;exécution et doit posséder les droits de lecture et d&#39;écriture suivants sur la base de données de l&#39;instance en question :
+   * Saisissez le compte FDA utilisé.Un profil d’opérateur ou d’opératrice doit être créé sur les instances d’exécution et doit disposer des droits de lecture et d’écriture suivants sur la base de données de l’instance concernée :
 
      ```
      grant SELECT ON nmspropositionrcp, nmsoffer, nmsofferspace, xtkoption, xtkfolder TO user;
@@ -107,9 +107,9 @@ Sur les instances de pilotage :
 
      >[!NOTE]
      >
-     >Si vous rencontrez une erreur, vous pouvez consulter les workflows de synchronisation et les notifications d&#39;offres. Ils se trouvent dans les workflows techniques de l’application.
+     >En cas d’erreur, vous pouvez consulter les workflows de synchronisation et les notifications d’offres.Ils se trouvent dans les workflows techniques de l’application.
 
-Si, pour des raisons d&#39;optimisation, une partie seulement de la base de données marketing est dupliquée sur les instances d&#39;exécution, vous pouvez spécifier un schéma restreint lié à l&#39;environnement pour permettre aux utilisateurs d&#39;utiliser uniquement les données disponibles sur les instances d&#39;exécution. Vous pouvez créer une offre en utilisant des données qui ne sont pas disponibles sur les instances d&#39;exécution. Pour cela, vous devez désactiver la règle sur les autres canaux en limitant cette règle au canal sortant (champ **[!UICONTROL Pris en compte si]**).
+Si, pour des raisons d’optimisation, seule une partie de la base de données marketing est dupliquée sur les instances d’exécution, vous pouvez définir un schéma restreint lié à l’environnement afin de permettre aux utilisateurs et utilisatrices de n’utiliser que les données disponibles sur les instances d’exécution.Vous pouvez créer une offre utilisant des données non disponibles sur les instances d’exécution.Pour cela, vous devez désactiver la règle sur les autres canaux en limitant cette règle au canal sortant (champ **[!UICONTROL Pris en compte si]**).
 
 ![](assets/ita_filtering.png)
 
@@ -131,14 +131,14 @@ L&#39;option suivante est disponible sur les instances d&#39;exécution :
 
 ## Installation des packages {#packages-installation}
 
-Si votre instance ne possédait pas le package Interaction auparavant, aucune migration n’est nécessaire. Par défaut, la table des propositions sera en 64 bits une fois les packages installés.
+Si votre instance ne disposait pas précédemment du package Interaction, aucune migration n’est nécessaire.Par défaut, la table des propositions sera en 64 bits une fois les packages installés.
 
 >[!IMPORTANT]
 >
 >Selon le volume de propositions existantes dans votre instance, cette opération peut être très longue.
 
-* Si votre instance comporte peu ou pas de propositions, aucune modification manuelle de la table des propositions n&#39;est nécessaire. La modification sera effectuée lors de l’installation des packages.
-* Si votre instance comporte de nombreuses propositions, il est préférable de modifier la structure de la table des propositions avant d&#39;installer les packages de contrôle et de les exécuter. Nous vous recommandons d’exécuter les requêtes pendant une période de faible activité.
+* Si votre instance ne comporte pas ou peu de propositions, aucune modification manuelle de la table des propositions n’est nécessaire.La modification sera effectuée lors de l’installation des packages.
+* Si votre instance comporte un grand nombre de propositions, il est préférable de changer la structure de la table des propositions avant l’installation des packages de pilotage et d’exécution.Nous vous recommandons d’exécuter les requêtes pendant une période de faible activité.
 
 >[!NOTE]
 >
@@ -146,7 +146,7 @@ Si votre instance ne possédait pas le package Interaction auparavant, aucune mi
 
 ### PostgreSQL {#postgresql}
 
-Il existe deux méthodes. La première (à l’aide d’une table de travail) est légèrement plus rapide.
+Deux méthodes sont disponibles.La première (utilisation d’une table de travail) est un peu plus rapide.
 
 **Table de travail**
 
@@ -176,7 +176,7 @@ ALTER TABLE nmspropositionrcp
 
 ### Oracle {#oracle}
 
-La modification de la taille d’un type **Nombre** n’entraîne pas la réécriture des valeurs ou de l’index. Elle est donc immédiate.
+La modification de la taille d’un type **Number** n’entraîne pas la réécriture des valeurs ou de l’index.Elle est donc immédiate.
 
 La requête à exécuter est la suivante :
 

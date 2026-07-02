@@ -18,9 +18,9 @@ subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
   - id: e739ee2b-6228-412e-878f-45de0791417d
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 935
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Pour partager avec eux le résultat final de leur collaboration, le chargé de d
 Pour utiliser la condition dynamique vous devez disposer :
 
 * d&#39;une diffusion prête à être envoyée,
-* les adresses de contrôle ayant une valeur commune. Cette valeur peut être un champ qui existe déjà dans Adobe Campaign. Dans cet exemple, les adresses de contrôle partagent la valeur « Achat » dans le champ « Service », qui n’est pas présent par défaut dans l’application.
+* des adresses de contrôle ayant une valeur commune.Cette valeur peut être un champ qui existe déjà dans Adobe Campaign.Dans cet exemple, les adresses de contrôle partagent la valeur « Achats » du champ « Service », qui n’est pas présent par défaut dans l’application.
 
 ## Étape 1 : création dʼune diffusion {#step-1---creating-a-delivery}
 
@@ -105,7 +105,7 @@ Pour plus d’informations sur les extensions de schéma, consultez [cette secti
 
    Une fois la mise à jour terminée, vous pouvez fermer l’assistant.
 
-1. Déconnectez-vous d’Adobe Campaign, puis reconnectez-vous. Les modifications apportées au schéma de données des adresses de contrôle sont effectives. Pour qu&#39;elles soient visibles depuis l&#39;écran des adresses de contrôle, vous devez mettre à jour le **[!UICONTROL Formulaire de saisie]** associée. Pour plus dʼinformations, consultez la section [Mise à jour du formulaire de saisie](#updating-the-input-form).
+1. Déconnectez-vous d’Adobe Campaign, puis reconnectez-vous.Les modifications apportées au schéma de données des adresses de contrôle sont désormais effectives.Pour qu&#39;elles soient visibles depuis l&#39;écran des adresses de contrôle, vous devez mettre à jour le **[!UICONTROL Formulaire de saisie]** associée. Pour plus dʼinformations, consultez la section [Mise à jour du formulaire de saisie](#updating-the-input-form).
 
 #### Extension du schéma de données à partir dʼune table liée {#extending-the-data-schema-from-a-linked-table}
 
@@ -166,7 +166,7 @@ Pour plus dʼinformations, consultez la section [Mise à jour du formulaire de s
 
 ## Étape 3 : définition de la condition {#step-3---defining-the-condition}
 
-Vous pouvez maintenant définir la condition dynamique des adresses de contrôle pour la diffusion. Pour cela :
+Vous pouvez maintenant spécifier la condition dynamique de sélection des adresses de contrôle pour la diffusion.Pour cela :
 
 1. Ouvrez votre diffusion.
 

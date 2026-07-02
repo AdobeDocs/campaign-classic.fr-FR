@@ -26,9 +26,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1800
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Pour cela :
 
    Les règles appliquées pendant lʼanalyse sont présentées dans [cette section](#validation-process-with-typologies). Les modes de validation disponibles sont détaillés dans la section [Modification du mode de validation](#changing-the-approval-mode).
 
-1. **Envoi de BAT** : cette étape permet de contrôler le contenu, les URL, la personnalisation, etc. En savoir plus sur les sections [Envoyer un BAT](steps-validating-the-delivery.md#sending-a-proof) et [Définir une cible de BAT spécifique](steps-defining-the-target-population.md#defining-a-specific-proof-target).
+1. **Envoyer des BAT** : cette étape permet de contrôler le contenu, les URL, la personnalisation, etc. Pour en savoir plus, consultez les sections [Envoyer un BAT](steps-validating-the-delivery.md#sending-a-proof) et [Définir une cible spécifique du BAT](steps-defining-the-target-population.md#defining-a-specific-proof-target).
 
 >[!IMPORTANT]
 >
@@ -98,7 +98,7 @@ Une fois le résultat de l’analyse vérifié, vous pourrez cliquer sur **[!UIC
 
 >[!NOTE]
 >
->Cliquez sur le lien **[!UICONTROL Modifier la cible principale de la diffusion]** si le nombre de messages à envoyer ne correspond pas à votre configuration. Vous pouvez ainsi modifier la définition de la population cible et relancer l’analyse.
+>Cliquez sur le lien **[!UICONTROL Modifier la cible principale de la diffusion]** si le nombre de messages à envoyer ne correspond pas à votre configuration.Cette option permet de modifier la définition de la population cible et de relancer l’analyse.
 
 ### Paramètres d’analyse {#analysis-parameters}
 
@@ -112,9 +112,9 @@ Cet onglet permet d&#39;accéder aux options suivantes :
 * **[!UICONTROL Mode de validation]** : ce champ permet de définir une diffusion manuelle ou automatique, une fois l’analyse terminée. Les modes de validation sont présentés dans la section [Changer le mode de validation](#changing-the-approval-mode).
 * **[!UICONTROL Préparer les fragments de diffusion dans la base de données]** : cette option vous permet d’améliorer les performances de l’analyse des diffusions. Voir à ce propos [cette section](#improving-delivery-analysis).
 * **[!UICONTROL Préparer les données de personnalisation avec un workflow]** : cette option permet de préparer, dans un workflow automatique, les données de personnalisation contenues dans la diffusion, ce qui permet d’augmenter considérablement les performances d’exécution de la personnalisation. Pour plus d’informations à ce sujet, voir la section [Optimiser la personnalisation](personalization-fields.md#optimizing-personalization).
-* **[!UICONTROL Lancer le traitement dans un processus détaché]** : cette option permet de lancer l&#39;analyse de la diffusion dans un processus à part. Par défaut, la fonction d’analyse utilise le processus du serveur applicatif d&#39;Adobe Campaign (nlserver web). En cochant cette option, vous garantissez que l’analyse sera menée à son terme même en cas de défaillance du serveur applicatif.
+* **[!UICONTROL Lancer le traitement dans un processus détaché]** : cette option permet de lancer l’analyse de la diffusion dans un processus à part.Par défaut, la fonction d’analyse utilise le processus du serveur applicatif d&#39;Adobe Campaign (nlserver web). En cochant cette option, vous garantissez que l’analyse sera menée à son terme même en cas de défaillance du serveur applicatif.
 * **[!UICONTROL Enregistrer les requêtes SQL générées pendant l’analyse dans le journal]** : cette option permet d&#39;ajouter les logs des requêtes SQL dans le journal de la diffusion lors de la phase d’analyse.
-* **[!UICONTROL Ignorer les scripts de personnalisation lors de l’envoi]** : cette option permet de contourner l’interprétation des directives JavaScript présentes dans le contenu HTML. Ils s’affichent tels quels dans le contenu diffusé. Ces directives sont introduites par la balise **&lt;%=**).
+* **[!UICONTROL Ignorer les scripts de personnalisation lors de l’envoi]** : cette option permet de ne pas interpréter les directives JavaScript présentes dans le contenu HTML.Elles seront affichées telles quelles dans le contenu diffusé.Ces directives sont introduites par la balise **&lt;%=**).
 
 ### Améliorer les performances des analyses de diffusions {#improving-delivery-analysis}
 
@@ -131,9 +131,9 @@ Actuellement, cette option n’est disponible que si les conditions suivantes so
 
 ### Configurer la priorité d’analyse {#analysis-priority-}
 
-Lorsque la diffusion fait partie d&#39;une campagne, l&#39;onglet **[!UICONTROL Avancé]** propose une option supplémentaire. Vous pouvez ainsi organiser l&#39;ordre de traitement des diffusions d&#39;une même campagne.
+Lorsque votre diffusion fait partie d’une campagne, l’onglet **[!UICONTROL Avancé]** propose une option supplémentaire :celle-ci vous permet d’organiser l’ordre de traitement des diffusions d’une même campagne.
 
-Avant envoi, chaque diffusion est analysée. La durée de l&#39;analyse dépend du fichier d&#39;extraction de la diffusion. Plus la taille du fichier est importante, plus l’analyse prend de temps, ce qui fait attendre les diffusions suivantes.
+Avant l’envoi, chaque diffusion est analysée.La durée de l’analyse dépend du fichier d’extraction de la diffusion.Plus sa taille est importante, plus l’analyse est longue, ce qui met en attente les diffusions suivantes.
 
 Les options de la section **[!UICONTROL Préparation des messages par l’ordonnanceur]** vous permettent de prioriser l’analyse des diffusions d’un workflow de campagne.
 
@@ -174,15 +174,15 @@ Pour envoyer un BAT, procédez comme suit :
 
    ![](assets/s_ncs_user_email_del_send_proof_formats.png)
 
-Vous souhaiterez peut-être modifier le contenu de la diffusion en raison des commentaires du groupe de validation recevant le BAT. Après avoir apporté vos modifications, vous devez relancer l’analyse, puis envoyer un autre BAT. Chaque nouveau BAT est numéroté et consigné dans le journal de diffusion.
+En fonction des remarques du groupe de validation qui reçoit le BAT, vous souhaiterez peut-être modifier le contenu de la diffusion.Une fois vos modifications effectuées, vous devez relancer l’analyse, puis envoyer un autre BAT.Chaque nouveau BAT est numéroté et consigné dans le journal de la diffusion.
 
 Une fois la diffusion analysée, vous pouvez en visualiser les différents BAT depuis le sous-onglet **[!UICONTROL Bons à tirer]** du log (onglet **[!UICONTROL Suivi]**).
 
 ![](assets/s_ncs_user_delivery_validation_cycle_03.png)
 
-Vous devez envoyer autant de BAT que nécessaire jusqu’à ce que le contenu de la diffusion soit finalisé. Ensuite, vous pouvez envoyer la diffusion à la cible principale et fermer le cycle de validation.
+Vous devez envoyer autant de BAT que nécessaire jusqu’à ce que le contenu de votre diffusion soit finalisé.Dès lors, vous pouvez envoyer la diffusion à la cible principale et clore le cycle de validation.
 
-L&#39;onglet **[!UICONTROL Avancé]** des propriétés de la diffusion permet de définir les propriétés du BAT. Si nécessaire, vous pouvez remplacer les règles d’exclusion des destinataires.
+L’onglet **[!UICONTROL Avancé]** des propriétés de la diffusion permet de définir les propriétés du BAT.Si nécessaire, vous pouvez remplacer les règles d’exclusion des destinataires.
 
 ![](assets/s_ncs_user_wizard_email01_145.png)
 
@@ -209,9 +209,9 @@ Pour chaque diffusion, la typologie à appliquer est sélectionnée dans l&#39;o
 
 Vous pouvez visualiser et éditer les règles de validation, leur contenu, leur ordre d&#39;exécution et leur description complète depuis le noeud **[!UICONTROL Administration > Gestion de campagnes > Gestion des typologies > Règles de typologies]**.
 
-Vous pouvez créer des règles et définir de nouvelles typologies à partir de ce nœud. Ces tâches sont toutefois réservées aux utilisateurs experts qui connaissent JavaScript.
+Vous pouvez créer des règles et définir de nouvelles typologies à partir de ce nœud.Ces tâches sont toutefois réservées aux utilisateurs et utilisatrices experts qui connaissent JavaScript.
 
-Pour plus d’informations sur les règles de typologie, consultez [cette page &#x200B;](../../campaign-opt/using/about-campaign-typologies.md).
+Pour plus d’informations sur les règles de typologie, consultez [cette page ](../../campaign-opt/using/about-campaign-typologies.md).
 
 Vous pouvez également éditer la typologie courante en cliquant sur l’icône **[!UICONTROL Editer le lien]** situé à droite du champ **[!UICONTROL Typologie]**.
 
@@ -227,7 +227,7 @@ L’onglet **[!UICONTROL Règle]** donne la liste des règles de typologie à ap
 
 ## Changer le mode de validation {#changing-the-approval-mode}
 
-L’onglet **[!UICONTROL Analyse]** des propriétés de la diffusion permet de sélectionner le mode de validation. Si l’analyse génère des avertissements, (par exemple, si certains caractères sont accentués dans l’objet de la diffusion, etc.), vous pouvez choisir de continuer son exécution ou non dans les paramètres de la diffusion. Par défaut, l’utilisateur ou l’utilisatrice doit confirmer l’envoi des messages à la fin de la phase d’analyse : il s’agit d’une validation **manuelle**.
+L’onglet **[!UICONTROL Analyse]** des propriétés de la diffusion permet de sélectionner le mode de validation.Si l’analyse génère des avertissements, (par exemple, si certains caractères sont accentués dans l’objet de la diffusion, etc.), vous pouvez choisir de continuer son exécution ou non dans les paramètres de la diffusion. Par défaut, l’utilisateur ou l’utilisatrice doit confirmer l’envoi des messages à la fin de la phase d’analyse : il s’agit d’une validation **manuelle**.
 
 Vous pouvez choisir un autre mode de validation dans la liste déroulante du champ correspondant.
 

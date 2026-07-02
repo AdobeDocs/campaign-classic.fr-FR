@@ -13,9 +13,9 @@ feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 288
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->Les étapes suivantes doivent être exécutées par un profil **Chargé de diffusion**. Ils ne peuvent modifier les offres que dans des environnements en ligne.
+>Les étapes suivantes doivent être effectuées par un profil de type **Personne chargée des diffusions**.Ce profil peut uniquement modifier les offres présentes dans les environnements en ligne.
 
 1. Créer une campagne.
 1. Référencer une offre dans une campagne ou l’envoi d’une campagne. Voir à ce sujet la section [À propos des canaux sortants](../../interaction/using/about-outbound-channels.md).

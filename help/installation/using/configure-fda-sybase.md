@@ -15,9 +15,9 @@ topic_v2:
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 330
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -38,11 +38,11 @@ La connexion à une base de données externe Sybase IQ dans FDA nécessite les p
 >
 >Vérifiez que le package **unixodbc** se trouve sur le serveur.
 
-1. Installez **iq_odbc**. Une erreur peut se produire à la fin de l’installation. Cette erreur peut être ignorée.
+1. Installez **iq_odbc**.Une erreur peut se produire à la fin de l’installation.Cette erreur peut être ignorée.
 
-1. Installez **iq_client_common**. Une erreur Java peut se produire à la fin de l’installation. Cette erreur peut être ignorée.
+1. Installez **iq_client_common**.Une erreur Java peut se produire à la fin de l’installation.Cette erreur peut être ignorée.
 
-1. Configurez le pilote ODBC. Le paramétrage peut être effectué dans les fichiers standards : /etc/odbc.ini pour les paramètres généraux et /etc/odbcinst.ini pour déclarer les pilotes :
+1. Configurez le pilote ODBC. La configuration peut être réalisée dans les fichiers standard : /etc/odbc.ini pour les paramètres généraux et /etc/odbcinst.ini pour la déclaration des pilotes :
 
    * **/etc/odbc.ini**(remplacez les valeurs telles que `<server_alias>` par les vôtres) :
 
@@ -69,7 +69,7 @@ La connexion à une base de données externe Sybase IQ dans FDA nécessite les p
      Driver=/opt/sybase/IQ-16_0/lib64/libdbodbc16.so
      ```
 
-1. Ajoutez le chemin d’accès de la nouvelle bibliothèque libodbc16.so dans la variable LD_LIBRARY_PATH . Pour ce faire :
+1. Ajoutez le chemin d’accès de la nouvelle bibliothèque libodbc16.so dans la variable LD_LIBRARY_PATH.Pour ce faire :
 
    * Si vous utilisez un fichier customer.sh pour déclarer le chemin d’accès : ajoutez le chemin d’accès /opt/sybase/IQ-16_0/lib64 pour la variable LD_LIBRARY_PATH.
    * Sinon, utilisez une commande Unix.

@@ -18,9 +18,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 198
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 66%
 
 ## Changement du port d&#39;écoute du module syslogd {#changing-the-syslogd-listening-port}
 
-Par défaut, le port d’écoute **syslogd** est 666 (udp). Vous pouvez la modifier à l’aide d’une variable d’environnement si nécessaire.
+Le port d’écoute **syslogd** par défaut est 666 (udp).Vous pouvez le modifier à l’aide d’une variable d’environnement si nécessaire.
 
 Une fois paramétrée, cette variable est prise en compte par tous les modules Adobe Campaign.
 
@@ -52,7 +52,7 @@ Vous devez créer la variable d&#39;environnement **TRACE_ADDR** avec la valeur 
 
 ## Configuration de zones de sécurité {#configuring-security-zones}
 
-Chaque opérateur doit être associé à une zone pour se connecter à une instance et l&#39;adresse IP de l&#39;opérateur doit faire partie des adresses ou des plages d&#39;adresses définies dans la zone de sécurité. La configuration technique des zones est effectuée dans le fichier de configuration du serveur Adobe Campaign. L&#39;association d&#39;un opérateur à une zone de sécurité doit être défini dans la console (noeud **[!UICONTROL Administration > Gestion des accès > Opérateurs]**).
+Chaque opérateur ou opératrice doit être associé(e) à une zone pour se connecter à une instance et l’adresse IP de l’opérateur ou de l’opératrice doit faire partie des adresses ou des plages d’adresses définies dans la zone de sécurité.La configuration technique des zones est effectuée dans le fichier de configuration du serveur Adobe Campaign.L&#39;association d&#39;un opérateur à une zone de sécurité doit être défini dans la console (noeud **[!UICONTROL Administration > Gestion des accès > Opérateurs]**).
 
 >[!NOTE]
 >

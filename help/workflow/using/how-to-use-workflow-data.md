@@ -17,9 +17,9 @@ subfeature_v2:
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 417
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 77%
 
 ## Mettre à jour la base de données {#updating-the-database}
 
-Toutes les données collectées peuvent être utilisées pour mettre à jour la base de données ou dans des diffusions. Vous pouvez, par exemple, enrichir les possibilités de personnalisation du contenu des messages (inclure le nombre de contrats dans le message, indiquer le panier moyen pour l’année écoulée, etc.) ou un ciblage détaillé de la population (envoyer un message aux co-titulaires d’un contrat, cibler les 1 000 meilleurs abonnés aux services en ligne, etc.). Ces données peuvent également être exportées ou archivées dans une liste.
+Toutes les données collectées peuvent être utilisées pour mettre à jour la base de données ou dans des diffusions.Vous pouvez, par exemple, enrichir les possibilités de personnalisation du contenu des messages (inclure le nombre de contrats dans le message, indiquer le panier moyen pour l’année écoulée, etc.)ou cibler précisément une population (envoyer un message aux personnes co-titulaires d’un contrat, cibler les 1 000 meilleures personnes abonnées aux services en ligne, etc.).Ces données peuvent également être exportées ou archivées sous forme de liste.
 
 ### Listes et mises à jour directes {#lists-and-direct-updates}
 
@@ -37,7 +37,7 @@ Les données de la base Adobe Campaign et les listes existantes peuvent être m
 
 * L&#39;activité **[!UICONTROL Mise à jour de liste]** permet de stocker les tables de travail dans une liste de données.
 
-  Vous pouvez sélectionner une liste existante ou la créer. Dans ce cas, le nom et éventuellement le dossier d’enregistrement sont calculés.
+  Vous pouvez sélectionner une liste existante ou en créer-une.Dans ce cas, le nom et éventuellement le dossier d’enregistrement sont calculés.
 
   ![](assets/s_user_create_list.png)
 

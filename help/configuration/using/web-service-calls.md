@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 923
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 81%
 
 ## Informations générales {#general-information}
 
-Toutes les méthodes d’API sont présentées sous la forme de services web. Vous pouvez ainsi gérer toutes les fonctions d’Adobe Campaign via des appels SOAP, qui sont le point d’entrée natif du serveur d’applications Adobe Campaign. La console Adobe Campaign elle-même utilise uniquement les appels SOAP.
+Toutes les méthodes d’API sont présentées sous la forme de services web.Ainsi, il est possible de piloter l’intégralité des fonctionnalités d’Adobe Campaign au travers d’appels SOAP qui sont le point d’entrée natif du serveur d’application Adobe Campaign.La console Adobe Campaign elle-même utilise uniquement les appels SOAP.
 
 Les services Web permettent de créer, depuis un système tiers, de multiples applications :
 
@@ -57,13 +57,13 @@ Un service Web est décrit dans la grammaire des schémas de données et est dis
 
 Nous avons ici un exemple de définition de la méthode de nom **GenerateForm**.
 
-La description du service commence par l&#39;élément `<method>`. La liste des paramètres de la méthode est complétée à partir de l&#39;élément `<parameters>`. Chaque paramètre est spécifié par un nom, un type (booléen, chaîne, DOMElement, etc.) et une description. L&#39;attribut &quot;inout&quot; avec la valeur &quot;out&quot; permet de spécifier que le paramètre &quot;result&quot; est obtenu en sortie de l&#39;appel SOAP.
+La description du service commence par l&#39;élément `<method>`. La liste des paramètres de la méthode est complétée à partir de l&#39;élément `<parameters>`. Chaque paramètre est spécifié par un nom, un type (booléen, chaîne, DOMElement, etc.)et une description.L&#39;attribut &quot;inout&quot; avec la valeur &quot;out&quot; permet de spécifier que le paramètre &quot;result&quot; est obtenu en sortie de l&#39;appel SOAP.
 
 La présence de l&#39;attribut &quot;static&quot; (avec la valeur &quot;true&quot;) décrit cette méthode comme statique, ce qui signifie que tous les paramètres de la méthode doivent être déclarés.
 
 Une méthode de type &quot;const&quot; possède implicitement en entrée un document XML au format de son schéma associé.
 
-Une description complète de l&#39;élément `<method>` d&#39;un schéma Adobe Campaign figure dans la section [Méthode &#x200B;](../../configuration/using/schema/method.md) du chapitre « Référence des schémas ».
+Une description complète de l&#39;élément `<method>` d&#39;un schéma Adobe Campaign figure dans la section [Méthode ](../../configuration/using/schema/method.md) du chapitre « Référence des schémas ».
 
 Exemple de la méthode « ExecuteQuery » de type « const » à partir du schéma « xtk:queryDef » :
 
@@ -80,7 +80,7 @@ Le paramètre d’entrée de cette méthode est un document XML au format du sch
 
 ## Description des services Web : WSDL {#web-service-description--wsdl}
 
-Un fichier WSDL (Web Service Description Library) est disponible pour chaque service. Ce fichier XML utilise un méta-langage pour décrire le service et spécifier les méthodes disponibles, les paramètres et le serveur à contacter pour exécuter le service.
+Un fichier WSDL (Web Service Description Library) est disponible pour chaque service.Ce fichier XML décrit le service dans un méta-langage, il précise les méthodes disponibles, les paramètres et le serveur à contacter pour exécuter le service.
 
 ### Génération du fichier WSDL {#wsdl-file-generation}
 
@@ -201,11 +201,11 @@ Adobe Campaign a renforcé la sécurité des mécanismes d&#39;authentification
 
 Deux modes d&#39;authentification sont disponibles :
 
-* **via un appel à la méthode de connexion()**. Ce mode génère un jeton de session et un jeton de sécurité. Il s’agit du mode le plus sécurisé et donc le plus recommandé.
+* **via un appel à la connexion method()**.Ce mode génère un jeton de session et un jeton de sécurité.Il s’agit du mode le plus sécurisé et donc le plus recommandé.
 
 ou
 
-* **via login et mot de passe Adobe Campaign** qui crée un jeton de session. Le jeton de session expire automatiquement après une période définie. Ce mode n&#39;est pas recommandé et nécessite de réduire les paramètres de sécurité de l&#39;application pour certains paramètres de zone (allowUserPassword=« true » et sessionTokenOnly=« true »).
+* **via un identifiant et mot de passe Adobe Campaign** qui crée un jeton de session.Le jeton de session expire automatiquement après une période définie.Ce mode n’est pas recommandé et nécessite de réduire les paramètres de sécurité de l’application pour certains paramètres de zone (allowUserPassword=&quot;true&quot; et sessionTokenOnly=&quot;true&quot;).
 
 ### Caractéristiques du jeton de session {#session-token-characteristics}
 
@@ -227,7 +227,7 @@ Le jeton de sécurité possède les caractéristiques suivantes :
 * il est stocké dans la console Adobe Campaign
 * lors d&#39;un accès Web :
 
-   * il est stocké dans une propriété document.__securityToken
+   * il est stocké dans une propriété document.__securityToken.
    * les URL de la page sont mises à jour pour actualiser le jeton de sécurité
    * les formulaires sont également mises à jour via un champ caché contenant le jeton
 

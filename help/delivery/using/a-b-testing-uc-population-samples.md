@@ -18,9 +18,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: e739ee2b-6228-412e-878f-45de0791417d
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 206
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 82%
 
 ## Configurer l&#39;activité Partage {#configuring-the-split-activity}
 
-Cette activité permet de créer plusieurs populations : celle qui reçoit la diffusion A, celle qui reçoit la diffusion B et la population restante. L&#39;utilisation du tirage aléatoire permet de ne cibler qu&#39;une partie de la population de chaque diffusion.
+Cette activité permet de créer plusieurs populations : celle qui reçoit la diffusion A, celle qui reçoit la diffusion B et la population restante.D’autre part, l’utilisation du tirage aléatoire permet de ne cibler qu’une partie de la population de chacune des diffusions.
 
 1. Création de la population A :
 

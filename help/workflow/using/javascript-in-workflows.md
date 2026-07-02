@@ -18,9 +18,9 @@ subfeature_v2:
   - id: d1110311-2ca4-442b-be37-088a6db845ee
   - id: e739ee2b-6228-412e-878f-45de0791417d
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1832
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -636,4 +636,4 @@ Cette vidéo présente un exemple d’utilisation d’une méthode d’API non s
    * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=fr)
    * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=fr)
    * [Write](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html?lang=fr)
-* [fonction logInfo](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=fr)
+* [Fonction logInfo](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=fr)

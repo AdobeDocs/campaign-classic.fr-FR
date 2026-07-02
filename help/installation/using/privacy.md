@@ -21,9 +21,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 906
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Exemple :
 
 ### Signature d&#39;URL
 
-Pour améliorer la sécurité, un mécanisme de signature pour les liens de tracking dans les e-mails été ajouté. Il est disponible à partir des versions 19.1.4 (9032@3a9dc9c) et 20.2. Cette fonctionnalité est activée par défaut.
+Pour améliorer la sécurité, un mécanisme de signature pour les liens de tracking dans les e-mails été ajouté. Cette fonctionnalité est disponible à partir des versions 19.1.4 (9032@3a9dc9c) et 20.2.Cette fonctionnalité est activée par défaut.
 
 >[!NOTE]
 >
@@ -171,7 +171,7 @@ Pour ce faire, suivez les étapes ci-après :
 
 Nous conseillons fortement aux utilisateur(utilisatrice)s On-premise de protéger les pages pouvant contenir des informations personnelles (PI), telles que les pages miroir, les applications web, etc.
 
-L’objectif de cette procédure est d’empêcher l’indexation de ces pages, évitant ainsi un risque potentiel de sécurité. Voici quelques articles utiles :
+Cette procédure est destinée à empêcher l’indexation de ces pages et à éviter ainsi un risque de sécurité potentiel.Voici quelques articles utiles :
 
 * [https://developers.google.com/search/reference/robots_txt](https://developers.google.com/search/reference/robots_txt)
 * [https://developers.google.com/search/reference/robots_meta_tag](https://developers.google.com/search/reference/robots_meta_tag)
@@ -190,7 +190,7 @@ Pour protéger vos pages, procédez comme suit :
 
    Pour Apache, vous pouvez placer le fichier dans **/var/www/robots.txt** (Debian).
 
-1. Parfois, l’ajout d’un fichier **robots.txt** n’est pas suffisant en termes de sécurité. Par exemple, si un autre site web contient un lien vers votre page, il peut s’afficher dans un résultat de recherche.
+1. Parfois, l’ajout d’un fichier **robots.txt** ne suffit pas en termes de sécurité.Par exemple, si un autre site web contient un lien vers votre page, il peut apparaître dans un résultat de recherche.
 
    Outre le fichier **robots.txt**, il est conseillé d’ajouter un en-tête **X-Robots-Tag**. Vous pouvez le faire dans Apache ou IIS, ainsi que dans le fichier de configuration **serverConf.xml**.
 

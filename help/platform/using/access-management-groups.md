@@ -27,9 +27,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 620
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Les groupes d&#39;opérateurs par défaut sont les suivants :
 
 1. **[!UICONTROL Chargés d&#39;opération]**
 
-   Les opérateurs de ce groupe peuvent gérer les campagnes marketing : il permet d&#39;accéder aux objets liés aux opérations (plans, programmes, workflows, budgets, etc.) dans le cadre de **[!UICONTROL Campaign]** (module optionnel Adobe Campaign).
+   Les opérateurs et opératrices de ce groupe peuvent gérer les campagnes marketing : il vous permet d’accéder aux objets liés aux campagnes (plans, programmes, workflows, budgets, etc.)dans le cadre de **[!UICONTROL Campaign]** (module Adobe Campaign facultatif).
 
    Ce groupe contient les droits nommés suivants :
 
@@ -99,7 +99,7 @@ Les groupes d&#39;opérateurs par défaut sont les suivants :
 
 1. **[!UICONTROL Rédacteurs de contenu]**
 
-   Les opérateurs de ce groupe peuvent accéder aux dossiers Contenus, dans le cadre de la **[!UICONTROL Gestion de contenu]** (module optionnel d&#39;Adobe Campaign). Ce groupe n’accorde aucun droit supplémentaire.
+   Les opérateurs et opératrices de ce groupe peuvent accéder aux dossiers de contenu, dans le cadre de la **[!UICONTROL Gestion de contenu]** (module Adobe Campaign facultatif).Ce groupe n’accorde aucun droit supplémentaire.
 
 1. **[!UICONTROL Consultation des rapports]**
 
@@ -119,8 +119,8 @@ Les groupes d&#39;opérateurs par défaut sont les suivants :
 
 1. **[!UICONTROL Chargés d’offres]**
 
-   Les opérateurs de ce groupe peuvent créer et gérer des offres. Pour plus d’informations à ce sujet, consultez cette [page](../../interaction/using/operator-profiles.md).
-Ce groupe contient les droits nommés suivants :
+   Les opérateurs et opératrices de ce groupe peuvent créer et gérer des offres. Pour plus d’informations à ce sujet, consultez cette [page](../../interaction/using/operator-profiles.md).
+Ce groupe contient les droits nommés suivants :
 
    * **[!UICONTROL INSERTION DES DOSSIERS]** : dans l’arborescence d’Adobe Campaign (sous réserve d’un accès en écriture sur les branches concernées),
    * **[!UICONTROL ÉDITION DES DOSSIERS]** : droit de modifier les propriétés du dossier telles que le nom interne, le libellé, l’image associée, l’ordre des sous-dossiers, etc.

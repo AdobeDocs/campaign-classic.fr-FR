@@ -21,9 +21,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: tm+mt
-source-wordcount: 1375
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: 1365
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Les étapes de paramétrage sont présentés ci-après.
 
 ## 1er cas : créer/recycler une base {#case-1--creating-recycling-a-database}
 
-Les étapes de création d&#39;une base de données ou de recyclage d&#39;une base existante sont présentées ci-dessous. Certaines configurations dépendent du moteur de base de données utilisé :
+Les étapes pour créer une base de données ou recycler une base existante sont présentées ci-dessous.Certaines configurations dépendent du moteur de base de données utilisé :
 
 Ces étapes sont les suivantes :
 
@@ -209,8 +209,7 @@ Vous devez définir les paramètres suivants :
 
   >[!NOTE]
   >
-  >Assurez-vous que le nom du schéma et le nom d’utilisateur correspondent. La méthode recommandée pour créer une base de données est la console cliente de Campaign.
-  >Pour une base Oracle, il n&#39;est pas nécessaire de saisir le nom du compte.
+  >Assurez-vous que le nom du schéma et le nom d’utilisateur ou d’utilisatrice correspondent. La méthode recommandée pour créer une base de données consiste à utiliser la console cliente Campaign.  >Pour une base Oracle, il n&#39;est pas nécessaire de saisir le nom du compte.
 
 * Indiquez si la base doit être Unicode ou non.
 

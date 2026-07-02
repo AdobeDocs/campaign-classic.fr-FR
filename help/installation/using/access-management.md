@@ -15,9 +15,9 @@ topic_v2:
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 377
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -45,9 +45,9 @@ L’opérateur webApp par défaut est un administrateur. Pour améliorer la séc
 
 Créez suffisamment de groupes de sécurité afin de donner aux opérateurs des droits suffisants pour qu’ils puissent effectuer les opérations nécessaires (et pas davantage).
 
-N’utilisez pas l’opérateur admin (ou ne le partagez pas). Créez un opérateur par utilisateur physique (pour un audit/une journalisation précis). Ajoutez les administrateurs que vous venez de nommer au groupe d’administrateurs . Si vous n&#39;utilisez pas l&#39;opérateur admin, ne le supprimez pas et ne le désactivez pas : cet opérateur est utilisé en interne pour exécuter le traitement. Mais vous pouvez interdire son [accès à la console client](../../platform/using/access-management.md) et restreindre sa zone de sécurité (à localhost).
+N’utilisez pas l’opérateur admin (ou ne le partagez pas).Créez un opérateur par personne physique (pour un audit/un enregistrement précis).Ajoutez les administrateurs et administratrices que vous venez de nommer au groupe d’administrateurs et d’administratrices.Si vous n’utilisez pas l’opérateur admin, ne le supprimez pas et ne le désactivez pas : cet opérateur est utilisé en interne pour exécuter le traitement.Mais vous pouvez interdire son [accès à la console client](../../platform/using/access-management.md) et restreindre sa zone de sécurité (à localhost).
 
-Évitez d&#39;ajouter trop d&#39;opérateurs dans le groupe d&#39;administrateurs (ou avec des droits nommés d&#39;administrateur). Ce sont des opérateurs très puissants (ils peuvent effectuer toutes les instructions SQL, exécuter des commandes sur le serveur, etc.).
+Évitez d’ajouter trop d’opérateurs dans le groupe d’administrateurs et d’administratrices (ou avec des droits nommés d’administration).Il s’agit d’opérateurs très puissants (ils peuvent effectuer toutes les instructions SQL, exécuter des commandes sur le serveur et bien d’autres actions).
 
 Adobe Campaign propose trois privilèges de niveau supérieur par le biais des [droits nommés](../../platform/using/access-management.md#named-rights) :
 

@@ -16,9 +16,9 @@ feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 101
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 74%
 
 Ce chapitre décrit la gestion des environnements d&#39;offres dans Interaction.
 
-Plusieurs profils utilisateur différents sont impliqués dans la gestion et l’utilisation des offres. La première étape consiste donc à s’assurer que ces profils existent et, dans le cas contraire, à les créer.
+Plusieurs profils d’utilisation différents interviennent dans la gestion et l’utilisation des offres.La première étape consiste donc à s’assurer que ces profils existent ou, le cas échéant, à les créer.
 
 >[!IMPORTANT]
 >

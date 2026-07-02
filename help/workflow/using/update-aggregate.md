@@ -18,7 +18,7 @@ subfeature_v2:
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 127
-ht-degree: 40%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 40%
 
 
 
-Les agrégats sont définis au niveau d&#39;un cube, à des fins de reporting. Un onglet **[!UICONTROL Workflow]** est disponible lors de la configuration d’un agrégat.
+Les agrégats sont définis au niveau d’un cube, à des fins de création de rapports. Un onglet **[!UICONTROL Workflow]** est disponible lors de la configuration de l’agrégat.
 
-Les agrégats sont utiles pour manipuler de grands volumes de données. Elles sont mises à jour automatiquement en fonction des paramètres définis dans la zone de workflow dédiée, afin d’intégrer les données collectées le plus récemment dans les indicateurs
+Les agrégats sont utiles lorsque vous manipulez de grands volumes de données. Ils sont mis à jour automatiquement selon les paramètres définis dans la zone de workflow dédiée, afin d’intégrer les dernières données collectées dans les indicateurs.
 
 Les agrégats sont définis au niveau du cube, dans l&#39;onglet correspondant.
 
@@ -37,7 +37,7 @@ Les agrégats sont définis au niveau du cube, dans l&#39;onglet correspondant.
 
 L&#39;activité **[!UICONTROL Mise à jour d&#39;agrégat]** permet de choisir le mode de mise à jour à appliquer : complète ou partielle.
 
-Par défaut, une mise à jour complète est effectuée lors de chaque calcul. Pour activer une mise à jour partielle, sélectionnez l&#39;option correspondante et définissez les conditions de mise à jour.
+Par défaut, une mise à jour complète est exécutée lors de chaque calcul. Pour activer une mise à jour partielle, sélectionnez l’option correspondante et définissez les conditions de mise à jour.
 
 ![](assets/s_advuser_cube_agregate_05.png)
 

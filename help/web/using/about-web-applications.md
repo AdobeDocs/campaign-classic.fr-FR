@@ -25,9 +25,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 730
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 73%
 
 Adobe Campaign permet la création d’applications web dynamiques et interactives, composées de données issues de la base et dont le contenu est adapté en fonction des droits de l’utilisateur connecté.
 
-Vous pouvez créer des pages, telles qu&#39;un formulaire d&#39;édition sur un extranet, ou des formulaires de notification incluant des données de la base de données avec des tableaux, graphiques, formulaires de saisie, etc. Cette fonctionnalité vous permet de concevoir et de publier des pages web dans lesquelles les utilisateurs peuvent rechercher ou saisir des informations.
+Vous pouvez créer des pages, par exemple un formulaire d’édition sur un extranet ou des formulaires de notification incluant des données issues de la base de données avec des tables, des graphiques, des formulaires de saisie, etc. Cette fonctionnalité permet de concevoir et de publier des pages web, sur lesquelles les utilisateurs et utilisatrices pourront chercher ou saisir des informations.
 
 Il peut par exemple s’agir d’un formulaire d’inscription dont les données ont été pré-remplies avec les informations contenues dans la base Adobe Campaign, comme dans l’exemple ci-dessous :
 
@@ -64,10 +64,10 @@ Sous Adobe Campaign, les applications web permettent d’accéder aux fonctionn
 * Affichage conditionnel des champs du formulaire en fonction des réponses. Voir à ce propos [cette page](form-rendering.md#defining-fields-conditional-display).
 * Affichage aléatoire de questions. Voir à ce propos [cette page](../../surveys/using/building-a-survey.md#adding-questions).
 * Affichage conditionnel des pages. Voir à ce propos [cette page](defining-web-forms-page-sequencing.md#conditional-page-display).
-* Vérification des informations avant validation en fonction du type de données attendu (numéro, adresse e-mail, date, etc.) et les champs obligatoires. Pour en savoir plus à ce sujet, consultez cette [page](form-rendering.md#defining-control-settings).
+* Vérification des informations avant validation en fonction du type de données attendu (numéro, adresse e-mail, date, etc.)et des champs obligatoires.Pour en savoir plus à ce sujet, consultez cette [page](form-rendering.md#defining-control-settings).
 * Invitations ou notifications par e-mail. Voir à ce propos [cette page](publishing-a-web-form.md#delivering-a-form-via-email).
 * Personnalisation des messages d’erreur et de fin. Voir à ce propos [cette page](defining-web-forms-properties.md#setting-up-an-error-page).
-* Utilisation d&#39;images, vidéos, liens hypertextes, captcha, etc. Voir à ce propos cette [page](editing-content.md).
+* Utilisation d’images, vidéos, liens hypertextes, captcha, etc. Pour davantage d’informations à ce sujet, consultez cette [page](editing-content.md).
 * Suivi des réponses en temps réel. Voir à ce propos [cette page](../../surveys/using/publish-track-and-use-collected-data.md#response-tracking).
 
 Le module de création **Questionnaire** optionnel offre les fonctionnalités additionnelles suivantes :
@@ -98,10 +98,10 @@ Pour créer et rendre disponible une application web, vous devez :
 
 Les application web sont créées à partir du lien **[!UICONTROL Applications web]** dans les onglets **[!UICONTROL Campagne]** et **[!UICONTROL Profils et cibles]**.
 
-Les applications web sont stockées dans le nœud **[!UICONTROL Ressources > En ligne > Applications Web]** de l&#39;arborescence Adobe Campaign. Les configurations sont réparties dans les dossiers suivants :
+Les applications web sont stockées dans le nœud **[!UICONTROL Ressources > En ligne > Applications web]** de l’arborescence Adobe Campaign.Les configurations sont réparties dans les dossiers suivants :
 
-* **[!UICONTROL Administration > Paramétrage > Rendus des formulaires]** : contient les modèles de rendu pour la présentation des formulaires Web (applications et questionnaires). Le modèle permet de générer le formulaire. Il utilise également une feuille de style CSS. Cette feuille de style peut être surchargée au niveau du modèle. Pour plus d’informations, consultez [cette page](form-rendering.md#selecting-the-form-rendering-template).
-* **[!UICONTROL Ressources > Modèles > Modèles d’application web]** : contient des modèles de formulaire. Pour créer un formulaire ou une application Web, vous devez partir d&#39;un modèle.
+* **[!UICONTROL Administration > Configuration > Rendus des formulaires]** : contient les modèles de rendu pour la présentation des formulaires web (applications et questionnaires).Le modèle permet de générer le formulaire.Il utilise également une feuille de style CSS.Cette feuille de style peut être surchargée au niveau du modèle.Pour plus d’informations, consultez [cette page](form-rendering.md#selecting-the-form-rendering-template).
+* **[!UICONTROL Ressources > Modèles > Modèles d’application web]** : contient des modèles de formulaire.Pour créer un formulaire ou une application web, vous devez partir d’un modèle.
 
 ## Modèles d’applications web {#web-application-templates}
 
@@ -109,7 +109,7 @@ Par défaut, Adobe Campaign fournit un modèle par type d’application web dis
 
 >[!NOTE]
 >
->Vous pouvez convertir une application web existante en modèle. Pour ce faire, sélectionnez le formulaire et cliquez avec le bouton droit de la souris. Choisissez **[!UICONTROL Actions > Sauver comme modèle]**.
+>Vous pouvez convertir une application web existante en modèle.Pour cela, sélectionnez le formulaire et effectuez un clic droit.Choisissez **[!UICONTROL Actions > Sauver comme modèle]**.
 
 Vous pouvez créer des modèles à partir du nœud **[!UICONTROL Ressources > Modèles > Modèles d’applications web]** de l’arborescence Adobe Campaign.
 
@@ -119,4 +119,4 @@ L’assistant de création vous permet de sélectionner les options à activer, 
 
 >[!CAUTION]
 >
->Les applications disponibles dépendent de vos options et modules. Veuillez vérifier votre accord de licence.
+>Les applications disponibles dépendent de vos options et modules.Veuillez vérifier votre accord de licence.

@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 509
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Pour cela, les étapes sont les suivantes :
 
    Pour plus d’informations, reportez-vous au chapitre [Référence des schémas (xtk:srcSchema)](../../configuration/using/about-schema-reference.md).
 
-   Dans notre exemple, nous allons créer un schéma des clients, une table très simple contenant les champs suivants : identifiant, prénom, nom, adresse e-mail, numéro de téléphone mobile. L’objectif est de pouvoir envoyer des alertes par e-mail ou SMS aux individus stockés dans cette table.
+   Dans notre exemple, nous allons créer un schéma clientèle, une table très simple contenant les champs suivants : ID, prénom, nom, adresse e-mail, numéro de téléphone mobile.L’objectif est de pouvoir envoyer des alertes par e-mail ou SMS aux personnes stockées dans cette table.
 
    Schéma d’exemple (cus:individual)
 

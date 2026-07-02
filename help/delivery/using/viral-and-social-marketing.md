@@ -21,9 +21,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 622
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Vous pouvez ainsi permettre aux personnes destinataires de vos diffusions, ou en
 
 >[!CAUTION]
 >
->Pour que les liens ajoutés fonctionnent correctement, la page miroir correspondante doit être disponible. Pour ce faire, incluez le lien vers la page miroir dans la diffusion.
+>Pour que les liens ajoutés fonctionnent correctement, la page miroir correspondante doit être disponible.Pour cela, incluez dans la diffusion le lien vers la page miroir.
 
 ## Réseaux sociaux : partager un lien {#social-networks--sharing-a-link}
 
@@ -47,7 +47,7 @@ Pour permettre aux destinataires de vos diffusions de partager le contenu des me
 
 >[!NOTE]
 >
->Par défaut, ce lien n&#39;est pas proposé dans la liste des blocs. Pour y accéder, cliquez sur **[!UICONTROL Autre...]**, puis sélectionnez le bloc **[!UICONTROL Liens de partage vers les réseaux sociaux]**.
+>Par défaut, ce lien n’est pas proposé dans la liste des blocs.Vous pouvez y accéder en cliquant sur **[!UICONTROL Autre…]** et en sélectionnant le bloc **[!UICONTROL Liens de partage vers réseaux sociaux]**.
 
 ![](assets/s_ncs_user_viral_add_link_via_others.png)
 
@@ -55,15 +55,15 @@ Le rendu sera le suivant :
 
 ![](assets/s_ncs_user_viral_add_link_rendering.png)
 
-Lorsque le destinataire clique sur l&#39;icône d&#39;un des réseaux sociaux affichés, il est automatiquement redirigé vers son compte et peut partager le contenu du message via un lien. Cela permet aux membres de leur réseau d’accéder à la communication.
+Lorsque la personne destinataire clique sur l’icône d’un des réseaux sociaux affichés, elle est automatiquement redirigée vers son compte et peut partager le contenu du message à l’aide d’un lien.Les membres de son réseau pourront ainsi accéder à la communication.
 
 >[!NOTE]
 >
->Ce bloc de personnalisation contient tous les liens (envoi et partage de messages sur tous les réseaux sociaux). Il peut être modifié pour répondre à vos besoins. Toutefois, la configuration est réservée aux utilisateurs avancés. Pour cela, éditez le bloc de personnalisation correspondant accessible à partir du noeud **[!UICONTROL Ressources > Gestion de campagne > Blocs de personnalisation]** de l&#39;arborescence Adobe Campaign.
+>Ce bloc de personnalisation contient tous les liens (envoi et partage de messages sur tous les réseaux sociaux).Il peut être modifié pour répondre à vos besoins.Toutefois, la configuration est réservée aux utilisateurs et utilisatrices avancés.Pour cela, éditez le bloc de personnalisation correspondant accessible à partir du noeud **[!UICONTROL Ressources > Gestion de campagne > Blocs de personnalisation]** de l&#39;arborescence Adobe Campaign.
 
 ## Marketing viral : transférer à un ami {#viral-marketing--forward-to-a-friend}
 
-Un service viral permet de mettre en place des actions de type parrainage : ces actions permettent de transférer un message à un ami. Le profil du ou des filleuls est stocké temporairement dans la base de données (dans une table dédiée). Les messages transférés comprennent un lien auquel le filleul ou la filleule peut s’abonner : s’ils le font, ils seront ajoutés à la base de données Adobe Campaign.
+Un service viral permet de mettre en place des actions de type parrainage : ces actions permettent de transférer un message à un ami ou une amie.Le profil du filleul ou de la filleule est stocké temporairement dans la base de données (dans une table dédiée).Les messages transférés comprennent un lien auquel la personne filleule peut s’abonner : si elle le fait, elle sera ajoutée à la base de données Adobe Campaign.
 
 Pour permettre le transfert d&#39;un message, le principe est le même que pour le lien vers les réseaux sociaux.
 
@@ -86,7 +86,7 @@ Les étapes sont les suivantes :
    >
    >Vous pouvez également modifier le formulaire de transfert du message proposé au parrain. Pour cela, vous devez modifier l&#39;application Web **Formulaire de partage** stockée dans le noeud **[!UICONTROL Ressources > On-line > Applications Web]** de l&#39;arborescence.
 
-1. Dans le message transféré, un lien permet au filleul d&#39;enregistrer son profil dans la base de données. Un formulaire de saisie est fourni à cet effet.
+1. Dans le message transféré, un lien permet au filleul ou à la filleule d’enregistrer son profil dans la base de données.Un formulaire de saisie est fourni à cet effet.
 
    ![](assets/s_ncs_user_viral_create_account_form.png)
 
@@ -102,7 +102,7 @@ Les étapes sont les suivantes :
 
 ## Tracking du partage vers les réseaux sociaux {#tracking-social-network-sharing}
 
-Le partage et l’accès aux informations partagées sont suivis. Ces informations collectées par Adobe Campaign sont accessibles à deux endroits :
+Le partage et l’accès aux informations partagées font l’objet d’un suivi.Ces informations sont collectées par Adobe Campaign sont accessibles à deux endroits :
 
 * Dans l&#39;onglet **[!UICONTROL Tracking]** de la diffusion (ou unitairement au niveau d&#39;un destinataire):
 

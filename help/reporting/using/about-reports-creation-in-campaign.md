@@ -20,9 +20,9 @@ subfeature_v2:
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 179
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 82%
 
 
 
-Pour produire des statistiques sur les données de votre base de données Campaign, vous pouvez créer des rapports et adapter leur contenu ainsi que leur mise en page en fonction de vos besoins. Ces rapports peuvent être partagés avec d&#39;autres opérateurs.
+Afin de produire des statistiques sur les données de la base de données de Campaign, vous pouvez créer des rapports et adapter leur contenu et leur mise en page en fonction de vos besoins.Ces rapports peuvent être partagés ou non avec d’autres opérateurs.
 
 >[!NOTE]
 >

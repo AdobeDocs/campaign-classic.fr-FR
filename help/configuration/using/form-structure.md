@@ -18,9 +18,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2425
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -81,7 +81,7 @@ Par défaut, chaque champ est affiché sur une seule ligne et occupe tout l&#39;
 
 ## Mise en forme {#formatting}
 
-La disposition des contrôles est similaire à celle utilisée dans les tableaux HTML, avec la possibilité de diviser un contrôle en plusieurs colonnes, d&#39;entrelacer des éléments, ou de spécifier l&#39;occupation de l&#39;espace disponible. Toutefois, n&#39;oubliez pas que la mise en forme permet uniquement de diviser la zone par proportions ; vous ne pouvez pas spécifier de cotes fixes pour un objet.
+La disposition des contrôles ressemble à celle utilisée dans les tableaux HTML, avec la possibilité de diviser un contrôle en plusieurs colonnes, d’entrelacer des éléments ou de spécifier l’occupation de l’espace disponible.N’oubliez toutefois pas que la mise en forme permet uniquement de diviser la zone par proportions ; vous ne pouvez pas spécifier des dimensions fixes pour un objet.
 
 Pour afficher les contrôles de l&#39;exemple précédent sur deux colonnes :
 
@@ -198,7 +198,7 @@ Le conteneur principal est défini par l’attribut **type=&quot;notebook&quot;*
 
 >[!NOTE]
 >
->Une fonction **style=« down|up**(par défaut)**«** force le positionnement vertical des libellés d’onglet au-dessous ou au-dessus du contrôle. Cette fonctionnalité est facultative.
+>Une propriété **style=&quot;down|up**(by default)**&quot;** force le positionnement vertical des libellés des onglets en bas ou en haut du contrôle. Cette propriété est optionnelle.
 >`<container style="down" type="notebook">  … </container>`
 
 #### Liste à icônes {#icon-list}
@@ -220,7 +220,7 @@ Ce conteneur affiche une barre d&#39;icônes verticale permettant de sélectionn
 </container>
 ```
 
-Le conteneur principal est défini par l’attribut **type=« iconbox »** . Les pages associées aux icônes sont déclarées dans les conteneurs enfants. Le libellé des icônes est renseigné à partir de l’attribut **label**.
+Le conteneur principal est défini par l’attribut **type=&quot;iconbox&quot;**.Les pages associées aux icônes sont déclarées dans les conteneurs enfants.Le libellé des icônes est renseigné à partir de l’attribut **label**.
 
 L’icône d’une page est renseignée à partir de l’attribut `img="<image>"`, où `<image>` est le nom de l’image correspondant à sa clé construite avec le nom et l’espace de noms (par exemple « xtk:properties.png »).
 
@@ -246,12 +246,12 @@ Un conteneur de visibilité est défini par l’attribut **type=&quot;visibleGro
 Exemples de syntaxes de conditions :
 
 * **visibleIf=&quot;@email=&#39;peter.martinezATneeolane.net&#39;&quot;** : teste l&#39;égalité sur les données de type chaîne. La valeur de comparaison doit être entre guillemets.
-* **visibleIf=« @gender >= 1 et @gender != 2 »** : condition sur une valeur numérique.
+* **visibleIf=&quot;@gender >= 1 and @gender != 2&quot;** : condition sur une valeur numérique.
 * **visibleIf=&quot;@boolean1=true or @boolean2=false&quot;** : test sur des champs booléens.
 
 #### Conteneur d&#39;activation {#enabling-container}
 
-Ce conteneur permet d’activer ou de désactiver un ensemble de données à partir d’une condition dynamique. La désactivation d&#39;un contrôle empêche sa modification. L&#39;exemple suivant illustre l&#39;activation des contrôles à partir de la valeur du champ « Genre » :
+Ce conteneur vous permet d’activer ou de désactiver un ensemble de données à partir d’une condition dynamique.La désactivation d’un contrôle empêche sa modification.L’exemple ci-dessous illustre l’activation des contrôles à partir de la valeur du champ « Gender » :
 
 ```xml
 <container type="enabledGroup" enabledIf="@gender=1">
@@ -280,7 +280,7 @@ Le contrôle d&#39;édition du lien dans son formulaire de saisie est :
 <input xpath="company"/>
 ```
 
-La sélection de la cible est accessible à partir du champ d&#39;édition. La saisie semi-automatique facilite la recherche d’un élément cible à partir des premiers caractères saisis. La recherche est ensuite basée sur l’élément **Compute string** défini dans le schéma ciblé. Si le schéma n’existe pas après validation dans le contrôle, un message de confirmation de création de la cible à la volée s’affiche. La confirmation crée un nouvel enregistrement dans le tableau cible et l’associe au lien.
+La sélection de la cible est possible à partir du champ d’édition.L’entrée est facilitée par la saisie semi-automatique, de sorte qu’un élément cible puisse être facilement retrouvé à partir des premiers caractères saisis.La recherche est ensuite basée sur l’élément **Compute string** défini dans le schéma ciblé. Si le schéma n’existe pas après validation dans le contrôle, un message de confirmation de création de la cible à la volée s’affiche. La confirmation crée un nouvel enregistrement dans le tableau cible et l’associe au lien.
 
 Une liste déroulante permet de sélectionner un élément de la cible parmi la liste des enregistrements déjà créés.
 
@@ -288,7 +288,7 @@ L&#39;icône **[!UICONTROL Modifier le lien]** (dossier) lance une forme de sél
 
 ![](assets/d_ncs_integration_form_exemple10.png)
 
-L&#39;icône **[!UICONTROL Editer le lien]** (loupe) lance la forme d&#39;édition de l&#39;élément lié. Le formulaire utilisé est déduit par défaut sur la clé du schéma ciblé. L’attribut **form** permet d’imposer le nom du formulaire d’édition (par exemple, « cus:company2 »).
+L’icône **[!UICONTROL Modifier le lien]** (loupe) lance le formulaire d’édition de l’élément lié.Le formulaire utilisé est déduit par défaut de la clé du schéma ciblé.L’attribut **form** permet d’imposer le nom du formulaire d’édition (par exemple, « cus:company2 »).
 
 Vous pouvez restreindre le choix des éléments de la cible en ajoutant l’élément **`<sysfilter>`** à partir de la définition du lien dans le formulaire de saisie :
 
@@ -313,11 +313,11 @@ Vous pouvez aussi trier la liste avec l&#39;élément **`<orderby>`** :
 ### Propriétés du contrôle {#control-properties}
 
 * **noAutoComplete** : désactive l&#39;auto-complétion (avec la valeur &quot;true&quot;)
-* **createMode** : crée le lien à la volée s&#39;il n&#39;existe pas. Les valeurs possibles sont les suivantes :
+* **createMode** : crée le lien à la volée s’il n’existe pas.Les valeurs possibles sont les suivantes :
 
-   * **none** : désactive la création. Un message d’erreur s’affiche si le lien n’existe pas
+   * **none** : désactive la création.Un message d’erreur s’affiche si le lien n’existe pas.
    * **inline** : crée le lien avec le contenu dans la zone d&#39;édition
-   * **edition** : affiche la forme d&#39;édition sur le lien. Lorsque le formulaire est validé, les données sont enregistrées (mode par défaut)
+   * **edition** : affiche le formulaire d’édition sur le lien.Lorsque le formulaire est validé, les données sont enregistrées (mode par défaut).
 
 * **noZoom** : pas de forme d&#39;édition sur le lien (avec la valeur &quot;true&quot;)
 * **form** : surcharge la forme d&#39;édition de l&#39;élément ciblé
@@ -347,7 +347,7 @@ La liste dans son formulaire de saisie :
 </input>
 ```
 
-Le contrôle de liste est défini par l&#39;attribut **type=« linklist »**. Le chemin d’accès à la liste doit faire référence au lien de collection.
+Le contrôle de liste est défini par l’attribut **type=&quot;linklist&quot;**.Le chemin de la liste doit faire référence au lien de collection.
 
 Les colonnes sont déclarées via les éléments **`<input>`** fils de la liste. L&#39;attribut **xpath** fait référence au chemin du champ dans le schéma cible.
 
@@ -355,7 +355,7 @@ Une barre d&#39;outils avec un libellé (défini sur le lien dans le schéma) es
 
 La liste peut être filtrée à partir du bouton **[!UICONTROL Filtres]** et configurée pour ajouter et trier les colonnes.
 
-Les boutons **[!UICONTROL Ajouter]** et **[!UICONTROL Supprimer]** permettent d&#39;ajouter et de supprimer des éléments de collection sur le lien. Par défaut, l’ajout d’un élément lance la forme d’édition du schéma cible.
+Les boutons **[!UICONTROL Ajouter]** et **[!UICONTROL Supprimer]** vous permettent d’ajouter et de supprimer des éléments de collection sur le lien.Par défaut, l’ajout d’un élément lance le formulaire d’édition du schéma cible.
 
 Le bouton **[!UICONTROL Détail]** est automatiquement ajouté lorsque l&#39;attribut **zoom=&quot;true&quot;** est renseigné sur la balise **`<input>`** de la liste : il permet de lancer la forme d&#39;édition de la ligne sélectionnée.
 
@@ -376,7 +376,7 @@ Un filtre et un tri peuvent être appliqués lors du chargement de la liste :
 
 ### Table de relation {#relationship-table}
 
-Une table de relation permet de lier deux tables avec une cardinalité N-N. La table de relation contient uniquement les liens vers les deux tables.
+Une table de relation vous permet de lier deux tables avec une cardinalité N-N.La table de relation contient uniquement les liens vers les deux tables.
 
 L&#39;ajout d&#39;un élément dans la liste doit donc permettre de renseigner une liste à partir d&#39;un des deux liens de la table de relation.
 
@@ -400,7 +400,7 @@ Pour notre exemple, nous partirons du formulaire de saisie du schéma « cus:re
 </input>
 ```
 
-L&#39;attribut **xpathChoiceTarget** permet de lancer un formulaire de sélection à partir du lien renseigné. La création de l&#39;enregistrement de la table de relation met automatiquement à jour le lien vers le destinataire actuel et le service sélectionné.
+L’attribut **xpathChoiceTarget** vous permet de lancer un formulaire de sélection à partir du lien saisi.La création de l’enregistrement de la table de relation mettra automatiquement à jour le lien sur la personne destinataire actuelle et le service sélectionné.
 
 >[!NOTE]
 >
@@ -419,7 +419,7 @@ L&#39;attribut **xpathChoiceTarget** permet de lancer un formulaire de sélectio
 
 ## Contrôles liste mémoire {#memory-list-controls}
 
-Les listes de mémoire permettent de modifier les éléments de collection à l&#39;aide du préchargement des données de liste. Cette liste ne peut pas être filtrée ni configurée.
+Les listes de mémoire vous permettent de modifier les éléments de collection avec le préchargement des données de la liste.Cette liste ne peut pas être filtrée ni configurée.
 
 Ces listes sont utilisées sur les éléments de collections mappés en XML ou sur les liens à faible volume.
 
@@ -521,7 +521,7 @@ Exemple sur le champ &quot;Genre&quot; :
 
 ## Case à cocher {#checkbox}
 
-Une case à cocher reflète un état booléen (sélectionné ou non). Par défaut, ce contrôle est utilisé par les champs de type « booléen » (true/false). Une variable prenant une valeur par défaut de 0 ou 1 peut être associée à ce bouton. Cette valeur peut être surchargée à partir de l’attribut **checkValue**.
+Une case à cocher reflète un état booléen (sélectionné ou non).Par défaut, ce contrôle est utilisé par les champs de type « booléen » (true/false).Une variable prenant une valeur par défaut de 0 ou 1 peut être associée à ce bouton.Cette valeur peut être surchargée à partir de l’attribut **checkValue**.
 
 ```xml
 <input xpath="@boolean1"/>
@@ -567,7 +567,7 @@ Un champ d’expression permet de mettre à jour dynamiquement un champ à parti
 
 ## Contexte des formes {#context-of-forms}
 
-L&#39;exécution d&#39;un formulaire de saisie initialise un document XML contenant les données de l&#39;entité en cours d&#39;édition. Ce document représente le contexte du formulaire et peut être utilisé comme espace de travail.
+L’exécution d’un formulaire de saisie initialise un document XML contenant les données de l’entité en cours d’édition.Ce document représente le contexte du formulaire et peut être utilisé comme espace de travail.
 
 ### Mise à jour du contexte {#updating-the-context}
 
@@ -664,7 +664,7 @@ Le nom du service et son schéma d&#39;implémentation sont renseignés à parti
 
 Les paramètres en entrée sont décrits sur les éléments **`<param>`** sous la balise **`<soapcall>`**.
 
-Le type du paramètre doit être spécifié à partir de l&#39;attribut **type**. Les types possibles sont les suivants :
+Le type du paramètre doit être spécifié à l’aide de l’attribut **type**.Les types possibles sont les suivants :
 
 * **string** : chaîne de caractères
 * **boolean** : booléen

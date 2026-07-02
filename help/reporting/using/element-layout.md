@@ -17,9 +17,9 @@ subfeature_v2:
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 442
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ En complément des variantes du graphique disponibles, [présentées ici](../../
 
 Vous pouvez utiliser les conteneurs : ils permettent de regrouper plusieurs éléments d&#39;une page et d&#39;en paramétrer la mise en page en colonnes et/ou en cellules. Leur utilisation est présentée dans [cette section](../../web/using/defining-web-forms-layout.md#creating-containers).
 
-Vous pouvez configurer la mise en page du rapport à la racine de l&#39;arborescence et la surcharger pour chaque conteneur. Les pages sont triées en colonnes. Les conteneurs sont également triés en colonnes. Seuls les éléments statiques et graphiques sont triés dans des cellules.
+Vous pouvez configurer la mise en page du rapport à la racine de l’arborescence et la surcharger pour chaque conteneur.Les pages sont triées en colonnes.Les conteneurs sont également triés en colonnes.Seuls les éléments statiques et graphiques sont triés dans des cellules.
 
 ## Définition des options de chaque page {#defining-the-options-for-each-page}
 
@@ -73,4 +73,4 @@ Puis insérer ces identifiants dans les contenus HTML du rapport :
 
 Ils seront remplacés automatiquement à l&#39;affichage du rapport par le contenu correspondant.
 
-Ce mode de fonctionnement permet, comme pour les textes HTML, de centraliser les textes utilisés dans le rapport et d’en gérer les traductions. Les textes créés dans cet onglet sont collectés automatiquement par l&#39;outil de traduction intégré d&#39;Adobe Campaign.
+Ce mode de fonctionnement permet, comme pour les textes HTML, de centraliser les textes utilisés dans le rapport et d’en gérer les traductions.En effet, les textes créés dans cet onglet sont collectés automatiquement dans l’outil de traduction intégré d’Adobe Campaign.

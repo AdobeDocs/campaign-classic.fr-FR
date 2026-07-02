@@ -22,9 +22,9 @@ subfeature_v2:
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
   - id: efa38731-2723-4334-8d8b-a778af834835
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1178
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 84%
 
 Lors de la gestion de fichiers et de données à des fins d’ETL, ces fichiers sont stockés sur un serveur SFTP hébergé, fourni par Adobe. Veillez à suivre les recommandations ci-dessous lors de l’utilisation de serveurs SFTP.
 
-* Utilisez l’authentification par clé plutôt que l’authentification par mot de passe, afin d’éviter l’expiration du mot de passe (les mots de passe ont une période de validité de 90 jours). De plus, l’authentification par clé permet de générer plusieurs clés, par exemple lors de la gestion de plusieurs entités. Au contraire, l’authentification par mot de passe nécessite de partager le mot de passe avec toutes les entités que vous gérez.
+* Utilisez l’authentification par clé plutôt que par mot de passe, afin d’éviter l’expiration du mot de passe (les mots de passe ont une période de validité de 90 jours).De plus, l’authentification par clé permet de générer plusieurs clés, par exemple lors de la gestion de plusieurs entités.Au contraire, l’authentification par mot de passe nécessite de partager le mot de passe avec toutes les entités que vous gérez.
 
   Le format de clé pris en charge est SSH-2 RSA 2048. L’outil de génération de clés SSH est PuTTYgen pour Windows et ssh-keygen pour Linux. Vous pouvez charger des clés SSH publiques via le panneau de contrôle de Campaign. [En savoir plus](https://experienceleague.adobe.com/fr/docs/control-panel/using/sftp-management/key-management){target="_blank"}
 
@@ -42,7 +42,7 @@ Lors de la gestion de fichiers et de données à des fins d’ETL, ces fichiers 
 
 * Gérez les erreurs/exceptions.
 
-* Par défaut, tous les dossiers que vous créez sont en mode lecture/écriture pour votre identifiant uniquement. Lors de la création de dossiers auxquels Campaign doit accéder, veillez à les configurer avec des droits en lecture/écriture pour l&#39;ensemble du groupe. Dans le cas contraire, il se peut que les workflows ne puissent pas créer/supprimer de fichiers, car ils sont exécutés avec un identifiant différent au sein du même groupe, et ce pour des raisons de sécurité.
+* Par défaut, tous les dossiers que vous créez sont en mode lecture/écriture pour votre identifiant uniquement.Lorsque vous créez des dossiers auxquels Campaign doit accéder, veillez à les configurer avec des droits en lecture/écriture pour l’ensemble du groupe.Dans le cas contraire, il se peut que les workflows ne puissent pas créer/supprimer de fichiers, car ils sont exécutés avec un identifiant différent au sein du même groupe, et ce pour des raisons de sécurité.
 
 * Les adresses IP publiques à partir desquelles vous tentez d&#39;établir la connexion SFTP doivent être ajoutées à la liste autorisée sur l&#39;instance Campaign. Les adresses IP publiques peuvent être ajoutées via le panneau de contrôle. [En savoir plus](https://experienceleague.adobe.com/fr/docs/control-panel/using/sftp-management/ip-range-allow-listing){target="_blank"}
 
@@ -62,7 +62,7 @@ Pour éviter ces problèmes, Adobe recommande de suivre les bonnes pratiques ci-
 >
 >* Notez que votre instance doit être mise à niveau avec la [dernière build GA](../../rn/using/rn-overview.md). Découvrez comment vérifier votre version dans [cette section](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version){target="_blank"}.
 
-* Les fonctionnalités de taille du serveur varient en fonction de votre licence. Dans tous les cas, conservez les données minimales possibles et ne conservez les données que le temps nécessaire (15 jours est le délai maximum).
+* La taille du serveur varie en fonction de votre licence.Dans tous les cas, conservez le minimum de données possible et uniquement pendant le temps nécessaire (15 jours est la durée maximale).
 
 * Utilisez des workflows pour supprimer correctement les données (gérez la conservation depuis les workflows utilisant les données).
 
@@ -98,7 +98,7 @@ La section ci-après indique les informations à vérifier et à fournir à l’
 
    Dans tous les cas, indiquez la réponse de la commande dans le ticket de support.
 
-1. Vérifiez si le port de sortie 22 est ouvert sur le site à partir duquel vous essayez d’initier la connexion SFTP. Pour cela, utilisez la commande suivante :
+1. Vérifiez si le port 22 sortant est ouvert sur le site à partir duquel vous essayez d’initialiser la connexion SFTP.Pour cela, utilisez la commande suivante :
 
    ```xml
    bash-3.2$ nc -vz <SFTP_URL> 22

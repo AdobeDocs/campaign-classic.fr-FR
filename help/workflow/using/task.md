@@ -16,7 +16,7 @@ subfeature_v2:
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 105
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -36,5 +36,5 @@ La configuration et le fonctionnement d’une tâche sont présentés dans la [d
 
 ![](assets/wkf_task_activity.png)
 
-L&#39;option **[!UICONTROL Ressources]** permet de définir plusieurs opérateurs et opératrices ainsi qu&#39;un planning de validation de la tâche. Le rejet par la personne validante n’entraîne pas le rejet de la tâche elle-même.
+L’option **[!UICONTROL Ressources]** permet de définir plusieurs opérateurs ainsi qu’un planning de validation de la tâche. Le rejet par la personne chargée de la validation n’entraîne pas le rejet de la tâche elle-même.
 

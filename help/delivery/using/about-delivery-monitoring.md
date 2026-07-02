@@ -24,9 +24,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 906
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -46,11 +46,11 @@ ht-degree: 97%
 
 Que faire si les diffusions ne sont pas envoyées et restent dans un état **En attente** ?
 
-* Le processus d&#39;exécution attend la disponibilité de certaines ressources. Le MTA n&#39;a peut-être pas été démarré.
-Vérifiez que vos modules mta@instance sont lancés sur vos serveurs MTA et démarrez le module MTA si nécessaire. [En savoir plus](../../production/using/administration.md).
+* Le processus d’exécution attend que certaines ressources soient disponibles. Le MTA n’a peut-être pas été démarré.
+Vérifiez que vos modules mta@instance ont été lancés sur vos serveurs MTA et démarrez le module MTA si nécessaire. [En savoir plus](../../production/using/administration.md).
 
-* La diffusion peut utiliser une affinité qui n&#39;a pas été configurée sur l&#39;instance d&#39;envoi.
-Conseil : vérifiez la configuration relative à la gestion du trafic (affinité IP). Pour plus d&#39;informations, consultez la section Contrôle du trafic SMTP sortant.
+* La diffusion utilise peut-être une affinité qui n’a pas été configurée sur l’instance d’envoi.
+Conseil : vérifiez la configuration relative à la gestion du trafic (affinité IP). Pour plus d’informations, consultez la section Contrôle du trafic SMTP sortant.
 
 >[!NOTE]
 >

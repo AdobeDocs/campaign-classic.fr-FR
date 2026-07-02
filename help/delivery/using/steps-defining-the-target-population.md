@@ -21,9 +21,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1912
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -66,7 +66,7 @@ Pour sélectionner les destinataires d’une diffusion, procédez comme suit :
 
      ![](assets/s_ncs_user_wizard_email02c.png)
 
-   * **[!UICONTROL Destinataires d&#39;une diffusion]** : cette option permet de définir les destinataires d&#39;une diffusion existante comme critère de ciblage. Vous devez ensuite sélectionner la diffusion dans la liste.
+   * **[!UICONTROL Destinataires d’une diffusion]** : cette option vous permet de définir comme critère de ciblage les personnes destinataires d’une diffusion existante.Vous devez ensuite sélectionner la diffusion dans la liste.
 
      ![](assets/s_ncs_user_wizard_email02d.png)
 
@@ -86,20 +86,20 @@ Pour sélectionner les destinataires d’une diffusion, procédez comme suit :
    * **[!UICONTROL Un destinataire]** : cette option permet de sélectionner un destinataire spécifique parmi les profils de la base.
    * **[!UICONTROL Une liste de destinataires]** : cette option permet de cibler une liste de destinataires. Les listes sont présentées dans [cette section](../../platform/using/creating-and-managing-lists.md).
    * **[!UICONTROL Filtres utilisateurs]** : cette option permet d&#39;accéder aux filtres préconfigurés disponibles afin de les utiliser comme critères de filtrage des profils de la base. Pour plus d’informations sur les filtres, consultez la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-filters){target=_blank}.
-   * L&#39;option **[!UICONTROL Exclure les destinataires correspondant à ce segment]** permet de cibler des destinataires qui ne répondent pas aux critères de ciblage définis. Pour utiliser cette option, cochez la case correspondante puis opérez un ciblage, comme défini précédemment, pour exclure les profils en résultant.
+   * L’option **[!UICONTROL Exclure les destinataires correspondant à ce segment]** vous permet de cibler les personnes destinataires ne répondant pas aux critères de ciblage définis.Pour utiliser cette option, cochez la case correspondante puis opérez un ciblage, comme défini précédemment, pour exclure les profils en résultant.
 
      ![](assets/s_ncs_user_wizard_email02g.png)
 
 1. Saisissez un nom pour ce ciblage dans le champ **[!UICONTROL Libellé]**. Par défaut, le libellé sera celui correspondant au premier critère de ciblage. En cas de combinaison, il est préférable d&#39;utiliser un nom explicite.
 1. Cliquez sur **[!UICONTROL Terminer]** pour valider le ciblage paramétré.
 
-   Les critères de ciblage définis sont résumés dans la section centrale de l’onglet principal de configuration de la cible. Cliquez sur un critère pour en afficher le contenu (configuration et prévisualisation). Pour supprimer un critère, cliquez sur la croix située après son libellé.
+   Les critères de ciblage définis sont résumés dans la section centrale de l’onglet principal de configuration de la cible.Cliquez sur un critère pour en afficher le contenu (configuration et prévisualisation).Pour supprimer un critère, cliquez sur la croix située après son libellé.
 
    ![](assets/s_ncs_user_wizard_email02h.png)
 
 ### Sélection de destinataires externes {#selecting-external-recipients}
 
-Vous pouvez lancer une diffusion auprès de destinataires qui ne sont pas enregistrés dans la base de données, mais qui sont stockés dans un fichier externe. Par exemple, nous enverrons ici une diffusion aux destinataires importés à partir d&#39;un fichier texte.
+Vous pouvez choisir de lancer une diffusion sur des personnes destinataires non enregistrées dans la base de données mais stockées dans un fichier externe.Nous allons par exemple envoyer ici une diffusion à des personnes destinataires importées depuis un fichier texte.
 
 Pour ce faire :
 
@@ -124,9 +124,9 @@ Pour ce faire :
 
 ### Définition des paramètres d’exclusion {#define-exclusion-settings}
 
-Les erreurs d’adresse et les évaluations de qualité sont fournies par le fournisseur d’accès (FAI). Ces informations sont automatiquement mises à jour dans le profil du destinataire suite aux actions de diffusion et avec les fichiers renvoyés par les fournisseurs d&#39;accès. Il peut être affiché en lecture seule dans le profil.
+Les erreurs sur les adresses et l’indice de qualité sont fournis par le prestataire (FAI).Ces informations sont mises à jour automatiquement dans le profil de la personne destinataire suite aux actions de diffusion et au chargement des fichiers renvoyés par les prestataires.Elles peuvent être consultées dans le profil, mais ne peuvent être modifiées.
 
-Vous pouvez choisir d’exclure les adresses qui ont atteint un certain nombre d’erreurs consécutives ou dont l’évaluation de la qualité est inférieure à un seuil spécifié dans cette fenêtre. Vous pouvez également choisir d&#39;autoriser ou non les adresses non-qualifiées, c&#39;est-à-dire celles pour lesquelles aucune information n&#39;a été remontée.
+Vous pouvez choisir d’exclure les adresses pour lesquelles un nombre d’erreurs consécutives est atteint, ou dont l’indice de qualité est inférieur au seuil spécifié dans cette fenêtre.Vous pouvez également choisir d&#39;autoriser ou non les adresses non-qualifiées, c&#39;est-à-dire celles pour lesquelles aucune information n&#39;a été remontée.
 
 >[!NOTE]
 >
@@ -136,7 +136,7 @@ L&#39;onglet **[!UICONTROL Exclusions]** permet de limiter le nombre de messages
 
 >[!NOTE]
 >
->Les paramètres par défaut sont recommandés, mais vous pouvez les adapter en fonction de vos besoins. Toutefois, ces options ne doivent être modifiées que par un utilisateur expert afin d’éviter tout mésusage et erreur.
+>Les paramètres par défaut sont recommandés, mais vous pouvez les adapter en fonction de vos besoins.Toutefois, ces options ne doivent être modifiées que par une personne expérimentée afin d’éviter toute mauvaise utilisation et erreur.
 
 Cliquez sur le lien **[!UICONTROL Editer]** pour modifier la configuration par défaut.
 
@@ -144,27 +144,27 @@ Cliquez sur le lien **[!UICONTROL Editer]** pour modifier la configuration par d
 
 Les options disponibles sont les suivantes :
 
-* **[!UICONTROL Exclure les adresses en double lors de la diffusion]**. Cette option est active par défaut : elle permet d&#39;éliminer les adresses email en double lors de l&#39;envoi. La stratégie appliquée peut varier en fonction de l’utilisation d’Adobe Campaign et du type de données dans la base de données.
+* **[!UICONTROL Exclure les adresses en double lors de la diffusion]**.Cette option est active par défaut : elle vous permet d’éliminer les adresses e-mail en double lors de la diffusion.La stratégie appliquée peut varier en fonction de l’utilisation d’Adobe Campaign et du type de données dans la base de données.
 
   La valeur par défaut de l&#39;option est paramétrable pour chaque modèle de diffusion.
 
   Par exemple :
 
-   * Diffusion d’un bulletin d’information ou d’un document électronique. Pas d&#39;exclusion des doublons dans certains cas si les données n&#39;ont pas de doublons natifs. Un couple abonné à la même adresse e-mail peut s’attendre à recevoir deux e-mails personnalisés spécifiques : l’un adressé à chaque individu par son nom. Dans ce cas, cette option peut être désélectionnée.
-   * Diffusion d&#39;une campagne marketing : l&#39;exclusion en double est essentielle pour ne pas envoyer trop de messages à un même destinataire. Dans ce cas, cette option peut être sélectionnée.
+   * Diffusion d’une newsletter ou d’un document électronique.Pas d’exclusion des doublons dans certains cas si les données n’ont pas de doublons natifs.Un couple abonné avec la même adresse e-mail peut s’attendre à recevoir deux e-mails personnalisés spécifiques : l’un adressé à chaque individu par son nom.Dans ce cas, cette option peut être désélectionnée.
+   * Diffusion d’une campagne marketing : l’exclusion des doublons est essentielle pour éviter l’envoi d’un trop grand nombre de messages à une même personne destinataire.Dans ce cas, cette option peut être sélectionnée.
 
-     Si vous désélectionnez cette option, vous pouvez accéder à une option supplémentaire : **[!UICONTROL Conserver les enregistrements en double (même identifiant)]**. Elle permet d’autoriser plusieurs diffusions vers des destinataires répondant à plusieurs critères de ciblage.
+     Si vous désélectionnez cette option, vous avez accès à une option supplémentaire : **[!UICONTROL Conserver les enregistrements ciblés en double (même identifiant)]**.Elle vous permet d’autoriser plusieurs diffusions aux personnes destinataires qui correspondent à plusieurs critères de ciblage.
 
      ![](assets/s_ncs_user_wizard_email02j.png)
 
 * **[!UICONTROL Exclure les destinataires qui ne veulent plus être contactés]**, c&#39;est-à-dire les destinataires dont les adresses email se trouvent sur une liste bloquée (&#39;opt out&#39;). Cette option doit rester sélectionnée afin de respecter l&#39;éthique professionnelle du e-marketing et les lois régissant le e-commerce.
-* **[!UICONTROL Exclure les destinataires mis en quarantaine]**. Cette option permet d’exclure de la cible les profils dont l’adresse ne répond pas. Nous vous recommandons vivement de ne pas décocher cette option.
+* **[!UICONTROL Exclure les destinataires en quarantaine]**.Cette option vous permet dʼexclure de la cible les profils dont les adresses ne répondent pas.Nous vous recommandons vivement de ne pas décocher cette option.
 
   >[!NOTE]
   >
   >Pour plus d’informations sur la gestion des quarantaines, consultez la section [Compréhension de la gestion des quarantaines](delivery-failures-quarantine.md).
 
-* **[!UICONTROL Limiter la diffusion]** à un nombre donné de messages. Cette option permet de saisir le nombre maximal de messages à envoyer. Si le contenu de la cible est supérieur au nombre de messages indiqué, une sélection aléatoire est appliquée sur la cible.
+* **[!UICONTROL Limiter la diffusion]** à un nombre donné de messages.Cette option vous permet de saisir le nombre maximum de messages à envoyer.Si le contenu de la cible est supérieur au nombre de messages indiqué, une sélection aléatoire est appliquée sur la cible.
 
 ### Réduction de la taille de la population cible {#reducing-the-size-of-the-target-population}
 
@@ -174,7 +174,7 @@ Vous pouvez réduire la taille de la population cible. Pour ce faire, indiquez l
 
 ## Sélection des destinataires des messages de BAT {#selecting-the-proof-target}
 
-Le BAT est un message spécifique qui permet de tester une diffusion avant son envoi à la cible principale. Les destinataires du BAT sont chargés d’approuver la forme et le contenu du message.
+Le BAT est un message spécial qui vous permet de tester une diffusion avant de l’envoyer à la cible principale.Les personnes destinataires du BAT sont chargées de valider la forme et le contenu du message.
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#seeds-and-proofs-video)
 
@@ -233,7 +233,7 @@ Vous pouvez utiliser des **[!UICONTROL Adresses de contrôle]** en tant que cibl
 >
 >Les adresses de contrôle sont présentées dans la section [À propos des adresses de contrôle](about-seed-addresses.md).
 
-Vous pouvez combiner la définition d’une cible de BAT spécifique et l’utilisation d’adresses de contrôle à l’aide de l’option **[!UICONTROL Cible spécifique et Adresses de contrôle]**. Les paramétrages correspondants sont alors définis dans deux sous-onglets distincts.
+À l’aide de l’option **[!UICONTROL Cible spécifique et Adresses de contrôle]**, vous pouvez combiner la définition d’une cible de BAT spécifique et l’utilisation d’adresses de contrôle.Les paramétrages correspondants sont alors définis dans deux sous-onglets distincts.
 
 Voir aussi :
 

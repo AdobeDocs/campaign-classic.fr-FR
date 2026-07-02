@@ -23,9 +23,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2637
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -168,7 +168,7 @@ Les serveurs d’application prennent directement en charge les utilisateurs de 
 
 Les serveurs web hébergent des applications Web Campaign qui prennent en charge les 10 millions de destinataires actifs du système.
 
-Voir [Scénario 1 : Déploiement de taille moyenne &#x200B;](#scenario-1) pour plus de commentaires sur les proxies, les centres de préférences/la gestion des abonnements et l’utilisation de l’espace disque.
+Voir [Scénario 1 : Déploiement de taille moyenne ](#scenario-1) pour plus de commentaires sur les proxies, les centres de préférences/la gestion des abonnements et l’utilisation de l’espace disque.
 
 ### Base de données
 
@@ -216,7 +216,7 @@ Les serveurs d’application prennent directement en charge les utilisateurs de 
 
 Les serveurs web hébergent des applications Web Campaign qui prennent en charge les 10 millions de destinataires actifs du système.
 
-Voir [Scénario 1 : Déploiement de taille moyenne &#x200B;](#scenario-1) pour plus de commentaires sur les proxies, les centres de préférences/la gestion des abonnements et l’utilisation de l’espace disque.
+Voir [Scénario 1 : Déploiement de taille moyenne ](#scenario-1) pour plus de commentaires sur les proxies, les centres de préférences/la gestion des abonnements et l’utilisation de l’espace disque.
 
 ### Base de données
 
@@ -233,30 +233,30 @@ L’espace disque requis dans la base de données pour stocker toutes les donné
 Les hypothèses faites pour ces scénarios ont toutes un impact significatif sur les recommandations matérielles et l’architecture de déploiement. Cette section décrit les directives relatives aux différentes hypothèses. Contactez l’équipe de consultants d’Adobe Campaign pour obtenir des recommandations spécifiques à vos besoins.
 
 * **Nombre de destinataires**
-Les destinataires actifs nécessitent à la fois de l&#39;espace de stockage et de la mémoire tampon de base de données. Par conséquent, un plus grand nombre de destinataires nécessite généralement plus de mémoire et de capacité CPU sur le serveur de base de données. Les augmentations du stockage sont relativement faibles pour les destinataires eux-mêmes, mais peuvent être significatives pour les données de tracking d’événements conservées pour les campagnes e-mail.
+Les personnes destinataires actives requièrent à la fois un espace de stockage et un espace de mémoire tampon dans la base de données. De ce fait, un nombre plus élevé de destinataires nécessite généralement davantage de capacité au niveau de la mémoire et du CPU sur le serveur de base de données.Les augmentations du stockage sont relativement faibles pour les destinataires eux-mêmes, mais peuvent être significatives pour les données de tracking d’événements conservées pour les campagnes e-mail.
 
-* **Taille de la campagne par e-mail**
-La fréquence des lancements de campagne a un impact sur les exigences CPU du serveur de base de données. Associées au publipostage direct, aux interactions entrantes et aux autres workflows, les opérations de segmentation des campagnes par e-mail placent une charge importante sur le serveur de base de données.
+* **Taille d’une campagne par e-mail**
+La fréquence des lancements de campagne a un impact sur la configuration requise pour le CPU du serveur de base de données.Associées au publipostage direct, aux interactions entrantes et aux autres workflows, les opérations de segmentation des campagnes par e-mail placent une charge importante sur le serveur de base de données.
 
-* **Fréquence du publipostage direct**
-La fréquence du publipostage peut avoir une incidence sur les exigences CPU du serveur de base de données. Associées aux lancements de campagne et aux autres workflows, les opérations de segmentation de publipostage direct placent une charge importante sur le serveur de base de données.
+* **Fréquence de publipostage direct**
+La fréquence du publipostage peut avoir une incidence sur la configuration requise pour le CPU du serveur de base de données.Associées aux lancements de campagne et aux autres workflows, les opérations de segmentation de publipostage direct placent une charge importante sur le serveur de base de données.
 
 * **Volume des messages SMS**
-Comme pour la taille des campagnes par e-mail, le volume des messages SMS ne place pas de charge importante sur les serveurs Campaign On-premise. La charge est principalement sur les serveurs Adobe Cloud Messaging sur le cloud. Comme pour les e-mails et le publipostage direct, la segmentation des campagnes par SMS peut placer une charge importante sur la base de données marketing. Par conséquent, la fréquence des lancements de campagnes par SMS et la complexité de la segmentation sont plus pertinentes que le volume des messages SMS.
+Comme pour la taille des campagnes par e-mail, le volume des messages SMS ne place pas de charge importante sur les serveurs Campaign sur site. La charge est principalement sur les serveurs Adobe Cloud Messaging sur le cloud.Comme pour les e-mails et le publipostage direct, la segmentation des campagnes par SMS peut placer une charge importante sur la base de données marketing. Par conséquent, la fréquence des lancements de campagnes par SMS et la complexité de la segmentation sont plus pertinentes que le volume des messages SMS.
 
 * **Complexité du schéma de base de données**
-La quantité de données pour chaque destinataire actif nécessite à la fois de l&#39;espace de stockage et de l&#39;espace mémoire tampon de la base de données. Par conséquent, un plus grand nombre de destinataires nécessite généralement plus de mémoire et de CPU sur le serveur de base de données. Les schémas complexes nécessitent également la jonction de davantage de tables pour la segmentation. De ce fait, les opérations de segmentation peuvent s’exécuter beaucoup plus lentement et nécessiter davantage de capacité au niveau du processeur et de la mémoire dans la base de données lorsque les données sont réparties entre plusieurs tables.
+La quantité de données relatives à chaque personne destinataire active requiert à la fois de l’espace de stockage et de l’espace de mémoire tampon dans la base de données. Par conséquent, un nombre plus élevé de destinataires nécessite généralement davantage de capacité au niveau de la mémoire et du CPU sur le serveur de base de données.Les schémas complexes nécessitent également la jonction de davantage de tables pour la segmentation. De ce fait, les opérations de segmentation peuvent s’exécuter beaucoup plus lentement et nécessiter davantage de capacité au niveau du processeur et de la mémoire dans la base de données lorsque les données sont réparties entre plusieurs tables.
 
   La mémoire du serveur de la base de données est estimée en veillant à ce que le pool de mémoire tampon de la base de données puisse contenir toutes les données des destinataires, ainsi que des tables temporaires pour exécuter les workflows, avec une marge supplémentaire pour les autres opérations de base de données.
 
 * **Utilisation des interactions sortantes**
-Les règles d&#39;interaction en mode batch sont évaluées dans les workflows qui transmettent toute la complexité du calcul à la base de données. Le principal facteur d’effort sur la base de données est le nombre total d’offres éligibles calculées lors d’un appel au moteur (taille de la cible X nombre moyen d’offres par destinataire avant de conserver les N meilleures offres). La vitesse du processeur du serveur de la base de données est le premier facteur de performance.
+Les règles relatives aux interactions en mode de lot sont évaluées dans les workflows qui transmettent toute la complexité du calcul à la base de données.Le principal facteur d’effort sur la base de données est le nombre total d’offres éligibles calculées lors d’un appel au moteur (taille de la cible X nombre moyen d’offres par destinataire avant de conserver les N meilleures offres). La vitesse du processeur du serveur de la base de données est le premier facteur de performance.
 
-* **Interactions entrantes ou utilisation de l’API SOAP**
-Les règles et offres d&#39;interaction entrante sont évaluées dans la base marketing, ce qui nécessite des ressources de serveur de base de données importantes, notamment CPU. L’utilisation intensive des interactions entrantes ou des API SOAP nécessite des serveurs web distincts pour séparer la charge de travail des workflows Campaign en cours d’exécution.
+* **Utilisation de l’API SOAP ou des interactions entrantes**
+Les règles et offres d’interactions entrantes sont évaluées dans la base de données marketing, ce qui nécessite d’importantes ressources de serveur de base de données, notamment au niveau du CPU.L’utilisation intensive des interactions entrantes ou des API SOAP nécessite des serveurs web distincts pour séparer la charge de travail des workflows Campaign en cours d’exécution.
 
-* **Période De Conservation Des Données De Tracking**
-L’augmentation de la rétention des données de tracking au-delà de 90 jours nécessite davantage de stockage dans la base de données. En outre, cela peut ralentir le système car les nouvelles données de tracking sont insérées dans des tables volumineuses. Les données de tracking ne sont plus utiles pour la segmentation des campagnes au-delà de 90 jours. Il est donc recommandé d’utiliser une période de rétention plus courte.
+* **Période de conservation des données de tracking**
+L’augmentation de la conservation des données de tracking au-delà de 90 jours nécessite davantage de stockage dans la base de données. En outre, cela peut ralentir le système, car les nouvelles données de tracking sont insérées dans des tables volumineuses.Les données de tracking ne sont plus utiles pour la segmentation des campagnes au-delà de 90 jours. Il est donc recommandé d’utiliser une période de rétention plus courte.
 
   Si vous avez besoin d’une analyse à long terme de l’expérience marketing des destinataires, il vous faut déplacer les données de tracking dans Adobe Analytics ou dans un autre système d’analyse.
 
@@ -265,13 +265,13 @@ L’augmentation de la rétention des données de tracking au-delà de 90 jours 
 Tous les serveurs Campaign sont de bons candidats à la virtualisation. Plusieurs problèmes doivent être résolus pour garantir une disponibilité adéquate et optimiser les performances.
 
 * **Configuration de basculement**
-Les serveurs en cluster, par exemple les serveurs d’application redondants sous un proxy avec équilibrage de charge, doivent être déployés sur un matériel distinct pour s’assurer que les deux machines virtuelles ne tombent pas en panne en cas de défaillance matérielle.
+Les serveurs en cluster, comme les serveurs d’application redondants sous un proxy avec équilibrage de charge, doivent être déployés sur un matériel distinct pour s’assurer que les deux machines virtuelles ne tombent pas en panne en cas de défaillance matérielle.
 
-* Configuration d’E/S **&#x200B;**
+* **Configuration d’E/S**
 Toute configuration RAID recommandée doit être conservée pour la sécurité de la base de données, afin de garantir que la perte d’un appareil de stockage ne provoque pas de perte de données.
 
-* Performances d’E/S **&#x200B;**
-L’évaluation IOPS recommandée pour le stockage dans la base de données doit être respectée. Il est possible que les services cloud tels qu’Amazon EC2 n’offrent pas les performances requises. Ces services doivent alors être évalués avec soin. Par exemple, les volumes SSD fournis par Amazon EC2 sont actuellement évalués à 20 000 IOPS chacun. Consultez la [documentation Amazon](https://docs.aws.amazon.com/fr_fr/AWSEC2/latest/UserGuide/ebs-volume-types.html) pour en savoir plus. De ce fait, une configuration RAID à 4 volumes est évaluée à 80 000 IOPS, ce qui peut ne pas suffire.
+* **Performances d’E/S**
+L’évaluation IOPS recommandée pour le stockage dans la base de données doit être respectée.Il est possible que les services cloud tels qu’Amazon EC2 n’offrent pas les performances requises. Ces services doivent alors être évalués avec soin. Par exemple, les volumes SSD fournis par Amazon EC2 sont actuellement évalués à 20 000 IOPS chacun. Consultez la [documentation Amazon](https://docs.aws.amazon.com/fr_fr/AWSEC2/latest/UserGuide/ebs-volume-types.html) pour en savoir plus. De ce fait, une configuration RAID à 4 volumes est évaluée à 80 000 IOPS, ce qui peut ne pas suffire.
 
 Adobe recommande de tester les performances de chaque déploiement virtualisé d’Adobe Campaign avant la mise en production du système.
 

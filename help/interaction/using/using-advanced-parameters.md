@@ -14,9 +14,9 @@ feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 117
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Ce chapitre présente les différents paramétrages avancés possibles dans Inte
 >Le chapitre suivant s&#39;adresse aux **administrateurs techniques**.
 
 * Vous pouvez utiliser des données contextuelles additionnelles. Pour plus d&#39;informations, consultez la section [Données additionnelles](../../interaction/using/additional-data.md).
-* Vous avez la possibilité d’enrichir les contextes d’application des offres proposées via un canal entrant. Pour cela, le schéma d&#39;interaction **nms:interaction** doit être étendu. Reportez-vous à l’[exemple d’extension](../../interaction/using/extension-example.md) pour connaître la procédure à suivre.
+* Vous avez la possibilité d’enrichir les contextes d’application des offres proposées via un canal entrant. Pour ce faire, le schéma d’interaction **nms:interaction** doit être étendu.Reportez-vous à l’[exemple d’extension](../../interaction/using/extension-example.md) pour connaître la procédure à suivre.
 * La création d’un environnement de test est présentée dans la section [Créer un environnement de test](../../interaction/using/creating-a-test-environment.md).
 * Vous pouvez modifier le comportement standard du moteur à l’aide de points d’extension. Pour plus d&#39;informations, consultez la section [Points d’extension](../../interaction/using/hooks.md).
 * Enfin, l’utilisation d’Interaction avec une architecture répartie est présentée dans la section [Architectures réparties](../../interaction/using/distributed-architectures.md).

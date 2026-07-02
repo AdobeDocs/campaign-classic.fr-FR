@@ -21,9 +21,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 808
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -60,10 +60,10 @@ Pour plus d&#39;informations sur les types de messages Firebase Cloud Messagin
 
    ![](assets/nmac_android_7.png)
 
-1. Dans la fenêtre **[!UICONTROL Type de cible]**&#x200B;**&#x200B;**, sélectionnez Abonnés d&#39;une application mobile Android, puis cliquez sur **[!UICONTROL Suivant]**.
+1. Dans la fenêtre **[!UICONTROL Type de cible]******, sélectionnez Abonnés d&#39;une application mobile Android, puis cliquez sur **[!UICONTROL Suivant]**.
 
-1. Dans la liste déroulante **[!UICONTROL Service]**, sélectionnez le service précédemment créé, puis l’application et cliquez sur **[!UICONTROL Terminer]**.
-Les **[!UICONTROL variables d’application]** sont automatiquement ajoutées en fonction de ce qui a été ajouté lors des étapes de configuration.
+1. Dans le menu déroulant **[!UICONTROL Service]**, sélectionnez le service précédemment créé, puis cliquez sur **[!UICONTROL Terminer]**.
+Les **[!UICONTROL variables d’application]** sont automatiquement ajoutées en fonction de ce qui a été incorporé au cours des étapes de configuration.
 
    ![](assets/nmac_android_6.png)
 
@@ -97,7 +97,7 @@ L’image et la page web doivent s’afficher dans la notification push lors de 
 
    ![](assets/nmac_android_7.png)
 
-1. Dans la fenêtre **[!UICONTROL Type de cible]**&#x200B;**&#x200B;**, sélectionnez Abonnés d&#39;une application mobile Android, puis cliquez sur **[!UICONTROL Suivant]**.
+1. Dans la fenêtre **[!UICONTROL Type de cible]******, sélectionnez Abonnés d&#39;une application mobile Android, puis cliquez sur **[!UICONTROL Suivant]**.
 
 1. Dans la liste déroulante **[!UICONTROL Service]**, sélectionnez le service créé précédemment, puis l&#39;application ciblée, et cliquez sur **[!UICONTROL Terminer]**.
 

@@ -18,15 +18,15 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: e739ee2b-6228-412e-878f-45de0791417d
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 111
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 # AB Testing : créer les modèles de diffusion {#step-3--creating-two-delivery-templates}
 
-Vous allez à présent créer deux modèles de diffusion. Chaque modèle sera référencé dans une activité **[!UICONTROL Diffusion e-mail]** liée à l&#39;activité **[!UICONTROL Partage]**. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/create-templates.html?lang=fr){target="_blank"}.
+Nous allons maintenant créer deux modèles de diffusion.Chaque modèle sera référencé dans une activité **[!UICONTROL Diffusion par e-mail]** liée à l’activité **[!UICONTROL Partage]**.Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/create-templates.html?lang=fr){target="_blank"}.
 
 1. Accédez au dossier **[!UICONTROL Ressources > Modèle de diffusion]**.
 1. Dupliquez le modèle de diffusion **[!UICONTROL E-mail]**.

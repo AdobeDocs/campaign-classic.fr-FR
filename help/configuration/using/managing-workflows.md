@@ -14,9 +14,9 @@ role_v2:
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 146
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 84%
 
 Par défaut, vos nouveaux workflows reposent sur un modèle de workflow préconfiguré et basé sur une table de personnes destinataires (nms:recipient). Pour qu’ils soient automatiquement basés sur la table personnalisée des destinataires référencée dans l’option **Nms_DefaultRcpSchema** (voir la section [Configuration de l’interface](../../configuration/using/configuring-the-interface.md)), vous devez créer un modèle de workflow.
 
-Créez un modèle à partir du nœud **[!UICONTROL Ressources > Modèles > Modèles de workflow]**. Dans les propriétés du modèle, les dimensions fournies correspondent à votre tableau de destinataires externes.
+Créez un nouveau modèle de workflow à partir du nœud **[!UICONTROL Ressources > Modèles > Modèles de workflow]**.Dans les propriétés du modèle, les dimensions renseignées correspondent alors à votre table de destinataires externe.
 
 En basant vos nouveaux workflows sur le modèle nouvellement créé, votre table personnalisée sera sélectionnée par défaut au niveau des dimensions de ciblage et de filtrage globales du workflow.
 

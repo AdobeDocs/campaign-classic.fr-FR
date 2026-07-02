@@ -16,19 +16,19 @@ topic_v2:
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 192
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
 # À propos du tracking web{#about-web-tracking}
 
-Outre le suivi standard qui montre le comportement d’un internaute qui clique sur un lien dans un e-mail, la plateforme Adobe Campaign permet de collecter des informations sur la manière dont les internautes naviguent sur votre site web. Cette collecte de données est effectuée par le module de tracking Web.
+Outre le suivi standard qui montre le comportement d’une personne qui clique sur un lien dans un e-mail, la plateforme Adobe Campaign permet de collecter des informations sur la navigation des internautes sur votre site web.Cette collecte de données est effectuée par le module de tracking web.
 
 Lorsqu’un internaute clique sur un lien suivi dans un e-mail d’une diffusion donnée, le serveur de redirection contacté dépose un cookie de session contenant l’identifiant broadlog (broadlogId) ainsi que l’identifiant de la diffusion (deliveryId).
 
-Le client web envoie ensuite ce cookie au serveur chaque fois que l&#39;utilisateur visite une page contenant une balise de tracking web. Cela se poursuit tout au long de la session, c’est-à-dire jusqu’à la fermeture du client web.
+Le client web transmettra alors ce cookie au serveur à chaque fois qu’il visitera une page contenant une balise de tracking web.Cela se poursuit tout au long de la session, c’est-à-dire jusqu’à la fermeture du client web.
 
 Le serveur de redirection collecte donc les informations suivantes :
 

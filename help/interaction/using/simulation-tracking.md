@@ -17,9 +17,9 @@ feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 153
-ht-degree: 45%
+ht-degree: 100%
 
 ---
 
@@ -29,15 +29,15 @@ ht-degree: 45%
 
 Une fois la simulation effectuée, vous pouvez analyser son résultat depuis l&#39;onglet **[!UICONTROL Résultats]** qui s&#39;ajoute dans la fenêtre de simulation et le rapport **[!UICONTROL Répartition des offres par rang]** disponible depuis le tableau de bord de la simulation.
 
-Les résultats de la simulation contiennent une répartition des propositions par rang et par destinataire. Les axes de reporting sont également pris en compte et affichés dans cet onglet.
+Les résultats de la simulation contiennent une répartition des propositions par rang et par destinataire.Les axes de reporting sont également pris en compte et affichés dans cet onglet.
 
-Vous pouvez enregistrer ces résultats et les exporter si nécessaire en créant une analyse descriptive des résultats. Pour ce faire, cliquez sur le lien approprié dans la fenêtre de résultats.
+Vous pouvez conserver ces résultats et les exporter si nécessaire en créant un rapport d’analyse descriptive.Pour cela, cliquez sur le lien disponible dans la fenêtre des résultats.
 
 Reportez-vous à [cette section](../../reporting/using/about-descriptive-analysis.md) pour plus d’informations sur l’assistant d’analyse descriptive.
 
 ![](assets/offer_simulation_012.png)
 
-Un tableau croisé dynamique fournit un aperçu rapide des répartitions des offres par classement. Comme tous les rapports dans Adobe Campaign, vous pouvez l’exporter, l’imprimer, l’archiver ou l’afficher dans un navigateur web.
+Un tableau croisé dynamique permet de visualiser rapidement la répartition des offres par rang.Comme tout rapport dans Adobe Campaign, il peut être exporté, imprimé, archivé ou affiché dans un navigateur web.
 
 Voir à ce propos [cette section](../../reporting/using/actions-on-reports.md).
 

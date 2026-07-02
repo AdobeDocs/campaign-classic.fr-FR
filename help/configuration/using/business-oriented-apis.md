@@ -14,15 +14,15 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 625
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # API orientées métier{#business-oriented-apis}
 
-Les API métier sont spécifiques à chaque type d’objet. Ils ont un effet sur :
+Les API métier sont spécifiques à chaque type d’objet.Elles agissent sur les éléments suivants :
 
 * Diffusions :
 
@@ -70,7 +70,7 @@ Description de la méthode « subscribe » dans le schéma « nms:subscriptio
 </method>
 ```
 
-La définition de la clé de réconciliation doit être renseignée via l’attribut _&#x200B;**key** sur l’élément `<recipient>` du document XML. Le contenu de cet attribut est une liste XPath séparée par des virgules.
+La définition de la clé de réconciliation doit être renseignée via l’attribut _**key** sur l’élément `<recipient>` du document XML. Le contenu de cet attribut est une liste XPath séparée par des virgules.
 
 Cet appel ne renvoie pas de données, hormis les erreurs.
 
@@ -204,7 +204,7 @@ Description de la méthode dans son schéma :
 </method>
 ```
 
-Un modèle de diffusion doit être créé à partir de la console cliente Adobe Campaign. Il contient les paramètres communs à toutes les diffusions (adresse de l’expéditeur ou durée de validité du message).
+Un modèle de diffusion doit être créé à partir de la console cliente Adobe Campaign.Il contient les paramètres communs à toutes les diffusions (adresse de l’expéditeur ou de l’expéditrice, ou durée de validité du message).
 
 Le document XML en entrée est un fragment de modèle de diffusion respectant la structure du schéma « nms:delivery ». Il contiendra toutes les données additionnelles qui n’ont pas pu être définies de manière statique dans le modèle de diffusion (par exemple, la liste des personnes destinataires à cibler).
 

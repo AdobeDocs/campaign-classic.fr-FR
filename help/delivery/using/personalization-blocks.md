@@ -23,15 +23,15 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1002
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # Blocs de personnalisation{#personalization-blocks}
 
-Les blocs de personnalisation sont dynamiques, personnalisés et contiennent un rendu spécifique que vous pouvez insérer dans vos diffusions. Vous pouvez par exemple ajouter un logo, un message de salutations ou un lien vers une page miroir. Consultez la section [Insertion de blocs de personnalisation](#inserting-personalization-blocks).
+Les blocs de personnalisation sont dynamiques, personnalisés et contiennent un rendu spécifique que vous pouvez insérer dans vos diffusions.Vous pouvez par exemple ajouter un logo, un message de salutations ou un lien vers une page miroir. Consultez la section [Insertion de blocs de personnalisation](#inserting-personalization-blocks).
 
 ![](assets/do-not-localize/how-to-video.png)Découvrez cette fonctionnalité [en vidéo](#personalization-blocks-video)
 
@@ -56,7 +56,7 @@ Pour insérer un bloc de personnalisation dans un message, procédez comme suit�
 
    ![](assets/s_ncs_user_personalized_block02.png)
 
-1. Le bloc de personnalisation est alors inséré sous forme de script. Il est automatiquement adapté au profil du ou de la destinataire lors de la génération de la personnalisation.
+1. Le bloc de personnalisation est alors inséré sous forme de script.Il est automatiquement adapté au profil de la personne destinataire lors de la génération de la personnalisation.
 
    ![](assets/s_ncs_user_personalized_block03.png)
 
@@ -89,11 +89,11 @@ Pour ce faire, nous devons insérer les blocs de personnalisation suivants :
 1. Créez une diffusion ou ouvrez une diffusion existante de type e-mail.
 1. Dans l’assistant de diffusion, cliquez sur **[!UICONTROL Objet]** pour éditer l’objet du message et saisir un objet.
 1. Insérez ensuite les blocs de personnalisation dans le corps du message. Pour cela, cliquez dans le contenu du message, cliquez sur l&#39;icône de champs de personnalisation et sélectionnez le menu **[!UICONTROL Inclure]**.
-1. Sélectionnez le premier bloc à insérer. Renouvelez la procédure pour inclure les deux autres blocs.
+1. Sélectionnez le premier bloc à insérer.Renouvelez la procédure pour inclure les deux autres blocs.
 
    ![](assets/s_ncs_user_personalized_block_example.png)
 
-1. Cliquez sur l’onglet **[!UICONTROL Aperçu]** pour afficher le résultat de la personnalisation. Vous devez sélectionner un destinataire pour afficher son message.
+1. Cliquez sur l’onglet **[!UICONTROL Prévisualisation]** pour visualiser le résultat de la personnalisation.Vous devez sélectionner une personne destinataire pour afficher son message.
 
    ![](assets/s_ncs_user_personalized_block_example2.png)
 
@@ -109,7 +109,7 @@ Une liste des blocs de personnalisation est disponible par défaut pour vous aid
 
 ![](assets/s_ncs_user_personalized_block_list.png)
 
-* **[!UICONTROL Salutations]** : permet d’insérer des salutations avec le nom du ou de la destinataire. Exemple : « Bonjour Pierre Martin, ».
+* **[!UICONTROL Salutations]** : insère des salutations avec le nom de la personne destinataire.Exemple : « Bonjour Pierre Martin, ».
 * **[!UICONTROL Insertion du logo]** : insère un logo prêt à l&#39;emploi qui a été défini lors du paramétrage de l&#39;instance.
 * **[!UICONTROL Powered by Adobe Campaign]** : insère le logo &quot;Powered by Adobe Campaign&quot;.
 * **[!UICONTROL URL de page miroir]** : insère l&#39;URL de page miroir qui permet aux concepteurs de diffusion de vérifier le lien.
@@ -136,7 +136,7 @@ Une liste des blocs de personnalisation est disponible par défaut pour vous aid
 
 ## Définition de blocs de personnalisation personnalisés {#defining-custom-personalization-blocks}
 
-Vous pouvez définir de nouveaux champs de personnalisation qui pourront être insérés à partir de l&#39;icône des champs personnalisés via le menu **[!UICONTROL Inclure...]** . Ces champs sont définis dans des blocs de personnalisation.
+Vous pouvez définir de nouveaux champs de personnalisation qui pourront être insérés à partir de l’icône des champs personnalisés via le menu **[!UICONTROL Inclure…]**.Ces champs sont définis dans des blocs de personnalisation.
 
 Pour créer un bloc de personnalisation, ouvrez l&#39;Explorateur et respectez les étapes suivantes :
 
@@ -146,7 +146,7 @@ Pour créer un bloc de personnalisation, ouvrez l&#39;Explorateur et respectez l
 
    ![](assets/s_ncs_user_personalized_block.png)
 
-   * Saisissez le libellé du bloc. Ce libellé sera affiché dans la fenêtre d&#39;insertion de champs de personnalisation.
+   * Saisissez le libellé du bloc. Ce libellé sera affiché dans la fenêtre d’insertion du champ de personnalisation.
    * Sélectionnez l&#39;option **[!UICONTROL Afficher dans les menus de personnalisation]** pour rendre ce bloc accessible depuis l&#39;icône d&#39;insertion de champs de personnalisation.
    * Sélectionnez éventuellement l&#39;option **[!UICONTROL Le contenu du bloc dépend du format]** pour définir deux blocs distincts pour les emails au format HTML et ceux au format texte.
 
@@ -154,7 +154,7 @@ Pour créer un bloc de personnalisation, ouvrez l&#39;Explorateur et respectez l
 
      ![](assets/s_ncs_user_personalized_block_b.png)
 
-   * Saisissez le contenu (dans HTML, texte, JavaScript, etc.) du ou des blocs de personnalisation, puis cliquez sur **[!UICONTROL Enregistrer]**.
+   * Saisissez le contenu (en HTML, texte, JavaScript, etc.)du ou des blocs de personnalisation et cliquez sur **[!UICONTROL Enregistrer]**.
 
 ## Tutoriel vidéo {#personalization-blocks-video}
 

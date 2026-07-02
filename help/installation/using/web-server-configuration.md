@@ -17,9 +17,9 @@ topic_v2:
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 332
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Vous trouverez ci-dessous quelques bonnes pratiques clés relatives à la config
 
 * Désactivez l’ancienne version de SSL et les chiffrements :
 
-  **Sur Apache**, modifiez /etc/apache2/mods-available/ssl.conf. Voici un exemple :
+  **Sur Apache**, modifiez le fichier /etc/apache2/mods-available/ssl.conf.Voici un exemple :
 
    * `SSLProtocol all -SSLv2 -SSLv3 -TLSv1`
    * `SSLCipherSuite HIGH:MEDIUM:!aNULL:!MD5:!SSLv3:!SSLv2:!TLSv1`
@@ -60,7 +60,7 @@ Vous trouverez ci-dessous quelques bonnes pratiques clés relatives à la config
   **Sur IIS** (voir la [documentation](https://www.iis.net/configreference/system.webserver/security/requestfiltering/verbs)), effectuez la configuration suivante :
 
    * Assurez-vous que la fonctionnalité ou le service de rôle **Filtrage des requêtes** est installé.
-   * Dans le volet **Filtrage des requêtes**, cliquez sur l’onglet Verbes HTTP, puis sur Refuser le verbe. Dans le volet Actions , saisissez TRACE dans la boîte de dialogue ouverte.
+   * Dans le volet **Filtrage des requêtes**, cliquez sur l’onglet Verbes HTTP, puis sur Refuser un verbe.Dans le volet Actions, saisissez TRACE dans la boîte de dialogue ouverte.
 
 * Supprimez la bannière :
 
@@ -76,7 +76,7 @@ Vous trouverez ci-dessous quelques bonnes pratiques clés relatives à la config
 
 * Limitez la taille des requêtes pour empêcher le téléchargement de fichiers volumineux :
 
-  **&#x200B;**&#x200B;Sur Apache, ajoutez la directive **LimitRequestBody** (taille en octets) dans le répertoire /.
+  **** Sur Apache, ajoutez la directive **LimitRequestBody** (taille en octets) dans le répertoire /.
 
   ```
   <Directory />
@@ -90,5 +90,5 @@ Vous trouverez ci-dessous quelques bonnes pratiques clés relatives à la config
 
 Rubriques connexes :
 
-* [Présentation de la conformité Adobe Marketing Cloud](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/overview#privacy)
-* [Présentation de la sécurité d’Adobe Campaign](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/overview#security)
+* [Vue d’ensemble de la conformité d’Adobe Marketing Cloud](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/overview#privacy)
+* [Vue d’ensemble de la sécurité d’Adobe Campaign](https://experienceleague.adobe.com/fr/docs/experience-platform/landing/governance-privacy-security/overview#security)

@@ -17,9 +17,9 @@ subfeature_v2:
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 532
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Lorsque vous souhaitez représenter les données sous forme de **[!UICONTROL tab
 
 ### Filtrage des données {#filtering-data}
 
-L’utilisation d’une activité de type **[!UICONTROL Requête]** n’est pas obligatoire lors de la création d’un rapport. Les données peuvent être filtrées directement dans les tableaux et graphiques qui constituent le rapport.
+Il n’est pas obligatoire d’utiliser une activité de type **[!UICONTROL Requête]** lors de la création d’un rapport.En effet, les données peuvent être filtrées directement au niveau des tableaux et des graphiques qui composent ce rapport.
 
 Ainsi, vous pouvez sélectionner les données à afficher dans le rapport directement depuis l&#39;activité **[!UICONTROL Page]** du rapport.
 
@@ -91,7 +91,7 @@ Par exemple, dans une boîte de requête, construisez la requête suivante sur l
 
 Indiquez ensuite la source des données de votre rapport, ici : les **[!UICONTROL Données du contexte]**.
 
-L’emplacement des données est déduit automatiquement. Si nécessaire, vous pouvez forcer le chemin des données.
+L’emplacement des données est déduit automatiquement.Si nécessaire, vous pouvez forcer le chemin des données.
 
 ![](assets/s_ncs_advuser_report_datasource_4.png)
 

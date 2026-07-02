@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1233
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -62,7 +62,7 @@ La déclaration des types de dossiers est structurée dans le document avec les 
 
 ## Commandes globales {#global-commands}
 
-Une commande globale permet de lancer une action. Il peut s’agir d’un formulaire de saisie ou d’un appel SOAP.
+Une commande globale permet de lancer une action.Cette action peut être un formulaire de saisie ou un appel SOAP.
 
 Les commandes globales sont accessibles à partir du menu principal **[!UICONTROL Outils]**.
 
@@ -144,7 +144,7 @@ Le contexte du formulaire peut être mis à jour lors de l’initialisation à p
 
 ## Type de dossier {#folder-type}
 
-Un type de dossier permet d&#39;accéder aux données d&#39;un schéma. La vue associée au dossier se compose d’une liste et d’un formulaire de saisie.
+Un type de dossier permet de donner l’accès aux données d’un schéma.La vue associée au dossier est composée d’une liste et d’un formulaire de saisie.
 
 La structure du paramétrage des types de dossier est la suivante :
 
@@ -184,7 +184,7 @@ L’élément **`<view>`** situé sous l’élément **`<nodemodel>`** contient 
 Pour modifier les enregistrements de la liste, le formulaire de saisie portant le même nom que le schéma de liste est implicitement utilisé. L’attribut **type** sur l’élément **`<view>`** affecte l’affichage du formulaire. Les valeurs possibles sont les suivantes :
 
 * **listdet** : affiche le formulaire en base de la liste.
-* **list** : affiche la liste seule. Le formulaire est lancé par un double clic ou par le menu « Ouvrir » sur la sélection de la liste.
+* **list** : affiche la liste seule.Le formulaire est lancé par un double clic ou par le menu « Ouvrir » sur sélection de la liste.
 * **form** : affiche une forme de consultation.
 * **editForm** : affiche un formulaire en édition.
 
@@ -237,7 +237,7 @@ Un filtre et un tri peuvent être appliqués lors du chargement de la liste :
 
 ### Commandes contextuelles {#shortcut-commands}
 
-Une commande de raccourci permet de lancer une action sur la sélection de la liste. L’action peut être un formulaire de saisie ou un appel SOAP.
+Un raccourci permet de lancer une action sur sélection de la liste.L’action peut être un formulaire de saisie ou un appel SOAP.
 
 Les commandes sont accessibles à partir du menu **[!UICONTROL Action]** de la liste ou du bouton menu associé.
 

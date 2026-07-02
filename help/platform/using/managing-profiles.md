@@ -19,9 +19,9 @@ subfeature_v2:
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
   - id: efa38731-2723-4334-8d8b-a778af834835
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 164
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
@@ -31,11 +31,11 @@ ht-degree: 43%
 
 ## Arborescence des destinataires {#recipient-tree}
 
-Pour accéder aux fonctionnalités avancées de gestion des destinataires, vous devez éditer l&#39;arborescence d&#39;Adobe Campaign. Pour ce faire, cliquez sur le bouton **[!UICONTROL Explorateur]** dans la barre d’outils.
+Pour accéder aux fonctionnalités avancées de gestion des destinataires, vous devez éditer l’arborescence d’Adobe Campaign.Pour cela, cliquez sur le bouton **[!UICONTROL Explorateur]** situé dans la barre d’outils.
 
-Par défaut, les destinataires sont stockés dans le nœud **[!UICONTROL Profils et cibles]** de l&#39;arborescence Adobe Campaign. Depuis le même nœud, vous pouvez créer un ou plusieurs dossiers et sous-dossiers pour stocker les profils des destinataires.
+Par défaut, les personnes destinataires sont stockées dans le nœud **[!UICONTROL Profils et cibles]** de l’arborescence Adobe Campaign.Vous pouvez créer, à partir du même nœud, un ou plusieurs dossiers et sous-dossiers afin d’y stocker les profils des personnes destinataires.
 
-Chaque nœud correspond à un dossier. Les données de chaque dossier doivent être considérées comme étant partitionnées les unes des autres. Cela signifie que la gestion des doublons sera plus difficile pour plusieurs dossiers de destinataires.
+Chaque nœud correspond à un dossier.Les données de chaque dossier doivent être considérées comme étant partitionnées les unes des autres.Cela signifie que la gestion des doublons sera plus difficile pour les dossiers à plusieurs destinataires.
 
 >[!NOTE]
 >

@@ -15,9 +15,9 @@ topic_v2:
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 363
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ La connexion à une base de données externe Oracle en FDA requiert les paramét
 
    >[!NOTE]
    >
-   >Ces valeurs (en particulier ORACLE_HOME) dépendent de vos référentiels d’installation. Veillez à vérifier l’arborescence avant de référencer ces valeurs.
+   >Ces valeurs (en particulier ORACLE_HOME) dépendent de vos référentiels d’installation.Veillez à vérifier l’arborescence avant de référencer ces valeurs.
 
 1. Installez les librairies nécessaires à Oracle :
 
@@ -78,7 +78,7 @@ La connexion à une base de données externe Oracle en FDA requiert les paramét
 
 1. Installez le client Oracle.
 
-1. Dans le dossier C:Oracle, créez un fichier **tnsnames.ora** contenant votre définition TNS.
+1. Dans le dossier C:Oracle, créez un fichier **tnsnames.ora** contenant votre définition TNS.
 
 1. Ajoutez une variable d’environnement TNS_ADMIN avec C:Oracle comme valeur et redémarrez la machine.
 

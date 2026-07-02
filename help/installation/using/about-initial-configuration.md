@@ -14,9 +14,9 @@ product_v2:
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 197
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 60%
 
 
 
-Une fois l’installation d’Adobe Campaign terminée, vous devez la configurer pour vous assurer qu’elle fonctionne efficacement avec vos contraintes et votre architecture technique. Les étapes de configuration d&#39;une instance Adobe Campaign sont présentées dans ce chapitre. Elles s&#39;enchaînent dans l&#39;ordre suivant :
+Une fois l’installation d’Adobe Campaign terminée, vous devez en effectuer la configuration pour garantir son bon fonctionnement, selon vos contraintes et votre architecture technique.Les étapes de configuration d’une instance Adobe Campaign sont présentées dans ce chapitre. Elles s’enchaînent dans l’ordre suivant :
 
 1. Pour créer l’instance et la connexion associée, consultez la section [Création d’une instance et connexion](../../installation/using/creating-an-instance-and-logging-on.md).
 1. Pour créer et configurer la base de données, consultez la section [Création et configuration de la base de données](../../installation/using/creating-and-configuring-the-database.md).
 1. Pour configurer le serveur Adobe Campaign, consultez la section [Configuration du serveur Campaign](../../installation/using/configuring-campaign-server.md).
 1. Pour déployer l’instance, consultez la section [Déploiement d’une instance](../../installation/using/deploying-an-instance.md).
 
-La configuration de l’instance implique l’activation de processus (web, mta, wfserver, etc.) à démarrer sur le serveur et la configuration des modules pour l’envoi d’e-mails, le tracking, etc. Pour chaque instance, les processus Adobe Campaign sont activés sur le serveur. Pour plus d’informations à ce sujet, consultez [cette section](../../installation/using/configuring-campaign-server.md#enabling-processes).
+La configuration de l’instance implique l’activation des processus (web, mta, wfserver, etc.)à démarrer sur le serveur et la configuration des modules pour l’envoi des e-mails, le tracking, etc. Pour chaque instance, les processus Adobe Campaign sont activés sur le serveur.Pour plus d’informations à ce sujet, consultez [cette section](../../installation/using/configuring-campaign-server.md#enabling-processes).
 
 Des paramétrages complémentaires au niveau de chaque instance peuvent être nécessaires, selon les modules utilisés, votre architecture et vos besoins et afin d’optimiser le fonctionnement d’Adobe Campaign.

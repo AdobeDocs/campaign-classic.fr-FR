@@ -13,9 +13,9 @@ role_v2:
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 932
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -62,8 +62,8 @@ Les liens suivent les règles suivantes :
    * **target** : nom du schéma cible
    * **label** : libellé du lien
    * **revLink** (optionnel) : nom du lien inverse à partir du schéma cible (déduit automatiquement par défaut)
-   * **integrity** (optionnel) : intégrité référentielle de l&#39;occurrence de la table source envers l&#39;occurrence de la table cible.
-Les valeurs possibles sont :
+   * **integrity** (optionnel) : intégrité référentielle de l’occurrence de la table source par rapport à l’occurrence de la table cible.
+Les valeurs possibles sont les suivantes :
 
       * **define** : la suppression de l’occurrence source est possible si elle n’est plus référencée par une occurrence cible
       * **normal** : la suppression de l’occurrence source initialise les clés du lien sur l’occurrence cible (mode par défaut), ce type d’intégrité initialise toutes les clés étrangères
@@ -227,7 +227,7 @@ Le schéma généré :
 </schema>
 ```
 
-La définition de la clé de nom « companyEmail » a été étendue avec la clé étrangère du lien « company ». Cette clé génère un index unique sur les deux champs.
+La définition de la clé de nom « companyEmail » a été étendue avec la clé étrangère du lien « company ».Cette clé génère un index unique sur les deux champs.
 
 ## En savoir plus
 

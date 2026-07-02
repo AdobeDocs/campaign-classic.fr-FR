@@ -10,9 +10,9 @@ product_v2:
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 198
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ enumeration:==(help| value)
 
 ## Description {#description-5}
 
-Cet élément permet de définir une énumération de valeurs. Une énumération appartient au schéma dans lequel elle est définie, mais elle est accessible via un autre schéma.
+Cet élément nous permet de définir une énumération de valeurs.Une énumération appartient au schéma dans lequel elle est définie mais elle reste accessible depuis un autre schéma.
 
 ## Usage et contexte d&#39;utilisation {#use-and-context-of-use-4}
 
@@ -84,7 +84,7 @@ Une énumération se définit au tout début d&#39;un schéma (avant la définit
    * timespan
    * uuid
 
-* **default (string)** : valeur par défaut. La valeur par défaut peut également être l’une des valeurs définies dans l’énumération .
+* **default (string)** : valeur par défaut.La valeur par défaut peut également être une des valeurs définies dans l’énumération.
 * **desc (string)**: description de l&#39;énumération.
 * **label (string)**: libellé de l&#39;énumération.
 * **name (string)**: nom interne de l&#39;énumération.

@@ -18,9 +18,9 @@ subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2466
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 72%
 
 
 
-Dans un formulaire Web, les champs permettent aux utilisateurs de saisir des informations et de sélectionner des options. Les formulaires web peuvent proposer des champs de saisie, des champs de sélection, des contenus statiques et avancés (captchas, abonnements, etc.).
+Dans un formulaire web, les champs permettent aux utilisateurs et utilisatrices de saisir des informations et de sélectionner des options.Les formulaires web peuvent proposer des champs de saisie, des champs de sélection, ainsi que des contenus statiques et avancés (captcha, abonnements, etc.).
 
 Lorsque vous utilisez l’assistant d’ajout de champs, le type de champ est automatiquement détecté en fonction du champ ou de la variable de stockage sélectionnée. Au besoin, vous pouvez le modifier à partir de la liste déroulante **[!UICONTROL Type]** de l&#39;onglet **[!UICONTROL Général]**.
 
@@ -53,7 +53,7 @@ Spécifiez le mode de stockage des réponses : mise à jour d&#39;un champ de l
 
 >[!NOTE]
 >
->Par défaut, le champ est inséré en bas de l&#39;arborescence courante. Utilisez les flèches de la barre d’outils pour le déplacer vers le haut ou vers le bas.
+>Par défaut, le champ est inséré à la fin de l’arborescence actuelle.Il peut être déplacé vers le haut ou vers le bas en utilisant les flèches de la barre d’outils.
 
 ## Assistant de création de champs {#field-creation-assistant}
 
@@ -89,7 +89,7 @@ Dans une page de formulaire, vous pouvez insérer cinq types de champs texte :
 
   Lors de la validation de la page, le contenu des champs est contrôlé afin de vérifier que la valeur saisie est compatible avec le champ. Voir à ce sujet la section [Définir les paramètres de contrôle](form-rendering.md#defining-control-settings).
 
-* **Mot de passe** : permet à l&#39;utilisateur de saisir du texte sur une seule ligne. Lors de la saisie de texte, les caractères sont remplacés par des points :
+* **Mot de passe** : permet à l’utilisateur ou à l’utilisatrice de saisir du texte sur une seule ligne.Lors de la saisie, les caractères sont remplacés par des points :
 
   ![](assets/s_ncs_admin_survey_passwd_ex.png)
 
@@ -103,7 +103,7 @@ Dans une page de formulaire, vous pouvez insérer cinq types de champs texte :
 
   >[!CAUTION]
   >
-  >Les champs de texte multiligne sont des champs spécifiques pouvant contenir des retours à la ligne. Leur espace de stockage doit être associé à un champ mappé sur un élément XML et non sur un attribut XML.
+  >Les champs de texte multiligne sont des champs spécifiques pouvant contenir des retours à la ligne.Leur espace de stockage doit être associé à un champ mappé sur un élément XML et non sur un attribut XML.
   >   
 
 * **Texte multi-lignes enrichi** : permet à l&#39;utilisateur de saisir du texte avec une certaine disposition, qui sera stocké au format HTML.
@@ -126,7 +126,7 @@ Les champs de saisie sont tous paramétrés selon le même mode, au travers des 
 
 L&#39;onglet **[!UICONTROL Général]** permet de saisir le nom du champ et éventuellement de lui attribuer une valeur par défaut.
 
-Le mode de stockage des réponses peut être modifié à partir du lien **[!UICONTROL Modifier le stockage...]** . Les valeurs peuvent être stockées dans un champ existant de la base de données ou vous pouvez choisir de ne pas enregistrer d&#39;informations dans la base de données (utiliser une variable locale).
+Vous pouvez modifier le mode de stockage des réponses à partir du lien **[!UICONTROL Modifier le stockage…]**.Les valeurs peuvent être enregistrées dans un champ existant de la base de données, mais vous pouvez choisir de ne pas enregistrer les informations dans la base, en utilisant une variable locale.
 
 >[!NOTE]
 >
@@ -136,7 +136,7 @@ L&#39;onglet **[!UICONTROL Avancé]** permet de définir des paramètres d&#39;a
 
 ## Ajouter des listes déroulantes {#adding-drop-down-lists}
 
-Vous pouvez insérer une liste déroulante dans une page de questionnaire. Il peut ainsi sélectionner une valeur parmi celles proposées dans un menu déroulant.
+Vous pouvez insérer une liste déroulante dans une page de questionnaire.Elle permet à l’utilisateur ou à l’utilisatrice de sélectionner une valeur parmi celles proposées dans un menu déroulant.
 
 ![](assets/s_ncs_admin_survey_dropdown_sample.png)
 
@@ -196,13 +196,13 @@ Les informations seront chargées vers la base de données dans un champ existan
 
 ![](assets/s_ncs_admin_survey_check_box_ex_list.png)
 
-Si la case « Maintenance requise » est cochée, la colonne **[!UICONTROL Commentaire]** contient « Maintenance requise ». Si la case n’est pas cochée, la colonne affiche « Maintenance non requise ». Pour obtenir ce résultat, paramétrez la case à cocher de la page du formulaire comme suit :
+Si la case « Maintenance nécessaire » est cochée, la colonne **[!UICONTROL Commentaire]** contient le message « Maintenance nécessaire ».Si la case est décochée, elle contient le message « Maintenance non nécessaire ».Pour obtenir ce résultat, le paramétrage de la case à cocher doit être le suivant dans la page du formulaire :
 
 ![](assets/s_ncs_admin_survey_check_box_ex_edit.png)
 
 ## Ajouter des boutons radio {#adding-radio-buttons}
 
-Les boutons radio permettent de proposer à l&#39;utilisateur une série d&#39;options exclusives. Il s’agit de valeurs différentes pour le même champ.
+Les cases d’option permettent de proposer une série d’options à sélection exclusive.Il s’agit de valeurs différentes pour le même champ.
 
 ![](assets/s_ncs_admin_survey_radio_button.png)
 
@@ -226,16 +226,16 @@ Pour ajouter des boutons radio via une liste, sélectionnez le menu **[!UICONTRO
 
 ![](assets/s_ncs_admin_survey_radio_button_sample2.png)
 
-Ajoutez autant de boutons radio que de libellés. L&#39;avantage de cette fonctionnalité est que vous pouvez importer les valeurs d&#39;un champ existant (s&#39;il s&#39;agit d&#39;un champ énuméré) et permettre à l&#39;utilisateur de choisir une option. Toutefois, la disposition des boutons est moins flexible.
+Ajoutez autant de cases d’option que de libellés.L’avantage est de pouvoir importer les valeurs d’un champ existant, s’il s’agit d’un champ énuméré, et de permettre le choix d’une des options proposées.En revanche, la disposition des boutons est moins souple.
 
 >[!NOTE]
 >
->Vous ne pouvez pas activer la sélection multiple dans une application web.
->Il est toutefois possible d&#39;insérer un champ de type **[!UICONTROL Choix multiple]** dans une application web, mais cela ne permettra pas à l&#39;utilisateur de sélectionner plusieurs valeurs.
+>Il est impossible d’activer une sélection multiple dans une application web.
+>Il est toutefois possible d’y insérer un champ de type **[!UICONTROL Choix multiple]**, mais cela ne permettra pas à l’utilisateur ou à l’utilisatrice de sélectionner plusieurs valeurs.
 
 ## Ajouter des matrices {#adding-grids}
 
-Les matrices sont utilisées pour concevoir des pages de vote dans les applications Web. Vous pouvez ainsi proposer des listes de boutons radio pour répondre à des formulaires web de type questionnaire ou évaluation, comme dans l&#39;exemple ci-dessous :
+Les grilles servent à concevoir des pages de vote dans les applications web.Vous pouvez ainsi proposer des listes de cases d’option afin de répondre à des formulaires web de type questionnaire ou évaluation, comme dans l’exemple ci-dessous :
 
 ![](assets/s_ncs_admin_survey_vote_param.png)
 
@@ -255,7 +255,7 @@ Dans chaque ligne de matrice, une seule option peut être sélectionnée.
 
 ## Ajouter des dates et des nombres {#adding-dates-and-numbers}
 
-Le contenu des champs du formulaire peut être formaté pour correspondre aux données stockées dans la base de données ou pour répondre à un besoin particulier. Vous pouvez créer des champs appropriés pour la saisie de nombres et de dates.
+Le contenu des champs du formulaire peut être mis en forme afin de correspondre aux données stockées dans la base ou de répondre à un besoin spécifique.Vous pouvez créer des champs adaptés pour la saisie de nombres et de dates.
 
 ### Ajouter des dates {#adding-dates}
 
@@ -273,11 +273,11 @@ La section inférieure de la fenêtre permet de sélectionner les formats de dat
 
 Vous pouvez également choisir de ne pas afficher la date (ou l&#39;heure).
 
-Les dates peuvent être sélectionnées via un calendrier ou des listes déroulantes. Vous pouvez également les saisir directement dans le champ, mais elles doivent correspondre au format spécifié dans l’écran ci-dessus.
+Les dates peuvent être sélectionnées via un calendrier ou des listes déroulantes.Vous pouvez aussi les saisir directement dans le champ. Toutefois, elles doivent respecter le format spécifié dans l’écran ci-dessus.
 
 >[!NOTE]
 >
->Par défaut, les dates utilisées dans les formulaires sont saisies via un calendrier. Pour les formulaires multilingues, veuillez vérifier que les calendriers sont disponibles dans toutes les langues utilisées. Voir [Traduire un formulaire web](translating-a-web-form.md).
+>Par défaut, les dates utilisées dans les formulaires sont saisies via un calendrier.Dans le cadre de formulaires multilingues, nous vous invitons à vérifier que les calendriers sont disponibles pour toutes les langues utilisées.Voir [Traduire un formulaire web](translating-a-web-form.md).
 
 Toutefois, il peut être plus adapté, par exemple pour indiquer une date de naissance, d&#39;utiliser des listes déroulantes.
 
@@ -297,13 +297,13 @@ Vous pouvez créer des champs adaptés pour la saisie de nombres.
 
 ![](assets/s_ncs_admin_survey_number.png)
 
-Dans un champ numérique, l’utilisateur ne peut saisir que des chiffres. Le contrôle de saisie est automatiquement appliqué lors de la validation de la page.
+Dans un champ numérique, l’utilisateur ou l’utilisatrice ne peut saisir que des chiffres.Un contrôle de saisie est automatiquement appliqué lors de l’approbation de la page.
 
-Selon le champ de stockage des données dans la base de données, un formatage spécifique ou certaines restrictions peuvent être appliqués. Vous pouvez également spécifier des valeurs maximales et minimales. Ce type de champ est paramétré comme suit :
+En fonction du champ de stockage des données dans la base, une mise en forme spécifique ou certaines restrictions peuvent être appliquées.Vous pouvez également définir des valeurs minimales et maximales.Le paramétrage de ce type de champ est le suivant :
 
 ![](assets/s_ncs_admin_survey_number_edit.png)
 
-La valeur par défaut est la valeur affichée dans le champ lors de la publication du formulaire. Il peut être corrigé par l’utilisateur ou l’utilisatrice.
+La valeur par défaut est la valeur affichée dans le champ lors de la publication du formulaire.Elle peut être corrigée par l’utilisateur ou l’utilisatrice.
 
 Vous pouvez ajouter un préfixe et/ou un suffixe au champ numérique, à partir de l&#39;onglet **[!UICONTROL Avancé]**, comme dans l&#39;exemple suivant :
 
@@ -315,7 +315,7 @@ Dans le formulaire, le rendu sera :
 
 ## Cases à cocher d&#39;abonnement {#subscription-checkboxes}
 
-Vous pouvez ajouter des contrôles pour permettre aux utilisateurs de s&#39;abonner ou de se désabonner à un ou plusieurs services d&#39;information (newsletters, avertissements, notifications en temps réel, etc.). Pour vous abonner, l’utilisateur vérifie le service correspondant.
+Vous pouvez ajouter des contrôles pour permettre aux utilisateurs et utilisatrices de s’abonner à un ou plusieurs services d’information (newsletters, alertes, notifications en temps réel, etc.) ou de se désabonner.Pour s’abonner, la personne coche le service correspondant.
 
 Pour créer une case à cocher d&#39;abonnement, cliquez sur **[!UICONTROL Contrôles avancés > Abonnement]**.
 
@@ -347,7 +347,7 @@ Pour insérer un Captcha dans un formulaire, cliquez sur le premier bouton de la
 
 ![](assets/s_ncs_admin_survey_add_captcha.png)
 
-Saisissez le libellé du champ. Ce libellé s’affiche devant la zone d’affichage du captcha. Vous pouvez modifier le positionnement de ce libellé à partir de l&#39;onglet **[!UICONTROL Avancé]**.
+Saisissez le libellé du champ.Ce libellé sera affiché devant la zone d’affichage du captcha.Vous pouvez modifier le positionnement de ce libellé à partir de l&#39;onglet **[!UICONTROL Avancé]**.
 
 ![](assets/s_ncs_admin_survey_captcha_adv.png)
 
@@ -355,7 +355,7 @@ Saisissez le libellé du champ. Ce libellé s’affiche devant la zone d’affic
 >
 >Pour les contrôles de type **[!UICONTROL captcha]**, il n&#39;est pas nécessaire d&#39;indiquer de champ ou variable de stockage.
 
-Le Captcha est inséré dans la page avec un champ de saisie placé sous le visuel. Ces deux éléments sont inséparables et sont considérés comme un seul élément pour la mise en page (ils occupent une seule cellule).
+Le captcha est inséré dans la page avec un champ de saisie placé sous le visuel.Ces deux éléments sont indissociables : pour la mise en page, ils sont considérés comme un seul élément (ils n’occupent qu’une seule cellule).
 
 ![](assets/s_ncs_admin_survey_captcha_sample.png)
 
@@ -369,19 +369,19 @@ Vous pouvez créer un message d’erreur à afficher. Pour cela, utilisez le lie
 
 >[!NOTE]
 >
->Les captchas font toujours 8 caractères. Vous ne pouvez pas modifier cette valeur.
+>Les captchas font toujours 8 caractères.Vous ne pouvez pas modifier cette valeur.
 
 ## Télécharger un fichier {#uploading-a-file}
 
-Vous pouvez ajouter un champ de chargement à une page. Cette fonctionnalité peut être utile pour le partage de fichiers sur un intranet, par exemple.
+Vous pouvez ajouter un champ de chargement à une page.Cette fonctionnalité peut être utile, par exemple dans le contexte d’un intranet, afin de partager des fichiers.
 
 ![](assets/s_ncs_admin_survey_download_file.png)
 
 Pour ajouter un champ de téléchargement dans une page de formulaire, sélectionnez le menu **[!UICONTROL Contrôles avancés > Fichier...]** dans la barre d&#39;outils de l&#39;éditeur de page.
 
-Par défaut, les fichiers chargés sont stockés dans des fichiers de ressources accessibles via le menu **[!UICONTROL Ressources > En ligne > Ressources publiques]**. Vous pouvez utiliser un script pour modifier ce comportement. Ce script peut utiliser les fonctions définies dans la [documentation JSAPI Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=fr) notamment celles relatives à la manipulation des fichiers.
+Par défaut, les fichiers chargés sont stockés dans des fichiers de ressources accessibles via le menu **[!UICONTROL Ressources > En ligne > Ressources publiques]**.Vous pouvez utiliser un script pour modifier ce comportement.Ce script peut utiliser les fonctions définies dans la [documentation JSAPI Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=fr) notamment celles relatives à la manipulation des fichiers.
 
-Vous pouvez stocker le lien vers ces fichiers dans une variable locale ou dans un champ de la base de données. Vous pouvez, par exemple, étendre le schéma des destinataires afin d’ajouter un lien vers les ressources basées sur des fichiers.
+Vous pouvez stocker le lien vers ces fichiers dans une variable locale ou dans un champ de base de données.Vous pouvez, par exemple, étendre le schéma des destinataires afin d’ajouter un lien vers les ressources fichiers.
 
 >[!CAUTION]
 >

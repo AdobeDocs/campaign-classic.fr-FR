@@ -16,9 +16,9 @@ subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 124
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 77%
 
 Le Digital Content Editor propose **des modèles standards** pour les applications Web et les diffusions.
 
-Lors de la création d&#39;une application Web de type Landing Page, l&#39;utilisateur peut choisir un de ces modèles. Vous pouvez également importer un modèle HTML créé en dehors d’Adobe Campaign.
+Lors de la création d’une application web de type Page de destination, l’utilisateur ou l’utilisatrice peut choisir un de ces modèles.Vous pouvez également importer un modèle HTML créé en dehors d’Adobe Campaign.
 
 ![](assets/dce_popup_templatechoice.png)
 

@@ -10,9 +10,9 @@ product_v2:
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 177
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Cet élément permet de définir un paramètre d&#39;un appel à une méthode S
 ## Description des attributs {#attribute-description-12}
 
 * **desc (string)** : description qui concerne l’élément `<param>`.
-* **inout (string)** : cet attribut définit si le paramètre est à l’entrée (in) ou à la sortie (out) de l’appel SOAP. Si cet attribut n&#39;est pas spécifié, le paramètre par défaut est input (« @inout=in »).
+* **inout (string)** : cet attribut définit si le paramètre est en entrée (in) ou en sortie (out) de l’appel SOAP.Si cet attribut n’est pas précisé, le paramètre est par défaut en entrée (« @inout=in »).
 * **label (string)** : libellé `<param>`
 * **localizable (string)**: s&#39;il est activé, cet attribut indique à l&#39;outil de collecte de récupérer la valeur de l&#39;attribut &quot;@label&quot; pour traduction (usage interne).
 * **name (MNTOKEN)**: nom interne du `<param>`

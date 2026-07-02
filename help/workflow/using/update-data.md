@@ -18,7 +18,7 @@ subfeature_v2:
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 949
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -74,9 +74,9 @@ Dans le cadre d&#39;une opération de type **[!UICONTROL Ajouter ou mettre à jo
 
 Les champs **[!UICONTROL modifiedDate]**, **[!UICONTROL modifiedBy]**, **[!UICONTROL createdDate]** et **[!UICONTROL createdBy]** sont automatiquement mis à jour lors d&#39;une mise à jour de données, sauf si leur gestion est explicitement paramétrée dans le tableau de mise à jour des champs.
 
-La mise à jour des enregistrements n&#39;est effectuée que pour les enregistrements contenant au moins une différence. Si les valeurs sont identiques, aucune mise à jour n’est effectuée.
+La mise à jour des enregistrements n’est effectuée que pour les enregistrements contenant au moins une différence. Si les valeurs sont les mêmes, aucune mise à jour n’est effectuée.
 
-Le lien **[!UICONTROL Paramètres avancés]** vous permet de spécifier des options supplémentaires pour gérer la mise à jour des données ainsi que la gestion des doublons. Vous pouvez également :
+Le lien **[!UICONTROL Paramètres avancés]** vous permet de spécifier des options supplémentaires pour le traitement des données mises à jour ainsi que pour la gestion des doublons. Vous pouvez également effectuer les actions suivantes :
 
 * **[!UICONTROL Désactiver la gestion automatique des clés]**.
 * **[!UICONTROL Désactiver l&#39;audit]**.
@@ -87,19 +87,19 @@ Le lien **[!UICONTROL Paramètres avancés]** vous permet de spécifier des opti
 
 **[!UICONTROL Générer une transition sortante]**
 
-Crée une transition sortante qui sera activée en fin d&#39;exécution. La mise à jour marque généralement la fin d’un workflow de ciblage et l’option n’est donc pas activée par défaut.
+Crée une transition sortante qui sera activée à la fin de l’exécution. La mise à jour marque généralement la fin d’un workflow de ciblage et l’option n’est donc pas activée par défaut.
 
 **[!UICONTROL Générer une transition sortante pour les rejets]**
 
-Crée une transition sortante contenant des enregistrements qui n&#39;ont pas été correctement traités après la mise à jour (par exemple s&#39;il y a un doublon). La mise à jour marque généralement la fin d’un workflow de ciblage et, par conséquent, l’option n’est pas activée par défaut.
+Crée une transition sortante qui contient les enregistrements qui n’ont pas été correctement traités après la mise à jour (par exemple en cas de doublon). La mise à jour marque généralement la fin d’un workflow de ciblage et l’option n’est donc pas activée par défaut.
 
 ## Mise à jour et fusion des collections {#updating-and-merging-collections}
 
-La mise à jour des données et la fusion des collections permet de mettre à jour les données contenues dans un enregistrement en utilisant les données d&#39;un ou de plusieurs enregistrements secondaires, dans le but d&#39;en conserver un seul si vous le souhaitez. Ces mises à jour sont gérées par un ensemble de règles.
+La mise à jour des données et la fusion des collections vous permet de mettre à jour les données contenues dans un enregistrement à l’aide de données provenant d’un ou plusieurs enregistrements secondaires, afin de n’en conserver qu’un seul si vous le souhaitez. Ces mises à jour sont gérées par un ensemble de règles.
 
 >[!NOTE]
 >
->Cette option permet également de traiter les références aux enregistrements secondaires depuis les tables de travail du workflow (targetWorkflow), les diffusions (targetDelivery) et les listes (targetList). Si nécessaire, ces liens apparaissent dans la liste de sélection des champs et collections.
+>Cette option vous permet également de traiter les références aux enregistrements secondaires des tables de travail des workflows (targetWorkflow), des diffusions (targetDelivery) et des listes (targetList). Le cas échéant, ces liens apparaissent dans la liste de sélection des champs et collections.
 
 1. Sélectionnez le type d&#39;opération **[!UICONTROL Mettre à jour et fusionner les collections]**.
 
@@ -111,19 +111,19 @@ La mise à jour des données et la fusion des collections permet de mettre à jo
 
 1. Indiquez les collections à déplacer vers l&#39;enregistrement primaire et les champs à mettre à jour.
 
-   Renseignez également les règles s&#39;appliquant à ces derniers lorsqu&#39;un ou plusieurs enregistrements secondaires sont identifiés. Pour ce faire, vous pouvez utiliser le créateur d’expressions. Voir à ce propos cette [section](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign). Par exemple, en indiquant que c&#39;est la valeur mise à jour le plus récemment parmi les différents enregistrements qui doit être conservée.
+   Renseignez également les règles s&#39;appliquant à ces derniers lorsqu&#39;un ou plusieurs enregistrements secondaires sont identifiés. Pour ce faire, vous pouvez utiliser le générateur d’expressions. Voir à ce propos cette [section](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign). Par exemple, en indiquant que c&#39;est la valeur mise à jour le plus récemment parmi les différents enregistrements qui doit être conservée.
 
    Indiquez ensuite les conditions de prise en compte de la règle.
 
-   Enfin, indiquez le type de mise à jour à effectuer. Par exemple, vous pouvez choisir de supprimer les enregistrements secondaires après la mise à jour des données.
+   Enfin, indiquez le type de mise à jour à effectuer. Vous pouvez par exemple choisir de supprimer les enregistrements secondaires après la mise à jour des données.
 
-   Vous pouvez par exemple paramétrer la fusion de collections contenant des données hétérogènes telles que la liste des abonnements pour un destinataire. Les règles vous permettent également de créer de nouveaux historiques d&#39;abonnement à partir d&#39;enregistrements secondaires ou même de déplacer la liste des abonnements d&#39;un enregistrement secondaire vers un enregistrement principal.
+   Vous pouvez par exemple configurer la fusion de collections contenant des données hétérogènes telles que la liste des abonnements d’une personne destinataire. Grâce aux règles, vous pouvez ainsi créer des historiques d’abonnements à partir des abonnements des enregistrements secondaires, ou encore déplacer la liste des abonnements d’un enregistrement secondaire vers un enregistrement primaire.
 
 1. Indiquez éventuellement l&#39;ordre dans lequel vous souhaitez que les enregistrements secondaires soient traités, en sélectionnant **[!UICONTROL Paramètres avancés]** > **[!UICONTROL Doublons]**.
 
    ![](assets/update_and_merge_collections3.png)
 
-Les données des enregistrements secondaires sont associées à l&#39;enregistrement principal si les règles définies sont applicables. En fonction du type de mise à jour sélectionné, les enregistrements secondaires peuvent être supprimés.
+Les données des enregistrements secondaires sont associées à l’enregistrement principal si les règles définies sont applicables. En fonction du type de mise à jour sélectionné, les enregistrements secondaires peuvent être supprimés.
 
 ## Exemple : mise à jour de données suite à un enrichissement {#example--update-data-following-an-enrichment}
 

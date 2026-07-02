@@ -28,15 +28,15 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 711
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
 # Utilisation des droits nommés pour la configuration des autorisations{#named-rights}
 
-Par défaut, Adobe Campaign propose un ensemble de droits nommés qui permettent de définir les autorisations attribuées aux opérateurs et groupes d&#39;opérateurs. Ces droits peuvent être modifiés à partir du nœud **[!UICONTROL Administration > Gestion des accès > Droits nommés]** de l&#39;arborescence.
+Par défaut, Adobe Campaign propose un ensemble de droits nommés qui permettent de définir les autorisations attribuées aux opérateurs et opératrices et groupes d’opérateurs et d’opératrices.Ces droits peuvent être modifiés à partir du nœud d’arborescence **[!UICONTROL Administration > Gestion des accès > Droits nommés]**.
 
 ![](assets/s_ncs_admin_named_rights.png)
 
@@ -46,13 +46,13 @@ Ces droits sont les suivants :
 
   >[!IMPORTANT]
   >
-  >**Après la migration vers IMS :** une fois la migration vers Adobe Identity Management System (IMS) terminée, tout profil de produit ou droit nommé contenant le mot « admin » dans son nom (par exemple, « Administrateurs », « admin », « admins », etc.) accordera automatiquement l&#39;accès au Panneau de Contrôle Campaign. Nous vous recommandons d’éviter l’utilisation de « admin » dans les noms de droits ou de rôles nommés, sauf si vous avez l’intention d’accorder un accès par Panneau de Contrôle à ces utilisateurs. En savoir plus sur la [migration IMS](../../technotes/using/migrate-users-to-ims.md) et la [gestion de l’accès aux Panneaux de Contrôle &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr){target="_blank"}.
+  >**Après la migration vers IMS :** une fois la migration vers le système de gestion des identités (IMS) d’Adobe terminée, tout profil de produit ou droit nommé contenant le mot « admin » dans son nom (par exemple, « Administrateurs et administratrices », « admin », « admins », etc.)accorde automatiquement l’accès au panneau de contrôle de campagne.Nous vous recommandons d’éviter d’utiliser « admin » dans les noms de droits ou de rôles nommés, sauf si vous avez l’intention d’accorder un accès par panneau de contrôle à ces utilisateurs ou utilisatrices.En savoir plus sur la [migration IMS](../../technotes/using/migrate-users-to-ims.md) et la [gestion de l’accès au panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr){target="_blank"}.
 
 * **[!UICONTROL ADMINISTRATION DES VALIDATIONS]** : vous pouvez définir plusieurs étapes de validation dans les workflows et les diffusions pour vous assurer que l’état actuel a été validé par un opérateur ou un groupe affecté. Les utilisateurs disposant du droit **[!UICONTROL ADMINISTRATION DES VALIDATIONS]** peuvent définir les étapes de validation et affecter un opérateur ou un groupe d’opérateurs chargé de valider ces étapes.
 
   >[!IMPORTANT]
   >
-  >**Après la migration vers IMS :** les profils de produit ou les droits nommés contenant le mot « admin » (par exemple, « Administrateur d’approbation ») accordent l’accès au Panneau de Contrôle Campaign. En savoir plus sur la [migration IMS](../../technotes/using/migrate-users-to-ims.md) et la [gestion de l’accès aux Panneaux de Contrôle &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr){target="_blank"}.
+  >**Après la migration vers IMS :** les profils de produit ou les droits nommés contenant le mot « admin » (par exemple, « Administrateur ou administratrice d’approbation ») accordent l’accès au panneau de contrôle de campagne.En savoir plus sur la [migration IMS](../../technotes/using/migrate-users-to-ims.md) et la [gestion de l’accès au panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr){target="_blank"}.
 
 * **[!UICONTROL CENTRAL]** : droit de gestion en central (Marketing distribué).
 

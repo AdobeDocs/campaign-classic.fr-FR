@@ -20,15 +20,15 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 200
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
 # Utiliser des modèles de diffusion {#about-templates}
 
-Une configuration de diffusion peut être enregistrée dans un modèle de diffusion afin d’être réutilisée. Le modèle peut contenir une configuration complète ou partielle de la diffusion.
+La configuration d’une diffusion peut être sauvegardée dans un modèle de diffusion afin d’être réutilisée.Le modèle peut contenir une configuration complète ou partielle de la diffusion.
 
 ![](assets/s_user_template_list.png)
 

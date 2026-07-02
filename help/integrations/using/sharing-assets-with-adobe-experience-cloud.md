@@ -19,15 +19,15 @@ subfeature_v2:
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 190
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 # Partage de ressources avec Adobe Experience Cloud{#sharing-assets-with-adobe-experience-cloud}
 
-[Experience Cloud Assets](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/audiences/overview){target="_blank"} fournit un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager dans toutes les solutions. Une ressource est un document numérique, une image, une vidéo ou un fichier audio.
+[Ressources Experience Cloud](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/audiences/overview){target="_blank"} fournit un référentiel unique et centralisé de ressources prêtes pour le marketing que vous pouvez partager dans toutes les solutions.Une ressource est un document numérique, une image, une vidéo ou un fichier audio.
 
 Les services de ressources comprennent ce qui suit :
 

@@ -19,9 +19,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 8f9e8344b77e50bd2823cc7fa3922466e515327f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 763
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Vous pouvez utiliser ce Tomcat intégré pour servir des requêtes HTTP.
 Dans ce cas :
 
 * le port d’écoute par défaut est 8080. Pour savoir comment le modifier, consultez [cette section](../../installation/using/configure-tomcat.md).
-* Vos consoles clientes se connectent alors en utilisant une URL de type `https://` `<computer>` `:8080`.
+* Vos consoles clientes se connectent alors en utilisant une URL de type `https://``<computer>``:8080`.
 
 Cependant, pour des raisons de sécurité et d&#39;administration, il est conseillé d&#39;utiliser un véritable serveur Web comme point d&#39;entrée principal pour le trafic HTTP lorsque la machine qui fait tourner Adobe Campaign est exposée sur Internet et que vous voulez donner un accès à la console depuis l&#39;extérieur de votre réseau.
 
@@ -143,5 +143,5 @@ Par exemple, si vous utilisez une activité de type **Chargement (fichier)** dan
 
 Vous devez, dans ce cas, augmenter cette limite.
 
-Pour plus d&#39;informations sur cette option Microsoft IIS, consultez la section « Comment faire » de la documentation de [Microsoft](https://learn.microsoft.com/fr-fr/iis/configuration/system.webServer/security/requestFiltering/requestLimits/){target="_blank"}.
+Pour plus d’informations sur cette option Microsoft IIS, consultez la section « Comment faire » de la [documentation Microsoft](https://learn.microsoft.com/fr-fr/iis/configuration/system.webServer/security/requestFiltering/requestLimits/){target="_blank"}.
 

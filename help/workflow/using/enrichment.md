@@ -14,9 +14,9 @@ subfeature_v2:
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1431
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 72%
 
 
 
-L&#39;activité **[!UICONTROL Enrichissement]** permet d&#39;ajouter des informations à une liste de profils et des liens vers une table existante (créer une nouvelle jointure). Des critères de réconciliation avec les profils de la base de données peuvent également être définis.
+L’activité **[!UICONTROL Enrichissement]** permet d’ajouter des informations à une liste de profils et des liens vers une table existante (créer une nouvelle jointure).Des critères de réconciliation avec les profils de la base de données peuvent également être définis.
 
 ![](assets/enrichment_design.png)
 
@@ -48,12 +48,12 @@ L&#39;option **[!UICONTROL Un lien]** permet de créer une jointure sur n&#39;im
 Il existe quatre types de liens :
 
 * **[!UICONTROL Définir une collection]** : permet de définir un lien avec une cardinalité 1-N entre les tables.
-* **[!UICONTROL Définir un lien dont la cible est toujours présente]** : permet de définir un lien avec une cardinalité 1-1 entre les tables. Les conditions de jointure doivent être définies par un seul enregistrement dans la table cible.
-* **[!UICONTROL Définir un lien dont la cible peut ne pas exister dans la base]** : permet de définir un lien avec une cardinalité 0-1 entre les tables. La condition de jointure doit être définie par 0 ou 1 (max.) enregistrement dans la table cible.
+* **[!UICONTROL Définir un lien dont la cible est toujours présente]** : permet de définir un lien avec une cardinalité 1-1 entre les tables.Les conditions de jointure doivent être définies par un seul enregistrement dans la table cible.
+* **[!UICONTROL Définir un lien dont la cible peut ne pas exister dans la base]** : permet de définir un lien avec une cardinalité 0-1 entre les tables.La condition de jointure doit être définie par 0 ou 1 (max.)enregistrement dans la table cible.
 
   Cette option est configurée dans l&#39;onglet **[!UICONTROL Jointure Simple]**, accessible par le lien **[!UICONTROL Editer les données additionnelles]** de l&#39;activité **[!UICONTROL Enrichissement]**.
 
-* **[!UICONTROL Définir un lien en recherchant une référence parmi plusieurs possibilités]** : ce type de lien définit une réconciliation vers un enregistrement unique. Adobe Campaign crée un lien vers une table cible en ajoutant une clé étrangère dans la table cible permettant de stocker une référence à l&#39;enregistrement unique.
+* **[!UICONTROL Définir un lien à travers la recherche d’une référence entre plusieurs options]** : ce type de lien définit une réconciliation vers un enregistrement unique.Adobe Campaign crée un lien vers une table cible en ajoutant une clé étrangère permettant de stocker une référence vers l’enregistrement unique.
 
   Cette option est configurée dans l&#39;onglet **[!UICONTROL Réconciliation &amp; déduplication]**, accessible par le lien **[!UICONTROL Editer les données additionnelles]** de l&#39;activité **[!UICONTROL Enrichissement]**.
 
@@ -71,7 +71,7 @@ Le paramétrage des colonnes additionnelles est présenté dans la section [Ajou
 
 Le champ **[!UICONTROL Ensemble principal]** permet de sélectionner la transition entrante : ce sont les données de la table de travail de cette activité qui seront enrichies.
 
-Cliquez sur le lien **[!UICONTROL Ajouter des données]** et sélectionnez le type de données à ajouter. La liste des types de données proposés dépend des modules et options installés sur votre plateforme. Dans une configuration minimale, vous pouvez toujours ajouter des données liées à la dimension de filtrage et un lien.
+Cliquez sur le lien **[!UICONTROL Ajouter des données]** et sélectionnez le type de données à ajouter.La liste des types de données proposés dépend des modules et options installés sur votre plateforme.Dans une configuration minimale, vous pouvez toujours ajouter des données liées à la dimension de filtrage et un lien.
 
 ![](assets/enrichment_edit.png)
 
@@ -99,7 +99,7 @@ Le schéma correspondant a également été enrichi.
 
 ## Gérer les données additionnelles {#managing-additional-data}
 
-Désélectionnez l&#39;option **[!UICONTROL Conserver toutes les données additionnelles de l&#39;ensemble principal]** si vous ne souhaitez pas conserver les données additionnelles définies précédemment. Dans ce cas, seules les colonnes supplémentaires sélectionnées dans l&#39;activité d&#39;enrichissement seront ajoutées à la table de travail sortante. Les informations supplémentaires ajoutées aux activités en amont ne seront pas enregistrées.
+Désélectionnez l’option **[!UICONTROL Conserver toutes les données additionnelles de l’ensemble principal]** si vous ne souhaitez pas conserver les données additionnelles définies précédemment.Dans ce cas, seules les colonnes supplémentaires sélectionnées dans l’activité d’enrichissement seront ajoutées à la table de travail sortante.Les informations supplémentaires ajoutées aux activités en amont ne seront pas enregistrées.
 
 ![](assets/enrichment_edit_without_additional.png)
 
@@ -132,7 +132,7 @@ Pour cela, les étapes sont les suivantes :
 
    ![](assets/enrichment_edit_after_file_box.png)
 
-1. Sélectionnez l’option **[!UICONTROL Définition du lien]** et cliquez sur le bouton **[!UICONTROL Suivant]**. Indiquez le type de lien à créer. Dans cet exemple, nous allons réconcilier le pays du destinataire du fichier avec un pays de la liste des pays disponibles dans le tableau dédié de la base de données. Vous devez donc choisir l&#39;option **[!UICONTROL Définir un lien en recherchant une référence parmi plusieurs possibilités]**. Sélectionnez la table des pays dans le champ **[!UICONTROL Schéma cible]**.
+1. Sélectionnez l’option **[!UICONTROL Définition du lien]** et cliquez sur le bouton **[!UICONTROL Suivant]**.Spécifiez le type de lien à créer.Dans cet exemple, nous allons réconcilier le pays de la personne destinataire du fichier avec un pays dans la liste des pays disponibles de la table dédiée de la base de données.Vous devez donc choisir l&#39;option **[!UICONTROL Définir un lien en recherchant une référence parmi plusieurs possibilités]**. Sélectionnez la table des pays dans le champ **[!UICONTROL Schéma cible]**.
 
    ![](assets/enrichment_add_a_link_select_option4.png)
 
@@ -175,9 +175,9 @@ Après avoir paramétré votre requête (voir cette [section](query.md)) :
    ![](assets/int_enrichment_offer2.png)
 
 1. Indiquez un identifiant ainsi qu&#39;un libellé pour la proposition qui sera ajoutée.
-1. Définissez la sélection d’offres. Deux options sont possibles :
+1. Définissez la sélection de l’offre.Deux options sont possibles :
 
-   * **[!UICONTROL Rechercher la meilleure offre dans une catégorie]** : cochez cette option et définissez les paramètres de l&#39;appel au moteur d&#39;offres (emplacement, catégorie ou thème(s), date de contact, nombre d&#39;offres à conserver). Le moteur calculera automatiquement la ou les offres à ajouter en fonction de ces paramètres. Nous vous recommandons de renseigner soit le champ **[!UICONTROL Catégorie]**, soit le champ le **[!UICONTROL Thème]**, plutôt que les deux à la fois.
+   * **[!UICONTROL Rechercher la meilleure offre dans une catégorie]** : cochez cette option et définissez les paramètres de l’appel au moteur d’offres (emplacement, catégorie ou thématique, date de contact, nombre d’offres à conserver).Le moteur calculera automatiquement la ou les offres à ajouter en fonction de ces paramètres. Nous vous recommandons de renseigner soit le champ **[!UICONTROL Catégorie]**, soit le champ le **[!UICONTROL Thème]**, plutôt que les deux à la fois.
 
      ![](assets/int_enrichment_offer3.png)
 
@@ -199,11 +199,11 @@ Pour cela :
 
 1. Dans l&#39;onglet **[!UICONTROL Enrichissement]** de l&#39;activité, sélectionnez **[!UICONTROL Ajouter des données]**.
 1. Dans la fenêtre de sélection du type de données à ajouter, choisissez **[!UICONTROL Un lien]**.
-1. Sélectionnez le type de lien que vous souhaitez établir ainsi que sa cible. Dans ce cas, la cible est le schéma d&#39;offre.
+1. Sélectionnez le type du lien que vous souhaitez établir ainsi que sa cible.Dans ce cas, la cible est le schéma de l’offre.
 
    ![](assets/int_enrichment_link1.png)
 
-1. Indiquez la jointure entre les données de la table entrante dans l&#39;activité d&#39;enrichissement (ici la table des destinataires) et la table des offres. Vous pouvez, par exemple, lier un code d’offre à un destinataire.
+1. Définissez la jointure entre les données de la table entrante dans l’activité d’enrichissement (ici la table de destinataire) et la table d’offre.Vous pouvez, par exemple, lier un code d’offre à une personne destinataire.
 
    ![](assets/int_enrichment_link2.png)
 

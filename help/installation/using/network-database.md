@@ -16,9 +16,9 @@ topic_v2:
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 138
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Vous devez appliquer les bonnes pratiques en matière de sécurité au moteur de
 
 ## Configuration de SSL/TLS
 
-Pour vérifier le certificat, vous pouvez utiliser openssl. Pour vérifier les chiffrements actifs, vous pouvez utiliser nmap :
+Pour vérifier le certificat, vous pouvez utiliser openssl.Pour vérifier les chiffrements actifs, vous pouvez avoir recours à nmap :
 
 ```
 #!/bin/sh

@@ -26,9 +26,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1009
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -320,7 +320,7 @@ La fonction d&#39;enregistrement permet :
 
 +++**Suivi des notifications silencieuses**
 
-iOS permet d&#39;envoyer des notifications silencieuses, une notification ou des données qui seront directement envoyées à une application mobile sans les afficher. Adobe Campaign permet de les tracker.
+iOS vous permet d’envoyer des notifications silencieuses, des notifications ou des données qui seront directement envoyées à une application mobile sans les afficher.Adobe Campaign vous permet de les suivre.
 
 Pour suivre votre notification silencieuse, suivez l&#39;exemple ci-après.
 
@@ -376,7 +376,7 @@ Le prototype de **registerDeviceStatus** est le suivant :
 
 Le **Statut** vous permet de déterminer si un enregistrement a été effectué avec succès ou si une erreur s’est produite.
 
-**ErrorReason** vous fournit plus d’informations sur les erreurs qui se sont produites. Pour plus d’informations sur les erreurs disponibles et leur description, reportez-vous au tableau ci-dessous.
+**ErrorReason** vous fournit des informations supplémentaires sur les erreurs qui se sont produites.Pour plus d’informations sur les erreurs disponibles et leur description, reportez-vous au tableau ci-dessous.
 
 <table> 
  <thead>
@@ -652,7 +652,7 @@ A ce niveau, vous devez effectuer les opérations suivantes :
 
 * Associer votre extension de contenu à la catégorie envoyée par Adobe Campaign :
 
-  Si vous souhaitez que votre application mobile affiche une image, vous pouvez définir la valeur de la catégorie sur « image » dans Adobe Campaign et, dans votre application mobile, vous créez une extension de notification avec le paramètre **UNNotificationExtensionCategory** défini sur « image ». Lorsque la notification push est reçue sur l’appareil, l’extension est appelée en fonction de la valeur de catégorie définie.
+  Si vous souhaitez que l’application mobile affiche une image, vous pouvez définir la valeur de la catégorie sur « image » dans Adobe Campaign et dans votre application mobile, vous créez une extension de notification avec le paramètre **UNNotificationExtensionCategory** défini sur « image ».Lorsque la notification push est reçue sur l’appareil, l’extension est appelée selon la valeur de la catégorie définie.
 
 * Définir la mise en page de la notification
 
@@ -660,7 +660,7 @@ A ce niveau, vous devez effectuer les opérations suivantes :
 
 * Afficher le contenu multimédia
 
-  Vous devez ajouter du code pour alimenter le widget avec les données multimédia. Voici un exemple de code pour une image :
+  Vous devez ajouter du code pour alimenter le widget avec les données multimédia.Voici un exemple de code pour une image :
 
   ```
   #import "NotificationViewController.h"

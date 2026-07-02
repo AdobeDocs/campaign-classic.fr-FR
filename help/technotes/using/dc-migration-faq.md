@@ -22,9 +22,9 @@ topic_v2:
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2269
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Les incidences globales sur la base de données et l’infrastructure sont répe
 
 * **Existe-t-il des différences de taille du package entre l’ancien centre de données et le cloud public ?**
 
-  Nous fournissons de nouvelles définitions de package dans le cloud public (AWS) en fonction de la taille actuelle de la base de données, de la taille du disque, etc. Par exemple, si un client dispose d’un serveur d’applications dans les anciens centres de données, il peut disposer de deux serveurs d’applications dans le cloud public (AWS) en fonction des définitions de package.
+  Nous procédons à l’approvisionnement dans le cloud public (AWS) avec de nouvelles définitions de packages basées sur la taille actuelle de la base de données, la taille du disque, etc. Par exemple, si un client dispose d’un serveur applicatif dans les anciens centres de données, il peut utiliser deux serveurs applicatifs dans le cloud public (AWS) en fonction des définitions de package.
 
 * **Le numéro de build ou la version de Campaign vont-ils changer ?**
 

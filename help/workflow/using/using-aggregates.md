@@ -16,7 +16,7 @@ subfeature_v2:
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 673
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 64%
 
 Ce cas pratique présente l&#39;identification automatique des derniers destinataires ajoutés dans la base.
 
-En utilisant le processus suivant, la date de création des destinataires dans la base de données est comparée à la dernière date connue à laquelle un destinataire a été créé à l’aide d’un agrégat. Tous les destinataires créés le même jour seront également sélectionnés.
+Pour cela, la date de création des personnes destinataires dans la base de données est comparée à la dernière date connue à laquelle une personne destinataire a été créée à l’aide d’un agrégat. Toutes les personnes destinataires créées le même jour seront également sélectionnées.
 
 Pour parvenir à effectuer un filtre du type **Date de création = max (Date de création)** sur les destinataires, il est nécessaire de passer par un workflow afin de réaliser les étapes suivantes :
 
@@ -39,16 +39,16 @@ Pour parvenir à effectuer un filtre du type **Date de création = max (Date de 
 
 ## Etape 1 : calculer le résultat de l&#39;agrégat {#step-1--calculating-the-aggregate-result}
 
-1. Créez une requête. Ici, l&#39;objectif est de calculer la dernière date de création connue de tous les destinataires dans la base de données. La requête ne contient donc pas de filtre.
+1. Créez une requête. Ici, l’objectif est de calculer la dernière date de création connue parmi la totalité des personnes destinataires de la base de données. La requête ne contient donc pas de filtre.
 1. Sélectionnez **[!UICONTROL Ajouter des données]**.
 1. Dans les fenêtres successives, sélectionnez **[!UICONTROL Données liées à la dimension de filtrage]** puis **[!UICONTROL Données de la dimension de filtrage]**.
 1. Dans la fenêtre **[!UICONTROL Données à ajouter]**, ajoutez une colonne calculant la valeur maximale du champ **Date de création** de la table des destinataires. Vous pouvez vous aider de l&#39;éditeur d&#39;expression ou entrer directement **max(@created)** à hauteur du champ **[!UICONTROL Expression]**. Cliquez ensuite sur le bouton **[!UICONTROL Terminer]**.
 
    ![](assets/datamanagement_usecase_2.png)
 
-1. Cliquez sur **[!UICONTROL Editer les données additionnelles]** puis **[!UICONTROL Paramètres avancés...]**. Cochez l&#39;option **[!UICONTROL Désactiver l&#39;ajout automatique des clés primaires de la dimension de ciblage]** .
+1. Cliquez sur **[!UICONTROL Modifier les données supplémentaires]**, puis sur **[!UICONTROL Paramètres avancés…]**. Cochez l’option **[!UICONTROL Désactiver l’ajout automatique des clés primaires de la dimension de ciblage]**.
 
-   Cette option garantit que tous les destinataires ne sont pas affichés comme résultat et que les données ajoutées explicitement ne sont pas conservées. Dans ce cas, il fait référence à la dernière date à laquelle un destinataire a été créé.
+   Cette option permet de ne pas renvoyer toutes les personnes destinataires comme résultat et de ne conserver que les données explicitement ajoutées. Dans le cas présent, il s’agit de la dernière date à laquelle une personne destinataire a été créée.
 
    Laissez l&#39;option **[!UICONTROL Supprimer les doublons (DISTINCT)]** cochée.
 
@@ -59,7 +59,7 @@ Afin de lier la requête portant sur les destinataires à la requête servant au
 1. Définissez la requête portant sur les destinataires comme ensemble principal.
 1. Dans l&#39;onglet **[!UICONTROL Liens]**, ajoutez un nouveau lien et renseignez la fenêtre qui s&#39;ouvre de la manière suivante :
 
-   * Sélectionnez le schéma temporaire correspondant à l&#39;agrégat. Les données de ce schéma seront ajoutées aux membres de l&#39;ensemble principal.
+   * Sélectionnez le schéma temporaire correspondant à l’agrégat. Les données de ce schéma seront ajoutées aux membres de l’ensemble principal.
    * Sélectionnez **[!UICONTROL Utiliser une jointure simple]** afin d&#39;associer le résultat de l&#39;agrégat à chaque destinataire de l&#39;ensemble principal.
    * Indiquez enfin que le lien est un **[!UICONTROL Lien simple de type 11]**.
 
@@ -69,13 +69,13 @@ Le résultat de la fonction d&#39;agrégation est ainsi lié à chaque destinata
 
 ## Etape 3 : filtrer les destinataires à l&#39;aide de l&#39;agrégat {#step-3--filtering-recipients-using-the-aggregate-}
 
-Une fois le lien établi, le résultat de l&#39;agrégat et les destinataires font partie d&#39;un même schéma temporaire. Il est donc possible de créer un filtre sur le schéma pour comparer la date de création des destinataires et la dernière date de création connue, représentée par la fonction d&#39;agrégation. Ce filtre est réalisé à l&#39;aide d&#39;une activité de partage.
+Une fois le lien établi, le résultat de l’agrégat et les personnes destinataires font partie du même schéma temporaire. Il est alors possible de réaliser un filtrage sur le schéma afin d’effectuer la comparaison entre la date de création des personnes destinataires et la dernière date de création connue, représentée par la fonction d’agrégation. Ce filtrage est réalisé grâce à une activité de partage.
 
 1. Dans l&#39;onglet **[!UICONTROL Général]**, sélectionnez **Destinataires** comme dimension de ciblage et **Edition du schéma** comme dimension de filtrage (afin de filtrer sur le schéma de la transition entrante de l&#39;activité).
 1. Dans l&#39;onglet **[!UICONTROL Sous-ensembles]**, sélectionnez **[!UICONTROL Ajouter une condition de filtrage sur la population entrante]** puis cliquez sur **[!UICONTROL Editer...]**.
 1. Via l&#39;éditeur d&#39;expression, ajoutez un critère d&#39;égalité entre la date de création des destinataires et la date de création calculée par l&#39;agrégat.
 
-   Les champs de type date de la base de données sont généralement enregistrés à la milliseconde près. Vous devez donc les étendre à la journée entière afin de ne pas récupérer uniquement les destinataires créés à la même milliseconde.
+   Les champs de type date de la base de données sont généralement enregistrés à la milliseconde près. Vous devez donc les étendre à la journée entière afin de ne pas récupérer seulement des personnes destinataires créées à la même milliseconde.
 
    Pour cela, utilisez la fonction **ToDate** disponible via l&#39;éditeur d&#39;expression, qui convertit les dates et heures en dates simples.
 

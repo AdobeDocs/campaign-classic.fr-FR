@@ -14,9 +14,9 @@ subfeature_v2:
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 273
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 56%
 
 
 
-La **composition de diffusion** permet d&#39;utiliser une composition dans un workflow de campagne. La composition doit avoir été préalablement créée dans la campagne.
+L’activité de **composition de diffusion** vous permet d’utiliser une composition dans un workflow de campagne.La composition doit avoir été créée au préalable dans la campagne.
 
 Pour plus d&#39;informations sur les compositions de diffusion dans Adobe Campaign, consultez cette [section](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
-Pour paramétrer l&#39;activité, il vous suffit de sélectionner la composition de votre choix ainsi que la date prévue de contact. Vous pouvez ajouter des règles de filtrage en ajoutant des typologies ou des règles de typologie.
+Pour configurer l’activité, il vous suffit de sélectionner la composition de votre choix ainsi que la date prévue de contact.Vous pouvez ajouter des règles de filtrage en ajoutant des typologies ou des règles de typologie.
 
 ## Exemple : Insérer une offre via une composition de diffusion {#example--inserting-an-offer-via-a-delivery-outline}
 
@@ -46,12 +46,12 @@ L’activité de **composition de diffusion**, disponible dans les workflows de 
 1. Complétez les champs disponibles en fonction de votre diffusion.
 1. Deux cas se présentent :
 
-   * Si vous souhaitez appeler le moteur d&#39;offres, cochez la case **[!UICONTROL Limiter le nombre de propositions sélectionnées]**. Indiquez l&#39;emplacement et le nombre de propositions qui seront présentées dans la diffusion.
+   * Si vous souhaitez appeler le moteur d’offres, cochez la case **[!UICONTROL Limiter le nombre de propositions sélectionnées]**.Précisez l’emplacement et le nombre de propositions qui seront présentées dans la diffusion.
 
      Les poids et règles d&#39;éligibilité des offres seront pris en compte par le moteur d&#39;offres.
 
    * Si vous ne cochez pas la case, toutes les offres de la composition de diffusion seront présentées, sans appel au moteur d&#39;offres.
 
-   La prévisualisation prend en compte le nombre d’offres spécifié dans la diffusion. Lors de l&#39;exécution d&#39;un workflow, c&#39;est le nombre spécifié dans la composition de diffusion qui est pris en compte.
+   La prévisualisation prend en compte le nombre d’offres défini dans la diffusion.Lors de l’exécution d’un workflow, c’est le nombre défini dans la composition de diffusion qui est pris en compte.
 
    ![](assets/int_compo_offre_wf1.png)

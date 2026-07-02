@@ -14,9 +14,9 @@ subfeature_v2:
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 633
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 78%
 
 
 
-Dans cet exemple, nous souhaitons envoyer un e-mail avec des champs de données personnalisés aux destinataires qui célébreront leur anniversaire ce mois-ci. L’e-mail contiendra un coupon valide une semaine avant et après leur anniversaire.
+Dans cet exemple, nous souhaitons envoyer un e-mail avec des champs de données personnalisés aux personnes destinataires qui célèbrent leur anniversaire ce mois-ci.L’e-mail inclura un coupon valide une semaine avant et après leur anniversaire.
 
-Nous devons cibler les destinataires d&#39;une liste qui célèbreront leur anniversaire ce mois-ci avec une activité **[!UICONTROL Partage]**. Ensuite, à l&#39;aide de l&#39;activité **[!UICONTROL Enrichissement]**, le champ de données personnalisé agit comme des dates de validité dans l&#39;e-mail pour l&#39;offre spéciale du client ou de la cliente.
+Nous devons cibler les personnes destinataires d’une liste qui célébreront leur anniversaire ce mois-ci avec une activité **[!UICONTROL Partage]**.Ensuite, grâce à l’activité **[!UICONTROL Enrichissement]**, le champ de données personnalisé présentera les dates de validité dans l’e-mail pour l’offre spéciale du client ou de la cliente.
 
 ![](assets/uc_enrichment.png)
 
@@ -91,7 +91,7 @@ Vous devez maintenant paramétrer votre activité **[!UICONTROL Enrichissement]*
 
 1. Cliquez sur **[!UICONTROL OK]**. Votre enrichissement est maintenant prêt.
 
-Après votre activité **[!UICONTROL Enrichissement]**, vous pouvez ajouter une diffusion. Dans ce cas, nous avons ajouté une diffusion e-mail pour envoyer aux destinataires une offre spéciale avec des dates de validité pour les clients qui célèbrent leur anniversaire ce mois-ci.
+Après votre activité **[!UICONTROL Enrichissement]**, vous pouvez ajouter une diffusion.Dans ce cas, nous avons ajouté une diffusion par e-mail pour envoyer aux personnes destinataires une offre spéciale avec des dates de validité aux clientes et clients célébrant leur anniversaire ce mois-ci.
 
 1. Faites glisser et déposez une activité **[!UICONTROL Diffusion par email]** après votre activité **[!UICONTROL Enrichissement]**.
 
@@ -109,7 +109,7 @@ Après votre activité **[!UICONTROL Enrichissement]**, vous pouvez ajouter une 
 Vous pouvez maintenant commencer à concevoir votre diffusion par email avec les champs de date personnalisés créés dans l&#39;activité **[!UICONTROL Enrichissement]**.
 
 1. Double cliquez sur votre activité **[!UICONTROL Diffusion par email]**.
-1. Ajoutez vos extensions cibles à votre e-mail. Il doit se trouver dans l’expression suivante afin de configurer le format de vos dates de validité :
+1. Ajoutez vos extensions cibles à votre e-mail.Elles devraient se trouver dans l’expression suivante afin de configurer le format de vos dates de validité :
 
    ```
    <%=

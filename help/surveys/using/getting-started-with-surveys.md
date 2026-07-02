@@ -14,9 +14,9 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 993
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -46,13 +46,13 @@ Pour créer un questionnaire, accédez à l&#39;onglet **[!UICONTROL Campagnes]*
 
 ## Étape 2 - Sélectionner le modèle {#step-2---selecting-the-template}
 
-Sélectionnez un modèle de questionnaire, puis attribuez un nom au questionnaire. Ce nom ne sera pas visible par les utilisateurs finaux, mais il permet d’identifier le questionnaire dans Adobe Campaign. Cliquez sur **[!UICONTROL Enregistrer]** : le questionnaire est ajouté dans la liste des applications Web.
+Sélectionnez un modèle de questionnaire, puis attribuez un nom au questionnaire.Ce nom ne sera pas visible par les utilisateurs et utilisatrices finaux, mais il permettra d’identifier le questionnaire dans Adobe Campaign.Cliquez sur **[!UICONTROL Enregistrer]** : le questionnaire est ajouté dans la liste des applications Web.
 
 ![](assets/s_ncs_admin_survey_wz_00.png)
 
 ## Étape 3 - Construire le questionnaire {#step-3---building-the-survey}
 
-Les questionnaires sont construits dans un diagramme où sont positionnées : la ou les pages où seront créés les contenus, les étapes de préchargement et d&#39;enregistrement des données, et les phases de tests. Des scripts et des requêtes peuvent également être insérés.
+Les questionnaires sont construits dans un diagramme où sont positionnées : la ou les pages où seront créés les contenus, les étapes de préchargement et d’enregistrement des données, et des étapes de tests.Des scripts et des requêtes peuvent également être insérés.
 
 Pour construire le diagramme, cliquez sur l&#39;onglet **[!UICONTROL Edition]** du questionnaire.
 
@@ -79,17 +79,17 @@ Dans l&#39;exemple suivant, nous utiliserons une page de type **[!UICONTROL Page
 
   ![](assets/s_ncs_admin_survey_add_field_menu.png)
 
-  Cliquez sur le bouton **[!UICONTROL Suivant]** pour sélectionner le champ de stockage des données dans la base de données. Dans ce cas, le champ &#39;Nom&#39;.
+  Cliquez sur le bouton **[!UICONTROL Suivant]** afin de sélectionner le champ de stockage des informations dans la base de données.Dans ce cas, le champ « Nom ».
 
   ![](assets/s_ncs_admin_survey_choose_field.png)
 
   Cliquez sur **[!UICONTROL Terminer]** pour valider la création de ce champ.
 
-  Par défaut, lorsque les informations sont stockées dans un champ déjà existant de la base de données, le champ reprend le nom du champ sélectionné, soit dans notre exemple &#39;Nom&#39;. Vous pouvez modifier ce libellé comme illustré ci-dessous :
+  Par défaut, lorsque les informations sont stockées dans un champ déjà existant de la base de données, le libellé du champ reprend le nom du champ sélectionné, soit dans notre exemple « Nom ». Vous pouvez modifier ce libellé comme illustré ci-dessous :
 
   ![](assets/s_ncs_admin_survey_change_label.png)
 
-  Créez maintenant un champ de saisie pour le numéro de compte utilisateur. Répétez l’opération et sélectionnez le champ « N° de compte ».
+  Créez maintenant un champ de saisie pour le numéro de compte d’utilisateur ou d’utilisatrice.Répétez l’opération et choisissez le champ « N° de compte ».
 
   Ajoutez de la même façon un champ pour permettre à l&#39;utilisateur de saisir son email.
 
@@ -99,7 +99,7 @@ Dans l&#39;exemple suivant, nous utiliserons une page de type **[!UICONTROL Page
 
   ![](assets/s_ncs_admin_survey_add_qu.png)
 
-  Saisissez le libellé de la question et insérez le ou les champs de réponse en sous-arborescence de la question. Pour cela, le nœud correspondant à la question doit être sélectionné lors de la création du champ de réponse. Ajoutez une **[!UICONTROL liste déroulante]**, à partir de l&#39;icône **[!UICONTROL Contrôles de sélection]** ou en cliquant sur le bouton droit de la souris, comme ci-dessous :
+  Saisissez le libellé de la question et insérez le ou les champs de réponse en tant que sous-branche de la question.Pour cela, le nœud lié à la question doit être sélectionné lors de la création du champ de réponse.Ajoutez une **[!UICONTROL liste déroulante]**, à partir de l&#39;icône **[!UICONTROL Contrôles de sélection]** ou en cliquant sur le bouton droit de la souris, comme ci-dessous :
 
   ![](assets/s_ncs_admin_survey_add_list.png)
 
@@ -123,11 +123,11 @@ Dans l&#39;exemple suivant, nous utiliserons une page de type **[!UICONTROL Page
 
 ## Étape 5 - Enregistrer les données du questionnaire {#step-5---storing-the-survey-data-}
 
-La boîte d&#39;enregistrement permet d&#39;enregistrer les réponses des utilisateurs dans la base de données. Vous devez sélectionner une clé de réconciliation pour identifier les profils déjà présents dans la base de données.
+La boîte de stockage permet de sauvegarder les réponses fournies par les utilisateurs et utilisatrices dans la base de données.Vous devez sélectionner une clé de réconciliation afin d’identifier les profils déjà présents dans la base de données.
 
 Pour cela, éditez la boîte et cochez le champ qui sera utilisé comme clé de réconciliation à l&#39;enregistrement des données.
 
-Dans l’exemple ci-dessous, lors de l’enregistrement (confirmation), si un profil est enregistré dans la base de données avec le même numéro de compte que celui saisi dans le formulaire, le profil est mis à jour. Si le profil n’existe pas, il est créé.
+Dans l’exemple ci-dessous, lors de l’enregistrement (validation), si un profil est enregistré en base avec le même numéro de compte que celui saisi dans le formulaire, le profil est mis à jour.Si le profil n’existe pas, il est créé.
 
 ![](assets/s_ncs_admin_survey_save_edit.png)
 
@@ -135,7 +135,7 @@ Cliquez sur **[!UICONTROL OK]** pour valider puis sur **[!UICONTROL Enregistrer]
 
 ## Étape 6 - Publier les pages {#step-6---publishing-the-pages}
 
-Pour que les utilisateurs puissent accéder aux pages d’HTML, l’application doit être mise à disposition. Il ne doit plus se trouver au stade de l’édition, mais en production. Pour mettre un questionnaire en production, vous devez le publier. Pour cela :
+Pour que les utilisateurs et utilisatrices puissent accéder aux pages HTML, l’application doit être mise à disposition.Il ne doit plus se trouver au stade de l’édition, mais en production.Pour mettre un questionnaire en production, vous devez le publier.Pour cela :
 
 * Cliquez sur le bouton **[!UICONTROL Publier]** situé dans le tableau de bord du questionnaire.
 * Cliquez sur **[!UICONTROL Démarrer]** pour lancer la publication et fermer l’assistant.
@@ -148,7 +148,7 @@ Pour que les utilisateurs puissent accéder aux pages d’HTML, l’application 
 
 ## Étape 7 - Partager votre questionnaire en ligne {#step-7---sharing-your-online-survey}
 
-Une fois en production, le questionnaire est accessible sur le serveur et vous pouvez le diffuser. L&#39;URL d&#39;accès au questionnaire est affichée dans le tableau de bord.
+Une fois en production, le questionnaire est accessible sur le serveur et vous pouvez le diffuser.L’URL d’accès au questionnaire est affichée dans le tableau de bord.
 
 ![](assets/survey_url_from_dashboard.png)
 
@@ -158,6 +158,6 @@ Vous pouvez ensuite suivre les réponses des utilisateurs au travers des rapport
 
 >[!CAUTION]
 >
->L&#39;URL publique contient le nom interne du questionnaire. Lorsque le nom interne est modifié, l&#39;URL est automatiquement mise à jour : tous les liens vers le questionnaire doivent également être mis à jour.
+>L’URL publique contient le nom interne du questionnaire.En cas de modification du nom interne, l’URL est automatiquement mise à jour : tous les liens vers le questionnaires doivent alors être mis à jour.
 >
 >Si des diffusions contenant un lien vers le formulaire ont déjà été envoyées, ce lien ne fonctionnera plus.

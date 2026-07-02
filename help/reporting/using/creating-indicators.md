@@ -16,9 +16,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 4f31b249b9f4dc3a10205a3f03cecdbc23b3a6e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 749
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Les étapes de création d&#39;un cube sont les suivantes :
 
 L’exemple ci-après permet de créer rapidement un cube simple et de l’utiliser dans un rapport afin d’en exporter les mesures.
 
-Les étapes de mise en œuvre sont détaillées ci-dessous. Des options et descriptions exhaustives sont disponibles dans les autres sections de ce chapitre.
+Les étapes d’implémentation sont détaillées ci-dessous.Les options et descriptions exhaustives sont disponibles dans les autres sections de ce chapitre.
 
 ## Sélection de la table de travail {#selecting-the-work-table}
 
@@ -57,7 +57,7 @@ Cliquez sur le lien **[!UICONTROL Filtrer les données de la source...]** si vou
 
 ## Définition des dimensions {#defining-dimensions}
 
-Les dimensions correspondent aux axes d’analyse définis pour chaque cube en fonction du schéma des faits qui leur est associé. Il s’agit des dimensions explorées dans l’analyse, telles que le temps (année, mois, date...), une classification de produits ou de contrats (famille, référence, etc.), un segment de population (par ville, tranche d’âge, statut, etc.).
+Les dimensions coïncident avec les axes d’analyse définis pour chaque cube en fonction du schéma des faits qui leur est associé.Il s’agit des dimensions explorées dans l’analyse, comme le temps (année, mois, date, etc.), une classification de produits ou de contrats (famille, référence, etc.), un segment de population (par ville, tranche d’âge, statut, etc.).
 
 Ces axes d&#39;analyse sont définis dans l&#39;onglet **[!UICONTROL Dimensions]** du cube.
 
@@ -65,19 +65,19 @@ Cliquez sur le bouton **[!UICONTROL Ajouter]** pour créer une nouvelle dimensio
 
 ![](assets/s_advuser_cube_wz_04.png)
 
-* Sélectionnez d&#39;abord le destinataire **Age**. Pour ce champ, vous pouvez définir un compartimentage afin de regrouper les âges et faciliter la lisibilité des informations. Il est recommandé de définir un compartimentage lorsqu’il peut y avoir plusieurs valeurs distinctes.
+* Sélectionnez d’abord l’**Âge** de la personne destinataire.Pour ce champ, vous pouvez définir un compartimentage afin de regrouper les âges et faciliter la lisibilité des informations. Il est recommandé de définir un compartimentage lorsqu’il peut y avoir plusieurs valeurs distinctes.
 
   Pour cela, cochez l&#39;option **[!UICONTROL Activer la mise en classe.]** Les modes de mise en classe sont détaillés dans la section [Mise en classe des données](../../reporting/using/concepts-and-methodology.md#data-binning).
 
   ![](assets/s_advuser_cube_wz_05.png)
 
-* Ajoutez une dimension de type **Date**. Ici, nous souhaitons afficher les dates de création des profils de destinataires
+* Ajoutez une dimension de type **Date**.Ici, nous voulons afficher les dates de création des profils de personnes destinataires.
 
   Pour cela, cliquez sur **[!UICONTROL Ajouter]** et choisissez le champ **[!UICONTROL Date de création]** dans la table des destinataires.
 
   ![](assets/s_advuser_cube_wz_06.png)
 
-  Il est possible de sélectionner le mode d’affichage de la date. Pour ce faire, sélectionnez la hiérarchie à utiliser et les niveaux à générer :
+  Il est possible de sélectionner le mode d’affichage de la date.Pour ce faire, sélectionnez la hiérarchie à utiliser et les niveaux à générer :
 
   ![](assets/s_advuser_cube_wz_07.png)
 
@@ -108,7 +108,7 @@ Une fois les dimensions définies, vous devez spécifier le mode de calcul des v
 Pour cela, les étapes sont les suivantes :
 
 1. Cliquez sur le bouton **[!UICONTROL Ajouter]**.
-1. Sélectionnez le type de mesure et la formule à appliquer. Ici, nous voulons compter le nombre de femmes parmi les bénéficiaires.
+1. Sélectionnez le type de mesure et la formule à appliquer. Ici, nous voulons comptabiliser le nombre de femmes parmi les personnes destinataires.
 
    Notre mesure se base sur le schéma des faits et utilise l&#39;opérateur **[!UICONTROL Comptage]**.
 
@@ -136,11 +136,11 @@ Pour cela :
 
 1. Cliquez sur le bouton **[!UICONTROL Créer]** pour valider : vous accédez alors à la page de configuration et de visualisation du rapport.
 
-   Par défaut, les deux premières dimensions disponibles sont proposées en lignes et en colonnes, mais aucune valeur n’est affichée dans le tableau. Pour générer le tableau, cliquez sur l&#39;icône principale :
+   Par défaut, les deux premières dimensions disponibles sont proposées en ligne et en colonne mais aucune valeur n’est affichée dans le tableau.Pour générer le tableau, cliquez sur l’icône principale :
 
    ![](assets/s_advuser_cube_wz_15.png)
 
-1. Vous pouvez changer les axes de la dimension, les supprimer, ajouter de nouvelles mesures, etc. Les différentes opérations possibles sont présentées sur [cette page](../../reporting/using/using-cubes-to-explore-data.md).
+1. Vous pouvez déplacer les dimensions d’un axe à l’autre, les supprimer, ajouter de nouvelles mesures, etc. Les opérations possibles sont présentées dans [cette page](../../reporting/using/using-cubes-to-explore-data.md).
 
    Pour cela, utilisez les icônes correspondantes.
 

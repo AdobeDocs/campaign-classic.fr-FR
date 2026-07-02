@@ -17,9 +17,9 @@ subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 414
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 94%
 
 Adobe Campaign permet de suivre et de mesurer les visites sur les pages des applications Web en insérant des balises de tracking. Cette fonctionnalité peut être utilisée pour tous les types d&#39;applications web (formulaires, pages web, etc.).
 
-Vous pouvez ainsi définir plusieurs chemins de navigation et évaluer leur succès. Les données récupérées sont alors disponibles dans les rapports de chaque application.
+Vous pouvez ainsi définir plusieurs chemins de navigation et évaluer leur succès.Les données récupérées sont alors disponibles dans les rapports de chaque application.
 
 Les principales fonctionnalités proposées dans cette version sont les suivantes :
 

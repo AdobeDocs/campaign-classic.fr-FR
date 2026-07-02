@@ -20,9 +20,9 @@ topic_v2:
 subfeature_v2:
   - id: e5fb657f-3c0a-4fcc-9980-3589a23ab4de
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 114
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Le module d’optimisation des campagnes d’Adobe Campaign permet de contrôle
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#typologies-video)
 
-Selon votre offre, Campaign Optimization peut être inclus ou proposé sous la forme d&#39;un module complémentaire. Veuillez vérifier votre contrat de licence.
+Selon votre offre, le produit Optimisation des campagnes (Campaign Optimization) peut être inclus ou proposé sous la forme d’un module complémentaire.Veuillez vérifier votre contrat de licence.
 
 >[!NOTE]
 >

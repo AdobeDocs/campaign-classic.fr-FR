@@ -15,9 +15,9 @@ subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 384
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Pour marquer les chaînes à traduire :
    ![](assets/dce_translation_3.png)
 
 1. Sélectionnez un bloc HTML.
-1. Dans le bloc de paramètres situé à droite, l&#39;option **[!UICONTROL Localisation]** permet de marquer le contenu du bloc sélectionné. Par défaut, seul le titre de la page doit être traduit.
+1. Dans le bloc de paramètres de droite, l’option **[!UICONTROL Localisation]** vous permet de marquer le contenu du bloc sélectionné.Par défaut, seul le titre de la page est à traduire.
 
    ![](assets/dce_translation_1.png)
 
@@ -50,21 +50,21 @@ Pour marquer les chaînes à traduire :
 
    Trois cas spécifiques sont à noter :
 
-   * Lorsque le bloc sélectionné contient plusieurs chaînes/blocs, il est marqué comme une seule chaîne à traduire. La chaîne contient alors le code HTML des éléments contenus dans ce bloc.
-   * Lorsque vous souhaitez marquer un bloc qui contient plusieurs chaînes et si au moins l’une de ces chaînes est déjà marquée, un avertissement s’affiche. Vous pouvez ensuite supprimer l’indicateur de la chaîne isolée et ajouter l’ensemble du bloc.
+   * Lorsque le bloc sélectionné contient plusieurs chaînes/blocs, il est marqué comme une seule chaîne à traduire.La chaîne contient alors le code HTML des éléments que ce bloc contient.
+   * Lorsque vous souhaitez marquer un bloc contenant plusieurs chaînes dont au moins l’une d’entre-elles est déjà marquée, un avertissement s’affiche.Vous pouvez alors choisir de retirer la chaîne isolée et d’ajouter le bloc entier.
 
      ![](assets/dce_translation_4.png)
 
-   * Lorsque vous souhaitez supprimer l’indicateur d’une chaîne contenue dans un bloc déjà marqué, vous ne pouvez pas modifier directement l’option de traduction de chaîne. Vous pouvez toutefois accéder au bloc contenant la chaîne afin de la modifier.
+   * Lorsque vous souhaitez supprimer l’indicateur d’une chaîne contenue dans un bloc déjà marqué comme à traduire, vous ne pouvez pas modifier directement l’option de traduction de la chaîne.Vous pouvez toutefois accéder au bloc contenant la chaîne afin de la modifier.
 
      ![](assets/dce_translation_2.png)
 
 1. Une fois les chaînes marquées, revenez à l&#39;application Web et sélectionnez l&#39;onglet **[!UICONTROL Traductions]**.
-1. Sélectionnez **[!UICONTROL Collecter les chaînes à traduire]**. Les chaînes marquées dans le DCE sont ajoutées aux chaînes de l’application web.
+1. Sélectionnez **[!UICONTROL Collecter les chaînes à traduire]**.Les chaînes marquées dans le DCE viennent s’ajouter à celles de l’application web.
 
    >[!NOTE]
    >
-   >Une fois les chaînes collectées, elles ne sont pas supprimées de la liste si vous supprimez l’indicateur de traduction dans le DCE. Cela permet de les conserver dans la mémoire de traduction.
+   >Une fois les chaînes collectées, elles ne seront pas retirées de la liste si vous les marquez à nouveau comme n’étant pas à traduire dans le DCE.Cela permet de les conserver dans la mémoire de traduction.
 
 1. Traduisez et validez les chaînes.
 

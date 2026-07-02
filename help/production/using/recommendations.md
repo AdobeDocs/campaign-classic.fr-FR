@@ -16,9 +16,9 @@ subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 136
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
@@ -26,10 +26,10 @@ ht-degree: 43%
 
 
 
-Adobe Campaign est un système hautement transactionnel (base de données OLTP). Cela signifie que la base de données sous-jacente sera fréquemment mise à jour, ce qui entraînera une dégradation des performances au fil du temps. Pour éviter ce type de problème, une maintenance régulière de la base de données est nécessaire.
+Adobe Campaign est un système hautement transactionnel (base de données OLTP).Cela signifie que la base de données sous-jacente sera fréquemment mise à jour, ce qui entraînera une dégradation des performances au fil du temps.Pour éviter ce type de problème, une maintenance régulière de la base de données est nécessaire.
 
 >[!IMPORTANT]
 >
->Une base de données ne fonctionne de manière optimale que si elle est gérée régulièrement. La maintenance automatique proposée par certains SGBDR n&#39;est pas suffisante et ne remplace pas la maintenance en profondeur, comme pour tout système de gestion transactionnelle de base de données relationnelle.
+>Une base de données ne fonctionne de manière optimale que si elle est fait l’objet d’une maintenance régulière.La maintenance automatique proposée par certains SGBDR n’est pas suffisante et ne remplace pas une maintenance en profondeur, comme pour tout système transactionnel de gestion de base de données relationnelle.
 >  
 >Les procédures décrites dans ce document sont des recommandations. Les plans de maintenance sont la responsabilité de l’administrateur de la base de données, qui doit être votre premier contact en cas de problème.

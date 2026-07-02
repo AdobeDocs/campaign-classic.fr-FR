@@ -19,16 +19,16 @@ subfeature_v2:
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
   - id: efa38731-2723-4334-8d8b-a778af834835
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 120
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
 # Utilisation de l’explorateur Adobe Campaign
 
 
-L&#39;explorateur Adobe Campaign est accessible à partir de l’icône de la barre d&#39;outils. Il permet d&#39;accéder à l&#39;ensemble des fonctionnalités d&#39;Adobe Campaign, aux écrans de configuration et à une vue plus détaillée de certains éléments de la plateforme.
+L&#39;explorateur Adobe Campaign est accessible à partir de l’icône de la barre d&#39;outils. Il permet d’accéder à l’ensemble des fonctionnalités d’Adobe Campaign, aux écrans de configuration et à une vue plus détaillée de certains éléments de la plateforme.
 
 >[!NOTE]
 >

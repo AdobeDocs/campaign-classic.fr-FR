@@ -14,9 +14,9 @@ subfeature_v2:
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 341
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Un assistant permet de définir la fréquence et la période de validité de l�
 
    ![](assets/s_user_segmentation_scheduler2.png)
 
-1. Indiquez les heures et les jours d’activation. Les paramètres de cette étape dépendent de la fréquence sélectionnée à l’étape précédente. Si vous choisissez de lancer l&#39;activité plusieurs fois par jour, les options de paramétrage seront les suivantes :
+1. Indiquez les heures et jours d’activation.Les paramètres de cette étape dépendent de la fréquence sélectionnée à l’étape précédente.Si vous choisissez de lancer l’activité plusieurs fois par jour, les options de configuration seront les suivantes :
 
    ![](assets/s_user_segmentation_scheduler3.png)
 

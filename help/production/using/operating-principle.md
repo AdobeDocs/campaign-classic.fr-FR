@@ -21,9 +21,9 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 530
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 81%
 
 La plateforme Adobe Campaign repose techniquement sur plusieurs modules.
 
-Il existe de nombreux modules Adobe Campaign. Certains fonctionnent en continu, tandis que d&#39;autres sont démarrés occasionnellement pour effectuer des tâches administratives (par exemple configurer la connexion à la base de données) ou exécuter une tâche récurrente (par exemple consolider les informations de tracking).
+Il existe de nombreux modules Adobe Campaign.Certains fonctionnent en continu, tandis que d’autres sont démarrés ponctuellement pour effectuer des actions d’administration (par exemple configurer la connexion à la base de données) ou lancer une tâche récurrente (par exemple consolider les informations de tracking).
 
 On distingue trois types de modules Adobe Campaign :
 
@@ -45,7 +45,7 @@ L&#39;administration de ces modules est assurée par l&#39;outil ligne de comman
 
 La syntaxe générale de l&#39;outil **nlserver** est la suivante :
 
-**nlserver `<command>` `<command arguments>`**
+**nlserver `<command>``<command arguments>`**
 
 Pour connaître la liste des modules disponibles, lancez la commande **nlserver**.
 
@@ -89,7 +89,7 @@ Les modules disponibles sont décrits dans le tableau suivant :
 
 >[!IMPORTANT]
 >
->Il existe un dernier module : le module de tracking et de relais vers le serveur applicatif qui, pour des raisons de performances, est intégré par des mécanismes natifs à un serveur web Apache ou IIS via une bibliothèque dynamique. Il n’existe aucune commande Adobe Campaign permettant de démarrer ou d’administrer ce module. Vous devez donc utiliser les commandes du serveur Web lui-même.
+>Il existe un dernier module : le module de tracking et de relais vers le serveur applicatif qui, pour des raisons de performances, s’intègre sous la forme d’une bibliothèque dynamique via des mécanismes natifs à un serveur web IIS ou Apache.Il n’existe aucune commande Adobe Campaign permettant de démarrer ou d’administrer ce module.Vous devez donc utiliser les commandes du serveur web lui-même.
 
 L&#39;usage d&#39;un module et la syntaxe de ses paramètres sont affichés à partir de la commande : **nlserver.`[module]`-?**
 

@@ -14,9 +14,9 @@ product_v2:
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 36
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 66%
 
 >[!CAUTION]
 >
->Ces procédures désinstalleront définitivement Adobe Campaign. Toutes les données seront perdues.
+>Ces procédures désinstalleront définitivement Adobe Campaign.Toutes les données seront perdues.
 
 **RHEL :**
 

@@ -17,9 +17,9 @@ subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 523
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -31,25 +31,25 @@ Les objets natifs doivent être suivis. Il est important d&#39;éviter une crois
 
 ## Séquence d&#39;identifiants {#sequence-of-ids}
 
-Adobe Campaign utilise une séquence d’identifiants qui doit être consommée en conséquence : **xtkNewId**. Si la séquence est consommée très rapidement (c’est-à-dire à partir de 100 000 par jour), vous devez vérifier qu’elle est conforme aux exigences de votre entreprise, telles que l’envoi de millions d’e-mails par jour. Il est possible de définir une séquence dédiée pour des tables particulières. Vous pouvez configurer un workflow pour surveiller l’utilisation des identifiants.
+Adobe Campaign utilise une séquence d’identifiants qui doit être consommée en conséquence : **xtkNewId**.Si la séquence est consommée très rapidement (à savoir, à partir de 100 000 par jour), vous devez vérifier qu’elle est conforme aux exigences de votre entreprise, telles que l’envoi de millions d’e-mails par jour.Il est possible de définir une séquence dédiée pour des tables particulières.Vous pouvez configurer un workflow pour surveiller l’utilisation des identifiants.
 
-Lorsque la séquence atteint plus de 2 milliards (2 147 483 648 est le nombre exact), elle revient à zéro. Elle doit être évitée et crée des problèmes, c’est pourquoi cette séquence doit être surveillée.
+Lorsque la séquence atteint plus de 2 milliards (2 147 483 648 est le nombre exact), elle revient à zéro.Cela doit être évité et pose des problèmes. C’est la raison pour laquelle cette séquence doit être surveillée.
 
 Pour empêcher ce problème avec les tables volumineuses, envisagez d&#39;utiliser une séquence spécifique. Cela peut être réalisé avec l&#39;attribut **pkSequence** dans le schéma.
 
-Les workflows haute fréquence qui créent un grand nombre de journaux consomment un grand nombre d’identifiants. Il est donc vivement recommandé d’éviter un trop grand nombre de logs et une fréquence élevée dans les workflows.
+Les workflows à fréquence élevée qui créent un grand nombre de logs consommeront un grand nombre d’identifiants.Il est donc vivement recommandé d’éviter un trop grand nombre de logs et une fréquence élevée dans les workflows.
 
 Si le cycle de la séquence est déjà terminé, la meilleure solution consiste à passer à des identifiants négatifs à partir de -2 147 483 648.
 
 ## Dossiers {#folders}
 
-Il doit y avoir moins de 1 000 dossiers sur une instance. Un nombre trop élevé de dossiers peut entraîner des problèmes de performances avec le client Campaign. Vous pouvez configurer une tâche de surveillance pour compter le nombre de dossiers, de workflows, etc., et générer des rapports périodiques.
+Il doit y avoir moins de 1 000 dossiers sur une instance.Un nombre trop élevé de dossiers peut entraîner des problèmes de performances avec le client Campaign.Vous pouvez configurer un traitement de surveillance pour comptabiliser le nombre de dossiers, de workflows, etc., et générer des rapports périodiques.
 
 Cette méthode permet également de mettre en lumière les utilisateurs qui créent trop d&#39;objets.
 
 ## Diffusions {#deliveries}
 
-Le nombre de diffusions doit être à tout moment inférieur à 1 000 sur l’instance. Un nombre élevé de diffusions occupe de l’espace de base de données et crée des problèmes. Une instance qui crée plus de 10 diffusions par jour doit être contrôlée au regard des exigences de l’entreprise. Pensez à utiliser des diffusions au fil de l’eau pour créer moins de diffusions. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/continuous-delivery.html?lang=fr){target="_blank"}.
+Il doit y avoir, à tout moment, moins de 1 000 diffusions sur l’instance.Un nombre élevé de diffusions occupe de l’espace de base de données et entraîne des problèmes.Une instance qui crée plus de 10 diffusions par jour doit être contrôlée au regard des exigences de l’entreprise.Pensez à utiliser des diffusions continues pour créer moins de diffusions.Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/continuous-delivery.html?lang=fr){target="_blank"}.
 
 Les diffusions de plus de deux ans doivent être purgées de l&#39;instance.
 
@@ -65,6 +65,6 @@ Si un workflow importe des fichiers et n&#39;utilise pas les fonctionnalités st
 
 Chaque workflow qui importe des données dans Adobe Campaign entraîne une augmentation de la taille de la base de données. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html?lang=fr){target="_blank"}.
 
-Vérifiez que les workflows de nettoyage ou de purge s’exécutent et purgent efficacement les enregistrements. Toutes les données et tous les journaux transactionnels doivent être purgés. La tâche de nettoyage purge uniquement les tables standard : logs de tracking et broadLogs. Les tables spécifiques doivent être purgées par des workflows spécifiques. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=fr){target="_blank"}.
+Vérifiez que les workflows de nettoyage ou de purge s’exécutent et purgent efficacement les enregistrements.Toutes les données transactionnelles et tous les logs doivent être purgés.La tâche de nettoyage purge uniquement les tables standard : logs de tracking et broadlogs.Des tables spécifiques doivent être purgées par des workflows spécifiques.Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=fr){target="_blank"}.
 
 Surveillez les données transactionnelles vieillissantes en vérifiant la date la plus ancienne de création des enregistrements.

@@ -17,9 +17,9 @@ subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 571
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Afin de garantir un fonctionnement optimal de l&#39;éditeur, il est recommandé
   ![](assets/dce_enchainement.png)
 
 * Assurez-vous qu’il n’y a bien qu&#39;un seul `<body> </body>` dans la page.
-* Lorsqu’un fichier CSS ou JS est chargé, les images contenues dans le fichier .zip ne sont pas chargées. Les références à ces images présentes dans le CSS ne sont donc pas mises à jour.
+* Lorsqu’un fichier CSS ou JS est chargé, les images contenues dans le fichier .zip ne le sont pas.Les références à ces images dans le CSS ne sont donc pas mises à jour.
 
 ## Formats pris en charge par l&#39;éditeur de contenus {#content-editor-supported-formats}
 
@@ -58,7 +58,7 @@ Le Digital Content Editor supporte le format HTML : le basculement en mode **so
 
 La fonction d&#39;import du Digital Content Editor fonctionne comme suit avec les formats supportés :
 
-* CSS : les images présentes dans le fichier .zip ne sont pas importées. Les références à ces images dans le CSS ne sont pas mises à jour.
+* CSS : les images présentes dans le fichier .zip ne sont pas importées.Les références à ces images dans le CSS ne sont pas mises à jour.
 * JS : les images présentes dans le fichier .zip ne sont pas importées. Les références à ces images dans JS ne sont pas mises à jour.
 * Iframe : les pages liées ne sont pas importées.
 * Landing pages et applications web : si une balise **de formulaire** est absente, un avertissement s’affiche. Un `<form> </form>` doit toujours être présent dans le corps du message.
@@ -79,11 +79,11 @@ Le Digital Content Editor fonctionne également avec les code-pages suivants pri
 
 >[!NOTE]
 >
->La page de code HTML doit être définie dans une balise meta (HTML 4 ou HTML 5) ou dans la nomenclature. Si aucune page de codes n’est disponible, ouvrez le fichier en latin1.
+>La page de code HTML doit être définie dans une balise meta (HTML 4 ou HTML 5) ou dans le BOM.Si aucune page de code n’est disponible, ouvrez le fichier en latin1.
 
 ## États du contenu HTML {#html-content-statuses}
 
-La section supérieure de l&#39;éditeur affiche les messages relatifs au statut du contenu. Les codes couleur des messages sont les suivants :
+La section supérieure de l’éditeur affiche les message liés au statut du contenu.Les codes couleur des messages sont les suivants :
 
 * **Message gris** : message à caractère informatif, aucune action n&#39;est à réaliser au niveau de l&#39;éditeur.
 * **Message bleu** : message à caractère informatif en rapport avec le contenu édité.

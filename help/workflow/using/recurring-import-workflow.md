@@ -16,9 +16,9 @@ subfeature_v2:
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1144
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Cet exemple montre comment pré-paramétrer un workflow qui pourra être réutil
      Smith;Hayden;23/05/1989;hayden.smith@mailtest.com;123456
      ```
 
-   * Dans la section **[!UICONTROL Nom du fichier à charger]**, sélectionnez **[!UICONTROL Télécharger un fichier à partir de l’ordinateur local]** et laissez le champ vide. A chaque fois qu’un nouveau workflow sera créé à partir de ce modèle, vous pourrez préciser ici le fichier souhaité (tant qu’il correspond à la structure définie).
+   * Dans la section **[!UICONTROL Nom du fichier à charger]**, sélectionnez **[!UICONTROL Charger un fichier présent sur le poste local]** et laissez le champ vide.A chaque fois qu’un nouveau workflow sera créé à partir de ce modèle, vous pourrez préciser ici le fichier souhaité (tant qu’il correspond à la structure définie).
 
      Toutes les options sont utilisables, mais il faut modifier le modèle en conséquence. Par exemple, en sélectionnant **[!UICONTROL Spécifié dans la transition]**, vous pouvez ajouter une activité **[!UICONTROL Transfert de fichier]** en amont pour récupérer le fichier à importer à partir d’un serveur FTP/SFTP. Avec la connexion S3 ou SFTP, vous pouvez également importer des données de segments vers Adobe Campaign avec Adobe Real-time Customer Data Platform. Voir à ce propos cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=fr).
 
@@ -71,13 +71,13 @@ Cet exemple montre comment pré-paramétrer un workflow qui pourra être réutil
 
    * Dans l&#39;onglet **[!UICONTROL Général]** de l&#39;activité, sélectionnez **[!UICONTROL Utiliser les données additionnelles uniquement]** comme paramètre de filtrage et vérifiez que la **[!UICONTROL Dimension de ciblage]** est paramétrée automatiquement sur **[!UICONTROL Enrichissement]**.
 
-     Cochez l&#39;option **[!UICONTROL Générer le complémentaire]** pour voir si un enregistrement ne peut pas être inséré dans la base de données. Le cas échéant, vous pourrez alors appliquer d’autres traitements aux données complémentaires : export de fichier, mise à jour de liste, etc.
+     Cochez l’option **[!UICONTROL Générer le complémentaire]** pour voir si des enregistrements n’ont pas pu être intégrés dans la base de données.Le cas échéant, vous pourrez alors appliquer d’autres traitements aux données complémentaires : export de fichier, mise à jour de liste, etc.
 
-   * Dans le premier sous-ensemble de l&#39;onglet **[!UICONTROL Sous-ensembles]**, ajoutez une condition de filtrage sur la population entrante afin de ne sélectionner que les enregistrements dont la clé primaire du destinataire n&#39;est pas égale à 0. Ainsi, les données du fichier qui sont réconciliées avec les destinataires de la base de données sont sélectionnées dans ce sous-ensemble.
+   * Dans le premier sous-ensemble de l’onglet **[!UICONTROL Sous-ensembles]**, ajoutez une condition de filtrage sur la population entrante pour sélectionner uniquement les enregistrements pour lesquels la clé primaire de la personne destinataire est différente de 0.De cette manière, les données du fichier réconciliées avec les destinataires de la base de données sont sélectionnées dans ce sous-ensemble.
 
      ![](assets/import_template_example3.png)
 
-   * Ajoutez un second sous-ensemble qui sélectionne les enregistrements non rapprochés contenant suffisamment de données pour être insérés dans la base de données. Par exemple : adresse email, prénom et nom de famille.
+   * Ajoutez un second sous-ensemble pour sélectionner les enregistrements non réconciliés disposant de suffisamment de données pour être intégrés dans la base de données.Par exemple : adresse email, prénom et nom de famille.
 
      Les sous-ensembles sont traités dans l&#39;ordre dans lequel ils ont été créés, ce qui veut dire que lorsque ce second sous-ensemble est traité, tous les enregistrements qui existent déjà dans la base de données sont déjà sélectionnés dans le premier sous-ensemble.
 
@@ -89,7 +89,7 @@ Cet exemple montre comment pré-paramétrer un workflow qui pourra être réutil
 
    * Sélectionnez **[!UICONTROL Mise à jour]** comme **[!UICONTROL Type d&#39;opération]**, puisque la transition entrante contient uniquement des destinataires déjà présents dans la base de données.
    * Dans la section **[!UICONTROL Identification des enregistrements]**, sélectionnez **[!UICONTROL En utilisant des clés de réconciliation]** et définissez une clé entre la dimension de ciblage et le lien créé via l’**[!UICONTROL Enrichissement]**. Dans cet exemple, le champ personnalisé **Identifiant dans le CRM** est utilisé.
-   * Dans la section **[!UICONTROL Champs à mettre à jour]**, indiquez les champs de la dimension des destinataires à mettre à jour avec la valeur de la colonne correspondante du fichier. Si les noms des colonnes du fichier sont identiques ou presque identiques aux noms des champs de la dimension des personnes destinataires, utilisez le bouton baguette magique pour faire correspondre les différents champs automatiquement.
+   * Dans la section **[!UICONTROL Champs à mettre à jour]**, indiquez les champs de la dimension des destinataires à mettre à jour avec la valeur de la colonne correspondante du fichier.Si les noms des colonnes du fichier sont identiques ou presque identiques aux noms des champs de la dimension des personnes destinataires, utilisez le bouton baguette magique pour faire correspondre les différents champs automatiquement.
 
      ![](assets/import_template_example6.png)
 
@@ -108,11 +108,11 @@ Cet exemple montre comment pré-paramétrer un workflow qui pourra être réutil
 
    * Sélectionnez **[!UICONTROL Insertion]** comme **[!UICONTROL Type d&#39;opération]** comme la transition entrante contient uniquement des destinataires non présents dans la base de données.
    * Dans la section **[!UICONTROL Identification des enregistrements]**, sélectionnez **[!UICONTROL En utilisant directement la dimension de ciblage]** et choisissez la dimension **[!UICONTROL Destinataires]**.
-   * Dans la section **[!UICONTROL Champs à mettre à jour]**, indiquez les champs de la dimension des destinataires à mettre à jour avec la valeur de la colonne correspondante du fichier. Si les noms des colonnes du fichier sont identiques ou presque identiques aux noms des champs de la dimension des personnes destinataires, utilisez le bouton baguette magique pour faire correspondre les différents champs automatiquement.
+   * Dans la section **[!UICONTROL Champs à mettre à jour]**, indiquez les champs de la dimension des destinataires à mettre à jour avec la valeur de la colonne correspondante du fichier.Si les noms des colonnes du fichier sont identiques ou presque identiques aux noms des champs de la dimension des personnes destinataires, utilisez le bouton baguette magique pour faire correspondre les différents champs automatiquement.
 
      ![](assets/import_template_example8.png)
 
-1. Après la troisième transition de l&#39;activité **[!UICONTROL Partage]**, ajoutez une activité **[!UICONTROL Extraction (fichier)]** et une activité **[!UICONTROL Transfert de fichier]** si vous souhaitez conserver une trace des données non insérées dans la base de données. Paramétrez ces activités afin d’exporter la colonne dont vous avez besoin et de transférer le fichier sur un serveur FTP ou SFTP, où vous pourrez le récupérer.
+1. Après la troisième transition de l’activité **[!UICONTROL Partage]**, ajoutez une activité **[!UICONTROL Extraction des données (fichier)]** et une activité **[!UICONTROL Transfert de fichier]** si vous voulez tracker les données non insérées dans la base de données.Paramétrez ces activités afin d’exporter la colonne dont vous avez besoin et de transférer le fichier sur un serveur FTP ou SFTP, où vous pourrez le récupérer.
 1. Ajoutez une activité **[!UICONTROL Fin]** et enregistrez le modèle de workflow.
 
 Le modèle est à présent utilisable et disponible pour chaque nouveau workflow. Il suffit alors de spécifier le fichier qui contient les données à importer dans l’activité **[!UICONTROL Chargement de données (fichier)]**.

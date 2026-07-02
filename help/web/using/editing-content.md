@@ -17,9 +17,9 @@ subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1275
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Pour ajouter une condition de visibilité, sélectionnez un bloc et saisissez la
 
 ![](assets/dce_popup_visibilitycondition.png)
 
-Ces conditions adoptent la syntaxe d&#39;expression XTK (par exemple **ctx.recipient.@email != « «** ou **ctx.recipient.@status==« 0 »**). Par défaut, tous les champs sont visibles.
+Ces conditions adoptent la syntaxe d’expression XTK (par exemple **ctx.recipient.@email != &quot;&quot;** ou **ctx.recipient.@status==&quot;0&quot;**).Par défaut, tous les champs sont visibles.
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ Ces conditions adoptent la syntaxe d&#39;expression XTK (par exemple **ctx.recip
 
 ## Ajouter une bordure et un arrière-plan {#adding-a-border-and-background}
 
-Vous pouvez ajouter une **bordure** à un bloc sélectionné. Les bordures sont définies à l’aide de trois options : style, taille et couleur.
+Vous pouvez ajouter une **bordure** au bloc sélectionné.Les bordures sont définies à l’aide de trois options : style, taille et couleur.
 
 ![](assets/dce_popup_border.png)
 
@@ -75,7 +75,7 @@ Par défaut, les champs proposés sont ceux de la table **nms:recipient**.
 
 ![](assets/dce_field_selection.png)
 
-L&#39;option **Champ obligatoire** permet de n&#39;autoriser l&#39;approbation de la page que si l&#39;utilisateur a renseigné le champ. Si un champ obligatoire n’est pas renseigné, un message d’erreur s’affiche.
+L’option **Champ obligatoire** permet de n’autoriser la validation de la page que si l’utilisateur ou l’utilisatrice a renseigné le champ.Si un champ obligatoire n’est pas renseigné, un message d’erreur s’affiche.
 
 Pour les boutons radio et cases à cocher, une **configuration supplémentaire est requise**.
 
@@ -105,7 +105,7 @@ Vous pouvez ainsi :
 
 ## Ajouter une action sur un bouton {#adding-an-action-to-a-button}
 
-Lorsque l’utilisateur clique sur un bouton, vous pouvez définir une action associée. Pour cela, sélectionnez l&#39;action à effectuer dans la liste déroulante.
+Lorsque l’utilisateur ou l’utilisatrice clique sur un bouton, vous pouvez définir une action associée.Pour cela, sélectionnez l’action à réaliser dans la liste déroulante.
 
 ![](assets/dce_sidebar_button.png)
 
@@ -219,7 +219,7 @@ Le Digital Content Editor permet de travailler avec **tous types d&#39;images** 
 
 >[!CAUTION]
 >
->Vous ne devez pas appeler de fichiers externes dans une balise **script** de la page HTML. Ces fichiers ne seront pas importés sur le serveur Adobe Campaign.
+>Vous ne devez pas appeler de fichiers externes dans une balise **script** de la page HTML.Ces fichiers ne seront pas importés sur le serveur Adobe Campaign.
 
 ### Ajouter / Supprimer / Dupliquer une image {#adding---deleting---duplicating-an-image}
 
@@ -252,22 +252,22 @@ Lorsque vous sélectionnez un bloc contenant une image, vous accédez aux propri
 
 ### Insertion d&#39;un champ de personnalisation {#inserting-a-personalization-field}
 
-L&#39;option Champ **&#x200B;**&#x200B;de l&#39;icône d&#39;insertion permet d&#39;ajouter un champ de base de données dans le contenu, tel que le nom du destinataire. Cette option n’est disponible que pour les blocs de type texte.
+L’option **Champ de personnalisation** de l’icône d’insertion vous permet d’ajouter un champ de la base de données dans le contenu, le nom de la personne destinataire par exemple.Cette option n’est disponible que pour les blocs de type texte.
 
 ![](assets/dce_toolbar_textblock_persofield.png)
 
-Par défaut, les champs proposés sont issus du tableau **[!UICONTROL Destinataire]**. Si nécessaire, modifiez les propriétés de l&#39;application Web pour sélectionner une autre table.
+Par défaut, les champs proposés sont ceux de la table **[!UICONTROL Personne destinataire]**.Si nécessaire, modifiez les propriétés de l’application web pour sélectionner une autre table.
 
-Le nom du champ apparaît dans l’éditeur, surligné en jaune. Elle sera remplacée par le profil du ou de la destinataire ciblé(e) lors de la génération de la personnalisation (par exemple, lors de l’aperçu d’une landing page).
+Le nom du champ apparaît dans l’éditeur, surligné en jaune.Il sera remplacé, lors de la génération de la personnalisation (par exemple, lors de la prévisualisation d’une page de destination), par le profil de la personne destinataire ciblée.
 
 Un exemple est présenté dans la section [Insertion d’un champ de personnalisation](creating-a-landing-page.md#inserting-a-personalization-field).
 
 ### Insérer un bloc de personnalisation {#inserting-a-personalization-block}
 
-L&#39;option **Bloc** permet d&#39;insérer des blocs dynamiques et personnalisés dans le contenu. Par exemple, vous pouvez ajouter un logo ou un message de salutations. Il n’est pas disponible pour les blocs de type Texte.
+L’option **Bloc de personnalisation** vous permet d’insérer des blocs dynamiques et personnalisés dans le contenu.Vous pouvez par exemple ajouter un logo ou un message de salutations.Elle n’est pas disponible pour les blocs de type Texte.
 
 ![](assets/dce_toolbar_textblock_persoblock.png)
 
-Une fois inséré, le nom du bloc de personnalisation apparaît dans l’éditeur, surligné en jaune. Il est automatiquement adapté au profil du ou de la destinataire lors de la génération de la personnalisation.
+Après l’insertion, le nom du bloc de personnalisation apparaît dans l’éditeur, surligné en jaune.Il est automatiquement adapté au profil de la personne destinataire lors de la génération de la personnalisation.
 
 Pour en savoir plus sur les blocs de personnalisation intégrés et sur la définition de blocs de personnalisation personnalisés, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=fr){target="_blank"}.

@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1015
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -94,8 +94,8 @@ Exemple :
 >
 >Il s&#39;agit d&#39;un exemple spécifique parmi plusieurs implémentations possibles.
 
-Le contenu est défini au format JSON dans Adobe Analytics pour chaque déclencheur.
-Par exemple, dans un déclencheur LogoUpload_uploading_Visits :
+Le contenu est défini au format JSON dans Adobe Analytics pour chaque déclencheur.
+Par exemple, dans un déclencheur LogoUpload_uploading_Visits :
 
 * **[!UICONTROL eVar01]** peut contenir l&#39;identifiant de nouvel acheteur au format Chaîne utilisé pour la réconciliation avec les destinataires Campaign. <br>Il doit être réconcilié pour trouver l’identifiant de nouvel acheteur, qui est la clé primaire.
 
@@ -139,8 +139,8 @@ Actuellement, il n&#39;existe aucun moyen d&#39;avoir des files d&#39;attente di
 
 ### Journalisation et gestion des erreurs {#logging-error-handling}
 
-Les journaux tels que logInfo() sont redirigés vers le journal [!DNL pipelined]. Les erreurs telles que logError() sont écrites dans le journal [!DNL pipelined] et entraînent la mise de l’événement dans une file d’attente de reprises. Dans ce cas, vous devez vérifier le journal en pipeline.
-Les messages en erreur font l’objet de plusieurs reprises au cours de la durée définie dans les options de [!DNL pipelined].
+Les logs tels que logInfo() sont redirigés vers le log [!DNL pipelined]. Les erreurs telles que logError() sont écrites dans le log [!DNL pipelined] et entraînent le placement de l’événement dans une file d’attente de reprises. Dans ce cas, vous devez vérifier le log en pipeline.
+Les messages en erreur font l’objet de plusieurs reprises pendant la durée définie dans les options [!DNL pipelined].
 
 À des fins de débogage et de surveillance, l&#39;intégralité des données de déclenchement est écrite dans le tableau de déclenchement dans le champ &quot;données&quot; au format XML. Une autre solution consiste à utiliser un logInfo() contenant les données de déclenchement dans le même but.
 
@@ -165,8 +165,8 @@ function processPipelineMessage(xmlTrigger)
  }
 ```
 
-Soyez prudent lors de l’analyse pour éviter les erreurs.
-Comme ce code est utilisé pour tous les déclencheurs, la plupart des données ne sont pas requises. Par conséquent, il peut être laissé vide en l’absence de .
+Faites preuve de prudence lors de l’analyse pour éviter les erreurs.
+Comme ce code est utilisé pour tous les déclencheurs, la plupart des données ne sont pas nécessaires. Par conséquent, il peut être laissé vide en l’absence de données.
 
 ### Stockage du déclencheur {#storing-triggers-js}
 
@@ -212,8 +212,8 @@ Pour accélérer le traitement, plusieurs threads de ce script sont exécutés e
 
 ### Schéma d’événement de pipeline {#pipeline-event-schema}
 
-Les événements sont stockés dans une table de base de données. Il est utilisé par les campagnes marketing pour cibler les clients et clientes et enrichir les e-mails à l’aide de déclencheurs.
-Bien que chaque déclencheur puisse avoir une structure de données distincte, tous les déclencheurs peuvent être regroupés dans un seul tableau.
+Les événements sont stockés dans une table de base de données. Elle est utilisée par les campagnes marketing pour cibler les clientes et clients et enrichir les e-mails à l’aide de déclencheurs.
+Bien que chaque déclencheur puisse avoir une structure de données distincte, tous les déclencheurs peuvent être regroupés dans une même table.
 Le champ triggerType identifie le déclencheur d’où proviennent les données.
 
 Voici un exemple de code de schéma pour cette table :
@@ -245,8 +245,8 @@ Les événements peuvent être affichés avec un formulaire simple basé sur le 
 
 La réconciliation est le processus de mise en correspondance du client d&#39;Adobe Analytics dans la base de données Campaign. Par exemple, les critères de correspondance peuvent être shopper_id.
 
-Pour des raisons de performances, la correspondance doit être effectuée en mode batch par un workflow.
-La fréquence doit être définie sur 15 minutes pour optimiser la charge de travail. Par conséquent, le délai entre la réception d’un événement dans Adobe Campaign et son traitement par un workflow marketing est de 15 minutes maximum.
+Pour des raisons de performances, la correspondance doit être établie en mode par lots par un workflow.
+La fréquence doit être définie sur 15 minutes pour optimiser la charge de travail. Par conséquent, le délai entre la réception d’un événement dans Adobe Campaign et son traitement par un workflow marketing est de 15 minutes maximum.
 
 ### Options de réconciliation des unités dans JavaScript {#options-unit-reconciliation}
 
@@ -261,4 +261,4 @@ Les déclencheurs sont traités dans l&#39;heure. Le volume peut être d’envir
 ### Workflow de campagne {#campaign-workflow}
 
 Le workflow de campagne de déclenchement est souvent similaire aux autres campagnes récurrentes qui ont été utilisées.
-Par exemple, elle peut commencer par une requête sur les déclencheurs qui recherche des événements spécifiques au cours du dernier jour. Cette cible est utilisée pour envoyer l’e-mail. Les enrichissements ou les données peuvent provenir du déclencheur. Il peut être utilisé en toute sécurité par Marketing, car il ne nécessite aucune configuration.
+Par exemple, il peut commencer par une requête sur les déclencheurs qui recherche des événements spécifiques au cours du dernier jour. Cette cible est utilisée pour envoyer l’e-mail. Les enrichissements ou les données peuvent provenir du déclencheur. Il peut être utilisé en toute sécurité par le service marketing, car il ne nécessite aucune configuration.

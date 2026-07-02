@@ -14,9 +14,9 @@ subfeature_v2:
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 301
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Dans l&#39;exemple ci-dessous, nous allons créer un workflow pour envoyer un e-
 
 1. Créez une campagne.
 1. Dans l&#39;onglet **[!UICONTROL Ciblages et workflows]** de votre campagne, ajoutez une **[!UICONTROL Requête]** à votre workflow.
-1. Configurez votre requête. Par exemple, nous sélectionnons ici les destinataires abonnés aux notifications push en tant que dimension cible.
+1. Configurez votre requête.Par exemple, ici, nous sélectionnons les personnes destinataires abonnées aux notifications push comme dimension cible.
 
    >[!NOTE]
    >
@@ -51,7 +51,7 @@ Dans l&#39;exemple ci-dessous, nous allons créer un workflow pour envoyer un e-
 
    ![](assets/cross_channel_delivery_1.png)
 
-1. Ajoutez les conditions de filtre à votre requête. Dans ce cas, nous sélectionnerons les destinataires qui ont un numéro de mobile ou une adresse e-mail.
+1. Ajoutez les conditions de filtre à votre requête.Ici, nous allons sélectionner les destinataires ayant un numéro de mobile ou une adresse e-mail.
 
    ![](assets/cross_channel_delivery_2.png)
 

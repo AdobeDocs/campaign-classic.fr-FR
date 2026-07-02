@@ -16,9 +16,9 @@ subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 149
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ Soit une instance **prod** existante sous Linux/PostgreSQL, les étapes de trans
    /etc/init.d/apache start
    ```
 
-1. Confirmez le changement. Pour cela, connectez-vous via la console Adobe Campaign et :
+1. Confirmer le changement.Pour cela, se connecter via la console Adobe Campaign et :
 
    * vérifier que les données s&#39;affichent correctement, notamment les caractères accentués,
    * lancer une diffusion et vérifier que la récupération du tracking fonctionne.

@@ -15,9 +15,9 @@ topic_v2:
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 582
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ Chiffre la chaîne de caractères avec la clé de l’instance en utilisant l’
 
 **Valeur(s) renvoyée(s)** : chiffrée(s)
 
-**Schéma** : xtk:session
+**Schéma** : xtk:session
 
 **Statique** : oui
 
@@ -85,7 +85,7 @@ Chiffre la chaîne de caractères avec la clé du serveur en utilisant l’algor
 
 **Valeur(s) renvoyée(s)** : chiffrée(s)
 
-**Schéma** : xtk:session
+**Schéma** : xtk:session
 
 **Statique** : oui
 

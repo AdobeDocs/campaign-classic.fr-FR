@@ -22,9 +22,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 473
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Pour créer une diffusion SMS, procédez comme suit :
 
 Pour définir le contenu du SMS, procédez comme suit :
 
-1. Saisissez le contenu du message dans la section **[!UICONTROL Contenu texte]** de l’assistant. Les boutons de la barre d’outils permettent d’importer, d’enregistrer ou de rechercher dans un contenu. Le dernier bouton permet d&#39;insérer des champs de personnalisation.
+1. Saisissez le contenu du message dans la section **[!UICONTROL Contenu texte]** de l’assistant. Les boutons de la barre d’outils permettent d’importer, d’enregistrer ou de rechercher dans un contenu. Le dernier bouton permet d’insérer des champs de personnalisation.
 
    ![](assets/s_ncs_user_wizard_sms01_138.png)
 
@@ -60,7 +60,7 @@ Pour définir le contenu du SMS, procédez comme suit :
 
    ![](assets/s_ncs_user_wizard_sms01_139.png)
 
-   Vous pouvez approuver le SMS. Vous pouvez également afficher le contenu du SMS sur l’écran du téléphone mobile affiché à droite de l’éditeur de contenu. Cliquez sur l’écran et utilisez la souris pour faire défiler le contenu.
+   Vous pouvez approuver le SMS.Vous pouvez également visualiser le contenu du SMS sur l’écran de téléphone mobile affiché à la droite de l’éditeur de contenu.Cliquez sur l’écran et utilisez la souris pour faire défiler le contenu.
 
    ![](assets/s_ncs_user_wizard_sms01_140.png)
 
@@ -70,9 +70,9 @@ Pour définir le contenu du SMS, procédez comme suit :
 
    >[!NOTE]
    >
-   >Les SMS sont limités à une longueur de 160 caractères si la page de code Latin-1 (ISO-8859-1) est utilisée. Si le message est écrit en Unicode, il ne doit pas dépasser 70 caractères. Certains caractères spéciaux peuvent affecter la longueur du message. Pour plus d’informations sur la longueur des messages, voir la section [Translittération des caractères SMS](#about-character-transliteration).
+   >Les SMS sont limités à une longueur de 160 caractères si la page de code Latin-1 (ISO-8859-1) est utilisée.Si le message est écrit en Unicode, il ne doit pas dépasser 70 caractères.Certains caractères spéciaux peuvent affecter la longueur du message.Pour plus d’informations sur la longueur des messages, voir la section [Translittération des caractères SMS](#about-character-transliteration).
    >
-   >En présence de champs de personnalisation ou de contenu conditionnel, la taille du message varie d&#39;un destinataire à l&#39;autre. La longueur du message doit être évaluée une fois la personnalisation effectuée.
+   >Lors de la présence de champs de personnalisation ou champs de contenu conditionnel, la taille du message varie d’une personne destinataire à l’autre.La longueur du message doit être évaluée une fois la personnalisation effectuée.
    >
    >Lorsque vous lancez l&#39;analyse, la longueur des messages est contrôlée et un message d&#39;avertissement est affiché en cas de dépassement.
 

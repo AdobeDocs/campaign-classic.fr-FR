@@ -23,15 +23,15 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 517
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # Contenu conditionnel{#conditional-content}
 
-En configurant des champs de contenu conditionnel, vous pouvez créer une personnalisation dynamique basée sur le profil du ou de la destinataire, par exemple. Les blocs de texte et/ou les images sont remplacés lorsqu’une condition particulière est remplie.
+En configurant du contenu conditionnel, vous pouvez notamment créer une personnalisation dynamique basée sur le profil de la personne destinataire.Des blocs de texte et/ou des images sont remplacés lorsqu’une condition particulière est remplie.
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#conditionnal-content-video)
 
@@ -40,7 +40,7 @@ En configurant des champs de contenu conditionnel, vous pouvez créer une person
 
 Dans l&#39;exemple ci-dessous, vous allez découvrir comment créer de manière dynamique un message personnalisé selon le genre et les centres d&#39;intérêt du destinataire.
 
-* Affichage affichant « M. » ou « Mme » suivant la valeur du champ **[!UICONTROL Genre]** (M ou F) dans la source de données.
+* Affichage de « M. »ou « Mme »suivant la valeur du champ **[!UICONTROL Genre]** (M ou F) dans la source de données.
 * Assemblage personnalisé d&#39;une newsletter ou d&#39;offres promotionnelles en fonction des centres d&#39;intérêt renseignés ou détectés :
 
    * Centre d&#39;intérêt 1 -- > Bloc 1
@@ -54,7 +54,7 @@ Pour créer un contenu conditionnel en fonction de la valeur d&#39;un champ, res
 
    ![](assets/s_ncs_user_conditional_content02.png)
 
-   Les éléments de personnalisation sont insérés dans le corps du message. Vous devez maintenant les configurer.
+   Les éléments de personnalisation sont insérés dans le corps du message.Vous devez maintenant les configurer.
 
 1. Renseignez ensuite les paramètres de l&#39;expression **if**.
 
@@ -65,7 +65,7 @@ Pour créer un contenu conditionnel en fonction de la valeur d&#39;un champ, res
      ![](assets/s_ncs_user_conditional_content03.png)
 
    * Remplacez **`<value>`** par la valeur du champ pour lequel la condition sera remplie. Cette valeur doit être entre guillemets.
-   * Indiquez le contenu à insérer lorsque la condition est remplie. Il peut s’agir de texte, d’une image, d’un formulaire, d’un lien hypertexte, etc.
+   * Indiquez le contenu à insérer lorsque la condition est remplie. Il peut s’agir d’un texte, d’une image, d’un formulaire, d’un lien hypertexte, etc.
 
      ![](assets/s_ncs_user_conditional_content04.png)
 

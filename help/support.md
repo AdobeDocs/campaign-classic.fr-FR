@@ -20,9 +20,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: tm+mt
-source-wordcount: 842
-ht-degree: 98%
+workflow-type: ht
+source-wordcount: 837
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Obtenez de l’aide en utilisant nos FAQ, bonnes pratiques, ressources en ligne 
     <tr>
         <td><img src="platform/using/assets/do-not-localize/icon-faq.svg" width="60px"><p><a href="#faq">Problèmes courants et bonnes pratiques</a></p></td>
         <td><img src="platform/using/assets/do-not-localize/icon-control-panel.svg" width="60px"><p><a href="#control-panel">Panneau de contrôle Campaign</a></p></td>
-        <td><img src="platform/using/assets/do-not-localize/icon-support.svg" width="60px"><p><a href="#support">Demander de l’aide</a></p></td>
+        <td><img src="platform/using/assets/do-not-localize/icon-support.svg" width="60px"><p><a href="#support">Demande d’aide</a></p></td>
     </tr>
 </table>
 
@@ -75,7 +75,7 @@ Obtenez de l’aide en utilisant nos FAQ, bonnes pratiques, ressources en ligne 
         <li><a href="production/using/monitoring-guidelines.md">Découverte des outils de surveillance</a></li>
         <li><a href="platform/using/import-export-workflows.md">Import de données avec des workflows</a></li>
         <li><a href="delivery/using/steps-sending-the-delivery.md">Envoi des messages en plusieurs vagues</a></li>
-        <li><a href="delivery/using/defining-the-email-content.md">Conception de contenu d’email</a></li>
+        <li><a href="delivery/using/defining-the-email-content.md">Conception de contenu d’e-mail</a></li>
         <li><a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=fr" target="_blank">Bonnes pratiques de diffusion</a></li>
         </ul>
     </td>
@@ -101,8 +101,8 @@ Obtenez de l’aide en utilisant nos FAQ, bonnes pratiques, ressources en ligne 
 
 ### Qu’est-ce que le Panneau de contrôle ?
 
-Le Panneau de contrôle de Campaign accroît votre efficacité en tant qu’administrateur de produit Campaign Classic, en vous permettant de gérer les paramètres et de suivre l’utilisation de chacune de vos instances.
-[Cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr) pour plus d’informations.
+Le panneau de contrôle de Campaign accroît votre efficacité en tant qu’administrateur ou administratrice de produit Campaign Classic, en vous permettant de gérer les paramètres et de suivre l’utilisation de chacune de vos instances.
+Pour plus d’informations, [cliquez ici](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr).
 
 >[!NOTE]
 >
@@ -133,9 +133,9 @@ Vous pouvez surveiller vos sous-domaines et leurs certificats. En savoir plus da
 
 Découvrez comment gérer vos paramètres d’instances Campaign Classic dans le Panneau de contrôle. En savoir plus dans ces pages :
 * [Ajout d’adresses IP sur la liste autorisée](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=fr) pour accéder à vos instances Campaign
-* [Gestion des autorisations d’URL](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=fr)
-* [Accès aux détails de l’instance](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=fr)
-* [Gestion des clés GPG pour le chiffrement des données](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=fr)
+* [Gérer les autorisations d’URL](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=fr)
+* [Accéder aux détails de l’instance](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=fr)
+* [Gérer les clés GPG pour le chiffrement des données](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=fr)
 
 ## Demander de l’aide {#support}
 

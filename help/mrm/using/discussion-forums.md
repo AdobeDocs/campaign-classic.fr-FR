@@ -21,9 +21,9 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 808
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 72%
 
 
 
-Les opérateurs d’Adobe Campaign peuvent utiliser les forums de discussion pour partager des informations. Les éléments suivants ont chacun leur propre forum : plans, programmes, campagnes, ressources, simulations, stocks. Chaque opérateur/opératrice possède également un forum personnel. Toutes les discussions sont publiques, même sur des forums personnels.
+Les opérateurs d’Adobe Campaign peuvent utiliser les forums de discussion pour partager des informations. Les éléments suivants disposent de leur propre forum : plans, programmes, campagnes, ressources marketing, simulations, stocks.Chaque opérateur/opératrice possède également un forum personnel. Toutes les discussions sont publiques, même sur des forums personnels.
 
 Les opérateurs/opératrices peuvent s’abonner à des forums afin de recevoir un e-mail de notification à chaque message posté dans ceux-ci.
 
 ## Accéder à un forum {#accessing-a-forum}
 
-Pour accéder au forum d&#39;une opération, d&#39;un opérateur, etc., dans le tableau de bord de celui-ci, cliquez sur le lien **[!UICONTROL Forum]** en haut à droite. Ce lien vous donne également le nombre total de messages dans le forum.
+Pour accéder au forum d’une campagne, d’un opérateur ou d’une opératrice, etc., accédez au tableau de bord correspondant et cliquez sur le lien **[!UICONTROL Forum]** en haut à droite.Ce lien vous donne également le nombre total de messages dans le forum.
 
 ![](assets/mrm_forum_access_link.png)
 
@@ -73,8 +73,8 @@ Dans la boîte **[!UICONTROL Forum de discussion]** :
 
 1. Si besoin :
 
-   * Si vous souhaitez que quelqu’un qui n’est pas abonné au forum prenne part à la discussion, utilisez le champ **[!UICONTROL Opérateur à notifier]**. L’opérateur recevra un e-mail de notification pour ce message spécifique (il ne sera pas abonné au forum). Pour avertir plusieurs opérateurs/opératrices, sélectionnez un groupe d’opérateurs/opératrices.
-   * Pour ajouter une pièce jointe au message, cliquez sur **[!UICONTROL Parcourir]**. La pièce jointe sera également incluse dans l’e-mail de notification. Les pièces jointes ne peuvent être envoyées qu&#39;individuellement : pour envoyer plusieurs fichiers, vous devez les compresser.
+   * Si vous voulez faire participer à la discussion une personne non abonnée au forum, utilisez le champ **[!UICONTROL Opérateur ou opératrice à notifier]**.La personne recevra un e-mail de notification pour ce message spécifique (elle ne sera pas abonnée au forum).Pour avertir plusieurs opérateurs/opératrices, sélectionnez un groupe d’opérateurs/opératrices.
+   * Pour ajouter une pièce jointe au message, cliquez sur **[!UICONTROL Parcourir]**.La pièce jointe sera également incluse dans l’e-mail de notification. Une seule pièce jointe peut être ajoutée par message : pour envoyer plusieurs fichiers, vous devez les compresser dans un fichier .zip.
 
 1. Cliquez sur **[!UICONTROL Créer le message]** pour poster le message dans le forum.
 
@@ -84,7 +84,7 @@ Dans la boîte **[!UICONTROL Forum de discussion]** :
 
 ## Poster un message dans le forum personnel d&#39;un opérateur {#posting-to-the-personal-forum-of-an-operator}
 
-Vous pouvez poster un message dans le forum d&#39;un opérateur ou d&#39;une opératrice si, par exemple, votre message ne concerne pas une opération particulière mais que vous souhaitez garder une trace de la conversation dans Adobe Campaign. Les forums personnels sont publics et tous les opérateurs verront votre message. L’opérateur/opératrice reçoit un message chaque fois qu’une personne publie sur son forum personnel.
+Vous pouvez poster un message dans le forum d’un opérateur ou d’une opératrice si par exemple votre message ne relève pas d’une opération particulière mais que vous voulez conservez une trace de votre conversation dans Adobe Campaign.Les forums personnels sont publics et votre message est visible par tous les opérateurs et opératrices.L’opérateur ou l’opératrice reçoit un message par e-mail chaque fois qu’une personne publie sur son forum personnel.
 
 Pour accéder au forum d&#39;un opérateur :
 
@@ -93,7 +93,7 @@ Pour accéder au forum d&#39;un opérateur :
 
 ## S&#39;abonner à un forum {#subscribing-to-a-forum}
 
-Vous pouvez vous abonner à un forum pour suivre les discussions. Vous recevrez une notification par e-mail chaque fois qu’un message est publié sur le forum. Cet e-mail contiendra le corps du message et toutes les pièces jointes. Pour répondre à un message, cliquez dans le corps de l’e-mail, puis connectez-vous à l’interface web d’Adobe Campaign. Lorsque vous vous abonnez à un forum, ces informations sont visibles par tous.
+Vous pouvez vous abonner à un forum pour suivre toutes les discussions.Vous recevez une notification par e-mail chaque fois qu’un message est publié sur le forum.Cet e-mail contiendra le corps du message et toutes les pièces jointes.Pour répondre à un message, cliquez dans le corps de l’e-mail, puis connectez-vous à l’interface web d’Adobe Campaign. Lorsque vous vous abonnez à un forum, ces informations sont visibles par tout le monde.
 
 * Pour vous abonner à un forum, cliquez sur le bouton **[!UICONTROL Suivre les discussions]** dans le bandeau au-dessus de la liste des messages, à droite.
 

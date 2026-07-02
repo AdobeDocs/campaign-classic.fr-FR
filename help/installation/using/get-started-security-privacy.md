@@ -22,9 +22,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 450
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ La configuration et le renforcement de la confidentialité sont des éléments c
 
 <img src="assets/do-not-localize/icon_access.svg" width="60px">
 
-La gestion des accès est un aspect important du renforcement de la sécurité. Voici quelques-unes des bonnes pratiques principales :
+La gestion des accès joue un rôle important dans le renforcement de la sécurité.Voici quelques-unes des principales bonnes pratiques à appliquer :
 
 * Créez suffisamment de groupes de sécurité.
 * Vérifiez que chaque opérateur dispose des droits d&#39;accès adéquats.
@@ -98,7 +98,7 @@ La configuration doit être effectuée sur tous les serveurs. Les fichiers de co
 
 * **Protection des connexions sortantes** et **restriction des commandes** (côté serveur)
 
-* Vous pouvez également ajouter des en-têtes HTTP supplémentaires, activer checkIPConsistent, enableTLS, sessionTimeOutSec, etc. Reportez-vous à la [documentation de configuration du serveur Campaign](../../installation/using/configuring-campaign-server.md) et à la [description du fichier de configuration du serveur](../../installation/using/the-server-configuration-file.md) pour plus d’informations.
+* Vous pouvez également ajouter d’autres en-têtes HTTP, activer checkIPConsistent, enableTLS, sessionTimeOutSec, etc. Pour plus d’informations, consultez la [documentation sur la configuration du serveur Campaign](../../installation/using/configuring-campaign-server.md) et la [description du fichier de configuration du serveur](../../installation/using/the-server-configuration-file.md).
 
 [En savoir plus](../../installation/using/server-configuration.md)
 

@@ -14,9 +14,9 @@ subfeature_v2:
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 245
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Dans cet exemple, vous allez comptabiliser le nombre de destinataires domicilié
 
 * Quelle table doit-on sélectionner ?
 
-  La table des destinataires (**nms:recipient**)
+  Table des personnes destinataires (**nms:recipient**)
 
 * Quels sont les champs à sélectionner en colonne de sortie ?
 
@@ -45,17 +45,17 @@ Pour réaliser cet exemple, les étapes sont les suivantes :
    ![](assets/query_editor_nveau_27.png)
 
 1. Dans la fenêtre **[!UICONTROL Tri]**, cliquez sur **[!UICONTROL Suivant]** : aucun tri n&#39;est nécessaire dans cet exemple.
-1. Paramétrez le filtrage des données. Ici, vous souhaitez limiter la sélection aux contacts qui vivent à Londres.
+1. Paramétrez le filtrage des données. Ici, vous allez restreindre la sélection aux personnes contacts domiciliées à Paris.
 
    ![](assets/query_editor_22.png)
 
    >[!NOTE]
    >
-   >Les valeurs respectent la casse. Si la valeur &#39;Londres&#39; est saisie dans la condition sans majuscule et que la liste des destinataires contient le mot « Londres » avec majuscule, la requête échoue.
+   >Les valeurs sont sensibles à la casse.Si la valeur « paris » est saisie dans la condition sans majuscule et si la liste des personnes destinataires comporte le terme « Paris » avec une majuscule, la requête échoue.
 
 1. Dans la fenêtre **[!UICONTROL Formatage des données]**, cliquez sur **[!UICONTROL Suivant]** : aucun formatage n&#39;est nécessaire dans cet exemple.
 1. Dans la fenêtre de prévisualisation, cliquez sur **[!UICONTROL Lancer la prévisualisation des données]**.
 
-   Il existe trois valeurs distinctes pour chaque tri par genre : **2** pour le genre féminin, **1** pour le genre masculin et **0** lorsque le genre est inconnu. Dans cet exemple, la liste contient 10 femmes, 16 hommes et 2 personnes dont le genre n’est pas connu.
+   Il y a trois valeurs distinctes dans un tri par genre : **2** correspond au genre féminin, **1** au genre masculin et la valeur **0** apparaît lorsque le genre est inconnu.Dans cet exemple, la liste comporte 10 femmes, 16 hommes et 2 personnes dont le genre n’est pas renseigné.
 
    ![](assets/query_editor_agregat_04.png)

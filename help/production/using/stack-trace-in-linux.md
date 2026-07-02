@@ -19,9 +19,9 @@ subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 149
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 65%
 
 
 
-Une **trace de pile** représente une trace contenue dans un fichier de type **core**. Ce fichier est généré en cas d&#39;erreur de machine. Il peut identifier l’origine de l’erreur.
+Une **trace de la pile** représente une trace contenue dans un fichier de type **core**.Ce fichier est généré en cas d’erreur de machine.Il peut identifier l’origine de l’erreur.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Une **trace de pile** représente une trace contenue dans un fichier de type **c
 >* Il faut que **gdb - The GNU Debugger** soit installé sur la machine.
 >
 
-Le support technique d&#39;Adobe Campaign peut vous demander cette **stack trace**. Pour l&#39;obtenir, saisissez les commandes suivantes sous Linux :
+Le support technique d’Adobe Campaign peut vous demander cette **trace de la pile**.Pour l’obtenir, saisissez les commandes suivantes sous Linux :
 
 ```
 su - neolane

@@ -22,9 +22,9 @@ topic_v2:
 subfeature_v2:
   - id: e5fb657f-3c0a-4fcc-9980-3589a23ab4de
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 830
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -32,9 +32,9 @@ ht-degree: 69%
 
 ## À propos des règles de cohérence {#about-consistency-rules}
 
-Adobe Campaign garantit la cohérence des communications grâce à un ensemble de règles contenues dans les typologies de campagne. Leur objectif est de contrôler les diffusions envoyées aux destinataires, comme le volume, la nature, la pertinence, etc.
+Adobe Campaign garantit la cohérence des communications grâce à un ensemble de règles contenues dans les typologies de campagne.Leur objectif est de contrôler les diffusions envoyées aux personnes destinataires, comme le volume, la nature, la pertinence, etc.
 
-Les règles **Capacité** par exemple peuvent éviter de surcharger la plateforme concernée par la diffusion des messages. Par exemple, les offres spéciales contenant un lien de téléchargement ne doivent pas être envoyées à un trop grand nombre de personnes à la fois, afin d’éviter de saturer le serveur ; les campagnes téléphoniques ne doivent pas dépasser la capacité de traitement des centres d’appels, etc. Pour plus d&#39;informations, consultez la section [Contrôler la capacité](#controlling-capacity).
+Des règles de **capacité**, par exemple, peuvent éviter de surcharger la plateforme concernée par la diffusion de messages.Par exemple, une offre spéciale contenant un lien de téléchargement ne doit pas être envoyées au même moment à un trop grand nombre de personnes pour éviter de saturer le serveur, une campagne téléphonique ne doit pas excéder la capacité de traitement du centre d’appel, etc. Pour en savoir plus à ce sujet, consultez la section [Contrôler la capacité](#controlling-capacity).
 
 ## Contrôle de la capacité {#controlling-capacity}
 
@@ -42,7 +42,7 @@ Avant de diffuser des messages, vous devez vous assurer que votre organisation a
 
 Pour cela, vous devez créer des règles de typologie de type **[!UICONTROL Capacité]**.
 
-Dans l’exemple suivant, nous créons une règle de typologie pour une campagne de fidélité téléphonique. Nous limitons le nombre des messages à 20 par jour, ce qui correspond à la capacité de traitement quotidienne d’un centre d’appel. Une fois la règle appliquée à deux diffusions, nous pouvons suivre la consommation via les logs.
+Dans l’exemple suivant, nous créons une règle de typologie pour une campagne de fidélité par téléphone.Nous limitons le nombre des messages à 20 par jour, ce qui correspond à la capacité de traitement quotidienne d’un centre d’appel. Une fois la règle appliquée à deux diffusions, nous pouvons suivre la consommation via les logs.
 
 Pour créer une règle de capacité, procédez comme suit :
 
@@ -51,7 +51,7 @@ Pour créer une règle de capacité, procédez comme suit :
 
    ![](assets/campaign_opt_create_capacity_01.png)
 
-1. Dans l&#39;onglet **[!UICONTROL Capacité]**, créez les lignes de disponibilité : dans notre exemple, il s&#39;agit des périodes temporelles pendant lesquelles des appels peuvent être effectués. Sélectionnez une période de 24 heures et saisissez la quantité initiale de 150, ce qui signifie que le centre d’appels peut traiter 150 appels par jour.
+1. Dans l’onglet **[!UICONTROL Capacité]**, créez les lignes de disponibilité : dans notre exemple, elles correspondent à des périodes pendant lesquelles les appels peuvent être passés.Sélectionnez une période de 24 heures et saisissez 150 dans la quantité initiale, ce qui indique que le centre d’appel peut traiter 150 appels par jour.
 
    ![](assets/campaign_opt_create_capacity_02.png)
 
@@ -74,7 +74,7 @@ Pour définir la charge maximale, vous devez définir les lignes de disponibilit
 
 ### Ajout de lignes de disponibilité une par une {#adding-availability-lines-one-by-one}
 
-Pour créer une ligne de disponibilité, cliquez sur le bouton **[!UICONTROL Ajouter]** et sélectionnez **[!UICONTROL Ajouter une ligne de disponibilité]**. Entrez la période de disponibilité et la charge disponible.
+Pour créer une ligne de disponibilité, cliquez sur le bouton **[!UICONTROL Ajouter]** et sélectionnez **[!UICONTROL Ajouter une ligne de disponibilité]**.Saisissez la période de disponibilité et la charge disponible.
 
 ![](assets/campaign_opt_create_capacity_02.png)
 
@@ -82,13 +82,13 @@ Vous pouvez ajouter autant de lignes que nécessaires pour correspondre à votre
 
 ### Ajouter un ensemble de lignes de disponibilité {#add-a-set-of-availability-lines}
 
-Pour définir les périodes de disponibilité pour une plage de disponibilité donnée, cliquez sur le bouton **[!UICONTROL Ajouter]** et sélectionnez l&#39;option **[!UICONTROL Ajouter un ensemble de lignes de disponibilité]**. Indiquez une durée pour chaque période et le nombre de périodes à créer.
+Pour définir des périodes de disponibilité pour une durée donnée, cliquez sur le bouton **[!UICONTROL Ajouter]** et sélectionnez l’option **[!UICONTROL Ajouter un ensemble de lignes de disponibilité]**.Indiquez la durée de chaque période et le nombre de périodes à créer.
 
 Pour automatiser la fréquence de création des plages, cliquez sur le bouton **[!UICONTROL Changer]** et définissez la planification des plages.
 
 ![](assets/campaign_opt_create_capacity_07.png)
 
-Par exemple, définissons un planning pour créer des périodes de disponibilité pour tous les jours ouvrés à raison de 10 appels par heure entre 9h et 17h. Pour cela, les étapes sont les suivantes :
+Par exemple, définissons un planning afin de créer les périodes de disponibilité pour tous les jours ouvrés, pour 10 appels par heure, entre 9h et 17h.Pour cela, les étapes sont les suivantes :
 
 1. Sélectionnez le type de périodicité et les jours et heures de validité :
 
@@ -108,7 +108,7 @@ Le workflow **[!UICONTROL Prévisionnel]** crée automatiquement toutes les lign
 
 >[!NOTE]
 >
->Nous vous recommandons de créer des lignes de disponibilité via des imports de fichiers. Cet onglet permet de visualiser et vérifier les lignes de consommation.
+>Nous vous recommandons de créer des lignes de disponibilité à partir d’imports de fichiers.Cet onglet vous permet de visualiser et de vérifier les lignes de consommation.
 
 ## Exclure des messages lorsque la limite de capacité est atteinte {#exclude-messages-when-capacity-limit-reached}
 

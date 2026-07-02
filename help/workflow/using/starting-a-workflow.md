@@ -16,7 +16,7 @@ subfeature_v2:
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 1280
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 82%
 
 Un workflow est toujours démarré manuellement. Au démarrage, il peut toutefois rester inactif en fonction des informations spécifiées par le biais d&#39;un planificateur (voir [Planificateur](scheduler.md)) ou d&#39;une planification d&#39;activité.
 
-Actions liées à l&#39;exécution du workflow de ciblage (lancement, arrêt, pause, etc.) sont des processus **asynchrones** : la commande est enregistrée et sera effective dès que le serveur sera disponible pour l’appliquer.
+Les actions liées à l’exécution du workflow de ciblage (lancement, arrêt, pause, etc.) sont des processus **asynchrones** : la commande est enregistrée et sera effective dès que le serveur sera disponible pour l’appliquer.
 
 La barre d&#39;outils permet de lancer et suivre l&#39;exécution du workflow.
 
@@ -44,13 +44,13 @@ Les boutons de la barre d&#39;outils sont décrits dans cette [section](../../ca
 
 * **[!UICONTROL Début]**
 
-  Cette action permet de lancer l&#39;exécution d&#39;un workflow : un workflow **Terminé**, **En édition** ou **En pause** passe alors en état **Démarré**. Le moteur de workflow gère ensuite l’exécution de ce workflow. Si le workflow était en pause, il s’agit d’une reprise, sinon il s’agit d’un démarrage et les activités initiales sont activées.
+  Cette action vous permet de lancer l’exécution d’un workflow : un workflow **Terminé**, **En cours d’édition** ou **En pause** passe alors au statut **Démarré**. Le moteur de workflow gère ensuite l’exécution de ce workflow. Si le workflow était en pause, il reprend. Sinon, le workflow redémarre depuis le début et les activités initiales sont activées.
 
   Le démarrage est un processus asynchrone : la demande est enregistrée et sera traitée dès que possible par un serveur de workflow.
 
 * **[!UICONTROL Pause]**
 
-  Cette action définit le statut du workflow sur **En pause**. Aucune activité n’est activée jusqu’à la reprise du workflow. Toutefois, les opérations en cours ne sont pas suspendues.
+  Cette action définit le statut du workflow sur **En pause**. Aucune activité n’est activée jusqu’à la prochaine reprise du workflow, mais les opérations en cours ne sont pas suspendues.
 
 * **[!UICONTROL Stopper]**
 
@@ -62,7 +62,7 @@ Les boutons de la barre d&#39;outils sont décrits dans cette [section](../../ca
 
 * **[!UICONTROL Arrêt inconditionnel]**
 
-  Cette option modifie le statut du workflow en **[!UICONTROL Terminé]**. Cette action ne doit être utilisée qu’en dernier recours si le processus d’arrêt normal échoue après plusieurs minutes. N’utilisez l’arrêt inconditionnel que si vous êtes sûr qu’aucune tâche de workflow n’est en cours.
+  Cette option modifie le statut du workflow sur **[!UICONTROL Terminé]**. Cette action ne doit être utilisée qu’en dernier recours si le processus d’arrêt normal échoue après plusieurs minutes. N’utilisez l’arrêt inconditionnel que si vous avez la certitude qu’aucun traitement de workflow n’est en cours.
 
   >[!CAUTION]
   >
@@ -70,7 +70,7 @@ Les boutons de la barre d&#39;outils sont décrits dans cette [section](../../ca
 
 * **[!UICONTROL Redémarrer]**
 
-  Cette action arrête puis redémarre le workflow. Dans la plupart des cas, il permet de redémarrer plus rapidement. Il est également utile d&#39;automatiser le redémarrage lorsque l&#39;arrêt prend un certain temps : en effet la commande &#39;Arrêter&#39; n&#39;est pas disponible lorsque l&#39;arrêt du workflow est en cours.
+  Cette action arrête puis redémarre le workflow. Dans la plupart des cas, elle permet de redémarrer plus rapidement. Elle est également utile pour automatiser le redémarrage lorsque l’arrêt prend un certain temps : en effet, la commande Arrêter n’est pas disponible lorsque le workflow est arrêté.
 
   Les actions **[!UICONTROL Démarrer / Pause / Stopper / Redémarrer]** sont également disponibles via les icônes d&#39;exécution de la barre d&#39;outils. Pour plus d’informations à ce sujet, consultez cette [section](../../campaign/using/marketing-campaign-deliveries.md#creating-a-targeting-workflow).
 
@@ -90,7 +90,7 @@ Les boutons de la barre d&#39;outils sont décrits dans cette [section](../../ca
 
 * **[!UICONTROL Démarrer en mode simulation]**
 
-  Cette option permet de lancer le workflow en mode simulation et non en mode réel. Cela signifie que lorsque vous activez ce mode, seules les activités qui n&#39;ont pas d&#39;impact sur la base de données ou le système de fichiers sont exécutées (par exemple : **[!UICONTROL Requête]**, **[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc.). Les activités qui ont un impact (par exemple, **[!UICONTROL Export]**, **[!UICONTROL Import]**, etc.) ainsi que celles qui les suivent (dans la même branche) ne sont pas exécutées.
+  Cette option permet de lancer le workflow en mode simulation et non en mode réel. Cela signifie que lorsque vous activez ce mode, seules les activités qui n&#39;ont pas d&#39;impact sur la base de données ou le système de fichiers sont exécutées (par exemple : **[!UICONTROL Requête]**, **[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc.). Les activités qui ont un impact (par exemple, **[!UICONTROL Export]**, **[!UICONTROL Import]**, etc.), ainsi que celles qui leur succèdent (dans la même branche), ne sont pas exécutées.
 
 * **[!UICONTROL Traitement anticipé des tâches en attente]**
 

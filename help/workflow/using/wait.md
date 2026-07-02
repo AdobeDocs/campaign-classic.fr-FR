@@ -16,7 +16,7 @@ subfeature_v2:
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 193
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 59%
 
 
 
-Une activité **Attente** active sa transition après un délai compris entre quelques secondes et plusieurs mois. Une tâche d’attente ne bloque pas l’exécution des autres tâches ; le workflow peut exécuter des tâches en parallèle alors que cette tâche est en attente.
+Une activité **Attente** active sa transition après un délai pouvant aller de quelques secondes à plusieurs mois. Une tâche d’attente n’est pas bloquante, le workflow peut exécuter d’autres tâches en parallèle pendant que celle-ci est en attente.
 
 L&#39;éditeur permet de saisir le libellé et la durée d&#39;attente, comme dans l&#39;exemple ci-dessous :
 
@@ -32,7 +32,7 @@ L&#39;éditeur permet de saisir le libellé et la durée d&#39;attente, comme da
 
 Dans le champ **[!UICONTROL Durée]**, la valeur peut être exprimée dans l’unité de votre choix (en fonction des paramètres régionaux définis pour l’opérateur ou l’opératrice) :
 
-* Si les paramètres régionaux ne sont pas spécifiés : **s** pour les secondes, **m** pour les minutes, **h** pour les heures, **j** pour les jours, **y** pour les années. Lors de la validation, la valeur est automatiquement convertie dans l’unité la plus lisible.
+* Si les paramètres régionaux ne sont pas définis : **s** pour les secondes, **m** pour les minutes, **h** pour les heures, **d** pour les jours, **y** pour les années. Lors de la validation, la valeur est automatiquement convertie dans l’unité la plus lisible.
 
   L&#39;unité par défaut est le jour (**j**).
 

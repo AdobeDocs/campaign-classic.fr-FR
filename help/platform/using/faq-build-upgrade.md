@@ -25,9 +25,9 @@ subfeature_v2:
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
   - id: efa38731-2723-4334-8d8b-a778af834835
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2096
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -215,14 +215,10 @@ En savoir plus dans [Options d&#39;aide et de support pour Campaign Classic](..
 
 * Est-il possible de se connecter au serveur ? Vérifier que la console cliente Campaign fonctionne sans erreur/message d&#39;avertissement.
 * Veiller à utiliser la même version de console que la version de build après la mise à niveau.
-* Des applications web insèrent-elles des données dans la base de données Campaign ? Si oui, exécutez-les et
-vérifier qu’ils peuvent insérer de nouveaux enregistrements via l’API.
-* Est-il possible d&#39;envoyer un email de test ? Créez une nouvelle diffusion basée sur un modèle connu et envoyez-la à
-un destinataire de test, vérifier la personnalisation, annuler le lien, page miroir fonctionnent tous.
-* Tous vos workflows de chemin critique sont-ils exécutés ? Vérification des workflows, ouverture du journal des workflows, vérification
-qu’il n’y a aucune erreur.
-* Tous vos dossiers sont-ils présents, visibles et accessibles ? Parcourez les différents dossiers et vérifiez.
-tout le contenu est affiché et présent.
+* Des applications web insèrent-elles des données dans la base de données Campaign ? Si tel est le cas, exécutez-les etvérifiez qu’elles peuvent insérer de nouveaux enregistrements via l’API.
+* Est-il possible d&#39;envoyer un email de test ? Créez une diffusion à l’aide d’un modèle connu, envoyez-la àune personne destinataire de test, vérifiez que la personnalisation, le lien de désabonnement et la page miroir fonctionnent tous.
+* Tous vos workflows de chemin critique sont-ils exécutés ? Vérifiez les workflows, ouvrez un journal de workflow et vérifiezqu’il n’y a pas d’erreur.
+* Tous vos dossiers sont-ils présents, visibles et accessibles ? Parcourez les différents dossiers et vérifiez que tout le contenu est affiché et présent.
 * Toutes vos diffusions sont-elles effectuées dans le fuseau horaire approprié ?
 
    * Vérifier la date de création et de modification avec la date, l&#39;heure et le fuseau horaire.

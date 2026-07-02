@@ -19,15 +19,15 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: e739ee2b-6228-412e-878f-45de0791417d
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 198
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # AB Testing : créer un workflow de ciblage {#step-1--creating-a-targeting-workflow}
 
-Vous devez créer votre workflow dans l&#39;onglet **[!UICONTROL Ciblage et workflows]** d&#39;une campagne. Elle est composée d&#39;une activité **[!UICONTROL Requête]**, d&#39;une activité **[!UICONTROL Partage]** associée à deux activités **[!UICONTROL Diffusion e-mail]**, d&#39;une activité **[!UICONTROL Attente]**, d&#39;une activité **[!UICONTROL Code JavaScript]** et d&#39;une activité **[!UICONTROL Delivery]**.
+Vous devez créer votre workflow dans l’onglet **[!UICONTROL Ciblage et workflows]** d’une campagne.Il est composé d’une activité **[!UICONTROL Requête]**, d’une activité **[!UICONTROL Partage]** à laquelle sont reliées deux activités **[!UICONTROL Diffusion par e-mail]**, d’une activité **[!UICONTROL Attente]**, d’une activité **[!UICONTROL Code JavaScript]** et d’une activité **[!UICONTROL Diffusion]**.
 
 1. Si ce n’est pas déjà fait, créez une campagne. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=fr){target=_blank}.
 

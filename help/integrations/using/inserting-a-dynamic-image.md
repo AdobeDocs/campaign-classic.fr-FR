@@ -22,9 +22,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 909
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ Dans Adobe Campaign, vous pouvez insérer une image dynamique de Target dans un
 ### Définition des paramètres de l’image {#defining-image-parameters}
 
 * L’**[!UICONTROL URL de l’image par défaut]** : il s’agit de l’image affichée si aucune des conditions n’est remplie. Vous pouvez également sélectionner une image dans votre bibliothèque Assets.
-* Le **[!UICONTROL Emplacement cible]** : saisissez un nom pour l&#39;emplacement de votre offre dynamique. Vous devrez sélectionner cet emplacement dans votre activité Target.
+* L’**[!UICONTROL Emplacement cible]** : saisissez le nom de l’emplacement de votre offre dynamique.Vous devrez sélectionner cet emplacement dans votre activité Target.
 * La **[!UICONTROL Landing Page]** : si vous souhaitez que l’image par défaut soit redirigée vers une landing page par défaut. Cette adresse URL ne s’applique qu’aux cas où l’image par défaut est affichée dans l’email final et est facultative.
 * Les **[!UICONTROL Paramètres de décision additionnels]** : spécifiez le mapping entre les champs définis dans les segments d’Adobe Target et les champs d’Adobe Campaign. Les champs d’Adobe Campaign utilisés doivent avoir été spécifiés au niveau du « rawbox ». Dans notre exemple, nous avons ajouté le champ Pays.
 
@@ -109,7 +109,7 @@ Avec Target, vous devez créer les deux audiences dans lesquelles les visiteurs 
 
    ![](assets/audiences_2.png)
 
-1. Cliquez sur **[!UICONTROL Ajouter une règle]** et sélectionnez une catégorie. La règle utilise des critères spécifiques pour cibler les visiteurs. Vous pouvez affiner les règles en ajoutant des conditions ou en créant des règles dans d’autres catégories.
+1. Cliquez sur **[!UICONTROL Ajouter une règle]** et sélectionnez une catégorie.La règle utilise des critères spécifiques pour cibler les visiteurs et visiteuses.Vous pouvez affiner les règles en ajoutant des conditions ou en créant des règles dans d’autres catégories.
 
 1. Suivez la même procédure pour les audiences restantes.
 
@@ -155,7 +155,7 @@ Ajoutez un contenu pour chaque audience :
 
 ### Définition de l’activité {#defining-activity}
 
-La fenêtre **[!UICONTROL Target]** résume votre activité. Si nécessaire, vous pouvez ajouter d’autres expériences.
+La fenêtre **[!UICONTROL Target]** résume votre activité.Si nécessaire, vous pouvez ajouter d’autres expériences.
 
 ![](assets/target_experience.png)
 

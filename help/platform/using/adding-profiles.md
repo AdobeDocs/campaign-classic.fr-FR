@@ -22,9 +22,9 @@ subfeature_v2:
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
   - id: efa38731-2723-4334-8d8b-a778af834835
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 74
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 51%
 
 
 
-Dans la plupart des cas, les profils sont [importés dans Campaign par le biais d&#39;un workflow](../../platform/using/import-export-workflows.md). Cependant, vous pouvez ajouter un ou plusieurs profils directement à partir de l&#39;interface, en cliquant sur le bouton **[!UICONTROL Créer]**. Ils seront ensuite ajoutés à la base de données.
+Dans la plupart des cas, les profils sont [importés dans Campaign par le biais d’un workflow](../../platform/using/import-export-workflows.md).Vous pouvez toutefois ajouter un ou plusieurs profils directement à partir de l’interface, en cliquant sur le bouton **[!UICONTROL Créer]**.Ils seront alors ajoutés à la base de données.
 
 ![](assets/s_ncs_user_profile_add.png)
 

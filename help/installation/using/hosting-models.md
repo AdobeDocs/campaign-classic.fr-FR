@@ -24,9 +24,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 637
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ En tant que client hébergé, la plupart des étapes d&#39;installation et de co
 
 ## On-premise
 
-Adobe Campaign peut être déployé on-premise : tous les composants d’Adobe Campaign, y compris l’interface utilisateur, le moteur de gestion de l’exécution et la base de données, résident sur site dans le centre de données du client. Dans ce modèle de déploiement, le client gère toutes les mises à jour et mises à niveau logicielles et matérielles. De plus, un administrateur de bases de données dédié doit effectuer des tâches de maintenance et d’optimisation afin d’assurer la gestion des instances Campaign.
+Adobe Campaign peut être déployé sur site : tous les composants d’Adobe Campaign, y compris l’interface d’utilisation, le moteur de gestion de l’exécution et la base de données, résident sur site dans le centre de données du client.Dans ce modèle de déploiement, le client gère toutes les mises à jour et mises à niveau logicielles et matérielles. De plus, un administrateur dédié ou une administratrice dédiée de bases de données doit réaliser des tâches de maintenance et d’optimisation afin d’assurer la gestion des instances Campaign.
 
 ![](assets/deployment_onpremise.png)
 
@@ -72,7 +72,7 @@ En tant que client On-premise, avant de commencer à déployer Campaign Classic
 
 ## Hybride
 
-Lorsqu’il est déployé en tant que modèle hybride, le logiciel de la solution Adobe Campaign réside sur site du client et la gestion de l’exécution est assurée en tant que service cloud par Adobe. L’instance de marketing Adobe Campaign est installée à l’intérieur du pare-feu d’un client, de sorte que les informations d’identification personnelle (PII) restent à l’interne et que seules les données requises pour personnaliser les e-mails sont envoyées au cloud pour l’exécution de l’e-mail. L’instance d’exécution, hébergée dans le cloud, reçoit les requêtes de diffusion d’e-mails à partir de l’instance On-premise. Cette instance personnalise tous les e-mails et les diffuse. Aucune donnée d’aucune sorte n’est stockée de manière permanente dans le cloud.
+Lorsqu’il est déployé en tant que modèle hybride, le logiciel de la solution Adobe Campaign réside dans l’environnement du site du client et la gestion de l’exécution est fournie en tant que service cloud par Adobe.L’instance marketing Adobe Campaign est installée à l’intérieur du pare-feu du client ou de la cliente. Par conséquent, les informations d’identification personnelle (PII) restent en interne et seules les données requises pour la personnalisation des e-mails sont envoyées au cloud pour l’exécution des e-mails.L’instance d’exécution, hébergée dans le cloud, reçoit les requêtes de diffusion d’e-mails à partir de l’instance On-premise. Cette instance personnalise tous les e-mails et les diffuse. Aucune donnée d’aucune sorte n’est stockée de manière permanente dans le cloud.
 
 ![](assets/deployment_hybrid.png)
 

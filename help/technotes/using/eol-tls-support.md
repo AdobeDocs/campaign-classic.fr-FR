@@ -19,9 +19,9 @@ feature_v2: []
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 880
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -39,18 +39,18 @@ Adobe a mis fin à la prise en charge des versions antérieures de TLS (notammen
 
 ## Que puis-je faire pour reprendre le service ?
 
-Les navigateurs web modernes prennent en charge TLS 1.2. La mise à niveau de votre navigateur peut vous permettre d&#39;accéder à ces applications et services.
+Les navigateurs web modernes prennent en charge TLS 1.2.La mise à niveau de votre navigateur peut vous permettre d’accéder à ces applications et services.
 
 Vous pouvez télécharger et installer l’un des navigateurs populaires suivants :
 
 * [Google Chrome](https://www.google.com/chrome/)
-* [Apple Safari](https://www.apple.com/safari/)
+* [Apple Safari](https://www.apple.com/safari/)
 * [Firefox](https://www.mozilla.org/fr/firefox/new/)
 * [Microsoft Edge](https://www.microsoft.com/fr-fr/edge)
 
 Si vous utilisez un autre navigateur, assurez-vous qu’il prend en charge TLS 1.2.
 
-Votre système d’exploitation et les structures d’application doivent également prendre en charge TLS 1.2. Si la mise à niveau de votre navigateur ne résout pas votre problème, assurez-vous que votre ordinateur répond à la configuration requise répertoriée dans la section [Matrice de compatibilité Campaign](../../rn/using/compatibility-matrix.md).
+Votre système d’exploitation et les structures d’application doivent également prendre en charge TLS 1.2.Si la mise à niveau de votre navigateur ne résout pas votre problème, assurez-vous que votre ordinateur répond à la configuration requise répertoriée dans la section [Matrice de compatibilité Campaign](../../rn/using/compatibility-matrix.md).
 
 ## Forum aux questions{#faq}
 
@@ -76,7 +76,7 @@ Votre système d’exploitation et les structures d’application doivent égale
 
 * **TLS est-il vulnérable aux hackers ?**
 
-  Il y a eu des attaques documentées contre TLS 1.0 à l’aide d’une ancienne méthode de chiffrement et les anciennes versions sont plus vulnérables que TLS 1.2. Pour plus d’informations, voir Attaques contre TLS/SSL.
+  Il y a eu des attaques documentées contre TLS 1.0 à l’aide d’une ancienne méthode de chiffrement et les versions plus anciennes sont plus vulnérables que TLS 1.2.Pour plus d’informations, consultez Attaques contre TLS/SSL.
 
 * **Pourquoi Adobe désactive-t-il la prise en charge de TLS 1.0 et 1.1 ?**
 
@@ -96,7 +96,7 @@ Votre système d’exploitation et les structures d’application doivent égale
 
 * **Quel message d’erreur s’affiche si j’utilise un navigateur qui n’est pas configuré pour TLS 1.2 ?**
 
-  Cela dépend du navigateur que vous utilisez. Tous les navigateurs mentionnés dans [Matrice de compatibilité Campaign](../../rn/using/compatibility-matrix.md) sont configurés pour utiliser TLS 1.2. Si vous utilisez un navigateur ou une version qui ne figure pas dans la liste, mettez à jour votre navigateur.
+  Cela dépend du navigateur que vous utilisez. Tous les navigateurs mentionnés dans [Matrice de compatibilité Campaign](../../rn/using/compatibility-matrix.md) sont configurés pour utiliser TLS 1.2.Si vous utilisez un navigateur ou une version qui ne figure pas dans la liste, mettez votre navigateur à jour.
 
   Adobe ne contrôle pas les messages d’erreur générés par la couche de communications SSL. Le navigateur génère ces messages avant de se connecter aux applications et services Adobe. Voici un exemple d’erreur qui peut se produire avec Internet Explorer 11 sous Windows 7 :
 

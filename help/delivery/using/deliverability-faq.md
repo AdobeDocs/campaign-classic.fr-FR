@@ -23,9 +23,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 674
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -39,9 +39,9 @@ Vous rencontrez un problème de délivrabilité ? La solution se trouve peut-ê
 
 Ce message signifie que vous avez atteint le seuil limite pour un MX spécifique et que vous devez attendre pour pouvoir envoyer un autre email au FAI.
 
-Dans Adobe Campaign, il existe une configuration concernant le nombre d’e-mails par heure qui peuvent être envoyés. Ce paramétrage doit être utilisé avec précaution car le nombre défini dans l&#39;instance concerne le nombre de connexions réalisées avec le FAI et non le nombre d&#39;emails réellement envoyés.
+Dans Adobe Campaign, il existe une configuration concernant le nombre d’e-mails pouvant être envoyés par heure.Cette configuration doit être utilisée avec précaution, car le nombre défini dans l’instance se rapporte au nombre de connexions réalisées avec le FAI et non le nombre d’e-mails réellement envoyés.
 
-Cela signifie qu’une connexion peut utiliser une règle MX sans envoyer d’e-mail. Dans ce cas, une configuration avec une adresse IP ou un domaine à faible réputation devra essayer plusieurs connexions avant d&#39;envoyer un e-mail. Pour chaque tentative, un crédit de messages par heure sera utilisé. Par conséquent, les performances de la campagne marketing seront affectées de manière significative.
+Cela signifie qu’une connexion peut utiliser une règle MX sans envoyer d’e-mail.Dans ce cas, une configuration avec une adresse IP ou un nom de domaine à faible réputation devra tenter plusieurs connexions avant de réussir l’envoi d’un e-mail.Pour chaque tentative, un crédit de messages par heure sera utilisé.Les performances de la campagne marketing seront ainsi fortement réduites.
 
 Le message &quot;quotas atteints&quot; n’indique donc pas seulement un problème de configuration, mais peut aussi être lié à la réputation. Il est important d’analyser les messages d’erreur dans le [log SMTP](../../production/using/monitoring-processes.md#smtp-errors-per-domain).
 

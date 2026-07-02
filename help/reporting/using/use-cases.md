@@ -19,9 +19,9 @@ subfeature_v2:
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
   - id: e739ee2b-6228-412e-878f-45de0791417d
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1443
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Pour cet exemple, choisissez le modèle **[!UICONTROL Distribution qualitative]*
 
 L&#39;étape suivante permet de sélectionner les données à afficher dans le tableau.
 
-Cliquez sur le lien **[!UICONTROL Ajouter...]** pour sélectionner la variable contenant les données à afficher. Ici, nous souhaitons afficher les villes de résidence des destinataires des diffusions sur une seule ligne :
+Cliquez sur lien **[!UICONTROL Ajouter…]** pour sélectionner la variable contenant les données à afficher.Ici, nous voulons afficher les villes de résidence des personnes destinataires de nos diffusions sur une ligne :
 
 ![](assets/reporting_descriptive_quickstart_step_2.png)
 
@@ -200,13 +200,13 @@ Vous pouvez stocker, exporter ou imprimer des données à l’aide de la barre d
 
 ### Recommandations relatives à l&#39;analyse de la cible {#target-analyze-recommendations}
 
-L&#39;analyse d&#39;une population dans un workflow suppose que la population soit toujours présente dans la transition. Si le workflow est lancé, le résultat concernant la population peut être purgé de la transition. Pour exécuter une analyse, vous pouvez effectuer l’une des opérations suivantes :
+L’analyse d’une population dans un workflow suppose que la population soit encore présente dans la transition.Si le workflow est lancé, le résultat concernant la population risque d’être purgé de la transition.Pour effectuer une analyse, vous pouvez effectuer l’une des actions suivantes :
 
 * détacher la transition de son activité destination et lancer le workflow pour la rendre active. Lorsque la transition clignote, lancez l’assistant de la façon habituelle.
 
   ![](assets/s_ncs_user_report_wizard_018.png)
 
-* Modifiez les propriétés du workflow en sélectionnant l’option **[!UICONTROL Conserver le résultat des populations intermédiaires entre deux exécutions]**. Vous pouvez ainsi lancer une analyse de la transition de votre choix, même si le workflow est terminé.
+* Modifiez les propriétés du workflow en sélectionnant l’option **[!UICONTROL Conserver le résultat des populations intermédiaires entre deux exécutions]**.Cela vous permet de lancer une analyse sur la transition de votre choix même si le workflow s’est terminé.
 
   ![](assets/s_ncs_user_report_wizard_020.png)
 

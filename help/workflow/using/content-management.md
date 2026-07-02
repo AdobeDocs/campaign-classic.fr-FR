@@ -16,9 +16,9 @@ subfeature_v2:
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 463
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 84%
 
 
 
-Une activité **Gestion de contenu** permet de créer et manipuler un contenu et de générer des fichiers sur la base de ce contenu. Ce contenu peut ensuite être diffusé par le biais d’une activité « Diffusion ».
+Une activité **Gestion de contenu** vous permet de créer et de manipuler un contenu ainsi que de générer les fichiers à partir de ce contenu.Ce contenu peut ensuite être diffusé à l’aide d’une activité « Diffusion ».
 
 >[!CAUTION]
 >
->La gestion de contenu est un module optionnel d&#39;Adobe Campaign. Veuillez vérifier votre contrat de licence.
+>La gestion de contenu est un module optionnel d’Adobe Campaign.Veuillez vérifier votre contrat de licence.
 
 Les propriétés de l&#39;activité se divisent en trois étapes :
 
@@ -46,7 +46,7 @@ Les propriétés de l&#39;activité se divisent en trois étapes :
 
    * **[!UICONTROL Spécifié par la transition]**
 
-     Cette option permet d&#39;utiliser le contenu spécifié dans la transition, c&#39;est-à-dire que l&#39;événement qui active la gestion de contenu doit contenir une variable **[!UICONTROL contentId]**. Cette variable peut avoir été définie par une gestion de contenu précédente ou par n’importe quel script.
+     Cette option vous permet d’utiliser le contenu spécifié dans la transition, c’est-à-dire que l’événement qui active la gestion de contenu doit contenir une variable **[!UICONTROL contentId]**.Cette variable peut avoir été définie par une gestion de contenu précédente ou par un quelconque script.
 
    * **[!UICONTROL Explicite]**
 

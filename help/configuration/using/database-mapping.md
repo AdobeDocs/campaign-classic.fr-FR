@@ -13,9 +13,9 @@ role_v2:
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 527
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Les règles de nommage des noms SQL sont les suivantes :
 
 >[!NOTE]
 >
->Les noms SQL peuvent être surchargés à partir du schéma source. Pour cela, renseignez les attributs « sqltable » ou « sqlname » sur l&#39;élément concerné.
+>Les noms SQL peuvent être surchargés depuis le schéma source.Pour ce faire, renseignez les attributs « sqltable » ou « sqlname » sur l’élément concerné.
 
 Le script SQL de création de la table généré à partir du schéma étendu est le suivant :
 

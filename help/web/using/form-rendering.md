@@ -18,9 +18,9 @@ subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1055
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -95,9 +95,9 @@ Il permet de définir les propriétés suivantes :
 
 ### Définir les en-têtes et pieds de page {#defining-headers-and-footers}
 
-Les champs sont séquencés dans une arborescence dont la racine porte le même nom que la page. Sélectionnez-le pour modifier le nom.
+Les champs sont enchaînés dans une arborescence dont la racine porte le nom de la page.Sélectionnez-la pour modifier ce nom.
 
-Le titre de la fenêtre doit être saisi dans l&#39;onglet **[!UICONTROL Page]** de la fenêtre des propriétés du formulaire. Vous pouvez également ajouter un contenu défini à l’en-tête et au pied de page (ces informations s’affichent sur chaque page). Ce contenu doit être saisi dans les sections correspondantes de l&#39;onglet **[!UICONTROL Textes]**, comme dans l&#39;exemple ci-dessous :
+Le titre de la fenêtre doit être saisi dans l’onglet **[!UICONTROL Page]** de la fenêtre des propriétés du formulaire.Vous pouvez également ajouter un contenu défini à l’en-tête et au pied-de-page (ces informations s’affichent sur chaque page).Ce contenu doit être saisi dans les sections correspondantes de l&#39;onglet **[!UICONTROL Textes]**, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/s_ncs_admin_survey_titles_config.png)
 
@@ -145,7 +145,7 @@ L&#39;utilisateur devra saisir un nombre entier dans le champ correspondant du f
 
 ## Définir l&#39;affichage conditionnel des champs {#defining-fields-conditional-display}
 
-Vous pouvez paramétrer l&#39;affichage des champs sur la page à afficher en fonction des valeurs choisies par l&#39;utilisateur. Cela peut s’appliquer à un champ ou à un groupe de champs (lorsqu’ils sont regroupés dans un conteneur).
+Vous pouvez configurer l’affichage des champs de la page en fonction des valeurs choisies par l’utilisateur ou l’utilisatrice.Cela peut s’appliquer à un champ ou à un groupe de champs (lorsqu’ils sont regroupés dans un conteneur).
 
 Pour chaque élément de la page, la section **[!UICONTROL Visibilité]** permet de définir la ou les conditions d&#39;affichage.
 
@@ -157,7 +157,7 @@ Dans la fenêtre de sélection d&#39;un champ, vous pouvez sélectionner parmi l
 
 ![](assets/s_ncs_admin_survey_condition_select.png)
 
-* L’arborescence principale contient les paramètres du contexte du formulaire. Les paramètres par défaut sont l’identifiant (qui correspond à l’identifiant chiffré du destinataire), la langue et l’origine.
+* L’arborescence principale contient les paramètres du contexte du formulaire.Les paramètres par défaut sont Identifiant (qui correspond à l’identifiant chiffré de la personne destinataire), Langue et Origine.
 
   Voir à ce propos [cette page](defining-web-forms-properties.md#form-url-parameters).
 
@@ -173,7 +173,7 @@ Vous pouvez aussi conditionner l&#39;affichage des pages du formulaire via l&#39
 
 ## Importer des éléments depuis un formulaire existant {#importing-elements-from-an-existing-form}
 
-Il est possible d&#39;importer des champs ou des conteneurs à partir d&#39;autres formulaires Web. Vous pouvez ainsi créer une bibliothèque de blocs réutilisables qui seront insérés dans des formulaires, tels que le bloc d’adresse, la zone d’abonnement à la newsletter, etc.
+Il est possible d’importer des champs ou des conteneurs à partir d’autres formulaires web.Ainsi, vous pouvez créer une bibliothèque de blocs réutilisables qui seront insérés dans les formulaires, par exemple le bloc adresse, la zone d’inscription aux newsletters, etc.
 
 Pour importer un élément dans un formulaire, les étapes sont les suivantes :
 

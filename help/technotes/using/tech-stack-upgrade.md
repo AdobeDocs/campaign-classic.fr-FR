@@ -14,9 +14,9 @@ feature_v2: []
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 529
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -77,5 +77,5 @@ Si votre système de base de données pour Campaign est PostgreSQL, vous devez e
 
 * [Mise à niveau de votre environnement](../../production/using/build-upgrade.md)
 * [FAQ sur la mise à niveau de build](../../platform/using/faq-build-upgrade.md)
-* [Télécharger la dernière version de Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
+* [Télécharger la dernière version de Campaign Classic](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html)
 * [Mettre à disposition la nouvelle console cliente auprès des utilisateurs et des utilisatrices](../../installation/using/client-console-availability-for-windows.md)

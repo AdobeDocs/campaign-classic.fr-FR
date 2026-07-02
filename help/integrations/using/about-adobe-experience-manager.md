@@ -20,9 +20,9 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 147
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 79%
 
 L&#39;intégration entre Adobe Campaign et Adobe Experience Manager vous permet de gérer le contenu de vos diffusions email, ainsi que vos formulaires directement dans Adobe Experience Manager.
 
-Vous pouvez également insérer directement des ressources de votre bibliothèque AEM Assets lors de la modification d’un e-mail ou d’une landing page dans Adobe Campaign. Cette fonctionnalité est présentée dans le chapitre [&#128279;](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md).
+Vous pouvez également insérer directement des ressources provenant de votre bibliothèque AEM Assets tout en modifiant un e-mail ou une page de destination dans Adobe Campaign.Cette fonctionnalité est présentée dans le chapitre [Ressources](../../integrations/using/sharing-assets-with-adobe-experience-cloud.md).
 
 Vous avez ainsi la possibilité de profiter à la fois des fonctionnalités d&#39;édition de contenu d&#39;AEM et des capacités de diffusion d&#39;Adobe Campaign.
 

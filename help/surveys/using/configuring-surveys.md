@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 131
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 91%
 
 ## Propriétés du questionnaire {#survey-properties}
 
-Les questionnaires en ligne sont entièrement configurables et personnalisables pour répondre à vos besoins. Les paramètres doivent être renseignés dans la fenêtre des propriétés.
+Les questionnaires en ligne sont entièrement configurables et personnalisables pour répondre à vos besoins.Les paramètres doivent être renseignés dans la fenêtre des propriétés.
 
-Les paramètres disponibles sont présentés dans [ce document &#x200B;](../../web/using/defining-web-forms-properties.md).
+Les paramètres disponibles sont présentés dans [ce document ](../../web/using/defining-web-forms-properties.md).
 
 ![](assets/s_ncs_admin_survey_properties_general.png)
 

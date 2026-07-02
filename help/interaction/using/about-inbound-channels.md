@@ -11,9 +11,9 @@ feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 215
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 71%
 
 
 
-Les offres peuvent être présentées à divers emplacements utilisant un canal entrant ou sortant. Ce chapitre présente certaines fonctionnalités spécifiques aux canaux entrants.
+Les offres peuvent être présentées dans divers emplacements utilisant un canal entrant ou sortant.Ce chapitre présente certaines fonctionnalités spécifiques aux canaux entrants.
 
 ![](assets/do-not-localize/how-to-video.png) Vous pouvez également regarder cette [vidéo](https://helpx.adobe.com/campaign/classic/how-to/deliver-an-offer-on-inbound-channel-in-acv6.html) qui explique en détail comment diffuser une offre sur un canal entrant.
 
@@ -29,7 +29,7 @@ Pour qu’une offre puisse être sélectionnée par le moteur d’offres, elle d
 
 Lorsqu’un contact est entrant, deux possibilités s’offrent à vous : l’utilisateur qui navigue sur les pages peut être identifié par le site web ou non. Le moteur d’offres présente différentes offres, selon que l’utilisateur est identifié ou non.
 
-Avant de pouvoir présenter des offres sur un canal entrant, vous devez configurer l’appel au moteur d’offres à l’endroit où vous souhaitez que les offres soient présentées. Dans la plupart des cas, pour une interaction entrante, il s’agit de la page web.
+Avant de pouvoir proposer des offres sur un canal entrant, vous devez configurer l’appel au moteur d’offres à l’endroit où vous souhaitez que les offres soient présentées.Le cas le plus courant dans le cadre d’une interaction entrante est la page web.
 
 >[!NOTE]
 >

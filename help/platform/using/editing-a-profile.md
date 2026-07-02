@@ -22,9 +22,9 @@ subfeature_v2:
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
   - id: efa38731-2723-4334-8d8b-a778af834835
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 128
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Les onglets et leur contenu dépendent de votre configuration et des packages in
 
 >[!CAUTION]
 >
->Le schéma XML et le formulaire relatifs aux champs de la table des profils sont accessibles depuis le nœud **[!UICONTROL Administration > Paramétrage > Schémas de données]** de l&#39;arborescence d&#39;Adobe Campaign. Seuls les utilisateurs experts peuvent apporter des modifications à ces schémas.
+>Le schéma XML et le formulaire relatifs aux champs de la table des profils sont accessibles depuis le nœud **[!UICONTROL Administration > Configuration > Schémas de données]** de l’arborescence d’Adobe Campaign.Seuls les utilisateurs experts peuvent apporter des modifications à ces schémas.
 >
 >Voir à ce propos [cette page](../../configuration/using/about-schema-edition.md).
 

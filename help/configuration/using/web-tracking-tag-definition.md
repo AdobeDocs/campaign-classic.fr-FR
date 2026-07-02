@@ -13,9 +13,9 @@ role_v2:
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 324
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -112,23 +112,23 @@ Le tableau ci-dessous donne la liste des paramètres spéciaux supportés par le
 
 * Collecte des informations relatives au chiffre d&#39;affaires
 
-  **https://myserver.adobe.com/r/4567?tagid=command&amount=100&article=2l**
+  **https://myserver.adobe.com/r/4567?tagid=command&amp;amount=100&amp;article=2l**
 
 * Spécification d&#39;un champ pour retrouver le destinataire
 
-  **https://myserver.adobe.com/r/2353?tagid=home&rcpid=saccount%3D10**
+  **https://myserver.adobe.com/r/2353?tagid=home&amp;rcpid=saccount%3D10**
 
   Un destinataire dont le numéro de compte est 10 est passé sur la page d&#39;accueil.
 
 * Utilisation d&#39;une diffusion par défaut
 
-  **https://myserver.adobe.com/r/2456?tagid=home&jobid=e6**
+  **https://myserver.adobe.com/r/2456?tagid=home&amp;jobid=e6**
 
-  Un destinataire est envoyé à la page d’accueil. Ces informations seront stockées dans la diffusion d&#39;identifiant 230 (e6 dans la base de données 16) sauf si un cookie de session contenant un identifiant de diffusion est envoyé avec cette requête.
+  Une personne destinataire est envoyée sur la page d’accueil.Cette information sera stockée dans la diffusion dont l’identifiant est 230 (soit e6 dans la base de données 16), si aucun cookie de session contenant un identifiant de diffusion n’est envoyé avec cette requête.
 
 >[!NOTE]
 >
->Toutes les valeurs envoyées au serveur de redirection via les paramètres d&#39;URL doivent être encodées en URL. Dans les exemples donnés, notez que les caractères &#39;=&#39; et &#39;|&#39; sont codés respectivement en &#39;%3D&#39; et &#39;%7C&#39;.
+>Toutes les valeurs envoyées au serveur de redirection via les paramètres d’URL doivent être encodées en URL.Dans les exemples fournis, vous remarquerez que les caractères « = » et « | » sont respectivement encodés en « %3D » et « %7C ».
 
 ## Méthodes de transmission des données {#data-transmission-methods}
 

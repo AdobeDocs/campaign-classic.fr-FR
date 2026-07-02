@@ -19,9 +19,9 @@ subfeature_v2:
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
   - id: e739ee2b-6228-412e-878f-45de0791417d
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 804
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ Pour créer une diffusion, placez le curseur dans l’onglet **Campagnes** et cl
 
 ## Etape 2 - Sélectionner un modèle {#step-2---selecting-a-template}
 
-Sélectionnez un modèle de diffusion, puis attribuez un nom à votre diffusion. Ce nom sera visible uniquement par les utilisateurs de la console Adobe Campaign et non par vos destinataires, mais cet en-tête s’affichera dans votre liste de diffusions. Cliquez sur **[!UICONTROL Continuer]**.
+Sélectionnez un modèle de diffusion et nommez votre diffusion.Ce nom sera visible uniquement par les utilisateurs et utilisatrices de la console Adobe Campaign et non par vos destinataires, mais cet intitulé s’affichera dans la liste de vos diffusions.Cliquez sur **[!UICONTROL Continuer]**.
 
 ![](assets/dce_delivery_model.png)
 
@@ -68,7 +68,7 @@ Vous pouvez également importer du contenu HTML créé en dehors d&#39;Adobe Ca
 
 ![](assets/dce_select_from_file_template.png)
 
-Vous pouvez enregistrer ce contenu en tant que modèle pour une utilisation ultérieure. Une fois un modèle de contenu personnalisé créé, vous pouvez le prévisualiser dans la liste des modèles. Voir à ce sujet la section [Gestion des modèles](template-management.md).
+Vous pouvez enregistrer ce contenu en tant que modèle pour une réutilisation ultérieure.Lorsqu’un modèle de contenu personnalisé est créé, son aperçu figure dans la liste des modèles.Voir à ce sujet la section [Gestion des modèles](template-management.md).
 
 >[!CAUTION]
 >

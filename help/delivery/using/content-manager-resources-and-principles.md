@@ -23,9 +23,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 247
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 79%
 
 Vous devez définir un modèle de publication contenant des modèles de transformation pour chaque contenu.
 
-Un bloc de contenu est structuré dans un document XML pour le stockage des données. Une interface de modification est utilisée pour saisir le contenu à partir de la console cliente Adobe Campaign ou via un navigateur web. Le contenu peut également être automatiquement renseigné à partir de la capture de flux XML ou de données agrégées dans une base de données.
+Un bloc de contenu est structuré dans un document XML pour le stockage des données.Une interface de modification permet de saisir le contenu à partir de la console cliente Adobe Campaign ou via un navigateur web.Le contenu peut également être automatiquement renseigné à partir de la capture de flux XML ou de données agrégées dans une base de données.
 
 La combinaison du document XML et des feuilles de styles XSL ou un Template Javascript génère automatiquement la projection dans les différents formats (HTML, Texte) du modèle de publication.
 

@@ -21,15 +21,15 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1842
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Migration des opérateurs et opératrices techniques Campaign vers Adobe Developer Console {#migrate-tech-users-to-ims}
 
-Dans le cadre des efforts visant à renforcer le processus de sécurité et d’authentification, à partir de Campaign Classic v7.3.5, le processus d’authentification de Campaign Classic est en cours d’amélioration. Les opérateurs ou opératrices techniques doivent maintenant utiliser le système Adobe Identity Management (IMS) [&#128279;](https://helpx.adobe.com/fr/enterprise/using/identity.html){target="_blank"}  pour se connecter à Campaign. Pour en savoir plus sur le nouveau processus d’authentification serveur à serveur, consultez la [documentation d’Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}. **Adobe recommande d’effectuer cette migration dans Campaign v7 afin de pouvoir migrer en douceur vers Campaign v8.**
+Dans le cadre des efforts visant à renforcer le processus de sécurité et d’authentification, à partir de Campaign Classic v7.3.5, le processus d’authentification de Campaign Classic est en cours d’amélioration. Les opérateurs et opératrices techniques doivent à présent utiliser le [système de gestion des identités (IMS) d’Adobe](https://helpx.adobe.com/fr/enterprise/using/identity.html){target="_blank"} pour se connecter à Campaign.Pour en savoir plus sur le nouveau processus d’authentification serveur à serveur, consultez la [documentation d’Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}. **Adobe recommande d’effectuer cette migration dans Campaign v7 afin de pouvoir migrer en douceur vers Campaign v8.**
 
 Un opérateur ou une opératrice technique est un profil utilisateur de Campaign qui a été explicitement créé pour l’intégration de l’API. Cet article décrit les étapes à suivre pour migrer un opérateur ou une opératrice technique vers un compte technique par le biais de l’Adobe Developer Console.
 
@@ -74,7 +74,7 @@ Voici une vue d’ensemble des étapes :
 
   Si vous avez déjà utilisé l’authentification IMS pour l’accès des utilisateurs et utilisatrices à Campaign, les profils de produit requis pour les appels API doivent donc déjà exister dans l’Admin Console. Si vous utilisez un groupe d’opérateurs et d’opératrices personnalisé dans Campaign pour les appels API vers l’instance Marketing, vous devez créer ce profil de produit dans l’Admin Console.
 
-  Vous pouvez en savoir plus sur les profils de produit dans la console Adobe dans la documentation de [Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}
+  Vous pouvez en savoir plus sur les profils de produit dans la console Adobe dans la [documentation d’Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/projects/){target="_blank"}
 
 
 ### Étape 1 : créer votre projet Campaign dans l’Adobe Developer Console {#ims-migration-step-1}
@@ -172,7 +172,7 @@ Vérifiez votre projet pour vous assurer qu’il ressemble à ce qui suit, avec 
 
 ### Étape 7 : valider votre configuration {#ims-migration-step-7}
 
-Pour tester la connexion, suivez les étapes présentées dans le guide des informations d’identification de [&#128279;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens){target="_blank"} afin de générer un jeton d’accès et de copier la commande Sample cURL fournie. Vous pouvez créer un appel SOAP à l’aide de ces informations d’identification pour vérifier que vous pouvez vous authentifier et vous connecter correctement aux instances Adobe Campaign. Nous vous recommandons d’effectuer cette validation avant d’apporter toutes les modifications aux intégrations d’API tierces.
+Pour tester la connexion, procédez comme décrit dans la section [Guide des informations d’identification d’Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/#generate-access-tokens){target="_blank"} pour générer un jeton d’accès et copier l’exemple de commande cURL fourni.Vous pouvez créer un appel SOAP à l’aide de ces informations d’identification pour vérifier que vous pouvez vous authentifier et vous connecter correctement aux instances Adobe Campaign. Nous vous recommandons d’effectuer cette validation avant d’apporter toutes les modifications aux intégrations d’API tierces.
 
 ### Étape 8 : mettre à jour les intégrations d’API tierces {#ims-migration-step-8}
 
@@ -413,7 +413,7 @@ response = requests.post(url, headers=headers, data=xml_data)
 
 >[!ENDTABS]
 
-Pour plus d&#39;informations, consultez la documentation sur l&#39;authentification Adobe Developer Console [&#128279;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
+Pour plus d’informations, consultez la [documentation sur l’authentification Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
 Vous trouverez ci-dessous des exemples d’appels SOAP indiquant les appels avant et après la migration pour les systèmes tiers.
 
@@ -512,5 +512,5 @@ Pour ce faire, connectez-vous à la console cliente Campaign, accédez à **Admi
 >* [Migration des utilisateurs et utilisatrices finaux vers IMS](migrate-users-to-ims.md)
 >* [Mettre à jour de l’interface de Campaign après la migration IMS](impact-ims-migration.md)
 >* [Dernières notes de mise à jour d’Adobe Campaign Classic v7](../../rn/using/latest-release.md)
->* [En quoi consiste Adobe Identity Management System (IMS)](https://helpx.adobe.com/fr/enterprise/using/identity.html){target="_blank"}
+>* [Présentation d’Adobe Identity Management System (IMS)](https://helpx.adobe.com/fr/enterprise/using/identity.html){target="_blank"}
 

@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 744
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 89%
 
 Adobe Experience Cloud est un ensemble exhaustif de solutions intégrées haut de gamme reposant sur une plateforme de données commune, disposant d’un ensemble commun de puissantes solutions et applications.
 
-En savoir plus sur les intégrations fonctionnelles disponibles entre les solutions Adobe Campaign et Adobe Experience Cloud dans [cette page](https://experienceleague.adobe.com/fr/docs/core-services/interface/administration/integrations){_blank}.
+En savoir plus sur les intégrations fonctionnelles disponibles entre les solutions Adobe Campaign et Adobe Experience Cloud sur [cette page](https://experienceleague.adobe.com/fr/docs/core-services/interface/administration/integrations){_blank}.
 
 La liste complète des solutions et des applications Adobe pouvant être intégrées à Adobe Campaign, ainsi que la documentation associée, sont disponibles dans [cette section](#experience-cloud-integrations).
 
@@ -55,7 +55,7 @@ Lors de l’installation d’Adobe Campaign ou de l’intégration d’une inst
 
 Le Service d&#39;identités d’Adobe Experience Cloud fournit un identifiant universel et permanent qui identifie vos visiteurs dans toutes les solutions Experience Cloud.
 
-Un ID de visiteur unique sera attribué aux logs de tracking qui génèrent des destinataires. Cet identifiant sera enregistré dans le champ **[!UICONTROL UUID du demandeur (@sourceID)]** de la table **[!UICONTROL nms:trackingLogRcp]**. **Les données de tracking des destinataires qui existaient avant la mise en œuvre du service d’identification des visiteurs ne seront donc plus utilisables**.
+Un ID de visiteur unique sera attribué aux logs de tracking qui génèrent des destinataires. Cet ID sera enregistré dans le champ **[!UICONTROL UUID du demandeur (@sourceID)]** de la table **[!UICONTROL nms:trackingLogRcp]**.**Les données de tracking des destinataires qui existaient avant la mise en œuvre du service d’identification des visiteurs ne seront donc plus utilisables**.
 
 L&#39;identifiant sera ensuite reconnu par les autres solutions Adobe Experience Cloud partageant le même CNAME. [En savoir plus](https://experienceleague.adobe.com/fr/docs/id-service/using/reference/analytics-reference/cname){_blank}.
 
@@ -77,7 +77,7 @@ Le tableau suivant donne accès à la documentation disponible sur les intégrat
   </tr> 
   <tr> 
    <td> <strong>Adobe IDentity Management System (IMS) - Adobe ID</strong><br /> </td> 
-   <td> Configurez Adobe IMS pour vous connecter à Adobe Campaign avec le même Adobe ID que pour les autres solutions Adobe Experience Cloud.<br /> Une Adobe ID doit être utilisée pour se connecter afin d'utiliser certaines fonctionnalités liées aux intégrations Adobe Experience Cloud.<br /> <p><a href="../../integrations/using/about-adobe-id.md">En savoir plus</a> sur l'implémentation d'Adobe ID avec Adobe Campaign.</p><br /> </td> 
+   <td>Configurez Adobe IMS pour vous connecter à Adobe Campaign avec le même Adobe ID que pour les autres solutions Adobe Experience Cloud.<br />La connexion avec un Adobe ID est nécessaire pour pouvoir utiliser certaines fonctionnalités liées aux intégrations Adobe Experience Cloud.<br /><p><a href="../../integrations/using/about-adobe-id.md">En savoir plus</a> sur l'implémentation d'Adobe ID avec Adobe Campaign.</p><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Adobe Experience Manager</strong><br /> </td> 

@@ -20,9 +20,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1542
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 75%
 
 
 
-Chaque opérateur doit être associé à une zone pour se connecter à une instance et l&#39;adresse IP de l&#39;opérateur doit faire partie des adresses ou des plages d&#39;adresses définies dans la zone de sécurité. La configuration des zones de sécurité est effectuée dans le fichier de configuration du serveur Adobe Campaign.
+Chaque opérateur ou opératrice doit être associé(e) à une zone pour se connecter à une instance et l’adresse IP de l’opérateur ou de l’opératrice doit faire partie des adresses ou des plages d’adresses définies dans la zone de sécurité.La configuration de la zone de sécurité est effectuée dans le fichier de configuration du serveur Adobe Campaign.
 
 Un opérateur est lié à une zone de sécurité à partir de son profil dans la console, accessible dans le nœud **[!UICONTROL Administration > Gestion des accès > Opérateurs]**. [En savoir plus](#linking-a-security-zone-to-an-operator).
 
@@ -64,14 +64,14 @@ Chaque zone définit des droits, comme par exemple :
 
 >[!NOTE]
 >
->**Chaque opérateur doit être associé à une zone**. Si l’adresse IP de l’opérateur appartient à la plage définie par la zone, l’opérateur peut se connecter à l’instance.\
+>**Tous les opérateurs et opératrices doivent être associés à une zone**.Si l’adresse IP de l’opérateur ou de l’opératrice appartient à la plage définie par la zone, l’opérateur ou l’opératrice peut se connecter à l’instance.\
 >Il se peut que l&#39;adresse IP de l&#39;opérateur soit définie dans plusieurs zones. Dans ce cas, l&#39;opérateur reçoit **l&#39;union** des droits disponibles pour chacune des zones.
 
 Le fichier **serverConf.xml** livré d&#39;usine contient trois zones : **public, vpn et lan**.
 
 >[!NOTE]
 >
->**La configuration prête à l’emploi est sécurisée**. Cependant, avant d’effectuer une migration depuis une version antérieure d’Adobe Campaign, il peut être nécessaire de réduire temporairement la sécurité afin de migrer et de valider les nouvelles règles.
+>**La configuration d’usine est sécurisée**.Cependant, avant de procéder à une migration depuis une version antérieure d’Adobe Campaign, il peut être nécessaire de réduire temporairement la sécurité afin de migrer et d’approuver les nouvelles règles.
 
 Exemple d&#39;une définition de zone dans le fichier **serverConf.xml** :
 
@@ -114,7 +114,7 @@ Dans le cas de Message Center, quand il y a plusieurs instances d&#39;exécution
 
 ## Bonnes pratiques pour les zones de sécurité {#best-practices-for-security-zones}
 
-Dans la définition de la zone de sécurité **lan**, il est possible d&#39;ajouter un masque d&#39;adresse IP définissant un accès technique. Cet ajout permettra d’accéder à toutes les instances hébergées sur le serveur.
+Dans la définition de la zone de sécurité **lan**, il est possible d’ajouter un masque d’adresse IP définissant un accès technique.Cet ajout permettra d’accéder à toutes les instances hébergées sur le serveur.
 
 ```
 <securityZone allowDebug="true" allowEmptyPassword="false" allowHTTP="true"
@@ -154,7 +154,7 @@ Lorsqu&#39;un proxy est référencé et qu&#39;une connexion entre via ce proxy 
 >
 >Si un proxy est configuré et qu&#39;il est possible de passer outre ce dernier (ou s&#39;il n&#39;existe pas), l&#39;adresse IP qui sera testée pourra être falsifiée.
 >
->De plus, les relais sont désormais gérés comme des proxys. Vous pouvez donc ajouter l’adresse IP 127.0.0.1 à la liste des proxys dans votre configuration de zone de sécurité.
+>De plus, les relais sont désormais gérés comme des proxys. Vous pouvez donc ajouter l’adresse IP 127.0.0.1 à la liste des proxys dans votre configuration de zone de sécurité.
 >
 >Par exemple: &quot; `<subnetwork label="Lan 1" mask="192.168.0.0/16" name="lan1" proxy="127.0.0.1,10.100.2.135" />`&quot;.
 
@@ -172,7 +172,7 @@ Plusieurs cas peuvent exister :
 
   ![](assets/8101_proxy3.png)
 
-Les adresses IP des serveurs proxy susceptibles d’accéder au serveur Adobe Campaign doivent être saisies dans le sous-réseau **`<subnetwork>`** concerné et le sous-réseau de premier niveau **`<subnetwork name="all"/>`**. Par exemple, ici pour un proxy dont l’adresse IP est 10.131.146.102 :
+Les adresses IP des serveurs proxy susceptibles d’accéder au serveur Adobe Campaign doivent être saisies dans le sous-réseau **`<subnetwork>`** concerné et le sous-réseau de premier niveau **`<subnetwork name="all"/>`**. Par exemple, ici, pour un proxy dont l’adresse IP est 10.131.146.102 :
 
 ```
 <securityZone allowDebug="false" allowHTTP="false" label="Public Network" 
@@ -246,9 +246,9 @@ Une fois les zones définies et l&#39;énumération **[!UICONTROL Zone de sécur
 * Si possible, définissez les attributs allowHTTP et showErrors sur la valeur false (pas pour localhost) et vérifiez-les.
 
    * allowHTTP = &quot;false&quot; : force les opérateurs à utiliser le protocole HTTPS.
-   * showErrors = « false » : masque les erreurs techniques (y compris SQL). Cela évite d’afficher trop d’informations, mais réduit la capacité du professionnel du marketing à résoudre des erreurs (sans demander plus d’informations à un administrateur)
+   * showErrors = &quot;false&quot; : masque les erreurs techniques (y compris les erreurs SQL).Il empêche l’affichage d’un trop grand nombre d’informations, mais il limite la possibilité pour les spécialistes marketing de corriger les erreurs (sans demander d’informations supplémentaires à un administrateur ou une administratrice).
 
-* Définissez allowDebug sur true uniquement sur les adresses IP utilisées par les utilisateurs/administrateurs marketing qui doivent créer (en fait prévisualiser) des questionnaires, des webApps et des rapports. Cet indicateur permet à ces adresses IP d’afficher les règles de relais et de les déboguer.
+* Définissez allowDebug sur true uniquement sur les adresses IP utilisées par les utilisateurs et utilisatrices et les administrateurs et administratrices marketing qui doivent créer (ou plutôt prévisualiser) des questionnaires, des webApps et des rapports.Cet indicateur permet à ces adresses IP d’afficher les règles de relais et de les déboguer.
 
    * Lorsque allowDebug est défini sur false, la sortie est la suivante :
 
@@ -264,11 +264,11 @@ Une fois les zones définies et l&#39;énumération **[!UICONTROL Zone de sécur
 
 * Ne définissez jamais allowEmptyPassword, allowUserPassword et allowSQLInjection sur true.
 
-   * **allowEmptyPassword** permet aux opérateurs d&#39;avoir un mot de passe vide. Si c&#39;est votre cas, demandez à tous vos opérateurs de définir un mot de passe avec une date limite. Une fois cette échéance dépassée, définissez cet attribut sur false.
+   * **allowEmptyPassword** permet aux opérateurs et opératrices d’avoir un mot de passe vide.Si c’est votre cas, demandez à tous les opérateurs et opératrices de définir un mot de passe avec une échéance.Une fois ce délai passé, définissez cet attribut sur la valeur false.
 
-   * **allowUserPassword** permet aux opérateurs d’envoyer leurs informations d’identification sous forme de paramètres (afin qu’elles soient consignées par apache/IIS/proxy). Cette fonctionnalité était utilisée dans le passé pour simplifier l’utilisation de l’API. Vous pouvez vérifier dans votre livre de cookie (ou dans la spécification) si certaines applications tierces l’utilisent. Si tel est le cas, vous devez les avertir de modifier leur façon d&#39;utiliser notre API et de supprimer cette fonctionnalité dès que possible.
+   * **allowUserPassword** permet aux opérateurs et opératrices d’envoyer leurs informations d’identification sous forme de paramètres (afin qu’elles soient consignées par apache/IIS/proxy).Cette fonctionnalité était utilisée dans le passé pour simplifier l’utilisation de l’API.Vous pouvez vérifier dans votre livre de cookies (ou dans la spécification) si certaines applications tierces l’utilisent.Si c’est le cas, vous devez les informer de modifier leur façon d’utiliser notre API et de supprimer cette fonctionnalité dès que possible.
 
-   * L’attribut **allowSQLInjection** permet à l’utilisateur d’effectuer des injections SQL en utilisant une ancienne syntaxe. Cet attribut doit être défini sur false. Vous pouvez utiliser /nl/jsp/ping.jsp?zones=true pour vérifier la configuration de votre zone de sécurité. Cette page affiche le statut actif des mesures de sécurité (calculé avec ces indicateurs de sécurité) pour l’adresse IP actuelle.
+   * L’attribut **allowSQLInjection** permet à l’utilisateur d’effectuer des injections SQL en utilisant une ancienne syntaxe. Cet attribut doit être défini sur false. Vous pouvez utiliser /nl/jsp/ping.jsp?zones=true pour vérifier la configuration de votre zone de sécurité.Cette page affiche le statut actif des mesures de sécurité (calculé avec ces indicateurs de sécurité) pour l’adresse IP actuelle.
 
 * Cookie HttpOnly/useSecurityToken : reportez-vous au flag **sessionTokenOnly**.
 

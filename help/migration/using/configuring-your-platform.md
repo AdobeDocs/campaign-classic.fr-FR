@@ -21,9 +21,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 476
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -93,9 +93,9 @@ Après avoir exécuté **postupgrade**, vérifiez et configurez les éléments s
 
 * Pages miroir
 
-  Le bloc de personnalisation de la page miroir a été modifié avec v6.x. Cette nouvelle version améliore la sécurité lors de l’accès à ces pages.
+  Le bloc de personnalisation de la page miroir a été modifié avec la version 6.x.Cette nouvelle version améliore la sécurité lors de l’accès à ces pages.
 
-  Si vous avez utilisé le bloc de personnalisation v5 dans vos messages, l’affichage de la page miroir échoue. Adobe recommande vivement d’utiliser le nouveau bloc de personnalisation lors de l’insertion d’une page miroir dans vos messages.
+  Si vous avez utilisé le bloc de personnalisation de la version 5 dans vos messages, les pages miroir ne s’affichent pas.Adobe recommande vivement d’utiliser le nouveau bloc de personnalisation lors de l’insertion d’une page miroir dans vos messages.
 
   Toutefois, à titre de solution temporaire (et comme les pages miroir sont toujours actives), vous pouvez revenir à l’ancien bloc de personnalisation pour éviter ce problème en modifiant l’option **[!UICONTROL XtkAcceptOldPasswords]** et en la définissant sur **[!UICONTROL 1]**. L’utilisation du nouveau bloc de personnalisation v6.x n’en sera pas affectée.
 
@@ -105,7 +105,7 @@ Après avoir exécuté **postupgrade**, vérifiez et configurez les éléments s
 
 * Conflits
 
-  La migration est effectuée par l&#39;intermédiaire d&#39;un postupgrade et des conflits peuvent apparaître dans les rapports, les formulaires ou les applications web. Ces conflits peuvent être résolus à partir de la console.
+  La migration étant effectuée au travers d’un postupgrade, des conflits peuvent apparaître au niveau des rapports, formulaires ou applications web.Ces conflits peuvent être résolus manuellement depuis la console.
 
 * Tomcat
 

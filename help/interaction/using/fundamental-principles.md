@@ -16,9 +16,9 @@ feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 338
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
@@ -30,15 +30,15 @@ ht-degree: 44%
 
 Pour chaque dimension de ciblage utilisée dans le cadre de la gestion des offres existe un duo d&#39;environnements :
 
-* Un environnement en édition , dans lequel le chargé d&#39;offres s&#39;occupe de créer et catégoriser les offres, de les modifier, de lancer le processus de validation afin qu&#39;elles puissent être utilisées. Les règles de chaque catégorie, les emplacements sur lesquels les offres peuvent être présentées et les filtres prédéfinis utilisés pour définir l&#39;éligibilité d&#39;une offre sont également définis dans cet environnement.
+* Un environnement de conception, dans lequel la personne responsable des offres s’occupe de créer et catégoriser les offres, de les modifier, de lancer le processus de validation afin qu’elles puissent être utilisées.Dans cet environnement sont également définies les règles propres à chaque catégorie, les emplacements sur lesquels les offres peuvent être présentées et les filtres prédéfinis utilisables pour définir l’éligibilité d’une offre.
 
   Les catégories peuvent également être publiées manuellement dans l&#39;environnement en ligne.
 
   Le processus de validation des offres est détaillé dans la section [Valider et activer une offre](../../interaction/using/approving-and-activating-an-offer.md).
 
-* Un environnement en ligne , dans lequel se trouvent les offres approuvées de l’environnement en édition, ainsi que les différents emplacements, filtres, catégories et règles configurés dans l’environnement en édition. Lors d&#39;un appel au moteur d&#39;offres, ce dernier utilisera toujours les offres de l&#39;environnement en ligne.
+* Un environnement en ligne, dans lequel se trouvent les offres approuvées de l’environnement de conception, ainsi que les différents emplacements, filtres, catégories et règles paramétrés dans l’environnement de conception.Lors d’un appel au moteur d’offres, ce dernier utilisera toujours les offres de l’environnement en ligne.
 
-Une offre n&#39;est déployée que sur les emplacements sélectionnés lors de la validation. Par conséquent, une offre peut être en ligne, mais inutilisable sur un emplacement qui est également en ligne.
+Une offre n’est déployée que sur les emplacements sélectionnés lors de la validation.Ainsi, une offre peut être en ligne mais non utilisable sur un emplacement lui aussi en ligne.
 
 ![](assets/architecture_interaction1.png)
 
@@ -46,7 +46,7 @@ Une offre n&#39;est déployée que sur les emplacements sélectionnés lors de l
 
 On distingue deux types d’interactions possibles : les interactions entrantes, provoquées par un contact, et les interactions sortantes, provoquées par le concepteur d’offres.
 
-Ces deux types d&#39;interactions peuvent être réalisés soit en mode unitaire (l&#39;offre est calculée pour un seul contact), soit en mode batch (l&#39;offre est calculée pour un ensemble de contacts). Généralement, les interactions entrantes sont réalisées en mode unitaire et les interactions sortantes en mode batch. Néanmoins, des exceptions peuvent exister, par exemple pour des messages transactionnels, où l&#39;interaction sortante est réalisée en mode unitaire (voir [cette section](../../message-center/using/about-transactional-messaging.md)).
+Ces deux types d’interactions peuvent être réalisés soit en mode unitaire (l’offre est calculée pour un seul contact), ou en mode par lots (l’offre est calculée pour un ensemble de contacts).Généralement, les interactions entrantes sont réalisées en mode unitaire et les interactions sortantes en mode par lots.Néanmoins, des exceptions peuvent exister, par exemple pour des messages transactionnels, où l&#39;interaction sortante est réalisée en mode unitaire (voir [cette section](../../message-center/using/about-transactional-messaging.md)).
 
 Dès lors qu&#39;une offre peut ou doit être présentée (en fonction des paramétrages réalisés), le moteur d&#39;offre joue le rôle d&#39;intermédiaire : il calcule automatiquement la meilleure offre possible pour un contact parmi celles disponibles, en combinant les données recueillies sur le contact et les différentes règles applicables définies dans l&#39;application.
 

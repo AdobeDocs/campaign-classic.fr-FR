@@ -22,9 +22,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 566
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Le document XML d&#39;un schéma de données doit contenir l&#39;élément racin
 </srcSchema>
 ```
 
-Le point d&#39;entrée du schéma est son élément principal. Il est facilement identifiable car son nom est identique à celui du schéma et il doit être enfant de l&#39;élément racine. C&#39;est à partir de cet élément que commence la description du contenu.
+Le point d’entrée du schéma est son élément principal.Il est facilement identifiable car son nom est identique à celui du schéma et il doit être enfant de l&#39;élément racine. C&#39;est à partir de cet élément que commence la description du contenu.
 
 Dans un schéma de gestion de contenu, l&#39;élément principal est représenté par la ligne :
 
@@ -163,7 +163,7 @@ L&#39;attribut **ref** sur l&#39;élément à référencer doit être renseigné
 </srcSchema>
 ```
 
-La structure de chapitres est déplacée vers l’élément nommé « section » en dehors de l’élément principal. Le chapitre et la section font référence à l’élément « section ».
+La structure du chapitre est déplacée dans l’élément portant le nom « section » en dehors de l’élément principal.Le chapitre et la section référencent l’élément « section ».
 
 ## Compute string {#compute-string}
 

@@ -18,9 +18,9 @@ subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1092
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ Les types de champs disponibles sont les suivants :
 * Valeur issue des réponses fournies antérieurement (dans le contexte du formulaire) ou de la base de données.
 * Lien hypertexte, HTML, barre horizontale. Voir [Insérer du contenu HTML](#inserting-html-content).
 * Image enregistrée dans la bibliothèque de ressources ou sur un serveur accessible par les utilisateurs. Voir [Insérer des images](#inserting-images).
-* Script exécuté côté client et/ou côté serveur. Elle doit être écrite dans JavaScript et compatible avec la plupart des navigateurs afin d’assurer une exécution correcte côté client.
+* Script exécuté côté client et/ou côté serveur.Il doit être écrit en JavaScript et compatible avec la plupart des navigateurs afin d’assurer une bonne exécution côté client.
 
   >[!NOTE]
   >
@@ -49,7 +49,7 @@ Vous pouvez inclure des contenus HTML dans une page de formulaire : liens hyper
 
 L&#39;éditeur HTML vous permet de saisir le contenu à insérer dans la page du formulaire. Pour ouvrir l&#39;éditeur, cliquez sur **[!UICONTROL Éléments statiques]** > **[!UICONTROL HTML]**.
 
-Vous pouvez saisir et mettre en forme directement votre contenu ou afficher la fenêtre du code source pour coller du contenu externe. Pour passer en mode « code source », cliquez sur la première icône de la barre d&#39;outils :
+Vous pouvez saisir et mettre en forme directement votre contenu ou afficher la fenêtre du code source pour y coller un contenu externe.Pour basculer en mode « code source », cliquez sur la première icône de la barre d’outils :
 
 ![](assets/s_ncs_admin_survey_html_editor.png)
 
@@ -59,7 +59,7 @@ Pour insérer un champ de la base, utilisez le bouton de personnalisation.
 
 >[!NOTE]
 >
->Les chaînes saisies dans l&#39;éditeur d&#39;HTML ne sont traduites que si elles sont définies dans le sous-onglet **[!UICONTROL Textes]**. Sinon, elles ne seront pas collectées. Voir à ce sujet la section [Traduire un formulaire web](translating-a-web-form.md).
+>Les chaînes saisies dans l’éditeur HTML ne font l’objet d’une traduction que si elles sont définies dans le sous-onglet **[!UICONTROL Textes]**.Sinon, elles ne seront pas collectées.Voir à ce sujet la section [Traduire un formulaire web](translating-a-web-form.md).
 
 ### Insérer un lien {#inserting-a-link}
 
@@ -71,7 +71,7 @@ Pour ajouter un lien hypertexte, accédez au menu **[!UICONTROL Éléments stati
 
 * Le **[!UICONTROL Libellé]** est le contenu du lien hypertexte, tel qu&#39;il sera affiché dans la page du formulaire.
 * L&#39;**[!UICONTROL URL]** correspond à l&#39;adresse visée, par exemple : [https://www.adobe.com](https://www.adobe.com) pour un site web ou [info@adobe.com](mailto:info@adobe.com) pour envoyer un message.
-* Le champ **[!UICONTROL Fenêtre]** permet de sélectionner le mode d&#39;affichage du lien dans le cas d&#39;un site. Vous pouvez décider d&#39;ouvrir le lien dans une nouvelle fenêtre, dans la fenêtre active ou dans une autre fenêtre.
+* Le champ **[!UICONTROL Fenêtre]** vous permet de sélectionner le mode d’affichage du lien, lorsqu’il s’agit d’un site.Vous pouvez choisir d’ouvrir le lien dans une nouvelle fenêtre, dans la fenêtre actuelle ou dans une autre fenêtre.
 * Vous pouvez ajouter une bulle d&#39;aide, comme dans l&#39;exemple ci-dessous :
 
   ![](assets/s_ncs_admin_survey_send_an_email.png)
@@ -124,17 +124,17 @@ Vous pouvez définir d&#39;autres actions pour le lien. Ainsi, lorsque l&#39;uti
 
 ### Personnaliser le contenu HTML {#personalizing-html-content}
 
-Vous pouvez personnaliser le contenu HTML d’une page de formulaire avec les données enregistrées dans une page précédente. Par exemple, vous pouvez créer un formulaire Web d’assurance automobile dont la première page vous permet de fournir les coordonnées et la marque de la voiture.
+Vous pouvez personnaliser le contenu HTML d’une page de formulaire avec des données enregistrées dans une page précédente.Par exemple, vous pouvez créer un formulaire web d’assurance automobile dont la première page permet d’indiquer les coordonnées et la marque du véhicule.
 
 ![](assets/s_ncs_admin_survey_tag_ctx_1.png)
 
-Utilisez les champs de personnalisation pour réinjecter le nom d’utilisateur et la marque sélectionnée dans la page suivante. La syntaxe à utiliser dépend du mode de stockage des informations. Pour plus d&#39;informations, consultez la section [Utiliser les informations collectées](web-forms-answers.md#using-collected-information).
+Utilisez des champs de personnalisation pour réinjecter dans la page suivante le nom de l’utilisateur ou de l’utilisatrice et la marque sélectionnée.La syntaxe à utiliser dépend du mode de stockage des informations.Pour plus d&#39;informations, consultez la section [Utiliser les informations collectées](web-forms-answers.md#using-collected-information).
 
 >[!NOTE]
 >
 >Pour des raisons de sécurité, la valeur saisie dans la formule **`<%=`** est remplacée par des caractères avec échappement.
 
-Dans notre exemple, le prénom et le nom du destinataire sont stockés dans un champ de la base de données, tandis que la marque de son véhicule est stockée dans une variable. La syntaxe du message personnalisé en page 2 sera la suivante :
+Dans notre exemple, le nom et le prénom de la personne destinataire sont stockés dans un champ de la base de données, tandis que la marque de son véhicule est stockée dans une variable.La syntaxe du message personnalisé en page 2 sera la suivante :
 
 ![](assets/webapp_perso_vars_include.png)
 
@@ -186,6 +186,6 @@ Sélectionner la source de l&#39;image à insérer : elle peut être issue de l
 
 ![](assets/s_ncs_admin_survey_add_img.png)
 
-S’il s’agit d’une image de la bibliothèque, sélectionnez-la dans la zone de liste déroulante du champ ; si elle se trouve dans un fichier externe, saisissez le chemin d’accès. Le libellé sera affiché en passant le curseur sur l&#39;image (correspond à un champ ALT dans HTML), ou lorsque l&#39;image n&#39;est pas affichée.
+S’il s’agit d’une image de la bibliothèque, sélectionnez-la dans la liste déroulante du champ. S’il s’agit d’une image externe, saisissez le chemin d’accès à l’image à insérer.Le libellé sera affiché lorsque l’utilisateur ou l’utilisatrice passe le curseur sur l’image (correspond à un champ ALT en HTML), ou lorsque l’image n’est pas affichée.
 
 La section centrale de l&#39;éditeur permet de visualiser l&#39;image.

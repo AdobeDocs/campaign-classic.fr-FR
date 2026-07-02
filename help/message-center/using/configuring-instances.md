@@ -20,9 +20,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1312
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Toutes les étapes nécessaires pour configurer et connecter les instances de pi
 
 >[!IMPORTANT]
 >
->L&#39;instance de pilotage et la ou les instance(s) d&#39;exécution doivent être installées sur des machines différentes. Ils ne peuvent pas partager la même instance Campaign.
+>L’instance de contrôle et la ou les instances d’exécution doivent être installées sur des machines différentes.Elles ne peuvent pas partager la même instance Campaign.
 
 ## Configuration de l&#39;instance de pilotage {#control-instance}
 
@@ -141,7 +141,7 @@ Pour connecter la ou les instances d&#39;exécution à l&#39;instance de pilotag
 
 Pour que l&#39;instance de pilotage puisse se connecter à l&#39;instance d&#39;exécution sans avoir à fournir de mot de passe, il suffit de saisir l&#39;adresse IP de l&#39;instance de pilotage dans la section relative aux droits d&#39;accès de **Message Center**. Cependant, les mots de passe vides sont interdits par défaut.
 
-Pour utiliser un mot de passe vide, accédez aux instances d&#39;exécution et définissez une zone de sécurité limitée à l&#39;adresse IP du système d&#39;information qui diffuse les événements. Cette zone de sécurité doit autoriser les mots de passe vides et accepter les connexions de type `<identifier> / <password>`. Pour plus d’informations, consultez [cette section](../../installation/using/security-zones.md).
+Pour utiliser un mot de passe vide, accédez aux instances d&#39;exécution et définissez une zone de sécurité limitée à l&#39;adresse IP du système d&#39;information qui diffuse les événements. Cette zone de sécurité doit autoriser les mots de passe vides et accepter les connexions de type `<identifier> / <password>`. Voir à ce propos [cette section](../../installation/using/security-zones.md).
 
 >[!NOTE]
 >
@@ -164,7 +164,7 @@ Lors de l&#39;utilisation de plusieurs instances d&#39;exécution, répétez ces
 
 ## Utilisation de plusieurs instances de pilotage {#using-several-control-instances}
 
-Vous pouvez partager un cluster d&#39;exécution avec différentes instances de pilotage. Ce type d&#39;architecture requiert la configuration suivante.
+Vous pouvez partager un cluster d’exécution avec différentes instances de contrôle.Ce type d’architecture requiert la configuration suivante.
 
 Imaginez, par exemple, que votre entreprise gère deux marques, chacune disposant de sa propre instance de pilotage : **Pilotage 1** et **Pilotage 2**. Deux instances d&#39;exécution sont également utilisées. Vous devez saisir un opérateur Message Center différent pour chaque instance de pilotage : un opérateur **mc1** pour l&#39;instance **Pilotage 1** et un opérateur **mc2** pour l&#39;instance **Pilotage 2**.
 
@@ -206,7 +206,7 @@ Pour utiliser plusieurs instances de pilotage, ce paramétrage doit être réali
 
    >[!NOTE]
    >
-   >Les opérateurs **mc1** et **mc2** doivent disposer des droits **[!UICONTROL exécution Message Center]** et ne peuvent pas accéder à la console cliente Adobe Campaign. Un opérateur doit toujours être associé à une zone de sécurité. Pour plus d’informations, consultez [cette section](../../installation/using/security-zones.md).
+   >Les opérateurs **mc1** et **mc2** doivent disposer des droits d’**[!UICONTROL exécution Message Center]**, et l’accès à la console cliente Adobe Campaign ne doit pas leur être autorisé.Un opérateur doit toujours être associé à une zone de sécurité.Pour plus d’informations, consultez [cette section](../../installation/using/security-zones.md).
 
 1. Pour chaque opérateur, cochez la case **[!UICONTROL Restreindre aux données présentes dans les sous-dossiers de]**, et sélectionnez le dossier correspondant (**Dossier 1** pour l&#39;opérateur **mc1** et **Dossier 2** pour l&#39;opérateur **mc2**).
 

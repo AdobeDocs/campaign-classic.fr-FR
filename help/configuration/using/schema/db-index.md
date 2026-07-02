@@ -10,9 +10,9 @@ product_v2:
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 341
-ht-degree: 52%
+ht-degree: 100%
 
 ---
 
@@ -45,11 +45,11 @@ Cet élément permet de définir un index associé à une table.
 
 ## Usage et contexte d&#39;utilisation {#use-and-context-of-use-3}
 
-Il est possible de définir plusieurs index. Un index peut référencer un ou plusieurs champs de la table. La déclaration de l’index suit généralement la définition de l’élément de schéma principal.
+Il est possible de définir plusieurs index.Un index peut référencer un ou plusieurs champs de la table.La déclaration de l’index suit généralement la définition de l’élément de schéma principal.
 
 L&#39;ordre des éléments `<keyfield>` définis dans un `<dbindex>` est très important. Le premier `<keyfield>` doit être le critère d&#39;indexation sur lequel reposent principalement les requêtes.
 
-Le nom de l&#39;index en base est calculé par concaténation du nom de la table et du nom de l&#39;index. Par exemple : Nom de la table « Sample », Espace de noms « Cus », nom de l&#39;index « MyIndex »-> nom du champ de l&#39;index lors de la requête de création de l&#39;index : « CusSample_myIndex ».
+Le nom de l’index dans la base de données est calculé en concaténant le nom de la table et le nom de l’index.Par exemple : nom de la table « Sample », espace de noms « Cus », nom de l’index « MyIndex » -> nom du champ de l’index lors de la requête de création de l’index : « CusSample_myIndex ».
 
 ## Description des attributs {#attribute-description-3}
 
@@ -59,11 +59,11 @@ Le nom de l&#39;index en base est calculé par concaténation du nom de la table
 
   Les valeurs accessibles sont:
 
-   * « none » : réconciliation seule. Cela signifie qu’Adobe Campaign récupérera l’élément sans le mettre à jour ou générer une erreur s’il n’existe pas.
-   * « insertOrUpdate » : mise à jour avec insertion. Cela signifie qu’Adobe Campaign mettra à jour l’élément ou le créera s’il n’existe pas.
-   * « insert » : insertion. Cela signifie qu’Adobe Campaign insérera l’élément sans vérifier s’il existe.
-   * « update » : mise à jour. Cela signifie qu&#39;Adobe Campaign va mettre à jour l&#39;élément ou générer une erreur s&#39;il n&#39;existe pas.
-   * « delete » : suppression. Cela signifie qu’Adobe Campaign récupérera et supprimera des éléments.
+   * « none » : réconciliation seule.Cela signifie qu’Adobe Campaign récupérera l’élément sans le mettre à jour ou renverra une erreur s’il n’existe pas.
+   * « insertOrUpdate » : mise à jour avec insertion.Cela signifie qu’Adobe Campaign mettra à jour l’élément ou le créera s’il n’existe pas.
+   * « insert » : insertion.Cela signifie qu’Adobe Campaign insérera l’élément sans vérifier s’il existe.
+   * « update » : mise à jour.Cela signifie qu’Adobe Campaign mettra à jour l’élément ou renverra une erreur s’il n’existe pas.
+   * « delete » : suppression.Cela signifie qu’Adobe Campaign retrouvera et supprimera l’élément.
 
 * **applicableIf (string)**: condition de prise en compte de l&#39;index - reçoit une XTK expression.
 * **label (string)**: libellé de l&#39;index.

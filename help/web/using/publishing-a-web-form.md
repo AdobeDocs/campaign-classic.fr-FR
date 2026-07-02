@@ -18,9 +18,9 @@ subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1379
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -30,13 +30,13 @@ ht-degree: 90%
 
 ## Précharger les données du formulaire {#pre-loading-the-form-data}
 
-Si vous souhaitez mettre à jour les profils stockés dans la base de données via un formulaire Web, vous pouvez utiliser une boîte de préchargement. La zone de préchargement permet d’indiquer comment trouver l’enregistrement à mettre à jour dans la base de données.
+Si vous souhaitez mettre à jour les profils stockés en base via un formulaire web, vous pouvez utiliser une boîte de préchargement.La zone de préchargement permet d’indiquer comment trouver l’enregistrement à mettre à jour dans la base de données.
 
 Les méthodes d&#39;identification possibles sont les suivantes :
 
 * **[!UICONTROL Chiffrement Adobe Campaign]**
 
-  Cette méthode de chiffrement utilise l’identifiant (ID) Adobe Campaign chiffré. Cette méthode ne s’applique que sur un objet Adobe Campaign et l’identifiant chiffré ne peut être généré que par la plateforme Adobe Campaign.
+  Cette méthode de chiffrement utilise l’identifiant (ID) Adobe Campaign chiffré.Cette méthode n’est applicable que sur un objet Adobe Campaign et l’identifiant chiffré ne peut être généré que par la plateforme Adobe Campaign.
 
   Lorsque vous utilisez cette méthode, vous devez adapter l&#39;URL du formulaire lorsque vous diffusez l&#39;adresse par email en y ajoutant le paramètre **`<%=escapeUrl(recipient.cryptedId) %>`**. Voir à ce sujet la section [Diffuser un formulaire par email](#delivering-a-form-via-email).
 
@@ -70,9 +70,9 @@ Les méthodes d&#39;identification possibles sont les suivantes :
 
   >[!CAUTION]
   >
-  >Si plusieurs champs sont spécifiés dans la liste, les données de **TOUS LES CHAMPS** doivent correspondre aux données stockées dans la base de données pour que le profil soit mis à jour. Dans le cas contraire, un nouveau profil est créé.
+  >Si plusieurs champs sont indiqués dans la liste, les données de **TOUS LES CHAMPS** doivent correspondre avec les informations stockées en base pour que le profil soit mis à jour.Dans le cas contraire, un nouveau profil est créé.
   > 
-  >Cette fonction est particulièrement utile pour les applications web, mais n’est pas recommandée pour les formulaires publics. L’option de contrôle d’accès sélectionnée doit être Activer le contrôle d’accès.
+  >Cette fonctionnalité est particulièrement utile dans les applications web mais n’est pas recommandée dans les formulaires publics.L’option de contrôle d’accès sélectionnée doit être « Activer le contrôle d’accès ».
 
 L’option **[!UICONTROL Ignorer le pré-chargement si l’identification est vide]** doit être sélectionnée si vous ne souhaitez pas mettre à jour les profils. Dans ce cas, chaque profil saisi sera ajouté à la base de données après validation du formulaire. Cette option est utilisée, par exemple, lorsque le formulaire est publié sur un site web.
 
@@ -94,7 +94,7 @@ Le cycle de vie d&#39;un formulaire se décompose en trois étapes :
 
 1. **En édition**
 
-   Il s’agit de la phase de conception initiale. Lorsqu’un nouveau formulaire est créé, il est en phase d’édition. L&#39;accès au formulaire, à des fins de tests uniquement, requiert alors l&#39;utilisation du paramètre **[!UICONTROL __uuid]** dans son URL. Cette URL est accessible dans le sous-onglet **[!UICONTROL Aperçu]**. Voir [Paramètres d’URL de formulaire](defining-web-forms-properties.md#form-url-parameters).
+   Il s’agit de la phase de conception initiale.Lorsqu’un nouveau formulaire est créé, il est en phase d’édition.L&#39;accès au formulaire, à des fins de tests uniquement, requiert alors l&#39;utilisation du paramètre **[!UICONTROL __uuid]** dans son URL. Cette URL est accessible dans le sous-onglet **[!UICONTROL Aperçu]**. Voir [Paramètres d’URL de formulaire](defining-web-forms-properties.md#form-url-parameters).
 
    >[!CAUTION]
    >

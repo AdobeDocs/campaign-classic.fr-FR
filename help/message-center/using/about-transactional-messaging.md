@@ -12,9 +12,9 @@ feature_v2:
 subfeature_v2:
   - id: d3b34fea-a110-482f-adb2-aae8d686bac8
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 664
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Les fonctionnalités des messages transactionnels sont conçues pour prendre en 
 
 * **Pourquoi est-ce important ?** En général, un message transactionnel bénéficie d’un taux d’ouverture élevé. Il doit donc être soigneusement conçu, car il peut avoir un impact important sur le comportement des clientes et clients dans la mesure où il définit la relation clientèle.
 
-* **Par exemple ?** Il peut s’agir d’un message de bienvenue après la création d’un compte, d’une confirmation de la livraison d’une commande, d’une facture, d’un message confirmant un changement de mot de passe, d’une notification après la navigation d’un client sur votre site web, d’une communication sur l’indisponibilité du produit, d’un relevé de compte, etc.
+* **Par exemple ?** Il peut s’agir d’un message de bienvenue après la création d’un compte, d’une confirmation qu’une commande a été expédiée, d’une facture, d’un message confirmant un changement de mot de passe ou d’une notification après qu’un client ou une cliente a consulté votre site web, d’une communication sur l’indisponibilité de produits, d’un relevé de compte, etc.
 
 >[!IMPORTANT]
 >

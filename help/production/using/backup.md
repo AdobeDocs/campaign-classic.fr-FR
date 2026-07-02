@@ -17,9 +17,9 @@ subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 232
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Les données sont stockées dans deux endroits distincts :
 * des fichiers physiques sont stockés dans les répertoires d&#39;Adobe Campaign,
 * les autres données sont stockées dans la base de données.
 
-La plupart des données se trouvent dans la base de données. Cela représente 99 % des informations à sauvegarder.
+La grande majorité des données se trouve dans la base de données.Cela représente 99 % des informations à sauvegarder.
 
 ## Les fichiers physiques {#physical-files}
 

@@ -20,9 +20,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2083
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -58,8 +58,8 @@ Archivez vos logs de tracking au-delà de la période de conservation d’Adobe�
 
 ### Évaluation de la tendance actuelle des taux d’ouverture
 
-Déterminez quelle proportion de votre audience utilise l’application Apple Mail sur un appareil iOS.
-Grâce à cette évaluation, vous pouvez identifier les anomalies potentielles et leur cause. Vous pouvez déterminer si un écart est dû à des problèmes de performances de campagne ou à la fonctionnalité de protection de la confidentialité d’Apple. Lisez les [conseils et astuces](#measure-ios-footprint).
+Déterminez la proportion de votre audience qu’utilise l’application Apple Mail sur un appareil iOS.
+Grâce à cette évaluation, vous pouvez identifier les possibles écarts anormaux et leur cause. Vous pouvez déterminer si un écart est dû à des problèmes de performances de campagne ou à la fonctionnalité de protection de la confidentialité d’Apple. Consultez les [conseils et astuces](#measure-ios-footprint).
 
 ### Réévaluation de votre stratégie de campagne et de vos mesures de performances
 
@@ -392,7 +392,7 @@ Cet exemple illustre comment exporter des données de tracking depuis Adobe Cam
 
 1. Créez un workflow qui démarre par une requête.
 
-   La requête initiale est utilisée pour récupérer les logs de tracking des trois derniers mois.
+   La requête initiale permet de récupérer les logs de tracking des trois derniers mois.
 Vous pouvez utiliser une requête incrémentale pour extraire uniquement les enregistrements que vous n’avez pas encore exportés.
 
    Ajoutez toutes les informations requises à partir du nœud **[!UICONTROL Données additionnelles]**.

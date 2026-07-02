@@ -17,9 +17,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 535
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Une fois qu’un modèle est publié, si l’événement correspondant est décl
 
 >[!NOTE]
 >
->Si vous remplacez un champ existant du modèle de message transactionnel, tel que l&#39;adresse de l&#39;expéditeur, par une valeur vide, le champ correspondant sur l&#39;instance ou les instances d&#39;exécution ne sera pas mis à jour une fois le message transactionnel republié. Il contiendra toujours la valeur précédente.
+>Si vous remplacez un champ existant du modèle de message transactionnel, tel que l’adresse de l’expéditeur ou de l’expéditrice, par une valeur vide, le champ correspondant sur la ou les instances d’exécution ne sera pas mis à jour une fois le message transactionnel republié.Il contiendra toujours la valeur précédente.
 >
 >Cependant, si vous ajoutez une valeur non vide, le champ correspondant sera mis à jour comme d&#39;habitude après la publication suivante.
 

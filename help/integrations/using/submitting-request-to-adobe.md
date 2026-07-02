@@ -21,9 +21,9 @@ subfeature_v2:
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 146
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 84%
 >
 >En tant qu’utilisateur de la version v7, pour pouvoir poursuivre, assurez-vous qu’Adobe Identity Management System (IMS) est activé sur votre système. [En savoir plus](../../integrations/using/about-adobe-id.md).
 
-Une fois qu’Adobe Identity Management Service (IMS) est activé pour votre organisation, vous pouvez demander la configuration de l’intégration de [Experience Cloud Audience](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/audiences/overview){target="_blank"} avec Campaign. Pour ce faire, contactez votre représentant ou représentante Adobe et fournissez les informations suivantes :
+Une fois qu’Adobe Identity Management Service (IMS) est activé pour votre organisation, vous pouvez demander l’approvisionnement de l’intégration de l’[audience Experience Cloud](https://experienceleague.adobe.com/fr/docs/core-services/interface/services/audiences/overview){target="_blank"} à Campaign.Pour ce faire, contactez votre représentant ou représentante Adobe et fournissez les informations suivantes :
 
 <table> 
  <tbody> 

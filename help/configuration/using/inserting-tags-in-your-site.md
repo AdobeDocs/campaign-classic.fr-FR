@@ -13,9 +13,9 @@ role_v2:
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 331
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -138,7 +138,7 @@ L’URL que vous créez doit respecter les règles de syntaxe définies dans la 
 
 >[!NOTE]
 >
->La redirection et le tracking web utilisent des cookies. Il est important que le serveur web qui effectue l&#39;appel HTTP synchrone soit dans le même domaine que le serveur de redirection. Les différents échanges HTTP doivent transmettre les cookies &#39;id&#39;, &#39;uuid&#39; et &#39;uuid230&#39;.
+>La redirection et le tracking web utilisent des cookies : il est important que le serveur web effectuant l’appel HTTP synchrone soit sur le même domaine que le serveur de redirection.Les différents échanges HTTP doivent transmettre les cookies « id », « uuid » et « uuid230 ».
 
 **Exemple** : génération dynamique en java, avec authentification du destinataire via son numéro de compte.
 

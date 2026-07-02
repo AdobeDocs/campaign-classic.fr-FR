@@ -18,9 +18,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 277
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -36,9 +36,9 @@ Le fichier de sortie d&#39;une diffusion par courrier est généré pendant l&#3
 >
 >La phase d&#39;analyse est détaillée dans la section [Analyser la diffusion](steps-validating-the-delivery.md#analyzing-the-delivery).
 
-Lors de la phase d’analyse, le fichier est généré mais les informations relatives aux destinataires (c’est-à-dire les logs de diffusion) ne sont pas mises à jour. Vous pouvez donc annuler ce traitement sans courir de risque.
+Pendant la phase d’analyse, le fichier est généré mais aucune information concernant les destinataires (à savoir les logs de diffusion) n’est mise à jour.Vous pouvez donc annuler ce traitement sans courir de risque.
 
-Vérifiez le résultat de l&#39;analyse et le contenu du fichier de sortie avant de cliquer sur **[!UICONTROL Confirmer la diffusion]**. Un message de confirmation permet de lancer la diffusion.
+Vérifiez le résultat de l’analyse et le contenu du fichier de sortie avant de cliquer sur le bouton **[!UICONTROL Confirmer la diffusion]**.Un message de confirmation permet de lancer la diffusion.
 
 La confirmation de l&#39;envoi lance l&#39;extraction des données dans le fichier spécifié.
 
@@ -51,7 +51,7 @@ Vous pouvez paramétrer le mode de récupération des logs de diffusion à parti
 Deux modes sont proposés :
 
 * **[!UICONTROL Les messages sont considérés envoyés suite à la validation]** (mode par défaut) : dans ce mode de fonctionnement, tous les broadlogs sont mis à jour lorsque l&#39;opérateur confirme l&#39;envoi (leur statut passe de &#39;En attente de diffusion&#39; à &#39;Envoyé&#39;) et le statut de la diffusion devient automatiquement **[!UICONTROL Terminé]**.
-* **[!UICONTROL Un fichier de résultats détermine les messages envoyés et en échec]** : ce mode permet de mettre à jour les broadlogs via un fichier externe transmis par le prestataire. Dans ce cas, un workflow pour traiter ces informations doit être utilisé afin de mettre à jour le statut du broadlog.
+* **[!UICONTROL Un fichier de résultats détermine les messages envoyés et en échec]** : ce mode permet de mettre à jour les broadlogs via un fichier externe transmis par le prestataire.Dans ce cas, un workflow pour traiter ces informations doit être utilisé afin de mettre à jour le statut du broadlog.
 
   >[!NOTE]
   >

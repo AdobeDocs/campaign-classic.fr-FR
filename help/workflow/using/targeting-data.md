@@ -22,7 +22,7 @@ topic_v2:
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 2039
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Indiquez le mode de calcul du champ à ajouter, par exemple un agrégat.
 
 ![](assets/query_add_an_output_column_formula.png)
 
-L&#39;option **[!UICONTROL Ajouter un sous-élément]** permet de joindre des données calculées à la collection. Vous pouvez ainsi sélectionner les données additionnelles de la collection ou définir des calculs d&#39;agrégats sur les éléments de la collection.
+L’option **[!UICONTROL Ajouter un sous-élément]** vous permet de rattacher des données calculées à la collection. Vous pouvez ainsi sélectionner des données supplémentaires issues de la collection ou définir des calculs d’agrégats sur les éléments de la collection.
 
 ![](assets/query_add_columns_subscription_sub-element.png)
 
@@ -74,19 +74,19 @@ Les données supplémentaires collectées peuvent permettre d’affiner le filtr
 
 ### Homogénéisation des données {#homogenizing-data}
 
-Dans les activités de type **[!UICONTROL Union]** ou **[!UICONTROL Intersection]**, vous pouvez choisir de ne conserver que les données additionnelles partagées afin d’assurer la cohérence des données. Dans ce cas, la table de travail temporaire en sortie de cette activité ne contiendra que les données additionnelles présentes dans tous les ensembles en entrée.
+Dans les activités de type **[!UICONTROL Union]** ou **[!UICONTROL Intersection]**, vous pouvez choisir de ne conserver que les données supplémentaires communes afin d’homogénéiser les données. Dans ce cas, la table de travail de sortie temporaire de cette activité ne contiendra que les données supplémentaires présentes dans tous les ensembles en entrée.
 
 ![](assets/option-common_additionnal_col_only.png)
 
 ### Réconcilier avec les données additionnelles {#reconciliation-with-additional-data}
 
-Pendant les phases de réconciliation des données (activités **[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc.), vous pouvez sélectionner les colonnes à utiliser pour la réconciliation des données parmi les colonnes additionnelles. Pour ce faire, configurez une réconciliation sur une sélection de colonnes et spécifiez l&#39;ensemble principal. Sélectionnez ensuite les colonnes situées dans la colonne inférieure de la fenêtre, comme dans l&#39;exemple ci-dessous :
+Pendant les phases de réconciliation des données (dans les activités **[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc.), vous pouvez sélectionner les colonnes à utiliser pour la réconciliation des données parmi les colonnes supplémentaires. Pour cela, configurez une réconciliation sur une sélection de colonnes et indiquez l’ensemble principal. Sélectionnez ensuite les colonnes dans la section inférieure de la fenêtre, comme dans l’exemple ci-dessous :
 
 ![](assets/select-column-and-join.png)
 
 ### Création de sous-ensembles {#creating-subsets}
 
-L&#39;activité **[!UICONTROL Partage]** permet de créer des sous-ensembles selon des critères définis à partir de requêtes d&#39;extraction. Pour chaque sous-ensemble, lorsque vous éditez une condition de filtrage sur la population, vous accédez alors à l&#39;activité de requête standard qui permet de définir les conditions de segmentation de la cible.
+L’activité **[!UICONTROL Partage]** vous permet de créer des sous-ensembles sur des critères définis à l’aide de requêtes d’extraction. Pour chaque sous-ensemble, lorsque vous modifiez une condition de filtrage sur la population, vous accédez à l’activité de requête standard et pouvez ainsi définir les conditions de segmentation de la cible.
 
 Vous pouvez diviser une cible en plusieurs sous-ensembles en utilisant uniquement les données supplémentaires comme conditions de filtrage, ou en complément des données de la cible. Vous pouvez également utiliser des données externes si vous avez acheté l’option **Federated Data Access**.
 
@@ -96,7 +96,7 @@ Pour plus d’informations, voir la section [Création de sous-ensembles à l’
 
 ### Réunion de plusieurs cibles (Union) {#combining-several-targets--union-}
 
-L&#39;activité d&#39;union permet de combiner le résultat de plusieurs activités au sein d&#39;une même transition. Les ensembles ne doivent pas nécessairement être homogènes.
+L’activité d’union vous permet de regrouper le résultat de plusieurs activités dans une même transition. Les ensembles ne doivent pas nécessairement être homogènes.
 
 ![](assets/join_reconciliation_options.png)
 
@@ -110,7 +110,7 @@ Les options de réconciliation des données sont les suivantes :
 
   Cette option permet de réconcilier les données à partir de toutes les colonnes communes aux différentes populations de la cible.
 
-  Adobe Campaign identifie les colonnes en fonction de leur nom. Un seuil de tolérance est accepté : par exemple, une colonne &#39;Email&#39; peut être reconnue comme identique à une colonne &#39;@email&#39;.
+  Adobe Campaign identifie les colonnes d’après leur nom. Un seuil de tolérance est accepté : par exemple, une colonne « E-mail » pourra être reconnue comme identique à une colonne « @email ».
 
 * **[!UICONTROL Une sélection de colonnes]**
 
@@ -124,7 +124,7 @@ Les options de réconciliation des données sont les suivantes :
   >
   >Lors de la réconciliation des données, les populations ne sont pas dédupliquées.
 
-  Vous pouvez limiter la taille de la population à un nombre donné d&#39;enregistrements. Pour ce faire, cliquez sur l’option correspondante et indiquez le nombre d’enregistrements à conserver.
+  Vous pouvez limiter la taille de la population à un nombre donné d’enregistrements. Pour cela, cliquez sur l’option correspondante et indiquez le nombre d’enregistrements à conserver.
 
   Indiquez également l&#39;ordre de priorité des populations entrantes : la section inférieure de la fenêtre liste les transitions entrantes de l&#39;activité d&#39;union et vous permet de les ordonner en utilisant les flèches bleues situées à droite de la fenêtre.
 
@@ -144,9 +144,9 @@ L’activité d’intersection est présentée dans la section [Intersection](in
 
 ### Exclusion dʼune population (Exclusion) {#excluding-a-population--exclusion-}
 
-L&#39;activité d&#39;exclusion permet d&#39;exclure les éléments d&#39;une cible parmi une population cible différente. La dimension de ciblage en sortie de cette activité sera celle de l&#39;ensemble principal.
+L’activité d’exclusion vous permet d’exclure d’une population cible les éléments d’une autre population cible. La dimension de ciblage en sortie de cette activité sera celle de l’ensemble principal.
 
-Le cas échéant, il est possible de manipuler les tables entrantes. En effet, pour exclure une cible d’une autre dimension, cette cible doit être replacée dans la même dimension de ciblage que la cible principale. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter]** et indiquez les conditions de modification des dimensions.
+Si nécessaire, il est possible de manipuler les tables entrantes. En effet, pour exclure une cible d’une autre dimension, cette cible doit être replacée dans la même dimension de ciblage que la cible principale. Pour ce faire, cliquez sur le bouton **[!UICONTROL Ajouter]** et indiquez les conditions de modification des dimensions.
 
 La réconciliation entre les données se fait au choix par identifiant, changement d&#39;axe ou jointure. Un exemple est disponible dans la section [Utiliser les données d’une liste : Lecture de Liste](../../platform/using/import-export-workflows.md#using-data-from-a-list--read-list).
 
@@ -168,7 +168,7 @@ Pour la configurer, vous devez d&#39;abord sélectionner des critères :
 
    Lors de la création des sous-ensembles, ce sont les paramètres de filtrage définis ci-avant qui sont utilisés.
 
-   Pour définir les conditions de filtrage, sélectionnez l&#39;option **[!UICONTROL Ajouter une condition de filtrage sur la population entrante]** et cliquez sur le lien **[!UICONTROL Modifier...]** . Indiquez ensuite les conditions de filtrage pour créer ce sous-ensemble.
+   Pour définir les conditions de filtrage, choisissez l’option **[!UICONTROL Ajouter une condition de filtrage sur la population entrante]** et cliquez sur le lien **[!UICONTROL Modifier…]**. Indiquez ensuite les conditions de filtrage pour la création de ce sous-ensemble.
 
    ![](assets/split-subset-config-all-data.png)
 
@@ -192,9 +192,9 @@ Pour la configurer, vous devez d&#39;abord sélectionner des critères :
 
    Pour plus d&#39;informations à ce sujet, en fonction de la version de Campaign, reportez-vous aux sections suivantes :
 
-   ![](assets/do-not-localize/v7.jpeg) [Documentation de Campaign v7](../../installation/using/about-fda.md)
+   ![](assets/do-not-localize/v7.jpeg)[Documentation de Campaign v7](../../installation/using/about-fda.md)
 
-   ![](assets/do-not-localize/v8.png) [Documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=fr)
+   ![](assets/do-not-localize/v8.png)[Documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=fr)
 
 Nous devons ensuite ajouter de nouveaux sous-ensembles :
 
@@ -206,7 +206,7 @@ Nous devons ensuite ajouter de nouveaux sous-ensembles :
 
    ![](assets/wf_split_edit_filtering.png)
 
-1. Si nécessaire, vous pouvez modifier la dimension de filtrage pour chaque sous-ensemble individuellement. Vous pouvez ainsi créer un jeu pour tous les détenteurs de carte Gold, un pour tous les destinataires qui ont cliqué dans la dernière newsletter et un troisième pour les personnes âgées de 18 à 25 ans qui ont effectué un achat en magasin au cours des 30 derniers jours, le tout en utilisant la même activité de partage. Pour ce faire, sélectionnez l’option **[!UICONTROL Utiliser une dimension de filtrage spécifique]** et sélectionnez le contexte de filtrage des données.
+1. Si nécessaire, vous pouvez modifier la dimension de filtrage pour chaque sous-ensemble individuellement. Cela vous permet, à partir de la même activité de partage, de créer un ensemble avec toutes les personnes titulaires d’un contrat Gold, un autre avec toutes les personnes destinataires ayant cliqué dans la dernière newsletter et un troisième regroupant les personnes de 18 à 25 ans ayant effectué un achat en magasin au cours des 30 derniers jours. Pour ce faire, sélectionnez l’option **[!UICONTROL Utiliser une dimension de filtrage spécifique]** et sélectionnez le contexte de filtrage des données.
 
    ![](assets/wf_split_change_dimension.png)
 
@@ -218,7 +218,7 @@ Une fois les sous-ensembles créés, par défaut, l&#39;activité de partage pro
 
 ![](assets/wf_split_multi_outputs.png)
 
-Vous pouvez regrouper tous ces sous-ensembles en une seule transition de sortie. Dans ce cas, le lien vers les sous-ensembles respectifs est visible dans le code segment, par exemple. Pour ce faire, sélectionnez l’option **[!UICONTROL Générer tous les sous-ensembles dans le même tableau]**.
+Vous pouvez regrouper tous ces sous-ensembles dans une seule transition de sortie. Dans ce cas, le lien vers les sous-ensembles respectifs sera visible dans le code segment, par exemple. Pour ce faire, sélectionnez l’option **[!UICONTROL Générer tous les sous-ensembles dans le même tableau]**.
 
 ![](assets/wf_split_select_option_single_output.png)
 
@@ -246,7 +246,7 @@ Une fois les données identifiées et préparées, elles peuvent être utilisée
 
 ## Data Management {#data-management}
 
-Dans Adobe Campaign, la gestion des données combine un ensemble d’activités pour résoudre des problèmes de ciblage complexes en offrant des outils plus efficaces et plus flexibles. Vous pouvez ainsi mettre en œuvre une gestion cohérente de toutes les communications avec un contact en utilisant les informations relatives à ses contrats, ses abonnements, sa réactivité aux diffusions, etc. Data Management permet de suivre le cycle de vie des données lors des opérations de segmentation, notamment :
+Dans Adobe Campaign, le module Data Management regroupe un ensemble d’activités permettant de résoudre des problèmes de ciblage complexes en proposant des outils plus efficaces et plus flexibles. Cela vous permet d’implémenter une gestion cohérente de toutes les communications vers une personne contact, en utilisant les informations liées à ses contrats, ses abonnements, sa réactivité aux diffusions, etc. Data Management vous permet de suivre le cycle de vie des données lors des opérations de segmentation, notamment :
 
 * simplifier et optimiser les processus de ciblage, y compris en incluant des données qui n&#39;ont pas été modélisées dans le datamart (création de nouvelles tables : extension locale à chaque workflow de ciblage, en fonction de son paramétrage).
 * conserver et véhiculer des calculs intermédiaires, notamment dans les phases de construction des cibles ou pour l&#39;administration des bases de données.
@@ -255,14 +255,14 @@ Dans Adobe Campaign, la gestion des données combine un ensemble d’activités 
 Pour réaliser ces opérations, Adobe Campaign propose :
 
 * Activités de collecte de données : [Transfert de fichier](file-transfer.md), [Chargement (fichier)](data-loading-file.md), [Chargement (SGBD)](data-loading-rdbms.md), [Mise à jour de données](update-data.md). Cette première étape de la collecte des données les prépare pour permettre leur traitement dans d’autres activités. Plusieurs paramètres doivent être surveillés afin de s’assurer que le workflow s’exécute correctement et donne les résultats attendus. Par exemple, lorsque vous importez des données, la clé primaire (Pkey) de ces données doit être unique pour chaque enregistrement.
-* Activités de ciblage enrichies d&#39;options de Data Management : [Requête](query.md), [Union](union.md), [Intersection](intersection.md), [Partage](split.md). Vous pouvez ainsi configurer une union ou une intersection entre des données provenant de plusieurs dimensions de ciblage différentes, tant que la réconciliation des données est possible.
+* Les activités de ciblage enrichies avec des options de Data Management : [Requête](query.md), [Union](union.md), [Intersection](intersection.md), [Partage](split.md). Cela vous permet de configurer une union ou une intersection entre des données de plusieurs dimensions de ciblage différentes, sous réserve qu’une réconciliation des données soit possible.
 * Activités de transformation des données : [Enrichissement](enrichment.md), [Changement de dimension](change-dimension.md).
 
 >[!CAUTION]
 >
 >Dans les workflows, dans le cas où deux tables sont liées, la suppression d&#39;un élément de la table source n&#39;entraîne pas la suppression de ses données liées.
 >  
->Par exemple, la suppression d&#39;un destinataire via un workflow n&#39;entraîne pas la suppression de tout l&#39;historique de diffusion du destinataire. Cependant, la suppression d&#39;un destinataire directement dans le dossier &#39;Destinataires&#39; entraînera bien la suppression de toutes les données qui lui sont liées.
+>Par exemple, la suppression d’une personne destinataire via un workflow n’entraînera pas la suppression de ses historiques de diffusion. En revanche, la suppression d’une personne destinataire directement dans le dossier « Personnes destinataires » de l’arborescence entraînera bien la suppression de toutes les données qui lui sont liées.
 
 ### Enrichissement et modification des données {#enriching-and-modifying-data}
 

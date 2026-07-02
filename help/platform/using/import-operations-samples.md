@@ -20,9 +20,9 @@ subfeature_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1118
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -84,7 +84,7 @@ Pour importer dans la base Adobe Campaign de nouveaux profils de destinataires 
 
 1. Réconciliation
 
-   * Accédez à la table **Destinataires (nms:recipient)** .
+   * Accédez à la table **Destinataires (nms:recipient)**.
    * Sélectionnez l&#39;opération **[!UICONTROL Insertion]** et laissez les autres champs par défaut.
 
      ![](assets/s_ncs_user_import_example04_01.png)
@@ -115,7 +115,7 @@ Pour importer dans la base Adobe Campaign de nouveaux profils de destinataires 
 
 ## Mise à jour et insertion de destinataires {#example--update-and-insert-recipients}
 
-Nous voulons mettre à jour les enregistrements existants dans la base de données et en créer de nouveaux à partir d&#39;un fichier texte. Voici un exemple de procédure :
+Vous souhaitez mettre à jour des enregistrements déjà existants dans la base de données et en créer de nouveaux à partir d’un fichier texte.Voici un exemple de procédure :
 
 1. Choix du modèle
 
@@ -157,7 +157,7 @@ Nous voulons mettre à jour les enregistrements existants dans la base de donné
 
 Vous souhaitez modifier certains champs dans une table de la base de données depuis un fichier texte en privilégiant les valeurs contenues dans la base de données.
 
-Dans cet exemple, vous pouvez voir que certains champs de votre fichier texte ont une valeur , tandis que les champs correspondants de la base de données sont vides. Les autres champs contiennent une valeur différente de celle contenue dans la base de données.
+Dans cet exemple, vous noterez que certains champs de votre fichier texte ont une valeur alors que les champs correspondants dans la base de données sont vides.Les autres champs contiennent une valeur différente de celle contenue dans la base de données.
 
 * Contenu du fichier texte à importer
 
@@ -208,7 +208,7 @@ Les étapes sont les suivantes :
 
 Vous souhaitez modifier certains champs dans une table de la base de données depuis un fichier texte et privilégier les valeurs contenues dans le fichier texte.
 
-Dans cet exemple, vous verrez que certains champs de votre fichier texte ont une valeur vide, tandis que les champs correspondants de la base de données ne sont pas vides. Les autres champs contiennent une valeur différente de celle de la base de données.
+Dans cet exemple, vous noterez que certains champs de votre fichier texte ont une valeur vide alors que les champs correspondants dans la base de données ne le sont pas.Les autres champs contiennent une valeur différente de celle de la base de données.
 
 * Contenu du fichier texte à importer
 

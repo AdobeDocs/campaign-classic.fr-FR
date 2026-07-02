@@ -16,9 +16,9 @@ feature_v2:
 subfeature_v2:
   - id: a79c82df-714a-4b22-beac-74500b5e034f
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 99
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 87%
 
 L’application **Gestion des réseaux sociaux** (Social Marketing) vous permet d’interagir avec vos clientes et clients et vos prospects via X (anciennement Twitter).
 
-Découvrez les principales étapes pour intégrer Campaign et X dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=fr){target="_blank"}.
+Découvrez les principales étapes pour intégrer Campaign et X dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-tw.html?lang=fr){target="_blank"}.
 
 En tant que client ou cliente On-Premise ou hybride, votre compte externe X doit être configuré et activé. Pour les configurations hybrides, l’onglet **Midsourcing** doit également être défini avec une connexion active à la plateforme de midsourcing.
 

@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a6187aac-0a00-4394-8937-e8d4c1a40aa4
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 441
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Ils peuvent ainsi :
 
 ## Filtrer les kits {#filter-packages}
 
-Dans l’onglet **[!UICONTROL Campagnes]**, vous pouvez afficher la liste des **[!UICONTROL Kits de campagne]** qui regroupe toutes les campagnes de marketing distribué existantes. Vous pouvez filtrer cette liste afin qu’elle n’affiche que les campagnes publiées, en retard, en attente de validation, etc. Pour cela, cliquez sur les liens dans la section supérieure de cette vue ou utilisez le lien **[!UICONTROL Liste de filtres]** et sélectionnez le statut du kit d&#39;opération à afficher.
+Dans l’onglet **[!UICONTROL Campagnes]**, vous pouvez afficher la liste des **[!UICONTROL Kits de campagne]** qui regroupe toutes les campagnes de marketing distribué existantes. Vous pouvez filtrer cette liste de sorte qu’elle n’affiche que les campagnes qui sont déjà publiées, en retard, en attente de validation, etc. Pour ce faire, cliquez sur les liens dans la section supérieure de cette vue ou utilisez le lien **[!UICONTROL Filtrer la liste]** et sélectionnez le statut du kit de campagne à afficher.
 
 ![](assets/mkg_dist_catalog_filter.png)
 
@@ -44,13 +44,13 @@ La page des **[!UICONTROL kits de campagne]** permet de visualiser le résumé d
 
 Ce résumé affiche les informations suivantes : le libellé, le type d&#39;opération, le nom de l&#39;opération à partir de laquelle le kit a été créé et le dossier d&#39;enregistrement.
 
-Cliquez sur le nom du package pour le modifier. Vous pouvez également visualiser les commandes par entité locale et par statut.
+Cliquez sur le nom du kit pour le modifier.Vous pouvez alors visualiser les commandes réalisées par les entités locales et leur statut.
 
 Cette information est proposée aussi dans la vue **[!UICONTROL Commandes d&#39;opérations]** qui liste unitairement toutes les commandes réalisées.
 
 ![](assets/mkg_dist_catalog_op_command_details.png)
 
-L&#39;opérateur central peut modifier la commande. Vous avez le choix entre les deux méthodes suivantes :
+Les opérateurs et opératrices centraux peuvent modifier la commande.Vous avez le choix entre les deux méthodes suivantes :
 
 1. L’opérateur ou l’opératrice peut cliquer sur le nom de la commande pour l’éditer : il ou elle accède alors aux détails de celle-ci.
 
@@ -90,7 +90,7 @@ Pour les **campagnes collaboratives**, l’annulation d’un kit d’opération 
 
    ![](assets/mkg_dist_mutual_op_cancelled2.png)
 
-Les packages annulés restent accessibles et réinitialisables par l&#39;entité centrale (voir ci-dessous) si nécessaire. Ils ne seront proposés aux entités locales qu&#39;une fois approuvés et démarrés. Le processus de réinitialisation du package est illustré ci-dessous.
+Les kits annulés restent accessibles et peuvent être réinitialisés par l’entité centrale (voir ci-dessous) si nécessaire.Ils ne seront proposés aux entités locales qu’une fois approuvés et démarrés.Le processus de réinitialisation d’un package est présenté ci-dessous.
 
 ## Réinitialisation dʼun package {#reinitializing-a-package}
 
@@ -105,7 +105,7 @@ Vous pouvez réinitialiser un kit de campagne déjà publié afin de le modifier
 
    ![](assets/mkg_dist_mutual_op_reinit2.png)
 
-1. Le statut du package passe à **[!UICONTROL En édition]**. Modifiez, approuvez et publiez-le à nouveau pour le restaurer dans la liste du package de campagne.
+1. Le statut du package passe à **[!UICONTROL En cours d’édition]**.Il peut alors être modifié, approuvé et publié pour être à nouveau proposé dans la liste des kits de campagne.
 
 >[!NOTE]
 >

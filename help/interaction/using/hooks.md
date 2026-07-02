@@ -16,9 +16,9 @@ feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 532
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Le point d&#39;extension **[!UICONTROL Offre dynamique]** est configuré, dans A
 
 Ce point d&#39;extension permet d&#39;enrichir le profil du contact (qui a été chargé par la requête d&#39;usine) avec des données additionnelles provenant d&#39;un système externe.
 
-Les données collectées doivent être insérées dans le nœud de données d&#39;appel (nœud Interaction). L&#39;intégrateur doit avoir préalablement étendu le schéma de données d&#39;appel pour définir la structure des données collectées. L’utilisateur peut accéder à ces données de la même manière que pour les données d’appel standard (au niveau des règles d’éligibilité et de la personnalisation).
+Les données collectées doivent être insérées dans le nœud de données d’appel (nœud Interaction).L’intégrateur ou l’intégratrice doit avoir préalablement étendu le schéma de données d’appel pour définir la structure des données collectées.L’utilisateur ou l’utilisatrice peut accéder à ces données de la même manière que pour les données d’appel standard (au niveau des règles d’éligibilité et de la personnalisation).
 
 **Paramètres d&#39;entrée:**
 
@@ -68,7 +68,7 @@ Les données collectées doivent être insérées dans le nœud de données d&#3
 
 ## Post-traitement des propositions {#proposition-post-processing-}
 
-Ce hook permet de vérifier la cohérence et la compatibilité des propositions éligibles dans une interaction donnée. Elle permet également de définir une nouvelle fonctionnalité de calcul de probabilité ou de scoring.
+Ce point d’extension vous permet de vérifier la cohérence et la compatibilité des propositions éligibles au sein d’une même interaction.Il vous permet également de définir une nouvelle fonction de calcul d’un score ou d’une probabilité.
 
 Exemple d&#39;utilisation des règles de cohérence :
 
@@ -79,14 +79,14 @@ Le post-traitement est exécuté après l&#39;application des règles de typolog
 
 **Paramètres d&#39;entrée:**
 
-* aProposition : tableau des propositions éligibles. Voici un exemple de structure d&#39;un élément de ce tableau
+* aProposition : tableau des propositions éligibles.Voici un exemple de structure d’un élément de ce tableau.
 
   ```
   { offer_id:1234,
     weight:2}
   ```
 
-* dicOffer (type xml) : dictionnaire de tous les attributs des offres éligibles (code de l&#39;offre, identifiant de la catégorie, nom complet de la catégorie, date de début, date de fin, libellé, nom interne, identifiant de l&#39;offre, champs additionnels de l&#39;offre). Par exemple :
+* dicOffer (type xml) : dictionnaire de tous les attributs des offres éligibles (code de l’offre, identifiant de la catégorie, nom complet de la catégorie, date de début, date de fin, libellé, nom interne, identifiant de l’offre, champs additionnels de l’offre).Par exemple
 
   ```
   { "1242": <offer category-id="61242" categoryFullName="/FULL/PATH/TO/CATEGORY/" code="CODE" endDate="" id="62473" label="LABEL" name="OFR38_OE4" product-id="43" startDate=""/>,
@@ -126,7 +126,7 @@ return aReturnedProps;
 
 ## Offre dynamique {#dynamic-offer}
 
-Ce hook permet d&#39;effectuer un appel à un moteur externe pour sélectionner une liste de produits liés à une offre. Elle est configurée dans l&#39;offre après les règles d&#39;éligibilité, et avant l&#39;application des règles de typologie.
+Ce hook vous permet d’appeler un moteur externe pour sélectionner une liste de produits liés à une offre.Il est configuré dans l’offre après l’application des règles d’éligibilité, et avant l’application des règles de typologie.
 
 L’intégrateur doit, au préalable, étendre le schéma **PropositionRcp** des propositions avec les informations supplémentaires sur le produit. Pour indiquer où ces données seront stockées, un lien **[!UICONTROL Proposition en cours de traitement]** est disponible dans l’onglet **[!UICONTROL Stockage]** de l’emplacement.
 
@@ -141,7 +141,7 @@ L’intégrateur doit, au préalable, étendre le schéma **PropositionRcp** des
 
 **Paramètres de retour :**
 
-Un tableau des propositions à générer est renvoyé. Chaque élément de ce tableau est composé des informations suivantes :
+Un tableau des propositions à générer est renvoyé.Chaque élément de ce tableau est composé des informations suivantes :
 
 * identifiant de l&#39;offre
 * données additionnelles du produit (par exemple, code produit)

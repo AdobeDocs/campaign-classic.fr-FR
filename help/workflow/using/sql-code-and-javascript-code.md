@@ -16,7 +16,7 @@ subfeature_v2:
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 300
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -26,13 +26,13 @@ ht-degree: 86%
 
 ## Code SQL {#sql-code}
 
-Une activité **[!UICONTROL Code SQL]** exécute un script SQL. Le script est un modèle JST.
+Une activité de type **[!UICONTROL Code SQL]** exécute un script SQL. Le script est un modèle JST.
 
 ![](assets/sql_code.png)
 
 * **[!UICONTROL Script]**
 
-  La zone centrale de l&#39;éditeur contient le script à exécuter. Ce script est un template JST et peut donc être configuré en fonction du contexte du workflow.
+  La zone centrale de l’éditeur contient le script à exécuter. Ce script est un modèle JST et peut donc être paramétré en fonction du contexte du workflow.
 
 * **[!UICONTROL Traiter les erreurs]**
 

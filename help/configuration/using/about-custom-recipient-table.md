@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 704
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -31,9 +31,9 @@ Cette section présente les principes d’utilisation d’une table de destinata
 
 Par défaut, Adobe Campaign propose une table des destinataires intégrée à laquelle sont liés les fonctions et processus prêts à l’emploi. La table des destinataires intégrée comporte un certain nombre de champs prédéfinis et de tables faciles à étendre à l’aide d’une table d’extension.
 
-Si cette méthode d’extension offre une bonne flexibilité pour étendre une table, elle ne permet pas de réduire le nombre de champs ou de liens qu’elle contient. L’utilisation d’une table non standard, ou « table de destinataires externe », permet une plus grande flexibilité, mais nécessite certaines précautions lors de son implémentation.
+Si cette méthode d’extension offre une bonne flexibilité pour étendre une table, elle ne permet pas de réduire le nombre de champs ou de liens dans celle-ci.L’utilisation d’une table non standard, dite « table de personnes destinataires externe », permet une plus grande flexibilité, mais nécessite certaines précautions lors de son implémentation.
 
-Cette fonctionnalité permet à Adobe Campaign de traiter les données d&#39;une base externe. Ces données sont ensuite utilisées comme un ensemble de profils pour les diffusions. La mise en œuvre de ce processus implique plusieurs précisions qui peuvent être pertinentes selon les besoins du client. Par exemple :
+Cette fonctionnalité permet à Adobe Campaign de traiter des données provenant d’une base de données externe : ces données seront utilisées comme ensemble de profils pour les diffusions.L’implémentation de ce traitement implique plusieurs spécificités qui peuvent s’avérer pertinentes selon les besoins du client ou de la cliente.Par exemple :
 
 * Pas de flux de mise à jour vers et depuis la base Adobe Campaign : les données de cette table peuvent être mises à jour directement via le moteur de base de données qui l’héberge.
 * Pas de changements dans les processus qui opèrent sur la base existante.

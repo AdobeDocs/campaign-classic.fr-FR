@@ -16,9 +16,9 @@ topic_v2:
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 380
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -26,11 +26,11 @@ ht-degree: 86%
 
 
 
-Cette configuration présente une solution intermédiaire optimale entre la configuration hébergée (ASP) et l’internalisation. Les composants d’exécution orientés vers l’extérieur sont exécutés sur un serveur de « mid-sourcing » hébergé sur Adobe Campaign.
+Cette configuration présente une solution intermédiaire optimale, entre la configuration hébergée (ASP) et l’internalisation.Les composants d’exécution orientés vers l’extérieur sont exécutés sur un serveur de « midsourcing » hébergé sur Adobe Campaign.
 
 >[!NOTE]
 >
->Pour configurer ce type de déploiement, vous devez acquérir l’option appropriée. Veuillez vérifier votre contrat de licence.
+>Pour mettre en place ce type de déploiement, vous devez acquérir l’option correspondante.Vérifiez votre contrat de licence.
 
 La communication générale entre les serveurs et les processus est réalisée conformément au schéma suivant :
 

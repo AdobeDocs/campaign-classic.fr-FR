@@ -24,9 +24,9 @@ topic_v2:
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1539
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -145,14 +145,14 @@ Une fois la migration terminée, les adresses IP d’envoi de l’instance Campa
 
 **Adresses IP d’intégration des données**
 
-L’intégration des données côté client peut être affectée par la modification des adresses IP correspondantes. La modification peut concerner les deux directions, selon que Campaign agit comme serveur ou client.
-Cas types :
+L’intégration des données côté client peut être affectée par la modification des adresses IP correspondantes. La modification peut concerner les deux directions, selon que Campaign agit comme serveur ou client.
+Cas types :
 
 * SFTP, éventuellement dans les deux directions
 * HTTP, éventuellement dans les deux directions
 * SMPP (connexion aux fournisseurs de services SMS), Campaign en tant que client, changement d’adresse IP source
 
-En règle générale, cela signifie que le client doit vérifier les restrictions IP possibles définies sur ses pare-feu et les adapter en conséquence.*
+En général, le client ou la cliente doit vérifier les éventuelles restrictions d’adresses IP sur ses pare-feux et les adapter en conséquence.*
 
 **Serveurs Campaign**
 

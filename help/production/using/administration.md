@@ -19,15 +19,15 @@ subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 449
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
 # Administration{#administration}
 
-Démarrage automatique des modules Adobe Campaign (**web**, **mta**, **wfserver**, etc.) est fourni par le serveur **nlserver**.
+Le démarrage automatique des modules Adobe Campaign (**web**, **mta**, **wfserver**, etc.)est assuré par le serveur **nlserver**.
 
 L&#39;installation d&#39;Adobe Campaign paramètre automatiquement la machine afin que le service **nlserver** démarre pendant la séquence de boot.
 

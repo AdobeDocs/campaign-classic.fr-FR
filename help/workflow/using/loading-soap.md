@@ -14,9 +14,9 @@ subfeature_v2:
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 268
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 67%
 
 >[!CAUTION]
 >
->L’activité **Chargement (SOAP)** n’est disponible que si le module **FDA (Federated Data Access)** est installé. Veuillez vérifier votre contrat de licence.
+>L’activité **Chargement (SOAP)** nécessite l’installation du module **FDA (Federated Data Access)**.Veuillez vérifier votre contrat de licence.
 
 L&#39;activité de **Chargement (SOAP)** est notamment utilisée en complément de l&#39;activité de **chargement (SGBD)** pour les cas où la collecte de données directement via le FDA dans une base externe n&#39;est pas possible.
 
@@ -38,9 +38,9 @@ Le principe de fonctionnement est le suivant :
 
    ![](assets/load_soap_002.png)
 
-1. Pour obtenir un exemple XML, sélectionnez un fichier d’exemple. Le fichier est analysé pour établir un exemple de résultat.
+1. Pour obtenir un exemple XML, sélectionnez un fichier d’exemple.Le fichier est analysé afin d’établir un exemple de résultat.
 
-   Pour un fichier WSDL, saisissez l’URL d’accès correspondante, puis générez le squelette du code. Le service et l&#39;appel sélectionnés sont automatiquement mis à jour et affichés.
+   Pour un fichier WSDL, saisissez l’URL d’accès correspondante, puis générez le squelette du code.Le service et l’appel sélectionnés sont automatiquement mis à jour et affichés.
 
    ![](assets/soap_load_003.png)
 
@@ -56,7 +56,7 @@ Le principe de fonctionnement est le suivant :
 1. Saisissez les scripts des onglets suivants selon leur fonction :
 
    * **[!UICONTROL Initialisation]** : établissement de la connexion SOAP.
-   * **[!UICONTROL Itération]** : effectue l’appel au service SOAP. Le retour de cette fonction doit être un objet XML compatible avec la description de l’exemple ou du WSDL.
+   * **[!UICONTROL Itération]** : effectue l’appel au service SOAP.Le retour de cette fonction doit être un objet XML compatible avec la description de l’exemple ou la WSDL.
 
      Le code de cet onglet sera appelé en boucle par Adobe Campaign jusqu&#39;à ce qu&#39;un objet XML null soit retourné.
 

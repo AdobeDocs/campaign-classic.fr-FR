@@ -21,9 +21,9 @@ subfeature_v2:
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 521
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -96,15 +96,15 @@ Redémarrez le serveur si des modifications ont été apportées aux paramètres
 
   Reportez-vous aux étapes précédentes pour vérifier le paramétrage du périmètre.
 
-**Problèmes de cache de WebView2**
+**Problèmes de cache WebView2**
 
-Si vous rencontrez des problèmes lors de la connexion à la **[!UICONTROL console cliente]** avec votre Adobe ID, essayez d’effacer le cache WebView2 local. Dans la plupart des cas, cela résout le problème. Suivez les étapes ci-dessous :
+Si vous rencontrez des problèmes lors de la connexion à la **[!UICONTROL console cliente]** avec votre Adobe ID, essayez d’effacer le cache WebView2 local.Dans la plupart des cas, cela résout le problème.Suivez les étapes ci-dessous :
 
 1. Fermez la **[!UICONTROL console cliente]** et arrêtez tout processus `nlclient` en cours d’exécution.
 
-1. Supprimez tous les dossiers `webview2` et `webview2Cache` des emplacements suivants :
+1. Supprimez tous les dossiers `webview2` et `webview2Cache` des emplacements suivants :
 
    * `C:\ProgramData\Neolane\NL_5\nlclient\`
    * `C:\Users\<username>\AppData\Roaming\Neolane\NL_5\nlclient\`
 
-1. Redémarrez la **[!UICONTROL console cliente]** et connectez-vous avec votre Adobe ID. Les dossiers de cache seront automatiquement recréés lors du prochain lancement.
+1. Redémarrez la **[!UICONTROL console cliente]** et connectez-vous avec votre Adobe ID.Les dossiers de cache seront automatiquement recréés lors du prochain lancement.

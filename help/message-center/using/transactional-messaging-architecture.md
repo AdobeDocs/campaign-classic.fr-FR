@@ -12,9 +12,9 @@ topic_v2:
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1226
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -36,11 +36,11 @@ Les messages transactionnels reposent sur une architecture spécifique, composé
 
 ## Installation des instances {#installing-instances}
 
-L&#39;installation des packages des messages transactionnels requiert de nombreuses précautions. Adobe vous recommande de travailler dans un environnement de test avant la mise en production. Vous devez également disposer d’une licence Adobe Campaign compatible. Pour plus d&#39;informations, veuillez contacter votre chargé de compte Adobe.
+L’installation des packages de message transactionnel requiert de nombreuses précautions.Adobe vous recommande de travailler dans un environnement de test avant la mise en production.Vous devez également disposer d’une licence Adobe Campaign compatible.Pour plus d&#39;informations, veuillez contacter votre chargé de compte Adobe.
 
 >[!IMPORTANT]
 >
->L&#39;instance de pilotage et la ou les instance(s) d&#39;exécution doivent être installées sur des machines différentes. Ils ne peuvent pas partager la même instance Campaign.
+>L’instance de contrôle et la ou les instances d’exécution doivent être installées sur des machines différentes.Elles ne peuvent pas partager la même instance Campaign.
 
 Si vous devez utiliser plusieurs canaux, vous devez installer et configurer les packages associés avant l&#39;installation des packages des messages transactionnels. Pour plus d&#39;informations, consultez la section [Ajouter un canal de diffusion](#adding-a-delivery-channel).
 
@@ -58,7 +58,7 @@ Les étapes détaillées pour configurer l&#39;instance de pilotage sont présen
 >
 >Le partage d&#39;un cluster d&#39;exécution avec plusieurs instances de pilotage est uniquement pris en charge pour les environnements on-premise.
 
-Il est possible de partager un cluster d&#39;exécution entre plusieurs instances de pilotage. Par exemple, si vous gérez plusieurs magasins spécialisés, vous pouvez configurer une instance de pilotage par marque et toutes les lier au même cluster d&#39;exécution.
+Il est possible de partager un cluster d’exécution entre plusieurs instances de pilotage.Par exemple, si vous gérez plusieurs enseignes spécialisées, vous pouvez configurer une instance de pilotage par marque et toutes les relier au même cluster d’exécution.
 
 ![](assets/messagecenter_diagram_2.png)
 
@@ -80,7 +80,7 @@ Le canal email est disponible par défaut. Pour diffuser vos messages transactio
 
 >[!IMPORTANT]
 >
->Ajouter un canal de diffusion (canal mobile, canal des applications mobiles, etc.) Cette opération doit être effectuée avant d&#39;installer le package Message transactionnel .
+>L’ajout d’un canal de diffusion (canal mobile, canal d’application mobile, etc.)doit être effectué avant d’installer le package Message transactionnel.
 
 ### Ajout d&#39;un canal de diffusion {#adding-a-delivery-channel}
 
@@ -93,7 +93,7 @@ Cependant, si vous avez démarré un projet de message transactionnel sur le can
 >Cette procédure s&#39;applique uniquement aux clients utilisant un serveur Windows NLServer installé sur le même ordinateur que celui sur lequel ils travaillent.
 
 1. Installez le canal dont vous avez besoin, par exemple le **Canal mobile**, à l’aide de l’assistant d’import de package (**[!UICONTROL Outils > Avancé > Import de package... > Package Adobe Campaign]**).
-1. Effectuez un import de fichier (**[!UICONTROL Outils > Avancé > Importer un package... > Fichier]**), puis sélectionnez le fichier **datakitnms &#x200B;**`[Your language]`**packagemessageCenter.xml**.
+1. Effectuez un import de fichier (**[!UICONTROL Outils > Avancé > Importer un package... > Fichier]**), puis sélectionnez le fichier **datakitnms **`[Your language]`**packagemessageCenter.xml**.
 1. Dans la partie **[!UICONTROL Contenu XML des données à importer]**, conservez uniquement le modèle de diffusion correspondant au canal ajouté. Par exemple, si vous avez ajouté le **Canal mobile**, conservez uniquement l&#39;élément **entities** correspondant au modèle **[!UICONTROL Message transactionnel mobile]** (smsTriggerMessage). Si vous avez ajouté le **Canal des applications mobiles**, conservez uniquement les modèles **Message transactionnel iOS** (iosTriggerMessage) et **Message transactionnel Android** (androidTriggerMessage).
 
    ![](assets/messagecenter_install_channel.png)
@@ -151,7 +151,7 @@ Pour utiliser les modules des messages transactionnels avec le canal des applica
 
 L&#39;évènement doit contenir les éléments suivants :
 
-* L’identifiant de l’appareil mobile (**registrationId** pour Android et **deviceToken** pour iOS). Cet identifiant représente « l’adresse » à laquelle la notification sera envoyée.
+* L’identifiant de l’appareil mobile (**registrationId** pour Android et **deviceToken** pour iOS).Cet identifiant représente l’« adresse » à laquelle la notification sera envoyée.
 * La définition du lien vers l&#39;application mobile ou clé d&#39;intégration (**uuid**) permettant de récupérer les informations de connexion spécifiques à l&#39;application.
 * Le canal sur lequel la notification sera envoyée (**wishedChannel**) : 41 pour iOS et 42 pour Android
 * Toutes les données utiles à la personnalisation
@@ -185,7 +185,7 @@ Voici un exemple de traitement d&#39;un événement contenant ces informations 
 
 ### Messages transactionnels et LINE {#transactional-messaging-and-line}
 
-Associés au canal LINE, les messages transactionnels permettent d&#39;envoyer des messages en temps réel sur l&#39;application LINE installée sur les appareils mobiles des clients. Il est utilisé pour envoyer le message de bienvenue lorsqu’un utilisateur LINE ajoute la page de la marque.
+Lorsqu’ils sont combinés avec le canal LINE, les messages transactionnels vous permettent d’envoyer des messages en temps réel sur l’application LINE installée sur les appareils mobiles des clientes et clients.Ils sont utilisés pour envoyer le message de bienvenue lorsqu’un utilisateur ou une utilisatrice LINE ajoute la page de la marque.
 
 Pour utiliser le module des messages transactionnels avec LINE, les éléments suivants sont nécessaires pour la configuration de votre instance **marketing** et de votre instance d&#39;**exécution** :
 

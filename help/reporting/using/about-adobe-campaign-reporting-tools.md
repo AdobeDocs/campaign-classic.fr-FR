@@ -20,9 +20,9 @@ subfeature_v2:
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 362
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -30,15 +30,15 @@ ht-degree: 50%
 
 
 
-En complément des [rapports natifs](../../reporting/using/about-campaign-built-in-reports.md), Adobe Campaign permet de générer des rapports dans différents contextes et de répondre à des besoins variés. Les principes d’utilisation et les modes d’implémentation sont présentés dans ce document.
+En complément des [rapports intégrés](../../reporting/using/about-campaign-built-in-reports.md), Adobe Campaign permet de générer des rapports dans différents contextes et de répondre à des besoins variés.Les principes d’utilisation et les modes d’implémentation sont présentés dans ce document.
 
-Adobe Campaign n&#39;est pas un outil spécialisé dans le reporting : les rapports créés dans Adobe Campaign permettent principalement de visualiser des données agrégées. Les rapports Adobe Campaign, qui sont dédiés à l’analyse et à la représentation des données, ne sont pas conçus pour les exportations de base de données.
+Adobe Campaign n’est pas un outil spécialisé dans le reporting : les rapports créés dans Adobe Campaign permettent principalement de visualiser des données agrégées.Les rapports Adobe Campaign, qui sont dédiés à l’analyse et à la représentation des données, ne sont pas conçus pour les exports de base de données.
 
 Si vous souhaitez exporter des données de la base Adobe Campaign, vous devez créer un workflow et utiliser une activité d&#39;export de données. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html?lang=fr){target="_blank"}.
 
 Adobe Campaign propose plusieurs outils de reporting :
 
-1. **Rapports natifs** : Adobe Campaign propose un ensemble de rapports sur les diffusions, les campagnes, les activités de la plateforme, les fonctionnalités optionnelles, etc. Ces rapports sont disponibles à partir des différentes fonctionnalités auxquelles ils se rapportent. Ils peuvent être adaptés à vos besoins spécifiques.
+1. **Rapports intégrés** : Adobe Campaign propose un ensemble de rapports sur les diffusions, les campagnes, les activités de la plateforme, les fonctionnalités optionnelles, etc. Ces rapports sont disponibles à partir des différentes fonctionnalités auxquelles ils se rapportent.Ils peuvent être adaptés à vos besoins spécifiques.
 
    Pour plus d’informations, consultez [cette section](../../reporting/using/about-campaign-built-in-reports.md).
 
@@ -46,9 +46,9 @@ Adobe Campaign propose plusieurs outils de reporting :
 
    Pour plus d’informations, consultez [cette section](../../reporting/using/about-descriptive-analysis.md).
 
-1. **Rapports personnalisés** : Adobe Campaign permet de créer des rapports sur les données de la base. Une fois créés, ils sont rendus accessibles dans les contextes appropriés.
+1. **Rapports personnalisés** : utilisez Adobe Campaign pour créer des rapports sur les données de la base de données.Une fois créés, ils sont accessibles dans les contextes appropriés.
 
-   Selon la complexité des requêtes, des calculs et des volumes manipulés, les données analysées dans ces rapports peuvent être collectées via une requête et pré-agrégées dans une liste (workflow de type &#39;data management&#39;) ou dans un cube (via l&#39;utilisation de Marketing Analytics). Elle s&#39;affiche sous la forme d&#39;un tableau croisé dynamique ou d&#39;une liste de groupes.
+   Selon la complexité des requêtes, des calculs et des volumes, les données analysées dans ces rapports peuvent être collectées via une requête et pré-agrégées dans une liste (workflow de type « gestion des données ») ou dans un Cube (via l’utilisation de Marketing Analytics).Elles s’affichent sous la forme d’un tableau croisé dynamique ou d’une liste de groupes.
 
    Pour plus d’informations, consultez [cette section](../../reporting/using/about-reports-creation-in-campaign.md).
 

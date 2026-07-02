@@ -17,9 +17,9 @@ subfeature_v2:
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 220
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ Les types de rapports disponibles sont les suivants :
 * Rapports de diffusion, voir la section [Rapports de diffusion](../../reporting/using/delivery-reports.md).
 * Rapports cumulés, voir la section [Rapports cumulés](../../reporting/using/cumulative-reports.md).
 
-Vous pouvez accéder aux rapports à partir de la page d’accueil de la console cliente, du tableau de bord des rapports ou de la liste des diffusions. Le mode d’affichage d’un rapport dépend de son contexte. La liste des principaux rapports est disponible sur la page d&#39;accueil et permet d&#39;accéder rapidement aux données de la diffusion. Cette liste peut être modifiée en fonction de vos besoins. Pour plus d’informations, consultez [cette section](../../reporting/using/about-reports-creation-in-campaign.md).
+Vous pouvez accéder aux rapports à partir de la page d’accueil de la console cliente, du tableau de bord des rapports ou de la liste des diffusions.Le mode d’affichage d’un rapport dépend de son contexte.La liste des principaux rapports est disponible sur la page d’accueil et permet d’accéder rapidement aux données de diffusion.Cette liste peut être modifiée en fonction de vos besoins. Pour plus d’informations, consultez [cette section](../../reporting/using/about-reports-creation-in-campaign.md).
 
 
 Un champ de recherche est disponible depuis le tableau de bord des rapports et vous permet d&#39;accéder plus rapidement à l&#39;un des rapports de la liste.
@@ -56,6 +56,6 @@ Vous pouvez ainsi :
 
 >[!NOTE]
 >
->Certains rapports comportent des graphiques (courbes, barres, funnel, etc.). Déplacez le curseur sur un graphique pour afficher ses valeurs.
+>Certains rapports comportent des graphiques (courbes, barres, funnel, etc.).Déplacez le curseur sur un graphique pour afficher ses valeurs.
 
 Pour plus d&#39;informations sur ces options, voir [cette section](../../reporting/using/about-adobe-campaign-reporting-tools.md).

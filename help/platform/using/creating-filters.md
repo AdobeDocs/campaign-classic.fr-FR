@@ -15,9 +15,9 @@ subfeature_v2:
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
   - id: efa38731-2723-4334-8d8b-a778af834835
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 135
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 56%
 
 Le filtrage des données est le processus de sélection d’une petite partie de votre jeu de données, composée uniquement des enregistrements qui correspondent à certains critères, et d’utilisation de ce sous-ensemble pour des actions spécifiques (mises à jour, création d’audiences) ou des analyses.
 
-Lorsque vous naviguez dans l&#39;arborescence d&#39;Adobe Campaign (à partir du menu **[!UICONTROL Explorateur]** de la page d&#39;accueil), les données contenues dans la base de données sont affichées sous forme de listes. Ces listes peuvent être configurées pour afficher uniquement les données requises par l’opérateur ou l’opératrice. Des actions peuvent ensuite être lancées sur les données filtrées. La configuration des filtres permet de sélectionner des données dans une liste **[!UICONTROL dynamiquement]**. Si les données sont modifiées, les données filtrées sont mises à jour.
+Lorsque vous naviguez dans l’arborescence d’Adobe Campaign (à partir du menu **[!UICONTROL Explorateur]** sur la page d’accueil), les données contenues dans la base de données s’affichent sous forme de listes.Ces listes peuvent être configurées pour n’afficher que les données nécessaires à l’opérateur ou à l’opératrice.Des actions peuvent ensuite être effectuées sur les données filtrées.La configuration des filtres vous permet de sélectionner **[!UICONTROL dynamiquement]** des données d’une liste.Si les données sont modifiées, les données filtrées sont mises à jour.
 
 Pour en savoir plus sur les **filtres et leur utilisation** consultez la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank}.
 

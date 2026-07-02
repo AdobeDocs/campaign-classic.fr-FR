@@ -10,9 +10,9 @@ product_v2:
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 217
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ Lien entre le champ &#39;email&#39; de la table courante et le champ &quot;@comp
 <join xpath-dst="@compagny-id" xpath-src="@email"/>
 ```
 
-Lien filtré vers la table « cus:Country » à partir du contenu du champ « @country » qui doit contenir la valeur &#39;FR&#39; :
+Lien filtré vers la table « cus:Country » à partir du contenu du champ « @country » qui doit contenir la valeur « FR » :
 
 ```
 <element name="StockEN" type="link" label="MyLink" target="cus:Stock">

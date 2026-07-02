@@ -23,9 +23,9 @@ topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 703
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Votre version d’Adobe Campaign Classic ne prend pas en charge le pipeline.
 **Échec du pipeline avec « aurait dû commencer par `[` ou `{` (iRc=16384) »**
 
 L’option **NmsPipeline_Config** n’est pas définie. Il s’agit en fait d’une erreur d’analyse JSON.
-Définissez la configuration JSON dans l’option **NmsPipeline_Config**. Voir « option de routage » sur cette page.
+Définissez la configuration JSON dans l’option **NmsPipeline_Config**. Consultez l’« option de routage » sur cette page.
 
 **Échec du pipeline avec « l’objet doit être une organisation ou un client valide »**
 
@@ -51,7 +51,7 @@ La configuration de l’identifiant de l’organisation n’est pas valide.
 
 1. Vérifiez que l’identifiant de l’organisation (IMSOrgId) est défini dans le fichier serverConf.xml.
 1. Vérifiez si un identifiant d’organisation vide dans le fichier de paramétrage des instances peut remplacer l’identifiant par défaut. Si vous en trouvez un, supprimez-le.
-1. Vérifiez que l’identifiant de l’organisation est correct. Pour trouver votre identifiant d’organisation, reportez-vous à [cette page](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr){_blank}
+1. Vérifiez que l’identifiant de l’organisation est correct. Pour trouver l’identifiant de votre organisation, reportez-vous à [cette page](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=fr){_blank}.
 
 **Échec du pipeline avec « clé non valide »**
 

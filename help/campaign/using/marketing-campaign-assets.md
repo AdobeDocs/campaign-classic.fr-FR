@@ -21,19 +21,19 @@ subfeature_v2:
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 788
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
 # Gestion des documents associés {#managing-associated-documents}
 
-Vous pouvez associer différents documents à une opération : rapports, photos, pages web, diagrammes, etc. Ces documents peuvent avoir n’importe quel format (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc.).
+Vous pouvez associer différents documents à une campagne : rapports, photos, pages web, diagrammes, etc. Ces documents peuvent avoir n’importe quel format (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc.).
 
 >[!IMPORTANT]
 >
 >Cette fonctionnalité est réservée aux petites ressources et documents.
 
-Dans une campagne, vous pouvez également faire référence à d’autres articles, tels que des coupons promotionnels, des offres spéciales liées à une marque ou à un magasin spécifique, etc. Lorsque ces éléments sont inclus dans une composition, ils peuvent être associés à une diffusion courrier. Voir à ce sujet la section [Association et structure des ressources liées via une composition de diffusion](#associating-and-structuring-resources-linked-via-a-delivery-outline).
+Dans une campagne, vous pouvez également référencer d’autres éléments, tels que des coupons promotionnels, des offres spécifiques à une agence ou à un magasin, etc. Regroupés dans une composition, ces éléments peuvent être associés à une diffusion courrier. Voir à ce sujet la section [Association et structure des ressources liées via une composition de diffusion](#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Des documents peuvent être associés au niveau de l&#39;opération (documents c
 
 L&#39;onglet **[!UICONTROL Documents]** contient :
 
-* La liste de tous les documents requis pour le contenu (modèle, images, etc.) qui peuvent être téléchargés localement par les opérateurs Adobe Campaign disposant des droits adéquats,
+* La liste de tous les documents requis pour le contenu (modèle, images, etc.) qui peuvent être téléchargés localement par les opérateurs et opératrices Adobe Campaign disposant des droits adéquats,
 * les documents contenant des informations destinées au routeur, s&#39;ils existent.
 
 Les documents sont rattachés au programme ou à l&#39;opération via leur onglet **[!UICONTROL Edition > Documents]**.
@@ -72,7 +72,7 @@ Ils peuvent également être édités et modifiés depuis cette vue.
 >
 >Les compositions de diffusion sont exclusivement utilisées dans le cadre de campagnes courrier.
 
-Une composition de diffusion désigne un ensemble structuré d’éléments (documents, magasins, coupons promotionnels, etc.) créé par la société et pour une opération particulière.
+Une composition de diffusion désigne un ensemble structuré d’éléments (documents, magasins, coupons promotionnels, etc.) créés dans l’entreprise pour une campagne particulière.
 
 Ces éléments sont regroupés au sein de compositions de diffusions, chacune associée à une diffusion. La composition de diffusion sera référencée dans le fichier d’extraction envoyé au **fournisseur** afin d’être jointe à la diffusion. Par exemple, vous pouvez créer une composition de diffusion qui fait référence à une branche et aux brochures marketing qu’elle utilise.
 
@@ -84,7 +84,7 @@ Pour créer une composition, cliquez sur le sous-onglet **[!UICONTROL Compositio
 
 >[!NOTE]
 >
->Si cet onglet n’est pas présent, cette fonctionnalité n’est pas disponible pour cette campagne. Pour plus d&#39;informations, consultez la section configuration du modèle de campagne .
+>Si cet onglet n’est pas présent, cela signifie que la fonctionnalité n’est pas prise en compte pour cette campagne. Reportez-vous à la configuration du modèle de campagne.
 >   
 >Pour plus d’informations sur les modèles, reportez-vous à [cette section](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
@@ -100,7 +100,7 @@ Cliquez ensuite sur **[!UICONTROL Ajouter une composition de diffusion]** et cr�
 Une composition peut contenir des articles, des champs de personnalisation, des ressources et des offres :
 
 * Les articles sont par exemple des documents physiques qui sont ici référencés et décrits, et seront joints à la diffusion.
-* Les champs de personnalisation permettent de créer des éléments de personnalisation relatifs aux diffusions et non aux destinataires. Il est ainsi possible de créer des valeurs qui seront utilisées dans les diffusions pour une cible spécifique (offre de bienvenue, remise, etc.) Ils sont créés dans Adobe Campaign et importés dans la composition via le lien **[!UICONTROL Importer des champs de personnalisation...]** .
+* Les champs de personnalisation permettent de créer des éléments de personnalisation relatifs aux diffusions et non aux destinataires. Il est ainsi possible de créer des valeurs qui seront utilisées dans les diffusions pour une cible spécifique (offre de bienvenue, remise, etc.). Elles sont créées dans Adobe Campaign et importées dans la composition via le lien **[!UICONTROL Importer des champs de personnalisation…]**.
 
   ![](assets/s_ncs_user_op_add_composition_field.png)
 
@@ -122,7 +122,7 @@ Pour chaque diffusion, vous pouvez sélectionner la composition à associer à p
 
 ![](assets/s_ncs_user_op_select_composition.png)
 
-La composition sélectionnée est alors affichée dans la section inférieure de la fenêtre. Elle peut être modifiée à l’aide de l’icône située à droite du champ ou dans la liste déroulante :
+La composition sélectionnée s’affiche alors dans la partie inférieure de la fenêtre. Elle peut être éditée à partir de l’icône située à droite du champ ou modifiée en utilisant la liste déroulante :
 
 ![](assets/s_ncs_user_op_select_composition_b.png)
 
@@ -132,7 +132,7 @@ L&#39;onglet **[!UICONTROL Résumé]** de la diffusion affiche également cette 
 
 ### Résultat de l&#39;extraction {#extraction-result}
 
-Dans le fichier extrait et transmis au prestataire, le nom de la composition et le cas échéant ses caractéristiques (coût, description, etc.) sont ajoutées au contenu en fonction des informations du modèle d’exportation associé au fournisseur de services.
+Dans le fichier extrait et transmis au prestataire, le nom de la composition et éventuellement ses caractéristiques (coût, description, etc.) sont ajoutés au contenu, selon les informations présentes dans le modèle d’export associé au prestataire.
 
 Dans l&#39;exemple suivant, le libellé, le coût prévisionnel estimé et la description de la composition associée à la diffusion seront ajoutés dans le fichier d&#39;extraction.
 

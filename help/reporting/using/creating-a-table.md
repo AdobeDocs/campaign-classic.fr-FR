@@ -22,9 +22,9 @@ subfeature_v2:
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 2672
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -32,13 +32,13 @@ ht-degree: 80%
 
 
 
-Vous pouvez ajouter un tableau à un rapport pour afficher les données. Il peut s’agir d’un tableau croisé dynamique créé à partir des mesures d’un cube, d’une liste avec groupement ou d’un tableau de répartition des valeurs.
+Vous pouvez ajouter un tableau dans un rapport pour afficher les données.Il peut sʼagir dʼun tableau croisé dynamique, créé sur la base des mesures dʼun cube, dʼune liste avec groupement ou dʼun tableau de répartition des valeurs.
 
 ![](assets/s_advuser_report_page_activity_05.png)
 
 ## Création dʼune liste avec groupement {#creating-a-list-with-group}
 
-Un tableau de type **[!UICONTROL Liste avec groupement]** permet de regrouper des données dans le tableau et d&#39;y produire des statistiques. Par exemple, vous pouvez créer des totaux et des sous-totaux pour les données. Chaque groupe possède son propre en-tête, détail et ligne de pied de page.
+Un tableau de type **[!UICONTROL Liste avec groupement]** vous permet de regrouper certaines de vos données dans le tableau et de produire des statistiques sur les données qu’il contient.Vous pouvez par exemple créer des totaux et des sous-totaux sur les données.Chaque groupement contient une ligne d’en-tête, de détail et de pied de page.
 
 >[!CAUTION]
 >
@@ -46,7 +46,7 @@ Un tableau de type **[!UICONTROL Liste avec groupement]** permet de regrouper de
 
 ### Principe de fonctionnement {#operating-principle}
 
-Il se peut que vous deviez analyser plusieurs catégories de données à la fois. Une liste avec groupement permet de combiner des données et de créer des statistiques sur différents groupes de données au sein d&#39;une même table. Pour ce faire, vous pouvez créer un groupe dans le tableau .
+Il se peut que vous deviez analyser plusieurs catégories de données à la fois.Une liste avec groupement vous permet de rassembler certaines données et de créer des statistiques sur différents groupes de données dans le même tableau.Pour ce faire, vous pouvez créer un groupement dans le tableau.
 
 Dans l&#39;exemple ci-dessous, le groupement fait apparaître l&#39;ensemble des opérations de votre base, les diffusions et le nombre de messages envoyés par diffusion et par opération.
 
@@ -69,7 +69,7 @@ Toutefois, notez que les étapes de création d&#39;un tableau de type &#39;List
    Cette étape est indispensable pour retrouver les champs de la table source et les insérer par la suite dans les cellules du tableau.
 
 1. Créer le tableau et son contenu.
-1. Afficher le rapport finalisé dans l&#39;onglet **[!UICONTROL Aperçu]** Vous pouvez ensuite publier le rapport et l’exporter dans un autre format si nécessaire. Pour plus dʼinformations, consultez la section [Exportation dʼun rapport](../../reporting/using/actions-on-reports.md#exporting-a-report).
+1. Affichez le rapport finalisé dans l’onglet **[!UICONTROL Prévisualisation]**.Vous pouvez ensuite publier le rapport et l’exporter vers un autre format si nécessaire.Pour plus dʼinformations, consultez la section [Exportation dʼun rapport](../../reporting/using/actions-on-reports.md#exporting-a-report).
 
 ### Ajout de lignes et de colonnes {#adding-lines-and-columns}
 
@@ -127,7 +127,7 @@ Utilisez l&#39;entrée de menu **[!UICONTROL Expression]** pour sélectionner le
 
   Pour cela, procédez comme pour insérer un champ de la base mais ne sélectionnez aucune expression. Saisissez le libellé dans le champ **[!UICONTROL Libellé]** champ . Il sera affiché tel quel.
 
-* Calculer un agrégat (une moyenne, une somme, etc.) et de l’afficher dans la cellule.
+* Calculer un agrégat (une moyenne, une somme, etc.)et l’afficher dans la cellule.
 
   Pour cela, utilisez l&#39;entrée de menu **[!UICONTROL Agrégats]** et sélectionnez l&#39;opération voulue.
 
@@ -141,7 +141,7 @@ Pour définir le format de cellule, le menu **[!UICONTROL Format de la cellule..
 
 Ces options permettent de personnaliser le rendu final du rapport et en optimiser la lisibilité des informations.
 
-Utilisez le champ **[!UICONTROL Retour chariot]** lors de l’exportation de données vers Excel : sélectionnez la valeur **[!UICONTROL Oui]** pour forcer le retour chariot. Cette valeur sera conservée lors de l&#39;export. Pour plus dʼinformations, consultez la section [Exportation dʼun rapport](../../reporting/using/actions-on-reports.md#exporting-a-report).
+Utilisez le champ **[!UICONTROL Retour à la ligne]** lors de l’export de données vers Excel : sélectionnez la valeur **[!UICONTROL Oui]** pour forcer le retour à la ligne.Cette valeur sera conservée lors de l’export.Pour plus dʼinformations, consultez la section [Exportation dʼun rapport](../../reporting/using/actions-on-reports.md#exporting-a-report).
 
 La fenêtre **[!UICONTROL Format de la cellule]**, vous permet d&#39;accéder aux onglets suivants :
 
@@ -208,13 +208,13 @@ Dans l&#39;exemple ci-dessous, cliquer sur la valeur dans la cellule vous permet
 
 ![](assets/s_advuser_ergo_listgroup_015.png)
 
-L’onglet **Supplémentaire** vous permet de lier un visuel à vos données, tel qu’une marque colorée ou une barre de valeurs. La marque colorée est utilisée lorsque le tableau s’affiche sous la forme d’une légende dans un graphique. Voir à ce propos l&#39;exemple de mise en œuvre : [Etape 5- Créez la seconde page](#step-5---create-the-second-page)
+L’onglet **Plus** vous permet d’associer un visuel à vos données, une pastille de couleur ou une barre de valeur par exemple.La pastille de couleur est utilisée lorsque le tableau est affiché comme légende d’un graphique.Voir à ce propos l&#39;exemple de mise en œuvre : [Etape 5- Créez la seconde page](#step-5---create-the-second-page)
 
 ![](assets/s_advuser_ergo_listgroup_016.png)
 
 ## Cas pratique : créer un rapport avec une liste avec groupement {#use-case--create-a-report-with-a-group-list}
 
-Dans cet exemple, vous allez créer un rapport de deux pages : la première page contiendra la liste et le total des diffusions par campagne, ainsi que le nombre de messages envoyés. Les noms des diffusions seront des liens cliquables et vous permettront de passer à la deuxième page du rapport pour afficher la répartition des diffusions par domaine d&#39;e-mail pour la diffusion sélectionnée avec un tableau et un graphique. Sur la deuxième page, le tableau servira de légende au graphique.
+Dans cet exemple, nous allons créer un rapport de deux pages : la première page contiendra la liste et le total des diffusions par campagne, ainsi que le nombre de messages envoyés.Les noms de diffusions seront sous forme de liens cliquables et permettront de passer à la deuxième page du rapport pour visualiser la répartition des diffusions par domaine d’e-mail pour la diffusion sélectionnée avec un tableau et un graphique.Sur la deuxième page, le tableau servira de légende au graphique.
 
 ![](assets/reporting_quick_start_report-final.png)
 
@@ -232,7 +232,7 @@ Positionnez dans le diagramme les premiers composants qui vont être utilisés p
 
 ### Etape 2 - Créer la première requête {#step-2---create-the-first-query}
 
-La première requête permet de collecter les diffusions associées à chaque campagne. L&#39;objectif est d&#39;afficher un rapport sur les différentes diffusions de la base Adobe Campaign associées à chaque campagne.
+La première requête vous permet de collecter les diffusions liées à chaque campagne.L’objectif est d’afficher un rapport sur les différentes diffusions de la base de données Adobe Campaign qui sont liées à chaque campagne.
 
 Double-cliquez sur la première requête pour l&#39;éditer, puis respectez les étapes suivantes pour la paramétrer :
 
@@ -275,7 +275,7 @@ Double-cliquez sur la première requête pour l&#39;éditer, puis respectez les 
 
 ### Etape 3 - Créez la première page {#step-3--create-the-first-page}
 
-Au cours de cette étape, nous allons configurer la première page du rapport. Pour le paramétrer, les étapes sont les suivantes :
+Dans cette étape, nous allons configurer la première page du rapport.Pour la configurer, les étapes sont les suivantes :
 
 1. Ouvrez l&#39;activité **[!UICONTROL Page]** et saisissez son titre, par exemple ici : **Diffusions**.
 
@@ -311,7 +311,7 @@ Au cours de cette étape, nous allons configurer la première page du rapport. P
 
    ![](assets/s_advuser_report_listgroup_011.png)
 
-1. Modifiez le format de cette cellule et ouvrez l’onglet **[!UICONTROL Clic]**. Configurez les options adéquates afin que lorsque les utilisateurs cliquent sur le nom d’une diffusion, celle-ci s’ouvre dans la même fenêtre.
+1. Modifiez le format de cette cellule et ouvrez l’onglet **[!UICONTROL Clic]**.Configurez les options adéquates pour que, lorsque l’utilisateur ou l’utilisatrice clique sur le nom d’une diffusion, celle-ci s’ouvre dans la même fenêtre.
 
    ![](assets/s_advuser_report_listgroup_0111.png)
 
@@ -355,7 +355,7 @@ Au cours de cette étape, nous allons configurer la première page du rapport. P
 
    ![](assets/s_advuser_report_listgroup_025.png)
 
-   Nous vous recommandons d’utiliser l’onglet **[!UICONTROL Aperçu]** pour vous assurer que les données de votre tableau sont correctement sélectionnées et configurées. Une fois cette opération effectuée, vous pouvez passer au formatage du tableau.
+   Nous recommandons d’utiliser l’onglet **[!UICONTROL Prévisualisation]** pour vérifier que vous avez correctement sélectionné et configuré les données dans votre tableau.Une fois cette opération effectuée, vous pouvez passer au formatage de votre tableau.
 
 1. Appliquez le style **[!UICONTROL Gras]** aux cellules contenant le total par opération et la somme des messages traités.
 
@@ -375,13 +375,13 @@ Au cours de cette étape, nous allons configurer la première page du rapport. P
 
 ### Etape 4 - Créez la seconde requête {#step-4---create-the-second-query}
 
-Nous allons ajouter une deuxième requête et une deuxième page afin d&#39;afficher le détail d&#39;une diffusion sur laquelle clique l&#39;utilisateur du rapport. Avant d’ajouter la requête, modifiez la page que vous avez créée et activez la transition sortante afin qu’elle puisse être liée à la requête.
+Nous allons ajouter une seconde requête et une deuxième page afin d’afficher le détail d’une diffusion lorsque l’utilisateur ou l’utilisatrice du rapport clique dessus.Avant d’ajouter la requête, modifiez la page que vous avez créée et activez la transition sortante afin de pouvoir la relier à la requête.
 
 1. Ajoutez une nouvelle requête à la suite de l&#39;activité **[!UICONTROL Page]** et modifiez le schéma sur lequel elle porte : choisissez le schéma **[!UICONTROL Logs de diffusion des destinataires]**.
 
    ![](assets/reporting_quick_start_query-2.png)
 
-1. Modifiez la requête et définissez les colonnes de sortie. Pour afficher le nombre de diffusions par domaine d&#39;e-mail, vous devez :
+1. Modifiez la requête et définissez les colonnes de sortie.Pour afficher le nombre de diffusions par domaine d’e-mail, vous devez effectuer les opérations suivantes :
 
    * calculer la somme des clés primaires, afin de compter le nombre de logs de diffusion :
 
@@ -469,7 +469,7 @@ La première page de votre rapport présente la liste de toutes les diffusions c
 
 ![](assets/s_advuser_report_listgroup_021.png)
 
-Si vous cliquez sur le lien de l’une de ces diffusions, le graphique qui s’affiche montre la répartition des domaines d’e-mail pour cette diffusion. Vous êtes maintenant sur la deuxième page du rapport et pouvez revenir à la page précédente en cliquant sur le bouton approprié.
+Si vous cliquez sur le lien d’une des diffusions, le graphique représentant la répartition par domaine d’e-mail pour cette diffusion s’affiche.Vous vous trouvez maintenant sur la deuxième page du rapport et avez la possibilité de revenir à la page précédente en cliquant sur le bouton approprié.
 
 ![](assets/s_advuser_report_listgroup_022.png)
 

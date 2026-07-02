@@ -17,9 +17,9 @@ subfeature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 688
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -211,7 +211,7 @@ CREATE INDEX NmsRecipient_featureId ON NmsRecipient(iFeatureId);
 
 Une table d&#39;Overflow est une table d&#39;extension (cardinalité 1-1), mais la déclaration du lien vers la table à étendre est renseignée dans le schéma de la table d&#39;Overflow.
 
-La table d&#39;Overflow contient la clé étrangère vers la table à étendre. Le tableau à étendre n&#39;est donc pas modifié. La relation entre les deux tables est la valeur de la clé primaire de la table à étendre.
+La table de débordement contient la clé étrangère vers la table à étendre.La table à étendre n’est donc pas modifiée.La relation entre les deux tables est la valeur de la clé primaire de la table à étendre.
 
 Création du schéma de table overflow (**cus:overflow**) :
 

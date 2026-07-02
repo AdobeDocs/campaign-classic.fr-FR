@@ -14,9 +14,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1803
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ Les API orientées données permettent d’adresser le modèle de données dans 
 
 ## Vue d’ensemble du modèle de données {#overview-of-the-datamodel}
 
-Adobe Campaign ne propose pas d&#39;API de lecture dédiée par entité (pas de fonction getRecipient, getDelivery, etc.). Utilisez les méthodes de lecture et de modification des données QUERY &amp; WRITER pour accéder aux données du modèle.
+Adobe Campaign ne propose pas d’API de lecture dédiée par entité (pas de fonction getRecipient, getDelivery, etc.).Utilisez les méthodes de lecture et modification des données, QUERY &amp; WRITER, pour accéder aux données du modèle.
 
-Adobe Campaign permet de gérer les collections : les requêtes permettent de récupérer un ensemble d&#39;informations collectées dans toute la base. Contrairement à l’accès en mode SQL, les API Adobe Campaign renvoient une arborescence XML au lieu de colonnes de données. Adobe Campaign crée ainsi des documents composites avec toutes les données collectées.
+Adobe Campaign permet de gérer les collections : les requêtes permettent de récupérer un ensemble d’informations collectées dans toute la base.Contrairement à l’accès en mode SQL, les API Adobe Campaign renvoient une arborescence XML au lieu de colonnes de données.Adobe Campaign crée ainsi des documents composites avec toutes les données collectées.
 
 Ce mode de fonctionnement ne propose pas un mapping un pour un entre les attributs et éléments des documents XML et les colonnes des tables de la base de données.
 
@@ -50,7 +50,7 @@ Le schéma d’introduction suivant montre les échanges bas niveaux pour la lec
 
 Pour les colonnes et les conditions, vous pouvez utiliser des Query.
 
-Vous pouvez ainsi isoler le code SQL sous-jacent. Le langage de requête ne dépend pas du moteur sous-jacent : certaines fonctions seront re-mappées, ce qui peut générer plusieurs ordres SELECT SQL.
+Vous pouvez ainsi isoler le code SQL sous-jacent.Le langage des requêtes est indépendant du moteur sous-jacent : certaines fonctions vont être re-mappées, ce qui peut générer de nombreux ordres SELECT SQL.
 
 Consultez à ce sujet la section [Exemple sur la méthode « ExecuteQuery » du schéma « xtk:queryDef »](../../configuration/using/web-service-calls.md#example-on-the--executequery--method-of-schema--xtk-querydef-).
 
@@ -68,7 +68,7 @@ La méthode Write est présentée dans [Write / WriteCollection (xtk:session)](#
 
 ## ExecuteQuery (xtk:queryDef) {#executequery--xtk-querydef-}
 
-Cette méthode permet d’effectuer des requêtes à partir des données associées à un schéma. Elle comprend une chaîne d’authentification (doit être connectée) et un document XML décrivant la requête à envoyer en tant que paramètres. Le paramètre de retour est un document XML contenant le résultat de la requête au format du schéma auquel la requête fait référence.
+Cette méthode permet d’effectuer des requêtes à partir des données associées à un schéma.Elle comprend une chaîne d’authentification (connexion obligatoire) et un document XML décrivant la requête à envoyer en tant que paramètres.Le paramètre de renvoi est un document XML contenant le résultat de la requête au format du schéma associé à la requête.
 
 Définition de la méthode « ExecuteQuery » dans le schéma « xtk:queryDef » :
 
@@ -375,9 +375,9 @@ Cette syntaxe simplifie la requête lorsque plus de deux données sont utilisée
 
 #### Binding des paramètres de la clause &#39;where&#39; et &#39;select&#39; {#binding-the-parameters-of-the--where--and--select--clause}
 
-La liaison des paramètres permet au moteur de définir les valeurs des paramètres utilisés dans la requête. Ceci est très utile, car le moteur est en charge de l&#39;échappement des valeurs, et il y a l&#39;avantage supplémentaire d&#39;un cache pour les paramètres à récupérer.
+La liaison des paramètres laisse le moteur définir les valeurs des paramètres utilisés dans la requête.Ceci est très utile, car l’échappement des valeurs incombe au moteur et offre l’avantage supplémentaire d’un cache pour les paramètres à récupérer.
 
-Lorsqu’une requête est créée, les valeurs « liées » sont remplacées par un caractère (? dans ODBC, `#[index]#` dans postgres...) dans le corps de la requête SQL.
+Lorsqu’une requête est créée, les valeurs « liées » sont remplacées par un caractère (? dans ODBC, `#[index]#` dans postgres…)dans le corps de la requête SQL.
 
 ```xml
 <select>
@@ -392,7 +392,7 @@ Pour ne pas binder un paramètre, il faut renseigner l&#39;attribut &quot;noSqlB
 
 >[!IMPORTANT]
 >
->Si la requête inclut des instructions « order-by » ou « group-by », les moteurs de base de données ne pourront pas « lier » les valeurs. Vous devez placer l&#39;attribut @noSqlBind=« true » sur les instructions « select » et/ou « where » de la requête.
+>Dans le cas où la requête comprend des instructions du type « order-by » ou « group-by », les moteurs de base de données ne peuvent pas « lier » les valeurs.Il est donc indispensable de placer dans la même requête l’attribut @noSqlBind=&quot;true&quot; sur les instructions « select » et/ou « where ».
 
 
 ### Format du document de sortie {#output-document-format}
@@ -496,7 +496,7 @@ A la place de :
 
 Ces services permettent l&#39;insertion/la mise à jour/la suppression d&#39;une entité (méthode &quot;Write&quot;) ou d&#39;une collection d&#39;entités (méthode &quot;WriteCollection&quot;).
 
-Les entités à mettre à jour sont associées à un schéma de données. Les paramètres d’entrée sont une chaîne d’authentification (doit être connecté) et un document XML contenant les données à mettre à jour.
+Les entités à mettre à jour sont associées à un schéma de données.Les paramètres en entrée sont une chaîne d’authentification (connexion requise) et un document XML contenant les données à mettre à jour.
 
 Ce document est complété par des instructions permettant de paramétrer les procédures d&#39;écriture.
 
@@ -519,11 +519,11 @@ Définition des méthodes « Write » et « WriteCollection » dans le sché
 
 >[!NOTE]
 >
->Il s’agit d’une méthode « statique ». Les paramètres d&#39;entrée sont inclus dans un document XML au format du schéma à mettre à jour.
+>Il s’agit d’une méthode « statique ».Les paramètres en entrée sont compris dans un document XML au format du schéma à mettre à jour.
 
 ### Vue d&#39;ensemble {#overview}
 
-La réconciliation des données fonctionne en fonction de la définition des clés renseignées dans le schéma associé. La procédure d’écriture recherche la première clé éligible en fonction des données saisies dans le document d’entrée. L’entité est insérée ou mise à jour en fonction de son existence dans la base de données.
+La réconciliation des données s’opère à partir de la définition des clés renseignées dans le schéma associé.La procédure d’écriture recherche la première clé éligible en fonction des données renseignées dans le document en entrée.L’entité est insérée ou mise à jour en fonction de son existence dans la base de données.
 
 La clé du schéma de l&#39;entité à mettre à jour est renseignée à partir de l&#39;attribut **xtkschema**.
 
@@ -581,7 +581,7 @@ Associer le dossier sur un destinataire à partir de son nom interne (@name).
 </recipient>
 ```
 
-Les attributs « _key » et « _operation » peuvent être renseignés sur un élément lié. Le comportement sur cet élément est le même que sur l&#39;élément principal du schéma d&#39;entrée.
+Les attributs « _key » et « _operation » peuvent être renseignés sur un élément lié.Le comportement sur cet élément est le même que sur l’élément principal du schéma en entrée.
 
 La définition de la clé de l’entité principale (« nms:recipient ») est composée d’un champ provenant d’une table liée (élément `<folder>` du schéma « xtk:folder ») et de l’e-mail.
 
@@ -617,7 +617,7 @@ Ajouter une personne destinataire dans un groupe avec la table de relation des g
 
 ### Eléments de collections XML {#xml-collection-elements}
 
-Par défaut, tous les éléments de collection doivent être renseignés pour mettre à jour les éléments de collection XML. Les données de la base de données seront remplacées par les données du document d’entrée. Si le document contient uniquement les éléments à mettre à jour, il faut renseigner l&#39;attribut « _operation » sur tous les éléments de collection à mettre à jour afin de forcer la fusion avec les données XML de la base de données.
+Par défaut, tous les éléments de collection doivent être renseignés pour pouvoir mettre à jour les éléments de collection XML.Les données de la base de données seront remplacées par les données du document en entrée.Si le document contient uniquement les éléments à mettre à jour, vous devez renseigner l’attribut « _operation » sur tous les éléments de collection à mettre à jour afin de forcer la fusion avec les données XML de la base de données.
 
 ### Exemple de messages SOAP {#example-of-soap-messages-1}
 

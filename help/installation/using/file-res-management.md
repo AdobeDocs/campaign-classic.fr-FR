@@ -17,9 +17,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 675
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -33,11 +33,11 @@ Utilisez l’attribut **uploadWhiteList** pour limiter les types de fichiers dis
 
 Cet attribut est disponible au niveau de l&#39;élément **dataStore** du fichier **serverConf.xml.** Tous les paramètres disponibles dans le fichier **serverConf.xml** sont répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
 
-La valeur par défaut de cet attribut est **.+** et permet de télécharger n&#39;importe quel type de fichier.
+La valeur par défaut de cet attribut est **.+** et permet de charger n’importe quel type de fichier.
 
 Pour limiter les formats possibles, remplacez la valeur d’attribut par une expression java régulière valide. Vous pouvez saisir plusieurs valeurs en les séparant par une virgule.
 
-Par exemple : **uploadWhiteList= ».&#42;.png,.&#42;.jpg »** vous permet de télécharger des formats PNG et JPG sur le serveur. Aucun autre format ne sera accepté.
+Par exemple : **uploadWhiteList=&quot;.&#42;.png,.&#42;.jpg&quot;** vous permet de charger des formats PNG et JPG sur le serveur.Aucun autre format ne sera accepté.
 
 Vous pouvez également empêcher le téléchargement de fichiers importants en configurant le serveur Web. [En savoir plus](web-server-configuration.md)
 

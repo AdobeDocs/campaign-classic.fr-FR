@@ -18,9 +18,9 @@ subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1443
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 67%
 
 Vous pouvez configurer et personnaliser entièrement les formulaires web pour répondre à vos besoins. Les paramètres doivent être renseignés dans la fenêtre des propriétés.
 
-La fenêtre des propriétés est accessible à partir du bouton **[!UICONTROL Propriétés]** situé dans la barre d&#39;outils du formulaire Web. Cette fenêtre permet d&#39;accéder à un ensemble de paramètres spécifiques au formulaire Web. Certains paramètres peuvent provenir de la configuration du modèle.
+La fenêtre des propriétés est accessible à partir du bouton **[!UICONTROL Propriétés]** situé dans la barre d’outils du formulaire web.Cette fenêtre vous permet d’accéder à un ensemble de paramètres spécifiques au formulaire web.Certains paramètres peuvent provenir de la configuration du modèle.
 
 ![](assets/s_ncs_admin_survey_properties_general.png)
 
@@ -40,7 +40,7 @@ Dans l&#39;onglet **[!UICONTROL Général]** de la fenêtre des propriétés, vo
 
 ![](assets/s_ncs_admin_survey_properties_general_tab.png)
 
-Le modèle de formulaire est choisi lors de la création du formulaire. Elle ne peut pas être modifiée ultérieurement. Pour plus d’informations sur la création et la gestion des modèles de formulaire, voir [Utiliser un modèle de formulaire web](using-a-web-form-template.md).
+Le modèle de formulaire est choisi lors de la création du formulaire.Il ne peut pas être modifié ultérieurement.Pour plus d’informations sur la création et la gestion des modèles de formulaire, voir [Utiliser un modèle de formulaire web](using-a-web-form-template.md).
 
 ## Stockage des données d&#39;un formulaire {#form-data-storage}
 
@@ -76,13 +76,13 @@ Vous pouvez choisir de naviguer via des liens ou des boutons.
 
 ![](assets/s_ncs_admin_survey_wz_02_navig_type.png)
 
-Par défaut, les boutons constituent les éléments de navigation. Elles permettent d’effectuer les actions suivantes :
+Par défaut, les boutons constituent les éléments de navigation.Ils vous permettent d’effectuer les actions suivantes :
 
-* Valider la page courante et afficher la page suivante en cliquant sur **[!UICONTROL Suivant]**. Ce bouton s’affiche sur toutes les pages, à l’exception de la dernière.
-* Affichez la page précédente en cliquant sur **[!UICONTROL Précédent]**. Ce bouton s’affiche sur toutes les pages, à l’exception de la première.
-* Enregistrez les réponses du formulaire en cliquant sur le bouton **[!UICONTROL Approuver]**. Ce bouton ne s&#39;affiche que sur la dernière page.
+* Approuvez la page en cours et affichez la page suivante en cliquant sur **[!UICONTROL Suivant]**.Ce bouton est affiché sur toutes les pages sauf la dernière.
+* Afficher la page précédente en cliquant sur **[!UICONTROL Précédent]**.Ce bouton est affiché sur toutes les pages sauf la première.
+* Enregistrez les réponses du formulaire en cliquant sur le bouton **[!UICONTROL Approuver]**.Ce bouton n’est affiché que sur la dernière page.
 
-Ces éléments sont affichés au bas de chaque page. Leurs positions peuvent être modifiées. Pour ce faire, vous devez modifier la feuille de style.
+Ces éléments sont affichés au bas de chaque page.Leurs positions peuvent être modifiées.Pour ce faire, vous devez modifier la feuille de style.
 
 >[!NOTE]
 >
@@ -132,7 +132,7 @@ Il permet aussi de gérer les traductions. Voir [Traduire un formulaire web](tra
 
 Un formulaire web est accessible aux utilisateurs s’il est **[!UICONTROL En ligne]** et si la date actuelle est comprise dans sa période de validité. Le statut du formulaire est modifié au cours de l’étape de publication (voir [Publier un formulaire](publishing-a-web-form.md#publishing-a-form)). Le statut s’affiche dans la section **Projet** de l’onglet **[!UICONTROL Général]** de la fenêtre des propriétés.
 
-La période de validité s’étend de la date de **[!UICONTROL début]** à la date de **[!UICONTROL fin]**. Si aucune date n’est spécifiée dans ces champs, le formulaire a une validité permanente.
+La période de validité est comprise entre la date de **[!UICONTROL Début]** et la date de **[!UICONTROL Fin]**.Si aucune date n’est spécifiée dans ces champs, la validité du formulaire est permanente.
 
 ![](assets/s_ncs_admin_survey_properties_date.png)
 
@@ -154,15 +154,15 @@ Lors de l&#39;accès au formulaire, la page d&#39;authentification suivante sera
 
 Les login et mot de passe sont ceux des opérateurs Adobe Campaign. Pour plus d’informations, consultez [cette section](../../platform/using/access-management.md).
 
-L&#39;option **[!UICONTROL Utiliser un compte spécifique]** permet de limiter les droits en lecture ou écriture de l&#39;opérateur accédant au formulaire. Utilisez la liste déroulante pour sélectionner un opérateur ou un groupe d’opérateurs qui sera chargé d’accorder ces autorisations.
+L’option **[!UICONTROL Utiliser un compte spécifique]** vous permet de circonscrire les autorisations en lecture ou écriture de l’opérateur ou de l’opératrice accédant au formulaire.Sélectionnez dans la liste déroulante un opérateur, une opératrice ou un groupe d’opérateurs et d’opératrices responsable de l’octroi de ces autorisations.
 
 ![](assets/s_ncs_admin_survey_access_op_select.png)
 
 ## Paramètres d&#39;URL de formulaire {#form-url-parameters}
 
-Vous pouvez ajouter des paramètres supplémentaires dans l’URL d’un formulaire afin d’en personnaliser le contenu et d’initialiser un contexte (langue, identifiant de destinataire chiffré, société, formule calculée stockée dans une variable, etc.). Vous pouvez ainsi donner accès à un formulaire via plusieurs URL différentes et personnaliser le contenu des pages en fonction de la valeur du ou des paramètres indiqués dans l’URL.
+Vous pouvez ajouter des paramètres supplémentaires dans l’URL d’un formulaire afin d’en personnaliser le contenu et d’initialiser un contexte (par exemple, la langue d’édition, l’identifiant chiffré de la personne destinataire, sa société, une formule calculée stockée dans une variable, etc.).Vous pouvez ainsi donner accès à un même formulaire via plusieurs URL différentes et personnaliser le contenu des pages en fonction de la valeur du ou des paramètres indiqués dans l’URL.
 
-Par défaut, Adobe Campaign propose des paramètres pour prévisualiser le formulaire et vérifier les erreurs. Vous pouvez créer de nouveaux paramètres liés au formulaire, qui pourront utiliser les valeurs d&#39;un champ de la base de données ou d&#39;une variable locale.
+Par défaut, Adobe Campaign propose des paramètres permettant de prévisualiser le formulaire et de vérifier les erreurs.Vous pouvez créer des paramètres liés au formulaire qui peuvent utiliser les valeurs d’un champ de la base de données ou d’une variable locale.
 
 ## Paramètres standards {#standard-parameters}
 
@@ -171,13 +171,13 @@ Par défaut, les paramètres suivants sont disponibles :
 * **Id** pour indiquer l’identifiant chiffré.
 * **lang** pour modifier la langue d&#39;affichage.
 * **origin** pour indiquer l&#39;origine du répondant.
-* **_uuid** permet l’affichage des formulaires avant publication et le suivi des erreurs. Ce paramètre est destiné à une utilisation interne (création et débogage) : lorsque vous accédez au formulaire Web via cette URL, les enregistrements créés ne sont pas pris en compte dans le suivi (rapports). L&#39;origine est alors forcée à la valeur **[!UICONTROL Adobe Campaign]**.
+* **_uuid** permet de visualiser un formulaire avant publication et d’effectuer le tracking des erreurs.Ce paramètre est réservé à une utilisation interne (création et débogage) : lorsque vous accédez au formulaire web via cette URL, les enregistrements créés ne sont pas pris en compte dans le tracking (rapports).L&#39;origine est alors forcée à la valeur **[!UICONTROL Adobe Campaign]**.
 
   S&#39;utilise avec les paramètres **_preview** et/ou **_debug** :
 
-  **_preview** pour afficher la dernière version enregistrée. Ce paramètre ne doit être utilisé que lors de la phase de test.
+  **_preview** pour afficher la dernière version enregistrée.Ce paramètre ne doit être utilisé qu’en phase de test.
 
-  **_debug** pour afficher la trace de l&#39;entrée de données ou calculée dans les pages du formulaire. Cette fonctionnalité permet d’obtenir plus d’informations sur les erreurs, y compris une fois le formulaire publié.
+  **_debug** pour afficher la trace des données renseignées ou calculées dans les pages du formulaire.Il est utilisé pour obtenir plus d’informations sur les erreurs, y compris lorsque le formulaire a été publié.
 
   >[!CAUTION]
   >
@@ -185,13 +185,13 @@ Par défaut, les paramètres suivants sont disponibles :
 
 ## Ajouter des paramètres {#adding-parameters}
 
-Les paramètres peuvent être ajoutés à partir de l&#39;onglet **[!UICONTROL Paramètres...]** de la fenêtre des propriétés du formulaire. Elles peuvent être rendues obligatoires, comme dans l&#39;exemple ci-dessous :
+Des paramètres peuvent être ajoutés à partir l’onglet **[!UICONTROL Paramètres…]** de la fenêtre des propriétés du formulaire.Ils peuvent être rendus obligatoires, comme dans l’exemple ci-dessous :
 
 ![](assets/s_ncs_admin_survey_properties_param.png)
 
 Vous devez indiquer un espace de stockage d&#39;où sera récupérée la valeur du paramètre. Pour cela, sélectionnez une des options de stockage puis cliquez sur l&#39;onglet **[!UICONTROL Stockage]** pour sélectionner le champ ou la variable concernée. Les options de stockage sont détaillées dans les [Champs de stockage des réponses](web-forms-answers.md#response-storage-fields).
 
-Le statut du répondant (0, 1 ou toute autre valeur) peut ensuite être ajouté à l’URL pour accéder au formulaire. Ces informations peuvent être réutilisées dans les pages du formulaire ou dans une boîte de test. Les pages affichées peuvent être conditionnées en fonction de la valeur du contexte, comme dans l&#39;exemple ci-dessous :
+Le statut du participant ou de la participante (0, 1 ou toute autre valeur) peut ensuite être ajouté à l’URL pour accéder au formulaire.Ces informations peuvent être réutilisées dans les pages du formulaire ou dans une zone de test.Les pages affichées peuvent être conditionnées en fonction de la valeur du contexte, comme dans l’exemple ci-dessous :
 
 1. Page d&#39;accueil pour les clients (**status=1**):
 

@@ -15,9 +15,9 @@ subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 186
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Ce schéma montre que les seuls flux utilisés dans le cadre d&#39;une architect
 
 ## Architecture répartie {#distributed-architecture}
 
-Adobe Campaign se compose de plusieurs modules qui peuvent être répartis sur plusieurs machines. Ce mode de fonctionnement présente plusieurs avantages:
+Adobe Campaign est composé de multiples modules qui peuvent être répartis entre plusieurs machines.Ce mode de fonctionnement présente plusieurs avantages :
 
 * répartition de la charge,
 * mise en place de la redondance de modules,

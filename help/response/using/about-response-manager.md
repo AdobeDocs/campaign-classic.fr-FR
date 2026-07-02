@@ -16,9 +16,9 @@ subfeature_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 418
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Campaign propose un module complémentaire de gestion de la réaction qui
 
 ## Hypothèse {#hypothesis-concept}
 
-Les hypothèses peuvent être paramétrées sur une période donnée à partir de la date de contact afin de déduire le comportement des personnes ciblées après réception d&#39;une diffusion. Ces hypothèses sont basées sur un tableau **transaction** qui enregistre les achats et les détails de ces achats.
+Afin de déduire le comportement des personnes ciblées suite à la réception d’une diffusion, des hypothèses peuvent être configurées sur une période donnée à partir de la date de contact.Ces hypothèses sont basées sur une table des **transactions** qui enregistre les achats et qui contient le détail de ces achats.
 
 Les hypothèses sont délimitées dans le temps et peuvent être réalisées sur une population témoin que l&#39;on comparera à la population ciblée. Les résultats de l&#39;hypothèse sont donnés par des **indicateurs** qui sont automatiquement mis à jour lorsque le calcul est terminé. Le ROI associé aux hypothèses sera pris en compte dans les rapports de campagne.
 
@@ -38,15 +38,15 @@ D&#39;autre part, les **rapports** standards fournis avec le Response Manager pe
 
 De plus, grâce au lignes de détail des achats, vous pouvez préciser vos hypothèses afin de ne les concentrer par exemple que sur un produit en particulier.
 
-Par exemple, à la suite d&#39;une diffusion faisant la promotion d&#39;un article, nous souhaitons évaluer le chiffre d&#39;affaires généré. Nous appliquons l&#39;hypothèse que tout destinataire ayant acheté au moins un article dans le mois suivant le déclenchement de la diffusion a réagi à cette action. La gestion de la réaction déterminera, en fonction de cette hypothèse, les lignes de demande d&#39;achat qui lui seront affectées. Ensuite, sur la base de ces données, il sera possible de déterminer les recettes obtenues comme étant la somme de ces lignes.
+Par exemple, suite à une diffusion faisant la promotion d’un article, nous souhaitons évaluer le revenu généré.Nous partons de l’hypothèse que toute personne destinataire ayant acheté au moins un article au cours du mois suivant le déclenchement de la diffusion a réagi à cette action.La gestion des réponses déterminera, en fonction de cette hypothèse, les lignes de demande d’achat qui lui seront affectées.Ensuite, sur la base de ces données, il sera possible de déterminer les revenus obtenus comme la somme de ces lignes.
 
 >[!CAUTION]
 >
->Response Manager est une option **[!UICONTROL Campaign]**. Veuillez vérifier votre accord de licence.
+>La Gestion de la réaction est une option de **[!UICONTROL Campaign]**.Veuillez vérifier votre accord de licence.
 
 Vous pouvez également comptabiliser l&#39;ensemble des réactions du foyer du destinataire ayant reçu la diffusion ou l&#39;offre.
 
-Chaque hypothèse est liée à une table de transactions unique. Une diffusion ou une offre peut être associée à plusieurs hypothèses.
+Chaque hypothèse est liée à une seule table des transactions.Une diffusion ou une offre peut être liée à plusieurs hypothèses.
 
 ## Étapes dʼimplémentation {#method}
 

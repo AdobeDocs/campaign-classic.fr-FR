@@ -22,9 +22,9 @@ topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 796
-ht-degree: 35%
+ht-degree: 100%
 
 ---
 
@@ -32,11 +32,11 @@ ht-degree: 35%
 
 
 
-Cette section est destinée aux personnes responsables de la configuration de la gestion de la réaction. Il suppose une certaine connaissance de l’extension des schémas, de la définition des workflows et de la programmation SQL.
+Cette section est destinée aux personnes responsables de la configuration de la gestion des réponses.Elle suppose une certaine connaissance de l’extension des schémas, de la définition des workflows et de la programmation SQL.
 
-Vous pouvez ainsi comprendre comment adapter le modèle de données standard aux spécificités d&#39;une table de transactions externe à Adobe Campaign avec la table des individus. Cette table d’individus peut coïncider avec la table des individus disponibles dans Adobe Campaign ou avec une table différente
+Elle permet de comprendre comment adapter le modèle de données standard aux spécificités d’une table de transactions externe à Adobe Campaign avec la table des personnes individuelles.Cette table des personnes individuelles peut coïncider avec la table des individus disponibles dans Adobe Campaign ou avec une table différente.
 
-L&#39;hypothèse de mesure est lancée par le workflow de processus d&#39;opération ( **[!UICONTROL operationMgt]** ). Chaque hypothèse représente un processus distinct exécuté de manière asynchrone avec un statut d’exécution (En édition, En attente, Terminé, En échec, etc.) et contrôlée par un planificateur qui gère les contraintes de priorité, la limitation du nombre de processus simultanés, la page de faible activité et l&#39;exécution automatique avec fréquence.
+L’hypothèse de mesure est lancée par le workflow de processus d’opération (**[!UICONTROL operationMgt]**).Chaque hypothèse représente un processus distinct exécuté de manière asynchrone avec un statut d’exécution (En édition, En attente, Terminé, En échec, etc.)et contrôlée par un planificateur qui gère les contraintes de priorité, la limitation du nombre de processus simultanés, la page de faible activité et l’exécution automatique avec fréquence.
 
 ## Configuration de schémas {#configuring-schemas}
 
@@ -48,21 +48,21 @@ Avant toute utilisation du module de la réaction, vous devez définir les diff�
 
 ### Schémas standards {#standard-schemas}
 
-Le schéma d&#39;usine **[!UICONTROL nms:remaMatch]** contient la table des logs de réaction, c&#39;est-à-dire la relation entre les individus, les hypothèses et la table des transactions. Ce schéma doit être utilisé comme schéma d’héritage pour la table de destination finale des logs de réaction.
+Le schéma d’usine **[!UICONTROL nms:remaMatch]** contient la table des logs de réaction, c’est-à-dire la relation entre les personnes individuelles, les hypothèses et la table des transactions.Ce schéma doit être utilisé comme schéma d’héritage pour la table de destination finale des logs de réponses.
 
-Le schéma **[!UICONTROL nms:remaMatchRcp]** est également fourni en standard, il contient le stockage des logs de réaction pour les destinataires Adobe Campaign ( **[!UICONTROL nms:recipient]** ). Pour l&#39;utiliser, il devra être étendu pour lui associer la table des transactions (contenant les achats, etc.).
+Le schéma **[!UICONTROL nms:remaMatchRcp]** est également fourni en standard. Il contient le stockage des logs de réaction pour les destinataires Adobe Campaign (**[!UICONTROL nms:recipient]**).Pour l’utiliser, il devra être étendu pour lui associer la table des transactions (contenant les achats, etc.).
 
 ### Tables des transactions et des détails des transactions {#transaction-tables-and-transaction-details}
 
 La table des transactions doit comporter un lien direct vers les individus.
 
-Vous pouvez également ajouter une table contenant les détails de la transaction. Ce n&#39;est pas directement lié aux individus.
+Vous pouvez également ajouter une table contenant les détails de la transaction.Ce n’est pas directement lié aux personnes individuelles.
 
-Si nous prenons un règlement, par exemple, une table des mouvements est liée à un contact (table des règlements) et une table des lignes de règlement est uniquement liée à la table des règlements (table des détails). Vous pouvez ensuite configurer l&#39;hypothèse directement au niveau auquel la table des lignes de réception est liée à la table des réceptions.
+Par exemple dans le cas d’un ticket de caisse, une table des transactions est liée au contact (la table des tickets) et une table des lignes de tickets n’est reliée qu’à la table des tickets (la table des détails).Vous pouvez ainsi paramétrer l’hypothèse directement au niveau de la table des lignes de tickets associée à la table des tickets.
 
 >[!NOTE]
 >
->Si vous souhaitez conserver l&#39;identifiant de ticket de caisse qui décrit le comportement attendu dans les hypothèses, vous pouvez étendre le modèle de table nms:remaMatchRcp afin de lui ajouter l&#39;identifiant (dans ce cas, aucun calcul de retour sur investissement n&#39;est associé à ces champs).
+>Si vous souhaitez conserver l’identifiant de ticket de caisse qui décrit le comportement attendu dans les hypothèses, vous pouvez étendre le modèle de table nms:remaMatchRcp afin de lui ajouter l’identifiant (dans ce cas, aucun calcul de retour sur investissement n’est associé à ces champs).
 
 L&#39;ajout d&#39;une date d&#39;évènement est également fortement recommandée.
 
@@ -72,9 +72,9 @@ Le schéma suivant représente les jointures entre les différentes tables une f
 
 ### Gestion de la réaction et destinataires {#response-management-with-adobe-campaign-recipients}
 
-Dans cet exemple, vous allez intégrer une table d&#39;achats dans votre module de gestion de la réaction en utilisant la table des destinataires native d&#39;Adobe Campaign **[!UICONTROL nms:recipient]**.
+Dans cet exemple, vous allez intégrer une table d’achats dans votre module de gestion des réponses en utilisant une table des destinataires **[!UICONTROL nms:recipient]** disponible dans Adobe Campaign.
 
-La table des logs de réponse d&#39;un destinataire **[!UICONTROL nms:remaMatchRcp]** est étendue pour ajouter un lien vers le schéma de la table des achats. Dans l’exemple suivant, la table des achats est appelée **demo:purchase**.
+La table des logs de réponse de la personne destinataire **[!UICONTROL nms:remaMatchRcp]** est étendue pour ajouter un lien vers le schéma de la table des achats.Dans l’exemple suivant, la table des achats est appelée **demo:purchase**.
 
 1. Via l&#39;explorateur Adobe Campaign, sélectionnez le noeud **[!UICONTROL Administration]** > **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Mappings de ciblage]**.
 1. Cliquez-droit sur **Destinataires** puis sélectionnez **[!UICONTROL Actions]** et **[!UICONTROL Modifier les options de la dimension de ciblage]**.
@@ -87,7 +87,7 @@ La table des logs de réponse d&#39;un destinataire **[!UICONTROL nms:remaMatchR
 
 1. Dans la catégorie **[!UICONTROL Gestion de la réaction]**, assurez-vous que la case **[!UICONTROL Générer un schéma de stockage pour les réactions]** est cochée.
 
-   Cliquez ensuite sur **[!UICONTROL Définir des champs supplémentaires...]** pour sélectionner les tables de transactions associées et ajouter les champs souhaités à l&#39;extension du schéma nms:remaMatchRcp.
+   Cliquez ensuite sur **[!UICONTROL Définir des champs supplémentaires…]** pour sélectionner les tables de transactions associées et ajouter les champs souhaités à l’extension du schéma nms:remaMatchRcp.
 
    ![](assets/delivery_mapping3.png)
 
@@ -119,11 +119,11 @@ name="remaMatchRcp" namespace="cus">
 
 Dans cet exemple, vous allez intégrer une table d&#39;achats dans votre module de gestion de la réaction en utilisant une table d&#39;individus autre que la table des destinataires disponible dans Adobe Campaign.
 
-* Créez un schéma de logs de réaction dérivé du schéma **[!UICONTROL nms:remaMatch]**.
+* Créez un schéma de logs de réponses dérivé du schéma **[!UICONTROL nms:remaMatch]**.
 
-  La table des individus étant différente de la table des destinataires Adobe Campaign, il est nécessaire de créer un nouveau schéma des logs de réponse basé sur le schéma **[!UICONTROL nms:remaMatch]** . Il faut ensuite le compléter avec les liens vers les logs de diffusion et la table des actes d&#39;achats.
+  La table des personnes individuelles étant différente de la table des destinataires Adobe Campaign, il est nécessaire de créer un nouveau schéma des logs de réponses basé sur le schéma **[!UICONTROL nms:remaMatch]**.Il faut ensuite le compléter avec les liens vers les logs de diffusion et la table des actes d&#39;achats.
 
-  Dans l&#39;exemple suivant, nous utiliserons le schéma **demo:broadLogPers** et la table des transactions **demo:purchase** :
+  Dans l’exemple suivant, nous utiliserons le schéma **demo:broadLogPers** et la table des transactions **demo:purchase** :
 
   ```
   <srcSchema desc="Linking of a recipient transaction to a hypothesis"    
@@ -142,9 +142,9 @@ Dans cet exemple, vous allez intégrer une table d&#39;achats dans votre module 
   </srcSchema>
   ```
 
-* Modifiez le formulaire des hypothèses dans le schéma **[!UICONTROL nms:remaHypothesis]** .
+* Modifiez le formulaire des hypothèses dans le schéma **[!UICONTROL nms:remaHypothesis]**.
 
-  Par défaut, la liste des logs de réponse est visible dans les logs de destinataires. Vous devez donc modifier le formulaire des hypothèses afin de visualiser les nouveaux logs de réponse créés lors de l&#39;étape précédente.
+  Par défaut, la liste des logs de réponses est visible dans les logs des destinataires.Il faut donc modifier la forme des hypothèses pour pouvoir visualiser les nouveaux logs de réponses créés à l’étape précédente.
 
   Par exemple :
 
@@ -161,7 +161,7 @@ Dans cet exemple, vous allez intégrer une table d&#39;achats dans votre module 
 
 ## Gestion des indicateurs {#managing-indicators}
 
-Le module Gestion de la réaction comprend une liste d’indicateurs prédéfinis. Cependant, vous pouvez ajouter d’autres indicateurs de mesure personnalisés.
+Le module Response Manager est fourni avec une liste d’indicateurs prédéfinis.Vous pouvez cependant ajouter d’autres indicateurs de mesure personnalisés.
 
 Pour cela, vous devez étendre la table des hypothèses en insérant deux champs pour chaque nouvel indicateur :
 

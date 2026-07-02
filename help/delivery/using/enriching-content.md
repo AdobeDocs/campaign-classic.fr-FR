@@ -25,15 +25,15 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 677
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # Enrichir le contenu{#enriching-content}
 
-Les agrégateurs permettent d&#39;enrichir le contenu avec des données externes. Ces données proviennent de requêtes génériques ou de tables liées.
+Les agrégateurs permettent d’enrichir le contenu avec des données externes.Ces données proviennent de requêtes génériques ou de tableaux liés.
 
 ## Requêtes génériques {#generic-queries}
 
@@ -85,7 +85,7 @@ Les liens permettent de récupérer des données externes liées au contenu.
 
 Il existe deux types de données liées :
 
-* Liens de contenu : il s’agit du mode natif de gestion de contenu. Le contenu du lien est automatiquement intégré dans le document XML de sortie.
+* Liens de contenu : il s’agit du mode natif de gestion de contenu.Le contenu du lien est automatiquement intégré dans le document XML de sortie.
 * Liens vers des tables externes : ils permettent l&#39;accès à toutes les autres tables de la base avec la contrainte de récupérer les données du lien sélectionné avec un agrégateur.
 
 ### Liens vers un schéma contenu {#link-to-a-content-schema}

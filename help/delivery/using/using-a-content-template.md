@@ -20,9 +20,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 450
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -70,7 +70,7 @@ Les étapes sont les suivantes :
 
    ![](assets/s_ncs_content_folder_use_a_template.png)
 
-1. Cliquez ensuite sur l’onglet **[!UICONTROL Aperçu]** pour afficher le rendu. Ici, les champs de personnalisation issus de la base de données ne sont pas renseignés.
+1. Cliquez ensuite sur l’onglet **[!UICONTROL Aperçu HTML]** pour visualiser le rendu.Ici, les champs de personnalisation issus de la base de données ne sont pas renseignés.
 
    ![](assets/s_ncs_content_folder_use_a_template_preview.png)
 
@@ -84,7 +84,7 @@ Les étapes sont les suivantes :
 
    >[!NOTE]
    >
-   >Vous pouvez autoriser la génération de contenus non approuvés. Pour ce faire, modifiez l&#39;option correspondante dans le modèle de publication. Voir à ce sujet la section [Création et paramétrage du modèle](publication-templates.md#creating-and-configuring-the-template).
+   >Vous pouvez autoriser la génération de contenus non approuvés.Pour cela, modifiez l’option correspondante dans le modèle de publication.Voir à ce sujet la section [Création et paramétrage du modèle](publication-templates.md#creating-and-configuring-the-template).
 
    Les contenus HTML et Texte sont générés par défaut dans le dossier **publishing** de l&#39;instance Adobe Campaign. Vous pouvez modifier le dossier de publication depuis l&#39;option **NcmPublishingDir**.
 

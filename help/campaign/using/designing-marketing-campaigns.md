@@ -21,24 +21,24 @@ subfeature_v2:
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 453
-ht-degree: 49%
+ht-degree: 100%
 
 ---
 
 # Conception et exécution de campagnes marketing{#designing-marketing-campaigns}
 
-[!DNL Adobe Campaign] vous permet de définir, d’optimiser, d’exécuter et d’analyser des campagnes marketing et de communication. [!DNL Adobe Campaign] agit comme un centre de commande et d’exécution unifié pour les stratégies marketing. Pour plus d’informations à ce sujet, reportez-vous aux sections [Accès aux campagnes](../../distributed/using/accessing-campaigns.md) et [Création de campagnes marketing](../../campaign/using/setting-up-marketing-campaigns.md).
+[!DNL Adobe Campaign] vous permet de définir, d’optimiser, d’exécuter et d’analyser des campagnes de communication et marketing. [!DNL Adobe Campaign] agit comme un centre de commande et d’exécution unifié pour les stratégies marketing. Pour plus d’informations à ce sujet, reportez-vous aux sections [Accès aux campagnes](../../distributed/using/accessing-campaigns.md) et [Création de campagnes marketing](../../campaign/using/setting-up-marketing-campaigns.md).
 
-En complément, le module **Marketing Resource Management (MRM)** permet de piloter les actions marketing sur un mode collaboratif, en assurant la gestion complète et le tracking en temps réel des tâches, budgets et ressources marketing impliquées. Marketing Resource Management vous permet d’optimiser et de réguler la gestion des processus, ressources et campagnes marketing internes et externes. Il prend également en charge les relations avec des tiers (agences, imprimeurs, etc.). Pour plus d’informations, consultez [cette section](../../mrm/using/about-marketing-resource-management.md).
+De plus, le module **Gestion des ressources marketing (MRM)** vous permet de contrôler les actions marketing de façon collaborative à travers la gestion complète et le tracking en temps réel des tâches, budgets et ressources marketing impliqués. La gestion des ressources marketing vous permet d’optimiser et de réguler la gestion des processus internes et externes, des ressources et des campagnes marketing. Elle prend également en charge les relations avec des tiers (agences, imprimeurs, etc.). Pour plus d’informations, consultez [cette section](../../mrm/using/about-marketing-resource-management.md).
 
 >[!NOTE]
 >
->Pour plus d’informations sur les [!DNL Adobe Campaign] fonctionnalités de base, consultez [cette section](../../platform/using/about-adobe-campaign-classic.md).
+>Pour plus d’informations sur les fonctionnalités de base d’[!DNL Adobe Campaign], consultez [cette section](../../platform/using/about-adobe-campaign-classic.md).
 >
 >Les fonctionnalités relatives au ciblage des populations, à la personnalisation et à la diffusion de messages sur les différents canaux sont présentées dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}.
 
 
-![Miniature vidéo pratique](assets/do-not-localize/how-to-video.png) [Découvrez en vidéo les concepts clés des campagnes marketing](#video)
+![Miniature vidéo pratique](assets/do-not-localize/how-to-video.png) [Découvrir en vidéo les concepts clés des campagnes marketing](#video)
 
 ## Concepts de base {#core-concepts}
 
@@ -62,17 +62,17 @@ Dans le contexte de Campaign, les concepts listés ci-dessous doivent être conn
 
 * **Workflow**
 
-  Un workflow de campagne contient les mêmes activités que tous les workflows, mais est spécifique à la campagne. Il permet de créer et de configurer des diffusions pour tous les canaux disponibles.
+  Un workflow de campagne contient les mêmes activités que tous les workflows, mais il est propre à la campagne. Il permet de créer et de configurer des diffusions sur tous les canaux disponibles.
 
   Pour plus d’informations, consultez [cette section](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
 
 * **Objectifs**
 
-  Dans la campagne, le programme ou le plan, vous pouvez indiquer une liste d’objectifs. Il s’agit de valeurs quantifiées à atteindre. A la fin de l&#39;opération, du programme ou du plan, le module MRM permet de comparer les objectifs et les résultats dans des rapports dédiés.
+  Dans le cadre de la campagne, du programme ou du plan, vous pouvez indiquer une liste d’objectifs. Il s’agit de valeurs quantifiées à atteindre. À la fin de la campagne, du programme ou du plan, le module MRM vous permet de comparer les objectifs et les résultats dans des rapports dédiés.
 
 * **Composition de diffusion**
 
-  Une composition de diffusion est une description structurée d’une diffusion. Chaque diffusion peut faire référence à une composition de diffusion qui contient, par exemple, les offres associées, les documents à joindre ou un lien vers les magasins. Une offre peut être référencée dans la diffusion en fonction de la composition de diffusion sélectionnée.
+  Une composition de diffusion est une description structurée d’une diffusion. Chaque diffusion peut référencer une composition de diffusion qui contient, par exemple, les offres associées, les documents à joindre ou un lien vers des magasins. Une offre peut être référencée dans la diffusion en fonction de la composition de diffusion sélectionnée.
 
   Pour plus d’informations, consultez [cette section](../../campaign/using/marketing-campaign-deliveries.md#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
@@ -82,5 +82,5 @@ Cette vidéo présente les concepts clés des campagnes marketing.
 
 >[!VIDEO](https://video.tv.adobe.com/v/326571?captions=fre_fr&quality=12)
 
-D’autres vidéos pratiques [!DNL Campaign Classic] sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+D’autres vidéos pratiques sur [!DNL Campaign Classic] sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
 

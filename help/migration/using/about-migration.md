@@ -18,9 +18,9 @@ feature_v2:
 subfeature_v2:
   - id: eff19c99-440a-4318-b319-444edc4d8d8f
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 460
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 76%
 
 Ce document présente les prérequis pour effectuer une migration, les étapes de migration vers Adobe Campaign Classic v7. Les étapes et les paramètres facultatifs dépendent de votre configuration.
 
-Le processus de migration doit être mené avec précaution, ses impacts doivent être pleinement pris en compte au préalable et la procédure doit être menée avec rigueur. Elle ne doit être effectuée que par un utilisateur expert. Nous vous recommandons vivement de contacter le [service d&#39;assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) avant de commencer toute procédure de migration.
+La migration doit être effectuée avec précaution. Les effets de la migration doivent être entièrement étudiés au préalable et la procédure doit être suivie à la lettre.Elle ne doit être effectuée que par une personne expérimentée.Nous vous recommandons vivement de contacter le [service d&#39;assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) avant de commencer toute procédure de migration.
 
 La migration doit être testée à l’avance sur l’environnement de test/d’évaluation afin de s’assurer qu’elle s’effectue correctement et sans erreurs. La migration de l’environnement de production doit être effectuée uniquement lorsque l’environnement de test migré est entièrement validé.
 
@@ -53,7 +53,7 @@ D’autres prérequis sont disponibles dans [cette page](../../migration/using/b
 
 ## Environnement modernisé {#modernizing-your-environment}
 
-La migration peut être l’occasion de mettre à jour votre environnement (moteurs de base de données, systèmes d’exploitation). Adobe Campaign recommande vivement de mettre à niveau vos environnements de production vers les versions les plus récentes.
+La mise en œuvre d’une migration peut être l’occasion de mettre à jour votre environnement (moteurs de base de données, systèmes d’exploitation).Adobe Campaign recommande vivement de mettre à niveau vos environnements de production vers les versions les plus récentes.
 
 >[!CAUTION]
 >
@@ -66,7 +66,7 @@ La procédure générale de migration vers Adobe Campaign v7 est présentée e
 
 ## Paramétrages spécifiques {#specific-configurations}
 
-Les changements apportés par Adobe Campaign v7 peuvent également signifier que vous devez adapter certaines configurations spécifiques développées dans les versions antérieures. Par conséquent, il peut être nécessaire d’effectuer un audit de toutes vos configurations avant la migration : pour toute assistance, contactez Adobe Campaign.
+Les évolutions apportées à Adobe Campaign v7 peuvent vous amener à devoir adapter certains paramétrages spécifiques développés dans les versions antérieures.Ainsi, il peut être nécessaire de réaliser un audit complet de vos paramétrages avant la migration : contactez-nous pour toute demande d’assistance.
 
 Par exemple, les paramétrages spécifiques des applications web, des extensions de schémas avec SQLdata ou du clonage de schémas d’usine nécessitent une attention particulière. Pour plus d’informations, consultez [cette page](../../migration/using/configuring-your-platform.md).
 

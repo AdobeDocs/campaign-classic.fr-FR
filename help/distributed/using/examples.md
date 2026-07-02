@@ -15,9 +15,9 @@ subfeature_v2:
   - id: a6187aac-0a00-4394-8937-e8d4c1a40aa4
   - id: e739ee2b-6228-412e-878f-45de0791417d
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1378
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 76%
 
 ## Création dʼune campagne locale (par formulaire) {#creating-a-local-campaign--by-form-}
 
-L’interface web de type **Par formulaire** implique l’utilisation d’une **application web**. Selon sa configuration, cette application web peut contenir n’importe quel type d’éléments personnalisés définis. Vous pouvez par exemple proposer des liens pour évaluer la cible, le budget, le contenu, etc. via des API dédiées.
+L’interface web de type **Par formulaire** implique l’utilisation d’une **application web**.Selon sa configuration, cette application web peut contenir n’importe quel type d’éléments personnalisés définis.Vous pouvez par exemple proposer des liens pour évaluer la cible, le budget, le contenu, etc. via des API dédiées.
 
 >[!NOTE]
 >
 >Les API sont décrites en détail dans le document qui leur est consacré. [En savoir plus](../../configuration/using/about-web-services.md).
 >
->L’application web utilisée dans cet exemple n’est pas une application web prête à l’emploi avec Adobe Campaign. Pour utiliser un formulaire dans une campagne, vous devez créer l&#39;application web dédiée.
+>L’application web utilisée dans cet exemple n’est pas une application web Adobe Campaign d’usine.Pour utiliser un formulaire dans une campagne, vous devez créer l’application web dédiée.
 
 Lors de la création du modèle d’opération, cliquez sur l’icône **[!UICONTROL Zoom]** de l’option **[!UICONTROL Interface web]** du lien **[!UICONTROL Paramètres avancés de l’opération...]** pour accéder aux détails de l’application web.
 
@@ -85,7 +85,7 @@ Dans cet exemple, les APIs suivantes sont utilisées :
 
 ### Introduction {#introduction}
 
-Vous êtes le directeur marketing d&#39;une grande marque de vêtements qui possède une boutique en ligne et plusieurs boutiques aux États-Unis. Maintenant que le printemps est arrivé, vous décidez de créer une offre spéciale qui donnera à vos meilleurs clients 50% de réduction sur toutes les robes de votre catalogue.
+Vous êtes responsable marketing d’une grande marque de vêtements qui possède une boutique en ligne et plusieurs boutiques dans toute la France.À l’annonce des beaux jours, vous décidez de créer une offre promotionnelle qui permettra à vos meilleurs clientes et clients de bénéficier de 50 % de réduction sur toutes les robes disponibles dans votre catalogue.
 
 Cette offre est destinée aux meilleurs clients de vos magasins français, c&#39;est à dire ceux qui ont dépensé plus de 300 € depuis le début de l&#39;année.
 
@@ -173,8 +173,8 @@ Vous pouvez désormais ajouter un **kit de campagne** à partir de l’onglet **
 
 1. Sélectionnez votre **[!UICONTROL Campagne de référence]**. Dans l&#39;onglet **[!UICONTROL Edition]** de votre package, vous pouvez choisir le **[!UICONTROL Mode d’approbation]** que vous souhaitez utiliser pour votre campagne :
 
-   * en mode **Manuel**, les entités locales participent à l&#39;opération si elles acceptent l&#39;invitation de l&#39;entité centrale. Ils peuvent supprimer les contacts présélectionnés s’ils le souhaitent, et l’approbation du responsable est nécessaire pour confirmer leur participation à la campagne.
-   * en mode **automatique**, les entités locales doivent participer à l&#39;opération, sauf si elles se désinscrivent de celle-ci. Ils peuvent supprimer des contacts sans avoir besoin d’une approbation.
+   * avec le mode **Manuel**, les entités locales participent à la campagne si elles acceptent l’invitation de l’entité centrale.Elles peuvent supprimer des contacts pré-sélectionnés si elles le souhaitent. Une validation d’une personne responsable est obligatoire pour confirmer la participation.
+   * avec le mode **Automatique**, les entités locales participent obligatoirement à la campagne, à moins qu’elles ne s’en désinscrivent.Elles peuvent supprimer des contacts sans qu’aucune validation ne soit demandée.
 
    ![](assets/mkg_dist_use_case_target_valid.png)
 
@@ -190,9 +190,9 @@ Vous pouvez désormais ajouter un **kit de campagne** à partir de l’onglet **
 
 ### Introduction {#introduction-1}
 
-Vous êtes le responsable marketing d&#39;une grande marque de maquillage qui possède une boutique en ligne et plusieurs boutiques aux États-Unis. Pour décharger votre stock d&#39;hiver et faire de la place pour votre nouveau stock, vous décidez de créer une offre spéciale qui ciblera deux catégories de clients : les plus de 30 ans, à qui vous proposerez des produits de soins sensibles à l&#39;âge, et les moins de 30 ans, à qui vous proposerez les produits de soins de la peau les plus basiques.
+Vous êtes responsable marketing d’une grande marque de cosmétiques qui possède une boutique en ligne et plusieurs boutiques partout en France.Pour écouler vos stocks d’hiver et faire de la place aux nouveaux articles, vous décidez de créer une offre promotionnelle qui ciblera deux catégories de clientes et clients : les plus de 30 ans, à qui vous proposerez des produits adaptés à leur peau mature, et les moins de 30 ans, à qui vous proposerez des produits de soin plus basiques.
 
-Vous décidez donc d&#39;utiliser le Marketing Distribué pour créer une campagne collaborative (par formulaire) qui permettra de sélectionner des clients de vos différents magasins par tranche d&#39;âge. Ces clients recevront une diffusion par e-mail avec une offre spéciale qui aura été personnalisée en fonction de leur tranche d&#39;âge.
+Vous décidez donc de créer, grâce au marketing distribué, une campagne collaborative par formulaire, qui vous permet de sélectionner les clientes et clients de vos différents magasins par tranches d’âge.Ces personnes recevront une diffusion par e-mail avec une offre spéciale qui aura été personnalisée en fonction de leur tranche d’âge.
 
 La première partie de cet exemple illustre la réception par vos entités locales de la notification de création de l&#39;opération, et l&#39;utilisation qu&#39;ils peuvent en faire pour évaluer l&#39;opération et la commander.
 

@@ -16,9 +16,9 @@ subfeature_v2:
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
   - id: e739ee2b-6228-412e-878f-45de0791417d
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1013
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
@@ -28,16 +28,16 @@ ht-degree: 64%
 
 ## Créer un formulaire d’abonnement avec double opt-in {#create-a-subscription--form-with-double-opt-in}
 
-Lorsque vous proposez des services d’information, les destinataires doivent s’abonner pour recevoir toutes les communications liées. Pour éviter les communications incorrectes et nous assurer que le destinataire s&#39;est abonné intentionnellement, nous vous recommandons d&#39;envoyer une demande de confirmation d&#39;abonnement pour créer un double opt-in. L&#39;abonnement ne sera effectif qu&#39;une fois que l&#39;utilisateur aura cliqué sur le lien inclus dans le message de confirmation.
+Lorsque vous proposez des services d’information, les personnes destinataires doivent s’abonner pour recevoir toutes les communications liées.Pour éviter les communications incorrectes et s’assurer que la personne destinataire s’est abonnée de manière intentionnelle, nous recommandons d’envoyer une demande de confirmation d’abonnement pour créer un double opt-in.L’abonnement ne sera effectif qu’une fois que l’utilisateur ou l’utilisatrice aura cliqué sur le lien inclus dans le message de confirmation.
 
 Le scénario mis en oeuvre dans cet exemple est le suivant :
 
-1. Création d&#39;un formulaire d&#39;inscription à une newsletter sur un site web contenant une case à cocher pour s&#39;abonner à un service temporaire. Ce service vous permettra de diffuser des messages de confirmation d’abonnement.
-1. Créer la diffusion de confirmation d&#39;inscription avec un modèle de diffusion associé au formulaire Web. Il contient le lien de confirmation qui appelle le formulaire pour l’abonnement à la newsletter et affiche un message de validation d’abonnement.
+1. Création d’un formulaire d’inscription à la newsletter sur un site web contenant une case d’abonnement à un service temporaire.Ce service vous permettra de diffuser les messages de confirmation d’abonnement.
+1. Création de la diffusion de confirmation d’abonnement avec un modèle de diffusion associé au formulaire web.Elle contient le lien de confirmation rappelant le formulaire qui inscrit à la newsletter et affiche un message de validation de l’abonnement.
 
 ### Etape 1 - Créer les services d’information {#step-1---creating-information-services}
 
-1. Créez le service d&#39;inscription à la newsletter qui sera proposé à vos destinataires. Pour plus d’informations sur la création d’une newsletter, reportez-vous à [cette section](../../delivery/using/about-services-and-subscriptions.md).
+1. Créez le service d’inscription à la newsletter que vous souhaitez proposer à vos personnes destinataires.Pour plus d’informations sur la création d’une newsletter, consultez [cette section](../../delivery/using/about-services-and-subscriptions.md).
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1.png)
 
@@ -67,11 +67,11 @@ Les messages de confirmation sont adressés via un modèle de diffusion dédié,
    >
    >Cette option ne doit être désactivée que dans des contextes spécifiques, comme ici.
 
-1. Personnalisez votre diffusion et insérez le lien de confirmation dans le contenu du message. Ce lien permet d&#39;accéder au formulaire Web pour enregistrer la confirmation d&#39;inscription.
+1. Personnalisez votre diffusion et insérez le lien de confirmation dans le contenu du message.Ce lien vous permet d’accéder au formulaire web afin qu’il enregistre la confirmation d’abonnement.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1b.png)
 
-1. Avec le DCE, liez votre URL au formulaire web. Le formulaire Web n&#39;étant pas encore créé, remplacez la valeur dès que vous le créez.
+1. À l’aide du DCE, liez votre URL au formulaire web.Comme le formulaire web n’est pas encore créé, remplacez la valeur dès sa création.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_3.png)
 
@@ -99,13 +99,13 @@ Pour ce faire, procédez comme suit :
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_5b.png)
 
-   Cela signifie que si l&#39;utilisateur accède à ce formulaire via le lien dans le message de confirmation, ses informations de profil sont chargées. S&#39;ils accèdent au formulaire Web par l&#39;intermédiaire d&#39;une page du site Web, aucune information ne sera chargée.
+   Cela signifie que si l’utilisateur ou l’utilisatrice accède à ce formulaire par le biais du lien dans le message de confirmation, les informations de son profil seront chargées.Si la personne accède au formulaire web via une page du site web, aucune information ne sera chargée.
 
 1. Ajoutez une activité **[!UICONTROL Test]** à votre workflow.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6e.png)
 
-   L&#39;activité **[!UICONTROL Test]** peut concerner l&#39;email du destinataire. Dans ce cas, configurez-le comme suit :
+   L’activité **[!UICONTROL Test]** peut s’appliquer à l’e-mail des personnes destinataires.Dans ce cas, configurez-la comme suit :
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6d.png)
 
@@ -121,7 +121,7 @@ Pour ce faire, procédez comme suit :
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6bbis.png)
 
-   La deuxième activité **[!UICONTROL Script]** permet d&#39;envoyer des diffusions aux utilisateurs et les abonne à la newsletter. Les deux dernières lignes du script vont vous permettre de transférer vos destinataires du dossier temporaire vers un autre dossier et d&#39;être réconciliés avec les profils existants dès qu&#39;ils auront confirmé l&#39;abonnement.
+   La seconde activité **[!UICONTROL Script]** autorise l’envoi des diffusions aux utilisateurs et utilisatrices, et les inscrit à la newsletter.Les deux dernières lignes du script vous permettront de transférer les personnes destinataires du dossier Temp vers un autre dossier et de les réconcilier avec les profils existants dès confirmation de l’abonnement.
 
    ```
    ctx.recipient.@blackList=0
@@ -197,7 +197,7 @@ Ainsi, l&#39;inscription à la newsletter est réalisée selon les étapes suiva
 
 ## Afficher différentes options en fonction de la valeur sélectionnée {#displaying-different-options-depending-on-the-selected-values}
 
-Dans l’exemple suivant, l’utilisateur est invité à sélectionner un type de véhicule. Vous pouvez afficher les catégories de véhicules disponibles en fonction du type sélectionné. Cela signifie que les éléments affichés dans la colonne de droite dépendent de la sélection de l’utilisateur :
+Dans l’exemple suivant, la personne est invitée à sélectionner un type de véhicule.Vous pouvez afficher les catégories de véhicules disponibles en fonction du type sélectionné.Cela signifie que les éléments affichés dans la colonne de droite dépendent de la sélection de l’utilisateur ou de l’utilisatrice :
 
 ![](assets/s_ncs_admin_survey_condition_sample0.png)
 
@@ -209,7 +209,7 @@ Dans l’exemple suivant, l’utilisateur est invité à sélectionner un type d
 
   ![](assets/s_ncs_admin_survey_condition_sample1.png)
 
-Dans cet exemple, le type de véhicule n&#39;est pas stocké dans la base de données. La liste déroulante est paramétrée comme suit :
+Dans cet exemple, le type de véhicule n’est pas stocké dans la base de données.La liste déroulante est configurée comme suit :
 
 ![](assets/s_ncs_admin_survey_condition_config1.png)
 

@@ -16,9 +16,9 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 836
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ D’autres méthodes de surveillance des différents processus de Campaign sont 
 
 **Outils de surveillance automatique**
 
-Plusieurs méthodes automatiques sont disponibles. pour vous aider à surveiller votre instance. Vous pouvez par exemple configurer des rapports d&#39;email avec des anomalies détectées, récupérer une liste d&#39;indicateurs au format XML, etc. [Cliquez ici](../../production/using/monitoring-processes.md#automatic-monitoring) pour plus d&#39;informations.
+Plusieurs méthodes automatiques sont disponibles. pour vous aider à surveiller votre instance. Vous pouvez, par exemple, configurer des rapports par e-mail avec les anomalies détectées, récupérer une liste d’indicateurs au format XML, etc. [Cliquez ici](../../production/using/monitoring-processes.md#automatic-monitoring) pour plus d’informations.
 
 **Journal d’audit**
 
@@ -61,7 +61,7 @@ Le journal d’audit vous permet de visualiser l’historique complet des modifi
 
 **Panneau de contrôle**
 
-Le Panneau de Contrôle vous permet de gérer plusieurs paramètres de votre instance : gérer les autorisations d’URL, vérifier les détails de votre instance tels que les versions de build de vos serveurs, etc. Elle permet également de surveiller l’espace disponible sur les serveurs SFTP connectés à votre instance. [Cliquez ici](https://experienceleague.adobe.com/fr/docs/control-panel/using/control-panel-home.html?lang=fr) pour plus d’informations.
+Le Panneau de contrôle vous permet de gérer plusieurs paramètres de votre instance : administrer les autorisations d’URL, vérifier les détails de votre instance tels que les versions de build de vos serveurs, etc. Il vous permet également de surveiller l’espace disponible sur les serveurs SFTP connectés à votre instance.[Cliquez ici](https://experienceleague.adobe.com/fr/docs/control-panel/using/control-panel-home.html?lang=fr) pour plus d’informations.
 
 >[!NOTE]
 >
@@ -107,8 +107,8 @@ Les rapports SMTP affichent les statistiques de diffusion et les erreurs SMTP pa
 
 Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=fr){target="_blank"} pour en savoir plus sur les bonnes pratiques d’envoi et de conception de diffusion afin d’améliorer les performances.
 
-**Résolution des problèmes liés à la diffusion**
-Des actions spécifiques peuvent être effectuées lorsque vous rencontrez des problèmes avec les diffusions :
+**Résolution des problèmes liés aux diffusions**
+Des actions spécifiques peuvent être entreprises en cas de problème avec des diffusions :
 * [Problèmes de délivrabilité](../../production/using/performance-and-throughput-issues.md#deliverability_issues)
 * [Problèmes liés à l&#39;affichage des images](../../production/using/image-display-issues.md)
 * [Problèmes de performances des diffusions](../../delivery/using/delivery-performance-troubleshooting.md)

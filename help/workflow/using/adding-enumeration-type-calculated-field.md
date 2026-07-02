@@ -19,9 +19,9 @@ subfeature_v2:
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 519
-ht-degree: 63%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 63%
 
 
 
-Nous allons créer ici une requête avec un champ calculé de type **[!UICONTROL Enumérations]**. Ce champ génère une colonne supplémentaire dans la fenêtre de prévisualisation des données. Cette colonne spécifie les valeurs numériques renvoyées pour chaque destinataire (0, 1 et 2). Un genre sera attribué à chaque valeur de la nouvelle colonne : « Homme » pour « 1 », « Femme » pour « 2 » ou « Non indiqué » si la valeur est égale à « 0 ».
+Nous allons créer ici une requête avec un champ calculé de type **[!UICONTROL Énumérations]**.Ce champ génère une colonne supplémentaire dans la fenêtre de prévisualisation des données.Cette colonne spécifie les valeurs numériques renvoyées pour chaque destinataire (0, 1 et 2).Un genre sera attribué à chaque valeur de la nouvelle colonne : « Homme » pour « 1 », « Femme » pour « 2 » ou « Non indiqué » si la valeur est égale à « 0 ».
 
 * Quelle table doit-on sélectionner ?
 
@@ -45,7 +45,7 @@ Nous allons créer ici une requête avec un champ calculé de type **[!UICONTROL
 
 Les étapes sont les suivantes :
 
-1. Ouvrez le Requêteur générique et sélectionnez la Table des destinataires (**[!UICONTROL nms:recipient]**).
+1. Ouvrez le requêteur générique et choisissez la table Personnes destinataires **[!UICONTROL (nms):recipient]**.
 1. Dans la fenêtre **[!UICONTROL Données à extraire]**, sélectionnez les champs **[!UICONTROL Nom]**, **[!UICONTROL Prénom]** et **[!UICONTROL Genre]**.
 
    ![](assets/query_editor_nveau_73.png)
@@ -66,7 +66,7 @@ Les étapes sont les suivantes :
 
    ![](assets/query_editor_nveau_76.png)
 
-   Définissez les valeurs **&#x200B;**&#x200B;et **Destination** : la valeur de destination facilite la lecture du résultat de la requête. Cette requête doit renvoyer le genre du destinataire et le résultat sera 0, 1 ou 2.
+   Définissez la valeur **Source** et la valeur **Destination** : la valeur de destination va faciliter la lisibilité du résultat de la requête.Cette requête doit renvoyer le genre de la personne destinataire et le résultat sera 0, 1 ou 2.
 
    Pour chaque équivalence &quot;source-destination&quot; à renseigner, cliquez sur **[!UICONTROL Ajouter]** dans le champ **[!UICONTROL Liste des valeurs d&#39;énumérations]** :
 
@@ -90,10 +90,10 @@ Les étapes sont les suivantes :
 
    ![](assets/query_editor_nveau_78.png)
 
-   Par exemple, si vous ne saisissez pas le genre « 2 » dans la **[!UICONTROL Liste des valeurs d’énumération]** et que la fonction **[!UICONTROL Générer un avertissement et continuer]** du champ **[!UICONTROL Dans les autres cas]** est sélectionnée, vous obtiendrez un journal d’avertissement. Ce journal indique que le genre « 2 » (Féminin) n&#39;a pas été saisi. Il est affiché dans le champ **[!UICONTROL Logs générés lors de l&#39;export]**, dans la fenêtre de prévisualisation des données.
+   Par exemple, si vous ne renseignez pas le genre « 2 » dans la **[!UICONTROL Liste de valeurs d’énumération]** et que la fonction **[!UICONTROL Générer un avertissement et continuer]** du champ **[!UICONTROL Dans les autres cas]** est sélectionnée, un log d’avertissement est généré.Ce log indique que le genre « 2 » (féminin) n’a pas été saisi.Il est affiché dans le champ **[!UICONTROL Logs générés lors de l&#39;export]**, dans la fenêtre de prévisualisation des données.
 
    ![](assets/query_editor_nveau_79.png)
 
-   Prenons un autre exemple et supposons que la valeur d’énumération « 2 » n’ait pas été saisie. Sélectionnez la fonction **[!UICONTROL Générer une erreur et rejeter la ligne]** : tous les destinataires de genre « 2 » vont signaler des anomalies et les autres informations de la ligne (nom, prénom, etc.) ne sera pas exporté. Un log des erreurs s’affiche dans le champ **[!UICONTROL Logs générés lors de l&#39;export]** de la fenêtre de prévisualisation des données. Ce log indique que la valeur d’énumération « 2 » n’a pas été saisie.
+   Prenons un autre exemple et supposons que la valeur d’énumération « 2 » n’ait pas été saisie. Sélectionnez la fonction **[!UICONTROL Générer une erreur et rejeter la ligne]** : toutes les personnes destinataires du genre « 2 » génèrent des anomalies et les autres informations de la ligne (prénom et nom, etc.)ne sont pas exportées.Un log des erreurs s’affiche dans le champ **[!UICONTROL Logs générés lors de l&#39;export]** de la fenêtre de prévisualisation des données. Ce log indique que la valeur d’énumération « 2 » n’a pas été saisie.
 
    ![](assets/query_editor_nveau_80.png)

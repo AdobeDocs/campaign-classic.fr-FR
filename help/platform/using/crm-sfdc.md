@@ -20,9 +20,9 @@ subfeature_v2:
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
   - id: efa38731-2723-4334-8d8b-a778af834835
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 351
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -35,8 +35,8 @@ Sur cette page, vous allez découvrir comment connecter Campaign Classic à **S
 La synchronisation des données s&#39;effectue via une activité de workflow dédiée. [En savoir plus](../../platform/using/crm-data-sync.md).
 
 
-Le compte externe vous permet d’importer et d’exporter des données Salesforce vers Adobe Campaign.
-Pour configurer le connecteur CRM pour Salesforce, procédez comme suit :
+Le compte externe vous permet d’importer et d’exporter des données Salesforce vers Adobe Campaign.
+Pour configurer le connecteur CRM pour Salesforce, effectuez les étapes ci-dessous :
 
 1. Créez un compte externe à partir du nœud **[!UICONTROL Administration > Plateforme > Comptes externes]** de l’arborescence d’Adobe Campaign.
 1. Sélectionnez **[!UICONTROL Salesforce.com]**.
@@ -47,18 +47,18 @@ Pour configurer le connecteur CRM pour Salesforce, procédez comme suit :
    Pour configurer le compte externe Salesforce CRM afin de l’utiliser avec Adobe Campaign, vous devez fournir les détails suivants :
 
    * **[!UICONTROL Compte]**
-Compte utilisé pour se connecter à Salesforce CRM
+Compte utilisé pour se connecter à Salesforce CRM.
 
    * **[!UICONTROL Mot de passe]**
-Mot de passe utilisé pour se connecter au CRM Salesforce.
+Mot de passe utilisé pour se connecter à Salesforce CRM.
 
-   * **[!UICONTROL Identifiant client]**
-Pour savoir où trouver votre identifiant client, consultez cette [page](https://help.salesforce.com/articleView?id=000205876&type=1).
+   * **[!UICONTROL Identifiant du client ou de la cliente]**
+Pour savoir où trouver votre identifiant de client ou de cliente, consultez cette [page](https://help.salesforce.com/articleView?id=000205876&type=1).
 
    * **[!UICONTROL Jeton de sécurité]**
 Pour savoir où trouver votre jeton de sécurité, consultez cette [page](https://help.salesforce.com/articleView?id=000205876&type=1).
 
-   * Version de l’API **&#x200B;**
+   * **[!UICONTROL Version d’API]**
 Sélectionnez la version de l’API.
 1. Exécutez l’assistant de configuration pour générer le tableau CRM disponible : l’assistant de configuration vous permet de collecter des tableaux et de créer le schéma correspondant.
 

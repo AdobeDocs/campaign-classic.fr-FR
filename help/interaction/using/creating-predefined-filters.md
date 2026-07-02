@@ -16,9 +16,9 @@ feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 104
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 80%
 
 
 
-Les filtres prédéfinis permettent de créer des règles d&#39;éligibilité pour la population cible qui pourront facilement être réutilisées lors de la création de l&#39;offre. Ils sont spécifiques à chaque environnement et prennent en compte les paramètres de l’offre.
+Les filtres prédéfinis vous permettent de créer des règles d’éligibilité pour la population cible qui pourront facilement être réutilisées lors de la création d’offres.Ils sont spécifiques à chaque environnement et prennent en compte les paramètres de l’offre.
 
 Pour créer un filtre, procédez comme suit :
 

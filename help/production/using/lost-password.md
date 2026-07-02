@@ -18,9 +18,9 @@ subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 250
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 92%
 >Cette page ne s’applique qu’aux opérateurs et aux opératrices qui se connectent à Campaign avec une authentification native.
 
 Vous pouvez modifier ou récupérer un mot de passe perdu.
-Deux scénarios sont possibles :
+Deux scénarios sont possibles :
 
 * [Perte du mot de passe d&#39;un opérateur Adobe Campaign](#password-lost-by-campaign-operator)
 * [Perte du mot de passe interne](#internal-password-lost) (clients on-premise uniquement)
@@ -84,7 +84,7 @@ Pour cela, respectez la procédure suivante :
 
 1. Arrêtez le processus `nlserver`.
 
-1. Configurez le nouveau mot de passe. Pour cela, saisissez les commandes suivantes :
+1. Configurez le nouveau mot de passe.Pour cela, saisissez les commandes suivantes :
 
    ```javascript
    nlserver config -internalpassword

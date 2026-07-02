@@ -26,9 +26,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1106
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -137,7 +137,7 @@ Pour ce faire, procédez comme suit :
 
    Contactez ensuite votre fournisseur qui vous donnera la valeur à saisir dans le champ **[!UICONTROL Nom de l&#39;implémentation du SMSC]**, en fonction du fournisseur que vous aurez choisi.
 
-   Vous pouvez définir le nombre de connexions au fournisseur par enfant MTA. Par défaut, elle est définie sur 1.
+   Vous pouvez définir le nombre de connexions au fournisseur par MTA enfant.Par défaut, ce nombre est défini sur 1.
 
 1. Par défaut, le nombre de caractère d&#39;un SMS respecte la norme de téléphonie mobile GSM.
 
@@ -153,7 +153,7 @@ Pour ce faire, procédez comme suit :
 
    ![](assets/mid_external_account_5.png)
 
-1. Dans l&#39;onglet **[!UICONTROL Débit et délais]**, vous pouvez spécifier le débit maximal de messages sortants (« MT », Mobile Terminated) en MT par seconde. Si vous indiquez « 0 » dans le champ correspondant, le débit ne sera pas limité.
+1. Dans l’onglet **[!UICONTROL Débit et délais]**, vous pouvez indiquer le débit maximum des messages sortants (« MT », Mobile Terminated) en MT par seconde.Si vous indiquez « 0 » dans le champ correspondant, le débit ne sera pas limité.
 
    Les valeurs de tous les champs correspondant à des délais sont à renseigner en secondes.
 
@@ -161,7 +161,7 @@ Pour ce faire, procédez comme suit :
 
    Pour plus d’informations, consultez [cette section](sms-set-up.md#about-text-encodings).
 
-1. Dans l&#39;onglet **[!UICONTROL Spécificités du SMSC]**, l&#39;option **[!UICONTROL Envoyer le numéro de téléphone complet]** est désactivée par défaut. Ne l&#39;activez pas si vous souhaitez respecter le protocole SMPP et ne transférer que des chiffres au serveur du fournisseur SMS (SMSC).
+1. Dans l’onglet **[!UICONTROL Spécificités du SMSC]**, l’option **[!UICONTROL Envoyer le numéro de téléphone complet]** est désactivée par défaut.Ne l’activez pas si vous souhaitez respecter le protocole SMPP et ne transmettre que des chiffres au serveur du fournisseur SMS (SMSC).
 
    Cependant, étant donné que certains fournisseurs requièrent l&#39;utilisation du préfixe &#39;+&#39;, consultez votre propre fournisseur qui vous invitera à activer cette option le cas échéant.
 

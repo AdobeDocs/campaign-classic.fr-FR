@@ -24,9 +24,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 351
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -83,7 +83,7 @@ Les étapes d&#39;installation sont les suivantes :
 1. **[!UICONTROL Fermez]** la fenêtre d&#39;installation.
 
 Une fois cette étape effectuée, vous pouvez configurer vos applications Android et iOS.
-Reportez-vous aux sections suivantes :
+Reportez-vous à ces sections :
 
 * [Étapes de configuration pour iOS](configuring-the-mobile-application.md)
 

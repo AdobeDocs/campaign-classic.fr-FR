@@ -19,15 +19,15 @@ topic_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 585
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # Prise en main des questionnaires{#about-surveys}
 
-Adobe Campaign comprend un module graphique pour définir et publier des applications web. Il est utilisé pour créer des pages, telles qu’un formulaire d’édition sur un extranet ou des formulaires de notification comprenant des données de la base de données avec des tableaux, des graphiques, des formulaires de saisie, etc. Utilisez cette fonctionnalité pour concevoir et publier des pages web dans lesquelles les utilisateurs peuvent rechercher ou saisir des informations.
+Adobe Campaign comprend un module graphique pour définir et publier des applications web.Il est utilisé pour créer des pages, par exemple un formulaire d’édition sur un extranet ou des formulaires de notification comprenant des données de la base de données avec des tableaux, des graphiques, des formulaires de saisie, etc. Utilisez cette fonctionnalité pour concevoir et publier des pages web dans lesquelles rechercher ou saisir des informations.
 
 >[!AVAILABILITY]
 >
@@ -56,7 +56,7 @@ Dans Adobe Campaign, utilisez [Applications Web](../../web/using/about-web-form
 * ajouter une personnalisation et définir la position du champ ;
 * conditionner l&#39;affichage des champs du formulaire en fonction des réponses ;
 * conditionner l&#39;affichage de la page ;
-* vérifier les informations avant validation, en fonction du type de données attendu (nombre, adresse e-mail, date, etc.) et les champs obligatoires,
+* vérifier des informations avant validation, en fonction du type de données attendu (nombre, adresse e-mail, date, etc.)et les champs obligatoires ;
 * envoyer des invitations/notifications par e-mail ;
 * personnaliser les pages d&#39;erreur et de fin ;
 * ajouter des images, vidéos, liens hypertexte, Captcha, etc., dans les formulaires.
@@ -75,11 +75,11 @@ Le module facultatif de création de questionnaires propose une interface utilis
 Pour créer, diffuser et exploiter les résultats d&#39;un questionnaire, les étapes sont les suivantes :
 
 1. Créer la ou les pages et leur contenu (champs de saisie, listes déroulantes, questions, etc.).
-1. Définir le mode d&#39;enregistrement des réponses. Une étape de préchargement des données peut être insérée afin de précharger le formulaire avec des données déjà présentes dans la base de données. Vous pouvez également ajouter une zone de test.
+1. Définir le mode d&#39;enregistrement des réponses. Il est possible d’insérer une étape de préchargement des données afin de préremplir le formulaire avec les données déjà dans la base.Vous pouvez également ajouter une zone de test.
 1. Publiez puis diffusez le questionnaire aux destinataires (par exemple, incluez un lien dans une diffusion ou dans un site Web).
 1. Suivre les réponses et consulter les rapports.
 
-Pour plus d&#39;informations sur la configuration et le séquencement de ces étapes, voir [ce document &#x200B;](../../web/using/about-web-forms.md). Seules les configurations spécifiques aux questionnaires sont détaillées dans ce chapitre.
+Pour plus d&#39;informations sur la configuration et le séquencement de ces étapes, voir [ce document ](../../web/using/about-web-forms.md). Seules les configurations spécifiques aux questionnaires sont détaillées dans ce chapitre.
 
 >[!CAUTION]
 >
@@ -92,7 +92,7 @@ Par défaut, les questionnaires sont disponibles dans le nœud **[!UICONTROL Res
 Les paramètres sont stockés dans les dossiers suivants :
 
 * **[!UICONTROL Administration > Paramétrage > Rendus des formulaires]** : contient les modèles de rendu pour la présentation des formulaires Web (applications et questionnaires).
-* **[!UICONTROL Ressources > Modèles > Modèles d&#39;application Web]** : contient les modèles de formulaires. Pour créer un formulaire, vous devez commencer par un modèle.
+* **[!UICONTROL Ressources > Modèles > Modèles d’application web]** : contient les modèles de formulaires.Pour créer un formulaire, vous devez partir d’un modèle.
 
 >[!NOTE]
 >

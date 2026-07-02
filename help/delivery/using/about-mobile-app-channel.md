@@ -22,9 +22,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 751
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ Une fois cette étape effectuée, vous pouvez configurer vos applications Androi
 
 Si votre appareil mobile est connecté en Wi-Fi et que vous ne recevez pas les notifications, vérifiez que les ports FCM/APN ne sont pas bloqués par votre pare-feu.
 
-**&#x200B;**&#x200B;: l&#39;appareil mobile se connecte aux serveurs FCM sur les ports 5228 à 5230. Vous devez donc configurer votre pare-feu afin qu’il autorise la connexion à FCM. Les ports à ouvrir sont : 5228 (les plus utilisés), 5229 et 5230.
+**Android** : l’appareil mobile se connecte aux serveurs FCM sur les ports 5228 à 5230.Vous devez donc configurer votre pare-feu afin qu’il autorise la connexion à FCM.Les ports à ouvrir sont : 5228 (le plus fréquemment utilisé), 5229 et 5230.
 
 **iOS** :
 

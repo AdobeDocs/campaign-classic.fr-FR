@@ -18,9 +18,9 @@ subfeature_v2:
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
   - id: d1110311-2ca4-442b-be37-088a6db845ee
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 175
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 85%
 
 
 
-Les images utilisées dans les diagrammes des différents workflows peuvent être modifiées. Cependant, ils doivent respecter certaines contraintes. Les étapes de mise en œuvre sont les suivantes :
+Les images utilisées dans les diagrammes des différents workflows peuvent être modifiées.Elles doivent toutefois respecter certaines contraintes.Les étapes de mise en œuvre sont les suivantes :
 
 * Pour changer l’image d’arrière-plan, sélectionnez le workflow de ciblage visé et cliquez sur **[!UICONTROL Propriétés]**.
 

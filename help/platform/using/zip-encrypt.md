@@ -21,15 +21,15 @@ subfeature_v2:
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
   - id: efa38731-2723-4334-8d8b-a778af834835
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 639
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 # Compresser ou chiffrer un fichier {#zipping-or-encrypting-a-file}
 
-Adobe Campaign permet d&#39;exporter des fichiers compressés ou chiffrés. Lors de la définition d’une exportation par le biais d’une activité **[!UICONTROL Extraction (fichier)]** vous pouvez définir une étape de post-traitement pour compresser ou chiffrer le fichier.
+Adobe Campaign vous permet d’exporter des fichiers compressés ou chiffrés.Lors de la définition d’un export par le biais d’une activité **[!UICONTROL Extraction (fichier)]**, vous pouvez définir une étape de post-traitement pour le compresser ou le chiffrer.
 
 Pour ce faire :
 
@@ -48,7 +48,7 @@ Vous pouvez ensuite utiliser des commandes ou du code dans l&#39;onglet **[!UICO
 **Rubriques connexes :**
 
 * [Décompression ou déchiffrement d&#39;un fichier avant traitement](../../platform/using/unzip-decrypt.md)
-* [Activité Extraction (fichier)](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html?lang=fr){target="_blank"}
+* [Activité Extraction des données (fichier)](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/action-activities/extraction-file.html?lang=fr){target="_blank"}
 
 ## Cas d’utilisation : chiffrement et export de données à l’aide d’une clé installée sur le Panneau de contrôle {#use-case-gpg-encrypt}
 

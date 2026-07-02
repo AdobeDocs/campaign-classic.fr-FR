@@ -22,15 +22,15 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 400
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # À propos des adresses de contrôle{#about-seed-addresses}
 
-Les adresses de contrôle permettent de cibler des destinataires qui ne correspondent pas aux critères de ciblage définis. Ainsi, les destinataires qui ne font pas partie de la portée de la diffusion peuvent la recevoir, comme tout autre destinataire cible.
+Les adresses de contrôle sont utilisées pour cibler des personnes destinataires qui ne correspondent pas aux critères de ciblage définis.Ainsi, les personnes destinataires qui ne font pas partie de la portée de la diffusion peuvent la recevoir, comme toute autre personne destinataire cible.
 
 **La protection de votre liste de diffusion** représente l’une des principales raisons de les utiliser. L’insertion d’adresses de contrôle dans votre liste de diffusion vous permet de savoir si elle est utilisée par un tiers. Les adresses de contrôle qu’elle contient recevront en effet les diffusions envoyées à votre liste de diffusion.
 
@@ -48,7 +48,7 @@ Les adresses de contrôle sont ajoutées à la cible de diffusions en étant imp
 
 >[!NOTE]
 >
->Les adresses de contrôle n’appartiennent pas au tableau des destinataires. Elles sont créées dans un tableau distinct. Si vous étendez le tableau des destinataires avec de nouvelles données, vous devez étendre le tableau des adresses de contrôle avec les mêmes données. Sinon, les champs étendus ne seront pas pris en compte pour les adresses de contrôle.
+>Les adresses de contrôle ne sont pas créées dans la table des destinataires, mais dans une table distincte.Si vous étendez le tableau des destinataires avec de nouvelles données, vous devez étendre le tableau des adresses de contrôle avec les mêmes données. Sinon, les champs étendus ne seront pas pris en compte pour les adresses de contrôle.
 >
 >Vous trouverez un exemple d’extension de table d’adresses de contrôle dans la section suivante : [Cas d’utilisation : sélection des adresses de contrôle selon des critères](use-case-selecting-seed-addresses-on-criteria.md).
 

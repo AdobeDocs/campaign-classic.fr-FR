@@ -15,9 +15,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 844
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -32,9 +32,9 @@ Pour cette configuration, trois machines sont nécessaires :
 
 Les deux machines dans la DMZ prennent en charge le tracking, la gestion des pages miroir et l&#39;envoi des mails, et sont mises en redondance afin d&#39;obtenir une haute disponibilité.
 
-Le serveur applicatif du réseau local sert les utilisateurs finaux et exécute tous les processus récurrents (moteur de workflow). Ainsi, lorsque les charges maximales sont atteintes sur les serveurs frontaux, les utilisateurs de l’application ne sont pas affectés.
+Le serveur applicatif situé dans le LAN sert les utilisateurs et utilisatrices et effectue tous les traitements récurrents (moteur de workflow).Ainsi, en cas de pic de charge sur les serveurs frontaux, les utilisateurs et utilisatrices de l’application ne sont pas impactés.
 
-Le serveur de base de données peut être hébergé sur un ordinateur distinct de ces trois serveurs. Dans le cas contraire, le serveur applicatif et le serveur de base de données doivent partager le même ordinateur sur le LAN, à condition que le système d&#39;exploitation soit pris en charge par Adobe Campaign (Linux ou Windows).
+Le serveur de base de données peut être hébergé sur un ordinateur distinct de ces trois machines.Il est autrement possible de cumuler les fonctions de serveur applicatif et de serveur de base de données sur la même machine dans le LAN. Ceci suppose cependant qu’elle fonctionne sur un système d’exploitation pris en charge par Adobe Campaign (Linux ou Windows).
 
 La communication générale entre les serveurs et les processus est réalisée conformément au schéma suivant :
 
@@ -47,7 +47,7 @@ Ce type de configuration peut faire face à un grand nombre de profils de destin
 ### Avantages {#advantages}
 
 * Possibilité de basculer tous les processus sur une seule machine en cas de problème matériel sur l&#39;une des deux machines.
-* Meilleures performances globales, puisque les fonctions MTA et de redirection peuvent être déployées sur les deux ordinateurs derrière une répartition de charge. Avec deux MTA actifs et une bande passante suffisante, il est possible d&#39;atteindre des taux de diffusion de l&#39;ordre de 100 000 mails par heure.
+* Meilleures performances globales, puisque le MTA et la redirection derrière un répartiteur de charge peuvent être déployés sur les deux machines.Avec deux MTA actifs et suffisamment de bande passante, il est possible d’obtenir des taux de diffusion d’environ 100 000 courriers par heure.
 
 ## Etapes d&#39;installation et de configuration {#installation-and-configuration-steps}
 
@@ -62,7 +62,7 @@ Ce type de configuration peut faire face à un grand nombre de profils de destin
    * un premier alias exposé au grand public pour le tracking et pointant vers le répartiteur de charge sur une adresse IP virtuelle (VIP) qui est ensuite distribuée sur les deux serveurs frontaux,
    * un deuxième alias exposé aux utilisateurs métiers pour l&#39;accès console et pointant vers serveur applicatif.
 
-* Pare-feu configuré pour ouvrir STMP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 pour Oracle, 5432 pour PostgreSQL, etc.) les ports. Voir à ce sujet la section [Accès à la base de données](../../installation/using/network-configuration.md#database-access).
+* Configuration du pare-feu pour l’ouverture des ports SMTP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 pour Oracle, 5432 pour PostgreSQL, etc.)..Voir à ce sujet la section [Accès à la base de données](../../installation/using/network-configuration.md#database-access).
 
 ### Installation du serveur applicatif {#installing-the-application-server}
 
@@ -75,7 +75,7 @@ Dans les exemples présentés ci-dessous, les paramètres de l&#39;instance sont
 * Nom de l&#39;instance : **demo**
 * Masque DNS : **console.campaign.net&#42;** (uniquement pour la connexion des consoles clientes et pour les rapports)
 * Langue : française
-* Base : **campaign:demo@dbsrv**
+* Base de données : **campaign:demo@dbsrv**
 
 ### Installation des deux serveurs frontaux {#installing-the-two-frontal-servers}
 
@@ -92,7 +92,7 @@ Les étapes sont les suivantes :
    * Pour Linux : [Intégration à un serveur web pour Linux](../../installation/using/integration-into-a-web-server-for-linux.md)
    * Pour Windows : [Intégration à un serveur web pour Windows](../../installation/using/integration-into-a-web-server-for-windows.md)
 
-1. Créez l’instance **demo**. Vous avez le choix entre les deux méthodes suivantes :
+1. Créez l’instance **demo**.Vous avez le choix entre les deux méthodes suivantes :
 
    * Créer l&#39;instance via la console :
 
@@ -168,7 +168,7 @@ Les étapes sont les suivantes :
    Voir à ce propos les sections suivantes :
 
    * Pour Linux : [Lancement du serveur Web et test de la configuration](../../installation/using/integration-into-a-web-server-for-linux.md#launching-the-web-server-and-testing-the-configuration)
-   * Pour Windows : [&#128279;](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)Lancement du serveur Web et test de la configuration
+   * Pour Windows : [](../../installation/using/integration-into-a-web-server-for-windows.md#launching-the-web-server-and-testing-the-configuration)Lancement du serveur Web et test de la configuration
 
 1. Démarrer le serveur Adobe Campaign.
 1. Connectez-vous avec une console cliente Adobe Campaign avec l&#39;identifiant (login) **admin** sans mot de passe et lancez l&#39;assistant de déploiement.

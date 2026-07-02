@@ -14,9 +14,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 682
-ht-degree: 47%
+ht-degree: 100%
 
 ---
 
@@ -30,11 +30,11 @@ Trois modes de tracking Web sont disponibles :**&quot;Tracking Web de session&q
 
 ![](assets/s_ncs_install_deployment_wiz_tracking_mode.png)
 
-Chaque mode possède des caractéristiques spécifiques. Le mode de tracking Web « permanent » comprend les caractéristiques du mode de tracking Web « session », tandis que le mode « anonyme » comprend les caractéristiques des modes « permanent » et « session ».
+Chaque mode possède des caractéristiques qui lui sont propres.Le mode de tracking web « permanent » englobe les caractéristiques du mode de tracking web « session », tandis que le mode de tracking web « anonyme » englobe les caractéristiques des modes « permanent » et « session ».
 
 >[!IMPORTANT]
 >
->Le mode de tracking Web « anonyme » est activé par défaut si le package « Leads » est activé. Dans tous les autres cas, le mode de tracking Web « session » est activé par défaut.
+>Le mode de tracking web « anonyme » est activé par défaut si le package « Leads » est activé.Dans tous les autres cas, le mode de tracking web « session » est activé par défaut.
 >
 >Il est possible de modifier le mode par défaut à tout moment dans l&#39;assistant de déploiement de l&#39;instance.
 
@@ -57,7 +57,7 @@ L&#39;option **Dernière diffusion** permet de rattacher le log de tracking cour
 
 **Caractéristiques du tracking Web de session:**
 
-Ce mode crée un log de tracking pour les personnes disposant d’un cookie de session. Il s’agit de personnes qui ont cliqué sur une URL dans un email envoyé par Adobe Campaign, ce qui nous permet de suivre les informations suivantes :
+Ce mode crée un log de tracking pour les personnes qui possèdent un cookie de session.Ces personnes ont cliqué sur une URL dans un e-mail provenant d’une diffusion Adobe Campaign. Il est donc possible de remonter les informations suivantes dans le log de tracking :
 
 * Identifiant de la diffusion
 * l&#39;identifiant de la personne
@@ -72,17 +72,17 @@ Ce mode est peu coûteux en volume (nombre d&#39;enregistrements restreint dans 
 
 **Caractéristiques du mode de tracking Web permanent :**
 
-Ce mode de tracking Web permet de créer un log de tracking basé sur la présence du cookie permanent uuid230. Si un visiteur ferme sa session, Adobe Campaign utilise le cookie permanent pour récupérer les informations le concernant dans les logs de tracking précédents. Adobe Campaign réinsère un log de tracking si l’uuid230 de la session en cours a la même valeur qu’un uuid230 déjà stocké dans la table de tracking.
+Ce mode de tracking web vous permet de créer un log de tracking basé sur la présence du cookie permanent uuid230.Si une personne ferme sa session, Adobe Campaign utilise le cookie permanent pour récupérer les informations la concernant dans les logs de tracking précédents.Adobe Campaign réinsère un log de tracking si l’uuid230 de la session en cours a la même valeur qu’un uuid230 déjà stocké dans la table de tracking.
 
 Il est donc nécessaire que la personne soit déjà identifiée dans Adobe Campaign (via une diffusion) afin de faire la réconciliation sur les valeurs d&#39;uuid230.
 
-Par défaut, la recherche dans les logs de tracking précédents se fait dans la table « trackingLog ». Si le package Leads est activé, avant de rechercher dans la table « trackingLog », Adobe Campaign recherche dans la table « incomingLead » les enregistrements précédents de logs de tracking.
+Par défaut, les recherches dans les logs de tracking précédents se font dans la table « trackingLog ».Si le package Leads est activé, avant de rechercher dans la table « trackingLog », Adobe Campaign recherchera dans la table « incomingLead » les enregistrements précédents de logs de tracking.
 
 Ce mode est coûteux particulièrement en calcul lors de la réconciliation des logs.
 
 **Caractéristiques du mode de tracking Web anonyme :**
 
-Ce mode de tracking Web permet de récupérer un log de tracking associé à une navigation anonyme dans Adobe Campaign. Un log de tracking est automatiquement créé à chaque clic sur une URL trackée. Ce journal contient uniquement la valeur de l’uuid230. Lors d&#39;une campagne marketing, un log de tracking est automatiquement créé avec toutes les informations d&#39;identification (voir la section tracking des sessions). Adobe Campaign recherche automatiquement dans les journaux précédents une valeur « uuid230 » égale à la valeur du journal de tracking pour cette campagne marketing. Si des valeurs identiques sont trouvées, tous les logs de tracking précédents sont saisis avec toutes les informations du log de tracking des campagnes marketing.
+Ce mode de tracking web vous permet de récupérer un log de tracking lié à une navigation anonyme dans Adobe Campaign.Un log de tracking est créé automatiquement à chaque clic sur une URL trackée.Ce log contient uniquement la valeur de l’uuid230.Lors d’une campagne marketing, un log de tracking est créé automatiquement avec toutes les informations d’identification (consulter le suivi de session).Adobe Campaign recherchera automatiquement dans les log précédents une valeur « uuid230 » égale à la valeur du log de tracking pour cette campagne marketing.Si des valeurs identiques sont trouvées, tous les logs de tracking précédents sont renseignés avec toutes les informations du log de tracking de la campagne marketing.
 
 Ce mode est le plus coûteux en calcul comme en volume.
 
@@ -96,4 +96,4 @@ Le schéma suivant regroupe les différentes fonctionnalités des trois modes de
 
 **Exemple de tracking Web Permanent basé sur la dernière diffusion :**
 
-Florence reçoit une livraison, ouvre l&#39;email, clique sur le lien, navigue sur le site de vente au détail mais ne fait aucun achat. Le lendemain, Florence retourne sur le site de vente au détail, navigue et effectue un achat. Comme le tracking Web permanent (dernière diffusion) est activé, tous les logs de sa deuxième visite seront associés à la diffusion qui lui a été envoyée la veille.
+Florence reçoit une diffusion, ouvre l’e-mail, clique sur le lien, navigue sur le site de vente au détail mais ne fait aucun achat.Le lendemain, Florence revient sur le site de vente au détail, navigue et effectue un achat.Comme le tracking web permanent (dernière diffusion) est activé, tous les logs de sa deuxième visite seront liés à la diffusion qui lui a été envoyée la veille.

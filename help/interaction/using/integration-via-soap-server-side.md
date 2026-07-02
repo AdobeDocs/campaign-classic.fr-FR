@@ -14,9 +14,9 @@ feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 326
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 65%
 
 
 
-Les services web SOAP fournis pour la gestion des offres sont différents de ceux généralement utilisés dans Adobe Campaign. Ils sont accessibles via l&#39;URL d&#39;interaction décrite dans la section précédente et permettent de présenter ou de mettre à jour des offres pour un contact donné.
+Les services web SOAP fournis pour la gestion des offres sont différents de ceux généralement utilisés dans Adobe Campaign.Ils sont accessibles via l’URL d’interaction décrite dans la section précédente et permettent de proposer ou de mettre à jour des offres pour un contact donné.
 
 ## Proposition d&#39;offres {#offer-proposition}
 
-Pour une proposition d&#39;offre via SOAP, ajoutez la commande **nms:proposition#Propose** suivie des paramètres suivants :
+Pour une proposition d’offre via SOAP, ajoutez la commande **nms:proposition#Propose** suivie des paramètres suivants :
 
 * **targetId** : clé primaire du destinataire (il peut s&#39;agir d&#39;une clé composite).
 * **maxCount** : indique le nombre de propositions d&#39;offre pour le contact.
@@ -41,7 +41,7 @@ Pour une proposition d&#39;offre via SOAP, ajoutez la commande **nms:proposition
 
 >[!NOTE]
 >
->Les paramètres **targetId** et **maxCount** sont obligatoires. Les autres sont facultatifs.
+>Les paramètres **targetId** et **maxCount** sont obligatoires.Les autres sont facultatifs.
 
 En réponse à la requête, le service SOAP renverra les paramètres suivants :
 
@@ -50,10 +50,10 @@ En réponse à la requête, le service SOAP renverra les paramètres suivants :
 
 ## Mise à jour d&#39;une offre {#offer-update}
 
-Ajoutez la commande **nms:interaction#UpdateStatus** à l&#39;URL, puis les paramètres suivants :
+Ajoutez la commande **nms:interaction#UpdateStatus** à l’URL, puis les paramètres suivants :
 
 * **proposition** : chaîne de caractères, contient l&#39;identifiant de la proposition donnée en sortie lors d&#39;un appel au moteur. Voir [Proposition d&#39;offres](#offer-proposition).
-* **status** : nombre, indique le nouveau statut de l&#39;offre. Les valeurs possibles sont répertoriées dans l&#39;énumération **propositionStatus**, dans le schéma **nms:common** . Par exemple, d&#39;usine, le nombre 3 correspond au statut **Acceptée**.
+* **status** : nombre, indique le nouveau statut de l&#39;offre. Les valeurs possibles sont répertoriées dans l’énumération **propositionStatus**, dans le schéma **nms:common**.Par exemple, d&#39;usine, le nombre 3 correspond au statut **Acceptée**.
 * **Context** : élément XML, vous permet d&#39;ajouter des informations contextuelles dans le schéma d&#39;espace. Si le schéma utilisé est **nms:interaction**, **`<empty>`** doit être ajouté.
 
 ## Exemple d&#39;utilisation d&#39;un appel SOAP {#example-using-a-soap-call}

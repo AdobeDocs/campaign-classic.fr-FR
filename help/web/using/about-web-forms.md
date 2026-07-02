@@ -18,9 +18,9 @@ subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 524
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 76%
 
 
 
-Adobe Campaign intègre un module graphique de définition et de publication de formulaires web afin de créer des pages proposant des champs de saisie et de sélection, et pouvant inclure des données de la base de données. Vous pouvez ainsi concevoir et publier des pages web auxquelles les utilisateurs peuvent accéder pour afficher ou saisir des informations.
+Adobe Campaign intègre un module graphique pour la définition et la publication des formulaires web afin de créer des pages avec des champs de saisie et de sélection, et qui peuvent inclure des données de la base de données.Vous pouvez ainsi concevoir et publier des pages web auxquelles les utilisateurs peuvent accéder pour afficher ou saisir des informations.
 
 Ce chapitre présente le mode de création et de gestion d&#39;un formulaire Web, la gestion des champs et des pages, les modes de stockage et d&#39;enregistrement.
 
@@ -38,7 +38,7 @@ Ce chapitre présente le mode de création et de gestion d&#39;un formulaire Web
 
 ## Etapes de création d&#39;un formulaire web {#steps-for-creating-a-web-form}
 
-Ce chapitre présente les étapes de conception d&#39;un formulaire de type **webForm** dans Adobe Campaign, ainsi que les options et paramétrages disponibles. Adobe Campaign vous permet de mettre ce formulaire Web à disposition des utilisateurs, ainsi que de collecter et archiver les réponses dans la base de données.
+Le chapitre suivant présente les étapes de conception d’un formulaire de type **webForm** dans Adobe Campaign, ainsi que les options et configurations disponibles.Adobe Campaign vous permet de mettre ce formulaire web à disposition des utilisateurs et utilisatrices, ainsi que de collecter et d’archiver les réponses dans la base de données.
 
 >[!CAUTION]
 >
@@ -78,7 +78,7 @@ Pour définir le paramétrage et le contenu du formulaire Web, les étapes sont 
 
 ## À propos de la conception des formulaires web {#about-web-forms-designing}
 
-Les pages du formulaire sont créées au travers d&#39;un éditeur spécifique qui permet de définir et paramétrer des zones de saisie (texte), des champs de sélection (listes, cases à cocher, etc.) et les éléments statiques (images, contenus HTML, etc.). Ces éléments peuvent être regroupés en conteneurs et leur disposition modifiée en fonction de vos besoins (voir à ce sujet la section [Créer des conteneurs](defining-web-forms-layout.md#creating-containers)).
+Les pages du formulaire sont créées à l’aide d’un éditeur spécifique qui permet de définir et de configurer des zones d’entrée (texte), des champs de sélection (listes, cases à cocher, etc.)et des éléments statiques (images, contenus HTML, etc.).Ces éléments peuvent être regroupés en conteneurs et leur disposition modifiée en fonction de vos besoins (voir à ce sujet la section [Créer des conteneurs](defining-web-forms-layout.md#creating-containers)).
 
 La définition du contenu et de la mise en page des écrans du formulaire sont présentés dans les sections suivantes :
 
@@ -89,7 +89,7 @@ La définition du contenu et de la mise en page des écrans du formulaire sont p
 
 >[!NOTE]
 >
->* Lors de la conception de la page, vous pouvez afficher le rendu final dans l’onglet **[!UICONTROL Aperçu]**. Pour afficher les modifications, commencez par enregistrer le formulaire. Les erreurs éventuelles sont affichées dans l&#39;onglet **[!UICONTROL Log]**.
+>* Pendant la conception des pages, vous pouvez visualiser le rendu final dans l’onglet **[!UICONTROL Prévisualisation]**.Pour visualiser les modifications, enregistrez d’abord le formulaire.Les erreurs éventuelles sont affichées dans l&#39;onglet **[!UICONTROL Log]**.
 >* Vous pouvez contrôler le bon enchaînement des pages et le stockage des informations en activant le mode debug au niveau du formulaire web. Pour cela, à partir du sous-onglet **[!UICONTROL Aperçu]**, cochez l&#39;option **[!UICONTROL Activer le mode debug]** : les informations collectées et les éventuelles erreurs d&#39;exécution seront alors affichées en bas de chaque page.
 >
 

@@ -24,17 +24,17 @@ subfeature_v2:
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
   - id: efa38731-2723-4334-8d8b-a778af834835
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 208
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
 # Prise en main de Campaign Classic{#about-adobe-campaign-classic}
 
-Pour offrir un haut degré d’engagement des clients et des expériences de qualité, les marques doivent créer des parcours client cohérents à tous les points de contact. Les marketeurs peuvent désormais concevoir, planifier, exécuter, gérer et optimiser efficacement des campagnes marketing cross-canal qui offrent un retour sur investissement marketing élevé et fidélisent les clients.
+Pour favoriser l’engagement de la clientèle et offrir des expériences de qualité, les marques doivent créer des parcours clientèle cohérents à tous les points de contact.Les spécialistes marketing peuvent désormais concevoir, planifier, exécuter, gérer et optimiser des campagnes marketing cross-canal qui offrent un retour sur investissement élevé et fidélisent les clientes et clients.
 
-Adobe Campaign permet de coordonner la création de campagnes marketing conversationnelles. Adobe Campaign dispose de fonctionnalités innovantes pour modéliser, rationaliser et automatiser les processus de marketing et de communication client.
+Adobe Campaign permet de coordonner la création de campagnes marketing conversationnelles.Adobe Campaign dispose de capacités innovantes de modélisation, de rationalisation et d’automatisation des processus du marketing et de la communication clientèle.
 
 
 >[!BEGINTABS]

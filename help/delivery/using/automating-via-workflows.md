@@ -21,9 +21,9 @@ subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1241
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Les propriétés de l&#39;activité se divisent en quatre étapes :
 
 * **Spécifié par la transition**
 
-  Le contenu à utiliser a été créé précédemment. Les processus porteront sur l’instance de contenu propagée par l’événement entrant. L&#39;identifiant du contenu est accessible à partir de la variable « contentId » de l&#39;événement.
+  Le contenu à utiliser a été créé précédemment.Les processus porteront sur l’instance de contenu propagée par l’événement entrant.L’identifiant du contenu est accessible à partir de la variable « contentId » de l’événement.
 
 * **Explicite**
 
@@ -56,11 +56,11 @@ Les propriétés de l&#39;activité se divisent en quatre étapes :
 
 * **Calculé par un script**
 
-  Sélectionne une instance de contenu à partir d’un modèle JavaScript. Le code à évaluer permet de récupérer l&#39;identifiant du contenu.
+  Sélectionne une instance de contenu à partir d’un modèle JavaScript.Le code à évaluer permet de récupérer l’identifiant du contenu.
 
 * **Nouveau, créé depuis un modèle de publication**
 
-  Crée un nouveau contenu à partir d&#39;un modèle de publication. L’instance de contenu sera enregistrée dans le dossier « String » renseigné.
+  Crée un nouveau contenu depuis un modèle de publication.L’instance de contenu sera enregistrée dans le dossier « Chaîne » renseigné.
 
 ### Mettre à jour le contenu {#update-the-content}
 
@@ -70,7 +70,7 @@ Les propriétés de l&#39;activité se divisent en quatre étapes :
 
 * **Accès aux données provenant d&#39;un flux XML**
 
-  Le contenu est mis à jour à partir d’un flux XML provenant d’une source externe. Une URL doit être saisie pour que le téléchargement de données se produise.
+  Le contenu est mis à jour à partir d’un flux XML provenant d’une source externe.Une URL doit être saisie pour que le téléchargement de données se produise.
 
   Une feuille de style XSL peut être utilisée pour transformer les données XML entrantes.
 
@@ -78,15 +78,15 @@ Les propriétés de l&#39;activité se divisent en quatre étapes :
 
 * **Enregistrer**
 
-  Enregistre le contenu créé ou modifié. L’identifiant du contenu enregistré est propagé dans la variable « contentId » de l’événement sortant.
+  Enregistre le contenu créé ou modifié.L’identifiant du contenu enregistré est propagé dans la variable « contentId » de l’événement sortant.
 
 * **Générer**
 
-  Génère les fichiers de sortie de chacun des modèles de transformation avec une publication de type « Fichier ». La transition sortante est activée pour chaque fichier généré, avec les paramètres suivants : l&#39;identifiant du contenu enregistré dans la variable « contentId » et le nom du fichier dans la variable « filename » .
+  Génère les fichiers de sortie de chacun des modèles de transformation avec une publication de type « Fichier ».La transition sortante est activée pour chacun des fichiers générés avec pour paramètre l’identifiant du contenu enregistré dans la variable « contentId » et le nom du fichier dans la variable « filename ».
 
 ### Transition {#transition}
 
-L&#39;option **Générer une transition sortante** permet d&#39;ajouter une transition sortante à l&#39;activité **[!UICONTROL Gestion de contenu]** afin de lier une nouvelle activité à l&#39;exécution du workflow. Après avoir coché cette option, saisissez un libellé pour la transition.
+L’option **Générer une transition sortante** permet d’ajouter une transition en sortie de l’activité de **[!UICONTROL Gestion de contenu]** afin de lier l’exécution du workflow à une nouvelle activité.Après avoir coché cette option, saisissez un libellé pour la transition.
 
 ## Exemples {#examples}
 
@@ -164,7 +164,7 @@ L&#39;action de diffusion est paramétrée à partir de l&#39;activité **Diffus
 
 Une nouvelle action de diffusion est créée depuis un modèle.
 
-Le modèle de diffusion de l&#39;activité permet de sélectionner les modèles de transformation du modèle de publication. La génération du contenu prend en compte tous les modèles HTML et Texte sans modèle de diffusion ou référencés avec le même modèle que l&#39;activité.
+Le modèle de diffusion de l’activité est utilisé pour sélectionner les modèles de transformation du modèle de publication.La génération du contenu prendra en compte les modèles HTML et Texte sans modèle de diffusion associés ou référencés avec le même modèle que celui spécifié dans l’activité.
 
 La cible à diffuser est renseignée à partir de l&#39;événement entrant.
 
@@ -238,7 +238,7 @@ Si le contenu de votre diffusion figure dans un fichier HTML qui se trouve dans 
 
 ## Mise à jour semi-automatique {#semi-automatic-update}
 
-Les données de contenu peuvent être mises à jour en mode « semi-automatique ». Les données sont récupérées à partir d&#39;un flux XML via une URL.
+Les données de contenu peuvent être mises à jour en mode « semi-automatique ».Les données sont récupérées à partir d’un flux XML provenant d’une URL.
 
 L&#39;activation de la récupération des données est réalisée manuellement à partir du formulaire de saisie.
 

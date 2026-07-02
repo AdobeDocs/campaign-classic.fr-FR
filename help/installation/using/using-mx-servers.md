@@ -14,9 +14,9 @@ product_v2:
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 864
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -95,4 +95,4 @@ Le mode personnalisé est destiné aux clients avancés qui souhaitent définir 
 * [Configuration des MX](../../installation/using/email-deliverability.md#mx-configuration)
 * [Configuration technique des emails](../../installation/using/email-deliverability.md)
 * [Présentation des diffusions en échec](../../delivery/using/delivery-failures-quarantine.md)
-* [Campaign Classic - Recommandations techniques](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=fr)
+* [Campaign Classic - Recommandations techniques](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=fr)

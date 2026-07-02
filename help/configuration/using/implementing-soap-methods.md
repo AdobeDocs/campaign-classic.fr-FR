@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 418
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 74%
 
 ## Introduction {#introduction}
 
-Il est possible de créer des méthodes SOAP dans JavaScript. Cette fonction active simplement les processus d’application. Elle peut éviter de développer des JSP et de les appeler dans les formulaires.
+Il est possible de créer des méthodes SOAP en JavaScript.Cette fonctionnalité permet simplement des traitements applicatifs. Elle peut remplacer le développement de JSP et leur invocation dans les formulaire.
 
-Ces méthodes SOAP se comportent de la même manière que celles définies nativement dans l’application. Les mêmes attributs sont pris en charge : statique, clé seule et const.
+Ces méthodes SOAP se comporteront de la même façon que celles définies nativement dans l’application.Les mêmes attributs sont pris en charge : statique, clé seule et const.
 
 ## Définition dʼune bibliothèque de méthodes {#defining-a-method-library}
 
@@ -75,7 +75,7 @@ Les méthodes SOAP sont implémentées sous forme de fonctions Javascript regrou
 
 Le script peut contenir du code qui sera exécuté au chargement initial de la bibliothèque.
 
-**1. Nom**
+**1.Nom**
 
 Le nom de la fonction doit respecter le format suivant :
 
@@ -94,7 +94,7 @@ function nms_recipient_testLog(message)
  }
 ```
 
-**2. Signature**
+**2.Signature**
 
 La signature de la fonction doit inclure un argument correspondant à chaque paramètre de type &#39;in&#39; ou &#39;inout&#39; de la déclaration.
 
@@ -103,9 +103,9 @@ Cas particuliers :
 * **les méthodes non statiques** : la fonction doit inclure un argument supplémentaire en première position correspondant à l&#39;entité XML passée sous forme d&#39;objet de type &#39;xml&#39; (E4X).
 * **les méthodes de type &quot;clé seule&quot;** : la fonction doit inclure un argument supplémentaire en première position correspondant à clé passée sous forme de chaîne de caractères.
 
-**3. Valeurs retournées**
+**3.Valeurs retournées**
 
-La fonction doit retourner une valeur pour chaque paramètre de type &#39;out&#39; ou &#39;inout&#39;. Cas spécifique : si la méthode est déclarée sans aucun des attributs &#39;static&#39;, &#39;key only&#39; ou &#39;const&#39;, la première valeur renvoyée doit coïncider avec l&#39;entité modifiée. Il est possible de renvoyer un nouvel objet ou de renvoyer le premier paramètre modifié.
+La fonction doit renvoyer une valeur pour chaque paramètre de type « out » ou « inout ».Cas particulier : si la méthode est déclarée avec aucun des attributs « statique », « clé seule » et « const », la première valeur renvoyée doit correspondre à l’entité modifiée.Il est possible de renvoyer un nouvel objet ou de renvoyer le premier paramètre modifié.
 
 Par exemple :
 

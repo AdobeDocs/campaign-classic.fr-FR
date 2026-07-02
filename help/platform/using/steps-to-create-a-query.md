@@ -20,9 +20,9 @@ subfeature_v2:
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
   - id: efa38731-2723-4334-8d8b-a778af834835
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 147
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Les étapes de construction d&#39;une requête dans Adobe Campaign sont les sui
 
 >[!NOTE]
 >
->* Toutes ces étapes sont disponibles dans le requêteur générique. Lorsqu’une requête est créée dans un autre contexte, certaines étapes peuvent être ignorées.\
+>* Toutes ces étapes sont disponibles dans le requêteur générique.Lorsqu’une requête est créée dans un autre contexte, certaines étapes peuvent être omises.\
 >L&#39;activité Requête est présentée dans [cette section](../../workflow/using/query.md).
 >* Pour en savoir plus sur les requêtes et leur création, consultez la [documentation de Campaign v8](../../workflow/using/query.md).
 

@@ -13,9 +13,9 @@ product_v2:
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 147
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -50,13 +50,13 @@ Cet élément permet de définir les valeurs stockées dans une énumération.
 
 ## Description des attributs {#attribute-description-16}
 
-* **applicableIf (string)**: cet attribut permet de rendre une valeur d&#39;énumération optionnelle. Il reçoit une expression XTK.
+* **applicableIf (string)** : cet attribut permet de rendre une valeur d’énumération facultative.Il reçoit une expression XTK.
 * **desc (string)**: description de la valeur de l&#39;énumération.
 * **enabledIf (string)**: condition d&#39;activation de la valeur de l&#39;énumération.
-* **img (string)** : image associée à l&#39;énumération dans le formulaire « namespace:image_name ». Physiquement l&#39;image doit être importée sur le serveur applicatif.
+* **img (string)** : image associée à l’énumération dans le formulaire « namespace:image_name ».Physiquement l&#39;image doit être importée sur le serveur applicatif.
 * **label (string)**: libellé de la valeur de l&#39;énumération.
 * **name (string)**: nom interne de la valeur de l&#39;énumération.
-* **value (string)** : valeur de la valeur de l&#39;énumération. Le type de valeur est défini en fonction du type d’énumération. Si l’énumération est de type chaîne de caractères, elle ne peut contenir que des valeurs de type chaîne de caractères.
+* **label (string)** : valeur de la valeur de l’énumération.Le type de la valeur est défini en fonction du type de l’énumération.Si l’énumération est de type chaîne de caractères, elle ne peut contenir que des valeurs de type chaîne de caractères.
 
 ## Exemples {#examples-13}
 

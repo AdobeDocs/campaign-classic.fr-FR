@@ -23,7 +23,7 @@ subfeature_v2:
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
 workflow-type: tm+mt
 source-wordcount: 1576
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Les diffusions peuvent être créées depuis le tableau de bord d&#39;une opéra
 
 Une fois créées à partir d’une campagne, les diffusions y sont liées et sont consolidées au niveau de cette campagne.
 
-![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#create-email-video)
+![](assets/do-not-localize/how-to-video.png)[Découvrez cette fonctionnalité en vidéo](#create-email-video)
 
 ## Création de diffusions {#creating-deliveries}
 
@@ -45,17 +45,17 @@ Les paramétrages proposés sont adaptés au type de diffusion : courrier, emai
 
 ## Démarrage dʼune diffusion {#starting-a-delivery}
 
-Une fois toutes les validations accordées, la diffusion est prête à démarrer. La procédure dépend alors du type de diffusion. Pour les diffusions par email ou sur les canaux mobiles, voir la section [Démarrer une diffusion online](#starting-an-online-delivery) et pour les diffusions courrier, voir la section [Démarrer une diffusion offline](#starting-an-offline-delivery).
+Une fois que toutes les validations ont été accordées, la diffusion est prête à démarrer. La procédure de diffusion dépend alors du type de diffusion. Pour les diffusions par email ou sur les canaux mobiles, voir la section [Démarrer une diffusion online](#starting-an-online-delivery) et pour les diffusions courrier, voir la section [Démarrer une diffusion offline](#starting-an-offline-delivery).
 
 ### Démarrage dʼune diffusion en ligne {#starting-an-online-delivery}
 
-Une fois toutes les demandes de validation approuvées, la diffusion passe à l&#39;état **[!UICONTROL Confirmation en attente]** et peut être démarrée par un opérateur. Le cas échéant, l&#39;opérateur Adobe Campaign (ou le groupe d&#39;opérateurs) désigné comme validant pour le démarrage de la diffusion est alors notifié qu&#39;une diffusion est prête à être démarrée.
+Une fois toutes les demandes de validation approuvées, la diffusion passe au statut **[!UICONTROL En attente de confirmation]** et peut être démarrée. Le cas échéant, l’opérateur ou l’opératrice (ou le groupe) Adobe Campaign en charge de la révision dans le cadre du démarrage de la procédure reçoit une notification indiquant qu’une diffusion est prête à être démarrée.
 
 >[!NOTE]
 >
 >Si un opérateur spécifique ou groupe d&#39;opérateurs est désigné pour le démarrage de la diffusion dans les propriétés de cette dernière, vous pouvez également permettre à l&#39;opérateur en charge de la diffusion de confirmer l&#39;envoi. Pour cela activez l&#39;option **NMS_ActivateOwnerConfirmation** en indiquant comme valeur **1**. Les options sont gérées à partir du nœud **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** de l&#39;explorateur Adobe Campaign.
 >  
->Pour désactiver cette option, entrez **0** comme valeur. Le processus de confirmation d’envoi suivra alors le fonctionnement par défaut : seul l’opérateur ou l’opératrice ou le groupe désigné pour l’envoi (ou un administrateur ou une administratrice) dans les propriétés de la diffusion pourra confirmer et effectuer l’envoi.
+>Pour désactiver cette option, saisissez **0** en tant que valeur. Le processus de confirmation d’envoi suivra alors le fonctionnement par défaut : seul l’opérateur ou l’opératrice ou le groupe désigné pour l’envoi (ou un administrateur ou une administratrice) dans les propriétés de la diffusion pourra confirmer et effectuer l’envoi.
 
 ![](assets/s_ncs_user_edit_del_to_start_from_del.png)
 
@@ -81,7 +81,7 @@ Pour plus dʼinformations, consultez la section [Validation dʼun fichier dʼext
 
 **Étape 2 : validation du message au prestataire**
 
-* Une fois le fichier d’extraction validé, vous pouvez générer le BAT de l’e-mail de notification au routeur. Ce message e-mail est construit à partir d’un modèle de diffusion. Il doit être approuvé.
+* Une fois le fichier d’extraction approuvé, vous pouvez générer le BAT de l’e-mail de notification au routeur. Ce message e-mail est construit à partir d’un modèle de diffusion. Il doit être approuvé.
 
   >[!NOTE]
   >
@@ -114,15 +114,15 @@ Pour plus dʼinformations, consultez la section [Validation dʼun fichier dʼext
 
 ### Calcul des coûts et des stocks {#calculation-of-costs-and-stocks}
 
-L&#39;extraction du fichier lance deux opérations : le calcul du budget et le calcul des stocks. Les entrées de budget sont mises à jour.
+L’extraction du fichier lance deux opérations : le calcul du budget et celui du stock. Les entrées de budget sont mises à jour.
 
 * L&#39;onglet **[!UICONTROL Budget]** vous permet de gérer les budgets de la campagne. Le cumul des lignes de coût est repris dans le champ **[!UICONTROL Coût calculé]** de l&#39;onglet principal de l&#39;opération et du programme auquel elle appartient. Les montants sont également répercutés dans le budget de la campagne.
 
-  Le coût réel sera finalement calculé à partir des informations fournies par le routeur. Seuls les messages réellement envoyés sont facturés.
+  Le coût réel sera calculé au final en fonction des informations fournies par le routeur. Seuls les messages réellement envoyés sont facturés.
 
 * Les stocks sont définis dans le noeud **[!UICONTROL Administration > Gestion de campagne > Stocks]** de l&#39;arborescence, et les structures de coût, dans le noeud **[!UICONTROL Administration > Gestion de campagne > Prestataires]**.
 
-  Les lignes de stock sont visibles dans la section de stock. Pour définir le stock initial, ouvrez une ligne de stock. Le stock est décrémenté à chaque livraison. Vous pouvez définir un niveau d’alerte et des notifications.
+  Les lignes de stock sont visibles dans la section de stock. Pour définir le stock initial, ouvrez une ligne de stock. Le stock est réduit à chaque diffusion. Vous pouvez définir un niveau d’alerte et des notifications.
 
 >[!NOTE]
 >
@@ -130,7 +130,7 @@ L&#39;extraction du fichier lance deux opérations : le calcul du budget et le c
 
 ## Gestion des documents associés {#managing-associated-documents}
 
-Vous pouvez associer différents documents à une opération, comme des rapports, photos, pages web, diagrammes, etc. Ces documents peuvent avoir n’importe quel format (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc.). Découvrez comment lier des documents à une campagne [dans cette section](../../campaign/using/marketing-campaign-assets.md).
+Vous pouvez associer différents documents à une campagne : rapport, photo, page web, diagramme, etc. Ces documents peuvent être dans n’importe quel format (Microsoft Word, PowerPoint, PNG, JPG, Acrobat PDF, etc.). Découvrez comment lier des documents à une campagne [dans cette section](../../campaign/using/marketing-campaign-assets.md).
 
 >[!IMPORTANT]
 >
@@ -148,7 +148,7 @@ Des documents peuvent être associés au niveau de l&#39;opération (documents c
 
 L&#39;onglet **[!UICONTROL Documents]** contient :
 
-* La liste de tous les documents requis pour le contenu (modèle, images, etc.) qui peuvent être téléchargés localement par les opérateurs Adobe Campaign disposant des droits adéquats,
+* La liste de tous les documents requis pour le contenu (modèle, images, etc.) qui peuvent être téléchargés localement par les opérateurs et opératrices Adobe Campaign disposant des droits adéquats,
 * les documents contenant des informations destinées au routeur, s&#39;ils existent.
 
 Les documents sont rattachés au programme ou à l&#39;opération via leur onglet **[!UICONTROL Edition > Documents]**.
@@ -175,9 +175,9 @@ Ils peuvent également être édités et modifiés depuis cette vue.
 >
 >Les compositions de diffusion sont exclusivement utilisées dans le cadre de campagnes courrier.
 
-Une composition de diffusion désigne un ensemble structuré d’éléments (documents, agences/magasins, coupons promotionnels, etc.) créé dans la société et pour une campagne particulière.
+Une composition de diffusion désigne un ensemble structuré d’éléments (documents, agences/magasins, coupons promotionnels, etc.) créés dans l’entreprise et pour une campagne particulière.
 
-Ces éléments sont regroupés dans des compositions, et telle ou telle composition sera associée à une diffusion : elle sera référencée dans le fichier d&#39;extraction transmis au **prestataire** afin d&#39;être jointe à la diffusion. Par exemple, vous pouvez créer une composition de diffusion qui fait référence à une branche et aux brochures marketing qu’elle utilise.
+Ces éléments sont regroupés dans des compositions de diffusion, et telle ou telle composition de diffusion sera associée à une diffusion : elle sera référencée dans le fichier d’extraction transmis au **prestataire** afin d’être jointe à la diffusion. Par exemple, vous pouvez créer une composition de diffusion qui fait référence à une branche et aux brochures marketing qu’elle utilise.
 
 Les compositions de diffusions permettent, au niveau de la campagne, de structurer des éléments externes qui seront associés à la diffusion en fonction de certains critères : branche de rattachement, offre promotionnelle accordée, invitation à un événement local, etc.
 
@@ -187,7 +187,7 @@ Pour créer une composition, cliquez sur le sous-onglet **[!UICONTROL Compositio
 
 >[!NOTE]
 >
->Si cet onglet n’est pas présent, cette fonctionnalité n’est pas disponible pour cette campagne. Pour plus d&#39;informations, consultez la section configuration du modèle de campagne .
+>Si cet onglet n’est pas présent, cela signifie que la fonctionnalité n’est pas prise en compte pour cette campagne. Reportez-vous à la configuration du modèle de campagne.
 >   
 >Voir à ce sujet la section [modèles d&#39;opération](../../campaign/using/marketing-campaign-templates.md#campaign-templates).
 
@@ -203,7 +203,7 @@ Cliquez ensuite sur **[!UICONTROL Ajouter une composition de diffusion]** et cr�
 Une composition peut contenir des articles, des champs de personnalisation, des ressources et des offres :
 
 * Les articles sont par exemple des documents physiques qui sont ici référencés et décrits, et seront joints à la diffusion.
-* Les champs de personnalisation permettent de créer des éléments de personnalisation relatifs aux diffusions et non aux destinataires. Il est ainsi possible de créer des valeurs qui seront utilisées dans les diffusions pour une cible spécifique (offre de bienvenue, remise, etc.) Ils sont créés dans Adobe Campaign et importés dans la composition via le lien **[!UICONTROL Importer des champs de personnalisation...]** .
+* Les champs de personnalisation permettent de créer des éléments de personnalisation relatifs aux diffusions et non aux destinataires. Il est ainsi possible de créer des valeurs qui seront utilisées dans les diffusions pour une cible spécifique (offre de bienvenue, remise, etc.). Elles sont créées dans Adobe Campaign et importées dans la composition via le lien **[!UICONTROL Importer des champs de personnalisation…]**.
 
   ![](assets/s_ncs_user_op_add_composition_field.png)
 
@@ -225,7 +225,7 @@ Pour chaque diffusion, vous pouvez sélectionner la composition à associer à p
 
 ![](assets/s_ncs_user_op_select_composition.png)
 
-La composition sélectionnée est alors affichée dans la section inférieure de la fenêtre. Elle peut être modifiée à l’aide de l’icône située à droite du champ ou dans la liste déroulante :
+La composition sélectionnée s’affiche alors dans la partie inférieure de la fenêtre. Elle peut être éditée à partir de l’icône située à droite du champ ou modifiée en utilisant la liste déroulante :
 
 ![](assets/s_ncs_user_op_select_composition_b.png)
 
@@ -235,7 +235,7 @@ L&#39;onglet **[!UICONTROL Résumé]** de la diffusion affiche également cette 
 
 #### Résultat de l&#39;extraction {#extraction-result}
 
-Dans le fichier extrait et transmis au prestataire, le nom de la composition et le cas échéant ses caractéristiques (coût, description, etc.) sont ajoutées au contenu en fonction des informations du modèle d’exportation associé au fournisseur de services.
+Dans le fichier extrait et transmis au prestataire, le nom de la composition et éventuellement ses caractéristiques (coût, description, etc.) sont ajoutés au contenu, selon les informations présentes dans le modèle d’export associé au prestataire.
 
 Dans l&#39;exemple suivant, le libellé, le coût prévisionnel estimé et la description de la composition associée à la diffusion seront ajoutés dans le fichier d&#39;extraction.
 

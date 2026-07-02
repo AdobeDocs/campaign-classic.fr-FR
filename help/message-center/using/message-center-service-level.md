@@ -13,9 +13,9 @@ product_v2:
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 262
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ ht-degree: 58%
 
 
 
-Ce rapport affiche les statistiques de diffusion relatives aux messages transactionnels ainsi que la répartition des erreurs. Vous pouvez cliquer sur un type d’erreur pour en afficher les détails.
+Ce rapport affiche les statistiques de diffusion relatives aux messages transactionnels, ainsi que la répartition des erreurs.Vous pouvez cliquer sur un type d’erreur pour en afficher les détails.
 
 Ce rapport destiné aux administrateurs techniques est également accessible à partir de l&#39;onglet **[!UICONTROL Supervision]** de l&#39;instance de pilotage.
 
 ![](assets/mc_reports_1.png)
 
-Dans ce rapport, vous pouvez choisir d&#39;afficher les statistiques globales ou relatives à une instance d&#39;exécution particulière. Vous pouvez également filtrer les données par canal et sur une période spécifique.
+Dans ce rapport, vous pouvez choisir d’afficher les statistiques globales ou relatives à une instance d’exécution particulière.Vous pouvez également filtrer les données par canal et sur une période spécifique.
 
 Les indicateurs affichés dans la section **[!UICONTROL Indicateurs sur la période]** sont calculés sur la période sélectionnée :
 
@@ -37,8 +37,8 @@ Les indicateurs affichés dans la section **[!UICONTROL Indicateurs sur la péri
 * **[!UICONTROL Entrant (volume evt)]** : nombre d&#39;événements entrés dans la file Message Center.
 * **[!UICONTROL Sortant (débit msg/h)]** : moyenne horaire du nombre d&#39;événements sortant avec succès de Message Center (envoyés par une diffusion).
 * **[!UICONTROL Sortant (volume msg)]** : nombre d&#39;événements sortant avec succès de Message Center (envoyés par une diffusion).
-* **[!UICONTROL Temps moyen d’envoi (secondes)]** : temps moyen passé dans Message Center pour les événements traités avec succès. Le calcul prend en compte le temps de traitement et le temps d’envoi par le MTA.
-* **[!UICONTROL Taux d&#39;erreur]** : nombre d&#39;événements en erreur par rapport au nombre d&#39;événements entrés dans la file Message Center. Les erreurs suivantes sont prises en compte : erreur de routage, événement expiré (événement resté trop longtemps dans la file d&#39;attente), erreur de diffusion, ignoré par la diffusion (quarantaine, etc.).
+* **[!UICONTROL Temps moyen d’envoi (secondes)]** : temps moyen passé dans Message Center pour les événements traités avec succès.Le calcul prend en compte le temps de traitement et le temps d’envoi par le MTA.
+* **[!UICONTROL Taux d’erreur]** : nombre d’événements avec des erreurs par rapport au nombre d’événements entrés dans la file d’attente Message Center.Les erreurs suivantes sont prises en compte : erreur de routage, événement expiré (événement resté trop longtemps dans la file d’attente), erreur de diffusion, ignoré par la diffusion (quarantaine, etc.).
 
 >[!NOTE]
 >

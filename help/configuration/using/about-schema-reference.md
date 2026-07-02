@@ -19,9 +19,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 372
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Ce chapitre explique comment configurer des schémas d’extension afin d’éte
 
 Pour une meilleure compréhension des tables intégrées de Campaign et de leur interaction, voir la section [Modèle de données Campaign Classic](about-data-model.md).
 
-Dans Adobe Campaign, la structure physique et logique des données véhiculées dans l’application est décrite en XML. Un **schéma** est un document XML associé à une table de base de données. Il définit la structure des données et décrit la définition SQL de la table :
+Dans Adobe Campaign, la structure physique et logique des données véhiculées dans l’application est décrite en XML. Un **schéma** est un document XML lié à une table de base de données.Il définit la structure des données et décrit la définition SQL de la table :
 
 * le nom de la table,
 * des champs ;
@@ -48,7 +48,7 @@ mais aussi la structure XML utilisée pour stocker les données :
 * Les valeurs par défaut
 * les libellés, les descriptions et autres propriétés.
 
-Les schémas permettent de définir une entité dans la base de données. Il existe un schéma pour chaque entité.
+Les schémas vous permettent de définir une entité dans la base de données.À chaque entité correspond un schéma.
 
 L&#39;illustration suivante montre la place des schémas dans le système de données d&#39;Adobe Campaign :
 

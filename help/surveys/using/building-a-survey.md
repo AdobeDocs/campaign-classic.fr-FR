@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 836
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 51%
 
 ## Créer un nouveau questionnaire {#creating-a-new-survey}
 
-Ce chapitre présente la conception d&#39;un formulaire de type **Questionnaire** sous Adobe Campaign, ainsi que les options et paramétrages disponibles. Adobe Campaign vous permet de mettre ce questionnaire à disposition des utilisateurs, et de collecter et archiver les réponses dans la base de données.
+Ce chapitre présente les étapes de conception d’un formulaire de type **Questionnaire** à l’aide d’Adobe Campaign, ainsi que les options et configurations disponibles.Adobe Campaign vous permet de mettre ce questionnaire à la disposition des utilisateurs et utilisatrices, et de collecter et d’archiver les réponses dans la base de données.
 
 Les formulaires Web sont accessibles à partir du noeud **[!UICONTROL Ressources > On-line > Applications Web]** de l&#39;arborescence. Pour créer un questionnaire, cliquez sur le bouton **[!UICONTROL Nouveau]** situé au-dessus de la liste des applications, ou cliquez avec le bouton droit dans la liste et choisissez **[!UICONTROL Nouveau]**.
 
@@ -33,11 +33,11 @@ Choisissez le modèle de questionnaire (par défaut **[!UICONTROL newSurvey]**).
 
 ![](assets/s_ncs_admin_survey_select_template.png)
 
-Les pages du formulaire sont créées au travers d&#39;un éditeur spécifique qui permet de définir et paramétrer des champs de saisie (texte), des champs de sélection (listes, cases à cocher, etc.) et les éléments statiques (images, contenu HTML, etc.). Ils peuvent être collectés dans des « conteneurs » et disposés selon les besoins. [En savoir plus](#adding-questions)).
+Les pages du formulaire sont créées à l’aide d’un éditeur spécifique qui vous permet de définir et de configuration des zones de saisie (texte), des champs de sélection (listes, cases à cocher, etc.)et des éléments statiques (images, contenu HTML, etc.).Ils peuvent être regroupés dans des « conteneurs » et mis en page selon vos besoins.[En savoir plus](#adding-questions)).
 
 >[!NOTE]
 >
->La définition du contenu et de la mise en page des écrans d&#39;un formulaire web sont présentés dans [ce document &#x200B;](../../web/using/about-web-forms.md).
+>La définition du contenu et de la mise en page des écrans d&#39;un formulaire web sont présentés dans [ce document ](../../web/using/about-web-forms.md).
 
 ## Ajouter des champs {#adding-fields}
 
@@ -47,22 +47,22 @@ Dans un formulaire, les champs permettent aux utilisateurs de saisir des informa
 
 >[!NOTE]
 >
->Vous pouvez également utiliser le bouton droit de la souris et insérer une zone de saisie. Par défaut, la zone est insérée à la fin de l&#39;arborescence sélectionnée. Utilisez les flèches de la barre d’outils pour le déplacer.
+>Vous pouvez également utiliser le bouton droit de la souris et insérer une zone de saisie.Par défaut, la zone est insérée à la fin de l’arborescence sélectionnée.Utilisez les flèches de la barre d’outils pour la déplacer.
 
 ### Types de champs {#types-of-fields}
 
-Lorsque vous ajoutez un champ à un questionnaire, vous devez sélectionner son type. Les options disponibles sont les suivantes :
+Lorsque vous ajoutez un champ à un questionnaire, vous devez sélectionner son type.Les options disponibles sont les suivantes :
 
-1. **[!UICONTROL Répondre à une question]** : cette option permet de déclarer un nouveau champ (dit &#39;champ archivé&#39;) pour y stocker les réponses. Dans ce cas, toutes les valeurs collectées sont enregistrées, même lorsqu’un participant remplit le formulaire plusieurs fois. Ce mode de stockage n’est disponible que dans les **Questionnaires**. [En savoir plus](../../surveys/using/managing-answers.md#storing-collected-answers).
-1. **[!UICONTROL Editer un destinataire]** : cette option permet de sélectionner un champ dans la base. Dans ce cas, les réponses de l&#39;utilisateur seront stockées dans ce champ. Pour chaque participant, seule la dernière valeur enregistrée est conservée et ajoutée aux données de profil.
-1. **[!UICONTROL Ajouter une variable]** : cette option permet de créer un paramétrage afin que les informations ne soient pas stockées dans la base. Les variables locales peuvent être déclarées en amont. Vous pouvez également les ajouter directement lors de la création du champ.
+1. **[!UICONTROL Répondre à une question]** : cette option vous permet de déclarer un nouveau champ (dit « champ archivé ») afin de stocker les réponses.Dans ce cas, toutes les valeurs collectées sont enregistrées, même lorsqu’un participant ou une participante remplit le formulaire plusieurs fois.Ce mode de stockage n’est disponible que dans les **Questionnaires**. [En savoir plus](../../surveys/using/managing-answers.md#storing-collected-answers).
+1. **[!UICONTROL Modifier une personne destinataire]** : cette option vous permet de sélectionner un champ dans la base de données.Dans ce cas, les réponses de l’utilisateur ou de l’utilisatrice seront stockées dans ce champ.Pour chaque participant ou participante, seule la dernière valeur enregistrée est conservée et ajoutée aux données de profil.
+1. **[!UICONTROL Ajouter une variable]** : cette option vous permet de créer une configuration de sorte que les informations ne soient pas stockées dans la base de données.Les variables locales peuvent être déclarées en amont.Vous pouvez également en ajouter directement lors de la création du champ.
 1. **[!UICONTROL Importer une question existante]** : cette option permet d’importer des questions existantes, créées dans d’autres questionnaires.
 
    >[!NOTE]
    >
    >Les modes de stockage ainsi que l&#39;import de champs sont présentés dans [cette section](../../surveys/using/managing-answers.md#storing-collected-answers).
 
-La nature du champ à ajouter (liste déroulante, champ de texte, cases à cocher, etc.) s’adapte au mode de stockage sélectionné. Vous pouvez la modifier à l’aide du champ **[!UICONTROL Type]** de l&#39;onglet **[!UICONTROL Général]**, mais il faut veiller à rester cohérent avec le type de données.
+La nature du champ à ajouter (liste déroulante, champ de texte, case à cocher, etc.)s’adapte au mode de stockage sélectionné.Vous pouvez la modifier à l’aide du champ **[!UICONTROL Type]** de l&#39;onglet **[!UICONTROL Général]**, mais il faut veiller à rester cohérent avec le type de données.
 
 ![](assets/s_ncs_admin_survey_change_type.png)
 
@@ -84,7 +84,7 @@ Si le nombre de sélections n&#39;est pas atteint ou s&#39;il est dépassé, le 
 
 >[!NOTE]
 >
->Dans ce cas, les options sont sélectionnées à l’aide de cases à cocher. Lorsqu’une seule option est possible, des boutons radio sont utilisés.
+>Dans ce cas, les options sont sélectionnées à l’aide de cases à cocher.Lorsqu’une seule option est possible, des cases d’option sont utilisées.
 
 Le paramétrage correspondant sera le suivant :
 
@@ -101,9 +101,9 @@ De plus, l&#39;espace de stockage pour ce champ de saisie doit être un **champ 
 
 ### Ajouter des questions {#adding-questions}
 
-Il existe deux types de conteneurs : standard et question. Les conteneurs standard sont utilisés pour configurer la mise en page et l’affichage conditionnel dans une page. [En savoir plus](../../web/using/about-web-forms.md).
+Il existe deux types de conteneurs : standard et question.Les conteneurs standard sont utilisés pour configurer la mise en page et l’affichage conditionnel dans une page.[En savoir plus](../../web/using/about-web-forms.md).
 
-Utilisez un conteneur **Question** pour ajouter une question à la page et insérer les réponses possibles ci-dessous dans la hiérarchie. Les réponses des utilisateurs aux questions placées dans ce type de conteneur peuvent être analysées dans les rapports.
+Utilisez un conteneur de type **Question** pour ajouter une question dans la page et insérer les réponses possibles en sous-arborescence.Les réponses des utilisateurs et utilisatrices aux questions qui ont été placées dans ce type de conteneur peuvent être analysées dans des rapports.
 
 >[!CAUTION]
 >
@@ -111,11 +111,11 @@ Utilisez un conteneur **Question** pour ajouter une question à la page et insé
 
 ![](assets/s_ncs_admin_question_label.png)
 
-Le libellé de la question est saisi dans le champ libellé . Dans ce cas, le style de la feuille de style du formulaire est appliqué. Cochez l&#39;option **[!UICONTROL Saisir le titre au format HTML]** pour le personnaliser. Vous accédez alors à l&#39;éditeur HTML.
+Le libellé de la question est saisi dans le champ de libellé.Dans ce cas, le style de la feuille de style du formulaire est appliqué.Cochez l&#39;option **[!UICONTROL Saisir le titre au format HTML]** pour le personnaliser. Vous accédez alors à l&#39;éditeur HTML.
 
 >[!NOTE]
 >
->L&#39;utilisation de l&#39;éditeur HTML est présentée dans [ce document &#x200B;](../../web/using/about-web-forms.md).
+>L&#39;utilisation de l&#39;éditeur HTML est présentée dans [ce document ](../../web/using/about-web-forms.md).
 
 Par exemple :
 
@@ -129,7 +129,7 @@ Dans l&#39;exemple ci-dessus, le rendu sera le suivant :
 >
 >Chaque question correspond à un conteneur de type **Question**.
 
-Vous pouvez activer le tirage aléatoire des questions par Adobe Campaign. Il est alors possible de spécifier le nombre de questions à afficher dans la page, dans le champ situé en bas de la fenêtre de configuration.
+Vous pouvez activer le tirage aléatoire des questions par Adobe Campaign.Il est ensuite possible d’indiquer le nombre de questions à afficher dans la page, dans le champ situé en bas de la fenêtre de configuration.
 
 ![](assets/s_ncs_admin_survey_containers_qu_display.png)
 
