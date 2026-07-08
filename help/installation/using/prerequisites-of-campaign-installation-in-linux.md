@@ -16,10 +16,10 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 854
-ht-degree: 100%
+source-git-commit: d711ea40185e9860ea20773ae1dfebfc7cc3e4d0
+workflow-type: tm+mt
+source-wordcount: 906
+ht-degree: 94%
 
 ---
 
@@ -45,7 +45,7 @@ Pour rappel, les composants suivants doivent être installés et correctement pa
 
 Pour installer Adobe Campaign sous Linux, vérifiez que vous disposez des librairies requises.
 
-* La bibliothèque C doit pouvoir prendre en charge le mode TLS (Thread Local Storage).Ce mode est actif dans la plupart des cas, sauf avec certains kernels dans lesquels le support Xen a été désactivé.
+* La bibliothèque C doit pouvoir prendre en charge le mode TLS (Thread Local Storage). Ce mode est actif dans la plupart des cas, sauf avec certains kernels dans lesquels le support Xen a été désactivé.
 
   Pour le vérifier, vous pouvez par exemple utiliser la commande **uname -a | grep xen**.
 
@@ -56,6 +56,34 @@ Pour installer Adobe Campaign sous Linux, vérifiez que vous disposez des libra
   Pour les distributions RHEL, la version 1.0 d’OpenSSL est requise.
 
 * Pour utiliser Adobe Campaign, la bibliothèque suivante doit être installée : **libicu**.
+
+* Sur les distributions RHEL, **xalan-c** est obligatoire. Installez-le via `epel-release` :
+
+  ```
+  dnf install epel-release
+  dnf install xalan-c
+  ```
+
+### Dépendances d’exportation des rapports PDF {#pdf-export-dependencies}
+
+L’outil **wkhtmltopdf** est utilisé lors de l’exportation de rapports au format PDF. Elle nécessite les packages suivants :
+
+* **libjpeg**
+* **xvfb**
+
+Si l’exportation de rapports PDF n’est pas utilisée, ces packages ne doivent pas être installés.
+
+Sur les distributions RHEL :
+
+```
+dnf install libjpeg xvfb
+```
+
+Sous Debian :
+
+```
+apt-get install libjpeg-dev xvfb
+```
 
 ### SELinux {#selinux}
 
@@ -73,7 +101,7 @@ En complément, dans le fichier **/etc/sysconfig/httpd**, la ligne suivante a é
 . ~neolane/nl6/env.sh
 ```
 
-Sous RHEL et CentOS, des problèmes de compatibilité avec les couches clientes des bases de données ont été constatées lorsque SELinux est activé.Pour assurer le bon fonctionnement d’Adobe Campaign, nous vous conseillons de désactiver SELinux.
+Sous RHEL et CentOS, des problèmes de compatibilité avec les couches clientes des bases de données ont été constatées lorsque SELinux est activé. Pour assurer le bon fonctionnement d’Adobe Campaign, nous vous conseillons de désactiver SELinux.
 
 **Procédez de la manière suivante :**
 
@@ -144,7 +172,7 @@ yum install libreoffice-headless libreoffice-writer libreoffice-calc
 
 ## Couches d&#39;accès base de données {#database-access-layers}
 
-Les couches d’accès pour le moteur de base de données que vous utilisez doivent être installées sur votre serveur et accessibles depuis le compte Adobe Campaign.Selon le moteur de base de données utilisé, les versions et modes d’installation peuvent différer.
+Les couches d’accès pour le moteur de base de données que vous utilisez doivent être installées sur votre serveur et accessibles depuis le compte Adobe Campaign. Selon le moteur de base de données utilisé, les versions et modes d’installation peuvent différer.
 
 Les versions des connecteurs CRM compatibles avec Adobe Campaign sont listées dans la [matrice de compatibilité](../../rn/using/compatibility-matrix.md).
 
@@ -170,11 +198,11 @@ Vous pouvez obtenir un package RPM Linux depuis Oracle Technology Network.
 
 Les problèmes peuvent survenir après la mise à jour ou le changement de version d&#39;un client ou d&#39;un serveur Oracle ou lors de la première installation de l&#39;instance.
 
-Si vous remarquez, sur la console cliente, des décalages horaires inattendus (une ou plusieurs heures) entre les logs, le dernier traitement de workflow, le traitement suivant, etc., il pourrait y avoir un problème entre la bibliothèque du client Oracle et le serveur Oracle.Pour éviter de tels problèmes, procédez comme suit :
+Si vous remarquez, sur la console cliente, des décalages horaires inattendus (une ou plusieurs heures) entre les logs, le dernier traitement de workflow, le traitement suivant, etc., il pourrait y avoir un problème entre la bibliothèque du client Oracle et le serveur Oracle. Pour éviter de tels problèmes, procédez comme suit :
 
 1. Assurez-vous d&#39;utiliser la version **cliente complète**.
 
-   Divers problèmes ont été identifiés lors de l’utilisation de la version Oracle Instant Client.En outre, il est impossible de modifier le fichier de fuseau horaire sur le client instantané.
+   Divers problèmes ont été identifiés lors de l’utilisation de la version Oracle Instant Client. En outre, il est impossible de modifier le fichier de fuseau horaire sur le client instantané.
 
 1. Assurez-vous que la **version cliente** et la **version du serveur de base de données** sont les **mêmes**.
 
@@ -188,7 +216,7 @@ Si vous remarquez, sur la console cliente, des décalages horaires inattendus (u
 
 L&#39;installation d&#39;Adobe Campaign sous Linux doit être réalisée dans l&#39;ordre suivant : installation du serveur puis paramétrage des instances.
 
-Le processus d’installation est décrit dans ce chapitre.Les étapes de l’installation sont les suivantes :
+Le processus d’installation est décrit dans ce chapitre. Les étapes de l’installation sont les suivantes :
 
 * Etape 1 : Installation du serveur applicatif, voir la section [Installation de packages avec Linux](../../installation/using/installing-packages-with-linux.md).
 * Etape 2 : Intégration à un serveur Web (optionnel, en fonction des composants déployés).
