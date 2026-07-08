@@ -9,14 +9,13 @@ content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
 TQID: https://experienceleague.adobe.com/mpN0TwuPILae7Y-jbkyvbBR1zdo4IvtnuzGQObLI0rc
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
 subfeature_v2: []
-source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 1150
-ht-degree: 100%
+source-git-commit: d711ea40185e9860ea20773ae1dfebfc7cc3e4d0
+workflow-type: tm+mt
+source-wordcount: 1157
+ht-degree: 99%
 
 ---
 
@@ -42,7 +41,7 @@ Vous pouvez tester si le serveur peut s&#39;atteindre lui-même en lançant un *
 
 >[!AVAILABILITY]
 >
->À compter de la version 7.4.1, les bibliothèques XML pour les packages RPM Linux ne sont plus incluses dans Campaign. Vous devez installer ces bibliothèques.
+>À compter de la version 7.4.1, les bibliothèques XML pour les packages RPM Linux ne sont plus incluses dans Campaign. Vous devez installer **xalan-c** (disponible à partir de `epel-release`), qui est obligatoire. [En savoir plus](../../installation/using/prerequisites-of-campaign-installation-in-linux.md#libraries)
 > 
 
 Pour installer Adobe Campaign sur un système d’exploitation RPM (RHEL, CentOS), suivez les étapes ci-après :
@@ -59,7 +58,7 @@ Pour installer Adobe Campaign sur un système d’exploitation RPM (RHEL, CentO
    yum install nlserver6-v7-XXXX-0.x86_64.rpm
    ```
 
-   Le fichier rpm possède des dépendances sur les packages que vous pouvez trouver sur les distributions CentOS/Red Hat.Si vous ne souhaitez pas employer certaines de ces dépendances (par exemple, si vous souhaitez utiliser Oracle JDK au lieu d’OpenJDK), vous devrez peut-être utiliser l’option « nodeps » du fichier rpm :
+   Le fichier rpm possède des dépendances sur les packages que vous pouvez trouver sur les distributions CentOS/Red Hat. Si vous ne souhaitez pas employer certaines de ces dépendances (par exemple, si vous souhaitez utiliser Oracle JDK au lieu d’OpenJDK), vous devrez peut-être utiliser l’option « nodeps » du fichier rpm :
 
    ```sql
    rpm --nodeps -Uvh nlserver6-v7-XXXX-0.x86_64.rpm
@@ -162,7 +161,7 @@ Au besoin, éditez le fichier **customer.sh** à l&#39;aide de la commande **vi 
 
 * Pour LibreOffice :
 
-  Si vous souhaitez faire fonctionner Adobe Campaign sur une version de LibreOffice existante, une configuration complémentaire est nécessaire : vous devez indiquer les chemins d’accès aux répertoires d’installation.Par exemple :
+  Si vous souhaitez faire fonctionner Adobe Campaign sur une version de LibreOffice existante, une configuration complémentaire est nécessaire : vous devez indiquer les chemins d’accès aux répertoires d’installation. Par exemple :
 
    * Debian
 
@@ -216,7 +215,7 @@ Lorsque vous utilisez Oracle avec Adobe Campaign, vous devez configurer les cou
 * Utilisez la version cliente complète
 * Définition TNS
 
-  Vous devez ajouter vos définitions TNS lors de la phase d’installation.Pour cela, les commandes sont les suivantes :
+  Vous devez ajouter vos définitions TNS lors de la phase d’installation. Pour cela, les commandes sont les suivantes :
 
   ```sql
   cd /etc
@@ -314,6 +313,6 @@ Les informations affichées sont alors les suivantes :
 
 ## Mot de passe de l&#39;identifiant internal {#password-for-the-internal-identifier}
 
-Le serveur Adobe Campaign définit un identifiant (ou « login ») technique nommé **internal** qui possède tous les droits, sur toutes les instances.Juste après l’installation, le login n’a pas de mot de passe.Il est obligatoire d’en définir un.
+Le serveur Adobe Campaign définit un identifiant (ou « login ») technique nommé **internal** qui possède tous les droits, sur toutes les instances. Juste après l’installation, le login n’a pas de mot de passe. Il est obligatoire d’en définir un.
 
 En savoir plus dans [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
