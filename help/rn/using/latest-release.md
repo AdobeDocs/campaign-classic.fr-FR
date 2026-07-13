@@ -7,24 +7,16 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 TQID: https://experienceleague.adobe.com/Xq9y8r6xU-hypq1Eeo9ijaiGng7qqkWVqiCXW5fYx2c
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
 feature_v2: []
-subfeature_v2:
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+subfeature_v2: id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 source-git-commit: a9e48513ed4ceb2650d0eeff18563a010a148c80
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 500
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -32,23 +24,23 @@ ht-degree: 81%
 
 Cette page répertorie les nouvelles fonctionnalités, les améliorations et les correctifs apportés à la **dernière version de Campaign Classic v7**. Chaque nouvelle build est fournie avec un statut matérialisé par une couleur. En savoir plus sur les statuts de build de Campaign Classic v7 dans [cette page](rn-overview.md).
 
-## Version 7.4.3 {#release-7-4-3}
+## Version 7.4.3 {#release-7-4-3}
 
-### Build 9397 {#build-9397}
+### Build 9397 {#build-9397}
 
 [!BADGE Disponibilité générale]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Disponibilité générale"}
 
-_30 juin 2026_
+_30 juin 2026_
 
 #### Améliorations de la sécurité {#security-7-4-3-9397}
 
-Cette version comprend des correctifs de sécurité. Il s’agit du build Disponibilité générale recommandée qui remplace les builds Campaign Classic v7 précédents.
+Ce build comprend des correctifs de sécurité.Il s’agit du build en disponibilité générale recommandé qui remplace les builds Campaign Classic v7 précédents.
 
 #### Autres changements {#changes-7-4-3-9397}
 
-Par défaut, webForm.jsp ignore désormais les paramètres de `ctx` fournis par le client. Cela est contrôlé par le paramètre `disableCtxInWebForm` qui est défini sur « true » par défaut.
+Par défaut, webForm.jsp ignore désormais les paramètres `ctx` fournis par le client ou la cliente.Cela est contrôlé par le paramètre `disableCtxInWebForm` qui est défini sur « vrai » par défaut.
 
-Si vos requêtes webForm transmettent actuellement un paramètre `ctx`, vous pouvez temporairement réactiver ce comportement en ajoutant les éléments suivants au paramètre . &lt;web> élément de votre config-&lt;instance>Fichier .xml. Prévoyez de supprimer progressivement cette utilisation.
+Si vos requêtes webForm transmettent actuellement un paramètre `ctx`, vous pouvez temporairement réactiver ce comportement en ajoutant ce qui suit à<web>l’élément de votre fichier<instance>config-.xml.Prévoyez de mettre fin progressivement à cette utilisation.
 
 ```
 <web>
@@ -58,15 +50,15 @@ Si vos requêtes webForm transmettent actuellement un paramètre `ctx`, vous pou
 </web>
 ```
 
-### Build 9396 {#build-9396}
+### Build 9396 {#build-9396}
 
 [!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
-_9 juin 2026_
+_9 juin 2026_
 
-Cette version comprend des correctifs de sécurité.
+Ce build comprend des correctifs de sécurité.
 
-### Build 9394 {#build-9394}
+### Build 9394 {#build-9394}
 
 [!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
