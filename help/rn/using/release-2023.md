@@ -26,8 +26,8 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c372a3d67ec413fa8cf9fdbb4530762a8f2f5177
-workflow-type: tm+mt
-source-wordcount: 2376
+workflow-type: ht
+source-wordcount: 2383
 ht-degree: 100%
 
 ---
@@ -61,8 +61,7 @@ _5 décembre 2023_
 * Correction d’une erreur dans le workflow Nettoyage de la base qui se produisait lorsqu’une diffusion était supprimée avant ses BAT. (NEO-48114)
 * Correction d’un problème lors de la connexion à la console cliente : les mises à jour récentes de la vérification TLS entraînaient une erreur de connexion. (NEO-50488)
 * Correction d’un problème lié à l’authentification du proxy HTTP après le mise à jour vers Campaign 7.3.1. Échec des requêtes HTTP dans les workflows de campagne avec `error 407 – proxy auth required is returned`. (NEO-49624)
-* Correction d’un échec intermittent avec le déchiffrement GPG dans les activités de workflow **Script**. Le message d’erreur associé était : `gpg: decryption failed: No secret key`. (NEO-50257)
-  <!--* Workflow temporary tables now have a primary index in Teradata with a Federated Data Access (FDA) connection. (NEO-62575)-->
+* Correction d’un échec intermittent avec le déchiffrement GPG dans les activités de workflow **Script**. Le message d’erreur associé était : `gpg: decryption failed: No secret key`. (NEO-50257)  <!--* Workflow temporary tables now have a primary index in Teradata with a Federated Data Access (FDA) connection. (NEO-62575)-->
 
 
 

@@ -9,7 +9,7 @@ sub-product: adobe campaign classic
 type: Documentation
 nudge: true
 source-git-commit: b3fbad7d9b746305753ab80692efb91fb2f40fae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2710'
 ht-degree: 100%
 
