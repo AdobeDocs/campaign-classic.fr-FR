@@ -7,24 +7,16 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 TQID: https://experienceleague.adobe.com/Xq9y8r6xU-hypq1Eeo9ijaiGng7qqkWVqiCXW5fYx2c
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
 feature_v2: []
-subfeature_v2:
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-source-git-commit: a9e48513ed4ceb2650d0eeff18563a010a148c80
-workflow-type: ht
-source-wordcount: 500
-ht-degree: 100%
+subfeature_v2: id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+source-git-commit: 7aea93eee16cdcdae6c4bf2466ab12a0aaf6052e
+workflow-type: tm+mt
+source-wordcount: 633
+ht-degree: 78%
 
 ---
 
@@ -34,21 +26,33 @@ Cette page répertorie les nouvelles fonctionnalités, les améliorations et les
 
 ## Version 7.4.3 {#release-7-4-3}
 
+### Build 9398 {#build-9398}
+
+[!BADGE Disponibilité limitée]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Disponibilité limitée"}
+
+_29 juillet 2026_
+
+#### Améliorations de la sécurité {#security-7-4-3-9398}
+
+Adobe a publié des mises à jour de sécurité pour Adobe Campaign Classic qui traitent des vulnérabilités critiques. Nous encourageons les clients avec des déploiements on-premise et hybrides à installer les mises à jour dès que possible. Les instances hébergées par Adobe ont déjà été corrigées et ne nécessitent aucune action de la part du client. Vous trouverez plus d&#39;informations dans le [bulletin de sécurité](https://helpx.adobe.com/security/products/campaign/apsb26-114.html){target="_blank"}.
+
+Un [ redémarrage du serveur Adobe Campaign (nlserver)](../../production/using/usual-commands.md#restart-services) est nécessaire pour charger la version et terminer le déploiement. Le correctif est actif par défaut une fois redémarré.
+
 ### Build 9397 {#build-9397}
 
-[!BADGE Disponibilité générale]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Disponibilité générale"}
+[!BADGE Disponibilité limitée]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Disponibilité limitée"}
 
 _30 juin 2026_
 
 #### Améliorations de la sécurité {#security-7-4-3-9397}
 
-Ce build comprend des correctifs de sécurité. Il s’agit du build en disponibilité générale recommandé qui remplace les builds Campaign Classic v7 précédents.
+Cette version comprend des correctifs de sécurité et remplace les versions précédentes de Campaign Classic v7. Cette version est désormais obsolète pour les déploiements On-Premise et hybrides. Nous encourageons les clients utilisant ces modes de déploiement à installer les mises à jour dès que possible en effectuant une mise à niveau vers la [version 9398](#build-9398) ou une version ultérieure.
 
 #### Autres changements {#changes-7-4-3-9397}
 
 Par défaut, webForm.jsp ignore désormais les paramètres `ctx` fournis par le client ou la cliente. Cela est contrôlé par le paramètre `disableCtxInWebForm` qui est défini sur « vrai » par défaut.
 
-Si vos requêtes webForm transmettent actuellement un paramètre `ctx`, vous pouvez temporairement réactiver ce comportement en ajoutant ce qui suit à <web> l’élément de votre fichier <instance>config-.xml. Prévoyez de mettre fin progressivement à cette utilisation.
+Si vos requêtes webForm transmettent actuellement un paramètre `ctx`, vous pouvez temporairement réactiver ce comportement en ajoutant ce qui suit à <web> l’élément de votre fichier<instance>config-.xml. Prévoyez de mettre fin progressivement à cette utilisation.
 
 ```
 <web>
