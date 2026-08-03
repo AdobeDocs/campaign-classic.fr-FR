@@ -7,29 +7,16 @@ role: User
 level: Beginner
 exl-id: d60d67de-6618-4f3b-be4a-ad7633ab5645
 TQID: https://experienceleague.adobe.com/g1JuaL9ijMzzZ-OjRY5RNEvMBiX1rGtwKdq-mdKNiHI
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
-subfeature_v2:
-  - id: bea9e610-36b4-4df2-94bb-0fb6fe46cb50
-  - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1767
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2id: d5ef99fa-df0c-4153-bf94-105ad0724167
+subfeature_v2: id: bea9e610-36b4-4df2-94bb-0fb6fe46cb50id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: d095671a-1355-40aa-8b5f-06c33c68080bid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: c094a1fa9adf80708154b5532ae9fbeb18993b9f
+workflow-type: tm+mt
+source-wordcount: 1792
+ht-degree: 98%
 
 ---
 
@@ -64,9 +51,14 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
    <td><strong>Détails</strong></td>
   </tr>
   <tr>
+ <td>Connecteur SMPP Netsize</td>
+ <td><p>Le connecteur SMPP Netsize est désormais obsolète. Nous vous recommandons de migrer vers le connecteur <strong>SMPP générique étendu</strong>. Pour plus d’informations, consultez <a href="../../delivery/using/unsupported-connector-migration.md">cette page</a>.</p>
+<p>Date de suppression prévue : janvier 2027</p>
+</td>
+</tr>
+<tr>
  <td>Ancien SDK de Campaign (Neolane)</td>
  <td><p>Le SDK Campaign (Neolane) pour les applications mobiles est désormais obsolète. À la place, utilisez le SDK mobile Adobe Experience Platform en configurant l’extension Adobe Campaign dans l’interface utilisateur de collecte de données. Le SDK mobile Adobe Experience Platform permet d’optimiser les solutions et services Experience Cloud d’Adobe dans vos applications mobiles. La configuration des SDK s’effectue dans l’interface utilisateur de collecte de données, qui offre des options de configuration flexibles et des intégrations extensibles basées sur des règles. Découvrez comment configurer le canal Applications mobiles dans la <a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/push/push-settings">documentation de Campaign v8</a>.</p>
-<p>Date de suppression cible : jeudi 31 juillet 2025 </p>
 </td>
 </tr>
 <tr>
@@ -103,7 +95,7 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Classic.
     <tr>
   <td>Rapport de surveillance de la délivrabilité technique<br></td>
    <td><p>Le rapport de surveillance de la délivrabilité technique n’est plus disponible. Il avait été abandonné avec la version 21.1.3 de Campaign.</p>
-   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
+   <!--p>If needed, you can receive this report daily by email until the feature removal date. To request it, open a specific <a href="https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html">Support Case</a> and specify the name of the instance and the email address(es) to send the report to.</p--> 
   </td>
  </tr>
   <tr>
@@ -157,7 +149,7 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Classic.
   <tr> 
    <td>API decryptString</td>
    <td><p>À compter de la version 18.6 de Campaign, pour des raisons de sécurité, l’API <em>decryptString</em> n’est plus disponible par défaut pour les nouvelles installations.</p> 
-   <p>Dans le contexte d’un postupgrade vers la version 18.6 (et versions ultérieures), cette API n’est plus activée et a été remplacée par la fonction <em>decryptPassword. </em> <a href="https://experienceleague.adobe.com/developer/campaign-api/api/f-decryptPassword.html?lang=fr&hl=decrypt">En savoir plus</a></p></td>
+   <p>Dans le contexte d’un postupgrade vers la version 18.6 (et versions ultérieures), cette API n’est plus activée et a été remplacée par la fonction <em>decryptPassword. </em> <a href="https://experienceleague.adobe.com/developer/campaign-api/api/f-decryptPassword.html?hl=decrypt">En savoir plus</a></p></td>
   </tr> 
    <tr> 
    <td>Canal mobile - Messages MMS et WAP Push</td>
@@ -206,11 +198,11 @@ La console cliente d’Adobe Campaign Classic ne peut plus s’exécuter sur l
 
 * Depuis la version 19.1, Adobe Campaign n’est plus compatible avec les systèmes d’exploitation ci-après.
 
-   * CentOS 6. [En savoir plus](https://wiki.centos.org/Download)
-   * Debian 7. [En savoir plus](https://wiki.debian.org/DebianReleases)
-   * RHEL 6.x. [En savoir plus](https://access.redhat.com/support/policy/updates/errata)
-   * Windows Server 2008. [En savoir plus](https://support.microsoft.com/en-us/lifecycle/search/1163)
-   * SLES 11. [En savoir plus](https://www.suse.com/lifecycle)
+  * CentOS 6. [En savoir plus](https://wiki.centos.org/Download)
+  * Debian 7. [En savoir plus](https://wiki.debian.org/DebianReleases)
+  * RHEL 6.x. [En savoir plus](https://access.redhat.com/support/policy/updates/errata)
+  * Windows Server 2008. [En savoir plus](https://support.microsoft.com/en-us/lifecycle/search/1163)
+  * SLES 11. [En savoir plus](https://www.suse.com/lifecycle)
 
 ### Serveurs web {#web-server-eol}
 
