@@ -26,10 +26,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1767
-ht-degree: 100%
+source-git-commit: c094a1fa9adf80708154b5532ae9fbeb18993b9f
+workflow-type: tm+mt
+source-wordcount: 1792
+ht-degree: 98%
 
 ---
 
@@ -64,9 +64,14 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
    <td><strong>Détails</strong></td>
   </tr>
   <tr>
+ <td>Connecteur SMPP Netsize</td>
+ <td><p>Le connecteur SMPP Netsize est désormais obsolète. Nous vous recommandons de migrer vers le connecteur <strong>SMPP générique étendu</strong>. Pour plus d’informations, consultez <a href="../../delivery/using/unsupported-connector-migration.md">cette page</a>.</p>
+<p>Date de suppression prévue : janvier 2027</p>
+</td>
+</tr>
+<tr>
  <td>Ancien SDK de Campaign (Neolane)</td>
  <td><p>Le SDK Campaign (Neolane) pour les applications mobiles est désormais obsolète. À la place, utilisez le SDK mobile Adobe Experience Platform en configurant l’extension Adobe Campaign dans l’interface utilisateur de collecte de données. Le SDK mobile Adobe Experience Platform permet d’optimiser les solutions et services Experience Cloud d’Adobe dans vos applications mobiles. La configuration des SDK s’effectue dans l’interface utilisateur de collecte de données, qui offre des options de configuration flexibles et des intégrations extensibles basées sur des règles. Découvrez comment configurer le canal Applications mobiles dans la <a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/push/push-settings">documentation de Campaign v8</a>.</p>
-<p>Date de suppression cible : jeudi 31 juillet 2025 </p>
 </td>
 </tr>
 <tr>
@@ -206,11 +211,11 @@ La console cliente d’Adobe Campaign Classic ne peut plus s’exécuter sur l
 
 * Depuis la version 19.1, Adobe Campaign n’est plus compatible avec les systèmes d’exploitation ci-après.
 
-   * CentOS 6. [En savoir plus](https://wiki.centos.org/Download)
-   * Debian 7. [En savoir plus](https://wiki.debian.org/DebianReleases)
-   * RHEL 6.x. [En savoir plus](https://access.redhat.com/support/policy/updates/errata)
-   * Windows Server 2008. [En savoir plus](https://support.microsoft.com/en-us/lifecycle/search/1163)
-   * SLES 11. [En savoir plus](https://www.suse.com/lifecycle)
+  * CentOS 6. [En savoir plus](https://wiki.centos.org/Download)
+  * Debian 7. [En savoir plus](https://wiki.debian.org/DebianReleases)
+  * RHEL 6.x. [En savoir plus](https://access.redhat.com/support/policy/updates/errata)
+  * Windows Server 2008. [En savoir plus](https://support.microsoft.com/en-us/lifecycle/search/1163)
+  * SLES 11. [En savoir plus](https://www.suse.com/lifecycle)
 
 ### Serveurs web {#web-server-eol}
 
@@ -230,7 +235,7 @@ Depuis la version 19.1 du printemps, Adobe Campaign n’est plus compatible av
 
 Adobe ne prend pas en charge les moteurs de base de données ci-après, car ils ont été abandonnés par leur éditeur. Les clients utilisant ces versions doivent effectuer la mise à niveau vers la version la plus récente ou passer à une autre.
 
-Consultez la [matrice de compatibilité de Campaign ](../../rn/using/compatibility-matrix.md) pour accéder à la liste des versions compatibles.
+Consultez la [matrice de compatibilité de Campaign &#x200B;](../../rn/using/compatibility-matrix.md) pour accéder à la liste des versions compatibles.
 
 **FEDERATED DATA ACCESS (FDA)**
 
