@@ -20,10 +20,10 @@ feature_v2: []
 subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 922
-ht-degree: 100%
+source-git-commit: e71b0658b2458b05799c28e79d871f025348962a
+workflow-type: tm+mt
+source-wordcount: 1045
+ht-degree: 88%
 
 ---
 
@@ -64,7 +64,15 @@ Adobe Campaign bénéficie de mises à jour régulières. Cette fréquence rég
 
 Pour cette raison, il est essentiel que vous **exécutiez la dernière build stable** d’Adobe Campaign. Vous obtiendrez également un meilleur support, car l’identification, la reproduction et la résolution d’un problème sur une build récente sont généralement beaucoup plus rapides. De plus, de nombreux problèmes que vous pouvez rencontrer ont déjà été corrigés dans les builds les plus récentes.
 
+>[!NOTE]
+>
+> Chaque version est cumulative : elle comprend toutes les fonctionnalités, améliorations et correctifs fournis dans les versions antérieures de la même version, en plus de ses propres modifications. Vous n’avez pas besoin d’installer chaque build intermédiaire pour bénéficier des correctifs précédents : l’installation de la dernière build vous met à jour avec tout ce qui est inclus dans les builds précédents.
+
 En tant qu’utilisateur hébergé, vous bénéficiez automatiquement de la mise à niveau avec la dernière build stable sans que vous n’ayez aucune action à effectuer. En savoir plus dans la section [Mise à niveau annuelle](#yearly-upgrade). Si vous migrez depuis une ancienne build, Adobe vous recommande d’effectuer d’abord la mise à niveau vers cette build.
+
+### Correctifs de sécurité pour les environnements hébergés {#security-patching}
+
+Pour préserver l’intégrité des environnements hébergés, Adobe se réserve le droit d’appliquer des correctifs de sécurité critiques à tout moment et sans préavis, afin de corriger les vulnérabilités le plus rapidement possible. Ces correctifs sont déployés sans interruption de service. Cette pratique est conforme aux normes de gouvernance de la sécurité d’Adobe, selon lesquelles l’urgence de la correction d’une vulnérabilité critique prévaut sur la notification préalable.
 
 ## Recommandations {#rn-recommendations}
 

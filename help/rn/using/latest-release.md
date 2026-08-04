@@ -21,10 +21,10 @@ feature_v2: []
 subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-source-git-commit: 7aea93eee16cdcdae6c4bf2466ab12a0aaf6052e
+source-git-commit: 5356cd82fdbec264ebbdebadc490bb6f6aa29f07
 workflow-type: tm+mt
-source-wordcount: 633
-ht-degree: 78%
+source-wordcount: 736
+ht-degree: 69%
 
 ---
 
@@ -34,9 +34,21 @@ Cette page répertorie les nouvelles fonctionnalités, les améliorations et les
 
 ## Version 7.4.3 {#release-7-4-3}
 
+### Build 9399 {#build-9399}
+
+[!BADGE Disponibilité générale]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Disponibilité générale"}
+
+_3 août 2026_
+
+#### Améliorations de la sécurité {#security-7-4-3-9399}
+
+Adobe a publié des mises à jour de sécurité pour Adobe Campaign Classic qui traitent des vulnérabilités critiques. Nous encourageons les clients avec des déploiements on-premise et hybrides à installer les mises à jour dès que possible. Les instances hébergées par Adobe ont déjà été corrigées et ne nécessitent aucune action de la part du client. Vous trouverez plus d&#39;informations dans le [bulletin de sécurité](https://helpx.adobe.com/security/products/campaign/apsb26-120.html){target="_blank"}.
+
+Un [&#x200B; redémarrage du serveur Adobe Campaign (nlserver)](../../production/using/usual-commands.md#restart-services) est nécessaire pour charger la version et terminer le déploiement. Le correctif est actif par défaut une fois redémarré.
+
 ### Build 9398 {#build-9398}
 
-[!BADGE Disponibilité limitée]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Disponibilité limitée"}
+[!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
 _29 juillet 2026_
 
@@ -48,7 +60,7 @@ Un [&#x200B; redémarrage du serveur Adobe Campaign (nlserver)](../../production
 
 ### Build 9397 {#build-9397}
 
-[!BADGE Disponibilité limitée]{type=Informative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Disponibilité limitée"}
+[!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
 _30 juin 2026_
 
