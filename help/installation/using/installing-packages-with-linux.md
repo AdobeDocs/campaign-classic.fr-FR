@@ -9,14 +9,13 @@ content-type: reference
 topic-tags: installing-campaign-in-linux-
 exl-id: f41c7510-5ad7-44f3-9485-01f54994b6cb
 TQID: https://experienceleague.adobe.com/mpN0TwuPILae7Y-jbkyvbBR1zdo4IvtnuzGQObLI0rc
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
 feature_v2: []
 subfeature_v2: []
 source-git-commit: d711ea40185e9860ea20773ae1dfebfc7cc3e4d0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1157
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -164,23 +163,23 @@ Au besoin, éditez le fichier **customer.sh** à l&#39;aide de la commande **vi 
 
   Si vous souhaitez faire fonctionner Adobe Campaign sur une version de LibreOffice existante, une configuration complémentaire est nécessaire : vous devez indiquer les chemins d’accès aux répertoires d’installation. Par exemple :
 
-   * Debian
+  * Debian
 
-     Les valeurs par défaut de OOO_INSTALL_DIR et OOO_BASIS_INSTALL_DIR sont fournies. Vous pouvez les remplacer dans **customer.sh** si la disposition de l&#39;installation LibreOffice est différente :
+    Les valeurs par défaut de OOO_INSTALL_DIR et OOO_BASIS_INSTALL_DIR sont fournies. Vous pouvez les remplacer dans **customer.sh** si la disposition de l&#39;installation LibreOffice est différente :
 
-     ```sql
-     export OOO_BASIS_INSTALL_DIR=/usr/lib/libreoffice/ 
-     export OOO_INSTALL_DIR=/usr/lib/libreoffice/
-     ```
+    ```sql
+    export OOO_BASIS_INSTALL_DIR=/usr/lib/libreoffice/ 
+    export OOO_INSTALL_DIR=/usr/lib/libreoffice/
+    ```
 
-   * CentOs
+  * CentOs
 
-     Utiliser les valeurs par défaut suivantes :
+    Utiliser les valeurs par défaut suivantes :
 
-     ```sql
-     export OOO_BASIS_INSTALL_DIR=/usr/lib64/libreoffice/
-     export OOO_INSTALL_DIR=/usr/lib64/libreoffice/
-     ```
+    ```sql
+    export OOO_BASIS_INSTALL_DIR=/usr/lib64/libreoffice/
+    export OOO_INSTALL_DIR=/usr/lib64/libreoffice/
+    ```
 
 * Pour Java Development Kit (JDK) :
 
