@@ -18,8 +18,8 @@ topic_v2:
 subfeature_v2:
   - id: a6eada7c-dc79-4b66-a7d3-206cf47dc9d8
 source-git-commit: 48d000a7ceada7e027f27f436ef643b321a7695c
-workflow-type: tm+mt
-source-wordcount: 3919
+workflow-type: ht
+source-wordcount: 3921
 ht-degree: 100%
 
 ---
@@ -320,8 +320,8 @@ La tâche de création d’une ressource marketing interagit avec la ressource q
 
   Vous pouvez utiliser une série de tâches liées pour définir un cycle de validation complet. Cochez l’option **[!UICONTROL Publier la ressource marketing]** uniquement pour la dernière tâche : toutes les tâches doivent être terminées avant la publication de la ressource. De plus, lorsque vous créez une tâche de ressource marketing enfant, la ressource est automatiquement sélectionnée dans la tâche enfant.
 
-   * **Via la ressource** : si vous soumettez la ressource à validation ou la validez, ces actions n&#39;auront aucun effet sur la tâche.
-   * **Via la tâche** : si l’option **[!UICONTROL Publier la ressource marketing]** est cochée dans la tâche, la ressource est approuvée et publiée automatiquement lorsque la tâche est terminée (voir ci-dessus). Si l’option n’est pas cochée, il n’y a pas d’interaction entre la tâche et la ressource :une action effectuée dans l’une n’aura aucun effet sur l’autre.
+  * **Via la ressource** : si vous soumettez la ressource à validation ou la validez, ces actions n&#39;auront aucun effet sur la tâche.
+  * **Via la tâche** : si l’option **[!UICONTROL Publier la ressource marketing]** est cochée dans la tâche, la ressource est approuvée et publiée automatiquement lorsque la tâche est terminée (voir ci-dessus). Si l’option n’est pas cochée, il n’y a pas d’interaction entre la tâche et la ressource :une action effectuée dans l’une n’aura aucun effet sur l’autre.
 
 #### Paramétrer une tâche de création de ressource marketing {#configuring-a-marketing-resource-creation-task}
 
@@ -417,7 +417,7 @@ La dépendance entre les tâches est matérialisée par des flèches dans le tab
 
 ![](assets/s_ncs_user_task_dependencies_from_board.png)
 
-Dans le cas de tâches groupées, Adobe Campaign attribue automatiquement la date de fin de la tâche parent comme date de début de la tâche enfant. Par exemple, si une tâche **Créer une invitation** se termine le 15 octobre à 15:30PM, la tâche enfant **Envoyer un e-mail d’invitation** démarrera le 15 octobre à 15:30PM.
+Dans le cas de tâches groupées, Adobe Campaign attribue automatiquement la date de fin de la tâche parent comme date de début de la tâche enfant. Par exemple, si une tâche **Créer une invitation** se termine le 15 octobre à 15 h 30, la tâche enfant **Envoyer un e-mail d’invitation** démarrera le 15 octobre à 15 h 30.
 
 De plus, si vous retardez la fin d’une tâche parent, certaines de ses tâches enfants peuvent être décalées : il s’agit des tâches enfants dont le statut est **[!UICONTROL Planifié]** et dont la date de début est antérieure à la nouvelle date de fin de la tâche parent. La durée de la tâche reste la même. Si la date de début d’une tâche enfant est postérieure à la nouvelle date de fin de la tâche parent, alors la tâche enfant n’est pas décalée.
 
