@@ -62,7 +62,7 @@ Si vous utilisez un déploiement **On-Premise ou hybride**, procédez comme suit
 
 Les éléments suivants s’appliquent que votre instance soit hébergée par Adobe ou on-premise/hybride.
 
-Si vous configurez le compte externe [!UICONTROL Web Analytics] pour la première fois, plutôt que de migrer un compte existant, suivez les [étapes de configuration du compte externe](../../installation/using/external-accounts.md#web-analytics-external-account) et le guide de prise en main du connecteur [](../../integrations/using/gs-aa.md).
+Si vous configurez le compte externe [!UICONTROL Web Analytics] pour la première fois, plutôt que de migrer un compte existant, suivez les [étapes de configuration du compte externe](../../installation/using/external-accounts.md#web-analytics-external-account) et le guide de prise en main du connecteur [&#128279;](../../integrations/using/gs-aa.md).
 
 Dans la mesure où Analytics 2.0 introduit une nouvelle gestion des classifications, vous devez également créer un ensemble de classifications dans Adobe Analytics avant que votre compte externe puisse récupérer les données de classification de votre suite de rapports. Il s’agit d’une nouvelle étape : créez-la après la configuration de vos variables de conversion et événements de succès, et avant la configuration du compte externe dans Campaign.
 
@@ -83,8 +83,8 @@ Pour créer votre ensemble de classifications :
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
 
-Cet ensemble de classifications sera automatiquement découvert par Campaign lorsque vous configurerez votre compte externe à l’étape suivante. Pour plus d’informations sur les ensembles de classifications, consultez la documentation d’[](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/create-set){target="_blank"}.
+Cet ensemble de classifications sera automatiquement découvert par Campaign lorsque vous configurerez votre compte externe à l’étape suivante. Pour plus d’informations sur les ensembles de classifications, consultez la documentation d’[&#128279;](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/create-set){target="_blank"}.
 
 ## Vous avez besoin d’aide ? {#need-help}
 
-Si vous rencontrez des problèmes lors de la migration, contactez l’[Assistance clientèle ](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
+Si vous rencontrez des problèmes lors de la migration, contactez l’[Assistance clientèle &#x200B;](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
