@@ -18,10 +18,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 64661fb2003d66e416aabee2a89fcd990dd05f13
+source-git-commit: 7fd7a9e54183b456f06d8030c3d9425f275eabf5
 workflow-type: tm+mt
-source-wordcount: 667
-ht-degree: 96%
+source-wordcount: 657
+ht-degree: 93%
 
 ---
 
@@ -128,4 +128,4 @@ Certaines modifications importantes apportées au service Android FCM (Firebas
 
 ## Autres ressources
 
-[Liste des messages d’erreur](https://experienceleague.adobe.com/developer/campaign-errors/error_codes.html?lang=fr) – [Description du produit Adobe Campaign](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} – [Matrice de compatibilité](rn/using/compatibility-matrix.md) – [Tutoriels](https://experienceleague.adobe.com/fr/docs/campaign-classic-learn/tutorials/overview.html?lang=fr){target="_blank"} – [Panneau de contrôle pour Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr){target="_blank"} – [Pixels de suivi des e-mails et recommandations CNIL](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}
+[Description du produit Adobe Campaign &#x200B;](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Matrice de compatibilité](rn/using/compatibility-matrix.md) - [Tutoriels](https://experienceleague.adobe.com/fr/docs/campaign-classic-learn/tutorials/overview.html?lang=fr){target="_blank"} - [Panneau de Contrôle pour Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr){target="_blank"} - [Pixels de tracking e-mail et conseils CNIL](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}
