@@ -7,24 +7,16 @@ role: User
 level: Beginner
 exl-id: d65869ca-a785-4327-8e8d-791c28e4696c
 TQID: https://experienceleague.adobe.com/Xq9y8r6xU-hypq1Eeo9ijaiGng7qqkWVqiCXW5fYx2c
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080bid: e0eb8757-182f-49f3-94a4-1587d16f5094
 feature_v2: []
-subfeature_v2:
-  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
-  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+subfeature_v2: id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
 source-git-commit: d1e083ac90731e9f55d64156fbd6038df3c4d432
 workflow-type: tm+mt
 source-wordcount: 1019
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -32,37 +24,37 @@ ht-degree: 86%
 
 Cette page répertorie les nouvelles fonctionnalités, les améliorations et les correctifs apportés à la **dernière version de Campaign Classic v7**. Chaque nouvelle build est fournie avec un statut matérialisé par une couleur. En savoir plus sur les statuts de build de Campaign Classic v7 dans [cette page](rn-overview.md).
 
-## Version 7.4.4 {#release-7-4-4}
+## Version 7.4.4 {#release-7-4-4}
 
-### Build 9401 {#build-9401}
+### Build 9401 {#build-9401}
 
 [!BADGE Disponibilité générale]{type=Positive url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Disponibilité générale"}
 
-_25 août 2026_
+_25 août 2026_
 
 #### Améliorations de la sécurité {#security-7-4-4-9401}
 
 Adobe a publié des mises à jour de sécurité pour Adobe Campaign Classic qui traitent des vulnérabilités critiques. Nous encourageons les clientes et clients disposant de déploiements on-premise et hybrides à installer les mises à jour dès que possible. Les instances hébergées par Adobe ont déjà été corrigées et ne nécessitent aucune action de la part du client ou de la cliente. Vous trouverez plus d’informations dans le [bulletin de sécurité](https://helpx.adobe.com/fr/security/products/campaign/apsb26-134.html){target="_blank"}.
 
-Un redémarrage du serveur Adobe Campaign (nlserver) est nécessaire pour charger la version et terminer le déploiement. Le correctif est actif par défaut après le redémarrage.
+Un redémarrage du serveur Adobe Campaign (nlserver) est nécessaire pour charger le build et terminer le déploiement. Le correctif est actif par défaut après le redémarrage.
 
-### Build 9400 {#build-9400}
+### Build 9400 {#build-9400}
 
 [!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
-_1 août 2026_
+_11 août 2026_
 
-Cette version comprend plusieurs améliorations du produit, des correctifs de sécurité et la mise à niveau vers l’API Adobe Analytics 2.0 pour le connecteur Adobe Analytics.
+Cette version comprend plusieurs améliorations du produit, des correctifs de sécurité et la mise à niveau vers l’API Adobe Analytics 2.0 pour le connecteur Adobe Analytics.
 
 #### Améliorations de la sécurité {#security-7-4-4-9400}
 
 Adobe a publié des mises à jour de sécurité pour Adobe Campaign Classic qui traitent des vulnérabilités critiques. Nous encourageons les clientes et clients disposant de déploiements on-premise et hybrides à installer les mises à jour dès que possible. Les instances hébergées par Adobe ont déjà été corrigées et ne nécessitent aucune action de la part du client ou de la cliente. Vous trouverez plus d’informations dans le [bulletin de sécurité](https://helpx.adobe.com/fr/security/products/campaign/apsb26-123.html){target="_blank"}.
 
-Un redémarrage du serveur Adobe Campaign (nlserver) est nécessaire pour charger la version et terminer le déploiement. Le correctif est actif par défaut après le redémarrage.
+Un redémarrage du serveur Adobe Campaign (nlserver) est nécessaire pour charger le build et terminer le déploiement. Le correctif est actif par défaut après le redémarrage.
 
-#### Mise à niveau d’Adobe Analytics 2.0 {#analytics-2-0-7-4-4}
+#### Mise à niveau Adobe Analytics 2.0 {#analytics-2-0-7-4-4}
 
-Les API d’Adobe Analytics 1.4 arrivent en fin de vie. Si vous utilisez le connecteur Adobe Analytics, vous devez effectuer la mise à niveau vers ce build et effectuer quelques étapes de migration en fonction de votre déploiement et de votre cas d’utilisation. [Découvrez comment migrer vers l’API Adobe Analytics 2.0](../../technotes/using/analytics-2-migration.md).
+Les API d’Adobe Analytics 1.4 arrivent en fin de vie. Si vous utilisez le connecteur Adobe Analytics, vous devez effectuer la mise à niveau vers ce build et effectuer quelques étapes de migration en fonction de votre déploiement et de votre cas d’utilisation. [Découvrez comment migrer vers l’API Adobe Analytics 2.0](../../technotes/using/analytics-2-migration.md).
 
 ## Version 7.4.3 {#release-7-4-3}
 
