@@ -41,7 +41,7 @@ Les types de champs disponibles sont les suivants :
 
   >[!NOTE]
   >
-  >Côté serveur, le script peut utiliser les fonctions définies dans la [documentation JSAPI Campaign](https://experienceleague.adobe.com/en/tools/campaign-api).
+  >Côté serveur, le script peut utiliser les fonctions définies dans la [documentation JSAPI Campaign](https://experienceleague.adobe.com/fr/tools/campaign-api).
 
 ## Insérer du contenu HTML {#inserting-html-content}
 

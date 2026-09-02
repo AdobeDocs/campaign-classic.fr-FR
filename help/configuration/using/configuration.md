@@ -104,7 +104,7 @@ L&#39;affichage des commandes respecte l&#39;ordre de déclaration dans le docum
 
 Un séparateur de commande permet d’afficher une barre de séparation entre les commandes. Il est identifié par la valeur **&#39;-&#39;** contenue dans le libellé de la commande.
 
-La présence facultative de la balise **`<soapcall>`** avec ses paramètres d’entrée définit l’appel d’une méthode SOAP à exécuter. Pour plus d’informations sur l’API SOAP, consultez la [documentation JSAPI Campaign](https://experienceleague.adobe.com/en/tools/campaign-api).
+La présence facultative de la balise **`<soapcall>`** avec ses paramètres d’entrée définit l’appel d’une méthode SOAP à exécuter. Pour plus d’informations sur l’API SOAP, consultez la [documentation JSAPI Campaign](https://experienceleague.adobe.com/fr/tools/campaign-api).
 
 Le contexte du formulaire peut être mis à jour lors de l’initialisation à partir de la balise **`<enter>`**. Pour plus d’informations sur cette balise, consultez la documentation sur les formulaires de saisie.
 
@@ -277,7 +277,7 @@ L&#39;affichage des commandes respecte l&#39;ordre de déclaration dans le docum
 
 Un séparateur de commande permet d’afficher une barre de séparation entre les commandes. Il est identifié par la valeur **&#39;-&#39;** contenue dans le libellé de la commande.
 
-La présence facultative de la balise **`<soapcall>`** avec ses paramètres d’entrée définit l’appel d’une méthode SOAP à exécuter. Pour plus d’informations sur les API SOAP, consultez la [documentation JSAPI Campaign](https://experienceleague.adobe.com/en/tools/campaign-api).
+La présence facultative de la balise **`<soapcall>`** avec ses paramètres d’entrée définit l’appel d’une méthode SOAP à exécuter. Pour plus d’informations sur les API SOAP, consultez la [documentation JSAPI Campaign](https://experienceleague.adobe.com/fr/tools/campaign-api).
 
 Le contexte du formulaire peut être mis à jour lors de l’initialisation via la balise **`<enter>`**. Pour plus d’informations sur cette balise, consultez la documentation du formulaire de saisie.
 

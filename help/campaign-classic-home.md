@@ -121,7 +121,7 @@ Certaines modifications importantes apportées au service Android FCM (Firebas
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
       <br/>
-      <strong>Ressources pour le développement </strong><br/><a href="configuration/using/about-data-model.md">Description du modèle de données</a> – <a href="configuration/using/about-schema-reference.md">Structure de schéma</a> – <a href="configuration/using/editing-forms.md">Structure de schéma</a> – <a href="configuration/using/about-web-services.md">API</a> – <a href="https://experienceleague.adobe.com/en/tools/campaign-api">Documentation de référence JSAPI</a> – <a href="configuration/using/about-custom-recipient-table.md">Tableau de destinataires personnalisé</a>
+      <strong>Ressources pour le développement </strong><br/><a href="configuration/using/about-data-model.md">Description du modèle de données</a> – <a href="configuration/using/about-schema-reference.md">Structure de schéma</a> – <a href="configuration/using/editing-forms.md">Structure de schéma</a> – <a href="configuration/using/about-web-services.md">API</a> – <a href="https://experienceleague.adobe.com/fr/tools/campaign-api">Documentation de référence JSAPI</a> – <a href="configuration/using/about-custom-recipient-table.md">Tableau de destinataires personnalisé</a>
     </td>
   </tr>
 </table>

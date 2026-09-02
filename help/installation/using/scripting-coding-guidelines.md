@@ -29,7 +29,7 @@ ht-degree: 98%
 
 ## Scripts
 
-Pour plus d’informations, reportez-vous à la [documentation JSAPI Campaign](https://experienceleague.adobe.com/en/tools/campaign-api).
+Pour plus d’informations, reportez-vous à la [documentation JSAPI Campaign](https://experienceleague.adobe.com/fr/tools/campaign-api).
 
 Si vous écrivez un script à l’aide d’un workflow, d’applications web ou de jssp, suivez ces bonnes pratiques :
 
@@ -66,7 +66,7 @@ Pour éviter les injections SQL, les fonctions SQL doivent être ajoutées à la
 >
 >Si vous utilisez un build antérieur au build 8140, l’option **XtkPassUnknownSQLFunctionsToRDBMS** peut être définie sur « 1 ». Si vous souhaitez protéger votre base de données, supprimez cette option (ou définissez-la sur « 0 »).
 
-Si vous utilisez des saisies d’utilisateur ou d’utilisatrice pour créer des filtres dans des requêtes ou des instructions SQL, vous devez toujours les placer dans une séquence d’échappement (consultez la [documentation JSAPI Campaign](https://experienceleague.adobe.com/en/tools/campaign-api) - Protection des données : fonctions d’échappement). Ces fonctions sont les suivantes :
+Si vous utilisez des saisies d’utilisateur ou d’utilisatrice pour créer des filtres dans des requêtes ou des instructions SQL, vous devez toujours les placer dans une séquence d’échappement (consultez la [documentation JSAPI Campaign](https://experienceleague.adobe.com/fr/tools/campaign-api) - Protection des données : fonctions d’échappement). Ces fonctions sont les suivantes :
 
 * NL.XML.escape(data)
 * NL.SQL.escape(data)

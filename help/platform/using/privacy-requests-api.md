@@ -68,7 +68,7 @@ L&#39;API JS **[!UICONTROL CreateRequestByName]** est définie comme suit.
 
 ## Appel de l&#39;API en externe {#invoking-api-externally}
 
-Voici un exemple d&#39;appel externe de l&#39;API (authentification via l&#39;API et détails spécifiques sur l&#39;API de protection des données). Pour en savoir plus sur l&#39;API de protection des données, consultez la [documentation de l&#39;API](https://experienceleague.adobe.com/en/tools/campaign-api). Vous pouvez également consulter la [documentation sur les appels Web Service](../../configuration/using/web-service-calls.md).
+Voici un exemple d&#39;appel externe de l&#39;API (authentification via l&#39;API et détails spécifiques sur l&#39;API de protection des données). Pour en savoir plus sur l&#39;API de protection des données, consultez la [documentation de l&#39;API](https://experienceleague.adobe.com/fr/tools/campaign-api). Vous pouvez également consulter la [documentation sur les appels Web Service](../../configuration/using/web-service-calls.md).
 
 Tout d&#39;abord, vous devez effectuer l&#39;authentification par le biais de l&#39;API :
 

@@ -35,7 +35,7 @@ Ces exemples montrent comment vous pouvez utiliser le code JavaScript dans un wo
 * [Déclenchement d’un workflow, à l’aide d’une méthode SOAP statique](#trigger-example)
 * [Interaction avec la base de données, à l’aide d’une méthode SOAP non statique](#interact-example)
 
-[En savoir plus](https://experienceleague.adobe.com/en/tools/campaign-api) sur les méthodes SOAP statiques et non statiques.
+[En savoir plus](https://experienceleague.adobe.com/fr/tools/campaign-api) sur les méthodes SOAP statiques et non statiques.
 
 Dans ces exemples, l’extension ECMAScript pour XML (E4X) est utilisée. Avec cette extension, vous pouvez combiner des appels JavaScript et des primitives XML dans le même script.
 
@@ -113,7 +113,7 @@ var myXML = <recipient xtkschema="nms:recipient"
 
 #### Suppression d’un enregistrement
 
-Utilisez la méthode `DeleteCollection`. [En savoir plus](https://experienceleague.adobe.com/en/tools/campaign-api).
+Utilisez la méthode `DeleteCollection`. [En savoir plus](https://experienceleague.adobe.com/fr/tools/campaign-api).
 
 Indiquez les informations suivantes :
 
@@ -287,7 +287,7 @@ for each (var rcp in res:recipient)
     logInfo(rcp.@email)
 ```
 
-La boucle comprend une variable de destinataire locale. L’e-mail de chaque destinataire renvoyé dans la collection de destinataires est imprimé. [En savoir plus](https://experienceleague.adobe.com/en/tools/campaign-api) sur la fonction `logInfo`.
+La boucle comprend une variable de destinataire locale. L’e-mail de chaque destinataire renvoyé dans la collection de destinataires est imprimé. [En savoir plus](https://experienceleague.adobe.com/fr/tools/campaign-api) sur la fonction `logInfo`.
 
 #### Résultats d’une opération `getIfExists`
 
@@ -373,7 +373,7 @@ Vous pouvez déclencher des workflows par programme, par exemple dans des workfl
 
 Le déclenchement d’un workflow s’effectue à l’aide d’événements. Vous pouvez utiliser ces fonctionnalités pour les événements :
 
-* Pour publier un événement, vous pouvez utiliser la méthode statique `PostEvent`. [En savoir plus](https://experienceleague.adobe.com/en/tools/campaign-api).
+* Pour publier un événement, vous pouvez utiliser la méthode statique `PostEvent`. [En savoir plus](https://experienceleague.adobe.com/fr/tools/campaign-api).
 * Pour recevoir un événement, vous pouvez utiliser l’activité **[!UICONTROL Signal externe]**. [En savoir plus](external-signal.md).
 
 Vous pouvez déclencher des workflows de différentes manières :
@@ -440,10 +440,10 @@ Procédez comme suit :
 
 1. Définissez la requête :
 
-   * Récupérez une entité en utilisant la méthode `create` sur le schéma correspondant, par exemple, le schéma `xtk:workflow`. [En savoir plus](https://experienceleague.adobe.com/en/tools/campaign-api).
+   * Récupérez une entité en utilisant la méthode `create` sur le schéma correspondant, par exemple, le schéma `xtk:workflow`. [En savoir plus](https://experienceleague.adobe.com/fr/tools/campaign-api).
    * Utilisez la méthode `queryDef` pour émettre une requête SQL.
 
-1. Exécutez la requête à l’aide de la méthode `ExecuteQuery`. [En savoir plus](https://experienceleague.adobe.com/en/tools/campaign-api).
+1. Exécutez la requête à l’aide de la méthode `ExecuteQuery`. [En savoir plus](https://experienceleague.adobe.com/fr/tools/campaign-api).
 
    Utilisez la boucle `for each` pour récupérer les résultats.
 
@@ -629,11 +629,11 @@ Cette vidéo présente un exemple d’utilisation d’une méthode d’API non s
 
 ### Documentation des API
 
-* [Exemples d’appels SOAP](https://experienceleague.adobe.com/en/tools/campaign-api)
+* [Exemples d’appels SOAP](https://experienceleague.adobe.com/fr/tools/campaign-api)
 * Méthodes :
-  * [Créer](https://experienceleague.adobe.com/en/tools/campaign-api)
-  * [DeleteCollection](https://experienceleague.adobe.com/en/tools/campaign-api)
-  * [ExecuteQuery](https://experienceleague.adobe.com/en/tools/campaign-api)
-  * [PostEvent](https://experienceleague.adobe.com/en/tools/campaign-api)
-  * [Write](https://experienceleague.adobe.com/en/tools/campaign-api)
-* [Fonction logInfo](https://experienceleague.adobe.com/en/tools/campaign-api)
+  * [Créer](https://experienceleague.adobe.com/fr/tools/campaign-api)
+  * [DeleteCollection](https://experienceleague.adobe.com/fr/tools/campaign-api)
+  * [ExecuteQuery](https://experienceleague.adobe.com/fr/tools/campaign-api)
+  * [PostEvent](https://experienceleague.adobe.com/fr/tools/campaign-api)
+  * [Write](https://experienceleague.adobe.com/fr/tools/campaign-api)
+* [Fonction logInfo](https://experienceleague.adobe.com/fr/tools/campaign-api)
