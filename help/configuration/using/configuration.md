@@ -6,21 +6,15 @@ description: Découvrez comment configurer l’arborescence de navigation de l�
 role: Developer
 exl-id: c7ae7240-0c12-4420-bbb3-4268c9ade3e7
 TQID: https://experienceleague.adobe.com/K2bUgEoNSbVfc5hs1O-V36yNrjUFKQEO00-clOYc5u4
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: b12f6872-9271-4369-85e5-86969a0b99a2
-  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
-subfeature_v2:
-  - id: efa38731-2723-4334-8d8b-a778af834835
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: ht
-source-wordcount: 1233
-ht-degree: 100%
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: b12f6872-9271-4369-85e5-86969a0b99a2id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+subfeature_v2: id: efa38731-2723-4334-8d8b-a778af834835
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 073ad5eccc52ad63e92829de4a4c6ac6178635e1
+workflow-type: tm+mt
+source-wordcount: 1231
+ht-degree: 99%
 
 ---
 
@@ -62,7 +56,7 @@ La déclaration des types de dossiers est structurée dans le document avec les 
 
 ## Commandes globales {#global-commands}
 
-Une commande globale permet de lancer une action.Cette action peut être un formulaire de saisie ou un appel SOAP.
+Une commande globale permet de lancer une action. Cette action peut être un formulaire de saisie ou un appel SOAP.
 
 Les commandes globales sont accessibles à partir du menu principal **[!UICONTROL Outils]**.
 
@@ -104,7 +98,7 @@ L&#39;affichage des commandes respecte l&#39;ordre de déclaration dans le docum
 
 Un séparateur de commande permet d’afficher une barre de séparation entre les commandes. Il est identifié par la valeur **&#39;-&#39;** contenue dans le libellé de la commande.
 
-La présence facultative de la balise **`<soapcall>`** avec ses paramètres d’entrée définit l’appel d’une méthode SOAP à exécuter. Pour plus d’informations sur l’API SOAP, consultez la [documentation JSAPI Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=fr).
+La présence facultative de la balise **`<soapcall>`** avec ses paramètres d’entrée définit l’appel d’une méthode SOAP à exécuter. Pour plus d’informations sur l’API SOAP, consultez la [documentation JSAPI Campaign](https://experienceleague.adobe.com/en/tools/campaign-api).
 
 Le contexte du formulaire peut être mis à jour lors de l’initialisation à partir de la balise **`<enter>`**. Pour plus d’informations sur cette balise, consultez la documentation sur les formulaires de saisie.
 
@@ -144,7 +138,7 @@ Le contexte du formulaire peut être mis à jour lors de l’initialisation à p
 
 ## Type de dossier {#folder-type}
 
-Un type de dossier permet de donner l’accès aux données d’un schéma.La vue associée au dossier est composée d’une liste et d’un formulaire de saisie.
+Un type de dossier permet de donner l’accès aux données d’un schéma. La vue associée au dossier est composée d’une liste et d’un formulaire de saisie.
 
 La structure du paramétrage des types de dossier est la suivante :
 
@@ -184,7 +178,7 @@ L’élément **`<view>`** situé sous l’élément **`<nodemodel>`** contient 
 Pour modifier les enregistrements de la liste, le formulaire de saisie portant le même nom que le schéma de liste est implicitement utilisé. L’attribut **type** sur l’élément **`<view>`** affecte l’affichage du formulaire. Les valeurs possibles sont les suivantes :
 
 * **listdet** : affiche le formulaire en base de la liste.
-* **list** : affiche la liste seule.Le formulaire est lancé par un double clic ou par le menu « Ouvrir » sur sélection de la liste.
+* **list** : affiche la liste seule. Le formulaire est lancé par un double clic ou par le menu « Ouvrir » sur sélection de la liste.
 * **form** : affiche une forme de consultation.
 * **editForm** : affiche un formulaire en édition.
 
@@ -237,7 +231,7 @@ Un filtre et un tri peuvent être appliqués lors du chargement de la liste :
 
 ### Commandes contextuelles {#shortcut-commands}
 
-Un raccourci permet de lancer une action sur sélection de la liste.L’action peut être un formulaire de saisie ou un appel SOAP.
+Un raccourci permet de lancer une action sur sélection de la liste. L’action peut être un formulaire de saisie ou un appel SOAP.
 
 Les commandes sont accessibles à partir du menu **[!UICONTROL Action]** de la liste ou du bouton menu associé.
 
@@ -277,7 +271,7 @@ L&#39;affichage des commandes respecte l&#39;ordre de déclaration dans le docum
 
 Un séparateur de commande permet d’afficher une barre de séparation entre les commandes. Il est identifié par la valeur **&#39;-&#39;** contenue dans le libellé de la commande.
 
-La présence facultative de la balise **`<soapcall>`** avec ses paramètres d’entrée définit l’appel d’une méthode SOAP à exécuter. Pour plus d’informations sur les API SOAP, consultez la [documentation JSAPI Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=fr).
+La présence facultative de la balise **`<soapcall>`** avec ses paramètres d’entrée définit l’appel d’une méthode SOAP à exécuter. Pour plus d’informations sur les API SOAP, consultez la [documentation JSAPI Campaign](https://experienceleague.adobe.com/en/tools/campaign-api).
 
 Le contexte du formulaire peut être mis à jour lors de l’initialisation via la balise **`<enter>`**. Pour plus d’informations sur cette balise, consultez la documentation du formulaire de saisie.
 
