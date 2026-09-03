@@ -23,10 +23,10 @@ subfeature_v2:
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 499
-ht-degree: 100%
+source-git-commit: e615a6fdd6dc78b2c5e80d6aeb92cd9291ccf5e7
+workflow-type: tm+mt
+source-wordcount: 571
+ht-degree: 87%
 
 ---
 
@@ -40,7 +40,7 @@ Les extensions supportées sont : &quot;.docx&quot;, &quot;.doc&quot;, et &quot
 
 Pour personnaliser vos documents, vous disposez des mêmes fonctionnalités JavaScript que celles disponibles pour la personnalisation des e-mails.
 
-Vous devez activer l’option **[!UICONTROL « Le contenu du fichier est personnalisé et converti en PDF au moment de la diffusion pour chaque message »]**.Cette option est accessible lors de l’ajout du fichier en pièce jointe à l’e-mail de la diffusion.Pour en savoir plus sur l’ajout d’un fichier calculé en pièce jointe, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html?lang=fr){target="_blank"}.
+Vous devez activer l’option **[!UICONTROL « Le contenu du fichier est personnalisé et converti en PDF au moment de la diffusion pour chaque message »]**. Cette option est accessible lors de l’ajout du fichier en pièce jointe à l’e-mail de la diffusion. Pour en savoir plus sur l’ajout d’un fichier calculé en pièce jointe, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/attaching-files.html?lang=fr){target="_blank"}.
 
 Exemple de personnalisation de l&#39;en-tête d&#39;une facture :
 
@@ -64,6 +64,10 @@ La procédure pour générer des tableaux dynamiques est la suivante :
 
 ## Insertion dʼimages externes {#inserting-external-images}
 
+>[!IMPORTANT]
+>
+>La version 7.4.4 (build 9401) comprend une mise à jour de la liste autorisée URL externe. Assurez-vous que les domaines utilisés pour les images externes dans vos pièces jointes sont ajoutés à la liste autorisée de données approuvée de votre instance afin que les ressources continuent à se charger sans interruption. En tant qu’administrateur ou administratrice de Campaign, utilisez le Panneau de Contrôle pour ajouter et gérer des URL placées sur la liste autorisée. Pour connaître la procédure, voir [Ajout d’autorisations d’URL](https://experienceleague.adobe.com/fr/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}.
+
 L&#39;insertion d&#39;images externes est utile lorsque, par exemple, vous souhaitez personnaliser un document avec une image dont l&#39;URL est renseignée dans un champ du destinataire.
 
 Pour cela, il est nécessaire de paramétrer un bloc de personnalisation, puis d’inclure dans la pièce jointe un appel au bloc de personnalisation.
@@ -81,14 +85,14 @@ Pour cela, il est nécessaire de paramétrer un bloc de personnalisation, puis d
 
 * Allez dans le menu **[!UICONTROL Ressources > Gestion de campagne > Blocs de personnalisation]** de la console Adobe Campaign.
 * Créez un nouveau bloc de personnalisation &quot;Mon Logo&quot; avec pour nom interne &quot;Mon_Logo&quot;.
-* Cliquez sur le lien **[!UICONTROL Paramètres avancés…]** et cochez l’option **[!UICONTROL « Le bloc est inclus dans une pièce jointe »]**.Cela vous permet de copier la définition du bloc de personnalisation directement dans le contenu du fichier OpenOffice.
+* Cliquez sur le lien **[!UICONTROL Paramètres avancés…]** et cochez l’option **[!UICONTROL « Le bloc est inclus dans une pièce jointe »]**. Cela vous permet de copier la définition du bloc de personnalisation directement dans le contenu du fichier OpenOffice.
 
   ![](assets/s_ncs_pdf_bloc_option.png)
 
   Il est nécessaire de distinguer deux types de déclaration à l&#39;intérieur du bloc de personnalisation :
 
-   * Le code Adobe Campaign des champs de personnalisation pour lequel les chevrons « ouvert » et « fermé » doivent être remplacés par des caractères échappés (respectivement `&lt;` et `&gt;`).
-   * Le code XML OpenOffice qui sera intégralement recopié dans le document OpenOffice.
+  * Le code Adobe Campaign des champs de personnalisation pour lequel les chevrons « ouvert » et « fermé » doivent être remplacés par des caractères échappés (respectivement `&lt;` et `&gt;`).
+  * Le code XML OpenOffice qui sera intégralement recopié dans le document OpenOffice.
 
 Dans l&#39;exemple, le bloc de personnalisation est de cette forme :
 

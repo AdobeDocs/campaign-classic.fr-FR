@@ -21,10 +21,10 @@ feature_v2: []
 subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-source-git-commit: d1e083ac90731e9f55d64156fbd6038df3c4d432
+source-git-commit: e615a6fdd6dc78b2c5e80d6aeb92cd9291ccf5e7
 workflow-type: tm+mt
-source-wordcount: 1019
-ht-degree: 100%
+source-wordcount: 1119
+ht-degree: 91%
 
 ---
 
@@ -45,6 +45,12 @@ _25 août 2026_
 Adobe a publié des mises à jour de sécurité pour Adobe Campaign Classic qui traitent des vulnérabilités critiques. Nous encourageons les clientes et clients disposant de déploiements on-premise et hybrides à installer les mises à jour dès que possible. Les instances hébergées par Adobe ont déjà été corrigées et ne nécessitent aucune action de la part du client ou de la cliente. Vous trouverez plus d’informations dans le [bulletin de sécurité](https://helpx.adobe.com/fr/security/products/campaign/apsb26-134.html){target="_blank"}.
 
 Un redémarrage du serveur Adobe Campaign (nlserver) est nécessaire pour charger le build et terminer le déploiement. Le correctif est actif par défaut après le redémarrage.
+
+#### Mise à jour de la liste autorisée d’URL externe {#security-enhancement-url-validation-9401}
+
+Cette version comprend une mise à jour de la liste autorisée URL externe utilisée pour le contenu de diffusion et les pièces jointes. Assurez-vous que tous les domaines que vous référencez actuellement sont ajoutés à la liste autorisée approuvée de votre instance.
+
+En tant qu’administrateur ou administratrice de Campaign, utilisez le Panneau de Contrôle pour ajouter à la liste autorisée de données les URL externes actuellement utilisées dans vos diffusions et suivez le même processus pour toute nouvelle URL externe à l’avenir. Terminez cette activité d’ici le 5 septembre 2026 afin d’éviter tout impact sur les diffusions affectées. Pour connaître la procédure, voir [Ajout d’autorisations d’URL](https://experienceleague.adobe.com/fr/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}.
 
 ### Build 9400 {#build-9400}
 
