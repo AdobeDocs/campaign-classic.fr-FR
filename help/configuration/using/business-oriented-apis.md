@@ -13,29 +13,29 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 625
-ht-degree: 100%
+source-git-commit: 073ad5eccc52ad63e92829de4a4c6ac6178635e1
+workflow-type: tm+mt
+source-wordcount: 624
+ht-degree: 99%
 
 ---
 
 # API orientées métier{#business-oriented-apis}
 
-Les API métier sont spécifiques à chaque type d’objet.Elles agissent sur les éléments suivants :
+Les API métier sont spécifiques à chaque type d’objet. Elles agissent sur les éléments suivants :
 
 * Diffusions :
 
-   * créer une action de diffusion, voir la section [SubmitDelivery (nms:delivery)](#submitdelivery--nms-delivery-),
-   * envoyer une campagne (démarrer, mettre en pause, arrêter, envoyer un BAT),
-   * récupérer les logs de diffusion.
+  * créer une action de diffusion, voir la section [SubmitDelivery (nms:delivery)](#submitdelivery--nms-delivery-),
+  * envoyer une campagne (démarrer, mettre en pause, arrêter, envoyer un BAT),
+  * récupérer les logs de diffusion.
 
 * Workflows :
 
-   * démarrer un workflow,
-   * contrôler les process, etc.
+  * démarrer un workflow,
+  * contrôler les process, etc.
 
-     Pour plus d&#39;informations, consultez la section [Méthodes SOAP en JavaScript](../../configuration/using/soap-methods-in-javascript.md).
+    Pour plus d&#39;informations, consultez la section [Méthodes SOAP en JavaScript](../../configuration/using/soap-methods-in-javascript.md).
 
 * Gestion de contenu
 * Gestion des abonnements, consultez les sections [S’abonner (nms:subscription)](#subscribe--nms-subscription-) et [Se désabonner (nms:subscription)](#unsubscribe--nms-subscription-).
@@ -45,7 +45,7 @@ Cette section montre comment utiliser les services &quot;Subscribe&quot;, &quot;
 
 >[!IMPORTANT]
 >
->La [documentation JSAPI Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=fr) contient des informations supplémentaires sur les appels SOAP et l’utilisation de Javascript dans Adobe Campaign ainsi qu’une référence complète de toutes les méthodes et fonctions utilisées dans l’application.
+>La [documentation JSAPI Campaign](https://experienceleague.adobe.com/fr/tools/campaign-api) contient des informations supplémentaires sur les appels SOAP et l’utilisation de Javascript dans Adobe Campaign ainsi qu’une référence complète de toutes les méthodes et fonctions utilisées dans l’application.
 
 ## S’abonner (nms:subscription) {#subscribe--nms-subscription-}
 
@@ -70,7 +70,7 @@ Description de la méthode « subscribe » dans le schéma « nms:subscriptio
 </method>
 ```
 
-La définition de la clé de réconciliation doit être renseignée via l’attribut _**key** sur l’élément `<recipient>` du document XML. Le contenu de cet attribut est une liste XPath séparée par des virgules.
+La définition de la clé de réconciliation doit être renseignée via l’attribut _&#x200B;**key** sur l’élément `<recipient>` du document XML. Le contenu de cet attribut est une liste XPath séparée par des virgules.
 
 Cet appel ne renvoie pas de données, hormis les erreurs.
 
@@ -204,7 +204,7 @@ Description de la méthode dans son schéma :
 </method>
 ```
 
-Un modèle de diffusion doit être créé à partir de la console cliente Adobe Campaign.Il contient les paramètres communs à toutes les diffusions (adresse de l’expéditeur ou de l’expéditrice, ou durée de validité du message).
+Un modèle de diffusion doit être créé à partir de la console cliente Adobe Campaign. Il contient les paramètres communs à toutes les diffusions (adresse de l’expéditeur ou de l’expéditrice, ou durée de validité du message).
 
 Le document XML en entrée est un fragment de modèle de diffusion respectant la structure du schéma « nms:delivery ». Il contiendra toutes les données additionnelles qui n’ont pas pu être définies de manière statique dans le modèle de diffusion (par exemple, la liste des personnes destinataires à cibler).
 

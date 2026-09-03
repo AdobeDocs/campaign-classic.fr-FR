@@ -13,10 +13,10 @@ feature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 subfeature_v2: []
-source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 665
-ht-degree: 100%
+source-git-commit: 073ad5eccc52ad63e92829de4a4c6ac6178635e1
+workflow-type: tm+mt
+source-wordcount: 664
+ht-degree: 96%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 100%
 
 Le serveur applicatif Adobe Campaign a été conçu dans un souci d&#39;ouverture afin de faciliter son implémentation applicative et son intégration dans des environnements d&#39;entreprise de plus en plus hétérogènes et complexes.
 
-Les API Adobe Campaign sont utilisées dans l’application avec JavaScript et en externe avec SOAP.Elles constituent une bibliothèque de fonctions génériques qui peuvent être enrichies.Pour plus d’informations, voir la section [Implémenter des méthodes SOAP](../../configuration/using/implementing-soap-methods.md).
+Les API Adobe Campaign sont utilisées dans l’application avec JavaScript et en externe avec SOAP. Elles constituent une bibliothèque de fonctions génériques qui peuvent être enrichies. Pour plus d’informations, voir la section [Implémenter des méthodes SOAP](../../configuration/using/implementing-soap-methods.md).
 
 >[!IMPORTANT]
 >
 >Le nombre d&#39;appels de moteur autorisé par jour varie selon votre contrat de licence. Pour plus d’informations, consultez [cette page](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-classic---product-description.html).\
->Retrouvez la liste de toutes les API, ainsi que leur description complète, dans [cette documentation dédiée]&#x200B;(https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=fr).
+>Une liste de toutes les API, ainsi que leur description complète, est disponible dans [cette documentation dédiée]&#x200B;(https://experienceleague.adobe.com/fr/tools/campaign-api)
 
 ## Conditions préalables {#prerequisites}
 
@@ -144,10 +144,10 @@ L’élément `<soap-env:fault>` du corps du message SOAP sert à transmettre le
 
 * `<faultcode>` : indique le type d’erreur. Les types d’erreurs sont les suivants :
 
-   * &quot;VersionMismatch&quot; en cas d&#39;incompatibilité avec la version de SOAP utilisée,
-   * &quot;MustUnderstand&quot; en cas de problème dans l&#39;en-tête du message,
-   * &quot;Client&quot; en cas de manque d&#39;informations de la part du client,
-   * &quot;Server&quot; en cas de problème d&#39;exécution des traitements par le serveur.
+  * &quot;VersionMismatch&quot; en cas d&#39;incompatibilité avec la version de SOAP utilisée,
+  * &quot;MustUnderstand&quot; en cas de problème dans l&#39;en-tête du message,
+  * &quot;Client&quot; en cas de manque d&#39;informations de la part du client,
+  * &quot;Server&quot; en cas de problème d&#39;exécution des traitements par le serveur.
 
 * `<faultstring>` : message décrivant l’erreur
 * `<detail>` : message long de l’erreur
@@ -156,7 +156,7 @@ Le succès ou l’échec de l’invocation du service est identifié par la vér
 
 >[!IMPORTANT]
 >
->Tous les services web Adobe Campaign gèrent les erreurs.Il est donc fortement recommandé de tester chaque appel afin de gérer les retours d’erreur.
+>Tous les services web Adobe Campaign gèrent les erreurs. Il est donc fortement recommandé de tester chaque appel afin de gérer les retours d’erreur.
 
 Exemple de gestion des erreurs en C# :
 

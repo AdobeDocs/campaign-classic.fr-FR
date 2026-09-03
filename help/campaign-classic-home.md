@@ -18,10 +18,10 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 7fd7a9e54183b456f06d8030c3d9425f275eabf5
+source-git-commit: 073ad5eccc52ad63e92829de4a4c6ac6178635e1
 workflow-type: tm+mt
-source-wordcount: 657
-ht-degree: 93%
+source-wordcount: 656
+ht-degree: 99%
 
 ---
 
@@ -36,9 +36,9 @@ Découvrez en primeur les dernières améliorations apportées à la documentati
 >[!BEGINTABS]
 
 
->[!TAB La version d’août 2026 est en ligne !]
+>[!TAB La version d’août 2026 est en ligne.]
 
-Le build Campaign Classic v7.4.4 - Août 26 fournit des mises à jour de sécurité et met à niveau le connecteur Adobe Analytics vers l’API Analytics 2.0.
+Le build Campaign Classic v7.4.4 - Août 2026 fournit des mises à jour de sécurité et met à niveau le connecteur Adobe Analytics vers l’API Analytics 2.0.
 
 [![Image](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)
 
@@ -121,11 +121,11 @@ Certaines modifications importantes apportées au service Android FCM (Firebas
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
       <br/>
-      <strong>Ressources pour le développement </strong><br/><a href="configuration/using/about-data-model.md">Description du modèle de données</a> – <a href="configuration/using/about-schema-reference.md">Structure de schéma</a> – <a href="configuration/using/editing-forms.md">Structure de schéma</a> – <a href="configuration/using/about-web-services.md">API</a> – <a href="https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=fr">Documentation de référence JSAPI</a> – <a href="configuration/using/about-custom-recipient-table.md">Tableau de destinataires personnalisé</a>
+      <strong>Ressources pour le développement </strong><br/><a href="configuration/using/about-data-model.md">Description du modèle de données</a> – <a href="configuration/using/about-schema-reference.md">Structure de schéma</a> – <a href="configuration/using/editing-forms.md">Structure de schéma</a> – <a href="configuration/using/about-web-services.md">API</a> – <a href="https://experienceleague.adobe.com/fr/tools/campaign-api">Documentation de référence JSAPI</a> – <a href="configuration/using/about-custom-recipient-table.md">Tableau de destinataires personnalisé</a>
     </td>
   </tr>
 </table>
 
 ## Autres ressources
 
-[Description du produit Adobe Campaign &#x200B;](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Matrice de compatibilité](rn/using/compatibility-matrix.md) - [Tutoriels](https://experienceleague.adobe.com/fr/docs/campaign-classic-learn/tutorials/overview.html?lang=fr){target="_blank"} - [Panneau de Contrôle pour Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr){target="_blank"} - [Pixels de tracking e-mail et conseils CNIL](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}
+[Description du produit Adobe Campaign](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} – [Matrice de compatibilité](rn/using/compatibility-matrix.md) – [Tutoriels](https://experienceleague.adobe.com/fr/docs/campaign-classic-learn/tutorials/overview.html?lang=fr){target="_blank"} – [Panneau de contrôle pour Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr){target="_blank"} – [Pixels de suivi des e-mails et recommandations CNIL](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/cnil-pixel-tracking){target="_blank"}
