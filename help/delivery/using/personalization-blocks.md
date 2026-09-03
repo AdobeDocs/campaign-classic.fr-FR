@@ -138,7 +138,7 @@ Une liste des blocs de personnalisation est disponible par défaut pour vous aid
 
 >[!IMPORTANT]
 >
->La version 7.4.4 (build 9401) comprend une mise à jour de la liste autorisée URL externe. Si un bloc de personnalisation personnalisé fait référence à une URL externe (par exemple, une image hébergée en externe), assurez-vous que le domaine est ajouté à la liste autorisée de données approuvée de votre instance afin que celle-ci continue à se charger sans interruption. En tant qu’administrateur ou administratrice de Campaign, utilisez le Panneau de Contrôle pour ajouter et gérer des URL placées sur la liste autorisée. Pour connaître la procédure, voir [Ajout d’autorisations d’URL](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}.
+>La version 7.4.4 (build 9401) comprend une mise à jour de la liste autorisée URL externe. Si un bloc de personnalisation personnalisé fait référence à une URL externe (par exemple, une image hébergée en externe), assurez-vous que le domaine est ajouté à la liste autorisée de données approuvée de votre instance afin que celle-ci continue à se charger sans interruption. En tant qu’administrateur ou administratrice de Campaign, utilisez le Panneau de Contrôle pour ajouter et gérer des URL placées sur la liste autorisée. Pour connaître la procédure, voir [Ajout d’autorisations d’URL](https://experienceleague.adobe.com/fr/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}.
 
 Vous pouvez définir de nouveaux champs de personnalisation qui pourront être insérés à partir de l’icône des champs personnalisés via le menu **[!UICONTROL Inclure…]**. Ces champs sont définis dans des blocs de personnalisation.
 

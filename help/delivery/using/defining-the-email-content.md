@@ -82,7 +82,7 @@ Vous pouvez également insérer des émoticônes dans votre ligne Objet à l’a
 
 >[!IMPORTANT]
 >
->La version 7.4.4 (build 9401) comprend une mise à jour de la liste autorisée URL externe. Assurez-vous que les domaines utilisés dans le contenu de votre message sont ajoutés à la liste autorisée de données approuvée de votre instance afin que les ressources puissent continuer à se charger sans interruption. En tant qu’administrateur ou administratrice de Campaign, utilisez le Panneau de Contrôle pour ajouter et gérer des URL placées sur la liste autorisée. Pour connaître la procédure, voir [Ajout d’autorisations d’URL](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}.
+>La version 7.4.4 (build 9401) comprend une mise à jour de la liste autorisée URL externe. Assurez-vous que les domaines utilisés dans le contenu de votre message sont ajoutés à la liste autorisée de données approuvée de votre instance afin que les ressources puissent continuer à se charger sans interruption. En tant qu’administrateur ou administratrice de Campaign, utilisez le Panneau de Contrôle pour ajouter et gérer des URL placées sur la liste autorisée. Pour connaître la procédure, voir [Ajout d’autorisations d’URL](https://experienceleague.adobe.com/fr/docs/control-panel/using/instances-settings/url-permissions){target="_blank"}.
 
 Le contenu du message est défini dans la section inférieure de la fenêtre de configuration de la diffusion.
 
