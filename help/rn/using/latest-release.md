@@ -3,7 +3,7 @@
 <file original="help/rn/using/latest-release.md.mdsc" source-language="en-US" target-language="en-XX" datatype="x-text/markdown">
 <body>
 <trans-unit id="tu8" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses</target>
 </trans-unit>
 <trans-unit id="tu9" xml:space="preserve">
@@ -11,15 +11,15 @@
 <target xml:lang="en-XX">Disponibilité générale</target>
 </trans-unit>
 <trans-unit id="tu13" xml:space="preserve">
-<source xml:lang="en-US">https://helpx.adobe.com/security/products/campaign/apsb26-134.html</source>
+<source xml:lang="en-US">https://helpx.adobe.com/fr/security/products/campaign/apsb26-134.html</source>
 <target xml:lang="en-XX">https://helpx.adobe.com/fr/security/products/campaign/apsb26-134.html</target>
 </trans-unit>
 <trans-unit id="tu18" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/fr/docs/control-panel/using/instances-settings/url-permissions</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/fr/docs/control-panel/using/instances-settings/url-permissions</target>
 </trans-unit>
 <trans-unit id="tu21" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses</target>
 </trans-unit>
 <trans-unit id="tu22" xml:space="preserve">
@@ -27,11 +27,11 @@
 <target xml:lang="en-XX">Obsolète</target>
 </trans-unit>
 <trans-unit id="tu27" xml:space="preserve">
-<source xml:lang="en-US">https://helpx.adobe.com/security/products/campaign/apsb26-123.html</source>
+<source xml:lang="en-US">https://helpx.adobe.com/fr/security/products/campaign/apsb26-123.html</source>
 <target xml:lang="en-XX">https://helpx.adobe.com/fr/security/products/campaign/apsb26-123.html</target>
 </trans-unit>
 <trans-unit id="tu34" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses</target>
 </trans-unit>
 <trans-unit id="tu35" xml:space="preserve">
@@ -39,11 +39,11 @@
 <target xml:lang="en-XX">Obsolète</target>
 </trans-unit>
 <trans-unit id="tu39" xml:space="preserve">
-<source xml:lang="en-US">https://helpx.adobe.com/security/products/campaign/apsb26-120.html</source>
+<source xml:lang="en-US">https://helpx.adobe.com/fr/security/products/campaign/apsb26-120.html</source>
 <target xml:lang="en-XX">https://helpx.adobe.com/fr/security/products/campaign/apsb26-120.html</target>
 </trans-unit>
 <trans-unit id="tu43" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses</target>
 </trans-unit>
 <trans-unit id="tu44" xml:space="preserve">
@@ -51,11 +51,11 @@
 <target xml:lang="en-XX">Obsolète</target>
 </trans-unit>
 <trans-unit id="tu48" xml:space="preserve">
-<source xml:lang="en-US">https://helpx.adobe.com/security/products/campaign/apsb26-114.html</source>
+<source xml:lang="en-US">https://helpx.adobe.com/fr/security/products/campaign/apsb26-114.html</source>
 <target xml:lang="en-XX">https://helpx.adobe.com/fr/security/products/campaign/apsb26-114.html</target>
 </trans-unit>
 <trans-unit id="tu52" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses</target>
 </trans-unit>
 <trans-unit id="tu53" xml:space="preserve">
@@ -63,7 +63,7 @@
 <target xml:lang="en-XX">Obsolète</target>
 </trans-unit>
 <trans-unit id="tu64" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses</target>
 </trans-unit>
 <trans-unit id="tu65" xml:space="preserve">
@@ -71,7 +71,7 @@
 <target xml:lang="en-XX">Obsolète</target>
 </trans-unit>
 <trans-unit id="tu70" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses</target>
 </trans-unit>
 <trans-unit id="tu71" xml:space="preserve">

@@ -3,7 +3,7 @@
 <file original="help/delivery/using/defining-the-email-content.md.mdsc" source-language="en-US" target-language="en-XX" datatype="x-text/markdown">
 <body>
 <trans-unit id="tu33" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/fr/docs/control-panel/using/instances-settings/url-permissions</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/fr/docs/control-panel/using/instances-settings/url-permissions</target>
 </trans-unit>
 <trans-unit id="tu59" xml:space="preserve">
@@ -11,7 +11,7 @@
 <target xml:lang="en-XX">https://amp.dev/fr/about/email/</target>
 </trans-unit>
 <trans-unit id="tu61" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html?lang=fr</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-interactive-content.html?lang=fr</target>
 </trans-unit>
 <trans-unit id="tu1" restype="x-YAML_METADATA_HEADER_VALUE" xml:space="preserve">

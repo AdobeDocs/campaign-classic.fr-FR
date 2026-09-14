@@ -3,7 +3,7 @@
 <file original="help/workflow/using/test.md.mdsc" source-language="en-US" target-language="en-XX" datatype="x-text/markdown">
 <body>
 <trans-unit id="tu8" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/tools/campaign-api</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/fr/tools/campaign-api</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/fr/tools/campaign-api</target>
 </trans-unit>
 <trans-unit id="tu1" restype="x-YAML_METADATA_HEADER_VALUE" xml:space="preserve">

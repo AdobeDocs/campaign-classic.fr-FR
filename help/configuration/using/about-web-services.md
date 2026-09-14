@@ -3,7 +3,7 @@
 <file original="help/configuration/using/about-web-services.md.mdsc" source-language="en-US" target-language="en-XX" datatype="x-text/markdown">
 <body>
 <trans-unit id="tu9" xml:space="preserve">
-<source xml:lang="en-US">https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-classic---product-description.html</source>
+<source xml:lang="en-US">https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-classic---product-description.html</source>
 <target xml:lang="en-XX">https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-classic---product-description.html</target>
 </trans-unit>
 <trans-unit id="tu1" restype="x-YAML_METADATA_HEADER_VALUE" xml:space="preserve">
@@ -39,7 +39,7 @@
 <target xml:lang="en-XX">Le nombre d'appels de moteur autorisé par jour varie selon votre contrat de licence. Pour plus d’informations, consultez <ph id="1" ctype="x-LINK">&lbrack;</ph>cette page<ph id="2" ctype="x-LINK">[#$tu9]</ph>.</target>
 </trans-unit>
 <trans-unit id="tu10" xml:space="preserve">
-<source xml:lang="en-US">A list of all the APIs including their full description is available in <ph id="1" ctype="x-LINK_REF">[</ph>this dedicated documentation<ph id="2" ctype="x-LINK_REF">]</ph>(https://experienceleague.adobe.com/en/tools/campaign-api</source>
+<source xml:lang="en-US">A list of all the APIs including their full description is available in <ph id="1" ctype="x-LINK_REF">[</ph>this dedicated documentation<ph id="2" ctype="x-LINK_REF">]</ph>(https://experienceleague.adobe.com/fr/tools/campaign-api</source>
 <target xml:lang="en-XX">Retrouvez la liste de toutes les API, ainsi que leur description complète, dans <ph id="1" ctype="x-LINK_REF">[</ph>cette documentation dédiée<ph id="2" ctype="x-LINK_REF">]</ph>(https://experienceleague.adobe.com/fr/tools/campaign-api)</target>
 </trans-unit>
 <trans-unit id="tu11" xml:space="preserve">

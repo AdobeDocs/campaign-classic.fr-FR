@@ -3,7 +3,7 @@
 <file original="help/workflow/using/javascript-in-workflows.md.mdsc" source-language="en-US" target-language="en-XX" datatype="x-text/markdown">
 <body>
 <trans-unit id="tu10" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/tools/campaign-api</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/fr/tools/campaign-api</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/fr/tools/campaign-api</target>
 </trans-unit>
 <trans-unit id="tu30" xml:space="preserve">
@@ -11,23 +11,23 @@
 <target xml:lang="en-XX">https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html?lang=fr</target>
 </trans-unit>
 <trans-unit id="tu49" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/tools/campaign-api</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/fr/tools/campaign-api</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/fr/tools/campaign-api</target>
 </trans-unit>
 <trans-unit id="tu109" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/tools/campaign-api</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/fr/tools/campaign-api</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/fr/tools/campaign-api</target>
 </trans-unit>
 <trans-unit id="tu130" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/tools/campaign-api</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/fr/tools/campaign-api</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/fr/tools/campaign-api</target>
 </trans-unit>
 <trans-unit id="tu160" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/tools/campaign-api</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/fr/tools/campaign-api</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/fr/tools/campaign-api</target>
 </trans-unit>
 <trans-unit id="tu163" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/tools/campaign-api</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/fr/tools/campaign-api</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/fr/tools/campaign-api</target>
 </trans-unit>
 <trans-unit id="tu181" xml:space="preserve">
@@ -783,7 +783,7 @@
 <target xml:lang="en-XX">Exemples d’appels SOAP</target>
 </trans-unit>
 <trans-unit id="tu195" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/tools/campaign-api</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/fr/tools/campaign-api</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/fr/tools/campaign-api</target>
 </trans-unit>
 <trans-unit id="tu196" xml:space="preserve">
@@ -795,7 +795,7 @@
 <target xml:lang="en-XX">Créer</target>
 </trans-unit>
 <trans-unit id="tu198" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/tools/campaign-api</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/fr/tools/campaign-api</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/fr/tools/campaign-api</target>
 </trans-unit>
 <trans-unit id="tu199" xml:space="preserve">
@@ -803,7 +803,7 @@
 <target xml:lang="en-XX">DeleteCollection</target>
 </trans-unit>
 <trans-unit id="tu200" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/tools/campaign-api</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/fr/tools/campaign-api</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/fr/tools/campaign-api</target>
 </trans-unit>
 <trans-unit id="tu201" xml:space="preserve">
@@ -811,7 +811,7 @@
 <target xml:lang="en-XX">ExecuteQuery</target>
 </trans-unit>
 <trans-unit id="tu202" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/tools/campaign-api</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/fr/tools/campaign-api</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/fr/tools/campaign-api</target>
 </trans-unit>
 <trans-unit id="tu203" xml:space="preserve">
@@ -819,7 +819,7 @@
 <target xml:lang="en-XX">PostEvent</target>
 </trans-unit>
 <trans-unit id="tu204" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/tools/campaign-api</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/fr/tools/campaign-api</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/fr/tools/campaign-api</target>
 </trans-unit>
 <trans-unit id="tu205" xml:space="preserve">
@@ -827,7 +827,7 @@
 <target xml:lang="en-XX">Write</target>
 </trans-unit>
 <trans-unit id="tu206" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/tools/campaign-api</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/fr/tools/campaign-api</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/fr/tools/campaign-api</target>
 </trans-unit>
 <trans-unit id="tu207" xml:space="preserve">
@@ -835,7 +835,7 @@
 <target xml:lang="en-XX">Fonction logInfo</target>
 </trans-unit>
 <trans-unit id="tu208" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/tools/campaign-api</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/fr/tools/campaign-api</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/fr/tools/campaign-api</target>
 </trans-unit>
 </body>

@@ -134,7 +134,7 @@
 <target xml:lang="en-XX"></target>
 </trans-unit>
 <trans-unit id="sd1_sf1_tu10" resname="sd1_18" restype="x-href" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/push-settings</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/push/push-settings</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/push/push-settings</target>
 </trans-unit>
 <trans-unit id="sd1_sf1_tu9" resname="sd1_19" restype="x-paragraph" xml:space="preserve">
@@ -262,7 +262,7 @@
 <target xml:lang="en-XX"></target>
 </trans-unit>
 <trans-unit id="sd1_sf2_tu23" resname="sd1_42" restype="x-href" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr</target>
 </trans-unit>
 <trans-unit id="sd1_sf2_tu22" resname="sd1_43" restype="x-paragraph" xml:space="preserve">
@@ -322,7 +322,7 @@
 <target xml:lang="en-XX">Documentation des API de Campaign - fichier jsapi.chm</target>
 </trans-unit>
 <trans-unit id="sd1_sf2_tu38" resname="sd1_72" restype="x-href" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/tools/campaign-api</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/fr/tools/campaign-api</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/fr/tools/campaign-api</target>
 </trans-unit>
 <trans-unit id="sd1_sf2_tu37" resname="sd1_73" restype="x-td" xml:space="preserve">
@@ -366,7 +366,7 @@
 <target xml:lang="en-XX">À compter de la version 18.6 de Campaign, pour des raisons de sécurité, l’API <bpt id="1" ctype="x-em">&lt;em></bpt>decryptString<ept id="1">&lt;/em></ept> n’est plus disponible par défaut pour les nouvelles installations.</target>
 </trans-unit>
 <trans-unit id="sd1_sf2_tu49" resname="sd1_92" restype="x-href" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/tools/campaign-api</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/fr/tools/campaign-api</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/fr/tools/campaign-api</target>
 </trans-unit>
 <trans-unit id="sd1_sf2_tu48" resname="sd1_93" restype="x-paragraph" xml:space="preserve">

@@ -3,23 +3,23 @@
 <file original="help/campaign-classic-home.md.mdsc" source-language="en-US" target-language="en-XX" datatype="x-text/markdown">
 <body>
 <trans-unit id="tu16" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html?lang=fr</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/push-technote.html?lang=fr</target>
 </trans-unit>
 <trans-unit id="tu22" xml:space="preserve">
-<source xml:lang="en-US">https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html</source>
+<source xml:lang="en-US">https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html</source>
 <target xml:lang="en-XX">https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html</target>
 </trans-unit>
 <trans-unit id="tu23" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/fr/docs/campaign-classic-learn/tutorials/overview.html?lang=fr</target>
 </trans-unit>
 <trans-unit id="tu24" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr</target>
 </trans-unit>
 <trans-unit id="tu25" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/cnil-pixel-tracking</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/cnil-pixel-tracking</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/cnil-pixel-tracking</target>
 </trans-unit>
 <trans-unit id="tu1" restype="x-YAML_METADATA_HEADER_VALUE" xml:space="preserve">
@@ -176,7 +176,7 @@
     </target>
 </trans-unit>
 <trans-unit id="sd1_sf2_tu3" resname="sd1_6" restype="x-href" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=fr</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=fr</target>
 </trans-unit>
 <trans-unit id="sd1_sf2_tu2" resname="sd1_7" restype="x-td" xml:space="preserve">
@@ -192,7 +192,7 @@
     </target>
 </trans-unit>
 <trans-unit id="sd1_sf2_tu5" resname="sd1_10" restype="x-href" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/tracking</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/tracking/tracking</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/tracking/tracking</target>
 </trans-unit>
 <trans-unit id="sd1_sf2_tu4" resname="sd1_11" restype="x-td" xml:space="preserve">
@@ -232,7 +232,7 @@
     </target>
 </trans-unit>
 <trans-unit id="sd1_sf2_tu9" resname="sd1_20" restype="x-href" xml:space="preserve">
-<source xml:lang="en-US">https://experienceleague.adobe.com/en/tools/campaign-api</source>
+<source xml:lang="en-US">https://experienceleague.adobe.com/fr/tools/campaign-api</source>
 <target xml:lang="en-XX">https://experienceleague.adobe.com/fr/tools/campaign-api</target>
 </trans-unit>
 <trans-unit id="sd1_sf2_tu8" resname="sd1_21" restype="x-td" xml:space="preserve">
