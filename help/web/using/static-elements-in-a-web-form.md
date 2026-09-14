@@ -59,12 +59,12 @@
 <target xml:lang="en-XX">Script exécuté côté client et/ou côté serveur. Il doit être écrit en JavaScript et compatible avec la plupart des navigateurs afin d’assurer une bonne exécution côté client.</target>
 </trans-unit>
 <trans-unit id="tu13" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu14" xml:space="preserve">
-<source xml:lang="en-US">On the server side, the script can use the functions defined in <ph id="1" ctype="x-LINK">[</ph>Campaign JSAPI documentation<ph id="2" ctype="x-LINK">[#$tu15]</ph>.</source>
-<target xml:lang="en-XX">Côté serveur, le script peut utiliser les fonctions définies dans la <ph id="1" ctype="x-LINK">[</ph>documentation JSAPI Campaign<ph id="2" ctype="x-LINK">[#$tu15]</ph>.</target>
+<source xml:lang="en-US">On the server side, the script can use the functions defined in <ph id="1" ctype="x-LINK">&lbrack;</ph>Campaign JSAPI documentation<ph id="2" ctype="x-LINK">[#$tu15]</ph>.</source>
+<target xml:lang="en-XX">Côté serveur, le script peut utiliser les fonctions définies dans la <ph id="1" ctype="x-LINK">&lbrack;</ph>documentation JSAPI Campaign<ph id="2" ctype="x-LINK">[#$tu15]</ph>.</target>
 </trans-unit>
 <trans-unit id="tu16" xml:space="preserve">
 <source xml:lang="en-US">Insert HTML content</source>
@@ -95,8 +95,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-IMAGE">![](assets/webapp_perso_button_in_html.png)</ph></target>
 </trans-unit>
 <trans-unit id="tu23" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu24" xml:space="preserve">
 <source xml:lang="en-US">The strings entered in the HTML editor are only translated if they are defined in the <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Texts<ph id="3" ctype="x-LINK_REF">]**</ph> sub-tab. Otherwise they will not be collected. For more on this, refer to <ph id="5" ctype="x-LINK">[</ph>Translating a web form<ph id="6" ctype="x-LINK">](translating-a-web-form.md)</ph>.</source>
@@ -123,8 +123,8 @@
 <target xml:lang="en-XX">Le <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Libellé<ph id="3" ctype="x-LINK_REF">]**</ph> est le contenu du lien hypertexte, tel qu'il sera affiché dans la page du formulaire.</target>
 </trans-unit>
 <trans-unit id="tu30" xml:space="preserve">
-<source xml:lang="en-US">The <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>URL<ph id="3" ctype="x-LINK_REF">]**</ph> is the desired address, e.g.: <ph id="5" ctype="x-LINK">[</ph>https://www.adobe.com<ph id="6" ctype="x-LINK">[#$tu31]</ph> for a website, or <ph id="7" ctype="x-LINK">[</ph>info@adobe.com<ph id="8" ctype="x-LINK">](mailto:info@adobe.com)</ph> to send a message.</source>
-<target xml:lang="en-XX">L'<ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>URL<ph id="3" ctype="x-LINK_REF">]**</ph> correspond à l'adresse visée, par exemple : <ph id="5" ctype="x-LINK">[</ph>https://www.adobe.com<ph id="6" ctype="x-LINK">[#$tu31]</ph> pour un site web ou <ph id="7" ctype="x-LINK">[</ph>info@adobe.com<ph id="8" ctype="x-LINK">](mailto:info@adobe.com)</ph> pour envoyer un message.</target>
+<source xml:lang="en-US">The <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>URL<ph id="3" ctype="x-LINK_REF">]**</ph> is the desired address, e.g.: <ph id="5" ctype="x-LINK">&lbrack;</ph>https://www.adobe.com<ph id="6" ctype="x-LINK">[#$tu31]</ph> for a website, or <ph id="7" ctype="x-LINK">[</ph>info@adobe.com<ph id="8" ctype="x-LINK">](mailto:info@adobe.com)</ph> to send a message.</source>
+<target xml:lang="en-XX">L'<ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>URL<ph id="3" ctype="x-LINK_REF">]**</ph> correspond à l'adresse visée, par exemple : <ph id="5" ctype="x-LINK">&lbrack;</ph>https://www.adobe.com<ph id="6" ctype="x-LINK">[#$tu31]</ph> pour un site web ou <ph id="7" ctype="x-LINK">[</ph>info@adobe.com<ph id="8" ctype="x-LINK">](mailto:info@adobe.com)</ph> pour envoyer un message.</target>
 </trans-unit>
 <trans-unit id="tu32" xml:space="preserve">
 <source xml:lang="en-US">The <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Window<ph id="3" ctype="x-LINK_REF">]**</ph> field lets you select the display mode for the link in the case of a site. You can decide to open the link in a new window, the current window, or another window.</source>
@@ -223,8 +223,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-IMAGE">![](assets/s_ncs_admin_survey_add_transition_graph.png)</ph></target>
 </trans-unit>
 <trans-unit id="tu56" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu57" xml:space="preserve">
 <source xml:lang="en-US">For more on page sequencing in a Web form, refer to <ph id="1" ctype="x-LINK">[</ph>Defining web forms page sequencing<ph id="2" ctype="x-LINK">](defining-web-forms-page-sequencing.md)</ph>.</source>
@@ -247,8 +247,8 @@
 <target xml:lang="en-XX">Utilisez des champs de personnalisation pour réinjecter dans la page suivante le nom de l’utilisateur ou de l’utilisatrice et la marque sélectionnée. La syntaxe à utiliser dépend du mode de stockage des informations. Pour plus d'informations, consultez la section <ph id="1" ctype="x-LINK">[</ph>Utiliser les informations collectées<ph id="2" ctype="x-LINK">](web-forms-answers.md#using-collected-information)</ph>.</target>
 </trans-unit>
 <trans-unit id="tu62" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu63" xml:space="preserve">
 <source xml:lang="en-US">For security reasons, the value entered in the <ph id="1" ctype="x-STRONG_EMPHASIS">**`&lt;%=`**</ph> formula is replaced with escaped characters.</source>
@@ -315,8 +315,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-IMAGE">![](assets/s_ncs_admin_survey_html_content.png)</ph></target>
 </trans-unit>
 <trans-unit id="tu79" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!CAUTION">[!CAUTION]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!CAUTION">[!CAUTION]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!CAUTION">[!CAUTION]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!CAUTION">[!CAUTION]</ph></target>
 </trans-unit>
 <trans-unit id="tu80" xml:space="preserve">
 <source xml:lang="en-US">If you enter these characters in the HTML editor, the <ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>&lt;<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph> and <ph id="3" ctype="x-STRONG_EMPHASIS">**</ph>><ph id="4" ctype="x-STRONG_EMPHASIS">**</ph> fields will be replaced with their escaped characters. In this case, you need to correct the source code by clicking the <ph id="5" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Display source code<ph id="7" ctype="x-LINK_REF">]**</ph> icon of the HTML text editor.</source>

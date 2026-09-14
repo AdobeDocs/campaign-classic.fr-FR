@@ -103,8 +103,8 @@
 <target xml:lang="en-XX">Build 9401</target>
 </trans-unit>
 <trans-unit id="tu7" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-BADGE">[!BADGE </ph>General Availability<ph id="2" ctype="x-BADGE">]{type=Positive url="[#$tu8]" tooltip="[#$tu9]"}</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-BADGE">[!BADGE </ph>Disponibilité générale<ph id="2" ctype="x-BADGE">]{type=Positive url="[#$tu8]" tooltip="[#$tu9]"}</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-BADGE">[!BADGE BADGE </ph>General Availability<ph id="2" ctype="x-">]{type=Positive url="[#$tu8]" tooltip="[#$tu9]"}</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-BADGE">[!BADGE BADGE </ph>Disponibilité générale<ph id="2" ctype="x-">]{type=Positive url="[#$tu8]" tooltip="[#$tu9]"}</ph></target>
 </trans-unit>
 <trans-unit id="tu10" xml:space="preserve">
 <source xml:lang="en-US"><ph id="1" ctype="x-EMPHASIS">_</ph>August 25, 2026<ph id="2" ctype="x-EMPHASIS">_</ph></source>
@@ -115,8 +115,8 @@
 <target xml:lang="en-XX">Améliorations de la sécurité</target>
 </trans-unit>
 <trans-unit id="tu12" xml:space="preserve">
-<source xml:lang="en-US">Adobe has released security updates for Adobe Campaign Classic that address critical vulnerabilities. We encourage customers on on-premise and hybrid deployments to install the updates as soon as possible. Adobe-hosted instances have already been remediated and require no customer action. You can find more information in the <ph id="1" ctype="x-LINK">[</ph>security bulletin<ph id="2" ctype="x-LINK">[#$tu13]{target="_blank"}</ph>.</source>
-<target xml:lang="en-XX">Adobe a publié des mises à jour de sécurité pour Adobe Campaign Classic qui traitent des vulnérabilités critiques. Nous encourageons les clientes et clients disposant de déploiements on-premise et hybrides à installer les mises à jour dès que possible. Les instances hébergées par Adobe ont déjà été corrigées et ne nécessitent aucune action de la part du client ou de la cliente. Vous trouverez plus d’informations dans le <ph id="1" ctype="x-LINK">[</ph>bulletin de sécurité<ph id="2" ctype="x-LINK">[#$tu13]{target="_blank"}</ph>.</target>
+<source xml:lang="en-US">Adobe has released security updates for Adobe Campaign Classic that address critical vulnerabilities. We encourage customers on on-premise and hybrid deployments to install the updates as soon as possible. Adobe-hosted instances have already been remediated and require no customer action. You can find more information in the <ph id="1" ctype="x-LINK">&lbrack;</ph>security bulletin<ph id="2" ctype="x-LINK">[#$tu13]{target="_blank"}</ph>.</source>
+<target xml:lang="en-XX">Adobe a publié des mises à jour de sécurité pour Adobe Campaign Classic qui traitent des vulnérabilités critiques. Nous encourageons les clientes et clients disposant de déploiements on-premise et hybrides à installer les mises à jour dès que possible. Les instances hébergées par Adobe ont déjà été corrigées et ne nécessitent aucune action de la part du client ou de la cliente. Vous trouverez plus d’informations dans le <ph id="1" ctype="x-LINK">&lbrack;</ph>bulletin de sécurité<ph id="2" ctype="x-LINK">[#$tu13]{target="_blank"}</ph>.</target>
 </trans-unit>
 <trans-unit id="tu14" xml:space="preserve">
 <source xml:lang="en-US">A restart of the Adobe Campaign server (nlserver) is required to load the build and complete deployment. The fix is active by default once restarted.</source>
@@ -131,16 +131,16 @@
 <target xml:lang="en-XX">Cette version comprend une mise à jour de la liste des URL externes autorisées, utilisée pour la diffusion de contenu et les pièces jointes. Assurez-vous que tous les domaines que vous référencez actuellement sont ajoutés à la liste autorisée approuvée de votre instance.</target>
 </trans-unit>
 <trans-unit id="tu17" xml:space="preserve">
-<source xml:lang="en-US">As a Campaign Administrator, use the Control Panel to add external URLs currently used in your deliveries to the allow list, and follow the same process for any new external URL going forward. Complete this activity by 5 September 2026 to avoid impact to affected deliveries. See <ph id="1" ctype="x-LINK">[</ph>Add URL permissions<ph id="2" ctype="x-LINK">[#$tu18]{target="_blank"}</ph> for steps.</source>
-<target xml:lang="en-XX">En tant qu’administrateur ou administratrice de Campaign, utilisez le panneau de contrôle pour ajouter à la liste autorisée les URL externes actuellement utilisées dans vos diffusions et suivez le même processus pour toute nouvelle URL externe à l’avenir. Terminez cette activité d’ici le 5 septembre 2026 afin d’éviter tout impact sur les diffusions concernées. Pour connaître la procédure, consultez <ph id="1" ctype="x-LINK">[</ph>Ajouter des autorisations d’URL<ph id="2" ctype="x-LINK">[#$tu18]{target="_blank"}</ph>.</target>
+<source xml:lang="en-US">As a Campaign Administrator, use the Control Panel to add external URLs currently used in your deliveries to the allow list, and follow the same process for any new external URL going forward. Complete this activity by 5 September 2026 to avoid impact to affected deliveries. See <ph id="1" ctype="x-LINK">&lbrack;</ph>Add URL permissions<ph id="2" ctype="x-LINK">[#$tu18]{target="_blank"}</ph> for steps.</source>
+<target xml:lang="en-XX">En tant qu’administrateur ou administratrice de Campaign, utilisez le panneau de contrôle pour ajouter à la liste autorisée les URL externes actuellement utilisées dans vos diffusions et suivez le même processus pour toute nouvelle URL externe à l’avenir. Terminez cette activité d’ici le 5 septembre 2026 afin d’éviter tout impact sur les diffusions concernées. Pour connaître la procédure, consultez <ph id="1" ctype="x-LINK">&lbrack;</ph>Ajouter des autorisations d’URL<ph id="2" ctype="x-LINK">[#$tu18]{target="_blank"}</ph>.</target>
 </trans-unit>
 <trans-unit id="tu19" xml:space="preserve">
 <source xml:lang="en-US">Build 9400</source>
 <target xml:lang="en-XX">Build 9400</target>
 </trans-unit>
 <trans-unit id="tu20" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-BADGE">[!BADGE </ph>Deprecated<ph id="2" ctype="x-BADGE">]{type=negative url="[#$tu21]" tooltip="[#$tu22]"}</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-BADGE">[!BADGE </ph>Obsolète<ph id="2" ctype="x-BADGE">]{type=negative url="[#$tu21]" tooltip="[#$tu22]"}</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-BADGE">[!BADGE BADGE </ph>Deprecated<ph id="2" ctype="x-">]{type=negative url="[#$tu21]" tooltip="[#$tu22]"}</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-BADGE">[!BADGE BADGE </ph>Obsolète<ph id="2" ctype="x-">]{type=negative url="[#$tu21]" tooltip="[#$tu22]"}</ph></target>
 </trans-unit>
 <trans-unit id="tu23" xml:space="preserve">
 <source xml:lang="en-US"><ph id="1" ctype="x-EMPHASIS">_</ph>August 11, 2026<ph id="2" ctype="x-EMPHASIS">_</ph></source>
@@ -155,8 +155,8 @@
 <target xml:lang="en-XX">Améliorations de la sécurité</target>
 </trans-unit>
 <trans-unit id="tu26" xml:space="preserve">
-<source xml:lang="en-US">Adobe has released security updates for Adobe Campaign Classic that address critical vulnerabilities. We encourage customers on on-premise and hybrid deployments to install the updates as soon as possible. Adobe-hosted instances have already been remediated and require no customer action. You can find more information in the <ph id="1" ctype="x-LINK">[</ph>security bulletin<ph id="2" ctype="x-LINK">[#$tu27]{target="_blank"}</ph>.</source>
-<target xml:lang="en-XX">Adobe a publié des mises à jour de sécurité pour Adobe Campaign Classic qui traitent des vulnérabilités critiques. Nous encourageons les clientes et clients disposant de déploiements on-premise et hybrides à installer les mises à jour dès que possible. Les instances hébergées par Adobe ont déjà été corrigées et ne nécessitent aucune action de la part du client ou de la cliente. Vous trouverez plus d’informations dans le <ph id="1" ctype="x-LINK">[</ph>bulletin de sécurité<ph id="2" ctype="x-LINK">[#$tu27]{target="_blank"}</ph>.</target>
+<source xml:lang="en-US">Adobe has released security updates for Adobe Campaign Classic that address critical vulnerabilities. We encourage customers on on-premise and hybrid deployments to install the updates as soon as possible. Adobe-hosted instances have already been remediated and require no customer action. You can find more information in the <ph id="1" ctype="x-LINK">&lbrack;</ph>security bulletin<ph id="2" ctype="x-LINK">[#$tu27]{target="_blank"}</ph>.</source>
+<target xml:lang="en-XX">Adobe a publié des mises à jour de sécurité pour Adobe Campaign Classic qui traitent des vulnérabilités critiques. Nous encourageons les clientes et clients disposant de déploiements on-premise et hybrides à installer les mises à jour dès que possible. Les instances hébergées par Adobe ont déjà été corrigées et ne nécessitent aucune action de la part du client ou de la cliente. Vous trouverez plus d’informations dans le <ph id="1" ctype="x-LINK">&lbrack;</ph>bulletin de sécurité<ph id="2" ctype="x-LINK">[#$tu27]{target="_blank"}</ph>.</target>
 </trans-unit>
 <trans-unit id="tu28" xml:space="preserve">
 <source xml:lang="en-US">A restart of the Adobe Campaign server (nlserver) is required to load the build and complete deployment. The fix is active by default once restarted.</source>
@@ -179,8 +179,8 @@
 <target xml:lang="en-XX">Build 9399</target>
 </trans-unit>
 <trans-unit id="tu33" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-BADGE">[!BADGE </ph>Deprecated<ph id="2" ctype="x-BADGE">]{type=negative url="[#$tu34]" tooltip="[#$tu35]"}</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-BADGE">[!BADGE </ph>Obsolète<ph id="2" ctype="x-BADGE">]{type=negative url="[#$tu34]" tooltip="[#$tu35]"}</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-BADGE">[!BADGE BADGE </ph>Deprecated<ph id="2" ctype="x-">]{type=negative url="[#$tu34]" tooltip="[#$tu35]"}</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-BADGE">[!BADGE BADGE </ph>Obsolète<ph id="2" ctype="x-">]{type=negative url="[#$tu34]" tooltip="[#$tu35]"}</ph></target>
 </trans-unit>
 <trans-unit id="tu36" xml:space="preserve">
 <source xml:lang="en-US"><ph id="1" ctype="x-EMPHASIS">_</ph>August 3, 2026<ph id="2" ctype="x-EMPHASIS">_</ph></source>
@@ -191,8 +191,8 @@
 <target xml:lang="en-XX">Améliorations de la sécurité</target>
 </trans-unit>
 <trans-unit id="tu38" xml:space="preserve">
-<source xml:lang="en-US">Adobe has released security updates for Adobe Campaign Classic that address critical vulnerabilities. We encourage customers on on-premise and hybrid deployments to install the updates as soon as possible. Adobe-hosted instances have already been remediated and require no customer action. You can find more information in the <ph id="1" ctype="x-LINK">[</ph>security bulletin<ph id="2" ctype="x-LINK">[#$tu39]{target="_blank"}</ph>.</source>
-<target xml:lang="en-XX">Adobe a publié des mises à jour de sécurité pour Adobe Campaign Classic qui traitent des vulnérabilités critiques. Nous encourageons les clientes et clients disposant de déploiements on-premise et hybrides à installer les mises à jour dès que possible. Les instances hébergées par Adobe ont déjà été corrigées et ne nécessitent aucune action de la part du client ou de la cliente. Vous trouverez plus d’informations dans le <ph id="1" ctype="x-LINK">[</ph>bulletin de sécurité<ph id="2" ctype="x-LINK">[#$tu39]{target="_blank"}</ph>.</target>
+<source xml:lang="en-US">Adobe has released security updates for Adobe Campaign Classic that address critical vulnerabilities. We encourage customers on on-premise and hybrid deployments to install the updates as soon as possible. Adobe-hosted instances have already been remediated and require no customer action. You can find more information in the <ph id="1" ctype="x-LINK">&lbrack;</ph>security bulletin<ph id="2" ctype="x-LINK">[#$tu39]{target="_blank"}</ph>.</source>
+<target xml:lang="en-XX">Adobe a publié des mises à jour de sécurité pour Adobe Campaign Classic qui traitent des vulnérabilités critiques. Nous encourageons les clientes et clients disposant de déploiements on-premise et hybrides à installer les mises à jour dès que possible. Les instances hébergées par Adobe ont déjà été corrigées et ne nécessitent aucune action de la part du client ou de la cliente. Vous trouverez plus d’informations dans le <ph id="1" ctype="x-LINK">&lbrack;</ph>bulletin de sécurité<ph id="2" ctype="x-LINK">[#$tu39]{target="_blank"}</ph>.</target>
 </trans-unit>
 <trans-unit id="tu40" xml:space="preserve">
 <source xml:lang="en-US">A <ph id="1" ctype="x-LINK">[</ph>restart of the Adobe Campaign server (nlserver)<ph id="2" ctype="x-LINK">](../../production/using/usual-commands.md#restart-services)</ph> is required to load the build and complete deployment. The fix is active by default once restarted.</source>
@@ -203,8 +203,8 @@
 <target xml:lang="en-XX">Build 9398</target>
 </trans-unit>
 <trans-unit id="tu42" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-BADGE">[!BADGE </ph>Deprecated<ph id="2" ctype="x-BADGE">]{type=negative url="[#$tu43]" tooltip="[#$tu44]"}</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-BADGE">[!BADGE </ph>Obsolète<ph id="2" ctype="x-BADGE">]{type=negative url="[#$tu43]" tooltip="[#$tu44]"}</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-BADGE">[!BADGE BADGE </ph>Deprecated<ph id="2" ctype="x-">]{type=negative url="[#$tu43]" tooltip="[#$tu44]"}</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-BADGE">[!BADGE BADGE </ph>Obsolète<ph id="2" ctype="x-">]{type=negative url="[#$tu43]" tooltip="[#$tu44]"}</ph></target>
 </trans-unit>
 <trans-unit id="tu45" xml:space="preserve">
 <source xml:lang="en-US"><ph id="1" ctype="x-EMPHASIS">_</ph>July 29, 2026<ph id="2" ctype="x-EMPHASIS">_</ph></source>
@@ -215,8 +215,8 @@
 <target xml:lang="en-XX">Améliorations de la sécurité</target>
 </trans-unit>
 <trans-unit id="tu47" xml:space="preserve">
-<source xml:lang="en-US">Adobe has released security updates for Adobe Campaign Classic that address critical vulnerabilities. We encourage customers on on-premise and hybrid deployments to install the updates as soon as possible. Adobe-hosted instances have already been remediated and require no customer action. You can find more information in the <ph id="1" ctype="x-LINK">[</ph>security bulletin<ph id="2" ctype="x-LINK">[#$tu48]{target="_blank"}</ph>.</source>
-<target xml:lang="en-XX">Adobe a publié des mises à jour de sécurité pour Adobe Campaign Classic qui traitent des vulnérabilités critiques. Nous encourageons les clientes et clients disposant de déploiements on-premise et hybrides à installer les mises à jour dès que possible. Les instances hébergées par Adobe ont déjà été corrigées et ne nécessitent aucune action de la part du client ou de la cliente. Vous trouverez plus d’informations dans le <ph id="1" ctype="x-LINK">[</ph>bulletin de sécurité<ph id="2" ctype="x-LINK">[#$tu48]{target="_blank"}</ph>.</target>
+<source xml:lang="en-US">Adobe has released security updates for Adobe Campaign Classic that address critical vulnerabilities. We encourage customers on on-premise and hybrid deployments to install the updates as soon as possible. Adobe-hosted instances have already been remediated and require no customer action. You can find more information in the <ph id="1" ctype="x-LINK">&lbrack;</ph>security bulletin<ph id="2" ctype="x-LINK">[#$tu48]{target="_blank"}</ph>.</source>
+<target xml:lang="en-XX">Adobe a publié des mises à jour de sécurité pour Adobe Campaign Classic qui traitent des vulnérabilités critiques. Nous encourageons les clientes et clients disposant de déploiements on-premise et hybrides à installer les mises à jour dès que possible. Les instances hébergées par Adobe ont déjà été corrigées et ne nécessitent aucune action de la part du client ou de la cliente. Vous trouverez plus d’informations dans le <ph id="1" ctype="x-LINK">&lbrack;</ph>bulletin de sécurité<ph id="2" ctype="x-LINK">[#$tu48]{target="_blank"}</ph>.</target>
 </trans-unit>
 <trans-unit id="tu49" xml:space="preserve">
 <source xml:lang="en-US">A <ph id="1" ctype="x-LINK">[</ph>restart of the Adobe Campaign server (nlserver)<ph id="2" ctype="x-LINK">](../../production/using/usual-commands.md#restart-services)</ph> is required to load the build and complete deployment. The fix is active by default once restarted.</source>
@@ -227,8 +227,8 @@
 <target xml:lang="en-XX">Build 9397</target>
 </trans-unit>
 <trans-unit id="tu51" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-BADGE">[!BADGE </ph>Deprecated<ph id="2" ctype="x-BADGE">]{type=negative url="[#$tu52]" tooltip="[#$tu53]"}</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-BADGE">[!BADGE </ph>Obsolète<ph id="2" ctype="x-BADGE">]{type=negative url="[#$tu52]" tooltip="[#$tu53]"}</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-BADGE">[!BADGE BADGE </ph>Deprecated<ph id="2" ctype="x-">]{type=negative url="[#$tu52]" tooltip="[#$tu53]"}</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-BADGE">[!BADGE BADGE </ph>Obsolète<ph id="2" ctype="x-">]{type=negative url="[#$tu52]" tooltip="[#$tu53]"}</ph></target>
 </trans-unit>
 <trans-unit id="tu54" xml:space="preserve">
 <source xml:lang="en-US"><ph id="1" ctype="x-EMPHASIS">_</ph>June 30, 2026<ph id="2" ctype="x-EMPHASIS">_</ph></source>
@@ -267,8 +267,8 @@
 <target xml:lang="en-XX">Build 9396</target>
 </trans-unit>
 <trans-unit id="tu63" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-BADGE">[!BADGE </ph>Deprecated<ph id="2" ctype="x-BADGE">]{type=negative url="[#$tu64]" tooltip="[#$tu65]"}</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-BADGE">[!BADGE </ph>Obsolète<ph id="2" ctype="x-BADGE">]{type=negative url="[#$tu64]" tooltip="[#$tu65]"}</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-BADGE">[!BADGE BADGE </ph>Deprecated<ph id="2" ctype="x-">]{type=negative url="[#$tu64]" tooltip="[#$tu65]"}</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-BADGE">[!BADGE BADGE </ph>Obsolète<ph id="2" ctype="x-">]{type=negative url="[#$tu64]" tooltip="[#$tu65]"}</ph></target>
 </trans-unit>
 <trans-unit id="tu66" xml:space="preserve">
 <source xml:lang="en-US"><ph id="1" ctype="x-EMPHASIS">_</ph>June 9, 2026<ph id="2" ctype="x-EMPHASIS">_</ph></source>
@@ -283,12 +283,12 @@
 <target xml:lang="en-XX">Build 9394</target>
 </trans-unit>
 <trans-unit id="tu69" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-BADGE">[!BADGE </ph>Deprecated<ph id="2" ctype="x-BADGE">]{type=negative url="[#$tu70]" tooltip="[#$tu71]"}</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-BADGE">[!BADGE </ph>Obsolète<ph id="2" ctype="x-BADGE">]{type=negative url="[#$tu70]" tooltip="[#$tu71]"}</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-BADGE">[!BADGE BADGE </ph>Deprecated<ph id="2" ctype="x-">]{type=negative url="[#$tu70]" tooltip="[#$tu71]"}</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-BADGE">[!BADGE BADGE </ph>Obsolète<ph id="2" ctype="x-">]{type=negative url="[#$tu70]" tooltip="[#$tu71]"}</ph></target>
 </trans-unit>
 <trans-unit id="tu72" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!CAUTION">[!CAUTION]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!CAUTION">[!CAUTION]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!CAUTION">[!CAUTION]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!CAUTION">[!CAUTION]</ph></target>
 </trans-unit>
 <trans-unit id="tu73" xml:space="preserve">
 <source xml:lang="en-US">Client Console upgrade is mandatory.</source>
@@ -311,8 +311,8 @@
 <target xml:lang="en-XX">Correctifs</target>
 </trans-unit>
 <trans-unit id="tu78" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu79" xml:space="preserve">
 <source xml:lang="en-US">Fixes listed below have been progressively rolled out across successive 7.4.3 builds. Navigate to the <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Help > About...<ph id="3" ctype="x-LINK_REF">]**</ph> <ph id="5" ctype="x-LINK">[</ph>menu<ph id="6" ctype="x-LINK">](../../platform/using/launching-adobe-campaign.md#getting-your-campaign-version)</ph> to check that you have the latest 9394@28aaec9 build. Contact your Adobe representative for more information.</source>

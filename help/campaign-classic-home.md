@@ -43,12 +43,12 @@
 <target xml:lang="en-XX">Découvrez en primeur les dernières améliorations apportées à la documentation et au produit Adobe Campaign Classic v7. Pour obtenir la liste complète des fonctionnalités, des améliorations et des correctifs, consultez les <ph id="1" ctype="x-LINK">[</ph>notes de mise à jour<ph id="2" ctype="x-LINK">](rn/using/latest-release.md)</ph>.</target>
 </trans-unit>
 <trans-unit id="tu6" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!BEGINTABS">[!BEGINTABS]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!BEGINTABS">[!BEGINTABS]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!BEGINTABS">[!BEGINTABS]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!BEGINTABS">[!BEGINTABS]</ph></target>
 </trans-unit>
 <trans-unit id="tu7" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!TAB ">[!TAB </ph>August 2026 release is live!<ph id="2" ctype="x-LINK_REF">]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!TAB ">[!TAB </ph>La version d’août 2026 est en ligne.<ph id="2" ctype="x-LINK_REF">]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!TAB ">[!TAB </ph>August 2026 release is live!<ph id="2" ctype="x-LINK_REF">]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!TAB ">[!TAB </ph>La version d’août 2026 est en ligne.<ph id="2" ctype="x-LINK_REF">]</ph></target>
 </trans-unit>
 <trans-unit id="tu8" xml:space="preserve">
 <source xml:lang="en-US">The Campaign Classic v7.4.4 - August '26 build delivers security updates and upgrades the Adobe Analytics connector to the Analytics 2.0 API.</source>
@@ -59,8 +59,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-LINK">[![</ph>Image<ph id="3" ctype="x-IMAGE">](assets/do-not-localize/learn-more-button.svg)](rn/using/latest-release.md)</ph></target>
 </trans-unit>
 <trans-unit id="tu10" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!TAB ">[!TAB </ph>Move to Adobe IMS<ph id="2" ctype="x-LINK_REF">]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!TAB ">[!TAB </ph>Passer à Adobe IMS<ph id="2" ctype="x-LINK_REF">]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!TAB ">[!TAB </ph>Move to Adobe IMS<ph id="2" ctype="x-LINK_REF">]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!TAB ">[!TAB </ph>Passer à Adobe IMS<ph id="2" ctype="x-LINK_REF">]</ph></target>
 </trans-unit>
 <trans-unit id="tu11" xml:space="preserve">
 <source xml:lang="en-US">To reinforce security and authentication process, Adobe Campaign highly recommends to migrate end user authentication mode from the login/password native authentication to Adobe Identity Management System (IMS).</source>
@@ -71,20 +71,20 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-LINK">[![</ph>image<ph id="3" ctype="x-IMAGE">](assets/do-not-localize/learn-more-button.svg)](technotes/using/ac-ims.md)</ph></target>
 </trans-unit>
 <trans-unit id="tu13" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!TAB ">[!TAB </ph>Push channel changes<ph id="2" ctype="x-LINK_REF">]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!TAB ">[!TAB </ph>Modifications du canal push<ph id="2" ctype="x-LINK_REF">]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!TAB ">[!TAB </ph>Push channel changes<ph id="2" ctype="x-LINK_REF">]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!TAB ">[!TAB </ph>Modifications du canal push<ph id="2" ctype="x-LINK_REF">]</ph></target>
 </trans-unit>
 <trans-unit id="tu14" xml:space="preserve">
 <source xml:lang="en-US">Some important changes to the Android Firebase Cloud Messaging (FCM) service will be released in 2024, and may impact your Adobe Campaign implementation. Your subscription services configuration for Android push messages may need to be updated to support this change. You can already check and take action.</source>
 <target xml:lang="en-XX">Certaines modifications importantes apportées au service Android FCM (Firebase Cloud Messaging) seront publiées en 2024 et pourront avoir une incidence sur votre mise en œuvre d’Adobe Campaign. Il se peut que la configuration de vos services d’abonnement pour les messages push Android doive être mise à jour pour prendre en charge cette modification. Vous pouvez déjà vérifier et agir.</target>
 </trans-unit>
 <trans-unit id="tu15" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-LINK">[![</ph>image<ph id="3" ctype="x-IMAGE">](assets/do-not-localize/learn-more-button.svg)</ph><ph id="4" ctype="x-LINK">[#$tu16]{target="_blank"}</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-LINK">[![</ph>Image<ph id="3" ctype="x-IMAGE">](assets/do-not-localize/learn-more-button.svg)</ph><ph id="4" ctype="x-LINK">[#$tu16]{target="_blank"}</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-LINK">&lbrack;![</ph>image<ph id="3" ctype="x-IMAGE">](assets/do-not-localize/learn-more-button.svg)</ph><ph id="4" ctype="x-LINK">[#$tu16]{target="_blank"}</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-LINK">&lbrack;![</ph>Image<ph id="3" ctype="x-IMAGE">](assets/do-not-localize/learn-more-button.svg)</ph><ph id="4" ctype="x-LINK">[#$tu16]{target="_blank"}</ph></target>
 </trans-unit>
 <trans-unit id="tu17" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!ENDTABS">[!ENDTABS]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!ENDTABS">[!ENDTABS]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!ENDTABS">[!ENDTABS]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!ENDTABS">[!ENDTABS]</ph></target>
 </trans-unit>
 <trans-unit id="tu18" xml:space="preserve">
 <source xml:lang="en-US">Start with the basics</source>
@@ -253,8 +253,8 @@
 <target xml:lang="en-XX">Autres ressources</target>
 </trans-unit>
 <trans-unit id="tu21" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-LINK">[</ph>Adobe Campaign Product Description<ph id="2" ctype="x-LINK">[#$tu22]{target="_blank"}</ph> - <ph id="3" ctype="x-LINK">[</ph>Compatibility matrix<ph id="4" ctype="x-LINK">](rn/using/compatibility-matrix.md)</ph> - <ph id="5" ctype="x-LINK">[</ph>Tutorials<ph id="6" ctype="x-LINK">[#$tu23]{target="_blank"}</ph> - <ph id="7" ctype="x-LINK">[</ph>Control Panel for Campaign<ph id="8" ctype="x-LINK">[#$tu24]{target="_blank"}</ph> - <ph id="9" ctype="x-LINK">[</ph>Email Tracking Pixels and CNIL Guidance<ph id="10" ctype="x-LINK">[#$tu25]{target="_blank"}</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-LINK">[</ph>Description du produit Adobe Campaign<ph id="2" ctype="x-LINK">[#$tu22]{target="_blank"}</ph> – <ph id="3" ctype="x-LINK">[</ph>Matrice de compatibilité<ph id="4" ctype="x-LINK">](rn/using/compatibility-matrix.md)</ph> – <ph id="5" ctype="x-LINK">[</ph>Tutoriels<ph id="6" ctype="x-LINK">[#$tu23]{target="_blank"}</ph> – <ph id="7" ctype="x-LINK">[</ph>Panneau de contrôle pour Campaign<ph id="8" ctype="x-LINK">[#$tu24]{target="_blank"}</ph> – <ph id="9" ctype="x-LINK">[</ph>Pixels de suivi des e-mails et recommandations CNIL<ph id="10" ctype="x-LINK">[#$tu25]{target="_blank"}</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-LINK">&lbrack;</ph>Adobe Campaign Product Description<ph id="2" ctype="x-LINK">[#$tu22]{target="_blank"}</ph> - <ph id="3" ctype="x-LINK">[</ph>Compatibility matrix<ph id="4" ctype="x-LINK">](rn/using/compatibility-matrix.md){target="_blank"}</ph> - <ph id="5" ctype="x-LINK">&lbrack;</ph>Tutorials<ph id="6" ctype="x-LINK">[#$tu23]</ph> - <ph id="7" ctype="x-LINK">&lbrack;</ph>Control Panel for Campaign<ph id="8" ctype="x-LINK">[#$tu24]{target="_blank"}</ph> - <ph id="9" ctype="x-LINK">&lbrack;</ph>Email Tracking Pixels and CNIL Guidance<ph id="10" ctype="x-LINK">[#$tu25]{target="_blank"}</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-LINK">&lbrack;</ph>Description du produit Adobe Campaign<ph id="2" ctype="x-LINK">[#$tu22]{target="_blank"}</ph> – <ph id="3" ctype="x-LINK">[</ph>Matrice de compatibilité<ph id="4" ctype="x-LINK">](rn/using/compatibility-matrix.md){target="_blank"}</ph> – <ph id="5" ctype="x-LINK">&lbrack;</ph>Tutoriels<ph id="6" ctype="x-LINK">[#$tu23]</ph> – <ph id="7" ctype="x-LINK">&lbrack;</ph>Panneau de contrôle pour Campaign<ph id="8" ctype="x-LINK">[#$tu24]{target="_blank"}</ph> – <ph id="9" ctype="x-LINK">&lbrack;</ph>Pixels de suivi des e-mails et recommandations CNIL<ph id="10" ctype="x-LINK">[#$tu25]{target="_blank"}</ph></target>
 </trans-unit>
 </body>
 </file>

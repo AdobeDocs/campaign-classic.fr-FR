@@ -71,12 +71,12 @@
 <target xml:lang="en-XX">Cette section montre comment utiliser les services "Subscribe", "Unsubscribe" et "SubmitDelivery".</target>
 </trans-unit>
 <trans-unit id="tu17" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></target>
 </trans-unit>
 <trans-unit id="tu18" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-LINK">[</ph>Campaign JSAPI documentation<ph id="2" ctype="x-LINK">[#$tu19]</ph> contains additional information on SOAP calls and using Javascript in Adobe Campaign, as well as a full reference to all methods and functions used in the application.</source>
-<target xml:lang="en-XX">La <ph id="1" ctype="x-LINK">[</ph>documentation JSAPI Campaign<ph id="2" ctype="x-LINK">[#$tu19]</ph> contient des informations supplémentaires sur les appels SOAP et l’utilisation de Javascript dans Adobe Campaign ainsi qu’une référence complète de toutes les méthodes et fonctions utilisées dans l’application.</target>
+<source xml:lang="en-US"><ph id="1" ctype="x-LINK">&lbrack;</ph>Campaign JSAPI documentation<ph id="2" ctype="x-LINK">[#$tu19]</ph> contains additional information on SOAP calls and using Javascript in Adobe Campaign, as well as a full reference to all methods and functions used in the application.</source>
+<target xml:lang="en-XX">La <ph id="1" ctype="x-LINK">&lbrack;</ph>documentation JSAPI Campaign<ph id="2" ctype="x-LINK">[#$tu19]</ph> contient des informations supplémentaires sur les appels SOAP et l’utilisation de Javascript dans Adobe Campaign ainsi qu’une référence complète de toutes les méthodes et fonctions utilisées dans l’application.</target>
 </trans-unit>
 <trans-unit id="tu20" xml:space="preserve">
 <source xml:lang="en-US">Subscribe (nms<ph id="1" ctype="x-inline-directive">:subscription</ph>)</source>
@@ -179,8 +179,8 @@
 <target xml:lang="en-XX">Si le destinataire n'est pas présent dans la base de données, ou bien s'il n'est pas inscrit au service d'information concerné, le service n'effectue aucune action et ne génère pas d'erreur.</target>
 </trans-unit>
 <trans-unit id="tu45" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu46" xml:space="preserve">
 <source xml:lang="en-US">If the service name is not specified as a parameter, the recipient is then automatically on denylist(@blackList="1").</source>

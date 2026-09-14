@@ -31,8 +31,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-IMAGE">![](assets/edit_test.png)</ph></target>
 </trans-unit>
 <trans-unit id="tu7" xml:space="preserve">
-<source xml:lang="en-US">For more information on all the additional JavaScript functions and SOAP methods of the applicative server accessible via workflow JavaScript, refer to <ph id="1" ctype="x-LINK">[</ph>JSAPI documentation<ph id="2" ctype="x-LINK">[#$tu8]</ph>.</source>
-<target xml:lang="en-XX">Pour plus d’informations sur toutes les autres fonctions JavaScript et méthodes SOAP du serveur applicatif accessibles via workflow, consultez la <ph id="1" ctype="x-LINK">[</ph>documentation JSAPI<ph id="2" ctype="x-LINK">[#$tu8]</ph>.</target>
+<source xml:lang="en-US">For more information on all the additional JavaScript functions and SOAP methods of the applicative server accessible via workflow JavaScript, refer to <ph id="1" ctype="x-LINK">&lbrack;</ph>JSAPI documentation<ph id="2" ctype="x-LINK">[#$tu8]</ph>.</source>
+<target xml:lang="en-XX">Pour plus d’informations sur toutes les autres fonctions JavaScript et méthodes SOAP du serveur applicatif accessibles via workflow, consultez la <ph id="1" ctype="x-LINK">&lbrack;</ph>documentation JSAPI<ph id="2" ctype="x-LINK">[#$tu8]</ph>.</target>
 </trans-unit>
 <trans-unit id="tu9" xml:space="preserve">
 <source xml:lang="en-US">You can also insert variables directly from this editor. For more  information on how to work with variables, refer to <ph id="1" ctype="x-LINK">[</ph>this section<ph id="2" ctype="x-LINK">](javascript-scripts-and-templates.md#variables)</ph>.</source>

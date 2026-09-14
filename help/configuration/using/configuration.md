@@ -31,8 +31,8 @@
 <target xml:lang="en-XX">En tant qu’utilisateur expert ou utilisatrice experte, vous pouvez ajouter des dossiers dans l’arborescence de l’explorateur et la personnaliser.</target>
 </trans-unit>
 <trans-unit id="tu5" xml:space="preserve">
-<source xml:lang="en-US">Learn more about Campaign user interface in <ph id="1" ctype="x-LINK">[</ph>Adobe Campaign v8 (console) documentation<ph id="2" ctype="x-LINK">[#$tu6]{target=_blank}</ph>.</source>
-<target xml:lang="en-XX">En savoir plus sur l’interface d’utilisation de Campaign dans la <ph id="1" ctype="x-LINK">[</ph>documentation d’Adobe Campaign v8 (console)<ph id="2" ctype="x-LINK">[#$tu6]{target=_blank}</ph>.</target>
+<source xml:lang="en-US">Learn more about Campaign user interface in <ph id="1" ctype="x-LINK">&lbrack;</ph>Adobe Campaign v8 (console) documentation<ph id="2" ctype="x-LINK">[#$tu6]{target=_blank}</ph>.</source>
+<target xml:lang="en-XX">En savoir plus sur l’interface d’utilisation de Campaign dans la <ph id="1" ctype="x-LINK">&lbrack;</ph>documentation d’Adobe Campaign v8 (console)<ph id="2" ctype="x-LINK">[#$tu6]{target=_blank}</ph>.</target>
 </trans-unit>
 <trans-unit id="tu7" xml:space="preserve">
 <source xml:lang="en-US">The types of folders used by the navigation list are described in an XML document that obeys the grammar of the <ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>xtk<ph id="2" ctype="x-inline-directive">:navtree**</ph> schema.</source>
@@ -111,8 +111,8 @@
 <target xml:lang="en-XX">Un séparateur de commande permet d’afficher une barre de séparation entre les commandes. Il est identifié par la valeur <ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>'-'<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph> contenue dans le libellé de la commande.</target>
 </trans-unit>
 <trans-unit id="tu26" xml:space="preserve">
-<source xml:lang="en-US">The optional presence of the <ph id="1" ctype="x-STRONG_EMPHASIS">**`&lt;soapcall>`**</ph> tag with its input parameters defines the call of a SOAP method to be executed. For further information on the SOAP API, refer to <ph id="4" ctype="x-LINK">[</ph>Campaign JSAPI documentation<ph id="5" ctype="x-LINK">[#$tu27]</ph>.</source>
-<target xml:lang="en-XX">La présence facultative de la balise <ph id="1" ctype="x-STRONG_EMPHASIS">**`&lt;soapcall>`**</ph> avec ses paramètres d’entrée définit l’appel d’une méthode SOAP à exécuter. Pour plus d’informations sur l’API SOAP, consultez la <ph id="4" ctype="x-LINK">[</ph>documentation JSAPI Campaign<ph id="5" ctype="x-LINK">[#$tu27]</ph>.</target>
+<source xml:lang="en-US">The optional presence of the <ph id="1" ctype="x-STRONG_EMPHASIS">**`&lt;soapcall>`**</ph> tag with its input parameters defines the call of a SOAP method to be executed. For further information on the SOAP API, refer to <ph id="4" ctype="x-LINK">&lbrack;</ph>Campaign JSAPI documentation<ph id="5" ctype="x-LINK">[#$tu27]</ph>.</source>
+<target xml:lang="en-XX">La présence facultative de la balise <ph id="1" ctype="x-STRONG_EMPHASIS">**`&lt;soapcall>`**</ph> avec ses paramètres d’entrée définit l’appel d’une méthode SOAP à exécuter. Pour plus d’informations sur l’API SOAP, consultez la <ph id="4" ctype="x-LINK">&lbrack;</ph>documentation JSAPI Campaign<ph id="5" ctype="x-LINK">[#$tu27]</ph>.</target>
 </trans-unit>
 <trans-unit id="tu28" xml:space="preserve">
 <source xml:lang="en-US">The form context can be updated on initialization from the <ph id="1" ctype="x-STRONG_EMPHASIS">**`&lt;enter>`**</ph> tag. For further information on this tag, refer to the documentation on input forms.</source>
@@ -215,8 +215,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>editForm<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph> : affiche un formulaire en édition.</target>
 </trans-unit>
 <trans-unit id="tu53" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu54" xml:space="preserve">
 <source xml:lang="en-US">The name of the input form can be overloaded by entering the <ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>form<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph> attribute in the <ph id="3" ctype="x-STRONG_EMPHASIS">**`&lt;view>`**</ph> element.</source>
@@ -315,8 +315,8 @@
 <target xml:lang="en-XX">Un séparateur de commande permet d’afficher une barre de séparation entre les commandes. Il est identifié par la valeur <ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>'-'<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph> contenue dans le libellé de la commande.</target>
 </trans-unit>
 <trans-unit id="tu78" xml:space="preserve">
-<source xml:lang="en-US">The optional presence of the <ph id="1" ctype="x-STRONG_EMPHASIS">**`&lt;soapcall>`**</ph> tag with its input parameters defines the call of a SOAP method to be executed. For further information about SOAP APIs, refer to <ph id="4" ctype="x-LINK">[</ph>Campaign JSAPI documentation<ph id="5" ctype="x-LINK">[#$tu79]</ph>.</source>
-<target xml:lang="en-XX">La présence facultative de la balise <ph id="1" ctype="x-STRONG_EMPHASIS">**`&lt;soapcall>`**</ph> avec ses paramètres d’entrée définit l’appel d’une méthode SOAP à exécuter. Pour plus d’informations sur les API SOAP, consultez la <ph id="4" ctype="x-LINK">[</ph>documentation JSAPI Campaign<ph id="5" ctype="x-LINK">[#$tu79]</ph>.</target>
+<source xml:lang="en-US">The optional presence of the <ph id="1" ctype="x-STRONG_EMPHASIS">**`&lt;soapcall>`**</ph> tag with its input parameters defines the call of a SOAP method to be executed. For further information about SOAP APIs, refer to <ph id="4" ctype="x-LINK">&lbrack;</ph>Campaign JSAPI documentation<ph id="5" ctype="x-LINK">[#$tu79]</ph>.</source>
+<target xml:lang="en-XX">La présence facultative de la balise <ph id="1" ctype="x-STRONG_EMPHASIS">**`&lt;soapcall>`**</ph> avec ses paramètres d’entrée définit l’appel d’une méthode SOAP à exécuter. Pour plus d’informations sur les API SOAP, consultez la <ph id="4" ctype="x-LINK">&lbrack;</ph>documentation JSAPI Campaign<ph id="5" ctype="x-LINK">[#$tu79]</ph>.</target>
 </trans-unit>
 <trans-unit id="tu80" xml:space="preserve">
 <source xml:lang="en-US">The form context can be updated on initialization via the <ph id="1" ctype="x-STRONG_EMPHASIS">**`&lt;enter>`**</ph> tag. For further information about this tag, refer to the input form documentation.</source>

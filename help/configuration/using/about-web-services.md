@@ -31,12 +31,12 @@
 <target xml:lang="en-XX">Les API Adobe Campaign sont utilisées dans l’application avec JavaScript et en externe avec SOAP. Elles constituent une bibliothèque de fonctions génériques qui peuvent être enrichies. Pour plus d’informations, voir la section <ph id="1" ctype="x-LINK">[</ph>Implémenter des méthodes SOAP<ph id="2" ctype="x-LINK">](../../configuration/using/implementing-soap-methods.md)</ph>.</target>
 </trans-unit>
 <trans-unit id="tu7" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></target>
 </trans-unit>
 <trans-unit id="tu8" xml:space="preserve">
-<source xml:lang="en-US">The number of authorized Engine Calls per day varies upon your license contract. For more on this, refer to <ph id="1" ctype="x-LINK">[</ph>this page<ph id="2" ctype="x-LINK">[#$tu9]</ph>.</source>
-<target xml:lang="en-XX">Le nombre d'appels de moteur autorisé par jour varie selon votre contrat de licence. Pour plus d’informations, consultez <ph id="1" ctype="x-LINK">[</ph>cette page<ph id="2" ctype="x-LINK">[#$tu9]</ph>.</target>
+<source xml:lang="en-US">The number of authorized Engine Calls per day varies upon your license contract. For more on this, refer to <ph id="1" ctype="x-LINK">&lbrack;</ph>this page<ph id="2" ctype="x-LINK">[#$tu9]</ph>.</source>
+<target xml:lang="en-XX">Le nombre d'appels de moteur autorisé par jour varie selon votre contrat de licence. Pour plus d’informations, consultez <ph id="1" ctype="x-LINK">&lbrack;</ph>cette page<ph id="2" ctype="x-LINK">[#$tu9]</ph>.</target>
 </trans-unit>
 <trans-unit id="tu10" xml:space="preserve">
 <source xml:lang="en-US">A list of all the APIs including their full description is available in <ph id="1" ctype="x-LINK_REF">[</ph>this dedicated documentation<ph id="2" ctype="x-LINK_REF">]</ph>(https://experienceleague.adobe.com/en/tools/campaign-api</source>
@@ -139,8 +139,8 @@
 <target xml:lang="en-XX">Pour plus d’informations, consultez <ph id="1" ctype="x-LINK">[</ph>ExecuteQuery (xtk<ph id="2" ctype="x-inline-directive">:queryDef</ph>)<ph id="3" ctype="x-LINK">](../../configuration/using/data-oriented-apis.md#executequery--xtk-querydef-)</ph>.</target>
 </trans-unit>
 <trans-unit id="tu35" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu36" xml:space="preserve">
 <source xml:lang="en-US">The WSDL description of this service is completed in the example shown here: <ph id="1" ctype="x-LINK">[</ph>Web service description: WSDL<ph id="2" ctype="x-LINK">](../../configuration/using/web-service-calls.md#web-service-description--wsdl)</ph>.</source>
@@ -219,8 +219,8 @@
 <target xml:lang="en-XX">Le succès ou l’échec de l’invocation du service est identifié par la vérification de l’élément <ph id="1" ctype="x-CODE">`&lt;faultcode>`</ph></target>
 </trans-unit>
 <trans-unit id="tu55" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></target>
 </trans-unit>
 <trans-unit id="tu56" xml:space="preserve">
 <source xml:lang="en-US">All Adobe Campaign Web services handle errors. It is therefore strongly recommended to test each call in order to handle returned errors.</source>

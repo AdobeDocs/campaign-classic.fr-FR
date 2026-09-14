@@ -39,8 +39,8 @@
 <target xml:lang="en-XX">Scripts</target>
 </trans-unit>
 <trans-unit id="tu5" xml:space="preserve">
-<source xml:lang="en-US">For more details, refer to <ph id="1" ctype="x-LINK">[</ph>Campaign JSAPI documentation<ph id="2" ctype="x-LINK">[#$tu6]</ph>.</source>
-<target xml:lang="en-XX">Pour plus d’informations, reportez-vous à la <ph id="1" ctype="x-LINK">[</ph>documentation JSAPI Campaign<ph id="2" ctype="x-LINK">[#$tu6]</ph>.</target>
+<source xml:lang="en-US">For more details, refer to <ph id="1" ctype="x-LINK">&lbrack;</ph>Campaign JSAPI documentation<ph id="2" ctype="x-LINK">[#$tu6]</ph>.</source>
+<target xml:lang="en-XX">Pour plus d’informations, reportez-vous à la <ph id="1" ctype="x-LINK">&lbrack;</ph>documentation JSAPI Campaign<ph id="2" ctype="x-LINK">[#$tu6]</ph>.</target>
 </trans-unit>
 <trans-unit id="tu7" xml:space="preserve">
 <source xml:lang="en-US">If you script using workflow, web applications, jssp, follow these best practices:</source>
@@ -63,8 +63,8 @@
 <target xml:lang="en-XX">Bonne pratique :</target>
 </trans-unit>
 <trans-unit id="tu12" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></target>
 </trans-unit>
 <trans-unit id="tu13" xml:space="preserve">
 <source xml:lang="en-US">sqlSelect doesn't support this feature, so you have to use the query function of DBEngine class:</source>
@@ -75,16 +75,16 @@
 <target xml:lang="en-XX">Pour éviter les injections SQL, les fonctions SQL doivent être ajoutées à la liste autorisée à utiliser dans Adobe Campaign. Une fois qu’elles ont été ajoutées à la liste autorisée, vos opérateurs peuvent les voir dans l’éditeur d’expression. Reportez-vous à <ph id="1" ctype="x-LINK">[</ph>cette page<ph id="2" ctype="x-LINK">](../../configuration/using/adding-additional-sql-functions.md)</ph>.</target>
 </trans-unit>
 <trans-unit id="tu15" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></target>
 </trans-unit>
 <trans-unit id="tu16" xml:space="preserve">
 <source xml:lang="en-US">If you are using a build that is older than 8140, the <ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>XtkPassUnknownSQLFunctionsToRDBMS<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph> option might be set to '1'. If you want to secure your database, delete this option (or set it to '0').</source>
 <target xml:lang="en-XX">Si vous utilisez un build antérieur au build 8140, l’option <ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>XtkPassUnknownSQLFunctionsToRDBMS<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph> peut être définie sur « 1 ». Si vous souhaitez protéger votre base de données, supprimez cette option (ou définissez-la sur « 0 »).</target>
 </trans-unit>
 <trans-unit id="tu17" xml:space="preserve">
-<source xml:lang="en-US">If you are using user input to build filters in queries or SQL statements, you always have to escape them (refer to <ph id="1" ctype="x-LINK">[</ph>Campaign JSAPI documentation<ph id="2" ctype="x-LINK">[#$tu18]</ph> - Data protection: escaping functions). These functions are:</source>
-<target xml:lang="en-XX">Si vous utilisez des saisies d’utilisateur ou d’utilisatrice pour créer des filtres dans des requêtes ou des instructions SQL, vous devez toujours les placer dans une séquence d’échappement (consultez la <ph id="1" ctype="x-LINK">[</ph>documentation JSAPI Campaign<ph id="2" ctype="x-LINK">[#$tu18]</ph> - Protection des données : fonctions d’échappement). Ces fonctions sont les suivantes :</target>
+<source xml:lang="en-US">If you are using user input to build filters in queries or SQL statements, you always have to escape them (refer to <ph id="1" ctype="x-LINK">&lbrack;</ph>Campaign JSAPI documentation<ph id="2" ctype="x-LINK">[#$tu18]</ph> - Data protection: escaping functions). These functions are:</source>
+<target xml:lang="en-XX">Si vous utilisez des saisies d’utilisateur ou d’utilisatrice pour créer des filtres dans des requêtes ou des instructions SQL, vous devez toujours les placer dans une séquence d’échappement (consultez la <ph id="1" ctype="x-LINK">&lbrack;</ph>documentation JSAPI Campaign<ph id="2" ctype="x-LINK">[#$tu18]</ph> - Protection des données : fonctions d’échappement). Ces fonctions sont les suivantes :</target>
 </trans-unit>
 <trans-unit id="tu19" xml:space="preserve">
 <source xml:lang="en-US">NL.XML.escape(data)</source>
@@ -143,8 +143,8 @@
 <target xml:lang="en-XX">Pour plus d’informations, consultez <ph id="1" ctype="x-LINK">[</ph>cette page<ph id="2" ctype="x-LINK">](../../configuration/using/implementing-soap-methods.md)</ph>.</target>
 </trans-unit>
 <trans-unit id="tu33" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></target>
 </trans-unit>
 <trans-unit id="tu34" xml:space="preserve">
 <source xml:lang="en-US">You can use named rights in the command node in a navtree. It gives a better user experience but doesn't provide any protection (use only client side to hide / disable them). You have to use the access attribute.</source>
@@ -187,8 +187,8 @@
 <target xml:lang="en-XX">Utilisez le type de contenu <ph id="1" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Application web<ph id="3" ctype="x-LINK_REF">]**</ph> et cochez l’option <ph id="5" ctype="x-STRONG_EMPHASIS">**[!UICONTROL </ph>Afficher dans les menus de personnalisation<ph id="7" ctype="x-LINK_REF">]**</ph>.</target>
 </trans-unit>
 <trans-unit id="tu44" xml:space="preserve">
-<source xml:lang="en-US">For more information, refer to the <ph id="1" ctype="x-LINK">[</ph>Campaign v8 documentation<ph id="2" ctype="x-LINK">[#$tu45]{target="_blank"}</ph>.</source>
-<target xml:lang="en-XX">Pour plus d’informations, consultez la <ph id="1" ctype="x-LINK">[</ph>documentation de Campaign v8<ph id="2" ctype="x-LINK">[#$tu45]{target="_blank"}</ph>.</target>
+<source xml:lang="en-US">For more information, refer to the <ph id="1" ctype="x-LINK">&lbrack;</ph>Campaign v8 documentation<ph id="2" ctype="x-LINK">[#$tu45]{target="_blank"}</ph>.</source>
+<target xml:lang="en-XX">Pour plus d’informations, consultez la <ph id="1" ctype="x-LINK">&lbrack;</ph>documentation de Campaign v8<ph id="2" ctype="x-LINK">[#$tu45]{target="_blank"}</ph>.</target>
 </trans-unit>
 <trans-unit id="tu46" xml:space="preserve">
 <source xml:lang="en-US">Here is an example of a <ph id="1" ctype="x-STRONG_EMPHASIS">**</ph>Campaign captcha<ph id="2" ctype="x-STRONG_EMPHASIS">**</ph>:</source>
@@ -215,8 +215,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-CODE">`&lt;div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY">&lt;/div>`</ph></target>
 </trans-unit>
 <trans-unit id="tu52" xml:space="preserve">
-<source xml:lang="en-US">You should be able to disable the validation button, but as we don't have any standard button/link, it's better to do it in the HTML itself. To learn how to do it, refer to <ph id="1" ctype="x-LINK">[</ph>this page<ph id="2" ctype="x-LINK">[#$tu53]</ph>.</source>
-<target xml:lang="en-XX">Vous devriez être en mesure de désactiver le bouton de validation, mais comme il n’existe pas de bouton/lien standard, il est préférable de le faire dans le code HTML. Pour savoir comment effectuer cela, consultez <ph id="1" ctype="x-LINK">[</ph>cette page<ph id="2" ctype="x-LINK">[#$tu53]</ph>.</target>
+<source xml:lang="en-US">You should be able to disable the validation button, but as we don't have any standard button/link, it's better to do it in the HTML itself. To learn how to do it, refer to <ph id="1" ctype="x-LINK">&lbrack;</ph>this page<ph id="2" ctype="x-LINK">[#$tu53]</ph>.</source>
+<target xml:lang="en-XX">Vous devriez être en mesure de désactiver le bouton de validation, mais comme il n’existe pas de bouton/lien standard, il est préférable de le faire dans le code HTML. Pour savoir comment effectuer cela, consultez <ph id="1" ctype="x-LINK">&lbrack;</ph>cette page<ph id="2" ctype="x-LINK">[#$tu53]</ph>.</target>
 </trans-unit>
 <trans-unit id="tu54" xml:space="preserve">
 <source xml:lang="en-US">Updating your web application</source>
@@ -267,8 +267,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-IMAGE">![](assets/scripting-captcha5.png)</ph></target>
 </trans-unit>
 <trans-unit id="tu66" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></target>
 </trans-unit>
 <trans-unit id="tu67" xml:space="preserve">
 <source xml:lang="en-US">For reCAPTCHA integration, you have to add client-side JavaScript in the HTML (in <ph id="1" ctype="x-CODE">`&lt;head>...&lt;/head>`</ph>):</source>
@@ -291,8 +291,8 @@
 <target xml:lang="en-XX">Google reCaptcha</target>
 </trans-unit>
 <trans-unit id="tu72" xml:space="preserve">
-<source xml:lang="en-US">Please refer to the <ph id="1" ctype="x-LINK">[</ph>official documentation<ph id="2" ctype="x-LINK">[#$tu73]</ph>.</source>
-<target xml:lang="en-XX">Reportez-vous à la <ph id="1" ctype="x-LINK">[</ph>documentation officielle<ph id="2" ctype="x-LINK">[#$tu73]</ph>.</target>
+<source xml:lang="en-US">Please refer to the <ph id="1" ctype="x-LINK">&lbrack;</ph>official documentation<ph id="2" ctype="x-LINK">[#$tu73]</ph>.</source>
+<target xml:lang="en-XX">Reportez-vous à la <ph id="1" ctype="x-LINK">&lbrack;</ph>documentation officielle<ph id="2" ctype="x-LINK">[#$tu73]</ph>.</target>
 </trans-unit>
 <trans-unit id="tu74" xml:space="preserve">
 <source xml:lang="en-US">To use JSON.parse you have to include "shared/json2.js" in your webApp:</source>
