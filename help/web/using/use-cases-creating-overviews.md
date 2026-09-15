@@ -2,34 +2,39 @@
 product: campaign
 title: 'Cas d’utilisation : créer des vues d’ensemble'
 description: 'Cas d’utilisation : créer des vues d’ensemble'
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps
 level: Intermediate, Experienced
 exl-id: a1ac3aab-dc81-4533-9207-26d5dc5e1c88
 TQID: https://experienceleague.adobe.com/Awmu1sag3l7qN8ocg-uzbfSooV-8Cyhtxya4zVlo8EY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: f391046b-0cf3-4e76-bd3b-97fe06654506
+    internal-label: Web Apps
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
   - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1046
+workflow-type: tm+mt
+source-wordcount: '1037'
 ht-degree: 100%
-
 ---
-
 # Cas d’utilisation : création de pages de vue d’ensemble{#use-cases-creating-overviews}
 
 
 
-Dans l’exemple suivant, nous allons créer des applications web de type vue d’ensemble permettant d’afficher l’ensemble des applications web contenues dans votre base de données.Configurez les éléments suivants :
+Dans l’exemple suivant, nous allons créer des applications web de type vue d’ensemble permettant d’afficher l’ensemble des applications web contenues dans votre base de données. Configurez les éléments suivants :
 
 * un filtre sur le dossier (voir la section [Ajouter un filtre sur dossier](#adding-a-filter-on-a-folder)),
 * un bouton permettant de créer une application web (voir la section [Ajouter un bouton pour paramétrer une nouvelle application web](#adding-a-button-to-configure-a-new-web-application)),
@@ -67,7 +72,7 @@ Dans l’exemple suivant, nous allons créer des applications web de type vue d�
 
 ## Ajouter un filtre sur dossier {#adding-a-filter-on-a-folder}
 
-Dans une vue d’ensemble, vous pouvez choisir d’accéder aux données en fonction de leur emplacement dans l’arborescence d’Adobe Campaign.Il s’agit d’un filtre sur un dossier.Procédez comme suit pour l’ajouter à votre vue d’ensemble.
+Dans une vue d’ensemble, vous pouvez choisir d’accéder aux données en fonction de leur emplacement dans l’arborescence d’Adobe Campaign. Il s’agit d’un filtre sur un dossier. Procédez comme suit pour l’ajouter à votre vue d’ensemble.
 
 1. Positionnez-vous sur le noeud **[!UICONTROL Page]** de votre application Web et ajoutez un élément **[!UICONTROL Choix de dossier]** (**[!UICONTROL Contrôle avancés > Choix de dossier]**).
 1. Dans la fenêtre **[!UICONTROL Stockage]** qui s&#39;affiche, cliquez sur le lien **[!UICONTROL Editer les variables]**.
@@ -170,11 +175,11 @@ Lorsque vous paramétrez une liste dans votre vue d&#39;ensemble, vous pouvez ch
 
 >[!NOTE]
 >
->Le rafraîchissement des bibliothèques JavaScript demande cinq minutes sur le serveur.Vous pouvez redémarrer le serveur pour ne pas avoir à attendre.
+>Le rafraîchissement des bibliothèques JavaScript demande cinq minutes sur le serveur. Vous pouvez redémarrer le serveur pour ne pas avoir à attendre.
 
 ## Filtrer et mettre à jour la liste {#filtering-and-updating-the-list}
 
-Dans cette section, vous allez créer un filtre permettant d’afficher la vue d’ensemble des applications web créées par un opérateur ou une opératrice spécifique.Ce filtre est créé avec un éditeur de liens.Une fois que vous avez sélectionné un opérateur ou une opératrice, actualisez la liste pour appliquer votre filtre. Pour ce faire, créez un lien d’actualisation.
+Dans cette section, vous allez créer un filtre permettant d’afficher la vue d’ensemble des applications web créées par un opérateur ou une opératrice spécifique. Ce filtre est créé avec un éditeur de liens. Une fois que vous avez sélectionné un opérateur ou une opératrice, actualisez la liste pour appliquer votre filtre. Pour ce faire, créez un lien d’actualisation.
 
 Ces deux éléments seront rassemblés dans un même conteneur afin de les regrouper graphiquement dans la vue d&#39;ensemble.
 
@@ -217,7 +222,7 @@ Ces deux éléments seront rassemblés dans un même conteneur afin de les regro
 
 >[!CAUTION]
 >
->La personne utilisant l’application web doit être une personne opératrice identifiée disposant des droits adéquats dans Adobe Campaign pour avoir accès aux informations.Ce type de configuration ne fonctionne pas pour les applications web anonymes.
+>La personne utilisant l’application web doit être une personne opératrice identifiée disposant des droits adéquats dans Adobe Campaign pour avoir accès aux informations. Ce type de configuration ne fonctionne pas pour les applications web anonymes.
 
 ### Créer un lien d&#39;actualisation {#creating-a-refresh-link}
 

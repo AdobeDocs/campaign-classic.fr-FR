@@ -11,23 +11,29 @@ hide: true
 TQID: https://experienceleague.adobe.com/dzb9z38Ll-hIgxopLxXRfunLkhOFtS7TcbovRjoEk-4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 128
+workflow-type: tm+mt
+source-wordcount: '128'
 ht-degree: 100%
-
 ---
-
 # Modification d’un profil{#editing-a-profile}
 
 
@@ -44,7 +50,7 @@ Les onglets et leur contenu dépendent de votre configuration et des packages in
 
 >[!CAUTION]
 >
->Le schéma XML et le formulaire relatifs aux champs de la table des profils sont accessibles depuis le nœud **[!UICONTROL Administration > Configuration > Schémas de données]** de l’arborescence d’Adobe Campaign.Seuls les utilisateurs experts peuvent apporter des modifications à ces schémas.
+>Le schéma XML et le formulaire relatifs aux champs de la table des profils sont accessibles depuis le nœud **[!UICONTROL Administration > Configuration > Schémas de données]** de l’arborescence d’Adobe Campaign. Seuls les utilisateurs experts peuvent apporter des modifications à ces schémas.
 >
 >Voir à ce propos [cette page](../../configuration/using/about-schema-edition.md).
 
@@ -119,6 +125,6 @@ The list is configurable, and usually contains: the URL clicked, date and time o
 
 >[!NOTE]
 >
->For more on tracking functionality, please refer to [this page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}.
+>For more on tracking functionality, please refer to [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}.
 
 -->

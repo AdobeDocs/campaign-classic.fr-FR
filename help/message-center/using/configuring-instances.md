@@ -10,22 +10,27 @@ exl-id: 23a384d1-27ce-46c2-98c3-0fb60a5c50ee
 TQID: https://experienceleague.adobe.com/e4mk1nx7CoqoUJv39nnr5ynkz629kEzR3jdP-lyMUzA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: ht
-source-wordcount: 1312
+workflow-type: tm+mt
+source-wordcount: '1312'
 ht-degree: 100%
-
 ---
-
 # Configuration des instances {#creating-a-shared-connection}
 
 
@@ -44,7 +49,7 @@ Toutes les étapes nécessaires pour configurer et connecter les instances de pi
 
 >[!IMPORTANT]
 >
->L’instance de contrôle et la ou les instances d’exécution doivent être installées sur des machines différentes.Elles ne peuvent pas partager la même instance Campaign.
+>L’instance de contrôle et la ou les instances d’exécution doivent être installées sur des machines différentes. Elles ne peuvent pas partager la même instance Campaign.
 
 ## Configuration de l&#39;instance de pilotage {#control-instance}
 
@@ -164,7 +169,7 @@ Lors de l&#39;utilisation de plusieurs instances d&#39;exécution, répétez ces
 
 ## Utilisation de plusieurs instances de pilotage {#using-several-control-instances}
 
-Vous pouvez partager un cluster d’exécution avec différentes instances de contrôle.Ce type d’architecture requiert la configuration suivante.
+Vous pouvez partager un cluster d’exécution avec différentes instances de contrôle. Ce type d’architecture requiert la configuration suivante.
 
 Imaginez, par exemple, que votre entreprise gère deux marques, chacune disposant de sa propre instance de pilotage : **Pilotage 1** et **Pilotage 2**. Deux instances d&#39;exécution sont également utilisées. Vous devez saisir un opérateur Message Center différent pour chaque instance de pilotage : un opérateur **mc1** pour l&#39;instance **Pilotage 1** et un opérateur **mc2** pour l&#39;instance **Pilotage 2**.
 
@@ -206,7 +211,7 @@ Pour utiliser plusieurs instances de pilotage, ce paramétrage doit être réali
 
    >[!NOTE]
    >
-   >Les opérateurs **mc1** et **mc2** doivent disposer des droits d’**[!UICONTROL exécution Message Center]**, et l’accès à la console cliente Adobe Campaign ne doit pas leur être autorisé.Un opérateur doit toujours être associé à une zone de sécurité.Pour plus d’informations, consultez [cette section](../../installation/using/security-zones.md).
+   >Les opérateurs **mc1** et **mc2** doivent disposer des droits d’**[!UICONTROL exécution Message Center]**, et l’accès à la console cliente Adobe Campaign ne doit pas leur être autorisé. Un opérateur doit toujours être associé à une zone de sécurité. Pour plus d’informations, consultez [cette section](../../installation/using/security-zones.md).
 
 1. Pour chaque opérateur, cochez la case **[!UICONTROL Restreindre aux données présentes dans les sous-dossiers de]**, et sélectionnez le dossier correspondant (**Dossier 1** pour l&#39;opérateur **mc1** et **Dossier 2** pour l&#39;opérateur **mc2**).
 

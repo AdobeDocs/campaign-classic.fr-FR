@@ -3,7 +3,7 @@ product: campaign
 title: Configuration technique du canal e-mail
 description: Découvrez comment configurer Campaign pour contrôler la sortie de vos instances lors de la diffusion des e-mails.
 feature: Installation, Deliverability
-badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -11,23 +11,29 @@ exl-id: 515adad2-6129-450a-bb9e-fc80127835af
 TQID: https://experienceleague.adobe.com/JRN8-kfrbG-UDAJz8wShf-0vi-LyqrUBxNBa3wn83cc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: b5852c32-876b-41ae-92a7-9f588865ae52
+    internal-label: Best practices
   - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
   - id: eff19c99-440a-4318-b319-444edc4d8d8f
+    internal-label: Upgrade
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: ht
-source-wordcount: 3230
+workflow-type: tm+mt
+source-wordcount: '3218'
 ht-degree: 100%
-
 ---
-
 # Configurations techniques des emails{#email-deliverability}
 
 
@@ -50,7 +56,7 @@ Le débit d&#39;une ou de plusieurs instances Adobe Campaign peut être contrô
 
 Le débit des messages doit être contrôlé pour chacune des adresses IP utilisées par les serveurs de diffusion (**mta**) pour l&#39;envoi des emails. Plusieurs **mta** repartis sur plusieurs machines et appartenant à différentes instances Adobe Campaign peuvent partager les mêmes adresses IP pour l&#39;envoi d&#39;emails : il est donc nécessaire qu&#39;un processus coordonne l&#39;utilisation de ces adresses IP.
 
-Il s’agit de la fonction du module **stat** : il transmet toutes les demandes de connexions et les messages à envoyer vers les serveurs de messagerie pour un ensemble d’adresses IP.Le serveur de statistiques maintient ainsi le compte des diffusions et peut activer ou désactiver les envois en fonction des quotas définis.
+Il s’agit de la fonction du module **stat** : il transmet toutes les demandes de connexions et les messages à envoyer vers les serveurs de messagerie pour un ensemble d’adresses IP. Le serveur de statistiques maintient ainsi le compte des diffusions et peut activer ou désactiver les envois en fonction des quotas définis.
 
 ![](assets/s_ncs_install_mta.png)
 
@@ -63,8 +69,8 @@ Le module **mta** distribue les messages à ses modules enfants **mtachild**. Ch
 
 Les étapes sont les suivantes :
 
-1. Le **mta** sélectionne les messages éligibles pour l&#39;envoi et les assigne à un **mtachild** disponible.
-1. Le **mtachild** charge toutes les informations nécessaires pour construire le message (contenu, éléments de personnalisation, pièces jointes, images, etc.)et transfère le message au **Concepteur de trafic e-mail**.
+1. Le **mta** sélectionne les messages éligibles pour l’envoi et les assigne à un **mtachild** disponible.
+1. Le **mtachild** charge toutes les informations nécessaires pour construire le message (contenu, éléments de personnalisation, pièces jointes, images, etc.) et transfère le message au **Concepteur de trafic e-mail**.
 1. Lorsque le gestionnaire d&#39;envoi a reçu l&#39;autorisation du serveur de statistiques (**smtp stat**), le message est envoyé au destinataire.
 
 ![](assets/s_ncs_install_email_traffic_shaper.png)
@@ -86,19 +92,19 @@ Parallèlement, le module charge une liste de limitations pour certains serveurs
 
 ### Gestion des adresses IP {#managing-ip-addresses}
 
-Le serveur de statistiques peut combiner plusieurs instances ou plusieurs machines avec la même adresse IP publique.Il n’est donc pas rattaché à une instance particulière, mais il doit néanmoins en contacter une pour récupérer les limitations pour chaque domaine.
+Le serveur de statistiques peut combiner plusieurs instances ou plusieurs machines avec la même adresse IP publique. Il n’est donc pas rattaché à une instance particulière, mais il doit néanmoins en contacter une pour récupérer les limitations pour chaque domaine.
 
-Les statistiques de diffusion sont conservées pour chaque MX cible et pour chaque adresse IP source.Par exemple, si le domaine ciblé possède 5 MX et que la plateforme peut utiliser 3 adresses IP différentes, le serveur pourra gérer jusqu’à 15 séries d’indicateurs pour ce domaine.
+Les statistiques de diffusion sont conservées pour chaque MX cible et pour chaque adresse IP source. Par exemple, si le domaine ciblé possède 5 MX et que la plateforme peut utiliser 3 adresses IP différentes, le serveur pourra gérer jusqu’à 15 séries d’indicateurs pour ce domaine.
 
 L&#39;adresse IP source correspond à l&#39;adresse IP publique, c&#39;est-à-dire à l&#39;adresse telle qu&#39;elle est envoyée par le serveur de messagerie distant. Cette adresse IP peut différer de celle de la machine qui héberge le **mta**, si un routeur NAT est fourni. C’est pourquoi le serveur de statistiques utilise un identifiant qui correspond à l’adresse IP publique (**publicId**). L&#39;association entre l&#39;adresse locale et cet identifiant est déclarée dans le fichier de configuration **serverConf.xml**. Tous les paramètres disponibles dans le fichier **serverConf.xml** sont répertoriés dans cette [section](../../installation/using/the-server-configuration-file.md).
 
 ## Contrôle de la sortie de diffusion {#delivery-output-controlling}
 
-Pour diffuser les messages vers les serveurs de messagerie, le composant **Concepteur de trafic e-mail** fait une demande d’ouverture de connexion auprès du serveur de statistiques.Une fois la demande acceptée, la connexion est ouverte.
+Pour diffuser les messages vers les serveurs de messagerie, le composant **Concepteur de trafic e-mail** fait une demande d’ouverture de connexion auprès du serveur de statistiques. Une fois la demande acceptée, la connexion est ouverte.
 
-Avant d’envoyer des messages, le module demande des « jetons » au serveur.Généralement, il s’agit d’un lot minimum de 10 jetons, ce qui permet de réduire le nombre de requêtes auprès du serveur.
+Avant d’envoyer des messages, le module demande des « jetons » au serveur. Généralement, il s’agit d’un lot minimum de 10 jetons, ce qui permet de réduire le nombre de requêtes auprès du serveur.
 
-Le serveur enregistre toutes les statistiques relatives aux connexions et aux diffusions.En cas de redémarrage, les informations sont provisoirement perdues : chacun des clients conserve localement une copie de ses statistiques d’envoi et les renvoie régulièrement au serveur (toutes les 2 minutes).Le serveur peut alors agréger à nouveau les données.
+Le serveur enregistre toutes les statistiques relatives aux connexions et aux diffusions. En cas de redémarrage, les informations sont provisoirement perdues : chacun des clients conserve localement une copie de ses statistiques d’envoi et les renvoie régulièrement au serveur (toutes les 2 minutes). Le serveur peut alors agréger à nouveau les données.
 
 Les sections suivantes décrivent le traitement d&#39;un message par le composant **Email Traffic Shaper**.
 
@@ -106,8 +112,8 @@ Les sections suivantes décrivent le traitement d&#39;un message par le composan
 
 Lorsqu&#39;un message est envoyé, 3 résultats sont possibles :
 
-1. **Success** : le message est envoyé avec succès.Le message est mis à jour.
-1. **Message Failed** : le serveur contacté a refusé le message pour la personne destinataire spécifiée.Ce résultat correspond aux codes retour entre 550 et 599, mais certaines exceptions peuvent être définies.
+1. **Success** : le message est envoyé avec succès. Le message est mis à jour.
+1. **Message Failed** : le serveur contacté a refusé le message pour la personne destinataire spécifiée. Ce résultat correspond aux codes retour entre 550 et 599, mais certaines exceptions peuvent être définies.
 1. **Échec de la session** (à partir de la version 5.11) : si le **mta** reçoit une réponse pour ce message, celui-ci est abandonné (voir la section [Abandon d’un message](#message-abandonment)). Le message est envoyé vers un autre chemin ou mis en attente si aucun autre chemin n’est disponible (voir la section [Mise en attente d’un message](#message-pending)).
 
    >[!NOTE]
@@ -116,15 +122,15 @@ Lorsqu&#39;un message est envoyé, 3 résultats sont possibles :
 
 ### Abandon d&#39;un message {#message-abandonment}
 
-Lorsqu&#39;un message est abandonné, il est retourné au **mta** et n&#39;est plus géré par le **mtachild**.
+Lorsqu’un message est abandonné, il est renvoyé au **mta** et n’est plus géré par le **mtachild**.
 
-Le **MTA** décide de l’action à suivre pour ce message (reprise, abandon, mise en quarantaine, etc.)en fonction du code réponse et des règles.
+Le **MTA** décide de l’action à suivre pour ce message (reprise, abandon, mise en quarantaine, etc.) en fonction du code réponse et des règles.
 
 ### Mise en attente d&#39;un message {#message-pending}
 
 Un message est mis en attente lorsqu’il arrive dans la file active mais qu’il n’existe actuellement aucun chemin disponible.
 
-Un chemin est généralement marqué non disponible pour une durée variable après une erreur de connexion.La durée d’indisponibilité dépend de la fréquence et de l’ancienneté des erreurs.
+Un chemin est généralement marqué non disponible pour une durée variable après une erreur de connexion. La durée d’indisponibilité dépend de la fréquence et de l’ancienneté des erreurs.
 
 ## Configuration du serveur de statistiques {#statistics-server-configuration}
 
@@ -160,11 +166,11 @@ Les règles MX (Mail eXchanger) correspondent aux règles de gestion de communic
 
 Ces règles sont rechargées automatiquement tous les matins à 6h00 (heure du serveur) afin de fournir régulièrement l’instance du client.
 
-En fonction des capacités matérielles et de la politique interne, un FAI accepte un nombre prédéfini de connexions et de messages par heure.Ces variables peuvent être modifiées automatiquement par le système du FAI en fonction de la réputation de l’adresse IP et du domaine d’envoi.Via sa plateforme de délivrabilité, Adobe Campaign gère plus de 150 règles spécifiques du FAI, ainsi qu’une règle générique pour les autres domaines.
+En fonction des capacités matérielles et de la politique interne, un FAI accepte un nombre prédéfini de connexions et de messages par heure. Ces variables peuvent être modifiées automatiquement par le système du FAI en fonction de la réputation de l’adresse IP et du domaine d’envoi. Via sa plateforme de délivrabilité, Adobe Campaign gère plus de 150 règles spécifiques du FAI, ainsi qu’une règle générique pour les autres domaines.
 
 Le nombre maximum de connexions ne dépend pas exclusivement du nombre d&#39;adresses IP publiques utilisées par le MTA.
 
-Par exemple, si vous avez autorisé cinq connexions dans les règles MX et que vous avez configuré deux adresses IP publiques, vous pensez peut-être que vous ne pouvez pas ouvrir plus de 10 connexions simultanées sur ce domaine.En vérité, le nombre maximum de connexions fait référence à un chemin qui est une combinaison de l’une de nos adresses IP MTA publiques et d’une adresse IP MTA du client.
+Par exemple, si vous avez autorisé cinq connexions dans les règles MX et que vous avez configuré deux adresses IP publiques, vous pensez peut-être que vous ne pouvez pas ouvrir plus de 10 connexions simultanées sur ce domaine. En vérité, le nombre maximum de connexions fait référence à un chemin qui est une combinaison de l’une de nos adresses IP MTA publiques et d’une adresse IP MTA du client.
 
 Dans l&#39;exemple ci-dessous, l&#39;utilisateur dispose de deux adresses IP publiques et configurées, et le domaine est yahoo.com.
 
@@ -175,7 +181,7 @@ user:~ user$ host -t mx yahoo.com
                 yahoo.com mail is handled by 1 mta7.am0.yahoodns.net.
 ```
 
-Les enregistrements MX pour yahoo.com indiquent que yahoo.com possède trois MX.Pour se connecter au MX homologue, le MTA demande son adresse IP au DNS.
+Les enregistrements MX pour yahoo.com indiquent que yahoo.com possède trois MX. Pour se connecter au MX homologue, le MTA demande son adresse IP au DNS.
 
 ```
 user:~ user$ host -t a mta5.am0.yahoodns.net
@@ -207,7 +213,7 @@ user:~ user$ host -t a mta6.am0.yahoodns.net
 
 4 de ces 8 adresses IP sont déjà utilisées en mta5 (98.136.216.26, 98.138.112.38, 63.250.192.46 et 98.136.217.203). Cet enregistrement permet à la personne d’utiliser quatre nouvelles adresses IP. Le troisième enregistrement MX aussi.
 
-Au total, la personne dispose de 16 adresses IP distantes.Avec ses deux adresses IP publiques locales, elle obtient un total de 32 chemins pour accéder aux serveurs de messagerie de yahoo.com.
+Au total, la personne dispose de 16 adresses IP distantes. Avec ses deux adresses IP publiques locales, elle obtient un total de 32 chemins pour accéder aux serveurs de messagerie de yahoo.com.
 
 >[!NOTE]
 >
@@ -244,7 +250,7 @@ Pour recharger la configuration sans redémarrer le serveur de statistiques, uti
 
 >[!NOTE]
 >
->Cette ligne de commande est préférable à **nlserver restart**.Elle empêche la perte des statistiques collectées avant le redémarrage et permet d’éviter des pics d’utilisation qui pourraient aller à l’encontre des quotas définis dans les règles MX.
+>Cette ligne de commande est préférable à **nlserver restart**. Elle empêche la perte des statistiques collectées avant le redémarrage et permet d’éviter des pics d’utilisation qui pourraient aller à l’encontre des quotas définis dans les règles MX.
 
 ### Configuration des règles MX {#configuring-mx-rules}
 
@@ -254,18 +260,18 @@ Ces règles sont appliquées dans l&#39;ordre : la première règle dont le mas
 
 Les paramètres disponibles pour chacune des règles sont les suivants :
 
-* **[!UICONTROL Masque des MX]** : domaine auquel s’applique la règle. Chaque règle définit un masque d’adresse pour le MX.Tout MX dont le nom correspond à ce masque est donc éligible.Le masque peut contenir les caractères génériques « &#42; » et « ? ».
+* **[!UICONTROL Masque des MX]** : domaine auquel s’applique la règle. Chaque règle définit un masque d’adresse pour le MX. Tout MX dont le nom correspond à ce masque est donc éligible. Le masque peut contenir les caractères génériques « &#42; » et « ? ».
 
   Par exemple, les adresses :
 
-   * a.mx.yahoo.com
-   * b.mx.yahoo.com
-   * c.mx.yahoo.com
+  * a.mx.yahoo.com
+  * b.mx.yahoo.com
+  * c.mx.yahoo.com
 
   sont compatibles avec les masques :
 
-   * &#42;.yahoo.com
-   * ?.mx.yahoo.com
+  * &#42;.yahoo.com
+  * ?.mx.yahoo.com
 
   Par exemple, pour l&#39;adresse email foobar@gmail.com, le domaine est gmail.com et l&#39;enregistrement MX est :
 
@@ -279,10 +285,10 @@ Les paramètres disponibles pour chacune des règles sont les suivants :
 
   Dans ce cas, la règle MX `*.google.com` sera utilisée. Comme vous pouvez le constater, le masque de règle MX ne correspond pas nécessairement au domaine de l’email. Les règles MX appliquées aux adresses email gmail.com seront celles qui comportent le masque `*.google.com`.
 
-* **[!UICONTROL Plage des identifiants]** : cette option permet d’indiquer les plages d’identifiants (publicID) pour lesquelles la règle s’applique.Vous pouvez spécifier les éléments suivants :
+* **[!UICONTROL Plage des identifiants]** : cette option permet d’indiquer les plages d’identifiants (publicID) pour lesquelles la règle s’applique. Vous pouvez spécifier les éléments suivants :
 
-   * Un nombre : la règle ne s&#39;appliquera qu&#39;à ce publicId,
-   * Une plage de nombres (**nombre1-nombre2**) la règle s&#39;appliquera à tous les publicId compris entre ces deux nombres.
+  * Un nombre : la règle ne s&#39;appliquera qu&#39;à ce publicId,
+  * Une plage de nombres (**nombre1-nombre2**) la règle s&#39;appliquera à tous les publicId compris entre ces deux nombres.
 
   >[!NOTE]
   >
@@ -292,9 +298,9 @@ Les paramètres disponibles pour chacune des règles sont les suivants :
 
   ![](assets/s_ncs_install_mta_ips.png)
 
-* **[!UICONTROL Partagé]** : définit la portée des propriétés de cette règle MX.Lorsque cette case est cochée, tous les paramètres sont partagés sur toutes les adresses IP disponibles sur l’instance.Lorsque cette option n’est pas cochée, les règles MX sont définies pour chaque adresse IP.Le nombre maximum de messages est multiplié par le nombre d’adresses IP disponibles.
+* **[!UICONTROL Partagé]** : définit la portée des propriétés de cette règle MX. Lorsque cette case est cochée, tous les paramètres sont partagés sur toutes les adresses IP disponibles sur l’instance. Lorsque cette option n’est pas cochée, les règles MX sont définies pour chaque adresse IP. Le nombre maximum de messages est multiplié par le nombre d’adresses IP disponibles.
 * **[!UICONTROL Nombre maximum de connexions]** : nombre maximum de connexions simultanées au domaine de l’expéditeur.
-* **[!UICONTROL Nombre maximum de messages]** : nombre maximum de messages qui peuvent être envoyés sur une connexion.Au-delà, la connexion est fermée puis une nouvelle est rouverte.
+* **[!UICONTROL Nombre maximum de messages]** : nombre maximum de messages qui peuvent être envoyés sur une connexion. Au-delà, la connexion est fermée puis une nouvelle est rouverte.
 * **[!UICONTROL Messages par heure]** : nombre maximum de messages pouvant être envoyés en une heure au domaine de l’expéditeur.
 * **[!UICONTROL Délai d’expiration de connexion]** : délai maximum pour tenter de se connecter à un domaine.
 
@@ -304,16 +310,16 @@ Les paramètres disponibles pour chacune des règles sont les suivants :
 
 * **[!UICONTROL Données de délai d’expiration]** : durée maximale d’attente d’une réponse du serveur après l’envoi du contenu du message (section DATA du protocole SMTP).
 * **[!UICONTROL Délai d’expiration]** : durée maximale d’attente de réponse pour les autres échanges avec le serveur SMTP.
-* **[!UICONTROL TLS]** : le protocole TLS, qui permet de chiffrer la diffusion des e-mails, peut être activé de manière sélective.Pour chaque masque MX, les options suivantes sont disponibles :
+* **[!UICONTROL TLS]** : le protocole TLS, qui permet de chiffrer la diffusion des e-mails, peut être activé de manière sélective. Pour chaque masque MX, les options suivantes sont disponibles :
 
-   * **[!UICONTROL Configuration par défaut]** : c&#39;est la configuration générale indiquée dans le fichier de configuration serverConf.xml qui est appliquée.
+  * **[!UICONTROL Configuration par défaut]** : c&#39;est la configuration générale indiquée dans le fichier de configuration serverConf.xml qui est appliquée.
 
-     >[!IMPORTANT]
-     >
-     >Il n&#39;est pas recommandé de modifier le paramétrage par défaut.
+    >[!IMPORTANT]
+    >
+    >Il n&#39;est pas recommandé de modifier le paramétrage par défaut.
 
-   * **[!UICONTROL Désactivé]** : les messages sont systématiquement envoyés sans chiffrement.
-   * **[!UICONTROL Opportuniste]** : la diffusion des messages est chiffrée si le serveur de réception (SMTP) peut générer le protocole TLS.
+  * **[!UICONTROL Désactivé]** : les messages sont systématiquement envoyés sans chiffrement.
+  * **[!UICONTROL Opportuniste]** : la diffusion des messages est chiffrée si le serveur de réception (SMTP) peut générer le protocole TLS.
 
 Exemple de paramétrage :
 
@@ -333,16 +339,16 @@ Ce document contient notamment une liste de domaines prédéfinis correspondant 
 
 ![](assets/mail_rule_sets.png)
 
-Le paramètre **Structure MIME** (Multipurpose Internet Mail Extensions) permet de définir la structure du message qui sera transmise aux différents clients de messagerie.Trois options sont disponibles :
+Le paramètre **Structure MIME** (Multipurpose Internet Mail Extensions) permet de définir la structure du message qui sera transmise aux différents clients de messagerie. Trois options sont disponibles :
 
-* **Multipart** : le message est envoyé au format texte ou HTML.Si le format HTML n’est pas accepté, le message pourra tout de même s’afficher au format texte.
+* **Multipart** : le message est envoyé au format texte ou HTML. Si le format HTML n’est pas accepté, le message pourra tout de même s’afficher au format texte.
 
   Par défaut, la structure multipart est de type **multipart/alternative**, mais devient automatiquement **multipart/related** lorsque qu&#39;on ajoute une image au message. Certains fournisseurs exigeant le format **multipart/related** par défaut, l&#39;option **[!UICONTROL Forcer multipart/related]** permet d&#39;imposer ce format même si aucune image n&#39;est jointe.
 
-* **HTML** : un message est envoyé au format HTML uniquement.Si le format HTML n’est pas accepté, le message ne s’affichera pas.
-* **Text** : un message est envoyé au format texte uniquement.L’avantage des messages au format texte est leur taille très réduite.
+* **HTML** : un message est envoyé au format HTML uniquement. Si le format HTML n’est pas accepté, le message ne s’affichera pas.
+* **Text** : un message est envoyé au format texte uniquement. L’avantage des messages au format texte est leur taille très réduite.
 
-Si l’option **[!UICONTROL Inclusion des images]** est activée, celles-ci s’affichent directement dans le corps de l’e-mail.Les images sont alors chargées et les liens URL remplacés par leur contenu.
+Si l’option **[!UICONTROL Inclusion des images]** est activée, celles-ci s’affichent directement dans le corps de l’e-mail. Les images sont alors chargées et les liens URL remplacés par leur contenu.
 
 Cette option est notamment utilisée par le marché japonais pour les emails au format **Deco-mail**, **Decore Mail** ou **Decoration Mail**. Pour plus d’informations, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/sending-emails-on-japanese-mobiles.html?lang=fr){target="_blank"}.
 
@@ -380,7 +386,7 @@ Pour utiliser le serveur de statistiques se trouvant sur la même machine, il fa
 
 ### Liste des adresses IP à utiliser {#list-of-ip-addresses-to-use}
 
-La configuration relative à la gestion du trafic se situe dans l&#39;élément **mta/child/smtp** du fichier de configuration.
+La configuration relative à la gestion du trafic se situe dans l’élément **mta/child/smtp** du fichier de configuration.
 
 Pour chacun des éléments **IPAffinity**, vous devez déclarer les adresses IP de la machine qui peuvent être utilisées.
 
@@ -399,8 +405,8 @@ Les paramètres sont les suivants :
 * **address** : il s&#39;agit de l&#39;adresse IP de la machine hôte du MTA à utiliser.
 * **heloHost** : cet identifiant représente l&#39;adresse IP telle qu&#39;elle sera vue par le serveur SMTP.
 
-* **publicId** : cette information est utile lorsqu’une adresse IP est partagée par plusieurs **MTA** Adobe Campaign derrière un routeur NAT.Le serveur de statistiques utilise cet identifiant pour mémoriser les statistiques de connexions et d’envois entre ce point de départ et le serveur cible.
-* **weight** : permet de définir la fréquence relative d’utilisation de l’adresse.Par défaut, toutes les adresses ont un poids égal à 1.
+* **publicId** : cette information est utile lorsqu’une adresse IP est partagée par plusieurs **MTA** Adobe Campaign derrière un routeur NAT. Le serveur de statistiques utilise cet identifiant pour mémoriser les statistiques de connexions et d’envois entre ce point de départ et le serveur cible.
+* **weight** : permet de définir la fréquence relative d’utilisation de l’adresse. Par défaut, toutes les adresses ont un poids égal à 1.
 
 >[!NOTE]
 >
@@ -427,18 +433,18 @@ Si, par exemple, la première adresse est inutilisable vers un MX donné, les me
 
 ## Optimisation de l&#39;envoi d&#39;emails {#email-sending-optimization}
 
-L’architecture interne du **MTA** Adobe Campaign a un impact sur le paramétrage pour optimiser la diffusion des e-mails.Voici quelques conseils pour améliorer vos diffusions.
+L’architecture interne du **MTA** Adobe Campaign a un impact sur le paramétrage pour optimiser la diffusion des e-mails. Voici quelques conseils pour améliorer vos diffusions.
 
 ### Ajuster le paramètre maxWaitingMessages {#adjust-the-maxwaitingmessages-parameter}
 
-Le paramètre **maxWaitingMessages** indique le nombre maximum de messages préparés à l’avance par le **mtachild**.Les messages ne sont supprimés de cette liste que lorsqu’ils ont été envoyés ou abandonnés.
+Le paramètre **maxWaitingMessages** indique le nombre maximum de messages préparés à l’avance par le **mtachild**. Les messages ne sont supprimés de cette liste que lorsqu’ils ont été envoyés ou abandonnés.
 
 Ce paramètre est très important et particulièrement critique si les messages ne sont pas triés par domaine.
 
-Lorsque le seuil maximum du paramètre **maxWorkingSetMb** (256) est atteint, le serveur de diffusion n&#39;envoie plus de messages. Les performances diminueront très fortement jusqu&#39;à ce que le **mtachild** redémarre. Pour pallier à ce problème, vous pouvez soit augmenter le plafond du paramètre **maxWorkingSetMb**, soit diminuer celui du paramètre **maxWaitingMessages**.
+Lorsque le seuil maximum du paramètre **maxWorkingSetMb** (256) est atteint, le serveur de diffusion n&#39;envoie plus de messages. Les performances diminueront très fortement jusqu’à ce que le **mtachild** redémarre. Pour pallier à ce problème, vous pouvez soit augmenter le plafond du paramètre **maxWorkingSetMb**, soit diminuer celui du paramètre **maxWaitingMessages**.
 
-Le paramètre **maxWorkingSetMb** se calcule empiriquement en multipliant le nombre maximum de messages par la taille moyenne d’un message, le tout multiplié par 2,5.Par exemple, si un message a une taille de 50 ko en moyenne et que le paramètre **maxWaitingMessages** a pour valeur 1 000, la mémoire consommée sera d’environ 125 Mo.
+Le paramètre **maxWorkingSetMb** se calcule empiriquement en multipliant le nombre maximum de messages par la taille moyenne d’un message, le tout multiplié par 2,5. Par exemple, si un message a une taille de 50 ko en moyenne et que le paramètre **maxWaitingMessages** a pour valeur 1 000, la mémoire consommée sera d’environ 125 Mo.
 
 ### Ajuster le nombre de mtachild {#adjust-the-number-of-mtachild}
 
-Le nombre d’enfants ne doit pas dépasser le nombre de processeurs de la machine (environ1 000 sessions).L&#39;ordre du millier de sessions semble une bonne valeur. **** Il faut alors augmenter le nombre de messages par **enfant** (**maxMsgPerChild**) pour avoir une durée de vie suffisante.
+Le nombre d’enfants ne doit pas dépasser le nombre de processeurs de la machine (environ 1 000 sessions). Il est recommandé de ne pas dépasser huit **mtachild**. Il faut alors augmenter le nombre de messages par **enfant** (**maxMsgPerChild**) pour avoir une durée de vie suffisante.

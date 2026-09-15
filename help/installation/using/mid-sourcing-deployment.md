@@ -10,27 +10,28 @@ exl-id: 8a4d7ef1-de5b-4aee-a527-1b74d987ba61
 TQID: https://experienceleague.adobe.com/lZr-7gHVoc8gahLQ6JSP05vRbNzOZ1ODlo3P3AIyTLA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 380
+workflow-type: tm+mt
+source-wordcount: '380'
 ht-degree: 100%
-
 ---
-
 # Déploiement Mid-sourcing{#mid-sourcing-deployment}
 
 
 
-Cette configuration présente une solution intermédiaire optimale, entre la configuration hébergée (ASP) et l’internalisation.Les composants d’exécution orientés vers l’extérieur sont exécutés sur un serveur de « midsourcing » hébergé sur Adobe Campaign.
+Cette configuration présente une solution intermédiaire optimale, entre la configuration hébergée (ASP) et l’internalisation. Les composants d’exécution orientés vers l’extérieur sont exécutés sur un serveur de « midsourcing » hébergé sur Adobe Campaign.
 
 >[!NOTE]
 >
->Pour mettre en place ce type de déploiement, vous devez acquérir l’option correspondante.Vérifiez votre contrat de licence.
+>Pour mettre en place ce type de déploiement, vous devez acquérir l’option correspondante. Vérifiez votre contrat de licence.
 
 La communication générale entre les serveurs et les processus est réalisée conformément au schéma suivant :
 

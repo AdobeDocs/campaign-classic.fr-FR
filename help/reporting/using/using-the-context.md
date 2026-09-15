@@ -2,27 +2,31 @@
 product: campaign
 title: Utilisation du contexte dans vos rapports
 description: Découvrez comment utiliser le contexte dans vos rapports
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting, Monitoring
 exl-id: a19e2843-d3f9-48c3-af72-cc1bc54f6360
 TQID: https://experienceleague.adobe.com/xFtDxJJKoG88QlTs6AFZtHuxOEGfGtEHqEfnEarJYwY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 feature_v2:
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic Reporting
 subfeature_v2:
   - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
+    internal-label: Customize reports
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+    internal-label: Cubes and multidimensional analysis
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 532
+workflow-type: tm+mt
+source-wordcount: '523'
 ht-degree: 100%
-
 ---
-
 # Utilisation du contexte dans vos rapports{#using-the-context}
 
 
@@ -33,7 +37,7 @@ Lorsque vous souhaitez représenter les données sous forme de **[!UICONTROL tab
 
 ### Filtrage des données {#filtering-data}
 
-Il n’est pas obligatoire d’utiliser une activité de type **[!UICONTROL Requête]** lors de la création d’un rapport.En effet, les données peuvent être filtrées directement au niveau des tableaux et des graphiques qui composent ce rapport.
+Il n’est pas obligatoire d’utiliser une activité de type **[!UICONTROL Requête]** lors de la création d’un rapport. En effet, les données peuvent être filtrées directement au niveau des tableaux et des graphiques qui composent ce rapport.
 
 Ainsi, vous pouvez sélectionner les données à afficher dans le rapport directement depuis l&#39;activité **[!UICONTROL Page]** du rapport.
 
@@ -91,7 +95,7 @@ Par exemple, dans une boîte de requête, construisez la requête suivante sur l
 
 Indiquez ensuite la source des données de votre rapport, ici : les **[!UICONTROL Données du contexte]**.
 
-L’emplacement des données est déduit automatiquement.Si nécessaire, vous pouvez forcer le chemin des données.
+L’emplacement des données est déduit automatiquement. Si nécessaire, vous pouvez forcer le chemin des données.
 
 ![](assets/s_ncs_advuser_report_datasource_4.png)
 

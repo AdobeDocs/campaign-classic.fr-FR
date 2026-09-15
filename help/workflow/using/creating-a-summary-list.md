@@ -8,25 +8,28 @@ exl-id: 39cec42a-c7ac-41b1-8f61-799b559ce002
 TQID: https://experienceleague.adobe.com/TM6lXgY-engMX-uC0-P0erLjuioUuIdwQUpEm6bM8t8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 feature_v2: []
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1064
+workflow-type: tm+mt
+source-wordcount: '1064'
 ht-degree: 100%
-
 ---
-
 # Créer une liste récapitulative{#creating-a-summary-list}
 
 
 
-Ce cas d’utilisation détaille la création d’un workflow permettant, à partir d’une collecte de fichiers et suite à plusieurs enrichissements, de créer une liste récapitulative.L’exemple est basé sur une liste de contacts ayant effectué des achats dans un magasin.
+Ce cas d’utilisation détaille la création d’un workflow permettant, à partir d’une collecte de fichiers et suite à plusieurs enrichissements, de créer une liste récapitulative. L’exemple est basé sur une liste de contacts ayant effectué des achats dans un magasin.
 
 ![](assets/uc2_enrich_overview.png)
 
@@ -147,7 +150,7 @@ Dans l&#39;activité **Mise à jour de données**, la configuration suivante est
 
 ## Étape 3 : Enrichissement des données &#39;Contacts&#39; {#step-3--enriching--contact--data-}
 
-Le schéma « Contacts » est lié physiquement au schéma « Achats ».Il est donc possible d’utiliser une autre option de l’activité « Enrichissement » : l’ajout de données liées à la dimension de filtrage.
+Le schéma « Contacts » est lié physiquement au schéma « Achats ». Il est donc possible d’utiliser une autre option de l’activité « Enrichissement » : l’ajout de données liées à la dimension de filtrage.
 
 L&#39;objectif de ce deuxième enrichissement est de créer un agrégat sur le schéma des achats pour calculer le montant total des achats pour chaque contact identifié.
 
@@ -185,9 +188,9 @@ Pour préparer la liste récapitulative, il est nécessaire d&#39;ajouter des ch
 
 La dernière étape consiste à écrire toutes les données enrichies dans une liste.
 
-1. Ajoutez une activité **Mise à jour de liste** au workflow.Cette activité doit être liée à la transition sortante de la deuxième activité d’enrichissement.
+1. Ajoutez une activité **Mise à jour de liste** au workflow. Cette activité doit être liée à la transition sortante de la deuxième activité d’enrichissement.
 1. Sélectionnez l&#39;option **[!UICONTROL Créer la liste si besoin (Nom calculé)]**.
-1. Sélectionnez une valeur pour le nom calculé.Le libellé choisi pour la liste est la date actuelle : &lt;%= formatDate(new Date(), &quot;%2D/%2M/%2Y&quot;) %>.
+1. Sélectionnez une valeur pour le nom calculé. Le libellé choisi pour la liste est la date actuelle : &lt;%= formatDate(new Date(), &quot;%2D/%2M/%2Y&quot;) %>.
 
 Une fois le workflow exécuté, la liste contient :
 

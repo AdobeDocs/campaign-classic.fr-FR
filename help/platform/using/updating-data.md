@@ -10,22 +10,27 @@ exl-id: f7dfbc22-4ac3-4b61-927f-34ecc4e35154
 TQID: https://experienceleague.adobe.com/Ao7kTRz1lHY0sDhOLoWIZNkHEXnL2wIv-0BU0e-2cOs
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 feature_v2:
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 797
+workflow-type: tm+mt
+source-wordcount: '797'
 ht-degree: 100%
-
 ---
-
 # Mise à jour de données{#updating-data}
 
 >[!NOTE]
@@ -68,7 +73,7 @@ Vous pouvez cliquer sur le bouton **[!UICONTROL Répartition des valeurs]** pour
 
 ![](assets/s_ncs_user_update_wizard01_2.png)
 
-Vous pouvez définir des filtres pour afficher la répartition des valeurs dans cette fenêtre ou modifier le dossier actuel afin de visualiser la répartition des valeurs dans un autre dossier.Il s’agit d’actions en lecture seule qui n’affectent pas la configuration de la mise à jour en cours de définition.
+Vous pouvez définir des filtres pour afficher la répartition des valeurs dans cette fenêtre ou modifier le dossier actuel afin de visualiser la répartition des valeurs dans un autre dossier. Il s’agit d’actions en lecture seule qui n’affectent pas la configuration de la mise à jour en cours de définition.
 
 ![](assets/s_ncs_user_update_wizard01_3.png)
 
@@ -78,11 +83,11 @@ Fermez cette fenêtre et cliquez sur **[!UICONTROL Suivant]** pour afficher la s
 
 Les informations relatives à l’exécution de la mise à jour sont affichées dans la section supérieure de l’assistant.
 
-Le bouton **[!UICONTROL Arrêter]** permet d’annuler la mise à jour. Toutefois, certains enregistrements peuvent avoir été mis à jour : l’arrêt du traitement n’annulera pas ces mises à jour.La barre de progression indique l’avancement de l’opération.
+Le bouton **[!UICONTROL Arrêter]** permet d’annuler la mise à jour. Toutefois, certains enregistrements peuvent avoir été mis à jour : l’arrêt du traitement n’annulera pas ces mises à jour. La barre de progression indique l’avancement de l’opération.
 
 ### Fusion de données {#merge-data}
 
-Sélectionnez **[!UICONTROL Fusionner les lignes sélectionnées…]** pour lancer la fusion de deux profils de destinataires.Les deux profils à fusionner doivent être sélectionnés avant de choisir l’option.La fusion est configurée et lancée à l’aide d’un assistant.
+Sélectionnez **[!UICONTROL Fusionner les lignes sélectionnées…]** pour lancer la fusion de deux profils de destinataires. Les deux profils à fusionner doivent être sélectionnés avant de choisir l’option. La fusion est configurée et lancée à l’aide d’un assistant.
 
 L’assistant affiche les valeurs à récupérer pour chaque champ renseigné dans l’un ou l’autre des profils source. Si un ou plusieurs champs sont renseignés dans les deux profils à fusionner avec des valeurs différentes, ils sont affichés dans la section **[!UICONTROL Liste des conflits]**. Vous pouvez alors choisir le profil par défaut en utilisant les boutons radio situés sous cette liste, comme dans l&#39;exemple suivant :
 
@@ -96,14 +101,14 @@ Vérifiez les colonnes **[!UICONTROL Résultat]** des deux sections de la fenêt
 
 ## Exporter des données {#exporting-data}
 
-Le contenu d’une liste peut être exporté.Pour configurer et exécuter l’export :
+Le contenu d’une liste peut être exporté. Pour configurer et exécuter l’export :
 
 1. Sélectionnez les enregistrements à exporter.
 1. Cliquez avec le bouton droit et sélectionnez **[!UICONTROL Exporter...]**.
 
    ![](assets/s_ncs_user_export_list.png)
 
-1. Sélectionnez ensuite les données à extraire.Par défaut, toutes les colonnes affichées sont ajoutées aux colonnes de sortie.
+1. Sélectionnez ensuite les données à extraire. Par défaut, toutes les colonnes affichées sont ajoutées aux colonnes de sortie.
 
    ![](assets/s_ncs_user_export_list_start.png)
 
@@ -111,7 +116,7 @@ Le contenu d’une liste peut être exporté.Pour configurer et exécuter l’ex
 
 ## S’abonner à un service {#subscribing-to-a-service}
 
-Dans la plupart des cas, les destinataires s’abonnent à une newsletter par le biais d’une page de destination dédiée, comme expliqué dans [cette section](../../delivery/using/managing-subscriptions.md).Cependant, les profils des personnes destinataires filtrées peuvent être abonnés manuellement à un service (newsletter ou service viral).Pour cela :
+Dans la plupart des cas, les destinataires s’abonnent à une newsletter par le biais d’une page de destination dédiée, comme expliqué dans [cette section](../../delivery/using/managing-subscriptions.md). Cependant, les profils des personnes destinataires filtrées peuvent être abonnés manuellement à un service (newsletter ou service viral). Pour cela :
 
 1. Sélectionnez les destinataires à abonner et cliquez avec le bouton droit de la souris.
 1. Sélectionnez **[!UICONTROL Actions > Abonner la sélection à un service]**.
@@ -126,12 +131,12 @@ Dans la plupart des cas, les destinataires s’abonnent à une newsletter par le
    >
    >Depuis cet éditeur, vous pouvez créer un nouveau service. Pour cela cliquez sur le bouton **[!UICONTROL Créer]**.
 
-1. Vous pouvez **[!UICONTROL envoyer un message de confirmation]** aux destinataires.Le contenu de ce message est paramétré dans le scénario d’abonnement associé au service sélectionné.
+1. Vous pouvez **[!UICONTROL envoyer un message de confirmation]** aux destinataires. Le contenu de ce message est paramétré dans le scénario d’abonnement associé au service sélectionné.
 1. Cliquez sur le bouton **[!UICONTROL Démarrer]** pour lancer l&#39;abonnement.
 
    ![](assets/s_ncs_user_selection_subscribe_service_3.png)
 
-La section supérieure de la fenêtre vous permet de suivre l&#39;exécution. Le bouton **[!UICONTROL Arrêter]** vous permet d’arrêter le traitement. Les destinataires ayant déjà été traités seront toutefois abonnés.
+La section supérieure de la fenêtre vous permet de su l&#39;exécution. Le bouton **[!UICONTROL Arrêter]** vous permet d’arrêter le traitement. Les destinataires ayant déjà été traités seront toutefois abonnés.
 
 Si vous décochez l&#39;option **[!UICONTROL Ne pas conserver trace de ce traitement dans la base de données]** vous pouvez sélectionner (ou créer) le dossier d&#39;exécution où seront stockées les informations relatives à ce traitement.
 

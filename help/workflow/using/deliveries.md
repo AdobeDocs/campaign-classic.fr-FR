@@ -5,12 +5,10 @@ description: En savoir plus sur les workflows de diffusions par défaut
 hide: true
 feature: Workflows
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 100%
-
 ---
-
 
 # Diffusions{#deliveries}
 
@@ -43,7 +41,7 @@ Les workflows présentés ci-dessous sont installés par défaut avec le module 
   <tr> 
    <td> <span class="uicontrol">Actualiser pour la délivrabilité</span> <br /> </td> 
    <td> <span class="uicontrol">deliverabilityUpdate</span> <br /> </td> 
-   <td>Ce workflow vous permet de créer la liste des règles de qualification des e-mails rejetés, ainsi que la liste des domaines et des MX dans la plateforme.Ce workflow ne fonctionne que si le port HTTPS est ouvert.Ces listes ne sont pas mises à jour tant que le module Délivrabilité n'est pas installé.<br /> </td> 
+   <td> Ce workflow vous permet de créer la liste des règles de qualification des e-mails rejetés, ainsi que la liste des domaines et des MX dans la plateforme. Ce workflow ne fonctionne que si le port HTTPS est ouvert. Ces listes ne sont pas mises à jour tant que le module Délivrabilité n'est pas installé.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Nettoyage de la base de données</span> <br /> </td> 
@@ -53,7 +51,7 @@ Les workflows présentés ci-dessous sont installés par défaut avec le module 
   <tr> 
    <td> <span class="uicontrol">Nettoyage des workflows en pause</span> <br /> </td> 
    <td> <span class="uicontrol">cleanupPausedWorkflows</span> <br /> </td> 
-   <td> <p>Ce workflow analyse les workflows en pause dont le niveau de priorité est défini sur normal et déclenche des avertissements et des notifications lorsqu’ils sont en pause depuis trop longtemps.Au bout d’un mois, les workflows techniques en pause sont arrêtés de manière inconditionnelle.Par défaut, il se déclenche chaque lundi à 5 h 00.</p> <p>Pour plus d’informations, voir <a href="monitoring-workflow-execution.md#handling-of-paused-workflows" target="_blank">Gérer les workflows en pause</a>.</p></td> 
+   <td> <p>Ce workflow analyse les workflows en pause dont le niveau de priorité est défini sur normal et déclenche des avertissements et des notifications lorsqu’ils sont en pause depuis trop longtemps. Au bout d’un mois, les workflows techniques en pause sont arrêtés de manière inconditionnelle. Par défaut, il se déclenche chaque lundi à 5 h 00.</p> <p>Pour plus d’informations, voir <a href="monitoring-workflow-execution.md#handling-of-paused-workflows" target="_blank">Gérer les workflows en pause</a>.</p></td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Notification des offres</span> <br /> </td> 
@@ -68,7 +66,7 @@ Les workflows présentés ci-dessous sont installés par défaut avec le module 
   <tr> 
    <td> <span class="uicontrol">Tracking</span> <br /> </td> 
    <td> <span class="uicontrol">tracking</span> <br /> </td> 
-   <td>Ce workflow effectue la récupération et la consolidation des informations de tracking.Il assure également le recalcul des statistiques de tracking et de diffusion, notamment celles utilisées par les workflows d’archivage de Message Center.Par défaut, il est déclenché une fois par heure. <br /> </td> 
+   <td> Ce workflow effectue la récupération et la consolidation des informations de tracking. Il assure également le recalcul des statistiques de tracking et de diffusion, notamment celles utilisées par les workflows d’archivage de Message Center. Par défaut, il est déclenché une fois par heure. <br /> </td> 
   </tr> 
  </tbody> 
 </table>

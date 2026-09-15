@@ -7,20 +7,23 @@ exl-id: 8508d879-fb38-4b1f-9f55-0341bb8d0c67
 TQID: https://experienceleague.adobe.com/y8kDwxCY0MkBcDPUPY7hmFlpJc3l3qsEiDRhhMGqT00
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 448
+workflow-type: tm+mt
+source-wordcount: '448'
 ht-degree: 100%
-
 ---
-
 # Journal d’audit{#audit-trail}
 
 >[!INFO]
@@ -29,7 +32,7 @@ ht-degree: 100%
 
 Dans Adobe Campaign, le **[!UICONTROL Journal d’audit]** vous donne accès à l’historique complet des modifications apportées à votre instance.
 
-Le **[!UICONTROL journal d’audit]** capture, en temps réel, une liste complète d’actions et d’événements se produisant dans votre instance Adobe Campaign.Il propose également un accès en libre-service à un historique des données pour répondre à des questions telles que : ce qui est arrivé à vos workflows et qui les a mis à jour en dernier, ou ce que vos utilisateurs ont fait dans l’instance.
+Le **[!UICONTROL journal d’audit]** capture, en temps réel, une liste complète d’actions et d’événements se produisant dans votre instance Adobe Campaign. Il propose également un accès en libre-service à un historique des données pour répondre à des questions telles que : ce qui est arrivé à vos workflows et qui les a mis à jour en dernier, ou ce que vos utilisateurs ont fait dans l’instance.
 
 >[!NOTE]
 >
@@ -46,14 +49,14 @@ Le **[!UICONTROL journal d’audit]** capture, en temps réel, une liste complè
 
 * **Journal d’audit des workflows** : effectue le suivi de toutes les actions liées à vos workflows, notamment :
 
-   * Démarrer
-   * Pause
-   * Arrêter
-   * Redémarrer
-   * Nettoyer qui correspond à l’action Purge de l’historique
-   * Simuler qui correspond à l’action Démarrer en mode simulation
-   * Réveiller qui correspond à l’action Traitement anticipé des tâches en attente
-   * Arrêt inconditionnel
+  * Démarrer
+  * Pause
+  * Arrêter
+  * Redémarrer
+  * Nettoyer qui correspond à l’action Purge de l’historique
+  * Simuler qui correspond à l’action Démarrer en mode simulation
+  * Réveiller qui correspond à l’action Traitement anticipé des tâches en attente
+  * Arrêt inconditionnel
 
   Pour plus d’informations sur les workflows, consultez [cette page](../../workflow/using/about-workflows.md).
 

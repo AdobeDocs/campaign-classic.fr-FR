@@ -7,26 +7,35 @@ exl-id: 0a3473bf-0528-486d-a799-8db86fece522
 TQID: https://experienceleague.adobe.com/8u-ItsbouC0wIsamVYfyzQR1o-z-jY90Z3pKem-yarc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+    internal-label: Security and privacy
 subfeature_v2:
   - id: ac72e249-ebbf-4bb6-96c9-596af925419a
+    internal-label: Privacy tools
   - id: ac9c0a9c-8a76-4419-bd64-9c34c5782666
+    internal-label: Privacy
   - id: fb2a841f-c522-491f-9901-a1b939d252df
+    internal-label: Security
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: ht
-source-wordcount: 906
+workflow-type: tm+mt
+source-wordcount: '906'
 ht-degree: 100%
-
 ---
-
 # Personnalisation et confidentialité {#privacy}
 
 ## Personnalisation des URL {#url-personalization}
@@ -60,7 +69,7 @@ Exemple :
 
 ### Signature d&#39;URL
 
-Pour améliorer la sécurité, un mécanisme de signature pour les liens de tracking dans les e-mails été ajouté. Cette fonctionnalité est disponible à partir des versions 19.1.4 (9032@3a9dc9c) et 20.2.Cette fonctionnalité est activée par défaut.
+Pour améliorer la sécurité, un mécanisme de signature pour les liens de tracking dans les e-mails été ajouté. Cette fonctionnalité est disponible à partir des versions 19.1.4 (9032@3a9dc9c) et 20.2. Cette fonctionnalité est activée par défaut.
 
 >[!NOTE]
 >
@@ -171,7 +180,7 @@ Pour ce faire, suivez les étapes ci-après :
 
 Nous conseillons fortement aux utilisateur(utilisatrice)s On-premise de protéger les pages pouvant contenir des informations personnelles (PI), telles que les pages miroir, les applications web, etc.
 
-Cette procédure est destinée à empêcher l’indexation de ces pages et à éviter ainsi un risque de sécurité potentiel.Voici quelques articles utiles :
+Cette procédure est destinée à empêcher l’indexation de ces pages et à éviter ainsi un risque de sécurité potentiel. Voici quelques articles utiles :
 
 * [https://developers.google.com/search/reference/robots_txt](https://developers.google.com/search/reference/robots_txt)
 * [https://developers.google.com/search/reference/robots_meta_tag](https://developers.google.com/search/reference/robots_meta_tag)
@@ -190,7 +199,7 @@ Pour protéger vos pages, procédez comme suit :
 
    Pour Apache, vous pouvez placer le fichier dans **/var/www/robots.txt** (Debian).
 
-1. Parfois, l’ajout d’un fichier **robots.txt** ne suffit pas en termes de sécurité.Par exemple, si un autre site web contient un lien vers votre page, il peut apparaître dans un résultat de recherche.
+1. Parfois, l’ajout d’un fichier **robots.txt** ne suffit pas en termes de sécurité. Par exemple, si un autre site web contient un lien vers votre page, il peut apparaître dans un résultat de recherche.
 
    Outre le fichier **robots.txt**, il est conseillé d’ajouter un en-tête **X-Robots-Tag**. Vous pouvez le faire dans Apache ou IIS, ainsi que dans le fichier de configuration **serverConf.xml**.
 

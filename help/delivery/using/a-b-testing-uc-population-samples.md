@@ -2,28 +2,32 @@
 product: campaign
 title: Configurer des échantillons de population
 description: Découvrez comment effectuer des tests A/B à lʼaide dʼun cas dʼutilisation spécifique
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 role: User
 exl-id: 1ca01cab-734a-4299-b112-04eec51222fb
 TQID: https://experienceleague.adobe.com/HWbHtS5F-je1GiNdr25dD17W-MpJ-K3xp-T8kKC-c10
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 206
+workflow-type: tm+mt
+source-wordcount: '197'
 ht-degree: 100%
-
 ---
-
 # AB Testing : configuration d’exemples de population {#step-2--configuring-population-samples}
 
 ## Configurer l&#39;activité de Requête {#configuring-the-query-activity}
@@ -42,7 +46,7 @@ ht-degree: 100%
 
 ## Configurer l&#39;activité Partage {#configuring-the-split-activity}
 
-Cette activité permet de créer plusieurs populations : celle qui reçoit la diffusion A, celle qui reçoit la diffusion B et la population restante.D’autre part, l’utilisation du tirage aléatoire permet de ne cibler qu’une partie de la population de chacune des diffusions.
+Cette activité permet de créer plusieurs populations : celle qui reçoit la diffusion A, celle qui reçoit la diffusion B et la population restante. D’autre part, l’utilisation du tirage aléatoire permet de ne cibler qu’une partie de la population de chacune des diffusions.
 
 1. Création de la population A :
 

@@ -2,29 +2,35 @@
 product: campaign
 title: Cas dʼutilisation de rapports d’analyse
 description: Cas dʼutilisation de rapports d’analyse
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting, Monitoring
 exl-id: e326e32e-7bb0-46ff-9ba5-94ccd1169af2
 TQID: https://experienceleague.adobe.com/oSrEh9-C6tDQ59-reQaLJf0BiCLgJX-G0P4ga5M5ElI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 feature_v2:
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic Reporting
 subfeature_v2:
   - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
+    internal-label: Customize reports
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+    internal-label: Cubes and multidimensional analysis
   - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1443
+workflow-type: tm+mt
+source-wordcount: '1434'
 ht-degree: 100%
-
 ---
-
 # Cas dʼutilisation de rapports d’analyse {#use-cases}
 
 ## Analyser une population {#analyzing-a-population}
@@ -53,7 +59,7 @@ Pour cet exemple, choisissez le modèle **[!UICONTROL Distribution qualitative]*
 
 L&#39;étape suivante permet de sélectionner les données à afficher dans le tableau.
 
-Cliquez sur lien **[!UICONTROL Ajouter…]** pour sélectionner la variable contenant les données à afficher.Ici, nous voulons afficher les villes de résidence des personnes destinataires de nos diffusions sur une ligne :
+Cliquez sur lien **[!UICONTROL Ajouter…]** pour sélectionner la variable contenant les données à afficher. Ici, nous voulons afficher les villes de résidence des personnes destinataires de nos diffusions sur une ligne :
 
 ![](assets/reporting_descriptive_quickstart_step_2.png)
 
@@ -200,13 +206,13 @@ Vous pouvez stocker, exporter ou imprimer des données à l’aide de la barre d
 
 ### Recommandations relatives à l&#39;analyse de la cible {#target-analyze-recommendations}
 
-L’analyse d’une population dans un workflow suppose que la population soit encore présente dans la transition.Si le workflow est lancé, le résultat concernant la population risque d’être purgé de la transition.Pour effectuer une analyse, vous pouvez effectuer l’une des actions suivantes :
+L’analyse d’une population dans un workflow suppose que la population soit encore présente dans la transition. Si le workflow est lancé, le résultat concernant la population risque d’être purgé de la transition. Pour effectuer une analyse, vous pouvez effectuer l’une des actions suivantes :
 
 * détacher la transition de son activité destination et lancer le workflow pour la rendre active. Lorsque la transition clignote, lancez l’assistant de la façon habituelle.
 
   ![](assets/s_ncs_user_report_wizard_018.png)
 
-* Modifiez les propriétés du workflow en sélectionnant l’option **[!UICONTROL Conserver le résultat des populations intermédiaires entre deux exécutions]**.Cela vous permet de lancer une analyse sur la transition de votre choix même si le workflow s’est terminé.
+* Modifiez les propriétés du workflow en sélectionnant l’option **[!UICONTROL Conserver le résultat des populations intermédiaires entre deux exécutions]**. Cela vous permet de lancer une analyse sur la transition de votre choix même si le workflow s’est terminé.
 
   ![](assets/s_ncs_user_report_wizard_020.png)
 

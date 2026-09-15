@@ -8,17 +8,17 @@ exl-id: 728b509f-2755-48df-8b12-449b7044e317
 TQID: https://experienceleague.adobe.com/d3oQ8zJVsjVdj9PZ30rQ8hEuern1l3ZlMAWrbymhnvs
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 527
+workflow-type: tm+mt
+source-wordcount: '527'
 ht-degree: 100%
-
 ---
-
 # Mapping de la base de données{#database-mapping}
 
 Le mapping SQL de l’exemple de schéma décrit [dans cette page](schema-structure.md) génère le document XML suivant :
@@ -68,7 +68,7 @@ Les règles de nommage des noms SQL sont les suivantes :
 
 >[!NOTE]
 >
->Les noms SQL peuvent être surchargés depuis le schéma source.Pour ce faire, renseignez les attributs « sqltable » ou « sqlname » sur l’élément concerné.
+>Les noms SQL peuvent être surchargés depuis le schéma source. Pour ce faire, renseignez les attributs « sqltable » ou « sqlname » sur l’élément concerné.
 
 Le script SQL de création de la table généré à partir du schéma étendu est le suivant :
 

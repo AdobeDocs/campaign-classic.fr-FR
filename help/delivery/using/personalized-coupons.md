@@ -2,7 +2,7 @@
 product: campaign
 title: Coupons personnalisés
 description: Découvrez comment créer et insérer des coupons personnalisés
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization
 role: User
 hide: true
@@ -10,31 +10,41 @@ exl-id: 182939bb-7aff-4667-bda9-c5d48be3b946
 TQID: https://experienceleague.adobe.com/KFX8BeFujupcQEKCfHrTxf71axwDi0RMe3zquaDVG7c
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1004
+workflow-type: tm+mt
+source-wordcount: '995'
 ht-degree: 100%
-
 ---
-
 # Coupons personnalisés{#personalized-coupons}
 
-L’ajout de coupons à vos diffusions peut offrir une valeur ajoutée à vos personnes destinataires pour vos produits et services.Vous pouvez utiliser le module de coupons Campaign pour créer un ensemble de coupons que vous prévoyez d’ajouter aux offres marketing à venir.Lorsque vous souhaitez créer une diffusion, attribuez les coupons applicables.Comme les coupons sont valides pour une période sélectionnée, un coupon attribué est lié de manière unique à son message de diffusion.En outre, Campaign confirme qu’il y a suffisamment de coupons pour le nombre de messages avant l’envoi de la diffusion.
+L’ajout de coupons à vos diffusions peut offrir une valeur ajoutée à vos personnes destinataires pour vos produits et services. Vous pouvez utiliser le module de coupons Campaign pour créer un ensemble de coupons que vous prévoyez d’ajouter aux offres marketing à venir. Lorsque vous souhaitez créer une diffusion, attribuez les coupons applicables. Comme les coupons sont valides pour une période sélectionnée, un coupon attribué est lié de manière unique à son message de diffusion. En outre, Campaign confirme qu’il y a suffisamment de coupons pour le nombre de messages avant l’envoi de la diffusion.
 
 >[!AVAILABILITY]
 >
@@ -67,7 +77,7 @@ Avant d&#39;appliquer les étapes ci-dessous, vérifiez que vous savez quel type
 
    **[!UICONTROL Coupons anonymes]** : un coupon anonyme est identique pour tous les destinataires. Confirmez la sélection du type Anonyme dans le menu **Type de coupon** et cliquez sur **Enregistrer** pour générer le coupon.
 
-   **[!UICONTROL Coupons individuels]** : un coupon individuel peut être davantage personnalisé avec des codes de coupon supplémentaires.Par exemple, un coupon individuel est créé pour une vente dans un magasin d’équipements de sport.Cependant, la liste des personnes destinataires est longue et elles ne partagent pas le même enthousiasme pour un seul sport.Vous pouvez ajouter des noms de code pour le coupon individuel en fonction d’un sport (par exemple, football, baseball, etc.)et envoyer chaque code aux personnes destinataires applicables.
+   **[!UICONTROL Coupons individuels]** : un coupon individuel peut être davantage personnalisé avec des codes de coupon supplémentaires. Par exemple, un coupon individuel est créé pour une vente dans un magasin d’équipements de sport. Cependant, la liste des personnes destinataires est longue et elles ne partagent pas le même enthousiasme pour un seul sport. Vous pouvez ajouter des noms de code pour le coupon individuel en fonction d’un sport (par exemple, football, baseball, etc.) et envoyer chaque code aux personnes destinataires applicables.
 
    1. Lorsque vous sélectionnez le type Individuel, un nouvel onglet, Coupons, apparaît en bas à gauche. Allez dans l&#39;onglet **[!UICONTROL Coupons]** et cliquez sur **[!UICONTROL Ajouter]**.
    1. Lorsque la fenêtre pop-up vous y invite, saisissez un code unique pour le coupon individuel.
@@ -83,7 +93,7 @@ Avant d&#39;appliquer les étapes ci-dessous, vérifiez que vous savez quel type
 
 ![](assets/deliv_coup_03.png)
 
-L’onglet Coupons n’est disponible qu’avec les coupons individuels.Une fois qu’un coupon est associé à une diffusion, l’onglet Coupons fournit les détails suivants :
+L’onglet Coupons n’est disponible qu’avec les coupons individuels. Une fois qu’un coupon est associé à une diffusion, l’onglet Coupons fournit les détails suivants :
 
 * **[!UICONTROL Etat]** : Disponibilité du coupon.
 * **[!UICONTROL Consommé le]** : Date à laquelle le coupon est consommé.
@@ -175,7 +185,7 @@ Pour confirmer que la diffusion a abouti :
 
 ## Gestion des coupons insuffisants {#managing-insufficient-coupons}
 
-L’analyse de la diffusion s’arrête s’il y a moins de coupons que de messages.Dans ce cas, vous pouvez importer plus de coupons ou limiter le nombre de messages.Suivez les instructions ci-dessous si vous souhaitez limiter le nombre de messages.
+L’analyse de la diffusion s’arrête s’il y a moins de coupons que de messages. Dans ce cas, vous pouvez importer plus de coupons ou limiter le nombre de messages. Suivez les instructions ci-dessous si vous souhaitez limiter le nombre de messages.
 
 1. Allez dans la fenêtre de diffusion email.
 1. Cliquez sur **[!UICONTROL Pour]**.
@@ -184,10 +194,10 @@ L’analyse de la diffusion s’arrête s’il y a moins de coupons que de messa
    ![](assets/deliv_coup_18.png)
 
 1. Dans la section paramètres d&#39;exclusion, cliquez sur **[!UICONTROL Editer]**.
-1. Saisissez le nombre de messages à envoyer dans **[!UICONTROL Limiter la diffusion à … messages]** et cliquez sur **[!UICONTROL OK]**.Vous pouvez envoyer la diffusion.
+1. Saisissez le nombre de messages à envoyer dans **[!UICONTROL Limiter la diffusion à … messages]** et cliquez sur **[!UICONTROL OK]**. Vous pouvez envoyer la diffusion.
 
    ![](assets/deliv_coup_19.png)
 
 >[!NOTE]
 >
->En cas de gestion d’un nombre limité de coupons, un workflow de diffusion vous permet de partager la diffusion en fonction de vos critères.Cette option est adaptée pour l’envoi de coupons à une population sélectionnée sans limiter la cible.
+>En cas de gestion d’un nombre limité de coupons, un workflow de diffusion vous permet de partager la diffusion en fonction de vos critères. Cette option est adaptée pour l’envoi de coupons à une population sélectionnée sans limiter la cible.

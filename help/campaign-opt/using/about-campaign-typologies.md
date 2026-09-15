@@ -9,30 +9,35 @@ exl-id: 6d5b8584-4aa1-4d9a-89d9-d41da75dd323
 TQID: https://experienceleague.adobe.com/MvSqnvLvr6DiL8nFjHg5rYMB-4BpH-E0K5V2cvnq3Og
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 subfeature_v2:
   - id: e5fb657f-3c0a-4fcc-9980-3589a23ab4de
+    internal-label: Typology rules
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 114
+workflow-type: tm+mt
+source-wordcount: '114'
 ht-degree: 100%
-
 ---
-
 # À propos des typologies de campagne{#about-campaign-typologies}
 
 Le module d’optimisation des campagnes d’Adobe Campaign permet de contrôler, de filtrer et de surveiller l’envoi des diffusions. Pour éviter les conflits entre les campagnes, Adobe Campaign peut tester différentes combinaisons en appliquant des règles de contrainte spécifiques. Elles permettent de s’assurer que les messages envoyés répondent aux attentes et aux besoins des clientes et clients et des politiques de communication de l’entreprise.
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#typologies-video)
 
-Selon votre offre, le produit Optimisation des campagnes (Campaign Optimization) peut être inclus ou proposé sous la forme d’un module complémentaire.Veuillez vérifier votre contrat de licence.
+Selon votre offre, le produit Optimisation des campagnes (Campaign Optimization) peut être inclus ou proposé sous la forme d’un module complémentaire. Veuillez vérifier votre contrat de licence.
 
 >[!NOTE]
 >
@@ -84,7 +89,7 @@ During delivery preparation, recipients are excluded when criterion is met. You 
 
 This video explains how to implement fatigue management in Adobe Campaign by leveraging typology rules.
 
->[!VIDEO](https://video.tv.adobe.com/v/30590?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25090?quality=12)
 
 ### How to set up fatigue management using predefined filters
 
@@ -93,7 +98,7 @@ This video explains how to implement fatigue management in Adobe Campaign Classi
 
 >[!VIDEO](https://video.tv.adobe.com/v/25091?quality=12)
 
-Additional Campaign how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+Additional Campaign how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
 
 **Related topic**
 

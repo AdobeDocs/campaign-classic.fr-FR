@@ -3,31 +3,35 @@ product: campaign
 title: Création d’un graphique
 description: Découvrez comment concevoir un graphique
 feature: Reporting, Monitoring
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: d32b614f-82c1-4363-816c-4ebedaa5cfe9
 TQID: https://experienceleague.adobe.com/-212hQNHR-f8ktM3kNKiHgYw4C8Ql71dbZtOX7zoKqc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 feature_v2:
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic Reporting
 subfeature_v2:
   - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
+    internal-label: Customize reports
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+    internal-label: Cubes and multidimensional analysis
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 565
+workflow-type: tm+mt
+source-wordcount: '556'
 ht-degree: 100%
-
 ---
-
 # Création d’un graphique{#creating-a-chart}
 
 
 
-Les données de la base peuvent également être collectées et affichées dans un graphique.Adobe Campaign fournit un ensemble de représentations graphiques.Leur configuration est présentée ci-dessous.
+Les données de la base peuvent également être collectées et affichées dans un graphique. Adobe Campaign fournit un ensemble de représentations graphiques. Leur configuration est présentée ci-dessous.
 
 Comme les tableaux, les graphiques sont insérés directement dans une page de rapport, à partir du menu contextuel ou de la barre d&#39;outils.
 
@@ -39,7 +43,7 @@ Pour créer un graphique dans un rapport, les étapes sont les suivantes :
 
    ![](assets/s_advuser_report_page_activity_04.png)
 
-1. Saisissez un nom et une légende.Au besoin, vous pouvez modifier la position de la légende, à partir de la liste déroulante correspondante.
+1. Saisissez un nom et une légende. Au besoin, vous pouvez modifier la position de la légende, à partir de la liste déroulante correspondante.
 
    ![](assets/s_ncs_advuser_report_wizard_018.png)
 
@@ -61,7 +65,7 @@ Pour créer un graphique dans un rapport, les étapes sont les suivantes :
 
 ## Types de graphiques et leurs variantes {#chart-types-and-variants}
 
-Adobe Campaign propose différents types de représentations graphiques.Elles sont détaillées ci-dessous.
+Adobe Campaign propose différents types de représentations graphiques. Elles sont détaillées ci-dessous.
 
 Le type de graphique est sélectionné lors de son insertion dans la page.
 
@@ -143,7 +147,7 @@ Dans les graphiques, vous pouvez afficher des statistiques sur les données coll
 
 Ces statistiques sont définies à partir de la section **[!UICONTROL Paramètres des séries]** de l&#39;onglet **[!UICONTROL Données]**.
 
-Pour créer une statistique, cliquez sur l’icône **[!UICONTROL Ajouter]** et paramétrez la fenêtre correspondante.Les types de calcul disponibles sont détaillés ci-dessous.
+Pour créer une statistique, cliquez sur l’icône **[!UICONTROL Ajouter]** et paramétrez la fenêtre correspondante. Les types de calcul disponibles sont détaillés ci-dessous.
 
 ![](assets/reporting_add_statistics.png)
 

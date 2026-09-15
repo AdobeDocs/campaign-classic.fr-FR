@@ -2,35 +2,47 @@
 product: campaign
 title: Prise en main des applications web
 description: Créer et partager des applications web, des landing pages et des questionnaires
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Landing Pages, Web Apps
 exl-id: df58221f-f71b-49d5-a6a1-c81ddff27fdb
 TQID: https://experienceleague.adobe.com/GP-1vCAYzcgjaOyUs-Zkx6rXOLSNbpF7962OEMsw5YM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+    internal-label: Security and privacy
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: f391046b-0cf3-4e76-bd3b-97fe06654506
+    internal-label: Web Apps
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 730
+workflow-type: tm+mt
+source-wordcount: '721'
 ht-degree: 100%
-
 ---
-
 # Prise en main des applications web{#about-web-applications}
 
 
@@ -64,11 +76,11 @@ Sous Adobe Campaign, les applications web permettent d’accéder aux fonctionn
 * Affichage conditionnel des champs du formulaire en fonction des réponses. Voir à ce propos [cette page](form-rendering.md#defining-fields-conditional-display).
 * Affichage aléatoire de questions. Voir à ce propos [cette page](../../surveys/using/building-a-survey.md#adding-questions).
 * Affichage conditionnel des pages. Voir à ce propos [cette page](defining-web-forms-page-sequencing.md#conditional-page-display).
-* Vérification des informations avant validation en fonction du type de données attendu (numéro, adresse e-mail, date, etc.)et des champs obligatoires.Pour en savoir plus à ce sujet, consultez cette [page](form-rendering.md#defining-control-settings).
+* Vérification des informations avant validation en fonction du type de données attendu (numéro, adresse e-mail, date, etc.) et des champs obligatoires. Pour en savoir plus à ce sujet, consultez cette [page](form-rendering.md#defining-control-settings).
 * Invitations ou notifications par e-mail. Voir à ce propos [cette page](publishing-a-web-form.md#delivering-a-form-via-email).
 * Personnalisation des messages d’erreur et de fin. Voir à ce propos [cette page](defining-web-forms-properties.md#setting-up-an-error-page).
 * Utilisation d’images, vidéos, liens hypertextes, captcha, etc. Pour davantage d’informations à ce sujet, consultez cette [page](editing-content.md).
-* Suivi des réponses en temps réel. Voir à ce propos [cette page](../../surveys/using/publish-track-and-use-collected-data.md#response-tracking).
+* Su des réponses en temps réel. Voir à ce propos [cette page](../../surveys/using/publish-track-and-use-collected-data.md#response-tracking).
 
 Le module de création **Questionnaire** optionnel offre les fonctionnalités additionnelles suivantes :
 
@@ -98,10 +110,10 @@ Pour créer et rendre disponible une application web, vous devez :
 
 Les application web sont créées à partir du lien **[!UICONTROL Applications web]** dans les onglets **[!UICONTROL Campagne]** et **[!UICONTROL Profils et cibles]**.
 
-Les applications web sont stockées dans le nœud **[!UICONTROL Ressources > En ligne > Applications web]** de l’arborescence Adobe Campaign.Les configurations sont réparties dans les dossiers suivants :
+Les applications web sont stockées dans le nœud **[!UICONTROL Ressources > En ligne > Applications web]** de l’arborescence Adobe Campaign. Les configurations sont réparties dans les dossiers suivants :
 
-* **[!UICONTROL Administration > Configuration > Rendus des formulaires]** : contient les modèles de rendu pour la présentation des formulaires web (applications et questionnaires).Le modèle permet de générer le formulaire.Il utilise également une feuille de style CSS.Cette feuille de style peut être surchargée au niveau du modèle.Pour plus d’informations, consultez [cette page](form-rendering.md#selecting-the-form-rendering-template).
-* **[!UICONTROL Ressources > Modèles > Modèles d’application web]** : contient des modèles de formulaire.Pour créer un formulaire ou une application web, vous devez partir d’un modèle.
+* **[!UICONTROL Administration > Configuration > Rendus des formulaires]** : contient les modèles de rendu pour la présentation des formulaires web (applications et questionnaires). Le modèle permet de générer le formulaire. Il utilise également une feuille de style CSS. Cette feuille de style peut être surchargée au niveau du modèle. Pour plus d’informations, consultez [cette page](form-rendering.md#selecting-the-form-rendering-template).
+* **[!UICONTROL Ressources > Modèles > Modèles d’application web]** : contient des modèles de formulaire. Pour créer un formulaire ou une application web, vous devez partir d’un modèle.
 
 ## Modèles d’applications web {#web-application-templates}
 
@@ -109,7 +121,7 @@ Par défaut, Adobe Campaign fournit un modèle par type d’application web dis
 
 >[!NOTE]
 >
->Vous pouvez convertir une application web existante en modèle.Pour cela, sélectionnez le formulaire et effectuez un clic droit.Choisissez **[!UICONTROL Actions > Sauver comme modèle]**.
+>Vous pouvez convertir une application web existante en modèle. Pour cela, sélectionnez le formulaire et effectuez un clic droit. Choisissez **[!UICONTROL Actions > Sauver comme modèle]**.
 
 Vous pouvez créer des modèles à partir du nœud **[!UICONTROL Ressources > Modèles > Modèles d’applications web]** de l’arborescence Adobe Campaign.
 
@@ -119,4 +131,4 @@ L’assistant de création vous permet de sélectionner les options à activer, 
 
 >[!CAUTION]
 >
->Les applications disponibles dépendent de vos options et modules.Veuillez vérifier votre accord de licence.
+>Les applications disponibles dépendent de vos options et modules. Veuillez vérifier votre accord de licence.

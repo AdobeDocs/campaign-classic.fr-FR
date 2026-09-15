@@ -8,25 +8,27 @@ exl-id: abc08232-1a92-41e8-90f1-02e0a673539b
 TQID: https://experienceleague.adobe.com/RBw8ii57Yhf9IHnK9Q-v7zUqq0cJKx3JMuaS84w1Y7E
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 379
+workflow-type: tm+mt
+source-wordcount: '379'
 ht-degree: 100%
-
 ---
-
 # Requête incrémentale{#incremental-query}
 
 
 
 Une requête incrémentale permet de sélectionner périodiquement une cible selon un critère, mais d&#39;exclure les personnes qui ont déjà été ciblées sur ce critère les fois précédentes.
 
-La population déjà ciblée est mémorisée par instance de workflow et par activité, c’est-à-dire que deux workflows démarrés à partir du même modèle ne partagent pas le même log.Toutefois, deux tâches basées sur la même requête incrémentale dans le même workflow utilisent le même log.
+La population déjà ciblée est mémorisée par instance de workflow et par activité, c’est-à-dire que deux workflows démarrés à partir du même modèle ne partagent pas le même log. Toutefois, deux tâches basées sur la même requête incrémentale dans le même workflow utilisent le même log.
 
 La requête est définie selon le même mode que pour les requêtes standard, mais son exécution est planifiée.
 
@@ -37,11 +39,11 @@ La requête est définie selon le même mode que pour les requêtes standard, ma
 
 >[!CAUTION]
 >
->Si le résultat d’une requête incrémentale est égal à **0** lors de l’une de ses exécutions, le workflow est mis en pause jusqu’à la prochaine exécution programmée de la requête.Les transitions et les activités qui suivent la requête incrémentale ne sont donc pas traitées avant l’exécution suivante.
+>Si le résultat d’une requête incrémentale est égal à **0** lors de l’une de ses exécutions, le workflow est mis en pause jusqu’à la prochaine exécution programmée de la requête. Les transitions et les activités qui suivent la requête incrémentale ne sont donc pas traitées avant l’exécution suivante.
 
 Pour ce faire :
 
-1. Dans l’onglet **[!UICONTROL Planification et historique]**, sélectionnez l’option **[!UICONTROL Planifier l’exécution]**.La tâche reste active une fois créée et ne sera déclenchée qu’aux heures spécifiées par le planning d’exécution de la requête.En revanche, si l&#39;option est désactivée, la requête est exécutée immédiatement **et une seule fois**.
+1. Dans l’onglet **[!UICONTROL Planification et historique]**, sélectionnez l’option **[!UICONTROL Planifier l’exécution]**. La tâche reste active une fois créée et ne sera déclenchée qu’aux heures spécifiées par le planning d’exécution de la requête. En revanche, si l&#39;option est désactivée, la requête est exécutée immédiatement **et une seule fois**.
 1. Cliquez sur le bouton **[!UICONTROL Changer]**.
 
    Dans la fenêtre **[!UICONTROL Assistant d’édition d’un planning]**, vous pouvez configurer le type de fréquence, la périodicité des événements et la période de validité des événements.
@@ -58,7 +60,7 @@ Pour ce faire :
 
    * **[!UICONTROL Jours d&#39;historique]**
 
-     Les personnes destinataires déjà ciblées dans les exécutions précédentes peuvent être consignées dans un log selon un nombre de jours maximum à partir de celui où elles ont été ciblées.Si cette valeur est égale à zéro, les personnes destinataires ne sont jamais purgées du log.
+     Les personnes destinataires déjà ciblées dans les exécutions précédentes peuvent être consignées dans un log selon un nombre de jours maximum à partir de celui où elles ont été ciblées. Si cette valeur est égale à zéro, les personnes destinataires ne sont jamais purgées du log.
 
    * **[!UICONTROL Conserver l&#39;historique au démarrage]**
 

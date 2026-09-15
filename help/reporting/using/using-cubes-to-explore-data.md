@@ -2,22 +2,20 @@
 product: campaign
 title: Utilisation des cubes pour explorer les données
 description: Utilisation des cubes pour explorer les données
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting, Monitoring
 hide: true
 exl-id: 32696bbf-1415-4214-837f-5437fdb8b4d4
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: ht
-source-wordcount: '1012'
+workflow-type: tm+mt
+source-wordcount: '1003'
 ht-degree: 100%
-
 ---
-
 # Utilisation des cubes pour explorer les données{#using-cubes-to-explore-data}
 
 
 
-Marketing Analytics permet de simplifier la création de rapports ainsi que l’identification et la sélection de données de la base de données à l’aide de cubes.Cela vous permet d’effectuer les opérations suivantes :
+Marketing Analytics permet de simplifier la création de rapports ainsi que l’identification et la sélection de données de la base de données à l’aide de cubes. Cela vous permet d’effectuer les opérations suivantes :
 
 * Créer des rapports basés sur des cubes. La procédure est décrite dans la section [Exploration des données dans un rapport](#exploring-the-data-in-a-report).
 * Collecter des données de la base et les regrouper dans des listes, par exemple pour identifier et construire les cibles des diffusions. Pour plus dʼinformations, consultez la section [Construction dʼune population cible](#building-a-target-population).
@@ -43,7 +41,7 @@ Les boutons **[!UICONTROL Ajouter]** situés sur chacun des axes permettent d&#3
 
 ![](assets/s_advuser_cube_in_report_03.png)
 
-1. Sélectionnez les dimensions que vous souhaitez afficher dans les lignes et colonnes du tableau.Pour ce faire, faites glisser et déposez les dimensions disponibles comme illustré ci-dessous :
+1. Sélectionnez les dimensions que vous souhaitez afficher dans les lignes et colonnes du tableau. Pour ce faire, faites glisser et déposez les dimensions disponibles comme illustré ci-dessous :
 1. Sélectionnez la dimension à ajouter dans le tableau, parmi celles disponibles :
 
    ![](assets/s_advuser_cube_in_report_04.png)
@@ -88,7 +86,7 @@ Par défaut, une seule mesure s’affiche. Pour ajouter ou configurer des mesure
 
    ![](assets/s_advuser_cube_in_report_08.png)
 
-   Sélectionnez les informations que vous souhaitez afficher et le type de mise en forme à utiliser.La liste des options dépend du type de mesure configuré.
+   Sélectionnez les informations que vous souhaitez afficher et le type de mise en forme à utiliser. La liste des options dépend du type de mesure configuré.
 
    ![](assets/s_advuser_cube_in_report_09.png)
 
@@ -108,9 +106,9 @@ Par défaut, une seule mesure s’affiche. Pour ajouter ou configurer des mesure
 
      Entre ces mesures, les opérateurs disponibles sont : somme, différence, multiplication et taux.
 
-   * Proportion : ce type de mesure vous permet de calculer le nombre d’enregistrements mesurés pour une dimension donnée.Vous pouvez calculer la proportionnalité par rapport à une dimension ou une sous-dimension.
+   * Proportion : ce type de mesure vous permet de calculer le nombre d’enregistrements mesurés pour une dimension donnée. Vous pouvez calculer la proportionnalité par rapport à une dimension ou une sous-dimension.
    * Variation : cette mesure permet de calculer la variation des valeurs d&#39;un niveau.
-   * Écart type : ce type de mesure vous permet de calculer les écarts dans chaque groupe de cellules par rapport à la moyenne des valeurs.Par exemple, vous pouvez comparer le volume des achats pour tous les segments existants.
+   * Écart type : ce type de mesure vous permet de calculer les écarts dans chaque groupe de cellules par rapport à la moyenne des valeurs. Par exemple, vous pouvez comparer le volume des achats pour tous les segments existants.
 
    La mesure créée est alors ajoutée dans le rapport.
 

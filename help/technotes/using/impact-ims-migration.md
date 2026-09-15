@@ -5,21 +5,25 @@ exl-id: 8b13fe4d-d8d3-43b3-bbe4-c8c5574f585a
 TQID: https://experienceleague.adobe.com/RkgX2M0BnO5pjgI7oAp7NlycXY551manwFHhcA1LMjw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: a39dbcf0-89cb-4765-9bcb-cf9dfbe2875f
+    internal-label: Troubleshooting
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 463
+workflow-type: tm+mt
+source-wordcount: '463'
 ht-degree: 100%
-
 ---
-
 # Mettre à jour l’interface de Campaign après la migration IMS {#impact-ims-migration}
 
 Une fois que vous avez [migré vos opérateurs et opératrices techniques Campaign vers Developer Console](ims-migration.md) et [effectué la transition vers IMS pour l’authentification des utilisateurs et utilisatrices finaux](migrate-users-to-ims.md), la dernière étape consiste à activer les restrictions de l’interface d’utilisation et de l’API pour supprimer les options et fonctionnalités spécifiques à l’authentification native. Cette mise à jour est disponible à partir de Campaign v7.4.1.
@@ -114,10 +118,10 @@ Après la migration, les tâches suivantes ne sont plus disponibles dans la cons
 * Utilisez l’[option Fusionner les lignes sélectionnées](../../platform/using/updating-data.md#merge-data) pour fusionner les opérateurs et les opératrices.
 
 * Mettez à jour les champs suivants pour vos opérateurs et opératrices :
-   * Nom
-   * Mot de passe
-   * Libellé
-   * E-mail
+  * Nom
+  * Mot de passe
+  * Libellé
+  * E-mail
 
 * [Réinitialiser votre mot de passe Campaign](../../production/using/lost-password.md)
 
@@ -131,4 +135,4 @@ Après la migration, les tâches suivantes ne sont plus disponibles dans la cons
 >* [Migration des utilisateurs et utilisatrices finaux vers IMS](migrate-users-to-ims.md)
 >* [Migration des opérateurs et opératrices techniques vers Adobe Developer Console](ims-migration.md)
 >* [Dernières notes de mise à jour d’Adobe Campaign Classic v7](../../rn/using/latest-release.md)
->* [Présentation du système de gestion des identités (IMS) d’Adobe](https://helpx.adobe.com/fr/enterprise/using/identity.html){target="_blank"}
+>* [Présentation d’Adobe Identity Management System (IMS)](https://helpx.adobe.com/fr/enterprise/using/identity.html){target="_blank"}

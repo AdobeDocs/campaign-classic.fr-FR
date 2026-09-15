@@ -8,35 +8,39 @@ exl-id: 27970a6f-fb22-4418-b29c-c687fd62a78e
 TQID: https://experienceleague.adobe.com/AmLdA4Rvz3MNJ1U5aqC4ITjfa66N86htyRMJWJKkMb8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Adobe Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Adobe Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Adobe Target integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1255
+workflow-type: tm+mt
+source-wordcount: '1255'
 ht-degree: 100%
-
 ---
-
 # Synchronisation des profils{#synchronizing-profiles}
 
 
 
-Le connecteur ACS réplique les données de Campaign v7 vers Campaign Standard.Le données reçues de Campaign v7 peuvent être utilisées dans Campaign Standard pour créer des diffusions.Les opérations répertoriées ci-dessous vous permettent de découvrir comment les profils sont synchronisés.
+Le connecteur ACS réplique les données de Campaign v7 vers Campaign Standard. Le données reçues de Campaign v7 peuvent être utilisées dans Campaign Standard pour créer des diffusions. Les opérations répertoriées ci-dessous vous permettent de découvrir comment les profils sont synchronisés.
 
 * **Ajouter de nouveaux destinataires** : créez un nouveau destinataire dans Campaign v7 et vérifiez qu&#39;un profil correspondant a été répliqué vers Campaign Standard. Consultez la section [Création d’un nouveau destinataire](#creating-a-new-recipient).
 * **Mise à jour des destinataires** : modifiez un nouveau destinataire dans Campaign v7 et visualisez le profil correspondant dans Campaign Standard pour vérifier que la mise à jour a été répliquée. Consultez la section [Modification d’un destinataire](#editing-a-recipient).
 * **Création dʼun workflow dans Campaign Standard** : créez un workflow dans Campaign Standard qui comprend une requête avec une audience ou des profils répliqués depuis Campaign v7. Consultez la section [Création dʼun workflow](#creating-a-workflow).
 * **Création dʼune diffusion dans Campaign Standard** : exécutez le workflow jusquʼà la fin pour envoyer une diffusion. Consultez la section [Création d’une diffusion](#creating-a-delivery).
-* **Vérification du lien de désinscription** : utilisez une application web de Campaign v7 pour vous assurer que le choix de la personne destinataire de se désinscrire dʼun service est envoyé à la base de données de Campaign v7.Lʼoption permettant dʼinterrompre la réception du service est répliquée vers Campaign Standard.Consultez la section [Modification du lien de désinscription](#changing-the-unsubscription-link).
+* **Vérification du lien de désinscription** : utilisez une application web de Campaign v7 pour vous assurer que le choix de la personne destinataire de se désinscrire dʼun service est envoyé à la base de données de Campaign v7. Lʼoption permettant dʼinterrompre la réception du service est répliquée vers Campaign Standard. Consultez la section [Modification du lien de désinscription](#changing-the-unsubscription-link).
 
 ## Conditions préalables requises {#prerequisites}
 
-Les sections suivantes décrivent comment le connecteur ACS vous permet d’ajouter et de modifier des personnes destinataires dans Campaign v7 et de les utiliser ensuite dans une diffusion Campaign Standard.Le connecteur ACS requiert les éléments suivants :
+Les sections suivantes décrivent comment le connecteur ACS vous permet d’ajouter et de modifier des personnes destinataires dans Campaign v7 et de les utiliser ensuite dans une diffusion Campaign Standard. Le connecteur ACS requiert les éléments suivants :
 
 * des destinataires dans Campaign v7 répliqués vers Campaign Standard,
 * les droits utilisateurs pour exécuter des workflows dans Campaign v7 et Campaign Standard,
@@ -44,7 +48,7 @@ Les sections suivantes décrivent comment le connecteur ACS vous permet d’ajou
 
 ## Modification du lien de désinscription {#changing-the-unsubscription-link}
 
-Lorsqu’une personne destinataire clique sur le lien de désinscription dans un e-mail envoyé par Campaign Standard, le profil correspondant dans Campaign Standard est mis à jour.Pour s’assurer qu’un profil répliqué comprend le choix d’un utilisateur ou d’une utilisatrice de se désinscrire d’un service, l’information doit être envoyée à Campaign v7 plutôt qu’à Campaign Standard.Pour appliquer la modification, le service de désinscription est associé à une application web de Campaign v7 plutôt qu’à Campaign Standard.
+Lorsqu’une personne destinataire clique sur le lien de désinscription dans un e-mail envoyé par Campaign Standard, le profil correspondant dans Campaign Standard est mis à jour. Pour s’assurer qu’un profil répliqué comprend le choix d’un utilisateur ou d’une utilisatrice de se désinscrire d’un service, l’information doit être envoyée à Campaign v7 plutôt qu’à Campaign Standard. Pour appliquer la modification, le service de désinscription est associé à une application web de Campaign v7 plutôt qu’à Campaign Standard.
 
 >[!NOTE]
 >
@@ -52,11 +56,11 @@ Lorsqu’une personne destinataire clique sur le lien de désinscription dans un
 
 ## Création dʼun destinataire {#creating-a-new-recipient}
 
-1. Créez une personne destinataire dans Campaign v7 pour la réplication vers Campaign Standard.Renseignez autant d’informations que possible, notamment le nom de famille, le prénom, l’adresse e-mail et l’adresse postale de la personne destinataire.Toutefois, ne choisissez pas de **[!UICONTROL Civilité]**, car elle sera ajoutée dans la section suivante, [Modifier une personne destinataire](#editing-a-recipient).
+1. Créez une personne destinataire dans Campaign v7 pour la réplication vers Campaign Standard. Renseignez autant d’informations que possible, notamment le nom de famille, le prénom, l’adresse e-mail et l’adresse postale de la personne destinataire. Toutefois, ne choisissez pas de **[!UICONTROL Civilité]**, car elle sera ajoutée dans la section suivante, [Modifier une personne destinataire](#editing-a-recipient).
 
    ![](assets/acs_connect_profile_sync_01.png)
 
-1. Vérifiez que la nouvelle personne destinataire a été ajoutée dans Campaign Standard.Lors de la vérification du profil, assurez-vous que les données saisies dans Campaign v7 sont également disponibles dans Campaign Standard.Pour savoir où trouver les profils dans Campaign Standard, reportez-vous à la section [Principes de navigation](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html?lang=fr).
+1. Vérifiez que la nouvelle personne destinataire a été ajoutée dans Campaign Standard. Lors de la vérification du profil, assurez-vous que les données saisies dans Campaign v7 sont également disponibles dans Campaign Standard. Pour savoir où trouver les profils dans Campaign Standard, reportez-vous à la section [Principes de navigation](https://experienceleague.adobe.com/docs/campaign-standard/using/getting-started/discovering-the-interface/interface-description.html?lang=fr).
 
    ![](assets/acs_connect_profile_sync_02.png)
 
@@ -78,7 +82,7 @@ Les étapes ci-dessous qui permettent de modifier un point unique de données co
 
 ## Création dʼun workflow {#creating-a-workflow}
 
-Les profils et services répliqués depuis Campaign v7 permettent aux personnes spécialistes du marketing numérique de tirer profit des données complètes dans Campaign Standard.Les instructions ci-dessous montrent comment ajouter une requête à un workflow de Campaign Standard et comment l’utiliser ensuite avec la base de données répliquée.
+Les profils et services répliqués depuis Campaign v7 permettent aux personnes spécialistes du marketing numérique de tirer profit des données complètes dans Campaign Standard. Les instructions ci-dessous montrent comment ajouter une requête à un workflow de Campaign Standard et comment l’utiliser ensuite avec la base de données répliquée.
 
 Pour plus d&#39;informations et des instructions complètes relatives aux workflows Campaign Standard, reportez-vous à la section [Workflows](../../workflow/using/about-workflows.md).
 
@@ -91,7 +95,7 @@ Pour plus d&#39;informations et des instructions complètes relatives aux workfl
 
    ![](assets/acs_connect_profile_sync_05.png)
 
-1. Double-cliquez sur l’activité **[!UICONTROL Requête]** et sélectionnez un paramètre pouvant être utilisé avec la base de données répliquée.Par exemple, vous pouvez effectuer les opérations suivantes :
+1. Double-cliquez sur l’activité **[!UICONTROL Requête]** et sélectionnez un paramètre pouvant être utilisé avec la base de données répliquée. Par exemple, vous pouvez effectuer les opérations suivantes :
 
    * Faites glisser **[!UICONTROL Profils]** dans l’espace de travail. Utilisez le menu déroulant du champ pour sélectionner **[!UICONTROL Est une ressource externe]** afin de trouver les profils qui ont été répliqués depuis Campaign v7.
    * Placer d&#39;autres paramètres de requête pour cibler davantage les profils répliqués.
@@ -102,7 +106,7 @@ Pour plus d&#39;informations et des instructions complètes relatives aux workfl
 >
 >Les instructions pour créer la diffusion sʼappliquent au workflow commencé à la section [Création dʼun workflow](#creating-a-workflow).
 
-Les personnes spécialistes du marketing numérique peuvent utiliser une application web de Campaign v7 pour sʼassurer que le choix de la personne destinataire de se désinscrire dʼun service est envoyé à la base de données de Campaign v7.Une fois que la personne destinataire a cliqué sur le lien de désinscription, lʼoption permettant dʼinterrompre le service est répliquée de Campaign v7 vers Campaign Standard.Pour plus dʼinformations, consultez la section [Modification du lien de désinscription](#changing-the-unsubscription-link).
+Les personnes spécialistes du marketing numérique peuvent utiliser une application web de Campaign v7 pour sʼassurer que le choix de la personne destinataire de se désinscrire dʼun service est envoyé à la base de données de Campaign v7. Une fois que la personne destinataire a cliqué sur le lien de désinscription, lʼoption permettant dʼinterrompre le service est répliquée de Campaign v7 vers Campaign Standard. Pour plus dʼinformations, consultez la section [Modification du lien de désinscription](#changing-the-unsubscription-link).
 
 Suivez la procédure ci-dessous pour ajouter une diffusion email à un workflow existant avec le service de désinscription créé dans Campaign v7. Pour obtenir des informations supplémentaires et des instructions complètes en ce qui concerne les workflows de Campaign Standard, consultez ce [document](../../workflow/using/about-workflows.md).
 
@@ -133,7 +137,7 @@ Suivez la procédure ci-dessous pour ajouter une diffusion email à un workflow 
 
    ![](assets/acs_connect_profile_sync_11.png)
 
-1. Le lien de désinscription actuel doit être remplacé par un nouveau utilisant l’application web créée par votre consultant ou consultante.Recherchez le lien de désinscription au bas du contenu de l’e-mail et cliquez dessus une fois.Cliquez sur l’icône de la corbeille pour supprimer le lien.
+1. Le lien de désinscription actuel doit être remplacé par un nouveau utilisant l’application web créée par votre consultant ou consultante. Recherchez le lien de désinscription au bas du contenu de l’e-mail et cliquez dessus une fois. Cliquez sur l’icône de la corbeille pour supprimer le lien.
 
    ![](assets/acs_connect_profile_sync_12.png)
 
@@ -159,7 +163,7 @@ Suivez la procédure ci-dessous pour ajouter une diffusion email à un workflow 
 
    ![](assets/acs_connect_profile_sync_17.png)
 
-1. Cliquez sur **[!UICONTROL Démarrer]** pour envoyer la diffusion.L’icône de la diffusion par e-mail clignote pour indiquer que la diffusion est en cours de préparation.
+1. Cliquez sur **[!UICONTROL Démarrer]** pour envoyer la diffusion. L’icône de la diffusion par e-mail clignote pour indiquer que la diffusion est en cours de préparation.
 
    ![](assets/acs_connect_profile_sync_18.png)
 

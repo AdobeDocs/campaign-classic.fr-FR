@@ -2,7 +2,7 @@
 product: campaign
 title: Vérification avant envoi
 description: Une fois que votre message est prêt, effectuez toutes les vérifications avant de l’envoyer.
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 role: User
 hide: true
@@ -10,28 +10,38 @@ exl-id: 50d326b0-3c23-4dbf-9df6-d32b48e30f69
 TQID: https://experienceleague.adobe.com/ngnYPos--1A5p7WN-fJnxaLt-yHG50lWHid4wbbyVZw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 914
+workflow-type: tm+mt
+source-wordcount: '905'
 ht-degree: 100%
-
 ---
-
 # Effectuer toutes les vérifications avant d’envoyer {#perform-all-checks}
 
 Une fois que votre message est prêt, vérifiez que le contenu s&#39;affiche correctement sur tous les appareils et qu&#39;il ne contient aucune erreur, comme des liens rompus ou une personnalisation incorrecte.
@@ -54,7 +64,7 @@ L&#39;inbox rendering vous permet de prévisualiser vos messages sur les princip
 
 * Vous pouvez visualiser l&#39;affichage du message envoyé dans les différents contextes de réception : webmail, service de messagerie, mobile, etc.
 
-* Les fonctionnalités de rendu des boîtes de réception sont essentielles pour déterminer si vos campagnes par e-mail réussissent à passer les filtres des principaux FAI (fournisseurs d’accès Internet) et services de messagerie web.Ces outils envoient une copie de pré-contrôle d’un e-mail à un réseau de boîtes de réception de test, afin de vérifier comment le message s’affichera, ou sera rendu, sur ces services. Ils peuvent également inclure des rapports et des options de correction de code qui vous aident à identifier et à corriger rapidement les erreurs, afin d’améliorer la délivrabilité.
+* Les fonctionnalités de rendu des boîtes de réception sont essentielles pour déterminer si vos campagnes par e-mail réussissent à passer les filtres des principaux FAI (fournisseurs d’accès Internet) et services de messagerie web. Ces outils envoient une copie de pré-contrôle d’un e-mail à un réseau de boîtes de réception de test, afin de vérifier comment le message s’affichera, ou sera rendu, sur ces services. Ils peuvent également inclure des rapports et des options de correction de code qui vous aident à identifier et à corriger rapidement les erreurs, afin d’améliorer la délivrabilité.
 
 En savoir plus [dans cette section](inbox-rendering.md).
 
@@ -102,7 +112,7 @@ Vous pouvez définir l&#39;ordre d&#39;envoi de vos diffusions en indiquant leur
 
 ### Configurer les affinités IP
 
-Pour mieux contrôler le trafic SMTP sortant, vous pouvez gérer les affinités en définissant les adresses IP spécifiques pouvant être utilisées avec chaque affinité. Ainsi, il est possible de limiter l’envoi d’emails pour des diffusions spécifiques, vers certaines machines ou adresses de sortie. Par exemple, vous pouvez utiliser une affinité par pays ou sous-domaine.Vous pouvez ensuite créer une typologie par pays et associer chaque affinité à la typologie correspondante.
+Pour mieux contrôler le trafic SMTP sortant, vous pouvez gérer les affinités en définissant les adresses IP spécifiques pouvant être utilisées avec chaque affinité. Ainsi, il est possible de limiter l’envoi d’emails pour des diffusions spécifiques, vers certaines machines ou adresses de sortie. Par exemple, vous pouvez utiliser une affinité par pays ou sous-domaine. Vous pouvez ensuite créer une typologie par pays et associer chaque affinité à la typologie correspondante.
 
 Vous pouvez ainsi :
 
@@ -112,7 +122,7 @@ Vous pouvez ainsi :
 
 * Dans la [typologie](../../campaign-opt/using/about-campaign-typologies.md) de votre choix, utiliser le champ **[!UICONTROL Gestion des affinités avec les adresses IP]** pour associer les diffusions vers le serveur de diffusion (MTA) qui gère l’affinité en question. [En savoir plus](../../campaign-opt/using/applying-rules.md#control-outgoing-smtp-traffic).
 
-* Une fois l’e-mail envoyé, contrôlez l’en-tête pour vérifier l’adresse IP à partir de laquelle la diffusion a été envoyée.L’administrateur ou l’administratrice de votre messagerie peut vous aider à obtenir les informations d’en-tête.
+* Une fois l’e-mail envoyé, contrôlez l’en-tête pour vérifier l’adresse IP à partir de laquelle la diffusion a été envoyée. L’administrateur ou l’administratrice de votre messagerie peut vous aider à obtenir les informations d’en-tête.
 
 * Pour les diffusions SMS, assurez-vous que le canal SMS a une affinité dédiée limitée à **un** conteneur du serveur d’applications. [En savoir plus](../../installation/using/configure-delivery-settings.md#managing-outbound-smtp-traffic-with-affinities)
 

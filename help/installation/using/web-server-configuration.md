@@ -10,19 +10,21 @@ exl-id: fc0d3f16-5f62-473d-a1de-aab574eff734
 TQID: https://experienceleague.adobe.com/ylf7sIKiO9ip-yC3M4zqbhu0ITaXqmTMQJ-4KfNQlt8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 332
+workflow-type: tm+mt
+source-wordcount: '332'
 ht-degree: 100%
-
 ---
-
 # Configuration du serveur web {#web-server-configuration}
 
 
@@ -33,19 +35,19 @@ Vous trouverez ci-dessous quelques bonnes pratiques clés relatives à la config
 
 * Désactivez l’ancienne version de SSL et les chiffrements :
 
-  **Sur Apache**, modifiez le fichier /etc/apache2/mods-available/ssl.conf.Voici un exemple :
+  **Sur Apache**, modifiez le fichier /etc/apache2/mods-available/ssl.conf. Voici un exemple :
 
-   * `SSLProtocol all -SSLv2 -SSLv3 -TLSv1`
-   * `SSLCipherSuite HIGH:MEDIUM:!aNULL:!MD5:!SSLv3:!SSLv2:!TLSv1`
+  * `SSLProtocol all -SSLv2 -SSLv3 -TLSv1`
+  * `SSLCipherSuite HIGH:MEDIUM:!aNULL:!MD5:!SSLv3:!SSLv2:!TLSv1`
 
   **Sur IIS** (voir la [documentation](https://support.microsoft.com/en-us/kb/245030)), effectuez la configuration suivante :
 
-   * Ajoutez la sous-clé de registre dans HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL
-   * Pour que le système puisse utiliser les protocoles qui ne seront pas négociés par défaut (tels que TLS 1.2), remplacez les données de la valeur DWORD de la valeur DisabledByDefault par 0x0 dans les clés de registre suivantes sous la clé **Protocols** :
+  * Ajoutez la sous-clé de registre dans HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL
+  * Pour que le système puisse utiliser les protocoles qui ne seront pas négociés par défaut (tels que TLS 1.2), remplacez les données de la valeur DWORD de la valeur DisabledByDefault par 0x0 dans les clés de registre suivantes sous la clé **Protocols** :
 
-     SCHANNEL\Protocols\TLS 1.2\Client
+    SCHANNEL\Protocols\TLS 1.2\Client
 
-     SCHANNEL\Protocols\TLS 1.2\Server
+    SCHANNEL\Protocols\TLS 1.2\Server
 
   **Désactivez SSL x.0**
 
@@ -59,20 +61,20 @@ Vous trouverez ci-dessous quelques bonnes pratiques clés relatives à la config
 
   **Sur IIS** (voir la [documentation](https://www.iis.net/configreference/system.webserver/security/requestfiltering/verbs)), effectuez la configuration suivante :
 
-   * Assurez-vous que la fonctionnalité ou le service de rôle **Filtrage des requêtes** est installé.
-   * Dans le volet **Filtrage des requêtes**, cliquez sur l’onglet Verbes HTTP, puis sur Refuser un verbe.Dans le volet Actions, saisissez TRACE dans la boîte de dialogue ouverte.
+  * Assurez-vous que la fonctionnalité ou le service de rôle **Filtrage des requêtes** est installé.
+  * Dans le volet **Filtrage des requêtes**, cliquez sur l’onglet Verbes HTTP, puis sur Refuser un verbe. Dans le volet Actions, saisissez TRACE dans la boîte de dialogue ouverte.
 
 * Supprimez la bannière :
 
   **Sur Apache**, modifiez le fichier /etc/apache2/conf.d/security :
 
-   * ServerSignature **Off**
-   * ServerTokens **Prod**
+  * ServerSignature **Off**
+  * ServerTokens **Prod**
 
   **Sur IIS**, effectuez la configuration suivante :
 
-   * Installez **URLScan**.
-   * Modifiez le fichier **Urlscan.ini** afin d’obtenir **RemoveServerHeader=1**.
+  * Installez **URLScan**.
+  * Modifiez le fichier **Urlscan.ini** afin d’obtenir **RemoveServerHeader=1**.
 
 * Limitez la taille des requêtes pour empêcher le téléchargement de fichiers volumineux :
 

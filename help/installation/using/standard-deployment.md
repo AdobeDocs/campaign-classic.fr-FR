@@ -10,17 +10,17 @@ exl-id: 4df126fa-4a6e-46a7-af6e-1e2e97f0072e
 TQID: https://experienceleague.adobe.com/qg59AtZmUGDO0bLwykBdMxL9pEUDwsyxn98faauXCdc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 844
+workflow-type: tm+mt
+source-wordcount: '844'
 ht-degree: 100%
-
 ---
-
 # Déploiement Standard{#standard-deployment}
 
 
@@ -32,9 +32,9 @@ Pour cette configuration, trois machines sont nécessaires :
 
 Les deux machines dans la DMZ prennent en charge le tracking, la gestion des pages miroir et l&#39;envoi des mails, et sont mises en redondance afin d&#39;obtenir une haute disponibilité.
 
-Le serveur applicatif situé dans le LAN sert les utilisateurs et utilisatrices et effectue tous les traitements récurrents (moteur de workflow).Ainsi, en cas de pic de charge sur les serveurs frontaux, les utilisateurs et utilisatrices de l’application ne sont pas impactés.
+Le serveur applicatif situé dans le LAN sert les utilisateurs et utilisatrices et effectue tous les traitements récurrents (moteur de workflow). Ainsi, en cas de pic de charge sur les serveurs frontaux, les utilisateurs et utilisatrices de l’application ne sont pas impactés.
 
-Le serveur de base de données peut être hébergé sur un ordinateur distinct de ces trois machines.Il est autrement possible de cumuler les fonctions de serveur applicatif et de serveur de base de données sur la même machine dans le LAN. Ceci suppose cependant qu’elle fonctionne sur un système d’exploitation pris en charge par Adobe Campaign (Linux ou Windows).
+Le serveur de base de données peut être hébergé sur un ordinateur distinct de ces trois machines. Il est autrement possible de cumuler les fonctions de serveur applicatif et de serveur de base de données sur la même machine dans le LAN. Ceci suppose cependant qu’elle fonctionne sur un système d’exploitation pris en charge par Adobe Campaign (Linux ou Windows).
 
 La communication générale entre les serveurs et les processus est réalisée conformément au schéma suivant :
 
@@ -47,7 +47,7 @@ Ce type de configuration peut faire face à un grand nombre de profils de destin
 ### Avantages {#advantages}
 
 * Possibilité de basculer tous les processus sur une seule machine en cas de problème matériel sur l&#39;une des deux machines.
-* Meilleures performances globales, puisque le MTA et la redirection derrière un répartiteur de charge peuvent être déployés sur les deux machines.Avec deux MTA actifs et suffisamment de bande passante, il est possible d’obtenir des taux de diffusion d’environ 100 000 courriers par heure.
+* Meilleures performances globales, puisque le MTA et la redirection derrière un répartiteur de charge peuvent être déployés sur les deux machines. Avec deux MTA actifs et suffisamment de bande passante, il est possible d’obtenir des taux de diffusion d’environ 100 000 courriers par heure.
 
 ## Etapes d&#39;installation et de configuration {#installation-and-configuration-steps}
 
@@ -59,10 +59,10 @@ Ce type de configuration peut faire face à un grand nombre de profils de destin
 * Boîte pour les mails rebonds accessible en POP3,
 * Création de deux alias DNS :
 
-   * un premier alias exposé au grand public pour le tracking et pointant vers le répartiteur de charge sur une adresse IP virtuelle (VIP) qui est ensuite distribuée sur les deux serveurs frontaux,
-   * un deuxième alias exposé aux utilisateurs métiers pour l&#39;accès console et pointant vers serveur applicatif.
+  * un premier alias exposé au grand public pour le tracking et pointant vers le répartiteur de charge sur une adresse IP virtuelle (VIP) qui est ensuite distribuée sur les deux serveurs frontaux,
+  * un deuxième alias exposé aux utilisateurs métiers pour l&#39;accès console et pointant vers serveur applicatif.
 
-* Configuration du pare-feu pour l’ouverture des ports SMTP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 pour Oracle, 5432 pour PostgreSQL, etc.)..Voir à ce sujet la section [Accès à la base de données](../../installation/using/network-configuration.md#database-access).
+* Configuration du pare-feu pour l’ouverture des ports SMTP (25), DNS (53), HTTP (80), HTTPS (443), SQL (1521 pour Oracle, 5432 pour PostgreSQL, etc.). . Voir à ce sujet la section [Accès à la base de données](../../installation/using/network-configuration.md#database-access).
 
 ### Installation du serveur applicatif {#installing-the-application-server}
 
@@ -92,7 +92,7 @@ Les étapes sont les suivantes :
    * Pour Linux : [Intégration à un serveur web pour Linux](../../installation/using/integration-into-a-web-server-for-linux.md)
    * Pour Windows : [Intégration à un serveur web pour Windows](../../installation/using/integration-into-a-web-server-for-windows.md)
 
-1. Créez l’instance **demo**.Vous avez le choix entre les deux méthodes suivantes :
+1. Créez l’instance **demo**. Vous avez le choix entre les deux méthodes suivantes :
 
    * Créer l&#39;instance via la console :
 

@@ -2,24 +2,24 @@
 product: campaign
 title: Création d'une liste de profils avec un workflow
 description: Découvrez comment créer une liste de profils dans un workflow
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Workflows, Profiles
 role: User
 exl-id: 6b308299-4d07-4c9e-bd2f-a0860c41cf02
 TQID: https://experienceleague.adobe.com/km2D2qnUAdgDCauLUYcWSC-J567twPEyvaZBsLDAOKA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 214
+source-wordcount: '205'
 ht-degree: 100%
-
 ---
-
 # Création d&#39;une liste de profils avec un workflow{#creating-a-profile-list-with-a-workflow}
 
 

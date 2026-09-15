@@ -10,23 +10,24 @@ exl-id: a9842e59-120c-4a35-abdf-6540a0bbdd6d
 TQID: https://experienceleague.adobe.com/o78NLFSbsXqQgJQEU5KSN5PkheQHtHlPh2KdB0RBINA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1164
+workflow-type: tm+mt
+source-wordcount: '1164'
 ht-degree: 100%
-
 ---
-
 # Intégration via JavaScript (côté client){#integration-via-javascript-client-side}
 
 
 
-Pour appeler le moteur d’interaction dans une page web, insérez un appel à un code JavaScript directement dans la page.Cet appel renvoie le contenu de l’offre dans un élément ciblé.
+Pour appeler le moteur d’interaction dans une page web, insérez un appel à un code JavaScript directement dans la page. Cet appel renvoie le contenu de l’offre dans un élément ciblé.
 
 element.
 
@@ -60,7 +61,8 @@ Les cas d&#39;utilisations suivants présentent les différentes options possibl
 
    La page HTML doit inclure un
 
-   élément avec un attribut @id avec la valeur du nom interne de l’espace d’offre créé (&quot;i_internal name space&quot;). L’offre sera insérée dans cetélément par Interaction.
+   élément avec un attribut @id avec la valeur du nom interne de l’espace d’offre créé (&quot;i_internal name space&quot;). L’offre sera insérée dans cet
+   élément par Interaction.
 
    Dans l&#39;exemple, l&#39;attribut @id reçoit la valeur &quot;i_SPC12&quot; où &quot;SPC12&quot; est le nom interne de l&#39;emplacement précédemment créé :
 
@@ -124,7 +126,7 @@ Pour présenter une offre à un contact identifié, le processus est similaire �
 
    Dans cet exemple, la clé d&#39;identification est composite puisqu&#39;elle s&#39;appuie à la fois sur l&#39;email et le nom du destinataire.
 
-1. Lors de l’affichage de la page web, l’évaluation du script permet de transmettre l’identifiant de la personne destinataire au moteur d’offres.Si l’identifiant est composite, les clés sont affichées dans la même séquence que celle utilisée dans les paramètres avancés et sont séparées par un caractère |.
+1. Lors de l’affichage de la page web, l’évaluation du script permet de transmettre l’identifiant de la personne destinataire au moteur d’offres. Si l’identifiant est composite, les clés sont affichées dans la même séquence que celle utilisée dans les paramètres avancés et sont séparées par un caractère |.
 
    Dans l&#39;exemple suivant, le contact s&#39;est identifié sur le site web et a été reconnu lors de l&#39;appel au moteur d&#39;Interaction via son email et son nom de famille.
 
@@ -150,7 +152,7 @@ Vous pouvez utiliser une fonction de rendu afin que la représentation HTML de l
 
 ### Présenter une offre {#presenting-an-offer}
 
-Interaction vous permet de renvoyer un nœud XML à la page HTML qui appelle le moteur d’offre.Ce nœud XML peut être traité par des fonctions à développer côté client.
+Interaction vous permet de renvoyer un nœud XML à la page HTML qui appelle le moteur d’offre. Ce nœud XML peut être traité par des fonctions à développer côté client.
 
 L&#39;appel au moteur d&#39;Interaction est de la forme suivante :
 
@@ -160,15 +162,15 @@ L&#39;appel au moteur d&#39;Interaction est de la forme suivante :
 
 Le paramètre &quot;**env**&quot; reçoit le nom interne de l&#39;environnement en ligne.
 
-Le paramètre « **cb** » reçoit le nom de la fonction qui va interpréter le nœud XML renvoyé par le moteur contenant la ou les propositions (de rappel).Ce paramètre est optionnel.
+Le paramètre « **cb** » reçoit le nom de la fonction qui va interpréter le nœud XML renvoyé par le moteur contenant la ou les propositions (de rappel). Ce paramètre est optionnel.
 
 Le paramètre &quot;**t**&quot; reçoit l&#39;identifiant de la cible, pour une interaction identifiée uniquement. Ce paramètre peut également être passé avec la variable **interactionTarget**. Ce paramètre est optionnel.
 
-Le paramètre « **c** » reçoit la liste des noms internes des catégories.Ce paramètre est optionnel.
+Le paramètre « **c** » reçoit la liste des noms internes des catégories. Ce paramètre est optionnel.
 
-Le paramètre « **th** » reçoit la liste des thèmes.Ce paramètre est optionnel.
+Le paramètre « **th** » reçoit la liste des thèmes. Ce paramètre est optionnel.
 
-Le paramètre« **gctx** » reçoit les données d’appel globales (contexte) à toute la page.Ce paramètre est optionnel.
+Le paramètre« **gctx** » reçoit les données d’appel globales (contexte) à toute la page. Ce paramètre est optionnel.
 
 Le noeud XML retourné est de la forme suivante :
 
@@ -220,7 +222,7 @@ Le cas d&#39;utilisation suivant décrit les paramétrages à effectuer dans Ado
 
    >[!IMPORTANT]
    >
-   >Chaque élément doit être défini deux fois.Les éléments de type CDATA (« _jst ») peuvent contenir des champs de personnalisation.
+   >Chaque élément doit être défini deux fois. Les éléments de type CDATA (« _jst ») peuvent contenir des champs de personnalisation.
    >
    >Ne pas oublier de mettre à jour la structure de la base de données. Pour plus d’informations, consultez [cette section](../../configuration/using/updating-the-database-structure.md).
 
@@ -297,7 +299,7 @@ Le cas d&#39;utilisation suivant décrit les paramétrages à effectuer dans Ado
 
    Le paramètre &quot;**env**&quot; a pour valeur le nom interne de l&#39;environnement en ligne.
 
-   Le paramètre « **cb** » a pour valeur le nom de la fonction qui doit interpréter le nœud XML renvoyé par le moteur.Dans notre exemple, la fonction appelée ouvre une fenêtre modale (fonction alert()).
+   Le paramètre « **cb** » a pour valeur le nom de la fonction qui doit interpréter le nœud XML renvoyé par le moteur. Dans notre exemple, la fonction appelée ouvre une fenêtre modale (fonction alert()).
 
    Le noeud XML retourné par le moteur d&#39;Interaction est de cette forme :
 

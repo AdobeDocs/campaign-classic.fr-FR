@@ -2,32 +2,39 @@
 product: campaign
 title: À propos de la gestion de contenu
 description: Prise en main du module de gestion de contenu de Campaign
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Landing Pages, Email Design
 role: User
 exl-id: 87434cc2-1636-4558-ab60-255b7f873c0c
 TQID: https://experienceleague.adobe.com/o8iygj4G7Hph45AwYChP9CEeXP0lmrp7n7GSbOrVC2w
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 273
+workflow-type: tm+mt
+source-wordcount: '264'
 ht-degree: 100%
-
 ---
-
 # À propos de la gestion de contenu{#about-content-management}
 
 Le module Adobe Campaign Content Manager est un [package natif](../../installation/using/installing-campaign-standard-packages.md) spécifique à Campaign Classic. Vous pouvez l’installer pour créer des newsletters récurrentes ou des sites web. Il permet de vous assister dans la création, la validation et la publication de vos messages.
@@ -38,7 +45,7 @@ Le module Adobe Campaign Content Manager est un [package natif](../../install
 
 Le module de gestion de contenu intègre des fonctionnalités de groupe de travail, de workflow et d’agrégation de contenu. Il permet de mettre automatiquement en forme un message : email, courrier, SMS, web, etc.
 
-L’utilisation du gestionnaire de contenu dans une diffusion vous permet de proposer des champs de saisie ou de sélection aux opérateurs et opératrices chargés de la création de contenu.La mise en page et l’affichage de ce contenu, ainsi que sa modification, sont gérées automatiquement à l’aide de la feuille de style.
+L’utilisation du gestionnaire de contenu dans une diffusion vous permet de proposer des champs de saisie ou de sélection aux opérateurs et opératrices chargés de la création de contenu. La mise en page et l’affichage de ce contenu, ainsi que sa modification, sont gérées automatiquement à l’aide de la feuille de style.
 
 ![](assets/s_ncs_content_create_content_sample.png)
 
@@ -50,7 +57,7 @@ La gestion de contenu offre les avantages suivants :
 
 * Rédaction structurée des messages via des interfaces de saisie,
 * Séparation des données et de leur présentation (génération au format XML),
-* La génération de documents dans plusieurs formats (html, txt, XML, etc.)est basée sur des feuilles de style pour garantir la conformité aux chartes graphiques.
+* La génération de documents dans plusieurs formats (html, txt, XML, etc.) est basée sur des feuilles de style pour garantir la conformité aux chartes graphiques.
 * Récupération et agrégation automatique de flux de contenus externes,
 * Collaboration avec workflow de validation et contrôle des données.
 

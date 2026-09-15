@@ -8,17 +8,17 @@ exl-id: e7fcec75-82fe-45ff-8d45-7d6e95baeb14
 TQID: https://experienceleague.adobe.com/Z8FQ1ukAxvRBTBFOxf2-lZF2-cqIIgA4H0bYDc9uTe4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 331
+workflow-type: tm+mt
+source-wordcount: '331'
 ht-degree: 100%
-
 ---
-
 # Insertion de balises de tracking web sur votre site{#inserting-tags-in-your-site}
 
 ## Méthode simple {#simple-method}
@@ -138,7 +138,7 @@ L’URL que vous créez doit respecter les règles de syntaxe définies dans la 
 
 >[!NOTE]
 >
->La redirection et le tracking web utilisent des cookies : il est important que le serveur web effectuant l’appel HTTP synchrone soit sur le même domaine que le serveur de redirection.Les différents échanges HTTP doivent transmettre les cookies « id », « uuid » et « uuid230 ».
+>La redirection et le tracking web utilisent des cookies : il est important que le serveur web effectuant l’appel HTTP synchrone soit sur le même domaine que le serveur de redirection. Les différents échanges HTTP doivent transmettre les cookies « id », « uuid » et « uuid230 ».
 
 **Exemple** : génération dynamique en java, avec authentification du destinataire via son numéro de compte.
 

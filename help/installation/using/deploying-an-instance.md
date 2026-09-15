@@ -3,7 +3,7 @@ product: campaign
 title: Déploiement d’une instance
 description: En savoir plus sur l’assistant de déploiement de Campaign
 feature: Installation, Instance Settings, Deployment
-badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
@@ -11,23 +11,29 @@ exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
 TQID: https://experienceleague.adobe.com/M1uqZA6cfopJkJ-pg3m-1R-eBbM55zv7R-FSxOfFUwI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: b5852c32-876b-41ae-92a7-9f588865ae52
+    internal-label: Best practices
   - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
   - id: eff19c99-440a-4318-b319-444edc4d8d8f
+    internal-label: Upgrade
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 3629
-ht-degree: 100%
-
+workflow-type: tm+mt
+source-wordcount: '3621'
+ht-degree: 99%
 ---
-
 # Déploiement d’une instance{#deploying-an-instance}
 
 >[!NOTE]
@@ -65,8 +71,8 @@ La première étape de l’assistant de déploiement permet de renseigner les in
 La section inférieure de la fenêtre permet de sélectionner les options à activer.
 
 * **[!UICONTROL Identifiant client pour la facturation]** : il peut s’agir par exemple du nom de l’instance et du numéro de version.
-* **[!UICONTROL Nom usuel du client ou de la cliente]** : saisissez le nom de votre société sous forme de chaîne de caractères.Ces informations peuvent être utilisées dans les liens de désinscription.
-* **[!UICONTROL Espace de noms]** : saisissez un identifiant court, en minuscules.L’objectif est de distinguer votre configuration spécifique de la configuration d’usine en cas de mise à niveau.L’espace de noms par défaut est **cus** - pour customer (client).
+* **[!UICONTROL Nom usuel du client ou de la cliente]** : saisissez le nom de votre société sous forme de chaîne de caractères. Ces informations peuvent être utilisées dans les liens de désinscription.
+* **[!UICONTROL Espace de noms]** : saisissez un identifiant court, en minuscules. L’objectif est de distinguer votre configuration spécifique de la configuration d’usine en cas de mise à niveau. L’espace de noms par défaut est **cus** - pour customer (client).
 
 ### Options techniques {#technical-options}
 
@@ -99,7 +105,7 @@ Indiquez les paramètres suivants :
 
 * **[!UICONTROL Adresse d&#39;erreur]** : saisissez l’adresse e-mail des messages comportant une erreur. Il s’agit d’une adresse technique utilisée pour gérer les rebonds, notamment les e-mails reçus par le serveur Adobe Campaign si les adresses cible n’existent pas. Cette adresse e-mail doit être valide, associée à une boîte aux lettres surveillée et hébergée par le client ou la cliente. Il peut s’agir d’une boîte pour les e-mails rebonds, par exemple `errors@customer.com`. Cette adresse peut être modifiée au niveau d’une diffusion ou dans les modèles de diffusion, à partir de l’onglet **SMTP** des propriétés de la diffusion/du modèle de diffusion. En savoir plus dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-parameters.html?lang=fr#managing-bounce-emails){target="_blank"}.
 
-En complément, vous pouvez indiquer les **masques** autorisés pour l’adresse d’expédition et l’adresse d’erreur.Si nécessaire, ces masques peuvent être séparés par des virgules.Ce paramétrage est facultatif. Lorsque des champs sont renseignés, Adobe Campaign vérifie au moment de la diffusion (lors de l’analyse, si l’adresse ne contient pas de variables) que les adresses renseignées sont valables.Ce fonctionnement permet d’éviter l’utilisation d’adresses qui pourraient entraîner des problèmes de diffusion.Les adresses de diffusion doivent être configurées sur le serveur de diffusion.
+En complément, vous pouvez indiquer les **masques** autorisés pour l’adresse d’expédition et l’adresse d’erreur. Si nécessaire, ces masques peuvent être séparés par des virgules. Ce paramétrage est facultatif. Lorsque des champs sont renseignés, Adobe Campaign vérifie au moment de la diffusion (lors de l’analyse, si l’adresse ne contient pas de variables) que les adresses renseignées sont valables. Ce fonctionnement permet d’éviter l’utilisation d’adresses qui pourraient entraîner des problèmes de diffusion. Les adresses de diffusion doivent être configurées sur le serveur de diffusion.
 
 >[!NOTE]
 >
@@ -115,9 +121,9 @@ En complément, vous pouvez indiquer les **masques** autorisés pour l’adresse
 
 Dans la base de données Adobe Campaign, toute adresse e-mail doit être composée comme suit : `x@y.z`. Les caractères **x**, **y** et **z** ne doivent pas être vides, ni contenir de caractères non autorisés.
 
-Vous pouvez définir ici les caractères autorisés (politique de données) dans le champ d’e-mail de la base de données.Les caractères absents de la liste seront interdits et donc refusés lors d’une saisie dans la base, mais aussi lors d’un import ou à la validation d’un formulaire web.
+Vous pouvez définir ici les caractères autorisés (politique de données) dans le champ d’e-mail de la base de données. Les caractères absents de la liste seront interdits et donc refusés lors d’une saisie dans la base, mais aussi lors d’un import ou à la validation d’un formulaire web.
 
-Deux listes sont proposées : **Européens uniquement** ou **US uniquement**.D’autres caractères peuvent être ajoutés si nécessaire.
+Deux listes sont proposées : **Européens uniquement** ou **US uniquement**. D’autres caractères peuvent être ajoutés si nécessaire.
 
 ### Paramètres de diffusion {#delivery-parameters}
 
@@ -140,7 +146,7 @@ Les options disponibles sont les suivantes :
 
 ### Paramètres de reprise {#retry-parameters}
 
-Les informations relatives aux reprises sont indiquées dans les champs **Période des reprises** et **Nombre de reprises** : lorsqu’une personne destinataire est injoignable, par exemple si sa boîte mail est pleine, le programme réessayera par défaut de le contacter 5 fois, espacées d’au moins une heure (pendant la durée maximum de diffusion des messages).Ces valeurs peuvent être modifiées en fonction de vos besoins.
+Les informations relatives aux reprises sont indiquées dans les champs **Période des reprises** et **Nombre de reprises** : lorsqu’une personne destinataire est injoignable, par exemple si sa boîte mail est pleine, le programme réessayera par défaut de le contacter 5 fois, espacées d’au moins une heure (pendant la durée maximum de diffusion des messages). Ces valeurs peuvent être modifiées en fonction de vos besoins.
 
 >[!NOTE]
 >
@@ -151,11 +157,11 @@ Les informations relatives aux reprises sont indiquées dans les champs **Pério
 Les options de configuration pour les mises en quarantaines sont les suivantes :
 
 * **[!UICONTROL Durée entre deux erreurs significatives]** : saisissez une valeur (par défaut &quot;1j&quot; : 1 jour) pour définir le temps d&#39;attente de l&#39;application avant d&#39;incrémenter le compteur d&#39;erreurs lors d&#39;un échec,
-* **[!UICONTROL Nombre maximum d’erreurs avant mise en quarantaine]** : une fois atteinte la valeur renseignée ici, l’adresse e-mail est passée en quarantaine (par défaut, 5 : l’adresse sera mise en quarantaine à la sixième erreur).Cela signifie que ce contact sera automatiquement exclu des prochaines diffusions.
+* **[!UICONTROL Nombre maximum d’erreurs avant mise en quarantaine]** : une fois atteinte la valeur renseignée ici, l’adresse e-mail est passée en quarantaine (par défaut, 5 : l’adresse sera mise en quarantaine à la sixième erreur). Cela signifie que ce contact sera automatiquement exclu des prochaines diffusions.
 
 ## Gestion des mails rebonds {#managing-bounced-emails}
 
-Les e-mails rebonds sont extrêmement importants pour qualifier les erreurs de diffusion.Ces erreurs seront réparties dans les NP@I une fois que les règles auront déterminé la cause de non aboutissement du message.
+Les e-mails rebonds sont extrêmement importants pour qualifier les erreurs de diffusion. Ces erreurs seront réparties dans les NP@I une fois que les règles auront déterminé la cause de non aboutissement du message.
 
 Cette étape n’est proposée que lorsque les options **Canal email** et **Gestion des emails rebonds** sont sélectionnées à la première étape de l’assistant de déploiement. Pour plus d&#39;informations, consultez la section [Paramètres généraux](#general-parameters).
 
@@ -180,7 +186,7 @@ Une fois les paramètres POP renseignés, cliquez sur **Test** afin de vérifier
 
 Les mails rebonds sont traités de façon automatique par Adobe Campaign, en appliquant les règles répertoriées dans le nœud **Administration > Gestion de campagne > Gestion des NP@I > Qualification des logs de diffusion**. Voir à ce sujet [Gestion des mails rebonds](../../delivery/using/delivery-failures-quarantine.md#bounce-mail-management).
 
-Les rebonds non traités ne s’affichent pas dans l’interface d’Adobe Campaign.Ils sont supprimés automatiquement à moins qu’ils ne soient transférés à une boîte tierce au moyen des champs suivants :
+Les rebonds non traités ne s’affichent pas dans l’interface d’Adobe Campaign. Ils sont supprimés automatiquement à moins qu’ils ne soient transférés à une boîte tierce au moyen des champs suivants :
 
 * **[!UICONTROL Adresse de transfert]** : remplissez ce champ pour transférer vers une adresse tierce tous les messages d’erreurs (traitées ou non) collectés par la plateforme Adobe Campaign.
 * **[!UICONTROL Adresse pour les erreurs]** : remplissez ce champ pour transférer vers une adresse tierce uniquement les messages d’erreurs que le processus inMail n’a pas été en mesure de qualifier.
@@ -188,11 +194,11 @@ Les rebonds non traités ne s’affichent pas dans l’interface d’Adobe Camp
 
 >[!IMPORTANT]
 >
->Pour transférer les e-mails rebonds non traités, Adobe recommande de ne renseigner que le champ **[!UICONTROL Adresse en cas d’erreur]**.Cependant, assurez-vous que l’adresse utilisée est vérifiée régulièrement, car cela pourrait entraîner une lourde charge sur votre serveur de messagerie.Contactez votre responsable de compte pour plus d’informations.
+>Pour transférer les e-mails rebonds non traités, Adobe recommande de ne renseigner que le champ **[!UICONTROL Adresse en cas d’erreur]**. Cependant, assurez-vous que l’adresse utilisée est vérifiée régulièrement, car cela pourrait entraîner une lourde charge sur votre serveur de messagerie. Contactez votre responsable de compte pour plus d’informations.
 
 ## Configuration du tracking {#tracking-configuration}
 
-Dans l’étape suivante, procédez à la configuration du tracking pour l’instance.L’instance doit être déclarée et enregistrée auprès du ou des serveurs de tracking.
+Dans l’étape suivante, procédez à la configuration du tracking pour l’instance. L’instance doit être déclarée et enregistrée auprès du ou des serveurs de tracking.
 
 Cette étape n’est proposée que lorsque les options **Canal email** et **Tracking** sont sélectionnées à la première étape de l’assistant de déploiement. Voir [Paramètres généraux](#general-parameters).
 
@@ -202,7 +208,7 @@ La configuration du tracking web (mode de tracking, création et insertion des b
 
 Lorsque vous activez le tracking sur une instance, les URL présentes dans les diffusions sont transformées lors de l’envoi afin de permettre d’en assurer le suivi.
 
-* Les informations concernant les URL externes (sécurisées ou non) saisies dans cette étape de l’assistant de déploiement sont utilisées pour construire la nouvelle URL.En plus de ces informations, le lien modifié contient : l’identifiant de la diffusion, l’identifiant de la personne destinataire et l’identifiant de l’URL.
+* Les informations concernant les URL externes (sécurisées ou non) saisies dans cette étape de l’assistant de déploiement sont utilisées pour construire la nouvelle URL. En plus de ces informations, le lien modifié contient : l’identifiant de la diffusion, l’identifiant de la personne destinataire et l’identifiant de l’URL.
 
   Les informations de tracking sont collectées par Adobe Campaign sur le ou les serveurs de tracking afin d&#39;alimenter le profil des destinataires ainsi que les données liées à la diffusion (onglets **[!UICONTROL Tracking]**).
 
@@ -210,7 +216,7 @@ Lorsque vous activez le tracking sur une instance, les URL présentes dans les d
 
   Voir à ce sujet la section [Serveur de tracking](#tracking-server).
 
-* Une fois les URL configurées, vous devez activer le tracking.Pour cela, l’instance doit être enregistrée auprès du ou des serveurs de tracking.
+* Une fois les URL configurées, vous devez activer le tracking. Pour cela, l’instance doit être enregistrée auprès du ou des serveurs de tracking.
 
   Pour plus d’informations, consultez [Enregistrement du tracking](#saving-tracking).
 
@@ -218,15 +224,15 @@ Lorsque vous activez le tracking sur une instance, les URL présentes dans les d
 
 ![](assets/s_ncs_install_deployment_wiz_08.png)
 
-Pour garantir l&#39;efficacité du tracking sur cette instance, les informations suivantes doivent être affichées :
+Pour garantir l&#39;efficacité du tracking sur cette instance, les informations suivantes doivent être affichées :
 <!--With Mid-sourcing architecture, you can externalize tracking management. To do this:-->
 
 * **[!UICONTROL URL externe]** et/ou **[!UICONTROL URL externe sécurisée]** : saisir l&#39;URL de redirection à utiliser dans les emails à envoyer.
-* **[!UICONTROL URL interne(s)]** : URL utilisée(s) uniquement par le serveur Adobe Campaign afin de contacter le(s) serveur(s) de tracking pour la collecte des logs et le chargement des URL.Il n’est pas nécessaire de l’associer à l’instance.
+* **[!UICONTROL URL interne(s)]** : URL utilisée(s) uniquement par le serveur Adobe Campaign afin de contacter le(s) serveur(s) de tracking pour la collecte des logs et le chargement des URL. Il n’est pas nécessaire de l’associer à l’instance.
 
   Si vous ne renseignez pas d’URL, par défaut l’URL de tracking sera utilisée.
 
-Dans le cadre d’une architecture en midsourcing, vous pouvez externaliser la gestion du tracking.Pour cela :
+Dans le cadre d’une architecture en midsourcing, vous pouvez externaliser la gestion du tracking. Pour cela :
 
 1. Sélectionnez l&#39;option **[!UICONTROL Externaliser la gestion du tracking]** : vous pourrez ainsi utiliser un serveur de mid-sourcing comme serveur de tracking.
 1. Renseignez les champs **[!UICONTROL Compte externe]** et **[!UICONTROL Nom de l’instance]** pour pouvoir vous connecter au serveur de mid-sourcing.
@@ -249,7 +255,7 @@ Trois types d&#39;architecture sont possibles pour la mise en place du tracking�
 
 1. **Ajouter le tracking à une instance déjà existante**
 
-   Ce choix s’applique dans le cas où une instance a déjà été créée pour d’autres besoins (serveur MTA, etc.)sur les serveurs qui seront utilisés comme serveurs de tracking.
+   Ce choix s’applique dans le cas où une instance a déjà été créée pour d’autres besoins (serveur MTA, etc.) sur les serveurs qui seront utilisés comme serveurs de tracking.
 
    ![](assets/s_ncs_install_deployment_wiz_11.png)
 
@@ -277,7 +283,7 @@ Trois types d&#39;architecture sont possibles pour la mise en place du tracking�
 
 1. **Valider une instance de tracking préconfigurée pour vous**
 
-   Cette option est utilisée lorsque vous ne disposez pas du mot de passe du compte **interne** ; dans ce cas, un compte de tracking a été préconfiguré pour vous sur le ou les serveurs de tracking.Saisissez le mot de passe du compte de tracking du ou des serveurs de redirection, afin de pouvoir valider l’instance de tracking.
+   Cette option est utilisée lorsque vous ne disposez pas du mot de passe du compte **interne** ; dans ce cas, un compte de tracking a été préconfiguré pour vous sur le ou les serveurs de tracking. Saisissez le mot de passe du compte de tracking du ou des serveurs de redirection, afin de pouvoir valider l’instance de tracking.
 
    ![](assets/s_ncs_install_deployment_wiz_17.png)
 
@@ -289,7 +295,7 @@ De retour à la fenêtre précédente, un message confirme l&#39;enregistrement 
 
 ![](assets/s_ncs_install_deployment_wiz_tracking_ok.png)
 
-Dans un contexte standard d’installation, les paramètres relatifs à la recherche des URL **ne doivent pas être modifiés**.Pour tout autre paramétrage, contactez Adobe.
+Dans un contexte standard d’installation, les paramètres relatifs à la recherche des URL **ne doivent pas être modifiés**. Pour tout autre paramétrage, contactez Adobe.
 
 ## Paramètres du canal mobile {#mobile-channel-parameters}
 
@@ -297,7 +303,7 @@ L’étape suivante permet de définir les paramètres par défaut lors des diff
 
 >[!NOTE]
 >
->Le canal mobile est une option : l’étape suivante n’apparaît que si elle a été acquise.Veuillez vérifier votre contrat de licence.
+>Le canal mobile est une option : l’étape suivante n’apparaît que si elle a été acquise. Veuillez vérifier votre contrat de licence.
 
 ![](assets/s_ncs_install_deployment_wiz_12.png)
 
@@ -305,7 +311,7 @@ L’étape suivante permet de définir les paramètres par défaut lors des diff
 
 Renseignez les informations suivantes :
 
-* **[!UICONTROL Libellé]** : indiquez un nom pour ce compte SMS/ Wap Push.Par exemple, vous pouvez utiliser le nom de votre routeur.
+* **[!UICONTROL Libellé]** : indiquez un nom pour ce compte SMS/ Wap Push. Par exemple, vous pouvez utiliser le nom de votre routeur.
 * Pour les champs **[!UICONTROL Serveur]**, **[!UICONTROL Port]**, **[!UICONTROL Compte]**, **[!UICONTROL Mot de passe]**, **[!UICONTROL Connecteur]**, **[!UICONTROL Point d’entrée envoi]**, **[!UICONTROL Point d’entrée rcp]**, **[!UICONTROL Point d’entrée notif]**, contactez votre prestataire afin d’obtenir les paramètres nécessaires.
 
 ### Paramètres des SMS envoyés {#parameters-of-sms-sent}
@@ -318,12 +324,12 @@ Le lien **Paramètres avancés...** permet d’accéder aux options de reprise e
 
 ![](assets/s_ncs_install_deployment_wiz_13.png)
 
-Les informations relatives aux reprises sont indiquées dans les champs **Période des reprises** et **Nombre de reprises** : lorsqu’un mobile est injoignable, le programme réessayera par défaut de le contacter 5 fois, à des intervalles d’au moins 15 minutes (pendant la durée maximum de diffusion des messages).Ces valeurs peuvent être adaptées en fonction de vos besoins.
+Les informations relatives aux reprises sont indiquées dans les champs **Période des reprises** et **Nombre de reprises** : lorsqu’un mobile est injoignable, le programme réessayera par défaut de le contacter 5 fois, à des intervalles d’au moins 15 minutes (pendant la durée maximum de diffusion des messages). Ces valeurs peuvent être adaptées en fonction de vos besoins.
 
 Les options de configuration pour les mises en quarantaines sont les suivantes :
 
 * **[!UICONTROL Durée entre deux erreurs significatives]** : saisissez une valeur (par défaut &quot;1j&quot; : 1 jour) pour définir le temps d&#39;attente de l&#39;application avant d&#39;incrémenter le compteur d&#39;erreurs lors d&#39;un échec.
-* **[!UICONTROL Nombre maximum d’erreurs avant mise en quarantaine]** : une fois atteinte la valeur renseignée ici, le numéro de mobile est passé en quarantaine (par défaut, 5 : le numéro sera mis en quarantaine à la sixième erreur).Cela signifie que ce contact sera automatiquement exclu des prochaines diffusions.
+* **[!UICONTROL Nombre maximum d’erreurs avant mise en quarantaine]** : une fois atteinte la valeur renseignée ici, le numéro de mobile est passé en quarantaine (par défaut, 5 : le numéro sera mis en quarantaine à la sixième erreur). Cela signifie que ce contact sera automatiquement exclu des prochaines diffusions.
 
 ## Options régionales {#regional-settings}
 
@@ -331,8 +337,8 @@ Cette étape permet d’indiquer des préférences relatives aux politiques de d
 
 ![](assets/s_ncs_install_deployment_wiz_14.png)
 
-* **[!UICONTROL Interpréter les numéros comme internationaux]** : si cette option est sélectionnée, l’application appliquera le format international aux numéros de téléphone (le préfixe du pays est alors obligatoire, car le nombre de chiffres ne sera pas vérifié avant d’appliquer le formatage).Si cette option n’est pas sélectionnée, vous devez ajouter vous-même un préfixe au numéro de téléphone international avec « + » ou « 00 ».
-* **[!UICONTROL Stocker tous les numéros au format international]** : cette option ne concerne que les numéros de téléphone **nationaux** importés ou édités.Définissez si vous souhaitez utiliser un format national (tel que 425 555 0150) ou un format international (par exemple +1 425 555 0150).
+* **[!UICONTROL Interpréter les numéros comme internationaux]** : si cette option est sélectionnée, l’application appliquera le format international aux numéros de téléphone (le préfixe du pays est alors obligatoire, car le nombre de chiffres ne sera pas vérifié avant d’appliquer le formatage). Si cette option n’est pas sélectionnée, vous devez ajouter vous-même un préfixe au numéro de téléphone international avec « + » ou « 00 ».
+* **[!UICONTROL Stocker tous les numéros au format international]** : cette option ne concerne que les numéros de téléphone **nationaux** importés ou édités. Définissez si vous souhaitez utiliser un format national (tel que 425 555 0150) ou un format international (par exemple +1 425 555 0150).
 
 ## Accès depuis Internet {#access-from-the-internet}
 
@@ -354,7 +360,7 @@ Renseignez dans cette page les URL des serveurs pour :
 1. Accéder au serveur applicatif pour les ressources non exposées sur le Web : formulaires, intranet, pages de validation.
 1. Accéder aux pages miroir renseignées des diffusions.
 
-   Une page miroir est une page dynamique qui affiche le contenu de l’e-mail.Elle est accessible via un lien inséré dans le message envoyé à la personne destinataire et peut contenir des éléments personnalisés.La page miroir permet à la personne destinataire de lire le message dans un navigateur Internet plutôt que dans le logiciel de messagerie, quel que soit le format de diffusion (texte ou HTML).Toutefois, les pages miroir ne sont générées que pour une diffusion donnée si le contenu HTML requis a été défini.
+   Une page miroir est une page dynamique qui affiche le contenu de l’e-mail. Elle est accessible via un lien inséré dans le message envoyé à la personne destinataire et peut contenir des éléments personnalisés. La page miroir permet à la personne destinataire de lire le message dans un navigateur Internet plutôt que dans le logiciel de messagerie, quel que soit le format de diffusion (texte ou HTML). Toutefois, les pages miroir ne sont générées que pour une diffusion donnée si le contenu HTML requis a été défini.
 
 Adobe Campaign offre la possibilité de différencier ces trois URL afin de mieux répartir la charge sur plusieurs plateformes.
 
@@ -371,7 +377,7 @@ Adobe Campaign offre la possibilité de différencier ces trois URL afin de mie
 >
 >Pour des raisons de confidentialité, nous vous recommandons d’utiliser HTTPS pour toutes les ressources externes.
 
-Pour être accessibles depuis l’extérieur, les images utilisées dans les e-mails et les ressources publiques associées aux opérations doivent être présentes sur un serveur accessible de l’extérieur.Elles peuvent ensuite être mises à la disposition de destinataires ou d’opérateurs externes.
+Pour être accessibles depuis l’extérieur, les images utilisées dans les e-mails et les ressources publiques associées aux opérations doivent être présentes sur un serveur accessible de l’extérieur. Elles peuvent ensuite être mises à la disposition de destinataires ou d’opérateurs externes.
 
 ![](assets/s_ncs_install_deployment_wiz_img_uploading.png)
 
@@ -381,13 +387,13 @@ Dans cette étape, vous devez renseigner :
 1. Mode de détection des images dans une diffusion. Pour plus d’informations, consultez la section [Détection des images d’une diffusion](#delivery-image-detection).
 1. Options de publication. Pour plus d’informations, consultez la section [Modes de publication](#publication-modes).
 
-Les ressources publiques sont accessibles à partir du nœud **Administration > Ressources > En ligne > Ressources publiques** de l’arborescence Adobe Campaign.Elles sont regroupées dans une bibliothèque et peuvent être incluses dans les e-mails, mais aussi utilisées au niveau des opérations ou des tâches, ainsi que pour la gestion de contenu.
+Les ressources publiques sont accessibles à partir du nœud **Administration > Ressources > En ligne > Ressources publiques** de l’arborescence Adobe Campaign. Elles sont regroupées dans une bibliothèque et peuvent être incluses dans les e-mails, mais aussi utilisées au niveau des opérations ou des tâches, ainsi que pour la gestion de contenu.
 
 ![](assets/install_pub_resources_view.png)
 
 ### URL des ressources publiques {#public-resources-url}
 
-Le premier champ permet de saisir le début de l’URL des ressources lorsqu’elles sont chargées.Une fois chargées, les ressources sont accessibles via cette nouvelle URL.
+Le premier champ permet de saisir le début de l’URL des ressources lorsqu’elles sont chargées. Une fois chargées, les ressources sont accessibles via cette nouvelle URL.
 
 Dans une diffusion, vous pouvez utiliser des images stockées dans la bibliothèque de ressources publiques ou toute autre image locale ou stockée sur un serveur.
 
@@ -401,7 +407,7 @@ Dans une diffusion, vous pouvez utiliser des images stockées dans la bibliothè
 
 Dans une diffusion, vous pouvez utiliser des images stockées dans la bibliothèque de ressources publiques ou toute autre image locale ou stockée sur un serveur.
 
-Le champ **Masques des URL** permet d’indiquer la liste des masques des URL qui seront ignorés lors du chargement automatique des images.Par exemple, si vous utilisez des images qui sont stockées sur un site accessible depuis l’extérieur, notamment sur votre site internet, vous pouvez saisir dans ce champ l’URL d’accès au site.
+Le champ **Masques des URL** permet d’indiquer la liste des masques des URL qui seront ignorés lors du chargement automatique des images. Par exemple, si vous utilisez des images qui sont stockées sur un site accessible depuis l’extérieur, notamment sur votre site internet, vous pouvez saisir dans ce champ l’URL d’accès au site.
 
 ![](assets/s_ncs_install_deployment_wiz_img_mask.png)
 
@@ -442,22 +448,22 @@ Les modes de publication suivants sont disponibles :
 
   Vous pouvez publier les ressources via un script :
 
-   * Vous devez créer ce script : son contenu dépend de votre configuration.
-   * Le script sera appelé via la commande suivante :
+  * Vous devez créer ce script : son contenu dépend de votre configuration.
+  * Le script sera appelé via la commande suivante :
 
-     ```
-     [INSTALL]/copyToFrontal.vbs "$(XTK_INSTALL_DIR)\var\<instance>\upload\" "img1,img2,img3"
-     ```
+    ```
+    [INSTALL]/copyToFrontal.vbs "$(XTK_INSTALL_DIR)\var\<instance>\upload\" "img1,img2,img3"
+    ```
 
-     où `[INSTALL]` est le chemin d’accès au dossier d’installation d’Adobe Campaign.
+    où `[INSTALL]` est le chemin d’accès au dossier d’installation d’Adobe Campaign.
 
-   * Sous Unix, assurez-vous que ce script soit exécutable.
+  * Sous Unix, assurez-vous que ce script soit exécutable.
 
-Pour les images, il doit les copier depuis le dossier « images » renseigné via l’option **NmsDelivery_ImageSubDirectory** vers un ou plusieurs serveurs frontaux.Ces serveurs vont stocker les images afin de les rendre accessibles via la nouvelle URL configurée.
+Pour les images, il doit les copier depuis le dossier « images » renseigné via l’option **NmsDelivery_ImageSubDirectory** vers un ou plusieurs serveurs frontaux. Ces serveurs vont stocker les images afin de les rendre accessibles via la nouvelle URL configurée.
 
 En cas de publication sur un serveur Adobe Campaign, et non via un script de publication manuelle, les images d’une diffusion sont stockées, par défaut, dans le `$(XTK_INSTALL_DIR)/var/res/img/ directory`. L’URL correspondante est la suivante : **`https://server/res/img`**.
 
-`XTK_INSTALL_DIR)/var/res/$(INSTANCE_NAME)`.L’URL correspondante est la suivante : **`https://server/res/instance`** où instance est le nom de l’instance de tracking.
+`XTK_INSTALL_DIR)/var/res/$(INSTANCE_NAME)`. L’URL correspondante est la suivante : **`https://server/res/instance`** où instance est le nom de l’instance de tracking.
 
 >[!NOTE]
 >
@@ -527,7 +533,7 @@ startRedirection="true" startRedirectionInModule="true" trackWebVisitors="false"
 
 ## Purge des données {#purging-data}
 
-La dernière étape de l’assistant de déploiement permet de paramétrer la purge automatique des données obsolètes de la base.Les valeurs sont exprimées en jours.
+La dernière étape de l’assistant de déploiement permet de paramétrer la purge automatique des données obsolètes de la base. Les valeurs sont exprimées en jours.
 
 ![](assets/s_ncs_install_deployment_wiz_16.png)
 

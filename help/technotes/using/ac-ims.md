@@ -5,19 +5,21 @@ exl-id: 84853dbe-8b6f-4875-b29a-c1b755423a3c
 TQID: https://experienceleague.adobe.com/DKwv-rLrgm0ce9cycT1QMtBgQP-2pnMNhqHlH1xJWvo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 479
+workflow-type: tm+mt
+source-wordcount: '479'
 ht-degree: 100%
-
 ---
-
 # Migrer vers Adobe Identity Management System (IMS) {#migrate-to-ims}
 
 Dans le cadre de ses efforts constants pour renforcer la sécurité et le processus d’authentification, Adobe Campaign recommande vivement de migrer le mode d’authentification de l’utilisateur final ou de l’utilisatrice finale et de passer de l’authentification native par nom d’utilisateur ou d’utilisatrice/mot de passe à [Adobe Identity Management System (IMS)](https://helpx.adobe.com/fr/enterprise/using/identity.html){target="_blank"}.
@@ -65,7 +67,7 @@ Une fois vos environnements mis à niveau vers Campaign Classic v7.4.1 (ou une
 
 ### Quand la migration est-elle terminée ? {#ims-migration-end}
 
-Une fois la migration des utilisateurs et des utilisatrices finaux et la migration des opérateurs et des opératrices techniques vers Adobe Identity Management System (IMS) terminée, vous devez mettre à jour votre environnement pour supprimer les options spécifiques à l’authentification native et qui ne sont plus applicables à l’authentification IMS. Cette mise à jour est disponible uniquement à partir de Campaign v7.4.1.[En savoir plus](impact-ims-migration.md)
+Une fois la migration des utilisateurs et des utilisatrices finaux et la migration des opérateurs et des opératrices techniques vers Adobe Identity Management System (IMS) terminée, vous devez mettre à jour votre environnement pour supprimer les options spécifiques à l’authentification native et qui ne sont plus applicables à l’authentification IMS. Cette mise à jour est disponible uniquement à partir de Campaign v7.4.1. [En savoir plus](impact-ims-migration.md)
 
 
 

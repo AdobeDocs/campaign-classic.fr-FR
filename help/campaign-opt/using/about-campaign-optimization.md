@@ -9,23 +9,28 @@ exl-id: b500bde4-6c81-4420-b1bf-e8eff1c53877
 TQID: https://experienceleague.adobe.com/5lh4PWNgXYoTWDSM0QE6q6-B1ZYrD8fDUTnAKmq8jIs
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 subfeature_v2:
   - id: e5fb657f-3c0a-4fcc-9980-3589a23ab4de
+    internal-label: Typology rules
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
-workflow-type: ht
-source-wordcount: 113
+workflow-type: tm+mt
+source-wordcount: '113'
 ht-degree: 100%
-
 ---
-
 # À propos des typologies de campagne{#about-campaign-typologies}
 
 Le module d’optimisation des campagnes d’Adobe Campaign permet de contrôler, de filtrer et de surveiller l’envoi des diffusions. Pour éviter les conflits entre les campagnes, Adobe Campaign peut tester différentes combinaisons en appliquant des règles de contrainte spécifiques. Elles permettent de s’assurer que les messages envoyés répondent aux attentes et aux besoins des clientes et clients et des politiques de communication de l’entreprise.
@@ -84,7 +89,7 @@ During delivery preparation, recipients are excluded when criterion is met. You 
 
 This video explains how to implement fatigue management in Adobe Campaign by leveraging typology rules.
 
->[!VIDEO](https://video.tv.adobe.com/v/30590?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25090?quality=12)
 
 ### How to set up fatigue management using predefined filters
 
@@ -93,7 +98,7 @@ This video explains how to implement fatigue management in Adobe Campaign Classi
 
 >[!VIDEO](https://video.tv.adobe.com/v/25091?quality=12)
 
-Additional Campaign how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
+Additional Campaign how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
 
 **Related topic**
 

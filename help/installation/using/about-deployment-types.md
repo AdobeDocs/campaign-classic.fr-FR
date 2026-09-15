@@ -10,22 +10,22 @@ exl-id: 08628efb-9186-4b67-9431-310d4bc276b4
 TQID: https://experienceleague.adobe.com/Xf-z3lKtUNbgrNAh0-3vRasteUegsRDW2cYQ7L9-rok
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 137
+workflow-type: tm+mt
+source-wordcount: '137'
 ht-degree: 100%
-
 ---
-
 # À propos des types de déploiement{#about-deployment-types}
 
 
 
-La conception modulaire d’Adobe Campaign permet de nombreuses configurations de déploiement, d’une installation en autonome (tous les composants sur une unique machine) à des configurations d’entreprise impliquant une architecture entièrement distribuée et redondante via de multiples serveurs.Tout dépend du niveau de performance et de sécurité requis.
+La conception modulaire d’Adobe Campaign permet de nombreuses configurations de déploiement, d’une installation en autonome (tous les composants sur une unique machine) à des configurations d’entreprise impliquant une architecture entièrement distribuée et redondante via de multiples serveurs. Tout dépend du niveau de performance et de sécurité requis.
 
 Dans le cas d&#39;une configuration sur plusieurs machines, il n&#39;est pas nécessaire qu&#39;elles utilisent toutes le même système d&#39;exploitation. En effet, il est possible d&#39;utiliser par exemple un serveur de redirection sous Linux + Apache avec des serveurs de diffusion sous Windows.
 

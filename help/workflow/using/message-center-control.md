@@ -5,18 +5,16 @@ description: Message Center (Pilotage)
 hide: true
 feature: Workflows
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 100%
-
 ---
-
 
 # Message Center (Pilotage){#message-center-control}
 
 
 
-Le workflow présenté ci-dessous est planifié pour s’exécuter toutes les heures.Il est installé par défaut avec le module **Message Center - Contrôle**.
+Le workflow présenté ci-dessous est planifié pour s’exécuter toutes les heures. Il est installé par défaut avec le module **Message Center - Contrôle**.
 
 
 Pour plus d&#39;informations à ce sujet, en fonction de la version de Campaign, reportez-vous aux sections suivantes :

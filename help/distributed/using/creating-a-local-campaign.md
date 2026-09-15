@@ -8,25 +8,28 @@ exl-id: 17b5865a-5e04-4b3b-8b6a-12d5c1a9c1da
 TQID: https://experienceleague.adobe.com/geEAQfCmSJvBXR-u74aiAd-Wb3XU-gj--3f-Sstn-90
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 subfeature_v2:
   - id: a6187aac-0a00-4394-8937-e8d4c1a40aa4
+    internal-label: Distributed Marketing
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1700
+workflow-type: tm+mt
+source-wordcount: '1700'
 ht-degree: 100%
-
 ---
-
 # Créer une campagne locale{#creating-a-local-campaign}
 
 
 
-Une campagne locale est une instance créée à partir d’un modèle référencé dans la liste des **[!UICONTROL kits de campagne]** avec un **planning d’exécution spécifique**.L’objectif est de répondre à un besoin local de communication en utilisant un modèle de campagne mis en place et configuré par l’entité centrale.Les principales étapes d’implémentation d’une campagne locale sont les suivantes :
+Une campagne locale est une instance créée à partir d’un modèle référencé dans la liste des **[!UICONTROL kits de campagne]** avec un **planning d’exécution spécifique**. L’objectif est de répondre à un besoin local de communication en utilisant un modèle de campagne mis en place et configuré par l’entité centrale. Les principales étapes d’implémentation d’une campagne locale sont les suivantes :
 
 **Pour l&#39;entité centrale**
 
@@ -68,11 +71,11 @@ Sélectionnez le type d’interface web à appliquer aux opérations créées à
 
 Quatre types d’interface web sont disponibles :
 
-* **[!UICONTROL Par résumé]** : l’entité locale doit fournir une description des configurations de la campagne.Une fois la commande approuvée, l’entité centrale configure et exécute l’intégralité de la campagne.
+* **[!UICONTROL Par résumé]** : l’entité locale doit fournir une description des configurations de la campagne. Une fois la commande approuvée, l’entité centrale configure et exécute l’intégralité de la campagne.
 
   ![](assets/mkt_distr_6.png)
 
-* **[!UICONTROL Par formulaire]** : l’entité locale a accès à un formulaire web où elle peut, selon le modèle utilisé, modifier le contenu, la cible, la taille maximale de la cible, ainsi que les dates de création et d’extraction grâce à des champs de personnalisation.Il est possible pour l’entité locale d’évaluer la cible et de prévisualiser le contenu depuis ce formulaire web.
+* **[!UICONTROL Par formulaire]** : l’entité locale a accès à un formulaire web où elle peut, selon le modèle utilisé, modifier le contenu, la cible, la taille maximale de la cible, ainsi que les dates de création et d’extraction grâce à des champs de personnalisation. Il est possible pour l’entité locale d’évaluer la cible et de prévisualiser le contenu depuis ce formulaire web.
 
   ![](assets/mkt_distr_8.png)
 
@@ -80,7 +83,7 @@ Quatre types d’interface web sont disponibles :
 
   >[!NOTE]
   >
-  >L’application web utilisée ici est un exemple.Vous devez créer une application web spécifique pour pouvoir utiliser un formulaire.Pour plus d&#39;informations, consultez la section [API](../../configuration/using/about-web-services.md).
+  >L’application web utilisée ici est un exemple. Vous devez créer une application web spécifique pour pouvoir utiliser un formulaire. Pour plus d&#39;informations, consultez la section [API](../../configuration/using/about-web-services.md).
 
   ![](assets/mkt_distr_7.png)
 
@@ -91,7 +94,7 @@ Quatre types d’interface web sont disponibles :
 
 ### Les valeurs par défaut {#default-values}
 
-Sélectionnez les **[!UICONTROL Valeurs par défaut]** qui seront renseignées par les entités locales.Par exemple :
+Sélectionnez les **[!UICONTROL Valeurs par défaut]** qui seront renseignées par les entités locales. Par exemple :
 
 * les dates de contact et d&#39;extraction,
 * les caractéristiques de la cible (segment d&#39;âge, etc.).
@@ -116,7 +119,7 @@ Si l&#39;on ne souhaite pas renseigner de validants pour les opérations, le nom
 
 ### Documents {#documents}
 
-Vous pouvez permettre aux opérateurs et opératrices de l’entité locale d’associer des documents (fichiers texte, tableurs, images, descriptions de campagnes, etc.)à la campagne locale lors de la création de la commande.Le lien **[!UICONTROL Paramètres avancés de saisie de l’opération...]** permet de limiter le nombre de documents. Pour ce faire, il vous suffit de saisir le nombre maximal autorisé dans le champ **[!UICONTROL Nombre de documents]**.
+Vous pouvez permettre aux opérateurs et opératrices de l’entité locale d’associer des documents (fichiers texte, tableurs, images, descriptions de campagnes, etc.) à la campagne locale lors de la création de la commande. Le lien **[!UICONTROL Paramètres avancés de saisie de l’opération...]** permet de limiter le nombre de documents. Pour ce faire, il vous suffit de saisir le nombre maximal autorisé dans le champ **[!UICONTROL Nombre de documents]**.
 
 ![](assets/s_advuser_mkg_dist_local_docs.png)
 
@@ -170,7 +173,7 @@ Enregistrez votre modèle de campagne. Vous pouvez désormais l’utiliser depui
 
 ## Créer le kit de campagne {#creating-the-campaign-package}
 
-Pour mettre le modèle de campagne à la disposition des entités locales, il doit être ajouté dans la liste.Pour cela, l’entité centrale doit créer un nouveau kit.
+Pour mettre le modèle de campagne à la disposition des entités locales, il doit être ajouté dans la liste. Pour cela, l’entité centrale doit créer un nouveau kit.
 
 Les étapes sont les suivantes :
 
@@ -231,11 +234,11 @@ Lorsqu’une opération est disponible ou lorsque la date limite d’inscription
 
 ## Commander une opération {#ordering-a-campaign}
 
-Les kits de campagne deviennent accessibles aux entités locales une fois qu’ils sont approuvés et que leur période d’implémentation a commencé.Les entités locales sont informées par e-mail de la disponibilité d’un nouveau kit de campagne (dès que sa date de disponibilité est atteinte).
+Les kits de campagne deviennent accessibles aux entités locales une fois qu’ils sont approuvés et que leur période d’implémentation a commencé. Les entités locales sont informées par e-mail de la disponibilité d’un nouveau kit de campagne (dès que sa date de disponibilité est atteinte).
 
 >[!NOTE]
 >
->Si des entités locales ont été indiquées lors de la création du kit de campagne, elles seules recevront une notification.Si aucune entité locale n’a été indiquée, toutes les entités locales recevront une notification.
+>Si des entités locales ont été indiquées lors de la création du kit de campagne, elles seules recevront une notification. Si aucune entité locale n’a été indiquée, toutes les entités locales recevront une notification.
 
 ![](assets/mkg_dist_local_op_notification.png)
 
@@ -245,7 +248,7 @@ Pour commander une opération :
 
 1. Cliquez sur lien **[!UICONTROL Commander l&#39;opération]** dans le message de notification, ou sur le bouton correspondant dans la console Adobe Campaign.
 
-   Saisissez votre ID et votre mot de passe pour commander la campagne.L’interface se compose d’un ensemble de pages définies dans une application web.
+   Saisissez votre ID et votre mot de passe pour commander la campagne. L’interface se compose d’un ensemble de pages définies dans une application web.
 
    >[!NOTE]
    >
@@ -261,7 +264,7 @@ Pour commander une opération :
 
    ![](assets/mkg_dist_subscribe_step3.png)
 
-1. Les informations sont renvoyées aux entités locales et centrale.Si chaque entité locale ne voit que ses commandes, l’entité centrale peut visualiser toutes les commandes de toutes les entités locales, comme ci-dessous :
+1. Les informations sont renvoyées aux entités locales et centrale. Si chaque entité locale ne voit que ses commandes, l’entité centrale peut visualiser toutes les commandes de toutes les entités locales, comme ci-dessous :
 
    ![](assets/mkg_dist_subscribe_central_view.png)
 

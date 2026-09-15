@@ -2,25 +2,28 @@
 product: campaign
 title: Configurer des diffusions
 description: Découvrez comment effectuer des tests A/B à lʼaide dʼun cas dʼutilisation spécifique
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: A/B Testing
 exl-id: 809de30b-7d08-40de-bf3e-dc80d62eae80
 TQID: https://experienceleague.adobe.com/7fr4R6dly8-CJh9XYRpAwus1-AUJaz496LOPrWebt0k
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 259
+source-wordcount: '250'
 ht-degree: 100%
-
 ---
-
 # AB Testing : paramétrer les diffusions dans le workflow {#step-4--configuring-the-deliveries-in-the-workflow}
 
 Une fois les [populations créées](a-b-testing-uc-population-samples.md), vous pouvez configurer les diffusions. Dans ce cas d&#39;utilisation, les deux premières diffusions permettent d&#39;envoyer des contenus différents à la population A et B. La troisième diffusion est la diffusion de secours : elle sera envoyée aux destinataires n&#39;appartenant pas à A ou B. Son contenu sera calculé par un script et sera identique à A ou B, selon celui qui a obtenu le taux d&#39;ouverture le plus élevé. Il est nécessaire de configurer une période d&#39;attente pour la troisième diffusion, afin de connaître le résultat des diffusions A et B. C’est pourquoi la troisième diffusion comprend une activité **[!UICONTROL Attente]**.

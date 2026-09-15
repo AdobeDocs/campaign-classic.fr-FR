@@ -7,17 +7,17 @@ exl-id: 0a059397-b037-405b-b9c1-94a4a072674d
 TQID: https://experienceleague.adobe.com/37Nw8x5SwRELOeJd8BXvE-tcN66Kb1vraEgkkzeaKI8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 1226
+workflow-type: tm+mt
+source-wordcount: '1226'
 ht-degree: 100%
-
 ---
-
 # Architecture des messages transactionnels {#transactional-messaging-architecture}
 
 
@@ -36,11 +36,11 @@ Les messages transactionnels reposent sur une architecture spécifique, composé
 
 ## Installation des instances {#installing-instances}
 
-L’installation des packages de message transactionnel requiert de nombreuses précautions.Adobe vous recommande de travailler dans un environnement de test avant la mise en production.Vous devez également disposer d’une licence Adobe Campaign compatible.Pour plus d&#39;informations, veuillez contacter votre chargé de compte Adobe.
+L’installation des packages de message transactionnel requiert de nombreuses précautions. Adobe vous recommande de travailler dans un environnement de test avant la mise en production. Vous devez également disposer d’une licence Adobe Campaign compatible. Pour plus d&#39;informations, veuillez contacter votre chargé de compte Adobe.
 
 >[!IMPORTANT]
 >
->L’instance de contrôle et la ou les instances d’exécution doivent être installées sur des machines différentes.Elles ne peuvent pas partager la même instance Campaign.
+>L’instance de contrôle et la ou les instances d’exécution doivent être installées sur des machines différentes. Elles ne peuvent pas partager la même instance Campaign.
 
 Si vous devez utiliser plusieurs canaux, vous devez installer et configurer les packages associés avant l&#39;installation des packages des messages transactionnels. Pour plus d&#39;informations, consultez la section [Ajouter un canal de diffusion](#adding-a-delivery-channel).
 
@@ -58,7 +58,7 @@ Les étapes détaillées pour configurer l&#39;instance de pilotage sont présen
 >
 >Le partage d&#39;un cluster d&#39;exécution avec plusieurs instances de pilotage est uniquement pris en charge pour les environnements on-premise.
 
-Il est possible de partager un cluster d’exécution entre plusieurs instances de pilotage.Par exemple, si vous gérez plusieurs enseignes spécialisées, vous pouvez configurer une instance de pilotage par marque et toutes les relier au même cluster d’exécution.
+Il est possible de partager un cluster d’exécution entre plusieurs instances de pilotage. Par exemple, si vous gérez plusieurs enseignes spécialisées, vous pouvez configurer une instance de pilotage par marque et toutes les relier au même cluster d’exécution.
 
 ![](assets/messagecenter_diagram_2.png)
 
@@ -80,7 +80,7 @@ Le canal email est disponible par défaut. Pour diffuser vos messages transactio
 
 >[!IMPORTANT]
 >
->L’ajout d’un canal de diffusion (canal mobile, canal d’application mobile, etc.)doit être effectué avant d’installer le package Message transactionnel.
+>L’ajout d’un canal de diffusion (canal mobile, canal d’application mobile, etc.) doit être effectué avant d’installer le package Message transactionnel.
 
 ### Ajout d&#39;un canal de diffusion {#adding-a-delivery-channel}
 
@@ -151,7 +151,7 @@ Pour utiliser les modules des messages transactionnels avec le canal des applica
 
 L&#39;évènement doit contenir les éléments suivants :
 
-* L’identifiant de l’appareil mobile (**registrationId** pour Android et **deviceToken** pour iOS).Cet identifiant représente l’« adresse » à laquelle la notification sera envoyée.
+* L’identifiant de l’appareil mobile (**registrationId** pour Android et **deviceToken** pour iOS). Cet identifiant représente l’« adresse » à laquelle la notification sera envoyée.
 * La définition du lien vers l&#39;application mobile ou clé d&#39;intégration (**uuid**) permettant de récupérer les informations de connexion spécifiques à l&#39;application.
 * Le canal sur lequel la notification sera envoyée (**wishedChannel**) : 41 pour iOS et 42 pour Android
 * Toutes les données utiles à la personnalisation
@@ -185,7 +185,7 @@ Voici un exemple de traitement d&#39;un événement contenant ces informations 
 
 ### Messages transactionnels et LINE {#transactional-messaging-and-line}
 
-Lorsqu’ils sont combinés avec le canal LINE, les messages transactionnels vous permettent d’envoyer des messages en temps réel sur l’application LINE installée sur les appareils mobiles des clientes et clients.Ils sont utilisés pour envoyer le message de bienvenue lorsqu’un utilisateur ou une utilisatrice LINE ajoute la page de la marque.
+Lorsqu’ils sont combinés avec le canal LINE, les messages transactionnels vous permettent d’envoyer des messages en temps réel sur l’application LINE installée sur les appareils mobiles des clientes et clients. Ils sont utilisés pour envoyer le message de bienvenue lorsqu’un utilisateur ou une utilisatrice LINE ajoute la page de la marque.
 
 Pour utiliser le module des messages transactionnels avec LINE, les éléments suivants sont nécessaires pour la configuration de votre instance **marketing** et de votre instance d&#39;**exécution** :
 

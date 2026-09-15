@@ -2,7 +2,7 @@
 product: campaign
 title: Définition du contenu interactif dans Adobe Campaign Classic
 description: Découvrez comment définir le contenu interactif et dynamique d’e-mails avec AMP dans Adobe Campaign
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email Design
 role: User
 hide: true
@@ -10,26 +10,34 @@ exl-id: 3110c371-bbf2-4ab2-a701-3f348b5c1e7f
 TQID: https://experienceleague.adobe.com/eJvXKGg578zEWsoERyefkE4AiKgCJkfNLHLKFFzpGEQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1551
+source-wordcount: '1542'
 ht-degree: 100%
-
 ---
-
 # Définir le contenu interactif{#defining-interactive-content}
 
 Adobe Campaign permet d’utiliser le format interactif [AMP for Email](https://amp.dev/fr/about/email/) qui sert, sous certaines conditions, à envoyer des e-mails dynamiques.
@@ -223,6 +231,6 @@ Si, par exemple, vous avez inclus une liste de produits dans votre email, lors d
 
 La vidéo ci-dessous explique comment activer AMP dans Adobe Campaign et présente son utilisation.
 
->[!VIDEO](https://video.tv.adobe.com/v/33568?captions=fre_fr&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on)
 
 D’autres vidéos pratiques sur Campaign sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

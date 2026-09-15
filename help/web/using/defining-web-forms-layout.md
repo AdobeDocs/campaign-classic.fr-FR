@@ -2,25 +2,28 @@
 product: campaign
 title: Définir la disposition des formulaires web
 description: Définir la disposition des formulaires web
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 23ca17f8-de1a-4f9c-8357-3965dc3329b1
 TQID: https://experienceleague.adobe.com/-0PZWl-79Q-MXZ-jHjp-VF12IUPeMcq27aGSgWl5Ans
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: f391046b-0cf3-4e76-bd3b-97fe06654506
+    internal-label: Web Apps
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 539
+workflow-type: tm+mt
+source-wordcount: '530'
 ht-degree: 100%
-
 ---
-
 # Définir la disposition des formulaires web{#defining-web-forms-layout}
 
 
@@ -33,13 +36,13 @@ Pour chaque page du formulaire, les conteneurs sont créés à partir du bouton 
 
 ![](assets/s_ncs_admin_survey_containers_add.png)
 
-Utilisez un conteneur pour regrouper des éléments de la page sans ajouter de libellé dans le rendu final.Les éléments sont regroupés dans la sous-arborescence du conteneur.Les conteneurs standards vous permettent de gérer la disposition.
+Utilisez un conteneur pour regrouper des éléments de la page sans ajouter de libellé dans le rendu final. Les éléments sont regroupés dans la sous-arborescence du conteneur. Les conteneurs standards vous permettent de gérer la disposition.
 
 Par exemple :
 
 ![](assets/s_ncs_admin_survey_containers_std_arbo.png)
 
-La position des libellés est appliquée aux éléments placés sous le conteneur dans la hiérarchie.Elle peut être surchargée pour chaque élément si nécessaire.Ajoutez ou supprimez des colonnes pour modifier la disposition.Voir [Placer les champs de la page](#positioning-the-fields-on-the-page).
+La position des libellés est appliquée aux éléments placés sous le conteneur dans la hiérarchie. Elle peut être surchargée pour chaque élément si nécessaire. Ajoutez ou supprimez des colonnes pour modifier la disposition. Voir [Placer les champs de la page](#positioning-the-fields-on-the-page).
 
 Dans l&#39;exemple ci-dessus, le rendu sera le suivant :
 
@@ -51,11 +54,11 @@ La mise en page du formulaire web est définie page par page, pour chaque conten
 
 Les pages sont organisées en colonnes : chaque page contient un certain nombre de colonnes. Chaque champ de la page occupe **n** cellules. Les conteneurs s’étendent eux aussi sur un certain nombre de colonnes et les champs qu’ils contiennent s’étendent sur un certain nombre de cellules.
 
-Par défaut, les pages sont construites sur une seule colonne et chaque élément occupe une cellule.Ainsi, les champs sont affichés les uns en dessous des autres, chacun occupant toute la ligne, comme ci-dessous :
+Par défaut, les pages sont construites sur une seule colonne et chaque élément occupe une cellule. Ainsi, les champs sont affichés les uns en dessous des autres, chacun occupant toute la ligne, comme ci-dessous :
 
 ![](assets/s_ncs_admin_survey_container_ex.png)
 
-Dans l’exemple suivant, la configuration par défaut a été conservée.La page occupe une seule colonne qui comprend quatre conteneurs.
+Dans l’exemple suivant, la configuration par défaut a été conservée. La page occupe une seule colonne qui comprend quatre conteneurs.
 
 ![](assets/s_ncs_admin_survey_container_ex0.png)
 
@@ -73,7 +76,7 @@ Vous pouvez adapter les paramètres d&#39;affichage pour obtenir le rendu suivan
 
 Dans l&#39;exemple de rendu ci-dessus, chaque zone de saisie, chaque titre et chaque image occupent une seule cellule dans les colonnes des conteneurs.
 
-Vous pouvez modifier la mise en forme dans chaque conteneur.Dans notre exemple, vous pouvez passer le contenu du conteneur 4 sur deux colonnes et répartir les éléments.
+Vous pouvez modifier la mise en forme dans chaque conteneur. Dans notre exemple, vous pouvez passer le contenu du conteneur 4 sur deux colonnes et répartir les éléments.
 
 ![](assets/s_ncs_admin_survey_container_ex2_rend.png)
 

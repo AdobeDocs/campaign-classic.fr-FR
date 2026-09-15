@@ -9,24 +9,30 @@ exl-id: 1dd3c080-444d-45f8-9562-d2d01a9d2860
 TQID: https://experienceleague.adobe.com/1fiKNiq5Q2q4cN-wCMLSnZdW-IDA-bw6KwJGhSJYZkY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: f863efa9-030c-4466-a2b8-a52aea6b722c
+    internal-label: Subscription services
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
-workflow-type: ht
-source-wordcount: 1576
+workflow-type: tm+mt
+source-wordcount: '1576'
 ht-degree: 100%
-
 ---
-
 # Diffusions de campagnes marketing {#marketing-campaign-deliveries}
 
 Les diffusions peuvent être créées depuis le tableau de bord d&#39;une opération, un workflow d&#39;opération ou directement à partir de la vue d&#39;ensemble des diffusions.
@@ -251,7 +257,7 @@ Le modèle d&#39;export doit être associé au prestataire sélectionné pour la
 
 Cette vidéo explique comment créer une campagne et un e-mail dans Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/27487?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 D’autres vidéos pratiques sur Campaign sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
 

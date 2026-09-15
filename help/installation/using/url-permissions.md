@@ -3,7 +3,7 @@ product: campaign
 title: Configurer les autorisations d’URL
 description: Découvrez comment configurer les autorisations d’URL
 feature: Installation, Instance Settings, Permissions
-badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -11,27 +11,32 @@ exl-id: 6fe8da3b-57b9-4a69-8602-a03993630b27
 TQID: https://experienceleague.adobe.com/5F4SRt978KzXMI06t3rNt3YRnYI-EWwSkQIrAd0oDq8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+    internal-label: Security and privacy
 subfeature_v2:
   - id: ac9c0a9c-8a76-4419-bd64-9c34c5782666
+    internal-label: Privacy
   - id: fb2a841f-c522-491f-9901-a1b939d252df
+    internal-label: Security
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: ht
-source-wordcount: 380
+workflow-type: tm+mt
+source-wordcount: '368'
 ht-degree: 100%
-
 ---
-
 # Configuration des autorisations d’URL (On-premise){#url-permissions}
 
 
 
-La liste par défaut des URL pouvant être appelées par des codes JavaScript (workflows, etc.)par vos instances Campaign Classic est limitée.Il s’agit des URL qui permettent à vos instances de fonctionner correctement.
+La liste par défaut des URL pouvant être appelées par des codes JavaScript (workflows, etc.) par vos instances Campaign Classic est limitée. Il s’agit des URL qui permettent à vos instances de fonctionner correctement.
 
 Par défaut, les instances ne sont pas autorisées à se connecter à des URL externes. Cependant, il est possible d’ajouter des URL externes à la liste des URL autorisées afin que votre instance puisse s’y connecter. Vous pouvez ainsi connecter vos instances Campaign à des systèmes externes, comme des serveurs SFTP ou des sites Web, afin d’activer le transfert de fichiers et/ou de données.
 

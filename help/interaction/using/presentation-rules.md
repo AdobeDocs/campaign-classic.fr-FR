@@ -3,7 +3,7 @@ product: campaign
 title: Règles de présentation
 description: Règles de présentation
 feature: Interaction, Offers
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: case-study
@@ -11,25 +11,26 @@ exl-id: f9dd9ad6-48da-4a80-9405-109a433a1ed5
 TQID: https://experienceleague.adobe.com/s2QV1BGLtUfyWg1BfYuryciF9STRK3HpIXNc6oQ0ATY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 487
+workflow-type: tm+mt
+source-wordcount: '478'
 ht-degree: 100%
-
 ---
-
 # Règles de présentation{#presentation-rules}
 
 
 
 ## Création d&#39;une règle de présentation {#creating-a-presentation-rule}
 
-Notre base de données contient plusieurs offres de voyages pour l’Europe, l’Afrique, les États-Unis et le Canada.Vous souhaitez proposer des offres de voyages pour le Canada, mais si une personne destinataire devait refuser ce type d’offre, vous ne voulez pas lui proposer à nouveau.
+Notre base de données contient plusieurs offres de voyages pour l’Europe, l’Afrique, les États-Unis et le Canada. Vous souhaitez proposer des offres de voyages pour le Canada, mais si une personne destinataire devait refuser ce type d’offre, vous ne voulez pas lui proposer à nouveau.
 
 Vous allez donc paramétrer votre règle de façon à ne proposer de voyages au Canada qu&#39;une seule fois à un destinataire et à ne pas lui reproposer s&#39;il l&#39;a déjà refusé.
 
@@ -92,7 +93,7 @@ Vous allez donc paramétrer votre règle de façon à ne proposer de voyages au 
 
 Voici un exemple d&#39;application de la règle de typologie créée précédemment.
 
-Nous voulons envoyer une première proposition d’offre appartenant à la catégorie Canada.Si l’offre est rejetée par une des personnes destinataires une première fois, elle ne lui est pas proposée à nouveau.
+Nous voulons envoyer une première proposition d’offre appartenant à la catégorie Canada. Si l’offre est rejetée par une des personnes destinataires une première fois, elle ne lui est pas proposée à nouveau.
 
 1. Dans le dossier de destinataires **Grands voyageurs**, sélectionnez un des profils pour vérifier les offres auxquelles il est éligible : cliquez sur l&#39;onglet **[!UICONTROL Propositions]**, puis le sous-onglet **[!UICONTROL Prévisualisation]**.
 

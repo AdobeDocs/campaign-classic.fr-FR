@@ -9,26 +9,34 @@ exl-id: 4520504a-0d9f-4ea7-a5a8-0c07948af4f0
 TQID: https://experienceleague.adobe.com/aA0JGU2WkqRg5jjJ0HIeQVEoSZ0iKTO6mb2ORC3kvcg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1100
+workflow-type: tm+mt
+source-wordcount: '1100'
 ht-degree: 100%
-
 ---
-
 # Créer des notifications pour iOS{#create-notifications-ios}
 
 Cette section présente les éléments spécifiques à la diffusion de notifications iOS. Les concepts généraux de création d’une diffusion sont présentés dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}.
@@ -119,13 +127,13 @@ Pour créer une notification push pour les appareils iOS, procédez comme suit 
 
    * **[!UICONTROL Niveau d&#39;interruption]**:
 
-      * **[!UICONTROL Actif]** : défini par défaut, le système présente immédiatement la notification, illumine l’écran et peut émettre un son. Les notifications ne passent pas en mode Thème.
+     * **[!UICONTROL Actif]** : défini par défaut, le système présente immédiatement la notification, illumine l’écran et peut émettre un son. Les notifications ne passent pas en mode Thème.
 
-      * **[!UICONTROL Passif]** : le système ajoute la notification à la liste de notifications sans allumer l’écran ni émettre de son. Les notifications ne passent pas en mode Thème.
+     * **[!UICONTROL Passif]** : le système ajoute la notification à la liste de notifications sans allumer l’écran ni émettre de son. Les notifications ne passent pas en mode Thème.
 
-      * **[!UICONTROL Sensible à l’heure]** : le système présente immédiatement la notification, allume l’écran, peut émettre un son et passer en mode Concentration. Ce niveau ne nécessite pas d’autorisation spéciale de la part d’Apple.
+     * **[!UICONTROL Sensible à l’heure]** : le système présente immédiatement la notification, allume l’écran, peut émettre un son et passer en mode Concentration. Ce niveau ne nécessite pas d’autorisation spéciale de la part d’Apple.
 
-      * **[!UICONTROL Critique]** : le système présente immédiatement la notification, allume l’écran et contourne le bouton de désactivation ou le mode Concentration. Notez que ce niveau nécessite une autorisation spéciale de la part d’Apple.
+     * **[!UICONTROL Critique]** : le système présente immédiatement la notification, allume l’écran et contourne le bouton de désactivation ou le mode Concentration. Notez que ce niveau nécessite une autorisation spéciale de la part d’Apple.
 
    * **[!UICONTROL Score de pertinence]** : définissez un score de pertinence compris entre 0 et 100. Le système l’utilise pour trier les notifications dans le résumé de la notification.
 
@@ -137,7 +145,7 @@ Pour créer une notification push pour les appareils iOS, procédez comme suit 
 
    >[!NOTE]
    >
-   >Le style de notification (bannière ou alerte) n’est pas défini dans Adobe Campaign.Il dépend de la configuration sélectionnée par l’utilisateur ou l’utilisatrice dans ses paramètres iOS.Adobe Campaign vous permet toutefois de prévisualiser chaque type de style de notification.Cliquez sur la flèche en bas à droite pour passer d’un style à un autre.
+   >Le style de notification (bannière ou alerte) n’est pas défini dans Adobe Campaign. Il dépend de la configuration sélectionnée par l’utilisateur ou l’utilisatrice dans ses paramètres iOS. Adobe Campaign vous permet toutefois de prévisualiser chaque type de style de notification. Cliquez sur la flèche en bas à droite pour passer d’un style à un autre.
    >
    >L&#39;aperçu utilise l&#39;apparence d&#39;iOS 10.
 
@@ -151,7 +159,7 @@ Après l&#39;envoi des messages, vous pouvez surveiller et suivre vos diffusions
 
 ## Créer une notification iOS enrichie {#creating-ios-delivery}
 
-Avec iOS 10 ou version ultérieure, il est possible de générer des notifications enrichies.Adobe Campaign peut envoyer des notifications à l’aide de variables qui permettront à l’appareil d’afficher des notifications enrichies.
+Avec iOS 10 ou version ultérieure, il est possible de générer des notifications enrichies. Adobe Campaign peut envoyer des notifications à l’aide de variables qui permettront à l’appareil d’afficher des notifications enrichies.
 
 Vous devez maintenant créer une nouvelle diffusion et l’associer à l’application mobile que vous avez créée.
 

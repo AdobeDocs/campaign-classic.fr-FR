@@ -7,17 +7,17 @@ exl-id: a52bc140-072e-4f81-b6da-f1b38662bce5
 TQID: https://experienceleague.adobe.com/lVjiHCruVE2IpwsTkjcNtccmpoSF1aeZ-PFRjcIwf7g
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 513
+workflow-type: tm+mt
+source-wordcount: '513'
 ht-degree: 100%
-
 ---
-
 # Conception de modèles de messages transactionnels {#creating-the-message-template}
 
 
@@ -60,16 +60,16 @@ Les modèles de message transactionnel contiennent les informations nécessaires
 
 ## Création du contenu du message {#creating-message-content}
 
-La définition du contenu du message transactionnel est la même que pour les diffusions classiques dans Adobe Campaign.Par exemple, pour une diffusion e-mail, vous pouvez créer du contenu au format HTML ou texte, ajouter des pièces jointes ou personnaliser l&#39;objet de diffusion. Voir à ce sujet le chapitre [Diffuser par email](../../delivery/using/about-email-channel.md).
+La définition du contenu du message transactionnel est la même que pour les diffusions classiques dans Adobe Campaign. Par exemple, pour une diffusion e-mail, vous pouvez créer du contenu au format HTML ou texte, ajouter des pièces jointes ou personnaliser l&#39;objet de diffusion. Voir à ce sujet le chapitre [Diffuser par email](../../delivery/using/about-email-channel.md).
 
 >[!IMPORTANT]
 >
->Les images incluses dans le message doivent être accessibles publiquement.Adobe Campaign ne fournit pas de mécanisme de chargement des images pour les messages transactionnels.\
+>Les images incluses dans le message doivent être accessibles publiquement. Adobe Campaign ne fournit pas de mécanisme de chargement des images pour les messages transactionnels.\
 >Contrairement à JSSP ou webApp, `<%=` n&#39;a pas de séquence d&#39;échappement par défaut.
 >
 >Dans ce cas, vous devez appliquer une séquence d&#39;échappement correcte à toutes les données provenant de l&#39;événement. Cette séquence d&#39;échappement dépend de l&#39;utilisation de ce champ. Par exemple, dans une URL, utilisez encodeURIComponent. Pour un affichage dans le code HTML, vous pouvez utiliser escapeXMLString.
 
-Lorsque vous avez défini le contenu de votre message, vous pouvez intégrer les informations sur l’événement dans le corps du message et les personnaliser.Les informations sur l’événement sont insérées dans le corps du texte à l’aide de balises de personnalisation.
+Lorsque vous avez défini le contenu de votre message, vous pouvez intégrer les informations sur l’événement dans le corps du message et les personnaliser. Les informations sur l’événement sont insérées dans le corps du texte à l’aide de balises de personnalisation.
 
 ![](assets/messagecenter_create_content_001.png)
 

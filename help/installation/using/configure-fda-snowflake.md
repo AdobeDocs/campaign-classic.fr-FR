@@ -10,17 +10,17 @@ exl-id: bdb5e422-ecfe-42eb-bd15-39fe5ec0ff1d
 TQID: https://experienceleague.adobe.com/1Je4UdKtftgQaeTX77rBrgezn2pIBRlHAG4DPavfE14
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 560
+source-wordcount: '560'
 ht-degree: 100%
-
 ---
-
 # Configurer l’accès à Snowflake {#configure-access-to-snowflake}
 
 Utilisez l&#39;option Campaign **Federated Data Access** (FDA) pour traiter les informations stockées dans une base de données externe. Suivez les étapes ci-dessous pour Configuration de l&#39;accès à [!DNL Snowflake].
@@ -102,9 +102,9 @@ Vous devez créer un compte externe [!DNL Snowflake] pour connecter votre instan
 
    * Pour l’authentification par compte/mot de passe, vous devez indiquer :
 
-      * **[!UICONTROL Compte]** : nom de l’utilisateur
+     * **[!UICONTROL Compte]** : nom de l’utilisateur
 
-      * **[!UICONTROL Mot de passe]** : mot de passe du compte d’utilisateur.
+     * **[!UICONTROL Mot de passe]** : mot de passe du compte d’utilisateur.
 
      ![](assets/snowflake.png)
 

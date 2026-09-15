@@ -5,22 +5,27 @@ exl-id: f01948c7-b523-492d-a4e8-67f4adde5fc5
 TQID: https://experienceleague.adobe.com/drpNkA9cj7Prid--GixHMQ48CO7ZC9qqX4w5fnTiD88
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1244
+workflow-type: tm+mt
+source-wordcount: '1266'
 ht-degree: 100%
-
 ---
-
 # Migrer les opérateurs et opératrices de Campaign vers Adobe Identity Management System (IMS) {#migrate-users-to-ims}
 
 Dans le cadre de ses efforts constants pour renforcer la sécurité et le processus d’authentification, Adobe Campaign recommande vivement de migrer le mode d’authentification de l’utilisateur ou de l’utilisatrice, et de passer de l’authentification native par nom d’utilisateur ou d’utilisatrice/mot de passe à Adobe Identity Management System (IMS). Tous les opérateurs et opératrices doivent implémenter [Adobe Identity Management System (IMS)](https://helpx.adobe.com/fr/enterprise/using/identity.html){target="_blank"} pour se connecter à Campaign.
@@ -51,9 +56,9 @@ Cette modification s’applique à partir de Campaign Classic v7.4.1 (et des d
 >
 >**Conséquences de l’accès au Panneau de contrôle**
 >
->Une fois vos utilisateurs et utilisatrices migrés vers IMS, tout profil de produit dans Adobe Admin Console contenant le mot « admin » dans son nom (par exemple, « Administrateurs », « Administratrices », « admin », « admins », « admin d’approbation », etc.)accordera automatiquement l’accès au Panneau de Contrôle Campaign.Le Panneau de contrôle est un outil en libre-service qui permet d’apporter d’importantes modifications aux instances de Campaign.
+>Une fois vos utilisateurs et utilisatrices migrés vers IMS, tout profil de produit dans Adobe Admin Console contenant le mot « admin » dans son nom (par exemple, « Administrateurs », « Administratrices », « admin », « admins », « admin d’approbation », etc.) accordera automatiquement l’accès au Panneau de Contrôle Campaign. Le Panneau de contrôle est un outil en libre-service qui permet d’apporter d’importantes modifications aux instances de Campaign.
 >
->Examinez attentivement les conventions de nommage de votre profil de produit pour vous assurer que seules les personnes autorisées aient accès au Panneau de contrôle.En savoir plus sur la gestion des autorisations du Panneau de contrôle dans la [documentation sur le Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr){target="_blank"}.
+>Examinez attentivement les conventions de nommage de votre profil de produit pour vous assurer que seules les personnes autorisées aient accès au Panneau de contrôle. En savoir plus sur la gestion des autorisations du Panneau de contrôle dans la [documentation sur le Panneau de contrôle](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=fr){target="_blank"}.
 
 
 ## Comment migrer les environnements hébergés et Managed Services ? {#ims-migration-procedure}
@@ -96,8 +101,8 @@ Vous pouvez désormais migrer vos opérateurs et opératrices techniques vers Ad
 
 ### Comment créer des utilisateurs et utilisatrices après la migration ? {#ims-migration-native}
 
-Adobe recommande de ne créer les utilisateurs et utilisatrices IMS qu’après la mise à niveau vers Campaign Classic v7.4.1 (ou une [version compatible pour la migration IMS](#ims-versions)).
-À compter de la version 7.4.1 de Campaign, vous pouvez empêcher la création native d’opérateurs et d’opératrices en mettant à jour la configuration de votre instance, comme indiqué dans [cette page](impact-ims-migration.md).
+Adobe recommande de ne créer que des utilisateurs et utilisatrices IMS après la mise à niveau vers Campaign Classic v7.4.1 (ou une [version compatible avec la migration IMS](#ims-versions)).
+À compter de Campaign v7.4.1, vous pouvez empêcher la création d’opérateurs et d’opératrices natifs en mettant à jour la configuration de votre instance, comme décrit sur [cette page](impact-ims-migration.md).
 
 En tant qu’administrateur ou administratrice Campaign, vous pouvez accorder des autorisations aux utilisateurs et utilisatrices de votre entreprise via Adobe Admin Console et la console cliente Campaign. Les utilisateurs et utilisatrices peuvent se connecter à Adobe Campaign au moyen de leur Adobe ID. Découvrez comment configurer des autorisations avec IMS dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=fr){target="_blank"}.
 

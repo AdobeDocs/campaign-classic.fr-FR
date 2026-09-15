@@ -8,18 +8,20 @@ exl-id: d345ba62-c2fb-43df-a2a1-e9e4292d301a
 TQID: https://experienceleague.adobe.com/dCnvgLZ-5ST-VJqWLXZ2c5XxXqXUxO1G78WnrCFyIqA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 source-git-commit: c35995a47788db080636c66827a4bd6dc98806cf
-workflow-type: ht
-source-wordcount: 1280
+workflow-type: tm+mt
+source-wordcount: '1280'
 ht-degree: 100%
-
 ---
-
 # Démarrage dʼun workflow {#starting-a-workflow}
 
 
@@ -75,14 +77,14 @@ Les boutons de la barre d&#39;outils sont décrits dans cette [section](../../ca
   Les actions **[!UICONTROL Démarrer / Pause / Stopper / Redémarrer]** sont également disponibles via les icônes d&#39;exécution de la barre d&#39;outils. Pour plus d’informations à ce sujet, consultez cette [section](../../campaign/using/marketing-campaign-deliveries.md#creating-a-targeting-workflow).
 
   Notez que l’action **Redémarrer** n’efface pas les variables d’instance de workflow comme les actions **Exécution**, **Arrêter**, et **Démarrer** (l’effacement des variables d’instance se produisant lors de l’action Démarrer). Lors du redémarrage d’un workflow, les variables d’instance peuvent toujours être utilisées avec leurs valeurs conservées. Pour les effacer, vous pouvez effectuer l’une des opérations suivantes :
-   * Effectuez les actions **Arrêter** et **Démarrer**.
-   * Ajoutez le code JavaScript ci-dessous à la fin de l’exécution de votre workflow :
+  * Effectuez les actions **Arrêter** et **Démarrer**.
+  * Ajoutez le code JavaScript ci-dessous à la fin de l’exécution de votre workflow :
 
-     ```
-     var wkf = xtk.workflow.load(instance.id)
-     wkf.variables='<variables/>'
-     wkf.save()
-     ```
+    ```
+    var wkf = xtk.workflow.load(instance.id)
+    wkf.variables='<variables/>'
+    wkf.save()
+    ```
 
 * **[!UICONTROL Purge de l&#39;historique]**
 

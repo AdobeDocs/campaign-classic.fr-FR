@@ -7,18 +7,19 @@ exl-id: 22f4cbaf-ca37-47b9-b7dd-1ee73d5b348d
 TQID: https://experienceleague.adobe.com/6CrzuBxAxGlXi08NxwdnigO2bNu700luLxnz-3KzZ18
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 feature_v2: []
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 274
+source-wordcount: '274'
 ht-degree: 100%
-
 ---
-
 # Comment activer Microsoft Edge Chromium dans votre environnement {#edge-conf}
 
 ## Qu’est-ce qui a changé ?
@@ -45,25 +46,25 @@ Si votre environnement a été mis à niveau vers Campaign Classic v7.3 (ou ve
 
   Pour ce faire, respectez les étapes suivantes sur tous vos environnements (MKT, MID, RT) :
 
-   1. Modifiez le fichier de configuration du serveur Campaign (`serverConf.xml`).
-   1. Dans le module `<web>`, définissez `webView2Mode = "1"`.
-   1. Exécutez la commande suivante pour recharger la configuration du serveur :
+  1. Modifiez le fichier de configuration du serveur Campaign (`serverConf.xml`).
+  1. Dans le module `<web>`, définissez `webView2Mode = "1"`.
+  1. Exécutez la commande suivante pour recharger la configuration du serveur :
 
-      ```
-      nlserver config -reload
-      ```
+     ```
+     nlserver config -reload
+     ```
 
-   1. Exécutez la commande suivant afin de redémarrer le serveur web :
+  1. Exécutez la commande suivant afin de redémarrer le serveur web :
 
-      ```
-      nlserver restart web
-      ```
+     ```
+     nlserver restart web
+     ```
 
-   1. Si votre environnement utilise Apache en tant que serveur web, exécutez la commande suivante pour redémarrer Apache :
+  1. Si votre environnement utilise Apache en tant que serveur web, exécutez la commande suivante pour redémarrer Apache :
 
-      ```
-      /etc/init.d/apache2 restart
-      ```
+     ```
+     /etc/init.d/apache2 restart
+     ```
 
 
 >[!NOTE]

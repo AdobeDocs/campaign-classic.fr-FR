@@ -7,17 +7,18 @@ exl-id: dc52e789-d0bf-4e8f-b448-9d69a2762cc1
 TQID: https://experienceleague.adobe.com/n4w2hZkuzHlD3Axc1tUCGfBQ13D28j3Xpmdh07tVr4g
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: d3b34fea-a110-482f-adb2-aae8d686bac8
+    internal-label: Transactional messaging
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: ht
-source-wordcount: 664
+workflow-type: tm+mt
+source-wordcount: '664'
 ht-degree: 100%
-
 ---
-
 # Commencer avec les messages transactionnels {#about-transactional-messaging}
 
 

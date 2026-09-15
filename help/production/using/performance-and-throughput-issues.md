@@ -3,7 +3,7 @@ product: campaign
 title: Problèmes de performance et de débit
 description: Problèmes de performance et de débit
 feature: Monitoring
-badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -11,25 +11,30 @@ exl-id: fe69efda-a052-4f67-9c13-665f011d0a2b
 TQID: https://experienceleague.adobe.com/THf7A2u5ktNphqdI8K8ePzLNqCdyCmcqWN0OpYJfVh0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2: []
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 805
+workflow-type: tm+mt
+source-wordcount: '793'
 ht-degree: 100%
-
 ---
-
 # Problèmes de performance et de débit{#performance-and-throughput-issues}
 
-Tout d’abord, vérifiez que vous avez installé la dernière version.Vous disposez ainsi des fonctionnalités et correctifs de bug les plus récents.
+Tout d’abord, vérifiez que vous avez installé la dernière version. Vous disposez ainsi des fonctionnalités et correctifs de bug les plus récents.
 
 Consultez les [Notes de mise à jour](../../rn/using/latest-release.md) pour plus d&#39;informations sur le contenu de chaque version.
 
@@ -37,22 +42,22 @@ Consultez les [Notes de mise à jour](../../rn/using/latest-release.md) pour plu
 
 Les instructions générales concernant les exigences matérielles pour Campaign Classic on-premise sont présentées dans cette [page](https://helpx.adobe.com/fr/campaign/kb/hardware-sizing-guide.html).
 
-L’équipe conseil peut fournir aux clientes et clients hébergés un outil qui permet d’afficher facilement l’espace utilisé par divers types de tables dans la base de données, ainsi que celui utilisé sur le site SFTP.Elle propose également des outils permettant de nettoyer les données inutiles.Contactez l&#39;[Assistance clientèle d&#39;Adobe ](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) si vous avez besoin que cet outil soit implémenté. Voici quelques éléments importants à vérifier lors de l&#39;utilisation de cet outil :
+L’équipe conseil peut fournir aux clientes et clients hébergés un outil qui permet d’afficher facilement l’espace utilisé par divers types de tables dans la base de données, ainsi que celui utilisé sur le site SFTP. Elle propose également des outils permettant de nettoyer les données inutiles. Contactez l&#39;[Assistance clientèle d&#39;Adobe ](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) si vous avez besoin que cet outil soit implémenté. Voici quelques éléments importants à vérifier lors de l&#39;utilisation de cet outil :
 
 * Un nettoyage est requis si la taille de l’index est supérieure à la taille de la table.
-* Vérifiez les tables les plus remplies.Si celles-ci sont fréquemment utilisées, il est important de les nettoyer.
+* Vérifiez les tables les plus remplies. Si celles-ci sont fréquemment utilisées, il est important de les nettoyer.
 * Le blocage de la base de données peut empêcher l’envoi des emails.
 
 Adobe Campaign fournit également un [outil](../../production/using/monitoring-processes.md#manual-monitoring) permettant de vérifier l’utilisation du processeur et de la mémoire vive (RAM). Utilisez cet outil et observez des indicateurs spécifiques tels que : **Mémoire**, **Mémoire d’échange**, **Disque**, **Processus actifs**. Si les valeurs sont trop élevées, vous pouvez essayer de réduire le nombre de workflows ou de les planifier de manière à ce qu’ils démarrent en décalé.
 
 ## Vérification de la base de données {#database-performances}
 
-La plupart du temps, les problèmes de performances sont liés à la maintenance de la base de données.Voici les principaux éléments à vérifier :
+La plupart du temps, les problèmes de performances sont liés à la maintenance de la base de données. Voici les principaux éléments à vérifier :
 
 * Configuration : nous recommandons de vérifier la configuration initiale de la plateforme d’Adobe Campaign et d’effectuer une vérification complète de la configuration matérielle.
 * Installation et configuration de la plateforme Adobe Campaign : vérifiez la configuration du réseau et les options de délivrabilité de la plateforme.
-* Maintenance de la base de données : assurez-vous que la tâche de nettoyage de la base de données fonctionne correctement et que la maintenance de la base de données est correctement planifiée et exécutée.Vérifiez le nombre et la taille des tables de travail.
-* Diagnostic en temps réel : vérifiez les fichiers journaux des processus et de la plateforme, puis suivez l’activité de la base lors de la reproduction du problème.
+* Maintenance de la base de données : assurez-vous que la tâche de nettoyage de la base de données fonctionne correctement et que la maintenance de la base de données est correctement planifiée et exécutée. Vérifiez le nombre et la taille des tables de travail.
+* Diagnostic en temps réel : vérifiez les fichiers journaux des processus et de la plateforme, puis suez l’activité de la base lors de la reproduction du problème.
 
 >[!NOTE]
 >
@@ -63,7 +68,7 @@ La plupart du temps, les problèmes de performances sont liés à la maintenance
 Voici une liste d’articles relatifs aux bonnes pratiques en matière de configuration des applications :
 
 * Processus et mémoire MTA et MTAChild : le module **mta** distribue les messages à ses modules enfants **mtachild**. Chaque **mtachild** prépare les messages, puis demande l’autorisation au serveur de statistiques avant de les envoyer. Voir cette [page](../../installation/using/email-deliverability.md) pour plus d’informations.
-* Configuration de TLS : il n’est pas recommandé d’activer TLS de manière globale, car cela peut réduire le débit.Au lieu de cela, les paramètres TLS par domaine, gérés par l’équipe chargée de la délivrabilité, doivent être réglés en fonction des besoins.Voir cette [page](../../installation/using/email-deliverability.md#mx-configuration) pour plus d’informations.
+* Configuration de TLS : il n’est pas recommandé d’activer TLS de manière globale, car cela peut réduire le débit. Au lieu de cela, les paramètres TLS par domaine, gérés par l’équipe chargée de la délivrabilité, doivent être réglés en fonction des besoins. Voir cette [page](../../installation/using/email-deliverability.md#mx-configuration) pour plus d’informations.
 
   >[!NOTE]
   >
@@ -75,16 +80,16 @@ Voici une liste d’articles relatifs aux bonnes pratiques en matière de config
 
 Voici une liste des bonnes pratiques et des articles liés à la délivrabilité :
 
-* Réputation IP : si la réputation IP n’est pas assez bonne, il y aura un impact sur la performance. Le module de **Suivi de la délivrabilité** propose divers outils pour suivre les performances de délivrabilité de votre plateforme. Voir cette [page](../../delivery/using/about-delivery-monitoring.md#deliverability-monitoring).
-* Préchauffage d’une adresse IP : ce processus est effectué par l’équipe chargée de la délivrabilité.Il s’agit d’augmenter progressivement le nombre d’e-mails par le biais de nouvelles adresses IP sur une période de quelques semaines.
+* Réputation IP : si la réputation IP n’est pas assez bonne, il y aura un impact sur la performance. Le module de **Su de la délivrabilité** propose divers outils pour suivre les performances de délivrabilité de votre plateforme. Voir cette [page](../../delivery/using/about-delivery-monitoring.md#deliverability-monitoring).
+* Préchauffage d’une adresse IP : ce processus est effectué par l’équipe chargée de la délivrabilité. Il s’agit d’augmenter progressivement le nombre d’e-mails par le biais de nouvelles adresses IP sur une période de quelques semaines.
 
   >[!NOTE]
   >
   >L’engagement de l’équipe chargée de la délivrabilité repose sur un contrat. La clientèle doit contacter son représentant ou sa représentante Adobe pour obtenir des informations relatives à l’engagement en matière de délivrabilité.
 
 * Configuration de l’affinité IP : une configuration incorrecte de l’affinité IP peut stopper complètement les emails (nom d’opérateur incorrect/affinité incorrecte dans la configuration) ou réduire le débit (petit nombre d’IP dans l’affinité). Voir cette [page](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use).
-* Taille des e-mails : la taille des e-mails joue un rôle important dans le débit.La taille maximale recommandée pour les e-mails est de 60 Ko.Consultez cette [page](https://helpx.adobe.com/fr/legal/product-descriptions/campaign.html). Dans le rapport [Débit de diffusion](../../reporting/using/global-reports.md#delivery-throughput), vérifiez le nombre d’octets transférés par heure.
-* Grand nombre de personnes destinataires non valides : lorsque de nombreuses personnes destinataires ne sont pas valides, cela peut avoir un impact sur le débit.Le MTA tente de renvoyer les e-mails aux destinataires non valides.Assurez-vous que votre base de données est bien tenue à jour.
+* Taille des e-mails : la taille des e-mails joue un rôle important dans le débit. La taille maximale recommandée pour les e-mails est de 60 Ko. Consultez cette [page](https://helpx.adobe.com/fr/legal/product-descriptions/campaign.html). Dans le rapport [Débit de diffusion](../../reporting/using/global-reports.md#delivery-throughput), vérifiez le nombre d’octets transférés par heure.
+* Grand nombre de personnes destinataires non valides : lorsque de nombreuses personnes destinataires ne sont pas valides, cela peut avoir un impact sur le débit. Le MTA tente de renvoyer les e-mails aux destinataires non valides. Assurez-vous que votre base de données est bien tenue à jour.
 * Niveau de personnalisation : si le statut d’une diffusion reste en « Personnalisation en cours », vérifiez le JavaScript utilisé dans les blocs de personnalisation.
 
 >[!NOTE]

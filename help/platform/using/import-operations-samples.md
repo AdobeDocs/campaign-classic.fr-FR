@@ -3,7 +3,7 @@ product: campaign
 title: Exemples d'import générique
 description: En savoir plus sur les imports génériques que vous pouvez effectuer à l'aide des traitements d'imports
 feature: Data Management
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -11,21 +11,25 @@ exl-id: 4582b524-2b6d-484c-bace-29d2e69f60e9
 TQID: https://experienceleague.adobe.com/NkKTg-a9jjxPxMawe-IUgd9V99qaoxUwWaM3-h4aUf0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1118
+workflow-type: tm+mt
+source-wordcount: '1109'
 ht-degree: 100%
-
 ---
-
 # Exemples d&#39;import générique {#import-operations-samples}
 
 
@@ -105,17 +109,17 @@ Pour importer dans la base Adobe Campaign de nouveaux profils de destinataires 
 
      Le mode **[!UICONTROL Tracking]** vous permet de suivre les détails de l&#39;import pour chacun des enregistrements du fichier source. Pour cela, à partir de la page d&#39;accueil, cliquez sur **[!UICONTROL Profils et Cibles]** puis **[!UICONTROL Traitements]**, sélectionnez cet import et consultez les onglets **[!UICONTROL Général]**, **[!UICONTROL Journal]** et **[!UICONTROL Rejets]**.
 
-      * Consultation du déroulement de l&#39;import
+     * Consultation du déroulement de l&#39;import
 
-        ![](assets/s_ncs_user_import_example07_01.png)
+       ![](assets/s_ncs_user_import_example07_01.png)
 
-      * Consultation du traitement pour chaque enregistrement
+     * Consultation du traitement pour chaque enregistrement
 
-        ![](assets/s_ncs_user_import_example07_02.png)
+       ![](assets/s_ncs_user_import_example07_02.png)
 
 ## Mise à jour et insertion de destinataires {#example--update-and-insert-recipients}
 
-Vous souhaitez mettre à jour des enregistrements déjà existants dans la base de données et en créer de nouveaux à partir d’un fichier texte.Voici un exemple de procédure :
+Vous souhaitez mettre à jour des enregistrements déjà existants dans la base de données et en créer de nouveaux à partir d’un fichier texte. Voici un exemple de procédure :
 
 1. Choix du modèle
 
@@ -157,7 +161,7 @@ Vous souhaitez mettre à jour des enregistrements déjà existants dans la base 
 
 Vous souhaitez modifier certains champs dans une table de la base de données depuis un fichier texte en privilégiant les valeurs contenues dans la base de données.
 
-Dans cet exemple, vous noterez que certains champs de votre fichier texte ont une valeur alors que les champs correspondants dans la base de données sont vides.Les autres champs contiennent une valeur différente de celle contenue dans la base de données.
+Dans cet exemple, vous noterez que certains champs de votre fichier texte ont une valeur alors que les champs correspondants dans la base de données sont vides. Les autres champs contiennent une valeur différente de celle contenue dans la base de données.
 
 * Contenu du fichier texte à importer
 
@@ -208,7 +212,7 @@ Les étapes sont les suivantes :
 
 Vous souhaitez modifier certains champs dans une table de la base de données depuis un fichier texte et privilégier les valeurs contenues dans le fichier texte.
 
-Dans cet exemple, vous noterez que certains champs de votre fichier texte ont une valeur vide alors que les champs correspondants dans la base de données ne le sont pas.Les autres champs contiennent une valeur différente de celle de la base de données.
+Dans cet exemple, vous noterez que certains champs de votre fichier texte ont une valeur vide alors que les champs correspondants dans la base de données ne le sont pas. Les autres champs contiennent une valeur différente de celle de la base de données.
 
 * Contenu du fichier texte à importer
 

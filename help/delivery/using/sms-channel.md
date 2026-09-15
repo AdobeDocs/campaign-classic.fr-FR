@@ -8,26 +8,34 @@ exl-id: 6fc2ab09-8ea7-4865-88ad-bd45eee68958
 TQID: https://experienceleague.adobe.com/bk-HUOGv3u60NzOnXD0huo74lBJJuiBOaOJeGmPa2E4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 484
+source-wordcount: '484'
 ht-degree: 100%
-
 ---
-
 # Prise en main du canal SMS{#sms-channel}
 
 Utilisez Adobe Campaign pour envoyer des messages texte aux clients et aux clientes sur leurs appareils mobiles. Vous pouvez créer, personnaliser et prévisualiser des messages au format texte à partir de l’éditeur de SMS.
@@ -56,7 +64,7 @@ Découvrez les étapes clés de la création d’une diffusion SMS dans la **doc
 * [Sélectionner l’audience](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/create-sms/sms-audience.html?lang=fr){target="_blank"} : la cible principale est extraite de la base de données d’Adobe Campaign ou peut aussi provenir d’un fichier externe.
 * [Envoyer des BAT SMS](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-proofs.html?lang=fr) : il est essentiel de configurer un cycle de validation de la diffusion. Assurez-vous que votre contenu est approuvé avant de l’envoyer à votre audience.
 * [Envoyer à l’audience](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/validate-sms/sms-send.html?lang=fr) : une fois votre SMS validé, vous pouvez désormais l’envoyer à son audience.
-* [Superviser et suivre une diffusion SMS](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms-monitor.html?lang=fr) : suivez votre diffusion SMS pour garantir l’efficacité de vos campagnes marketing.
+* [Su et suivre une diffusion SMS](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/sms/sms-monitor.html?lang=fr) : suivez votre diffusion SMS pour garantir l’efficacité de vos campagnes marketing.
 
 
 >[!TAB Configuration des SMS]

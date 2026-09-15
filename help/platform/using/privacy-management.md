@@ -3,7 +3,7 @@ product: campaign
 title: Gestion de la confidentialité
 description: En savoir plus sur la gestion de la confidentialité
 feature: Privacy, Privacy Tools
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: starting-with-adobe-campaign
@@ -11,24 +11,31 @@ exl-id: 23c873fd-9016-4d32-842c-772cfff0e23e
 TQID: https://experienceleague.adobe.com/Q6i-WzW5-Jq5u5hfZB66tP-vkX2yD04BmAyR1Bys45A
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 feature_v2:
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 916
+source-wordcount: '907'
 ht-degree: 100%
-
 ---
-
 # Gestion de la confidentialité {#privacy-management}
 
 Adobe Campaign propose un ensemble d’outils pour vous aider à vous conformer aux [règlements sur la protection des données](#privacy-management-regulations) (notamment RGPD, CCPA, PDPA, LGPD).
@@ -81,9 +88,9 @@ Pour faciliter la préparation à la protection des données, Adobe Campaign pe
 Pour découvrir comment créer des demandes d’**accès** et de **suppression**, ainsi que leur traitement par Adobe Campaign, consultez la section [Étapes d’implémentation](../../platform/using/privacy-requests.md).
 
 <!--
-Tutorials on Privacy management in Campaign Standard are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=fr).
+Tutorials on Privacy management in Campaign Standard are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html).
 
-https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=fr
+https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html
 -->
 
 ## Consentement, conservation des données et rôles {#consent-retention-roles}

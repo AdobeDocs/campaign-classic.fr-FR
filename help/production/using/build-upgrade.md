@@ -3,7 +3,7 @@ product: campaign
 title: Prise en main des mises à niveau de build
 description: Découvrez les étapes principales d’une mise à niveau vers un nouveau build
 feature: Monitoring, Upgrade
-badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
@@ -11,30 +11,36 @@ exl-id: c5a9c99a-4078-45d8-847b-6df9047a2fe2
 TQID: https://experienceleague.adobe.com/XC0Q-35cYPjVHM-h2GNE570DqM8vxjSicu4vxnqYuSo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 2379
+workflow-type: tm+mt
+source-wordcount: '2410'
 ht-degree: 100%
-
 ---
-
 # Réalisation d’une mise à niveau de build{#performing-a-build-upgrade}
 
 
 
 Cette section présente la procédure détaillée pour réaliser une mise à niveau et les étapes nécessaires pour identifier et résoudre les conflits.
 
-La mise à niveau du build doit être effectuée avec précaution. Ses effets doivent être entièrement étudiés au préalable et la procédure doit être suivie à la lettre.Pour garantir la réussite d’une mise à niveau, veillez à ce que la procédure décrite ci-dessous soit effectuée par des personnes disposant de l’expertise nécessaire.De plus, il est vivement recommandé de contacter l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) avant de commencer une mise à niveau.
+La mise à niveau du build doit être effectuée avec précaution. Ses effets doivent être entièrement étudiés au préalable et la procédure doit être suivie à la lettre. Pour garantir la réussite d’une mise à niveau, veillez à ce que la procédure décrite ci-dessous soit effectuée par des personnes disposant de l’expertise nécessaire. De plus, il est vivement recommandé de contacter l’[Assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) avant de commencer une mise à niveau.
 
 Les prérequis suivants doivent être remplis :
 
@@ -44,21 +50,21 @@ Les prérequis suivants doivent être remplis :
 
 Vous trouverez plus d’informations dans ces sections : [Mise à jour d’Adobe Campaign](../../production/using/upgrading.md), [Migration vers une nouvelle version](../../migration/using/about-migration.md).
 
-Pour les instances hybrides et hébergées, vous devez demander une mise à niveau du build à l’équipe d’exploitation technique Adobe.Pour plus d’informations, reportez-vous à la section Questions fréquentes située au bas de cette page.Consultez également le [FAQ sur la mise à niveau des builds](../../platform/using/faq-build-upgrade.md).
+Pour les instances hybrides et hébergées, vous devez demander une mise à niveau du build à l’équipe d’exploitation technique Adobe. Pour plus d’informations, reportez-vous à la section Questions fréquentes située au bas de cette page. Consultez également le [FAQ sur la mise à niveau des builds](../../platform/using/faq-build-upgrade.md).
 
 ## Préparer la mise à niveau
 
 ![](assets/do-not-localize/icon_planification.png)
 
-Avant de commencer la mise à niveau du build, vous devez effectuer une préparation complète, comme décrit ci-après.
-Une fois que le système est prêt, une mise à niveau de build demande **au moins** 2 heures.
+Avant de commencer la mise à niveau de build, vous devez effectuer une préparation complète, comme décrit ci-après.
+Une fois que le système prêt, une mise à niveau dure **au moins** 2 heures.
 
 La mise à niveau de build requiert les ressources suivantes :
 
 * Un architecte Adobe : pour comprendre les structures de base de données (schémas d&#39;usine et autres schémas ajoutés, conceptions de campagnes et fonctionnalités de chemin critique devant être démarrées et testées dans un ordre spécifique).
 * Un chef de projet : dans le cas où la mise à niveau de build implique plusieurs instances différentes (production, intermédiaire, test) et d’autres serveurs et applications tiers (bases de données, sites SFTP, fournisseurs de services de messagerie), il est recommandé de faire appel à un chef de projet pour coordonner tous les tests.
-* Un administrateur ou une administratrice Adobe Campaign : votre administrateur ou administratrice connaît la configuration du serveur, notamment : la sécurité, la disposition des dossiers, le reporting et les exigences en matière d’import et d’export.N’effectuez pas de mise à niveau de build sans l’aide de votre équipe d’administration.
-* Un opérateur ou une opératrice Adobe Campaign (utilisateur ou utilisatrice marketing) : la réussite d’une mise à niveau dépend de la capacité de la personne à effectuer correctement ses tâches quotidiennes.Pour cette raison, incluez toujours au moins une personne de votre équipe d’opérateurs et d’opératrices quotidiens dans les tests de vos serveurs mis à niveau.
+* Un administrateur ou une administratrice Adobe Campaign : votre administrateur ou administratrice connaît la configuration du serveur, notamment : la sécurité, la disposition des dossiers, le reporting et les exigences en matière d’import et d’export. N’effectuez pas de mise à niveau de build sans l’aide de votre équipe d’administration.
+* Un opérateur ou une opératrice Adobe Campaign (utilisateur ou utilisatrice marketing) : la réussite d’une mise à niveau dépend de la capacité de la personne à effectuer correctement ses tâches quotidiennes. Pour cette raison, incluez toujours au moins une personne de votre équipe d’opérateurs et d’opératrices quotidiens dans les tests de vos serveurs mis à niveau.
 
 ### Planification
 
@@ -78,14 +84,14 @@ La mise à niveau de build requiert l’implication des personnes suivantes :
 * Architecte Adobe : l’architecte doit se charger de la coordination avec l’assistance clientèle d’Adobe Campaign en cas d’architecture hébergée ou hybride.
 
 * Chef de projet :
-   * Pour les installations On Premise : le chef de projet interne du client dirige la mise à niveau et gère les tests de cycle de vie.
+  * Pour les installations On Premise : le chef de projet interne du client dirige la mise à niveau et gère les tests de cycle de vie.
 
-   * Pour les installations hébergées : l’équipe d’hébergement s’associera à l’équipe de l’Assistance clientèle Adobe Campaign et au client pour coordonner la chronologie de la mise à niveau pour toutes les instances.
+  * Pour les installations hébergées : l’équipe d’hébergement s’associera à l’équipe de l’Assistance clientèle Adobe Campaign et au client pour coordonner la chronologie de la mise à niveau pour toutes les instances.
 
 * Administrateur Adobe Campaign :
-   * Pour les installations On-Premise : l’équipe chargée de l’administration effectue la mise à niveau.
+  * Pour les installations On-Premise : l’équipe chargée de l’administration effectue la mise à niveau.
 
-   * Pour les installations hébergées : l’équipe chargée de l’hébergement effectue la mise à niveau.
+  * Pour les installations hébergées : l’équipe chargée de l’hébergement effectue la mise à niveau.
 
 * Opérateur Adobe Campaign\utilisateur marketing : l&#39;opérateur effectue des tests sur les instances de développement, de test et de production.
 
@@ -128,7 +134,7 @@ Pour ce faire, procédez comme suit :
 
 1. Restaurez ces copies sur toutes les instances de l&#39;environnement-cible.
 
-1. Exécutez le script de cautérisation **nms:freezeInstance.js** sur l’environnement cible avant de le démarrer.(cela permettra l&#39;arrêt de tous les processus qui interagissent avec l&#39;extérieur : logs, tracking, diffusions, workflows de campagne, etc.).
+1. Exécutez le script de cautérisation **nms:freezeInstance.js** sur l’environnement cible avant de le démarrer. (cela permettra l&#39;arrêt de tous les processus qui interagissent avec l&#39;extérieur : logs, tracking, diffusions, workflows de campagne, etc.).
 
    ```
    nlserverjavacsriptnms:freezeInstance.js–instance:<dev> -arg:run
@@ -169,7 +175,7 @@ Afin de pouvoir remplacer tous les fichiers par la nouvelle version, il est néc
    >Assurez-vous que le serveur de redirection (webmdl) est arrêté afin que le fichier nlsrvmod.dll, qui est utilisé par IIS, puisse être remplacé par la nouvelle version.
    >
 
-1. Vérifiez qu’aucune tâche n’est active en exécutant la commande **nlserver pdump**.Si aucune tâche n’est active, la sortie doit ressembler à celle-ci :
+1. Vérifiez qu’aucune tâche n’est active en exécutant la commande **nlserver pdump**. Si aucune tâche n’est active, la sortie doit ressembler à celle-ci :
 
    ```
    C:\<installation path>\bin>nlserverpdump HH:MM:SS > Application Server for Adobe Campaign version x.x (build xxx) dated xx/xx/xxxx No tasks
@@ -279,9 +285,9 @@ Dans le contexte d’un environnement de mid-sourcing, vous devez effectuer les 
 
 ### Identifier les conflits
 
-Vous devez vérifier le résultat de la synchronisation. Cette procédure est effectuée uniquement par les clients on-premise.Pour les clients hébergés, elles sont gérées par l&#39;équipe d&#39;hébergement. Le résultat de la synchronisation peut être visualisé de deux manières :
+Vous devez vérifier le résultat de la synchronisation. Cette procédure est effectuée uniquement par les clients on-premise. Pour les clients hébergés, elles sont gérées par l&#39;équipe d&#39;hébergement. Le résultat de la synchronisation peut être visualisé de deux manières :
 
-Dans l’interface de ligne de commande, les erreurs sont matérialisées par un triple chevron « >>> » et la synchronisation s’interrompt immédiatement.Les avertissements sont signalés par un double chevron « >> » et doivent être résolus lorsque le processus de synchronisation est terminé.A la fin du postupgrade, un résumé est affiché dans l&#39;invite de commande. Par exemple :
+Dans l’interface de ligne de commande, les erreurs sont matérialisées par un triple chevron « >>> » et la synchronisation s’interrompt immédiatement. Les avertissements sont signalés par un double chevron « >> » et doivent être résolus lorsque le processus de synchronisation est terminé. A la fin du postupgrade, un résumé est affiché dans l&#39;invite de commande. Par exemple :
 
 ```
 YYYY-MM-DD HH:MM:SS.749Z 00002E7A 1 info log =========Summary of the update==========
@@ -309,7 +315,7 @@ Lorsqu&#39;un conflit est détecté, vérifiez si les conditions suivantes sont 
 * L&#39;objet a-t-il été modifié ou personnalisé par le client ?
 * L&#39;objet a-t-il changé dans le produit ?
 
-Si aucune de ces deux conditions n’est applicable, il s’agit d’un faux positif.Si ces deux conditions sont applicables, un conflit réel a été détecté.
+Si aucune de ces deux conditions n’est applicable, il s’agit d’un faux positif. Si ces deux conditions sont applicables, un conflit réel a été détecté.
 
 **L&#39;objet a-t-il été modifié par le client ?**
 
@@ -317,11 +323,11 @@ Si aucune de ces deux conditions n’est applicable, il s’agit d’un faux po
 1. Demandez au client s&#39;il a modifié l&#39;objet.
 1. L&#39;examen de l&#39;objet relève-t-il une anomalie ?
 1. La date de dernière modification est-elle définie dans le code de l&#39;objet ?
-1. Examinez le code XML depuis le conflit pour les attributs « _conflict ».Peut-il s’agir d’une personnalisation ?
+1. Examinez le code XML depuis le conflit pour les attributs « _conflict ». Peut-il s’agir d’une personnalisation ?
 
 **L&#39;objet a-t-il changé dans le nouveau build ?**
 
-1. Existe-t-il des « suspects habituels »,tels que des applications web ou des rapports intégrés (deliveryValidation, deliveryOverview ou budget, par exemple) ?
+1. Existe-t-il des « suspects habituels », tels que des applications web ou des rapports intégrés (deliveryValidation, deliveryOverview ou budget, par exemple) ?
 1. Recherchez des mises à jour dans les logs des modifications.
 1. Renseignez-vous auprès des utilisateurs experts d’Adobe Campaign.
 1. Comparez les versions du code pour rechercher des différences avec la commande diff.
@@ -332,8 +338,8 @@ Pour résoudre un conflit, procédez de la manière suivante :
 
 1. Dans l&#39;explorateur d&#39;Adobe Campaign, accédez à **Administration > Paramétrage > Gestion des packages > Edition des conflits**.
 
-1. Dans la liste, sélectionnez le conflit que vous souhaitez résoudre.
-Il existe trois façons de résoudre un conflit : **accepter la nouvelle version**, **conserver la version actuelle**, **fusionner le code (et déclarer le conflit comme résolu)**, **ignorer le conflit (non recommandé)**.
+1. Sélectionnez le conflit que vous souhaitez résoudre dans la liste.
+Il existe trois façons de résoudre un conflit : **accepter la nouvelle version**, **conserver la version actuelle**, **fusionner le code (et déclarer le conflit comme résolu)**, **ignorer le conflit (non recommandé)**.
 
 **Dans quels cas accepter la nouvelle version ?**
 
@@ -368,9 +374,9 @@ Il existe trois façons de résoudre un conflit : **accepter la nouvelle versi
 Il existe différents types de fusions :
 
 1. Fusion simple : les éléments nouveaux et personnalisés sont petits et non liés, et aucun code n&#39;est nécessaire.
-1. Aucune modification : acceptation de la nouvelle version, seule la date de dernière mise à jour a changé, uniquement les commentaires, les onglets, les espaces et les nouvelles lignes(enregistrement accidentel, par exemple).
-1. Modifications négligeables : une seule ligne a changé,par exemple, xpathToLoad.
-1. Fusion complexe : lorsque du code est requis.Des compétences en développement sont nécessaires.Voir [Fusion complexes](#complex-merges).
+1. Aucune modification : acceptation de la nouvelle version, seule la date de dernière mise à jour a changé, uniquement les commentaires, les onglets, les espaces et les nouvelles lignes (enregistrement accidentel, par exemple).
+1. Modifications négligeables : une seule ligne a changé, par exemple, xpathToLoad.
+1. Fusion complexe : lorsque du code est requis. Des compétences en développement sont nécessaires. Voir [Fusion complexes](#complex-merges).
 
 #### Comment fusionner ?
 
@@ -402,7 +408,7 @@ Il existe différents types de fusions :
 
 Si vous choisissez de résoudre le conflit manuellement, procédez comme suit :
 
-1. Dans la partie inférieure de la fenêtre, effectuez une recherche sur la chaîne **_conflit_** pour localiser les entités en conflit.L’entité installée avec la nouvelle version contient le nouvel argument. L’entité qui correspond à la version précédente contient l’argument personnalisé.
+1. Dans la partie inférieure de la fenêtre, effectuez une recherche sur la chaîne **_conflit_** pour localiser les entités en conflit. L’entité installée avec la nouvelle version contient le nouvel argument. L’entité qui correspond à la version précédente contient l’argument personnalisé.
 1. Supprimez la version que vous ne souhaitez pas conserver. Effacez la chaîne **_conflict_argument_** de l&#39;entité que vous gardez.
 1. Positionnez-vous sur le conflit que vous venez de résoudre. Cliquez sur l&#39;icône **Actions** et sélectionnez **Déclarer comme résolu**.
 1. Enregistrez vos modifications : le conflit est désormais résolu.

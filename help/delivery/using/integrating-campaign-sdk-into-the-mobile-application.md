@@ -9,29 +9,40 @@ exl-id: a5f6b82d-5561-4e56-b2ed-7fd6fd8c2b55
 TQID: https://experienceleague.adobe.com/-WrV4RTfV-NAowbLBcfEDXJrWMu9j8OjnIZcCSvSquY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1009
+workflow-type: tm+mt
+source-wordcount: '1009'
 ht-degree: 100%
-
 ---
-
 # Intégration du SDK Campaign à votre application {#integrating-campaign-sdk-into-the-mobile-application}
 
 >[!CAUTION]
@@ -128,7 +139,7 @@ La fonction d&#39;enregistrement permet :
   }
   ```
 
-  Si vous utilisez FCM (Firebase Cloud Messaging), nous vous conseillons d&#39;utiliser la fonction **registerDevice** lors de l&#39;appel de la fonction **onTokenRefresh** pour notifier Adobe Campaign du changement de token de l&#39;appareil mobile de l&#39;utilisateur.
+  Si vous utilisez FCM (Firebase Cloud Messaging), nous vous conseillons d’utiliser la fonction **registerDevice** lors de l&#39;appel de la fonction **onTokenRefresh** pour notifier Adobe Campaign du changement de jeton de l’appareil mobile.
 
   ```
   public class NeoTripFirebaseInstanceIDService extends FirebaseInstanceIdService {
@@ -320,7 +331,7 @@ La fonction d&#39;enregistrement permet :
 
 +++**Suivi des notifications silencieuses**
 
-iOS vous permet d’envoyer des notifications silencieuses, des notifications ou des données qui seront directement envoyées à une application mobile sans les afficher.Adobe Campaign vous permet de les suivre.
+iOS vous permet d’envoyer des notifications silencieuses, des notifications ou des données qui seront directement envoyées à une application mobile sans les afficher. Adobe Campaign vous permet de les suivre.
 
 Pour suivre votre notification silencieuse, suivez l&#39;exemple ci-après.
 
@@ -376,7 +387,7 @@ Le prototype de **registerDeviceStatus** est le suivant :
 
 Le **Statut** vous permet de déterminer si un enregistrement a été effectué avec succès ou si une erreur s’est produite.
 
-**ErrorReason** vous fournit des informations supplémentaires sur les erreurs qui se sont produites.Pour plus d’informations sur les erreurs disponibles et leur description, reportez-vous au tableau ci-dessous.
+**ErrorReason** vous fournit des informations supplémentaires sur les erreurs qui se sont produites. Pour plus d’informations sur les erreurs disponibles et leur description, reportez-vous au tableau ci-dessous.
 
 <table> 
  <thead>
@@ -652,7 +663,7 @@ A ce niveau, vous devez effectuer les opérations suivantes :
 
 * Associer votre extension de contenu à la catégorie envoyée par Adobe Campaign :
 
-  Si vous souhaitez que l’application mobile affiche une image, vous pouvez définir la valeur de la catégorie sur « image » dans Adobe Campaign et dans votre application mobile, vous créez une extension de notification avec le paramètre **UNNotificationExtensionCategory** défini sur « image ».Lorsque la notification push est reçue sur l’appareil, l’extension est appelée selon la valeur de la catégorie définie.
+  Si vous souhaitez que l’application mobile affiche une image, vous pouvez définir la valeur de la catégorie sur « image » dans Adobe Campaign et dans votre application mobile, vous créez une extension de notification avec le paramètre **UNNotificationExtensionCategory** défini sur « image ». Lorsque la notification push est reçue sur l’appareil, l’extension est appelée selon la valeur de la catégorie définie.
 
 * Définir la mise en page de la notification
 
@@ -660,7 +671,7 @@ A ce niveau, vous devez effectuer les opérations suivantes :
 
 * Afficher le contenu multimédia
 
-  Vous devez ajouter du code pour alimenter le widget avec les données multimédia.Voici un exemple de code pour une image :
+  Vous devez ajouter du code pour alimenter le widget avec les données multimédia. Voici un exemple de code pour une image :
 
   ```
   #import "NotificationViewController.h"

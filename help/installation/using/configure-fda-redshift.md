@@ -10,17 +10,17 @@ exl-id: ef2b98bd-441e-4e59-bb41-4e835e250663
 TQID: https://experienceleague.adobe.com/j-ZDe68d2AlmSqJsNTn8TAqN8Dq5jrB--lq5Ef4xJZY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 274
+source-wordcount: '274'
 ht-degree: 100%
-
 ---
-
 # Configurer l’accès à Amazon Redshift {#configure-access-to-redshift}
 
 Utilisez l’option Campaign **Federated Data Access** (FDA) pour traiter les informations stockées dans des bases de données externes. Suivez les étapes ci-dessous pour configurer l’accès à Amazon Redshift.

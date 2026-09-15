@@ -9,23 +9,29 @@ exl-id: 0188c3fe-8176-4904-8505-c47a72c20fcc
 TQID: https://experienceleague.adobe.com/r1Fnouqf-4hqCJ9jYqWI4pzNhqP0-XZBUHoZQr65DGI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 186
+source-wordcount: '186'
 ht-degree: 100%
-
 ---
-
 # À propos des étapes de création de diffusions {#about-delivery-creation}
 
 Les étapes clés de création d&#39;une diffusion sont les suivantes :
@@ -43,7 +49,7 @@ Les étapes clés de création d&#39;une diffusion sont les suivantes :
 
 1. **Envoyer la diffusion**. [En savoir plus](steps-sending-the-delivery.md)
 
-1. **Suivre la diffusion** (tracking, mise en quarantaine, rapports, etc.). Pour en savoir plus, consultez les sections [Surveillance des diffusions](about-delivery-monitoring.md) et [Suivi des messages](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"}.
+1. **Su la diffusion** (tracking, mise en quarantaine, rapports, etc.). Pour en savoir plus, consultez les sections [Surveillance des diffusions](about-delivery-monitoring.md) et [Suivi des messages](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/tracking/tracking){target="_blank"}.
 
 >[!NOTE]
 >

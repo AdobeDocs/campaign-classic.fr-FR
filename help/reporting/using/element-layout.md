@@ -2,27 +2,31 @@
 product: campaign
 title: Disposer les éléments
 description: Disposer les éléments
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting, Monitoring
 exl-id: 79d5c901-905b-4a0e-adb9-91fd6acb186f
 TQID: https://experienceleague.adobe.com/do7CqEaE2v7cdpI-mXZ2AQ6L4nsyDnEzEXdC-zHEcs4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 feature_v2:
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic Reporting
 subfeature_v2:
   - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
+    internal-label: Customize reports
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+    internal-label: Cubes and multidimensional analysis
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 442
+workflow-type: tm+mt
+source-wordcount: '433'
 ht-degree: 100%
-
 ---
-
 # Mettre en page les éléments{#element-layout}
 
 
@@ -31,7 +35,7 @@ En complément des variantes du graphique disponibles, [présentées ici](../../
 
 Vous pouvez utiliser les conteneurs : ils permettent de regrouper plusieurs éléments d&#39;une page et d&#39;en paramétrer la mise en page en colonnes et/ou en cellules. Leur utilisation est présentée dans [cette section](../../web/using/defining-web-forms-layout.md#creating-containers).
 
-Vous pouvez configurer la mise en page du rapport à la racine de l’arborescence et la surcharger pour chaque conteneur.Les pages sont triées en colonnes.Les conteneurs sont également triés en colonnes.Seuls les éléments statiques et graphiques sont triés dans des cellules.
+Vous pouvez configurer la mise en page du rapport à la racine de l’arborescence et la surcharger pour chaque conteneur. Les pages sont triées en colonnes. Les conteneurs sont également triés en colonnes. Seuls les éléments statiques et graphiques sont triés dans des cellules.
 
 ## Définition des options de chaque page {#defining-the-options-for-each-page}
 
@@ -73,4 +77,4 @@ Puis insérer ces identifiants dans les contenus HTML du rapport :
 
 Ils seront remplacés automatiquement à l&#39;affichage du rapport par le contenu correspondant.
 
-Ce mode de fonctionnement permet, comme pour les textes HTML, de centraliser les textes utilisés dans le rapport et d’en gérer les traductions.En effet, les textes créés dans cet onglet sont collectés automatiquement dans l’outil de traduction intégré d’Adobe Campaign.
+Ce mode de fonctionnement permet, comme pour les textes HTML, de centraliser les textes utilisés dans le rapport et d’en gérer les traductions. En effet, les textes créés dans cet onglet sont collectés automatiquement dans l’outil de traduction intégré d’Adobe Campaign.

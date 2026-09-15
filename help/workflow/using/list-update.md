@@ -8,18 +8,20 @@ exl-id: fcc51131-15d0-4d39-95cb-371d7044373b
 TQID: https://experienceleague.adobe.com/JvMYAW0wwlFrAa8QIVcVdF7EYivhr2otLlVrIi0Axj4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 547
+workflow-type: tm+mt
+source-wordcount: '547'
 ht-degree: 100%
-
 ---
-
 # Mise à jour de liste{#list-update}
 
 
@@ -30,11 +32,11 @@ Une activité de type **Mise à jour de liste** enregistre la population spécif
 
 La liste peut être sélectionnée parmi les listes existantes.
 
-Il est également possible de la créer à l’aide des options **[!UICONTROL Créer la liste si besoin (Nom calculé)]** et **[!UICONTROL Créer la liste si besoin (Dossier et nom calculés)]**.Ces options vous permettent de sélectionner le libellé de votre choix pour créer une liste, puis le dossier dans lequel elle sera enregistrée.Le libellé peut également être généré automatiquement en insérant des champs dynamiques ou un script.Les différents champs dynamiques sont disponibles dans le menu pop-up situé à droite du libellé.
+Il est également possible de la créer à l’aide des options **[!UICONTROL Créer la liste si besoin (Nom calculé)]** et **[!UICONTROL Créer la liste si besoin (Dossier et nom calculés)]**. Ces options vous permettent de sélectionner le libellé de votre choix pour créer une liste, puis le dossier dans lequel elle sera enregistrée. Le libellé peut également être généré automatiquement en insérant des champs dynamiques ou un script. Les différents champs dynamiques sont disponibles dans le menu pop-up situé à droite du libellé.
 
 ![](assets/s_user_segmentation_update_list_calc.png)
 
-Si la liste existe déjà, les personnes destinataires seront ajoutées au contenu existant, sauf si vous cochez l’option **[!UICONTROL Purger la liste si elle existe (sinon ajouter à la liste)]**.Dans ce cas, le contenu de la liste est supprimé avant la mise à jour.
+Si la liste existe déjà, les personnes destinataires seront ajoutées au contenu existant, sauf si vous cochez l’option **[!UICONTROL Purger la liste si elle existe (sinon ajouter à la liste)]**. Dans ce cas, le contenu de la liste est supprimé avant la mise à jour.
 
 Si vous souhaitez que la liste créée ou mise à jour utilise une autre table que la table des destinataires, cochez l&#39;option **[!UICONTROL Créer ou utiliser une liste ayant sa propre table]**.
 
@@ -46,7 +48,7 @@ Généralement, la sauvegarde d&#39;une cible dans une liste marque la fin d&#39
 
 ## Exemple : mise à jour de liste {#example--list-update}
 
-Dans l’exemple suivant, l’activité de mise à jour de liste suit une requête qui cible les hommes de plus de 30 ans résidant en France.La liste est initialement créée à partir des résultats de la requête.Elle est ensuite mise à jour chaque fois qu’elle est lancée à partir du workflow.Elle peut, par exemple, être utilisée régulièrement pour des offres promotionnelles ciblées de campagnes.
+Dans l’exemple suivant, l’activité de mise à jour de liste suit une requête qui cible les hommes de plus de 30 ans résidant en France. La liste est initialement créée à partir des résultats de la requête. Elle est ensuite mise à jour chaque fois qu’elle est lancée à partir du workflow. Elle peut, par exemple, être utilisée régulièrement pour des offres promotionnelles ciblées de campagnes.
 
 1. Placez une activité de type **[!UICONTROL Mise à jour de liste]** directement à la suite d&#39;une requête puis ouvrez-la pour pouvoir l&#39;éditer.
 
@@ -55,7 +57,7 @@ Dans l’exemple suivant, l’activité de mise à jour de liste suit une requê
 1. Choisissez éventuellement un libellé pour l&#39;activité.
 1. Sélectionnez l&#39;option **[!UICONTROL Créer la liste si besoin (Nom calculé)]** afin d&#39;indiquer que la liste sera créée lors de la première exécution du workflow, puis mise à jour lors des exécutions suivantes.
 1. Sélectionnez le dossier dans lequel vous souhaitez enregistrer la liste.
-1. Saisissez un libellé pour la liste.Vous pouvez insérer des champs dynamiques pour générer automatiquement le nom à partir de la liste.Dans cet exemple, la liste porte le même nom que la requête, afin d’identifier plus simplement son contenu.
+1. Saisissez un libellé pour la liste. Vous pouvez insérer des champs dynamiques pour générer automatiquement le nom à partir de la liste. Dans cet exemple, la liste porte le même nom que la requête, afin d’identifier plus simplement son contenu.
 1. Laissez l&#39;option **[!UICONTROL Purger la liste si elle existe (sinon la complète)]** sélectionnée afin de supprimer les destinataires ne correspondant plus aux critères de ciblage et d&#39;y insérer les nouveaux.
 1. Laissez également l&#39;option **[!UICONTROL Créer ou utiliser une liste ayant sa propre table]** sélectionnée.
 1. Laissez l&#39;option **[!UICONTROL Générer une transition sortante]** désélectionnée.
@@ -80,6 +82,6 @@ Identifie la population à sauvegarder dans le groupe.
 
 Cette vidéo montre comment créer une liste de destinataires à partir de l’Explorateur.
 
->[!VIDEO](https://video.tv.adobe.com/v/30599?captions=fre_fr)
+>[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
 D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

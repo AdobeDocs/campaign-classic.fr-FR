@@ -3,7 +3,7 @@ product: campaign
 title: Offres sur canal sortant
 description: Offres sur canal sortant
 feature: Interaction, Offers
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: case-study
@@ -11,23 +11,23 @@ exl-id: 77fee343-09d1-4d60-be43-efe02953a70c
 TQID: https://experienceleague.adobe.com/WGoYaHNR13J47UVmKpHRSm9aw0T8ZrvHUl9zGXezQBU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 478
+workflow-type: tm+mt
+source-wordcount: '469'
 ht-degree: 100%
-
 ---
-
 # Offres sur canal sortant{#offers-on-an-outbound-channel}
 
 
 
 ## Diffusion d&#39;une offre par email {#email-offer-delivery}
 
-Notre base de données comporte une catégorie d’offres de voyages en Afrique.L’éligibilité, les contextes et les représentations de chaque offre ont été configurés.Nous allons maintenant créer une campagne afin de présenter nos offres par e-mail.
+Notre base de données comporte une catégorie d’offres de voyages en Afrique. L’éligibilité, les contextes et les représentations de chaque offre ont été configurés. Nous allons maintenant créer une campagne afin de présenter nos offres par e-mail.
 
 1. Créez votre opération marketing et votre workflow de ciblage.
 
@@ -80,7 +80,7 @@ Notre base de données comporte une catégorie d’offres de voyages en Afrique.
 
    ![](assets/offer_simulation_example_002.png)
 
-1. Enregistrez la simulation.Celle-ci s’ouvre alors dans un nouvel onglet.
+1. Enregistrez la simulation. Celle-ci s’ouvre alors dans un nouvel onglet.
 
    ![](assets/offer_simulation_example_003.png)
 
@@ -96,7 +96,7 @@ Notre base de données comporte une catégorie d’offres de voyages en Afrique.
 
    ![](assets/offer_simulation_example_006.png)
 
-1. Saisissez les dates de validité.Vous devez au moins saisir une date de début.Ceci permet au moteur d’offres de filtrer les offres et de choisir celles qui sont valides à une date donnée.
+1. Saisissez les dates de validité. Vous devez au moins saisir une date de début. Ceci permet au moteur d’offres de filtrer les offres et de choisir celles qui sont valides à une date donnée.
 1. Si nécessaire, spécifiez un ou plusieurs thèmes pour limiter le nombre d&#39;offres à celles ayant ce mot-clé dans leurs paramètres.
 
    Dans notre exemple, la catégorie **Produits financiers** contient deux sous-catégories ayant chacune un thème distinct. La simulation portera seulement sur les offres de la catégorie dont le thème d&#39;application est **Clients &lt; 1 an**.

@@ -3,7 +3,7 @@ product: campaign
 title: Import et export de données à l'aide de workflows
 description: Découvrez comment importer et exporter des données à l'aide de workflows dans Campaign.
 feature: Data Management, Workflows
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -11,30 +11,36 @@ exl-id: 266ecd49-7101-4ff1-941f-1f9b39b44955
 TQID: https://experienceleague.adobe.com/BfLvRPWrFBvVTQ0OfUu-sTcbZKXMDfB4HcF4STvzrRI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 98
+workflow-type: tm+mt
+source-wordcount: '89'
 ht-degree: 100%
-
 ---
-
 # Import et export de données à l’aide de workflows {#import-export-workflows}
 
 
 
 ## Collecter des données {#collecting-data-workflows}
 
-Les workflows peuvent être utiles pour automatiser certains de vos imports.Que vous importiez des données à partir d’un fichier local ou d’un serveur SFTP, vous pouvez utiliser des workflows pour standardiser vos procédures de gestion des données.
+Les workflows peuvent être utiles pour automatiser certains de vos imports. Que vous importiez des données à partir d’un fichier local ou d’un serveur SFTP, vous pouvez utiliser des workflows pour standardiser vos procédures de gestion des données.
 
 >[!NOTE]
 >

@@ -2,34 +2,38 @@
 product: campaign
 title: Tracker les visites sur une application web
 description: Tracker les visites sur une application web
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps, Reporting, Monitoring
 exl-id: 07bd36ce-c701-4998-974f-81fd4fac22a0
 TQID: https://experienceleague.adobe.com/TtUrQKKVdMc4ZttsgFG9ly8hTCdqCnb3bMm2Tn3E6ww
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: f391046b-0cf3-4e76-bd3b-97fe06654506
+    internal-label: Web Apps
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 414
+workflow-type: tm+mt
+source-wordcount: '405'
 ht-degree: 100%
-
 ---
-
 # Tracking des visites sur une application web{#tracking-a-web-application}
 
 
 
 Adobe Campaign permet de suivre et de mesurer les visites sur les pages des applications Web en insérant des balises de tracking. Cette fonctionnalité peut être utilisée pour tous les types d&#39;applications web (formulaires, pages web, etc.).
 
-Vous pouvez ainsi définir plusieurs chemins de navigation et évaluer leur succès.Les données récupérées sont alors disponibles dans les rapports de chaque application.
+Vous pouvez ainsi définir plusieurs chemins de navigation et évaluer leur succès. Les données récupérées sont alors disponibles dans les rapports de chaque application.
 
 Les principales fonctionnalités proposées dans cette version sont les suivantes :
 
@@ -44,9 +48,9 @@ Les principales fonctionnalités proposées dans cette version sont les suivante
 
   Les principaux indicateurs sont les suivants :
 
-   * **Taux de conversion** : nombre de personnes qui ont parcouru toutes les étapes d’un chemin de navigation.
-   * **Taux de rebond** : nombre de personnes qui n&#39;ont affiché que la première étape.
-   * **Entonnoir de conversion** : taux de perte entre chacune des étapes.
+  * **Taux de conversion** : nombre de personnes qui ont parcouru toutes les étapes d’un chemin de navigation.
+  * **Taux de rebond** : nombre de personnes qui n&#39;ont affiché que la première étape.
+  * **Entonnoir de conversion** : taux de perte entre chacune des étapes.
 
   En complément, un graphique de type **Secteur** représente la population en fonction de son origine.
 

@@ -3,7 +3,7 @@ product: campaign
 title: Fichiers de log
 description: Fichiers de log
 feature: Monitoring
-badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: production-procedures
@@ -11,19 +11,21 @@ exl-id: c9d427da-6965-4945-90f0-d0770701d55e
 TQID: https://experienceleague.adobe.com/ueoodkXqvcxSjb4Q2NOKXrTgZIiQEGvBiW8JQF-PFss
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 feature_v2: []
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 470
+workflow-type: tm+mt
+source-wordcount: '458'
 ht-degree: 100%
-
 ---
-
 # Fichiers de log{#log-files}
 
 
@@ -40,7 +42,7 @@ Par défaut, le module **syslogd** est installé sur la plateforme Adobe Campai
 
 Les logs des modules multi-instances sont stockés dans le répertoire suivant : **`<installation directory>`/var/default/log/**. Le même fichier journal est partagé par toutes les instances (**web.log**, par exemple).
 
-Les logs des autres modules sont stockés dans un sous-dossier du nom de l’instance.Chaque instance possède ses propres fichiers de log.
+Les logs des autres modules sont stockés dans un sous-dossier du nom de l’instance. Chaque instance possède ses propres fichiers de log.
 
 Les fichiers de log multi-instances sont listés dans le tableau suivant :
 

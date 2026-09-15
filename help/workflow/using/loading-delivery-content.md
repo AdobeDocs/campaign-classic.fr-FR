@@ -8,21 +8,25 @@ exl-id: a52baffd-402b-4b33-ab72-ac954e4dee85
 TQID: https://experienceleague.adobe.com/xRyiD1VNPPhdRtnyRn6JX76vao1-b348bZPoQ3eraLQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2: []
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 345
+workflow-type: tm+mt
+source-wordcount: '345'
 ht-degree: 100%
-
 ---
-
 # Charger le contenu de la diffusion{#loading-delivery-content}
 
 
@@ -31,7 +35,7 @@ Si le contenu de votre diffusion figure dans un fichier HTML qui se trouve sur u
 
 Pour cela :
 
-1. Si vous n’avez pas encore défini de connexion entre Adobe Campaign et le serveur FTP ou SFTP hébergeant les fichiers de contenu, créez un compte externe S3, FTP ou SFTP dans **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Comptes externes]**.Dans ce compte externe, indiquez l’adresse et les informations d’identification qui permettront d’établir la connexion au serveur S3, FTP ou SFTP.
+1. Si vous n’avez pas encore défini de connexion entre Adobe Campaign et le serveur FTP ou SFTP hébergeant les fichiers de contenu, créez un compte externe S3, FTP ou SFTP dans **[!UICONTROL Administration]** > **[!UICONTROL Plateforme]** > **[!UICONTROL Comptes externes]**. Dans ce compte externe, indiquez l’adresse et les informations d’identification qui permettront d’établir la connexion au serveur S3, FTP ou SFTP.
 
    Voici un exemple d&#39;un compte externe S3 :
 
@@ -45,11 +49,11 @@ Pour cela :
 
    ![](assets/delivery_loadcontent_filetransfertexample.png)
 
-1. Ajoutez une activité **[!UICONTROL Diffusion]** et reliez-la à la transition sortante de l’activité **[!UICONTROL Transfert de fichier]**.Configurez-la de la manière suivante :
+1. Ajoutez une activité **[!UICONTROL Diffusion]** et reliez-la à la transition sortante de l’activité **[!UICONTROL Transfert de fichier]**. Configurez-la de la manière suivante :
 
    * Diffusion : selon vos besoins, il peut s&#39;agir d&#39;une diffusion spécifique qui a déjà été créée dans le système ou d&#39;une nouvelle diffusion reposant sur un modèle existant.
    * Destinataires : dans cet exemple, la cible est spécifiée dans la diffusion elle-même.
-   * Contenu : même si le contenu est importé dans l’activité précédente, sélectionnez **[!UICONTROL Spécifié dans la diffusion]**.Comme le contenu est importé directement d’un fichier se trouvant sur un serveur distant, il n’a pas d’identifiant lors du traitement par le workflow et ne peut pas être identifié comme provenant de l’événement entrant.
+   * Contenu : même si le contenu est importé dans l’activité précédente, sélectionnez **[!UICONTROL Spécifié dans la diffusion]**. Comme le contenu est importé directement d’un fichier se trouvant sur un serveur distant, il n’a pas d’identifiant lors du traitement par le workflow et ne peut pas être identifié comme provenant de l’événement entrant.
    * Action à effectuer : sélectionnez **[!UICONTROL Enregistrer]** pour enregistrer la diffusion et y accéder depuis **[!UICONTROL Gestion de campagne]** > **[!UICONTROL Diffusions]** une fois le workflow exécuté.
 
    ![](assets/delivery_loadcontent_activityexample.png)

@@ -8,30 +8,42 @@ exl-id: 58cc23f4-9ab0-45c7-9aa2-b08487ec7e91
 TQID: https://experienceleague.adobe.com/d6tF02X7K9j9mDk90wyH-3iXm8iBZzMo1da2PPkYHGs
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: c8d13469884744554fd504fed8842dd0c9ab5feb
-workflow-type: ht
-source-wordcount: 1420
+workflow-type: tm+mt
+source-wordcount: '1455'
 ht-degree: 100%
-
 ---
-
 # Envoi d&#39;emails avec le MTA amélioré {#sending-with-enhanced-mta}
 
 Le **MTA amélioré d’Adobe Campaign** (Mail Transfer Agent) fournit une infrastructure d’envoi mise à niveau qui permet d’améliorer les performances en matière de délivrabilité, de réputation, de débit, de reporting, de gestion des rebonds, de montée en charge des adresses IP et de gestion des paramètres de connexion.
@@ -63,6 +75,7 @@ Le MTA amélioré comprend une gestion des rebonds plus intelligente et une fonc
 **Quels sont les avantages ?**
 
 * Les clientes et clients Adobe Campaign qui utilisent le MTA amélioré ont vu une <!--300%-->augmentation importante de la vitesse de débit globale et une réduction significative des rebonds temporaires.
+
   <!--90%+-->
 * Le MTA amélioré utilise la dernière technologie MTA pour vous offrir des vitesses de débit optimales pour votre diffusion par email.
 * En s&#39;adaptant instantanément et automatiquement aux retours qu&#39;il reçoit, il garantit également une diffusion par email plus précise et plus intelligente avec des données de diffusion en temps réel.
@@ -156,8 +169,8 @@ Pour en savoir plus sur la période de validité, consultez cette [page](communi
 
 ### Signature DKIM
 
-La signature DKIM (DomainKeys Identifed Mail) d’authentification d’e-mail s’effectue à travers le MTA amélioré. Dans le cadre de la mise à niveau vers le MTA amélioré, la signature DKIM par le MTA natif de Campaign sera désactivée dans la table Gestion des domaines.
-Pour plus d’informations au sujet de la signature DKIM, consultez le [Guide pratique en matière de délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#authentication).
+La signature d’authentification par email DKIM (DomainKeys Identified Mail) est effectuée par l’MTA amélioré. Dans le cadre de la mise à niveau vers le MTA amélioré, la signature DKIM par le MTA natif de Campaign sera désactivée dans la table Gestion des domaines.
+Pour en savoir plus sur la signature DKIM, consultez le [Guide des bonnes pratiques relatives à la délivrabilité d’Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=fr#authentication).
 
 ### Rapports de réussite de diffusion
 

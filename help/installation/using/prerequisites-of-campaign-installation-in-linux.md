@@ -3,7 +3,7 @@ product: campaign
 title: Prérequis pour l'installation de Campaign sous Linux
 description: Prérequis pour l'installation de Campaign sous Linux
 feature: Installation, Instance Settings
-badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-linux-
@@ -11,18 +11,19 @@ exl-id: acbd2873-7b1c-4d81-bc62-cb1246c330af
 TQID: https://experienceleague.adobe.com/SFdh5L8-oHjpH7rIhDxOQZqw7AukXtkv3lJHZu2oTHQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 feature_v2: []
 subfeature_v2: []
 source-git-commit: d711ea40185e9860ea20773ae1dfebfc7cc3e4d0
-workflow-type: ht
-source-wordcount: 906
+workflow-type: tm+mt
+source-wordcount: '894'
 ht-degree: 100%
-
 ---
-
 # Prérequis pour l’installation de Campaign sous Linux{#prerequisites-of-campaign-installation-in-linux}
 
 ## Logiciels prérequis {#software-prerequisites}

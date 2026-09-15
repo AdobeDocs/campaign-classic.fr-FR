@@ -11,24 +11,26 @@ exl-id: f661e1d1-de2f-4c6a-bbff-e3ffcd1831f0
 TQID: https://experienceleague.adobe.com/sFzCe7kCFHbHV53zFQIfRh7-ASJp1isMV3PYU7IUqDc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 subfeature_v2:
   - id: a6eada7c-dc79-4b66-a7d3-206cf47dc9d8
+    internal-label: Marketing Resource Management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1446
+workflow-type: tm+mt
+source-wordcount: '1446'
 ht-degree: 100%
-
 ---
-
 # Gestion des ressources marketing{#managing-marketing-resources}
 
 
 
-Utilisez Adobe Campaign pour gérer et suivre les ressources marketing impliquées dans le cycle de vie de la campagne.Ces ressources marketing peuvent être une brochure, une aide visuelle, ou tout autre support de communication impliquant plusieurs opérateurs et opératrices.
+Utilisez Adobe Campaign pour gérer et suivre les ressources marketing impliquées dans le cycle de vie de la campagne. Ces ressources marketing peuvent être une brochure, une aide visuelle, ou tout autre support de communication impliquant plusieurs opérateurs et opératrices.
 
 Pour chaque ressource marketing gérée via Adobe Campaign, vous pouvez contrôler à tout moment son statut, son historique et visualiser la version courante.
 
@@ -46,14 +48,14 @@ Pour mettre à disposition une ressource sur le serveur Adobe Campaign, vous de
 
 Un message de confirmation permet de lancer le téléchargement.
 
-Une fois le téléchargement terminé, la ressource est ajoutée à la liste des ressources disponibles. Elle est accessible aux opérateurs et opératrices Adobe Campaign.Ils peuvent la visualiser (à partir de l’onglet **[!UICONTROL Aperçu]**), effectuer une copie pour la modifier ou mettre à jour le fichier sur le serveur (à l’aide de l’onglet **[!UICONTROL Edition]** ).
+Une fois le téléchargement terminé, la ressource est ajoutée à la liste des ressources disponibles. Elle est accessible aux opérateurs et opératrices Adobe Campaign. Ils peuvent la visualiser (à partir de l’onglet **[!UICONTROL Aperçu]**), effectuer une copie pour la modifier ou mettre à jour le fichier sur le serveur (à l’aide de l’onglet **[!UICONTROL Edition]** ).
 
 ![](assets/s_ncs_user_mkg_resource_extract.png)
 
-Cliquez sur l&#39;onglet **[!UICONTROL Général]** pour sélectionner les opérateurs, ou groupes d&#39;opérateurs, responsables du suivi, du tracking et de l’approbation de cette ressource. Le choix de l&#39;opérateur validant se fait via le lien **[!UICONTROL Paramètres avancés]**.
+Cliquez sur l&#39;onglet **[!UICONTROL Général]** pour sélectionner les opérateurs, ou groupes d&#39;opérateurs, responsables d, du tracking et de l’approbation de cette ressource. Le choix de l&#39;opérateur validant se fait via le lien **[!UICONTROL Paramètres avancés]**.
 
 * L&#39;opérateur auquel la ressource est affectée est chargé d&#39;en assurer le tracking.
-* L’opérateur ou l’opératrice en charge de la validation est la personne responsable de la validation de la ressource marketing.Elle sera notifiée lors du lancement du processus de validation de la ressource.
+* L’opérateur ou l’opératrice en charge de la validation est la personne responsable de la validation de la ressource marketing. Elle sera notifiée lors du lancement du processus de validation de la ressource.
 
   Si aucun opérateur validant n&#39;est sélectionné, la ressource **[!UICONTROL ne pourra pas]** être soumise à validation.
 
@@ -63,7 +65,7 @@ Vous pouvez spécifier une date de disponibilité de la ressource ; cette date 
 
 ## Travail collaboratif sur les ressources {#collaborative-work-on-resources}
 
-Vous pouvez modifier et mettre à jour une ressource marketing et, au besoin, en informer les autres opérateurs et opératrices Adobe Campaign.Vous pouvez ainsi :
+Vous pouvez modifier et mettre à jour une ressource marketing et, au besoin, en informer les autres opérateurs et opératrices Adobe Campaign. Vous pouvez ainsi :
 
 * Télécharger la ressource en local pour la modifier.
 * Mettre à jour le fichier sur le serveur et le rendre accessible aux autres opérateurs.
@@ -77,7 +79,7 @@ Vous pouvez modifier et mettre à jour une ressource marketing et, au besoin, en
 
 Une fois créées, les ressources sont disponibles dans le tableau de bord des ressources marketing et les opérateurs et opératrices peuvent les éditer et les modifier.
 
-Lorsqu’un opérateur ou une opératrice souhaite travailler sur une ressource, il est préférable de la verrouiller au préalable, afin d’éviter que toute autre personne y apporte des modifications au même moment.La ressource est alors réservée : elle reste accessible, mais ne peut être ni publiée ni mise à jour sur le serveur par un autre opérateur ou une autre opératrice.
+Lorsqu’un opérateur ou une opératrice souhaite travailler sur une ressource, il est préférable de la verrouiller au préalable, afin d’éviter que toute autre personne y apporte des modifications au même moment. La ressource est alors réservée : elle reste accessible, mais ne peut être ni publiée ni mise à jour sur le serveur par un autre opérateur ou une autre opératrice.
 
 Un message spécifique vient avertir l&#39;opérateur qui souhaite y accéder :
 
@@ -113,9 +115,9 @@ La section [Forums de discussion](../../mrm/using/discussion-forums.md) explique
 
 ## Cycle de vie d&#39;une ressource marketing {#life-cycle-of-a-marketing-resource}
 
-Lors de la création de la ressource, des opérateurs et opératrices Adobe Campaign sont désignés pour concevoir, relire, approuver et publier la ressource.Vous pouvez déterminer une durée pour ces campagnes.
+Lors de la création de la ressource, des opérateurs et opératrices Adobe Campaign sont désignés pour concevoir, relire, approuver et publier la ressource. Vous pouvez déterminer une durée pour ces campagnes.
 
-L&#39;onglet **[!UICONTROL Tracking]** permet de suivre les interventions réalisées sur la ressource : validations, refus de validation, commentaires associés, publications.
+L&#39;onglet **[!UICONTROL Tracking]** permet de su les interventions réalisées sur la ressource : validations, refus de validation, commentaires associés, publications.
 
 L&#39;onglet **[!UICONTROL Historique]** affiche les transferts de fichiers réalisés pour cette ressource.
 
@@ -143,7 +145,7 @@ L&#39;onglet **[!UICONTROL Tracking]** permet à tous les opérateurs de suivre 
 
 ### Publier une ressource {#publishing-a-resource}
 
-Une fois approuvée, la ressource marketing doit être publiée.Le processus de publication doit faire l’objet d’une mise en œuvre spécifique en fonction des exigences de l’entreprise.Ainsi, les ressources peuvent être publiées sur un extranet ou tout autre serveur, une information spécifique peut être transmise à un prestataire externe, etc.
+Une fois approuvée, la ressource marketing doit être publiée. Le processus de publication doit faire l’objet d’une mise en œuvre spécifique en fonction des exigences de l’entreprise. Ainsi, les ressources peuvent être publiées sur un extranet ou tout autre serveur, une information spécifique peut être transmise à un prestataire externe, etc.
 
 Pour publier une ressource, cliquez sur le bouton **[!UICONTROL Publier]** situé dans sa zone d&#39;édition dans le tableau de bord des ressources marketing.
 
@@ -151,7 +153,7 @@ Pour publier une ressource, cliquez sur le bouton **[!UICONTROL Publier]** situ�
 
 Vous pouvez également automatiser la publication d&#39;une ressource via un workflow.
 
-Publier une ressource signifie la rendre disponible pour une utilisation (par exemple, dans une autre tâche).La publication proprement dite varie suivant la nature de votre ressource : pour un flyer, la publication peut consister à envoyer le fichier à un imprimeur, pour une page web, à la publier sur un site…
+Publier une ressource signifie la rendre disponible pour une utilisation (par exemple, dans une autre tâche). La publication proprement dite varie suivant la nature de votre ressource : pour un flyer, la publication peut consister à envoyer le fichier à un imprimeur, pour une page web, à la publier sur un site…
 
 Pour qu’Adobe Campaign puisse effectuer la publication, vous devez créer un workflow adéquat et le lier à la ressource. Pour lier le workflow à la ressource, ouvrez la boîte **[!UICONTROL Paramètres avancés]** de la ressource, puis sélectionnez le workflow désiré dans le champ **[!UICONTROL Post-traitement]**.
 
@@ -186,7 +188,7 @@ Cliquez sur **[!UICONTROL Ok]** pour ajouter la ressource dans la liste des ress
 
 Le bouton **[!UICONTROL Détails]** permet de l&#39;éditer et de la visualiser.
 
-Les ressources ajoutées sont affichées dans le tableau de bord.Elles peuvent également être modifiées à cet endroit.
+Les ressources ajoutées sont affichées dans le tableau de bord. Elles peuvent également être modifiées à cet endroit.
 
 ### Ajouter une ressource marketing dans une composition de diffusion {#adding-a-marketing-resource-to-a-delivery-outline}
 
@@ -206,7 +208,7 @@ Vous pouvez associer une ressource marketing à un ou plusieurs stocks afin de g
 >
 >Pour plus d&#39;information sur le mode de gestion des stocks dans Adobe Campaign, consultez la section [Gestion des stocks](../../campaign/using/providers-stocks-and-budgets.md#stock-management).
 
-Pour associer une ressource marketing à un stock, éditez la vue d’ensemble des stocks et éditez ou créez un stock.Ajoutez une ligne de stock et sélectionnez la ressource marketing correspondante.
+Pour associer une ressource marketing à un stock, éditez la vue d’ensemble des stocks et éditez ou créez un stock. Ajoutez une ligne de stock et sélectionnez la ressource marketing correspondante.
 
 ![](assets/s_ncs_user_task_in_a_stock.png)
 
@@ -222,7 +224,7 @@ Lorsque le stock est insuffisant, un message d&#39;alerte sera envoyé aux opér
 
 ## Fonctions avancées {#advanced-functions}
 
-Le tableau de bord des ressources marketing permet d’effectuer les opérations habituelles : ajout, édition, verrouillage/déverrouillage, approbation, publication.Vous pouvez créer d’autres types de ressources marketing et accéder à des fonctionnalités avancées via l’arborescence d’Adobe Campaign.Pour cela, cliquez sur le lien **[!UICONTROL Explorateur]** depuis la page d&#39;accueil d&#39;Adobe Campaign.
+Le tableau de bord des ressources marketing permet d’effectuer les opérations habituelles : ajout, édition, verrouillage/déverrouillage, approbation, publication. Vous pouvez créer d’autres types de ressources marketing et accéder à des fonctionnalités avancées via l’arborescence d’Adobe Campaign. Pour cela, cliquez sur le lien **[!UICONTROL Explorateur]** depuis la page d&#39;accueil d&#39;Adobe Campaign.
 
 Par défaut, les ressources marketing sont stockées dans le noeud **[!UICONTROL MRM > Ressources marketing]** de l&#39;arborescence.
 

@@ -2,29 +2,35 @@
 product: campaign
 title: Mise à jour de la qualification des rebonds après la panne d’Apple en 2021
 description: Découvrez comment mettre à jour la qualification des rebonds après la panne dʼApple en 2021.
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 exl-id: 34be23f7-17fa-475e-9663-2e353d76b172
 TQID: https://experienceleague.adobe.com/kn5H0jxM7KKnLGQ3vYdvhQm4nixgSTVhFBO8CAh-1Lg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 468
+source-wordcount: '459'
 ht-degree: 100%
-
 ---
-
 # Mettre à jour les rebonds définitifs incorrects après une panne d’Apple {#update-bounce-qualification.md}
 
 ## Contexte
@@ -55,16 +61,16 @@ En fonction du calendrier de l&#39;incident, voici les instructions recommandée
 
 * Pour les instances Campaign contenant des informations de réponse de rebond SMTP dans le champ **[!UICONTROL Texte d’erreur]** de la liste de quarantaine :
 
-   * **Le texte d’erreur (texte de quarantaine)** contient « l’utilisateur a été trouvé, mais pas l’enregistrement d’utilisateur » **ET le texte d’erreur (texte de quarantaine)** contient « support.apple.com ».
-   * **Mise à jour du statut (@lastModified)** le ou après le 26/04/2021 à 07:00:00
-   * **Mise à jour du statut (@lastModified)** le ou avant le 26/04/2021 à 13:00:00
+  * **Le texte d’erreur (texte de quarantaine)** contient « l’utilisateur a été trouvé, mais pas l’enregistrement d’utilisateur » **ET le texte d’erreur (texte de quarantaine)** contient « support.apple.com ».
+  * **Mise à jour du statut (@lastModified)** le ou après le 26/04/2021 à 07:00:00
+  * **Mise à jour du statut (@lastModified)** le ou avant le 26/04/2021 à 13:00:00
 
 * Pour les instances Campaign contenant des informations de règles d&#39;email entrant dans le champ **[!UICONTROL Texte d&#39;erreur]** de la liste de quarantaine :
 
-   * Le **texte d’erreur (texte de la quarantaine)** contenant « Momen_Code10_InvalidRecipient ».
-   * **Domaine d&#39;e-mail (@domaine)** égal à icloud.com OU **domaine d&#39;e-mail (@domaine)** égal à me.com OU **domaine d&#39;e-mail (@domaine)** égal à mac.com
-   * **Mise à jour du statut (@lastModified)** le ou après le 26/04/2021 à 07:00:00
-   * **Mise à jour du statut (@lastModified)** le ou avant le 26/04/2021 à 13:00:00
+  * Le **texte d’erreur (texte de la quarantaine)** contenant « Momen_Code10_InvalidRecipient ».
+  * **Domaine d&#39;e-mail (@domaine)** égal à icloud.com OU **domaine d&#39;e-mail (@domaine)** égal à me.com OU **domaine d&#39;e-mail (@domaine)** égal à mac.com
+  * **Mise à jour du statut (@lastModified)** le ou après le 26/04/2021 à 07:00:00
+  * **Mise à jour du statut (@lastModified)** le ou avant le 26/04/2021 à 13:00:00
 
 Une fois que vous disposez de la liste des destinataires concernés, vous pouvez soit leur attribuer l&#39;état **[!UICONTROL Valide]** afin qu&#39;ils soient supprimés de la liste de quarantaine par le processus de **[!UICONTROL nettoyage de la base de données]**, soit simplement les supprimer de la table.
 

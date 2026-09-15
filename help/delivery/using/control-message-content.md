@@ -2,32 +2,39 @@
 product: campaign
 title: À propos de la délivrabilité dans Adobe Campaign Classic
 description: En savoir plus sur la gestion de la délivrabilité dans Adobe Campaign
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Deliverability
 role: User
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
 TQID: https://experienceleague.adobe.com/5O5mdQrj0-Ts1C-lZRDHqDYwit4dSUOZHzG5SVDVitA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 854
+workflow-type: tm+mt
+source-wordcount: '845'
 ht-degree: 100%
-
 ---
-
 # Contrôle du contenu de votre message{#control-message-content}
 
 Pour que vos emails atteignent vos destinataires et améliorer ainsi leur taux de délivrabilité, assurez-vous qu’ils respectent un certain nombre de règles. Dans le cas contraire, le contenu de certains messages peut être détecté comme du spam. Adobe Campaign fournit plusieurs outils vous permettant de vérifier que votre contenu respecte ces règles.
@@ -50,7 +57,7 @@ Pour obtenir des conseils supplémentaires sur l’optimisation de la délivrabi
 
 Certains FAI vérifient la validité de l’adresse d’expédition (**[!UICONTROL De]**) avant d’accepter les messages. Une adresse erronée peut causer un refus de la part du serveur receveur.
 
-Vous devez vous assurer qu’une adresse correcte est bien renseignée au niveau de l’instance (menu **[!UICONTROL Outils > Avancé > Assistant de déploiement…]**)ou dans les scénarios les plus fréquemment utilisés.
+Vous devez vous assurer qu’une adresse correcte est bien renseignée au niveau de l’instance (menu **[!UICONTROL Outils > Avancé > Assistant de déploiement…]**) ou dans les scénarios les plus fréquemment utilisés.
 
 Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/defining-the-email-content.html?lang=fr){target="_blank"}.
 
@@ -70,7 +77,7 @@ Découvrez comment insérer une option d’opt-out dans la [documentation de Cam
 
 Au cas où un problème empêchant l’exclusion ne serait détecté qu’après le démarrage de la diffusion, il sera toutefois possible d’exclure manuellement (à l’aide d’une mise à jour en masse, par exemple) les destinataires qui ont cliqué sur le lien d’opt-out, même s’ils n’ont pas pu confirmer ce choix.
 
-De manière générale, n’essayez pas de faire obstacle aux personnes destinataires qui souhaitent se désinscrire en leur demandant de remplir des champs tels que leur adresse e-mail ou leur nom, par exemple.Le formulaire ne doit comporter qu’un seul bouton de validation et la réconciliation ne doit porter que sur l’identifiant chiffré.
+De manière générale, n’essayez pas de faire obstacle aux personnes destinataires qui souhaitent se désinscrire en leur demandant de remplir des champs tels que leur adresse e-mail ou leur nom, par exemple. Le formulaire ne doit comporter qu’un seul bouton de validation et la réconciliation ne doit porter que sur l’identifiant chiffré.
 
 Demander une confirmation supplémentaire n’est pas fiable, car un utilisateur peut disposer de deux adresses email redirigées vers la même boîte (par exemple : prénom.nom@club.com et prénom.nom@internet-club.com). Si le destinataire est capable de se souvenir uniquement de la première adresse et souhaite s’exclure via un message envoyé à l’autre, le formulaire refusera cette adresse, car l’identifiant chiffré et l’adresse e-mail saisie ne correspondront pas.
 
@@ -86,6 +93,6 @@ Pour plus d&#39;informations, consultez la section [Inbox rendering](inbox-rende
 
 Adobe Campaign peut être configuré pour fonctionner avec SpamAssassin. Cela permet d&#39;attribuer un score aux emails afin de déterminer si un message risque d&#39;être considéré comme indésirable par les outils anti-spams utilisés à sa réception.
 
-Avant qu’une diffusion ne soit lancée, l’onglet **[!UICONTROL Prévisualisation]** vous permet d’évaluer les risques.Un message d’avertissement fournit le résultat du test.
+Avant qu’une diffusion ne soit lancée, l’onglet **[!UICONTROL Prévisualisation]** vous permet d’évaluer les risques. Un message d’avertissement fournit le résultat du test.
 
 En savoir plus dans cette [section](spamassassin.md).

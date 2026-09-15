@@ -7,18 +7,19 @@ exl-id: 65ab4577-3126-4579-8fcc-e93772ebd1e8
 TQID: https://experienceleague.adobe.com/i9yR7cCPf8T0XbYKVESpx1tf1Yd1ji0RmVdxCjomWD4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 572
+workflow-type: tm+mt
+source-wordcount: '572'
 ht-degree: 100%
-
 ---
-
 # Configurer l’accès à Microsoft SQL Server {#configure-fda-sql}
 
 
@@ -120,6 +121,6 @@ Le connecteur prend en charge les options suivantes :
 
 | Option | Description |
 |---|---|
-| Authentification | Type d’authentification pris en charge par le connecteur. Valeur actuelle prise en charge : ActiveDirectoryMSI. <br>Consultez à ce sujet l’exemple 8 de la [documentation Microsoft](https://docs.microsoft.com/fr-fr/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings). |
+| Authentification | Type d’authentification pris en charge par le connecteur. Valeur actuelle prise en charge : ActiveDirectoryMSI. <br> Consultez à ce sujet l’exemple 8 de la [documentation Microsoft](https://docs.microsoft.com/fr-fr/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings). |
 | Chiffrer | Indique si les connexions utilisent le chiffrement TLS sur le réseau. Les valeurs possibles sont **oui/obligatoire (18.0 et versions ultérieures)**, **non/facultatif (18.0 et versions ultérieures)** et **strict (18.0 et versions ultérieures)**. La valeur par défaut est définie sur **oui** dans les versions 18.0 et ultérieures et **non** dans les versions précédentes. <br>Pour plus d’informations à ce propos, consultez la [documentation Microsoft](https://docs.microsoft.com/fr-fr/sql/connect/odbc/dsn-connection-string-attribute?view=azure-sqldw-latest#encrypt). |
 | TrustServerCertificate | Active le chiffrement à l’aide d’un certificat de serveur autosigné, lorsqu’il est utilisé avec **Chiffrer**. <br>Valeurs acceptées : **oui** ou **non** (valeur par défaut, ce qui signifie que le certificat du serveur sera validé). |

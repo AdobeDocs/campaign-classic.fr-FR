@@ -8,21 +8,25 @@ exl-id: 6e24d5fe-4830-49b4-a0fe-624c5644c920
 TQID: https://experienceleague.adobe.com/w7MFQZpUw-a0SIp634sptKz2VKm2MTZisjmN3VLDt2g
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 203
+workflow-type: tm+mt
+source-wordcount: '203'
 ht-degree: 100%
-
 ---
-
 # Chargement (SGBD){#data-loading-rdbms}
 
 
@@ -37,7 +41,7 @@ Le principe de fonctionnement est le suivant :
 
    ![](assets/s_advuser_wf_sgbd_sample_1.png)
 
-   Le nom de la table saisi dans le champ correspondant sert de modèle pour collecter des données dans la base de données externe.Le nom de la table qui sera effectivement traitée par le workflow peut être calculé ou transmis par la transition entrante de l’activité de chargement de données.Pour sélectionner la table à utiliser, cliquez sur le lien **[!UICONTROL Avancé…]** et sélectionnez l’option **[!UICONTROL Spécifié par la transition]** ou **[!UICONTROL Explicite]**.
+   Le nom de la table saisi dans le champ correspondant sert de modèle pour collecter des données dans la base de données externe. Le nom de la table qui sera effectivement traitée par le workflow peut être calculé ou transmis par la transition entrante de l’activité de chargement de données. Pour sélectionner la table à utiliser, cliquez sur le lien **[!UICONTROL Avancé…]** et sélectionnez l’option **[!UICONTROL Spécifié par la transition]** ou **[!UICONTROL Explicite]**.
 
    ![](assets/s_advuser_wf_sgbd_sample_5.png)
 

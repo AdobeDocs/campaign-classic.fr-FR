@@ -9,24 +9,30 @@ exl-id: 5f689679-7148-4abd-a9bf-185854c64b13
 TQID: https://experienceleague.adobe.com/eM26PQIIHJHC-7-QqVYaC9uHcvrYIpi87vMB4eTmVlg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1335
+workflow-type: tm+mt
+source-wordcount: '1335'
 ht-degree: 100%
-
 ---
-
 # Espace de travail Adobe Campaign {#adobe-campaign-workspace}
 
 ## Exploration de l’interface Adobe Campaign {#about-adobe-campaign-interface}
@@ -41,7 +47,7 @@ Une fois votre connexion à la base de données établie, vous accédez à la pa
 
 >[!NOTE]
 >
->Les fonctions Adobe Campaign disponibles sur votre instance dépendent des modules et composants supplémentaires installés.Selon vos autorisations et configurations spécifiques, certaines d’entre elles peuvent ne pas être disponibles.
+>Les fonctions Adobe Campaign disponibles sur votre instance dépendent des modules et composants supplémentaires installés. Selon vos autorisations et configurations spécifiques, certaines d’entre elles peuvent ne pas être disponibles.
 >
 >Avant d’installer un module ou un composant additionnel, vous devez vérifier votre contrat de licence ou contacter votre chargé de compte Adobe.
 
@@ -103,7 +109,7 @@ Ainsi, les listes sont accessibles à partir du lien **[!UICONTROL Listes]** pro
 
   ![](assets/d_ncs_user_interface_back_home_buttons.png)
 
-* Dans le cas d’un menu ou d’un raccourci vers un écran d’affichage (tel qu’une application web, un programme, une diffusion, un rapport, etc.), la page correspondante s’affiche dans un nouvel onglet.Ainsi, vous pouvez naviguer d’une page à l’autre à l’aide des onglets.
+* Dans le cas d’un menu ou d’un raccourci vers un écran d’affichage (tel qu’une application web, un programme, une diffusion, un rapport, etc.), la page correspondante s’affiche dans un nouvel onglet. Ainsi, vous pouvez naviguer d’une page à l’autre à l’aide des onglets.
 
   ![](assets/d_ncs_user_interface_tabs.png)
 
@@ -111,7 +117,7 @@ Ainsi, les listes sont accessibles à partir du lien **[!UICONTROL Listes]** pro
 
 Dans chaque section des fonctions principales, vous pouvez naviguer parmi les éléments disponibles. Pour cela, utilisez les raccourcis proposés dans la section **[!UICONTROL Navigation]**. Le lien **[!UICONTROL Autres choix]** permet d&#39;accéder à toutes les autres pages, indépendamment de celles de la fonction courante.
 
-Vous pouvez créer un élément (diffusion, application web, workflow, etc.)à l’aide des raccourcis dans la section **[!UICONTROL Créer]** à gauche de l’écran.Utilisez le bouton **[!UICONTROL Créer]** situé au-dessus de la liste pour ajouter de nouveaux éléments à la liste.
+Vous pouvez créer un élément (diffusion, application web, workflow, etc.) à l’aide des raccourcis dans la section **[!UICONTROL Créer]** à gauche de l’écran. Utilisez le bouton **[!UICONTROL Créer]** situé au-dessus de la liste pour ajouter de nouveaux éléments à la liste.
 
 Par exemple, au niveau de la page des diffusions, utilisez le bouton **[!UICONTROL Créer]** pour créer une nouvelle diffusion.
 
@@ -197,4 +203,4 @@ Découvrez comment **utiliser les énumérations** dans la [documentation d’Ad
 
 Cette vidéo présente l’espace de travail de Campaign Classic.
 
->[!VIDEO](https://video.tv.adobe.com/v/39530?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35130?quality=12)

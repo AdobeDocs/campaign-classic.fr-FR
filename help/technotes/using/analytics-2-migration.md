@@ -5,12 +5,10 @@ description: Campaign Classic - Guide de migration de l’API Adobe Analytics�
 feature: Technote, Analytics Integration
 hide: true
 source-git-commit: 64460d51b002a7821bba9c2998d9ccccab3046ad
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 100%
-
 ---
-
 # Migrer vers l’API Adobe Analytics 2.0 {#analytics-2-migration}
 
 Les API d’Adobe Analytics 1.4 [arrivent en fin de vie](https://developer.adobe.com/analytics-apis/docs/1.4/guides/eol){target="_blank"}. Le [connecteur Web Analytics](../../integrations/using/gs-aa.md) qui relie votre instance Campaign à Adobe Analytics repose sur ces API. Vous devez donc effectuer une mise à niveau vers une version qui utilise les nouvelles API Analytics 2.0 pour que l’intégration continue de fonctionner.
@@ -46,7 +44,7 @@ Si vous utilisez un déploiement **on-premise ou hybride**, procédez comme suit
       nlserver javascript -instance:<instance_name> -arg:host=<sftp_host_url>#user=<sftp_user> -file <path_to_the_file>/aaremarketingLocation.js
       ```
 
-      Exemple :
+      Exemple:
 
       ```
       nlserver javascript -instance:test_mkt_stage2 -arg:host=test-mkt-stage1.campaign.adobe.com#user=test -file ./nl6/datakit/nms/eng/js/aaremarketingLocation.js

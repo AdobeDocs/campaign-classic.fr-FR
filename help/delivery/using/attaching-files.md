@@ -2,7 +2,7 @@
 product: campaign
 title: Joindre des fichiers
 description: Joindre des fichiers
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 role: User
 hide: true
@@ -10,25 +10,32 @@ exl-id: db65e83e-276f-4163-98c3-3658a48acffc
 TQID: https://experienceleague.adobe.com/6AE1xmaWKR8AecaLkFsOsf7YKNuIPYHZ8f0TekKp-18
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1085
+workflow-type: tm+mt
+source-wordcount: '1076'
 ht-degree: 100%
-
 ---
-
 # Joindre des fichiers à un e-mail{#attaching-files}
 
 ## À propos des pièces jointes à un email {#about-email-attachments}
@@ -80,7 +87,7 @@ Une fois le fichier sélectionné, il est immédiatement téléchargé sur le se
 
 ## Créer une pièce jointe calculée {#creating-a-calculated-attachment}
 
-Lorsque vous créez une pièce jointe calculée, le nom de la pièce jointe peut être calculé lors de l’analyse ou de la diffusion de chaque message et peut dépendre de la personne destinataire.Il peut également être personnalisé et converti au format PDF.
+Lorsque vous créez une pièce jointe calculée, le nom de la pièce jointe peut être calculé lors de l’analyse ou de la diffusion de chaque message et peut dépendre de la personne destinataire. Il peut également être personnalisé et converti au format PDF.
 
 ![](assets/s_ncs_user_wizard_attachment.png)
 
@@ -104,7 +111,7 @@ Les options disponibles sont les suivantes :
 Si la pièce jointe est un fichier local, sélectionnez l’option : **[!UICONTROL Le nom de fichier est renseigné lors de la création du modèle de diffusion]**. Le fichier est sélectionné en local et téléchargé sur le serveur. Suivez les étapes ci-dessous :
 
 1. Sélectionnez le fichier à télécharger dans le champ **[!UICONTROL Fichier local]**.
-1. Précisez le libellé si nécessaire. Le libellé remplace le nom de fichier lorsqu’il est affiché dans des systèmes de messagerie.Si rien n’est spécifié, le nom de fichier est utilisé par défaut.
+1. Précisez le libellé si nécessaire. Le libellé remplace le nom de fichier lorsqu’il est affiché dans des systèmes de messagerie. Si rien n’est spécifié, le nom de fichier est utilisé par défaut.
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_02.png)
 
@@ -125,7 +132,7 @@ Pour ce type de pièce jointe, les étapes de configuration sont les suivantes 
 1. Sélectionnez le fichier à télécharger.
 1. Précisez le libellé si nécessaire.
 1. Sélectionnez l&#39;option **[!UICONTROL Télécharger le fichier sur le serveur]**, puis cliquez sur le lien **[!UICONTROL Mettre à jour sur le serveur]** pour lancer le transfert.
-1. Vous pouvez afficher une prévisualisation.Pour cela, sélectionnez une personne destinataire.
+1. Vous pouvez afficher une prévisualisation. Pour cela, sélectionnez une personne destinataire.
 
    ![](assets/s_ncs_user_wizard_email_calc_attachement_07.png)
 
@@ -162,7 +169,7 @@ Vous pouvez calculer le nom d’une pièce jointe pendant la préparation de la 
 
 ### Joindre un fichier personnalisé {#attach-a-personalized-file}
 
-Lorsque vous sélectionnez la pièce jointe, vous pouvez choisir l’option **[!UICONTROL Le nom de fichier est calculé au moment de la diffusion pour chaque personne destinataire (il peut dépendre de la personne destinataire)]**.Vous pouvez ensuite associer les données de personnalisation des personnes destinataires au nom du fichier à envoyer.
+Lorsque vous sélectionnez la pièce jointe, vous pouvez choisir l’option **[!UICONTROL Le nom de fichier est calculé au moment de la diffusion pour chaque personne destinataire (il peut dépendre de la personne destinataire)]**. Vous pouvez ensuite associer les données de personnalisation des personnes destinataires au nom du fichier à envoyer.
 
 >[!NOTE]
 >
@@ -202,6 +209,6 @@ L&#39;onglet **[!UICONTROL Avancé]** permet de définir des options avancées s
 * Vous pouvez définir des options de filtrage afin de ne pas transmettre le fichier joint à l’ensemble des destinataires. L&#39;option **[!UICONTROL Activer le filtrage des destinataires qui recevront la pièce jointe]** active une zone de saisie utilisée pour définir un script de sélection des destinataires. Ce script doit être saisi en JavaScript.
 * Vous pouvez scripter le nom du fichier afin de le personnaliser.
 
-  Saisissez votre texte dans la fenêtre et utilisez les champs de personnalisation disponibles dans la liste déroulante.Dans l’exemple ci-dessous, le nom du fichier est personnalisé pour contenir la date du jour et le nom de la personne destinataire.
+  Saisissez votre texte dans la fenêtre et utilisez les champs de personnalisation disponibles dans la liste déroulante. Dans l’exemple ci-dessous, le nom du fichier est personnalisé pour contenir la date du jour et le nom de la personne destinataire.
 
   ![](assets/s_ncs_user_wizard_email_calc_attachement_09.png)

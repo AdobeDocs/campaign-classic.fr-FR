@@ -3,7 +3,7 @@ product: campaign
 title: Types de maintenance
 description: Types de maintenance
 feature: Monitoring
-badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: database-maintenance
@@ -11,24 +11,25 @@ exl-id: 08e179aa-fd83-4c0a-879e-ab7aec168d92
 TQID: https://experienceleague.adobe.com/bnEjFRKyiM1Um7c1bjoQ6Irblxu9UnQdtXQeGxGvsZk
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 528
+workflow-type: tm+mt
+source-wordcount: '516'
 ht-degree: 100%
-
 ---
-
 # Types de maintenance{#types-of-maintenance}
 
 
 
 ## Maintenance au niveau applicatif {#application-maintenance}
 
-Adobe Campaign propose un workflow intégré qui vous permet de planifier certaines tâches de maintenance de la base de données : le **workflow de nettoyage de la base de données**.Ce workflow effectue les tâches suivantes :
+Adobe Campaign propose un workflow intégré qui vous permet de planifier certaines tâches de maintenance de la base de données : le **workflow de nettoyage de la base de données**. Ce workflow effectue les tâches suivantes :
 
 * suppression des enregistrements expirés,
 * suppression des enregistrements orphelins et réinitialisation du statut des objets qui ont expirés,
@@ -36,11 +37,11 @@ Adobe Campaign propose un workflow intégré qui vous permet de planifier certa
 
 >[!IMPORTANT]
 >
->Notez que la tâche de nettoyage assure principalement la maintenance au niveau applicatif et non celle du SGDB (à l’exception de la mise à jour des statistiques).Des opérations de maintenance seront toutefois nécessaires sur la base de données.En effet, le fait que le workflow de nettoyage de la base de données se déroule sans erreur ne signifie pas que la base de données soit totalement optimisée.
+>Notez que la tâche de nettoyage assure principalement la maintenance au niveau applicatif et non celle du SGDB (à l’exception de la mise à jour des statistiques). Des opérations de maintenance seront toutefois nécessaires sur la base de données. En effet, le fait que le workflow de nettoyage de la base de données se déroule sans erreur ne signifie pas que la base de données soit totalement optimisée.
 
 ## Maintenance technique {#technical-maintenance}
 
-Le workflow de nettoyage de la base de données ne comprend aucun outil de maintenance de la base de données : c’est à vous d’organiser la maintenance.Pour ce faire, vous pouvez effectuer l’une des opérations suivantes :
+Le workflow de nettoyage de la base de données ne comprend aucun outil de maintenance de la base de données : c’est à vous d’organiser la maintenance. Pour ce faire, vous pouvez effectuer l’une des opérations suivantes :
 
 * collaborer avec l&#39;administrateur de la base de données pour configurer la maintenance de la base avec des outils tiers,
 * utiliser le moteur de workflow disponible dans Adobe Campaign pour planifier et suivre les activités de maintenance.
@@ -52,9 +53,9 @@ Ces procédures de maintenance doivent être effectuées régulièrement. Il s&#
 
 ### Planifier la maintenance {#maintenance-schedule}
 
-Vous devez trouver le moment approprié pour effectuer ces activités de maintenance.Elles peuvent avoir un impact important sur les performances de la base de données ou bloquer l’application (du fait du verrouillage).
+Vous devez trouver le moment approprié pour effectuer ces activités de maintenance. Elles peuvent avoir un impact important sur les performances de la base de données ou bloquer l’application (du fait du verrouillage).
 
-Il est courant de lancer les tâches de maintenance une fois par semaine, pendant une période de faible activité et en dehors des périodes de sauvegarde, de rechargement de données ou de calcul des agrégats.Sur certains systèmes fortement sollicités, il peut être nécessaire de le faire plus souvent.
+Il est courant de lancer les tâches de maintenance une fois par semaine, pendant une période de faible activité et en dehors des périodes de sauvegarde, de rechargement de données ou de calcul des agrégats. Sur certains systèmes fortement sollicités, il peut être nécessaire de le faire plus souvent.
 
 Une opération de maintenance plus importante, comme la reconstruction de toutes les tables peut être faite une fois par mois, de préférence lorsque les applications sont totalement arrêtées, le système étant alors inutilisable.
 
@@ -88,7 +89,7 @@ Pour reconstruire une table, plusieurs stratégies sont envisageables :
    <td> Duplication puis renommage et suppression<br /> </td> 
    <td> Cette opération consiste à créer une copie de la table et de ses index, à supprimer la table originelle puis à la remplacer par sa copie après l'avoir renommée.<br /> </td> 
    <td> Cette méthode est plus rapide que la première approche, car elle génère moins d'E/S (pas de copie en tant que fichier ni de lecture à partir de ce fichier).<br /> </td> 
-   <td>Requiert deux fois plus d’espace disque.<br />Tous les processus actifs qui accèdent à la table en écriture doivent être arrêtés.Toutefois, les processus de lecture ne sont pas affectés, car la table est échangée au dernier moment une fois la reconstruction effectuée. <br /> </td> 
+   <td> Requiert deux fois plus d’espace disque.<br /> Tous les processus actifs qui accèdent à la table en écriture doivent être arrêtés. Toutefois, les processus de lecture ne sont pas affectés, car la table est échangée au dernier moment une fois la reconstruction effectuée. <br /> </td> 
   </tr> 
  </tbody> 
 </table>

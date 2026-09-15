@@ -10,27 +10,27 @@ exl-id: bdda98f7-a083-4f3b-b691-c28ec79af780
 TQID: https://experienceleague.adobe.com/sfD2AC1pBRsuvD-SScCQRjB1oL5ok55ZOEaoGuLhzmQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1038
+workflow-type: tm+mt
+source-wordcount: '1038'
 ht-degree: 100%
-
 ---
-
 # Créer des emplacements d&#39;offres{#creating-offer-spaces}
 
 
 
-La création d’emplacements ne peut être effectuée que par un **administrateur ou une administratrice technique** qui a accès au sous-dossier des emplacements.Les emplacements ne peuvent être créés que dans l’environnement de conception et sont dupliqués automatiquement dans l’environnement en ligne lors de la validation des offres.
+La création d’emplacements ne peut être effectuée que par un **administrateur ou une administratrice technique** qui a accès au sous-dossier des emplacements. Les emplacements ne peuvent être créés que dans l’environnement de conception et sont dupliqués automatiquement dans l’environnement en ligne lors de la validation des offres.
 
 Le contenu des offres du catalogue est configuré dans les emplacements. Par défaut, le contenu peut contenir les champs suivants : **[!UICONTROL Titre]**, **[!UICONTROL URL de destination]**, **[!UICONTROL URL d&#39;image]**, **[!UICONTROL Contenu HTML]** et **[!UICONTROL Contenu texte]**. La séquence des champs est paramétrée dans l&#39;emplacement.
 
 Des paramètres avancés vous permettent de définir une clé d&#39;identification du contact (qui peut être composée de plusieurs éléments, comme par exemple le champ nom et le champ email à la fois). Voir à ce sujet la section [Présenter une offre identifiée](../../interaction/using/integration-via-javascript-client-side.md#presenting-an-identified-offer).
 
-Le rendu HTML ou XML est créé à partir d’une fonction de rendu.L&#39;ordre des champs définis dans la fonction de rendu doit être identique à celui paramétré dans le contenu.
+Le rendu HTML ou XML est créé à partir d’une fonction de rendu. L&#39;ordre des champs définis dans la fonction de rendu doit être identique à celui paramétré dans le contenu.
 
 ![](assets/offer_space_create_009.png)
 
@@ -61,13 +61,13 @@ Pour créer un nouvel emplacement, procédez comme suit :
 
    >[!NOTE]
    >
-   >Cette configuration est utilisée lors de la prévisualisation et rend les emplacements non valides lors de la publication si l’un des éléments obligatoires est manquant dans l’offre concernée.Toutefois, si une offre est déjà en ligne sur un emplacement, ces critères ne sont pas pris en compte.
+   >Cette configuration est utilisée lors de la prévisualisation et rend les emplacements non valides lors de la publication si l’un des éléments obligatoires est manquant dans l’offre concernée. Toutefois, si une offre est déjà en ligne sur un emplacement, ces critères ne sont pas pris en compte.
 
    ![](assets/offer_space_create_005.png)
 
 1. Cliquez sur **[!UICONTROL Editer les fonctions]** pour créer une fonction de rendu.
 
-   Ces fonctions sont utilisées pour générer des représentations d’offres sur un emplacement.Plusieurs formats sont possibles : HTML ou texte pour les interactions sortantes et XML pour les interactions entrantes.
+   Ces fonctions sont utilisées pour générer des représentations d’offres sur un emplacement. Plusieurs formats sont possibles : HTML ou texte pour les interactions sortantes et XML pour les interactions entrantes.
 
    ![](assets/offer_space_create_006.png)
 
@@ -76,15 +76,15 @@ Pour créer un nouvel emplacement, procédez comme suit :
 
    ![](assets/offer_space_create_007.png)
 
-Pour les interactions entrantes, vous pouvez surcharger les fonctions de rendu XML, si nécessaire.Pour les interactions sortantes, vous pouvez également surcharger les fonctions de rendu HTML et texte.Voir à ce sujet la section [À propos des canaux entrants](../../interaction/using/about-inbound-channels.md).
+Pour les interactions entrantes, vous pouvez surcharger les fonctions de rendu XML, si nécessaire. Pour les interactions sortantes, vous pouvez également surcharger les fonctions de rendu HTML et texte. Voir à ce sujet la section [À propos des canaux entrants](../../interaction/using/about-inbound-channels.md).
 
 ## États de la proposition d&#39;offre {#offer-proposition-statuses}
 
-Le statut d’une proposition d’offre varie en fonction des interactions avec la population ciblée.Interaction comprend un ensemble de valeurs qui peuvent être appliquées à la proposition d’offre tout au long de son cycle de vie.Vous devrez toutefois configurer la plateforme afin que le statut de la proposition d’offre soit modifié lors de sa création et de son acceptation.
+Le statut d’une proposition d’offre varie en fonction des interactions avec la population ciblée. Interaction comprend un ensemble de valeurs qui peuvent être appliquées à la proposition d’offre tout au long de son cycle de vie. Vous devrez toutefois configurer la plateforme afin que le statut de la proposition d’offre soit modifié lors de sa création et de son acceptation.
 
 >[!NOTE]
 >
->Le statut de la proposition d’offre n’est pas mis à jour immédiatement.Elle est réalisée par le workflow de tracking qui se déclenche toutes les heures.
+>Le statut de la proposition d’offre n’est pas mis à jour immédiatement. Elle est réalisée par le workflow de tracking qui se déclenche toutes les heures.
 
 ### Liste des états {#status-list}
 
@@ -118,7 +118,7 @@ Pour cela :
 
 ### Paramétrer l&#39;état à l&#39;acceptation de la proposition d&#39;offre {#configuring-the-status-when-the-proposition-is-accepted}
 
-Une fois qu’une proposition d’offre a été acceptée, vous pouvez utiliser l’une des valeurs fournies par défaut pour configurer le nouveau statut de la proposition.La mise à jour est effective lorsqu’une personne destinataire clique sur un lien dans l’offre, appelant ainsi le moteur Interaction.
+Une fois qu’une proposition d’offre a été acceptée, vous pouvez utiliser l’une des valeurs fournies par défaut pour configurer le nouveau statut de la proposition. La mise à jour est effective lorsqu’une personne destinataire clique sur un lien dans l’offre, appelant ainsi le moteur Interaction.
 
 Pour cela :
 
@@ -129,7 +129,7 @@ Pour cela :
 
 **Interaction entrante**
 
-L’onglet **[!UICONTROL Stockage]** vous permet de définir les statuts des propositions d’offre **proposées** et **acceptées** uniquement.Dans le cas d’une interaction entrante, le statut des propositions d’offre doit être spécifié directement dans l’URL d’appel du moteur d’offres, plutôt que via l’interface.Vous serez ainsi en mesure de spécifier le statut à appliquer dans d’autres cas, par exemple si une proposition d’offre est rejetée.
+L’onglet **[!UICONTROL Stockage]** vous permet de définir les statuts des propositions d’offre **proposées** et **acceptées** uniquement. Dans le cas d’une interaction entrante, le statut des propositions d’offre doit être spécifié directement dans l’URL d’appel du moteur d’offres, plutôt que via l’interface. Vous serez ainsi en mesure de spécifier le statut à appliquer dans d’autres cas, par exemple si une proposition d’offre est rejetée.
 
 ```
 <BASE_URL>?a=UpdateStatus&p=<PRIMARY_KEY_OF_THE_PROPOSITION>&st=<NEW_STATUS_OF_THE_PROPOSITION>&r=<REDIRECT_URL>
@@ -159,7 +159,7 @@ Dans le cas d’une interaction sortante, vous pouvez appliquer automatiquement 
 
 ## Prévisualisation des offres par emplacement {#offer-preview-per-space}
 
-Dans cet onglet, vous pouvez visualiser les offres auxquelles la personne destinataire est éligible via une méthode sélectionnée.Dans l&#39;exemple ci-dessous, le destinataire est éligible à trois propositions d&#39;offres par mail.
+Dans cet onglet, vous pouvez visualiser les offres auxquelles la personne destinataire est éligible via une méthode sélectionnée. Dans l&#39;exemple ci-dessous, le destinataire est éligible à trois propositions d&#39;offres par mail.
 
 ![](assets/offer_space_overview_002.png)
 

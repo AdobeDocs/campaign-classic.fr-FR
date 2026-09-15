@@ -8,27 +8,29 @@ exl-id: 91c31703-75e6-47a4-a877-35682dd687a9
 TQID: https://experienceleague.adobe.com/FfA6FEH5WP2JJGVR4BhpjO19Yj4mt8irvyJLwuzCThs
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 192
+workflow-type: tm+mt
+source-wordcount: '192'
 ht-degree: 100%
-
 ---
-
 # À propos du tracking web{#about-web-tracking}
 
-Outre le suivi standard qui montre le comportement d’une personne qui clique sur un lien dans un e-mail, la plateforme Adobe Campaign permet de collecter des informations sur la navigation des internautes sur votre site web.Cette collecte de données est effectuée par le module de tracking web.
+Outre le suivi standard qui montre le comportement d’une personne qui clique sur un lien dans un e-mail, la plateforme Adobe Campaign permet de collecter des informations sur la navigation des internautes sur votre site web. Cette collecte de données est effectuée par le module de tracking web.
 
 Lorsqu’un internaute clique sur un lien suivi dans un e-mail d’une diffusion donnée, le serveur de redirection contacté dépose un cookie de session contenant l’identifiant broadlog (broadlogId) ainsi que l’identifiant de la diffusion (deliveryId).
 
-Le client web transmettra alors ce cookie au serveur à chaque fois qu’il visitera une page contenant une balise de tracking web.Cela se poursuit tout au long de la session, c’est-à-dire jusqu’à la fermeture du client web.
+Le client web transmettra alors ce cookie au serveur à chaque fois qu’il visitera une page contenant une balise de tracking web. Cela se poursuit tout au long de la session, c’est-à-dire jusqu’à la fermeture du client web.
 
 Le serveur de redirection collecte donc les informations suivantes :
 

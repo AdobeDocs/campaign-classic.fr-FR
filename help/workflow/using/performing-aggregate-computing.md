@@ -8,18 +8,20 @@ exl-id: 5b05788f-498b-4a84-bdde-2852900f0129
 TQID: https://experienceleague.adobe.com/hr3jxs4JCrcPXdGBGN8I9edBG4FIg1AakOmWaN-Zplk
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 245
+workflow-type: tm+mt
+source-wordcount: '245'
 ht-degree: 100%
-
 ---
-
 # Réaliser un calcul d&#39;agrégats {#performing-aggregate-computing}
 
 
@@ -51,11 +53,11 @@ Pour réaliser cet exemple, les étapes sont les suivantes :
 
    >[!NOTE]
    >
-   >Les valeurs sont sensibles à la casse.Si la valeur « paris » est saisie dans la condition sans majuscule et si la liste des personnes destinataires comporte le terme « Paris » avec une majuscule, la requête échoue.
+   >Les valeurs sont sensibles à la casse. Si la valeur « paris » est saisie dans la condition sans majuscule et si la liste des personnes destinataires comporte le terme « Paris » avec une majuscule, la requête échoue.
 
 1. Dans la fenêtre **[!UICONTROL Formatage des données]**, cliquez sur **[!UICONTROL Suivant]** : aucun formatage n&#39;est nécessaire dans cet exemple.
 1. Dans la fenêtre de prévisualisation, cliquez sur **[!UICONTROL Lancer la prévisualisation des données]**.
 
-   Il y a trois valeurs distinctes dans un tri par genre : **2** correspond au genre féminin, **1** au genre masculin et la valeur **0** apparaît lorsque le genre est inconnu.Dans cet exemple, la liste comporte 10 femmes, 16 hommes et 2 personnes dont le genre n’est pas renseigné.
+   Il y a trois valeurs distinctes dans un tri par genre : **2** correspond au genre féminin, **1** au genre masculin et la valeur **0** apparaît lorsque le genre est inconnu. Dans cet exemple, la liste comporte 10 femmes, 16 hommes et 2 personnes dont le genre n’est pas renseigné.
 
    ![](assets/query_editor_agregat_04.png)

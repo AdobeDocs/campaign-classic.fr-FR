@@ -9,12 +9,10 @@ sub-product: adobe campaign classic
 type: Documentation
 nudge: false
 source-git-commit: df5d87ca4fccb927f770957ec1c00157d14e95dc
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2717'
 ht-degree: 100%
-
 ---
-
 
 # Documentation Adobe Campaign Classic v7 {#using}
 

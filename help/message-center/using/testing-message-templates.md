@@ -10,17 +10,17 @@ exl-id: 417004c9-ed96-4b98-a518-a3aa6123ee7b
 TQID: https://experienceleague.adobe.com/jcmXX4aMPaTBatt4m3s-IAaAeoXnjmPaEE4oqIDoIOI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 607
+workflow-type: tm+mt
+source-wordcount: '607'
 ht-degree: 100%
-
 ---
-
 # Test des modèles de message transactionnel {#testing-message-templates}
 
 
@@ -29,7 +29,7 @@ Une fois que votre [modèle de message](../../message-center/using/creating-the-
 
 ## Gestion des adresses de contrôle dans les messages transactionnels {#managing-seed-addresses-in-transactional-messages}
 
-Une adresse de contrôle vous permet d’afficher une prévisualisation de votre message, d’envoyer un BAT et de tester la personnalisation du message avant la diffusion par e-mail ou SMS.Les adresses de contrôle sont liées à la diffusion et ne peuvent pas être utilisées pour d&#39;autres diffusions.
+Une adresse de contrôle vous permet d’afficher une prévisualisation de votre message, d’envoyer un BAT et de tester la personnalisation du message avant la diffusion par e-mail ou SMS. Les adresses de contrôle sont liées à la diffusion et ne peuvent pas être utilisées pour d&#39;autres diffusions.
 
 Pour créer des adresses de contrôle dans un message transactionnel, procédez comme suit :
 
@@ -45,7 +45,7 @@ Pour créer des adresses de contrôle dans un message transactionnel, procédez 
 
    ![](assets/messagecenter_create_seedaddr_003.png)
 
-1. Saisissez l’identifiant externe : ce champ facultatif vous permet de saisir une clé métier (ID unique, nom + adresse e-mail, etc.)commune à toutes les applications de votre site web, utilisée pour identifier vos profils.Si ce champ est également présent dans la base de données marketing Adobe Campaign, vous pouvez ensuite réconcilier un événement avec un profil dans la base de données.
+1. Saisissez l’identifiant externe : ce champ facultatif vous permet de saisir une clé métier (ID unique, nom + adresse e-mail, etc.) commune à toutes les applications de votre site web, utilisée pour identifier vos profils. Si ce champ est également présent dans la base de données marketing Adobe Campaign, vous pouvez ensuite réconcilier un événement avec un profil dans la base de données.
 
    ![](assets/messagecenter_create_seedaddr_003bis.png)
 
@@ -67,9 +67,9 @@ Lorsque les adresses sont créées, vous pouvez dès lors afficher l&#39;aperçu
 
 ## Données de personnalisation {#personalization-data}
 
-Il est possible d’utiliser des données dans le modèle de message pour tester la personnalisation des messages transactionnels.Cette fonctionnalité est utilisée pour générer une prévisualisation ou envoyer un BAT.Vous pouvez également afficher le rendu du message pour différents fournisseurs d&#39;accès Internet. Pour plus d&#39;informations, consultez la section [Inbox rendering](../../delivery/using/inbox-rendering.md).
+Il est possible d’utiliser des données dans le modèle de message pour tester la personnalisation des messages transactionnels. Cette fonctionnalité est utilisée pour générer une prévisualisation ou envoyer un BAT. Vous pouvez également afficher le rendu du message pour différents fournisseurs d&#39;accès Internet. Pour plus d&#39;informations, consultez la section [Inbox rendering](../../delivery/using/inbox-rendering.md).
 
-Ces données ont pour but de tester vos messages avant leur diffusion finale.Ces messages ne correspondent pas aux données réelles à traiter.Cependant, la structure XML doit être identique à celle de l’événement stocké dans l’instance d’exécution, comme illustré ci-dessous :
+Ces données ont pour but de tester vos messages avant leur diffusion finale. Ces messages ne correspondent pas aux données réelles à traiter. Cependant, la structure XML doit être identique à celle de l’événement stocké dans l’instance d’exécution, comme illustré ci-dessous :
 
 ![](assets/messagecenter_create_custo_006.png)
 

@@ -7,15 +7,14 @@ exl-id: 8207868c-25ff-4ca9-afdd-41b324c7ac0d
 TQID: https://experienceleague.adobe.com/R-Oa0H6l19qOU9KamHyVFrOWqBOw9uB2ISm2OYdQDrM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 49
+source-wordcount: '56'
 ht-degree: 100%
-
 ---
-
 # élément help {#help--element}
 
 

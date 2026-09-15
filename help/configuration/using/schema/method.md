@@ -7,15 +7,14 @@ exl-id: 0fb74318-fe09-473c-8e33-1f3afd66b4cc
 TQID: https://experienceleague.adobe.com/GaT6bmWzojcbk8-XjCoqrMv2-02aoxv1cIXM0E0Y0UU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 207
+workflow-type: tm+mt
+source-wordcount: '209'
 ht-degree: 100%
-
 ---
-
 # élément method {#method--element}
 
 
@@ -56,7 +55,7 @@ L&#39;utilisation de l&#39;attribut &quot;@library&quot; est nécessaire pour d�
 
 ## Description des attributs {#attribute-description-10}
 
-* **access (string)** : cet attribut définit le contrôle d’accès pour utiliser la méthode.Si cet attribut est manquant, l’identification est obligatoire.Les valeurs disponibles sont les suivantes : « anonyme », « admin » et « sql ».
+* **access (string)** : cet attribut définit le contrôle d’accès pour utiliser la méthode. Si cet attribut est manquant, l’identification est obligatoire. Les valeurs disponibles sont les suivantes : « anonyme », « admin » et « sql ».
 * **const (boolean)**: si cet attribut est activé, les paramètres sont compris dans un élément XML qui définit la méthode.
 * **label (string)**: libellé de la méthode.
 * **library (string)**: méthode qui n&#39;est pas native à l&#39;application . Cet attribut prend la valeur de la bibliothèque de méthodes où se trouve la définition de la méthode (nms:mylibrary.js).

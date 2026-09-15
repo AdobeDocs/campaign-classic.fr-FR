@@ -2,7 +2,7 @@
 product: campaign
 title: Étapes principales de l’envoi d’un e-mail
 description: Découvrez comment confirmer la diffusion d’un e-mail, ainsi que les spécificités de la diffusion d’e-mails.
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email
 role: User
 hide: true
@@ -10,23 +10,29 @@ exl-id: c75a5ea2-8d62-4f98-bccd-7116a4d404fd
 TQID: https://experienceleague.adobe.com/71T12angLVVjy-LdD2jfqnMRn3O64XEVf4aslHvuIHg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 227
+source-wordcount: '218'
 ht-degree: 100%
-
 ---
-
 # Étapes principales de l’envoi d’un e-mail {#key-steps-to-send-an-email}
 
 Une fois votre email créé et configuré, vous pouvez l’envoyer à la cible principale. Cette section présente les principales étapes à suivre pour vérifier et confirmer la diffusion d’un email.

@@ -2,29 +2,35 @@
 product: campaign
 title: Gestion et configuration de votre rapport d’analyse
 description: Gestion et configuration de votre rapport d’analyse
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting, Monitoring
 exl-id: d133efec-33e1-4711-a90f-e40385059386
 TQID: https://experienceleague.adobe.com/031f3x-e6Az-CQMGiQVY0n7xazEo8ijHPz8VEsTbgt0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic Reporting
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
+    internal-label: Customize reports
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+    internal-label: Cubes and multidimensional analysis
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 905
+workflow-type: tm+mt
+source-wordcount: '896'
 ht-degree: 100%
-
 ---
-
 # Gestion et configuration de votre rapport d’analyse {#processing-a-report}
 
 ## Sauvegarder un rapport d&#39;analyse {#saving-an-analysis-report}
@@ -59,7 +65,7 @@ Vous pouvez personnaliser l&#39;affichage et la disposition de vos données dans
 
 ### Mode d&#39;affichage du rapport d&#39;analyse {#analysis-report-display-mode}
 
-Lorsque vous créez un rapport à partir du modèle de **[!UICONTROL distribution qualitative]**, les modes d’affichage tableau et graphique sont sélectionnés par défaut.Si vous ne souhaitez qu’un seul mode d’affichage, décochez la case correspondante.Cela signifie que seul l’onglet du mode d’affichage coché sera disponible.
+Lorsque vous créez un rapport à partir du modèle de **[!UICONTROL distribution qualitative]**, les modes d’affichage tableau et graphique sont sélectionnés par défaut. Si vous ne souhaitez qu’un seul mode d’affichage, décochez la case correspondante. Cela signifie que seul l’onglet du mode d’affichage coché sera disponible.
 
 ![](assets/s_ncs_advuser_report_display_01.png)
 
@@ -85,7 +91,7 @@ En revanche, si vous déselectionnez l&#39;option d&#39;affichage des libellés 
 
 ![](assets/s_ncs_advuser_report_display_08.png)
 
-Par défaut, les statistiques sont affichées en ligne.Pour modifier l’orientation, sélectionnez l’option adéquate dans la liste déroulante.
+Par défaut, les statistiques sont affichées en ligne. Pour modifier l’orientation, sélectionnez l’option adéquate dans la liste déroulante.
 
 ![](assets/s_ncs_advuser_report_wizard_035a.png)
 
@@ -95,7 +101,7 @@ Dans l&#39;exemple ci-dessous, les statistiques sont affichées en colonnes :
 
 ### Disposition des données dans un rapport d&#39;analyse {#analysis-report-data-layout}
 
-Vous pouvez personnaliser la disposition des données directement dans les tableaux d’analyse descriptive.Pour ce faire, cliquez avec le bouton droit sur la variable que vous souhaitez utiliser.Sélectionnez les options disponibles dans le menu déroulant :
+Vous pouvez personnaliser la disposition des données directement dans les tableaux d’analyse descriptive. Pour ce faire, cliquez avec le bouton droit sur la variable que vous souhaitez utiliser. Sélectionnez les options disponibles dans le menu déroulant :
 
 * **[!UICONTROL Pivoter]** pour changer la variable sélectionnée d&#39;axe.
 * **[!UICONTROL Monter]** / **[!UICONTROL Descendre]** pour intervertir les variables qui se trouvent en ligne.
@@ -119,7 +125,7 @@ Les options disponibles sont les suivantes :
 * La section supérieure de la fenêtre permet de modifier la zone d&#39;affichage du graphique.
 * Par défaut, les libellés sont affichés dans le graphique. Vous pouvez les masquer en décochant l&#39;option **[!UICONTROL Afficher les valeurs]**.
 * L&#39;option **[!UICONTROL Cumuler les valeurs]** permet d&#39;additionner les différentes valeurs retournées d&#39;une série à l&#39;autre.
-* Vous pouvez choisir d’afficher ou non la légende du graphique : pour ne pas afficher de légende, désélectionnez l’option correspondante.Par défaut, la légende est affichée en haut à droite, en dehors du graphique.
+* Vous pouvez choisir d’afficher ou non la légende du graphique : pour ne pas afficher de légende, désélectionnez l’option correspondante. Par défaut, la légende est affichée en haut à droite, en dehors du graphique.
 
   La légende peut également être affichée au-dessus du graphique afin d&#39;économiser de l&#39;espace. Pour cela, sélectionnez l&#39;option **[!UICONTROL Inclure dans le graphe]**
 
@@ -144,7 +150,7 @@ Pour découvrir comment enregistrer des analyses descriptives, consultez [Sauveg
 Pour créer des rapports d’analyse descriptive, l’assistant d’analyse descriptive doit être exécuté à partir d’une transition de workflow ou depuis le menu **[!UICONTROL Outils > Analyse descriptive]**.
 
 1. Sélectionnez **[!UICONTROL Analyses et rapports existants]** et cliquez sur **[!UICONTROL Suivant]**.
-1. Vous accédez alors à la liste des rapports disponibles.Sélectionnez le rapport que vous souhaitez générer.
+1. Vous accédez alors à la liste des rapports disponibles. Sélectionnez le rapport que vous souhaitez générer.
 
    ![](assets/s_ncs_user_report_wizard_01.png)
 

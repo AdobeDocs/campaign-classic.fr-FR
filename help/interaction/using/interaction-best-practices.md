@@ -10,19 +10,21 @@ exl-id: 98413cde-50c9-416c-8316-85837f724c27
 TQID: https://experienceleague.adobe.com/3EnUxwwGdhqG7vmysgbDBwiCbbBIl2bG1byaRe3j6O8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1210
+workflow-type: tm+mt
+source-wordcount: '1210'
 ht-degree: 100%
-
 ---
-
 # Bonnes pratiques relatives aux interactions{#interaction-best-practices}
 
 
@@ -31,14 +33,14 @@ ht-degree: 100%
 
 Cette section présente les bonnes pratiques pour gérer le module Interaction dans Adobe Campaign Classic, y compris les règles d&#39;éligibilité, les filtres prédéfinis, les activités de workflow et les options de bases de données.
 
-Un fonctionnement efficace d’Interaction dans Adobe Campaign requiert une attention toute particulière.Vous devez trouver le juste milieu entre le nombre de contacts et le nombre de catégories d’offres et les offres.Si ces facteurs ne sont pas gérés rigoureusement, votre instance Adobe Campaign peut rencontrer des problèmes.
+Un fonctionnement efficace d’Interaction dans Adobe Campaign requiert une attention toute particulière. Vous devez trouver le juste milieu entre le nombre de contacts et le nombre de catégories d’offres et les offres. Si ces facteurs ne sont pas gérés rigoureusement, votre instance Adobe Campaign peut rencontrer des problèmes.
 
 ### Mise en œuvre {#implementation}
 
 Vous trouverez ci-dessous les éléments importants à garder à l’esprit lors de la mise en œuvre et de la configuration des interactions.
 
-* Dans le cas du moteur batch (généralement utilisé dans les communications sortantes, telles que les e-mails), le débit est la préoccupation centrale, car plusieurs contacts peuvent être gérés simultanément.Le goulot d’étranglement typique est la performance de la base de données.
-* La principale contrainte du moteur unitaire (généralement utilisé dans les communications entrantes, telles qu’une bannière sur un site web) est la latence, car une personne attend une réponse.Le goulot d’étranglement typique est la performance du processeur.
+* Dans le cas du moteur batch (généralement utilisé dans les communications sortantes, telles que les e-mails), le débit est la préoccupation centrale, car plusieurs contacts peuvent être gérés simultanément. Le goulot d’étranglement typique est la performance de la base de données.
+* La principale contrainte du moteur unitaire (généralement utilisé dans les communications entrantes, telles qu’une bannière sur un site web) est la latence, car une personne attend une réponse. Le goulot d’étranglement typique est la performance du processeur.
 * La conception du catalogue d&#39;offres a un impact considérable sur la performance d&#39;Adobe Campaign Classic.
 * S&#39;il existe de nombreuses offres, fractionnez-les en plusieurs catalogues.
 
@@ -46,14 +48,14 @@ Vous trouverez ci-dessous les éléments importants à garder à l’esprit lors
 
 Vous trouverez ci-dessous certaines bonnes pratiques en matière de règles d’éligibilité.
 
-* Simplifiez les règles.La complexité des règles a une incidence sur les performances, car elle étend la recherche.Une règle complexe est toute règle qui comporte plus de cinq conditions.
+* Simplifiez les règles. La complexité des règles a une incidence sur les performances, car elle étend la recherche. Une règle complexe est toute règle qui comporte plus de cinq conditions.
 * Afin d’accroître la performance, les règles peuvent être décomposées en différents filtres prédéfinis partagés entre des offres multiples.
-* Placez les règles de catégorie d’offres les plus restrictives à la position la plus élevée possible dans l’arborescence.De cette manière, elles excluront le plus grand nombre de contacts en premier, réduisant ainsi le nombre de cibles et empêchant leur traitement par d’autres règles.
-* Placez les règles les plus coûteuses en termes de temps ou de traitement en bas de l’arborescence.De cette manière, ces règles seront uniquement exécutées sur l’audience cible restante.
+* Placez les règles de catégorie d’offres les plus restrictives à la position la plus élevée possible dans l’arborescence. De cette manière, elles excluront le plus grand nombre de contacts en premier, réduisant ainsi le nombre de cibles et empêchant leur traitement par d’autres règles.
+* Placez les règles les plus coûteuses en termes de temps ou de traitement en bas de l’arborescence. De cette manière, ces règles seront uniquement exécutées sur l’audience cible restante.
 * Démarrez au niveau d&#39;une catégorie spécifique afin d&#39;éviter d&#39;analyser l&#39;ensemble de l&#39;arbre.
-* Pour gagner du temps de traitement, précalculez les agrégats au lieu de créer des règles complexes avec des jointures.Pour ce faire, essayez de stocker les données clientèle dans une table de référence qui peut faire l’objet de recherches dans des règles d’éligibilité.
+* Pour gagner du temps de traitement, précalculez les agrégats au lieu de créer des règles complexes avec des jointures. Pour ce faire, essayez de stocker les données clientèle dans une table de référence qui peut faire l’objet de recherches dans des règles d’éligibilité.
 * Utilisez un nombre minimum de poids pour limiter le nombre de requêtes.
-* Il est recommandé de disposer d’un nombre limité d’offres par emplacement.Cela accélère la récupération des offres dans n’importe quel emplacement donné.
+* Il est recommandé de disposer d’un nombre limité d’offres par emplacement. Cela accélère la récupération des offres dans n’importe quel emplacement donné.
 * Servez-vous d&#39;index, en particulier pour les colonnes de recherche fréquemment utilisées.
 
 ### Table de propositions {#proposition-table}
@@ -63,7 +65,7 @@ Vous trouverez ci-dessous quelques bonnes pratiques concernant la table de propo
 * Utilisez un nombre minimum de règles pour que le traitement soit le plus rapide possible.
 * Limitez le nombre d&#39;enregistrements dans la table de propositions : conservez uniquement les enregistrements requis pour contrôler la mise à jour de son statut et ce que requièrent les règles, puis archivez-les dans un autre système.
 * Réalisez une maintenance de base de données intensive sur la table de propositions, par exemple, en reconstruisant les index ou en recréant la table.
-* Limitez le nombre de propositions demandées par cible.N’en définissez pas plus que ce que vous allez réellement utiliser.
+* Limitez le nombre de propositions demandées par cible. N’en définissez pas plus que ce que vous allez réellement utiliser.
 * Dans la mesure du possible, évitez les jointures dans les critères des règles.
 
 ## Conseils et astuces concernant la gestion des offres {#tips-managing-offers}

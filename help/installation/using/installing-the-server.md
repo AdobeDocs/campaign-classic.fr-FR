@@ -3,7 +3,7 @@ product: campaign
 title: Installation du serveur
 description: Installation du serveur
 feature: Installation, Instance Settings
-badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
@@ -11,15 +11,14 @@ exl-id: c0cb4efa-cae9-4312-88fb-738857a89595
 TQID: https://experienceleague.adobe.com/hs8ha4nJ0Mj33-Ae5sT29rM8rSZ-aJU3wWpSFwzYmWw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 424
+workflow-type: tm+mt
+source-wordcount: '412'
 ht-degree: 100%
-
 ---
-
 # Installation du serveur{#installing-the-server}
 
 ## Exécution du programme d&#39;installation {#executing-the-installation-program}
@@ -37,7 +36,7 @@ Les étapes d&#39;installation du serveur Adobe Campaign sont les suivantes :
    Plusieurs types d&#39;installation sont proposés :
 
    * **[!UICONTROL Installation d&#39;un serveur applicatif]** : installation du serveur applicatif Adobe Campaign et de la console cliente.
-   * **[!UICONTROL Installation minimale (Réseau)]** : installation de l’ordinateur client à partir du réseau.Seules quelques DLL seront installées sur l’ordinateur, si nécessaire, et tous les autres composants seront utilisés à partir d’un disque réseau.
+   * **[!UICONTROL Installation minimale (Réseau)]** : installation de l’ordinateur client à partir du réseau. Seules quelques DLL seront installées sur l’ordinateur, si nécessaire, et tous les autres composants seront utilisés à partir d’un disque réseau.
    * **[!UICONTROL Installation d&#39;un poste client]** : installation des composants nécessaires pour l&#39;utilisation de la console cliente Adobe Campaign.
    * **[!UICONTROL Installation personnalisée]** : l&#39;utilisateur choisit les éléments à installer.
 
@@ -138,7 +137,7 @@ Les informations affichées sont alors les suivantes :
 
 ## Mot de passe de l&#39;identifiant internal {#password-for-the-internal-identifier}
 
-Le serveur Adobe Campaign définit un identifiant technique nommé **internal** qui dispose de tous les droits sur toutes les instances.Juste après l’installation, le login n’a pas de mot de passe.Il est obligatoire d’en définir un.
+Le serveur Adobe Campaign définit un identifiant (ou « login ») technique nommé **internal** qui possède tous les droits, sur toutes les instances. Juste après l’installation, le login n’a pas de mot de passe. Il est obligatoire d’en définir un.
 
 En savoir plus dans [cette section](../../installation/using/configuring-campaign-server.md#internal-identifier).
 

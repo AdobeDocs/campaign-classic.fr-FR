@@ -10,19 +10,21 @@ exl-id: 78c65b31-e3d9-4a46-a101-26f35d00a4ee
 TQID: https://experienceleague.adobe.com/bANsF-xgtYGd-43EXaJMe4N2MKWUrH4Hs5wHYatPvcc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 feature_v2: []
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 220
+source-wordcount: '220'
 ht-degree: 100%
-
 ---
-
 # Résolution des problèmes de production{#troubleshooting}
 
 

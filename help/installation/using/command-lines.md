@@ -10,20 +10,19 @@ exl-id: 5cd4abb0-2bd2-4b23-902c-41b08a1d2f7a
 TQID: https://experienceleague.adobe.com/e85vFL0iZ586ICGGH1CP6fgqGU717W1aPDWqmj40-3s
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 144
+workflow-type: tm+mt
+source-wordcount: '144'
 ht-degree: 100%
-
 ---
-
 # Lignes de commande{#command-lines}
 
 
 
-Les lignes de commande suivantes requièrent la possibilité d’accéder au serveur d’applications.Pour les déploiements hébergés par Adobe, ces commandes ne peuvent être exécutées que par Adobe.
+Les lignes de commande suivantes requièrent la possibilité d’accéder au serveur d’applications. Pour les déploiements hébergés par Adobe, ces commandes ne peuvent être exécutées que par Adobe.
 
 ## Création d’une instance {#creating-an-instance}
 

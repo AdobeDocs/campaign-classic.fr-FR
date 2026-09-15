@@ -2,25 +2,28 @@
 product: campaign
 title: Définir lʼenchaînement des pages des formulaires web
 description: Définir lʼenchaînement des pages des formulaires web
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: c5b5c398-c13b-4ebe-88b2-8ff84741422e
 TQID: https://experienceleague.adobe.com/G1sd0NfOozlAyvMZpi6R8IEbfr6ZHE2ibhnfttEd7J8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: f391046b-0cf3-4e76-bd3b-97fe06654506
+    internal-label: Web Apps
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 751
+workflow-type: tm+mt
+source-wordcount: '742'
 ht-degree: 100%
-
 ---
-
 # Définir lʼenchaînement des pages des formulaires web{#defining-web-forms-page-sequencing}
 
 
@@ -29,7 +32,7 @@ Le formulaire peut contenir une ou plusieurs pages. Il est créé à l’aide d�
 
 ## À propos des pages précédente et suivante {#about-previous-page-and-next-page}
 
-Pour chaque page, vous pouvez supprimer les boutons **[!UICONTROL Suivant]** ou **[!UICONTROL Précédent]**.Pour cela, sélectionnez la page concernée et cochez l’option **[!UICONTROL Ne pas autoriser le passage à la page suivante]** ou **[!UICONTROL Ne pas autoriser le retour à la page précédente]**.
+Pour chaque page, vous pouvez supprimer les boutons **[!UICONTROL Suivant]** ou **[!UICONTROL Précédent]**. Pour cela, sélectionnez la page concernée et cochez l’option **[!UICONTROL Ne pas autoriser le passage à la page suivante]** ou **[!UICONTROL Ne pas autoriser le retour à la page précédente]**.
 
 ![](assets/s_ncs_admin_survey_no_next_page.png)
 
@@ -49,7 +52,7 @@ La destination peut être :
 
   ![](assets/s_ncs_admin_jump_param2.png)
 
-* La destination peut être stockée dans une variable.Dans ce cas, il suffit de la sélectionner dans la liste déroulante, comme dans l’exemple suivant :
+* La destination peut être stockée dans une variable. Dans ce cas, il suffit de la sélectionner dans la liste déroulante, comme dans l’exemple suivant :
 
   ![](assets/s_ncs_admin_jump_param3.png)
 
@@ -59,7 +62,7 @@ La destination peut être :
 
 ## Exemple : accéder à un autre formulaire en fonction d&#39;un paramètre de l&#39;URL {#example--accessing-another-form-according-to-a-parameter-of-the-url}
 
-Dans cet exemple, nous allons paramétrer un formulaire web qui permet, à l’approbation, d’afficher un autre formulaire, désigné par un paramètre de l’URL.Pour cela, les étapes sont les suivantes :
+Dans cet exemple, nous allons paramétrer un formulaire web qui permet, à l’approbation, d’afficher un autre formulaire, désigné par un paramètre de l’URL. Pour cela, les étapes sont les suivantes :
 
 1. Insérez un saut à la fin d&#39;un formulaire : le saut remplace alors la boîte de **[!UICONTROL Fin]**.
 
@@ -89,7 +92,7 @@ Vous pouvez insérer des liens vers d&#39;autres pages du formulaire. Vous devez
 
 ### Affichage en fonction des réponses {#display-based-on-responses}
 
-La boîte **[!UICONTROL Test]** permet de conditionner l’enchaînement des pages d’un formulaire.Elle permet de définir différentes lignes de dérivation en fonction des résultats du test.Vous pouvez ainsi afficher différentes pages en fonction des réponses fournies par les utilisateurs et utilisatrices.
+La boîte **[!UICONTROL Test]** permet de conditionner l’enchaînement des pages d’un formulaire. Elle permet de définir différentes lignes de dérivation en fonction des résultats du test. Vous pouvez ainsi afficher différentes pages en fonction des réponses fournies par les utilisateurs et utilisatrices.
 
 Par exemple, vous pouvez afficher une page différente pour les clients ayant déjà commandé sur internet, et une autre pour ceux ayant effectué plus de dix commandes. Pour cela, dans la première page du formulaire, insérez une zone de saisie de type **[!UICONTROL Nombre]** pour que l&#39;utilisateur indique le nombre de commandes passées.
 
@@ -105,11 +108,11 @@ Dans notre exemple, nous allons utiliser une variable :
 
 ![](assets/s_ncs_admin_survey_test_ex1.png)
 
-Dans le diagramme du formulaire, insérez une boîte de test afin de définir les conditions.Pour chaque condition, un nouveau branchement sera ajouté en sortie de la boîte de test.
+Dans le diagramme du formulaire, insérez une boîte de test afin de définir les conditions. Pour chaque condition, un nouveau branchement sera ajouté en sortie de la boîte de test.
 
 ![](assets/s_ncs_admin_survey_test_ex2.png)
 
-Cochez l’option **[!UICONTROL Activer le branchement par défaut]** afin d’ajouter une transition pour les cas où aucune des conditions n’est vraie.Cette option n’est pas utile si tous les cas possibles sont couverts par les conditions définies.
+Cochez l’option **[!UICONTROL Activer le branchement par défaut]** afin d’ajouter une transition pour les cas où aucune des conditions n’est vraie. Cette option n’est pas utile si tous les cas possibles sont couverts par les conditions définies.
 
 Définissez ensuite l&#39;enchaînement des pages lorsque l&#39;une ou l&#39;autre des conditions est vérifiée, par exemple :
 

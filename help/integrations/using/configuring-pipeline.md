@@ -3,7 +3,7 @@ product: campaign
 title: Configurer le pipeline
 description: Découvrez comment configurer le pipeline pour l’intégration Campaign - Triggers
 feature: Triggers
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: integrations
 content-type: reference
 level: Intermediate, Experienced
@@ -11,25 +11,32 @@ exl-id: 2d214c36-8429-4b2b-b1f5-fe2730581bba
 TQID: https://experienceleague.adobe.com/0Sv4efbYyu1kT-sDs4CYjDBP3RphjlqPTerDrNxN93I
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Adobe Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Adobe Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Adobe Target integration
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 865
+workflow-type: tm+mt
+source-wordcount: '856'
 ht-degree: 100%
-
 ---
-
 # Configurer le pipeline {#configuring-pipeline}
 
 Les paramètres d’authentification tels que l’identifiant client, la clé privée et le point d’entrée de l’authentification sont configurés dans les fichiers de configuration de l’instance.
@@ -141,9 +148,9 @@ Voici la liste des paramètres facultatifs :
 | dumpStatePeriodSec | La période entre deux vidages du processus d&#39;état interne dans `var/INSTANCE/pipelined.json.` <br> L&#39;état interne est également accessible à la demande ici : `http://INSTANCE:7781/pipelined/status` |
 | forcedPipelineEndpoint | Désactiver la détection de PipelineServicesEndpoint et la forcer |
 | monitorServerPort | Le processus en pipeline écoutera sur ce port pour fournir le processus d&#39;état interne ici : `http://INSTANCE:PORT/pipelined/status`. <br>La valeur par défaut est de 7781 |
-| pointerFlushMessageCount | Lorsque ce nombre de messages est traité, les décalages seront enregistrés dans la base de données. <br>La valeur par défaut est de 1 000. |
+| pointerFlushMessageCount | Lorsque ce nombre de messages est traité, les décalages seront enregistrés dans la base de données. <br> La valeur par défaut est de 1 000. |
 | pointerFlushPeriodSec | Après cette période, les décalages seront enregistrés dans la base de données. <br>La valeur par défaut est de 5 (secondes) |
-| processingJSThreads | Nombre de messages de traitement de threads dédiés avec des connecteurs JS personnalisés. <br>La valeur par défaut est de 4. |
+| processingJSThreads | Nombre de messages de traitement de threads dédiés avec des connecteurs JS personnalisés. <br> La valeur par défaut est de 4. |
 | processingThreads | Nombre de messages de traitement de threads dédiés avec code natif. <br>La valeur par défaut est de 4 |
 | retryPeriodSec | Délai entre les reprises en cas d&#39;erreurs de traitement. <br>La valeur par défaut est de 30 (secondes) |
 | retryValiditySec | Ignorer le message s&#39;il n&#39;est pas traité correctement après cette période (trop de reprises). <br>La valeur par défaut est de 300 (secondes) |
@@ -172,4 +179,4 @@ Pour valider la configuration du pipeline pour l&#39;approvisionnement, procéde
 
 * Vérifiez que le processus `pipelined` est en cours d&#39;exécution.
 * Recherchez les logs de connexion du pipeline dans le fichier `pipelined.log`.
-* Vérifiez la connexion et si des pings sont reçus. Les clients hébergés peuvent utiliser le Monitoring depuis la console cliente.
+* Vérifiez la connexion et si des pings sont reçus. Les clients hébergés peuvent utiliser l depuis la console cliente.
