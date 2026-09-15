@@ -2,36 +2,42 @@
 product: campaign
 title: Création de votre premier rapport d’analyse descriptive
 description: Découvrez comment utiliser l’assistant pour créer votre premier rapport d’analyse descriptive.
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting, Monitoring
 exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
 TQID: https://experienceleague.adobe.com/ilSq3cfWpljwwRtjgjbgJe2NmBFnPJhIK5e0PMBMJVI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2:
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic Reporting
 subfeature_v2:
   - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
+    internal-label: Customize reports
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+    internal-label: Cubes and multidimensional analysis
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1673
+workflow-type: tm+mt
+source-wordcount: '1664'
 ht-degree: 100%
-
 ---
-
 # Création de votre premier rapport d’analyse descriptive {#using-the-descriptive-analysis-wizard}
 
 Pour créer un rapport d’analyse descriptive, utilisez l’assistant dédié. Son paramétrage dépend des données à analyser et du rendu souhaité.
 
 ## Analyser les données dans la base de données {#analyzing-data-in-the-database}
 
-L’assistant d’analyse descriptive peut être lancé à partir du menu **[!UICONTROL Outils > Analyse descriptive]** : dans ce cas, l’analyse porte par défaut sur les personnes destinataires (**nms:recipient**).Elle s’applique à la totalité des données de la base de données Adobe Campaign.
+L’assistant d’analyse descriptive peut être lancé à partir du menu **[!UICONTROL Outils > Analyse descriptive]** : dans ce cas, l’analyse porte par défaut sur les personnes destinataires (**nms:recipient**). Elle s’applique à la totalité des données de la base de données Adobe Campaign.
 
 ![](assets/reporting_descriptive_wz_launch.png)
 
@@ -55,9 +61,9 @@ Ouvrez l’assistant d’analyse descriptive en sélectionnant les éléments et
 
 ![](assets/reporting_descriptive_from_recipients.png)
 
-* Pour un ensemble de **personnes destinataires**, sélectionnez les personnes destinataires à analyser, puis cliquez avec le bouton droit et sélectionnez **[!UICONTROL Actions > Explorer…]**, comme dans l’exemple ci-dessus.Si un filtre est appliqué sur la liste des personnes destinataires, seul son contenu sera analysé.
+* Pour un ensemble de **personnes destinataires**, sélectionnez les personnes destinataires à analyser, puis cliquez avec le bouton droit et sélectionnez **[!UICONTROL Actions > Explorer…]**, comme dans l’exemple ci-dessus. Si un filtre est appliqué sur la liste des personnes destinataires, seul son contenu sera analysé.
 
-  Pour sélectionner toutes les personnes destinataires du dossier ou le filtre en cours, utilisez le raccourci CTRL+A.Dans ce cas, même les personnes destinataires non visibles à l’écran seront sélectionnées.
+  Pour sélectionner toutes les personnes destinataires du dossier ou le filtre en cours, utilisez le raccourci CTRL+A. Dans ce cas, même les personnes destinataires non visibles à l’écran seront sélectionnées.
 
   Un exemple d&#39;analyse descriptive des destinataires est proposé dans la section [Analyse qualitative des données](../../reporting/using/use-cases.md#qualitative-data-analysis).
 
@@ -95,7 +101,7 @@ En fonction du contenu du champ, les options proposées peuvent différer.
   >
   >Il est recommandé d&#39;utiliser cette option avec précaution : les performances et la lisibilité du rapport peuvent être fortement impactées.
 
-* **[!UICONTROL Auto]** : cette option vous permet d’afficher les n valeurs les plus représentées.Elles sont calculées automatiquement et représentent chacune un pourcentage des variables par rapport au nombre de classes.Pour les valeurs numériques, Adobe Campaign génère automatiquement n classes dans lesquelles trier les données.
+* **[!UICONTROL Auto]** : cette option vous permet d’afficher les n valeurs les plus représentées. Elles sont calculées automatiquement et représentent chacune un pourcentage des variables par rapport au nombre de classes. Pour les valeurs numériques, Adobe Campaign génère automatiquement n classes dans lesquelles trier les données.
 * **[!UICONTROL Manuelle]** : cette option fonctionne comme l&#39;option **[!UICONTROL Auto]**, mais vous pouvez personnaliser manuellement ces valeurs. Pour cela, cliquez sur le bouton **[!UICONTROL Ajouter]** situé à droite du tableau des valeurs.
 
   Les valeurs peuvent être initialisées automatiquement par Adobe Campaign avant d&#39;être personnalisées : pour cela, saisissez le nombre de classes à générer et cliquez sur le lien **[!UICONTROL Initialiser avec]**, comme dans l&#39;exemple ci-dessous :
@@ -110,7 +116,7 @@ En fonction du contenu du champ, les options proposées peuvent différer.
 
   ![](assets/reporting_descriptive_group_by_year.png)
 
-* **[!UICONTROL Modulo]**  permet de créer des groupes de valeurs, lorsqu’il s’agit de valeurs numériques.Par exemple, un modulo avec une valeur de 10 vous permet de créer un intervalle de valeurs allant de dix en dix.
+* **[!UICONTROL Modulo]**  permet de créer des groupes de valeurs, lorsqu’il s’agit de valeurs numériques. Par exemple, un modulo avec une valeur de 10 vous permet de créer un intervalle de valeurs allant de dix en dix.
 
   ![](assets/reporting_descriptive_initialize_modulo.png)
 
@@ -180,27 +186,27 @@ Les opérations possibles sont les suivantes :
 
   Pour cela :
 
-   1. Calculez la somme des achats.
+  1. Calculez la somme des achats.
 
-      ![](assets/report_compute_data_sample2.png)
+     ![](assets/report_compute_data_sample2.png)
 
-   1. Cette statistique ne sera pas affichée dans le tableau. Vous devez donc décocher l&#39;option **[!UICONTROL Afficher dans le tableau]** de l&#39;onglet **[!UICONTROL Avancé]**.
+  1. Cette statistique ne sera pas affichée dans le tableau. Vous devez donc décocher l&#39;option **[!UICONTROL Afficher dans le tableau]** de l&#39;onglet **[!UICONTROL Avancé]**.
 
-      ![](assets/report_compute_data_sample3.png)
+     ![](assets/report_compute_data_sample3.png)
 
-   1. Créez une nouvelle statistique de type **[!UICONTROL Champ calculé]** et saisissez la formule suivante dans le champ **[!UICONTROL Fonction utilisateur]** : **@achats/@count**.
+  1. Créez une nouvelle statistique de type **[!UICONTROL Champ calculé]** et saisissez la formule suivante dans le champ **[!UICONTROL Fonction utilisateur]** : **@achats/@count**.
 
-      ![](assets/report_compute_data_sample4.png)
+     ![](assets/report_compute_data_sample4.png)
 
 ### Affichage du rapport {#displaying-the-report}
 
 La dernière étape de l’assistant permet d’afficher le rapport, c’est-à-dire le tableau ou le graphique tels qu’ils ont été paramétrés.
 
-Lorsque le rapport contient un tableau, vous constaterez que la cellule du résultat du calcul est colorée.L’intensité de la couleur est d’autant plus forte que le résultat est élevé.
+Lorsque le rapport contient un tableau, vous constaterez que la cellule du résultat du calcul est colorée. L’intensité de la couleur est d’autant plus forte que le résultat est élevé.
 
 ![](assets/report_compute_data_sample1.png)
 
-Il est possible de modifier la disposition des résultats.Pour cela, cliquez avec le bouton droit sur la variable concernée et sélectionnez l’entrée dans le menu contextuel.
+Il est possible de modifier la disposition des résultats. Pour cela, cliquez avec le bouton droit sur la variable concernée et sélectionnez l’entrée dans le menu contextuel.
 
 ![](assets/s_ncs_user_report_wizard_029.png)
 
@@ -222,7 +228,7 @@ Vous devez d&#39;abord sélectionner la variable sur laquelle portent les calcul
 
 ![](assets/s_ncs_user_report_wizard_017.png)
 
-Par défaut, Adobe Campaign propose une série de statistiques à calculer pour les données sélectionnées.Vous pouvez modifier cette liste, y ajouter des statistiques ou en supprimer selon vos besoins.
+Par défaut, Adobe Campaign propose une série de statistiques à calculer pour les données sélectionnées. Vous pouvez modifier cette liste, y ajouter des statistiques ou en supprimer selon vos besoins.
 
 Les opérations possibles sont les suivantes :
 

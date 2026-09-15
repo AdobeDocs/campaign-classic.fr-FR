@@ -9,14 +9,14 @@ exl-id: 8fd7a66b-cdff-427d-b78f-4becaba51129
 feature_v2: []
 subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 source-git-commit: c372a3d67ec413fa8cf9fdbb4530762a8f2f5177
-workflow-type: ht
-source-wordcount: 895
+workflow-type: tm+mt
+source-wordcount: '895'
 ht-degree: 100%
-
 ---
-
 # Versions 2025{#release-2025}
 
 ## Version 7.4.2  {#release-7-4-2}
@@ -62,13 +62,13 @@ Cette version comprend les correctifs principaux suivants :
 
 * Correctifs BigQuery Google :
 
-   * Correction des régressions sur les types de données booléens
-   * Correction des problèmes de paramètres du proxy
-   * Correction des régressions sur les types de données de date et heure
-   * Correction de la stabilité de la charge en masse (bulk load)
-   * Amélioration des tests internes sur les versions ODBC
-   * Correction d’un problème lié aux caractères spéciaux sur la chaîne de connexion
-   * Suppression du délai d’expiration par défaut (5 minutes) sur les requêtes BigQuery Google
+  * Correction des régressions sur les types de données booléens
+  * Correction des problèmes de paramètres du proxy
+  * Correction des régressions sur les types de données de date et heure
+  * Correction de la stabilité de la charge en masse (bulk load)
+  * Amélioration des tests internes sur les versions ODBC
+  * Correction d’un problème lié aux caractères spéciaux sur la chaîne de connexion
+  * Suppression du délai d’expiration par défaut (5 minutes) sur les requêtes BigQuery Google
 
 * MTA (Mail Transfer Agent) : correction du blocage d’un enfant MTA orphelin au statut **[!UICONTROL Démarrage en attente]**.
 

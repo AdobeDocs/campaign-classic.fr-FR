@@ -8,18 +8,20 @@ exl-id: 38add4fe-6238-45de-863e-895ebca189b7
 TQID: https://experienceleague.adobe.com/wQ6v5bFKx8hd7zLjR6t7GjE1D2iTW9is0lbrj8-UbRg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1192
+workflow-type: tm+mt
+source-wordcount: '1192'
 ht-degree: 100%
-
 ---
-
 # Déduplication{#deduplication}
 
 
@@ -51,7 +53,7 @@ Complémentaire :
 
 ## Bonnes pratiques {#best-practices}
 
-Lors d’une déduplication, les flux entrants sont traités séparément.Si, par exemple, une personne destinataire « A » est présente dans le résultat de la requête 1 et également dans le résultat de la requête 2, elle ne sera pas dédupliquée.
+Lors d’une déduplication, les flux entrants sont traités séparément. Si, par exemple, une personne destinataire « A » est présente dans le résultat de la requête 1 et également dans le résultat de la requête 2, elle ne sera pas dédupliquée.
 
 Ce cas de figure doit s&#39;aborder de cette manière :
 
@@ -109,11 +111,11 @@ Pour paramétrer une déduplication, vous devez renseigner son libellé, la mét
 
    La section centrale de la fenêtre résume le paramétrage défini.
 
-   Dans la section inférieure de la fenêtre d’édition de l’activité, vous pouvez modifier le libellé de la transition sortante de l’objet graphique et saisir un code segment qui sera associé au résultat de l’activité.Ce code peut être utilisé ultérieurement comme critère de ciblage.
+   Dans la section inférieure de la fenêtre d’édition de l’activité, vous pouvez modifier le libellé de la transition sortante de l’objet graphique et saisir un code segment qui sera associé au résultat de l’activité. Ce code peut être utilisé ultérieurement comme critère de ciblage.
 
    ![](assets/s_user_segmentation_dedup_param8.png)
 
-1. Cochez l’option **[!UICONTROL Générer le complémentaire]** si vous souhaitez exploiter la population restante.Le complémentaire est constitué de tous les doublons. Une autre transition sera alors ajoutée à l’activité, comme suit :
+1. Cochez l’option **[!UICONTROL Générer le complémentaire]** si vous souhaitez exploiter la population restante. Le complémentaire est constitué de tous les doublons. Une autre transition sera alors ajoutée à l’activité, comme suit :
 
    ![](assets/s_user_segmentation_dedup_param9.png)
 
@@ -129,7 +131,7 @@ Les doublons identifiés seront également intégrés à une liste constituée e
 
 1. Placez et reliez les différentes activités nécessaires au déroulement du workflow comme indiqué dans l&#39;illustration ci-dessus.
 
-   L’activité d’union est utilisée ici pour « unifier » les trois requêtes en une seule transition.Ainsi, la déduplication ne s’effectuera pas individuellement pour chaque requête mais sur l’ensemble.Pour plus d’informations, consultez la section [Meilleures pratiques](#best-practices).
+   L’activité d’union est utilisée ici pour « unifier » les trois requêtes en une seule transition. Ainsi, la déduplication ne s’effectuera pas individuellement pour chaque requête mais sur l’ensemble. Pour plus d’informations, consultez la section [Meilleures pratiques](#best-practices).
 
 1. Ouvrez l&#39;activité de déduplication puis cliquez sur le lien **[!UICONTROL Editer la configuration...]** afin de pouvoir définir le mode de déduplication.
 1. Dans la fenêtre qui s&#39;ouvre, sélectionnez **[!UICONTROL Schéma de la base]**.
@@ -141,7 +143,7 @@ Les doublons identifiés seront également intégrés à une liste constituée e
 1. Choisissez de ne conserver qu&#39;une seule entrée lorsque la même adresse e-mail est identifiée pour plusieurs destinataires.
 1. Sélectionnez le mode de déduplication **[!UICONTROL Choisir pour moi]** afin que l&#39;enregistrement conservé en cas de doublons identifiés soit choisi au hasard, puis cliquez sur **[!UICONTROL Terminer]**.
 
-Lors de l’exécution du workflow, toutes les personnes destinataires identifiées comme étant des doublons sont exclues du résultat (et donc de la diffusion) et ajoutées à la liste des doublons.Cette liste peut être réutilisée plutôt que de devoir identifier à nouveau les doublons.
+Lors de l’exécution du workflow, toutes les personnes destinataires identifiées comme étant des doublons sont exclues du résultat (et donc de la diffusion) et ajoutées à la liste des doublons. Cette liste peut être réutilisée plutôt que de devoir identifier à nouveau les doublons.
 
 ## Fusion de champs en un seul enregistrement de données {#merging-fields-into-single-record}
 

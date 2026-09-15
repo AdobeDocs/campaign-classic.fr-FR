@@ -3,7 +3,7 @@ product: campaign
 title: Administration
 description: Administration
 feature: Monitoring
-badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: production-procedures
@@ -11,23 +11,26 @@ exl-id: 12a255fe-66f9-40ce-b19e-c24322c2e009
 TQID: https://experienceleague.adobe.com/s-FvcKmvrRP7l91MkglXI2ITjrFQYbV5Lj92k6UO7WE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 449
+workflow-type: tm+mt
+source-wordcount: '437'
 ht-degree: 100%
-
 ---
-
 # Administration{#administration}
 
-Le démarrage automatique des modules Adobe Campaign (**web**, **mta**, **wfserver**, etc.)est assuré par le serveur **nlserver**.
+Le démarrage automatique des modules Adobe Campaign (**web**, **mta**, **wfserver**, etc.) est assuré par le serveur **nlserver**.
 
 L&#39;installation d&#39;Adobe Campaign paramètre automatiquement la machine afin que le service **nlserver** démarre pendant la séquence de boot.
 
@@ -35,13 +38,13 @@ Les commandes suivantes permettent de démarrer/arrêter manuellement le service
 
 * Sous Windows :
 
-   * **net start nlserver6**
-   * **net stop nlserver6**
+  * **net start nlserver6**
+  * **net stop nlserver6**
 
 * Sous Linux (en tant que root) :
 
-   * **/etc/init.d/nlserver6 start**
-   * **/etc/init.d/nlserver6 stop**
+  * **/etc/init.d/nlserver6 start**
+  * **/etc/init.d/nlserver6 stop**
 
 >[!NOTE]
 >

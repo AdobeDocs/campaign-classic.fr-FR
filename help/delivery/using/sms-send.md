@@ -8,27 +8,36 @@ exl-id: 442672ee-5037-49b7-a06f-3a99920ce2b6
 TQID: https://experienceleague.adobe.com/6N9cEjqk8JrIUMG19Jsc-TQSAuv8qqheg8BFOMgPYKc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 914
+workflow-type: tm+mt
+source-wordcount: '914'
 ht-degree: 100%
-
 ---
-
 # Configuration supplémentaire{#sms-properties}
 
 <!--
@@ -44,7 +53,7 @@ The detailed process when validating and sending a delivery is presented in the 
 
 ## Paramètres avancés {#advanced-parameters}
 
-Le bouton **[!UICONTROL Propriétés]** permet d’accéder aux paramètres avancés de diffusion.Les paramètres spécifiques aux diffusions par SMS sont regroupés dans la section **[!UICONTROL Paramètres SMS]** de l’onglet **[!UICONTROL Diffusion]**.
+Le bouton **[!UICONTROL Propriétés]** permet d’accéder aux paramètres avancés de diffusion. Les paramètres spécifiques aux diffusions par SMS sont regroupés dans la section **[!UICONTROL Paramètres SMS]** de l’onglet **[!UICONTROL Diffusion]**.
 
 Les options disponibles sont les suivantes :
 
@@ -56,7 +65,7 @@ Les options disponibles sont les suivantes :
 
   >[!IMPORTANT]
   >
-  >Vérifiez la législation dans votre pays concernant la modification des noms d’expéditeur ou d’expéditrice.Vérifiez également auprès de votre opérateur s’il propose cette fonctionnalité.
+  >Vérifiez la législation dans votre pays concernant la modification des noms d’expéditeur ou d’expéditrice. Vérifiez également auprès de votre opérateur s’il propose cette fonctionnalité.
 
 * **Mode de transmission** : moyen d&#39;acheminement des messages par SMS.
 * **Priorité** : niveau d&#39;importance attribué à un message. La priorité **[!UICONTROL Normale]** est sélectionnée par défaut. Renseignez-vous auprès de votre fournisseur pour connaître les tarifs d&#39;un SMS envoyé en priorité **[!UICONTROL Haute]**.
@@ -72,7 +81,7 @@ Les options disponibles sont les suivantes :
 
 ![](assets/s_user_mobile_sms_adv_smpp.png)
 
-* **Nombre maximal de SMS par message** : cette option vous permet de définir le nombre de SMS à utiliser pour envoyer un message.Si le nombre est défini sur 0, vous pouvez utiliser un SMS pour diffuser votre message.Si le nombre de SMS est défini sur 1 ou 2, par exemple, et que le message dépasse ce seuil, il ne sera pas envoyé.
+* **Nombre maximal de SMS par message** : cette option vous permet de définir le nombre de SMS à utiliser pour envoyer un message. Si le nombre est défini sur 0, vous pouvez utiliser un SMS pour diffuser votre message. Si le nombre de SMS est défini sur 1 ou 2, par exemple, et que le message dépasse ce seuil, il ne sera pas envoyé.
 
 <!--
 ## Monitor and track SMS {#monitoring-and-tracking-sms-deliveries}
@@ -86,13 +95,13 @@ After sending messages, you can monitor and track your deliveries. For more on t
 
 ## Traitement des messages entrants {#processing-inbound-messages}
 
-Le module **nlserver sms** interroge le routeur SMS à intervalles réguliers.Cela permet à Adobe Campaign d’effectuer le suivi de l’avancement des diffusions et de gérer les accusés de réception et les demandes de désinscription des personnes destinataires.
+Le module **nlserver sms** interroge le routeur SMS à intervalles réguliers. Cela permet à Adobe Campaign d’effectuer le suivi de l’avancement des diffusions et de gérer les accusés de réception et les demandes de désinscription des personnes destinataires.
 
 * **Accusés de réception** : consultez les logs de diffusion pour connaître le statut de vos messages.
 
   >[!NOTE]
   >
-  >Tout SMS envoyé est lié à un compte externe par la clé primaire de celui-ci.De cette manière :
+  >Tout SMS envoyé est lié à un compte externe par la clé primaire de celui-ci. De cette manière :
   >
   > * Les accusés de réception d&#39;un compte externe de SMS effacé ne sont pas traités correctement.
   > * Un compte SMS ne peut être associé qu&#39;à un seul compte externe afin que les accusés de réception soient correctement attribués à ce dernier
@@ -101,7 +110,7 @@ Le module **nlserver sms** interroge le routeur SMS à intervalles réguliers.Ce
 
 ## Schéma InSMS {#insms-schema}
 
-Le schéma InSMS contient des informations relatives aux SMS entrants.Une description de ces champs est disponible dans l’attribut desc.
+Le schéma InSMS contient des informations relatives aux SMS entrants. Une description de ces champs est disponible dans l’attribut desc.
 
 * **message** : contenu du SMS reçu.
 * **origin** : numéro du mobile de l&#39;expéditeur du message.
@@ -137,7 +146,7 @@ Le nom d&#39;expéditeur de ce type de messages est un numéro court (short code
 >
 >La procédure détaillée suivante n&#39;est valide que pour les connecteurs SMPP, à l&#39;exception du connecteur SMPP générique étendu. Voir à ce sujet la section [Création d’un compte externe SMPP](sms-set-up.md#creating-an-smpp-external-account).
 >
->Elle entre dans le cadre du processus de certification effectué par les opérateurs américains pour les campagnes marketing aux États-Unis.Ces SMS doivent notamment parvenir immédiatement à la personne abonnée qui a envoyé le mot-clé.
+>Elle entre dans le cadre du processus de certification effectué par les opérateurs américains pour les campagnes marketing aux États-Unis. Ces SMS doivent notamment parvenir immédiatement à la personne abonnée qui a envoyé le mot-clé.
 
 1. Créez un fichier XML de ce type :
 
@@ -182,6 +191,6 @@ Le nom d&#39;expéditeur de ce type de messages est un numéro court (short code
 
 >[!IMPORTANT]
 >
->Il n’existe aucun historique pour ce type de messages automatiques.Ils n’apparaissent donc pas dans le tableau de bord des diffusions.[En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}.
+>Il n’existe aucun historique pour ce type de messages automatiques. Ils n’apparaissent donc pas dans le tableau de bord des diffusions. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}.
 >
 >Ces messages ne sont pas pris en compte dans les règles de pression commerciale. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-optimization/pressure-rules.html?lang=fr){target="_blank"}.

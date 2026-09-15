@@ -8,21 +8,25 @@ exl-id: b7ee70e0-89c6-4cd3-8116-2f073d4a2f2f
 TQID: https://experienceleague.adobe.com/pW-M7-y45xats1BPyiyey5NMK6b-cJxH15QZa0DVwAo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: a72a22e0-8c8d-4019-ba42-3f2644aa91a3
+    internal-label: Schema extension
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
   - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 688
+workflow-type: tm+mt
+source-wordcount: '688'
 ht-degree: 100%
-
 ---
-
 # Exemples dʼédition de schémas{#examples-of-schemas-edition}
 
 ## Extension dʼun tableau {#extending-a-table}
@@ -211,7 +215,7 @@ CREATE INDEX NmsRecipient_featureId ON NmsRecipient(iFeatureId);
 
 Une table d&#39;Overflow est une table d&#39;extension (cardinalité 1-1), mais la déclaration du lien vers la table à étendre est renseignée dans le schéma de la table d&#39;Overflow.
 
-La table de débordement contient la clé étrangère vers la table à étendre.La table à étendre n’est donc pas modifiée.La relation entre les deux tables est la valeur de la clé primaire de la table à étendre.
+La table de débordement contient la clé étrangère vers la table à étendre. La table à étendre n’est donc pas modifiée. La relation entre les deux tables est la valeur de la clé primaire de la table à étendre.
 
 Création du schéma de table overflow (**cus:overflow**) :
 

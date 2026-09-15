@@ -2,28 +2,33 @@
 product: campaign
 title: Rendu du formulaire
 description: Rendu du formulaire
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 723a6c47-5323-4914-a014-58be493852cc
 TQID: https://experienceleague.adobe.com/zLf1lFV9vVIHcEbfO5UrFo92epuVlfMUWrl64SqNfCQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: f391046b-0cf3-4e76-bd3b-97fe06654506
+    internal-label: Web Apps
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1055
+workflow-type: tm+mt
+source-wordcount: '1046'
 ht-degree: 100%
-
 ---
-
 # Rendu du formulaire{#form-rendering}
 
 
@@ -95,9 +100,9 @@ Il permet de définir les propriétés suivantes :
 
 ### Définir les en-têtes et pieds de page {#defining-headers-and-footers}
 
-Les champs sont enchaînés dans une arborescence dont la racine porte le nom de la page.Sélectionnez-la pour modifier ce nom.
+Les champs sont enchaînés dans une arborescence dont la racine porte le nom de la page. Sélectionnez-la pour modifier ce nom.
 
-Le titre de la fenêtre doit être saisi dans l’onglet **[!UICONTROL Page]** de la fenêtre des propriétés du formulaire.Vous pouvez également ajouter un contenu défini à l’en-tête et au pied-de-page (ces informations s’affichent sur chaque page).Ce contenu doit être saisi dans les sections correspondantes de l&#39;onglet **[!UICONTROL Textes]**, comme dans l&#39;exemple ci-dessous :
+Le titre de la fenêtre doit être saisi dans l’onglet **[!UICONTROL Page]** de la fenêtre des propriétés du formulaire. Vous pouvez également ajouter un contenu défini à l’en-tête et au pied-de-page (ces informations s’affichent sur chaque page). Ce contenu doit être saisi dans les sections correspondantes de l&#39;onglet **[!UICONTROL Textes]**, comme dans l&#39;exemple ci-dessous :
 
 ![](assets/s_ncs_admin_survey_titles_config.png)
 
@@ -145,7 +150,7 @@ L&#39;utilisateur devra saisir un nombre entier dans le champ correspondant du f
 
 ## Définir l&#39;affichage conditionnel des champs {#defining-fields-conditional-display}
 
-Vous pouvez configurer l’affichage des champs de la page en fonction des valeurs choisies par l’utilisateur ou l’utilisatrice.Cela peut s’appliquer à un champ ou à un groupe de champs (lorsqu’ils sont regroupés dans un conteneur).
+Vous pouvez configurer l’affichage des champs de la page en fonction des valeurs choisies par l’utilisateur ou l’utilisatrice. Cela peut s’appliquer à un champ ou à un groupe de champs (lorsqu’ils sont regroupés dans un conteneur).
 
 Pour chaque élément de la page, la section **[!UICONTROL Visibilité]** permet de définir la ou les conditions d&#39;affichage.
 
@@ -157,7 +162,7 @@ Dans la fenêtre de sélection d&#39;un champ, vous pouvez sélectionner parmi l
 
 ![](assets/s_ncs_admin_survey_condition_select.png)
 
-* L’arborescence principale contient les paramètres du contexte du formulaire.Les paramètres par défaut sont Identifiant (qui correspond à l’identifiant chiffré de la personne destinataire), Langue et Origine.
+* L’arborescence principale contient les paramètres du contexte du formulaire. Les paramètres par défaut sont Identifiant (qui correspond à l’identifiant chiffré de la personne destinataire), Langue et Origine.
 
   Voir à ce propos [cette page](defining-web-forms-properties.md#form-url-parameters).
 
@@ -173,7 +178,7 @@ Vous pouvez aussi conditionner l&#39;affichage des pages du formulaire via l&#39
 
 ## Importer des éléments depuis un formulaire existant {#importing-elements-from-an-existing-form}
 
-Il est possible d’importer des champs ou des conteneurs à partir d’autres formulaires web.Ainsi, vous pouvez créer une bibliothèque de blocs réutilisables qui seront insérés dans les formulaires, par exemple le bloc adresse, la zone d’inscription aux newsletters, etc.
+Il est possible d’importer des champs ou des conteneurs à partir d’autres formulaires web. Ainsi, vous pouvez créer une bibliothèque de blocs réutilisables qui seront insérés dans les formulaires, par exemple le bloc adresse, la zone d’inscription aux newsletters, etc.
 
 Pour importer un élément dans un formulaire, les étapes sont les suivantes :
 

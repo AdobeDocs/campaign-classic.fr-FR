@@ -3,7 +3,7 @@ product: campaign
 title: Performances de la base
 description: Performances de la base
 feature: Monitoring
-badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -11,25 +11,28 @@ exl-id: 33dcfd4b-51fd-44f4-98e0-23eafb79d7da
 TQID: https://experienceleague.adobe.com/wrssH80YsIhpcsjLajyPls3eslNzHRFLUAxkP7IOGu8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
 feature_v2: []
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 527
+workflow-type: tm+mt
+source-wordcount: '515'
 ht-degree: 100%
-
 ---
-
 # Performances de la base de données{#database-performances}
 
 
 
-La plupart des problèmes de performances sont liés à la maintenance de la base de données.Voici quatre axes de recherche qui peuvent vous aider à trouver la cause de faibles performances :
+La plupart des problèmes de performances sont liés à la maintenance de la base de données. Voici quatre axes de recherche qui peuvent vous aider à trouver la cause de faibles performances :
 
 * Configuration
 * Installation et la configuration de la plateforme Adobe Campaign
@@ -38,7 +41,7 @@ La plupart des problèmes de performances sont liés à la maintenance de la bas
 
 ## Configuration {#configuration}
 
-Vérifiez que la configuration initiale de la plateforme Adobe Campaign est toujours valable et réévaluez, si nécessaire, les besoins de votre client ou cliente en termes de délivrabilité ou de taille de la base de données.Nous vous recommandons également d’effectuer une vérification complète du matériel (processeur, RAM, système d’E/S).
+Vérifiez que la configuration initiale de la plateforme Adobe Campaign est toujours valable et réévaluez, si nécessaire, les besoins de votre client ou cliente en termes de délivrabilité ou de taille de la base de données. Nous vous recommandons également d’effectuer une vérification complète du matériel (processeur, RAM, système d’E/S).
 
 >[!NOTE]
 >
@@ -52,11 +55,11 @@ Une configuration inappropriée peut avoir une incidence sur les performances de
 
 **Tâche de nettoyage de la base**
 
-Assurez-vous que la tâche de nettoyage de la base de données est opérationnelle.Pour cela, consultez les fichiers de log afin de vous assurer qu’ils ne contiennent pas d’erreurs.Voir à ce propos [cette section](../../production/using/database-cleanup-workflow.md).
+Assurez-vous que la tâche de nettoyage de la base de données est opérationnelle. Pour cela, consultez les fichiers de log afin de vous assurer qu’ils ne contiennent pas d’erreurs. Voir à ce propos [cette section](../../production/using/database-cleanup-workflow.md).
 
 **Plans de maintenance**
 
-Assurez-vous que la maintenance de la base de données est correctement planifiée et exécutée.Pour cela, renseignez-vous auprès de l’administrateur ou de l’administratrice de votre base de données pour en savoir plus sur :
+Assurez-vous que la maintenance de la base de données est correctement planifiée et exécutée. Pour cela, renseignez-vous auprès de l’administrateur ou de l’administratrice de votre base de données pour en savoir plus sur :
 
 * Son planning de maintenance
 * Les plans de maintenance déjà exécutés
@@ -66,11 +69,11 @@ Pour plus d’informations, consultez [cette section](../../production/using/rec
 
 >[!IMPORTANT]
 >
->Si vous utilisez une configuration de midsourcing, une maintenance régulière des bases de données est essentielle.Lors de l’analyse d’une diffusion sur la plateforme marketing, l’instance marketing envoie des informations vers l’instance midsourcing.Si le processus ralentit, l’instance marketing sera affectée.
+>Si vous utilisez une configuration de midsourcing, une maintenance régulière des bases de données est essentielle. Lors de l’analyse d’une diffusion sur la plateforme marketing, l’instance marketing envoie des informations vers l’instance midsourcing. Si le processus ralentit, l’instance marketing sera affectée.
 
 **Gestion des tables de travail**
 
-Vérifiez le nombre et la taille des tables de travail.Lorsqu’elles dépassent une certaine taille, les performances de la base de données sont affectées.Ces tables sont créées par des workflows et des diffusions.Elles restent dans la base de données tant que les workflows et les diffusions sont actifs.Pour limiter la taille des tables de travail, vous pouvez effectuer les opérations suivantes :
+Vérifiez le nombre et la taille des tables de travail. Lorsqu’elles dépassent une certaine taille, les performances de la base de données sont affectées. Ces tables sont créées par des workflows et des diffusions. Elles restent dans la base de données tant que les workflows et les diffusions sont actifs. Pour limiter la taille des tables de travail, vous pouvez effectuer les opérations suivantes :
 
 * Arrêter ou supprimer les diffusions dont le statut est, au choix, **[!UICONTROL En échec]**, **[!UICONTROL En cours]**, **[!UICONTROL Prête à être diffusée]** ou **[!UICONTROL En pause]**.
 * Arrêter ou supprimer les workflows qui sont en pause à cause d&#39;une erreur.
@@ -80,16 +83,16 @@ Vérifiez le nombre et la taille des tables de travail.Lorsqu’elles dépassent
 >
 >Si cette opération prend beaucoup de temps et qu&#39;une fois effectuée, beaucoup d&#39;espace disque est libéré, il est indispensable d&#39;effectuer une maintenance en profondeur (reconstruction des index, etc.). Pour plus d’informations, consultez [cette section](../../production/using/recommendations.md).
 
-**Suivi des processus Adobe Campaign**
+**Su des processus Adobe Campaign**
 
-Selon les paramètres d&#39;installation d&#39;Adobe Campaign, vous avez deux outils à votre disposition pour effectuer le suivi de votre plateforme :
+Selon les paramètres d&#39;installation d&#39;Adobe Campaign, vous avez deux outils à votre disposition pour effectuer l de votre plateforme :
 
 * La page de production de l&#39;instance. Pour plus d&#39;informations, consultez la section [Surveillance manuelle](../../production/using/monitoring-processes.md#manual-monitoring).
 * Le script *netreport*. Pour plus d&#39;informations, consultez la section [Surveillance automatique via les scripts d&#39;Adobe Campaign](../../production/using/monitoring-processes.md#automatic-monitoring-via-adobe-campaign-scripts).
 
 ## Cas particuliers {#specifics}
 
-Il peut s’avérer nécessaire d’effectuer un diagnostic en temps réel pour identifier la cause du problème.Consultez d’abord les fichiers de log du processus et de la plateforme, puis surveillez l’activité de la base de données lors de la reproduction du problème.Accordez une attention particulière aux éléments suivants :
+Il peut s’avérer nécessaire d’effectuer un diagnostic en temps réel pour identifier la cause du problème. Consultez d’abord les fichiers de log du processus et de la plateforme, puis surveillez l’activité de la base de données lors de la reproduction du problème. Accordez une attention particulière aux éléments suivants :
 
 * Le plan d&#39;exécution de la maintenance
 * les requêtes SQL en cours d&#39;exécution

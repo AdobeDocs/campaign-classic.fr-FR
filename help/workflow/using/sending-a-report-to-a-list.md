@@ -8,22 +8,27 @@ exl-id: cb24aea5-f3c7-4b17-8899-1792ea18c235
 TQID: https://experienceleague.adobe.com/ELb4jeS02eqvarEkyYHnnEOhNfSv6N-ENgkS2I0sBjk
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 735
+workflow-type: tm+mt
+source-wordcount: '735'
 ht-degree: 100%
-
 ---
-
 # Envoi d’un rapport à une liste{#sending-a-report-to-a-list}
 
 
@@ -86,7 +91,7 @@ Pour plus d&#39;informations sur la création de listes, reportez-vous à cette 
 
 ## Etape 3 : création du workflow {#step-3--creating-the-workflow}
 
-Le workflow suivant a été créé pour ce cas d’utilisation.Il comporte trois activités :
+Le workflow suivant a été créé pour ce cas d’utilisation. Il comporte trois activités :
 
 * une activité de type **[!UICONTROL Planificateur]** permettant d&#39;exécuter le workflow tous les mois,
 * une activité de type **[!UICONTROL Code JavaScript]** permettant de générer le rapport au format PDF,
@@ -124,7 +129,7 @@ Le workflow suivant a été créé pour ce cas d’utilisation.Il comporte trois
    Les variables utilisées sont les suivantes :
 
    * **var reportName** : saisissez, entre guillemets, le nom interne du rapport. Dans notre exemple, le nom interne du rapport **Indicateur de tracking** est &quot;deliveryFeedback&quot;.
-   * **var path** : saisissez le chemin de sauvegarde du fichier (« tmp/files/ »), le nom que vous souhaitez lui donner (« deliveryFeedback ») et son extension (« .pdf »).Ici, nous avons utilisé le nom interne comme nom de fichier. Les valeurs doivent être comprises entre guillemets et séparées par le caractère « + ».
+   * **var path** : saisissez le chemin de sauvegarde du fichier (« tmp/files/ »), le nom que vous souhaitez lui donner (« deliveryFeedback ») et son extension (« .pdf »). Ici, nous avons utilisé le nom interne comme nom de fichier. Les valeurs doivent être comprises entre guillemets et séparées par le caractère « + ».
 
      >[!CAUTION]
      >

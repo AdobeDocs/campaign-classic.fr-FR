@@ -10,19 +10,21 @@ exl-id: 1d55f42b-64bf-4b1f-a317-c1f7456aa5b3
 TQID: https://experienceleague.adobe.com/Q1KlIMtNKUuqwNQMt7FHheVuVPZ38O3ZIUqOGOt2z0g
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 535
+workflow-type: tm+mt
+source-wordcount: '535'
 ht-degree: 100%
-
 ---
-
 # Publication de modèles de message {#publishing-template-messages}
 
 
@@ -55,7 +57,7 @@ Une fois qu’un modèle est publié, si l’événement correspondant est décl
 
 >[!NOTE]
 >
->Si vous remplacez un champ existant du modèle de message transactionnel, tel que l’adresse de l’expéditeur ou de l’expéditrice, par une valeur vide, le champ correspondant sur la ou les instances d’exécution ne sera pas mis à jour une fois le message transactionnel republié.Il contiendra toujours la valeur précédente.
+>Si vous remplacez un champ existant du modèle de message transactionnel, tel que l’adresse de l’expéditeur ou de l’expéditrice, par une valeur vide, le champ correspondant sur la ou les instances d’exécution ne sera pas mis à jour une fois le message transactionnel republié. Il contiendra toujours la valeur précédente.
 >
 >Cependant, si vous ajoutez une valeur non vide, le champ correspondant sera mis à jour comme d&#39;habitude après la publication suivante.
 

@@ -3,27 +3,32 @@ product: campaign
 title: Fonctionnalités avancées
 description: Découvrez-en plus sur les fonctionnalités avancées lorsque vous utilisez des rapports
 feature: Reporting, Monitoring
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 8b51d0fc-1692-41cd-9aa8-3bb8f4ee454e
 TQID: https://experienceleague.adobe.com/-zMimjSqi-wczwpF8dTQkZgOrAmXBXWARggSPc1a-u8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 feature_v2:
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic Reporting
 subfeature_v2:
   - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
+    internal-label: Customize reports
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+    internal-label: Cubes and multidimensional analysis
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 639
+workflow-type: tm+mt
+source-wordcount: '630'
 ht-degree: 100%
-
 ---
-
 # Fonctionnalités avancées{#advanced-functionalities}
 
 
@@ -112,7 +117,7 @@ Les **[!UICONTROL En-têtes HTTP de réponse]** permettent d’empêcher le dét
 
 ## Ajouter des variables {#adding-variables}
 
-L’onglet **[!UICONTROL Variables]** contient la liste des variables configurées dans le rapport.Ces variables sont exposées dans le contexte du rapport et peuvent être utilisées dans les calculs.
+L’onglet **[!UICONTROL Variables]** contient la liste des variables configurées dans le rapport. Ces variables sont exposées dans le contexte du rapport et peuvent être utilisées dans les calculs.
 
 Cliquez sur le bouton **[!UICONTROL Ajouter]** pour créer une nouvelle variable.
 

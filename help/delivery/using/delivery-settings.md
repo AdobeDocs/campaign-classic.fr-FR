@@ -9,23 +9,29 @@ exl-id: 66250817-f829-4b8b-92dd-2daa92a97fe0
 TQID: https://experienceleague.adobe.com/kKHRuZJPtIFepdBJs8IT-gADxhLm-LCaKN5DZ31GFww
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 770
+workflow-type: tm+mt
+source-wordcount: '770'
 ht-degree: 100%
-
 ---
-
 # Paramètres de diffusion {#about-delivery-settings}
 
 Les paramètres suivants sont propres à Campaign Classic. Pour les autres paramètres de diffusion, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/gs-message.html?lang=fr){target="_blank"}.
@@ -47,9 +53,9 @@ Actuellement, cette option n’est disponible que si les conditions suivantes so
 
 ### Configurer la priorité d’analyse {#analysis-priority-}
 
-Lorsque la diffusion fait partie d’une campagne, l’onglet **[!UICONTROL Avancé]** propose une option supplémentaire.celle-ci vous permet d’organiser l’ordre de traitement des diffusions d’une même campagne.
+Lorsque votre diffusion fait partie d’une campagne, l’onglet **[!UICONTROL Avancé]** propose une option supplémentaire : celle-ci vous permet d’organiser l’ordre de traitement des diffusions d’une même campagne.
 
-Avant l’envoi, chaque diffusion est analysée.La durée de l’analyse dépend du fichier d’extraction de la diffusion.Plus sa taille est importante, plus l’analyse est longue, ce qui met en attente les diffusions suivantes.
+Avant l’envoi, chaque diffusion est analysée. La durée de l’analyse dépend du fichier d’extraction de la diffusion. Plus sa taille est importante, plus l’analyse est longue, ce qui met en attente les diffusions suivantes.
 
 Les options de la section **[!UICONTROL Préparation des messages par l’ordonnanceur]** vous permettent de prioriser l’analyse des diffusions d’un workflow de campagne.
 

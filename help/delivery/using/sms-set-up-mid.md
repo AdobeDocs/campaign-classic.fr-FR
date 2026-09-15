@@ -9,29 +9,40 @@ exl-id: 6987cb5e-8821-4619-b0e4-f0fad3355bfb
 TQID: https://experienceleague.adobe.com/HJK4w85OgzUx9BPSvExm8c91CQYIecDfw7Uxv3rzrJU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1106
+workflow-type: tm+mt
+source-wordcount: '1106'
 ht-degree: 100%
-
 ---
-
 # Configurer le canal SMS sur une infrastructure midsourcing {#setting-up-sms-channel}
 
 Pour diffuser vers un téléphone mobile avec des serveurs mid, vous devez avoir :
@@ -137,7 +148,7 @@ Pour ce faire, procédez comme suit :
 
    Contactez ensuite votre fournisseur qui vous donnera la valeur à saisir dans le champ **[!UICONTROL Nom de l&#39;implémentation du SMSC]**, en fonction du fournisseur que vous aurez choisi.
 
-   Vous pouvez définir le nombre de connexions au fournisseur par MTA enfant.Par défaut, ce nombre est défini sur 1.
+   Vous pouvez définir le nombre de connexions au fournisseur par MTA enfant. Par défaut, ce nombre est défini sur 1.
 
 1. Par défaut, le nombre de caractère d&#39;un SMS respecte la norme de téléphonie mobile GSM.
 
@@ -153,7 +164,7 @@ Pour ce faire, procédez comme suit :
 
    ![](assets/mid_external_account_5.png)
 
-1. Dans l’onglet **[!UICONTROL Débit et délais]**, vous pouvez indiquer le débit maximum des messages sortants (« MT », Mobile Terminated) en MT par seconde.Si vous indiquez « 0 » dans le champ correspondant, le débit ne sera pas limité.
+1. Dans l’onglet **[!UICONTROL Débit et délais]**, vous pouvez indiquer le débit maximum des messages sortants (« MT », Mobile Terminated) en MT par seconde. Si vous indiquez « 0 » dans le champ correspondant, le débit ne sera pas limité.
 
    Les valeurs de tous les champs correspondant à des délais sont à renseigner en secondes.
 
@@ -161,7 +172,7 @@ Pour ce faire, procédez comme suit :
 
    Pour plus d’informations, consultez [cette section](sms-set-up.md#about-text-encodings).
 
-1. Dans l’onglet **[!UICONTROL Spécificités du SMSC]**, l’option **[!UICONTROL Envoyer le numéro de téléphone complet]** est désactivée par défaut.Ne l’activez pas si vous souhaitez respecter le protocole SMPP et ne transmettre que des chiffres au serveur du fournisseur SMS (SMSC).
+1. Dans l’onglet **[!UICONTROL Spécificités du SMSC]**, l’option **[!UICONTROL Envoyer le numéro de téléphone complet]** est désactivée par défaut. Ne l’activez pas si vous souhaitez respecter le protocole SMPP et ne transmettre que des chiffres au serveur du fournisseur SMS (SMSC).
 
    Cependant, étant donné que certains fournisseurs requièrent l&#39;utilisation du préfixe &#39;+&#39;, consultez votre propre fournisseur qui vous invitera à activer cette option le cas échéant.
 

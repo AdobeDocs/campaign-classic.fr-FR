@@ -3,7 +3,7 @@ product: campaign
 title: Duplication d'environnements
 description: Duplication d'environnements
 feature: Monitoring
-badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: data-processing
@@ -11,21 +11,25 @@ exl-id: 2c933fc5-1c0a-4c2f-9ff2-90d09a79c55a
 TQID: https://experienceleague.adobe.com/DkH3PW3W-JGXqbIMNG83YKGqCi-aDisCyu6wAsx69Io
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1340
+workflow-type: tm+mt
+source-wordcount: '1328'
 ht-degree: 100%
-
 ---
-
 # Duplication d&#39;environnements{#duplicating-environments}
 
 
@@ -36,11 +40,11 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->Si vous n’avez pas accès au serveur et à la base de données (environnements hébergés), vous ne serez pas en mesure d’effectuer les procédures décrites ci-dessous.Veuillez contacter Adobe.
+>Si vous n’avez pas accès au serveur et à la base de données (environnements hébergés), vous ne serez pas en mesure d’effectuer les procédures décrites ci-dessous. Veuillez contacter Adobe.
 
 L&#39;utilisation d&#39;Adobe Campaign requiert l&#39;installation et le paramétrage d&#39;un ou plusieurs environnements : développement, test, pré-production, recette, production, etc.
 
-Chaque environnement contient une instance Adobe Campaign et chaque instance Adobe Campaign est liée à une ou plusieurs bases de données.Le serveur d’applications peut exécuter un ou plusieurs processus : la quasi totalité de ces processus accèdent directement à la base de données de l’instance.
+Chaque environnement contient une instance Adobe Campaign et chaque instance Adobe Campaign est liée à une ou plusieurs bases de données. Le serveur d’applications peut exécuter un ou plusieurs processus : la quasi totalité de ces processus accèdent directement à la base de données de l’instance.
 
 Cette section présente les procédures à appliquer pour dupliquer un environnement Adobe Campaign, c’est-à-dire pour restaurer un environnement source dans un environnement cible, et ainsi disposer de deux environnements de travail identiques.
 
@@ -59,16 +63,16 @@ Pour cela, les étapes sont les suivantes :
 
    >[!IMPORTANT]
    >
-   >Un environnement peut contenir plusieurs instances.Chaque instance Adobe Campaign est soumise à un contrat de licence.Consultez votre contrat de licence pour connaître le nombre d’environnements dont vous disposez.\
+   >Un environnement peut contenir plusieurs instances. Chaque instance Adobe Campaign est soumise à un contrat de licence. Consultez votre contrat de licence pour connaître le nombre d’environnements dont vous disposez.\
    >La procédure proposée ci-après vous permet de transférer un environnement sans pour autant impacter le nombre d&#39;environnements et d&#39;instances installées.
 
 ### Avant de commencer {#before-you-start}
 
 >[!IMPORTANT]
 >
->Nous recommandons vivement de réaliser des sauvegardes complètes des bases de données de toutes les instances des environnements source et cible avant de lancer le processus de transfert.En cas de problème, vous pourrez ainsi restaurer les sauvegardes et retrouver la configuration initiale.
+>Nous recommandons vivement de réaliser des sauvegardes complètes des bases de données de toutes les instances des environnements source et cible avant de lancer le processus de transfert. En cas de problème, vous pourrez ainsi restaurer les sauvegardes et retrouver la configuration initiale.
 
-Pour que le processus fonctionne, les environnements source et cible doivent comporter le même nombre d’instances, elles doivent avoir la même finalité (instance marketing, de diffusion) et des configurations similaires.La configuration technique doit correspondre aux prérequis logiciels.Les mêmes composants doivent être installés dans les deux environnements.
+Pour que le processus fonctionne, les environnements source et cible doivent comporter le même nombre d’instances, elles doivent avoir la même finalité (instance marketing, de diffusion) et des configurations similaires. La configuration technique doit correspondre aux prérequis logiciels. Les mêmes composants doivent être installés dans les deux environnements.
 
 ## Mise en œuvre {#implementation}
 
@@ -76,11 +80,11 @@ Pour que le processus fonctionne, les environnements source et cible doivent com
 
 Nous vous proposons ici de comprendre les étapes de transfert d&#39;un environnement-source vers un environnement-cible à travers un cas pratique : l&#39;objectif est de restaurer un environnement de production (instance **prod**) dans un environnement de développement (instance **recette**) afin de travailler dans un contexte qui soit le plus proche possible de la plateforme &#39;live&#39;.
 
-Les étapes ci-dessous doivent être réalisées avec précaution : certains processus peuvent être en cours lors de la copie des bases de données de l’environnement source.La procédure de cautérisation (étape 3 ci-après) permet de ne pas diffuser les messages plusieurs fois aux mêmes personnes destinataires et de conserver la cohérence des données.
+Les étapes ci-dessous doivent être réalisées avec précaution : certains processus peuvent être en cours lors de la copie des bases de données de l’environnement source. La procédure de cautérisation (étape 3 ci-après) permet de ne pas diffuser les messages plusieurs fois aux mêmes personnes destinataires et de conserver la cohérence des données.
 
 >[!IMPORTANT]
 >
->* La procédure suivante est valide en langage PostgreSQL.Si le langage SQL est différent (Oracle, par exemple), les requêtes SQL doivent être adaptées.
+>* La procédure suivante est valide en langage PostgreSQL. Si le langage SQL est différent (Oracle, par exemple), les requêtes SQL doivent être adaptées.
 >* Dans les exemples de commandes proposés ci-après, on considère une instance **prod** et une instance **recette** existantes sous PostgreSQL.
 >
 
@@ -88,7 +92,7 @@ Les étapes ci-dessous doivent être réalisées avec précaution : certains pr
 
 Copier les bases de données
 
-Copiez tout d’abord toutes les bases de données de l’environnement source.L’opération dépend du moteur de base de données et est sous la responsabilité de l’administrateur ou de l’administratrice des bases de données.
+Copiez tout d’abord toutes les bases de données de l’environnement source. L’opération dépend du moteur de base de données et est sous la responsabilité de l’administrateur ou de l’administratrice des bases de données.
 
 Sous PostgreSQL, la commande est la suivante :
 
@@ -113,7 +117,7 @@ Vérifiez dans chaque fichier que le nombre d&#39;options/de comptes exportés e
 
 >[!NOTE]
 >
->Le nombre de lignes à exporter dans un export de package est de 1 000 lignes.Si le nombre d’options ou de comptes externes est supérieur à 1 000, il faut procéder à plusieurs exports.
+>Le nombre de lignes à exporter dans un export de package est de 1 000 lignes. Si le nombre d’options ou de comptes externes est supérieur à 1 000, il faut procéder à plusieurs exports.
 > 
 >Pour plus d’informations, consultez [cette section](../../platform/using/working-with-data-packages.md#exporting-packages).
 
@@ -123,7 +127,7 @@ Vérifiez dans chaque fichier que le nombre d&#39;options/de comptes exportés e
 
 ### Etape 3 - Arrêter l&#39;environnement cible (recette) {#step-3---stop-the-target-environment--dev-}
 
-Vous devez arrêter les processus Adobe Campaign sur tous les serveurs de l’environnement cible.Cette opération dépend de votre système d’exploitation.
+Vous devez arrêter les processus Adobe Campaign sur tous les serveurs de l’environnement cible. Cette opération dépend de votre système d’exploitation.
 
 Vous pouvez arrêter tous les processus ou seulement ceux qui écrivent dans la base de données.
 

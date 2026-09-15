@@ -10,26 +10,25 @@ exl-id: 7250b885-0606-466a-bfc2-6dd3cc5a012d
 TQID: https://experienceleague.adobe.com/VzejoXfvy4j-bthB0FrSB-iSipA-oGLd0BmqP2niNrg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 301
+workflow-type: tm+mt
+source-wordcount: '301'
 ht-degree: 100%
-
 ---
-
 # Interaction - Mémoire tampon{#interaction-data-buffer}
 
 
 
-Vous pouvez configurer une zone de mémoire tampon pour augmenter les performances d’Interaction en entrée en désynchronisant les calculs des propositions d’offre.Cette configuration doit être effectuée dans le fichier de configuration propre à l’instance (config-Instance.xml).
+Vous pouvez configurer une zone de mémoire tampon pour augmenter les performances d’Interaction en entrée en désynchronisant les calculs des propositions d’offre. Cette configuration doit être effectuée dans le fichier de configuration propre à l’instance (config-Instance.xml).
 
 Dans Adobe Campaign, une **zone de mémoire tampon** a été introduite dans le module Interaction. Elle permet **d&#39;augmenter les performances** d&#39;Interaction entrant en désynchronisant le calcul des propositions, du stockage.
 
 Il concerne uniquement interaction entrant, soit pour un appel (avec ou sans données d&#39;appel), soit pour une mise à jour de statut (updateStatus).
 
-Afin d’éviter une file d’attente lors de l’écriture des propositions liées à une personne destinataire, un nouveau processus génère une **zone de mémoire tampon** qui permet l’**écriture asynchrone** des propositions.Cette zone de mémoire tampon est lue et vidée de façon périodique.La période par défaut correspond environ à une seconde.Par conséquent, l’écriture des propositions est regroupée.
+Afin d’éviter une file d’attente lors de l’écriture des propositions liées à une personne destinataire, un nouveau processus génère une **zone de mémoire tampon** qui permet l’**écriture asynchrone** des propositions. Cette zone de mémoire tampon est lue et vidée de façon périodique. La période par défaut correspond environ à une seconde.Par conséquent, l’écriture des propositions est regroupée.
 
 >[!NOTE]
 >
@@ -39,13 +38,13 @@ La **configuration** de la zone de mémoire tampon est à effectuer dans le fich
 
 >[!CAUTION]
 >
->Certaines configurations ne peuvent être exécutées que par Adobe pour les déploiements hébergés par Adobe.Par exemple, pour accéder aux fichiers de configuration du serveur et de l’instance.Pour en savoir plus sur les différents déploiements, consultez la section [Modèles d&#39;hébergement](../../installation/using/hosting-models.md) ou [cette page](../../installation/using/capability-matrix.md).
+>Certaines configurations ne peuvent être exécutées que par Adobe pour les déploiements hébergés par Adobe. Par exemple, pour accéder aux fichiers de configuration du serveur et de l’instance. Pour en savoir plus sur les différents déploiements, consultez la section [Modèles d&#39;hébergement](../../installation/using/hosting-models.md) ou [cette page](../../installation/using/capability-matrix.md).
 >
 >Toute modification apportée à la configuration nécessite un redémarrage du serveur web (Apache:IIS) et des processus Adobe Campaign.\
->Après avoir configuré la zone de mémoire tampon, veillez à disposer d’une configuration matériel adaptée(quantité de mémoire présente).
+>Après avoir configuré la zone de mémoire tampon, veillez à disposer d’une configuration matériel adaptée (quantité de mémoire présente).
 
 
-Après avoir configuré la zone de mémoire tampon, veillez à disposer d’une configuration matériel adaptée(quantité de mémoire présente).
+Après avoir configuré la zone de mémoire tampon, veillez à disposer d’une configuration matériel adaptée (quantité de mémoire présente).
 
 La définition du démon d’écriture (processus nommé : interactiond) est la suivante :
 

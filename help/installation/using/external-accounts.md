@@ -10,18 +10,19 @@ exl-id: 4a17d5e8-c73f-42e7-b641-0fee6a52c5c0
 TQID: https://experienceleague.adobe.com/-dvlEuumTaNU2K-AHysUyUmwDay9oaZGLerkpR4pzzw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 2157
+workflow-type: tm+mt
+source-wordcount: '2157'
 ht-degree: 100%
-
 ---
-
 # Comptes externes{#external-accounts}
 
 Un ensemble de comptes externes prédéfinis est livré avec Adobe Campaign. Pour établir des connexions avec des systèmes externes, vous pouvez créer des comptes externes.
@@ -69,7 +70,7 @@ Pour configurer le compte externe **[!UICONTROL Mails rebonds (defaultPopAccount
 
 * **[!UICONTROL Port]**
 
-  Numéro de port de la connexion POP3.Le port par défaut est 110.
+  Numéro de port de la connexion POP3. Le port par défaut est 110.
 
 * **[!UICONTROL Compte]**
 
@@ -145,7 +146,7 @@ En tant que société cliente on-premise/hybride, vous pouvez créer de nouveaux
 
 ### Instance d&#39;exécution  {#execution-instance-external-account}
 
-Si vous possédez une architecture répartie, vous devez spécifier les instances d’exécution liées à l’instance de pilotage et les connecter.Les modèles de messages transactionnels sont déployés vers l’instance d’exécution.
+Si vous possédez une architecture répartie, vous devez spécifier les instances d’exécution liées à l’instance de pilotage et les connecter. Les modèles de messages transactionnels sont déployés vers l’instance d’exécution.
 
 ![](assets/ext_account_13.png)
 
@@ -167,7 +168,7 @@ Pour plus d&#39;informations sur cette configuration, consultez [cette page](../
 
 ### FTP {#ftp-external-account}
 
-Le compte externe FTP permet de configurer et de tester l’accès à un serveur en dehors d’Adobe Campaign. Pour configurer des connexions avec des systèmes externes comme des serveurs FTP 898 utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes.Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=fr){target="_blank"}.
+Le compte externe FTP permet de configurer et de tester l’accès à un serveur en dehors d’Adobe Campaign. Pour configurer des connexions avec des systèmes externes comme des serveurs FTP 898 utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=fr){target="_blank"}.
 
 Pour ce faire, spécifiez dans ce compte externe l&#39;adresse et les informations d’identification utilisées pour établir la connexion au serveur FTP.
 
@@ -197,7 +198,7 @@ Pour savoir où trouver ces informations d’identification, consultez [cette pa
 
 ### SFTP {#sftp-external-account}
 
-Le compte externe SFTP permet de configurer et de tester l’accès à un serveur en dehors d’Adobe Campaign. Pour configurer des connexions avec des systèmes externes comme des serveurs SFTP utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes.Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=fr){target="_blank"}.
+Le compte externe SFTP permet de configurer et de tester l’accès à un serveur en dehors d’Adobe Campaign. Pour configurer des connexions avec des systèmes externes comme des serveurs SFTP utilisés pour les transferts de fichiers, vous pouvez créer vos propres comptes externes. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=fr){target="_blank"}.
 
 ![](assets/ext_account_4.png)
 
@@ -260,7 +261,7 @@ Pour vous connecter à la console Adobe Campaign à l’aide d’un Adobe ID, 
 
 * **[!UICONTROL Serveurs IMS]**
 
-  URL de votre serveur IMS.Assurez-vous que les instances d’évaluation et de production pointent sur le même point d’entrée de production IMS.
+  URL de votre serveur IMS. Assurez-vous que les instances d’évaluation et de production pointent sur le même point d’entrée de production IMS.
 
 * **[!UICONTROL Scope IMS]**
 
@@ -424,7 +425,7 @@ Pour plus d’informations sur cette configuration, consultez [cette page](../..
 
 ### Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
 
-Le connecteur Amazon Simple Storage Service (S3) peut être utilisé pour importer ou exporter des données depuis ou vers Adobe Campaign.Il peut être configuré dans une activité de workflow. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=fr){target="_blank"}.
+Le connecteur Amazon Simple Storage Service (S3) peut être utilisé pour importer ou exporter des données depuis ou vers Adobe Campaign. Il peut être configuré dans une activité de workflow. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=fr){target="_blank"}.
 
 ![](assets/ext_account_3.png)
 

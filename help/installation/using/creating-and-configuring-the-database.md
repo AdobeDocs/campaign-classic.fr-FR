@@ -3,7 +3,7 @@ product: campaign
 title: Création et paramétrage de la base de données
 description: Création et paramétrage de la base de données
 feature: Installation, Instance Settings
-badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
@@ -11,22 +11,27 @@ exl-id: f40bab8c-5064-40d9-beed-101a9f22c094
 TQID: https://experienceleague.adobe.com/wu8xP0ls5jakl0XYtBV5Ktag7hCBFwl4o0EiqNrUMnc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
   - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: ht
-source-wordcount: 1365
+workflow-type: tm+mt
+source-wordcount: '1363'
 ht-degree: 100%
-
 ---
-
 # Création et paramétrage de la base de données{#creating-and-configuring-the-database}
 
 Lors de la création de la base de données, Adobe Campaign propose deux options distinctes :
@@ -44,7 +49,7 @@ Les étapes de paramétrage sont présentés ci-après.
 
 ## 1er cas : créer/recycler une base {#case-1--creating-recycling-a-database}
 
-Les étapes pour créer une base de données ou recycler une base existante sont présentées ci-dessous.Certaines configurations dépendent du moteur de base de données utilisé :
+Les étapes pour créer une base de données ou recycler une base existante sont présentées ci-dessous. Certaines configurations dépendent du moteur de base de données utilisé :
 
 Ces étapes sont les suivantes :
 
@@ -133,10 +138,10 @@ La fenêtre **[!UICONTROL Étapes de la création]** offre notamment la possibil
 
   Ces paramètres reçoivent les noms exacts des tablespaces (avertissement : respecte la casse). Ils sont respectivement stockés dans le nœud **[!UICONTROL Administration > Plateforme > Options]** dans les options suivantes (voir [cette section](../../installation/using/configuring-campaign-options.md#database)) :
 
-   * **WdbcOptions_TableSpaceUser**: tables utilisateur basées sur un schéma
-   * **WdbcOptions_TableSpaceIndex**: index des tables utilisateur basées sur un schéma
-   * **WdbcOptions_TableSpaceWork**: tables de travail sans schéma
-   * **WdbcOptions_TableSpaceWorkIndex**: index des tables de travail sans schéma
+  * **WdbcOptions_TableSpaceUser**: tables utilisateur basées sur un schéma
+  * **WdbcOptions_TableSpaceIndex**: index des tables utilisateur basées sur un schéma
+  * **WdbcOptions_TableSpaceWork**: tables de travail sans schéma
+  * **WdbcOptions_TableSpaceWorkIndex**: index des tables de travail sans schéma
 
 * Pour une base Oracle, l&#39;utilisateur Adobe Campaign doit avoir accès aux librairies Oracle, typiquement en étant membre du groupe **oinstall**.
 * L&#39;option **[!UICONTROL Fixer ou changer le mot de passe administrateur]** permet de renseigner le mot de passe associé à l&#39;opérateur Adobe Campaign ayant les droits administrateur.
@@ -191,10 +196,10 @@ Selon le moteur de base sélectionné, les informations d&#39;identification du 
 * Pour un moteur **PostgreSQL**, vous devez indiquer le nom DNS (ou l’adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données.
 * Pour un moteur **Microsoft SQL Server**, vous devez définir :
 
-   1. le nom DNS (ou l&#39;adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données,
-   1. le mode de sécurité pour l’accès à Microsoft SQL Server : **[!UICONTROL Authentification SQL Server]** ou **[!UICONTROL Authentification Windows NT]**.
+  1. le nom DNS (ou l&#39;adresse IP) défini sur le serveur applicatif pour accéder au serveur de base de données,
+  1. le mode de sécurité pour l’accès à Microsoft SQL Server : **[!UICONTROL Authentification SQL Server]** ou **[!UICONTROL Authentification Windows NT]**.
 
-      ![](assets/s_ncs_install_db_mssql_exists_01.png)
+     ![](assets/s_ncs_install_db_mssql_exists_01.png)
 
 ### Etape 2 - Paramètres de connexion à la base de données {#step-2---database-connection-settings}
 
@@ -209,7 +214,8 @@ Vous devez définir les paramètres suivants :
 
   >[!NOTE]
   >
-  >Assurez-vous que le nom du schéma et le nom d’utilisateur ou d’utilisatrice correspondent. La méthode recommandée pour créer une base de données consiste à utiliser la console cliente Campaign.  >Pour une base Oracle, il n&#39;est pas nécessaire de saisir le nom du compte.
+  >Assurez-vous que le nom du schéma et le nom d’utilisateur correspondent. La méthode recommandée pour créer une base de données est la console cliente de Campaign.
+  >Pour une base Oracle, il n&#39;est pas nécessaire de saisir le nom du compte.
 
 * Indiquez si la base doit être Unicode ou non.
 

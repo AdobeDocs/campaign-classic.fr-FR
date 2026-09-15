@@ -3,7 +3,7 @@ product: campaign
 title: Configuration des traitements d'export
 description: Découvrez comment configurer et exécuter des traitements d'export dans Campaign.
 feature: Overview
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: platform
 content-type: reference
 topic-tags: importing-and-exporting-data
@@ -11,27 +11,31 @@ exl-id: 94fc473a-dc49-41e8-b572-51c162b09996
 TQID: https://experienceleague.adobe.com/YkFgnO67JZr1NK1OuVeVSNT4343nji7QDwFh-B4Z5q0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1053
+workflow-type: tm+mt
+source-wordcount: '1044'
 ht-degree: 100%
-
 ---
-
 # Configuration des traitements d’export {#executing-export-jobs}
 
 
 
 Les traitements d’export vous permettent d’accéder à la base de données et d’en extraire les données : contacts, clientes et clients, listes, segments, etc.
 
-Par exemple, il peut être utile d’utiliser les données de tracking d’une campagne (historique de tracking, etc.)dans une feuille de calcul.Les données de sortie peuvent être au format txt, CSV, TAB ou XML.
+Par exemple, il peut être utile d’utiliser les données de tracking d’une campagne (historique de tracking, etc.) dans une feuille de calcul. Les données de sortie peuvent être au format txt, CSV, TAB ou XML.
 
 L’assistant d’export vous permet de configurer un export, de définir ses options et de lancer son exécution. Il s’agit d’une série d’écrans dont le contenu dépend du type d’export (simple ou multiple) et des droits de l’opérateur ou de l’opératrice.
 
@@ -48,9 +52,9 @@ Lorsque vous lancez l’assistant d’export, vous devez d’abord sélectionner
 
 1. Cliquez sur la flèche située à droite du champ **[!UICONTROL Modèle d&#39;export]** pour sélectionner votre modèle, ou cliquez sur l&#39;icône **[!UICONTROL Choisir le lien]** pour parcourir l&#39;arborescence.
 
-   Le modèle natif est **[!UICONTROL Nouvel export texte]**.Ce modèle ne doit pas être modifié, mais vous pouvez le dupliquer pour en configurer un nouveau.Par défaut, les modèles d&#39;export sont enregistrés dans le nœud **[!UICONTROL Ressources > Modèles > Modèles de traitement]**.
+   Le modèle natif est **[!UICONTROL Nouvel export texte]**. Ce modèle ne doit pas être modifié, mais vous pouvez le dupliquer pour en configurer un nouveau. Par défaut, les modèles d&#39;export sont enregistrés dans le nœud **[!UICONTROL Ressources > Modèles > Modèles de traitement]**.
 
-1. Saisissez un nom pour l’export dans le champ **[!UICONTROL Libellé]**.Vous pouvez ajouter une description.
+1. Saisissez un nom pour l’export dans le champ **[!UICONTROL Libellé]**. Vous pouvez ajouter une description.
 1. Sélectionnez le type d&#39;export. Deux types d&#39;export sont possibles : **[!UICONTROL Export simple]** pour n&#39;exporter qu&#39;un seul fichier et **[!UICONTROL Export multiple]** pour exporter plusieurs fichiers en une seule exécution, depuis un ou plusieurs types de documents sources.
 
 ## Etape 2 - Type de fichier à exporter {#step-2---type-of-file-to-export}
@@ -73,11 +77,11 @@ Par défaut, lorsque l&#39;export est lancé depuis le nœud **[!UICONTROL Trait
 
   ![](assets/s_ncs_user_export_wizard02_b.png)
 
-  Vous devez saisir la date de la dernière modification.Elle peut être récupérée à partir d’un champ ou être calculée.
+  Vous devez saisir la date de la dernière modification. Elle peut être récupérée à partir d’un champ ou être calculée.
 
 ## Etape 3 - Définition du format de sortie {#step-3---defining-the-output-format}
 
-Sélectionnez un format de sortie pour le fichier d’export.Les formats possibles sont les suivants : Texte, Texte à colonnes fixes, CSV et XML.
+Sélectionnez un format de sortie pour le fichier d’export. Les formats possibles sont les suivants : Texte, Texte à colonnes fixes, CSV et XML.
 
 ![](assets/s_ncs_user_export_wizard03.png)
 
@@ -88,7 +92,7 @@ Sélectionnez un format de sortie pour le fichier d’export.Les formats possibl
 
 ## Etape 4 - Sélection des données {#step-4---data-selection}
 
-Sélectionnez les champs à exporter.Pour ce faire :
+Sélectionnez les champs à exporter. Pour ce faire :
 
 1. Double-cliquez sur les champs de votre choix dans la liste **[!UICONTROL Champs disponibles]** afin de les ajouter à la section **[!UICONTROL Colonnes de sortie]**.
 1. Utilisez les flèches à droite de la liste pour définir l&#39;ordre des champs dans le fichier de sortie.
@@ -114,12 +118,12 @@ Vous pouvez ajouter des conditions de filtrage afin de ne pas exporter toutes le
 Vous pouvez modifier l&#39;ordre et le libellé des champs pour le fichier de sortie. Vous pouvez également appliquer des transformations aux données sources.
 
 * Pour changer l&#39;ordre des colonnes à exporter, sélectionnez la colonne concernée et utilisez les flèches bleues situées à droite du tableau.
-* Pour modifier le libellé d’un champ, cliquez dans la cellule de la colonne **[!UICONTROL Libellé]** correspondant au champ à modifier et saisissez le nouveau libellé.Appuyez sur la touche Entrée du clavier pour confirmer.
-* Pour appliquer une transformation de casse au contenu d’un champ, sélectionnez-la dans la colonne **[!UICONTROL Transformation]**.Vous pouvez sélectionner les éléments suivants :
+* Pour modifier le libellé d’un champ, cliquez dans la cellule de la colonne **[!UICONTROL Libellé]** correspondant au champ à modifier et saisissez le nouveau libellé. Appuyez sur la touche Entrée du clavier pour confirmer.
+* Pour appliquer une transformation de casse au contenu d’un champ, sélectionnez-la dans la colonne **[!UICONTROL Transformation]**. Vous pouvez sélectionner les éléments suivants :
 
-   * Passer en majuscules
-   * Passer en minuscules
-   * Première lettre en majuscule
+  * Passer en majuscules
+  * Passer en minuscules
+  * Première lettre en majuscule
 
   ![](assets/s_ncs_user_export_wizard06.png)
 
@@ -131,7 +135,7 @@ Si vous exportez une collection d’éléments (par exemple les abonnements des 
 
 ## Etape 8 - Prévisualisation des données {#step-8---data-preview}
 
-Cliquez sur **[!UICONTROL Lancer la prévisualisation des données]** pour obtenir une prévisualisation du résultat de l’export.Par défaut, les 200 premières lignes sont affichées.Cliquez sur les flèches à droite du champ **[!UICONTROL Lignes à visualiser]** pour modifier cette valeur.
+Cliquez sur **[!UICONTROL Lancer la prévisualisation des données]** pour obtenir une prévisualisation du résultat de l’export. Par défaut, les 200 premières lignes sont affichées. Cliquez sur les flèches à droite du champ **[!UICONTROL Lignes à visualiser]** pour modifier cette valeur.
 
 ![](assets/s_ncs_user_export_wizard07.png)
 

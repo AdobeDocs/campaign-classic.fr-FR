@@ -8,17 +8,17 @@ exl-id: 0b5575be-57e7-4eee-9c0a-e9ef4b0931bf
 TQID: https://experienceleague.adobe.com/UkA0XyCzaDt2qlxpODQ-zoyC0YdKs3K5qg4UacvT8ck
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 324
-ht-degree: 100%
-
+workflow-type: tm+mt
+source-wordcount: '362'
+ht-degree: 84%
 ---
-
 # Balise de tracking web : définition{#web-tracking-tag-definition}
 
 
@@ -85,7 +85,8 @@ Le tableau ci-dessous donne la liste des paramètres spéciaux supportés par le
                               <p>paramètre d'URL</p> 
                            </td>
                            <td>
-                              <p>Identifiant de diffusion à utiliser s'il n'y a pas de cookie de session. Cette valeur est à exprimer en base 16.
+                              <p>Identifiant de la diffusion à utiliser en l'absence de cookie de session. Cette valeur doit être
+                                 exprimé en hexadécimal.
                               </p> 
                            </td> 
                         </tr>
@@ -97,7 +98,9 @@ Le tableau ci-dessous donne la liste des paramètres spéciaux supportés par le
                               <p>paramètre d'URL</p> 
                            </td>
                            <td>
-                              <p>Paramètre permettant d'identifier l'internaute. Le format de ce paramètre est "nom=valeur", nom étant un champ du schéma des destinataires. Ce paramètre est prioritaire sur l'identifiant contenu dans le cookie de session.
+                              <p>Paramètre utilisé pour identifier l'internaute. Le format de ce paramètre est « name=value »,
+                                 où le nom est un champ du schéma des destinataires. Ce paramètre a la priorité sur
+                                 identifiant contenu dans le cookie de session.
                               </p> 
                            </td> 
                         </tr> 
@@ -112,23 +115,23 @@ Le tableau ci-dessous donne la liste des paramètres spéciaux supportés par le
 
 * Collecte des informations relatives au chiffre d&#39;affaires
 
-  **https://myserver.adobe.com/r/4567?tagid=command&amp;amount=100&amp;article=2l**
+  **https://myserver.adobe.com/r/4567?tagid=command&amount=100&article=2l**
 
 * Spécification d&#39;un champ pour retrouver le destinataire
 
-  **https://myserver.adobe.com/r/2353?tagid=home&amp;rcpid=saccount%3D10**
+  **https://myserver.adobe.com/r/2353?tagid=home&rcpid=saccount%3D10**
 
   Un destinataire dont le numéro de compte est 10 est passé sur la page d&#39;accueil.
 
 * Utilisation d&#39;une diffusion par défaut
 
-  **https://myserver.adobe.com/r/2456?tagid=home&amp;jobid=e6**
+  **https://myserver.adobe.com/r/2456?tagid=home&jobid=e6**
 
-  Une personne destinataire est envoyée sur la page d’accueil.Cette information sera stockée dans la diffusion dont l’identifiant est 230 (soit e6 dans la base de données 16), si aucun cookie de session contenant un identifiant de diffusion n’est envoyé avec cette requête.
+  Une personne destinataire est envoyée sur la page d’accueil. Cette information sera stockée dans la diffusion dont l’identifiant est 230 (soit e6 dans la base de données 16), si aucun cookie de session contenant un identifiant de diffusion n’est envoyé avec cette requête.
 
 >[!NOTE]
 >
->Toutes les valeurs envoyées au serveur de redirection via les paramètres d’URL doivent être encodées en URL.Dans les exemples fournis, vous remarquerez que les caractères « = » et « | » sont respectivement encodés en « %3D » et « %7C ».
+>Toutes les valeurs envoyées au serveur de redirection via les paramètres d’URL doivent être encodées en URL. Dans les exemples fournis, vous remarquerez que les caractères « = » et « | » sont respectivement encodés en « %3D » et « %7C ».
 
 ## Méthodes de transmission des données {#data-transmission-methods}
 

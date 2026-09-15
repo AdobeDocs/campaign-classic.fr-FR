@@ -8,26 +8,34 @@ exl-id: 841f0c2f-90ef-4db0-860a-75fc7c48804a
 TQID: https://experienceleague.adobe.com/h0vsbqdwW-21Ay-v8v8eUQzHyDkCVZoxXWHx5m1Qd7g
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 2904
+workflow-type: tm+mt
+source-wordcount: '3088'
 ht-degree: 100%
-
 ---
-
 # Résolution des problèmes de SMS {#troubleshooting-sms}
 
 ## Conflit entre différents comptes externes {#external-account-conflict}
@@ -54,14 +62,14 @@ Une fois que vous avez vérifié chaque compte individuellement, il existe 2 sc�
 
   Vous avez un conflit entre les comptes. Comme nous l&#39;avons déjà mentionné, Adobe Campaign traite les comptes individuellement, mais le fournisseur peut les traiter comme un compte unique.
 
-   * Vous utilisez des combinaisons nom d’utilisateur ou d’utilisatrice/mot de passe différentes entre tous vos comptes.
-Vous devrez contacter le fournisseur pour diagnostiquer les conflits potentiels de leur côté.
+  * Vous utilisez des combinaisons nom d&#39;utilisateur / mot de passe différentes entre tous vos comptes.
+    Vous devrez contacter le fournisseur pour qu’il diagnostique les conflits potentiels de son côté.
 
-   * Certains comptes externes partagent la même combinaison de nom d’utilisateur ou d’utilisatrice/mot de passe.
-Le fournisseur n’ayant aucun moyen de savoir de quel compte externe provient `BIND PDU`, il traite toutes les connexions provenant de plusieurs comptes comme un seul compte. Ils ont peut-être acheminé MO et SR de manière aléatoire sur les deux comptes, provoquant des problèmes.
-Si le fournisseur prend en charge plusieurs codes courts pour la même combinaison de nom d’utilisateur ou d’utilisatrice/mot de passe, vous devrez lui demander où placer ce code court dans `BIND PDU`. Notez que cette information doit être placée à l’intérieur de `BIND PDU`, et non dans `SUBMIT_SM`, puisque `BIND PDU` est le seul endroit qui permettra d’acheminer correctement les MO.
-Voir la section [Informations dans chaque type de PDU](sms-protocol.md#information-pdu) ci-dessus pour savoir quel champ est disponible dans `BIND PDU`. En général, vous ajoutez le code court dans `address_range`, mais cela nécessite une prise en charge spéciale de la part du fournisseur. Contactez-les pour savoir comment ils s’attendent à acheminer plusieurs codes courts indépendamment.
-Adobe Campaign prend en charge la gestion de plusieurs codes courts sur le même compte externe.
+  * Certains comptes externes partagent la même combinaison nom d&#39;utilisateur / mot de passe.
+    Le fournisseur n’a aucun moyen de savoir de quel compte externe provient le `BIND PDU`, de sorte qu’il traite toutes les connexions à partir de plusieurs comptes comme une seule. Il se peut qu&#39;il ait redirigé les MO et SR de manière aléatoire sur les deux comptes, ce qui a provoqué des problèmes.
+    Si le fournisseur prend en charge plusieurs codes courts pour la même combinaison de nom d’utilisateur ou d’utilisatrice et de mot de passe, vous devrez lui demander où placer ce numéro court dans le `BIND PDU`. Notez que cette information doit être placée dans le `BIND PDU` et non dans `SUBMIT_SM`, puisque le `BIND PDU` est le seul endroit qui permettra d&#39;utiliser correctement les MO de routage.
+    Consultez la section [Informations dans chaque type de PDU](sms-protocol.md#information-pdu) ci-dessus pour savoir quel champ est disponible dans le `BIND PDU`. En général, il convient d’ajouter le numéro court dans `address_range`, mais cela nécessite une assistance spéciale de la part du fournisseur. Contactez-le pour savoir comment il s&#39;attend à acheminer de manière indépendante plusieurs numéros courts.
+    Adobe Campaign prend en charge la gestion de plusieurs numéros courts sur le même compte externe.
 
 ## Problème avec un compte externe en général {#external-account-issues}
 
@@ -331,11 +339,14 @@ Le résultat doit être le suivant :
 
 Pour clarifier les différences entre les statuts **Envoyé**, **Envoyé au fournisseur** et **Reçu sur mobile**, reportez-vous aux définitions détaillées ci-dessous :
 
-* **Reçu sur mobile** :Le message a été correctement remis sur l’appareil de l’utilisateur ou de l’utilisatrice, avec une confirmation fournie à la fois par la diffusion Mobile Terminated (MT) et un rapport de statut (SR).
+* **Reçu sur mobile** :
+Le message a été correctement remis sur l’appareil de l’utilisateur ou de l’utilisatrice, avec une confirmation fournie à la fois par la diffusion Mobile Terminated (MT) et un rapport de statut (SR).
 
-* **Envoyé** :Le message a été traité avec succès à l’étape Mobile Terminated (MT), mais un rapport de statut (SR) confirmant la diffusion sur l’appareil mobile n’a pas encore été reçu.
+* **Envoyé** :
+Le message a été traité avec succès à l’étape Mobile Terminated (MT), mais un rapport de statut (SR) confirmant la diffusion sur l’appareil mobile n’a pas encore été reçu.
 
-* **Envoyé au fournisseur** :Le message a été envoyé au fournisseur à l’aide de la `SUBMIT_SM command`, mais aucun accusé de réception `SUBMIT_SM_RESP` n’a été reçu de la part du fournisseur.
+* **Envoyé au fournisseur** :
+Le message a été envoyé au fournisseur à l’aide de la `SUBMIT_SM command`, mais aucun accusé de réception `SUBMIT_SM_RESP` n’a été reçu de la part du fournisseur.
 
 Les messages peuvent rester au statut **Envoyé**, car le passage au statut **Reçu** dépend du rapport de statut (SR) provenant de l’appareil de la personne. Si la personne a une mauvaise réception ou d’autres problèmes de connectivité, il se peut qu’elle ne reçoive pas le message immédiatement. Dans de tels cas, il est de la responsabilité du fournisseur de réessayer la diffusion ou d’expliquer pourquoi aucun SR n’a été généré. Si le fournisseur identifie des incohérences, il doit s’assurer que le comportement de Campaign est cohérent avec les attentes.
 

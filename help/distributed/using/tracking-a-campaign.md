@@ -8,17 +8,18 @@ exl-id: 87d1909c-d2eb-47ce-a860-0e78a64d2914
 TQID: https://experienceleague.adobe.com/AQ-UD-8YP-5emnQLqkeBovEX1FpChnCLxTq-pncUrDU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 subfeature_v2:
   - id: a6187aac-0a00-4394-8937-e8d4c1a40aa4
+    internal-label: Distributed Marketing
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 441
+workflow-type: tm+mt
+source-wordcount: '441'
 ht-degree: 100%
-
 ---
-
 # Suivi d’une campagne{#tracking-a-campaign}
 
 
@@ -44,13 +45,13 @@ La page des **[!UICONTROL kits de campagne]** permet de visualiser le résumé d
 
 Ce résumé affiche les informations suivantes : le libellé, le type d&#39;opération, le nom de l&#39;opération à partir de laquelle le kit a été créé et le dossier d&#39;enregistrement.
 
-Cliquez sur le nom du kit pour le modifier.Vous pouvez alors visualiser les commandes réalisées par les entités locales et leur statut.
+Cliquez sur le nom du kit pour le modifier. Vous pouvez alors visualiser les commandes réalisées par les entités locales et leur statut.
 
 Cette information est proposée aussi dans la vue **[!UICONTROL Commandes d&#39;opérations]** qui liste unitairement toutes les commandes réalisées.
 
 ![](assets/mkg_dist_catalog_op_command_details.png)
 
-Les opérateurs et opératrices centraux peuvent modifier la commande.Vous avez le choix entre les deux méthodes suivantes :
+Les opérateurs et opératrices centraux peuvent modifier la commande. Vous avez le choix entre les deux méthodes suivantes :
 
 1. L’opérateur ou l’opératrice peut cliquer sur le nom de la commande pour l’éditer : il ou elle accède alors aux détails de celle-ci.
 
@@ -90,7 +91,7 @@ Pour les **campagnes collaboratives**, l’annulation d’un kit d’opération 
 
    ![](assets/mkg_dist_mutual_op_cancelled2.png)
 
-Les kits annulés restent accessibles et peuvent être réinitialisés par l’entité centrale (voir ci-dessous) si nécessaire.Ils ne seront proposés aux entités locales qu’une fois approuvés et démarrés.Le processus de réinitialisation d’un package est présenté ci-dessous.
+Les kits annulés restent accessibles et peuvent être réinitialisés par l’entité centrale (voir ci-dessous) si nécessaire. Ils ne seront proposés aux entités locales qu’une fois approuvés et démarrés. Le processus de réinitialisation d’un package est présenté ci-dessous.
 
 ## Réinitialisation dʼun package {#reinitializing-a-package}
 
@@ -105,7 +106,7 @@ Vous pouvez réinitialiser un kit de campagne déjà publié afin de le modifier
 
    ![](assets/mkg_dist_mutual_op_reinit2.png)
 
-1. Le statut du package passe à **[!UICONTROL En cours d’édition]**.Il peut alors être modifié, approuvé et publié pour être à nouveau proposé dans la liste des kits de campagne.
+1. Le statut du package passe à **[!UICONTROL En cours d’édition]**. Il peut alors être modifié, approuvé et publié pour être à nouveau proposé dans la liste des kits de campagne.
 
 >[!NOTE]
 >

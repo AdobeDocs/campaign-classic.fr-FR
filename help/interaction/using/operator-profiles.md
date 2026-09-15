@@ -10,25 +10,28 @@ exl-id: e11fb28c-d530-45a2-862a-ff1c20975577
 TQID: https://experienceleague.adobe.com/B-itT3gDb6FELHi2NUfFUL18s3eKPg4-wWAFkCzN8wI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management
 subfeature_v2:
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 408
+workflow-type: tm+mt
+source-wordcount: '408'
 ht-degree: 100%
-
 ---
-
 # Profils d&#39;opérateurs{#operator-profiles}
 
 
 
-Deux types d’opérateurs et d’opératrices utilisent Interaction : les personnes responsables des offres et celles chargées de la diffusion.Chaque rôle dispose de droits spécifiques qui ne donne accès qu’à certaines parties de l’arborescence et de la plateforme.
+Deux types d’opérateurs et d’opératrices utilisent Interaction : les personnes responsables des offres et celles chargées de la diffusion. Chaque rôle dispose de droits spécifiques qui ne donne accès qu’à certaines parties de l’arborescence et de la plateforme.
 
 * **[!UICONTROL Chargé d’offres]** : crée et gère les offres. Notez que si des offres sont utilisées dans le workflow, l’opérateur doit se trouver dans le groupe d’opérateurs **[!UICONTROL Administrateur]** ou **[!UICONTROL Chargés d’offres]** pour l’exécuter.
 * **[!UICONTROL Chargé de diffusion]** : valide et utilise les offres

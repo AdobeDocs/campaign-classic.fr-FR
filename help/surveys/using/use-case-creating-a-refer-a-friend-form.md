@@ -2,34 +2,40 @@
 product: campaign
 title: Créer un questionnaire de parrainage d'un ami
 description: Découvrez les étapes de création d'un formulaire de parrainage d'un ami
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: bd94c41a-813a-4ddb-a2bd-c3deab022482
 TQID: https://experienceleague.adobe.com/n0qp8Q0p18fMbRYxAOu5Qj-0TCf8YgL5vF71F-ZGjbM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
   - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 644
+workflow-type: tm+mt
+source-wordcount: '635'
 ht-degree: 100%
-
 ---
-
 # Cas d’utilisation : création d’un formulaire de référence{#use-case-creating-a-refer-a-friend-form}
 
 
 
-Dans cet exemple, nous allons proposer un jeu-concours aux destinataires de la base de données.Le formulaire web de participation inclura une section permettant d’indiquer des réponses, et une autre permettant de parrainer un ami ou une amie en communiquant son adresse e-mail.
+Dans cet exemple, nous allons proposer un jeu-concours aux destinataires de la base de données. Le formulaire web de participation inclura une section permettant d’indiquer des réponses, et une autre permettant de parrainer un ami ou une amie en communiquant son adresse e-mail.
 
 ![](assets/s_ncs_admin_survey_viral_sample_0.png)
 
@@ -41,7 +47,7 @@ Les étapes de paramétrage et de réalisation du bloc de parrainage sont les su
 
    ![](assets/s_ncs_admin_survey_viral_sample_2.png)
 
-   Le champ **Votre message** permet de saisir un message à l’intention du filleul ou de la filleule.Le parrain ou la marraine doit également saisir ses **Nom**, **Prénom** et **E-mail**.
+   Le champ **Votre message** permet de saisir un message à l’intention du filleul ou de la filleule. Le parrain ou la marraine doit également saisir ses **Nom**, **Prénom** et **E-mail**.
 
    Les informations saisies dans les champs sont stockées dans une table spécifique : la table des visiteurs.
 
@@ -49,7 +55,7 @@ Les étapes de paramétrage et de réalisation du bloc de parrainage sont les su
    >
    >Tant que le destinataire n&#39;a pas exprimé son consentement, vous ne pouvez pas le stocker parmi les destinataires la base de données. Il sera donc provisoirement stocké dans la table des **visiteurs et visiteuses** (**nms:visitor**) conçue pour les campagnes de marketing viral. Cette table est régulièrement purgée de son contenu par les opérations de **cleansing**.
    >
-   >Dans notre exemple, nous allons en cibler les destinataires pour leur proposer de participer à ce concours, sur les conseils de leur parrain ou marraine.Cependant, dans ce message, nous souhaitons également leur proposer un abonnement à l’un de nos services d’information.Si ces personnes s’abonnent, elles peuvent être stockés dans la base de données.
+   >Dans notre exemple, nous allons en cibler les destinataires pour leur proposer de participer à ce concours, sur les conseils de leur parrain ou marraine. Cependant, dans ce message, nous souhaitons également leur proposer un abonnement à l’un de nos services d’information. Si ces personnes s’abonnent, elles peuvent être stockés dans la base de données.
 
    ![](assets/s_ncs_admin_survey_viral_sample_5.png)
 
@@ -69,7 +75,7 @@ Les étapes de paramétrage et de réalisation du bloc de parrainage sont les su
    ctx.recipient.visitor.@referrerLastName = ctx.recipient.@lastName
    ```
 
-   Le nom, le prénom et l’adresse e-mail renseignés dans le bloc d’identification de la page sont identifiés comme les nom, prénom et adresse e-mail du parrain ou de la marraine.Ces champs seront réinjectés dans le corps du message envoyé au filleul ou à la filleule.
+   Le nom, le prénom et l’adresse e-mail renseignés dans le bloc d’identification de la page sont identifiés comme les nom, prénom et adresse e-mail du parrain ou de la marraine. Ces champs seront réinjectés dans le corps du message envoyé au filleul ou à la filleule.
 
    La valeur APP5 correspond au nom interne du formulaire Web : cette information permet de connaître l&#39;origine du filleul, c&#39;est-à-dire d&#39;associer le visiteur au formulaire Web à partir duquel il a été créé.
 
@@ -89,7 +95,7 @@ Les étapes de paramétrage et de réalisation du bloc de parrainage sont les su
 
      ![](assets/s_ncs_admin_survey_viral_sample_7b.png)
 
-   * Les coordonnées du filleul ou de la filleule, ainsi que les informations relatives au parrain ou à la marraine, proviennent de la table des visiteurs et visiteuses.Elles sont insérées à l’aide du bouton de personnalisation.
+   * Les coordonnées du filleul ou de la filleule, ainsi que les informations relatives au parrain ou à la marraine, proviennent de la table des visiteurs et visiteuses. Elles sont insérées à l’aide du bouton de personnalisation.
 
      ![](assets/s_ncs_admin_survey_viral_sample_7a.png)
 
@@ -138,4 +144,4 @@ Les étapes de paramétrage et de réalisation du bloc de parrainage sont les su
 
    ![](assets/s_ncs_admin_survey_viral_sample_9.png)
 
-   Leur profil contient les informations saisies par leur parrain ou marraine.Il est stocké en fonction des paramétrages renseignés dans le script du formulaire.Si ces personnes décident de s’abonner à la newsletter, elles seront enregistrées dans la table des destinataires.
+   Leur profil contient les informations saisies par leur parrain ou marraine. Il est stocké en fonction des paramétrages renseignés dans le script du formulaire. Si ces personnes décident de s’abonner à la newsletter, elles seront enregistrées dans la table des destinataires.

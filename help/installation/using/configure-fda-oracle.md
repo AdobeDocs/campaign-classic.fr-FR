@@ -10,17 +10,17 @@ exl-id: 320bfbb4-533b-4c45-a46f-c3c8dd68221f
 TQID: https://experienceleague.adobe.com/PbyBdgy6uFZNOmZ2GFrntS4XSJoJj41uFXLWOF4eWyA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 363
+workflow-type: tm+mt
+source-wordcount: '363'
 ht-degree: 100%
-
 ---
-
 # Configurer l’accès à Oracle {#configure-access-to-oracle}
 
 
@@ -51,7 +51,7 @@ La connexion à une base de données externe Oracle en FDA requiert les paramét
 
    >[!NOTE]
    >
-   >Ces valeurs (en particulier ORACLE_HOME) dépendent de vos référentiels d’installation.Veillez à vérifier l’arborescence avant de référencer ces valeurs.
+   >Ces valeurs (en particulier ORACLE_HOME) dépendent de vos référentiels d’installation. Veillez à vérifier l’arborescence avant de référencer ces valeurs.
 
 1. Installez les librairies nécessaires à Oracle :
 

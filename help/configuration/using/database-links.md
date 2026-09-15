@@ -8,17 +8,17 @@ exl-id: e05dcd81-bbca-4767-8da3-ea064f7f6c8e
 TQID: https://experienceleague.adobe.com/0kiRwyal2yxHRjRNkPCNY2zsulDvbC3FWcJZ49Ynmkw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 932
+workflow-type: tm+mt
+source-wordcount: '935'
 ht-degree: 100%
-
 ---
-
 # Gestion des liens {#links--relation-between-tables}
 
 Un lien décrit l&#39;association d’une table vers une autre table.
@@ -58,23 +58,23 @@ Les liens suivent les règles suivantes :
 
 * La définition d&#39;un lien est renseignée sur un **`<element>`** de type **link** avec les attributs suivants :
 
-   * **name** : nom du lien à partir de la table source
-   * **target** : nom du schéma cible
-   * **label** : libellé du lien
-   * **revLink** (optionnel) : nom du lien inverse à partir du schéma cible (déduit automatiquement par défaut)
-   * **integrity** (optionnel) : intégrité référentielle de l’occurrence de la table source par rapport à l’occurrence de la table cible.
-Les valeurs possibles sont les suivantes :
+  * **name** : nom du lien à partir de la table source
+  * **target** : nom du schéma cible
+  * **label** : libellé du lien
+  * **revLink** (optionnel) : nom du lien inverse à partir du schéma cible (déduit automatiquement par défaut)
+  * **integrity** (optionnel) : intégrité référentielle de l’occurrence de la table source par rapport à l’occurrence de la table cible.
+    Les valeurs possibles sont les suivantes :
 
-      * **define** : la suppression de l’occurrence source est possible si elle n’est plus référencée par une occurrence cible
-      * **normal** : la suppression de l’occurrence source initialise les clés du lien sur l’occurrence cible (mode par défaut), ce type d’intégrité initialise toutes les clés étrangères
-      * **own** : la suppression de l’occurrence source entraîne la suppression de l’occurrence cible
-      * **owncopy** : semblable à **own** (en cas de suppression) ou duplique les occurrences (en cas de duplication)
-      * **neutral** : aucun comportement spécifique
+    * **define** : la suppression de l’occurrence source est possible si elle n’est plus référencée par une occurrence cible
+    * **normal** : la suppression de l’occurrence source initialise les clés du lien sur l’occurrence cible (mode par défaut), ce type d’intégrité initialise toutes les clés étrangères
+    * **own** : la suppression de l’occurrence source entraîne la suppression de l’occurrence cible
+    * **owncopy** : semblable à **own** (en cas de suppression) ou duplique les occurrences (en cas de duplication)
+    * **neutral** : aucun comportement spécifique
 
-   * **revIntegrity** (optionnel) : intégrité sur le schéma cible (optionnel, « normal » par défaut)
-   * **revCardinality** (optionnel) : avec la valeur « Single », renseigne la cardinalité de type 1-1 (par défaut 1-N)
-   * **externalJoin** (optionnel) : force la jointure externe
-   * **revExternalJoin** (optionnel) : force la jointure externe sur le lien reverse
+  * **revIntegrity** (optionnel) : intégrité sur le schéma cible (optionnel, « normal » par défaut)
+  * **revCardinality** (optionnel) : avec la valeur « Single », renseigne la cardinalité de type 1-1 (par défaut 1-N)
+  * **externalJoin** (optionnel) : force la jointure externe
+  * **revExternalJoin** (optionnel) : force la jointure externe sur le lien reverse
 
 * Un lien fait référence à un ou plusieurs champs de la table source vers la table de destination. Il n’est pas nécessaire de renseigner les champs constituant l’élément `<join>`, car ils sont automatiquement déduits par défaut à l’aide de la clé interne du schéma cible.
 * Un index sur la clé étrangère du lien est automatiquement ajouté dans le schéma étendu.
@@ -227,7 +227,7 @@ Le schéma généré :
 </schema>
 ```
 
-La définition de la clé de nom « companyEmail » a été étendue avec la clé étrangère du lien « company ».Cette clé génère un index unique sur les deux champs.
+La définition de la clé de nom « companyEmail » a été étendue avec la clé étrangère du lien « company ». Cette clé génère un index unique sur les deux champs.
 
 ## En savoir plus
 

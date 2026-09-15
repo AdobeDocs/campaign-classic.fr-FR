@@ -8,24 +8,31 @@ exl-id: 9aed2665-cd4b-419c-b9f2-ea04fc1d8f01
 TQID: https://experienceleague.adobe.com/XyvGCXDK-0pAX09kPyfGkZFTITlQRuMN0N-Yee-06EM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1733
+workflow-type: tm+mt
+source-wordcount: '1733'
 ht-degree: 100%
-
 ---
-
 # Workflows techniques{#about-technical-workflows}
 
 
@@ -42,7 +49,7 @@ Notez que les workflows techniques ne peuvent être démarrés et modifiés que 
 >
 >Les workflows techniques associés au module Message Center module sont disponibles par défaut dans le nœud **[!UICONTROL Administration]** > **[!UICONTROL Exploitation]** > **[!UICONTROL Message Center]** > **[!UICONTROL Workflows techniques]**.
 
-Pour plus d&#39;informations sur la façon d&#39;utiliser les workflows techniques, voir la [section dédiée](monitoring-technical-workflows.md).
+Pour plus d&#39;informations sur la façon d les workflows techniques, voir la [section dédiée](monitoring-technical-workflows.md).
 
 ## Liste des workflows techniques {#list-technical-workflows}
 
@@ -64,7 +71,7 @@ Pour plus d&#39;informations sur la façon d&#39;utiliser les workflows techniqu
 | **Purge des événements** (webAnalyticsPurgeWebEvents) | Connecteurs Web Analytics | Ce workflow permet de supprimer du champ de la base tous les événements selon la période paramétrée dans le champ Durée de vie. |
 | **Export d’audiences vers Adobe Experience Cloud** (exportSharedAudience) | Intégration avec Adobe Experience Cloud | Ce workflow permet d’exporter des audiences en tant qu’audiences/segments partagés. Ces audiences peuvent être exploitées dans les différentes solutions d’Adobe Experience Cloud que vous utilisez. |
 | **Prévisionnel** (forecasting) | Diffusion | Ce workflow effectue l’analyse des diffusions enregistrées dans le calendrier prévisionnel (création des logs prévisionnels). Par défaut, il se déclenche tous les jours à 1 h 00. |
-| **Calcul de l&#39;agrégat full (cube propositionrcp)** (agg_nmspropositionrcp_full) | Moteur d’offres (Interaction) | Ce workflow met à jour l’agrégat intégral du cube Proposition d’offre.Par défaut, il se déclenche tous les jours à 6 h 00.Cet agrégat capture les dimensions suivantes : canal, diffusion, offre marketing et date.Le cube Proposition d’offre est ensuite utilisé pour générer des rapports basés sur des offres. Vous pouvez en savoir plus sur les cubes dans [cette section](../../reporting/using/ac-cubes.md). |
+| **Calcul de l&#39;agrégat full (cube propositionrcp)** (agg_nmspropositionrcp_full) | Moteur d’offres (Interaction) | Ce workflow met à jour l’agrégat intégral du cube Proposition d’offre. Par défaut, il se déclenche tous les jours à 6 h 00. Cet agrégat capture les dimensions suivantes : canal, diffusion, offre marketing et date. Le cube Proposition d’offre est ensuite utilisé pour générer des rapports basés sur des offres. Vous pouvez en savoir plus sur les cubes dans [cette section](../../reporting/using/ac-cubes.md). |
 | **Identification des contacts convertis** (webAnalyticsFindConverted) | Connecteurs Web Analytics | Ce workflow répertorie les visiteurs du site ayant concrétisé leur achat après une campagne de remarketing. Les données récupérées par ce workflow sont accessibles dans le rapport Efficacité du remarketing (consultez cette page). |
 | **Import d’audiences depuis Adobe Experience Cloud** (importSharedAudience) | Intégration avec Adobe Experience Cloud | Ce workflow permet d’importer dans Adobe Campaign des audiences/segments provenant de différentes solutions d’Adobe Experience Cloud. |
 | **Traitements sur les diffusions dans les opérations** (deliveryMgt) | Campagnes marketing (Campaign) | Ce workflow déclenche les diffusions validées et lance les post-traitements du prestataire pour une diffusion externe. Il envoie également des notifications de validation et des rappels. |
@@ -74,11 +81,11 @@ Pour plus d&#39;informations sur la façon d&#39;utiliser les workflows techniqu
 | **Notifications de ressource marketing** (assetMgt) | Ressources marketing (MRM) | Ce workflow gère les notifications associées à la validation et à la publication des ressources marketing. |
 | **Message Center &lt;nom_compte_externe>** (mcSynch_&lt;nom_compte_externe>) | Contrôle des messages transactionnels (Message Center - Pilotage) | Ce workflow : <ul><li>récupère la liste des événements traités par la ou les opérations,</li><li>se synchronise avec la table NmsBroadLogMsg afin de récupérer les qualifications des messages de diffusion,</li><li>récupère les logs de diffusion d&#39;événements dès que la synchronisation avec la table NmsBroadLogMsg est terminée,</li><li>se synchronise avec la table NmsTrackingUrl afin de récupérer le tracking des URL de diffusion,</li><li>récupère les URL de tracking des événements dès que la synchronisation avec la table NmsTrackingUrl est terminée,</li><li>permet de récupérer toutes les adresses email mises en quarantaine toutes les trois heures après l&#39;envoi d&#39;une diffusion.</li></ul> |
 | **Calcul de l&#39;agrégat intégral de MessageCenter** (agg_messageCenter_full) | Contrôle des messages transactionnels (Message Center - Pilotage) | Ce workflow met à jour l’agrégat intégral du cube Message Center. Il est déclenché tous les jours à 3h du matin par défaut. Cet agrégat capture les dimensions suivantes : Canal, Date, Statut et Type d&#39;événement. Le cube Message Center est ensuite utilisé pour générer des rapports basés sur des événements. Vous pouvez en savoir plus sur les cubes dans [cette section](../../reporting/using/ac-cubes.md) |
-| **Mid-sourcing (compteurs des diffusions)** (defaultMidSourcingDlv) | Emission vers Mid-sourcing | Ce workflow collecte les informations de comptage pour les diffusions sur le serveur de midsourcing.Les informations de comptage incluent des indicateurs généraux de diffusion, tels que le nombre de diffusions envoyées, etc. Les informations de suivi telles que les ouvertures ne sont pas incluses.Par défaut, il se déclenche toutes les dix minutes. |
+| **Mid-sourcing (compteurs des diffusions)** (defaultMidSourcingDlv) | Emission vers Mid-sourcing | Ce workflow collecte les informations de comptage pour les diffusions sur le serveur de midsourcing. Les informations de comptage incluent des indicateurs généraux de diffusion, tels que le nombre de diffusions envoyées, etc. Les informations de suivi telles que les ouvertures ne sont pas incluses. Par défaut, il se déclenche toutes les dix minutes. |
 | **Mid-sourcing (logs de diffusion)** (defaultMidSourcingLog) | Emission vers Mid-sourcing | Ce workflow collecte les logs des diffusions sur le serveur de mid-sourcing. Par défaut, il se déclenche toutes les heures. |
-| **Gestion des opt-out NMAC** (mobileAppOptOutMgt) | Canal des applications mobiles | Ce workflow met à jour les désabonnements aux notifications sur les appareils mobiles.Il est déclenché toutes les 6 heures entre 1 h 00 et minuit.Pour plus d&#39;informations, voir à ce sujet [cette section](../../delivery/using/delivery-failures-quarantine.md#push-notification-quarantines). |
+| **Gestion des opt-out NMAC** (mobileAppOptOutMgt) | Canal des applications mobiles | Ce workflow met à jour les désabonnements aux notifications sur les appareils mobiles. Il est déclenché toutes les 6 heures entre 1 h 00 et minuit. Pour plus d&#39;informations, voir à ce sujet [cette section](../../delivery/using/delivery-failures-quarantine.md#push-notification-quarantines). |
 | **Notification d&#39;offre** (offerMgt) | Diffusion | Toutes les heures, ce workflow déploie les offres validées sur l&#39;environnement en ligne, ainsi que toutes les catégories contenues dans le catalogue d&#39;offres. |
-| **Nettoyage des workflows en pause** (cleanupPausedWorkflows) | Diffusion | Ce workflow analyse les workflows en pause dont le niveau de priorité est défini sur normal et déclenche des avertissements et des notifications lorsqu’ils sont en pause depuis trop longtemps.Au bout d’un mois, les workflows techniques en pause sont arrêtés de manière inconditionnelle.Par défaut, il se déclenche chaque lundi à 5 h 00.Pour plus d’informations, voir [Gérer les workflows en pause](monitoring-workflow-execution.md#handling-of-paused-workflows). |
+| **Nettoyage des workflows en pause** (cleanupPausedWorkflows) | Diffusion | Ce workflow analyse les workflows en pause dont le niveau de priorité est défini sur normal et déclenche des avertissements et des notifications lorsqu’ils sont en pause depuis trop longtemps. Au bout d’un mois, les workflows techniques en pause sont arrêtés de manière inconditionnelle. Par défaut, il se déclenche chaque lundi à 5 h 00. Pour plus d’informations, voir [Gérer les workflows en pause](monitoring-workflow-execution.md#handling-of-paused-workflows). |
 | **Nettoyage des demandes d&#39;accès à des informations personnelles** (cleanupPrivacyRequests) | Règlement sur la protection des informations personnelles | Ce workflow supprime les fichiers de demande d’accès qui ont plus de 90 jours. |
 | **Traitement des événements batch** (batchEventsProcessing) | Exécution des messages transactionnels (Message Center - Exécution) | Ce workflow permet de répartir les événements batch dans une file d&#39;attente avant qu&#39;ils ne soient associés à un modèle de message. |
 | **Traitement des événements temps réel** (rtEventsProcessing) | Exécution des messages transactionnels (Message Center - Exécution) | Ce workflow permet de répartir les événements temps réel dans une file d&#39;attente avant qu&#39;ils ne soient associés à un modèle de message. |
@@ -91,6 +98,6 @@ Pour plus d&#39;informations sur la façon d&#39;utiliser les workflows techniqu
 | **Synchronisation des pages Facebook** (syncFacebook) | Réseaux sociaux (marketing social) - Campaign v7 uniquement | Ce workflow synchronise les pages Facebook avec Adobe Campaign tous les jours à 7H00. |
 | **Synchronisation des pages Twitter** (syncTwitter) | Réseaux sociaux (marketing social) - Campaign v7 uniquement | Ce workflow importe les personnes abonnées X dans Adobe Campaign tous les jours à 7h00. |
 | **Notification des tâches** (taskMgt) | Ressources marketing (MRM) - Campaign v7 uniquement | Ce workflow permet d’envoyer les messages de notification relatifs aux tâches dans les opérations marketing. |
-| **Suivi** (suivi) | Diffusion | Ce workflow effectue la récupération et la consolidation des informations de tracking.Il assure également le recalcul des statistiques de tracking et de diffusion, notamment celles utilisées par les workflows d’archivage de Message Center.Par défaut, il se déclenche toutes les heures. |
-| **Mise à jour du statut des événements** (updateEventsStatus) | Exécution des messages transactionnels (Message Center - Exécution) | Ce workflow vous permet d&#39;attribuer un statut à un événement. Les statuts d’événement sont les suivants :<ul><li>En attente : l’événement se trouve dans une file d’attente.Aucun modèle de message ne lui a encore été associé.</li><li>En attente de diffusion : l&#39;événement est dans la file d&#39;attente, un modèle de message lui a été associé et il est en cours de traitement par la diffusion.</li><li>Envoyé : ce statut est copié depuis les logs de diffusion.Il signifie que la diffusion a été envoyée.</li><li>Ignoré par la diffusion : ce statut est copié depuis les logs de diffusion.Cela signifie que la diffusion a été ignorée.</li><li>Erreur de diffusion : ce statut est copié depuis les logs de diffusion.Il signifie que la diffusion a échoué.</li><li>Événement non pris en charge : l’association de l’événement à un modèle de message a échoué.L’événement ne sera pas traité à nouveau.</li></ul> |
+| **Suivi** (suivi) | Diffusion | Ce workflow effectue la récupération et la consolidation des informations de tracking. Il assure également le recalcul des statistiques de tracking et de diffusion, notamment celles utilisées par les workflows d’archivage de Message Center. Par défaut, il se déclenche toutes les heures. |
+| **Mise à jour du statut des événements** (updateEventsStatus) | Exécution des messages transactionnels (Message Center - Exécution) | Ce workflow vous permet d&#39;attribuer un statut à un événement. Les statuts d’événement sont les suivants :<ul><li>En attente : l’événement se trouve dans une file d’attente. Aucun modèle de message ne lui a encore été associé.</li><li>En attente de diffusion : l&#39;événement est dans la file d&#39;attente, un modèle de message lui a été associé et il est en cours de traitement par la diffusion.</li><li>Envoyé : ce statut est copié depuis les logs de diffusion. Il signifie que la diffusion a été envoyée.</li><li>Ignoré par la diffusion : ce statut est copié depuis les logs de diffusion. Cela signifie que la diffusion a été ignorée.</li><li>Erreur de diffusion : ce statut est copié depuis les logs de diffusion. Il signifie que la diffusion a échoué.</li><li>Événement non pris en charge : l’association de l’événement à un modèle de message a échoué. L’événement ne sera pas traité à nouveau.</li></ul> |
 | **Actualiser pour la délivrabilité** (deliverabilityUpdate) | Diffusion | Ce workflow s’exécute de nuit et gère les règles de qualification des e-mails de rebond, ainsi que la liste des domaines et des MX. Pour ce faire, le port HTTPS doit être ouvert sur la plateforme. |

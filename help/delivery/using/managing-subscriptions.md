@@ -2,32 +2,39 @@
 product: campaign
 title: Gérer les abonnements
 description: Découvrez comment gérer les abonnements dans Adobe Campaign
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Subscriptions
 role: User
 exl-id: 16dddd4a-2e1a-4c78-8168-f656657bb9b8
 TQID: https://experienceleague.adobe.com/BrXFZAa9EiCWFYN6DabgLk9pjw3rS5TXCgzV63e5xmE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1179
+workflow-type: tm+mt
+source-wordcount: '1170'
 ht-degree: 100%
-
 ---
-
 # Gestion des abonnements{#managing-subscriptions}
 
 ## À propos des services d&#39;informations {#about-information-services}
@@ -75,7 +82,7 @@ Pour éditer un service existant, cliquez sur son nom. Pour créer un service, c
 * Vous pouvez envoyer des **messages de confirmation** pour une inscription ou une désinscription. Pour ce faire, choisissez les modèles de diffusion à utiliser pour créer les diffusions correspondantes dans les champs **[!UICONTROL Inscription]** et **[!UICONTROL Désinscription]**. Ces modèles doivent être configurés avec un mapping de ciblage de type **[!UICONTROL Inscription]**, sans aucune cible définie. Pour plus d&#39;informations, consultez la section [À propos du canal Email](about-email-channel.md).
 * Par défaut, les abonnements sont illimités. Vous pouvez décocher l&#39;option **[!UICONTROL Illimité]** pour définir la durée de validité du service. La durée peut alors être spécifiée en jours (**[!UICONTROL j]**) ou en mois (**[!UICONTROL m]** ).
 
-Une fois le service enregistré, il est ajouté dans la liste Services et abonnements : cliquez sur son nom pour le modifier.Plusieurs onglets sont disponibles.L&#39;onglet **[!UICONTROL Abonnements]** permet de consulter la liste des personnes abonnées au service d&#39;information (onglet **[!UICONTROL Abonnements actifs]**) ou l’historique des inscriptions/désinscriptions (onglet **[!UICONTROL Historique]**). Vous pouvez également ajouter et supprimer des abonnés à partir de cet onglet. Voir [Ajouter et supprimer des abonnés](#adding-and-deleting-subscribers).
+Une fois le service enregistré, il est ajouté dans la liste Services et abonnements : cliquez sur son nom pour le modifier. Plusieurs onglets sont disponibles. L&#39;onglet **[!UICONTROL Abonnements]** permet de consulter la liste des personnes abonnées au service d&#39;information (onglet **[!UICONTROL Abonnements actifs]**) ou l’historique des inscriptions/désinscriptions (onglet **[!UICONTROL Historique]**). Vous pouvez également ajouter et supprimer des abonnés à partir de cet onglet. Voir [Ajouter et supprimer des abonnés](#adding-and-deleting-subscribers).
 
 ![](assets/s_ncs_user_services_subscriptions.png)
 
@@ -138,7 +145,7 @@ Pour inscrire des destinataires à un service d&#39;information, vous pouvez :
 
 * Ajouter manuellement ce service : pour cela, depuis l&#39;onglet **[!UICONTROL Abonnements]** de leur profil, cliquez sur le bouton **[!UICONTROL Ajouter]** et sélectionnez le service d&#39;information visé.
 
-* Abonnez automatiquement un ensemble de personnes destinataires à ce service.La liste des personnes destinataires peut provenir d’une opération de filtrage, d’un groupe, d’un dossier, d’un import ou d’une sélection manuelle directe à l’aide de la souris.Pour abonner ces destinataires, sélectionnez les profils et cliquez avec le bouton droit de la souris. Sélectionnez **[!UICONTROL Actions > Abonner la sélection à un service]**, puis sélectionnez le service concerné et lancez l&#39;opération.
+* Abonnez automatiquement un ensemble de personnes destinataires à ce service. La liste des personnes destinataires peut provenir d’une opération de filtrage, d’un groupe, d’un dossier, d’un import ou d’une sélection manuelle directe à l’aide de la souris. Pour abonner ces destinataires, sélectionnez les profils et cliquez avec le bouton droit de la souris. Sélectionnez **[!UICONTROL Actions > Abonner la sélection à un service]**, puis sélectionnez le service concerné et lancez l&#39;opération.
 * Importez des destinataires et abonnez-les automatiquement à un service d’information. Pour cela, sélectionnez le service concerné dans la dernière étape de l’assistant d’import.
 
   Pour plus d’informations, consultez [cette section](../../platform/using/executing-import-jobs.md).
@@ -157,7 +164,7 @@ Pour inscrire des destinataires à un service d&#39;information, vous pouvez :
 
 #### Désinscription manuelle {#manual-unsubscribing}
 
-Les diffusions par e-mail doivent contenir un lien de désinscription, conformément à la loi.Les personnes destinataires peuvent cliquer sur ce lien pour mettre à jour leur profil et ainsi être exclues des cibles des prochaines diffusions.
+Les diffusions par e-mail doivent contenir un lien de désinscription, conformément à la loi. Les personnes destinataires peuvent cliquer sur ce lien pour mettre à jour leur profil et ainsi être exclues des cibles des prochaines diffusions.
 
 Le lien de désinscription par défaut est inséré via le dernier bouton de la barre d’outils de l’éditeur de contenu fourni dans l’assistant de diffusion (voir [À propos de la personnalisation](about-personalization.md)). Lorsque le destinataire clique sur ce lien, le profil est ajouté à la liste bloquée (opt-out), ce qui signifie que ce destinataire ne sera plus ciblé par aucune action de diffusion.
 
@@ -169,7 +176,7 @@ Vous pouvez enfin désinscrire un ou plusieurs destinataires depuis le service d
 
 #### Désabonnement automatique {#automatic-unsubscription}
 
-Un service d’information peut avoir une durée limitée.Les personnes destinataires seront automatiquement désabonnées à l’expiration de la période de validité.Cette période est spécifiée dans l&#39;onglet **[!UICONTROL Edition]** des propriétés du service. Elle est exprimée en jours.
+Un service d’information peut avoir une durée limitée. Les personnes destinataires seront automatiquement désabonnées à l’expiration de la période de validité. Cette période est spécifiée dans l&#39;onglet **[!UICONTROL Edition]** des propriétés du service. Elle est exprimée en jours.
 
 ![](assets/s_ncs_user_services_delay.png)
 

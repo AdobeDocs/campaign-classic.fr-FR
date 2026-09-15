@@ -8,29 +8,35 @@ exl-id: 8025d207-3bc0-400f-b6a4-a72765e5a9d2
 TQID: https://experienceleague.adobe.com/Y8ggbKYhnIg8ncfMNoCG7-9J-GxhVrNQmK-PPFqRk04
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 609
+workflow-type: tm+mt
+source-wordcount: '673'
 ht-degree: 100%
-
 ---
-
 # Envoi de fichier{#file-transfer}
 
 
 
-L’activité **Transfert de fichier** vous permet de recevoir ou d’envoyer des fichiers, de tester la présence de fichiers ou de lister les fichiers sur un serveur. Le protocole utilisé est le suivant : stockage Blob Azure, Amazon Simple Storage Service (S3), FTP ou SFTP.
-Avec S3, le stockage Blob Azure ou la connexion SFTP, vous pouvez également importer des données de segment dans Adobe Campaign avec Adobe Real-Time Customer Data Platform. Pour en savoir plus à ce sujet, consultez cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=fr).
+L&#39;activité **Transfert de fichier** permet de recevoir ou d&#39;envoyer des fichiers, de tester la présence de fichiers ou de répertorier les fichiers sur un serveur. Le protocole utilisé est le suivant : stockage Blob Azure, S3 (Amazon Simple Storage Service), FTP ou SFTP.
+Avec la connexion SFTP, S3, ou stockage Blob Azure, vous pouvez également importer des données de segments vers Adobe Campaign avec la plateforme de données clientes en temps réel d&#39;Adobe. Voir à ce propos cette [documentation](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=fr).
 
 >[!NOTE]
 >
@@ -46,7 +52,7 @@ Le paramétrage dépend de l&#39;action sélectionnée.
 
 1. **Réception de fichier**
 
-   Pour recevoir des fichiers stockés sur un serveur distant, sélectionnez l’option **[!UICONTROL Téléchargement de fichier]** dans le champ **[!UICONTROL Action]**.Vous devez indiquer son URL dans le champ correspondant.
+   Pour recevoir des fichiers stockés sur un serveur distant, sélectionnez l’option **[!UICONTROL Téléchargement de fichier]** dans le champ **[!UICONTROL Action]**. Vous devez indiquer son URL dans le champ correspondant.
 
    ![](assets/file_transfert_edit.png)
 
@@ -66,19 +72,19 @@ Le paramétrage dépend de l&#39;action sélectionnée.
 
    ![](assets/file_transfert_source.png)
 
-   Utilisez les flèches pour modifier l’ordre des onglets.Il correspond à l’ordre d’envoi des fichiers au serveur.
+   Utilisez les flèches pour modifier l’ordre des onglets. Il correspond à l’ordre d’envoi des fichiers au serveur.
 
-   L’option **[!UICONTROL Garder un historique des fichiers envoyés]** vous permet de conserver une trace des fichiers envoyés.Cet historique est accessible à partir du répertoire.
+   L’option **[!UICONTROL Garder un historique des fichiers envoyés]** vous permet de conserver une trace des fichiers envoyés. Cet historique est accessible à partir du répertoire.
 
 1. **Test d&#39;existence de fichier**
 
-   Pour tester l’existence d’un fichier, sélectionnez l’option **[!UICONTROL Test d’existence de fichier]** dans le champ **[!UICONTROL Action]**.La configuration du serveur distant est la même que pour le téléchargement de fichiers.Pour plus d’informations, consultez cette [section](#properties).
+   Pour tester l’existence d’un fichier, sélectionnez l’option **[!UICONTROL Test d’existence de fichier]** dans le champ **[!UICONTROL Action]**. La configuration du serveur distant est la même que pour le téléchargement de fichiers. Pour plus d’informations, consultez cette [section](#properties).
 
    ![](assets/file_transfert_edit_test.png)
 
 1. **Listage des fichiers**
 
-   Pour lister les fichiers, sélectionnez l’option **[!UICONTROL Listage de fichiers]** dans le champ **[!UICONTROL Action]**.La configuration du serveur distant est la même que pour la réception de fichiers.Pour plus d&#39;informations, consultez cette [section](#properties).
+   Pour lister les fichiers, sélectionnez l’option **[!UICONTROL Listage de fichiers]** dans le champ **[!UICONTROL Action]**. La configuration du serveur distant est la même que pour la réception de fichiers. Pour plus d&#39;informations, consultez cette [section](#properties).
 
    L’option **[!UICONTROL Lister tous les fichiers]**, disponible lors de la sélection de l’action **[!UICONTROL Listage de fichiers]** permet de répertorier tous les fichiers présents sur le serveur dans la variable d’événement **vars.filenames**. Les noms des fichiers y sont séparés par les caractères `\n`.
 

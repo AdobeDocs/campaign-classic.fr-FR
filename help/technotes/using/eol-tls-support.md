@@ -11,20 +11,23 @@ exl-id: e18d43b6-2a77-4881-85e7-ca36248d4634
 TQID: https://experienceleague.adobe.com/QqPQkow0oa3RgI2k7xNouJgX6OwNuObuFuk2zWxy8Lc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 feature_v2: []
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 880
+workflow-type: tm+mt
+source-wordcount: '880'
 ht-degree: 100%
-
 ---
-
 # Fin de vie de la prise en charge du protocole TLS 1.0 et 1.1{#eol-tls-support}
 
 
@@ -39,7 +42,7 @@ Adobe a mis fin à la prise en charge des versions antérieures de TLS (notammen
 
 ## Que puis-je faire pour reprendre le service ?
 
-Les navigateurs web modernes prennent en charge TLS 1.2.La mise à niveau de votre navigateur peut vous permettre d’accéder à ces applications et services.
+Les navigateurs web modernes prennent en charge TLS 1.2. La mise à niveau de votre navigateur peut vous permettre d’accéder à ces applications et services.
 
 Vous pouvez télécharger et installer l’un des navigateurs populaires suivants :
 
@@ -50,7 +53,7 @@ Vous pouvez télécharger et installer l’un des navigateurs populaires suivant
 
 Si vous utilisez un autre navigateur, assurez-vous qu’il prend en charge TLS 1.2.
 
-Votre système d’exploitation et les structures d’application doivent également prendre en charge TLS 1.2.Si la mise à niveau de votre navigateur ne résout pas votre problème, assurez-vous que votre ordinateur répond à la configuration requise répertoriée dans la section [Matrice de compatibilité Campaign](../../rn/using/compatibility-matrix.md).
+Votre système d’exploitation et les structures d’application doivent également prendre en charge TLS 1.2. Si la mise à niveau de votre navigateur ne résout pas votre problème, assurez-vous que votre ordinateur répond à la configuration requise répertoriée dans la section [Matrice de compatibilité Campaign](../../rn/using/compatibility-matrix.md).
 
 ## Forum aux questions{#faq}
 
@@ -76,7 +79,7 @@ Votre système d’exploitation et les structures d’application doivent égale
 
 * **TLS est-il vulnérable aux hackers ?**
 
-  Il y a eu des attaques documentées contre TLS 1.0 à l’aide d’une ancienne méthode de chiffrement et les versions plus anciennes sont plus vulnérables que TLS 1.2.Pour plus d’informations, consultez Attaques contre TLS/SSL.
+  Il y a eu des attaques documentées contre TLS 1.0 à l’aide d’une ancienne méthode de chiffrement et les versions plus anciennes sont plus vulnérables que TLS 1.2. Pour plus d’informations, consultez Attaques contre TLS/SSL.
 
 * **Pourquoi Adobe désactive-t-il la prise en charge de TLS 1.0 et 1.1 ?**
 
@@ -96,7 +99,7 @@ Votre système d’exploitation et les structures d’application doivent égale
 
 * **Quel message d’erreur s’affiche si j’utilise un navigateur qui n’est pas configuré pour TLS 1.2 ?**
 
-  Cela dépend du navigateur que vous utilisez. Tous les navigateurs mentionnés dans [Matrice de compatibilité Campaign](../../rn/using/compatibility-matrix.md) sont configurés pour utiliser TLS 1.2.Si vous utilisez un navigateur ou une version qui ne figure pas dans la liste, mettez votre navigateur à jour.
+  Cela dépend du navigateur que vous utilisez. Tous les navigateurs mentionnés dans [Matrice de compatibilité Campaign](../../rn/using/compatibility-matrix.md) sont configurés pour utiliser TLS 1.2. Si vous utilisez un navigateur ou une version qui ne figure pas dans la liste, mettez votre navigateur à jour.
 
   Adobe ne contrôle pas les messages d’erreur générés par la couche de communications SSL. Le navigateur génère ces messages avant de se connecter aux applications et services Adobe. Voici un exemple d’erreur qui peut se produire avec Internet Explorer 11 sous Windows 7 :
 
@@ -104,6 +107,6 @@ Votre système d’exploitation et les structures d’application doivent égale
 
   TLS 1.2 est activé par défaut sur Internet Explorer 11, mais s’il est désactivé, vous pouvez l’activer. Dans ce cas, activez TLS 1.2 à partir de la boîte de dialogue des paramètres avancés plutôt que d’utiliser d’autres options. D’autres erreurs, telles que les suivantes, peuvent également se produire :
 
-   * Impossible de se connecter au service
-   * Service non disponible
-   * Erreur lors de la connexion
+  * Impossible de se connecter au service
+  * Service non disponible
+  * Erreur lors de la connexion

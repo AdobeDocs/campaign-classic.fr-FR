@@ -9,25 +9,31 @@ exl-id: a9cd08b0-55c2-4405-9fb8-f0c623cd4ccb
 TQID: https://experienceleague.adobe.com/r3qtW9ZsCD85N9qAnN1EOje-VMhDoyPuqea2xZnBWLs
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 2269
+workflow-type: tm+mt
+source-wordcount: '2269'
 ht-degree: 100%
-
 ---
-
 # FAQ sur la migration vers le cloud public{#dc-faq}
 
 
@@ -125,8 +131,8 @@ Les incidences globales sur les adresses IP, la liste bloquée, les sous-domaine
 * **Quelle pourrait être l’incidence sur le sous-domaine délégué que nous utilisons pour mettre en avant notre marque dans nos communications ?**
 
   Le ou les sous-domaines utilisés pour la communication marketing restent les mêmes. Cependant, en fonction de l’implémentation, des actions peuvent être nécessaires côté client :
-   * Dans le cas d’une délégation de sous-domaines à Adobe (par défaut), Adobe prend en charge toutes les modifications afin d’assurer une transition fluide.
-   * Dans le cas d’une configuration CNAME (exception), le client est invité à implémenter les modifications, en coordination avec Adobe.
+  * Dans le cas d’une délégation de sous-domaines à Adobe (par défaut), Adobe prend en charge toutes les modifications afin d’assurer une transition fluide.
+  * Dans le cas d’une configuration CNAME (exception), le client est invité à implémenter les modifications, en coordination avec Adobe.
 
 ## Incidences sur la configuration et la connectivité
 
@@ -250,13 +256,13 @@ Les incidences globales au cours de la migration sont répertoriées ci-dessous.
 
   Le transfert de données entre centres de données entraîne les temps d’arrêt les plus importants. Les données sont stockées de deux manières :
 
-   * La base de données, le dispositif de stockage de loin le plus important
-   * Les fichiers sur le serveur d’applications (importation et exportation des données)
+  * La base de données, le dispositif de stockage de loin le plus important
+  * Les fichiers sur le serveur d’applications (importation et exportation des données)
 
   La réduction de la taille de la base de données revêt une importance primordiale pour accélérer le transfert des données. Suggestions :
 
-   * Réduire les périodes de rétention des données historiques (logs de diffusion, logs de tracking, etc.)
-   * Supprimer les enregistrements inutiles sur d’autres tables (diffusions, destinataires, tables personnalisées)
+  * Réduire les périodes de rétention des données historiques (logs de diffusion, logs de tracking, etc.)
+  * Supprimer les enregistrements inutiles sur d’autres tables (diffusions, destinataires, tables personnalisées)
 
 * **À combien est estimé le temps d’arrêt pour la migration d’une instance ?**
 
@@ -274,11 +280,11 @@ Les incidences globales au cours de la migration sont répertoriées ci-dessous.
 
   La migration des environnements est effectuée dans l’ordre suivant :
 
-   1. Environnements de développement
-   1. Environnements d’évaluation
-   1. Environnements de production
-   1. Environnements RT
-   1. Environnements de mid-sourcing
+  1. Environnements de développement
+  1. Environnements d’évaluation
+  1. Environnements de production
+  1. Environnements RT
+  1. Environnements de mid-sourcing
 
 * **Quel est le plan de restauration ?**
 

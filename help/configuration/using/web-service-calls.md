@@ -8,27 +8,31 @@ exl-id: ce94e7e7-b8f8-4c82-937f-e87d15e50c34
 TQID: https://experienceleague.adobe.com/-VSnXHtg3Zi3VGHVAF72uRpJa3gulT3h40BIsdnGjqo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: ht
-source-wordcount: 923
+workflow-type: tm+mt
+source-wordcount: '923'
 ht-degree: 100%
-
 ---
-
 # Appels Web Service{#web-service-calls}
 
 ## Informations générales {#general-information}
 
-Toutes les méthodes d’API sont présentées sous la forme de services web.Ainsi, il est possible de piloter l’intégralité des fonctionnalités d’Adobe Campaign au travers d’appels SOAP qui sont le point d’entrée natif du serveur d’application Adobe Campaign.La console Adobe Campaign elle-même utilise uniquement les appels SOAP.
+Toutes les méthodes d’API sont présentées sous la forme de services web. Ainsi, il est possible de piloter l’intégralité des fonctionnalités d’Adobe Campaign au travers d’appels SOAP qui sont le point d’entrée natif du serveur d’application Adobe Campaign. La console Adobe Campaign elle-même utilise uniquement les appels SOAP.
 
 Les services Web permettent de créer, depuis un système tiers, de multiples applications :
 
@@ -57,7 +61,7 @@ Un service Web est décrit dans la grammaire des schémas de données et est dis
 
 Nous avons ici un exemple de définition de la méthode de nom **GenerateForm**.
 
-La description du service commence par l&#39;élément `<method>`. La liste des paramètres de la méthode est complétée à partir de l&#39;élément `<parameters>`. Chaque paramètre est spécifié par un nom, un type (booléen, chaîne, DOMElement, etc.)et une description.L&#39;attribut &quot;inout&quot; avec la valeur &quot;out&quot; permet de spécifier que le paramètre &quot;result&quot; est obtenu en sortie de l&#39;appel SOAP.
+La description du service commence par l&#39;élément `<method>`. La liste des paramètres de la méthode est complétée à partir de l&#39;élément `<parameters>`. Chaque paramètre est spécifié par un nom, un type (booléen, chaîne, DOMElement, etc.) et une description. L&#39;attribut &quot;inout&quot; avec la valeur &quot;out&quot; permet de spécifier que le paramètre &quot;result&quot; est obtenu en sortie de l&#39;appel SOAP.
 
 La présence de l&#39;attribut &quot;static&quot; (avec la valeur &quot;true&quot;) décrit cette méthode comme statique, ce qui signifie que tous les paramètres de la méthode doivent être déclarés.
 
@@ -80,7 +84,7 @@ Le paramètre d’entrée de cette méthode est un document XML au format du sch
 
 ## Description des services Web : WSDL {#web-service-description--wsdl}
 
-Un fichier WSDL (Web Service Description Library) est disponible pour chaque service.Ce fichier XML décrit le service dans un méta-langage, il précise les méthodes disponibles, les paramètres et le serveur à contacter pour exécuter le service.
+Un fichier WSDL (Web Service Description Library) est disponible pour chaque service. Ce fichier XML décrit le service dans un méta-langage, il précise les méthodes disponibles, les paramètres et le serveur à contacter pour exécuter le service.
 
 ### Génération du fichier WSDL {#wsdl-file-generation}
 
@@ -201,11 +205,11 @@ Adobe Campaign a renforcé la sécurité des mécanismes d&#39;authentification
 
 Deux modes d&#39;authentification sont disponibles :
 
-* **via un appel à la connexion method()**.Ce mode génère un jeton de session et un jeton de sécurité.Il s’agit du mode le plus sécurisé et donc le plus recommandé.
+* **via un appel à la connexion method()**. Ce mode génère un jeton de session et un jeton de sécurité. Il s’agit du mode le plus sécurisé et donc le plus recommandé.
 
 ou
 
-* **via un identifiant et mot de passe Adobe Campaign** qui crée un jeton de session.Le jeton de session expire automatiquement après une période définie.Ce mode n’est pas recommandé et nécessite de réduire les paramètres de sécurité de l’application pour certains paramètres de zone (allowUserPassword=&quot;true&quot; et sessionTokenOnly=&quot;true&quot;).
+* **via un identifiant et mot de passe Adobe Campaign** qui crée un jeton de session. Le jeton de session expire automatiquement après une période définie. Ce mode n’est pas recommandé et nécessite de réduire les paramètres de sécurité de l’application pour certains paramètres de zone (allowUserPassword=&quot;true&quot; et sessionTokenOnly=&quot;true&quot;).
 
 ### Caractéristiques du jeton de session {#session-token-characteristics}
 
@@ -215,8 +219,8 @@ Le jeton de session possède les caractéristiques suivantes :
 * une construction aléatoire (il ne contient plus le login et le mot de passe de l&#39;utilisateur)
 * lors d&#39;un accès Web :
 
-   * le jeton de session devient un jeton permanent, il n&#39;est pas détruit lorsque le navigateur est fermé
-   * il est placé dans un cookie HTTP-ONLY (activation des cookies obligatoire pour les opérateurs)
+  * le jeton de session devient un jeton permanent, il n&#39;est pas détruit lorsque le navigateur est fermé
+  * il est placé dans un cookie HTTP-ONLY (activation des cookies obligatoire pour les opérateurs)
 
 ### Caractéristiques du jeton de sécurité {#security-token-characteristics}
 
@@ -227,9 +231,9 @@ Le jeton de sécurité possède les caractéristiques suivantes :
 * il est stocké dans la console Adobe Campaign
 * lors d&#39;un accès Web :
 
-   * il est stocké dans une propriété document.__securityToken.
-   * les URL de la page sont mises à jour pour actualiser le jeton de sécurité
-   * les formulaires sont également mises à jour via un champ caché contenant le jeton
+  * il est stocké dans une propriété document.__securityToken.
+  * les URL de la page sont mises à jour pour actualiser le jeton de sécurité
+  * les formulaires sont également mises à jour via un champ caché contenant le jeton
 
 #### Circulation du jeton de sécurité {#security-token-movement}
 

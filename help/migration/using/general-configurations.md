@@ -9,12 +9,10 @@ topic-tags: configuration
 hide: true
 exl-id: 7aad0e49-8d9c-40c7-9d6a-42fee0ae5870
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: ht
-source-wordcount: '2600'
-ht-degree: 100%
-
+workflow-type: tm+mt
+source-wordcount: '2602'
+ht-degree: 97%
 ---
-
 # Paramétrages généraux{#general-configurations}
 
 Cette section décrit les paramétrages à effectuer dans Adobe Campaign v7 lors de la migration depuis une v5.11 ou une v6.02.
@@ -28,13 +26,13 @@ En complément :
 
 ### Mode multi timezone {#multi-time-zone-mode}
 
-Dans la version 6.02, le mode « à plusieurs fuseaux horaires » n’était disponible que pour les moteurs de base de données PostgreSQL.Il est désormais proposé quel que soit le type de moteur de base de données utilisé.Nous vous recommandons vivement de transformer votre base en une base « à plusieurs fuseaux horaires ».
+Dans la version 6.02, le mode « à plusieurs fuseaux horaires » n’était disponible que pour les moteurs de base de données PostgreSQL. Il est désormais proposé quel que soit le type de moteur de base de données utilisé. Nous vous recommandons vivement de transformer votre base en une base « à plusieurs fuseaux horaires ».
 
-Pour utiliser le mode TIMESTAMP WITH TIMEZONE, vous devez également ajouter l’option **-userTimestamptz:1** à la ligne de commande de postupgrade.
+Pour utiliser le mode TIMESTAMP WITH TIMEZONE, vous devez également ajouter l&#39;option **-userTimestamptz:1** à la ligne de commande postupgrade.
 
 >[!IMPORTANT]
 >
->Si le paramètre **-usetimestamptz:1** est utilisé avec un moteur de base de données incompatible, votre base de données sera corrompue et vous devrez restaurer une sauvegarde de votre base de données et réexécuter la commande ci-dessus.
+>Si le paramètre **-usetimestamptz:1** est utilisé avec un moteur de base de données incompatible, votre base de données sera corrompue et vous devrez restaurer une sauvegarde de votre base de données et exécuter à nouveau la commande ci-dessus.
 
 >[!NOTE]
 >
@@ -44,7 +42,7 @@ Pour utiliser le mode TIMESTAMP WITH TIMEZONE, vous devez également ajouter l�
 
 ### Oracle {#oracle}
 
-Si vous obtenez l’erreur **ORA 01805** lors du postupgrade, cela signifie qu’il existe une désynchronisation des fichiers de fuseaux horaires Oracle entre le serveur d’applications et le serveur de base de données.Pour les resynchroniser, effectuez les étapes suivantes :
+Si vous obtenez l’erreur **ORA 01805** lors du postupgrade, cela signifie qu’il existe une désynchronisation des fichiers de fuseaux horaires Oracle entre le serveur d’applications et le serveur de base de données. Pour les resynchroniser, effectuez les étapes suivantes :
 
 1. Pour identifier le fichier de fuseau horaire utilisé, exécutez la commande suivante :
 
@@ -58,7 +56,7 @@ Si vous obtenez l’erreur **ORA 01805** lors du postupgrade, cela signifie qu�
 
 Pour plus d&#39;informations, consultez le site : [https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004](https://docs.oracle.com/cd/E11882_01/server.112/e10729/ch4datetime.htm#NLSPG004)
 
-Une différence de fuseau horaire entre le client et le serveur peut également entraîner des retards.C’est pourquoi nous recommandons d’utiliser la même version de la bibliothèque Oracle du côté client et du côté serveur. Les deux fuseaux horaires doivent être identiques.
+Une différence de fuseau horaire entre le client et le serveur peut également entraîner des retards. C’est pourquoi nous recommandons d’utiliser la même version de la bibliothèque Oracle du côté client et du côté serveur. Les deux fuseaux horaires doivent être identiques.
 
 Pour vérifier si les deux côtés sont sur les mêmes fuseaux horaires :
 
@@ -86,7 +84,7 @@ Pour vérifier si les deux côtés sont sur les mêmes fuseaux horaires :
 >
 >Pour des raisons de sécurité, la plateforme Adobe Campaign n’est plus accessible par défaut : vous devez configurer les zones de sécurité, et pour cela collecter les adresses IP des opérateurs et opératrices.
 
-Adobe Campaign v7 implique le concept de **zones de sécurité**.Chaque personne doit être associée à une zone pour se connecter à une instance et l’adresse IP de la personne doit faire partie des adresses ou des plages d’adresses définies dans la zone de sécurité.La configuration des zones de sécurité peut être effectuée dans le fichier de configuration du serveur Adobe Campaign.L&#39;association d&#39;un utilisateur à une zone de sécurité doit être définie dans la console (**[!UICONTROL Administration > Gestion des accès > Opérateurs]**).
+Adobe Campaign v7 implique le concept de **zones de sécurité**. Chaque personne doit être associée à une zone pour se connecter à une instance et l’adresse IP de la personne doit faire partie des adresses ou des plages d’adresses définies dans la zone de sécurité. La configuration des zones de sécurité peut être effectuée dans le fichier de configuration du serveur Adobe Campaign. L&#39;association d&#39;un utilisateur à une zone de sécurité doit être définie dans la console (**[!UICONTROL Administration > Gestion des accès > Opérateurs]**).
 
 **Avant la migration**, vous devez définir, avec l&#39;aide de votre administrateur réseau, les zones de sécurité qu&#39;il faudra activer après la migration.
 
@@ -112,7 +110,7 @@ nlserver config -internalpassword
 
   Les utilisateurs impactés par cette modification sont identifiés et listés lors du postupgrade.
 
-* Le tracking ne fonctionne plus si le mot de passe est vide.Si c’est le cas, un message d’erreur vous en informera et vous invitera à le reconfigurer.
+* Le tracking ne fonctionne plus si le mot de passe est vide. Si c’est le cas, un message d’erreur vous en informera et vous invitera à le reconfigurer.
 * Les mots de passe des utilisateurs et utilisatrices ne sont plus stockés dans le schéma **xtk:sessionInfo**.
 * Les autorisations d’administration sont désormais nécessaires pour utiliser les fonctions **`xtk:builder:EvaluateJavaScript`** et **`xtk:builder:EvaluateJavaScriptTemplate`**.
 
@@ -151,7 +149,7 @@ Certains schémas d&#39;usine ont été modifiés et ne sont désormais accessib
 
 ### Paramètre sessiontoken {#sessiontoken-parameter}
 
-Dans la version 5, le paramètre **sessiontoken** fonctionnait à la fois côté client (liste des écrans de type vue d’ensemble, éditeur de lien, etc.)et côté serveur (applications web, rapports, jsp, jssp, etc.).Dans v7, il ne fonctionne que côté serveur. Si vous souhaitez revenir aux fonctionnalités complète telles que dans la version 5, vous devez modifier les liens à l&#39;aide de ce paramètre et les transmettre via la page de connexion :
+Dans la version 5, le paramètre **sessiontoken** fonctionnait à la fois côté client (liste des écrans de type vue d’ensemble, éditeur de lien, etc.) et côté serveur (applications web, rapports, jsp, jssp, etc.). Dans v7, il ne fonctionne que côté serveur. Si vous souhaitez revenir aux fonctionnalités complète telles que dans la version 5, vous devez modifier les liens à l&#39;aide de ce paramètre et les transmettre via la page de connexion :
 
 Exemple de lien :
 
@@ -171,7 +169,7 @@ Nouveau lien utilisant la page de connexion :
 
 ### Fonctions SQL {#sql-functions}
 
-Les appels de fonctions SQL inconnues ne sont plus naturellement transmis au serveur. Actuellement, toutes les fonctions SQL doivent être ajoutées dans le schéma **xtk:funcList** (consultez [cette section](../../configuration/using/adding-additional-sql-functions.md) à ce sujet).Dans le cadre d&#39;une migration, une option est ajoutée lors du postupgrade permettant de conserver la compatibilité avec d&#39;anciennes fonctions SQL non déclarées. Si vous souhaitez continuer à utiliser ces fonctions, vérifiez que l&#39;option **XtkPassUnknownSQLFunctionsToRDBMS** est bien définie au niveau du nœud **[!UICONTROL Administration > Plateforme > Options]**.
+Les appels de fonctions SQL inconnues ne sont plus naturellement transmis au serveur. Actuellement, toutes les fonctions SQL doivent être ajoutées dans le schéma **xtk:funcList** (consultez [cette section](../../configuration/using/adding-additional-sql-functions.md) à ce sujet). Dans le cadre d&#39;une migration, une option est ajoutée lors du postupgrade permettant de conserver la compatibilité avec d&#39;anciennes fonctions SQL non déclarées. Si vous souhaitez continuer à utiliser ces fonctions, vérifiez que l&#39;option **XtkPassUnknownSQLFunctionsToRDBMS** est bien définie au niveau du nœud **[!UICONTROL Administration > Plateforme > Options]**.
 
 >[!IMPORTANT]
 >
@@ -196,7 +194,7 @@ Par exemple :
 
 Adobe Campaign v7 intègre un interpréteur JavaScript plus récent. Toutefois, cette mise à jour peut entraîner le mauvais fonctionnement de certains scripts. Comme le moteur précédent était plus permissif, certaines syntaxes fonctionneraient, ce qui n&#39;est plus le cas avec la nouvelle version du moteur.
 
-La syntaxe **[!UICONTROL myObject.@attribute]** n’est désormais valide que pour les objets XML.Cette syntaxe peut être utilisée pour personnaliser les diffusions et la gestion de contenu. Si vous avez utilisé ce type de syntaxe sur un objet non XML, les fonctions de personnalisation ne fonctionneront plus.
+La syntaxe **[!UICONTROL myObject.@attribute]** n’est désormais valide que pour les objets XML. Cette syntaxe peut être utilisée pour personnaliser les diffusions et la gestion de contenu. Si vous avez utilisé ce type de syntaxe sur un objet non XML, les fonctions de personnalisation ne fonctionneront plus.
 
 Pour tous les autres types d&#39;objet, la syntaxe est désormais **[!UICONTROL myObject`[`&quot;attribute&quot;`]`]**. Par exemple, un objet non XML qui utilisait la syntaxe suivante : **[!UICONTROL employee.@sn]**, doit désormais utiliser la syntaxe suivante : **[!UICONTROL employee`[`&quot;sn&quot;`]`]**.
 
@@ -258,7 +256,7 @@ Le schéma queryDef (xtk:queryDef) a été modifié :
 * deux nouvelles valeurs « IN » et « NOT IN » sont introduites pour l’attribut @setOperator
 * un nouvel élément `<where>`, enfant de l&#39;élément `<node>` : ceci permet de faire des « sous-sélections » dans SELECT
 
-Lorsqu’un attribut « @expr » est utilisé, le SQLData peut être présent.Une recherche peut être effectuée sur les termes suivants : « SQLData », « aliasSqlTable », « sql ».
+Lorsqu’un attribut « @expr » est utilisé, le SQLData peut être présent. Une recherche peut être effectuée sur les termes suivants : « SQLData », « aliasSqlTable », « sql ».
 
 Les instances d&#39;Adobe Campaign v7 sont sécurisées par défaut. La sécurisation intervient au niveau des définitions de zones de sécurité dans le fichier **[!UICONTROL serverConf.xml]** : l&#39;attribut **allowSQLInjection** gère la sécurisation de la syntaxe SQL.
 
@@ -352,9 +350,9 @@ fonction agrégat(collection)
 
   >[!NOTE]
   >
-  >Les jointures sont réalisées automatiquement pour les fonctions d’agrégat.Il n’est plus nécessaire de préciser la condition WHERE O0.iOperationId=iOperationId.
+  >Les jointures sont réalisées automatiquement pour les fonctions d’agrégat. Il n’est plus nécessaire de préciser la condition WHERE O0.iOperationId=iOperationId.
   >
-  >Il n’est plus possible d’utiliser la fonction « count(&#42;) ».Vous devez utiliser « countall() ».
+  >Il n’est plus possible d’utiliser la fonction « count(&#42;) ». Vous devez utiliser « countall() ».
 
 * Ancienne syntaxe :
 
@@ -417,7 +415,7 @@ Exemple:
 
 ## Conflits {#conflicts}
 
-La migration étant effectuée au travers d’un postupgrade, des conflits peuvent apparaître au niveau des rapports, formulaires ou applications web.Ces conflits peuvent être résolus manuellement depuis la console.
+La migration étant effectuée au travers d’un postupgrade, des conflits peuvent apparaître au niveau des rapports, formulaires ou applications web. Ces conflits peuvent être résolus manuellement depuis la console.
 
 Lors de la synchronisation des ressources, la commande **postupgrade** permet de détecter si la synchronisation génère des erreurs ou des avertissements.
 
@@ -457,7 +455,7 @@ Il existe trois possibilités de résoudre un conflit :
 
   >[!IMPORTANT]
   >
-  >Si vous sélectionnez ce mode de résolution, vous risquez de perdre des correctifs inclus dans la nouvelle version.Il est donc vivement recommandé de ne pas utiliser cette option ou de la réserver à des opérateurs et opératrices experts.
+  >Si vous sélectionnez ce mode de résolution, vous risquez de perdre des correctifs inclus dans la nouvelle version. Il est donc vivement recommandé de ne pas utiliser cette option ou de la réserver à des opérateurs et opératrices experts.
 
 Si vous choisissez de résoudre le conflit manuellement, procédez comme suit :
 
@@ -502,17 +500,17 @@ $(XTK_INSTALL_DIR)/tomcat-X/lib/el-api.jar
 
 ### Contenu des offres {#offer-content}
 
-Dans v7, le contenu de l&#39;offre a été déplacé. Dans la version 6.02, le contenu se trouvait dans chaque schéma de représentation (**nms:emailOfferView**).Dans v7, le contenu se trouve désormais dans le schéma d&#39;offre. Après la mise à niveau, le contenu ne sera donc plus visible dans l&#39;interface. Après la mise à niveau, vous devez recréer le contenu de l&#39;offre ou développer un script qui déplace automatiquement le contenu du schéma de représentation vers le schéma d&#39;offre.
+Dans v7, le contenu de l&#39;offre a été déplacé. Dans la version 6.02, le contenu se trouvait dans chaque schéma de représentation (**nms:emailOfferView**). Dans v7, le contenu se trouve désormais dans le schéma d&#39;offre. Après la mise à niveau, le contenu ne sera donc plus visible dans l&#39;interface. Après la mise à niveau, vous devez recréer le contenu de l&#39;offre ou développer un script qui déplace automatiquement le contenu du schéma de représentation vers le schéma d&#39;offre.
 
 >[!IMPORTANT]
 >
->Si certaines diffusions utilisant des offres configurées doivent être envoyées après la migration, vous devez supprimer et recréer toutes ces diffusions dans la version 7.Si vous ne pouvez pas le faire, un « mode de compatibilité » est proposé.Ce mode n’est pas recommandé, car vous ne bénéficierez pas de toutes les nouvelles fonctionnalités d’Interaction v7.Il s’agit d’un mode de transition qui vous permet d’effectuer des campagnes en cours avant la migration réelle vers la version 6.1.Pour plus d’informations concernant ce mode, veuillez nous contacter.
+>Si certaines diffusions utilisant des offres configurées doivent être envoyées après la migration, vous devez supprimer et recréer toutes ces diffusions dans la version 7. Si vous ne pouvez pas le faire, un « mode de compatibilité » est proposé. Ce mode n’est pas recommandé, car vous ne bénéficierez pas de toutes les nouvelles fonctionnalités d’Interaction v7. Il s’agit d’un mode de transition qui vous permet d’effectuer des campagnes en cours avant la migration réelle vers la version 6.1. Pour plus d’informations concernant ce mode, veuillez nous contacter.
 
 Un exemple de script de déplacement (**interactionTo610_full_XX.js**) est disponible dans le dossier **Migration** du répertoire d&#39;installation d&#39;Adobe Campaign v7. Ce fichier présente un exemple de script pour un client utilisant une seule représentation email par offre (les champs **[!UICONTROL htmlSource]** et **[!UICONTROL textSource]**). Le contenu qui était dans la table **NmsEmailOfferView** est déplacé vers la table des offres.
 
 >[!NOTE]
 >
->L’utilisation de ce script ne vous permet pas de bénéficier des options « gestion de contenu » et « fonctions de rendu ».Pour bénéficier de ces fonctions, vous devez repenser le catalogue d’offres, en particulier le contenu des offres et la configuration des emplacements.
+>L’utilisation de ce script ne vous permet pas de bénéficier des options « gestion de contenu » et « fonctions de rendu ». Pour bénéficier de ces fonctions, vous devez repenser le catalogue d’offres, en particulier le contenu des offres et la configuration des emplacements.
 
 ```
 loadLibrary("/nl/core/shared/nl.js");
@@ -584,7 +582,7 @@ logInfo("Done");
 
 ### Configuration et tests {#tests-and-configuration}
 
-Voici la procédure à suivre après avoir déplacé le contenu des offres si vous disposez d’un seul environnement.Prenons comme exemple un environnement « ENV ».
+Voici la procédure à suivre après avoir déplacé le contenu des offres si vous disposez d’un seul environnement. Prenons comme exemple un environnement « ENV ».
 
 1. Dans tous les emplacements de l&#39;environnement &quot;ENV&quot;, mettez à jour la liste des champs utilisés. Par exemple, pour un emplacement qui utilise uniquement le champ **[!UICONTROL htmlSource]**, vous devez ajouter le champ **[!UICONTROL view/htmlSource]**.
 
@@ -612,13 +610,13 @@ Voici la procédure à suivre après avoir déplacé le contenu des offres si vo
 
    >[!NOTE]
    >
-   >Les noms des catégories et des offres en ligne sont modifiés lors de leur mise en ligne.Sur le canal entrant, mettez à jour toutes les références aux offres et catégories.
+   >Les noms des catégories et des offres en ligne sont modifiés lors de leur mise en ligne. Sur le canal entrant, mettez à jour toutes les références aux offres et catégories.
 
 ## Rapports {#reports}
 
 ### Rapports standards {#standard-reports}
 
-Tous les rapports standard utilisent actuellement le moteur de rendu v6.x.Si vous aviez ajouté JavaScript dans ces rapports, certains éléments peuvent ne plus fonctionner.En effet, l’ancienne version de JavaScript n’est pas compatible avec le moteur de rendu v6.x.Vous devez donc vérifier le code JavaScript et l’adapter ultérieurement.Vous devez tester chaque rapport, en particulier la fonction d’export.
+Tous les rapports standard utilisent actuellement le moteur de rendu v6.x. Si vous aviez ajouté JavaScript dans ces rapports, certains éléments peuvent ne plus fonctionner. En effet, l’ancienne version de JavaScript n’est pas compatible avec le moteur de rendu v6.x. Vous devez donc vérifier le code JavaScript et l’adapter ultérieurement. Vous devez tester chaque rapport, en particulier la fonction d’export.
 
 ### Rapports personnalisés {#personalized-reports}
 
@@ -656,7 +654,7 @@ Relancez alors le postupgrade avec la commande suivante :
 nlserver config -postupgrade -instance:<instance_name> -force
 ```
 
-Testez vos applications web dans le moteur de rendu v6.x, puis publiez-les.Désactivez ensuite ces deux options.
+Testez vos applications web dans le moteur de rendu v6.x, puis publiez-les. Désactivez ensuite ces deux options.
 
 ```
 allowUserPassword="false"

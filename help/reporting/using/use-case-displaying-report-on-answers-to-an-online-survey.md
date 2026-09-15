@@ -2,16 +2,14 @@
 product: campaign
 title: 'Cas d’utilisation : affichage d’un rapport sur les réponses à un questionnaire en ligne'
 description: 'Cas d’utilisation : affichage d’un rapport sur les réponses à un questionnaire en ligne'
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting, Monitoring, Surveys
 exl-id: 6be12518-86d1-4a13-bbc2-b2ec5141b505
 source-git-commit: 0d8cef312371192ee97f88eb33276df9d7fb11f6
-workflow-type: ht
-source-wordcount: '518'
+workflow-type: tm+mt
+source-wordcount: '509'
 ht-degree: 100%
-
 ---
-
 # Cas d’utilisation : affichage d’un rapport sur les réponses à un questionnaire en ligne{#use-case-displaying-report-on-answers-to-an-online-survey}
 
 
@@ -30,7 +28,7 @@ Avant de démarrer ce cas pratique, vous devez disposer d&#39;un questionnaire e
 
 >[!NOTE]
 >
->Ce cas d’utilisation ne peut être mis en œuvre que si vous avez acquis l’option **Survey Manager**.Veuillez vérifier votre accord de licence.
+>Ce cas d’utilisation ne peut être mis en œuvre que si vous avez acquis l’option **Survey Manager**. Veuillez vérifier votre accord de licence.
 
 ## Etape 1 - Créer le workflow de collecte et stockage des données {#step-1---creating-the-data-collection-and-storage-workflow}
 
@@ -42,7 +40,7 @@ Pour collecter les réponses du questionnaire, les étapes sont les suivantes :
 
    ![](../../surveys/using/assets/reporting_usecase_1_01.png)
 
-1. Sélectionnez les colonnes à extraire (ici : tous les champs archivés).Les réponses sont contenues dans ces champs.
+1. Sélectionnez les colonnes à extraire (ici : tous les champs archivés). Les réponses sont contenues dans ces champs.
 
    ![](../../surveys/using/assets/reporting_usecase_1_02.png)
 
@@ -50,7 +48,7 @@ Pour collecter les réponses du questionnaire, les étapes sont les suivantes :
 
    ![](../../surveys/using/assets/reporting_usecase_1_04.png)
 
-   Dans cette activité, indiquez la liste à mettre à jour et désélectionnez l’option **[!UICONTROL Purger puis réutiliser la liste si elle existe (sinon la compléter)]** : les réponses seront ajoutées à la table existante.Cette option permettra de référencer la liste dans un cube.Le schéma lié à la liste ne sera pas généré à nouveau à chaque mise à jour, ce qui permet de garantir l’intégrité du cube qui utilise cette liste.
+   Dans cette activité, indiquez la liste à mettre à jour et désélectionnez l’option **[!UICONTROL Purger puis réutiliser la liste si elle existe (sinon la compléter)]** : les réponses seront ajoutées à la table existante. Cette option permettra de référencer la liste dans un cube. Le schéma lié à la liste ne sera pas généré à nouveau à chaque mise à jour, ce qui permet de garantir l’intégrité du cube qui utilise cette liste.
 
    ![](../../surveys/using/assets/reporting_usecase_1_03.png)
 
@@ -72,7 +70,7 @@ Dans cet exemple, le cube est basé sur les données de la liste alimentée par 
 
 ![](../../surveys/using/assets/reporting_usecase_2_01.png)
 
-Définissez les dimensions et mesures à afficher dans le rapport.Ici, nous voulons afficher la date du contrat et le pays du participant ou de la participante.
+Définissez les dimensions et mesures à afficher dans le rapport. Ici, nous voulons afficher la date du contrat et le pays du participant ou de la participante.
 
 ![](../../surveys/using/assets/reporting_usecase_2_02.png)
 

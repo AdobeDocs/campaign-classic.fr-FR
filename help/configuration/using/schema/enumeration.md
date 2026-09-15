@@ -7,15 +7,14 @@ exl-id: 4cd67278-2623-4508-9a9f-9007c6a5f8ac
 TQID: https://experienceleague.adobe.com/w8b-2HEtYRMOd9yHFLtvS0vS2tdLDzuIakLfrqImsGo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 198
+workflow-type: tm+mt
+source-wordcount: '198'
 ht-degree: 100%
-
 ---
-
 # élément enumeration {#enumeration--element}
 
 
@@ -43,7 +42,7 @@ enumeration:==(help| value)
 
 ## Description {#description-5}
 
-Cet élément nous permet de définir une énumération de valeurs.Une énumération appartient au schéma dans lequel elle est définie mais elle reste accessible depuis un autre schéma.
+Cet élément nous permet de définir une énumération de valeurs. Une énumération appartient au schéma dans lequel elle est définie mais elle reste accessible depuis un autre schéma.
 
 ## Usage et contexte d&#39;utilisation {#use-and-context-of-use-4}
 
@@ -55,36 +54,36 @@ Une énumération se définit au tout début d&#39;un schéma (avant la définit
 
   Liste des types disponibles :
 
-   * ANY
-   * bin
-   * blob
-   * boolean
-   * byte
-   * CDATA
-   * datetime
-   * datetimetz
-   * datetimenotz
-   * date
-   * DOMDocument
-   * DOMElement
-   * double
-   * enum
-   * float
-   * html
-   * int64
-   * link
-   * long
-   * memo
-   * MNTOKEN
-   * percent
-   * primarykey
-   * short
-   * string
-   * time
-   * timespan
-   * uuid
+  * ANY
+  * bin
+  * blob
+  * boolean
+  * byte
+  * CDATA
+  * datetime
+  * datetimetz
+  * datetimenotz
+  * date
+  * DOMDocument
+  * DOMElement
+  * double
+  * enum
+  * float
+  * html
+  * int64
+  * link
+  * long
+  * memo
+  * MNTOKEN
+  * percent
+  * primarykey
+  * short
+  * string
+  * time
+  * timespan
+  * uuid
 
-* **default (string)** : valeur par défaut.La valeur par défaut peut également être une des valeurs définies dans l’énumération.
+* **default (string)** : valeur par défaut. La valeur par défaut peut également être une des valeurs définies dans l’énumération.
 * **desc (string)**: description de l&#39;énumération.
 * **label (string)**: libellé de l&#39;énumération.
 * **name (string)**: nom interne de l&#39;énumération.

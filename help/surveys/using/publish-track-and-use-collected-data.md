@@ -2,25 +2,27 @@
 product: campaign
 title: Publier, suivre et utiliser les données collectées
 description: Découvrez comment publier, suivre et utiliser les données collectées dans un questionnaire
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: 3cf3c486-6640-4d67-95cf-50d5767deb60
 TQID: https://experienceleague.adobe.com/5faTMQayKA-bxeGrKlNlk7fxZUV2-TO-eVCSe3iRrgA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 917
+workflow-type: tm+mt
+source-wordcount: '908'
 ht-degree: 100%
-
 ---
-
 # Publier, suivre et utiliser les données collectées{#publish-track-and-use-collected-data}
 
 
@@ -33,7 +35,7 @@ Une fois que le formulaire a été créé, paramétré et publié, vous pouvez p
 
 ## Tableau de bord du questionnaire {#survey-dashboard}
 
-Pour chaque questionnaire, le tableau de bord vous permet de visualiser rapidement le statut, la description, l’URL publique et le planning de disponibilité.Il vous permet également de visualiser les rapports disponibles.[En savoir plus](#reports-on-surveys).
+Pour chaque questionnaire, le tableau de bord vous permet de visualiser rapidement le statut, la description, l’URL publique et le planning de disponibilité. Il vous permet également de visualiser les rapports disponibles. [En savoir plus](#reports-on-surveys).
 
 L&#39;URL publique du questionnaire est affichée dans le tableau de bord :
 
@@ -45,11 +47,11 @@ Vous pouvez suivre les réponses au questionnaire dans les logs et dans les rapp
 
 ### Les logs de questionnaires {#survey-logs}
 
-Pour chaque questionnaire diffusé, vous pouvez suivre les réponses dans l’onglet **[!UICONTROL Logs]**.Cet onglet affiche la liste des utilisateurs et utilisatrices ayant répondu au questionnaire et leur origine :
+Pour chaque questionnaire diffusé, vous pouvez suivre les réponses dans l’onglet **[!UICONTROL Logs]**. Cet onglet affiche la liste des utilisateurs et utilisatrices ayant répondu au questionnaire et leur origine :
 
 ![](assets/s_ncs_admin_survey_logs.png)
 
-Double-cliquez sur une ligne pour afficher le formulaire du questionnaire tel qu’il a été renseigné par le participant ou la participante.Vous pouvez consulter toutes les pages du questionnaire et accéder à l’intégralité des réponses.Celles-ci peuvent être exportées dans un fichier externe.Voir à ce sujet la section [Exporter les réponses](#exporting-answers).
+Double-cliquez sur une ligne pour afficher le formulaire du questionnaire tel qu’il a été renseigné par le participant ou la participante. Vous pouvez consulter toutes les pages du questionnaire et accéder à l’intégralité des réponses. Celles-ci peuvent être exportées dans un fichier externe. Voir à ce sujet la section [Exporter les réponses](#exporting-answers).
 
 L&#39;origine est une information indiquée dans l&#39;URL du questionnaire en y ajoutant les caractères suivants :
 
@@ -57,13 +59,13 @@ L&#39;origine est une information indiquée dans l&#39;URL du questionnaire en y
 ?origin=xxx
 ```
 
-tant que le questionnaire est en cours d’édition, son URL contient le paramètre **[!UICONTROL __uuid]**, qui indique qu’il est en phase de test et qu’il n’est pas encore en ligne.Lorsque vous accédez au questionnaire via cette URL, les enregistrements créés ne sont pas pris en compte dans le tracking (rapports).L&#39;origine est alors forcée à la valeur **[!UICONTROL Adobe Campaign]**.
+tant que le questionnaire est en cours d’édition, son URL contient le paramètre **[!UICONTROL __uuid]**, qui indique qu’il est en phase de test et qu’il n’est pas encore en ligne. Lorsque vous accédez au questionnaire via cette URL, les enregistrements créés ne sont pas pris en compte dans le tracking (rapports). L&#39;origine est alors forcée à la valeur **[!UICONTROL Adobe Campaign]**.
 
 Pour plus d&#39;informations sur les paramètres d&#39;URL, consultez [cette page](../../web/using/defining-web-forms-properties.md#form-url-parameters).
 
 ### Les rapports sur les questionnaires {#reports-on-surveys}
 
-L’onglet Tableau de bord vous permet d’accéder aux rapports du questionnaire.Cliquez sur le nom d’un rapport pour l’afficher.
+L’onglet Tableau de bord vous permet d’accéder aux rapports du questionnaire. Cliquez sur le nom d’un rapport pour l’afficher.
 
 ![](assets/s_ncs_admin_survey_report_doc.png)
 
@@ -87,7 +89,7 @@ Deux autres rapports sur les questionnaires Web sont également disponibles par 
 
 ## Exporter les réponses {#exporting-answers}
 
-Les réponses à un questionnaire peuvent être exportées dans un fichier externe afin d’être traitées ultérieurement.Vous avez le choix entre les deux méthodes suivantes :
+Les réponses à un questionnaire peuvent être exportées dans un fichier externe afin d’être traitées ultérieurement. Vous avez le choix entre les deux méthodes suivantes :
 
 1. Exporter les données d&#39;un rapport
 
@@ -125,7 +127,7 @@ Les réponses à un questionnaire peuvent être exportées dans un fichier exter
 
 Les informations collectées au travers des questionnaires en ligne peuvent être récupérées dans le cadre d&#39;un workflow de ciblage. Pour cela, utilisez la boîte **[!UICONTROL Réponses à un questionnaire]**.
 
-Dans l’exemple suivant, nous allons proposer une offre web spécifique aux cinq destinataires ayant au moins deux enfants et ayant réalisé le meilleur score à un questionnaire en ligne.Les réponses à cette enquête sont les suivantes :
+Dans l’exemple suivant, nous allons proposer une offre web spécifique aux cinq destinataires ayant au moins deux enfants et ayant réalisé le meilleur score à un questionnaire en ligne. Les réponses à cette enquête sont les suivantes :
 
 ![](assets/s_ncs_admin_survey_responses_wf_box_4.png)
 
@@ -133,13 +135,13 @@ Dans le workflow de ciblage, la boîte **[!UICONTROL Réponses à un questionnai
 
 ![](assets/s_ncs_admin_survey_responses_wf_box_1.png)
 
-Sélectionnez le questionnaire concerné puis les données à extraire dans la section centrale de la fenêtre.Ici, il est nécessaire d’extraire au moins la colonne du score, car elle sera utilisée dans la boîte de partage afin de ne récupérer que les cinq meilleurs scores parmi les réponses fournies.
+Sélectionnez le questionnaire concerné puis les données à extraire dans la section centrale de la fenêtre. Ici, il est nécessaire d’extraire au moins la colonne du score, car elle sera utilisée dans la boîte de partage afin de ne récupérer que les cinq meilleurs scores parmi les réponses fournies.
 
 Indiquez les conditions de filtrage des réponses en cliquant sur le lien **[!UICONTROL Editer la requête...]**.
 
 ![](assets/s_ncs_admin_survey_responses_wf_box_2.png)
 
-Démarrez le workflow de ciblage.La requête récupère 8 destinataires.
+Démarrez le workflow de ciblage. La requête récupère 8 destinataires.
 
 ![](assets/s_ncs_admin_survey_responses_wf_box_5.png)
 
@@ -171,4 +173,4 @@ Editez la boîte de partage pour la paramétrer :
 
 ## Normaliser les données {#standardizing-data}
 
-Il est possible de configurer des processus de normalisation dans Adobe Campaign pour les données collectées à l’aide d’alias.Il est alors possible de normaliser les données stockées en base : pour cela, vous devez définir des alias au niveau des énumérations dans lesquelles les informations pertinentes sont stockées.Découvrez comment **utiliser les énumérations** dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
+Il est possible de configurer des processus de normalisation dans Adobe Campaign pour les données collectées à l’aide d’alias. Il est alors possible de normaliser les données stockées en base : pour cela, vous devez définir des alias au niveau des énumérations dans lesquelles les informations pertinentes sont stockées. Découvrez comment **utiliser les énumérations** dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.

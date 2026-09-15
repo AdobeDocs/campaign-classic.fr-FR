@@ -8,20 +8,23 @@ exl-id: 38006cca-e945-4b9d-8e2d-ed537b8541d9
 TQID: https://experienceleague.adobe.com/RxcAtCrK97YWE-UZuuxRkNN-spUvC0yRJZdY1WW-MBo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 951
+workflow-type: tm+mt
+source-wordcount: '951'
 ht-degree: 100%
-
 ---
-
 # Envoi d’un e-mail d’anniversaire{#sending-a-birthday-email}
 
 
@@ -36,7 +39,7 @@ Pour réaliser ce cas d&#39;utilisation, nous avons créé le workflow de ciblag
 
 Ce workflow, exécuté quotidiennement, sélectionne tous les destinataires dont la date de naissance correspond à la date courante.
 
-![](assets/do-not-localize/how-to-video.png) Ce cas d’utilisation est également proposé sous la forme d’une vidéo.Consultez à ce sujet la vidéo sur la [création d’un workflow](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/automating-with-workflows/creating-a-workflow.html?lang=fr).
+![](assets/do-not-localize/how-to-video.png) Ce cas d’utilisation est également proposé sous la forme d’une vidéo. Consultez à ce sujet la vidéo sur la [création d’un workflow](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/automating-with-workflows/creating-a-workflow.html?lang=fr).
 
 Pour ce faire, créez une campagne et cliquez sur l’onglet **[!UICONTROL Ciblage et workflows]**. Pour plus d&#39;informations, consultez la section [Construire la cible principale dans un workflow](../../campaign/using/marketing-campaign-deliveries.md#building-the-main-target-in-a-workflow).
 
@@ -73,7 +76,7 @@ Pour cela, les étapes sont les suivantes :
 
    ![](assets/s_ncs_user_create_exp_exple01.png)
 
-1. Dans la liste des champs disponibles, double-cliquez sur la **[!UICONTROL Date de naissance]**.La section supérieure de l’éditeur d’expression affiche alors la formule suivante :
+1. Dans la liste des champs disponibles, double-cliquez sur la **[!UICONTROL Date de naissance]**. La section supérieure de l’éditeur d’expression affiche alors la formule suivante :
 
    ```
    Day(@birthDate)
@@ -121,7 +124,7 @@ Pour réaliser ce cas d&#39;utilisation, nous avons créé le workflow de ciblag
 
 
 
-Si l’année en cours **n’est pas une année bissextile** et que le workflow est exécuté le 1er mars, nous devons sélectionner toutes les personnes destinataires dont l’anniversaire était la veille (le 29 février) et les ajouter à la liste des personnes destinataires.Dans tous les autres cas, aucune action supplémentaire n’est requise.
+Si l’année en cours **n’est pas une année bissextile** et que le workflow est exécuté le 1er mars, nous devons sélectionner toutes les personnes destinataires dont l’anniversaire était la veille (le 29 février) et les ajouter à la liste des personnes destinataires. Dans tous les autres cas, aucune action supplémentaire n’est requise.
 
 ### Etape 1 : sélection des destinataires {#step-1--selecting-the-recipients}
 

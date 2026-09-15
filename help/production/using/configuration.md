@@ -3,34 +3,39 @@ product: campaign
 title: Configuration supplémentaire
 description: Configuration
 feature: Monitoring, Configuration
-badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
 exl-id: 80d388fd-873c-4a08-b8b6-697988f2a18c
 TQID: https://experienceleague.adobe.com/gzcQquM9q71NIOt8mScgRpLtwffxvopslrrpLxxIang
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 198
+workflow-type: tm+mt
+source-wordcount: '186'
 ht-degree: 100%
-
 ---
-
 # Configuration{#configuration}
 
 
 
 ## Changement du port d&#39;écoute du module syslogd {#changing-the-syslogd-listening-port}
 
-Le port d’écoute **syslogd** par défaut est 666 (udp).Vous pouvez le modifier à l’aide d’une variable d’environnement si nécessaire.
+Le port d’écoute **syslogd** par défaut est 666 (udp). Vous pouvez le modifier à l’aide d’une variable d’environnement si nécessaire.
 
 Une fois paramétrée, cette variable est prise en compte par tous les modules Adobe Campaign.
 
@@ -52,7 +57,7 @@ Vous devez créer la variable d&#39;environnement **TRACE_ADDR** avec la valeur 
 
 ## Configuration de zones de sécurité {#configuring-security-zones}
 
-Chaque opérateur ou opératrice doit être associé(e) à une zone pour se connecter à une instance et l’adresse IP de l’opérateur ou de l’opératrice doit faire partie des adresses ou des plages d’adresses définies dans la zone de sécurité.La configuration technique des zones est effectuée dans le fichier de configuration du serveur Adobe Campaign.L&#39;association d&#39;un opérateur à une zone de sécurité doit être défini dans la console (noeud **[!UICONTROL Administration > Gestion des accès > Opérateurs]**).
+Chaque opérateur ou opératrice doit être associé(e) à une zone pour se connecter à une instance et l’adresse IP de l’opérateur ou de l’opératrice doit faire partie des adresses ou des plages d’adresses définies dans la zone de sécurité. La configuration technique des zones est effectuée dans le fichier de configuration du serveur Adobe Campaign. L&#39;association d&#39;un opérateur à une zone de sécurité doit être défini dans la console (noeud **[!UICONTROL Administration > Gestion des accès > Opérateurs]**).
 
 >[!NOTE]
 >

@@ -3,29 +3,36 @@ product: campaign
 title: Bonnes pratiques en matière de reporting
 description: Bonnes pratiques en matière de reporting Campaign
 feature: Reporting, Monitoring
-badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign\_Classic\_v7"
 exl-id: 0c7f00f3-b16d-41c5-a7b1-f5a59201bf8c
 TQID: https://experienceleague.adobe.com/0NZ2bS4K-X1okyD-snv-pBDekzNqmFV5soF-qUOOVKo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic Reporting
 subfeature_v2:
   - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
+    internal-label: Customize reports
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+    internal-label: Cubes and multidimensional analysis
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 857
+workflow-type: tm+mt
+source-wordcount: '857'
 ht-degree: 100%
-
 ---
-
 # Bonnes pratiques en matière de reporting{#best-practices-reporting}
 
 
@@ -34,13 +41,13 @@ ht-degree: 100%
 
 L&#39;utilisation d&#39;un outil de reporting dépend du volume des données à manipuler, de leur complexité et du type de reporting à mettre en place.
 
-Afin d’optimiser la création, l’utilisation et la pérennité d’un rapport, vous devez étudier précisément les besoins auxquels vous souhaitez répondre.Cette première analyse vous permettra d’identifier le type de rapport à créer et le mode de création à privilégier.Pour créer le rapport, effectuez les étapes suivantes :
+Afin d’optimiser la création, l’utilisation et la pérennité d’un rapport, vous devez étudier précisément les besoins auxquels vous souhaitez répondre. Cette première analyse vous permettra d’identifier le type de rapport à créer et le mode de création à privilégier. Pour créer le rapport, effectuez les étapes suivantes :
 
 1. Identifier le besoin
 
    La première étape consiste à identifier clairement le besoin : ce que vous souhaitez afficher dans votre rapport et quel est son objectif (suivi, analyse, export de données, etc.).
 
-   Adobe Campaign offre un large éventail de capacités de reporting.Il est essentiel d’analyser clairement votre besoin pour identifier la fonctionnalité la mieux adaptée pour y répondre.
+   Adobe Campaign offre un large éventail de capacités de reporting. Il est essentiel d’analyser clairement votre besoin pour identifier la fonctionnalité la mieux adaptée pour y répondre.
 
    Vous pouvez par exemple :
 
@@ -73,7 +80,7 @@ Afin d’optimiser la création, l’utilisation et la pérennité d’un rappor
 
    Vous devez également connaître la nature de ces données (simples, issues d&#39;un calcul, volumineuses, etc.), leur localisation (dans Adobe Campaign, dans un système tiers), leur fréquence de mise à jour, afin de définir la périodicité du calcul (quotidien, hebdomadaire, à la volée), ainsi que leur volume.
 
-   Les problèmes liés aux volumes et aux mises à jour des données doivent être étudiés attentivement afin d’éviter les problèmes d’affichage des rapports, notamment en termes de temps.Nous vous recommandons donc de créer des agrégats pour pré-calculer certaines données en dehors du rapport.Les tables contenant les logs de tracking et de diffusion peuvent contenir des millions d’enregistrements : les données doivent donc être agrégées via un workflow pour pouvoir les utiliser dans un rapport.
+   Les problèmes liés aux volumes et aux mises à jour des données doivent être étudiés attentivement afin d’éviter les problèmes d’affichage des rapports, notamment en termes de temps. Nous vous recommandons donc de créer des agrégats pour pré-calculer certaines données en dehors du rapport. Les tables contenant les logs de tracking et de diffusion peuvent contenir des millions d’enregistrements : les données doivent donc être agrégées via un workflow pour pouvoir les utiliser dans un rapport.
 
 ## Optimisation de la conception des rapports{#optimizing-report-creation}
 
@@ -89,13 +96,13 @@ Ainsi :
 
 * Lors de l&#39;utilisation de Marketing Analytics, les données de reporting ne doivent pas excéder 10 millions de lignes.
 
-Nous recommandons également de calculer des agrégats la nuit et d’utiliser ces données agrégées directement dans les rapports.Ces agrégats doivent être créés via des workflows de gestion des données (Data Management) dédiés (requêtes SQL).
+Nous recommandons également de calculer des agrégats la nuit et d’utiliser ces données agrégées directement dans les rapports. Ces agrégats doivent être créés via des workflows de gestion des données (Data Management) dédiés (requêtes SQL).
 
 Vous pouvez également calculer les rapports pendant la nuit et créer automatiquement un historique qui pourra être consulté à tout moment, sans surcharger la base de données.
 
 ### Requêtes {#queries}
 
-Nous recommandons d’utiliser des requêtes SQL chaque fois que possible et d’éviter le post-traitement JavaScript.Si nécessaire, utilisez une activité Script dans un workflow et supprimez les données utilisées pour le calcul.Vous pouvez également utiliser les données archivées pour accélérer le temps de traitement.
+Nous recommandons d’utiliser des requêtes SQL chaque fois que possible et d’éviter le post-traitement JavaScript. Si nécessaire, utilisez une activité Script dans un workflow et supprimez les données utilisées pour le calcul. Vous pouvez également utiliser les données archivées pour accélérer le temps de traitement.
 
 Dans ce cas, la syntaxe à utiliser sera du type :
 
@@ -103,7 +110,7 @@ Dans ce cas, la syntaxe à utiliser sera du type :
 if(string(ctx@_historyId)!==""))
 ```
 
-Les requêtes qui permettent de collecter les données affichées dans les rapports ne doivent pas être trop complexes, surtout si elles sont réalisées sur la totalité des données de la base de données.Pour améliorer les performances, il peut être utile de filtrer les données avant d’exécuter ces requêtes : ainsi, les calculs ne porteront que sur une partie des données.
+Les requêtes qui permettent de collecter les données affichées dans les rapports ne doivent pas être trop complexes, surtout si elles sont réalisées sur la totalité des données de la base de données. Pour améliorer les performances, il peut être utile de filtrer les données avant d’exécuter ces requêtes : ainsi, les calculs ne porteront que sur une partie des données.
 
 ### Performances {#performances}
 
@@ -119,7 +126,7 @@ Adobe Campaign vous recommande, en complément, les axes d&#39;optimisation sui
 
 * Assurez-vous que le rapport est évolutif : le volume de données peut augmenter considérablement au fil du temps.
 
-  De même, le volume des données manipulées dans les phases de test peut être différent du volume des données réelles en production.Les phases de test ne doivent donc pas être négligées.
+  De même, le volume des données manipulées dans les phases de test peut être différent du volume des données réelles en production. Les phases de test ne doivent donc pas être négligées.
 
   Enfin, les délais de purge des données doivent être connus, et au besoin adaptés pour faciliter la manipulation des informations.
 

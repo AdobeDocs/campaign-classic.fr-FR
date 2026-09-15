@@ -10,20 +10,23 @@ exl-id: 930c6395-0c00-40ee-a925-3e0cae67c55f
 TQID: https://experienceleague.adobe.com/fo08dddVIW2TW7qe2zAjikr5838qAAKfZoAQD2gJyNI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
   - id: eff19c99-440a-4318-b319-444edc4d8d8f
+    internal-label: Upgrade
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: 259
+source-wordcount: '259'
 ht-degree: 100%
-
 ---
-
 # Exécution de la diffusion {#delivery-execution}
 
 

@@ -2,27 +2,31 @@
 product: campaign
 title: Rapports sur les diffusions
 description: Rapports sur les diffusions
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting, Monitoring
 exl-id: dcbf280c-3040-4218-a453-1497662fef2e
 TQID: https://experienceleague.adobe.com/mksUYDyAkAHaeILP6JIIVHDxvxV33jc-Ku4-ETXdUBs
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 feature_v2:
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic Reporting
 subfeature_v2:
   - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
+    internal-label: Customize reports
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+    internal-label: Cubes and multidimensional analysis
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 220
+workflow-type: tm+mt
+source-wordcount: '211'
 ht-degree: 100%
-
 ---
-
 # À propos des rapports sur les diffusions{#reports-on-deliveries}
 
 
@@ -35,7 +39,7 @@ Les types de rapports disponibles sont les suivants :
 * Rapports de diffusion, voir la section [Rapports de diffusion](../../reporting/using/delivery-reports.md).
 * Rapports cumulés, voir la section [Rapports cumulés](../../reporting/using/cumulative-reports.md).
 
-Vous pouvez accéder aux rapports à partir de la page d’accueil de la console cliente, du tableau de bord des rapports ou de la liste des diffusions.Le mode d’affichage d’un rapport dépend de son contexte.La liste des principaux rapports est disponible sur la page d’accueil et permet d’accéder rapidement aux données de diffusion.Cette liste peut être modifiée en fonction de vos besoins. Pour plus d’informations, consultez [cette section](../../reporting/using/about-reports-creation-in-campaign.md).
+Vous pouvez accéder aux rapports à partir de la page d’accueil de la console cliente, du tableau de bord des rapports ou de la liste des diffusions. Le mode d’affichage d’un rapport dépend de son contexte. La liste des principaux rapports est disponible sur la page d’accueil et permet d’accéder rapidement aux données de diffusion. Cette liste peut être modifiée en fonction de vos besoins. Pour plus d’informations, consultez [cette section](../../reporting/using/about-reports-creation-in-campaign.md).
 
 
 Un champ de recherche est disponible depuis le tableau de bord des rapports et vous permet d&#39;accéder plus rapidement à l&#39;un des rapports de la liste.
@@ -56,6 +60,6 @@ Vous pouvez ainsi :
 
 >[!NOTE]
 >
->Certains rapports comportent des graphiques (courbes, barres, funnel, etc.).Déplacez le curseur sur un graphique pour afficher ses valeurs.
+>Certains rapports comportent des graphiques (courbes, barres, funnel, etc.). Déplacez le curseur sur un graphique pour afficher ses valeurs.
 
 Pour plus d&#39;informations sur ces options, voir [cette section](../../reporting/using/about-adobe-campaign-reporting-tools.md).

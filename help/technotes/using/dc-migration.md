@@ -9,27 +9,35 @@ exl-id: 2b282221-d048-4f6e-b52e-f8e584af2c0e
 TQID: https://experienceleague.adobe.com/aoayco5jy1djmO-FNlofnJFE-inpeMOVE1UBVC-pkFc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
+    internal-label: Data integration
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1539
+workflow-type: tm+mt
+source-wordcount: '1557'
 ht-degree: 100%
-
 ---
-
 # Vue d’ensemble{#dc-ovv}
 
 
@@ -145,7 +153,7 @@ Une fois la migration terminée, les adresses IP d’envoi de l’instance Campa
 
 **Adresses IP d’intégration des données**
 
-L’intégration des données côté client peut être affectée par la modification des adresses IP correspondantes. La modification peut concerner les deux directions, selon que Campaign agit comme serveur ou client.
+L’intégration des données côté client peut être affectée par la modification des adresses IP correspondantes. La modification peut concerner les deux directions selon que Campaign fonctionne comme serveur ou client.
 Cas types :
 
 * SFTP, éventuellement dans les deux directions

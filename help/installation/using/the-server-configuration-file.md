@@ -10,29 +10,32 @@ exl-id: 70cd6a4b-c839-4bd9-b9a7-5a12e59c0cbf
 TQID: https://experienceleague.adobe.com/BZ4rjzbXYikNoGAVHq4Gy7tY8OugKDgsmVLkKuIB9tw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 8061
-ht-degree: 100%
-
+workflow-type: tm+mt
+source-wordcount: '8113'
+ht-degree: 99%
 ---
-
 # Le fichier de configuration du serveur{#the-server-configuration-file}
 
-La configuration globale d’Adobe Campaign est définie dans le fichier **serverConf.xml** qui se trouve dans le répertoire **conf** du répertoire d’installation.Cette section répertorie tous les nœuds et paramètres du fichier **serverConf.xml**.
+La configuration globale d’Adobe Campaign est définie dans le fichier **serverConf.xml** qui se trouve dans le répertoire **conf** du répertoire d’installation. Cette section répertorie tous les nœuds et paramètres du fichier **serverConf.xml**.
 
 >[!NOTE]
 >
 >Les configurations côté serveur ne peuvent être exécutées que par Adobe pour les déploiements hébergés par Adobe. Pour en savoir plus sur les différents déploiements, consultez la section [Modèles d&#39;hébergement](../../installation/using/hosting-models.md) ou [cette page](../../installation/using/capability-matrix.md). Les étapes d&#39;installation et de configuration des modèles hébergés et hybrides sont présentées dans cette [section](../../installation/using/hosting-models.md).
 
-Les premiers paramètres se trouvent dans le nœud **partagé**.Ils sont liés à l’instance.Ils sont potentiellement utilisés par toutes les commandes nlserver (nlserver web, nlserver wfserver, etc.).Les autres sections sont relatives à une sous-commande nlserver spécifique.
+Les premiers paramètres se trouvent dans le nœud **partagé**. Ils sont liés à l’instance. Ils sont potentiellement utilisés par toutes les commandes nlserver (nlserver web, nlserver wfserver, etc.). Les autres sections sont relatives à une sous-commande nlserver spécifique.
 
 **Paramètres partagés**
 
@@ -101,25 +104,25 @@ Voici les différents paramètres du nœud **authentication** :
    <td> longSessionTimeOutSec<br /> </td> 
    <td> Délai d’expiration des sessions longues en secondes.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1296000<br /></td> 
+   <td> 1296000<br /> </td> 
   </tr> 
   <tr> 
    <td> securityTimeOutSec<br /> </td> 
    <td> Délai d’expiration du jeton de sécurité en secondes.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>86400<br /></td> 
+   <td> 86400<br /> </td> 
   </tr> 
   <tr> 
    <td> sessionCacheSec<br /> </td> 
    <td> Durée de mise en cache : cache des informations de session en secondes.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>600<br /></td> 
+   <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> sessionTimeOutSec<br /> </td> 
    <td> Délai d’expiration de session en secondes.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>86400<br /></td> 
+   <td> 86400<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -155,7 +158,7 @@ Voici les différents paramètres du nœud **authentication > XTK** :
 
 ## dataStore {#datastore}
 
-Voici les différents paramètres du nœud **dataStore**.C’est là que vous définissez les sources de données du serveur.
+Voici les différents paramètres du nœud **dataStore**. C’est là que vous définissez les sources de données du serveur.
 
 <table> 
  <thead> 
@@ -183,19 +186,19 @@ Voici les différents paramètres du nœud **dataStore**.C’est là que vous d�
    <td> formCacheTimeToLive<br /> </td> 
    <td> Délai de validité du cache des formes : délai en secondes au-delà duquel une entrée du cache est invalidée. 0 indique que les entrées du cache sont rafraîchies uniquement lors des publications.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>600<br /></td> 
+   <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> hosts<br /> </td> 
    <td> Masques DNS : liste de masques DNS associés à cette instance (séparés par des virgules, peuvent utiliser les modèles * et ? ).<br /> </td> 
    <td> Chaîne <br /> </td> 
-   <td>'*'<br /></td> 
+   <td> '*'<br /> </td> 
   </tr> 
   <tr> 
    <td> interactionCacheTimeToLive<br /> </td> 
-   <td>Délai d’expiration du cache JSSP d’interaction : délai en secondes au-delà duquel une entrée du cache est invalidée.Une valeur négative signifie que le cache est toujours invalidé.Les valeurs '0', vide, non valides ou absentes sont remplacées par la valeur '60'.<br /> </td> 
+   <td> Délai d’expiration du cache JSSP d’interaction : délai en secondes au-delà duquel une entrée du cache est invalidée. Une valeur négative signifie que le cache est toujours invalidé. Les valeurs '0', vide, non valides ou absentes sont remplacées par la valeur '60'.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>300<br /></td> 
+   <td> 300<br /> </td> 
   </tr> 
   <tr> 
    <td> lang<br /> </td> 
@@ -211,9 +214,9 @@ Voici les différents paramètres du nœud **dataStore**.C’est là que vous d�
   </tr> 
   <tr> 
    <td> uploadAllowlist<br /> </td> 
-   <td>Fichiers autorisés à être téléchargés, séparés par « , ».La chaîne doit être une expression régulière java valide.Voir la section <a href="file-res-management.md" target="_blank">Limitation des fichiers téléchargeables</a>.<br /> </td> 
+   <td> Fichiers autorisés à être téléchargés, séparés par « , ». La chaîne doit être une expression régulière java valide. Voir la section <a href="file-res-management.md" target="_blank">Limitation des fichiers téléchargeables</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
-   <td>'.+' <br /></td> 
+   <td> '.+' <br /> </td> 
   </tr> 
   <tr> 
    <td> useVault<br /> </td> 
@@ -241,9 +244,9 @@ Voici les différents paramètres du nœud **dataStore**.C’est là que vous d�
   </tr> 
   <tr> 
    <td> viewCacheTimeToLive<br /> </td> 
-   <td>Délai d’expiration de la validité du cache des vues : délai en secondes au-delà duquel une entrée du cache est invalidée.Une valeur négative signifie que le cache est toujours invalidé.Les valeurs '0', vide, non valides ou absentes sont remplacées par la valeur '60'.<br /> </td> 
+   <td> Délai d’expiration de la validité du cache des vues : délai en secondes au-delà duquel une entrée du cache est invalidée. Une valeur négative signifie que le cache est toujours invalidé. Les valeurs '0', vide, non valides ou absentes sont remplacées par la valeur '60'.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>600<br /></td> 
+   <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> workingDirectory<br /> </td> 
@@ -256,7 +259,7 @@ Voici les différents paramètres du nœud **dataStore**.C’est là que vous d�
 
 ### proxyAdjust {#proxyadjust}
 
-Voici les différents paramètres du nœud **dataStore > proxyAdjust**.Les URL correspondant à l’expression régulière seront générées à nouveau à partir de l’URL définie dans urlBase.
+Voici les différents paramètres du nœud **dataStore > proxyAdjust**. Les URL correspondant à l’expression régulière seront générées à nouveau à partir de l’URL définie dans urlBase.
 
 <table> 
  <thead> 
@@ -433,7 +436,7 @@ Dans le nœud **dataStore > dataSource > pool**, configurez les paramètres du
 
 ### virtualDir {#virtualdir}
 
-Voici les différents paramètres du nœud **dataStore > virtualDir**.Il s’agit de la configuration du mapping entre les répertoires virtuels et réels.
+Voici les différents paramètres du nœud **dataStore > virtualDir**. Il s’agit de la configuration du mapping entre les répertoires virtuels et réels.
 
 Pour plus d&#39;informations, voir la section [Gestion des ressources publiques](file-res-management.md).
 
@@ -469,7 +472,7 @@ Voici la configuration par défaut :
 
 ### preprocessCommand {#preprocesscommand}
 
-Voici les différents paramètres du nœud **dataStore > preprocessCommand**.Il s’agit des commandes autorisées pour le pré-traitement de l’activité de workflow « Chargement de fichier ».
+Voici les différents paramètres du nœud **dataStore > preprocessCommand**. Il s’agit des commandes autorisées pour le pré-traitement de l’activité de workflow « Chargement de fichier ».
 
 <table> 
  <thead> 
@@ -523,7 +526,7 @@ Pour plus d’informations, consultez cette [section](../../installation/using/c
  <tbody> 
   <tr> 
    <td> localDomain<br /> </td> 
-   <td>Nom de domaine : nom de domaine par défaut.Utilisé par la commande SMTP HELO.Par défaut, utilise les paramètres réseau de la première interface réseau déclarée sous Windows ou analyse le fichier /etc/resolv.conf sous Linux (entrée domain ou search). <br /> </td> 
+   <td> Nom de domaine : nom de domaine par défaut. Utilisé par la commande SMTP HELO. Par défaut, utilise les paramètres réseau de la première interface réseau déclarée sous Windows ou analyse le fichier /etc/resolv.conf sous Linux (entrée domain ou search). <br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> <br /> </td> 
   </tr> 
@@ -537,26 +540,30 @@ Pour plus d’informations, consultez cette [section](../../installation/using/c
    <td> retry<br /> </td> 
    <td> Nombre de tentatives pour une requête DNS.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>4<br /></td> 
+   <td> 4<br /> </td> 
   </tr> 
   <tr> 
    <td> temporisation<br /> </td> 
    <td> Délai d’expiration en millisecondes pour une requête DNS.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>5000<br /></td> 
+   <td> 5000<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Note sur **nameSevers** : utilise par défaut les paramètres réseau>de la première interface réseau déclarée sous Windows>non définie sous UNIX. Définit les serveurs de noms de domaine (DNS)>utilisés par le MTA pour obtenir la messagerie déclarée pour>un domaine.
+>Remarque sur **nameSevers** : par défaut, utilise le réseau
+>paramètres de la première interface réseau déclarée dans Windows
+>non définie dans UNIX. Définit les serveurs de noms de domaine (DNS)
+>utilisé par le MTA pour obtenir le Mail Exchanger déclaré pour
+>un domaine.
 >
->Si cette valeur n&#39;est pas définie, le MTA recherche ces informations dans la configuration du réseau hôte. Si plusieurs DNS sont possibles, les différentes adresses DNS doivent être séparées par une virgule (exemple : 212.155.207.1,212.155.207.2).Si votre serveur de diffusion comporte plusieurs interfaces réseau, la liste DNS utilisée par le MTA est la première. Dans ce cas, nous vous recommandons de spécifier le paramètre **nameServer** pour éviter toute ambiguïté.
+>Si cette valeur n&#39;est pas définie, le MTA recherche ces informations dans la configuration du réseau hôte. Si plusieurs DNS sont possibles, les différentes adresses DNS doivent être séparées par une virgule (exemple : 212.155.207.1,212.155.207.2). Si votre serveur de diffusion comporte plusieurs interfaces réseau, la liste DNS utilisée par le MTA est la première. Dans ce cas, nous vous recommandons de spécifier le paramètre **nameServer** pour éviter toute ambiguïté.
 
 >[!CAUTION]
 >
->Si votre configuration d’hôte réseau utilise DHCP, le MTA ne trouvera pas la liste DNS fournie par DHCP.Dans ce cas, nous vous recommandons de spécifier la liste DNS dans les paramètres réseau du panneau de contrôle de Windows.
+>Si votre configuration d’hôte réseau utilise DHCP, le MTA ne trouvera pas la liste DNS fournie par DHCP. Dans ce cas, nous vous recommandons de spécifier la liste DNS dans les paramètres réseau du panneau de contrôle de Windows.
 
 ## exec {#exec}
 
@@ -588,7 +595,7 @@ Pour plus d&#39;informations, voir la section [Restreindre les commandes externe
 
 ## htmlToPdf {#htmltopdf}
 
-Voici les différents paramètres du nœud **htmlToPdf**.Il s’agit de la configuration du service de conversion de pages web en document PDF.
+Voici les différents paramètres du nœud **htmlToPdf**. Il s’agit de la configuration du service de conversion de pages web en document PDF.
 
 <table> 
  <thead> 
@@ -610,7 +617,7 @@ Voici les différents paramètres du nœud **htmlToPdf**.Il s’agit de la confi
    <td> maxProcessusCount<br /> </td> 
    <td> Durée max. Nombre maximum de processus de conversion qui peuvent exister simultanément sur une même machine.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>5<br /></td> 
+   <td> 5<br /> </td> 
   </tr> 
   <tr> 
    <td> mode<br /> </td> 
@@ -622,7 +629,7 @@ Voici les différents paramètres du nœud **htmlToPdf**.Il s’agit de la confi
    <td> temporisation<br /> </td> 
    <td> Timeout pour une conversion : durée maximale d’une conversion en secondes. Au-delà, le processus de conversion est arrêté et une erreur est retournée.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>120<br /></td> 
+   <td> 120<br /> </td> 
   </tr> 
   <tr> 
    <td> verbose<br /> </td> 
@@ -634,7 +641,7 @@ Voici les différents paramètres du nœud **htmlToPdf**.Il s’agit de la confi
    <td> waitTime<br /> </td> 
    <td> Délai d’attente pour obtenir un processus : délai d’attente en secondes lorsque tous les processus sont utilisés simultanément dans l’attente de la libération d’un processus. Si ce délai est dépassé, la conversion est arrêtée et une erreur est générée. <br /> </td> 
    <td> Long<br /> </td> 
-   <td>15<br /></td> 
+   <td> 15<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -712,7 +719,7 @@ Voici les différents paramètres du nœud **IMS**. Il s&#39;agit de la configur
 
 ## JavaScript {#javascript}
 
-Voici les différents paramètres du nœud **javaScript**.Il s’agit de la configuration de l’interpréteur JavaScript.
+Voici les différents paramètres du nœud **javaScript**. Il s’agit de la configuration de l’interpréteur JavaScript.
 
 Pour plus d’informations, consultez la [documentation sur le compte-rendu de performances](../../reporting/using/actions-on-reports.md#memory-allocation).
 
@@ -730,20 +737,20 @@ Pour plus d’informations, consultez la [documentation sur le compte-rendu de p
    <td> maxMB<br /> </td> 
    <td> Taille maximum en méga-octets avant de déclencher le garbage collector.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>512 <br /></td> 
+   <td> 512 <br /> </td> 
   </tr> 
   <tr> 
    <td> stackSizeKB<br /> </td> 
    <td> Taille, en kilo-octets, de chaque bloc de pile. Il s’agit d’un paramètre d’optimisation de la gestion de la mémoire qui, en principe, ne devrait pas être ajusté par la plupart des utilisateurs. <br /> </td> 
    <td> Long<br /> </td> 
-   <td>8<br /></td> 
+   <td> 8<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## mailExchanger {#mailexchanger}
 
-Voici les différents paramètres du nœud **mailExchanger**.Il s’agit de la configuration du serveur SMTP.
+Voici les différents paramètres du nœud **mailExchanger**. Il s’agit de la configuration du serveur SMTP.
 
 <table> 
  <thead> 
@@ -765,14 +772,14 @@ Voici les différents paramètres du nœud **mailExchanger**.Il s’agit de la c
    <td> mxPort<br /> </td> 
    <td> Port TCP du serveur SMTP pour le transfert des emails.<br /> </td> 
    <td> Chaîne <br /> </td> 
-   <td>25<br /></td> 
+   <td> 25<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## module {#module}
 
-Voici les différents paramètres du nœud **module**.Il s’agit de la configuration du module de restriction des espaces de noms xtk.
+Voici les différents paramètres du nœud **module**. Il s’agit de la configuration du module de restriction des espaces de noms xtk.
 
 <table> 
  <thead> 
@@ -795,7 +802,7 @@ Voici les différents paramètres du nœud **module**.Il s’agit de la configur
 
 ## monitoring {#monitoring}
 
-Voici les différents paramètres du nœud **monitoring**.Il s’agit de la configuration du service de surveillance.
+Voici les différents paramètres du nœud **&#x200B;**. Il s’agit de la configuration du service de surveillance.
 
 <table> 
  <thead> 
@@ -811,7 +818,7 @@ Voici les différents paramètres du nœud **monitoring**.Il s’agit de la conf
    <td> maxPreparationJobsSec<br /> </td> 
    <td> Durée maximale de préparation : durée en secondes au-delà de laquelle une action de diffusion ne doit plus être en préparation.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>3600<br /></td> 
+   <td> 3600<br /> </td> 
   </tr> 
   <tr> 
    <td> unixScript<br /> </td> 
@@ -830,7 +837,7 @@ Voici les différents paramètres du nœud **monitoring**.Il s’agit de la conf
 
 ## ooconv {#ooconv}
 
-Voici les différents paramètres du nœud **ooconv**.Il s’agit de la configuration du serveur de conversion de documents.
+Voici les différents paramètres du nœud **ooconv**. Il s’agit de la configuration du serveur de conversion de documents.
 
 <table> 
  <thead> 
@@ -846,19 +853,19 @@ Voici les différents paramètres du nœud **ooconv**.Il s’agit de la configur
    <td> maxConversions<br /> </td> 
    <td> Nombre maximum de conversions qu’un serveur OpenOffice est autorisé à effectuer. Au-delà de ce nombre, le serveur est redémarré.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1000<br /></td> 
+   <td> 1000<br /> </td> 
   </tr> 
   <tr> 
    <td> maxServerIdleSec<br /> </td> 
    <td> Durée maximum d’inactivité du serveur OpenOffice avant arrêt.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>7200<br /></td> 
+   <td> 7200<br /> </td> 
   </tr> 
   <tr> 
    <td> portRange<br /> </td> 
    <td> Intervalle de ports sur lesquels les serveurs OpenOffice sont démarrés en écoute.<br /> </td> 
    <td> Chaîne <br /> </td> 
-   <td>8101-8110<br /></td> 
+   <td> 8101-8110<br /> </td> 
   </tr> 
   <tr> 
    <td> url<br /> </td> 
@@ -871,7 +878,7 @@ Voici les différents paramètres du nœud **ooconv**.Il s’agit de la configur
 
 ## proxyConfig {#proxyconfig}
 
-Voici les différents paramètres du nœud **proxyConfig**.Il s’agit de la configuration des paramètres de proxy.
+Voici les différents paramètres du nœud **proxyConfig**. Il s’agit de la configuration des paramètres de proxy.
 
 Pour plus d&#39;informations, voir la section [Paramétrage de la connexion au proxy](file-res-management.md).
 
@@ -962,14 +969,14 @@ Voici les différents paramètres du nœud **threadPool**.
    <td> maxThreadCount<br /> </td> 
    <td> Nombre maximal de threads dans le pool. <br /> </td> 
    <td> Long<br /> </td> 
-   <td>10<br /></td> 
+   <td> 10<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## urlPermission {#urlpermission}
 
-Voici les différents paramètres du nœud **urlPermission**.Il s’agit de la liste des URL auxquelles le code JavaScript peut accéder.
+Voici les différents paramètres du nœud **urlPermission**. Il s’agit de la liste des URL auxquelles le code JavaScript peut accéder.
 
 Liste de domaines et d’expressions régulières spécifiant si une URL rencontrée dans le code JavaScript peut ou non être utilisée par le serveur Adobe Campaign.
 
@@ -1082,7 +1089,7 @@ Voici la configuration par défaut :
 
 ## xtkJobs {#xtkjobs}
 
-Voici les différents paramètres du nœud **xtkJobs**.Il s’agit de la configuration des traitements serveur.
+Voici les différents paramètres du nœud **xtkJobs**. Il s’agit de la configuration des traitements serveur.
 
 <table> 
  <thead> 
@@ -1098,14 +1105,14 @@ Voici les différents paramètres du nœud **xtkJobs**.Il s’agit de la configu
    <td> purgeLogsPeriod<br /> </td> 
    <td> Période en millisecondes de rafraîchissement de l’état mémoire d’un traitement serveur.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>500<br /></td> 
+   <td> 500<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## archiving {#archiving}
 
-Voici les différents paramètres du nœud **archiving**.Il s’agit de la configuration des opérations d’archivage en arrière-plan.
+Voici les différents paramètres du nœud **archiving**. Il s’agit de la configuration des opérations d’archivage en arrière-plan.
 
 Pour plus d&#39;informations, voir la section [Activer l&#39;archivage des emails (on-premise)](../../installation/using/email-archiving.md#activating-email-archiving--on-premise-).
 
@@ -1123,13 +1130,13 @@ Pour plus d&#39;informations, voir la section [Activer l&#39;archivage des email
    <td> acquireLimit<br /> </td> 
    <td> Quantité d’EML à traiter en même temps<br /> </td> 
    <td> Long<br /> </td> 
-   <td>100<br /></td> 
+   <td> 100<br /> </td> 
   </tr> 
   <tr> 
    <td> archivingType<br /> </td> 
    <td> Stratégie d’archivage des messages envoyés (énumération). Les valeurs possibles sont '0' (aucun archivage) et '1' (transfert l’archivage des messages envoyés vers un serveur SMTP).<br /> </td> 
    <td> Octet<br /> </td> 
-   <td>0<br /></td> 
+   <td> 0<br /> </td> 
   </tr> 
   <tr> 
    <td> args<br /> </td> 
@@ -1147,19 +1154,19 @@ Pour plus d&#39;informations, voir la section [Activer l&#39;archivage des email
    <td> compressBatchSize<br /> </td> 
    <td> Taille d’une archive compressée : nombre de fichiers max dans une archive compressée.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>10000<br /></td> 
+   <td> 10000<br /> </td> 
   </tr> 
   <tr> 
    <td> compressionFormat<br /> </td> 
    <td> Format de compression utilisé lors de l’archivage (énumération). Les valeurs possibles sont '0' (aucune compression) et '1' (compresse les messages envoyés au format zip).<br /> </td> 
    <td> Octet<br /> </td> 
-   <td>1<br /></td> 
+   <td> 1<br /> </td> 
   </tr> 
   <tr> 
    <td> expirationDelay<br /> </td> 
    <td> Délai avant l’archivage automatique des emails non traités : nombre de jours avant la mise en archive automatique des emails non traités.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>2<br /></td> 
+   <td> 2<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
@@ -1171,37 +1178,37 @@ Pour plus d&#39;informations, voir la section [Activer l&#39;archivage des email
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> Alerte consommation mémoire : alerte pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1800<br /></td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> Avertissement consommation mémoire : avertissement pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1600<br /></td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> pollDelay<br /> </td> 
    <td> Délai (en secondes) entre chaque événement de mise à jour.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>60<br /></td> 
+   <td> 60<br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
    <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus dinformations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
-   <td>'06:00:00' <br /></td> 
+   <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> purgeArchivesDelay<br /> </td> 
    <td> Nombre de jours avant la purge des emails non traités.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>7<br /></td> 
+   <td> 7<br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td>Priorité au démarrage.Les modules de faible priorité sont démarrés en premier et arrêtés en dernier.Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
+   <td> Priorité au démarrage. Les modules de faible priorité sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
    <td> Court<br /> </td> 
-   <td>10<br /></td> 
+   <td> 10<br /> </td> 
   </tr> 
   <tr> 
    <td> smtpBccAddress<br /> </td> 
@@ -1219,7 +1226,7 @@ Pour plus d&#39;informations, voir la section [Activer l&#39;archivage des email
    <td> smtpNbConnection<br /> </td> 
    <td> Nombre de connexions au serveur SMTP d’archivage.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1<br /></td> 
+   <td> 1<br /> </td> 
   </tr> 
   <tr> 
    <td> smtpRelayAddress<br /> </td> 
@@ -1231,14 +1238,14 @@ Pour plus d&#39;informations, voir la section [Activer l&#39;archivage des email
    <td> smtpRelayPort<br /> </td> 
    <td> Port IP du serveur SMTP.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>25<br /></td> 
+   <td> 25<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## inMail {#inmail}
 
-Voici les différents paramètres du nœud **inMail**.Il s’agit de la configuration du module de gestion des e-mails entrants.
+Voici les différents paramètres du nœud **inMail**. Il s’agit de la configuration du module de gestion des e-mails entrants.
 
 <table> 
  <thead> 
@@ -1282,7 +1289,7 @@ Voici les différents paramètres du nœud **inMail**.Il s’agit de la configur
   </tr> 
   <tr> 
    <td> ignoreSize<br /> </td> 
-   <td>Ignorer la taille du message : utilisé pour ignorer la taille d’un message renvoyé par les serveurs POP3.Dans ce cas, le modèle attend un « . » à la fin des messages. <br /></td> 
+   <td> Ignorer la taille du message : utilisé pour ignorer la taille d’un message renvoyé par les serveurs POP3. Dans ce cas, le modèle attend un « . » à la fin des messages. <br /> </td> 
    <td> Booléen<br /> </td> 
    <td> false<br /> </td> 
   </tr> 
@@ -1290,7 +1297,7 @@ Voici les différents paramètres du nœud **inMail**.Il s’agit de la configur
    <td> inMailPeriodSec<br /> </td> 
    <td> Période de lecture des messages : fréquence d’interrogation des files de messages.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>5<br /></td> 
+   <td> 5<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
@@ -1302,74 +1309,74 @@ Voici les différents paramètres du nœud **inMail**.Il s’agit de la configur
    <td> maxBroadLog<br /> </td> 
    <td> Nombre maximum de logs à mettre à jour : définit le nombre maximum de messages de logs de diffusion conservés en mémoire avant la mise à jour de la base de données.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>20<br /></td> 
+   <td> 20<br /> </td> 
   </tr> 
   <tr> 
    <td> maxMsgPerSession<br /> </td> 
    <td> Nombre maximal de messages à lire au cours d’une session POP3.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>200<br /></td> 
+   <td> 200<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> Alerte consommation mémoire : alerte pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1800<br /></td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> Avertissement consommation mémoire : avertissement pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1600<br /></td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSessionTTLSec<br /> </td> 
    <td> Durée de la session : durée maximale de la session de traitement des messages.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>100<br /></td> 
+   <td> 100<br /> </td> 
   </tr> 
   <tr> 
    <td> popMailPeriodSec<br /> </td> 
    <td> Période d’interrogation des comptes POP3.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>300<br /></td> 
+   <td> 300<br /> </td> 
   </tr> 
   <tr> 
    <td> popQueueSize<br /> </td> 
    <td> Taille de la file de messages lus<br /> </td> 
    <td> Long<br /> </td> 
-   <td>100<br /></td> 
+   <td> 100<br /> </td> 
   </tr> 
   <tr> 
    <td> popTimeoutSec<br /> </td> 
    <td> Temporisation des communications avec le serveur POP3. <br /> </td> 
    <td> Long<br /> </td> 
-   <td>300<br /></td> 
+   <td> 300<br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
    <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus dinformations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
-   <td>'06:00:00' <br /></td> 
+   <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> reloadPeriodSec<br /> </td> 
    <td> Fréquence du rechargement depuis la base de données des comptes à interroger.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>600<br /></td> 
+   <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td>Priorité au démarrage.Les modules de faible priorité sont démarrés en premier et arrêtés en dernier.Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
+   <td> Priorité au démarrage. Les modules de faible priorité sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
    <td> Court<br /> </td> 
-   <td>10<br /></td> 
+   <td> 10<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### msgDump {#msgdump}
 
-Dans le nœud **inMail > msgDump**, configurez les paramètres suivants.Il s’agit de la configuration de la sauvegarde des messages traités.
+Dans le nœud **inMail > msgDump**, configurez les paramètres suivants. Il s’agit de la configuration de la sauvegarde des messages traités.
 
 <table> 
  <thead> 
@@ -1398,7 +1405,7 @@ Dans le nœud **inMail > msgDump**, configurez les paramètres suivants.Il s’
 
 ## interactiond {#interactiond}
 
-Voici les différents paramètres du nœud **interactiond**.Il s’agit de la configuration du démon d’écriture des événements Interaction entrants.
+Voici les différents paramètres du nœud **interactiond**. Il s’agit de la configuration du démon d’écriture des événements Interaction entrants.
 
 Pour plus d&#39;informations, voir la section [Interaction - Mémoire tampon](../../installation/using/interaction-data-buffer.md).
 
@@ -1428,7 +1435,7 @@ Pour plus d&#39;informations, voir la section [Interaction - Mémoire tampon](..
    <td> callDataSize<br /> </td> 
    <td> Durée max. Nombre maximal de caractères stockés en mémoire partagée pour les données d'appel.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>0<br /></td> 
+   <td> 0<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
@@ -1440,56 +1447,56 @@ Pour plus d&#39;informations, voir la section [Interaction - Mémoire tampon](..
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> Alerte consommation mémoire : alerte pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1800<br /></td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> Avertissement consommation mémoire : avertissement pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1600<br /></td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSharedEntries<br /> </td> 
    <td> Durée max. Nombre maximal d'événements stockés en mémoire partagée.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>25000<br /></td> 
+   <td> 25000<br /> </td> 
   </tr> 
   <tr> 
    <td> nextOffersSize<br /> </td> 
    <td> Nombre maximal d’offres éligibles classées juste après les propositions, à stocker pour statistiques.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>0<br /></td> 
+   <td> 0<br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
    <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus dinformations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
-   <td>'06:00:00' <br /></td> 
+   <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td>Priorité au démarrage.Les modules de faible priorité sont démarrés en premier et arrêtés en dernier.Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
+   <td> Priorité au démarrage. Les modules de faible priorité sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
    <td> Court<br /> </td> 
-   <td>10<br /></td> 
+   <td> 10<br /> </td> 
   </tr> 
   <tr> 
    <td> statsPeriod<br /> </td> 
    <td> Durée d’agrégation en secondes pour les statistiques des temps de réponse. 0 signifie que le stockage des statistiques est désactivé.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>600<br /></td> 
+   <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> targetKeySize<br /> </td> 
    <td> Durée max. Nombre maximal de caractères stockés en mémoire partagée pour l'identification d'un individu.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>16<br /></td> 
+   <td> 16<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## mta {#mta}
 
-Voici les différents paramètres du nœud **mta**.Il s’agit de la configuration des agents de diffusion.
+Voici les différents paramètres du nœud **mta**. Il s’agit de la configuration des agents de diffusion.
 
 <table> 
  <thead> 
@@ -1535,7 +1542,7 @@ Voici les différents paramètres du nœud **mta**.Il s’agit de la configurati
    <td> errorPeriodSec<br /> </td> 
    <td> Fréquence des statistiques d’erreur : intervalle entre la génération des statistiques et le stockage dans la base de données. <br /> </td> 
    <td> Long<br /> </td> 
-   <td>300<br /></td> 
+   <td> 300<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
@@ -1551,45 +1558,45 @@ Voici les différents paramètres du nœud **mta**.Il s’agit de la configurati
   </tr> 
   <tr> 
    <td> logLevel<br /> </td> 
-   <td> Niveau d'affichage des messages de log. Niveau de gravité des logs écrits dans la base de données.Les messages de log générés par le MTA ne sont pas tous toujours écrits dans la base de données.Avec ce paramètre, vous pouvez définir le niveau à partir duquel vous considérez qu’un message doit être écrit dans la base de données.Si vous définissez le niveau 2, les messages de niveaux 1 et 0 sont également écrits, tandis que si vous définissez le niveau 1, seuls les messages de niveaux 1 et 0 sont écrits.Les valeurs possibles sont : 0 (erreurs), 1 (avertissement), 2 (informations)<br /> </td> 
+   <td> Niveau d'affichage des messages de log. Niveau de gravité des logs écrits dans la base de données. Les messages de log générés par le MTA ne sont pas tous toujours écrits dans la base de données. Avec ce paramètre, vous pouvez définir le niveau à partir duquel vous considérez qu’un message doit être écrit dans la base de données. Si vous définissez le niveau 2, les messages de niveaux 1 et 0 sont également écrits, tandis que si vous définissez le niveau 1, seuls les messages de niveaux 1 et 0 sont écrits. Les valeurs possibles sont : 0 (erreurs), 1 (avertissement), 2 (informations)<br /> </td> 
    <td> Long<br /> </td> 
-   <td>2<br /></td> 
+   <td> 2<br /> </td> 
   </tr> 
   <tr> 
    <td> maxMemoryMb<br /> </td> 
    <td> Taille maximum en méga-octets de la mémoire qu’un processus mta est autorisé à consommer. Au-delà de cette taille, le processus doit redémarrer afin de libérer la mémoire qu’il utilise.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1024<br /></td> 
+   <td> 1024<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> Alerte consommation mémoire : alerte pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1800<br /></td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> Avertissement consommation mémoire : avertissement pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1600<br /></td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> minConnectionsToLog<br /> </td> 
    <td> Seuil de connexions à prendre en compte. Les statistiques d’erreurs ne seront pas générées pour un chemin donné si le nombre total de connexions depuis la durée spécifiée par errorPeriodSec est strictement inférieur à ce seuil.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>100<br /></td> 
+   <td> 100<br /> </td> 
   </tr> 
   <tr> 
    <td> minErrorsToLog<br /> </td> 
    <td> Seuil d’erreurs à prendre en compte : les statistiques d’erreurs ne seront pas générées pour un chemin donné si le nombre total d’erreurs depuis la durée spécifiée par errorPeriodSec est strictement inférieur à ce seuil.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1<br /></td> 
+   <td> 1<br /> </td> 
   </tr> 
   <tr> 
    <td> minMessagesToLog<br /> </td> 
    <td> Seuil de messages à prendre en compte. Les statistiques d’erreurs ne seront pas générées pour un chemin donné si le nombre total de messages envoyés sur la période spécifiée par errorPeriodSec est strictement inférieur à ce seuil.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1000<br /></td> 
+   <td> 1000<br /> </td> 
   </tr> 
   <tr> 
    <td> notifRelay<br /> </td> 
@@ -1601,13 +1608,13 @@ Voici les différents paramètres du nœud **mta**.Il s’agit de la configurati
    <td> processRestartTime<br /> </td> 
    <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus dinformations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
-   <td>'06:00:00' <br /></td> 
+   <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> purgeDataLogDelay<br /> </td> 
    <td> Délai avant la suppression des e-mails archivés : nombre de jours avant la purge des e-mails archivés dans le répertoire spécifié dans dataLogPath.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>15<br /></td> 
+   <td> 15<br /> </td> 
   </tr> 
   <tr> 
    <td> retryLostMessages<br /> </td> 
@@ -1617,9 +1624,9 @@ Voici les différents paramètres du nœud **mta**.Il s’agit de la configurati
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td>Priorité au démarrage.Les modules de faible priorité sont démarrés en premier et arrêtés en dernier.Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
+   <td> Priorité au démarrage. Les modules de faible priorité sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
    <td> Court<br /> </td> 
-   <td>10<br /></td> 
+   <td> 10<br /> </td> 
   </tr> 
   <tr> 
    <td> signEmailLinks<br /> </td> 
@@ -1629,13 +1636,14 @@ Voici les différents paramètres du nœud **mta**.Il s’agit de la configurati
   </tr>
   <tr> 
    <td> statServerAddress<br /> </td> 
-   <td>Adresse du serveur des statistiques de diffusion, sous la forme
-    &lt;dns or ip&gt; 
-      <code>[</code>: 
+   <td> Adresse du serveur des statistiques d’envois, au format : 
+    &lt;dns ou ip&gt; 
+      <code>&lbrack;</code>: 
      &lt;port&gt; 
-       <code>]</code>. Afficher
+       <code>&rbrack;</code>. Voir 
       <a href="../../installation/using/email-deliverability.md#coordinates-of-the-statistics-server" target="_blank">Coordonnées du serveur de statistiques</a>. 
-      <br /></td> 
+      <br /> 
+     </td> 
    <td> Chaîne <br /> </td> 
    <td> Si non défini, le port par défaut est 7777.<br /> </td> 
   </tr> 
@@ -1682,7 +1690,7 @@ Voici les différents paramètres du nœud **mta**.Il s’agit de la configurati
 
 ### cache {#cache}
 
-Dans le nœud **cache**, configurez les paramètres suivants.Il s’agit de la configuration du cache fichier local.
+Dans le nœud **cache**, configurez les paramètres suivants. Il s’agit de la configuration du cache fichier local.
 
 <table> 
  <thead> 
@@ -1698,26 +1706,26 @@ Dans le nœud **cache**, configurez les paramètres suivants.Il s’agit de la c
    <td> maxPeriodSec<br /> </td> 
    <td> Recyclé après : période, exprimée en secondes, au-delà de laquelle le fichier est automatiquement supprimé du cache pour libérer de l’espace.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>244800<br /></td> 
+   <td> 244800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSizeOnDiskMb<br /> </td> 
    <td> Taille maximum du cache (Mo).<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1024<br /></td> 
+   <td> 1024<br /> </td> 
   </tr> 
   <tr> 
    <td> purgePeriodSec<br /> </td> 
    <td> Fréquence de purge : durée exprimée en secondes définissant la périodicité de réveil du mécanisme de purge du cache.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>3600<br /></td> 
+   <td> 3600<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### relay {#relay}
 
-Dans le nœud **mta > relay**, configurez les paramètres suivants.Il s’agit de la configuration d’un serveur mail pour assurer la diffusion des messages.
+Dans le nœud **mta > relay**, configurez les paramètres suivants. Il s’agit de la configuration d’un serveur mail pour assurer la diffusion des messages.
 
 La liste sera gérée de la même manière qu’une liste de MX renvoyée par une requête DNS MX. En règle générale, le premier MX est utilisé tant qu’il est disponible, puis le suivant est utilisé, et ainsi de suite.
 
@@ -1743,14 +1751,14 @@ Pour plus d&#39;informations, consultez la section [Relais SMTP](../../installat
    <td> port<br /> </td> 
    <td> Port IP du serveur SMTP.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>25<br /></td> 
+   <td> 25<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### master {#master}
 
-Dans le nœud **mta > master**, configurez les paramètres suivants.Il s’agit de la configuration du serveur principal.
+Dans le nœud **mta > master**, configurez les paramètres suivants. Il s’agit de la configuration du serveur principal.
 
 Pour plus d’informations, consultez cette [section](../../installation/using/configuring-campaign-server.md#mta-child-processes).
 
@@ -1766,46 +1774,46 @@ Pour plus d’informations, consultez cette [section](../../installation/using/c
  <tbody> 
   <tr> 
    <td> dataBasePoolPeriodSec<br /> </td> 
-   <td> Fréquence de recherche dans la base de données des traitements à diffuser. Cette valeur indique la fréquence d’interrogation de la base de données (en secondes).Pour obtenir la liste des traitements en attente de diffusion, le MTA interroge régulièrement la base de données.Lorsqu’il n’y a aucun traitement en attente, la période d’interrogation est définie par cette valeur.Dans le cas contraire, si un traitement a été transféré vers un serveur enfant, cette durée d’interrogation est automatiquement réduite à une seconde afin qu’un nouveau traitement puisse être réalisé dès que possible, c’est-à-dire dès qu’un serveur enfant sera à nouveau disponible.Cela ne signifie pas que la requête de base de données sera effectuée toutes les secondes jusqu’à ce qu’un serveur enfant soit à nouveau disponible.En fait, un accès à la base de données n’est possible que lorsqu’au moins un serveur enfant est disponible.<br /> </td> 
+   <td> Fréquence de recherche dans la base de données des traitements à diffuser. Cette valeur indique la fréquence d’interrogation de la base de données (en secondes). Pour obtenir la liste des traitements en attente de diffusion, le MTA interroge régulièrement la base de données. Lorsqu’il n’y a aucun traitement en attente, la période d’interrogation est définie par cette valeur. Dans le cas contraire, si un traitement a été transféré vers un serveur enfant, cette durée d’interrogation est automatiquement réduite à une seconde afin qu’un nouveau traitement puisse être réalisé dès que possible, c’est-à-dire dès qu’un serveur enfant sera à nouveau disponible. Cela ne signifie pas que la requête de base de données sera effectuée toutes les secondes jusqu’à ce qu’un serveur enfant soit à nouveau disponible. En fait, un accès à la base de données n’est possible que lorsqu’au moins un serveur enfant est disponible.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>30<br /></td> 
+   <td> 30<br /> </td> 
   </tr> 
   <tr> 
    <td> dataBaseRetryDelaySec<br /> </td> 
-   <td> Période d'attente en cas d'échec de connexion à la base de données. Un échec de connexion à la base de données est généralement dû au serveur de base de données lui-même.Le serveur peut également être arrêté à des fins de maintenance, par exemple.Le paramètre DataBaseRetryDelay définit la période d’attente en secondes en cas d’échec de connexion à la base de données avant de tenter à nouveau une connexion à celle-ci.<br /> </td> 
+   <td> Période d'attente en cas d'échec de connexion à la base de données. Un échec de connexion à la base de données est généralement dû au serveur de base de données lui-même. Le serveur peut également être arrêté à des fins de maintenance, par exemple. Le paramètre DataBaseRetryDelay définit la période d’attente en secondes en cas d’échec de connexion à la base de données avant de tenter à nouveau une connexion à celle-ci.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>60<br /></td> 
+   <td> 60<br /> </td> 
   </tr> 
   <tr> 
    <td> domainKeysReloadPeriodSec<br /> </td> 
-   <td> Durée de validité du cache des clés privées (DomainKeys). Les clés privées utilisées pour signer les e-mails suivant la recommandation DomainKeys (http://antispam.yahoo.com/domainkeys) sont stockées sous forme d’options dans la base de données.Le paramètre domainKeysReloadPeriodSec définit combien de secondes le MTA peut conserver ces clés en cache.Au-delà de cette période, toutes les clés doivent être rechargées à partir de la base de données.<br /> </td> 
+   <td> Durée de validité du cache des clés privées (DomainKeys). Les clés privées utilisées pour signer les e-mails suivant la recommandation DomainKeys (http://antispam.yahoo.com/domainkeys) sont stockées sous forme d’options dans la base de données. Le paramètre domainKeysReloadPeriodSec définit combien de secondes le MTA peut conserver ces clés en cache. Au-delà de cette période, toutes les clés doivent être rechargées à partir de la base de données.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>600<br /></td> 
+   <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSpareServers<br /> </td> 
-   <td> Nombre maximum de serveurs enfants. Représente le nombre maximal de serveurs en cours d’exécution.Il est recommandé de limiter ce nombre à un optimum compatible avec les ressources mémoire du serveur.Cela peut être vérifié lors d’une diffusion.La mémoire utilisée ne doit pas dépasser un tiers de la mémoire physique disponible, sinon la permutation sera utilisée.Pour plus d'informations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#mta-child-processes" target="_blank">Processus MTA enfant</a>.<br /> </td> 
+   <td> Nombre maximum de serveurs enfants. Représente le nombre maximal de serveurs en cours d’exécution. Il est recommandé de limiter ce nombre à un optimum compatible avec les ressources mémoire du serveur. Cela peut être vérifié lors d’une diffusion. La mémoire utilisée ne doit pas dépasser un tiers de la mémoire physique disponible, sinon la permutation sera utilisée. Pour plus d'informations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#mta-child-processes" target="_blank">Processus MTA enfant</a>.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>2<br /></td> 
+   <td> 2<br /> </td> 
   </tr> 
   <tr> 
    <td> minSpareServers<br /> </td> 
-   <td> Nombre minimum de serveurs enfants. Le MTA tente de conserver au moins ce nombre de serveurs en fonctionnement.S’il en existe moins, les nouveaux seront démarrés au rythme d’un par seconde jusqu’à ce que cette valeur soit atteinte.<br /> </td> 
+   <td> Nombre minimum de serveurs enfants. Le MTA tente de conserver au moins ce nombre de serveurs en fonctionnement. S’il en existe moins, les nouveaux seront démarrés au rythme d’un par seconde jusqu’à ce que cette valeur soit atteinte.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>0<br /></td> 
+   <td> 0<br /> </td> 
   </tr> 
   <tr> 
    <td> startSpareServers<br /> </td> 
-   <td> Nombre de serveurs enfants au démarrage. Le nombre de serveurs enfants est surveillé dynamiquement ; lorsque le MTA démarre, il créé autant de serveurs enfants que le nombre précisé par cette valeur.Normalement, les serveurs enfants ne peuvent pas être démarrés à un rythme supérieur à un serveur par seconde afin d’économiser les ressources de l’hôte.Cependant, lors du démarrage du MTA, cette limitation n’est pas respectée, de sorte que les serveurs enfants soient disponibles le plus rapidement possible.<br /> </td> 
+   <td> Nombre de serveurs enfants au démarrage. Le nombre de serveurs enfants est surveillé dynamiquement ; lorsque le MTA démarre, il créé autant de serveurs enfants que le nombre précisé par cette valeur. Normalement, les serveurs enfants ne peuvent pas être démarrés à un rythme supérieur à un serveur par seconde afin d’économiser les ressources de l’hôte. Cependant, lors du démarrage du MTA, cette limitation n’est pas respectée, de sorte que les serveurs enfants soient disponibles le plus rapidement possible.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>0<br /></td> 
+   <td> 0<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### child {#child}
 
-Dans le nœud **mta > child**, configurez les paramètres suivants.Il s’agit de la configuration des serveurs enfants.
+Dans le nœud **mta > child**, configurez les paramètres suivants. Il s’agit de la configuration des serveurs enfants.
 
 Pour plus d&#39;informations, voir la section [Optimisation de l&#39;envoi d&#39;emails](../../installation/using/email-deliverability.md#email-sending-optimization).
 
@@ -1827,45 +1835,45 @@ Pour plus d&#39;informations, voir la section [Optimisation de l&#39;envoi d&#39
   </tr> 
   <tr> 
    <td> idleChildTimeoutSec<br /> </td> 
-   <td> Timeout de fermeture des serveurs enfants inactifs. Si un serveur fils reste inactif pendant une période de temps supérieure à la valeur définie par ce paramètre, il se termine automatiquement pour libérer les ressources qu’il consomme inutilement.<br /> </td> 
+   <td> Timeout de fermeture des serveurs enfants inactifs. Si un serveur enfant reste inactif pendant une période de temps supérieure à la valeur définie par ce paramètre, il se termine automatiquement pour libérer les ressources qu’il consomme inutilement.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>60<br /></td> 
+   <td> 60<br /> </td> 
   </tr> 
   <tr> 
    <td> maxAgeSec<br /> </td> 
    <td> Durée maximale de rétention d’un message. Si un message préparé ne peut être envoyé à cause du contrôle de flux ou de l’impossibilité de se connecter au MTA cible, le message préparé est abandonné et sera traité lors de la prochaine reprise.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>600<br /></td> 
+   <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> maxGCMConnectPerChild<br /> </td> 
    <td> Limite maximale du nombre de requêtes HTTP parallèles sur le serveur FCM initiées par chaque serveur enfant.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>8<br /></td> 
+   <td> 8<br /> </td> 
   </tr> 
   <tr> 
    <td> maxMsgPerChild<br /> </td> 
-   <td> Nombre maximum de messages par serveur enfant. Chaque exemplaire enfant du MTA traite ce nombre de messages et meurt.Il est important de spécifier un nombre pour faire en sorte que la mémoire ou les fuites de ressources dans le MTA soient inoffensives (généralement quelques milliers).Bien qu’il n’existe pas de fuite connue dans le MTA, il peut s’en produire dans les feuilles de style XSL ou dans les codes JavaScript présents dans les messages.<br /> </td> 
+   <td> Nombre maximum de messages par serveur enfant. Chaque exemplaire enfant du MTA traite ce nombre de messages et meurt. Il est important de spécifier un nombre pour faire en sorte que la mémoire ou les fuites de ressources dans le MTA soient inoffensives (généralement quelques milliers). Bien qu’il n’existe pas de fuite connue dans le MTA, il peut s’en produire dans les feuilles de style XSL ou dans les codes JavaScript présents dans les messages.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>5000000<br /></td> 
+   <td> 5000000<br /> </td> 
   </tr> 
   <tr> 
    <td> maxWaitingMessages<br /> </td> 
    <td> Messages en attente : nombre maximum de messages préparés en mémoire en attente de diffusion. <br /> </td> 
    <td> Long<br /> </td> 
-   <td>2000<br /></td> 
+   <td> 2000<br /> </td> 
   </tr> 
   <tr> 
    <td> maxWorkingSetMb<br /> </td> 
    <td> Taille maximum en méga-octets de la mémoire qu’un serveur enfant est autorisé à consommer. Au-delà de cette limite, le processus est arrêté afin que la mémoire utilisée soit libérée sur le système. <br /> </td> 
    <td> Long<br /> </td> 
-   <td>128<br /></td> 
+   <td> 128<br /> </td> 
   </tr> 
   <tr> 
    <td> soapConnectorTimeoutSec<br /> </td> 
    <td> Délai d’expiration (en secondes) après lequel une connexion SOAP pour un connecteur de diffusion est abandonnée.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>600<br /></td> 
+   <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> startWithFirstMX<br /> </td> 
@@ -1877,12 +1885,12 @@ Pour plus d&#39;informations, voir la section [Optimisation de l&#39;envoi d&#39
    <td> timeToLive<br /> </td> 
    <td> Nombre maximum de tentatives consécutives par reprise.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>48<br /></td> 
+   <td> 48<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Dans le nœud **mta > child > smtp**, configurez les paramètres suivants.Il s’agit de la configuration des sessions SMTP.
+Dans le nœud **mta > child > smtp**, configurez les paramètres suivants. Il s’agit de la configuration des sessions SMTP.
 
 <table> 
  <thead> 
@@ -1902,26 +1910,26 @@ Dans le nœud **mta > child > smtp**, configurez les paramètres suivants.Il s�
   </tr> 
   <tr> 
    <td> idleSessionTimeoutSec<br /> </td> 
-   <td> Délai d'expiration des sessions inactives Ce paramètre n’est utilisé que si la session est réutilisée pour la transmission de plusieurs messages vers un domaine donné.Lorsque le MTA a terminé la transmission du message, la session SMTP qu’il a utilisée n’est pas systématiquement fermée.Si un message est prêt à être envoyé pour ce même domaine, la même session SMTP sera réutilisée et c’est pourquoi la session n’est pas automatiquement fermée.Le paramètre IdleSessionTimeout permet de définir la durée pendant laquelle une session SMTP peut rester active en attendant un autre message.Une fois la durée écoulée, la session est automatiquement fermée.<br /> </td> 
+   <td> Délai d'expiration des sessions inactives Ce paramètre n’est utilisé que si la session est réutilisée pour la transmission de plusieurs messages vers un domaine donné. Lorsque le MTA a terminé la transmission du message, la session SMTP qu’il a utilisée n’est pas systématiquement fermée. Si un message est prêt à être envoyé pour ce même domaine, la même session SMTP sera réutilisée et c’est pourquoi la session n’est pas automatiquement fermée. Le paramètre IdleSessionTimeout permet de définir la durée pendant laquelle une session SMTP peut rester active en attendant un autre message. Une fois la durée écoulée, la session est automatiquement fermée.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>5<br /></td> 
+   <td> 5<br /> </td> 
   </tr> 
   <tr> 
    <td> initialDelaySec<br /> </td> 
    <td> Délai initial avant de retenter une connexion. Ce délai est doublé à chaque échec.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>4<br /></td> 
+   <td> 4<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSessionsPerChild<br /> </td> 
-   <td> Nombre maximum de sessions SMTP par serveur enfant. Pour délivrer un message, le MTA initie une connexion SMTP vers le MTA destinataire.Le nombre maximum de sessions SMTP actives en même temps sur un serveur enfant est limité par cette valeur.En multipliant cette valeur à maxSpareServers, on obtient le nombre maximum de messages qui peuvent être délivrés en parallèle sur un serveur enfant.<br /> </td> 
+   <td> Nombre maximum de sessions SMTP par serveur enfant. Pour délivrer un message, le MTA initie une connexion SMTP vers le MTA destinataire. Le nombre maximum de sessions SMTP actives en même temps sur un serveur enfant est limité par cette valeur. En multipliant cette valeur à maxSpareServers, on obtient le nombre maximum de messages qui peuvent être délivrés en parallèle sur un serveur enfant.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1000<br /></td> 
+   <td> 1000<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Dans le nœud **mta > child > smtp > IPAffinity**, configurez les paramètres suivants.Il s’agit de la configuration de la gestion des affinités avec les adresses IP pour une meilleure maîtrise du trafic SMTP sortant.
+Dans le nœud **mta > child > smtp > IPAffinity**, configurez les paramètres suivants. Il s’agit de la configuration de la gestion des affinités avec les adresses IP pour une meilleure maîtrise du trafic SMTP sortant.
 
 Pour plus d&#39;informations, voir les sections [Liste des adresses IP à utiliser](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use) et [Gérer le trafic SMTP sortant avec les affinités](../../installation/using/configuring-campaign-server.md#managing-outbound-smtp-traffic-with-affinities).
 
@@ -1967,7 +1975,7 @@ Pour plus d&#39;informations, voir la section [Liste des adresses IP à utiliser
   </tr> 
   <tr> 
    <td> publicId<br /> </td> 
-   <td>Identifiant de l’adresse publique associée.Utilisé comme clé pour le serveur de statistiques.Doit être numérique.Voir cette <a href="../../installation/using/email-deliverability.md#managing-ip-addresses">section</a>.<br /> </td> 
+   <td> Identifiant de l’adresse publique associée. Utilisé comme clé pour le serveur de statistiques. Doit être numérique. Voir cette <a href="../../installation/using/email-deliverability.md#managing-ip-addresses">section</a>.<br /> </td> 
    <td> Long<br /> </td> 
   </tr> 
   <tr> 
@@ -1995,7 +2003,7 @@ Pour plus d&#39;informations, voir la section [Liste des adresses IP à utiliser
 
 ## nmac {#nmac}
 
-Voici les différents paramètres du nœud **nmac**.Il s’agit de la configuration des diffusions de notifications push.
+Voici les différents paramètres du nœud **nmac**. Il s’agit de la configuration des diffusions de notifications push.
 
 <table> 
  <thead> 
@@ -2018,7 +2026,7 @@ Voici les différents paramètres du nœud **nmac**.Il s’agit de la configurat
 
 ### relay {#relay-1}
 
-Voici les différents paramètres du nœud **nmac > relay**.Il s’agit de la configuration d’un relais pour diffuser des messages (connecteur ios http2).
+Voici les différents paramètres du nœud **nmac > relay**. Il s’agit de la configuration d’un relais pour diffuser des messages (connecteur ios http2).
 
 <table> 
  <thead> 
@@ -2040,7 +2048,7 @@ Voici les différents paramètres du nœud **nmac > relay**.Il s’agit de la co
    <td> port<br /> </td> 
    <td> Port du relais.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>443<br /></td> 
+   <td> 443<br /> </td> 
   </tr> 
   <tr> 
    <td> trustedCertsChain<br /> </td> 
@@ -2053,7 +2061,7 @@ Voici les différents paramètres du nœud **nmac > relay**.Il s’agit de la co
 
 ## pipelined {#pipelined}
 
-Voici les différents paramètres du nœud **pipelined**.Il s’agit de la configuration du module de traitement des événements pour les Pipeline Services.
+Voici les différents paramètres du nœud **pipelined**. Il s’agit de la configuration du module de traitement des événements pour les Pipeline Services.
 
 <table> 
  <thead> 
@@ -2079,7 +2087,7 @@ Voici les différents paramètres du nœud **pipelined**.Il s’agit de la confi
   </tr> 
   <tr> 
    <td> authGatewayEndpoint<br /> </td> 
-   <td> URL pour obtenir un 'gateway token'.<br /> </td> 
+   <td> URL permettant d’obtenir un jeton de passerelle.<br /> </td> 
    <td> Chaîne <br /> </td> 
    <td> 'https://api.omniture.com' <br /> </td> 
   </tr> 
@@ -2099,7 +2107,7 @@ Voici les différents paramètres du nœud **pipelined**.Il s’agit de la confi
    <td> disableAuth<br /> </td> 
    <td> Désactiver l’authentification : se connecter aux Pipeline Services sans authentification. <br /> </td> 
    <td> Booléen<br /> </td> 
-   <td>2<br /></td> 
+   <td> 2<br /> </td> 
   </tr> 
   <tr> 
    <td> discoverPipelineEndpoint<br /> </td> 
@@ -2111,7 +2119,7 @@ Voici les différents paramètres du nœud **pipelined**.Il s’agit de la confi
    <td> dumpStatePeriodSec<br /> </td> 
    <td> Période de sauvegarde de l’état : fréquence à laquelle les informations internes du processus sont enregistrées dans un fichier. Inactif si 0. <br /> </td> 
    <td> Long<br /> </td> 
-   <td>0<br /></td> 
+   <td> 0<br /> </td> 
   </tr> 
   <tr> 
    <td> forcedPipelineEndpoint<br /> </td> 
@@ -2129,74 +2137,74 @@ Voici les différents paramètres du nœud **pipelined**.Il s’agit de la confi
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> Alerte consommation mémoire : alerte pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1800<br /></td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> Avertissement consommation mémoire : avertissement pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1600<br /></td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> monitorServerPort<br /> </td> 
    <td> Port du serveur de statut : port du serveur HTTP permettant d’interroger le statut du processus. Inactif si 0.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>7781<br /></td> 
+   <td> 7781<br /> </td> 
   </tr> 
   <tr> 
    <td> pointerFlushMessageCount<br /> </td> 
    <td> Le pointeur sera stocké en base à chaque fois que ce nombre de messages est traité.<br /> </td> 
    <td> <br /> </td> 
-   <td>1000<br /></td> 
+   <td> 1000<br /> </td> 
   </tr> 
   <tr> 
    <td> pointerFlushPeriodSec<br /> </td> 
    <td> Délai avant stockage du pointeur : le pointeur sera stocké en base au moins une fois pendant cette période (utile en cas de faible activité).<br /> </td> 
    <td> Long<br /> </td> 
-   <td>5<br /></td> 
+   <td> 5<br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
    <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus dinformations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
-   <td>'06:00:00' <br /></td> 
+   <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> processingJSThreads<br /> </td> 
    <td> Nombre de threads pour le traitement des événements avec un connecteur JavaScript personnalisé.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>4<br /></td> 
+   <td> 4<br /> </td> 
   </tr> 
   <tr> 
    <td> processingThreads<br /> </td> 
    <td> Nombre de threads pour le traitement des événements.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>4<br /></td> 
+   <td> 4<br /> </td> 
   </tr> 
   <tr> 
    <td> retryPeriodSec<br /> </td> 
    <td> Délai entre traitements dans le cas d’un échec.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>30<br /></td> 
+   <td> 30<br /> </td> 
   </tr> 
   <tr> 
    <td> retryValiditySec<br /> </td> 
    <td> Abandonner au bout de cette période : abandonner l’événement si le traitement est toujours en échec après cette période.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>300<br /></td> 
+   <td> 300<br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td>Priorité au démarrage.Les modules de faible priorité sont démarrés en premier et arrêtés en dernier.Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
+   <td> Priorité au démarrage. Les modules de faible priorité sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
    <td> Court<br /> </td> 
-   <td>10<br /></td> 
+   <td> 10<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## repair {#repair}
 
-Voici les différents paramètres du nœud **repair**.Il s’agit de la configuration du module de réparation de la base de données.
+Voici les différents paramètres du nœud **repair**. Il s’agit de la configuration du module de réparation de la base de données.
 
 <table> 
  <thead> 
@@ -2212,7 +2220,7 @@ Voici les différents paramètres du nœud **repair**.Il s’agit de la configur
    <td> repairActionDelayMin<br /> </td> 
    <td> Réparation des actions de diffusion : délai en minutes au-delà duquel les actions de diffusion peuvent être traitées par le module de réparation. <br /> </td> 
    <td> Long<br /> </td> 
-   <td>60<br /></td> 
+   <td> 60<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2353,14 +2361,14 @@ Pour plus d’informations, voir la section [Définition des zones de sécurité
    <td> proxy<br /> </td> 
    <td> Masque ou adresse du (reverse) proxy utilisé par ce sous-réseau pour accéder à l’instance. L’en-tête 'X-Forwarded-For' sera alors testée en lieu et place de ce proxy.<br /> </td> 
    <td> Chaîne <br /> </td> 
-   <td>127.0.0.1 <br /> </td> 
+   <td> 127.0.0.1 <br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## sms {#sms}
 
-Voici les différents paramètres du nœud **sms**.Il s’agit de la configuration du module de gestion des SMS entrants.
+Voici les différents paramètres du nœud **sms**. Il s’agit de la configuration du module de gestion des SMS entrants.
 
 <table> 
  <thead> 
@@ -2388,13 +2396,13 @@ Voici les différents paramètres du nœud **sms**.Il s’agit de la configurati
    <td> dataRetentionDays<br /> </td> 
    <td> Durée maximale en jours de rétention des fichiers de travail du connecteur SMPP.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>60<br /></td> 
+   <td> 60<br /> </td> 
   </tr> 
   <tr> 
    <td> dataSizeMo<br /> </td> 
    <td> Taille maximale en Mo des fichiers de travail SMPP.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>512<br /></td> 
+   <td> 512<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
@@ -2406,55 +2414,55 @@ Voici les différents paramètres du nœud **sms**.Il s’agit de la configurati
    <td> keepAlivePeriod<br /> </td> 
    <td> Périodicité de la trame de maintien de session : période maximale en secondes entre deux trames pour signaler que la session de réception est encore active.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>25<br /></td> 
+   <td> 25<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> Alerte consommation mémoire : alerte pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1800<br /></td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> Avertissement consommation mémoire : avertissement pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1600<br /></td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> pollPeriod<br /> </td> 
    <td> Fréquence de recherche : fréquence d’interrogation des comptes SMS.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>300<br /></td> 
+   <td> 300<br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
    <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus dinformations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
-   <td>'06:00:00' <br /></td> 
+   <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> reloadPeriod<br /> </td> 
    <td> Fréquence de rechargement des comptes : fréquence du rechargement depuis la base de données des comptes à interroger.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>600<br /></td> 
+   <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td>Priorité au démarrage.Les modules de faible priorité sont démarrés en premier et arrêtés en dernier.Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
+   <td> Priorité au démarrage. Les modules de faible priorité sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
    <td> Court<br /> </td> 
-   <td>10<br /></td> 
+   <td> 10<br /> </td> 
   </tr> 
   <tr> 
    <td> srReadDelay<br /> </td> 
    <td> Durée en secondes de retard pour le traitement des SR : ne sont ramenés que les SR dont la date de récupération est au moins antérieure à l’instant actuel moins une durée en secondes donnée par srReadDelay. <br /> </td> 
    <td> Long<br /> </td> 
-   <td>600<br /></td> 
+   <td> 600<br /> </td> 
   </tr> 
   <tr> 
    <td> temporisation<br /> </td> 
    <td> Temporisation des communications avec la passerelle SMS.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>300<br /></td> 
+   <td> 300<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2477,14 +2485,14 @@ Voici les différents paramètres du nœud **sms > netsize.**
    <td> netsizeConnectionTimeout<br /> </td> 
    <td> Temporisation en secondes lors de l’établissement d’une connexion avec Netsize.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>30<br /></td> 
+   <td> 30<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## stat {#stat}
 
-Voici les différents paramètres du nœud **stat**.Il s’agit de la configuration du module de statistiques du MTA.
+Voici les différents paramètres du nœud **stat**. Il s’agit de la configuration du module de statistiques du MTA.
 
 <table> 
  <thead> 
@@ -2518,13 +2526,13 @@ Voici les différents paramètres du nœud **stat**.Il s’agit de la configurat
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> Alerte consommation mémoire : alerte pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1800<br /></td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> Avertissement consommation mémoire : avertissement pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1600<br /></td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> port<br /> </td> 
@@ -2536,20 +2544,20 @@ Voici les différents paramètres du nœud **stat**.Il s’agit de la configurat
    <td> processRestartTime<br /> </td> 
    <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus dinformations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
-   <td>'06:00:00' <br /></td> 
+   <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td>Priorité au démarrage.Les modules de faible priorité sont démarrés en premier et arrêtés en dernier.Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
+   <td> Priorité au démarrage. Les modules de faible priorité sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
    <td> Court<br /> </td> 
-   <td>10<br /></td> 
+   <td> 10<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## syslogd {#syslogd}
 
-Voici les différents paramètres du nœud **syslogd**.Il s’agit de la configuration du module de gestion des logs.
+Voici les différents paramètres du nœud **syslogd**. Il s’agit de la configuration du module de gestion des logs.
 
 <table> 
  <thead> 
@@ -2583,44 +2591,44 @@ Voici les différents paramètres du nœud **syslogd**.Il s’agit de la configu
    <td> maxFileSizeMb<br /> </td> 
    <td> Taille maximum en Mo d’un fichier de log. <br /> </td> 
    <td> Long<br /> </td> 
-   <td>10<br /></td> 
+   <td> 10<br /> </td> 
   </tr> 
   <tr> 
    <td> maxNumberOfLoginsFiles<br /> </td> 
    <td> Nombre maximal de fichiers logins.log à conserver. <br /> </td> 
    <td> Long<br /> </td> 
-   <td>365<br /></td> 
+   <td> 365<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> Alerte consommation mémoire : alerte pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1800<br /></td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> Avertissement consommation mémoire : avertissement pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1600<br /></td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
    <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus dinformations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
-   <td>'06:00:00' <br /></td> 
+   <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td>Priorité au démarrage.Les modules de faible priorité sont démarrés en premier et arrêtés en dernier.Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
+   <td> Priorité au démarrage. Les modules de faible priorité sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
    <td> Court<br /> </td> 
-   <td>10<br /></td> 
+   <td> 10<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## tracking {#tracking}
 
-Voici les différents paramètres du nœud **tracking**.Il s’agit de la configuration du serveur de tracking.
+Voici les différents paramètres du nœud **tracking**. Il s’agit de la configuration du serveur de tracking.
 
 <table> 
  <thead> 
@@ -2654,31 +2662,31 @@ Voici les différents paramètres du nœud **tracking**.Il s’agit de la config
    <td> consolidationPeriodSec<br /> </td> 
    <td> Période de consolidation<br /> </td> 
    <td> Long<br /> </td> 
-   <td>300<br /></td> 
+   <td> 300<br /> </td> 
   </tr> 
   <tr> 
    <td> dedupOpenPeriodMin<br /> </td> 
    <td> Déduplication des ouvertures : déduplication des logs d’ouverture pour limiter les effets liés aux clients mail type Outlook dotés d’un aperçu.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1<br /></td> 
+   <td> 1<br /> </td> 
   </tr> 
   <tr> 
    <td> errorIgnorePercent<br /> </td> 
    <td> Ignorer jusqu’à X % des erreurs : limite la mise à jour des indicateurs de tracking si le pourcentage de journal de tracking non pris en compte n’atteint pas cette valeur. <br /> </td> 
    <td> Octet<br /> </td> 
-   <td>1<br /></td> 
+   <td> 1<br /> </td> 
   </tr> 
   <tr> 
    <td> errorIgnorePeriod<br /> </td> 
    <td> Mise à jour des qualifications d’erreurs : durée maximum de désynchronisation des qualifications des erreurs.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>86400<br /></td> 
+   <td> 86400<br /> </td> 
   </tr> 
   <tr> 
    <td> indicatorsDuration<br /> </td> 
    <td> Calculer les indicateurs pendant : durée depuis la limite de validité d’une diffusion après laquelle les indicateurs consolidés ne sont plus calculés.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>2592000<br /></td> 
+   <td> 2592000<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
@@ -2690,19 +2698,19 @@ Voici les différents paramètres du nœud **tracking**.Il s’agit de la config
    <td> logCountPerRequest<br /> </td> 
    <td> Nombre de logs demandés par appel au serveur de tracking déporté.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1000<br /></td> 
+   <td> 1000<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> Alerte consommation mémoire : alerte pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1800<br /></td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> Avertissement consommation mémoire : avertissement pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1600<br /></td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> phishbowlServiceAPIKey<br /> </td> 
@@ -2720,38 +2728,38 @@ Voici les différents paramètres du nœud **tracking**.Il s’agit de la config
    <td> processRestartTime<br /> </td> 
    <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus dinformations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
-   <td>'06:00:00' <br /></td> 
+   <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td>Priorité au démarrage.Les modules de faible priorité sont démarrés en premier et arrêtés en dernier.Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
+   <td> Priorité au démarrage. Les modules de faible priorité sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
    <td> Court<br /> </td> 
-   <td>10<br /></td> 
+   <td> 10<br /> </td> 
   </tr> 
   <tr> 
    <td> trackingIgnorePercent<br /> </td> 
    <td> Ignorer jusqu’à X % du tracking : limite la mise à jour des indicateurs de tracking si le pourcentage de journal de tracking non pris en compte n’atteint pas cette valeur.<br /> </td> 
    <td> Octet<br /> </td> 
-   <td>1<br /></td> 
+   <td> 1<br /> </td> 
   </tr> 
   <tr> 
    <td> trackingIgnorePeriod<br /> </td> 
    <td> Mise à jour des indicateurs de tracking : durée maximum de désynchronisation des indicateurs de tracking.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>86400<br /></td> 
+   <td> 86400<br /> </td> 
   </tr> 
   <tr> 
    <td> userAgentCacheSize<br /> </td> 
    <td> Taille du cache pour l’identification des navigateurs.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>500<br /></td> 
+   <td> 500<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## trackinglogd {#trackinglogd}
 
-Voici les différents paramètres du nœud **trackinglogd**.Il s’agit de la configuration du démon d’écriture des logs de tracking.
+Voici les différents paramètres du nœud **trackinglogd**. Il s’agit de la configuration du démon d’écriture des logs de tracking.
 
 <table> 
  <thead> 
@@ -2785,62 +2793,62 @@ Voici les différents paramètres du nœud **trackinglogd**.Il s’agit de la co
    <td> maxCreateFileRetry<br /> </td> 
    <td> Tentatives d’écriture max. : nombre maximal de fichiers pouvant être créés en cas d’erreur lors de l’écriture dans les fichiers de logs.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>5<br /></td> 
+   <td> 5<br /> </td> 
   </tr> 
   <tr> 
    <td> maxLogsSizeOnDiskMb<br /> </td> 
    <td> Taille max. des logs : espace disque maximum utilisé par les logs (en Mo). Cette valeur ne peut pas être inférieure à 100 Mo.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>500<br /></td> 
+   <td> 500<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> Alerte consommation mémoire : alerte pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1800<br /></td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> Avertissement consommation mémoire : avertissement pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1600<br /></td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> maxSharedLogs<br /> </td> 
    <td> Nb max de logs : nombre maximum de logs stockés en mémoire partagée. Ne peut pas être inférieur à 10 000. <br /> </td> 
    <td> Long<br /> </td> 
-   <td>25000<br /></td> 
+   <td> 25000<br /> </td> 
   </tr> 
   <tr> 
    <td> processRestartTime<br /> </td> 
    <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus dinformations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
-   <td>'06:00:00' <br /></td> 
+   <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> purgeLogsPeriod<br /> </td> 
    <td> Nb de logs avant purge : nombre de logs insérés avant de déclencher la purge des fichiers de logs. Ne peut pas être inférieur à 50 000.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>50000<br /></td> 
+   <td> 50000<br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td>Priorité au démarrage.Les modules de faible priorité sont démarrés en premier et arrêtés en dernier.Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
+   <td> Priorité au démarrage. Les modules de faible priorité sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
    <td> Court<br /> </td> 
-   <td>10<br /></td> 
+   <td> 10<br /> </td> 
   </tr> 
   <tr> 
    <td> webTrackingParamSize<br /> </td> 
    <td> Nombre maximal de caractères stockés en mémoire partagée pour les paramètres de tracking Web.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>64<br /></td> 
+   <td> 64<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## web {#web}
 
-Voici les différents paramètres du nœud **web**.Il s’agit de la configuration du module web.
+Voici les différents paramètres du nœud **web**. Il s’agit de la configuration du module web.
 
 Pour plus d’informations, consultez cette [section](configuring-campaign-server.md#default-port-for-tomcat).
 
@@ -2864,13 +2872,13 @@ Pour plus d’informations, consultez cette [section](configuring-campaign-serve
    <td> MaxThreads<br /> </td> 
    <td> Nombre maximal de threads.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>75<br /></td> 
+   <td> 75<br /> </td> 
   </tr> 
   <tr> 
    <td> MinSpareThreads<br /> </td> 
    <td> Nombre minimal de threads.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>5<br /></td> 
+   <td> 5<br /> </td> 
   </tr> 
   <tr> 
    <td> args<br /> </td> 
@@ -2888,13 +2896,13 @@ Pour plus d’informations, consultez cette [section](configuring-campaign-serve
    <td> controlPort<br /> </td> 
    <td> Port d’écoute de contrôle du Tomcat : voir la section <a href="configure-tomcat.md" target="_blank">Configurer Tomcat</a>.<br /> </td> 
    <td> Court<br /> </td> 
-   <td>8005<br /></td> 
+   <td> 8005<br /> </td> 
   </tr> 
   <tr> 
    <td> httpPort<br /> </td> 
    <td> Port d’écoute HTTP du Tomcat : voir la section <a href="configure-tomcat.md" target="_blank">Configurer Tomcat</a>.<br /> </td> 
    <td> Court<br /> </td> 
-   <td>8080<br /></td> 
+   <td> 8080<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
@@ -2906,19 +2914,19 @@ Pour plus d’informations, consultez cette [section](configuring-campaign-serve
    <td> maxDeliveryQueueSize<br /> </td> 
    <td> Taille de la file d’attente des appels à SubmitDelivery : nombre maximum d’appels SOAP à SubmitDelivery pouvant être placés en file d’attente.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>50<br /></td> 
+   <td> 50<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> Alerte consommation mémoire : alerte pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1800<br /></td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> Avertissement consommation mémoire : avertissement pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1600<br /></td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> notifRelay<br /> </td> 
@@ -2930,13 +2938,13 @@ Pour plus d’informations, consultez cette [section](configuring-campaign-serve
    <td> processRestartTime<br /> </td> 
    <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus dinformations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
-   <td>'06:00:00' <br /></td> 
+   <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td>Priorité au démarrage.Les modules de faible priorité sont démarrés en premier et arrêtés en dernier.Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
+   <td> Priorité au démarrage. Les modules de faible priorité sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
    <td> Court<br /> </td> 
-   <td>10<br /></td> 
+   <td> 10<br /> </td> 
   </tr> 
   <tr> 
    <td> startSoapRouterInModule<br /> </td> 
@@ -2949,7 +2957,7 @@ Pour plus d’informations, consultez cette [section](configuring-campaign-serve
 
 ### jsp {#jsp}
 
-Voici les différents paramètres du nœud **web > jsp**.Il s’agit de la configuration des paramètres utilisés par les JSP.
+Voici les différents paramètres du nœud **web > jsp**. Il s’agit de la configuration des paramètres utilisés par les JSP.
 
 <table> 
  <thead> 
@@ -2988,7 +2996,7 @@ Voici les différents paramètres du nœud **web > jsp**.Il s’agit de la confi
  </tbody> 
 </table>
 
-Le nœud **web > jsp > classpath** contient la liste de tous les Class Paths à utiliser lors du démarrage de la JVM. Voici la configuration par défaut :
+Le nœud **web > jsp > classpath** contient la liste de tous les chemins de classe à utiliser lors du démarrage de la JVM. Voici la configuration par défaut :
 
 ```
 '$(XTK_INSTALL_DIR)/tomcat-X/bin/bootstrap.jar
@@ -3028,7 +3036,7 @@ Le nœud **web > jsp > classpath** contient la liste de tous les Class Paths �
 
 ### jssp {#jssp}
 
-Voici les différents paramètres du nœud **web > jssp**.Il s’agit de la configuration des paramètres utilisés par les JSSP.
+Voici les différents paramètres du nœud **web > jssp**. Il s’agit de la configuration des paramètres utilisés par les JSSP.
 
 <table> 
  <thead> 
@@ -3050,16 +3058,16 @@ Voici les différents paramètres du nœud **web > jssp**.Il s’agit de la conf
    <td> timeToLive<br /> </td> 
    <td> Nombre maximum de pages servies par un contexte JavaScript. <br /> </td> 
    <td> Long<br /> </td> 
-   <td>1000<br /></td> 
+   <td> 1000<br /> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Le nœud **web > jsp > classpath** contient la liste de tous les Class Paths à utiliser lors du démarrage de la JVM.
+Le nœud **web > jsp > classpath** contient la liste de tous les chemins de classe à utiliser lors du démarrage de la JVM.
 
 ### relay {#relay-2}
 
-Voici les différents paramètres du nœud **web > relay**.Il s’agit de la configuration du relais de requêtes HTTP entre deux zones.
+Voici les différents paramètres du nœud **web > relay**. Il s’agit de la configuration du relais de requêtes HTTP entre deux zones.
 
 Pour plus d’informations, consultez cette [section](../../installation/using/deploying-an-instance.md#synchronizing-public-resources).
 
@@ -3083,13 +3091,13 @@ Pour plus d’informations, consultez cette [section](../../installation/using/d
    <td> forbiddenCharsInAuthority<br /> </td> 
    <td> Caractère(s) interdit(s) (domaine) : liste des caractères interdits dans la partie 'autorité' d’une URI.<br /> </td> 
    <td> Chaîne <br /> </td> 
-   <td>'.?#@/:' <br /></td> 
+   <td> '.?#@/:' <br /> </td> 
   </tr> 
   <tr> 
    <td> forbiddenCharsInPath<br /> </td> 
    <td> Caractère(s) interdit(s) (chemin) : liste des caractères interdits dans la partie 'chemin' d’une URI.<br /> </td> 
    <td> Chaîne <br /> </td> 
-   <td>'?#/'<br /></td> 
+   <td> '?#/'<br /> </td> 
   </tr> 
   <tr> 
    <td> modDir<br /> </td> 
@@ -3113,7 +3121,7 @@ Pour plus d’informations, consultez cette [section](../../installation/using/d
    <td> temporisation<br /> </td> 
    <td> Temps d’attente avant effacement de l’URL bannie.<br /> </td> 
    <td> Chaîne <br /> </td> 
-   <td>'60'<br /></td> 
+   <td> '60'<br /> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3294,7 +3302,7 @@ Voici la configuration par défaut :
 
 ### redirection {#redirection}
 
-Voici les différents paramètres du nœud **web > redirection**.Il s’agit de la configuration du module de redirection.
+Voici les différents paramètres du nœud **web > redirection**. Il s’agit de la configuration du module de redirection.
 
 Pour plus d’informations, consultez cette [section](../../installation/using/deploying-an-instance.md#synchronizing-public-resources).
 
@@ -3336,7 +3344,7 @@ Pour plus d’informations, consultez cette [section](../../installation/using/d
    <td> defLogCount<br /> </td> 
    <td> Nb de logs par appel : nombre de logs retournés par défaut lors de l’appel de la méthode GetTrackingLogs.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>30<br /></td> 
+   <td> 30<br /> </td> 
   </tr> 
   <tr> 
    <td> expirationURL<br /> </td> 
@@ -3348,7 +3356,7 @@ Pour plus d’informations, consultez cette [section](../../installation/using/d
    <td> maxJobsInCache<br /> </td> 
    <td> Nb max de traitements : nombre maximum d’actions de diffusion dans le cache. Ne peut pas être inférieur à 50. <br /> </td> 
    <td> Long<br /> </td> 
-   <td>100<br /></td> 
+   <td> 100<br /> </td> 
   </tr> 
   <tr> 
    <td> showSourceIP<br /> </td> 
@@ -3407,7 +3415,7 @@ Pour plus d&#39;informations, voir la section [Tracking redondant](../../install
    <td> id<br /> </td> 
    <td> Nom<br /> </td> 
    <td> Chaîne <br /> </td> 
-   <td>1<br /></td> 
+   <td> 1<br /> </td> 
   </tr> 
   <tr> 
    <td> url<br /> </td> 
@@ -3420,7 +3428,7 @@ Pour plus d&#39;informations, voir la section [Tracking redondant](../../install
 
 ### spamCheck {#spamcheck}
 
-Voici les différents paramètres du nœud **web > spamCheck**.Il s’agit de la configuration des paramètres de l’évaluation du score anti-spam des e-mails.
+Voici les différents paramètres du nœud **web > spamCheck**. Il s’agit de la configuration des paramètres de l’évaluation du score anti-spam des e-mails.
 
 Pour plus d&#39;informations, voir la section [Paramétrage de SpamAssassin](../../installation/using/configuring-spamassassin.md).
 
@@ -3443,7 +3451,7 @@ Pour plus d&#39;informations, voir la section [Paramétrage de SpamAssassin](../
 
 ## wfserver {#wfserver}
 
-Voici les différents paramètres du nœud **wfserver**.Il s’agit de la configuration du processus de workflow.
+Voici les différents paramètres du nœud **wfserver**. Il s’agit de la configuration du processus de workflow.
 
 Pour plus d&#39;informations, voir la section [Workflows en haute disponibilité et affinités](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities).
 
@@ -3479,7 +3487,7 @@ Pour plus d&#39;informations, voir la section [Workflows en haute disponibilité
    <td> dataBasePoolPeriodSec<br /> </td> 
    <td> Période<br /> </td> 
    <td> Long<br /> </td> 
-   <td>20<br /></td> 
+   <td> 20<br /> </td> 
   </tr> 
   <tr> 
    <td> initScript<br /> </td> 
@@ -3491,13 +3499,13 @@ Pour plus d&#39;informations, voir la section [Workflows en haute disponibilité
    <td> maxProcessMemoryAlertMb<br /> </td> 
    <td> Alerte consommation mémoire : alerte pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1800<br /></td> 
+   <td> 1800<br /> </td> 
   </tr> 
   <tr> 
    <td> maxProcessMemoryWarningMb<br /> </td> 
    <td> Avertissement consommation mémoire : avertissement pour le niveau de RAM en Mo consommée par un processus donné.<br /> </td> 
    <td> Long<br /> </td> 
-   <td>1600<br /></td> 
+   <td> 1600<br /> </td> 
   </tr> 
   <tr> 
    <td> notifRelay<br /> </td> 
@@ -3509,13 +3517,13 @@ Pour plus d&#39;informations, voir la section [Workflows en haute disponibilité
    <td> processRestartTime<br /> </td> 
    <td> Heure de la journée où le processus est redémarré automatiquement. Pour plus dinformations, consultez la section <a href="../../installation/using/configuring-campaign-server.md#automatic-process-restart" target="_blank">Redémarrage automatique des processus</a>.<br /> </td> 
    <td> Chaîne <br /> </td> 
-   <td>'06:00:00' <br /></td> 
+   <td> '06:00:00' <br /> </td> 
   </tr> 
   <tr> 
    <td> runLevel<br /> </td> 
-   <td>Priorité au démarrage.Les modules de faible priorité sont démarrés en premier et arrêtés en dernier.Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
+   <td> Priorité au démarrage. Les modules de faible priorité sont démarrés en premier et arrêtés en dernier. Le module syslogd doit donc avoir la priorité 0.<br /> </td> 
    <td> Court<br /> </td> 
-   <td>10<br /></td> 
+   <td> 10<br /> </td> 
   </tr> 
  </tbody> 
 </table>

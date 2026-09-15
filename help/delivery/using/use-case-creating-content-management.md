@@ -2,30 +2,37 @@
 product: campaign
 title: 'Cas dʼutilisation : création dʼune gestion de contenu'
 description: 'Cas dʼutilisation : création dʼune gestion de contenu'
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Delivery Templates
 exl-id: b0d1cf0e-656e-4d24-9a31-16fef4cd40d0
 TQID: https://experienceleague.adobe.com/8N-zb5Qx4LHl9iDh0fdAQfzVmA7Lsc5gIwT8tuu0Dfc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1235
+workflow-type: tm+mt
+source-wordcount: '1226'
 ht-degree: 100%
-
 ---
-
 # Cas dʼutilisation : création dʼune gestion de contenu{#use-case-creating-content-management}
 
 
@@ -67,7 +74,7 @@ Ces éléments sont créés via un schéma dédié qui précise pour chaque cont
 
 ## Étape 2 : création du schéma de données {#step-2---creating-the-data-schema}
 
-Un schéma de données est un document XML associé à du contenu.Il décrit la structure XML des données de ce contenu.
+Un schéma de données est un document XML associé à du contenu. Il décrit la structure XML des données de ce contenu.
 
 >[!NOTE]
 >
@@ -85,7 +92,7 @@ Pour créer un schéma de données, les étapes sont les suivantes :
 
    ![](assets/s_ncs_content_create_schema.png)
 
-1. Saisissez le nom et le libellé du schéma dans les champs appropriés.Vous pouvez ajouter une description et lier une image spécifique si nécessaire.
+1. Saisissez le nom et le libellé du schéma dans les champs appropriés. Vous pouvez ajouter une description et lier une image spécifique si nécessaire.
 
    ![](assets/s_ncs_content_param_schema.png)
 
@@ -229,7 +236,7 @@ Pour créer un formulaire de saisie pour la gestion de contenu, les étapes sont
 
 ## Étape 4 : création du modèle de construction {#step-4---creating-the-construction-template}
 
-Le langage XSLT permet de transformer un document XML en un autre document de sortie.Cette transformation est décrite en XML dans un document appelé feuille de style.
+Le langage XSLT permet de transformer un document XML en un autre document de sortie. Cette transformation est décrite en XML dans un document appelé feuille de style.
 
 Dans notre exemple, nous allons utiliser un template Javascript pour définir le mode de construction et de disposition des données dans le document généré.
 
@@ -364,7 +371,7 @@ Pour utiliser un template Javascript dans Adobe Campaign, les étapes sont les 
 
 ## Étape 5 : création du modèle de publication {#step-5---creating-the-publication-template}
 
-Vous devez ensuite créer un modèle de publication de contenu qui permettra de faire le lien entre le schéma, le formulaire et le modèle de construction du contenu.Ce modèle de publication peut avoir plusieurs formats de sortie.
+Vous devez ensuite créer un modèle de publication de contenu qui permettra de faire le lien entre le schéma, le formulaire et le modèle de construction du contenu. Ce modèle de publication peut avoir plusieurs formats de sortie.
 
 >[!NOTE]
 >
@@ -380,9 +387,9 @@ Pour notre exemple, les étapes sont les suivantes :
 
    >[!NOTE]
    >
-   >L’option **[!UICONTROL interface DOM]** est cochée par défaut, ce qui signifie qu’il ne sera pas possible d’accéder à ce document au moyen de la syntaxe E4X.L’interface DOM doit être utilisée lorsque cette option est cochée et qu’elle est la syntaxe recommandée.
+   >L’option **[!UICONTROL interface DOM]** est cochée par défaut, ce qui signifie qu’il ne sera pas possible d’accéder à ce document au moyen de la syntaxe E4X. L’interface DOM doit être utilisée lorsque cette option est cochée et qu’elle est la syntaxe recommandée.
    >
-   >Vous pouvez toujours utiliser la syntaxe E4X.Si tel est le cas, veillez à décocher cette option.
+   >Vous pouvez toujours utiliser la syntaxe E4X. Si tel est le cas, veillez à décocher cette option.
 
    Utilisez le bouton **[!UICONTROL Ajouter]** si vous souhaitez créer d&#39;autres modèles de transformation.
 
@@ -410,6 +417,6 @@ Pour créer un contenu directement dans les diffusions, la procédure est la sui
 
    ![](assets/s_ncs_content_in_delivery_edition_tab.png)
 
-1. Cliquez sur l’onglet **[!UICONTROL Aperçu HTML]** pour visualiser le rendu.Vous devez sélectionner une personne destinataire pour tester la personnalisation.
+1. Cliquez sur l’onglet **[!UICONTROL Aperçu HTML]** pour visualiser le rendu. Vous devez sélectionner une personne destinataire pour tester la personnalisation.
 
    ![](assets/s_ncs_content_use_in_delivery_preview.png)

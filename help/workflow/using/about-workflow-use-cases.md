@@ -8,20 +8,23 @@ exl-id: 7c093b34-6b0e-4403-9d9d-fba9ba39ea41
 TQID: https://experienceleague.adobe.com/r0vqPkkBIGiuTxKTUddP2ybqrBGKqK2dOsWgpdhF17Y
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
   - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 210
+source-wordcount: '210'
 ht-degree: 100%
-
 ---
-
 # Cas dʼutilisation de workflows {#about-workflow-use-cases}
 
 

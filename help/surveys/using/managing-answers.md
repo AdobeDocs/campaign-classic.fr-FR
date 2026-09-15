@@ -2,23 +2,24 @@
 product: campaign
 title: Gestion des réponses
 description: Découvrez comment gérer les réponses aux questionnaires
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Surveys
 exl-id: 0b5dc602-e16f-4bf1-bd8f-352e0bc78996
 TQID: https://experienceleague.adobe.com/-xjK3nxUc4Lz-mWyVoUbbIJ8HQvyLRInYk-w8zYLYE4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 909
+workflow-type: tm+mt
+source-wordcount: '900'
 ht-degree: 100%
-
 ---
-
 # Gestion des réponses{#managing-answers}
 
 
@@ -29,7 +30,7 @@ En complément des modes de stockage standard communs à tous les formulaires We
 
 >[!CAUTION]
 >
->Cette option n’est disponible que pour les formulaires web de type **Questionnaire**.Elle n’est pas proposée pour d’autres types de formulaires web.
+>Cette option n’est disponible que pour les formulaires web de type **Questionnaire**. Elle n’est pas proposée pour d’autres types de formulaires web.
 
 ### Stocker les réponses dans un champ archivé {#storing-in-an-archived-field}
 
@@ -45,7 +46,7 @@ Pour ajouter une contrainte, sélectionnez-la dans la liste déroulante. Deux ty
 
 1. Sur la casse des caractères
 
-   Les informations saisies peuvent être stockées dans le champ dans les formats suivants : tout en majuscule, tout en minuscule ou avec la première lettre en majuscule.Cette contrainte n’oblige pas l’utilisateur ou l’utilisatrice à saisir les informations dans le format sélectionné, mais le contenu saisi dans le champ sera transformé lors de l’enregistrement.
+   Les informations saisies peuvent être stockées dans le champ dans les formats suivants : tout en majuscule, tout en minuscule ou avec la première lettre en majuscule. Cette contrainte n’oblige pas l’utilisateur ou l’utilisatrice à saisir les informations dans le format sélectionné, mais le contenu saisi dans le champ sera transformé lors de l’enregistrement.
 
 1. Sur le format des données saisies
 
@@ -91,11 +92,11 @@ Vous pouvez également filtrer les destinataires en fonction des réponses fourn
 
 ![](assets/s_ncs_admin_survey_read_responses_wf.png)
 
-Créez votre requête en fonction des profils que vous souhaitez récupérer.Dans l’exemple ci-dessous, la requête vous permet de sélectionner les profils ayant au moins deux contrats dont un contrat de type A.
+Créez votre requête en fonction des profils que vous souhaitez récupérer. Dans l’exemple ci-dessous, la requête vous permet de sélectionner les profils ayant au moins deux contrats dont un contrat de type A.
 
 ![](assets/s_ncs_admin_survey_read_responses_edit.png)
 
-Pour chaque formulaire, les réponses fournies peuvent être réutilisées dans les champs ou les libellés.Utilisez la syntaxe suivante pour le contenu stocké dans un champ archivé :
+Pour chaque formulaire, les réponses fournies peuvent être réutilisées dans les champs ou les libellés. Utilisez la syntaxe suivante pour le contenu stocké dans un champ archivé :
 
 ```
 <%= ctx.webAppLogRcpData.name of the archived field %
@@ -126,7 +127,7 @@ Vous pouvez l&#39;activer par défaut pour tous les questionnaires (cette option
 
 ## Gestion des scores {#score-management}
 
-Vous pouvez attribuer un score aux options proposées dans les pages du formulaire.Les scores ne peuvent être associés qu’à des questions fermées : case à cocher, valeur d’une liste déroulante, abonnement, etc.
+Vous pouvez attribuer un score aux options proposées dans les pages du formulaire. Les scores ne peuvent être associés qu’à des questions fermées : case à cocher, valeur d’une liste déroulante, abonnement, etc.
 
 ![](assets/s_ncs_admin_survey_score_create.png)
 
@@ -140,7 +141,7 @@ Les scores peuvent être utilisés dans des tests et dans des scripts.
 
 >[!CAUTION]
 >
->Les scores ne peuvent pas être utilisés dans les conditions de visibilité pour les champs d’une même page.Ils peuvent toutefois être utilisés dans les pages suivantes.
+>Les scores ne peuvent pas être utilisés dans les conditions de visibilité pour les champs d’une même page. Ils peuvent toutefois être utilisés dans les pages suivantes.
 
 * Pour utiliser les scores dans des tests, vous devez utiliser le champ **[!UICONTROL Score]** dans la formule de calcul du test, comme dans l&#39;exemple ci-dessous :
 
@@ -162,7 +163,7 @@ Les scores peuvent être utilisés dans des tests et dans des scripts.
 
   ![](assets/s_ncs_admin_survey_score_exe.png)
 
-* Des conditions peuvent être appliquées pour la page à afficher en fonction du score.Elle est configurée comme suit :
+* Des conditions peuvent être appliquées pour la page à afficher en fonction du score. Elle est configurée comme suit :
 
   ![](assets/s_ncs_admin_survey_score_exd.png)
 

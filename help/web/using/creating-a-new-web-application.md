@@ -2,30 +2,37 @@
 product: campaign
 title: Créer une application web
 description: Créer une application web
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps
 exl-id: 5ccf5a21-48aa-4c0d-8cc8-457eb07d9f74
 TQID: https://experienceleague.adobe.com/EvhB-JVuROCW1JnW7d647ijdo9p2AA1f-nCsNayssr4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: a7760dfc-5c44-4d77-bb68-c50b1e265c93
+    internal-label: Security and privacy
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: f391046b-0cf3-4e76-bd3b-97fe06654506
+    internal-label: Web Apps
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 375
+workflow-type: tm+mt
+source-wordcount: '366'
 ht-degree: 100%
-
 ---
-
 # Création d’une application web{#creating-a-new-web-application}
 
 
@@ -40,7 +47,7 @@ Accédez à l&#39;onglet **Campagnes** et sélectionnez le menu **[!UICONTROL Ap
 >
 >Protégez toujours les pages pouvant contenir des informations personnelles. Consultez la [Liste de contrôle relative à la sécurité et à la confidentialité](https://helpx.adobe.com/fr/campaign/kb/acc-security.html#privacy).
 
-Ce modèle détermine le type d’application web.Vous pouvez créer les éléments suivants :
+Ce modèle détermine le type d’application web. Vous pouvez créer les éléments suivants :
 
 1. Des formulaires web (+ modification de profil)
 
@@ -48,11 +55,11 @@ Ce modèle détermine le type d’application web.Vous pouvez créer les éléme
 
 1. Des applications web
 
-   Adobe Campaign permet de créer des applications web destinées à être exposées sur une plateforme web ou dans le cadre d’un extranet, par exemple.Vous pouvez ainsi modifier les données et enregistrer des informations dans Adobe Campaign.Dans ce cas, vous pouvez restreindre leur accès aux utilisateurs et utilisatrices authentifiés (via le contrôle d’accès) et configurer un préchargement des données en fonction de divers critères.Pour plus d’informations, consultez [cette section](about-web-applications.md).
+   Adobe Campaign permet de créer des applications web destinées à être exposées sur une plateforme web ou dans le cadre d’un extranet, par exemple. Vous pouvez ainsi modifier les données et enregistrer des informations dans Adobe Campaign. Dans ce cas, vous pouvez restreindre leur accès aux utilisateurs et utilisatrices authentifiés (via le contrôle d’accès) et configurer un préchargement des données en fonction de divers critères. Pour plus d’informations, consultez [cette section](about-web-applications.md).
 
 1. Landing pages
 
-   Une page de destination est une page HTML dont le contenu est proposé sur un site web et qui permet aux internautes de renseigner des informations qui seront stockées au niveau de leur profil dans la base Adobe Campaign.Le contenu de ce type de page est généralement réalisé par une agence web spécialisée et il est ensuite importé dans Adobe Campaign pour en assurer la mise en ligne, la gestion et le suivi.Pour plus d’informations, consultez [cette page](creating-a-landing-page.md).
+   Une page de destination est une page HTML dont le contenu est proposé sur un site web et qui permet aux internautes de renseigner des informations qui seront stockées au niveau de leur profil dans la base Adobe Campaign. Le contenu de ce type de page est généralement réalisé par une agence web spécialisée et il est ensuite importé dans Adobe Campaign pour en assurer la mise en ligne, la gestion et le suivi. Pour plus d’informations, consultez [cette page](creating-a-landing-page.md).
 
 1. Questionnaires
 
@@ -60,7 +67,7 @@ Ce modèle détermine le type d’application web.Vous pouvez créer les éléme
 
    >[!CAUTION]
    >
-   >**Survey Manager** est un module optionnel d’Adobe Campaign.Veuillez vérifier votre accord de licence.
+   >**Survey Manager** est un module optionnel d’Adobe Campaign. Veuillez vérifier votre accord de licence.
 
 1. Des applications Facebook
 
@@ -68,6 +75,6 @@ Ce modèle détermine le type d’application web.Vous pouvez créer les éléme
 
    >[!CAUTION]
    >
-   >**Social Marketing** est un module optionnel d’Adobe Campaign.Veuillez vérifier votre accord de licence.
+   >**Social Marketing** est un module optionnel d’Adobe Campaign. Veuillez vérifier votre accord de licence.
 
 Le mode de configuration des pages et les paramétrages disponibles peuvent être communs d&#39;un type d&#39;application web à l&#39;autre. Voir à ce propos [cette section](about-web-forms.md).

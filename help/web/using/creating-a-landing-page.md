@@ -2,28 +2,33 @@
 product: campaign
 title: Créer une landing page
 description: Créer une landing page
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Landing Pages
 exl-id: 71c737c2-b0d6-4ae8-a5df-28a08dff82d7
 TQID: https://experienceleague.adobe.com/-IwRJsJKykm7pbLwdlXjLa1YP3TuJX2zvbrJGd2zLto
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 subfeature_v2:
   - id: f391046b-0cf3-4e76-bd3b-97fe06654506
+    internal-label: Web Apps
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 782
+workflow-type: tm+mt
+source-wordcount: '773'
 ht-degree: 100%
-
 ---
-
 # Créer une landing page{#creating-a-landing-page}
 
 
@@ -82,7 +87,7 @@ Pour charger le modèle dans la première page, respectez les étapes suivantes�
 1. Sélectionnez le fichier HTML à utiliser.
 1. Cliquez sur **Ouvrir** afin de démarrer l&#39;import.
 
-   Lors du chargement, la liste des fichiers partagés s’affiche.Le système d’import vérifie que tous les fichiers liés au HTML sélectionné sont présents (CSS, images, etc.).
+   Lors du chargement, la liste des fichiers partagés s’affiche. Le système d’import vérifie que tous les fichiers liés au HTML sélectionné sont présents (CSS, images, etc.).
 
    Cliquez sur le bouton **[!UICONTROL Fermer]** lorsque l&#39;import est terminé.
 
@@ -101,17 +106,17 @@ Vous devez effectuer ces étapes pour chacune des pages insérées dans l&#39;ap
 
 >[!CAUTION]
 >
->**Le DCE exécute le code JavaScript pour la page HTML chargée.** Erreurs JavaScript dans le modèle HTML pouvant apparaître dans l’interface d’Adobe Campaign.Ces erreurs ne sont pas liées à l’éditeur. Pour vérifier qu’il n’y a aucune erreur dans les fichiers importés, il est recommandé de les tester dans un navigateur web avant d’importer les fichiers dans le DCE.
+>**Le DCE exécute le code JavaScript pour la page HTML chargée.** Erreurs JavaScript dans le modèle HTML pouvant apparaître dans l’interface d’Adobe Campaign. Ces erreurs ne sont pas liées à l’éditeur. Pour vérifier qu’il n’y a aucune erreur dans les fichiers importés, il est recommandé de les tester dans un navigateur web avant d’importer les fichiers dans le DCE.
 
 ## Etape 2 - Paramétrage du contenu {#step-2---configuring-the-content}
 
-Dans cette section, nous allons ajuster le contenu importé et lier les champs de la base de données au formulaire de la page web.L’application web créée précédemment est la suivante :
+Dans cette section, nous allons ajuster le contenu importé et lier les champs de la base de données au formulaire de la page web. L’application web créée précédemment est la suivante :
 
 ![](assets/dce_uc1_lp_enchainement.png)
 
 ### Modification du contenu {#modifying-content}
 
-Nous allons d’abord modifier les couleurs de la page.Pour cela :
+Nous allons d’abord modifier les couleurs de la page. Pour cela :
 
 1. Ouvrez la page **[!UICONTROL Collecte]**.
 1. Cliquez sur la zone d&#39;arrière-plan.
@@ -153,7 +158,7 @@ Cette étape est obligatoire car elle va permettre à l’application Web de dé
 
 ### Insertion d&#39;un champ de personnalisation {#inserting-a-personalization-field}
 
-Cette étape permet de personnaliser la page de remerciements.Pour cela :
+Cette étape permet de personnaliser la page de remerciements. Pour cela :
 
 1. Ouvrez la page **[!UICONTROL Remerciements]**.
 1. Positionnez le curseur dans une zone de texte, là où vous souhaitez insérer le prénom du destinataire.
@@ -172,7 +177,7 @@ Le contenu est publié à partir du tableau de bord de l’application web. Cliq
 
 ![](assets/dce_uc1_pub_dashboard.png)
 
-Lors de la publication, un journal s’affiche.Le système de publication analyse l’intégralité des contenus présents dans l’application web.
+Lors de la publication, un journal s’affiche. Le système de publication analyse l’intégralité des contenus présents dans l’application web.
 
 ![](assets/dce_uc1_pub_dashboard_journal.png)
 

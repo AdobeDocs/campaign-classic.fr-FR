@@ -11,30 +11,34 @@ exl-id: 6765e307-915a-44d2-a486-85c64e8ec52e
 TQID: https://experienceleague.adobe.com/sP42vA9z95SnIsjehzZeMNMmYhaqq-Z8-BqB-HXGTxQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: a6eada7c-dc79-4b66-a7d3-206cf47dc9d8
+    internal-label: Marketing Resource Management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 2560
+workflow-type: tm+mt
+source-wordcount: '2560'
 ht-degree: 100%
-
 ---
-
 # Contrôle des coûts{#controlling-costs}
 
 
 
 Adobe Campaign permet de contrôler les coûts marketing planifiés, engagés et facturés, et de les ventiler par catégories à l&#39;aide du module Marketing Resource Management.
 
-Les coûts engagés pour les différents traitements d’une campagne sont imputés à un budget défini au préalable par le service marketing.Les montants peuvent être ventilés entre plusieurs catégories afin de permettre une meilleure lisibilité des informations et un reporting plus détaillé des investissements marketing.
+Les coûts engagés pour les différents traitements d’une campagne sont imputés à un budget défini au préalable par le service marketing. Les montants peuvent être ventilés entre plusieurs catégories afin de permettre une meilleure lisibilité des informations et un reporting plus détaillé des investissements marketing.
 
-La gestion et le tracking des budgets sont centralisés dans un nœud dédié de l’arborescence d’Adobe Campaign.Vous pouvez ainsi surveiller, depuis la même vue et pour tous les budgets, les montants alloués, réservés, engagés et dépensés.
+La gestion et le tracking des budgets sont centralisés dans un nœud dédié de l’arborescence d’Adobe Campaign. Vous pouvez ainsi surveiller, depuis la même vue et pour tous les budgets, les montants alloués, réservés, engagés et dépensés.
 
 ![](assets/s_ncs_user_budget_node_02.png)
 
@@ -56,7 +60,7 @@ Les étapes de mise en oeuvre de la gestion des budgets avec MRM sont les suivan
 
    En fonction du statut de réalisation des tâches, diffusions et opérations, les coûts seront calculés et répercutés au niveau du budget correspondant.
 
-   Lorsque la création de la campagne est suffisamment avancée, le statut de la progression du budget de la campagne peut être modifié en **[!UICONTROL Renseigné]**.Le coût calculé du programme est alors automatiquement renseigné avec les coûts calculés sur la campagne.Pour plus d&#39;informations, consultez la section [Engagement, calcul et imputation des coûts](#cost-commitment--calculation-and-charging).
+   Lorsque la création de la campagne est suffisamment avancée, le statut de la progression du budget de la campagne peut être modifié en **[!UICONTROL Renseigné]**. Le coût calculé du programme est alors automatiquement renseigné avec les coûts calculés sur la campagne. Pour plus d&#39;informations, consultez la section [Engagement, calcul et imputation des coûts](#cost-commitment--calculation-and-charging).
 
 ## Créer un budget {#creating-a-budget}
 
@@ -68,11 +72,11 @@ Les budgets sont créés au niveau de la vue globale, à partir du noeud **[!UIC
 
 * Saisir le montant initial
 
-  Indiquez le montant alloué dans le champ correspondant.Les autres montants sont renseignés automatiquement. Voir [Calculer les montants](#calculating-amounts).
+  Indiquez le montant alloué dans le champ correspondant. Les autres montants sont renseignés automatiquement. Voir [Calculer les montants](#calculating-amounts).
 
 * Définir la période de validité
 
-  Indiquez les dates de début et de fin.Ces informations sont purement indicatives.
+  Indiquez les dates de début et de fin. Ces informations sont purement indicatives.
 
 * Dépenses
 
@@ -88,7 +92,7 @@ Les budgets sont créés au niveau de la vue globale, à partir du noeud **[!UIC
 
 ### Calculer les montants {#calculating-amounts}
 
-Chaque budget est défini par un montant initial qui sera déduit des coûts des différentes campagnes, diffusions ou tâches qui lui sont rattachées, une fois qu’elles auront été planifiées ou réalisées.Le statut des montants (prévu, réservé, engagé, dépensé ou facturé) dépend du type de coût et du niveau d’engagement définis au niveau de la campagne, de la diffusion ou de la tâche.
+Chaque budget est défini par un montant initial qui sera déduit des coûts des différentes campagnes, diffusions ou tâches qui lui sont rattachées, une fois qu’elles auront été planifiées ou réalisées. Le statut des montants (prévu, réservé, engagé, dépensé ou facturé) dépend du type de coût et du niveau d’engagement définis au niveau de la campagne, de la diffusion ou de la tâche.
 
 >[!NOTE]
 >
@@ -102,7 +106,7 @@ Au niveau des opérations, selon le niveau d&#39;engagement, un coût peut être
 >
 >Lors de la création d’une campagne, le statut de la progression dans **[!UICONTROL Budget]** doit être défini sur **[!UICONTROL Défini]** pour la prise en compte des coûts d’exécution. Si le statut est **[!UICONTROL En cours d’édition]**, les coûts ne seront pas consolidés.
 >   
->L’option **[!UICONTROL Niveau d’engagement]** représente une projection des coûts pour l’avenir avant qu’ils ne soient imputés au budget.En fonction de l’avancement d’une campagne, d’une tâche ou d’une diffusion, vous pouvez décider d’attribuer un niveau d’engagement supérieur ou inférieur (1.Prévu, 2.Réservé, 3.Engagé) à l’aide de la zone de liste déroulante.
+>L’option **[!UICONTROL Niveau d’engagement]** représente une projection des coûts pour l’avenir avant qu’ils ne soient imputés au budget. En fonction de l’avancement d’une campagne, d’une tâche ou d’une diffusion, vous pouvez décider d’attribuer un niveau d’engagement supérieur ou inférieur (1. Prévu, 2. Réservé, 3. Engagé) à l’aide de la zone de liste déroulante.
 
 Par exemple, le coût prévisionnel estimé d’une opération web est de 45 000 euros.
 
@@ -116,7 +120,7 @@ Selon le niveau d&#39;engagement du budget de l&#39;opération, le montant sera 
 
 Le niveau d&#39;engagement peut être modifié:
 
-* au niveau de la **campagne**, dans la fenêtre **[!UICONTROL Budget]** disponible dans l’onglet **[!UICONTROL Édition]**.Y sont principalement configurés les budgets, coûts et dépenses.
+* au niveau de la **campagne**, dans la fenêtre **[!UICONTROL Budget]** disponible dans l’onglet **[!UICONTROL Édition]**. Y sont principalement configurés les budgets, coûts et dépenses.
 * au niveau des **tâches**, dans la fenêtre **[!UICONTROL Dépenses et revenus]**.
 
 ![](assets/s_user_op_engagement_level_costs.png)
@@ -139,7 +143,7 @@ Pour ajouter une catégorie, cliquez sur le bouton **[!UICONTROL Ajouter]** dans
 
 ![](assets/s_user_budget_category.png)
 
-Vous pouvez sélectionner une catégorie parmi celles qui existent déjà ou définir une nouvelle catégorie en la saisissant directement dans le champ.Lorsque vous validez votre saisie, un message de confirmation vous permet d’ajouter cette catégorie à la liste des catégories existantes et de l’associer à une nature si nécessaire.Ces informations seront utilisées dans les rapports sur les budgets.
+Vous pouvez sélectionner une catégorie parmi celles qui existent déjà ou définir une nouvelle catégorie en la saisissant directement dans le champ. Lorsque vous validez votre saisie, un message de confirmation vous permet d’ajouter cette catégorie à la liste des catégories existantes et de l’associer à une nature si nécessaire. Ces informations seront utilisées dans les rapports sur les budgets.
 
 ### Rattacher un budget à un autre {#linking-a-budget-to-another}
 
@@ -155,11 +159,11 @@ Ces informations sont remontées au niveau des rapports sur les budgets.
 
 ## Ajouter des lignes de dépenses {#adding-expense-lines}
 
-Les lignes de dépense sont automatiquement ajoutées au budget.Elles sont créées lors de l’analyse des diffusions et lorsqu’une tâche est terminée.
+Les lignes de dépense sont automatiquement ajoutées au budget. Elles sont créées lors de l’analyse des diffusions et lorsqu’une tâche est terminée.
 
 ![](assets/s_ncs_user_budget_line_edit.png)
 
-Pour chaque campagne, diffusion ou tâche, les coûts engendrés sont regroupés dans les lignes de dépenses du budget auquel ils sont imputés.Ces lignes de dépenses sont créées en fonction des postes de coûts du prestataire concerné et calculées via les structures de coûts associées.
+Pour chaque campagne, diffusion ou tâche, les coûts engendrés sont regroupés dans les lignes de dépenses du budget auquel ils sont imputés. Ces lignes de dépenses sont créées en fonction des postes de coûts du prestataire concerné et calculées via les structures de coûts associées.
 
 Ainsi, chaque ligne de dépense contient les informations suivantes :
 
@@ -175,7 +179,7 @@ Le calcul des coûts pour cette diffusion se base sur les postes de coûts séle
 
 ![](assets/s_user_edit_del_supplier_costs.png)
 
-En fonction des postes de coûts sélectionnés, les structures de coûts correspondantes sont appliquées afin de calculer les lignes de coûts.Dans cet exemple, pour le prestataire concerné, les structures de coûts sont les suivantes :
+En fonction des postes de coûts sélectionnés, les structures de coûts correspondantes sont appliquées afin de calculer les lignes de coûts. Dans cet exemple, pour le prestataire concerné, les structures de coûts sont les suivantes :
 
 ![](assets/s_user_edit_node_supplier_costs.png)
 
@@ -185,7 +189,7 @@ En fonction des postes de coûts sélectionnés, les structures de coûts corres
 
 ## Engagement, calcul et imputation des coûts {#cost-commitment--calculation-and-charging}
 
-Les coûts peuvent être engagés au niveau des diffusions et des tâches.En fonction de l’avancement du traitement auquel il est rattaché, le statut d’un coût est mis à jour.
+Les coûts peuvent être engagés au niveau des diffusions et des tâches. En fonction de l’avancement du traitement auquel il est rattaché, le statut d’un coût est mis à jour.
 
 ### Processus de calcul des coûts {#cost-calculation-process}
 
@@ -193,7 +197,7 @@ Les coûts sont répartis en 3 catégories :
 
 1. Coût prévisionnel estimé
 
-   Le coût prévisionnel estimé est une estimation des coûts pour les traitements de la campagne.Tant qu’il est en cours d’édition, les montants saisis ne sont pas consolidés.Il doit avoir le statut **[!UICONTROL Spécifié]** des montants saisis à prendre en compte dans les calculs.
+   Le coût prévisionnel estimé est une estimation des coûts pour les traitements de la campagne. Tant qu’il est en cours d’édition, les montants saisis ne sont pas consolidés. Il doit avoir le statut **[!UICONTROL Spécifié]** des montants saisis à prendre en compte dans les calculs.
 
    Ce montant est saisi manuellement et peut être réparti en plusieurs catégories de dépenses. Pour répartir un coût, cliquez sur le lien **[!UICONTROL Répartition...]**, puis sur le bouton **[!UICONTROL Ajouter]** pour définir un nouveau montant.
 
@@ -203,14 +207,14 @@ Les coûts sont répartis en 3 catégories :
 
 1. Coût calculé
 
-   Le coût calculé dépend de l’élément concerné (campagne, diffusion, tâche, etc.)et de son statut (en cours d’édition, en cours, terminé).Dans tous les cas, si le coût réel est indiqué, le coût calculé utilisera ce montant.
+   Le coût calculé dépend de l’élément concerné (campagne, diffusion, tâche, etc.) et de son statut (en cours d’édition, en cours, terminé). Dans tous les cas, si le coût réel est indiqué, le coût calculé utilisera ce montant.
 
    Si le coût réel n&#39;est pas renseigné, les règles sont les suivantes :
 
-   * Pour une campagne en cours d’édition, le coût calculé reprend le coût prévisionnel estimé de la campagne ou, si ce coût n’est pas renseigné, le coût calculé correspondra à la somme de tous les coûts prévisionnels des diffusions et tâches de la campagne.Si la campagne est terminée, le coût calculé de la campagne correspondra à la somme de tous les coûts calculés.
-   * Pour une diffusion qui n’a pas encore été analysée, le coût calculé reprend le coût prévisionnel estimé.Si l’analyse a déjà été effectuée, le coût calculé correspondra à la somme de tous les coûts calculés à partir des structures de coûts du prestataire et du nombre de personnes destinataires ciblées.
-   * Pour une tâche en cours, le coût calculé utilise le coût prévisionnel estimé.Si la tâche est terminée, le coût calculé correspondra à la somme de tous les coûts calculés à partir des structures de coûts du prestataire et du nombre de jours réalisés.
-   * Pour le plan marketing, comme pour le programme, le coût calculé reprend la somme des coûts calculés sur les campagnes.Si ces coûts ne sont pas renseignés, le coût calculé utilisera les coûts prévisionnels estimés.
+   * Pour une campagne en cours d’édition, le coût calculé reprend le coût prévisionnel estimé de la campagne ou, si ce coût n’est pas renseigné, le coût calculé correspondra à la somme de tous les coûts prévisionnels des diffusions et tâches de la campagne. Si la campagne est terminée, le coût calculé de la campagne correspondra à la somme de tous les coûts calculés.
+   * Pour une diffusion qui n’a pas encore été analysée, le coût calculé reprend le coût prévisionnel estimé. Si l’analyse a déjà été effectuée, le coût calculé correspondra à la somme de tous les coûts calculés à partir des structures de coûts du prestataire et du nombre de personnes destinataires ciblées.
+   * Pour une tâche en cours, le coût calculé utilise le coût prévisionnel estimé. Si la tâche est terminée, le coût calculé correspondra à la somme de tous les coûts calculés à partir des structures de coûts du prestataire et du nombre de jours réalisés.
+   * Pour le plan marketing, comme pour le programme, le coût calculé reprend la somme des coûts calculés sur les campagnes. Si ces coûts ne sont pas renseignés, le coût calculé utilisera les coûts prévisionnels estimés.
 
    >[!NOTE]
    >
@@ -224,7 +228,7 @@ Les coûts sont répartis en 3 catégories :
 
 Les coûts sont calculés via les structures de coûts et imputés aux budgets sélectionnés au niveau des opérations, des diffusions ou des tâches concernées.
 
-Un contrôle peut être effectué sur les sommes engagées dans les campagnes via la validation du budget.Des tâches supplémentaires de type Point de contrôle peuvent être créées dans une campagne afin de mettre en place d’autres validations.Pour plus d&#39;informations, consultez la section [Types de tâches](../../mrm/using/creating-and-managing-tasks.md#types-of-task).
+Un contrôle peut être effectué sur les sommes engagées dans les campagnes via la validation du budget. Des tâches supplémentaires de type Point de contrôle peuvent être créées dans une campagne afin de mettre en place d’autres validations. Pour plus d&#39;informations, consultez la section [Types de tâches](../../mrm/using/creating-and-managing-tasks.md#types-of-task).
 
 ### Exemple {#example}
 
@@ -238,7 +242,7 @@ Nous allons créer une opération avec :
 
 1. Créez un nouveau budget à partir du noeud **[!UICONTROL Gestion de campagnes > Budgets]**.
 
-1. Définissez un budget de 10 000 euros dans le champ **[!UICONTROL Alloué]** de la section **[!UICONTROL Montants]**.Ajoutez deux postes de dépenses dans la section inférieure de la fenêtre :
+1. Définissez un budget de 10 000 euros dans le champ **[!UICONTROL Alloué]** de la section **[!UICONTROL Montants]**. Ajoutez deux postes de dépenses dans la section inférieure de la fenêtre :
 
 ![](assets/s_user_cost_mgmt_sample_1.png)
 
@@ -246,7 +250,7 @@ Nous allons créer une opération avec :
 
 1. Créez un prestataire et un modèle de prestation avec sa structure de coûts associée à partir du nœud **[!UICONTROL Administration > Campagnes.]** Pour plus d&#39;informations, reportez-vous à la section [Créer un prestataire et ses postes de coûts](../../campaign/using/providers-stocks-and-budgets.md#creating-a-service-provider-and-its-cost-categories).
 
-   Pour les diffusions par publipostage direct, créez des postes de coût **[!UICONTROL Enveloppes]** (types 114x229 et 162x229), **[!UICONTROL Affranchissement et routage]** et **[!UICONTROL Impression]** (types A3 et A4).Créez ensuite les structures de coûts suivantes :
+   Pour les diffusions par publipostage direct, créez des postes de coût **[!UICONTROL Enveloppes]** (types 114x229 et 162x229), **[!UICONTROL Affranchissement et routage]** et **[!UICONTROL Impression]** (types A3 et A4). Créez ensuite les structures de coûts suivantes :
 
    ![](assets/s_user_cost_mgmt_sample_2.png)
 
@@ -278,7 +282,7 @@ Nous allons créer une opération avec :
 
    ![](assets/s_user_cost_mgmt_sample_9.png)
 
-1. Cliquez sur **[!UICONTROL OK]** puis sur **[!UICONTROL Enregistrer]** pour confirmer ces informations.Le coût calculé de la campagne est alors mis à jour avec le coût prévisionnel estimé.
+1. Cliquez sur **[!UICONTROL OK]** puis sur **[!UICONTROL Enregistrer]** pour confirmer ces informations. Le coût calculé de la campagne est alors mis à jour avec le coût prévisionnel estimé.
 
 #### Étape 4 - Créer la diffusion courrier {#step-4---creating-the-direct-mail-delivery}
 
@@ -286,7 +290,7 @@ Nous allons créer une opération avec :
 
 1. Créez une diffusion Courrier et sélectionnez le prestataire créé à l&#39;étape 2 : les postes de coûts s&#39;affichent automatiquement.
 
-1. Remplacez le coût des enveloppes et ajoutez un coût fixe.Sélectionnez également les postes concernés par ces coûts.
+1. Remplacez le coût des enveloppes et ajoutez un coût fixe. Sélectionnez également les postes concernés par ces coûts.
 
    ![](assets/s_user_cost_mgmt_sample_3.png)
 
@@ -298,11 +302,11 @@ Nous allons créer une opération avec :
 
    ![](assets/s_user_cost_mgmt_sample_10.png)
 
-1. Si l’approbation du budget est activée pour cette campagne, approuvez le budget depuis le tableau de bord.Vous pouvez vérifier la validation des postes de coûts.
+1. Si l’approbation du budget est activée pour cette campagne, approuvez le budget depuis le tableau de bord. Vous pouvez vérifier la validation des postes de coûts.
 
    ![](assets/s_user_cost_mgmt_sample_10b.png)
 
-La ligne de dépense relative à la diffusion est ajoutée dans l’onglet **[!UICONTROL Édition > Budget]** de la campagne.Modifiez-la pour visualiser les détails du calcul.
+La ligne de dépense relative à la diffusion est ajoutée dans l’onglet **[!UICONTROL Édition > Budget]** de la campagne. Modifiez-la pour visualiser les détails du calcul.
 
 ![](assets/s_user_cost_mgmt_sample_11.png)
 
@@ -316,7 +320,7 @@ Lorsque vous éditez le coût calculé, vous pouvez vérifier la répartition de
 
 Dans cette campagne, nous allons ajouter les deux tâches pour lesquelles les structures de coûts ont été créées précédemment (voir [Étape 2 - Configurer le prestataire et définir les structures de coûts](#step-2---configuring-the-service-provider-and-defining-the-cost-structures)). Pour ce faire, dans le tableau de bord de la campagne, cliquez sur le bouton **[!UICONTROL Ajouter une tâche]**. Nommez la tâche et cliquez sur **[!UICONTROL Enregistrer]**.
 
-1. La tâche est alors ajoutée à la liste des tâches.Vous devez la modifier pour la configurer.
+1. La tâche est alors ajoutée à la liste des tâches. Vous devez la modifier pour la configurer.
 
 1. Dans l&#39;onglet **[!UICONTROL Propriétés]**, sélectionnez la prestation et le poste de coût correspondant :
 
@@ -328,7 +332,7 @@ Dans cette campagne, nous allons ajouter les deux tâches pour lesquelles les st
 
    Une fois la tâche enregistrée, le coût calculé est renseigné avec la valeur saisie pour le coût prévisionnel estimé.
 
-   Lorsque la tâche est terminée (statut **[!UICONTROL Terminé]**), le coût calculé est automatiquement mis à jour avec le coût de la Grande salle tel que renseigné dans sa structure de coûts.Ce coût apparaît également dans ce poste de la répartition.
+   Lorsque la tâche est terminée (statut **[!UICONTROL Terminé]**), le coût calculé est automatiquement mis à jour avec le coût de la Grande salle tel que renseigné dans sa structure de coûts. Ce coût apparaît également dans ce poste de la répartition.
 
 1. Selon le même mode opératoire, créez ensuite une seconde tâche, planifiée sur 5 jours et associée à la structure de coûts créée précédemment.
 
@@ -340,13 +344,13 @@ Dans cette campagne, nous allons ajouter les deux tâches pour lesquelles les st
 
 #### Etape 6 - Mettre à jour le statut du budget de l&#39;opération {#step-6---update-the-campaign-budget-status}
 
-Lorsque la campagne est configurée, son statut peut être mis à jour en le définissant sur **[!UICONTROL Renseigné]**.Le coût calculé de la campagne indiquera alors la somme des coûts calculés de la diffusion et des tâches de la campagne :
+Lorsque la campagne est configurée, son statut peut être mis à jour en le définissant sur **[!UICONTROL Renseigné]**. Le coût calculé de la campagne indiquera alors la somme des coûts calculés de la diffusion et des tâches de la campagne :
 
 ![](assets/s_user_cost_mgmt_sample_18.png)
 
 #### Validation du budget {#budget-approval}
 
-Lorsque l’approbation est activée, un lien spécifique vous permet d’approuver le budget à partir du tableau de bord de la campagne.Ce lien s’affiche une fois le workflow de ciblage lancé et lorsqu’une diffusion par publipostage direct doit être approuvée.
+Lorsque l’approbation est activée, un lien spécifique vous permet d’approuver le budget à partir du tableau de bord de la campagne. Ce lien s’affiche une fois le workflow de ciblage lancé et lorsqu’une diffusion par publipostage direct doit être approuvée.
 
 ![](assets/s_user_cost_mgmt_sample_19.png)
 
@@ -356,7 +360,7 @@ Une fois le budget validé et la diffusion terminée, les coûts sont téléchar
 
 ## Commandes et factures {#orders-and-invoices}
 
-Dans le contexte de MRM, vous pouvez enregistrer des commandes auprès d’un prestataire et émettre des factures.L’ensemble du cycle de vie de ces commandes et factures peut être géré à l’aide de l’interface d’Adobe Campaign.
+Dans le contexte de MRM, vous pouvez enregistrer des commandes auprès d’un prestataire et émettre des factures. L’ensemble du cycle de vie de ces commandes et factures peut être géré à l’aide de l’interface d’Adobe Campaign.
 
 ### Création de commande {#order-creation}
 

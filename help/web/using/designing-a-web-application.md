@@ -2,30 +2,36 @@
 product: campaign
 title: Créer une application web
 description: Créer une application web
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps
 exl-id: dcdf6afc-321e-4027-a350-fff6bbf22e71
 TQID: https://experienceleague.adobe.com/8HdoOgOBgZgI3-Kxnn-I0kW5zyTSBfUtM0IoLGBvHag
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: f391046b-0cf3-4e76-bd3b-97fe06654506
+    internal-label: Web Apps
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 309
+workflow-type: tm+mt
+source-wordcount: '300'
 ht-degree: 100%
-
 ---
-
-# Conception d’une application web{#designing-a-web-application}
+# Créer une application web{#designing-a-web-application}
 
 
 
@@ -37,7 +43,7 @@ Les applications web sont créées et gérées suivant le même principe que les
 
 ## Insérer des graphiques dans une application web {#inserting-charts-in-a-web-application}
 
-Vous pouvez inclure des graphiques dans des applications web.Pour cela, utilisez la liste déroulante des graphiques dans la barre des tâches et sélectionnez le type de graphique à insérer.
+Vous pouvez inclure des graphiques dans des applications web. Pour cela, utilisez la liste déroulante des graphiques dans la barre des tâches et sélectionnez le type de graphique à insérer.
 
 ![](assets/s_ncs_admin_webapps_bar_graph.png)
 
@@ -69,7 +75,7 @@ Les applications web de type formulaires d&#39;édition pour un extranet sont ca
 
 * Une boîte de préchargement
 
-  Dans la plupart des cas, il est nécessaire de précharger les données à afficher.Les personnes qui accèdent à ces formulaires étant identifiées (via un contrôle d’accès), le préchargement n’est pas nécessairement chiffré.
+  Dans la plupart des cas, il est nécessaire de précharger les données à afficher. Les personnes qui accèdent à ces formulaires étant identifiées (via un contrôle d’accès), le préchargement n’est pas nécessairement chiffré.
 
 * Une boîte d&#39;enregistrement
 * L&#39;ajout de pages supplémentaires

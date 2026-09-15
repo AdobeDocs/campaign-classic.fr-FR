@@ -3,7 +3,7 @@ product: campaign
 title: Seuil de connexions
 description: Seuil de connexions
 feature: Monitoring
-badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -11,56 +11,56 @@ exl-id: 4ee05559-e719-4e6e-b42c-1e82df428871
 feature_v2: []
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 188
+workflow-type: tm+mt
+source-wordcount: '176'
 ht-degree: 100%
-
 ---
-
 # Seuil de connexions{#connection-thresholds}
 
 
 
-Pour les serveurs fortement sollicités, le seuil de connexion peut être dépassé.Quoi qu’il en soit, il est utile de savoir pourquoi.
+Pour les serveurs fortement sollicités, le seuil de connexion peut être dépassé. Quoi qu’il en soit, il est utile de savoir pourquoi.
 
 Il existe trois seuils différents :
 
-* Le **seuil de connexion web**, configuré dans votre serveur web.Pour le modifier, contactez votre administrateur ou administratrice système.
+* Le **seuil de connexion web**, configuré dans votre serveur web. Pour le modifier, contactez votre administrateur ou administratrice système.
 
-* Le **seuil de connexion de base de données**.Pour le modifier, contactez votre administrateur ou administratrice système.
+* Le **seuil de connexion de base de données**. Pour le modifier, contactez votre administrateur ou administratrice système.
 
 * Le **seuil de connexion Adobe Campaign**, disponible à deux endroits :
 
-   * **Côté Tomcat** : ensemble des requêtes arrivant effectivement sur le client Tomcat Adobe Campaign.
+  * **Côté Tomcat** : ensemble des requêtes arrivant effectivement sur le client Tomcat Adobe Campaign.
 
-     Ce seuil est configuré dans le fichier **nl6/tomcat-X/conf/server.xml**. L&#39;attribut **maxThreads** permet d&#39;augmenter le seuil du nombre de requêtes traitées à la fois. Il peut être remplacé par 250, par exemple.
+    Ce seuil est configuré dans le fichier **nl6/tomcat-X/conf/server.xml**. L&#39;attribut **maxThreads** permet d&#39;augmenter le seuil du nombre de requêtes traitées à la fois. Il peut être remplacé par 250, par exemple.
 
-     ```
-     <Connector protocol="HTTP/1.1" port="8080"
-                    maxThreads="75"
-                    minSpareThreads="5"
-                    enableLookups="true" redirectPort="8443"
-                    acceptCount="100" connectionTimeout="20000"
-                    disableUploadTimeout="true" />
-         <Engine name="Tomcat-Standalone" defaultHost="localhost">
-           <Host name="localhost" appBase="./"
-                 unpackWARs="true" autoDeploy="true">
-     ```
+    ```
+    <Connector protocol="HTTP/1.1" port="8080"
+                   maxThreads="75"
+                   minSpareThreads="5"
+                   enableLookups="true" redirectPort="8443"
+                   acceptCount="100" connectionTimeout="20000"
+                   disableUploadTimeout="true" />
+        <Engine name="Tomcat-Standalone" defaultHost="localhost">
+          <Host name="localhost" appBase="./"
+                unpackWARs="true" autoDeploy="true">
+    ```
 
-   * **Base de données** : ensemble de toutes les connexions ouvertes simultanément sur la base de données par un processus.
+  * **Base de données** : ensemble de toutes les connexions ouvertes simultanément sur la base de données par un processus.
 
-     Ce seuil est paramétré dans le fichier **nl6/conf/serverConf.xml**. L&#39;attribut **maxCnx** situé dans **datasource pool** permet d&#39;augmenter le seuil des requêtes traitées simultanément.
+    Ce seuil est paramétré dans le fichier **nl6/conf/serverConf.xml**. L&#39;attribut **maxCnx** situé dans **datasource pool** permet d&#39;augmenter le seuil des requêtes traitées simultanément.
 
-     ```
-         <!-- Data source
-              -->
-           <dataSource name="default">
-             <dbcnx NChar="" bulkCopyUtility="" dbSchema="" encrypted="" login="" password="" provider="" server="" timezone="" unicodeData="" useTimestampTZ=""/>
-             <sqlParams funcPrefix="">
-               <postConnectSQL/>
-             </sqlParams>
-             <pool aliveTestDelaySec="600" freeCnx="0" maxCnx="90" maxIdleDelaySec="1200"/>
-           </dataSource>
-     ```
+    ```
+        <!-- Data source
+             -->
+          <dataSource name="default">
+            <dbcnx NChar="" bulkCopyUtility="" dbSchema="" encrypted="" login="" password="" provider="" server="" timezone="" unicodeData="" useTimestampTZ=""/>
+            <sqlParams funcPrefix="">
+              <postConnectSQL/>
+            </sqlParams>
+            <pool aliveTestDelaySec="600" freeCnx="0" maxCnx="90" maxIdleDelaySec="1200"/>
+          </dataSource>
+    ```

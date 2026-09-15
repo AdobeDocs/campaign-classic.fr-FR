@@ -8,28 +8,29 @@ exl-id: c166409b-e040-491e-840a-a41310935d75
 TQID: https://experienceleague.adobe.com/1T-VO8AH7Rhk9HAhMufgPSSh4lNIC-D65ldnJIfDFvA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 subfeature_v2:
   - id: a6187aac-0a00-4394-8937-e8d4c1a40aa4
+    internal-label: Distributed Marketing
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 150
+workflow-type: tm+mt
+source-wordcount: '150'
 ht-degree: 100%
-
 ---
-
 # Prise en main du marketing distribué{#about-distributed-marketing}
 
 
 
-Adobe Campaign propose une application de **marketing distribué** pour la mise en œuvre de campagnes de coopération entre entités centrales (sièges sociaux, services marketing, etc.)et entités locales (magasins, agences régionales, etc.).Cette coopération repose sur un espace de travail partagé, appelé la **[!UICONTROL liste des kits de campagne]**, où des modèles et des instances de campagne conçus de manière centralisée sont proposés aux entités locales.
+Adobe Campaign propose une application de **marketing distribué** pour la mise en œuvre de campagnes de coopération entre entités centrales (sièges sociaux, services marketing, etc.) et entités locales (magasins, agences régionales, etc.). Cette coopération repose sur un espace de travail partagé, appelé la **[!UICONTROL liste des kits de campagne]**, où des modèles et des instances de campagne conçus de manière centralisée sont proposés aux entités locales.
 
-L’entité centrale fournit les opérations que les entités locales peuvent utiliser.Les campagnes sont matérialisées par des packages représentant des campagnes locales ou collaboratives.Pour utiliser une campagne, l’entité locale doit la commander et la commande doit être approuvée.
+L’entité centrale fournit les opérations que les entités locales peuvent utiliser. Les campagnes sont matérialisées par des packages représentant des campagnes locales ou collaboratives. Pour utiliser une campagne, l’entité locale doit la commander et la commande doit être approuvée.
 
 >[!CAUTION]
 >
->Le module Marketing distribué est une option de **Campaign**.Veuillez vérifier votre contrat de licence.
+>Le module Marketing distribué est une option de **Campaign**. Veuillez vérifier votre contrat de licence.
 
 >[!NOTE]
 >

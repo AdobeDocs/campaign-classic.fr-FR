@@ -3,7 +3,7 @@ product: campaign
 title: Précision des logs
 description: Précision des logs
 feature: Monitoring
-badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -11,19 +11,21 @@ exl-id: c2470098-62f3-4fee-b1c5-800ed0e91f75
 TQID: https://experienceleague.adobe.com/-AC3ZgKzganqlheg99fMRyJiYNQkHSnIogq5F-Z9xMQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 feature_v2: []
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 346
+workflow-type: tm+mt
+source-wordcount: '334'
 ht-degree: 100%
-
 ---
-
 # Précision des logs{#log-precision}
 
 
@@ -38,7 +40,7 @@ Elle consiste à relancer les processus avec un niveau de logs supérieur.
 
 Adobe Campaign peut fonctionner sous deux niveaux de logs :
 
-1. Le mode **Verbeux** est le premier niveau après le niveau standard.Pour l’activer, la commande est la suivante :
+1. Le mode **Verbeux** est le premier niveau après le niveau standard. Pour l’activer, la commande est la suivante :
 
    ```
    nlserver restart <MODULE_NAME> -verbose 
@@ -50,7 +52,7 @@ Adobe Campaign peut fonctionner sous deux niveaux de logs :
    nlserver restart <MODULE_NAME> -noconsole
    ```
 
-1. Le mode **TraceFilter** vous permet d’enregistrer le maximum de logs.Il est activé par la commande suivante :
+1. Le mode **TraceFilter** vous permet d’enregistrer le maximum de logs. Il est activé par la commande suivante :
 
    ```
    nlserver stop <MODULE_NAME>; nlserver <MODULE_NAME> -verbose -tracefilter:*
@@ -60,7 +62,7 @@ Adobe Campaign peut fonctionner sous deux niveaux de logs :
    >
    >Si vous utilisez **tracefilter:&#42;**, tous les types de logs sont activés : ncm, rdr, nms, jst, timing, wdbc, ldap, soap, xtk, xtkquery, session, xtkwriter, network, pop3, inmail.\
    >Les types de logs les plus utiles sont les suivants : **wdbc** (affiche toutes les requêtes SQL), **soap** (affiche tous les appels SOAP), **ldap** (affiche toutes les requêtes LDAP lors de l&#39;authentification), **xtkquery** (affiche la liste de toutes les querydef).\
-   >Vous pouvez les utiliser individuellement (**tracefilter:soap,wdbc** par exemple).Vous pouvez aussi tous les activer et choisir d’en exclure certains : **-tracefilter:&#42;,!soap**
+   >Vous pouvez les utiliser individuellement (**tracefilter:soap,wdbc** par exemple). Vous pouvez aussi tous les activer et choisir d’en exclure certains : **-tracefilter:&#42;,!soap**
 
    Vérifiez que lerreur sest bien produite, puis redémarrez le processus normalement :
 
@@ -72,7 +74,7 @@ Adobe Campaign peut fonctionner sous deux niveaux de logs :
 >
 >Les logs de ces commandes sont stockés dans le fichier de log du module.
 
-Voici un exemple spécifique au module web.Les autres modules fonctionnent comme indiqué ci-dessus.
+Voici un exemple spécifique au module web. Les autres modules fonctionnent comme indiqué ci-dessus.
 
 Avant de lancer cette commande, vérifiez qu&#39;aucun traitement en cours ne peut être impacté :
 
@@ -98,7 +100,7 @@ nlserver stop mta@<INSTANCE_NAME>; nlserver mta -instance:<INSTANCE_NAME> -trace
 
 >[!IMPORTANT]
 >
->Sous Windows, n’ajoutez pas l’option LD_PRELOAD.La commande suivante suffit :\
+>Sous Windows, n’ajoutez pas l’option LD_PRELOAD. La commande suivante suffit :\
 >nlserver web -tomcat -verbose -tracefilter:&#42;
 
 Vérifiez que le problème se reproduit, puis redémarrez le module :

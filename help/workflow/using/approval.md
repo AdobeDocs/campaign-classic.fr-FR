@@ -8,30 +8,34 @@ exl-id: 7ff5da71-ef82-48a2-a608-06a4ca188bb9
 TQID: https://experienceleague.adobe.com/ykTAMDWQNqrbB3K6-AxF9Tpxd0buiLFqLZ1tyU71QoA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 569
+workflow-type: tm+mt
+source-wordcount: '569'
 ht-degree: 100%
-
 ---
-
 # Validation{#approval}
 
 
 
-Une tâche **Validation** requiert la participation d’un opérateur ou d’une opératrice.La personne se voit attribuer une tâche à laquelle elle peut répondre par e-mail, à l’aide de la page web liée dans l’e-mail ou via la console.
+Une tâche **Validation** requiert la participation d’un opérateur ou d’une opératrice. La personne se voit attribuer une tâche à laquelle elle peut répondre par e-mail, à l’aide de la page web liée dans l’e-mail ou via la console.
 
 ## Assignation de la tâche {#task-assignment}
 
-Par défaut, la validation est attribuée à un groupe d’opérateurs et d’opératrices.Ce groupe représente un rôle, par exemple « Groupe de contenus de newsletter » ou « Groupe de ciblage de newsletter ».Chaque opérateur ou opératrice du groupe peut répondre, mais seule la première réponse est prise en compte (sauf en cas de validations multiples).
+Par défaut, la validation est attribuée à un groupe d’opérateurs et d’opératrices. Ce groupe représente un rôle, par exemple « Groupe de contenus de newsletter » ou « Groupe de ciblage de newsletter ». Chaque opérateur ou opératrice du groupe peut répondre, mais seule la première réponse est prise en compte (sauf en cas de validations multiples).
 
 Au besoin, vous pouvez affecter la tâche de validation à un opérateur unique ou à un ensemble d&#39;opérateurs défini par un filtre.
 
@@ -49,11 +53,11 @@ Au besoin, vous pouvez affecter la tâche de validation à un opérateur unique 
 
 Dans le cas d&#39;une validation simple, la transition correspondant au choix de l&#39;opérateur est activée et la tâche est terminée : les autres opérateurs ne peuvent plus répondre.
 
-Dans le cas de validations multiples, les transitions correspondant au choix de chaque opérateur ou opératrice sont activées.La tâche est terminée lorsque tous les opérateurs et opératrices du groupe ont répondu ou lorsque la tâche a expiré.
+Dans le cas de validations multiples, les transitions correspondant au choix de chaque opérateur ou opératrice sont activées. La tâche est terminée lorsque tous les opérateurs et opératrices du groupe ont répondu ou lorsque la tâche a expiré.
 
 Cette activité n&#39;est pas bloquante et le workflow peut effectuer d&#39;autres traitements dans l&#39;attente d&#39;une réponse.
 
-Un opérateur ou une opératrice peut approuver les tâches qui lui sont attribuées à partir de la console.Un opérateur ou une opératrice doté de droits d’administrateur peut visualiser et supprimer les tâches assignées aux opérateurs, mais il n’est pas possible d’y répondre.
+Un opérateur ou une opératrice peut approuver les tâches qui lui sont attribuées à partir de la console. Un opérateur ou une opératrice doté de droits d’administrateur peut visualiser et supprimer les tâches assignées aux opérateurs, mais il n’est pas possible d’y répondre.
 
 La modification du titre ou du corps du message de l&#39;activité n&#39;affecte pas les tâches en cours, en revanche, la modification des choix possibles affecte directement les tâches en cours qui héritent automatiquement de la nouvelle liste de choix.
 
@@ -63,17 +67,17 @@ Les tâches de type **Validation** sont accessibles depuis le noeud **[!UICONTRO
 
 ## Propriétés {#properties}
 
-Les variables de personnalisation peuvent être utilisées dans le message envoyé aux réviseurs et réviseuses.Elles peuvent être insérées dans le titre ou dans le corps du message.
+Les variables de personnalisation peuvent être utilisées dans le message envoyé aux réviseurs et réviseuses. Elles peuvent être insérées dans le titre ou dans le corps du message.
 
 ![](assets/edit_validation.png)
 
-Ce champ **[!UICONTROL Titre]** contient le titre du message : il s’agit de l’objet de l’e-mail envoyé.Le titre, comme le corps du message, sont des modèles JavaScript et peuvent donc contenir des valeurs calculées en fonction du contexte du workflow.
+Ce champ **[!UICONTROL Titre]** contient le titre du message : il s’agit de l’objet de l’e-mail envoyé. Le titre, comme le corps du message, sont des modèles JavaScript et peuvent donc contenir des valeurs calculées en fonction du contexte du workflow.
 
-La section inférieure de l’éditeur vous permet de définir la liste des réponses possibles.À chaque réponse correspond une transition.Le nom est l’identifiant interne et le libellé est le texte qui sera affiché dans la liste des choix.
+La section inférieure de l’éditeur vous permet de définir la liste des réponses possibles. À chaque réponse correspond une transition. Le nom est l’identifiant interne et le libellé est le texte qui sera affiché dans la liste des choix.
 
-Cliquez sur le lien **[!UICONTROL Paramètres avancés…]** pour sélectionner le modèle de diffusion à utiliser pour informer les opérateurs et opératrices.Le modèle par défaut (nom interne « notifyAssignee ») reprend le titre et le message, et ajoute un lien vers la page web permettant de répondre.
+Cliquez sur le lien **[!UICONTROL Paramètres avancés…]** pour sélectionner le modèle de diffusion à utiliser pour informer les opérateurs et opératrices. Le modèle par défaut (nom interne « notifyAssignee ») reprend le titre et le message, et ajoute un lien vers la page web permettant de répondre.
 
-Ce modèle peut être modifié pour personnaliser la mise en page du message, mais il est préférable d’en faire une copie.Le mécanisme de ciblage (fichier externe, mapping de ciblage) ne doit pas être modifié, car il est nécessaire au bon fonctionnement des notifications.
+Ce modèle peut être modifié pour personnaliser la mise en page du message, mais il est préférable d’en faire une copie. Le mécanisme de ciblage (fichier externe, mapping de ciblage) ne doit pas être modifié, car il est nécessaire au bon fonctionnement des notifications.
 
 Un exemple de validation est proposé dans la section [Définir les validations](defining-approvals.md).
 

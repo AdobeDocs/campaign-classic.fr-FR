@@ -10,24 +10,26 @@ exl-id: 58656aa1-aa95-451f-80b8-9e2d28223056
 TQID: https://experienceleague.adobe.com/9u8xqAINLPKmeptZOZf94Ms-GiEciCL4nFBaw7SjRss
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 feature_v2: []
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 81
+workflow-type: tm+mt
+source-wordcount: '81'
 ht-degree: 100%
-
 ---
-
 # Problèmes relatifs aux logs de tracking{#tracking-logs-issues}
 
 
 
-Lorsque les logs de tracking ne sont pas transmis, les causes peuvent être multiples.Nous vous recommandons de vérifier les informations suivantes :
+Lorsque les logs de tracking ne sont pas transmis, les causes peuvent être multiples. Nous vous recommandons de vérifier les informations suivantes :
 
 * **Le workflow** Tracking **est-il en erreur ?**
 

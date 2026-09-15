@@ -11,26 +11,28 @@ exl-id: cc1200fa-f6d8-4f41-aed1-d1a7f229447a
 TQID: https://experienceleague.adobe.com/Mv-2GGcnP%2D%2D%2D%2DL-D2h5DDz3StnT5rH4TlnQdxn9bdnY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 subfeature_v2:
   - id: a6eada7c-dc79-4b66-a7d3-206cf47dc9d8
+    internal-label: Marketing Resource Management
 source-git-commit: 48d000a7ceada7e027f27f436ef643b321a7695c
-workflow-type: ht
-source-wordcount: 3921
+workflow-type: tm+mt
+source-wordcount: '3921'
 ht-degree: 100%
-
 ---
-
 # Création et gestion de tâches{#creating-and-managing-tasks}
 
 
 
 Adobe Campaign vous permet de créer des tâches et de gérer leur cycle de vie complet directement dans l’application. La mise en œuvre des programmes et des campagnes peut être découpée en tâches qui sont assignées à des opérateurs et opératrices Adobe Campaign ou à des prestataires externes. Ce mode de fonctionnement permet de créer un environnement de collaboration ouvert incluant tous les participantes et participants au programme et les participantes et participants externes.
 
-Les tâches peuvent être créées, visualisées et suivies au niveau de liste des tâches et du tableau de bord d’une campagne. Elles peuvent également être visualisées et suivies au niveau des plannings du plan marketing, des programmes et des campagnes.
+Les tâches peuvent être créées, visualisées et sus au niveau de liste des tâches et du tableau de bord d’une campagne. Elles peuvent également être visualisées et suivies au niveau des plannings du plan marketing, des programmes et des campagnes.
 
 Les tâches sont attachées à des campagnes et peuvent avoir des dépendances, c’est-à-dire des tâches associées. Chaque tâche a un statut, une priorité, une charge estimée et des coûts associés.
 

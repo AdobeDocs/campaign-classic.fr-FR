@@ -3,7 +3,7 @@ product: campaign
 title: Serveur applicatif
 description: Serveur applicatif
 feature: Installation
-badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: prerequisites-and-recommendations-
@@ -11,15 +11,14 @@ exl-id: 87103c31-1530-4f8d-ab3a-6ff73093b80c
 TQID: https://experienceleague.adobe.com/QB-FFljzZBWLM17tjDhPD-zk5w96W1RfIMKX-IGDEBA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 677
+workflow-type: tm+mt
+source-wordcount: '665'
 ht-degree: 100%
-
 ---
-
 # Serveur applicatif{#application-server}
 
 Les couches d&#39;accès pour le moteur de base de données que vous utilisez doivent être installées sur votre serveur et accessibles depuis le compte Adobe Campaign.
@@ -100,7 +99,7 @@ Vous pouvez utiliser Adobe Campaign pour exporter des rapports aux formats Micro
 
 ## SpamAssassin {#spamassassin}
 
-SpamAssassin permet d’attribuer un score aux e-mails afin de déterminer si un message risque d’être considéré comme indésirable par les outils anti-spams utilisés à sa réception.L’installation est facultative.
+SpamAssassin permet d’attribuer un score aux e-mails afin de déterminer si un message risque d’être considéré comme indésirable par les outils anti-spams utilisés à sa réception. L’installation est facultative.
 
 La qualification des emails comme indésirables par SpamAssassin repose entièrement sur les règles de filtrage et de scoring. Ces règles doivent donc être mises à jour au moins une fois par jour pour que votre installation de SpamAssassin et son intégration dans Adobe Campaign soient entièrement fonctionnelles et pour garantir la pertinence des scores attribués à vos diffusions avant envoi. Cette mise à jour est de la responsabilité de l&#39;administrateur serveur qui héberge SpamAssassin.
 

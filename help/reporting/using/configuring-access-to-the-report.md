@@ -3,33 +3,37 @@ product: campaign
 title: Configuration de l’accès au rapport
 description: Configuration de l’accès au rapport
 feature: Reporting, Monitoring
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 1e5ab922-481c-4dce-a05e-a58408002e24
 TQID: https://experienceleague.adobe.com/I1mGm11kQMgw-Iy-tbKBPGupVtiiCIT-SUzZVjoPwuM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 feature_v2:
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic Reporting
 subfeature_v2:
   - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
+    internal-label: Customize reports
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+    internal-label: Cubes and multidimensional analysis
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 810
+workflow-type: tm+mt
+source-wordcount: '801'
 ht-degree: 100%
-
 ---
-
 # Configuration de l’accès au rapport{#configuring-access-to-the-report}
 
 
 
 ## Contexte d&#39;affichage des rapports {#report-display-context}
 
-Définissez le contexte d’affichage du rapport dans la plateforme Adobe Campaign à partir de l’onglet **[!UICONTROL Affichage]**.L’accès à un rapport dépend de son type de sélection, de ses conditions d’affichage et des autorisations d’accès.
+Définissez le contexte d’affichage du rapport dans la plateforme Adobe Campaign à partir de l’onglet **[!UICONTROL Affichage]**. L’accès à un rapport dépend de son type de sélection, de ses conditions d’affichage et des autorisations d’accès.
 
 ### Type de sélection {#selection-type}
 
@@ -65,7 +69,7 @@ Donc si le canal principal de l&#39;opération est le canal courrier, le rapport
 
 Le rapport peut être partagé ou non avec d&#39;autres opérateurs.
 
-Pour rendre le rapport accessible, sélectionnez l’option **[!UICONTROL Rapport partagé avec les autres opérateurs et opératrices]**.Si cette option n’est pas sélectionnée, seule la personne qui a créé le rapport peut accéder au rapport.
+Pour rendre le rapport accessible, sélectionnez l’option **[!UICONTROL Rapport partagé avec les autres opérateurs et opératrices]**. Si cette option n’est pas sélectionnée, seule la personne qui a créé le rapport peut accéder au rapport.
 
 Le rapport peut également être partagé avec des opérateurs ou des groupes d&#39;opérateurs spécifiques qui sont ajoutés dans la fenêtre des autorisations.
 
@@ -85,7 +89,7 @@ Pour définir la catégorie d&#39;un rapport, sélectionnez-la à partir de l&#3
 
 ![](assets/report_select_category.png)
 
-Vous pouvez y saisir une nouvelle catégorie pour l’ajouter dans la liste des catégories disponibles.L’énumération correspondante est mise à jour automatiquement.
+Vous pouvez y saisir une nouvelle catégorie pour l’ajouter dans la liste des catégories disponibles. L’énumération correspondante est mise à jour automatiquement.
 
 ## Création dʼun lien vers un rapport {#creating-a-link-to-a-report-}
 
@@ -101,14 +105,14 @@ A titre d&#39;exemple, nous allons créer un lien vers un rapport afin qu&#39;il
 
    ![](assets/s_ncs_advuser_report_wizard_link_02.png)
 
-1. Saisissez un libellé et sélectionnez le schéma.Dans cet exemple, nous allons sélectionner la table des listes de personnes destinataires.
+1. Saisissez un libellé et sélectionnez le schéma. Dans cet exemple, nous allons sélectionner la table des listes de personnes destinataires.
 
    ![](assets/s_ncs_advuser_report_wizard_link_03.png)
 
    Cela signifie que ce rapport sera accessible depuis n&#39;importe quelle liste de destinataires et que les statistiques seront effectuées sur les destinataires contenus dans la liste sélectionnée.
 
 1. Enregistrez et affichez votre rapport.
-1. Saisissez la clé du lien.Dans notre exemple, il s’agit de la clé étrangère du lien « Dossiers ».
+1. Saisissez la clé du lien. Dans notre exemple, il s’agit de la clé étrangère du lien « Dossiers ».
 
    ![](assets/s_ncs_advuser_report_wizard_link_04.png)
 

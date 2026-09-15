@@ -3,7 +3,7 @@ product: campaign
 title: Valider et activer une offre
 description: Valider et activer une offre
 feature: Interaction, Offers
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
@@ -11,21 +11,21 @@ exl-id: cf7649fe-f62a-4dfa-a19e-9c1ca545e3e3
 TQID: https://experienceleague.adobe.com/f0zYxpc5-71Ci-4Q485v4rRdD1xHs6tKLkl7vrITMP0
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 672
+workflow-type: tm+mt
+source-wordcount: '663'
 ht-degree: 100%
-
 ---
-
-# Validation et activation d&#39;une offre{#approving-and-activating-an-offer}
-
+# Valider et activer une offre{#approving-and-activating-an-offer}
 
 
-Une fois le contenu de l’offre terminé, vous devez procéder à son approbation afin qu’elle soit dupliquée dans l’environnement en ligne pour être diffusée par la suite.La validation porte sur le contenu de l’offre et sur son éligibilité.
+
+Une fois le contenu de l’offre terminé, vous devez procéder à son approbation afin qu’elle soit dupliquée dans l’environnement en ligne pour être diffusée par la suite. La validation porte sur le contenu de l’offre et sur son éligibilité.
 
 Un bandeau dans le tableau de bord de l&#39;offre vous permet de voir si l&#39;offre doit passer par le cycle de validation ou non.
 
@@ -35,7 +35,7 @@ Un bandeau dans le tableau de bord de l&#39;offre vous permet de voir si l&#39;o
 
 Valider le contenu d&#39;une offre consiste à choisir la ou les représentations que vous souhaitez rendre disponibles dans l&#39;environnement en ligne.
 
-Le contenu d’une offre a une représentation par emplacement.Chaque emplacement disposant de sa propre structure et ses propres fonctions de rendu, la représentation des offres peut varier.
+Le contenu d’une offre a une représentation par emplacement. Chaque emplacement disposant de sa propre structure et ses propres fonctions de rendu, la représentation des offres peut varier.
 
 Vous pouvez ainsi choisir de valider le contenu d&#39;une offre sur certains emplacements disponibles et ne pas le valider sur d&#39;autres.
 
@@ -59,7 +59,7 @@ Pour valider le contenu d&#39;une offre, procédez comme suit :
 
    >[!NOTE]
    >
-   >La mention **[!UICONTROL Contenu approuvé]** ne signifie pas que toutes les représentations de l’offre ont été activées et validées.Elle indique que le processus d’approbation du contenu a été réalisé, que toutes les offres aient été activées/approuvées ou non.
+   >La mention **[!UICONTROL Contenu approuvé]** ne signifie pas que toutes les représentations de l’offre ont été activées et validées. Elle indique que le processus d’approbation du contenu a été réalisé, que toutes les offres aient été activées/approuvées ou non.
 
 ## Valider l&#39;éligibilité d&#39;une offre {#approving-offer-eligibility}
 
@@ -105,7 +105,7 @@ Le suivi des validations est disponible dans le tableau de bord de l&#39;offre. 
 
 ## Redémarrer la validation {#restart-the-approval}
 
-Une fois la validation lancée, il est possible de la relancer.Pour ce faire, suivez les instructions suivantes :
+Une fois la validation lancée, il est possible de la relancer. Pour ce faire, suivez les instructions suivantes :
 
 1. Sur le tableau de bord de l&#39;offre, cliquez sur **[!UICONTROL Contenu approuvé]**.
 1. Dans la fenêtre **[!UICONTROL Édition]** qui apparait, sélectionnez la validation à redémarrer, puis cliquez sur **[!UICONTROL Réinitialiser la validation pour la soumettre à nouveau]**.
@@ -135,6 +135,6 @@ Vous pouvez également désactiver directement une catégorie en vous rendant da
 
 >[!NOTE]
 >
->Lorsqu’une offre est supprimée dans un environnement de conception, elle est automatiquement désactivée dans l’environnement en ligne associé.Après une période de rétention des propositions, les offres désactivées sont supprimées de l’environnement en ligne.
+>Lorsqu’une offre est supprimée dans un environnement de conception, elle est automatiquement désactivée dans l’environnement en ligne associé. Après une période de rétention des propositions, les offres désactivées sont supprimées de l’environnement en ligne.
 
 ![](assets/offer_preview_deactivate.png)

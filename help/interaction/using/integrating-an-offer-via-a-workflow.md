@@ -10,16 +10,16 @@ exl-id: 33d318f3-1eb4-4c74-8c20-8b9f0442c7c3
 TQID: https://experienceleague.adobe.com/mAyeOK618LvVCdtRqLykUECmgWZce8bKoMiT-WIOe1Q
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management
 subfeature_v2: []
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1128
+workflow-type: tm+mt
+source-wordcount: '1128'
 ht-degree: 100%
-
 ---
-
 # Intégrer une offre via un workflow{#integrating-an-offer-via-a-workflow}
 
 
@@ -43,7 +43,7 @@ L&#39;activité de composition de diffusion, disponible dans les workflows de ca
 1. Complétez les champs disponibles en fonction de votre diffusion.
 1. Deux cas se présentent :
 
-   * Si vous souhaitez appeler le moteur d’offre, cochez la case **[!UICONTROL Limiter le nombre de propositions sélectionnées]**.Précisez l’emplacement et le nombre de propositions qui seront présentées dans la diffusion.
+   * Si vous souhaitez appeler le moteur d’offre, cochez la case **[!UICONTROL Limiter le nombre de propositions sélectionnées]**. Précisez l’emplacement et le nombre de propositions qui seront présentées dans la diffusion.
 
      Les poids et règles d&#39;éligibilité des offres seront pris en compte par le moteur d&#39;offres.
 
@@ -51,7 +51,7 @@ L&#39;activité de composition de diffusion, disponible dans les workflows de ca
 
    >[!NOTE]
    >
-   >La prévisualisation prend en compte le nombre d’offres défini dans la diffusion.Lors de l’exécution d’un workflow, c’est le nombre défini dans la composition de diffusion qui est pris en compte.
+   >La prévisualisation prend en compte le nombre d’offres défini dans la diffusion. Lors de l’exécution d’un workflow, c’est le nombre défini dans la composition de diffusion qui est pris en compte.
 
    ![](assets/int_compo_offre_wf1.png)
 
@@ -83,9 +83,9 @@ Après avoir configuré votre requête (voir la [documentation de Campaign v8](
    ![](assets/int_enrichment_offer2.png)
 
 1. Indiquez un identifiant ainsi qu&#39;un libellé pour la proposition qui sera ajoutée.
-1. Définissez la sélection de l’offre.Deux options sont possibles :
+1. Définissez la sélection de l’offre. Deux options sont possibles :
 
-   * **[!UICONTROL Rechercher la meilleure offre dans une catégorie]** : cochez cette option et définissez les paramètres de l’appel au moteur d’offre (emplacement, catégorie ou thème(s), date de contact, nombre d’offres à conserver).Le moteur calculera automatiquement la ou les offres à ajouter en fonction de ces paramètres. Nous vous recommandons de renseigner soit le champ **[!UICONTROL Catégorie]**, soit le champ le **[!UICONTROL Thème]**, plutôt que les deux à la fois.
+   * **[!UICONTROL Rechercher la meilleure offre dans une catégorie]** : cochez cette option et définissez les paramètres de l’appel au moteur d’offre (emplacement, catégorie ou thème(s), date de contact, nombre d’offres à conserver). Le moteur calculera automatiquement la ou les offres à ajouter en fonction de ces paramètres. Nous vous recommandons de renseigner soit le champ **[!UICONTROL Catégorie]**, soit le champ le **[!UICONTROL Thème]**, plutôt que les deux à la fois.
 
      ![](assets/int_enrichment_offer3.png)
 
@@ -107,11 +107,11 @@ Pour cela :
 
 1. Dans l&#39;onglet **[!UICONTROL Enrichissement]** de l&#39;activité, sélectionnez **[!UICONTROL Ajouter des données]**.
 1. Dans la fenêtre de sélection du type de données à ajouter, choisissez **[!UICONTROL Un lien]**.
-1. Sélectionnez le type du lien que vous souhaitez établir ainsi que sa cible.Dans ce cas, la cible est le schéma de l’offre.
+1. Sélectionnez le type du lien que vous souhaitez établir ainsi que sa cible. Dans ce cas, la cible est le schéma de l’offre.
 
    ![](assets/int_enrichment_link1.png)
 
-1. Définissez la jointure entre les données de la table entrante dans l’activité d’enrichissement (ici la table de destinataire) et la table d’offre.Vous pouvez, par exemple, lier un code d’offre à une personne destinataire.
+1. Définissez la jointure entre les données de la table entrante dans l’activité d’enrichissement (ici la table de destinataire) et la table d’offre. Vous pouvez, par exemple, lier un code d’offre à une personne destinataire.
 
    ![](assets/int_enrichment_link2.png)
 
@@ -155,7 +155,7 @@ Cette activité fonctionne sur le même principe que l’activité d’enrichiss
 Après avoir paramétré votre requête (voir le [Guide des Workflows](../../workflow/using/query.md)) :
 
 1. Placez et ouvrez une activité **[!UICONTROL Moteur d&#39;offres]**.
-1. Renseignez les différents champs disponibles afin de définir les paramètres d’appel d’offres au moteur (emplacement, catégorie ou thème(s), date de contact, nombre d’offres à conserver).Le moteur calculera automatiquement la ou les offres à ajouter en fonction de ces paramètres.
+1. Renseignez les différents champs disponibles afin de définir les paramètres d’appel d’offres au moteur (emplacement, catégorie ou thème(s), date de contact, nombre d’offres à conserver). Le moteur calculera automatiquement la ou les offres à ajouter en fonction de ces paramètres.
 
    >[!NOTE]
    >
@@ -176,7 +176,7 @@ Pour cela :
 1. Dans l&#39;onglet **[!UICONTROL Cellules]**, définissez les différents sous-ensembles via le bouton **[!UICONTROL Ajouter]** :
 
    * Définissez la population du sous-ensemble grâce aux règles de filtrage et de limitation disponibles.
-   * Sélectionnez ensuite l’offre que vous souhaitez présenter au sous-ensemble.Les offres disponibles sont celles éligibles sur l’environnement d’offre sélectionné à l’étape précédente.
+   * Sélectionnez ensuite l’offre que vous souhaitez présenter au sous-ensemble. Les offres disponibles sont celles éligibles sur l’environnement d’offre sélectionné à l’étape précédente.
 
      ![](assets/int_offer_per_cell1.png)
 

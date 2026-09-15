@@ -7,25 +7,29 @@ exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
 TQID: https://experienceleague.adobe.com/HoOWdSMH986BqrYTvS0VrMGvCmnkZ7Z8NPjIr3LAfXc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 135
+workflow-type: tm+mt
+source-wordcount: '135'
 ht-degree: 100%
-
 ---
-
 # Création de filtres{#creating-filters}
 
 Le filtrage des données est le processus de sélection d’une petite partie de votre jeu de données, composée uniquement des enregistrements qui correspondent à certains critères, et d’utilisation de ce sous-ensemble pour des actions spécifiques (mises à jour, création d’audiences) ou des analyses.
 
-Lorsque vous naviguez dans l’arborescence d’Adobe Campaign (à partir du menu **[!UICONTROL Explorateur]** sur la page d’accueil), les données contenues dans la base de données s’affichent sous forme de listes.Ces listes peuvent être configurées pour n’afficher que les données nécessaires à l’opérateur ou à l’opératrice.Des actions peuvent ensuite être effectuées sur les données filtrées.La configuration des filtres vous permet de sélectionner **[!UICONTROL dynamiquement]** des données d’une liste.Si les données sont modifiées, les données filtrées sont mises à jour.
+Lorsque vous naviguez dans l’arborescence d’Adobe Campaign (à partir du menu **[!UICONTROL Explorateur]** sur la page d’accueil), les données contenues dans la base de données s’affichent sous forme de listes. Ces listes peuvent être configurées pour n’afficher que les données nécessaires à l’opérateur ou à l’opératrice. Des actions peuvent ensuite être effectuées sur les données filtrées. La configuration des filtres vous permet de sélectionner **[!UICONTROL dynamiquement]** des données d’une liste. Si les données sont modifiées, les données filtrées sont mises à jour.
 
 Pour en savoir plus sur les **filtres et leur utilisation** consultez la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-audiences/create-filters){target=_blank}.
 

@@ -2,7 +2,7 @@
 product: campaign
 title: Envoyer des e-mails sur des mobiles japonais avec Adobe Campaign Classic
 description: Découvrez comment configurer, concevoir et envoyer des e-mails qui seront lus sur un mobile japonais
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Email, Email Design
 role: User
 hide: true
@@ -10,28 +10,34 @@ exl-id: 44634227-2340-49c4-b330-740c739ea551
 TQID: https://experienceleague.adobe.com/-IaAfjCvy9znHFt89tg-gGkcbAHpJExugPFr9T6RwWA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 782
+workflow-type: tm+mt
+source-wordcount: '773'
 ht-degree: 100%
-
 ---
-
 # Envoyer des e-mails sur des mobiles japonais {#sending-emails-on-japanese-mobiles}
 
 ## Formats d&#39;email pour les mobiles japonais {#email-formats-for-japanese-mobiles}
 
-Adobe Campaign gère trois formats japonais spécifiques pour les e-mails sur les appareils mobiles : **Deco-mail** (appareils mobiles DoCoMo), **Decore Mail** (appareils mobiles Softbank) et **Decoration Mail** (appareils mobiles KDDI AU).Ces formats imposent des contraintes particulières d’encodage, de structure et de taille.Pour en savoir plus sur les limites et pour obtenir des recommandations, consultez [cette section](#limitations-and-recommendations).
+Adobe Campaign gère trois formats japonais spécifiques pour les e-mails sur les appareils mobiles : **Deco-mail** (appareils mobiles DoCoMo), **Decore Mail** (appareils mobiles Softbank) et **Decoration Mail** (appareils mobiles KDDI AU). Ces formats imposent des contraintes particulières d’encodage, de structure et de taille. Pour en savoir plus sur les limites et pour obtenir des recommandations, consultez [cette section](#limitations-and-recommendations).
 
 Pour qu&#39;un destinataire puisse recevoir correctement des messages dans l&#39;un de ces formats, il est recommandé de sélectionner **[!UICONTROL Deco-mail (DoCoMo)]**, **[!UICONTROL Decore Mail (Softbank)]** ou **[!UICONTROL Decoration Mail (KDDI AU)]** dans le profil correspondant :
 
@@ -86,7 +92,7 @@ Cette règle permet de s&#39;assurer que la diffusion respecte les [contraintes 
 
 ### Envoi de BAT {#sending-proofs}
 
-Vous pouvez envoyer des BAT pour tester votre diffusion.Lors de l’envoi d’un BAT, si vous avez recours à des adresses de substitution, veillez à saisir des adresses correspondant au format des e-mails du profil utilisé.
+Vous pouvez envoyer des BAT pour tester votre diffusion. Lors de l’envoi d’un BAT, si vous avez recours à des adresses de substitution, veillez à saisir des adresses correspondant au format des e-mails du profil utilisé.
 
 Par exemple, vous pouvez remplacer l&#39;adresse d&#39;un profil par test@softbank.ne.jp si le format des emails de ce profil a été défini au préalable sur **[!UICONTROL Decore Mail (Softbank)]**.
 

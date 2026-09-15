@@ -4,25 +4,27 @@ title: Configuration de l’interface
 description: Découvrez comment configurer lʼinterface de Campaign
 feature: Application Settings
 role: Developer
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: 9f50f258-845e-4895-b1ef-b73744dea326
 TQID: https://experienceleague.adobe.com/KUwDwl9noj6RJa0wn6ZEVnCBRLdOUMoSTf-5b1PrH-g
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 304
+source-wordcount: '295'
 ht-degree: 100%
-
 ---
-
 # Configuration de l’interface{#configuring-the-interface}
 
 Afin de visualiser et de dialoguer avec la nouvelle table des destinataires dans l&#39;interface d&#39;Adobe Campaign, il faut suivre les étapes suivantes :
@@ -47,7 +49,7 @@ La création d&#39;un nouveau formulaire va permettre de visualiser et d&#39;éd
 
 1. Ouvrez le nœud **Administration > Paramétrage > Formulaires de saisie** dans l&#39;explorateur.
 1. Créez un fichier **form:form** de type **xtk**.
-1. Décrivez tous les contrôles et champs dont vous avez besoin en fonction de votre modèle de table.
+1. Décrivez tou et champs dont vous avez besoin en fonction de votre modèle de table.
 
    >[!NOTE]
    >
@@ -74,7 +76,7 @@ La création d&#39;un nouveau formulaire va permettre de visualiser et d&#39;éd
 
 1. Accédez au nœud **[!UICONTROL Administration > Configuration > Arborescences de navigation]** dans l’explorateur.
 1. Créez un document **navtree** de type **xtk:navtree**.
-1. Décrivez tous les contrôles et champs dont vous avez besoin en fonction de votre modèle de table.
+1. Décrivez tous les  et champs dont vous avez besoin en fonction de votre modèle de table.
 
    Dans cet exemple, le fichier **navtree** doit être basé sur le schéma **cus:individual** et donc utiliser le formulaire suivant :
 

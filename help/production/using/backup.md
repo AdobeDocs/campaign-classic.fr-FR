@@ -3,7 +3,7 @@ product: campaign
 title: Sauvegarde
 description: Sauvegarde
 feature: Monitoring
-badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: data-processing
@@ -11,18 +11,20 @@ exl-id: e5ef6aba-dc22-4c8d-9fbb-13d507181b65
 TQID: https://experienceleague.adobe.com/ZCExecNbs9DnWVoQLpvzlrH7k2eGhBNq7pEiybyQdi4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 232
+workflow-type: tm+mt
+source-wordcount: '220'
 ht-degree: 100%
-
 ---
-
 # Sauvegarde{#backup}
 
 La sauvegarde est une opération primordiale afin de ne pas perdre de données en cas de problème (physique ou système) sur une machine.
@@ -32,7 +34,7 @@ Les données sont stockées dans deux endroits distincts :
 * des fichiers physiques sont stockés dans les répertoires d&#39;Adobe Campaign,
 * les autres données sont stockées dans la base de données.
 
-La grande majorité des données se trouve dans la base de données.Cela représente 99 % des informations à sauvegarder.
+La grande majorité des données se trouve dans la base de données. Cela représente 99 % des informations à sauvegarder.
 
 ## Les fichiers physiques {#physical-files}
 

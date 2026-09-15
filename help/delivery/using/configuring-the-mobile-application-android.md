@@ -10,32 +10,45 @@ exl-id: 32c35e61-d0a3-478f-b73b-396e2becf7f9
 TQID: https://experienceleague.adobe.com/8-DYZII2iuPYgAUSytJowvP7pXIUY1h1H-OWzlav7UQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 1024
-ht-degree: 100%
-
+source-wordcount: '1026'
+ht-degree: 96%
 ---
-
 # Étapes de configuration pour Android
 
 Une fois le package installé, vous pouvez définir les paramètres de votre application Android dans Adobe Campaign Classic.
@@ -67,11 +80,11 @@ Pour sélectionner le connecteur à utiliser, procédez comme suit :
 1. Sélectionnez le compte externe de **[!UICONTROL routage Android]**.
 1. Dans l&#39;onglet **[!UICONTROL Connecteur]**, renseignez le champ **[!UICONTROL JavaScript du connecteur]** :
 
-   Pour Android V2 : https://localhost:8080/nms/jsp/androidPushConnectorV2.js
+   Pour Android V2 : https://localhost:8080/nms/jsp/androidPushConnectorV2.js
 
    >[!NOTE]
    >
-   > Vous pouvez également effectuer la configuration comme suit (https://localhost:8080/nms/jsp/androidPushConnector.js), mais nous vous conseillons d’utiliser la version 2 du connecteur.
+   > Vous pouvez également le configurer comme suit https://localhost:8080/nms/jsp/androidPushConnector.js mais nous vous conseillons d’utiliser la version 2 du connecteur.
 
    ![](assets/nmac_connectors3.png)
 
@@ -81,7 +94,7 @@ Pour sélectionner le connecteur à utiliser, procédez comme suit :
 
 ## Configuration d&#39;un service Android {#configuring-android-service}
 
-![](assets/do-not-localize/how-to-video.png)[Découvrez en vidéo comment configurer un service Android](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=fr#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign){target="_blank"}.
+![](assets/do-not-localize/how-to-video.png) [Découvrez en vidéo comment configurer un service Android](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=fr#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign){target="_blank"}.
 
 1. Dans l&#39;arborescence, positionnez-vous sur le nœud **[!UICONTROL Profils et Cibles > Services et abonnements]** et cliquez sur le bouton **[!UICONTROL Nouveau]**.
 

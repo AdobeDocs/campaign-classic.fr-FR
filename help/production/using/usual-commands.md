@@ -3,7 +3,7 @@ product: campaign
 title: Commandes usuelles
 description: Commandes usuelles
 feature: Monitoring
-badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: production-procedures
@@ -11,17 +11,18 @@ exl-id: 472ccc04-e68e-4ccb-90e9-7d626a4e794f
 TQID: https://experienceleague.adobe.com/54ErpGUWBV076fqJIdr2ZsJlKVicuFf4xNgk-qDvvmQ
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 458
+workflow-type: tm+mt
+source-wordcount: '446'
 ht-degree: 100%
-
 ---
-
 # Commandes usuelles{#usual-commands}
 
 
@@ -40,7 +41,7 @@ Le paramètre **`<command>`** correspond au module.
 >* A contrario, vous pouvez ajouter l&#39;argument **-verbose** pour afficher plus d&#39;informations.
 >
 
-## Commandes de monitoring {#monitoring-commands-}
+## Commandes de {#monitoring-commands-}
 
 >[!NOTE]
 >
@@ -68,7 +69,7 @@ Datasource Server Provider Login
 default xxxxx myserver myprovider test400
 ```
 
-Une autre commande utile est la commande **nlserver monitor**. Elle permet de lister le fichier XML de monitoring (obtenu dans le client Adobe Campaign ou par la page web **monitor.jsp**).
+Une autre commande utile est la commande **nlserver monitor**. Elle permet de lister le fichier XML de  (obtenu dans le client Adobe Campaign ou par la page web **monitor.jsp**).
 
 Vous pouvez lui adjoindre le paramètre **-missing** pour lister les modules absents (erreur dans ces modules, arrêt des modules, etc.)
 
@@ -104,21 +105,21 @@ Pour arrêter les services Adobe Campaign, vous pouvez utiliser une des command
 
 * Si vous avez un accès root ou administrateur :
 
-   * Sous Linux :
+  * Sous Linux :
 
-     ```sql
-     /etc/init.d/nlserver6 stop
-     ```
+    ```sql
+    /etc/init.d/nlserver6 stop
+    ```
 
-     >[!NOTE]
-     >
-     >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl stop nlserver**
+    >[!NOTE]
+    >
+    >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl stop nlserver**
 
-   * Sous Windows :
+  * Sous Windows :
 
-     ```sql
-     net stop nlserver6
-     ```
+    ```sql
+    net stop nlserver6
+    ```
 
 * Sinon, dans le compte Adobe Campaign :
 
@@ -132,13 +133,13 @@ De même, afin de démarrer Adobe Campaign vous pouvez utiliser une des command
 
 * Si vous avez un accès root ou administrateur :
 
-   * Sous Linux : `/etc/init.d/nlserver6 start`
+  * Sous Linux : `/etc/init.d/nlserver6 start`
 
-     >[!NOTE]
-     >
-     >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl start nlserver**
+    >[!NOTE]
+    >
+    >À compter de la version 20.1, nous vous recommandons d’utiliser plutôt la commande suivante (pour Linux) : **systemctl start nlserver**
 
-   * Sous Windows : `net start nlserver6`
+  * Sous Windows : `net start nlserver6`
 
 * Sinon, dans le compte Adobe Campaign : **nlserver watchdog -svc -noconsole**
 
@@ -167,8 +168,8 @@ Pour changer le mode de passe **internal** : **nlserver config -internalpasswor
 >[!NOTE]
 >
 >* D&#39;une manière générale, au lieu de modifier les fichiers de configuration à la main, vous pouvez utiliser la commande **config**.
->* Pour obtenir la liste des paramètres, utilisez le paramètre **-?** :**nlserver config -?**.
->* Dans le cas d’une base de données Oracle, il ne faut pas préciser le compte.La syntaxe sera la suivante :
+>* Pour obtenir la liste des paramètres, utilisez le paramètre **-?** : **nlserver config -?**.
+>* Dans le cas d’une base de données Oracle, il ne faut pas préciser le compte. La syntaxe sera la suivante :
 >
 >  `nlserver config -setdblogin:Oracle:test6@dbserver`
 >

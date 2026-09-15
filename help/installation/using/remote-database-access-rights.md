@@ -10,21 +10,25 @@ exl-id: 3d43010e-53f8-4aa2-a651-c422a02191fe
 TQID: https://experienceleague.adobe.com/J55-McblpyrkaTwKk7d09Yv6sXereUGgjep-k-wNdA4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
+    internal-label: Permissions
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: ht
-source-wordcount: 933
+workflow-type: tm+mt
+source-wordcount: '933'
 ht-degree: 100%
-
 ---
-
 # Droits d&#39;accès à la base externe {#remote-database-access-rights}
 
 
@@ -45,7 +49,7 @@ Tout d&#39;abord, afin qu&#39;un utilisateur puisse effectuer des opérations su
 
 1. Enregistrez le droit nommé puis associez-le à l&#39;utilisateur de votre choix à partir du noeud **[!UICONTROL Administration > Gestion des accès > Opérateurs]** de l&#39;explorateur Adobe Campaign.
 
-Ensuite, pour exploiter les données contenues dans une base de données externe, l’utilisateur ou l’utilisatrice Adobe Campaign doit au minimum avoir les droits en « Écriture » sur cette base, afin de permettre la création des tables de travail.Celles-ci sont automatiquement supprimées par Adobe Campaign.
+Ensuite, pour exploiter les données contenues dans une base de données externe, l’utilisateur ou l’utilisatrice Adobe Campaign doit au minimum avoir les droits en « Écriture » sur cette base, afin de permettre la création des tables de travail. Celles-ci sont automatiquement supprimées par Adobe Campaign.
 
 En règle générale, les droits d&#39;accès suivants sont nécessaires :
 

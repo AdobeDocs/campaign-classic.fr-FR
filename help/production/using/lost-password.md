@@ -3,7 +3,7 @@ product: campaign
 title: Perte de mot de passe
 description: Perte de mot de passe
 feature: Monitoring, Access Management
-badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -11,27 +11,29 @@ exl-id: 064eb41f-6685-4ac1-adc5-40f9d5a2f96d
 TQID: https://experienceleague.adobe.com/MaAtheK2WnozPDuEO-qPq2l9u-AOGj5aGu2TgKslgLc
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
 feature_v2: []
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 250
+workflow-type: tm+mt
+source-wordcount: '243'
 ht-degree: 100%
-
 ---
-
 # Perte de mot de passe{#lost-password}
 
 >[!NOTE]
 >
 >Cette page ne s’applique qu’aux opérateurs et aux opératrices qui se connectent à Campaign avec une authentification native.
 
-Vous pouvez modifier ou récupérer un mot de passe perdu.
-Deux scénarios sont possibles :
+Il est possible de changer ou de récupérer un mot de passe perdu.
+Deux cas sont possibles :
 
 * [Perte du mot de passe d&#39;un opérateur Adobe Campaign](#password-lost-by-campaign-operator)
 * [Perte du mot de passe interne](#internal-password-lost) (clients on-premise uniquement)
@@ -84,7 +86,7 @@ Pour cela, respectez la procédure suivante :
 
 1. Arrêtez le processus `nlserver`.
 
-1. Configurez le nouveau mot de passe.Pour cela, saisissez les commandes suivantes :
+1. Configurez le nouveau mot de passe. Pour cela, saisissez les commandes suivantes :
 
    ```javascript
    nlserver config -internalpassword

@@ -3,16 +3,14 @@ product: campaign
 title: À propos des cubes
 description: Prise en main des cubes
 feature: Reporting, Monitoring
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 hide: true
 exl-id: ade4c857-9233-4bc8-9ba1-2fec84b7c3e6
 source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
-workflow-type: ht
-source-wordcount: '413'
+workflow-type: tm+mt
+source-wordcount: '404'
 ht-degree: 100%
-
 ---
-
 # Prise en main des cubes{#about-cubes}
 
 

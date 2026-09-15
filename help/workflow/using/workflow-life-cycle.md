@@ -8,18 +8,20 @@ exl-id: fceb5752-dc73-4386-8c18-c4f3e6110ca5
 TQID: https://experienceleague.adobe.com/-Uu7Js6XOCdXBvaVlGD0uN0kuMzN-Zwq3XoTaTSBi8k
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 269
+workflow-type: tm+mt
+source-wordcount: '269'
 ht-degree: 100%
-
 ---
-
 # Cycle de vie d&#39;un workflow {#workflow-life-cycle}
 
 
@@ -28,11 +30,11 @@ Le cycle de vie d&#39;un workflow comporte trois grandes étapes.
 
 * **En édition**
 
-  Il s’agit de la phase de conception initiale : lorsqu’un nouveau workflow est créé, son statut est « En cours d’édition ».Le workflow n’est pas encore pris en charge par le serveur et peut être modifié sans risque.
+  Il s’agit de la phase de conception initiale : lorsqu’un nouveau workflow est créé, son statut est « En cours d’édition ». Le workflow n’est pas encore pris en charge par le serveur et peut être modifié sans risque.
 
 * **Démarré**
 
-  Une fois la phase de conception terminée, le workflow peut être démarré.Au cours de cette phase, l’instance est gérée par le serveur et les tâches individuelles sont exécutées.Le workflow peut toujours être modifié avec certaines précautions.
+  Une fois la phase de conception terminée, le workflow peut être démarré. Au cours de cette phase, l’instance est gérée par le serveur et les tâches individuelles sont exécutées. Le workflow peut toujours être modifié avec certaines précautions.
 
 * **Terminé**
 
@@ -44,7 +46,7 @@ Par exemple, dans le workflow ci-dessous, les activités **Début** et **Diffusi
 
 Cela signifie que les deux premières activités ont été exécutées avec succès et que la validation est en cours, c&#39;est-à-dire que l&#39;activité est créée mais pas encore complétée.
 
-Les caractères **574 -Ok** affichés au-dessus de la transition suivant l’activité **Diffusion** signifient que la préparation de la diffusion a ciblé 574 personnes destinataires et que l’opération s’est terminée correctement.Ces informations, ajoutées sur les transitions au moment de l’exécution, sont calculées par les activités traitant des données.
+Les caractères **574 -Ok** affichés au-dessus de la transition suivant l’activité **Diffusion** signifient que la préparation de la diffusion a ciblé 574 personnes destinataires et que l’opération s’est terminée correctement. Ces informations, ajoutées sur les transitions au moment de l’exécution, sont calculées par les activités traitant des données.
 
 Le workflow est donc démarré et attend la décision d&#39;un opérateur du groupe spécifié dans l&#39;activité **Validation**. Les opérateurs du groupe ayant un email ou un numéro de téléphone mobile renseigné sont notifiés via ce média.
 

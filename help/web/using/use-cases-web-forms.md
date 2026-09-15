@@ -2,42 +2,46 @@
 product: campaign
 title: 'Cas pratiques : formulaires web'
 description: 'Cas pratiques : formulaires web'
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 7aa4646d-1325-47c2-b553-6fe375c48973
 TQID: https://experienceleague.adobe.com/Zw-cfoQrq1PAe-swZ7gvMNyTb4ciCMF2kdT7fN2zLsg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: f391046b-0cf3-4e76-bd3b-97fe06654506
+    internal-label: Web Apps
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
   - id: e739ee2b-6228-412e-878f-45de0791417d
+    internal-label: Use cases
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1013
+workflow-type: tm+mt
+source-wordcount: '1004'
 ht-degree: 100%
-
 ---
-
 # Cas pratiques : formulaires web{#use-cases-web-forms}
 
 
 
 ## Créer un formulaire d’abonnement avec double opt-in {#create-a-subscription--form-with-double-opt-in}
 
-Lorsque vous proposez des services d’information, les personnes destinataires doivent s’abonner pour recevoir toutes les communications liées.Pour éviter les communications incorrectes et s’assurer que la personne destinataire s’est abonnée de manière intentionnelle, nous recommandons d’envoyer une demande de confirmation d’abonnement pour créer un double opt-in.L’abonnement ne sera effectif qu’une fois que l’utilisateur ou l’utilisatrice aura cliqué sur le lien inclus dans le message de confirmation.
+Lorsque vous proposez des services d’information, les personnes destinataires doivent s’abonner pour recevoir toutes les communications liées. Pour éviter les communications incorrectes et s’assurer que la personne destinataire s’est abonnée de manière intentionnelle, nous recommandons d’envoyer une demande de confirmation d’abonnement pour créer un double opt-in. L’abonnement ne sera effectif qu’une fois que l’utilisateur ou l’utilisatrice aura cliqué sur le lien inclus dans le message de confirmation.
 
 Le scénario mis en oeuvre dans cet exemple est le suivant :
 
-1. Création d’un formulaire d’inscription à la newsletter sur un site web contenant une case d’abonnement à un service temporaire.Ce service vous permettra de diffuser les messages de confirmation d’abonnement.
-1. Création de la diffusion de confirmation d’abonnement avec un modèle de diffusion associé au formulaire web.Elle contient le lien de confirmation rappelant le formulaire qui inscrit à la newsletter et affiche un message de validation de l’abonnement.
+1. Création d’un formulaire d’inscription à la newsletter sur un site web contenant une case d’abonnement à un service temporaire. Ce service vous permettra de diffuser les messages de confirmation d’abonnement.
+1. Création de la diffusion de confirmation d’abonnement avec un modèle de diffusion associé au formulaire web. Elle contient le lien de confirmation rappelant le formulaire qui inscrit à la newsletter et affiche un message de validation de l’abonnement.
 
 ### Etape 1 - Créer les services d’information {#step-1---creating-information-services}
 
-1. Créez le service d’inscription à la newsletter que vous souhaitez proposer à vos personnes destinataires.Pour plus d’informations sur la création d’une newsletter, consultez [cette section](../../delivery/using/about-services-and-subscriptions.md).
+1. Créez le service d’inscription à la newsletter que vous souhaitez proposer à vos personnes destinataires. Pour plus d’informations sur la création d’une newsletter, consultez [cette section](../../delivery/using/about-services-and-subscriptions.md).
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1.png)
 
@@ -67,11 +71,11 @@ Les messages de confirmation sont adressés via un modèle de diffusion dédié,
    >
    >Cette option ne doit être désactivée que dans des contextes spécifiques, comme ici.
 
-1. Personnalisez votre diffusion et insérez le lien de confirmation dans le contenu du message.Ce lien vous permet d’accéder au formulaire web afin qu’il enregistre la confirmation d’abonnement.
+1. Personnalisez votre diffusion et insérez le lien de confirmation dans le contenu du message. Ce lien vous permet d’accéder au formulaire web afin qu’il enregistre la confirmation d’abonnement.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1b.png)
 
-1. À l’aide du DCE, liez votre URL au formulaire web.Comme le formulaire web n’est pas encore créé, remplacez la valeur dès sa création.
+1. À l’aide du DCE, liez votre URL au formulaire web. Comme le formulaire web n’est pas encore créé, remplacez la valeur dès sa création.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_3.png)
 
@@ -99,13 +103,13 @@ Pour ce faire, procédez comme suit :
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_5b.png)
 
-   Cela signifie que si l’utilisateur ou l’utilisatrice accède à ce formulaire par le biais du lien dans le message de confirmation, les informations de son profil seront chargées.Si la personne accède au formulaire web via une page du site web, aucune information ne sera chargée.
+   Cela signifie que si l’utilisateur ou l’utilisatrice accède à ce formulaire par le biais du lien dans le message de confirmation, les informations de son profil seront chargées. Si la personne accède au formulaire web via une page du site web, aucune information ne sera chargée.
 
 1. Ajoutez une activité **[!UICONTROL Test]** à votre workflow.
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6e.png)
 
-   L’activité **[!UICONTROL Test]** peut s’appliquer à l’e-mail des personnes destinataires.Dans ce cas, configurez-la comme suit :
+   L’activité **[!UICONTROL Test]** peut s’appliquer à l’e-mail des personnes destinataires. Dans ce cas, configurez-la comme suit :
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6d.png)
 
@@ -121,7 +125,7 @@ Pour ce faire, procédez comme suit :
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6bbis.png)
 
-   La seconde activité **[!UICONTROL Script]** autorise l’envoi des diffusions aux utilisateurs et utilisatrices, et les inscrit à la newsletter.Les deux dernières lignes du script vous permettront de transférer les personnes destinataires du dossier Temp vers un autre dossier et de les réconcilier avec les profils existants dès confirmation de l’abonnement.
+   La seconde activité **[!UICONTROL Script]** autorise l’envoi des diffusions aux utilisateurs et utilisatrices, et les inscrit à la newsletter. Les deux dernières lignes du script vous permettront de transférer les personnes destinataires du dossier Temp vers un autre dossier et de les réconcilier avec les profils existants dès confirmation de l’abonnement.
 
    ```
    ctx.recipient.@blackList=0
@@ -197,7 +201,7 @@ Ainsi, l&#39;inscription à la newsletter est réalisée selon les étapes suiva
 
 ## Afficher différentes options en fonction de la valeur sélectionnée {#displaying-different-options-depending-on-the-selected-values}
 
-Dans l’exemple suivant, la personne est invitée à sélectionner un type de véhicule.Vous pouvez afficher les catégories de véhicules disponibles en fonction du type sélectionné.Cela signifie que les éléments affichés dans la colonne de droite dépendent de la sélection de l’utilisateur ou de l’utilisatrice :
+Dans l’exemple suivant, la personne est invitée à sélectionner un type de véhicule. Vous pouvez afficher les catégories de véhicules disponibles en fonction du type sélectionné. Cela signifie que les éléments affichés dans la colonne de droite dépendent de la sélection de l’utilisateur ou de l’utilisatrice :
 
 ![](assets/s_ncs_admin_survey_condition_sample0.png)
 
@@ -209,7 +213,7 @@ Dans l’exemple suivant, la personne est invitée à sélectionner un type de v
 
   ![](assets/s_ncs_admin_survey_condition_sample1.png)
 
-Dans cet exemple, le type de véhicule n’est pas stocké dans la base de données.La liste déroulante est configurée comme suit :
+Dans cet exemple, le type de véhicule n’est pas stocké dans la base de données. La liste déroulante est configurée comme suit :
 
 ![](assets/s_ncs_admin_survey_condition_config1.png)
 

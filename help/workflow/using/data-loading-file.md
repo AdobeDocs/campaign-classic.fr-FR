@@ -8,30 +8,34 @@ exl-id: a380e486-a40c-4bf6-b7f4-7dcd76c34085
 TQID: https://experienceleague.adobe.com/PJrUzETTVGOlfnNcnYgUxOSEhZatGBfcDST49uwUVwM
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1260
+workflow-type: tm+mt
+source-wordcount: '1260'
 ht-degree: 100%
-
 ---
-
 # Chargement (fichier){#data-loading-file}
 
 ## Utilisation {#use}
 
 L’activité **[!UICONTROL Chargement (fichier)]** vous permet d’accéder directement à une source de données externes et de l’utiliser dans Adobe Campaign. En effet, toutes les données requises pour les opérations de ciblage ne se trouvent pas toujours dans la base de données Adobe Campaign : elles peuvent provenir de fichiers externes.
 
-Le fichier à charger peut être spécifié par la transition ou calculé pendant l’exécution de cette activité.Il peut s’agir, par exemple, de la liste des 10 produits favoris d’un client ou d’une cliente dont les achats sont gérés dans une base de données externe.
+Le fichier à charger peut être spécifié par la transition ou calculé pendant l’exécution de cette activité. Il peut s’agir, par exemple, de la liste des 10 produits favoris d’un client ou d’une cliente dont les achats sont gérés dans une base de données externe.
 
-La section supérieure de la fenêtre de configuration de cette activité vous permet de définir le format de fichier.Pour ce faire, utilisez un exemple de fichier ayant le même format que celui à importer.Ce fichier peut être stocké localement ou sur le serveur.
+La section supérieure de la fenêtre de configuration de cette activité vous permet de définir le format de fichier. Pour ce faire, utilisez un exemple de fichier ayant le même format que celui à importer. Ce fichier peut être stocké localement ou sur le serveur.
 
 >[!CAUTION]
 >
@@ -53,9 +57,9 @@ Pour ce faire, sélectionnez l’option **[!UICONTROL Inclure un prétraitement 
 
 ## Définir le format du fichier {#defining-the-file-format}
 
-Lorsque vous chargez un fichier, le format des colonnes est automatiquement détecté avec des paramètres par défaut pour chaque type de données.Vous pouvez modifier ces paramètres par défaut afin de spécifier des traitements particuliers à appliquer à vos données, notamment en cas d’erreur ou de valeur vide.
+Lorsque vous chargez un fichier, le format des colonnes est automatiquement détecté avec des paramètres par défaut pour chaque type de données. Vous pouvez modifier ces paramètres par défaut afin de spécifier des traitements particuliers à appliquer à vos données, notamment en cas d’erreur ou de valeur vide.
 
-Pour cela, sélectionnez **[!UICONTROL Cliquer ici pour changer le format du fichier…]** dans la fenêtre principale de l’activité **[!UICONTROL Chargement de données (fichier)]**.La fenêtre de détail du format s’ouvre alors.
+Pour cela, sélectionnez **[!UICONTROL Cliquer ici pour changer le format du fichier…]** dans la fenêtre principale de l’activité **[!UICONTROL Chargement de données (fichier)]**. La fenêtre de détail du format s’ouvre alors.
 
 ![](assets/file_loading_columns_format.png)
 
@@ -73,40 +77,40 @@ Le formatage des colonnes permet de définir le traitement des valeurs de chaque
 * **[!UICONTROL Type de données]** : permet de spécifier le type de données attendu dans la colonne.
 * **[!UICONTROL Utilisation des NULL]** : permet d&#39;indiquer comment gérer les valeurs vides.
 
-   * **[!UICONTROL Défaut Adobe Campaign]** : génère une erreur pour les champs numériques uniquement, sinon insère la valeur NULL.
-   * **[!UICONTROL Valeur vide autorisée]** : autorise les valeurs vides.La valeur NULL est alors insérée.
-   * **[!UICONTROL Toujours renseignée]** : génère une erreur en cas de valeur vide.
+  * **[!UICONTROL Défaut Adobe Campaign]** : génère une erreur pour les champs numériques uniquement, sinon insère la valeur NULL.
+  * **[!UICONTROL Valeur vide autorisée]** : autorise les valeurs vides. La valeur NULL est alors insérée.
+  * **[!UICONTROL Toujours renseignée]** : génère une erreur en cas de valeur vide.
 
 * **[!UICONTROL Longueur]** : permet de spécifier le nombre maximal de caractères pour les données de type **chaîne**.
 * **[!UICONTROL Format]** : permet de définir le format des heures et des dates.
 * **[!UICONTROL Mise en forme]** : permet de définir si un traitement au niveau de la casse doit être appliqué sur une **chaîne**.
 
-   * **[!UICONTROL Aucune]** : la chaîne importée n&#39;est pas modifiée.
-   * **[!UICONTROL Première lettre en majuscule]** : la première lettre de chaque mot de la chaîne est passée en majuscule.
-   * **[!UICONTROL Majuscules]** : tous les caractères de la chaîne sont passés en majuscule.
-   * **[!UICONTROL Minuscules]** : tous les caractères de la chaîne sont passés en minuscule.
+  * **[!UICONTROL Aucune]** : la chaîne importée n&#39;est pas modifiée.
+  * **[!UICONTROL Première lettre en majuscule]** : la première lettre de chaque mot de la chaîne est passée en majuscule.
+  * **[!UICONTROL Majuscules]** : tous les caractères de la chaîne sont passés en majuscule.
+  * **[!UICONTROL Minuscules]** : tous les caractères de la chaîne sont passés en minuscule.
 
 * **[!UICONTROL Gestion des espaces]** : permet d’indiquer si certains espaces doivent être ignorés dans une chaîne. La valeur **[!UICONTROL Ignorer les espaces]** permet d’ignorer les espaces au début et à la fin d’une chaîne seulement.
 * **[!UICONTROL Traitements d&#39;erreur]** : permet de définir le comportement en cas d&#39;erreur.
 
-   * **[!UICONTROL Ignorer la valeur]** : la valeur est ignorée. Un avertissement est généré dans le log d&#39;exécution du workflow.
-   * **[!UICONTROL Rejeter la ligne]** : la ligne entière n&#39;est pas traitée.
-   * **[!UICONTROL Utiliser une valeur par défaut en cas d&#39;erreur]** : remplace la valeur causant l&#39;erreur par une valeur par défaut, définie dans le champ **[!UICONTROL Valeur par défaut]**.
-   * **[!UICONTROL Rejeter la ligne en l’absence de valeur de remapping]** : la ligne entière n’est pas traitée sauf si un mapping a été défini pour la valeur en erreur (voir l’option **[!UICONTROL Mapping]** ci-dessous).
-   * **[!UICONTROL Utiliser une valeur par défaut en cas d’absence de remapping]** : remplace la valeur à l’origine de l’erreur par une valeur par défaut, définie dans le champ **[!UICONTROL Valeur par défaut]**, sauf si un mapping a été défini pour la valeur en erreur (voir l’option **[!UICONTROL Mapping]** ci-dessous).
+  * **[!UICONTROL Ignorer la valeur]** : la valeur est ignorée. Un avertissement est généré dans le log d&#39;exécution du workflow.
+  * **[!UICONTROL Rejeter la ligne]** : la ligne entière n&#39;est pas traitée.
+  * **[!UICONTROL Utiliser une valeur par défaut en cas d&#39;erreur]** : remplace la valeur causant l&#39;erreur par une valeur par défaut, définie dans le champ **[!UICONTROL Valeur par défaut]**.
+  * **[!UICONTROL Rejeter la ligne en l’absence de valeur de remapping]** : la ligne entière n’est pas traitée sauf si un mapping a été défini pour la valeur en erreur (voir l’option **[!UICONTROL Mapping]** ci-dessous).
+  * **[!UICONTROL Utiliser une valeur par défaut en cas d’absence de remapping]** : remplace la valeur à l’origine de l’erreur par une valeur par défaut, définie dans le champ **[!UICONTROL Valeur par défaut]**, sauf si un mapping a été défini pour la valeur en erreur (voir l’option **[!UICONTROL Mapping]** ci-dessous).
 
 * **[!UICONTROL Valeur par défaut]** : permet de spécifier la valeur par défaut en fonction du choix concernant le traitement des erreurs.
-* **[!UICONTROL Mapping]** : ce champ est disponible uniquement dans la configuration des détails d’une colonne (accessible via un double-clic ou via les options à droite de la liste des colonnes).Il permet de transformer certaines valeurs lors de l’import.Par exemple, vous pouvez transformer « trois » en « 3 ».
+* **[!UICONTROL Mapping]** : ce champ est disponible uniquement dans la configuration des détails d’une colonne (accessible via un double-clic ou via les options à droite de la liste des colonnes). Il permet de transformer certaines valeurs lors de l’import. Par exemple, vous pouvez transformer « trois » en « 3 ».
 
 ## Exemple : collecter des données et les charger dans la base {#example--collecting-data-and-loading-it-in-the-database}
 
-L’exemple suivant vous permet de collecter un fichier sur le serveur chaque jour, de charger son contenu et de mettre à jour les données de la base de données en fonction des informations qu’il contient.Le fichier à collecter contient des informations sur les clientes et clients qui ont pu effectuer des achats (pour plus ou moins de 3 000 euros), demander un remboursement sur un achat ou visiter la boutique sans rien acheter.En fonction de ces informations, différents traitements seront appliqués à leur profil dans la base de données.
+L’exemple suivant vous permet de collecter un fichier sur le serveur chaque jour, de charger son contenu et de mettre à jour les données de la base de données en fonction des informations qu’il contient. Le fichier à collecter contient des informations sur les clientes et clients qui ont pu effectuer des achats (pour plus ou moins de 3 000 euros), demander un remboursement sur un achat ou visiter la boutique sans rien acheter. En fonction de ces informations, différents traitements seront appliqués à leur profil dans la base de données.
 
 ![](assets/s_advuser_load_file_sample_0.png)
 
 1. Le collecteur de fichier est utilisé pour récupérer les fichiers stockés dans un répertoire, selon la fréquence indiquée.
 
-   L’onglet **[!UICONTROL Répertoire]** contient des informations sur le ou les fichiers à récupérer.Dans notre exemple, tous les fichiers au format texte dont le nom contient le mot « customers » et qui sont stockés dans le répertoire tmp/Adobe/Data/files du serveur seront récupérés.
+   L’onglet **[!UICONTROL Répertoire]** contient des informations sur le ou les fichiers à récupérer. Dans notre exemple, tous les fichiers au format texte dont le nom contient le mot « customers » et qui sont stockés dans le répertoire tmp/Adobe/Data/files du serveur seront récupérés.
 
    L’utilisation du **[!UICONTROL Collecteur de fichiers]** est détaillée dans la section [Collecteur de fichiers](file-collector.md).
 
@@ -122,7 +126,7 @@ L’exemple suivant vous permet de collecter un fichier sur le serveur chaque jo
 
    Pour plus d&#39;informations, consultez la section [Planificateur](scheduler.md).
 
-1. Configurez ensuite l’activité de chargement de données (fichier) afin d’indiquer comment le ou les fichiers collectés doivent être lus.Pour cela, sélectionnez un fichier d’exemple dont la structure est la même que les fichiers à charger.
+1. Configurez ensuite l’activité de chargement de données (fichier) afin d’indiquer comment le ou les fichiers collectés doivent être lus. Pour cela, sélectionnez un fichier d’exemple dont la structure est la même que les fichiers à charger.
 
    ![](assets/s_advuser_load_file_sample_3.png)
 

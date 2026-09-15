@@ -4,36 +4,40 @@ title: À propos de la table des destinataires personnalisée
 description: À propos de la table des destinataires personnalisée
 feature: Configuration, Custom Resources
 role: User, Developer
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: d8cea496-b3f3-420a-bf6e-b7cbb321b30d
 TQID: https://experienceleague.adobe.com/Okjz7RRmzZCTCBNbBqR1nHDq7ML8WjrJrs1XR0aDZSE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: ht
-source-wordcount: 704
+workflow-type: tm+mt
+source-wordcount: '695'
 ht-degree: 100%
-
 ---
-
 # Utilisation d’une table des destinataires personnalisée{#about-custom-recipient-table}
 
 Cette section présente les principes d’utilisation d’une table de destinataires personnalisée (ou externe).
 
 Par défaut, Adobe Campaign propose une table des destinataires intégrée à laquelle sont liés les fonctions et processus prêts à l’emploi. La table des destinataires intégrée comporte un certain nombre de champs prédéfinis et de tables faciles à étendre à l’aide d’une table d’extension.
 
-Si cette méthode d’extension offre une bonne flexibilité pour étendre une table, elle ne permet pas de réduire le nombre de champs ou de liens dans celle-ci.L’utilisation d’une table non standard, dite « table de personnes destinataires externe », permet une plus grande flexibilité, mais nécessite certaines précautions lors de son implémentation.
+Si cette méthode d’extension offre une bonne flexibilité pour étendre une table, elle ne permet pas de réduire le nombre de champs ou de liens dans celle-ci. L’utilisation d’une table non standard, dite « table de personnes destinataires externe », permet une plus grande flexibilité, mais nécessite certaines précautions lors de son implémentation.
 
-Cette fonctionnalité permet à Adobe Campaign de traiter des données provenant d’une base de données externe : ces données seront utilisées comme ensemble de profils pour les diffusions.L’implémentation de ce traitement implique plusieurs spécificités qui peuvent s’avérer pertinentes selon les besoins du client ou de la cliente.Par exemple :
+Cette fonctionnalité permet à Adobe Campaign de traiter des données provenant d’une base de données externe : ces données seront utilisées comme ensemble de profils pour les diffusions. L’implémentation de ce traitement implique plusieurs spécificités qui peuvent s’avérer pertinentes selon les besoins du client ou de la cliente. Par exemple :
 
 * Pas de flux de mise à jour vers et depuis la base Adobe Campaign : les données de cette table peuvent être mises à jour directement via le moteur de base de données qui l’héberge.
 * Pas de changements dans les processus qui opèrent sur la base existante.
@@ -55,8 +59,8 @@ L’utilisation d’une table de destinataires personnalisée implique les limit
 
   Nous vous recommandons de procéder comme suit :
 
-   * Dédier les schémas **[!UICONTROL nms:BroadLogRcp]** et **[!UICONTROL nms:TrackingLogRcp]** aux schémas **[!UICONTROL nms:Recipientschema]** prêts à l’emploi. Ces deux tables de log ne doivent pas être liées à une autre table de destinataires par défaut.
-   * Définir des schémas broadlog et trackinglog personnalisés dédiés à chaque nouveau schéma de destinataires personnalisé. Il est possible de le faire automatiquement lors de la configuration du mapping de ciblage, voir la section [Mapping de ciblage](../../configuration/using/target-mapping.md).
+  * Dédier les schémas **[!UICONTROL nms:BroadLogRcp]** et **[!UICONTROL nms:TrackingLogRcp]** aux schémas **[!UICONTROL nms:Recipientschema]** prêts à l’emploi. Ces deux tables de log ne doivent pas être liées à une autre table de destinataires par défaut.
+  * Définir des schémas broadlog et trackinglog personnalisés dédiés à chaque nouveau schéma de destinataires personnalisé. Il est possible de le faire automatiquement lors de la configuration du mapping de ciblage, voir la section [Mapping de ciblage](../../configuration/using/target-mapping.md).
 
 * Il n&#39;est pas possible d&#39;utiliser les **[!UICONTROL Services et Abonnements]** standards proposés dans le produit.
 

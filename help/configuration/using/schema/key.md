@@ -7,15 +7,14 @@ exl-id: 3d0ef574-27a3-40f2-91a0-70e9583d9980
 TQID: https://experienceleague.adobe.com/5LDW8-4YjfDebSOFq6ON8c0ulQQsGGjmRbek67G4Ml4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 322
+workflow-type: tm+mt
+source-wordcount: '322'
 ht-degree: 100%
-
 ---
-
 # élément key {#key--element}
 
 
@@ -52,14 +51,14 @@ Par convention, les clefs sont déclarées après la déclaration de l&#39;élé
 
 Une clé est connue sous le nom de composite si elle comprend plusieurs champs (plusieurs `<keyfield>` enfants, par exemple). N’utilisez pas de clé composite pour définir une clé primaire.
 
-Si l’élément principal du schéma contient l’attribut « @autopk=true », alors la clé primaire est unique.Nous ne pouvons avoir qu’une seule clé primaire par schéma.
+Si l’élément principal du schéma contient l’attribut « @autopk=true », alors la clé primaire est unique. Nous ne pouvons avoir qu’une seule clé primaire par schéma.
 
 Les 1000 premiers identifiants sont réservés donc si une plage de valeurs doit être définies pour les clefs, il faut la commencer après la valeur 1000.
 
 ## Description des attributs {#attribute-description-8}
 
-* **allowEmptyPart (boolean)** : dans le cas d’une clé composite, si cet attribut est activé, la clé est considérée comme valide si au moins une des clés composant la clé composite n’est pas vide.Si c’est le cas, la valeur vide de la notion est « 0 » (booléen ou pour tous les types de données numériques).Par défaut, toutes les clés qui constituent une clé composite doivent être saisies.
-* **applicableIf (string)** : cet attribut vous permet de rendre la clé facultative.Il définit la condition selon laquelle la définition de clé sera appliquée.Cet attribut reçoit une expression XTK.
+* **allowEmptyPart (boolean)** : dans le cas d’une clé composite, si cet attribut est activé, la clé est considérée comme valide si au moins une des clés composant la clé composite n’est pas vide. Si c’est le cas, la valeur vide de la notion est « 0 » (booléen ou pour tous les types de données numériques). Par défaut, toutes les clés qui constituent une clé composite doivent être saisies.
+* **applicableIf (string)** : cet attribut vous permet de rendre la clé facultative. Il définit la condition selon laquelle la définition de clé sera appliquée. Cet attribut reçoit une expression XTK.
 * **internal (boolean)**: s&#39;il est activé, cet attribut signifie à Adobe Campaign que la clef est primaire.
 * **label (string)**: libellé de la clef.
 * **name (MNTOKEN)**: nom interne de la clef.

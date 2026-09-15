@@ -7,25 +7,33 @@ exl-id: e044b35a-b49f-408a-900d-2afe8ff10212
 TQID: https://experienceleague.adobe.com/i3aMiL43o3Sj7aR1u2KJmlMVe3UiS6j-tLc5augCryk
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 2083
+workflow-type: tm+mt
+source-wordcount: '2142'
 ht-degree: 100%
-
 ---
-
 # Protection de la confidentialité des e-mails dans l’application Mail d’Apple
 
 ## Qu’est-ce qui a changé ?
@@ -58,8 +66,8 @@ Archivez vos logs de tracking au-delà de la période de conservation d’Adobe�
 
 ### Évaluation de la tendance actuelle des taux d’ouverture
 
-Déterminez la proportion de votre audience qu’utilise l’application Apple Mail sur un appareil iOS.
-Grâce à cette évaluation, vous pouvez identifier les possibles écarts anormaux et leur cause. Vous pouvez déterminer si un écart est dû à des problèmes de performances de campagne ou à la fonctionnalité de protection de la confidentialité d’Apple. Consultez les [conseils et astuces](#measure-ios-footprint).
+Déterminez quelle proportion de votre audience utilise l’application Mail d’Apple sur un appareil iOS.
+Grâce à cette évaluation, vous pouvez identifier les anomalies potentielles et leur cause. Vous pouvez déterminer si un écart est dû à des problèmes de performances de campagne ou à la fonctionnalité de protection de la confidentialité d’Apple. Lisez les [conseils et astuces](#measure-ios-footprint).
 
 ### Réévaluation de votre stratégie de campagne et de vos mesures de performances
 
@@ -392,8 +400,8 @@ Cet exemple illustre comment exporter des données de tracking depuis Adobe Cam
 
 1. Créez un workflow qui démarre par une requête.
 
-   La requête initiale permet de récupérer les logs de tracking des trois derniers mois.
-Vous pouvez utiliser une requête incrémentale pour extraire uniquement les enregistrements que vous n’avez pas encore exportés.
+   La requête initiale est utilisée pour récupérer les logs de tracking des trois derniers mois.
+   Vous pouvez utiliser une requête incrémentale pour extraire uniquement les enregistrements que vous n’avez pas encore exportés.
 
    Ajoutez toutes les informations requises à partir du nœud **[!UICONTROL Données additionnelles]**.
 
@@ -438,14 +446,14 @@ Ces exemples illustrent comment utiliser des workflows pour ventiler des enregis
 
 * Le premier exemple de workflow regroupe les activités suivantes :
 
-   1. L’activité **[!UICONTROL Requête]** initiale permet de sélectionner toutes les ouvertures d’e-mail des trois derniers mois.
-   1. Une activité **[!UICONTROL Partage]** permet de diviser la sélection par application de messagerie, navigateur, système d’exploitation et appareil.
+  1. L’activité **[!UICONTROL Requête]** initiale permet de sélectionner toutes les ouvertures d’e-mail des trois derniers mois.
+  1. Une activité **[!UICONTROL Partage]** permet de diviser la sélection par application de messagerie, navigateur, système d’exploitation et appareil.
 
-   1. Une activité **[!UICONTROL Déduplication]** suit chaque activité **[!UICONTROL Partage]**. L’activité **[!UICONTROL Déduplication]** permet de supprimer les adresses e-mail en double.
+  1. Une activité **[!UICONTROL Déduplication]** suit chaque activité **[!UICONTROL Partage]**. L’activité **[!UICONTROL Déduplication]** permet de supprimer les adresses e-mail en double.
 
-      L’activité **[!UICONTROL Déduplication]** est positionnée à la suite de l’activité **[!UICONTROL Partage]** afin d’éviter la perte d’informations concernant les destinataires qui utilisent divers appareils.
+     L’activité **[!UICONTROL Déduplication]** est positionnée à la suite de l’activité **[!UICONTROL Partage]** afin d’éviter la perte d’informations concernant les destinataires qui utilisent divers appareils.
 
-   1. Une activité **[!UICONTROL Fin]** suit chaque activité **[!UICONTROL Déduplication]**.
+  1. Une activité **[!UICONTROL Fin]** suit chaque activité **[!UICONTROL Déduplication]**.
 
   Ce type de workflow est utile si vous stockez uniquement les destinataires dans la table des destinataires d’usine pour le ciblage.
 
@@ -453,14 +461,14 @@ Ces exemples illustrent comment utiliser des workflows pour ventiler des enregis
 
 * Le deuxième exemple de workflow comprend les activités suivantes :
 
-   1. L’activité **[!UICONTROL Requête]** initiale permet de sélectionner toutes les ouvertures d’e-mail au cours des trois derniers mois.
-   1. Une activité **[!UICONTROL Déduplication]** permet de supprimer les adresses e-mail en double.
-   1. Une activité **[!UICONTROL Branchement]** permet de réaliser les actions suivantes :
+  1. L’activité **[!UICONTROL Requête]** initiale permet de sélectionner toutes les ouvertures d’e-mail au cours des trois derniers mois.
+  1. Une activité **[!UICONTROL Déduplication]** permet de supprimer les adresses e-mail en double.
+  1. Une activité **[!UICONTROL Branchement]** permet de réaliser les actions suivantes :
 
-      * Dans une transition, l’activité **[!UICONTROL Changement de dimension]** permet de trouver les destinataires auxquels le log de tracking fait référence.
-      * Dans l’autre transition, l’activité **[!UICONTROL Partage]** permet de diviser la sélection par application de messagerie, navigateur, système d’exploitation et appareil.
+     * Dans une transition, l’activité **[!UICONTROL Changement de dimension]** permet de trouver les destinataires auxquels le log de tracking fait référence.
+     * Dans l’autre transition, l’activité **[!UICONTROL Partage]** permet de diviser la sélection par application de messagerie, navigateur, système d’exploitation et appareil.
 
-   1. Une activité **[!UICONTROL Fin]** suit chaque transition après l’activité **[!UICONTROL Partage]**.
+  1. Une activité **[!UICONTROL Fin]** suit chaque transition après l’activité **[!UICONTROL Partage]**.
 
   Ce type de workflow est utile si vous stockez les destinataires dans une table distincte de la table des destinataires d’usine.
 

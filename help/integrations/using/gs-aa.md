@@ -9,27 +9,35 @@ exl-id: 985cf088-7546-4875-8e11-cafe5bd3e323
 TQID: https://experienceleague.adobe.com/YuvP0m31wL-WlocUXU3rWovOiwLiA5XrEsnBLlW3nY8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Adobe Analytics integration
   - id: df0d6518-6f49-46e2-b46e-3bcc513f553f
+    internal-label: Adobe Experience Manager integration
   - id: eb007b6d-6e57-46ab-9485-3f24d6102304
+    internal-label: Adobe Experience Platform integration
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
+    internal-label: Adobe Target integration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
 workflow-type: tm+mt
-source-wordcount: 212
+source-wordcount: '212'
 ht-degree: 100%
-
 ---
-
 # Utiliser Adobe Campaign et Adobe Analytics {#adobe-analytics-connector-gs}
 
 Le connecteur Adobe Analytics permet à Adobe Campaign et Adobe Analytics d’interagir par le biais du package **[!UICONTROL Connecteurs Web Analytics]**. Il transmet des données à Adobe Campaign sous la forme de segments portant sur le comportement des utilisateurs et utilisatrices suite à une campagne. Réciproquement, il envoie des indicateurs et des attributs de campagnes diffusées par Adobe Campaign à Adobe Analytics.
@@ -44,8 +52,8 @@ Avant de commencer à utiliser le connecteur Adobe Campaign-Adobe Analytics, t
 
 * Le module complémentaire de connecteur Web Analytics doit être installé sur votre environnement, via le package dédié.
 
-   * Pour les implémentations hybrides et On-premise, assurez-vous de suivre les étapes d’approvisionnement décrites sur cette [page](adobe-analytics-provisioning.md).
-   * En tant qu’utilisateur ou utilisatrice Hoster ou Managed Cloud Services, contactez Adobe pour connecter Campaign aux services et aux solutions Adobe Experience Cloud.
+  * Pour les implémentations hybrides et On-premise, assurez-vous de suivre les étapes d’approvisionnement décrites sur cette [page](adobe-analytics-provisioning.md).
+  * En tant qu’utilisateur ou utilisatrice Hoster ou Managed Cloud Services, contactez Adobe pour connecter Campaign aux services et aux solutions Adobe Experience Cloud.
 
 
 ## Configuration et utilisation {#adobe-analytics-connector-usage}

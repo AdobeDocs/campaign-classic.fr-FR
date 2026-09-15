@@ -3,7 +3,7 @@ product: campaign
 title: Gestion des fichiers et des ressources
 feature: Installation, Application Settings
 description: Découvrez comment configurer la gestion des fichiers et des ressources dans Campaign
-badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
@@ -11,18 +11,19 @@ exl-id: 236afdfe-fb23-4ebb-b000-76e14bf01d9e
 TQID: https://experienceleague.adobe.com/GyNWNrT81f8tWIQizlu3KcVgKvepCjqd6G40DKeOlGo
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+    internal-label: Privacy
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 675
+workflow-type: tm+mt
+source-wordcount: '663'
 ht-degree: 100%
-
 ---
-
 # Gestion des fichiers et des ressources{#file-and-resmanagement}
 
 
@@ -37,7 +38,7 @@ La valeur par défaut de cet attribut est **.+** et permet de charger n’import
 
 Pour limiter les formats possibles, remplacez la valeur d’attribut par une expression java régulière valide. Vous pouvez saisir plusieurs valeurs en les séparant par une virgule.
 
-Par exemple : **uploadWhiteList=&quot;.&#42;.png,.&#42;.jpg&quot;** vous permet de charger des formats PNG et JPG sur le serveur.Aucun autre format ne sera accepté.
+Par exemple : **uploadWhiteList=&quot;.&#42;.png,.&#42;.jpg&quot;** vous permet de charger des formats PNG et JPG sur le serveur. Aucun autre format ne sera accepté.
 
 Vous pouvez également empêcher le téléchargement de fichiers importants en configurant le serveur Web. [En savoir plus](web-server-configuration.md)
 

@@ -8,25 +8,28 @@ exl-id: 6c90ac2f-0d2b-48b0-9245-3e5e3a3d027c
 TQID: https://experienceleague.adobe.com/ghepBaMXkefYkadDf1LLaDAf5XU8VDgHGM-3tpQ6x0s
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 feature_v2: []
 subfeature_v2:
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
+    internal-label: Workflow HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
+    internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
+    internal-label: Data Management activities
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 544
+workflow-type: tm+mt
+source-wordcount: '544'
 ht-degree: 100%
-
 ---
-
 # Paramètres avancés{#advanced-parameters}
 
 
 
-L’écran des propriétés d’une activité comporte un onglet **[!UICONTROL Avancé]** qui vous permet de définir le comportement en cas d’erreur, la durée d’exécution de l’activité ou encore de saisir un script d’initialisation.Il existe deux versions de cet onglet :
+L’écran des propriétés d’une activité comporte un onglet **[!UICONTROL Avancé]** qui vous permet de définir le comportement en cas d’erreur, la durée d’exécution de l’activité ou encore de saisir un script d’initialisation. Il existe deux versions de cet onglet :
 
 * une version simplifiée (par exemple pour les activités **[!UICONTROL Début]** ou **[!UICONTROL Fin]**)
 
@@ -48,31 +51,31 @@ Ce champ vous permet de modifier lʼimage liée à une activité. Pour plus d’
 
 ## Exécution {#execution}
 
-Ce champ vous permet de définir l’action à effectuer au moment du déclenchement de la tâche.Trois choix s’offrent à vous :
+Ce champ vous permet de définir l’action à effectuer au moment du déclenchement de la tâche. Trois choix s’offrent à vous :
 
 Ces options sont généralement sélectionnées au niveau du diagramme en cliquant sur l&#39;activité avec le bouton droit.
 
 * **[!UICONTROL Normale]** : l&#39;activité est exécutée normalement.
 * **[!UICONTROL Ne pas activer]** : cette tâche ainsi que toutes celles qui lui succèdent (dans la même branche) ne sont pas exécutées.
-* **[!UICONTROL Activer mais ne pas exécuter]** : cette tâche ainsi que toutes celles qui lui succèdent (dans la même branche) sont automatiquement arrêtées.Cela peut être utile si vous souhaitez être là au déclenchement de la tâche.Pour exécuter manuellement la tâche, cliquez sur l&#39;activité avec le bouton droit et sélectionnez **[!UICONTROL Exécution normale]**.
+* **[!UICONTROL Activer mais ne pas exécuter]** : cette tâche ainsi que toutes celles qui lui succèdent (dans la même branche) sont automatiquement arrêtées. Cela peut être utile si vous souhaitez être là au déclenchement de la tâche. Pour exécuter manuellement la tâche, cliquez sur l&#39;activité avec le bouton droit et sélectionnez **[!UICONTROL Exécution normale]**.
 
 ## Affinité {#affinity}
 
-Vous pouvez choisir de forcer l’exécution d’un workflow ou d’une activité de workflow sur une machine particulière.Pour cela, vous devez définir une ou plusieurs propensions au niveau du workflow ou de l’activité concernée.
+Vous pouvez choisir de forcer l’exécution d’un workflow ou d’une activité de workflow sur une machine particulière. Pour cela, vous devez définir une ou plusieurs propensions au niveau du workflow ou de l’activité concernée.
 
 Le paramétrage des workflows en haute disponibilité est présenté dans cette [section](../../installation/using/configuring-campaign-server.md#high-availability-workflows-and-affinities).
 
 
 ## Durée max. d’exécution {#max--execution-period}
 
-Ce champ vous permet de définir un avertissement lorsque la tâche prend trop de temps.Cela n’aura aucune incidence sur le fonctionnement du workflow.Si la tâche n’est pas terminée au moment où la **[!UICONTROL Période d’exécution max.]** est terminée, la page **[!UICONTROL Supervision de l’instance]** affiche un avertissement pour ce workflow. Cette page est accessible à partir de l&#39;onglet **[!UICONTROL Supervision]** de la page d&#39;accueil.
+Ce champ vous permet de définir un avertissement lorsque la tâche prend trop de temps. Cela n’aura aucune incidence sur le fonctionnement du workflow. Si la tâche n’est pas terminée au moment où la **[!UICONTROL Période d’exécution max.]** est terminée, la page **[!UICONTROL Su de l’instance]** affiche un avertissement pour ce workflow. Cette page est accessible à partir de l&#39;onglet **[!UICONTROL Su]** de la page d&#39;accueil.
 
 ## Comportement {#behavior}
 
-Ce champ vous permet de définir le comportement à appliquer dans le cas de l’utilisation de tâches asynchrones.Deux options sont disponibles :
+Ce champ vous permet de définir le comportement à appliquer dans le cas de l’utilisation de tâches asynchrones. Deux options sont disponibles :
 
 * **[!UICONTROL Plusieurs tâches autorisées]** : plusieurs tâches peuvent être exécutées en même temps, même si la première n&#39;est pas terminée.
-* **[!UICONTROL La tâche en cours est prioritaire]** : les tâches en cours sont prioritaires.Tant qu’une tâche est en cours, aucune autre tâche ne sera exécutée.
+* **[!UICONTROL La tâche en cours est prioritaire]** : les tâches en cours sont prioritaires. Tant qu’une tâche est en cours, aucune autre tâche ne sera exécutée.
 
 ## Time zone {#time-zone}
 
@@ -80,10 +83,10 @@ Ce champ vous permet de sélectionner le fuseau horaire de l’activité. Pour p
 
 ## En cas d&#39;erreur {#in-case-of-errors}
 
-Ce champ vous permet de définir l’action à effectuer lorsque l’activité est en erreur.Deux options sont disponibles :
+Ce champ vous permet de définir l’action à effectuer lorsque l’activité est en erreur. Deux options sont disponibles :
 
 * **[!UICONTROL Suspendre le processus]** : le workflow est automatiquement suspendu. Son statut passe à **[!UICONTROL En échec]**. Lorsque le problème est résolu, relancez le workflow.
-* **[!UICONTROL Ignorer]** : cette tâche ainsi que toutes celles qui lui succèdent (dans la même branche) ne sont pas exécutées.Cela peut être utile pour les tâches récurrentes.Si la branche comporte un planificateur placé en amont, il démarrera normalement à la date d’exécution suivante.
+* **[!UICONTROL Ignorer]** : cette tâche ainsi que toutes celles qui lui succèdent (dans la même branche) ne sont pas exécutées. Cela peut être utile pour les tâches récurrentes. Si la branche comporte un planificateur placé en amont, il démarrera normalement à la date d’exécution suivante.
 * **[!UICONTROL Abandon en erreur]** : le workflow est arrêté automatiquement et ne peut pas être redémarré. Son statut passe à **[!UICONTROL En échec]**.
 
 ## Script d&#39;initialisation {#initialization-script}

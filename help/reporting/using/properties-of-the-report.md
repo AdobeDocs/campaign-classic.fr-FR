@@ -2,33 +2,38 @@
 product: campaign
 title: Propriétés du rapport
 description: En savoir plus sur les paramètres des propriétés du rapport
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting, Monitoring
 exl-id: dfa9d329-1086-4f6d-9d03-df159cad5495
 TQID: https://experienceleague.adobe.com/NAcXKBNoDJRopQf-QpqnFhwxFRvvScp7xShJotE0s1A
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
 feature_v2:
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic Reporting
 subfeature_v2:
   - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
+    internal-label: Customize reports
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+    internal-label: Cubes and multidimensional analysis
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 462
+workflow-type: tm+mt
+source-wordcount: '453'
 ht-degree: 100%
-
 ---
-
 # Propriétés du rapport{#properties-of-the-report}
 
 
 
-Vous pouvez entièrement personnaliser et configurer votre rapport en fonction de vos besoins.Pour ce faire, modifiez ses propriétés.Les propriétés du rapport sont accessibles via le bouton **[!UICONTROL Propriétés]** situé au-dessus du graphique de séquence d&#39;activités.
+Vous pouvez entièrement personnaliser et configurer votre rapport en fonction de vos besoins. Pour ce faire, modifiez ses propriétés. Les propriétés du rapport sont accessibles via le bouton **[!UICONTROL Propriétés]** situé au-dessus du graphique de séquence d&#39;activités.
 
 ![](assets/s_ncs_advuser_report_properties_01.png)
 
@@ -69,7 +74,7 @@ Vous pouvez paramétrer les langues dans lesquelles vous souhaitez que le rappor
 
 ![](assets/s_ncs_advuser_report_properties_06.png)
 
-La langue d’édition correspond à la langue dans laquelle vous rédigez.Lorsque vous ajoutez une langue, un sous-onglet apparaît dans la page d’édition du rapport.
+La langue d’édition correspond à la langue dans laquelle vous rédigez. Lorsque vous ajoutez une langue, un sous-onglet apparaît dans la page d’édition du rapport.
 
 ![](assets/s_ncs_advuser_report_properties_05a.png)
 
@@ -79,10 +84,10 @@ La langue d’édition correspond à la langue dans laquelle vous rédigez.Lorsq
 
 ## Personnalisation du rendu HTML {#personalizing-html-rendering}
 
-Dans l’onglet **[!UICONTROL Rendu]**, vous pouvez personnaliser le mode d’affichage des données dans la page.Vous pouvez sélectionner les éléments suivants :
+Dans l’onglet **[!UICONTROL Rendu]**, vous pouvez personnaliser le mode d’affichage des données dans la page. Vous pouvez sélectionner les éléments suivants :
 
 * Le type de navigation dans le rapport : via des boutons ou des liens.
-* La position par défaut des libellés des éléments du rapport.Cette position peut être surchargée au niveau de chaque élément.
+* La position par défaut des libellés des éléments du rapport. Cette position peut être surchargée au niveau de chaque élément.
 * Le modèle, ou thème, utilisé pour la génération des pages du rapport.
 
 ![](assets/s_ncs_advuser_report_properties_08.png)

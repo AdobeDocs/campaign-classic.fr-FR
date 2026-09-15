@@ -2,33 +2,41 @@
 product: campaign
 title: Formulaires de saisie
 description: Découvrez comment utiliser les formulaires de saisie dans Campaign
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Data Management
 role: User, Developer
 exl-id: 8ec52c96-44a2-4544-93b6-9ba251510682
 TQID: https://experienceleague.adobe.com/91uYhYGJodLIdlD9dRAmshCQcIR7YUQV2lUvxJGn-jI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 845
+workflow-type: tm+mt
+source-wordcount: '836'
 ht-degree: 100%
-
 ---
-
 # Formulaires de saisie{#input-forms}
 
 Vous trouverez ci-après quelques principes généraux sur l&#39;utilisation des formulaires de saisie dans Adobe Campaign.
@@ -89,7 +97,7 @@ Par défaut, chaque champ est affiché sur une seule ligne et occupe tout l&#39;
 
 ## Mise en forme {#formatting}
 
-La disposition des contrôles entre eux ressemble à celle utilisée dans les tableaux HTML, avec la possibilité de diviser un contrôle en plusieurs colonnes, d’entrelacer des éléments ou de spécifier l’occupation de l’espace disponible.N’oubliez toutefois pas que la mise en forme autorise uniquement la répartition des proportions ; vous ne pouvez pas spécifier des dimensions fixes pour un objet.
+La disposition des contrôles entre eux ressemble à celle utilisée dans les tableaux HTML, avec la possibilité de diviser un contrôle en plusieurs colonnes, d’entrelacer des éléments ou de spécifier l’occupation de l’espace disponible. N’oubliez toutefois pas que la mise en forme autorise uniquement la répartition des proportions ; vous ne pouvez pas spécifier des dimensions fixes pour un objet.
 
 Pour plus d’informations, consultez [cette section](../../configuration/using/form-structure.md#formatting).
 
@@ -118,7 +126,7 @@ Les colonnes sont déclarées par les éléments **`<input>`** enfants de la lis
 >
 >Les boutons de flèches haut et bas d&#39;ordonnancement sont ajoutés automatiquement lorsque l&#39;attribut **ordered=&quot;true&quot;** est renseigné sur l&#39;élément de collection dans le schéma de données.
 
-Par défaut, les boutons de la barre d’outils sont alignés verticalement.Ils peuvent également être alignés horizontalement :
+Par défaut, les boutons de la barre d’outils sont alignés verticalement. Ils peuvent également être alignés horizontalement :
 
 ![](assets/d_ncs_content_form5.png)
 
@@ -162,7 +170,7 @@ Les formes d&#39;édition dans les listes sont utilisées dans les cas suivants�
 
 La définition du formulaire d’édition est spécifiée via l’élément **`<form>`** situé sous l’élément de liste. Sa structure est identique à celle d’un formulaire de saisie.
 
-Un bouton **[!UICONTROL Détail]** est automatiquement ajouté lorsque l’attribut **zoom=&quot;true&quot;** est renseigné dans la définition de la liste.Cela vous permet d’ouvrir le formulaire d’édition sur la ligne sélectionnée.
+Un bouton **[!UICONTROL Détail]** est automatiquement ajouté lorsque l’attribut **zoom=&quot;true&quot;** est renseigné dans la définition de la liste. Cela vous permet d’ouvrir le formulaire d’édition sur la ligne sélectionnée.
 
 >[!NOTE]
 >

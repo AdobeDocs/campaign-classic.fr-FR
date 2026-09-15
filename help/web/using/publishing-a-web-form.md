@@ -2,41 +2,46 @@
 product: campaign
 title: Publier un formulaire web
 description: Publier un formulaire web
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 1c66b8e8-7590-4767-9b2f-a9a509df4508
 TQID: https://experienceleague.adobe.com/2lsNN7oxSizIC1wsv5S5fwkgCcKd3so5qeq-pHr8odY
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: f391046b-0cf3-4e76-bd3b-97fe06654506
+    internal-label: Web Apps
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
+    internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
+    internal-label: Landing pages
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1379
+workflow-type: tm+mt
+source-wordcount: '1370'
 ht-degree: 100%
-
 ---
-
 # Publier un formulaire web{#publishing-a-web-form}
 
 
 
 ## Précharger les données du formulaire {#pre-loading-the-form-data}
 
-Si vous souhaitez mettre à jour les profils stockés en base via un formulaire web, vous pouvez utiliser une boîte de préchargement.La zone de préchargement permet d’indiquer comment trouver l’enregistrement à mettre à jour dans la base de données.
+Si vous souhaitez mettre à jour les profils stockés en base via un formulaire web, vous pouvez utiliser une boîte de préchargement. La zone de préchargement permet d’indiquer comment trouver l’enregistrement à mettre à jour dans la base de données.
 
 Les méthodes d&#39;identification possibles sont les suivantes :
 
 * **[!UICONTROL Chiffrement Adobe Campaign]**
 
-  Cette méthode de chiffrement utilise l’identifiant (ID) Adobe Campaign chiffré.Cette méthode n’est applicable que sur un objet Adobe Campaign et l’identifiant chiffré ne peut être généré que par la plateforme Adobe Campaign.
+  Cette méthode de chiffrement utilise l’identifiant (ID) Adobe Campaign chiffré. Cette méthode n’est applicable que sur un objet Adobe Campaign et l’identifiant chiffré ne peut être généré que par la plateforme Adobe Campaign.
 
   Lorsque vous utilisez cette méthode, vous devez adapter l&#39;URL du formulaire lorsque vous diffusez l&#39;adresse par email en y ajoutant le paramètre **`<%=escapeUrl(recipient.cryptedId) %>`**. Voir à ce sujet la section [Diffuser un formulaire par email](#delivering-a-form-via-email).
 
@@ -70,9 +75,9 @@ Les méthodes d&#39;identification possibles sont les suivantes :
 
   >[!CAUTION]
   >
-  >Si plusieurs champs sont indiqués dans la liste, les données de **TOUS LES CHAMPS** doivent correspondre avec les informations stockées en base pour que le profil soit mis à jour.Dans le cas contraire, un nouveau profil est créé.
+  >Si plusieurs champs sont indiqués dans la liste, les données de **TOUS LES CHAMPS** doivent correspondre avec les informations stockées en base pour que le profil soit mis à jour. Dans le cas contraire, un nouveau profil est créé.
   > 
-  >Cette fonctionnalité est particulièrement utile dans les applications web mais n’est pas recommandée dans les formulaires publics.L’option de contrôle d’accès sélectionnée doit être « Activer le contrôle d’accès ».
+  >Cette fonctionnalité est particulièrement utile dans les applications web mais n’est pas recommandée dans les formulaires publics. L’option de contrôle d’accès sélectionnée doit être « Activer le contrôle d’accès ».
 
 L’option **[!UICONTROL Ignorer le pré-chargement si l’identification est vide]** doit être sélectionnée si vous ne souhaitez pas mettre à jour les profils. Dans ce cas, chaque profil saisi sera ajouté à la base de données après validation du formulaire. Cette option est utilisée, par exemple, lorsque le formulaire est publié sur un site web.
 
@@ -94,7 +99,7 @@ Le cycle de vie d&#39;un formulaire se décompose en trois étapes :
 
 1. **En édition**
 
-   Il s’agit de la phase de conception initiale.Lorsqu’un nouveau formulaire est créé, il est en phase d’édition.L&#39;accès au formulaire, à des fins de tests uniquement, requiert alors l&#39;utilisation du paramètre **[!UICONTROL __uuid]** dans son URL. Cette URL est accessible dans le sous-onglet **[!UICONTROL Aperçu]**. Voir [Paramètres d’URL de formulaire](defining-web-forms-properties.md#form-url-parameters).
+   Il s’agit de la phase de conception initiale. Lorsqu’un nouveau formulaire est créé, il est en phase d’édition. L&#39;accès au formulaire, à des fins de tests uniquement, requiert alors l&#39;utilisation du paramètre **[!UICONTROL __uuid]** dans son URL. Cette URL est accessible dans le sous-onglet **[!UICONTROL Aperçu]**. Voir [Paramètres d’URL de formulaire](defining-web-forms-properties.md#form-url-parameters).
 
    >[!CAUTION]
    >
@@ -166,7 +171,7 @@ Dans ce cas, vous devez cocher l’option **[!UICONTROL Mettre à jour l’enreg
 
 ### Log responses {#log-responses}
 
-Le tracking des réponses peut être activé dans un onglet dédié afin de suivre l&#39;impact de votre formulaire web. Pour ce faire, cliquez sur le bouton **[!UICONTROL Paramètres avancés]** dans la fenêtre des propriétés du formulaire et cochez ensuite la case **[!UICONTROL Enregistrer une trace des réponses]**.
+Le tracking des réponses peut être activé dans un onglet dédié afin de su l&#39;impact de votre formulaire web. Pour ce faire, cliquez sur le bouton **[!UICONTROL Paramètres avancés]** dans la fenêtre des propriétés du formulaire et cochez ensuite la case **[!UICONTROL Enregistrer une trace des réponses]**.
 
 ![](assets/s_ncs_admin_survey_trace.png)
 
@@ -192,17 +197,17 @@ Pour en savoir plus sur les différents statuts d&#39;un formulaire web, consult
 
 * Si le statut du formulaire web était **[!UICONTROL En attente de publication]** ou **[!UICONTROL En ligne]** lorsqu’il a été exporté à partir de la première instance :
 
-   * Le formulaire web reçoit le statut **[!UICONTROL En attente de publication]** lorsqu’il est importé sur la nouvelle instance.
+  * Le formulaire web reçoit le statut **[!UICONTROL En attente de publication]** lorsqu’il est importé sur la nouvelle instance.
 
-   * Si le formulaire web existe déjà sur la nouvelle instance, il est remplacé par la nouvelle version et prend le statut **[!UICONTROL En attente de publication]**, même si l’ancienne version était **[!UICONTROL En ligne]**.
+  * Si le formulaire web existe déjà sur la nouvelle instance, il est remplacé par la nouvelle version et prend le statut **[!UICONTROL En attente de publication]**, même si l’ancienne version était **[!UICONTROL En ligne]**.
 
-   * Qu’il existait déjà ou non, le formulaire doit être [publié](#publishing-a-form) pour obtenir le statut **[!UICONTROL En ligne]** sur la nouvelle instance et être accessible via l’URL du formulaire web dans un navigateur.
+  * Qu’il existait déjà ou non, le formulaire doit être [publié](#publishing-a-form) pour obtenir le statut **[!UICONTROL En ligne]** sur la nouvelle instance et être accessible via l’URL du formulaire web dans un navigateur.
 
 * Si le statut du formulaire web était **[!UICONTROL En édition]** lorsqu’il a été exporté :
 
-   * Si le formulaire web est nouveau sur l&#39;instance où le package a été importé, il reçoit le statut **[!UICONTROL En édition]**.
+  * Si le formulaire web est nouveau sur l&#39;instance où le package a été importé, il reçoit le statut **[!UICONTROL En édition]**.
 
-   * Si le formulaire web existe déjà sur la nouvelle instance, il s’agit d’une modification sur un formulaire existant. Si l’ancienne version du formulaire était **[!UICONTROL En ligne]**, elle reste en ligne jusqu’à ce que la nouvelle version du formulaire soit [publiée](#publishing-a-form) à nouveau sur la nouvelle instance.
+  * Si le formulaire web existe déjà sur la nouvelle instance, il s’agit d’une modification sur un formulaire existant. Si l’ancienne version du formulaire était **[!UICONTROL En ligne]**, elle reste en ligne jusqu’à ce que la nouvelle version du formulaire soit [publiée](#publishing-a-form) à nouveau sur la nouvelle instance.
 
   >[!NOTE]
   >

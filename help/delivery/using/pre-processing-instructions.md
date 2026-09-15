@@ -2,25 +2,27 @@
 product: campaign
 title: Instructions de pré-traitement pour les URL trackées
 description: Découvrez les instructions de pré-traitement à utiliser pour écrire le script de l’URL d’un e-mail et pour que l’URL soit toujours trackée
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Monitoring
 role: User, Developer
 exl-id: 9d3f5c74-377a-4e24-81e5-bb605f69cf8a
 TQID: https://experienceleague.adobe.com/cDB7CFuf6Gv0eyik3yEyJh4auo97LkazDSahUNPFtec
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
 workflow-type: tm+mt
-source-wordcount: 664
+source-wordcount: '655'
 ht-degree: 100%
-
 ---
-
 # Instructions de pré-traitement {#pre-processing-instructions}
 
 Vous pouvez utiliser une syntaxe spécifique dans le contenu de la diffusion afin d’ajouter des instructions et de créer un script pour l’URL de l’email suivi. Les &lt;%@ ne sont pas des instructions JavaScript. Cette syntaxe est propre à Adobe Campaign.
@@ -81,10 +83,10 @@ Où :
 
 * **[!DNL object]** : nom de l’objet (exemple : diffusion, fournisseur, autre).
 L’objet peut être :
-   * **[!DNL delivery]** : pour la diffusion en cours (voir les détails et les restrictions dans la sous-section ci-dessous).
-   * **[!DNL provider]** : pour le fournisseur/routage de diffusion actuel (nms:externalAccount).
-   * Objet de script supplémentaire : si un objet est chargé dans le contexte via : **Propriétés** > **Personnalisation** > **Ajouter des objets dans le contexte d’exécution**.
-   * Élément de la boucle foreach : voir la section [Foreach](#foreach) ci-dessous.
+  * **[!DNL delivery]** : pour la diffusion en cours (voir les détails et les restrictions dans la sous-section ci-dessous).
+  * **[!DNL provider]** : pour le fournisseur/routage de diffusion actuel (nms:externalAccount).
+  * Objet de script supplémentaire : si un objet est chargé dans le contexte via : **Propriétés** > **Personnalisation** > **Ajouter des objets dans le contexte d’exécution**.
+  * Élément de la boucle foreach : voir la section [Foreach](#foreach) ci-dessous.
 * **[!DNL xpath]** : xpath du champ.
 * **[!DNL index]** (facultatif) : si **[!DNL object]** est un tableau (pour les objets de script supplémentaires), index d’élément dans le tableau (démarre à 0).
 

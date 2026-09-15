@@ -9,32 +9,39 @@ exl-id: 709c64a8-34bf-43fa-a820-238295fb26b8
 TQID: https://experienceleague.adobe.com/RRjCa2LDMEuCoh-u4xGb4lZZpNOxPk4IjTMa-iSPUlg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 subfeature_v2:
   - id: e5fb657f-3c0a-4fcc-9980-3589a23ab4de
+    internal-label: Typology rules
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1393
+workflow-type: tm+mt
+source-wordcount: '1393'
 ht-degree: 100%
-
 ---
-
 # Simulation de campagnes{#campaign-simulations}
 
 ## À propos des simulations {#about-simulations}
 
-L’optimisation de campagne permet de tester l’efficacité d’un plan de campagne à l’aide de simulations.Vous pouvez ainsi mesurer le succès potentiel d’une campagne : le revenu généré, le volume de la cible en fonction des règles de typologies appliquées, etc.
+L’optimisation de campagne permet de tester l’efficacité d’un plan de campagne à l’aide de simulations. Vous pouvez ainsi mesurer le succès potentiel d’une campagne : le revenu généré, le volume de la cible en fonction des règles de typologies appliquées, etc.
 
-La simulation permet de suivre et de comparer l&#39;impact des diffusions les unes par rapport aux autres.
+La simulation permet de su et de comparer l&#39;impact des diffusions les unes par rapport aux autres.
 
 >[!NOTE]
 >
@@ -76,7 +83,7 @@ Pour créer une simulation, les étapes sont les suivantes :
 
    ![](assets/simu_campaign_opti_edit_scope_update.png)
 
-1. Sélectionnez les éléments à inclure dans la portée de la simulation.Si nécessaire, sélectionnez plusieurs éléments en utilisant les touches MAJ et CTRL du clavier.
+1. Sélectionnez les éléments à inclure dans la portée de la simulation. Si nécessaire, sélectionnez plusieurs éléments en utilisant les touches MAJ et CTRL du clavier.
 
    ![](assets/simu_campaign_opti_edit_scope_select.png)
 
@@ -106,9 +113,9 @@ Pour créer une simulation, les étapes sont les suivantes :
 
 Dans l&#39;onglet **[!UICONTROL Général]** de la simulation, vous pouvez indiquer ses paramètres d&#39;exécution :
 
-* L’option **[!UICONTROL Différer l’exécution vers une plage horaire de faible activité]** reporte le lancement de la simulation vers une période moins chargée, en fonction du degré de priorité choisie.Une simulation est très coûteuse en termes de ressources sur le moteur de base de données. À ce titre, il est souvent utile de décaler l’exécution des simulations non urgentes vers une plage de faible activité (la nuit par exemple).
+* L’option **[!UICONTROL Différer l’exécution vers une plage horaire de faible activité]** reporte le lancement de la simulation vers une période moins chargée, en fonction du degré de priorité choisie. Une simulation est très coûteuse en termes de ressources sur le moteur de base de données. À ce titre, il est souvent utile de décaler l’exécution des simulations non urgentes vers une plage de faible activité (la nuit par exemple).
 * La **[!UICONTROL Priorité]** est le niveau appliqué à la simulation pour en différer le déclenchement.
-* **[!UICONTROL Enregistrer les requêtes SQL dans le journal]**.Les logs SQL vous permettent de diagnostiquer une simulation si elle se termine avec des erreurs.Ils peuvent également vous aider à comprendre pourquoi une simulation est trop lente.Ces messages seront visibles après la simulation dans le sous-onglet **[!UICONTROL Logs SQL]** de l&#39;onglet **[!UICONTROL Suivi]**.
+* **[!UICONTROL Enregistrer les requêtes SQL dans le journal]**. Les logs SQL vous permettent de diagnostiquer une simulation si elle se termine avec des erreurs. Ils peuvent également vous aider à comprendre pourquoi une simulation est trop lente. Ces messages seront visibles après la simulation dans le sous-onglet **[!UICONTROL Logs SQL]** de l&#39;onglet **[!UICONTROL Suivi]**.
 
 ## Exécution dʼune simulation {#executing-a-simulation}
 
@@ -124,7 +131,7 @@ Une fois l&#39;exécution terminée, ouvrez la simulation et cliquez sur l&#39;o
 
 ![](assets/simu_campaign_opti_results.png)
 
-1. Le sous-onglet **[!UICONTROL Diffusions]** liste les diffusions prises en compte par la simulation.Il présente deux comptages :
+1. Le sous-onglet **[!UICONTROL Diffusions]** liste les diffusions prises en compte par la simulation. Il présente deux comptages :
 
    * Le **[!UICONTROL Comptage initial]** correspond à la cible telle qu&#39;elle a été calculée lors de son estimation, au niveau de la diffusion.
    * Le **[!UICONTROL Comptage final]** affiche le nombre de destinataires comptabilisés après l&#39;exécution de la simulation.
@@ -137,8 +144,8 @@ Une fois l&#39;exécution terminée, ouvrez la simulation et cliquez sur l&#39;o
 
    ![](assets/simu_campaign_opti_14.png)
 
-1. Le sous-onglet **[!UICONTROL Alertes]** regroupe tous les messages d’alerte générés lors de la simulation.Ainsi, les messages d’alerte peuvent avertir d’un dépassement de capacité (par exemple : trop de personnes destinataires ciblées par rapport à la capacité fixée).
-1. Le sous-onglet **[!UICONTROL Exploration des exclusions]** permet de créer un tableau d’analyse des résultats.L’utilisateur ou l’utilisatrice doit indiquer des variables sur les axes des abscisses/ordonnées.
+1. Le sous-onglet **[!UICONTROL Alertes]** regroupe tous les messages d’alerte générés lors de la simulation. Ainsi, les messages d’alerte peuvent avertir d’un dépassement de capacité (par exemple : trop de personnes destinataires ciblées par rapport à la capacité fixée).
+1. Le sous-onglet **[!UICONTROL Exploration des exclusions]** permet de créer un tableau d’analyse des résultats. L’utilisateur ou l’utilisatrice doit indiquer des variables sur les axes des abscisses/ordonnées.
 
    Pour un exemple de création de tableau d&#39;analyse, reportez-vous à la fin de la section [Explorer les résultats](#exploring-results).
 
@@ -146,7 +153,7 @@ Une fois l&#39;exécution terminée, ouvrez la simulation et cliquez sur l&#39;o
 
 #### Journal {#audit}
 
-L&#39;onglet **[!UICONTROL Journal]** sert à suivre l&#39;exécution de la simulation. Le sous-onglet **[!UICONTROL Logs SQL]** est utile aux utilisateurs experts. Il répertorie les logs d&#39;exécution, en langage SQL. Ces logs ne s&#39;affichent que si l&#39;option **[!UICONTROL Enregistrer les requêtes SQL dans le log]** a été sélectionnée dans l&#39;onglet **[!UICONTROL Général]** avant l&#39;exécution de la simulation.
+L&#39;onglet **[!UICONTROL Journal]** sert à su l&#39;exécution de la simulation. Le sous-onglet **[!UICONTROL Logs SQL]** est utile aux utilisateurs experts. Il répertorie les logs d&#39;exécution, en langage SQL. Ces logs ne s&#39;affichent que si l&#39;option **[!UICONTROL Enregistrer les requêtes SQL dans le log]** a été sélectionnée dans l&#39;onglet **[!UICONTROL Général]** avant l&#39;exécution de la simulation.
 
 ![](assets/simu_campaign_opti_11.png)
 
@@ -184,7 +191,7 @@ Vous pouvez également éditer les rapports à partir du lien **[!UICONTROL Rapp
 
 A nouvelle exécution d&#39;une simulation, le résultat calculé remplace le résultat antérieur : vous ne pouvez pas afficher et comparer les résultats d&#39;une exécution à l&#39;autre.
 
-Pour comparer les résultats, vous devez utiliser des rapports.En effet, Adobe Campaign permet d’enregistrer un historique de rapport pour le consulter ultérieurement.Cet historique est conservé tout au long du cycle de vie des simulations.
+Pour comparer les résultats, vous devez utiliser des rapports. En effet, Adobe Campaign permet d’enregistrer un historique de rapport pour le consulter ultérieurement. Cet historique est conservé tout au long du cycle de vie des simulations.
 
 **Exemple:**
 
@@ -214,14 +221,14 @@ L&#39;onglet **[!UICONTROL Calculs]** vous permet de définir des axes de report
 
 Dans l&#39;exemple suivant, nous allons créer un axe de reporting supplémentaire portant sur le statut du destinataire (&quot;Client&quot;, &quot;Prospect&quot; ou aucun).
 
-1. Pour définir un axe de reporting, sélectionnez la table contenant les informations à exploiter dans le champ **[!UICONTROL Dimension d’analyse]**.Cette information est obligatoire.
+1. Pour définir un axe de reporting, sélectionnez la table contenant les informations à exploiter dans le champ **[!UICONTROL Dimension d’analyse]**. Cette information est obligatoire.
 1. Ici, nous allons sélectionner le champ Segment de la table des destinataires.
 
    ![](assets/simu_campaign_opti_09.png)
 
 1. Les options disponibles sont les suivantes :
 
-   * L’option **[!UICONTROL Générer les statistiques de recouvrement des cibles]** permet d’obtenir toutes les statistiques de recouvrement dans le rapport de simulation.Les chevauchements sont des personnes destinataires ciblées dans au moins deux diffusions au sein d’une simulation.
+   * L’option **[!UICONTROL Générer les statistiques de recouvrement des cibles]** permet d’obtenir toutes les statistiques de recouvrement dans le rapport de simulation. Les chevauchements sont des personnes destinataires ciblées dans au moins deux diffusions au sein d’une simulation.
 
      >[!IMPORTANT]
      >

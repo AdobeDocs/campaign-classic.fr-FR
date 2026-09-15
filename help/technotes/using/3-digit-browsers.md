@@ -8,9 +8,7 @@ source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 100%
-
 ---
-
 # Impacts de la version de navigateur à 3 chiffres sur les composants web Campaign {#version-100}
 
 Google et Mozilla avertissent que Chrome et Firefox pourraient empêcher certains sites web de s&#39;afficher en raison de leurs prochaines versions à 3 chiffres.

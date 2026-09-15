@@ -3,7 +3,7 @@ product: campaign
 title: Recommandations spécifiques au SGBDR
 description: Recommandations spécifiques au SGBDR
 feature: Monitoring
-badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: database-maintenance
@@ -11,19 +11,21 @@ exl-id: a586d70b-1b7f-47c2-a821-635098a70e45
 TQID: https://experienceleague.adobe.com/WmadkiwNNUMeQSnm8O4NJjnv1GQHvO6hZ9kqtoGBySA
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
 feature_v2: []
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 1305
+workflow-type: tm+mt
+source-wordcount: '1293'
 ht-degree: 100%
-
 ---
-
 # Recommandations spécifiques au SGBDR{#rdbms-specific-recommendations}
 
 
@@ -93,7 +95,7 @@ Pour vous aider à configurer des plans de maintenance, cette section répertori
 
 >[!IMPORTANT]
 >
->Adobe recommande vivement de ne pas exécuter VACUUM FULL sur les configurations de base de données hébergées sur Adobe Campaign.Les opérations de maintenance suggérées ne constituent qu’un guide pour les installations ON-PREMISE.Pour les mises en œuvre et schémas de table personnalisés, utilisez VACUUM FULL à vos risques et périls, car VACUUM sans surveillance peut verrouiller exclusivement les tables à l’origine de requêtes bloquées et, dans certains cas, verrouiller la base de données entière.
+>Adobe recommande vivement de ne pas exécuter VACUUM FULL sur les configurations de base de données hébergées sur Adobe Campaign.Les opérations de maintenance suggérées ne constituent qu’un guide pour les installations ON-PREMISE. Pour les mises en œuvre et schémas de table personnalisés, utilisez VACUUM FULL à vos risques et périls, car VACUUM sans surveillance peut verrouiller exclusivement les tables à l’origine de requêtes bloquées et, dans certains cas, verrouiller la base de données entière.
 
 Dans PostgreSQL, vous pouvez utiliser les mots-clés habituels suivants :
 
@@ -423,7 +425,7 @@ Veuillez consulter votre administrateur de base de données pour connaître les 
 >
 >Pour Microsoft SQL Server, vous pouvez utiliser le plan de maintenance décrit sur [cette page](https://ola.hallengren.com/sql-server-index-and-statistics-maintenance.html).
 
-L’exemple ci-dessous concerne Microsoft SQL Server 2005.Si vous utilisez une autre version, contactez l’administrateur ou administratrice de base de données pour connaître les procédures de maintenance de cette version.
+L’exemple ci-dessous concerne Microsoft SQL Server 2005. Si vous utilisez une autre version, contactez l’administrateur ou administratrice de base de données pour connaître les procédures de maintenance de cette version.
 
 1. Connectez-vous à Microsoft SQL Server Management Studio avec un identifiant auquel ont été attribués des droits administrateur.
 1. Cliquez avec le bouton droit de la souris sur le dossier **[!UICONTROL Gestion > Plans de maintenance]** et sélectionnez **[!UICONTROL Assistant Plan de maintenance]**.
@@ -434,7 +436,7 @@ L’exemple ci-dessous concerne Microsoft SQL Server 2005.Si vous utilisez une 
 
    >[!NOTE]
    >
-   >Nous vous recommandons d’effectuer au minimum les tâches de maintenance indiquées ci-dessous.Vous pouvez également sélectionner la tâche de mise à jour des statistiques si vous le souhaitez, sachant que cette tâche est déjà effectuée par le workflow de nettoyage de la base de données.
+   >Nous vous recommandons d’effectuer au minimum les tâches de maintenance indiquées ci-dessous. Vous pouvez également sélectionner la tâche de mise à jour des statistiques si vous le souhaitez, sachant que cette tâche est déjà effectuée par le workflow de nettoyage de la base de données.
 
 1. Dans la liste déroulante, sélectionnez la base de données sur laquelle vous souhaitez effectuer la tâche **[!UICONTROL Vérifier l&#39;intégrité de la base de données]**.
 1. Sélectionnez la base concernée et cliquez sur **[!UICONTROL OK]** puis **[!UICONTROL Suivant]**.
@@ -471,7 +473,7 @@ L’exemple ci-dessous concerne Microsoft SQL Server 2005.Si vous utilisez une 
 1. Dans l&#39;explorateur de Microsoft SQL Server, double-cliquez sur le dossier **[!UICONTROL Gestion > Plans de maintenance]**.
 1. Sélectionnez le plan de maintenance d&#39;Adobe Campaign : les différentes étapes sont présentées sous la forme d&#39;un workflow.
 
-   Notez qu’un objet a été créé dans le dossier **[!UICONTROL SQL Server Agent > Traitements]**.Cet objet permet de lancer le plan de maintenance.Dans notre exemple, il n’existe qu’un seul objet, car toutes les tâches de maintenance font partie du même plan de maintenance.
+   Notez qu’un objet a été créé dans le dossier **[!UICONTROL SQL Server Agent > Traitements]**. Cet objet permet de lancer le plan de maintenance. Dans notre exemple, il n’existe qu’un seul objet, car toutes les tâches de maintenance font partie du même plan de maintenance.
 
    >[!IMPORTANT]
    >

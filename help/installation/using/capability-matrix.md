@@ -7,15 +7,14 @@ exl-id: a2c425a8-9bde-4259-9140-5ada5397ed5f
 TQID: https://experienceleague.adobe.com/kHWVPyk02eyH47xBzGgik3fq6BSHGKpDXPMrEuVaYM8
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
 workflow-type: tm+mt
-source-wordcount: 323
+source-wordcount: '323'
 ht-degree: 100%
-
 ---
-
 # Matrice des fonctionnalités par modèle{#capability-matrix-per-model}
 
 

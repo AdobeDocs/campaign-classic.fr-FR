@@ -2,33 +2,41 @@
 product: campaign
 title: Modèle de publication
 description: Modèle de publication
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Templates
 role: User
 exl-id: 3b6e4974-4551-4da2-8eca-577c4f9cbd91
 TQID: https://experienceleague.adobe.com/mU7usRNlg73dYQS1PuorYpp9g4d7bNXAWBtIEE1VULk
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 844
+workflow-type: tm+mt
+source-wordcount: '835'
 ht-degree: 100%
-
 ---
-
 # Modèles de publication{#publication-templates}
 
 ## À propos des modèles de publication {#about-publication-templates}
@@ -63,9 +71,9 @@ Pour paramétrer le modèle de publication, indiquez le nom du modèle (c&#39;es
 
 L’option **Vérifier le statut pour valider la génération du contenu** force la vérification du statut « Validé » des instances de contenu pour autoriser la génération du fichier. Pour plus d’informations, consultez la section [Publication](#publication).
 
-Un modèle de transformation doit être ajouté pour chaque document de sortie.Vous pouvez créer autant de modèles de transformation que nécessaire.
+Un modèle de transformation doit être ajouté pour chaque document de sortie. Vous pouvez créer autant de modèles de transformation que nécessaire.
 
-Le champ **[!UICONTROL Nom du modèle]** est un libellé libre qui décrit le type de rendu en sortie.Pour chaque modèle de transformation, les paramètres de publication sont disponibles dans les onglets.
+Le champ **[!UICONTROL Nom du modèle]** est un libellé libre qui décrit le type de rendu en sortie. Pour chaque modèle de transformation, les paramètres de publication sont disponibles dans les onglets.
 
 ### Rendu {#rendering}
 
@@ -83,9 +91,9 @@ La publication consiste à générer le document de sortie sous la forme d&#39;u
 
 Les options de publication disponibles sont les suivantes :
 
-* Il est possible de forcer le jeu de caractères d’encodage du fichier de sortie à partir du champ **[!UICONTROL Codage]**.Le jeu de caractères Latin 1 (1252) est utilisé par défaut.
-* L’option **[!UICONTROL Génération multi-fichiers]** active un mode de publication de documents particulier.Cette option consiste à renseigner une balise de partitionnement au début de chaque page du document de sortie.La génération du contenu créera un fichier pour chaque balise de partitionnement renseignée.Ce mode est utilisé pour générer des mini-sites à partir d’un bloc de contenu.Voir à ce propos [Génération multi-fichiers](#multi-file-generation)
-* Le champ **[!UICONTROL Localisation]** contient le nom du fichier de sortie.Le nom peut être construit à partir de variables afin de générer un nom de fichier automatique.
+* Il est possible de forcer le jeu de caractères d’encodage du fichier de sortie à partir du champ **[!UICONTROL Codage]**. Le jeu de caractères Latin 1 (1252) est utilisé par défaut.
+* L’option **[!UICONTROL Génération multi-fichiers]** active un mode de publication de documents particulier. Cette option consiste à renseigner une balise de partitionnement au début de chaque page du document de sortie. La génération du contenu créera un fichier pour chaque balise de partitionnement renseignée. Ce mode est utilisé pour générer des mini-sites à partir d’un bloc de contenu. Voir à ce propos [Génération multi-fichiers](#multi-file-generation)
+* Le champ **[!UICONTROL Localisation]** contient le nom du fichier de sortie. Le nom peut être construit à partir de variables afin de générer un nom de fichier automatique.
 
   Une variable est renseignée avec le format suivant : **`$(<xpath>)`**, où **`<xpath>`** est le chemin d’un champ du schéma de données du modèle de publication.
 
@@ -105,7 +113,7 @@ Les options de publication disponibles sont les suivantes :
 
 ### Diffusion {#delivery}
 
-Cet onglet vous permet de sélectionner un scénario afin de lancer une diffusion directement sur le contenu.Le contenu de l’e-mail sera automatiquement renseigné en fonction du format de sortie (HTML ou Texte).
+Cet onglet vous permet de sélectionner un scénario afin de lancer une diffusion directement sur le contenu. Le contenu de l’e-mail sera automatiquement renseigné en fonction du format de sortie (HTML ou Texte).
 
 ![](assets/d_ncs_content_model3.png)
 
@@ -115,11 +123,11 @@ Cet onglet vous permet de sélectionner un scénario afin de lancer une diffusio
 
 ### Agrégateur {#aggregator}
 
-L’agrégation de données à partir d’un script ou d’une liste de requêtes vous permet d’enrichir le document XML avec les données du contenu.L’objectif est de compléter certaines informations référencées par des liens, ou d’ajouter des éléments de la base de données.
+L’agrégation de données à partir d’un script ou d’une liste de requêtes vous permet d’enrichir le document XML avec les données du contenu. L’objectif est de compléter certaines informations référencées par des liens, ou d’ajouter des éléments de la base de données.
 
 ### Génération multi-fichiers {#multi-file-generation}
 
-Pour activer la génération multi-fichiers, sélectionnez l’option **[!UICONTROL Génération multi-fichiers]** dans le modèle de publication.Cette option vous permet d’indiquer des balises de partitionnement dans la feuille de style en début de chaque page du document de sortie.La génération du contenu créera un fichier pour chaque balise de partitionnement rencontrée.
+Pour activer la génération multi-fichiers, sélectionnez l’option **[!UICONTROL Génération multi-fichiers]** dans le modèle de publication. Cette option vous permet d’indiquer des balises de partitionnement dans la feuille de style en début de chaque page du document de sortie. La génération du contenu créera un fichier pour chaque balise de partitionnement rencontrée.
 
 La balise de découpe à intégrer dans la feuille de style est la suivante :
 

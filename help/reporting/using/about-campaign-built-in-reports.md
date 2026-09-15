@@ -3,31 +3,35 @@ product: campaign
 title: À propos des rapports natifs de Campaign
 description: À propos des rapports natifs de Campaign
 feature: Reporting, Monitoring
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 exl-id: afb11ab5-bd60-4262-9dd1-fcda19cdaca0
 TQID: https://experienceleague.adobe.com/zjrN-SzHA8r8hp9F0vfF8wvTooP6gIDjuLOzh3v6KGE
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
 feature_v2:
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic Reporting
 subfeature_v2:
   - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
+    internal-label: Customize reports
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+    internal-label: Cubes and multidimensional analysis
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 286
+workflow-type: tm+mt
+source-wordcount: '277'
 ht-degree: 100%
-
 ---
-
 # À propos des rapports natifs de Campaign{#about-campaign-built-in-reports}
 
 
 
-Cette page fournit la liste des rapports intégrés d’Adobe Campaign, leur contenu et leur contexte.Les informations ci-dessous vous permettront d’éviter de créer des rapports déjà disponibles dans la plateforme.
+Cette page fournit la liste des rapports intégrés d’Adobe Campaign, leur contenu et leur contexte. Les informations ci-dessous vous permettront d’éviter de créer des rapports déjà disponibles dans la plateforme.
 
 >[!NOTE]
 >
@@ -43,7 +47,7 @@ Les types de rapports disponibles sont les suivants :
 * Rapports de diffusion, voir la section [Rapports de diffusion](../../reporting/using/delivery-reports.md).
 * Rapports cumulés, voir la section [Rapports cumulés](../../reporting/using/cumulative-reports.md).
 
-Vous pouvez accéder aux rapports à partir de la page d’accueil de la console cliente, du tableau de bord des rapports ou de la liste des diffusions.Le mode d’affichage d’un rapport dépend de son contexte.La liste des principaux rapports est disponible sur la page d’accueil et permet d’accéder rapidement aux données de diffusion.Cette liste peut être modifiée en fonction de vos besoins. Pour plus d’informations, consultez [cette section](../../reporting/using/about-reports-creation-in-campaign.md).
+Vous pouvez accéder aux rapports à partir de la page d’accueil de la console cliente, du tableau de bord des rapports ou de la liste des diffusions. Le mode d’affichage d’un rapport dépend de son contexte. La liste des principaux rapports est disponible sur la page d’accueil et permet d’accéder rapidement aux données de diffusion. Cette liste peut être modifiée en fonction de vos besoins. Pour plus d’informations, consultez [cette section](../../reporting/using/about-reports-creation-in-campaign.md).
 
 Pour accéder aux rapports natifs de Campaign :
 

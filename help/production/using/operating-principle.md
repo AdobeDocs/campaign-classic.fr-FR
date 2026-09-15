@@ -3,7 +3,7 @@ product: campaign
 title: Principe de fonctionnement
 description: Principe de fonctionnement
 feature: Monitoring
-badge-v7-prem: label="On-Premise/hybride uniquement" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="S’applique uniquement aux déploiements on-premise et hybrides"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: production-procedures
@@ -11,29 +11,34 @@ exl-id: 1c032ef9-af11-4947-90c6-76cb9434ae85
 TQID: https://experienceleague.adobe.com/HCoIXlpEtxAHVh-rj51UD1GTNRnXh8Ir8x4t3QZT9YU
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: c03a11ff-bdf9-4e5b-b279-f468b4293464
+    internal-label: Performance Monitoring
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 530
+workflow-type: tm+mt
+source-wordcount: '518'
 ht-degree: 100%
-
 ---
-
 # Principe de fonctionnement{#operating-principle}
 
 
 
 La plateforme Adobe Campaign repose techniquement sur plusieurs modules.
 
-Il existe de nombreux modules Adobe Campaign.Certains fonctionnent en continu, tandis que d’autres sont démarrés ponctuellement pour effectuer des actions d’administration (par exemple configurer la connexion à la base de données) ou lancer une tâche récurrente (par exemple consolider les informations de tracking).
+Il existe de nombreux modules Adobe Campaign. Certains fonctionnent en continu, tandis que d’autres sont démarrés ponctuellement pour effectuer des actions d’administration (par exemple configurer la connexion à la base de données) ou lancer une tâche récurrente (par exemple consolider les informations de tracking).
 
 On distingue trois types de modules Adobe Campaign :
 
@@ -83,13 +88,13 @@ Les modules disponibles sont décrits dans le tableau suivant :
 | syslogd | Serveur d&#39;écriture des logs et traces |
 | tracking | Consolidation et récupération des logs de tracking |
 | trackinglogd | Serveur d&#39;écriture et de purge des logs de tracking |
-| watchdog | Instance de démarrage et suivi |
+| watchdog | Instance de démarrage et su |
 | web | Serveur applicatif (HTTP et SOAP) |
 | wfserver | Serveur de workflows |
 
 >[!IMPORTANT]
 >
->Il existe un dernier module : le module de tracking et de relais vers le serveur applicatif qui, pour des raisons de performances, s’intègre sous la forme d’une bibliothèque dynamique via des mécanismes natifs à un serveur web IIS ou Apache.Il n’existe aucune commande Adobe Campaign permettant de démarrer ou d’administrer ce module.Vous devez donc utiliser les commandes du serveur web lui-même.
+>Il existe un dernier module : le module de tracking et de relais vers le serveur applicatif qui, pour des raisons de performances, s’intègre sous la forme d’une bibliothèque dynamique via des mécanismes natifs à un serveur web IIS ou Apache. Il n’existe aucune commande Adobe Campaign permettant de démarrer ou d’administrer ce module. Vous devez donc utiliser les commandes du serveur web lui-même.
 
 L&#39;usage d&#39;un module et la syntaxe de ses paramètres sont affichés à partir de la commande : **nlserver.`[module]`-?**
 

@@ -2,7 +2,7 @@
 product: campaign
 title: Contenu conditionnel
 description: Découvrez comment ajouter du contenu conditionnel
-badge-v8: label="S’applique également à la v8." type="Positive" tooltip="S’applique également à Campaign v8."
+badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Personalization, Multilingual Messages
 role: User
 hide: true
@@ -10,28 +10,35 @@ exl-id: 12595ee4-6a52-4e06-b80d-85fe633a5a11
 TQID: https://experienceleague.adobe.com/S8pQz1eOVkbkBKFzhPwzEfj50cPnBBOeYNGFg-R6EZ4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
+    internal-label: Prepare and test messages
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
+    internal-label: Email messaging
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
   - id: d5bbe3da-ba85-4242-817e-54f7c4b943e0
+    internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
+    internal-label: Manage deliverability
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 517
+workflow-type: tm+mt
+source-wordcount: '508'
 ht-degree: 100%
-
 ---
-
 # Contenu conditionnel{#conditional-content}
 
-En configurant du contenu conditionnel, vous pouvez notamment créer une personnalisation dynamique basée sur le profil de la personne destinataire.Des blocs de texte et/ou des images sont remplacés lorsqu’une condition particulière est remplie.
+En configurant du contenu conditionnel, vous pouvez notamment créer une personnalisation dynamique basée sur le profil de la personne destinataire. Des blocs de texte et/ou des images sont remplacés lorsqu’une condition particulière est remplie.
 
 ![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#conditionnal-content-video)
 
@@ -40,13 +47,13 @@ En configurant du contenu conditionnel, vous pouvez notamment créer une personn
 
 Dans l&#39;exemple ci-dessous, vous allez découvrir comment créer de manière dynamique un message personnalisé selon le genre et les centres d&#39;intérêt du destinataire.
 
-* Affichage de « M. »ou « Mme »suivant la valeur du champ **[!UICONTROL Genre]** (M ou F) dans la source de données.
+* Affichage de « M. » ou « Mme » suivant la valeur du champ **[!UICONTROL Genre]** (M ou F) dans la source de données.
 * Assemblage personnalisé d&#39;une newsletter ou d&#39;offres promotionnelles en fonction des centres d&#39;intérêt renseignés ou détectés :
 
-   * Centre d&#39;intérêt 1 -- > Bloc 1
-   * Centre d&#39;intérêt 2 -- > Bloc 2
-   * Centre d&#39;intérêt 3 -- > Bloc 3
-   * Centre d&#39;intérêt 4 -- > Bloc 4
+  * Centre d&#39;intérêt 1 -- > Bloc 1
+  * Centre d&#39;intérêt 2 -- > Bloc 2
+  * Centre d&#39;intérêt 3 -- > Bloc 3
+  * Centre d&#39;intérêt 4 -- > Bloc 4
 
 Pour créer un contenu conditionnel en fonction de la valeur d&#39;un champ, respectez les étapes suivantes :
 
@@ -54,7 +61,7 @@ Pour créer un contenu conditionnel en fonction de la valeur d&#39;un champ, res
 
    ![](assets/s_ncs_user_conditional_content02.png)
 
-   Les éléments de personnalisation sont insérés dans le corps du message.Vous devez maintenant les configurer.
+   Les éléments de personnalisation sont insérés dans le corps du message. Vous devez maintenant les configurer.
 
 1. Renseignez ensuite les paramètres de l&#39;expression **if**.
 

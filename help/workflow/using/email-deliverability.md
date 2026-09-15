@@ -8,11 +8,9 @@ source-git-commit: 720a5f4edf534788f7fd143a476c25e58a6f1586
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 100%
-
 ---
 
-
-# Supervision de la délivrabilité (Email Deliverability){#email-deliverability}
+# Su de la délivrabilité (Email Deliverability){#email-deliverability}
 
 
 
@@ -28,7 +26,7 @@ Le workflow décrit ci-dessous est installé par défaut sur toutes les instance
   <tr> 
    <td> <strong>Mise à jour pour la délivrabilité</strong><br /> </td> 
    <td> <span class="uicontrol">deliverabilityUpdate</span> <br /> </td> 
-   <td>  Une fois le package <strong>Supervision de la délivrabilité (Email Deliverability)</strong> installé, ce workflow s'exécute de nuit pour mettre à jour régulièrement la liste des règles et vous permettre de gérer activement la délivrabilité des plateformes<br />. </td> 
+   <td>  Une fois le package <strong>Su de la délivrabilité (Email Deliverability)</strong> installé, ce workflow s'exécute de nuit pour mettre à jour régulièrement la liste des règles et vous permettre de gérer activement la délivrabilité des plateformes<br />. </td> 
   </tr> 
  </tbody> 
 </table>

@@ -2,7 +2,7 @@
 product: campaign
 title: Gestion de l’accès aux dossiers Campaign
 description: Découvrez comment octroyer l’accès aux dossiers Campaign et créer des vues
-badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign\_Classic\_v7"
 feature: Application Settings, Permissions
 role: User, Admin
 level: Beginner
@@ -11,25 +11,32 @@ hide: true
 TQID: https://experienceleague.adobe.com/c4mev5HLxN6XRYRkqNokbrt45a1nImtMaJJ0uEZLGH4
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
+    internal-label: Profiles and audiences
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 subfeature_v2:
   - id: f529d0bd-1401-4c88-9833-43228cc1d40f
+    internal-label: Profiles
   - id: d6330382-c886-4f7a-a4f7-74e3f36c0d9c
+    internal-label: Audiences
   - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
+    internal-label: Access management
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 545
+workflow-type: tm+mt
+source-wordcount: '545'
 ht-degree: 100%
-
 ---
-
 # Gestion de l’accès aux dossiers{#folder-access-management}
 
 
@@ -53,15 +60,15 @@ Vous pouvez personnaliser l’arborescence de navigation de l’Explorateur. Dé
 
 ### Qu’est-ce qu’une vue ? {#about-views}
 
-En outre, vous pouvez créer des vues afin de restreindre l’accès aux données et d’organiser le contenu de l’arborescence pour l’adapter à vos besoins.Vous pouvez ensuite attribuer des droits sur les vues.
+En outre, vous pouvez créer des vues afin de restreindre l’accès aux données et d’organiser le contenu de l’arborescence pour l’adapter à vos besoins. Vous pouvez ensuite attribuer des droits sur les vues.
 
-Une vue est un dossier affichant des enregistrements stockés physiquement dans un ou plusieurs autres dossiers du même type.Par exemple, si vous créez un dossier Campagne qui est une vue, il affiche par défaut toutes les campagnes présentes dans la base de données, quelle que soit leur origine.Ces données peuvent ensuite être filtrées.
+Une vue est un dossier affichant des enregistrements stockés physiquement dans un ou plusieurs autres dossiers du même type. Par exemple, si vous créez un dossier Campagne qui est une vue, il affiche par défaut toutes les campagnes présentes dans la base de données, quelle que soit leur origine. Ces données peuvent ensuite être filtrées.
 
-Lorsque vous transformez un dossier en vue, l’ensemble des données correspondant au type de dossier présentes dans la base de données sont affichées dans la vue, quel que soit leur dossier d’enregistrement.Vous pouvez ensuite les filtrer pour restreindre la liste des données affichées.
+Lorsque vous transformez un dossier en vue, l’ensemble des données correspondant au type de dossier présentes dans la base de données sont affichées dans la vue, quel que soit leur dossier d’enregistrement. Vous pouvez ensuite les filtrer pour restreindre la liste des données affichées.
 
 >[!IMPORTANT]
 >
->Les vues regroupent des données et permettent d’y accéder. Toutefois, elles ne sont pas stockées physiquement dans le dossier de la vue.L’opérateur ou l’opératrice doit disposer des droits correspondants à l’action souhaitée sur les dossiers source des données (accès en lecture au minimum).
+>Les vues regroupent des données et permettent d’y accéder. Toutefois, elles ne sont pas stockées physiquement dans le dossier de la vue. L’opérateur ou l’opératrice doit disposer des droits correspondants à l’action souhaitée sur les dossiers source des données (accès en lecture au minimum).
 >
 >Pour donner accès à une vue sans donner accès à son dossier d&#39;origine, il suffit de ne pas donner de droit en lecture sur le noeud parent du dossier source.
 
@@ -83,7 +90,7 @@ Dans l&#39;exemple ci-dessous, nous allons créer des dossiers afin d&#39;affich
 
    ![Copie d’écran montrant un clic droit sur les propriétés](assets/s_ncs_user_add_folder_exple.png)
 
-1. Dans l’onglet **[!UICONTROL Restriction]**, sélectionnez **[!UICONTROL Ce dossier est une vue]**.Toutes les diffusions de la base de données y seront alors affichées.
+1. Dans l’onglet **[!UICONTROL Restriction]**, sélectionnez **[!UICONTROL Ce dossier est une vue]**. Toutes les diffusions de la base de données y seront alors affichées.
 
    ![Copie d’écran affichant la case d’affichage cochée](assets/s_ncs_user_add_folder_exple01.png)
 

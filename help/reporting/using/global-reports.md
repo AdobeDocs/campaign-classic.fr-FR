@@ -2,38 +2,44 @@
 product: campaign
 title: Rapports globaux
 description: Rapports globaux
-badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign Classic v7"
+badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign\_Classic\_v7"
 feature: Reporting, Monitoring
 exl-id: 6839fd7e-ecf4-4504-90a8-0207bc3991e4
 TQID: https://experienceleague.adobe.com/xSG6-FShBqzQfEkFVf4bjadhcwGNzfxhIWvfFpMgFzg
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
 feature_v2:
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
+    internal-label: Dynamic Reporting
 subfeature_v2:
   - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
+    internal-label: Reporting interface
   - id: cfda811a-e413-43a4-adf0-7370888f5cfc
+    internal-label: Customize reports
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
+    internal-label: Cubes and multidimensional analysis
 source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
-workflow-type: ht
-source-wordcount: 2534
+workflow-type: tm+mt
+source-wordcount: '2534'
 ht-degree: 100%
-
 ---
-
 # Rapports globaux {#global-reports}
 
 
 
-Ces rapports portent sur l’activité de l’ensemble des données de la base.Pour accéder au tableau de bord des rapports, accédez à l’onglet **[!UICONTROL Rapports]**.
+Ces rapports portent sur l’activité de l’ensemble des données de la base. Pour accéder au tableau de bord des rapports, accédez à l’onglet **[!UICONTROL Rapports]**.
 
 ![](assets/s_ncs_user_report_delivery_link.png)
 
-Pour afficher les rapports, cliquez sur leur nom.Par défaut, les paramètres suivants sont disponibles :
+Pour afficher les rapports, cliquez sur leur nom. Par défaut, les paramètres suivants sont disponibles :
 
 ![](assets/s_ncs_user_report_global_list.png)
 
@@ -57,7 +63,7 @@ Pour afficher les rapports, cliquez sur leur nom.Par défaut, les paramètres su
 
 ## Débit des diffusions {#delivery-throughput}
 
-Ce rapport contient les informations relatives au débit de diffusion de l’ensemble de la plateforme sur une période donnée.Pour mesurer la vitesse de diffusion des messages, les critères sont le nombre de messages diffusés par heure et la taille des messages (en bits par seconde).Dans l’exemple ci-dessous, le premier graphique indique les diffusions réussies en bleu et le nombre de diffusions erronées en orange.
+Ce rapport contient les informations relatives au débit de diffusion de l’ensemble de la plateforme sur une période donnée. Pour mesurer la vitesse de diffusion des messages, les critères sont le nombre de messages diffusés par heure et la taille des messages (en bits par seconde). Dans l’exemple ci-dessous, le premier graphique indique les diffusions réussies en bleu et le nombre de diffusions erronées en orange.
 
 ![](assets/s_ncs_user_report_toolbar.png)
 
@@ -79,15 +85,15 @@ Ce rapport présente la répartition des ouvertures, clics et transactions, par 
 
 Les options disponibles sont les suivantes :
 
-* **[!UICONTROL Ouvertures]** : nombre total de messages ouverts.Les e-mails au format texte ne sont pas pris en compte.Pour plus d&#39;informations sur le tracking des ouvertures, consultez la section [Tracking des ouvertures](../../reporting/using/indicator-calculation.md#tracking-opens-).
+* **[!UICONTROL Ouvertures]** : nombre total de messages ouverts. Les e-mails au format texte ne sont pas pris en compte. Pour plus d&#39;informations sur le tracking des ouvertures, consultez la section [Tracking des ouvertures](../../reporting/using/indicator-calculation.md#tracking-opens-).
 * **[!UICONTROL Clics]** : nombre total de clics sur les liens dans les diffusions. Les clics sur les liens de désinscription et sur les pages miroir ne sont pas pris en compte.
-* **[!UICONTROL Transactions]** : nombre total de transactions après la réception d’un message.Pour qu’une transaction soit prise en compte, une balise de tracking web de type transaction doit être insérée sur la page web correspondante.Le paramétrage du webtracking est présenté dans [cette section](../../configuration/using/about-web-tracking.md).
+* **[!UICONTROL Transactions]** : nombre total de transactions après la réception d’un message. Pour qu’une transaction soit prise en compte, une balise de tracking web de type transaction doit être insérée sur la page web correspondante. Le paramétrage du webtracking est présenté dans [cette section](../../configuration/using/about-web-tracking.md).
 
 ## Non-délivrables et rebonds {#non-deliverables-and-bounces}
 
 Ce rapport présente la répartition des non-délivrables et la répartition des rebonds par domaine Internet.
 
-Le **[!UICONTROL Nombre de messages traités]** représente le nombre total de messages traités par le serveur de diffusion.Cette valeur est inférieure au nombre de messages à diffuser lorsque certaines diffusions ont été stoppées ou mises en pause (avant d’être traitées par le serveur).
+Le **[!UICONTROL Nombre de messages traités]** représente le nombre total de messages traités par le serveur de diffusion. Cette valeur est inférieure au nombre de messages à diffuser lorsque certaines diffusions ont été stoppées ou mises en pause (avant d’être traitées par le serveur).
 
 ![](assets/s_ncs_user_errors_report.png)
 
@@ -119,7 +125,7 @@ Les indicateurs utilisés sont les suivants :
   >
   >Cet indicateur ne concerne que les diffusions sur les canaux mobiles. Pour plus d’informations, consultez [cette section](../../delivery/using/sms-channel.md).
 
-  Vous pouvez déplier chaque ligne du tableau de valeurs en cliquant sur le symbole `[+]`.Cela permet d’afficher, pour chaque type d’erreur, la répartition des messages d’erreur, par domaine.
+  Vous pouvez déplier chaque ligne du tableau de valeurs en cliquant sur le symbole `[+]`. Cela permet d’afficher, pour chaque type d’erreur, la répartition des messages d’erreur, par domaine.
 
   ![](assets/s_ncs_user_errors_report_detail.png)
 
@@ -133,7 +139,7 @@ A chaque nom de domaine, est associé :
 * le pourcentage du nombre de messages en erreur sur ce domaine par rapport au nombre total de messages traités sur ce domaine.
 * le pourcentage du nombre de messages en erreur sur ce domaine par rapport au nombre total de messages en erreur,
 
-Vous pouvez déplier chaque ligne du tableau de valeurs en cliquant sur le symbole [+].Cela permet d’afficher, pour chaque type d’erreur, la répartition des messages d’erreur, par domaine.
+Vous pouvez déplier chaque ligne du tableau de valeurs en cliquant sur le symbole [+]. Cela permet d’afficher, pour chaque type d’erreur, la répartition des messages d’erreur, par domaine.
 
 ![](assets/s_ncs_user_errors_report_detail2.png)
 
@@ -169,7 +175,7 @@ Dans le tableau de valeurs des statistiques globales, vous pouvez cliquer sur le
 
 Les statistiques sont présentées sous la forme d&#39;une courbe, d&#39;un graphique et d&#39;un tableau de valeurs.
 
-La courbe **[!UICONTROL Historique]** représente le taux de fréquentation quotidienne de ce navigateur.Le taux est le pourcentage du nombre de visiteurs et visiteuses quotidiens, sur ce navigateur, par rapport au nombre de visiteurs et visiteuses mesuré le jour le plus fréquenté.
+La courbe **[!UICONTROL Historique]** représente le taux de fréquentation quotidienne de ce navigateur. Le taux est le pourcentage du nombre de visiteurs et visiteuses quotidiens, sur ce navigateur, par rapport au nombre de visiteurs et visiteuses mesuré le jour le plus fréquenté.
 
 Le graphique **[!UICONTROL Répartition par version]** représente la répartition des visiteurs, par version, par rapport au nombre total de visiteurs sur ce navigateur.
 
@@ -180,9 +186,9 @@ Le tableau de valeurs utilise les indicateurs suivants :
 
 ### Partage vers les réseaux sociaux {#sharing-to-social-networks}
 
-Le marketing viral permet aux personnes destinataires de vos diffusions de partager l’information avec leur réseau : ajouter le lien à leur profil (Facebook, X (anciennement Twitter), etc.)ou envoyer un message à une connaissance.Chaque partage et chaque accès aux informations partagées sont suivis dans la diffusion. Pour plus d’informations sur le marketing viral, consultez [cette section](../../delivery/using/viral-and-social-marketing.md).
+Le marketing viral permet aux personnes destinataires de vos diffusions de partager l’information avec leur réseau : ajouter le lien à leur profil (Facebook, X (anciennement Twitter), etc.) ou envoyer un message à une connaissance. Chaque partage et chaque accès aux informations partagées sont suivis dans la diffusion. Pour plus d’informations sur le marketing viral, consultez [cette section](../../delivery/using/viral-and-social-marketing.md).
 
-Ce rapport présente la répartition du partage et de l’ouverture des messages par réseau social (Facebook, X, etc.)et/ou par e-mail.
+Ce rapport présente la répartition du partage et de l’ouverture des messages par réseau social (Facebook, X, etc.) et/ou par e-mail.
 
 ![](assets/s_ncs_user_social_report.png)
 
@@ -215,7 +221,7 @@ Cette section comporte deux graphiques représentant la répartition des partage
 
 ## Statistiques des activités de partage {#statistics-on-sharing-activities}
 
-Ce rapport présente l’évolution des partages vers les réseaux sociaux (Facebook, X (anciennement Twitter), e-mail, etc.)dans le temps.
+Ce rapport présente l’évolution des partages vers les réseaux sociaux (Facebook, X (anciennement Twitter), e-mail, etc.) dans le temps.
 
 Pour plus d’informations sur le marketing viral, consultez [cette section](../../delivery/using/viral-and-social-marketing.md).
 
@@ -226,7 +232,7 @@ Les statistiques sont présentées sous la forme d&#39;un tableau de valeurs et 
 Les indicateurs utilisés sont les suivants :
 
 * **[!UICONTROL Nouveaux contacts]** : Nombre de nouvelles inscriptions suite à la réception d&#39;un message partagé par email. Cette valeur correspond au nombre de personnes qui ont reçu un message partagé par email, qui ont cliqué sur le **[!UICONTROL Lien d&#39;inscription]** et qui ont rempli le formulaire d&#39;inscription.
-* **[!UICONTROL Ouvertures]** : nombre total de messages ouverts par les personnes à qui le message a été transféré (via le bloc de personnalisation **[!UICONTROL Lien de partage vers les réseaux sociaux]**).Cette valeur correspond au nombre de fois où la page miroir a été affichée. Les messages ouverts par les destinataires cibles de la diffusion ne sont pas pris en compte dans cette valeur.
+* **[!UICONTROL Ouvertures]** : nombre total de messages ouverts par les personnes à qui le message a été transféré (via le bloc de personnalisation **[!UICONTROL Lien de partage vers les réseaux sociaux]**). Cette valeur correspond au nombre de fois où la page miroir a été affichée. Les messages ouverts par les destinataires cibles de la diffusion ne sont pas pris en compte dans cette valeur.
 * **[!UICONTROL Partages]** : Nombre total de messages partagés sur les réseaux sociaux. Cette valeur correspond au nombre total de clics effectués sur l&#39;icône correspondante du bloc de personnalisation **[!UICONTROL Liens de partage vers réseaux sociaux]**.
 
 ## Systèmes d’exploitation {#operating-systems}
@@ -257,7 +263,7 @@ Dans le tableau de valeurs des statistiques globales, vous pouvez cliquer sur le
 
 Les statistiques sont présentées sous la forme d&#39;une courbe, d&#39;un graphique et d&#39;un tableau de valeurs.
 
-La courbe **[!UICONTROL Historique]** représente le taux d’utilisation de ce système d’exploitation par jour.Ce taux est le ratio du nombre de visiteurs et visiteuses par jour (sur ce système d’exploitation) par rapport au nombre de visiteurs et visiteuses mesuré le jour le plus fréquenté.
+La courbe **[!UICONTROL Historique]** représente le taux d’utilisation de ce système d’exploitation par jour. Ce taux est le ratio du nombre de visiteurs et visiteuses par jour (sur ce système d’exploitation) par rapport au nombre de visiteurs et visiteuses mesuré le jour le plus fréquenté.
 
 Le graphique **[!UICONTROL Répartition par version]** représente la répartition des visiteurs, par version, par rapport au nombre total de visiteurs sur ce système d&#39;exploitation.
 
@@ -268,7 +274,7 @@ Le tableau de valeurs utilise les indicateurs suivants :
 
 ## Tracking des abonnements {#subscription-tracking}
 
-Ce rapport vous permet de surveiller mes abonnements aux services d’information.Il présente les abonnements et désabonnements.
+Ce rapport vous permet de surveiller mes abonnements aux services d’information. Il présente les abonnements et désabonnements.
 
 ![](assets/s_ncs_user_services_report.png)
 
@@ -285,7 +291,7 @@ Le tableau de valeurs utilise les indicateurs suivants :
 * **[!UICONTROL Inscrits]** : Nombre total d&#39;abonnés sur la période correspondante.
 * **[!UICONTROL Inscriptions]** : Nombre d&#39;abonnements sur la période correspondante.
 * **[!UICONTROL Désinscriptions]** : Nombre de désabonnements sur la période correspondante.
-* **[!UICONTROL Évolution]** : nombre de désabonnements moins le nombre d’abonnements.Le taux est calculé par rapport au nombre total de personnes abonnées.
+* **[!UICONTROL Évolution]** : nombre de désabonnements moins le nombre d’abonnements. Le taux est calculé par rapport au nombre total de personnes abonnées.
 * **[!UICONTROL Fidélité]** : Taux de fidélité des abonnés sur la période correspondante.
 
 **[!UICONTROL Courbes d&#39;évolution des inscriptions]**
@@ -315,9 +321,9 @@ Les indicateurs utilisés sont les suivants :
 
 ## Répartition des ouvertures {#breakdown-of-opens}
 
-Ce rapport affiche la répartition des ouvertures par système d’exploitation, appareil et navigateur sur la période concernée.Deux graphiques sont utilisés pour chaque catégorie. Le premier affiche les statistiques d’ouverture sur un ordinateur et des appareils mobiles. Le second affiche des statistiques relatives uniquement aux ouvertures sur les appareils mobiles.
+Ce rapport affiche la répartition des ouvertures par système d’exploitation, appareil et navigateur sur la période concernée. Deux graphiques sont utilisés pour chaque catégorie. Le premier affiche les statistiques d’ouverture sur un ordinateur et des appareils mobiles. Le second affiche des statistiques relatives uniquement aux ouvertures sur les appareils mobiles.
 
-Le nombre d’ouvertures correspond au nombre total de messages ouverts.Les e-mails au format texte ne sont pas comptabilisés.Pour plus d&#39;informations sur le tracking des ouvertures, consultez la section [Tracking des ouvertures](../../reporting/using/indicator-calculation.md#tracking-opens-).
+Le nombre d’ouvertures correspond au nombre total de messages ouverts. Les e-mails au format texte ne sont pas comptabilisés. Pour plus d&#39;informations sur le tracking des ouvertures, consultez la section [Tracking des ouvertures](../../reporting/using/indicator-calculation.md#tracking-opens-).
 
 ![](assets/dlv_useragent_report.png)
 

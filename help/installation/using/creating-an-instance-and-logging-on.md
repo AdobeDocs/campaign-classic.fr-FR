@@ -10,15 +10,14 @@ exl-id: a025026e-688e-4ec1-abc4-40ee040d2b3b
 TQID: https://experienceleague.adobe.com/keWzvD8mrha5wEUomR9FdRVTi-ryy2EVkRSAws-YKnI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2: []
 subfeature_v2: []
 source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
-workflow-type: ht
-source-wordcount: 614
-ht-degree: 100%
-
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 96%
 ---
-
 # Création et connexion à une instance{#creating-an-instance-and-logging-on}
 
 
@@ -45,7 +44,7 @@ Pour créer une instance, procédez comme suit :
 
    ![](assets/s_ncs_install_define_connection_02.png)
 
-1. Définissez une connexion vers votre serveur applicatif Adobe Campaign via une URL.Utilisez soit un DNS ou un alias de la machine, soit votre adresse IP.
+1. Définissez une connexion vers votre serveur applicatif Adobe Campaign via une URL. Utilisez soit un DNS ou un alias de la machine, soit votre adresse IP.
 
    Par exemple, vous pouvez utiliser une URL de type `https://<machine>.<domain>.com`.
 
@@ -59,15 +58,15 @@ Pour créer une instance, procédez comme suit :
 
    ![](assets/s_ncs_install_create_instance.png)
 
-   Le nom de l’instance ajouté au nom de domaine ne doit pas dépasser 40 caractères.Ceci permet de limiter la taille des en-têtes « Message-ID » et d’éviter qu’un message ne soit considéré comme un spam, par exemple par un outil comme SpamAssassin.
+   Le nom de l’instance ajouté au nom de domaine ne doit pas dépasser 40 caractères. Ceci permet de limiter la taille des en-têtes « Message-ID » et d’éviter qu’un message ne soit considéré comme un spam, par exemple par un outil comme SpamAssassin.
 
-1. Dans les champs **[!UICONTROL Masques DNS]**, saisissez la **liste des masques DNS** auxquels l’instance doit être attachée.Le serveur Adobe Campaign utilise le nom d’hôte (hostname) qui apparaît dans les requêtes HTTP pour déterminer l’instance à atteindre.
+1. Dans les champs **[!UICONTROL Masques DNS]**, saisissez la **liste des masques DNS** auxquels l’instance doit être attachée. Le serveur Adobe Campaign utilise le nom d’hôte (hostname) qui apparaît dans les requêtes HTTP pour déterminer l’instance à atteindre.
 
    Le nom d&#39;hôte (hostname) est contenu entre la chaîne **https://** et la première barre oblique **/** de l&#39;adresse du serveur.
 
    Vous pouvez définir ici une liste de valeurs séparées par des virgules.
 
-   Les caractères ? et &#42; peuvent être utilisés comme caractères génériques pour remplacer un ou plusieurs caractères (DNS, port, etc.). Par exemple, la valeur **demo&#42;** fonctionne avec « https://demo », ainsi qu’avec « https://demo:8080 » ou encore « https://demo2 ».
+   Les caractères ? et &#42; peuvent être utilisés comme caractères génériques pour remplacer un ou plusieurs caractères (DNS, port, etc.). Par exemple, la valeur **demo&#42;** fonctionne avec « https://demo » comme avec « https://demo:8080 » et même « https://demo2 ».
 
    Les noms utilisés doivent être définis dans votre DNS. Vous pouvez également indiquer la correspondance entre un nom DNS et une adresse IP dans le fichier **c:/windows/system32/drivers/etc/hosts** sous Windows et dans le fichier **/etc/hosts** sous Linux. Pour vous connecter à l&#39;instance choisie, vous devez donc modifier les paramètres de connexion afin d&#39;utiliser ce nom DNS.
 
@@ -81,9 +80,9 @@ Pour créer une instance, procédez comme suit :
 
    >[!CAUTION]
    >
-   >La langue de l’instance ne peut plus être modifiée après cette étape.Les instances d’Adobe Campaign ne sont pas multilingues : vous ne pouvez pas passer d’une langue à une autre dans l’interface.
+   >La langue de l’instance ne peut plus être modifiée après cette étape. Les instances d’Adobe Campaign ne sont pas multilingues : vous ne pouvez pas passer d’une langue à une autre dans l’interface.
 
-1. Cliquez sur **[!UICONTROL OK]** pour confirmer la déclaration d’instance.Vous devez vous déconnecter et vous reconnecter pour procéder à la déclaration de la base de données.
+1. Cliquez sur **[!UICONTROL OK]** pour confirmer la déclaration d’instance. Vous devez vous déconnecter et vous reconnecter pour procéder à la déclaration de la base de données.
 
    >[!NOTE]
    >

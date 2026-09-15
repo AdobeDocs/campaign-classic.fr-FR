@@ -8,26 +8,28 @@ exl-id: 62020447-fe59-4363-994d-de4d8032bbd7
 TQID: https://experienceleague.adobe.com/pIvm36kXpJEzeG4mugpR-7kAQDJpyJ2YFXp4S9J7lUw
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
+    internal-label: Schemas
 subfeature_v2:
   - id: cfc95e9b-b035-4403-a6a9-b27a8a053a37
+    internal-label: PI
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
-workflow-type: ht
-source-wordcount: 136
+workflow-type: tm+mt
+source-wordcount: '136'
 ht-degree: 100%
-
 ---
-
 # Méthodes SOAP en JavaScript{#soap-methods-in-javascript}
 
 Il s&#39;agit dans ce cas du JavaScript exécuté sur le serveur Adobe Campaign.
 
 ## Méthodes statiques {#static-methods}
 
-Les méthodes SOAP statiques sont accessibles en appelant une méthode sur l’objet représentant le schéma.Les schémas sont des propriétés des objets « espace de noms ».Ces espaces de noms sont des variables globales. Par exemple, les variables xtk ou nms représentent les espaces de noms correspondants.
+Les méthodes SOAP statiques sont accessibles en appelant une méthode sur l’objet représentant le schéma. Les schémas sont des propriétés des objets « espace de noms ». Ces espaces de noms sont des variables globales. Par exemple, les variables xtk ou nms représentent les espaces de noms correspondants.
 
 L’exemple suivant invoque la méthode statique PostEvent du schéma xtk:workflow :
 
