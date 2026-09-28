@@ -27,9 +27,9 @@ subfeature_v2:
     internal-label: Release notes
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
     internal-label: Adobe Analytics integration
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: 0d653d3130836e4aa8161780d80fc1502968cfdf
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '910'
 ht-degree: 100%
 ---
 # Matrice de compatibilité {#compatibility-matrix}
@@ -86,12 +86,10 @@ En tant que client ou cliente on-premise/hybride, vous devez installer Adobe Ca
 <td>
 <p>2022</p>
 <p>2019</p>
-<p>2016</p>
 </td>
 <td>
 <p>v7.4</p>
 <p>v7.2</p>
-<p></p>
 </td>
 </tr>
 </tbody>
@@ -452,12 +450,10 @@ Les systèmes dʼexploitation et le navigateur ci-après sont **nécessaires** p
 <td>
 <p>2022</p>
 <p>2019</p>
-<p>2016</p>
 </td>
 <td>
 <p>v7.4.1</p>
 <p>v7.2.1</p>
-<p></p>
 </tbody>
 </table>
 
