@@ -33,7 +33,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: 72ba334fe01dfcf701438e8550ae14abae7bd323
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 100%
@@ -117,9 +117,9 @@ Pour ce faire, procédez comme suit :
 
    ![](assets/start-database-update.png)
 
->[!NOTE]
->
->Une fois la mise à jour de la structure physique de la base de données terminée avec succès, vous devez vous déconnecter et vous reconnecter afin que vos modifications soient prises en compte.
+   >[!NOTE]
+   >
+   >Une fois la mise à jour de la structure physique de la base de données terminée avec succès, vous devez vous déconnecter et vous reconnecter afin que vos modifications soient prises en compte.
 
 ### Étape 3 : Valider la modification
 

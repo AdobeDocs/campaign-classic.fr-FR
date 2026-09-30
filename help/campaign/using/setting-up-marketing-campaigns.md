@@ -24,7 +24,7 @@ topic_v2:
 subfeature_v2:
   - id: f863efa9-030c-4466-a2b8-a52aea6b722c
     internal-label: Subscription services
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: 72ba334fe01dfcf701438e8550ae14abae7bd323
 workflow-type: tm+mt
 source-wordcount: '1300'
 ht-degree: 100%
@@ -137,15 +137,15 @@ Les campagnes récurrentes sont créées à partir d’un modèle spécifique qu
 
 1. Pour ce type d&#39;opération, un onglet **[!UICONTROL Planning]** est ajouté afin de créer le planning d&#39;exécution du modèle.
 
-Dans cet onglet, définissez les dates prévues d&#39;exécution des opérations basées sur ce modèle.
+   Dans cet onglet, définissez les dates prévues d&#39;exécution des opérations basées sur ce modèle.
 
-![](assets/s_ncs_user_op_template_recur_planning.png)
+   ![](assets/s_ncs_user_op_template_recur_planning.png)
 
-Le mode de configuration du planning d&#39;exécution correspond à l&#39;objet **[!UICONTROL Planificateur]** du workflow. Pour plus d’informations, consultez [cette section](../../workflow/using/architecture.md).
+   Le mode de configuration du planning d&#39;exécution correspond à l&#39;objet **[!UICONTROL Planificateur]** du workflow. Pour plus d’informations, consultez [cette section](../../workflow/using/architecture.md).
 
->[!IMPORTANT]
->
->La configuration du planning d’exécution doit être effectuée avec précaution afin de ne pas surcharger la base de données. Les campagnes récurrentes dupliquent le ou les workflows de leur modèle selon le planning défini. L’implémentation de créations de workflows trop fréquentes peut entraver le fonctionnement de la base de données.
+   >[!IMPORTANT]
+   >
+   >La configuration du planning d’exécution doit être effectuée avec précaution afin de ne pas surcharger la base de données. Les campagnes récurrentes dupliquent le ou les workflows de leur modèle selon le planning défini. L’implémentation de créations de workflows trop fréquentes peut entraver le fonctionnement de la base de données.
 
 1. Indiquez une valeur dans le champ **[!UICONTROL Créer d&#39;avance pour]** afin de créer les workflows correspondants pour la période indiquée.
 1. Créez le modèle de workflow qui sera utilisé dans les opérations basées sur ce modèle, avec les paramètres de ciblage et une ou plusieurs diffusions génériques.
