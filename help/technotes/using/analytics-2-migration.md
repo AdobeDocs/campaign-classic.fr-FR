@@ -4,7 +4,20 @@ title: Migrer vers l’API Adobe Analytics 2.0
 description: Campaign Classic - Guide de migration de l’API Adobe Analytics 2.0
 feature: Technote, Analytics Integration
 hide: true
-source-git-commit: 64460d51b002a7821bba9c2998d9ccccab3046ad
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: ab81f6c3-9317-564f-af92-6670a8784294
+    internal-label: Technote
+  - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+subfeature_v2:
+  - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
+    internal-label: Analytics integration
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 100%

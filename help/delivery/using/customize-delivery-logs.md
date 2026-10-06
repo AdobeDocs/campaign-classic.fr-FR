@@ -5,10 +5,12 @@ description: Découvrir comment étendre les schémas de logs de diffusion afin 
 feature: Monitoring
 role: User, Developer
 exl-id: 44ecc8c6-6584-43eb-96b4-7d8463053123
-TQID: https://experienceleague.adobe.com/OXsHpEx96bDHmINu-WR7MDcwn68ZxHjQ1MsxWhbtyG0
+TQID: 'https://experienceleague.adobe.com/OXsHpEx96bDHmINu-WR7MDcwn68ZxHjQ1MsxWhbtyG0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
     internal-label: Schemas
@@ -16,6 +18,8 @@ feature_v2:
     internal-label: Campaign Email Designer
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
     internal-label: Prepare and test messages
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging
@@ -25,6 +29,8 @@ subfeature_v2:
     internal-label: A/B testing
   - id: f4da0e76-df77-451e-ad61-21afb7bd8810
     internal-label: Manage deliverability
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -33,7 +39,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 72ba334fe01dfcf701438e8550ae14abae7bd323
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 100%

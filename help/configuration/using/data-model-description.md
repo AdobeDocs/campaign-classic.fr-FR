@@ -5,12 +5,18 @@ description: Ce document décrit le modèle de données d’Adobe Campaign
 feature: Data Model
 role: Developer
 exl-id: fc0fd23c-f9ea-4e30-b47b-a84143d882ca
-TQID: https://experienceleague.adobe.com/Yru-hRxtlHGZpLXmNIPxRbZjgvfz8siQOc9wiOPOP1w
+TQID: 'https://experienceleague.adobe.com/Yru-hRxtlHGZpLXmNIPxRbZjgvfz8siQOc9wiOPOP1w'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-feature_v2: []
-subfeature_v2: []
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: a1681cd8-6b2e-4955-9113-33b5f7a22b8c
+    internal-label: Data model architecture
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
@@ -21,7 +27,7 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '2381'
 ht-degree: 100%

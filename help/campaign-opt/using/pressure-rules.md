@@ -6,15 +6,24 @@ role: User, Developer
 feature: Fatigue Management, Typology Rules, Campaigns
 hide: true
 exl-id: c23212f2-fdf8-4820-b389-546f7c84db27
-TQID: https://experienceleague.adobe.com/kbNLR1aZ6M48vZKtpP2wdkaTKxJC2an-Ka-VWu2-x-k
+TQID: 'https://experienceleague.adobe.com/kbNLR1aZ6M48vZKtpP2wdkaTKxJC2an-Ka-VWu2-x-k'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
   - id: c858a28b-ea19-49b0-8d48-828717fad89c
     internal-label: Prepare and test messages
+  - id: 237333ba-90fa-554c-bc8d-2047e6173477
+    internal-label: Cross Channel Orchestration
+subfeature_v2:
+  - id: e5fb657f-3c0a-4fcc-9980-3589a23ab4de
+    internal-label: Typology rules
+  - id: 3367e176-3f60-522b-8bf4-33c305430239
+    internal-label: Fatigue Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -25,10 +34,7 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-subfeature_v2:
-  - id: e5fb657f-3c0a-4fcc-9980-3589a23ab4de
-    internal-label: Typology rules
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '3540'
 ht-degree: 100%

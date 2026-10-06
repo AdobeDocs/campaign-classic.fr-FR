@@ -5,10 +5,12 @@ description: Exemples dʼédition de schémas
 feature: Schema Extension
 role: Developer
 exl-id: b7ee70e0-89c6-4cd3-8116-2f073d4a2f2f
-TQID: https://experienceleague.adobe.com/pW-M7-y45xats1BPyiyey5NMK6b-cJxH15QZa0DVwAo
+TQID: 'https://experienceleague.adobe.com/pW-M7-y45xats1BPyiyey5NMK6b-cJxH15QZa0DVwAo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
     internal-label: Schemas
@@ -22,7 +24,7 @@ subfeature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '688'
 ht-degree: 100%

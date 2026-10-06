@@ -5,15 +5,12 @@ description: Eléments statiques dans un formulaire web
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Forms
 exl-id: 364d90af-4b18-4104-8b6a-be80cfde3b0b
-TQID: https://experienceleague.adobe.com/X32IQAVVq68tRjHIXaHN99S-EbL3vqP0j7gTL0fvmNA
+TQID: 'https://experienceleague.adobe.com/X32IQAVVq68tRjHIXaHN99S-EbL3vqP0j7gTL0fvmNA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-    internal-label: Security
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-    internal-label: Personalization
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
     internal-label: Communication channels
@@ -24,7 +21,12 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: 073ad5eccc52ad63e92829de4a4c6ac6178635e1
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '1082'
 ht-degree: 100%

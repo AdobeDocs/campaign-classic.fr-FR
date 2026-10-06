@@ -5,13 +5,17 @@ description: Interface de l'éditeur de contenu
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps, Web Forms, Landing Pages, Email Design
 exl-id: cb76f3dc-7f3a-49de-89cb-c106865ecb17
-TQID: https://experienceleague.adobe.com/azxivK9YlO8E7jQzYWJX-8BechsrZiY51DNy2q6n8bw
+TQID: 'https://experienceleague.adobe.com/azxivK9YlO8E7jQzYWJX-8BechsrZiY51DNy2q6n8bw'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
     internal-label: Communication channels
+  - id: b631758a-142d-425f-b9aa-f756d85cb979
+    internal-label: Campaign Email Designer
 subfeature_v2:
   - id: f391046b-0cf3-4e76-bd3b-97fe06654506
     internal-label: Web Apps
@@ -19,7 +23,9 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+  - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
+    internal-label: Email design
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 100%
