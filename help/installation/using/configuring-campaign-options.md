@@ -7,10 +7,12 @@ audience: installation
 content-type: reference
 topic-tags: appendices
 exl-id: a979cd99-afa7-4ce6-ba0f-9495089cba08
-TQID: https://experienceleague.adobe.com/ZyGxEznt4l0SbCiUySGjKwJwqSUCKJ-TjwGHltVWIzE
+TQID: 'https://experienceleague.adobe.com/ZyGxEznt4l0SbCiUySGjKwJwqSUCKJ-TjwGHltVWIzE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
     internal-label: Schemas
@@ -23,6 +25,10 @@ subfeature_v2:
     internal-label: PI
   - id: eff19c99-440a-4318-b319-444edc4d8d8f
     internal-label: Upgrade
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
+  - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
@@ -32,7 +38,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '3901'
 ht-degree: 97%

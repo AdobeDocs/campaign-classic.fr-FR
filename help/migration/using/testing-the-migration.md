@@ -8,10 +8,12 @@ content-type: reference
 topic-tags: migration-procedure
 hide: true
 exl-id: 228ee9e4-46a0-4d82-b8ba-b019bc0e7cac
-TQID: https://experienceleague.adobe.com/Oi8b9GLlXTfD62SjhRfEZJviiLN5VXNUG4hYkSOjC8Y
+TQID: 'https://experienceleague.adobe.com/Oi8b9GLlXTfD62SjhRfEZJviiLN5VXNUG4hYkSOjC8Y'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b82389f8-9b5e-4083-8e3b-3cef299fb8b9
     internal-label: Schemas
@@ -27,7 +29,7 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '723'
 ht-degree: 100%

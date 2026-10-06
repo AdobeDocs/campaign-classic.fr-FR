@@ -4,10 +4,12 @@ description: Découvrez comment migrer les opérateurs et opératrices technique
 feature: Technote
 role: Admin
 exl-id: 1a409daf-57be-43c9-a3d9-b8ab54c88068
-TQID: https://experienceleague.adobe.com/DmKIvFx2JKk1fwVKI90bhQ-CJyWF2NP7ICu9EdPm8VU
+TQID: 'https://experienceleague.adobe.com/DmKIvFx2JKk1fwVKI90bhQ-CJyWF2NP7ICu9EdPm8VU'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
     internal-label: APIs
@@ -15,11 +17,13 @@ feature_v2:
     internal-label: Administration
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
     internal-label: Integrations
+  - id: ab81f6c3-9317-564f-af92-6670a8784294
+    internal-label: Technote
 subfeature_v2:
   - id: efa38731-2723-4334-8d8b-a778af834835
     internal-label: Access management
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-    internal-label: Adobe Analytics integration
+    internal-label: Analytics integration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
@@ -30,7 +34,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '1842'
 ht-degree: 100%

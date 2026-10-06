@@ -6,10 +6,12 @@ role: User
 feature: Budget Management, Campaigns
 hide: true
 exl-id: c60c4f86-a957-4c44-a0fe-39b6e3f0e5d6
-TQID: https://experienceleague.adobe.com/0yoC9sZaXdvq9iEqK6NLnXBSS-B7aB9RisW5l8uJqtI
+TQID: 'https://experienceleague.adobe.com/0yoC9sZaXdvq9iEqK6NLnXBSS-B7aB9RisW5l8uJqtI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -17,6 +19,13 @@ feature_v2:
     internal-label: Administration
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
     internal-label: Profiles and audiences
+  - id: 8d5d4b17-44c6-5e7b-891c-b4277613013d
+    internal-label: Resource Management
+subfeature_v2:
+  - id: f863efa9-030c-4466-a2b8-a52aea6b722c
+    internal-label: Subscription services
+  - id: f4694696-6278-5131-97cc-3f6c23e232a2
+    internal-label: Budget Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -25,10 +34,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-subfeature_v2:
-  - id: f863efa9-030c-4466-a2b8-a52aea6b722c
-    internal-label: Subscription services
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '2017'
 ht-degree: 100%

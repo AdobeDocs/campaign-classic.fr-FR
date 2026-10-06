@@ -5,10 +5,12 @@ description: Découvrez comment mettre à jour le nouveau serveur de délivrabil
 feature: Technote, Deliverability
 hide: true
 exl-id: bc62ddb9-beff-4861-91ab-dcd0fa1ed199
-TQID: https://experienceleague.adobe.com/ktbzQKuNSjctRAyH-hbZyYajuoZFJy4Yt01y34X-tnk
+TQID: 'https://experienceleague.adobe.com/ktbzQKuNSjctRAyH-hbZyYajuoZFJy4Yt01y34X-tnk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -16,11 +18,15 @@ feature_v2:
     internal-label: Administration
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
     internal-label: Integrations
+  - id: ab81f6c3-9317-564f-af92-6670a8784294
+    internal-label: Technote
+  - id: 63876777-85c3-57e1-a2da-81f02956c63c
+    internal-label: Deliverability
 subfeature_v2:
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
     internal-label: Triggers
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-    internal-label: Adobe Analytics integration
+    internal-label: Analytics integration
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
@@ -30,7 +36,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '1060'
 ht-degree: 96%
@@ -95,7 +101,7 @@ En tant que client On-Premise, vous devez également vérifier qu’un **[!UICON
 
 1. En tant qu’administrateur ou administratrice, connectez-vous à [Adobe Admin Console](https://adminconsole.adobe.com/){_blank}.
 1. Accédez à la section **Produit et services** et vérifiez qu’**Adobe Campaign** est répertorié.
-Si vous ne pouvez pas voir **&#x200B;**&#x200B;contactez l’assistance clientèle d’Adobe [&#128279;](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} pour l’ajouter.
+Si vous ne pouvez pas voir **** contactez l’assistance clientèle d’Adobe [](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} pour l’ajouter.
 1. Cliquez sur **Adobe Campaign** et sélectionnez votre organisation.
    **Attention** : si vous avez plusieurs organisations, veillez à choisir la bonne. Pour en savoir plus sur les organisations, consultez [cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=fr#ims-org-id){_blank}.
 

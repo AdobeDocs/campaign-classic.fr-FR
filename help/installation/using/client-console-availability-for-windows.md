@@ -8,13 +8,21 @@ audience: installation
 content-type: reference
 topic-tags: installing-campaign-in-windows-
 exl-id: 57845eae-1f1a-42f4-b2ba-46d454677ae0
-TQID: https://experienceleague.adobe.com/9FqLCew1PO-oxl2hBlK1-4L3SG7tVp28x8GUAPkK6gI
+TQID: 'https://experienceleague.adobe.com/9FqLCew1PO-oxl2hBlK1-4L3SG7tVp28x8GUAPkK6gI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-feature_v2: []
-subfeature_v2: []
-source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e656c701-3899-4db3-989c-de0980ddfffa
+    internal-label: Installation
+  - id: eff19c99-440a-4318-b319-444edc4d8d8f
+    internal-label: Upgrade
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 100%

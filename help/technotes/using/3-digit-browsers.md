@@ -4,7 +4,15 @@ title: Composants web Campaign et version 100 dans les navigateurs Chrome, Firef
 description: Composants web Campaign et version 100 dans les navigateurs Chrome, Firefox et Edge
 feature: Technote
 exl-id: 2016279a-7b02-4399-b2ed-9a15456de816
-source-git-commit: 3a9b21d626b60754789c3f594ba798309f62a553
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: ab81f6c3-9317-564f-af92-6670a8784294
+    internal-label: Technote
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '653'
 ht-degree: 100%

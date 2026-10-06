@@ -5,20 +5,17 @@ description: Découvrez comment utiliser l’assistant pour créer votre premier
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Reporting, Monitoring
 exl-id: 848d67c7-d1dc-4eba-bcb8-672e76d8ce87
-TQID: https://experienceleague.adobe.com/ilSq3cfWpljwwRtjgjbgJe2NmBFnPJhIK5e0PMBMJVI
+TQID: 'https://experienceleague.adobe.com/ilSq3cfWpljwwRtjgjbgJe2NmBFnPJhIK5e0PMBMJVI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-    internal-label: Reporting
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-    internal-label: Implementation
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-    internal-label: Personalization
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: c309ee4e-82e4-4f7e-b608-ef345678c34e
-    internal-label: Dynamic Reporting
+    internal-label: Dynamic reporting
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: b3a4149f-2b3a-44d1-894e-e3ac4c77fb47
     internal-label: Reporting interface
@@ -26,7 +23,16 @@ subfeature_v2:
     internal-label: Customize reports
   - id: afe938ea-bc18-44a4-a3fb-03e1031466cb
     internal-label: Cubes and multidimensional analysis
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 100%

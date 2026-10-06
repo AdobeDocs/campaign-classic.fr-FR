@@ -4,10 +4,12 @@ title: Bonnes pratiques relatives au modèle de données
 description: Découvrez comment utiliser le modèle de données de Campaign Classic
 feature: Data Model
 exl-id: 9c59b89c-3542-4a17-a46f-3a1e58de0748
-TQID: https://experienceleague.adobe.com/O5LgBFV-0Mw3nzVyD2mxCCPxjZ07Ss9sS4K5MrdYdns
+TQID: 'https://experienceleague.adobe.com/O5LgBFV-0Mw3nzVyD2mxCCPxjZ07Ss9sS4K5MrdYdns'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
     internal-label: Data management
@@ -43,7 +45,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 4c295c0dabae8aba298390a3da2422a3fa1219f9
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '4095'
 ht-degree: 100%
@@ -183,7 +185,7 @@ Lorsqu’une table personnalisée est créée dans Adobe Campaign avec une clé
 
 Par défaut, une séquence personnalisée aura des valeurs comprises entre +1 000 et +2,1 milliards. Techniquement, il est possible d’obtenir un intervalle complet de 4 milliards de valeurs en activant les id négatifs. Cette approche doit être utilisée avec précaution. En effet, un id sera perdu lors du passage d’un nombre négatif à un nombre positif : l’enregistrement 0 est généralement ignoré par Adobe Campaign dans les requêtes SQL générées.
 
-Pour en savoir plus sur l’épuisement des séquences, regardez cette [vidéo](https://helpx.adobe.com/fr/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
+Pour en savoir plus sur l’épuisement des séquences, regardez cette [vidéo](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
 
 ## des index ; {#indexes}
 

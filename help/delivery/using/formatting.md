@@ -6,10 +6,12 @@ badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Ca
 feature: Email Design
 role: User, Developer
 exl-id: d9688dc4-20c6-4a9a-990f-465f39b2faa2
-TQID: https://experienceleague.adobe.com/CqXXVNL83qq35qW9j52Vqm46yBIMo8T1J-fF1aC5TCE
+TQID: 'https://experienceleague.adobe.com/CqXXVNL83qq35qW9j52Vqm46yBIMo8T1J-fF1aC5TCE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
     internal-label: Campaign Email Designer
@@ -34,7 +36,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 100%

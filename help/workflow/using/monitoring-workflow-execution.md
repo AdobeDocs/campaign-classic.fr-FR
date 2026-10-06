@@ -5,10 +5,12 @@ description: Surveiller l’exécution des workflows
 feature: Workflows
 hide: true
 exl-id: d589180b-8e1d-4149-9b16-3f541018a41f
-TQID: https://experienceleague.adobe.com/PdqoAAfpNfS1GIdnbtMkkm-2sd0GcidR99za2Nxgbfo
+TQID: 'https://experienceleague.adobe.com/PdqoAAfpNfS1GIdnbtMkkm-2sd0GcidR99za2Nxgbfo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a658c786-869b-4194-a780-2594d663adda
     internal-label: Data management
@@ -18,7 +20,7 @@ subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
   - id: ee25c34b-ea50-427b-9369-ba0a160f7d70
-    internal-label: Workflow HeatMap
+    internal-label: HeatMap
   - id: b5f0aaf4-1e48-400d-95ac-6eb3078cf22f
     internal-label: Execution activities
   - id: d1110311-2ca4-442b-be37-088a6db845ee
@@ -30,7 +32,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '2122'
 ht-degree: 100%

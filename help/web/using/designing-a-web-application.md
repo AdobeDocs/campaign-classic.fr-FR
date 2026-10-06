@@ -5,10 +5,12 @@ description: Créer une application web
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
 feature: Web Apps
 exl-id: dcdf6afc-321e-4027-a350-fff6bbf22e71
-TQID: https://experienceleague.adobe.com/8HdoOgOBgZgI3-Kxnn-I0kW5zyTSBfUtM0IoLGBvHag
+TQID: 'https://experienceleague.adobe.com/8HdoOgOBgZgI3-Kxnn-I0kW5zyTSBfUtM0IoLGBvHag'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
     internal-label: Campaigns
@@ -16,9 +18,6 @@ feature_v2:
     internal-label: Administration
   - id: a4671286-a59f-47e3-b97b-90627a1977d5
     internal-label: Communication channels
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-    internal-label: Administration
 subfeature_v2:
   - id: f391046b-0cf3-4e76-bd3b-97fe06654506
     internal-label: Web Apps
@@ -26,7 +25,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 100%

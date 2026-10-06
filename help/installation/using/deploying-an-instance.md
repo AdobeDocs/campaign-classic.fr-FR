@@ -8,13 +8,19 @@ audience: installation
 content-type: reference
 topic-tags: initial-configuration
 exl-id: 8b07447c-9a86-4b56-8d29-e0b01357a6ec
-TQID: https://experienceleague.adobe.com/M1uqZA6cfopJkJ-pg3m-1R-eBbM55zv7R-FSxOfFUwI
+TQID: 'https://experienceleague.adobe.com/M1uqZA6cfopJkJ-pg3m-1R-eBbM55zv7R-FSxOfFUwI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
+  - id: 7f0a1ee5-eeb8-5478-a9cd-b1896f033118
+    internal-label: Instance Settings
+  - id: 5b4bbd22-07a0-59e8-ada0-54a763ae2394
+    internal-label: Deployment
 subfeature_v2:
   - id: b5852c32-876b-41ae-92a7-9f588865ae52
     internal-label: Best practices
@@ -29,7 +35,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: bb41e9407ab5853b0194bb325bbf3f17bc3ea232
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '3621'
 ht-degree: 99%
@@ -401,7 +407,7 @@ Dans une diffusion, vous pouvez utiliser des images stockées dans la bibliothè
 
   Cette valeur peut être surchargée au niveau de chaque diffusion.
 
-* Pour les ressources publiques, l’URL **https://** serveur **/res/** instance **&#x200B;**&#x200B;où&#x200B;**instance**&#x200B;est le nom de l’instance de tracking.
+* Pour les ressources publiques, l’URL **https://** serveur **/res/** instance ****où&#x200B;**instance**est le nom de l’instance de tracking.
 
 ### Détection des images d’une diffusion {#delivery-image-detection}
 

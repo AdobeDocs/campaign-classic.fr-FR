@@ -7,22 +7,28 @@ audience: interaction
 content-type: reference
 topic-tags: managing-environments
 exl-id: e11fb28c-d530-45a2-862a-ff1c20975577
-TQID: https://experienceleague.adobe.com/B-itT3gDb6FELHi2NUfFUL18s3eKPg4-wWAFkCzN8wI
+TQID: 'https://experienceleague.adobe.com/B-itT3gDb6FELHi2NUfFUL18s3eKPg4-wWAFkCzN8wI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
     internal-label: Offer Management
+  - id: 65702805-0026-5ca1-843a-144fa79f0883
+    internal-label: Interaction
+  - id: ea08db70-4682-59a2-9408-9aedd9548e07
+    internal-label: Offers
 subfeature_v2:
   - id: e3988c18-3cfa-4f16-b812-ac2d2b1056fa
     internal-label: Permissions
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 100%

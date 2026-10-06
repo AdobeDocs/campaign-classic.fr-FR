@@ -8,20 +8,22 @@ content-type: reference
 topic-tags: migration-overview
 hide: true
 exl-id: 3050238d-6f77-4ffa-9aef-677ab8009388
-TQID: https://experienceleague.adobe.com/Cpa5--gsUgdw1FtmYuGJaKDEOVm2BOuG-Ok5bvfEPyA
+TQID: 'https://experienceleague.adobe.com/Cpa5--gsUgdw1FtmYuGJaKDEOVm2BOuG-Ok5bvfEPyA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-    internal-label: Security
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
     internal-label: Administration
 subfeature_v2:
   - id: eff19c99-440a-4318-b319-444edc4d8d8f
     internal-label: Upgrade
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 100%

@@ -6,13 +6,26 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 8fd7a66b-cdff-427d-b78f-4becaba51129
-feature_v2: []
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
     internal-label: Release notes
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
-    internal-label: Adobe Analytics integration
-source-git-commit: c372a3d67ec413fa8cf9fdbb4530762a8f2f5177
+    internal-label: Analytics integration
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 100%

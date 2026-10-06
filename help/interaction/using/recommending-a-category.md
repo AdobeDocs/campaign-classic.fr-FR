@@ -7,15 +7,20 @@ audience: interaction
 content-type: reference
 topic-tags: managing-an-offer-catalog
 exl-id: cb062cb2-dfea-46aa-8d9e-580e4dc7bb25
-TQID: https://experienceleague.adobe.com/YArBURjF1snwwyf6ZoO5goOPNMSiBTux5Ch53Zgzpfk
+TQID: 'https://experienceleague.adobe.com/YArBURjF1snwwyf6ZoO5goOPNMSiBTux5Ch53Zgzpfk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
     internal-label: Offer Management
-subfeature_v2: []
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+  - id: 65702805-0026-5ca1-843a-144fa79f0883
+    internal-label: Interaction
+  - id: ea08db70-4682-59a2-9408-9aedd9548e07
+    internal-label: Offers
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 100%

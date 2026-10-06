@@ -6,13 +6,12 @@ badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Ca
 feature: A/B Testing
 role: User
 exl-id: 4eb139a0-5342-4084-9f6d-d736e05bf1c6
-TQID: https://experienceleague.adobe.com/rYG71DezWYLaFpxjPKrnCEQJgyDVjFfopNsr6aWtQ1w
+TQID: 'https://experienceleague.adobe.com/rYG71DezWYLaFpxjPKrnCEQJgyDVjFfopNsr6aWtQ1w'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b631758a-142d-425f-b9aa-f756d85cb979
     internal-label: Campaign Email Designer
@@ -23,7 +22,10 @@ subfeature_v2:
     internal-label: A/B testing
   - id: e739ee2b-6228-412e-878f-45de0791417d
     internal-label: Use cases
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 100%

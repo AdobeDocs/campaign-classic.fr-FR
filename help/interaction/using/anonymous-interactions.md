@@ -7,18 +7,23 @@ audience: interaction
 content-type: reference
 topic-tags: unitary-interactions
 exl-id: a8face46-a933-4f2c-8299-ccb66f05967d
-TQID: https://experienceleague.adobe.com/-Dq8WxAzpmv4NKtWVz-xcBX99STW4MfkN1ooEcUbdBQ
+TQID: 'https://experienceleague.adobe.com/-Dq8WxAzpmv4NKtWVz-xcBX99STW4MfkN1ooEcUbdBQ'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-    internal-label: Customer experience
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
     internal-label: Offer Management
-subfeature_v2: []
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+  - id: 65702805-0026-5ca1-843a-144fa79f0883
+    internal-label: Interaction
+  - id: ea08db70-4682-59a2-9408-9aedd9548e07
+    internal-label: Offers
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 100%

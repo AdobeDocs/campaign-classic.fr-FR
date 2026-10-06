@@ -4,10 +4,12 @@ title: Création de filtres
 description: Création de filtres
 hide: true
 exl-id: 58e54f67-dc87-42f1-8426-6f801e8e4fb6
-TQID: https://experienceleague.adobe.com/HoOWdSMH986BqrYTvS0VrMGvCmnkZ7Z8NPjIr3LAfXc
+TQID: 'https://experienceleague.adobe.com/HoOWdSMH986BqrYTvS0VrMGvCmnkZ7Z8NPjIr3LAfXc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
+    internal-label: Campaign Classic v7
 feature_v2:
   - id: afa4204e-6d08-4e29-bc35-26aafb656d48
     internal-label: Profiles and audiences
@@ -20,7 +22,7 @@ subfeature_v2:
     internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
     internal-label: Access management
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 100%
