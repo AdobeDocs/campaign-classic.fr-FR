@@ -22,6 +22,8 @@ feature_v2:
     internal-label: Prepare and test messages
   - id: 13af5358-448e-5a4a-850b-0db592bb0f8f
     internal-label: Personalization
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
 subfeature_v2:
   - id: e95a583b-fcfa-4524-8666-46a29c828119
     internal-label: Email messaging
@@ -39,7 +41,7 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 100%
@@ -171,6 +173,6 @@ En ajoutant le schéma d’objet, vous pouvez sélectionner les champs à ajoute
 
 Découvrez comment ajouter un champ de personnalisation à la ligne d’objet et au contenu d’une diffusion email.
 
->[!VIDEO](https://video.tv.adobe.com/v/30950?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
 
 D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

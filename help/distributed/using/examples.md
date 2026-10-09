@@ -5,7 +5,7 @@ description: Exemples de marketing distribué
 feature: Distributed Marketing
 hide: true
 exl-id: 2bef6b5e-887e-4c56-bb4b-3583472ca333
-TQID: https://experienceleague.adobe.com/76BtaM1C72-GcMxXoFHtIFV4-dIQTzcNoamtyQ9-gcg
+TQID: 'https://experienceleague.adobe.com/76BtaM1C72-GcMxXoFHtIFV4-dIQTzcNoamtyQ9-gcg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
@@ -14,12 +14,14 @@ feature_v2:
     internal-label: Campaigns
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
     internal-label: APIs
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
 subfeature_v2:
   - id: a6187aac-0a00-4394-8937-e8d4c1a40aa4
     internal-label: Distributed Marketing
   - id: e739ee2b-6228-412e-878f-45de0791417d
     internal-label: Use cases
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 100%
