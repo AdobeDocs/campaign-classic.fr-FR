@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '1602'
-ht-degree: 100%
+source-wordcount: '1675'
+ht-degree: 94%
 ---
 # Sélection de l’audience de vos campagnes {#marketing-campaign-deliveries}
 
@@ -75,7 +75,7 @@ Le ciblage peut être créé au moyen d’une combinaison de conditions de filtr
 
 ![](assets/s_ncs_user_edit_op_wf_link.png)
 
-La population cible est extraite de la base de données d&#39;Adobe Campaign via une ou plusieurs requêtes qui sont positionnées dans un workflow. Pour découvrir comment construire une requête, consultez [cette section](../../workflow/using/query.md).
+La population cible est extraite de la base de données d&#39;Adobe Campaign via une ou plusieurs requêtes qui sont positionnées dans un workflow. Pour savoir comment créer une requête, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"} (documentation de Campaign v8).
 
 Il est possible de lancer des requêtes puis de partager les populations via des boîtes de type Union, Intersection, Partage, Exclusion, etc.
 
@@ -87,7 +87,7 @@ Dans le diagramme, reliez entre elles les requêtes de ciblage et de planificati
 
 >[!NOTE]
 >
->La procédure pour définir des requêtes est présentée avec des exemples dans [cette section](../../workflow/using/query.md).
+>Des exemples et une procédure pour définir des requêtes sont présentés dans [cette section](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"} (documentation de Campaign v8).
 
 La section gauche de l’éditeur contient une bibliothèque d’objets graphiques représentant les activités. Le premier onglet regroupe les activités de ciblage et le deuxième contient les activités de contrôle du flux, qui sont utilisées occasionnellement afin de coordonner les activités de ciblage.
 
@@ -97,7 +97,7 @@ La barre d&#39;outils de l&#39;éditeur de diagramme permet d&#39;accéder aux f
 
 >[!NOTE]
 >
->Les activités disponibles pour la construction du diagramme, ainsi que toutes les problématiques d&#39;affichage et de mise en page, sont présentées dans le guide [Automatiser avec des workflows](../../workflow/using/architecture.md).
+>Les activités disponibles pour créer le diagramme, ainsi que toutes les fonctionnalités d&#39;affichage et de mise en page, sont détaillées dans le guide [Automatisation à l&#39;aide de workflows](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/activities){target="_blank"} (documentation de Campaign v8).
 
 Vous pouvez créer plusieurs workflows de ciblage pour une même campagne. Pour ajouter un workflow, procédez comme suit :
 
@@ -250,7 +250,7 @@ Cliquez sur **[!UICONTROL Suivant]** pour définir l&#39;ordre de tri (si besoin
 
 ![](assets/s_ncs_user_edit_op_target_param.png)
 
-Cette configuration équivaut à une activité de partage dans le workflow, ce qui vous permet de diviser la cible en sous-ensembles. La population témoin est l&#39;un de ces sous-ensembles. Pour plus d&#39;informations, consultez [cette section](../../workflow/using/architecture.md).
+Cette configuration équivaut à une activité de partage dans le workflow, ce qui vous permet de diviser la cible en sous-ensembles. La population témoin est l&#39;un de ces sous-ensembles. Pour plus d’informations](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/split){target="_blank"} consultez la [présente section) (documentation de Campaign v8).
 
 ### Utilisation d’une nouvelle population comme population témoin {#adding-a-population}
 
@@ -260,13 +260,13 @@ Vous pouvez définir une nouvelle population qui sera utilisée comme population
 
 >[!NOTE]
 >
->Le requêteur d&#39;Adobe Campaign est présenté dans [cette section](../../workflow/using/query.md).
+>Le requêteur Adobe Campaign est présenté dans [cette section](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"} (documentation de Campaign v8).
 
 
 #### Tutoriel vidéo {#create-email-video}
 
 Cette vidéo explique comment créer une campagne et un e-mail dans Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/27487?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 D’autres vidéos pratiques sur Campaign sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

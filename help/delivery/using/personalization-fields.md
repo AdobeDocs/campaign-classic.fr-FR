@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 100%
+source-wordcount: '1128'
+ht-degree: 95%
 ---
 # Champs de personnalisation{#personalization-fields}
 
@@ -104,7 +104,7 @@ Nous créons un e-mail dans lequel nous allons tout d’abord insérer le nom de
 
    >[!NOTE]
    >
-   >Lorsqu&#39;une diffusion s&#39;inscrit dans un workflow, vous pouvez utiliser les données issues de la table de travail temporaire du workflow. Ces données sont rassemblées dans le menu **[!UICONTROL Extension de la cible]**. Pour plus d’informations, consultez [cette section](../../workflow/using/data-life-cycle.md#target-data).
+   >Lorsqu&#39;une diffusion s&#39;inscrit dans un workflow, vous pouvez utiliser les données issues de la table de travail temporaire du workflow. Ces données sont rassemblées dans le menu **[!UICONTROL Extension de la cible]**. Pour en savoir plus à ce sujet, consultez [cette section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/use-workflow-data){target="_blank"} (documentation de Campaign v8).
 
 ## Optimiser la personnalisation {#optimizing-personalization}
 
@@ -119,8 +119,8 @@ Par exemple, si vous rencontrez des problèmes de performances lorsque vous diff
 Pour utiliser cette option, procédez comme suit :
 
 1. Créez une campagne. Pour en savoir plus, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=fr){target=_blank}.
-1. Dans l’onglet **[!UICONTROL Ciblage et workflows]** de la campagne, ajoutez une activité **Requête** à votre workflow. Pour plus d’informations sur cette activité, consultez [cette section](../../workflow/using/query.md).
-1. Ajoutez une activité **[!UICONTROL Diffusion e-mail]** au workflow et ouvrez-la. Pour plus d’informations sur cette activité, consultez [cette section](../../workflow/using/delivery.md).
+1. Dans l’onglet **[!UICONTROL Ciblage et workflows]** de la campagne, ajoutez une activité **Requête** à votre workflow. Pour plus d’informations sur l’utilisation de cette activité, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/query){target="_blank"} (documentation de Campaign v8).
+1. Ajoutez une activité **[!UICONTROL Diffusion e-mail]** au workflow et ouvrez-la. Pour plus d’informations sur l’utilisation de cette activité, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"} (documentation de Campaign v8).
 1. Accédez à l&#39;onglet **[!UICONTROL Analyse]** des **[!UICONTROL Propriétés de la diffusion]** et sélectionnez l&#39;option **[!UICONTROL Préparer les données de personnalisation avec un workflow]**.
 
    ![](assets/perso_optimization.png)
@@ -173,6 +173,6 @@ En ajoutant le schéma d’objet, vous pouvez sélectionner les champs à ajoute
 
 Découvrez comment ajouter un champ de personnalisation à la ligne d’objet et au contenu d’une diffusion email.
 
->[!VIDEO](https://video.tv.adobe.com/v/30950?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
 
 D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

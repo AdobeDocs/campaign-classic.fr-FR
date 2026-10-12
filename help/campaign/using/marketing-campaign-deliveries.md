@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '1576'
-ht-degree: 100%
+source-wordcount: '1591'
+ht-degree: 98%
 ---
 # Diffusions de campagnes marketing {#marketing-campaign-deliveries}
 
@@ -83,7 +83,7 @@ Une fois toutes les validations accordées, le statut de la diffusion passe à *
 
 >[!NOTE]
 >
->Les workflows techniques liés au kit de campagne sont présentés dans la [Liste des workflows techniques](../../workflow/using/about-technical-workflows.md).
+>Les workflows techniques associés au package Campaign sont présentés dans la section [Liste des workflows techniques](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows){target="_blank"} (documentation de Campaign v8).
 
 **Etape 1 - Valider le fichier**
 
@@ -263,7 +263,7 @@ Le modèle d&#39;export doit être associé au prestataire sélectionné pour la
 
 Cette vidéo explique comment créer une campagne et un e-mail dans Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/27487?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25604?quality=12)
 
 D’autres vidéos pratiques sur Campaign sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
 

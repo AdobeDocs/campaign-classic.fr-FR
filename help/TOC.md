@@ -8,9 +8,9 @@ user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: df5d87ca4fccb927f770957ec1c00157d14e95dc
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '2717'
+source-wordcount: '2298'
 ht-degree: 100%
 ---
 
@@ -363,124 +363,6 @@ ht-degree: 100%
     + {hide-from-toc}[Synchroniser des applications web - MASQUÉ](integrations/using/synchronizing-web-applications.md)
     + {hide-from-toc}[Résoudre des problèmes liés au  [!DNL ACS Connector]  - MASQUÉ](integrations/using/troubleshooting-the-acs-connector.md)
 + [Automatiser avec des workflows](workflow/using/about-workflows.md)
-+ Automatiser avec des workflows {#automating-with-workflows}
-  + Commencer avec les workflows {#introduction}
-    + {hide-from-toc}[À propos des activités - MASQUÉ](workflow/using/about-activities.md)
-    + {hide-from-toc}[Créer un workflow - MASQUÉ](workflow/using/building-a-workflow.md)
-    + {hide-from-toc}[Données cibles - MASQUÉ](workflow/using/targeting-data.md)
-    + {hide-from-toc}[Utiliser des données de workflow - MASQUÉ](workflow/using/how-to-use-workflow-data.md)
-    + {hide-from-toc}[Bonnes pratiques en matière de workflow - MASQUÉ](workflow/using/workflow-best-practices.md)
-  + Exécuter un workflow {#executing-a-workflow}
-    + {hide-from-toc}[Démarrer un workflow - MASQUÉ](workflow/using/starting-a-workflow.md)
-    + {hide-from-toc}[Cycle de vie d’un workflow - MASQUÉ](workflow/using/workflow-life-cycle.md)
-    + {hide-from-toc}[Cycle de vie des données - MASQUÉ](workflow/using/data-life-cycle.md)
-    + {hide-from-toc}[Définir des validations - MASQUÉ](workflow/using/defining-approvals.md)
-    + {hide-from-toc}[Architecture - MASQUÉ](workflow/using/architecture.md)
-  + Activités de ciblage {#targeting-activities}
-    + {hide-from-toc}[À propos des activités de ciblage - MASQUÉ](workflow/using/about-targeting-activities.md)
-    + {hide-from-toc}[Requête - MASQUÉ](workflow/using/query.md)
-    + {hide-from-toc}[Requête incrémentale - MASQUÉ](workflow/using/incremental-query.md)
-    + {hide-from-toc}[Lecture de liste - MASQUÉ](workflow/using/read-list.md)
-    + {hide-from-toc}[Union - MASQUÉ](workflow/using/union.md)
-    + {hide-from-toc}[Intersection - MASQUÉ](workflow/using/intersection.md)
-    + {hide-from-toc}[Exclusion - MASQUÉ](workflow/using/exclusion.md)
-    + {hide-from-toc}[Partage - MASQUÉ](workflow/using/split.md)
-    + {hide-from-toc}[Cellules - MASQUÉ](workflow/using/cells.md)
-    + {hide-from-toc}[Offres par cellule - MASQUÉ](workflow/using/offers-by-cell.md)
-    + {hide-from-toc}[Composition de diffusion - MASQUÉ](workflow/using/delivery-outline.md)
-    + {hide-from-toc}[Enrichissement - MASQUÉ](workflow/using/enrichment.md)
-    + {hide-from-toc}[Modifier le schéma - MASQUÉ](workflow/using/edit-schema.md)
-    + {hide-from-toc}[Moteur d’offres - MASQUÉ](workflow/using/offer-engine.md)
-    + {hide-from-toc}[Déduplication - MASQUÉ](workflow/using/deduplication.md)
-    + {hide-from-toc}[Changement de dimension - MASQUÉ](workflow/using/change-dimension.md)
-    + {hide-from-toc}[Mise à jour de liste - MASQUÉ](workflow/using/list-update.md)
-    + {hide-from-toc}[Services d’abonnement - MASQUÉ](workflow/using/subscription-services.md)
-    + {hide-from-toc}[Mettre à jour les données - MASQUÉ](workflow/using/update-data.md)
-    + {hide-from-toc}[Connecteur CRM - MASQUÉ](workflow/using/crm-connector.md)
-    + {hide-from-toc}[Modifier la source de données - MASQUÉ](workflow/using/change-data-source.md)
-  + Activités de contrôle de flux {#flow-control-activities}
-    + {hide-from-toc}[À propos des activités de contrôle de flux - MASQUÉ](workflow/using/about-flow-control-activities.md)
-    + {hide-from-toc}[Début et fin - MASQUÉ](workflow/using/start-and-end.md)
-    + {hide-from-toc}[Branchement - MASQUÉ](workflow/using/fork.md)
-    + {hide-from-toc}[Rendez-vous - MASQUÉ](workflow/using/and-join.md)
-    + {hide-from-toc}[Planificateur - MASQUÉ](workflow/using/scheduler.md)
-    + {hide-from-toc}[Test - MASQUÉ](workflow/using/test.md)
-    + {hide-from-toc}[Attente - MASQUÉ](workflow/using/wait.md)
-    + {hide-from-toc}[Contrainte horaire - MASQUÉ](workflow/using/time-constraint.md)
-    + {hide-from-toc}[Sous-workflow - MASQUÉ](workflow/using/sub-workflow.md)
-    + {hide-from-toc}[Saut (départ et arrivée - MASQUÉ)](workflow/using/jump-start-point-and-end-point.md)
-    + {hide-from-toc}[Signal externe - MASQUÉ](workflow/using/external-signal.md)
-    + {hide-from-toc}[Validation - MASQUÉ](workflow/using/approval.md)
-    + {hide-from-toc}[Alerte - MASQUÉ](workflow/using/alert.md)
-    + {hide-from-toc}[Tâche - MASQUÉ](workflow/using/task.md)
-  + Activités d’action {#action-activities}
-    + {hide-from-toc}[À propos des activités d’action - MASQUÉ](workflow/using/about-action-activities.md)
-    + {hide-from-toc}[Diffusion - MASQUÉ](workflow/using/delivery.md)
-    + {hide-from-toc}[Agir sur une diffusion - MASQUÉ](workflow/using/delivery-control.md)
-    + {hide-from-toc}[Diffusion continue - MASQUÉ](workflow/using/continuous-delivery.md)
-    + {hide-from-toc}[Diffusion récurrente - MASQUÉ](workflow/using/recurring-delivery.md)
-    + {hide-from-toc}[Diffusions cross-canal - MASQUÉ](workflow/using/cross-channel-deliveries.md)
-    + {hide-from-toc}[Validation en local - MASQUÉ](workflow/using/local-approval.md)
-    + {hide-from-toc}[Chargement des données (RDBMS) - MASQUÉ](workflow/using/data-loading-rdbms.md)
-    + {hide-from-toc}[Chargement (SOAP) - MASQUÉ](workflow/using/loading-soap.md)
-    + {hide-from-toc}[Chargement des données (fichier) - MASQUÉ](workflow/using/data-loading-file.md)
-    + {hide-from-toc}[Gestion de contenu - MASQUÉ](workflow/using/content-management.md)
-    + {hide-from-toc}[Extraction des données (fichier) - MASQUÉ](workflow/using/extraction-file.md)
-    + {hide-from-toc}[Code SQL et code JavaScript - MASQUÉ](workflow/using/sql-code-and-javascript-code.md)
-    + {hide-from-toc}[Gestion des données SQL - MASQUÉ](workflow/using/sql-data-management.md)
-    + {hide-from-toc}[Module Nlserver - MASQUÉ](workflow/using/nlserver-module.md)
-    + {hide-from-toc}[Mettre à jour l’agrégat - MASQUÉ](workflow/using/update-aggregate.md)
-  + Activités d’événement {#event-activities}
-    + {hide-from-toc}[À propos des activités d’événement - MASQUÉ](workflow/using/about-event-activities.md)
-    + {hide-from-toc}[Collecteur de fichiers - MASQUÉ](workflow/using/file-collector.md)
-    + {hide-from-toc}[Transfert de fichiers - MASQUÉ](workflow/using/file-transfer.md)
-    + {hide-from-toc}[Téléchargement web - MASQUÉ](workflow/using/web-download.md)
-    + {hide-from-toc}[E-mails entrants - MASQUÉ](workflow/using/inbound-emails.md)
-    + {hide-from-toc}[SMS entrants - MASQUÉ](workflow/using/inbound-sms.md)
-  + Cas d’utilisation {#use-cases}
-    + {hide-from-toc}[À propos des cas d’utilisation de workflow - MASQUÉ](workflow/using/about-workflow-use-cases.md)
-    + Diffusions {#deliveries}
-      + {hide-from-toc}[Utiliser l’activité de validation en local - MASQUÉ](workflow/using/using-the-local-approval-activity.md)
-      + {hide-from-toc}[Envoyer un e-mail d’anniversaire - MASQUÉ](workflow/using/sending-a-birthday-email.md)
-      + {hide-from-toc}[Charger le contenu de la diffusion - MASQUÉ](workflow/using/loading-delivery-content.md)
-      + {hide-from-toc}[Workflow de diffusion cross-canal - MASQUÉ](workflow/using/cross-channel-delivery-workflow.md)
-      + {hide-from-toc}[Enrichissement des e-mails avec des champs de date personnalisés - MASQUÉ](workflow/using/email-enrichment-with-custom-date-fields.md)
-  + Surveillance {#monitoring}
-    + {hide-from-toc}[Envoyer un rapport à une liste - MASQUÉ](workflow/using/sending-a-report-to-a-list.md)
-    + {hide-from-toc}[Superviser vos workflows - MASQUÉ](workflow/using/supervising-workflows.md)
-    + {hide-from-toc}[Envoyer des alertes personnalisées aux opérateurs et opératrices - MASQUÉ](workflow/using/sending-personalized-alerts-to-operators.md)
-  + Gestion des données {#data-management}
-    + {hide-from-toc}[Coordonner les mises à jour des données - MASQUÉ](workflow/using/coordinating-data-updates.md)
-    + {hide-from-toc}[Créer une liste récapitulative - MASQUÉ](workflow/using/creating-a-summary-list.md)
-    + {hide-from-toc}[Enrichir les données - MASQUÉ](workflow/using/enriching-data.md)
-    + {hide-from-toc}[Utiliser des agrégats - MASQUÉ](workflow/using/using-aggregates.md)
-    + {hide-from-toc}[Utiliser la fonctionnalité de fusion de l’activité de déduplication - MASQUÉ](workflow/using/deduplication-merge.md)
-    + {hide-from-toc}[Configurer un workflow d’import récurrent - MASQUÉ](workflow/using/recurring-import-workflow.md)
-  + Requêtes de conception {#designing-queries}
-    + {hide-from-toc}[Mise à jour de la liste trimestrielle à l’aide d’une requête incrémentale - MASQUÉ](workflow/using/quarterly-list-update.md)
-  + Requête et filtre {#query-and-filter-hidden}
-    + {hide-from-toc}[Effectuer une requête sur la table des personnes destinataires - MASQUÉ](workflow/using/querying-recipient-table.md)
-    + {hide-from-toc}[Effectuer une requête sur les informations sur la diffusion - MASQUÉ](workflow/using/querying-delivery-information.md)
-    + {hide-from-toc}[Exécuter un calcul d’agrégats - MASQUÉ](workflow/using/performing-aggregate-computing.md)
-    + {hide-from-toc}[Effectuer une requête avec gestion des regroupements - MASQUÉ](workflow/using/querying-using-grouping-management.md)
-    + {hide-from-toc}[Effectuer une requête avec une relation multiple-à-multiple - MASQUÉ](workflow/using/querying-using-many-to-many-relationship.md)
-    + {hide-from-toc}[Ajouter un champ calculé de type Énumération - MASQUÉ](workflow/using/adding-enumeration-type-calculated-field.md)
-    + {hide-from-toc}[Créer un filtre - MASQUÉ](workflow/using/creating-a-filter.md)
-    + {hide-from-toc}[Filtrer les personnes destinataires en double - MASQUÉ](workflow/using/filtering-duplicated-recipients.md)
-  + Surveiller les workflows {#monitoring-workflows}
-    + {hide-from-toc}[Surveiller l’exécution des workflows - MASQUÉ](workflow/using/monitoring-workflow-execution.md)
-    + {hide-from-toc}[Surveiller les workflows techniques - MASQUÉ](workflow/using/monitoring-technical-workflows.md)
-    + {hide-from-toc}[Carte thermique des workflows - MASQUÉ](workflow/using/heatmap.md)
-  + Gestion avancée {#advanced-management}
-    + {hide-from-toc}[Propriétés du workflow - MASQUÉ](workflow/using/workflow-properties.md)
-    + {hide-from-toc}[Paramètres avancés - MASQUÉ](workflow/using/advanced-parameters.md)
-    + {hide-from-toc}[Scripts et modèles JavaScript - MASQUÉ](workflow/using/javascript-scripts-and-templates.md)
-    + {hide-from-toc}[Exemples de code JavaScript dans les workflows - MASQUÉ](workflow/using/javascript-in-workflows.md)
-    + {hide-from-toc}[Accéder à une base de données externe - MASQUÉ](workflow/using/accessing-an-external-database-fda.md)
-    + {hide-from-toc}[Gérer les autorisations - MASQUÉ](workflow/using/managing-rights.md)
-    + {hide-from-toc}[Modifier les images d’activité - MASQUÉ](workflow/using/managing-activity-images.md)
-    + {hide-from-toc}[Gérer les fuseaux horaires - MASQUÉ](workflow/using/managing-time-zones.md)
-    + {hide-from-toc}[Workflows techniques - MASQUÉ](workflow/using/about-technical-workflows.md)
 + Gestion des offres {#managing-offers}
   + Commencer avec Interaction {#interaction-overview}
     + [Interaction et la gestion des offres](interaction/using/interaction-and-offer-management.md)

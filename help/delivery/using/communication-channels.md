@@ -47,7 +47,7 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 100%
@@ -168,13 +168,13 @@ Une fois la diffusion lancée, les messages (et les éventuelles reprises) peuve
 
    Learn how to create a one-shot single delivery. You can create other types of deliveries to build your use cases. 
 
-For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}. 
+For more information about the different types of deliveries and how to create them, refer to the [Campaign v8 documentation](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html){target="_blank"}. 
 
 >[!NOTE]
 >
 >Adobe Campaign offers a set of tools to monitor your deliverability and optimize email sending. Learn more in [this section](about-deliverability.md).
 
-Delivery sending can be automated by preparing a delivery and/or sending it in the process of a workflow. For more on delivery-type activities in workflows, refer to [this section](../../workflow/using/about-action-activities.md).
+Delivery sending can be automated by preparing a delivery and/or sending it in the process of a workflow. For more on delivery-type activities in workflows, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities){target="_blank"} (Campaign v8 documentation).
 
 Adobe Campaign offers the following delivery channels:
 
@@ -205,7 +205,7 @@ The [Email channel](about-email-channel.md) is one of the core channels in Adobe
 You can send different types of emails:
 
 * Single-send emails: emails that you can send once to a defined target. They are usually used to promote a specific content that would be prepared and sent only once (newsletter, promotional email, etc.).
-* Recurring emails: in a campaign, send the same email regularly and aggregate each send and its reports on a periodic basis. The same email is sent, but usually to a different target, based on the eligible target for the day of the send. A common example is a birthday email. For more on this, refer to [Recurring deliveries](../../workflow/using/recurring-delivery.md).
+* Recurring emails: in a campaign, send the same email regularly and aggregate each send and its reports on a periodic basis. The same email is sent, but usually to a different target, based on the eligible target for the day of the send. A common example is a birthday email. For more on this, refer to [Recurring deliveries](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/recurring-delivery){target="_blank"} (Campaign v8 documentation).
 * Transactional emails: unitary emails that are triggered based on your customers' behavior. Refer to [Transactional messaging](../../message-center/using/about-transactional-messaging.md).
 
 To learn about delivery usage and recommendations, consult Campaign [Delivery best practices](delivery-best-practices.md).
@@ -257,9 +257,9 @@ There are three types of delivery objects in Campaign:
 
 A **delivery** is a standalone delivery object that is executed once. It can be duplicated, prepared again, but as long as it is in its final state (canceled, stopped, finished), it cannot be reused.
 
-Deliveries can be created either from the list of deliveries, or within a workflow via a [Delivery](../../workflow/using/delivery.md) activity.
+Deliveries can be created either from the list of deliveries, or within a workflow via a [Delivery](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery){target="_blank"} (Campaign v8 documentation) activity.
 
-Workflows also provide specific delivery activities according to the type of channel you want to use. For more on these activities, refer to [this section](../../workflow/using/cross-channel-deliveries.md).
+Workflows also provide specific delivery activities according to the type of channel you want to use. For more on these activities, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/cross-channel-deliveries){target="_blank"} (Campaign v8 documentation).
 
 ### Recurring delivery {#recurring-delivery}
 
@@ -267,7 +267,7 @@ A **recurring delivery** lets you create a new delivery each time the activity i
 
 As an example, if you run this type of activity once a month, you will end up with 12 deliveries after a year.
 
-Recurring deliveries are created within workflows via the [Recurring delivery activity](../../workflow/using/recurring-delivery.md). An example of this activity being used is presented in this section: [Creating a recurring delivery in a targeting workflow](../../workflow/using/sending-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
+Recurring deliveries are created within workflows via the [Recurring delivery activity](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/recurring-delivery){target="_blank"} (Campaign v8 documentation). An example of this activity being used is presented in this section: [Creating a recurring delivery in a targeting workflow](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email#creating-a-recurring-delivery-in-a-targeting-workflow){target="_blank"} (Campaign v8 documentation).
 
 ### Continuous delivery {#continuous-delivery}
 
@@ -277,6 +277,6 @@ If an information in the delivery changes (content, name, etc.), a new delivery 
 
 As an example, if you run this type of activity once a month, you will end up with a single delivery after a year (provided you did not make any change to the delivery).
 
-Continuous deliveries are created within workflows via the [Continuous delivery activity](../../workflow/using/continuous-delivery.md).
+Continuous deliveries are created within workflows via the [Continuous delivery activity](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/continuous-delivery){target="_blank"} (Campaign v8 documentation).
 
 -->

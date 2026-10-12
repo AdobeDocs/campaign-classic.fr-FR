@@ -42,10 +42,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '1236'
-ht-degree: 100%
+source-wordcount: '1253'
+ht-degree: 97%
 ---
 # Synchronisation des audiences{#synchronizing-audiences}
 
@@ -89,7 +89,7 @@ Pour obtenir l&#39;audience finale et ses données additionnelles :
 
    ![](assets/acs_connect_query1.png)
 
-1. Ajoutez des données additionnelles issues de la requête. Pour plus d&#39;informations, reportez-vous à la section [Ajouter des données](../../workflow/using/query.md#adding-data).
+1. Ajoutez des données additionnelles issues de la requête. Pour plus d’informations, consultez la section [Ajouter des données](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query#adding-data){target="_blank"} (documentation de Campaign v8) .
 
    Cet exemple montre comment ajouter un agrégat pour comptabiliser le nombre de diffusions reçues par un destinataires au cours d&#39;une année.
 

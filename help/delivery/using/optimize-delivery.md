@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 100%
+source-wordcount: '776'
+ht-degree: 96%
 ---
 # Optimisation de votre diffusion {#optimize-delivery}
 
@@ -62,7 +62,7 @@ Plusieurs facteurs peuvent avoir une incidence directe sur les performances du s
 
   **CONSEIL** : pour éviter cette situation, coordonnez la planification des diffusions avec les autres membres de votre équipe afin d’assurer les meilleures performances.
 
-* Exécution du workflow : la surveillance de vos workflows est essentielle pour éviter tout problème de performances de la plateforme. Suivez les directives répertoriées [dans ce document](../../workflow/using/workflow-best-practices.md#execution-and-performance).
+* Exécution du workflow : la surveillance de vos workflows est essentielle pour éviter tout problème de performances de la plateforme. Suivez les instructions répertoriées [dans ce document](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/workflow-best-practices#execution-and-performance){target="_blank"} (documentation de Campaign v8).
 
 * Si vous êtes éligible, vous pouvez tirer profit des [fonctionnalités du Panneau de contrôle de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=fr) pour surveiller votre plateforme à l’aide des fonctionnalités de [suivi des performances](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=fr).
 
