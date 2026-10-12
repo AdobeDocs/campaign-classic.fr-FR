@@ -182,7 +182,7 @@ Les expressions suivantes sont recherchées (sensibilité à la casse) :
    <td> CRM v1(mscrmWorkflow/sfdcWorkflow)<br /> </td> 
    <td> PU-0008<br /> </td> 
    <td> Erreur<br /> </td> 
-   <td> Les activités d’action Microsoft CRM, Salesforce, Oracle CRM On Demand ne sont plus disponibles. Pour paramétrer la synchronisation des données entre Adobe Campaign et un système CRM, vous devez utiliser l’activité de ciblage <a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector" target="_blank"> Connecteur CRM </a> (documentation de Campaign v8).<br /> </td>
+   <td> Les activités d’action Microsoft CRM, Salesforce, Oracle CRM On Demand ne sont plus disponibles. Pour paramétrer la synchronisation des données entre Adobe Campaign et un système CRM, vous devez utiliser l’activité de ciblage <a href="https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/crm-connector" target="_blank"> Connecteur CRM </a> (documentation de Campaign v8).<br /> </td>
   </tr> 
  </tbody> 
 </table>
