@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '1576'
-ht-degree: 100%
+source-wordcount: '1591'
+ht-degree: 98%
 ---
 # Diffusions de campagnes marketing {#marketing-campaign-deliveries}
 
@@ -45,7 +45,7 @@ Les diffusions peuvent être créées depuis le tableau de bord d&#39;une opéra
 
 Une fois créées à partir d’une campagne, les diffusions y sont liées et sont consolidées au niveau de cette campagne.
 
-![](assets/do-not-localize/how-to-video.png)[Découvrez cette fonctionnalité en vidéo](#create-email-video)
+![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](#create-email-video)
 
 ## Création de diffusions {#creating-deliveries}
 
@@ -83,7 +83,7 @@ Une fois toutes les validations accordées, le statut de la diffusion passe à *
 
 >[!NOTE]
 >
->Les workflows techniques liés au kit de campagne sont présentés dans la [Liste des workflows techniques](../../workflow/using/about-technical-workflows.md).
+>Les workflows techniques associés au package Campaign sont présentés dans la section [Liste des workflows techniques](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows){target="_blank"} (documentation de Campaign v8).
 
 **Etape 1 - Valider le fichier**
 

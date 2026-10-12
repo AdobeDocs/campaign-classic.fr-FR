@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 100%
+source-wordcount: '1316'
+ht-degree: 98%
 ---
 # Prise en main des campagnes marketing{#setting-up-marketing-campaigns}
 
@@ -147,7 +147,7 @@ Les campagnes récurrentes sont créées à partir d’un modèle spécifique qu
 
    ![](assets/s_ncs_user_op_template_recur_planning.png)
 
-   Le mode de configuration du planning d&#39;exécution correspond à l&#39;objet **[!UICONTROL Planificateur]** du workflow. Pour plus d’informations, consultez [cette section](../../workflow/using/architecture.md).
+   Le mode de configuration du planning d&#39;exécution correspond à l&#39;objet **[!UICONTROL Planificateur]** du workflow. Pour en savoir plus à ce sujet, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"} (documentation de Campaign v8).
 
    >[!IMPORTANT]
    >

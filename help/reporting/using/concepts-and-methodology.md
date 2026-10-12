@@ -21,10 +21,10 @@ subfeature_v2:
     internal-label: Reporting interface
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
     internal-label: Monitoring guidelines
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '1584'
-ht-degree: 100%
+source-wordcount: '1600'
+ht-degree: 98%
 ---
 # Bonnes pratiques relatives aux cubes{#concepts-and-methodology}
 
@@ -162,7 +162,7 @@ Pour créer un nouvel agrégat, les étapes sont les suivantes :
 
    ![](assets/s_advuser_cube_agregate_04.png)
 
-   * L&#39;activité **[!UICONTROL Planificateur]** permet de définir la fréquence de mise à jour des calculs. Le planificateur est présenté dans [cette section](../../workflow/using/scheduler.md).
+   * L&#39;activité **[!UICONTROL Planificateur]** permet de définir la fréquence de mise à jour des calculs. Le planificateur est détaillé dans [cette section](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"} (documentation de Campaign v8).
    * L&#39;activité **[!UICONTROL Mise à jour d&#39;agrégat]** permet de choisir le mode de mise à jour à appliquer : complète ou partielle.
 
      Par défaut, une mise à jour complète est exécutée lors de chaque calcul. Pour activer une mise à jour partielle, sélectionnez l’option correspondante et définissez les conditions de mise à jour.

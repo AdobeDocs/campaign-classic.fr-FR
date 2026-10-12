@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 100%
@@ -124,7 +124,7 @@ It also gives you access to:
 * subscription services - [Learn more](../../delivery/using/managing-subscriptions.md)
 * web applications - [Learn more](../../web/using/about-web-applications.md)
 * imports and exports (jobs) - [Learn more](../../platform/using/about-generic-imports-exports.md)
-* targeting workflows - [Learn more](../../workflow/using/building-a-workflow.md#implementation-steps-)
+* targeting workflows - [Learn more](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/introduction/build-a-workflow){target="_blank"} (Campaign v8 documentation)
 
 The recipients page lets you perform frequent operations on profiles: edits, updates, adds, deletions, sorts.
 
@@ -180,7 +180,7 @@ Additional Campaign Classic how-to videos are available [here](https://experienc
 
 * [Privacy management in Campaign](https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html)
 
-* [Create queries and segment data in workflows](../../workflow/using/targeting-data.md)
+* [Create queries and segment data in workflows](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows){target="_blank"} (Campaign v8 documentation)
 
 * [Select target mapping](../../delivery/using/steps-defining-the-target-population.md#select-a-target-mapping)
 

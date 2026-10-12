@@ -20,10 +20,10 @@ topic_v2:
 subfeature_v2:
   - id: a6187aac-0a00-4394-8937-e8d4c1a40aa4
     internal-label: Distributed Marketing
-source-git-commit: 38eab6b8da73163e4476e91c0ef73f25c3f57546
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 100%
+source-wordcount: '1018'
+ht-degree: 96%
 ---
 # Création d’une opération collaborative{#creating-a-collaborative-campaign-intro}
 
@@ -93,7 +93,7 @@ Le workflow de la campagne doit intégrer l’activité de type **Validation en 
 * **[!UICONTROL Contexte de répartition]** : Explicite.
 * **[!UICONTROL Répartition des données]** : Répartition pour les entités locales.
 
-La répartition des données de type **Répartition des entités locales** doit être créée. Le modèle de répartition des données vous permet de limiter le nombre d’enregistrements à partir d’une liste de valeurs de groupement. Dans **[!UICONTROL Ressources > Gestion de campagnes > Répartition de données]**, cliquez sur l&#39;icône **[!UICONTROL Nouveau]** pour créer une **[!UICONTROL Répartition de données]**. Pour plus d&#39;informations sur la répartition de données, voir le guide [Workflows](../../workflow/using/using-the-local-approval-activity.md#step-1--creating-the-data-distribution-template-).
+La répartition des données de type **Répartition des entités locales** doit être créée. Le modèle de répartition des données vous permet de limiter le nombre d’enregistrements à partir d’une liste de valeurs de groupement. Dans **[!UICONTROL Ressources > Gestion de campagnes > Répartition de données]**, cliquez sur l&#39;icône **[!UICONTROL Nouveau]** pour créer une **[!UICONTROL Répartition de données]**. Pour plus d’informations sur la distribution des données, consultez le guide [Workflows](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/use-cases/deliveries/local-approval-activity#step-1--creating-the-data-distribution-template-){target="_blank"} (documentation de Campaign v8).
 
 ![](assets/mkg_dist_data_distribution.png)
 

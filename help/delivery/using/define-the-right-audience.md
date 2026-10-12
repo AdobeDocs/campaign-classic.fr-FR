@@ -36,10 +36,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 100%
+source-wordcount: '576'
+ht-degree: 92%
 ---
 # Définition de lʼaudience appropriée {#define-the-right-audience}
 
@@ -92,8 +92,8 @@ Pour garantir votre réputation et assurer une bonne gestion des quarantaines, d
 
 **Rubriques connexes :**
 
-* [Activité Déduplication](../../workflow/using/deduplication.md).
-* [Cas pratique : utilisation de la fonctionnalité de fusion de l’activité Déduplication](../../workflow/using/deduplication-merge.md)
+* [&#x200B; Activité Déduplication &#x200B;](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication){target="_blank"} (documentation de Campaign v8).
+* [Cas pratique : utilisation de la fonctionnalité de fusion de l’activité Déduplication &#x200B;](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/use-cases/data-management/deduplication-merge){target="_blank"} (documentation de Campaign v8)
 
 ## Adresses email d’index {#index-addresses}
 
