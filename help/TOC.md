@@ -8,9 +8,9 @@ user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: 4bc1e76d129c6a6aa15b7e3915232043bd6f4286
+source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '1953'
 ht-degree: 100%
 ---
 
@@ -51,11 +51,7 @@ ht-degree: 100%
     + [Droit d&#39;opposition (opt-out) à la vente des informations personnelles](platform/using/privacy-requests-ccpa.md)
   + Gestion des profils {#profile-management}
     + [À propos des profils](platform/using/about-profiles.md)
-    + {hide-from-toc}[Modifier un profil - MASQUÉ](platform/using/editing-a-profile.md)
-    + {hide-from-toc}[Ajouter des profils - MASQUÉ](platform/using/adding-profiles.md)
-    + {hide-from-toc}[Gérer les profils - MASQUÉ](platform/using/managing-profiles.md)
-    + [Mettre à jour des données](platform/using/updating-data.md)
-    + {hide-from-toc}[Importer et exporter des profils - MASQUÉ](platform/using/exporting-and-importing-profiles.md)
+    + [Mise à jour de données](platform/using/updating-data.md)
     + [Créer et gérer des listes](platform/using/creating-and-managing-lists.md)
   + Importer et exporter des données {#importing-and-exporting-data}
     + [Prise en main de l&#39;import et de l&#39;export de données](platform/using/get-started-data-import-export.md)
@@ -75,9 +71,7 @@ ht-degree: 100%
       + [Bonnes pratiques en matière d&#39;import et d&#39;export](platform/using/import-export-best-practices.md)
       + [Bonnes pratiques et résolution des problèmes liés au serveur SFTP](platform/using/sftp-server-usage.md)
   + Filtrer des données {#filtering-data}
-    + {hide-from-toc}[Options de filtrage - MASQUÉ](platform/using/filtering-options.md)
     + {hide-from-toc}[Créer des filtres - MASQUÉ](platform/using/creating-filters.md)
-    + {hide-from-toc}[Cas d’utilisation - Masqué](platform/using/use-case.md)
   + {hide-from-toc}[Procédure à suivre pour créer une requête - MASQUÉ](platform/using/steps-to-create-a-query.md)
   + {hide-from-toc}[Définir des conditions de filtre - MASQUÉ](platform/using/defining-filter-conditions.md)
   + Autorisations {#permissions}
@@ -86,12 +80,8 @@ ht-degree: 100%
       + [Création et gestion d’opérateurs](platform/using/access-management-operators.md)
       + [Création et gestion de groupes](platform/using/access-management-groups.md)
     + [Utiliser des droits nommés pour configurer des autorisations](platform/using/access-management-named-rights.md)
-    + {hide-from-toc}[Gérer l’accès aux dossiers - MASQUÉ](platform/using/access-management-folders.md)
   + Connecteurs CRM {#connectors}
     + [Prise en main des connecteurs CRM](platform/using/crm-connectors.md)
-    + {hide-from-toc}[Connexion avec Microsoft Dynamics 365](platform/using/crm-ms-dynamics.md)
-    + {hide-from-toc}[Connexion à Salesforce.com](platform/using/crm-sfdc.md)
-    + {hide-from-toc}[Synchroniser des données avec le CRM](platform/using/crm-data-sync.md)
 + Créer et envoyer des messages {#sending-messages}
   + [Commencer avec les messages](delivery/using/communication-channels.md)
   + {hide-from-toc}[Paramètres de diffusion - MASQUÉ](delivery/using/delivery-settings.md)
