@@ -29,10 +29,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 100%
+source-wordcount: '432'
+ht-degree: 91%
 ---
 # Implémentation des méthodes SOAP{#implementing-soap-methods}
 
@@ -53,7 +53,7 @@ La création d&#39;une bibliothèque de méthodes se divise en deux parties :
 
 ### Déclaration {#declaration}
 
-Les méthodes doivent d’abord être déclarées dans les schémas (pour en savoir plus sur la création et l’édition des schémas, consultez [cette section](../../configuration/using/about-schema-edition.md)).
+Commencez par déclarer les méthodes dans les schémas (pour plus d’informations sur la création et la modification des schémas, consultez [cette section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentation de Campaign v8)).
 
 Leur déclaration est similaire à celle des méthodes natives. La seule différence est l’ajout de l’attribut &#39;library&#39; spécifiant le nom de la bibliothèque de méthodes dans laquelle se trouve la définition.
 

@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 100%
+source-wordcount: '674'
+ht-degree: 82%
 ---
 # Documentation de Campaign Classic v7 {#campaign-classic-documentation}
 
@@ -109,7 +109,7 @@ Certaines modifications importantes apportées au service Android FCM (Firebas
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>Expérience clientèle</strong><br/><a href="workflow/using/about-workflows.md">Automatiser à l’aide des workflows</a> – <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=fr" target="_blank">Campagne marketing</a> – <a href="interaction/using/interaction-and-offer-management.md">Interaction et gestion des offres</a> – <a href="delivery/using/about-personalization.md">Personnalisation</a> – <a href="reporting/using/about-adobe-campaign-reporting-tools.md">Reporting</a>
+      <strong>Expérience client</strong><br/><a href="workflow/using/about-workflows.md">Automatiser avec des workflows</a> - <a href="https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=fr" target="_blank">Campagne marketing</a> - <a href="interaction/using/interaction-and-offer-management.md">Interaction et gestion des offres</a> - <a href="delivery/using/about-personalization.md">Personalization</a> - <a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/gs-reporting" target="_blank">Reporting</a> (documentation de Campaign v8)
     </td>
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
@@ -131,7 +131,7 @@ Certaines modifications importantes apportées au service Android FCM (Firebas
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
       <br/>
-      <strong>Ressources pour le développement </strong><br/><a href="configuration/using/about-data-model.md">Description du modèle de données</a> – <a href="configuration/using/about-schema-reference.md">Structure de schéma</a> – <a href="configuration/using/editing-forms.md">Structure de schéma</a> – <a href="configuration/using/about-web-services.md">API</a> – <a href="https://experienceleague.adobe.com/fr/tools/campaign-api">Documentation de référence JSAPI</a> – <a href="configuration/using/about-custom-recipient-table.md">Tableau de destinataires personnalisé</a>
+      <strong>Ressources pour les développeurs</strong><br/><a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/datamodel" target="_blank">Description du modèle de données</a> (documentation de Campaign v8) - <a href="configuration/using/about-schema-reference.md">Structure du schéma</a> - <a href="configuration/using/editing-forms.md">Structure du schéma</a> - <a href="configuration/using/about-web-services.md">API</a> - <a href="https://experienceleague.adobe.com/fr/tools/campaign-api">Documentation de référence JSAPI</a> - <a href="configuration/using/about-custom-recipient-table.md">Table de destinataires personnalisée</a>
     </td>
   </tr>
 </table>

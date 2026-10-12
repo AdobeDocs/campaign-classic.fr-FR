@@ -37,10 +37,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 323ff901668895588a6e9587fa2a8b7804cf2fb4
 workflow-type: tm+mt
-source-wordcount: '1074'
-ht-degree: 100%
+source-wordcount: '1087'
+ht-degree: 96%
 ---
 # Blocs de personnalisation{#personalization-blocks}
 
@@ -145,7 +145,7 @@ Une liste des blocs de personnalisation est disponible par défaut pour vous aid
 * **[!UICONTROL Confirmation de votre inscription]** : insère un lien permettant de confirmer l&#39;inscription.
 * **[!UICONTROL Liens de partage vers des réseaux sociaux]** : insère des boutons grâce auxquels la personne destinataire peut partager un lien vers le contenu de la page miroir avec le client de messagerie, Facebook, X (anciennement Twitter) et LinkedIn (voir [Marketing viral : transférer à une connaissance](viral-and-social-marketing.md#viral-marketing--forward-to-a-friend)).
 * **[!UICONTROL Style des emails de contenu]** et **[!UICONTROL Style de notification]** : génèrent un code permettant de formater un email avec les styles HTML par défaut. Ces blocs doivent être insérés dans le code source de la diffusion, dans la section **[!UICONTROL ...]**, dans les balises **`<style>...</style>`**.
-* **[!UICONTROL URL d&#39;acceptation d&#39;une offre en mode unitaire]** : insère une URL permettant de définir une offre d&#39;interaction comme étant **[!UICONTROL Acceptée]** (voir [cette section](../../interaction/using/offer-analysis-report.md)).
+* **[!UICONTROL URL d&#39;acceptation d&#39;une offre en mode unitaire]** : insère une URL permettant de définir une offre d&#39;interaction sur **[!UICONTROL Acceptée]** (voir [cette section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-tracking){target="_blank"} (documentation de Campaign v8)).
 
 ## Définition de blocs de personnalisation personnalisés {#defining-custom-personalization-blocks}
 
@@ -177,6 +177,6 @@ Pour créer un bloc de personnalisation, ouvrez l&#39;Explorateur et respectez l
 
 Découvrez comment créer des blocs de contenu dynamiques et comment les utiliser pour personnaliser le contenu de votre diffusion email.
 
->[!VIDEO](https://video.tv.adobe.com/v/31325?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24924?quality=12)
 
 D&#39;autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

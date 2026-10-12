@@ -26,54 +26,18 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 100%
+source-wordcount: '301'
+ht-degree: 60%
 ---
 # Test des modèles de message transactionnel {#testing-message-templates}
 
+Une fois que votre [modèle de message](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"} (documentation de Campaign v8) est prêt, suivez les étapes ci-dessous pour le prévisualiser et le tester.
 
+Dans le cadre de la transition de Campaign v7 vers v8, le jeu de documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour savoir comment ajouter des adresses de contrôle, prévisualiser un message transactionnel et envoyer un BAT, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template#test-message-template){target=_blank}.
 
-Une fois que votre [modèle de message](../../message-center/using/creating-the-message-template.md) est prêt, suivez les étapes ci-dessous pour le prévisualiser et le tester.
-
-## Gestion des adresses de contrôle dans les messages transactionnels {#managing-seed-addresses-in-transactional-messages}
-
-Une adresse de contrôle vous permet d’afficher une prévisualisation de votre message, d’envoyer un BAT et de tester la personnalisation du message avant la diffusion par e-mail ou SMS. Les adresses de contrôle sont liées à la diffusion et ne peuvent pas être utilisées pour d&#39;autres diffusions.
-
-Pour créer des adresses de contrôle dans un message transactionnel, procédez comme suit :
-
-1. Dans le modèle de message transactionnel, cliquez sur l&#39;onglet **[!UICONTROL Adresses de contrôle]**.
-
-   ![](assets/messagecenter_create_seedaddr_001.png)
-
-1. Attribuez-lui un libellé afin de pouvoir sélectionner l&#39;adresse ultérieurement si nécessaire.
-
-   ![](assets/messagecenter_create_seedaddr_002.png)
-
-1. Entrez l&#39;adresse de contrôle, soit l&#39;email ou le numéro de portable selon le canal de communication de la diffusion.
-
-   ![](assets/messagecenter_create_seedaddr_003.png)
-
-1. Saisissez l’identifiant externe : ce champ facultatif vous permet de saisir une clé métier (ID unique, nom + adresse e-mail, etc.) commune à toutes les applications de votre site web, utilisée pour identifier vos profils. Si ce champ est également présent dans la base de données marketing Adobe Campaign, vous pouvez ensuite réconcilier un événement avec un profil dans la base de données.
-
-   ![](assets/messagecenter_create_seedaddr_003bis.png)
-
-1. Insérez des données de test (voir [Données de personnalisation](#personalization-data)).
-
-   ![](assets/messagecenter_create_custo_001.png)
-
-   <!--## Creating several seed addresses {#creating-several-seed-addresses}-->
-1. Cliquez sur le lien **[!UICONTROL Ajouter d&#39;autres adresses de contrôle]**, puis sur le bouton **[!UICONTROL Ajouter]**.
-
-   ![](assets/messagecenter_create_seedaddr_004.png)
-
-   <!--1. Follow the configuration steps for a seed address detailed in the [Creating a seed address](#creating-a-seed-address) section.-->
-1. Répétez l&#39;opération pour créer le nombre d&#39;adresses voulu.
-
-   ![](assets/messagecenter_create_seedaddr_008.png)
-
-Lorsque les adresses sont créées, vous pouvez dès lors afficher l&#39;aperçu de votre message et sa personnalisation. Voir [Aperçu du message transactionnel](#transactional-message-preview).
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template#test-message-template){target=_blank}
 
 ## Données de personnalisation {#personalization-data}
 
@@ -83,7 +47,7 @@ Ces données ont pour but de tester vos messages avant leur diffusion finale. Ce
 
 ![](assets/messagecenter_create_custo_006.png)
 
-Ces informations permettent de personnaliser le contenu du message à l&#39;aide de balises de personnalisation (voir à ce sujet la section [Création du contenu du message](../../message-center/using/creating-the-message-template.md#creating-message-content)).
+Ces informations permettent de personnaliser le contenu du message à l&#39;aide de balises de personnalisation (pour plus d&#39;informations, consultez la section [Créer le contenu du message](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template#create-message-content){target="_blank"} (documentation de Campaign v8)).
 
 1. Sélectionnez le modèle de message transactionnel.
 
@@ -94,48 +58,3 @@ Ces informations permettent de personnaliser le contenu du message à l&#39;aide
    ![](assets/messagecenter_create_custo_001.png)
 
 1. Cliquez sur **[!UICONTROL Enregistrer]**.
-
-## Aperçu du message transactionnel {#transactional-message-preview}
-
-Lorsque vous avez créé une ou plusieurs adresses de contrôle, ainsi que le corps du message, vous pouvez afficher l&#39;aperçu de votre message et vérifier la personnalisation de ce dernier.
-
-1. Dans le modèle de message, cliquez sur l&#39;onglet **[!UICONTROL Aperçu]**.
-
-   ![](assets/messagecenter_preview_001.png)
-
-1. Sélectionnez **[!UICONTROL Adresse de contrôle]** dans la liste déroulante.
-
-   ![](assets/messagecenter_preview_002.png)
-
-1. Sélectionnez l&#39;adresse de contrôle préalablement créée afin d&#39;afficher le message personnalisé.
-
-   ![](assets/messagecenter_create_seedaddr_009.png)
-
-À l&#39;aide des adresses de contrôle, vous pouvez également afficher le rendu du message pour les différents fournisseurs d&#39;accès Internet. Pour plus d&#39;informations, consultez la section [Inbox rendering](../../delivery/using/inbox-rendering.md).
-
-## Envoyer un BAT {#sending-a-proof}
-
-Vous pouvez tester la diffusion du message en envoyant un BAT vers une adresse de contrôle créée précédemment.
-
-L’envoi d’un BAT engage le même processus que pour une diffusion standard. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=fr){target="_blank"}. Toutefois, avec les messages transactionnels, vous devez effectuer au préalable les opérations suivantes :
-
-* Création d&#39;une ou plusieurs [adresses de contrôle](#managing-seed-addresses-in-transactional-messages)[ avec des données de de personnalisation](#personalization-data).
-* [Création du contenu du message](../../message-center/using/creating-the-message-template.md#creating-message-content).
-
-Pour effectuer l&#39;envoi :
-
-1. Cliquez sur bouton **[!UICONTROL Envoyer un BAT]** dans la fenêtre de diffusion.
-1. Analysez la diffusion.
-1. Corrigez les erreurs et validez la diffusion.
-
-   ![](assets/messagecenter_send_proof_001.png)
-
-1. Vérifiez que le message est bien parvenu à l&#39;adresse de contrôle et que son contenu est conforme à ce que vous aviez paramétré.
-
-   ![](assets/messagecenter_send_proof_002.png)
-
-Les BAT sont accessibles au niveau de chaque modèle, depuis l&#39;onglet **[!UICONTROL Suivi.]** Pour plus d’informations à ce sujet, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/validate/preview-and-proof.html?lang=fr){target="_blank"}.
-
-![](assets/messagecenter_send_proof_003.png)
-
-Votre modèle de message est maintenant prêt à être [publié](../../message-center/using/publishing-message-templates.md).

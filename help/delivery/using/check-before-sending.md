@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 86e1df82ff7fe9142b0ba75b697d3262e8d7a9d5
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 100%
+source-wordcount: '962'
+ht-degree: 91%
 ---
 # Effectuer toutes les vérifications avant d’envoyer {#perform-all-checks}
 
@@ -98,7 +98,7 @@ En dernier lieu, tirez parti des fonctionnalités d’Adobe Campaign Classic et
 
 ### Suivre un processus de validation
 
-Vous pouvez définir un processus de validation complet, impliquant des opérateurs et des groupes Adobe Campaign, afin de valider la cible et le contenu du message. Cela assurera une surveillance et un contrôle complet des différents traitements de l&#39;opération : ciblage, contenu, budget, extraction et envoi d&#39;un BAT. En fonction de leurs autorisations, les utilisateurs seront avertis, ils recevront les BAT et ils pourront valider ou refuser le message. En savoir plus à ce sujet dans [cette section](../../campaign/using/marketing-campaign-approval.md).
+Vous pouvez définir un processus de validation complet, impliquant des opérateurs et des groupes Adobe Campaign, afin de valider la cible et le contenu du message. Cela assurera une surveillance et un contrôle complet des différents traitements de l&#39;opération : ciblage, contenu, budget, extraction et envoi d&#39;un BAT. En fonction de leurs autorisations, les utilisateurs seront avertis, ils recevront les BAT et ils pourront valider ou refuser le message. En savoir plus [dans cette section](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval){target="_blank"} (documentation de Campaign v8).
 
 ### Utiliser des vagues
 
@@ -126,7 +126,7 @@ Vous pouvez ainsi :
 
 * Pour chaque élément IPAffinity, déclarer les adresses IP qui peuvent être utilisées. [En savoir plus](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
-* Dans la [typologie](../../campaign-opt/using/about-campaign-typologies.md) de votre choix, utiliser le champ **[!UICONTROL Gestion des affinités avec les adresses IP]** pour associer les diffusions vers le serveur de diffusion (MTA) qui gère l’affinité en question. [En savoir plus](../../campaign-opt/using/applying-rules.md#control-outgoing-smtp-traffic).
+* Dans la [typologie](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"} (documentation de Campaign v8) de votre choix, utilisez le champ **[!UICONTROL Gestion des affinités avec les adresses IP]** pour lier les diffusions au serveur de diffusion (MTA) qui gère ladite affinité. [ En savoir plus ](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/apply-rules#control-outgoing-smtp-traffic){target="_blank"} (documentation de Campaign v8).
 
 * Une fois l’e-mail envoyé, contrôlez l’en-tête pour vérifier l’adresse IP à partir de laquelle la diffusion a été envoyée. L’administrateur ou l’administratrice de votre messagerie peut vous aider à obtenir les informations d’en-tête.
 
@@ -138,7 +138,7 @@ Vous pouvez ainsi :
 
 ### Utiliser des typologies
 
-Vous pouvez utiliser des règles de typologie pour exclure une partie de la cible en fonction de critères spécifiques. Elles permettent de s’assurer que les messages envoyés répondent le mieux possible aux attentes ou aux besoins du client, dans le respect des politiques de communication de l’entreprise. Vous pouvez, par exemple, filtrer les destinataires mineurs du public cible de votre newsletter. En savoir plus [dans cet exemple](../../campaign-opt/using/filtering-rules.md).
+Vous pouvez utiliser des règles de typologie pour exclure une partie de la cible en fonction de critères spécifiques. Elles permettent de s’assurer que les messages envoyés répondent le mieux possible aux attentes ou aux besoins du client, dans le respect des politiques de communication de l’entreprise. Vous pouvez, par exemple, filtrer les destinataires mineurs du public cible de votre newsletter. En savoir plus [dans cet exemple](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/filtering-rules){target="_blank"} (documentation de Campaign v8).
 
 ### Éviter les pièces jointes
 

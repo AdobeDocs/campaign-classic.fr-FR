@@ -18,10 +18,10 @@ feature_v2:
 subfeature_v2:
   - id: d3b34fea-a110-482f-adb2-aae8d686bac8
     internal-label: Transactional messaging
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 100%
+source-wordcount: '610'
+ht-degree: 72%
 ---
 # Commencer avec les messages transactionnels {#about-transactional-messaging}
 
@@ -31,15 +31,11 @@ ht-degree: 100%
 
 **Messages transactionnels** (Message Center) est un module de Campaign conçu pour gérer les notifications de déclenchement personnalisées générées à partir d’événements envoyés par un système d’informations externe.
 
-Un message transactionnel est une communication individuelle et unique envoyée en temps réel à un utilisateur par un prestataire tel qu&#39;un site web. Il est particulièrement attendu, car il contient des informations importantes que le destinataire souhaite vérifier ou confirmer.
+Dans le cadre de la transition de Campaign v7 vers v8, le jeu de documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur les messages transactionnels, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/real-time/transactional){target=_blank}.
 
-Les fonctionnalités des messages transactionnels sont conçues pour prendre en charge l&#39;évolutivité et fournir un service 24h/24 et 7j/7.
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/real-time/transactional){target=_blank}
 
-* **Quelle est la date d’échéance ?** Ce message contenant des informations importantes, l’utilisateur ou l’utilisatrice s’attend à ce qu’il soit envoyé en temps réel. Le délai entre le déclenchement de l’événement et l’arrivée du message doit donc être très court.
-
-* **Pourquoi est-ce important ?** En général, un message transactionnel bénéficie d’un taux d’ouverture élevé. Il doit donc être soigneusement conçu, car il peut avoir un impact important sur le comportement des clientes et clients dans la mesure où il définit la relation clientèle.
-
-* **Par exemple ?** Il peut s’agir d’un message de bienvenue après la création d’un compte, d’une confirmation qu’une commande a été expédiée, d’une facture, d’un message confirmant un changement de mot de passe ou d’une notification après qu’un client ou une cliente a consulté votre site web, d’une communication sur l’indisponibilité de produits, d’un relevé de compte, etc.
+Cette section couvre l&#39;architecture et la configuration des messages transactionnels pour les instances de pilotage et d&#39;exécution, spécifiques aux déploiements on-premise et hybrides.
 
 >[!IMPORTANT]
 >
@@ -57,16 +53,6 @@ Cette fonctionnalité repose sur une architecture spécifique, où l&#39;**insta
 >
 >Pour créer des utilisateurs pour les instances d&#39;exécution Message Center hébergées sur Adobe Cloud, vous devez contacter l&#39;[Assistance clientèle d&#39;Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Les utilisateurs de Message Center sont des opérateurs spécifiques qui ont besoin d&#39;autorisations dédiées pour accéder aux dossiers **[!UICONTROL Evénements temps réel (nmsRtEvent)]**.
 
-Le processus global de messagerie transactionnelle peut être décrit comme suit :
-
-![](assets/transactional-msg-overview.png)
-
-Par exemple, imaginez que vous êtes une société disposant d&#39;un site web sur lequel vos clients peuvent acheter des produits.
-
-Adobe Campaign vous permet d’envoyer un email de notification aux clients qui ont ajouté des produits à leur panier. Lorsque l&#39;un d&#39;eux quitte votre site web sans passer par ses achats (événement externe qui déclenche un événement Campaign), un email d&#39;abandon de panier lui est automatiquement envoyé (diffusion de message transactionnel).
-
-Les principales étapes de mise en place de ce système sont décrites ci-dessous dans [cette section](#key-steps).
-
 >[!NOTE]
 >
 >Adobe Campaign donne la priorité au traitement des messages transactionnels par rapport à toute autre diffusion.
@@ -79,10 +65,10 @@ Les principales étapes de création et de gestion des messages transactionnels 
 
 Sur l’**instance de pilotage**, vous devez effectuer les actions suivantes :
 
-1. [Créer un type d&#39;événement](../../message-center/using/creating-event-types.md).
-1. [Créer et concevoir le modèle de message](../../message-center/using/creating-the-message-template.md). Vous devez associer un événement à votre message au cours de cette étape.
+1. [Créer un type d’événement](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"} (documentation de Campaign v8).
+1. [Créer et concevoir le modèle de message](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"} (documentation de Campaign v8). Vous devez associer un événement à votre message au cours de cette étape.
 1. [Tester le message](../../message-center/using/testing-message-templates.md).
-1. [Publier le modèle de message](../../message-center/using/publishing-message-templates.md).
+1. [Publication du modèle de message](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"} (documentation de Campaign v8).
 
 >[!NOTE]
 >
@@ -92,13 +78,13 @@ Sur l’**instance de pilotage**, vous devez effectuer les actions suivantes :
 
 Une fois que vous avez conçu et publié le modèle de message transactionnel, si un événement correspondant est déclenché, les principales étapes ci-dessous sont effectuées sur l&#39;**instance d&#39;exécution** :
 
-1. Lorsque l&#39;événement est généré par le système d&#39;informations externe, les données pertinentes sont envoyées à Campaign via les méthodes **PushEvent** et **PushEvents**. Voir [Collecte des événements](../../message-center/using/about-event-processing.md#event-collection).
-1. L&#39;événement est associé au modèle de message approprié. Voir [Acheminement vers un modèle](../../message-center/using/about-event-processing.md#routing-towards-a-template).
-1. Une fois l&#39;étape d&#39;enrichissement terminée, la diffusion est envoyée. Voir [Exécution de la diffusion](../../message-center/using/delivery-execution.md). Chaque destinataire ciblé reçoit un message personnalisé.
+1. Lorsque l&#39;événement est généré par le système d&#39;informations externe, les données pertinentes sont envoyées à Campaign via les méthodes **PushEvent** et **PushEvents**. Voir [Collecte des événements](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/event-processing#event-collection){target="_blank"} (documentation de Campaign v8).
+1. L&#39;événement est associé au modèle de message approprié. Voir [ Routage vers un modèle ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/event-processing#event-to-template){target="_blank"} (documentation de Campaign v8).
+1. Une fois l&#39;étape d&#39;enrichissement terminée, la diffusion est envoyée. Voir [ Exécution de la diffusion ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/delivery-execution){target="_blank"} (documentation de Campaign v8). Chaque destinataire ciblé reçoit un message personnalisé.
 
 ## Rubriques connexes : {#related-topics}
 
 * [Commencer avec les canaux de communication](../../delivery/using/communication-channels.md)
 * [Étapes clés de création de diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}
 * [Architecture des messages transactionnels](../../message-center/using/transactional-messaging-architecture.md)
-* [Accès aux rapports des messages transactionnels](../../message-center/using/about-transactional-messaging-reports.md)
+* [Accès aux rapports des messages transactionnels](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/delivery-execution){target="_blank"} (documentation de Campaign v8)

@@ -39,7 +39,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 100%
@@ -168,7 +168,7 @@ This mechanism is defined by two rules:
 
 >[!NOTE]
 >
->Integrity types linked to schema elements are defined in [this section](../../configuration/using/database-mapping.md#links--relation-between-tables).
+>Integrity types linked to schema elements are defined in [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/database-links){target="_blank"} (Campaign v8 documentation).
 
 #### Export a campaign {#exporting-a-campaign}
 

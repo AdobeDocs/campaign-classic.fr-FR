@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 100%
+source-wordcount: '804'
+ht-degree: 96%
 ---
 # Instructions relatives aux scripts et au codage {#scripting-coding-guidelines}
 
@@ -96,7 +96,7 @@ Reportez-vous aux pages suivantes :
 
 En plus du modèle de sécurité basé sur les dossiers, vous pouvez utiliser des droits nommés pour limiter les actions des opérateurs :
 
-* Vous pouvez ajouter des filtres système (sysFilter) pour empêcher tout accès en lecture/écriture à vos données (reportez-vous à [cette page](../../configuration/using/filtering-schemas.md)).
+* Vous pouvez ajouter certains filtres système (sysFilter) pour empêcher la lecture/l’écriture de vos données (voir [cette page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/filter-schema){target="_blank"} (documentation de Campaign v8)).
 
   ```
   <sysFilter name="writeAccess">    

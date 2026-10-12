@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 586c6688e2abd3b6e55389bd1fa219d2c596d07d
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 100%
+source-wordcount: '811'
+ht-degree: 96%
 ---
 # Problèmes de performance et de débit{#performance-and-throughput-issues}
 
@@ -92,7 +92,7 @@ Voici une liste des bonnes pratiques et des articles liés à la délivrabilité
   >L’engagement de l’équipe chargée de la délivrabilité repose sur un contrat. La clientèle doit contacter son représentant ou sa représentante Adobe pour obtenir des informations relatives à l’engagement en matière de délivrabilité.
 
 * Configuration de l’affinité IP : une configuration incorrecte de l’affinité IP peut stopper complètement les emails (nom d’opérateur incorrect/affinité incorrecte dans la configuration) ou réduire le débit (petit nombre d’IP dans l’affinité). Voir cette [page](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use).
-* Taille des e-mails : la taille des e-mails joue un rôle important dans le débit. La taille maximale recommandée pour les e-mails est de 60 Ko. Consultez cette [page](https://helpx.adobe.com/fr/legal/product-descriptions/campaign.html). Dans le rapport [Débit de diffusion](../../reporting/using/global-reports.md#delivery-throughput), vérifiez le nombre d’octets transférés par heure.
+* Taille des e-mails : la taille des e-mails joue un rôle important dans le débit. La taille maximale recommandée pour les e-mails est de 60 Ko. Consultez cette [page](https://helpx.adobe.com/fr/legal/product-descriptions/campaign.html). Dans le rapport [ Débit de diffusion ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-throughput){target="_blank"} (documentation de Campaign v8), vérifiez le nombre d’octets transférés par heure.
 * Grand nombre de personnes destinataires non valides : lorsque de nombreuses personnes destinataires ne sont pas valides, cela peut avoir un impact sur le débit. Le MTA tente de renvoyer les e-mails aux destinataires non valides. Assurez-vous que votre base de données est bien tenue à jour.
 * Niveau de personnalisation : si le statut d’une diffusion reste en « Personnalisation en cours », vérifiez le JavaScript utilisé dans les blocs de personnalisation.
 
