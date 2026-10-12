@@ -265,7 +265,7 @@ Pour créer un formulaire, procédez comme suit :
    | Case à cocher | `type="checkbox"` |
    | Modifier l’arborescence | `type="tree"` |
 
-   En savoir plus sur les [ contrôles de liste de mémoire ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#memory-list-controls){target="_blank"} (documentation de Campaign v8).
+   En savoir plus sur les [&#x200B; contrôles de liste de mémoire &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms#memory-list-controls){target="_blank"} (documentation de Campaign v8).
 
 1. Vous pouvez éventuellement définir l’accès aux champs :
 

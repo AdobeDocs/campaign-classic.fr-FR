@@ -185,7 +185,7 @@ Pour confirmer que la diffusion a abouti :
 
 >[!NOTE]
 >
->Par défaut, le module de gestion des coupons utilise une table **nms:recipient**. [ En savoir plus ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} (documentation de Campaign v8).
+>Par défaut, le module de gestion des coupons utilise une table **nms:recipient**. [&#x200B; En savoir plus &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} (documentation de Campaign v8).
 >
 >Découvrez comment utiliser une table des destinataires personnalisée [sur cette page](../../configuration/using/about-custom-recipient-table.md).
 

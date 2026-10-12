@@ -39,7 +39,7 @@ ht-degree: 77%
 
 Ce chapitre explique comment configurer des schémas d’extension afin d’étendre le modèle conceptuel de données de la base de données Adobe Campaign.
 
-Pour une meilleure compréhension des tables intégrées de Campaign et de leur interaction, reportez-vous à la section [Modèle de données de ](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/datamodel){target="_blank"} (documentation de Campaign v8).
+Pour une meilleure compréhension des tables intégrées de Campaign et de leur interaction, reportez-vous à la section [Modèle de données de &#x200B;](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/datamodel){target="_blank"} (documentation de Campaign v8).
 
 Dans Adobe Campaign, la structure physique et logique des données véhiculées dans l’application est décrite en XML. Un **schéma** est un document XML lié à une table de base de données. Il définit la structure des données et décrit la définition SQL de la table :
 

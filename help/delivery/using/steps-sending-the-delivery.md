@@ -46,7 +46,7 @@ ht-degree: 98%
 
 ## Autorisations{#delivery-permissions}
 
-Seule la personne propriétaire de la diffusion peut démarrer une diffusion. Pour que d’autres opérateurs (ou groupes d’opérateurs) puissent démarrer une diffusion, ajoutez-les en tant que validants dans le champ **[!UICONTROL Démarrage de la diffusion :]**. [ En savoir plus ](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval#select-reviewers){target="_blank"} (documentation de Campaign v8).
+Seule la personne propriétaire de la diffusion peut démarrer une diffusion. Pour que d’autres opérateurs (ou groupes d’opérateurs) puissent démarrer une diffusion, ajoutez-les en tant que validants dans le champ **[!UICONTROL Démarrage de la diffusion :]**. [&#x200B; En savoir plus &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval#select-reviewers){target="_blank"} (documentation de Campaign v8).
 
 ## Paramètres supplémentaires de diffusion {#delivery-additiona-parameters}
 

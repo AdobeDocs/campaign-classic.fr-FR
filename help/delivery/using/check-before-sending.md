@@ -126,7 +126,7 @@ Vous pouvez ainsi :
 
 * Pour chaque élément IPAffinity, déclarer les adresses IP qui peuvent être utilisées. [En savoir plus](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use)
 
-* Dans la [typologie](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"} (documentation de Campaign v8) de votre choix, utilisez le champ **[!UICONTROL Gestion des affinités avec les adresses IP]** pour lier les diffusions au serveur de diffusion (MTA) qui gère ladite affinité. [ En savoir plus ](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/apply-rules#control-outgoing-smtp-traffic){target="_blank"} (documentation de Campaign v8).
+* Dans la [typologie](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"} (documentation de Campaign v8) de votre choix, utilisez le champ **[!UICONTROL Gestion des affinités avec les adresses IP]** pour lier les diffusions au serveur de diffusion (MTA) qui gère ladite affinité. [&#x200B; En savoir plus &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/apply-rules#control-outgoing-smtp-traffic){target="_blank"} (documentation de Campaign v8).
 
 * Une fois l’e-mail envoyé, contrôlez l’en-tête pour vérifier l’adresse IP à partir de laquelle la diffusion a été envoyée. L’administrateur ou l’administratrice de votre messagerie peut vous aider à obtenir les informations d’en-tête.
 

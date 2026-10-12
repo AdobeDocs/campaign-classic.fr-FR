@@ -459,7 +459,7 @@ En savoir plus sur l’interface d’utilisation de Campaign dans la [documentat
 
 Les formulaires définissent la représentation de l’interface pour un type de schéma spécifique. Les formulaires permettent de créer et de modifier facilement des éléments de données dans le produit, tels que les destinataires, les diffusions et les campagnes. Tous les éléments d’interface d’Adobe Campaign sont créés dans le produit lui-même à l’aide de formulaires. Notez que les formulaires sont facultatifs et que les schémas n’en comportent pas tous.
 
-En savoir plus sur [](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentation de Campaign v8).
+En savoir plus sur [&#128279;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentation de Campaign v8).
 +++
 
 <!--
@@ -519,7 +519,7 @@ Learn more about [Image serving](../../delivery/using/defining-the-email-content
 
 Une interaction entrante est une interaction qui suit un appel entrant généré par l’action d’un contact sur un canal, tel que le Web, le centre d’appel ou le mobile. Ce type d’interaction est généralement traité en mode unitaire (c’est-à-dire, par destinataire).
 
-En savoir plus sur [ Interaction entrante ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"} (documentation de Campaign v8).
+En savoir plus sur [&#x200B; Interaction entrante &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"} (documentation de Campaign v8).
 +++
 
 +++**Inbox rendering**
@@ -904,7 +904,7 @@ En savoir plus sur [Destinataire](https://experienceleague.adobe.com/fr/docs/cam
 
 La fonction de rendu est définie dans un emplacement. Elle sert à construire son rendu de l’offre en fonction des attributs définis dans l’offre. Il existe trois modes de fonction de rendu différents : HTML, XML et texte.
 
-En savoir plus sur la [ fonction de rendu ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"} (documentation de Campaign v8).
+En savoir plus sur la [&#x200B; fonction de rendu &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"} (documentation de Campaign v8).
 +++
 
 <!--
