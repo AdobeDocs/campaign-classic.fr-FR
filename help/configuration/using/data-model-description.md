@@ -73,7 +73,7 @@ Le champ iFolderId est la clé étrangère servant à relier le destinataire à 
 
 Le champ sCountryCode contient le code ISO 3166-1 Alpha 2 (2 caractères) du pays associé au destinataire. Ce champ est en fait une clé étrangère liée à la table de référence des pays (NmsCountry), qui contient les libellés des pays et d’autres données relatives aux codes des pays. Si le pays n’est pas renseigné, la valeur « XX » est indiquée (et est utilisée à la place d’un enregistrement d’ID nul).
 
-Pour plus d’informations sur la table des destinataires, consultez [cette section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} (documentation de Campaign v8).
+Pour plus d’informations sur la table des destinataires, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} (documentation de Campaign v8).
 
 ### NmsGroup {#NmsGroup}
 

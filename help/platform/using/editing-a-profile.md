@@ -56,7 +56,7 @@ Les onglets et leur contenu dépendent de votre configuration et des packages in
 >
 >Le schéma XML et le formulaire relatifs aux champs de la table des profils sont accessibles depuis le nœud **[!UICONTROL Administration > Configuration > Schémas de données]** de l’arborescence d’Adobe Campaign. Seuls les utilisateurs experts peuvent apporter des modifications à ces schémas.
 >
->Pour plus d’informations, consultez [cette page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentation de Campaign v8).
+>Pour plus d’informations, consultez [cette page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentation de Campaign v8).
 
 >[!NOTE]
 >
@@ -129,6 +129,6 @@ The list is configurable, and usually contains: the URL clicked, date and time o
 
 >[!NOTE]
 >
->For more on tracking functionality, please refer to [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}.
+>For more on tracking functionality, please refer to [this page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}.
 
 -->

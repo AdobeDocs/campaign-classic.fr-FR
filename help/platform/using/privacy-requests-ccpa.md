@@ -70,7 +70,7 @@ Pour exploiter ces informations, vous devez créer ce champ dans Adobe Campaign
 
 Si vous utilisez une table de destinataires personnalisée, vous devez également effectuer cette opération.
 
-Pour plus d’informations sur la création d’un champ, consultez la [documentation sur l’édition de schémas](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentation de Campaign v8).
+Pour plus d’informations sur la création d’un champ, consultez la [documentation sur l’édition de schémas](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentation de Campaign v8).
 
 >[!IMPORTANT]
 >
@@ -88,7 +88,7 @@ Pour plus d’informations sur la création d’un champ, consultez la [document
 
    ![](assets/privacy-ccpa-3.png)
 
-1. Cliquez sur le nœud **[!UICONTROL Configuration]** > **[!UICONTROL Formulaires de saisie]** de l&#39;explorateur. Dans **[!UICONTROL Destinataire (nms)]**, sous &quot;Package général&quot;, ajoutez un élément `<input>` et utilisez, pour la valeur xpath, le chemin relatif défini à l&#39;étape 2. Pour plus d’informations sur l’identification d’un formulaire, voir [cette section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentation de Campaign v8).
+1. Cliquez sur le nœud **[!UICONTROL Configuration]** > **[!UICONTROL Formulaires de saisie]** de l&#39;explorateur. Dans **[!UICONTROL Destinataire (nms)]**, sous &quot;Package général&quot;, ajoutez un élément `<input>` et utilisez, pour la valeur xpath, le chemin relatif défini à l&#39;étape 2. Pour plus d’informations sur l’identification d’un formulaire, voir [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentation de Campaign v8).
 
    ```
    <input  colspan="2" type="checkbox" xpath="@OPTOUTCCPA"/>

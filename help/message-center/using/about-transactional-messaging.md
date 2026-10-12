@@ -66,9 +66,9 @@ Les principales étapes de création et de gestion des messages transactionnels 
 Sur l’**instance de pilotage**, vous devez effectuer les actions suivantes :
 
 1. [Créer un type d’événement](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/real-time/transactional){target="_blank"} (documentation de Campaign v8).
-1. [Créer et concevoir le modèle de message](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"} (documentation de Campaign v8). Vous devez associer un événement à votre message au cours de cette étape.
+1. [Créer et concevoir le modèle de message](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"} (documentation de Campaign v8). Vous devez associer un événement à votre message au cours de cette étape.
 1. [Tester le message](../../message-center/using/testing-message-templates.md).
-1. [Publication du modèle de message](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"} (documentation de Campaign v8).
+1. [Publication du modèle de message](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"} (documentation de Campaign v8).
 
 >[!NOTE]
 >
@@ -78,13 +78,13 @@ Sur l’**instance de pilotage**, vous devez effectuer les actions suivantes :
 
 Une fois que vous avez conçu et publié le modèle de message transactionnel, si un événement correspondant est déclenché, les principales étapes ci-dessous sont effectuées sur l&#39;**instance d&#39;exécution** :
 
-1. Lorsque l&#39;événement est généré par le système d&#39;informations externe, les données pertinentes sont envoyées à Campaign via les méthodes **PushEvent** et **PushEvents**. Voir [Collecte des événements](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/event-processing#event-collection){target="_blank"} (documentation de Campaign v8).
-1. L&#39;événement est associé au modèle de message approprié. Voir [&#x200B; Routage vers un modèle &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/event-processing#event-to-template){target="_blank"} (documentation de Campaign v8).
-1. Une fois l&#39;étape d&#39;enrichissement terminée, la diffusion est envoyée. Voir [&#x200B; Exécution de la diffusion &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/delivery-execution){target="_blank"} (documentation de Campaign v8). Chaque destinataire ciblé reçoit un message personnalisé.
+1. Lorsque l&#39;événement est généré par le système d&#39;informations externe, les données pertinentes sont envoyées à Campaign via les méthodes **PushEvent** et **PushEvents**. Voir [Collecte des événements](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/real-time/event/event-processing#event-collection){target="_blank"} (documentation de Campaign v8).
+1. L&#39;événement est associé au modèle de message approprié. Voir [&#x200B; Routage vers un modèle &#x200B;](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/real-time/event/event-processing#event-to-template){target="_blank"} (documentation de Campaign v8).
+1. Une fois l&#39;étape d&#39;enrichissement terminée, la diffusion est envoyée. Voir [&#x200B; Exécution de la diffusion &#x200B;](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/real-time/event/delivery-execution){target="_blank"} (documentation de Campaign v8). Chaque destinataire ciblé reçoit un message personnalisé.
 
 ## Rubriques connexes : {#related-topics}
 
 * [Commencer avec les canaux de communication](../../delivery/using/communication-channels.md)
 * [Étapes clés de création de diffusion](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=fr){target="_blank"}
 * [Architecture des messages transactionnels](../../message-center/using/transactional-messaging-architecture.md)
-* [Accès aux rapports des messages transactionnels](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/delivery-execution){target="_blank"} (documentation de Campaign v8)
+* [Accès aux rapports des messages transactionnels](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/real-time/event/delivery-execution){target="_blank"} (documentation de Campaign v8)

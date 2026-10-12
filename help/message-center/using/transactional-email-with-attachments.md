@@ -87,7 +87,7 @@ Pour ajouter à la volée une pièce jointe à un message transactionnel, procé
 
 1. Vous pouvez envoyer des emails via un déclencheur de message SOAP. Un appel SOAP contient un paramètre d’URL (attachmentURL).
 
-   Pour plus d’informations sur les requêtes SOAP, voir [Description des événements](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/event-description){target="_blank"} (documentation de Campaign v8).
+   Pour plus d’informations sur les requêtes SOAP, voir [Description des événements](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/real-time/event/event-description){target="_blank"} (documentation de Campaign v8).
 
 1. Lors de la conception de votre email, cliquez sur **[!UICONTROL Pièce jointe]**.
 

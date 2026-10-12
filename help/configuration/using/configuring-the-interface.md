@@ -57,7 +57,7 @@ La création d&#39;un nouveau formulaire va permettre de visualiser et d&#39;éd
 
    >[!NOTE]
    >
-   >Pour en savoir plus sur les fichiers de type **form**, consultez [cette page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentation de Campaign v8).
+   >Pour en savoir plus sur les fichiers de type **form**, consultez [cette page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentation de Campaign v8).
 
    Dans cet exemple, le fichier **form** doit être basé sur le schéma **cus:individual** et donc posséder la mise en page suivante :
 

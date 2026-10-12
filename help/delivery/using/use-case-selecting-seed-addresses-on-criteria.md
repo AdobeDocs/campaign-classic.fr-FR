@@ -65,7 +65,7 @@ Pour créer une valeur commune comme celle utilisée dans notre exemple (Service
 
 ### Extension du schéma de données {#extending-the-data-schema}
 
-Pour plus d’informations sur les extensions de schéma, consultez [cette section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/create-schema){target="_blank"} (documentation de Campaign v8).
+Pour plus d’informations sur les extensions de schéma, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/create-schema){target="_blank"} (documentation de Campaign v8).
 
 1. Dans le noeud **[!UICONTROL Administration > Paramétrage > Schémas de données]**, cliquez sur l&#39;icône **[!UICONTROL Nouveau]**.
 1. Dans la fenêtre **[!UICONTROL Création d&#39;un schéma de données]** sélectionnez l&#39;option **[!UICONTROL Extension d&#39;un schéma]** et cliquez sur **[!UICONTROL Suivant]**.

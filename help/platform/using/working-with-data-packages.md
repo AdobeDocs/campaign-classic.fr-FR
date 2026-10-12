@@ -168,7 +168,7 @@ This mechanism is defined by two rules:
 
 >[!NOTE]
 >
->Integrity types linked to schema elements are defined in [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/database-links){target="_blank"} (Campaign v8 documentation).
+>Integrity types linked to schema elements are defined in [this section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/database-links){target="_blank"} (Campaign v8 documentation).
 
 #### Export a campaign {#exporting-a-campaign}
 

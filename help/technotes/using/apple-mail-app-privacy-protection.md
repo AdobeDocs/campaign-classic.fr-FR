@@ -95,7 +95,7 @@ Pour collecter des informations à partir des données Adobe Campaign, vous pou
 
 * Rapport sur les **[!UICONTROL Systèmes d’exploitation]**
 
-  Pour identifier la proportion de visiteurs par système d’exploitation et par version, utilisez ce rapport. [En savoir plus](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#operating-systems){target="_blank"} (documentation de Campaign v8).
+  Pour identifier la proportion de visiteurs par système d’exploitation et par version, utilisez ce rapport. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#operating-systems){target="_blank"} (documentation de Campaign v8).
 
   Vous pouvez afficher la répartition des visiteurs par système d’exploitation au regard du nombre total de visiteurs.
 
@@ -107,7 +107,7 @@ Pour collecter des informations à partir des données Adobe Campaign, vous pou
 
 * Rapport sur la **[!UICONTROL Répartition des ouvertures]**
 
-  Utilisez ce rapport pour identifier la proportion d’ouvertures d’e-mails par système d’exploitation. [En savoir plus](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#breakdown-of-opens){target="_blank"} (documentation de Campaign v8).
+  Utilisez ce rapport pour identifier la proportion d’ouvertures d’e-mails par système d’exploitation. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#breakdown-of-opens){target="_blank"} (documentation de Campaign v8).
 
   ![](../../reporting/using/assets/dlv_useragent_report.png)
 

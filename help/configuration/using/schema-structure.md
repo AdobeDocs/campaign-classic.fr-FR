@@ -47,9 +47,9 @@ ht-degree: 67%
 
 Cette page répertorie la manière dont les types de données Adobe Campaign sont associés aux types de données de chaque système de gestion de base de données.
 
-Dans le cadre de la transition de Campaign v7 vers v8, le jeu de documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur la structure des schémas, consultez la documentation [Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure){target=_blank}.
+Dans le cadre de la transition de Campaign v7 vers v8, le jeu de documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur la structure des schémas, consultez la documentation [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure){target=_blank}.
 
-[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure){target=_blank}
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure){target=_blank}
 
 ## Mapping des types de données Adobe Campaign/SGBD {#mapping-the-types-of-adobe-campaign-dbms-data}
 
@@ -141,5 +141,5 @@ Pour en savoir plus, consultez les liens suivants :
 
 * [Prise en main des schémas](about-schema-reference.md)
 * [Mapping de la base de données](database-mapping.md)
-* [Gestion des liens](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/database-links){target="_blank"} (documentation de Campaign v8)
+* [Gestion des liens](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/database-links){target="_blank"} (documentation de Campaign v8)
 * [Gestion des clés](database-keys.md)

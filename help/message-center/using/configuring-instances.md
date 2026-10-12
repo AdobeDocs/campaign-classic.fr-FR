@@ -61,7 +61,7 @@ Toutes les étapes nécessaires pour configurer et connecter les instances de pi
 
 ## Configuration de l&#39;instance de pilotage {#control-instance}
 
-Pour connecter l&#39;instance de pilotage et les instances d&#39;exécution, vous devez d&#39;abord créer et configurer un compte externe de type **[!UICONTROL Instance d&#39;exécution]** **sur l&#39;instance de pilotage**. Par conséquent, une fois [&#x200B; publiés &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template#publish-message-template){target="_blank"} (documentation de Campaign v8), les modèles de messages transactionnels peuvent être déployés sur les instances d&#39;exécution.
+Pour connecter l&#39;instance de pilotage et les instances d&#39;exécution, vous devez d&#39;abord créer et configurer un compte externe de type **[!UICONTROL Instance d&#39;exécution]** **sur l&#39;instance de pilotage**. Par conséquent, une fois [&#x200B; publiés &#x200B;](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/real-time/transactional-template#publish-message-template){target="_blank"} (documentation de Campaign v8), les modèles de messages transactionnels peuvent être déployés sur les instances d&#39;exécution.
 
 Si vous utilisez plusieurs instances d&#39;exécution, vous devez créer autant de comptes externes que d&#39;instances d&#39;exécution.
 

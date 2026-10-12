@@ -37,7 +37,7 @@ Lorsque vous modifiez un schéma et enregistrez les modifications, le schéma é
 1. Cliquez avec le bouton droit et sélectionnez **[!UICONTROL Actions > Régénérer les schémas sélectionnés...]** .
 1. Cliquez sur **[!UICONTROL OK]** pour valider et lancer le processus.
 
-Vous pouvez ensuite vérifier la structure du schéma généré dans les onglets Aperçu et Documentation. Pour plus d’informations à ce sujet, consultez la section [Principes](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/create-schema){target="_blank"} (documentation de Campaign v8) .
+Vous pouvez ensuite vérifier la structure du schéma généré dans les onglets Aperçu et Documentation. Pour plus d’informations à ce sujet, consultez la section [Principes](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/create-schema){target="_blank"} (documentation de Campaign v8) .
 
 >[!NOTE]
 >

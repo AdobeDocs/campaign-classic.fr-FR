@@ -51,7 +51,7 @@ Pour chaque diffusion, vous pouvez définir plusieurs types de populations cible
 * **Audience principale :** profils qui recevront des messages. [En savoir plus](steps-defining-the-target-population.md#selecting-the-main-target)
 * **BAT** : destinataires des messages BAT, concernés par le cycle de validation. [En savoir plus](steps-defining-the-target-population.md#defining-a-specific-proof-target)
 * **Adresses de contrôle** : destinataires ne figurant pas dans la cible mais qui recevront la diffusion (uniquement dans le cadre d’une campagne de marketing). [En savoir plus](about-seed-addresses.md)
-* **Populations témoins** : population qui ne recevra pas la diffusion, servant à suivre le comportement et l’impact de la campagne (uniquement dans le cadre d’une campagne de marketing). [&#x200B; En savoir plus &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/marketing-campaign-target#add-a-control-group){target="_blank"} (documentation de Campaign v8).
+* **Populations témoins** : population qui ne recevra pas la diffusion, servant à suivre le comportement et l’impact de la campagne (uniquement dans le cadre d’une campagne de marketing). [&#x200B; En savoir plus &#x200B;](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-orchestration/marketing-campaign-target#add-a-control-group){target="_blank"} (documentation de Campaign v8).
 
 ## Sélection des principaux destinataires de la diffusion {#selecting-the-main-target}
 

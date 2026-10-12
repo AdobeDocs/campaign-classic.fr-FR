@@ -49,14 +49,14 @@ Adobe Campaign propose plusieurs types de rapports, accessibles depuis la conso
 
 Les types de rapports disponibles sont les suivants :
 
-* Pour obtenir des rapports sur l’ensemble de la plateforme, voir [Rapports globaux](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports){target="_blank"} (documentation de Campaign v8).
-* Les rapports de diffusion, voir [Rapports de diffusion](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports){target="_blank"} (documentation de Campaign v8).
-* Les rapports cumulés, voir [Rapports cumulés](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports){target="_blank"} (documentation de Campaign v8).
+* Pour obtenir des rapports sur l’ensemble de la plateforme, voir [Rapports globaux](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports){target="_blank"} (documentation de Campaign v8).
+* Les rapports de diffusion, voir [Rapports de diffusion](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports){target="_blank"} (documentation de Campaign v8).
+* Les rapports cumulés, voir [Rapports cumulés](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports){target="_blank"} (documentation de Campaign v8).
 
 Vous pouvez accéder aux rapports à partir de la page d’accueil de la console cliente, du tableau de bord des rapports ou de la liste des diffusions. Le mode d’affichage d’un rapport dépend de son contexte. La liste des principaux rapports est disponible sur la page d’accueil et permet d’accéder rapidement aux données de diffusion. Cette liste peut être modifiée en fonction de vos besoins. Pour plus d’informations, consultez [cette section](../../reporting/using/about-reports-creation-in-campaign.md).
 
-Dans le cadre de la transition de Campaign v7 vers v8, le jeu de documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour savoir comment accéder aux rapports intégrés et les utiliser, reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/built-in-reports){target=_blank}.
+Dans le cadre de la transition de Campaign v7 vers v8, le jeu de documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour savoir comment accéder aux rapports intégrés et les utiliser, reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/ac-reports/built-in-reports){target=_blank}.
 
-[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/built-in-reports){target=_blank}
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/ac-reports/built-in-reports){target=_blank}
 
 Les autres actions possibles sur un rapport en cours d&#39;édition sont présentées dans [cette page](../../reporting/using/actions-on-reports.md).

@@ -82,7 +82,7 @@ Pour configurer les adresses dans l’interface de Campaign, procédez comme sui
 
 ### Configurer une population témoin
 
-Une fois que la diffusion est envoyée, vous pouvez comparer le comportement des destinataires exclus à celui des destinataires qui ont reçu la diffusion. Vous pouvez ensuite mesurer l’efficacité de vos campagnes. En savoir plus sur les populations témoins [cette section](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-orchestration/marketing-campaign-target#add-a-control-group){target="_blank"} (documentation de Campaign v8).
+Une fois que la diffusion est envoyée, vous pouvez comparer le comportement des destinataires exclus à celui des destinataires qui ont reçu la diffusion. Vous pouvez ensuite mesurer l’efficacité de vos campagnes. En savoir plus sur les populations témoins [cette section](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-orchestration/marketing-campaign-target#add-a-control-group){target="_blank"} (documentation de Campaign v8).
 
 Pour configurer une population témoin, cliquez sur le lien **[!UICONTROL Pour]**. Dans la fenêtre **[!UICONTROL Choix de la cible]**, sélectionnez l’onglet **[!UICONTROL Population témoin]**. Vous pouvez extraire une partie de la cible, par exemple un échantillon aléatoire de 5 %.
 

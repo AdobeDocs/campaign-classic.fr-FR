@@ -120,7 +120,7 @@ Les diffusions suivantes seront affichées dans la vue :
 
 >[!NOTE]
 >
->Lors de la gestion des événements de [messagerie transactionnelle](../../message-center/using/about-transactional-messaging.md), les dossiers **[!UICONTROL Événements temps réel]** ou **[!UICONTROL Événements batch]** ne doivent pas être définis comme des vues sur les instances d&#39;exécution, car cela pourrait entraîner des problèmes de droit d&#39;accès. Pour plus d’informations sur la collecte d’événements, voir [cette section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/event/event-processing#event-collection){target="_blank"} (documentation de Campaign v8).
+>Lors de la gestion des événements de [messagerie transactionnelle](../../message-center/using/about-transactional-messaging.md), les dossiers **[!UICONTROL Événements temps réel]** ou **[!UICONTROL Événements batch]** ne doivent pas être définis comme des vues sur les instances d&#39;exécution, car cela pourrait entraîner des problèmes de droit d&#39;accès. Pour plus d’informations sur la collecte d’événements, voir [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/real-time/event/event-processing#event-collection){target="_blank"} (documentation de Campaign v8).
 
 <!--
 ## Permissions on a folder

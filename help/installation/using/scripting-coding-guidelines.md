@@ -96,7 +96,7 @@ Reportez-vous aux pages suivantes :
 
 En plus du modèle de sécurité basé sur les dossiers, vous pouvez utiliser des droits nommés pour limiter les actions des opérateurs :
 
-* Vous pouvez ajouter certains filtres système (sysFilter) pour empêcher la lecture/l’écriture de vos données (voir [cette page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/filter-schema){target="_blank"} (documentation de Campaign v8)).
+* Vous pouvez ajouter certains filtres système (sysFilter) pour empêcher la lecture/l’écriture de vos données (voir [cette page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/filter-schema){target="_blank"} (documentation de Campaign v8)).
 
   ```
   <sysFilter name="writeAccess">    

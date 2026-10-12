@@ -55,7 +55,7 @@ Le **[!UICONTROL journal d’audit]** capture, en temps réel, une liste complè
 
 * **Journal d’audit du schéma** : permet d’explorer les modifications apportées à vos schémas, ainsi que d’identifier qui a effectué ces modifications et quand elles ont eu lieu.
 
-  Pour plus d’informations sur les schémas, consultez cette [page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/create-schema){target="_blank"} (documentation de Campaign v8).
+  Pour plus d’informations sur les schémas, consultez cette [page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/create-schema){target="_blank"} (documentation de Campaign v8).
 
 * **Journal d’audit des workflows** : effectue le suivi de toutes les actions liées à vos workflows, notamment :
 

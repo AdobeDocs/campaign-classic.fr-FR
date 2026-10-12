@@ -49,4 +49,4 @@ Dans le cas d&#39;un contact entrant (centre d&#39;appel ou site web), les offre
 
   ![](assets/s_ncs_configuration_offer_context.png)
 
-* Lors du paramétrage des appels SOAP, insérez l&#39;élément XML **context** pour référencer les informations contextuelles ajoutées dans le schéma d&#39;interaction. Pour plus d’informations, consultez la section [Intégration via SOAP (côté serveur)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/inbound/interaction-integration){target="_blank"} (documentation de Campaign v8).
+* Lors du paramétrage des appels SOAP, insérez l&#39;élément XML **context** pour référencer les informations contextuelles ajoutées dans le schéma d&#39;interaction. Pour plus d’informations, consultez la section [Intégration via SOAP (côté serveur)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/inbound/interaction-integration){target="_blank"} (documentation de Campaign v8).

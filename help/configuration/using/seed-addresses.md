@@ -107,7 +107,7 @@ Les étapes sont les suivantes :
    >    
    >
 
-1. Modifiez le formulaire **[!UICONTROL seedMember]** en conséquence pour définir un nouvel onglet « Destinataire interne » dans la fenêtre **[!UICONTROL Adresses de contrôle]**. Voir à ce propos [cette page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentation de Campaign v8).
+1. Modifiez le formulaire **[!UICONTROL seedMember]** en conséquence pour définir un nouvel onglet « Destinataire interne » dans la fenêtre **[!UICONTROL Adresses de contrôle]**. Voir à ce propos [cette page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentation de Campaign v8).
 
    ```
    <container colcount="2" label="Internal recipient" name="internal"

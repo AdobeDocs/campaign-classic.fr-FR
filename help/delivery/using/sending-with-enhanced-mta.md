@@ -155,7 +155,7 @@ Une diffusion ne peut pas être arrêtée une fois qu’elle a été transféré
 
 Le graphique du débit des diffusions de Campaign n&#39;affiche plus le débit vers vos destinataires d&#39;emails. Il indique maintenant la vitesse de débit pour le relais de vos messages entre Campaign et le MTA amélioré.
 
-Pour plus d’informations sur le débit des diffusions, consultez [cette section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-throughput){target="_blank"} (documentation de Campaign v8).
+Pour plus d’informations sur le débit des diffusions, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-throughput){target="_blank"} (documentation de Campaign v8).
 
 ### Reprises
 

@@ -39,9 +39,9 @@ Vous pouvez créer un catalogue d’offres qui sert d’interface avec les canau
 
 Interaction vous permet de créer et de gérer un catalogue d’offres, et de configurer les règles d’éligibilité et les thèmes d’application qui lui sont associés. Selon le canal choisi, le contenu de l’offre peut être personnalisé grâce à différentes fonctions de rendu. Enfin, vous pouvez utiliser le module de simulation pour calculer l’impact d’une présentation des offres.
 
-Dans le cadre de la transition de Campaign v7 vers v8, le jeu de documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur Interaction, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction){target=_blank}.
+Dans le cadre de la transition de Campaign v7 vers v8, le jeu de documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur Interaction, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/interaction){target=_blank}.
 
-[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction){target=_blank}
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/interaction){target=_blank}
 
 Cette section couvre uniquement les fonctionnalités d’interaction qui ne sont pas décrites dans la documentation de Campaign v8 : [simulation de l’offre](about-offers-simulation.md), [présentation de l’offre](managing-offer-presentation.md), [validation de l’offre](approving-and-activating-an-offer.md), [modèles d’offre](managing-offer-templates.md) et [paramètres avancés](using-advanced-parameters.md).
 
@@ -53,6 +53,6 @@ Cette section couvre uniquement les fonctionnalités d’interaction qui ne sont
 
 | Pages utiles | Autres ressources |
 |---|---|
-| [Étapes d’implémentation d’Interaction](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction){target="_blank"} (documentation de Campaign v8) | [Test de la distribution des offres](../../interaction/using/about-offers-simulation.md) |
-| [Environnements en ligne/édition](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env){target="_blank"} (documentation de Campaign v8) | [Ajout d’une offre dans un e-mail](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"} (documentation de Campaign v8) |
-| [Création d&#39;emplacements](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"} (documentation de Campaign v8) | [Cas pratique : ajouter une offre dans un site web](../../interaction/using/offers-on-an-inbound-channel.md) |
+| [Étapes d’implémentation d’Interaction](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/interaction){target="_blank"} (documentation de Campaign v8) | [Test de la distribution des offres](../../interaction/using/about-offers-simulation.md) |
+| [Environnements en ligne/édition](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env){target="_blank"} (documentation de Campaign v8) | [Ajout d’une offre dans un e-mail](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"} (documentation de Campaign v8) |
+| [Création d&#39;emplacements](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"} (documentation de Campaign v8) | [Cas pratique : ajouter une offre dans un site web](../../interaction/using/offers-on-an-inbound-channel.md) |

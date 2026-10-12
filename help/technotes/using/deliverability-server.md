@@ -150,4 +150,4 @@ Toute instance de Campaign non mise à niveau d’ici le 31 août ne pourra plus
 
 Si vous ne mettez pas à niveau votre environnement, les paramètres d’e-mail ne seront plus synchronisés (règles de gestion MX, règles relatives aux e-mails entrants, règles de gestion des domaines et règles de qualification des rebonds). Cela peut affecter votre délivrabilité au fil du temps. Si une modification importante est apportée à ces règles, celles-ci doivent être appliquées manuellement à partir de ce point.
 
-Pour les instances MKT, seule la [Liste de suppression globale](https://experienceleague.adobe.com/en/docs/campaign/automation/campaign-optimization/filtering-rules#default-deliverability-exclusion-rules){target="_blank"} (documentation de Campaign v8) est affectée.
+Pour les instances MKT, seule la [Liste de suppression globale](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-optimization/filtering-rules#default-deliverability-exclusion-rules){target="_blank"} (documentation de Campaign v8) est affectée.

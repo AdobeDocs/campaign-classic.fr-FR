@@ -58,8 +58,8 @@ Une fois votre email créé et configuré, vous pouvez l’envoyer à la cible p
 
 Les sections suivantes décrivent en détail les paramètres et les configurations spécifiques à la diffusion d’emails :
 <!--
-* [Generating the mirror page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/mirror-page){target="_blank"} (Campaign v8 documentation)
-* [Email BCC](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email-bcc){target="_blank"} (Campaign v8 documentation)
+* [Generating the mirror page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/emails/mirror-page){target="_blank"} (Campaign v8 documentation)
+* [Email BCC](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/emails/email-bcc){target="_blank"} (Campaign v8 documentation)
 -->
 * [Paramètres de l’e-mail](email-parameters.md)
 * [Envoi d’e-mails avec le MTA amélioré](sending-with-enhanced-mta.md)

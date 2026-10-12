@@ -113,7 +113,7 @@ Nous voulons envoyer une première proposition d’offre appartenant à la caté
 
    ![](assets/offer_typology_example_016.png)
 
-1. Insérez vos offres dans le corps du message et envoyez la diffusion. Voir à ce sujet la section [À propos des canaux sortants](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"} (documentation de Campaign v8).
+1. Insérez vos offres dans le corps du message et envoyez la diffusion. Voir à ce sujet la section [À propos des canaux sortants](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"} (documentation de Campaign v8).
 
    Votre destinataire a bien reçu l&#39;offre pour laquelle il est éligible.
 

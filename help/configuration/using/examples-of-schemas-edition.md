@@ -355,7 +355,7 @@ L&#39;interface utilisateur n&#39;affiche pas de lien mais un champ. Lorsque l�
 
 * Découvrez comment **utiliser les énumérations** dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
 
-* [Prise en main des schémas de Campaign](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentation de Campaign v8)
+* [Prise en main des schémas de Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentation de Campaign v8)
 
 * [Mettre à jour la structure de la base de données](../../configuration/using/updating-the-database-structure.md)
 
