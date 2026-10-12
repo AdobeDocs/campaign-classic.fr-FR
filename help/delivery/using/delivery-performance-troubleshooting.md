@@ -124,7 +124,7 @@ La cause de cette erreur est liée à des problèmes de performances dans lesque
 
 **Pour les installations on-premise**, effectuez un nettoyage et une réindexation de la base de données. Pour plus d’informations sur la maintenance de la base de données, consultez [cette section](../../production/using/recommendations.md).
 
-Vous devez également redémarrer tous les workflows avec une activité planifiée et tous ceux dans un état en échec. Reportez-vous à [cette section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"} (documentation de Campaign v8).
+Vous devez également redémarrer tous les workflows avec une activité planifiée et tous ceux dans un état en échec. Reportez-vous à [cette section](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"} (documentation de Campaign v8).
 
 ### Surveillance des workflows techniques
 

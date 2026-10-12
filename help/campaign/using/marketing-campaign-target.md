@@ -97,7 +97,7 @@ La barre d&#39;outils de l&#39;éditeur de diagramme permet d&#39;accéder aux f
 
 >[!NOTE]
 >
->Les activités disponibles pour créer le diagramme, ainsi que toutes les fonctionnalités d&#39;affichage et de mise en page, sont détaillées dans le guide [Automatisation à l&#39;aide de workflows](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/activities){target="_blank"} (documentation de Campaign v8).
+>Les activités disponibles pour créer le diagramme, ainsi que toutes les fonctionnalités d&#39;affichage et de mise en page, sont détaillées dans le guide [Automatisation à l&#39;aide de workflows](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/activities){target="_blank"} (documentation de Campaign v8).
 
 Vous pouvez créer plusieurs workflows de ciblage pour une même campagne. Pour ajouter un workflow, procédez comme suit :
 
@@ -250,7 +250,7 @@ Cliquez sur **[!UICONTROL Suivant]** pour définir l&#39;ordre de tri (si besoin
 
 ![](assets/s_ncs_user_edit_op_target_param.png)
 
-Cette configuration équivaut à une activité de partage dans le workflow, ce qui vous permet de diviser la cible en sous-ensembles. La population témoin est l&#39;un de ces sous-ensembles. Pour plus d’informations[&#128279;](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/split){target="_blank"} consultez la présente section) (documentation de Campaign v8).
+Cette configuration équivaut à une activité de partage dans le workflow, ce qui vous permet de diviser la cible en sous-ensembles. La population témoin est l&#39;un de ces sous-ensembles. Pour plus d’informations[&#128279;](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/split){target="_blank"} consultez la présente section) (documentation de Campaign v8).
 
 ### Utilisation d’une nouvelle population comme population témoin {#adding-a-population}
 

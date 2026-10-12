@@ -349,7 +349,7 @@ Cette tâche purge chaque instance de workflow à l’aide de son identifiant (*
 
 >[!NOTE]
 >
->La fréquence de purge de l’historique est définie pour chaque workflow dans le champ **Jours d’historique** (valeur par défaut de 30 jours). Ce champ se situe sur l’onglet **Exécution** des propriétés du workflow. Pour en savoir plus à ce sujet, consultez [cette section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/workflow-properties#execution){target="_blank"} (documentation de Campaign v8).
+>La fréquence de purge de l’historique est définie pour chaque workflow dans le champ **Jours d’historique** (valeur par défaut de 30 jours). Ce champ se situe sur l’onglet **Exécution** des propriétés du workflow. Pour en savoir plus à ce sujet, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/advanced-management/workflow-properties#execution){target="_blank"} (documentation de Campaign v8).
 
 1. Pour récupérer la liste des workflows à supprimer, la requête suivante est utilisée :
 

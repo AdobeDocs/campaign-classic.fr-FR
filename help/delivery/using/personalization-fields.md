@@ -104,7 +104,7 @@ Nous créons un e-mail dans lequel nous allons tout d’abord insérer le nom de
 
    >[!NOTE]
    >
-   >Lorsqu&#39;une diffusion s&#39;inscrit dans un workflow, vous pouvez utiliser les données issues de la table de travail temporaire du workflow. Ces données sont rassemblées dans le menu **[!UICONTROL Extension de la cible]**. Pour en savoir plus à ce sujet, consultez [cette section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/use-workflow-data){target="_blank"} (documentation de Campaign v8).
+   >Lorsqu&#39;une diffusion s&#39;inscrit dans un workflow, vous pouvez utiliser les données issues de la table de travail temporaire du workflow. Ces données sont rassemblées dans le menu **[!UICONTROL Extension de la cible]**. Pour en savoir plus à ce sujet, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/introduction/use-workflow-data){target="_blank"} (documentation de Campaign v8).
 
 ## Optimiser la personnalisation {#optimizing-personalization}
 

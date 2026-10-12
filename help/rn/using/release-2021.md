@@ -124,7 +124,7 @@ _5 juin 2021_
 <td>
 <p>La nouvelle activité de workflow <b>Modifier la source de données</b> permet de modifier la source de données de la table de travail d’un workflow. Cela offre plus de flexibilité pour la gestion des données entre différentes sources de données (FDA et base de données locale).</p>
 <p>Dans les workflows Adobe Campaign, les données sont gérées à l’aide de tables de travail (ou temporaires). Au fur et à mesure de l’exécution d’un workflow, les tables de travail partagent les données entre les activités du workflow. Par défaut, les tables de travail sont créées dans la même base de données que la source des données sur lesquelles nous effectuons des requêtes.</p>
-<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/change-data-source" target="_blank">documentation détaillée</a> (documentation de Campaign v8).</p>
+<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/change-data-source" target="_blank">documentation détaillée</a> (documentation de Campaign v8).</p>
 </td>
 </tr>
 </tbody>

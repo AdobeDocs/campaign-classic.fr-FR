@@ -44,7 +44,7 @@ Cette section décrit comment créer un workflow pour effectuer des tests A/B.
 
 1. Ajoutez une activité Partage pour diviser la population ciblée en plusieurs sous-ensembles. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/split.html?lang=fr){target="_blank"}.
 
-1. Ouvrez l&#39;activité, puis configurez chaque sous-ensemble en fonction de vos besoins. Pour plus d’informations sur la configuration d’une activité **[!UICONTROL Partage]**, consultez [cette section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/split){target="_blank"} (documentation de Campaign v8).
+1. Ouvrez l&#39;activité, puis configurez chaque sous-ensemble en fonction de vos besoins. Pour plus d’informations sur la configuration d’une activité **[!UICONTROL Partage]**, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/split){target="_blank"} (documentation de Campaign v8).
 
    Dans cet exemple, nous voulons tester deux nouveaux objets pour une newsletter en les présentant à 10 % de la population ciblée.
 

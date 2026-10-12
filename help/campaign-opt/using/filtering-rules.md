@@ -77,7 +77,7 @@ Dans ce cas, même si la règle est associée à toutes les diffusions, elle ne 
 
 >[!NOTE]
 >
->Les typologies et les règles de filtrage peuvent être utilisées dans un workflow, dans l&#39;activité **[!UICONTROL Composition de diffusion]**. Pour en savoir plus à ce sujet, consultez [cette section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/delivery-outline){target="_blank"} (documentation de Campaign v8).
+>Les typologies et les règles de filtrage peuvent être utilisées dans un workflow, dans l&#39;activité **[!UICONTROL Composition de diffusion]**. Pour en savoir plus à ce sujet, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/delivery-outline){target="_blank"} (documentation de Campaign v8).
 
 ## Création et utilisation dʼune typologie de filtrage {#creating-and-using-a-filtering-typology}
 

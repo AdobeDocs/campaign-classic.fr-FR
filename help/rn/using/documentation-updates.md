@@ -65,15 +65,15 @@ L’installation des packages Linux a été mise à jour pour la version v7.4.1
 
 Mise à jour de la section Notes de mise à jour avec les améliorations et correctifs de la version 7.4.1, des mises à jour de la compatibilité et des correctifs. [En savoir plus](latest-release.md)
 
-Une note a été ajoutée pour indiquer comment effacer les variables d’instances lors du redémarrage des workflows. [En savoir plus](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow){target="_blank"} (documentation de Campaign v8)
+Une note a été ajoutée pour indiquer comment effacer les variables d’instances lors du redémarrage des workflows. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow){target="_blank"} (documentation de Campaign v8)
 
 ### Avril 2024 {#apr-2024}
 
 Ajout d’une note d’avertissement concernant la création d’utilisateurs et d’utilisatrices avec Adobe Identity Management System (IMS). [En savoir plus](../../platform/using/access-management.md)
 
-Ajout des options manquantes pour l’activité de workflow Téléchargement web. [En savoir plus](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/event-activities/web-download){target="_blank"} (documentation de Campaign v8)
+Ajout des options manquantes pour l’activité de workflow Téléchargement web. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/event-activities/web-download){target="_blank"} (documentation de Campaign v8)
 
-Ajout d’une note d’avertissement aux activités **Modification de la dimension** et **Modification de la source de données** concernant leur utilisation dans un workflow. [En savoir plus](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/change-data-source){target="_blank"} (documentation de Campaign v8)
+Ajout d’une note d’avertissement aux activités **Modification de la dimension** et **Modification de la source de données** concernant leur utilisation dans un workflow. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/change-data-source){target="_blank"} (documentation de Campaign v8)
 
 ### Mars 2024 {#mar-2024}
 

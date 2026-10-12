@@ -147,7 +147,7 @@ Les campagnes récurrentes sont créées à partir d’un modèle spécifique qu
 
    ![](assets/s_ncs_user_op_template_recur_planning.png)
 
-   Le mode de configuration du planning d&#39;exécution correspond à l&#39;objet **[!UICONTROL Planificateur]** du workflow. Pour en savoir plus à ce sujet, consultez [cette section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"} (documentation de Campaign v8).
+   Le mode de configuration du planning d&#39;exécution correspond à l&#39;objet **[!UICONTROL Planificateur]** du workflow. Pour en savoir plus à ce sujet, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"} (documentation de Campaign v8).
 
    >[!IMPORTANT]
    >

@@ -89,7 +89,7 @@ Pour obtenir l&#39;audience finale et ses données additionnelles :
 
    ![](assets/acs_connect_query1.png)
 
-1. Ajoutez des données additionnelles issues de la requête. Pour plus d’informations, consultez la section [Ajouter des données](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/query#adding-data){target="_blank"} (documentation de Campaign v8) .
+1. Ajoutez des données additionnelles issues de la requête. Pour plus d’informations, consultez la section [Ajouter des données](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/query#adding-data){target="_blank"} (documentation de Campaign v8) .
 
    Cet exemple montre comment ajouter un agrégat pour comptabiliser le nombre de diffusions reçues par un destinataires au cours d&#39;une année.
 
