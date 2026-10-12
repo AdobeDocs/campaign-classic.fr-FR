@@ -92,8 +92,8 @@ Pour garantir votre réputation et assurer une bonne gestion des quarantaines, d
 
 **Rubriques connexes :**
 
-* [ Activité Déduplication ](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication){target="_blank"} (documentation de Campaign v8).
-* [Cas pratique : utilisation de la fonctionnalité de fusion de l’activité Déduplication ](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/data-management/deduplication-merge){target="_blank"} (documentation de Campaign v8)
+* [&#x200B; Activité Déduplication &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication){target="_blank"} (documentation de Campaign v8).
+* [Cas pratique : utilisation de la fonctionnalité de fusion de l’activité Déduplication &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/use-cases/data-management/deduplication-merge){target="_blank"} (documentation de Campaign v8)
 
 ## Adresses email d’index {#index-addresses}
 

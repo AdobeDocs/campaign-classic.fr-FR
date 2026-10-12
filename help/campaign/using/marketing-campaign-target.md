@@ -250,7 +250,7 @@ Cliquez sur **[!UICONTROL Suivant]** pour définir l&#39;ordre de tri (si besoin
 
 ![](assets/s_ncs_user_edit_op_target_param.png)
 
-Cette configuration équivaut à une activité de partage dans le workflow, ce qui vous permet de diviser la cible en sous-ensembles. La population témoin est l&#39;un de ces sous-ensembles. Pour plus d’informations](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/split){target="_blank"} consultez la [présente section) (documentation de Campaign v8).
+Cette configuration équivaut à une activité de partage dans le workflow, ce qui vous permet de diviser la cible en sous-ensembles. La population témoin est l&#39;un de ces sous-ensembles. Pour plus d’informations[&#128279;](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/split){target="_blank"} consultez la présente section) (documentation de Campaign v8).
 
 ### Utilisation d’une nouvelle population comme population témoin {#adding-a-population}
 
