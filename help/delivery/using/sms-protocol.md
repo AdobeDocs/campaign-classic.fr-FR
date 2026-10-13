@@ -181,7 +181,7 @@ Champs visibles dans un PDU`SUBMIT_SM` :
 
 * **registered_delivery** : indique si un SR est demandé ou non. Adobe Campaign définit toujours cet indicateur, à l&#39;exception des réponses automatiques. Pour les messages en plusieurs parties, l&#39;indicateur n&#39;est défini que pour la première partie. Toutes les versions ont le même comportement.
 
-* **data_coding** : indique le codage utilisé dans le champ de texte. Consultez la section [ Encodage du texte SMS ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms-channel#sms-text-encoding){target="_blank"} (documentation de Campaign v8) pour plus d’informations.
+* **data_coding** : indique le codage utilisé dans le champ de texte. Consultez la section [&#x200B; Encodage du texte SMS &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms-channel#sms-text-encoding){target="_blank"} (documentation de Campaign v8) pour plus d’informations.
 
 * **short_message** : texte du message. Si UDH est utilisé, il contient également l&#39;en-tête UHD.
 

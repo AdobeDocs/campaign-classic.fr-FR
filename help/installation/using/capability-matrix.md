@@ -46,7 +46,7 @@ Les différents modèles d&#39;hébergement sont présentés [dans cette section
 | Chiffrement/déchiffrement des données pour les transferts de fichiers | À la demande | Disponible | Disponible | [En savoir plus](../../platform/using/unzip-decrypt.md) |
 | Compression/décompression de fichiers | À la demande | Disponible | Disponible | [En savoir plus](../../platform/using/unzip-decrypt.md) |
 | Délégation du nom de domaine | À la demande | À la demande | Non disponible | [En savoir plus](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=fr) |
-| Installation de SpamAssassin | À la demande | Disponible | Disponible | [ En savoir plus ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/deliverability-management/spamassassin){target="_blank"} (documentation de Campaign v8) |
+| Installation de SpamAssassin | À la demande | Disponible | Disponible | [&#x200B; En savoir plus &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/deliverability-management/spamassassin){target="_blank"} (documentation de Campaign v8) |
 | Accès aux rapports de délivrabilité | Disponible | À la demande | Disponible | [En savoir plus](../../delivery/using/about-delivery-monitoring.md#deliverability-monitoring) |
 | Configuration de l&#39;identification LDAP | Non disponible | Disponible | Disponible | [En savoir plus](../../installation/using/connecting-through-ldap.md) |
 

@@ -56,7 +56,7 @@ Pour envoyer des notifications push dans Adobe Campaign, vous devez effectuer l
 
 * Créez un service d&#39;information de type **[!UICONTROL Application mobile]** pour l&#39;application mobile Neotrips. Reportez-vous à [cette section pour iOS](configuring-the-mobile-application.md#configuring-ios-service) et à [cette section pour Android](configuring-the-mobile-application-android.md#configuring-android-service).
 * Ajoutez, à ce service, les versions iOS et Android de l&#39;application.
-* Créez une diffusion pour [](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/rich-push/rich-push-ios){target="_blank"} (documentation de Campaign v8) et [Android](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/rich-push/rich-push-android){target="_blank"} (documentation de Campaign v8).
+* Créez une diffusion pour [&#128279;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/rich-push/rich-push-ios){target="_blank"} (documentation de Campaign v8) et [Android](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/rich-push/rich-push-android){target="_blank"} (documentation de Campaign v8).
 
 ![](assets/nmac_service_diagram.png)
 

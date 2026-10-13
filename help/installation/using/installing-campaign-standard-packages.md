@@ -283,7 +283,7 @@ Dans le cadre dʼune configuration de midsourcing, procédez comme suit :
 
 * Installez le package [!DNL LINE] sur les instances Marketing et MID.
 
-* Configurez le compte externe [!DNL LINE] sur lʼinstance mkt pour quʼil pointe vers lʼinstance MID en changeant le mode de diffusion. [ En savoir plus ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line#configure-line-external){target="_blank"} (documentation de Campaign v8)
+* Configurez le compte externe [!DNL LINE] sur lʼinstance mkt pour quʼil pointe vers lʼinstance MID en changeant le mode de diffusion. [&#x200B; En savoir plus &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line#configure-line-external){target="_blank"} (documentation de Campaign v8)
 
 * Configurez les informations dʼidentification [!DNL LINE] dans le compte externe sur l’instance MID.
 
