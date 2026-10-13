@@ -133,7 +133,7 @@ Le tableau ci-après répertorie tous les packages natifs de Campaign.
   </tr> 
   <tr> 
    <td> Canal LINE<br /> </td> 
-   <td> Envoie les diffusions à l’aide du canal LINE avec Adobe Campaign. Facultatif. Messagerie transactionnelle (package Message Center) obligatoire. <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line" target="_blank">En savoir plus</a> (documentation de Campaign v8) <br /> </td> 
+   <td> Envoie les diffusions à l’aide du canal LINE avec Adobe Campaign. Facultatif. Messagerie transactionnelle (package Message Center) obligatoire. <a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/other-channels/line" target="_blank">En savoir plus</a> (documentation de Campaign v8) <br /> </td> 
    <td> Tous<br /> </td> 
   </tr> 
   <tr> 
@@ -283,7 +283,7 @@ Dans le cadre dʼune configuration de midsourcing, procédez comme suit :
 
 * Installez le package [!DNL LINE] sur les instances Marketing et MID.
 
-* Configurez le compte externe [!DNL LINE] sur lʼinstance mkt pour quʼil pointe vers lʼinstance MID en changeant le mode de diffusion. [&#x200B; En savoir plus &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line#configure-line-external){target="_blank"} (documentation de Campaign v8)
+* Configurez le compte externe [!DNL LINE] sur lʼinstance mkt pour quʼil pointe vers lʼinstance MID en changeant le mode de diffusion. [&#x200B; En savoir plus &#x200B;](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/other-channels/line#configure-line-external){target="_blank"} (documentation de Campaign v8)
 
 * Configurez les informations dʼidentification [!DNL LINE] dans le compte externe sur l’instance MID.
 

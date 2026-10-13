@@ -68,7 +68,7 @@ Les étapes clés sont les suivantes :
 1. [Création de l’application mobile dans Campaign](#creating-android-app)
 1. [Étendre le schéma de l’application avec des données supplémentaires](#extend-subscription-schema)
 
-Vous pourrez ensuite [créer une notification Android enrichie](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/push/rich-push/rich-push-android){target="_blank"} (documentation de Campaign v8).
+Vous pourrez ensuite [créer une notification Android enrichie](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/push/rich-push/rich-push-android){target="_blank"} (documentation de Campaign v8).
 
 >[!IMPORTANT]
 >
@@ -135,7 +135,7 @@ Après avoir créé votre service, vous devez maintenant créer votre applicatio
 
    ![](assets/nmac_android.png)
 
-1. Assurez-vous que la même **[!UICONTROL clé d’intégration]** est définie dans Adobe Campaign et dans le code de l’application via le SDK.<!--For more on this, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation).-->
+1. Assurez-vous que la même **[!UICONTROL clé d’intégration]** est définie dans Adobe Campaign et dans le code de l’application via le SDK.<!--For more on this, refer to [this section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation).-->
 
    >[!NOTE]
    >
@@ -195,10 +195,10 @@ Vous trouverez ci-dessous les noms de payload FCM pour personnaliser davantage v
 
 Vous devez étendre la valeur **appsubscriptionRcp** pour définir de nouveaux champs supplémentaires afin de stocker les paramètres de l’application dans la base de données Campaign. Ces champs seront utilisés notamment pour la personnalisation. Pour ce faire :
 
-1. Créez une extension du schéma **[!UICONTROL Applications abonnées (nms:appsubscriptionRcp)]** et définissez les nouveaux champs. En savoir plus sur l’extension de schéma dans [cette page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentation de Campaign v8)
+1. Créez une extension du schéma **[!UICONTROL Applications abonnées (nms:appsubscriptionRcp)]** et définissez les nouveaux champs. En savoir plus sur l’extension de schéma dans [cette page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentation de Campaign v8)
 
 1. Définissez le mapping dans l’onglet **[!UICONTROL Paramètres d’abonnement]**.
 
    >[!CAUTION]
    >
-   >Assurez-vous que les noms des paramètres dans l’onglet **[!UICONTROL Paramètres d’abonnement]** sont les mêmes que dans le code de l’application mobile.<!--Refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation).-->
+   >Assurez-vous que les noms des paramètres dans l’onglet **[!UICONTROL Paramètres d’abonnement]** sont les mêmes que dans le code de l’application mobile.<!--Refer to [this section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation).-->

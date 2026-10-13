@@ -185,7 +185,7 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Classic.
   </tr> 
    <tr> 
    <td>Canal mobile - LINE v1</td>
-   <td>À compter de la version 18.4 de Campaign, le package LINE Connect n’est plus disponible. Adobe recommande d’utiliser le nouveau package Canal LINE pour le remplacer. <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line" target="_blank"> En savoir plus </a> (documentation de Campaign v8)</td>
+   <td>À compter de la version 18.4 de Campaign, le package LINE Connect n’est plus disponible. Adobe recommande d’utiliser le nouveau package Canal LINE pour le remplacer. <a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/other-channels/line" target="_blank"> En savoir plus </a> (documentation de Campaign v8)</td>
   </tr>
  </tbody> 
 </table>

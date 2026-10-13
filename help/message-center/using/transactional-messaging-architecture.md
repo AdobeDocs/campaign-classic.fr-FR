@@ -142,7 +142,7 @@ Create your delivery templates the way you would for an email campaign:
 * Add the offer to your transactional message template.
 * Check the preview, send a proof and publish the template.
 
-You also have to enable the unitary mode on your offer spaces. For more on this, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"} (Campaign v8 documentation).
+You also have to enable the unitary mode on your offer spaces. For more on this, refer to [this section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/interaction-settings/interaction-offer-spaces){target="_blank"} (Campaign v8 documentation).
 
 -->
 
@@ -201,7 +201,7 @@ Pour utiliser le module des messages transactionnels avec LINE, les éléments s
 
 * Installez le package **[!UICONTROL LINE Connect]** sur les deux instances.
 * Installez le package **[!UICONTROL Contrôle des messages transactionnels]** sur l’instance marketing et le package **[!UICONTROL Exécution des messages transactionnels]** sur l’instance d’exécution.
-* Créez un **compte externe** et **service** LINE sur les deux instances avec des noms identiques pour les synchroniser. Pour plus d’informations sur la création d’un compte externe et d’un service LINE, consultez [cette section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line#setting-up-line-channel){target="_blank"} (documentation de Campaign v8).
+* Créez un **compte externe** et **service** LINE sur les deux instances avec des noms identiques pour les synchroniser. Pour plus d’informations sur la création d’un compte externe et d’un service LINE, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/other-channels/line#setting-up-line-channel){target="_blank"} (documentation de Campaign v8).
 
 Depuis l&#39;**[!UICONTROL Explorateur]**, dans **[!UICONTROL Plateforme]** > **[!UICONTROL Compte externe]**, vous devez ensuite configurer les différents comptes externes sur les deux instances :
 
@@ -264,4 +264,4 @@ Depuis l&#39;**[!UICONTROL Explorateur]**, dans **[!UICONTROL Plateforme]** > **
    * Cliquez sur le bouton **[!UICONTROL Créer le workflow d&#39;archivage]**.
    * Cliquez sur le bouton **[!UICONTROL Créer le workflow de synchronisation des données]** pour créer le workflow de synchronisation des données LINE.
 
-1. Vous pouvez maintenant commencer à [créer des messages transactionnels](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"} (documentation de Campaign v8).
+1. Vous pouvez maintenant commencer à [créer des messages transactionnels](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"} (documentation de Campaign v8).

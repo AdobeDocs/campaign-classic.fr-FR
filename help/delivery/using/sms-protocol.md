@@ -53,9 +53,9 @@ ht-degree: 98%
 >Dans ce document, toutes les références au protocole, aux noms de champ et aux valeurs se rapportent à la [spécification SMPP 3.4](https://smpp.org/SMPP_v3_4_Issue1_2.pdf).
 >
 
-Dans le cadre de la transition de Campaign v7 vers v8, le jeu de documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur les paramètres du connecteur SMS, consultez la documentation [Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/config-sms/smpp-external-account){target=_blank}.
+Dans le cadre de la transition de Campaign v7 vers v8, le jeu de documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur les paramètres du connecteur SMS, consultez la documentation [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/sms/config-sms/smpp-external-account){target=_blank}.
 
-[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/config-sms/smpp-external-account){target=_blank}
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/sms/config-sms/smpp-external-account){target=_blank}
 
 ## Vue d&#39;ensemble {#overview}
 
@@ -181,7 +181,7 @@ Champs visibles dans un PDU`SUBMIT_SM` :
 
 * **registered_delivery** : indique si un SR est demandé ou non. Adobe Campaign définit toujours cet indicateur, à l&#39;exception des réponses automatiques. Pour les messages en plusieurs parties, l&#39;indicateur n&#39;est défini que pour la première partie. Toutes les versions ont le même comportement.
 
-* **data_coding** : indique le codage utilisé dans le champ de texte. Consultez la section [&#x200B; Encodage du texte SMS &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms-channel#sms-text-encoding){target="_blank"} (documentation de Campaign v8) pour plus d’informations.
+* **data_coding** : indique le codage utilisé dans le champ de texte. Consultez la section [&#x200B; Encodage du texte SMS &#x200B;](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/sms/sms-channel#sms-text-encoding){target="_blank"} (documentation de Campaign v8) pour plus d’informations.
 
 * **short_message** : texte du message. Si UDH est utilisé, il contient également l&#39;en-tête UHD.
 
@@ -243,7 +243,7 @@ Ce PDU acquitte le fait que la connexion est active.
 
 La plupart des fournisseurs exigent une limite de débit pour chaque connexion SMPP. Pour ce faire, il est possible d&#39;établir un certain nombre de SMS dans le compte externe. Notez que le ralentissement du débit se produit par connexion, le débit effectif total est la limite par connexion multipliée par le nombre total de connexions. Ceci est détaillé dans la section [Connexions simultanées](sms-protocol.md#connection-settings).
 
-Pour atteindre le débit maximal possible, vous devez affiner la fenêtre d&#39;émission maximale. La fenêtre d&#39;émission est le nombre de `SUBMIT_SM PDU` qui peuvent être envoyés sans attendre un `SUBMIT_SM_RESP`. Voir la section [Paramètre de fenêtre d’envoi](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/config-sms/smpp-external-account#smpp-delays){target="_blank"} (documentation de Campaign v8) pour plus d’informations.
+Pour atteindre le débit maximal possible, vous devez affiner la fenêtre d&#39;émission maximale. La fenêtre d&#39;émission est le nombre de `SUBMIT_SM PDU` qui peuvent être envoyés sans attendre un `SUBMIT_SM_RESP`. Voir la section [Paramètre de fenêtre d’envoi](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/sms/config-sms/smpp-external-account#smpp-delays){target="_blank"} (documentation de Campaign v8) pour plus d’informations.
 
 ### Gestion des SR et des erreurs (&quot;Annexe B&quot;) {#sr-error-management}
 

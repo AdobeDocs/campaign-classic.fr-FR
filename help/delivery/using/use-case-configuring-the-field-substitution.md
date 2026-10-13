@@ -85,7 +85,7 @@ Pour que cette modification du schéma de données soit visible dans le **Formul
 
    ![](assets/dlv_seeds_usecase_25.png)
 
-1. Paramétrez votre liste de diffusion et vos adresses de contrôle. Consultez la section [Identification des populations cibles](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-message){target="_blank"} (documentation de Campaign v8).
+1. Paramétrez votre liste de diffusion et vos adresses de contrôle. Consultez la section [Identification des populations cibles](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/create-message){target="_blank"} (documentation de Campaign v8).
 
    Dans cet exemple, vous choisissez comme population cible principale les clientes ou clients dont le **genre littéraire préféré** est la Science-Fiction.
 
