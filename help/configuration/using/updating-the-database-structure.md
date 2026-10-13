@@ -20,35 +20,19 @@ subfeature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 100%
+source-wordcount: '170'
+ht-degree: 58%
 ---
 # Mettre à jour la structure de la base de données{#updating-the-database-structure}
 
-
-
-Pour appliquer les modifications apportées dans les schémas, lancez l’assistant de mise à jour de la base de données. Cet assistant est accessible via **[!UICONTROL Outils > Avancé > Mise à jour de la structure de la base de données]**. Il vérifie que la structure physique de la base de données correspond bien à sa description logique et exécute les scripts de mise à jour SQL.
-
-![](assets/d_ncs_integration_schema_update.png)
-
-Les modules présents dans la base de données sont automatiquement renseignés et activés.
-
-![](assets/d_ncs_integration_schema_update_select.png)
+Pour appliquer les modifications apportées aux schémas, lancez l&#39;assistant de mise à jour de la base de données accessible via **[!UICONTROL Outils > Avancé > Mise à jour de la structure de la base de données]**. Dans Campaign Classic v7, l&#39;assistant propose également les options suivantes :
 
 Les options **[!UICONTROL Ajouter les procédures stockées]** et **[!UICONTROL Importer les données d&#39;initialisation]** permettent respectivement de lancer les scripts SQL initiaux et les packages de données (&quot;data package&quot;) exécutés lors de la création de la base de données.
 
 Il est possible d&#39;importer un jeu de données provenant d&#39;un package de données externe : Pour ce faire, sélectionnez **[!UICONTROL Importer un package]** et saisissez le fichier XML du package.
 
-Suivez les étapes et visualisez le script SQL de mise à jour de la base de données :
+Dans le cadre de la transition de Campaign v7 vers v8, le jeu de documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur l&#39;assistant de mise à jour de base de données, consultez la documentation [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/update-database-structure){target=_blank}.
 
-![](assets/d_ncs_integration_schema_update2.png)
-
->[!NOTE]
->
->Cette zone est en édition et peut être modifiée afin de supprimer ou ajouter du code SQL.
-
-Lancez ensuite la mise à jour de la base de données :
-
-![](assets/d_ncs_integration_schema_update3.png)
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/update-database-structure){target=_blank}

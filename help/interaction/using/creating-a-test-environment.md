@@ -20,10 +20,10 @@ feature_v2:
     internal-label: Interaction
   - id: ea08db70-4682-59a2-9408-9aedd9548e07
     internal-label: Offers
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 323ff901668895588a6e9587fa2a8b7804cf2fb4
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 100%
+source-wordcount: '150'
+ht-degree: 91%
 ---
 # Création d&#39;un environnement de test{#creating-a-test-environment}
 
@@ -33,7 +33,7 @@ Pour créer un environnement de test (mode sandbox), procédez comme suit :
 
 >[!IMPORTANT]
 >
->Utilisez exclusivement cette méthode de création d&#39;environnement pour les environnements de test. Dans tous les autres cas, utilisez l’assistant de mapping de ciblage. Voir à ce sujet la section [Créer un environnement d&#39;offres](../../interaction/using/live-design-environments.md#creating-an-offer-environment).
+>Utilisez exclusivement cette méthode de création d&#39;environnement pour les environnements de test. Dans tous les autres cas, utilisez l’assistant de mapping de ciblage. Voir à ce sujet la section [Créer un environnement d&#39;offres](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} (documentation de Campaign v8).
 
 1. Lancez l&#39;explorateur Adobe Campaign et positionnez-vous au niveau du noeud racine de l&#39;instance.
 1. Cliquez avec le bouton droit et ajoutez un **[!UICONTROL Dossier libre]** à l&#39;aide des menus contextuels.

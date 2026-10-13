@@ -35,10 +35,10 @@ subfeature_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 86e1df82ff7fe9142b0ba75b697d3262e8d7a9d5
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 100%
+source-wordcount: '636'
+ht-degree: 94%
 ---
 # Utilisation de modèles {#use-templates}
 
@@ -82,7 +82,7 @@ Pour configurer les adresses dans l’interface de Campaign, procédez comme sui
 
 ### Configurer une population témoin
 
-Une fois que la diffusion est envoyée, vous pouvez comparer le comportement des destinataires exclus à celui des destinataires qui ont reçu la diffusion. Vous pouvez ensuite mesurer l’efficacité de vos campagnes. En savoir plus sur les populations témoins dans [cette section](../../campaign/using/marketing-campaign-deliveries.md#defining-a-control-group).
+Une fois que la diffusion est envoyée, vous pouvez comparer le comportement des destinataires exclus à celui des destinataires qui ont reçu la diffusion. Vous pouvez ensuite mesurer l’efficacité de vos campagnes. En savoir plus sur les populations témoins [cette section](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-orchestration/marketing-campaign-target#add-a-control-group){target="_blank"} (documentation de Campaign v8).
 
 Pour configurer une population témoin, cliquez sur le lien **[!UICONTROL Pour]**. Dans la fenêtre **[!UICONTROL Choix de la cible]**, sélectionnez l’onglet **[!UICONTROL Population témoin]**. Vous pouvez extraire une partie de la cible, par exemple un échantillon aléatoire de 5 %.
 
@@ -96,4 +96,4 @@ Dans l’onglet **[!UICONTROL Typologie]** des propriétés du modèle, changez 
 
 Pour mieux contrôler le trafic sortant, par exemple, vous pouvez définir quelles adresses IP peuvent être utilisées en spécifiant une affinité par sous-domaine et en créant une typologie par affinité. Celles-ci sont définies dans le fichier de configuration de l’instance. Contactez votre administrateur ou administratrice Adobe Campaign.
 
-Pour plus d’informations sur les typologies, consultez [cette section](../../campaign-opt/using/about-campaign-typologies.md).
+Pour plus d’informations sur les typologies, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"} (documentation de Campaign v8).

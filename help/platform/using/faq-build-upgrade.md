@@ -40,7 +40,7 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 4bc1e76d129c6a6aa15b7e3915232043bd6f4286
 workflow-type: tm+mt
 source-wordcount: '2108'
 ht-degree: 100%
@@ -212,7 +212,7 @@ Oui. Le serveur est arrêté au cours d’une mise à niveau de façon à assure
 
 Si vous rencontrez des problèmes après une mise à niveau de build, contactez l’[assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html). Cette équipe planifie les dates de build et ouvre les tickets correspondants.
 
-En savoir plus dans [Options d&#39;aide et de support pour Campaign Classic](../../support.md)
+En savoir plus dans [Options d&#39;aide et de support pour Campaign Classic](../../campaign-classic-home.md)
 
 ## Liste de contrôle des mises à niveau de build {#check-list}
 
@@ -252,5 +252,5 @@ du contenu est présent et s&#39;affiche.
 
 * [Réalisation d’une mise à niveau de build](../../production/using/build-upgrade.md)
 * [Notes de mise à jour de Campaign Classic](../../rn/using/rn-overview.md)
-* [Options d&#39;aide et de support pour Campaign Classic](../../support.md)
+* [Options d&#39;aide et de support pour Campaign Classic](../../campaign-classic-home.md)
 * [Programme de mise à niveau annuelle](../../rn/using/rn-overview.md#yearly-upgrade)

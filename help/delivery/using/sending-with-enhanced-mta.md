@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 586c6688e2abd3b6e55389bd1fa219d2c596d07d
 workflow-type: tm+mt
-source-wordcount: '1455'
-ht-degree: 100%
+source-wordcount: '1473'
+ht-degree: 98%
 ---
 # Envoi d&#39;emails avec le MTA amélioré {#sending-with-enhanced-mta}
 
@@ -155,7 +155,7 @@ Une diffusion ne peut pas être arrêtée une fois qu’elle a été transféré
 
 Le graphique du débit des diffusions de Campaign n&#39;affiche plus le débit vers vos destinataires d&#39;emails. Il indique maintenant la vitesse de débit pour le relais de vos messages entre Campaign et le MTA amélioré.
 
-Pour plus d’informations sur le débit de diffusion, consultez [cette section](../../reporting/using/global-reports.md#delivery-throughput).
+Pour plus d’informations sur le débit des diffusions, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-throughput){target="_blank"} (documentation de Campaign v8).
 
 ### Reprises
 

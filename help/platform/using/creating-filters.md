@@ -26,7 +26,7 @@ subfeature_v2:
     internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
     internal-label: Access management
-source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
+source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
 workflow-type: tm+mt
 source-wordcount: '135'
 ht-degree: 100%
@@ -249,7 +249,7 @@ Select a filter to display its definition and to access a preview of the filtere
 
 >[!NOTE]
 >
->For a detailed example of predefined filter creation, refer to [Use case](../../platform/using/use-case.md).
+>For a detailed example of predefined filter creation, refer to [Use case](creating-filters.md).
 
 The predefined filters are:
 

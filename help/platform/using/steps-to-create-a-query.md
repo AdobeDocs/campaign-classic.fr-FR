@@ -31,7 +31,7 @@ subfeature_v2:
     internal-label: Query Editor
   - id: efa38731-2723-4334-8d8b-a778af834835
     internal-label: Access management
-source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
+source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 93%
@@ -114,7 +114,7 @@ Once you select the **[!UICONTROL Filtering conditions]** you will access the **
 
   >[!NOTE]
   >
-  >For more on creating and using filters, refer to [Filtering options](../../platform/using/filtering-options.md).
+  >For more on creating and using filters, refer to [Filtering options](creating-filters.md).
 
 As shown in the following example, to recover all English-speaking recipients, select: "recipient language **equal to** EN".
 

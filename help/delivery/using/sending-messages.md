@@ -34,7 +34,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 912ece3122704a20ea9f7f69163a64d71f9a13c5
 workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%
@@ -58,8 +58,8 @@ Une fois votre email créé et configuré, vous pouvez l’envoyer à la cible p
 
 Les sections suivantes décrivent en détail les paramètres et les configurations spécifiques à la diffusion d’emails :
 <!--
-* [Generating the mirror page](generating-mirror-page.md)
-* [Email BCC](email-bcc.md)
+* [Generating the mirror page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/emails/mirror-page){target="_blank"} (Campaign v8 documentation)
+* [Email BCC](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/emails/email-bcc){target="_blank"} (Campaign v8 documentation)
 -->
 * [Paramètres de l’e-mail](email-parameters.md)
 * [Envoi d’e-mails avec le MTA amélioré](sending-with-enhanced-mta.md)

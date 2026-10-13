@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
+source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 94%
@@ -176,7 +176,7 @@ Les expressions suivantes sont recherchées (sensibilité à la casse) :
    <td> Erreur<br /> </td> 
    <td> Ce type de déploiement n’est plus pris en charge. Le type de déploiement connecteur Microsoft CRM On-premise et Office 365 est désormais obsolète. 
    </br>Si vous utilisez l’un de ces types de déploiement obsolètes dans un compte externe, ce compte externe doit être supprimé et vous devez par la suite exécuter la commande <b>postupgrade</b>. 
-   </br>Pour passer au déploiement des API Web, voir la section <a href="../../platform/using/crm-ms-dynamics.md#configure-acc-for-microsoft" target="_blank">Applications Web</a>.<br /> </td>
+   </br>Pour passer au déploiement des API Web, voir la section <a href="../../platform/using/crm-connectors.md">Applications Web</a>.<br /> </td>
   </tr> 
   <tr> 
    <td> CRM v1(mscrmWorkflow/sfdcWorkflow)<br /> </td> 

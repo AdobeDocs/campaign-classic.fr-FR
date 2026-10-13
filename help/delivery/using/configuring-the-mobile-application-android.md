@@ -52,10 +52,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 96%
+source-wordcount: '1040'
+ht-degree: 94%
 ---
 # Étapes de configuration pour Android
 
@@ -195,7 +195,7 @@ Vous trouverez ci-dessous les noms de payload FCM pour personnaliser davantage v
 
 Vous devez étendre la valeur **appsubscriptionRcp** pour définir de nouveaux champs supplémentaires afin de stocker les paramètres de l’application dans la base de données Campaign. Ces champs seront utilisés notamment pour la personnalisation. Pour ce faire :
 
-1. Créez une extension du schéma **[!UICONTROL Applications abonnées (nms:appsubscriptionRcp)]** et définissez les nouveaux champs. En savoir plus sur l’extension de schéma dans [cette page](../../configuration/using/about-schema-edition.md)
+1. Créez une extension du schéma **[!UICONTROL Applications abonnées (nms:appsubscriptionRcp)]** et définissez les nouveaux champs. En savoir plus sur l’extension de schéma dans [cette page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentation de Campaign v8)
 
 1. Définissez le mapping dans l’onglet **[!UICONTROL Paramètres d’abonnement]**.
 

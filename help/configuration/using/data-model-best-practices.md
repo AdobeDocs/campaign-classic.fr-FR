@@ -45,18 +45,18 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '4095'
-ht-degree: 100%
+source-wordcount: '4135'
+ht-degree: 97%
 ---
 # Bonnes pratiques relatives au modèle de données{#data-model-best-practices}
 
 Ce document présente les principales recommandations lors de la conception de votre modèle de données Adobe Campaign.
 
-Pour une meilleure compréhension des tables intégrées de Campaign et de leur interaction, reportez-vous à [cette section](../../configuration/using/about-data-model.md).
+Pour une meilleure compréhension des tables intégrées de Campaign et de leur interaction, reportez-vous à [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/datamodel){target="_blank"} (documentation de Campaign v8) .
 
-Pour commencer à utiliser les schémas de Campaign, lisez cette [documentation](../../configuration/using/about-schema-reference.md). Découvrez comment configurer des schémas d’extension afin d’étendre le modèle de données conceptuel de la base de données Adobe Campaign en consultant [ce document](../../configuration/using/about-schema-edition.md).
+Pour commencer à utiliser les schémas de Campaign, lisez cette [documentation](../../configuration/using/about-schema-reference.md). Découvrez comment configurer des schémas d’extension afin d’étendre le modèle de données conceptuel de la base de données Adobe Campaign dans [ce document](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentation de Campaign v8).
 
 ## Vue d&#39;ensemble {#overview}
 
@@ -82,7 +82,7 @@ Le modèle de données par défaut d’Adobe Campaign est présenté dans ce [d
 
 >[!NOTE]
 >
->Adobe Campaign Classic permet de créer une table client personnalisée. Cependant, dans la plupart des cas, il est recommandé d’utiliser la [table des destinataires](../../configuration/using/about-data-model.md#default-recipient-table) standard qui contient des tables et des fonctionnalités supplémentaires préconfigurées.
+>Adobe Campaign Classic permet de créer une table client personnalisée. Cependant, dans la plupart des cas, il est recommandé d’utiliser la [table de destinataires](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} standard (documentation de Campaign v8), qui contient des tables et des fonctionnalités supplémentaires préconfigurées.
 
 ### Données pour Adobe Campaign {#data-for-campaign}
 

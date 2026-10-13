@@ -28,10 +28,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 586c6688e2abd3b6e55389bd1fa219d2c596d07d
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 100%
+source-wordcount: '323'
+ht-degree: 65%
 ---
 # À propos des rapports natifs de Campaign{#about-campaign-built-in-reports}
 
@@ -49,34 +49,14 @@ Adobe Campaign propose plusieurs types de rapports, accessibles depuis la conso
 
 Les types de rapports disponibles sont les suivants :
 
-* Rapports concernant l&#39;ensemble de la plateforme, voir la section [Rapports globaux](../../reporting/using/global-reports.md).
-* Rapports de diffusion, voir la section [Rapports de diffusion](../../reporting/using/delivery-reports.md).
-* Rapports cumulés, voir la section [Rapports cumulés](../../reporting/using/cumulative-reports.md).
+* Pour obtenir des rapports sur l’ensemble de la plateforme, voir [Rapports globaux](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports){target="_blank"} (documentation de Campaign v8).
+* Les rapports de diffusion, voir [Rapports de diffusion](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports){target="_blank"} (documentation de Campaign v8).
+* Les rapports cumulés, voir [Rapports cumulés](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports){target="_blank"} (documentation de Campaign v8).
 
 Vous pouvez accéder aux rapports à partir de la page d’accueil de la console cliente, du tableau de bord des rapports ou de la liste des diffusions. Le mode d’affichage d’un rapport dépend de son contexte. La liste des principaux rapports est disponible sur la page d’accueil et permet d’accéder rapidement aux données de diffusion. Cette liste peut être modifiée en fonction de vos besoins. Pour plus d’informations, consultez [cette section](../../reporting/using/about-reports-creation-in-campaign.md).
 
-Pour accéder aux rapports natifs de Campaign :
+Dans le cadre de la transition de Campaign v7 vers v8, le jeu de documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour savoir comment accéder aux rapports intégrés et les utiliser, reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/ac-reports/built-in-reports){target=_blank}.
 
-1. Sélectionnez l&#39;onglet **[!UICONTROL Rapports]** de l&#39;interface Adobe Campaign.
-
-   ![](assets/reporting_access_from_home.png)
-
-1. Utilisez les champs de recherche pour filtrer les rapports affichés.
-
-1. Cliquez ensuite sur le rapport souhaité pour l&#39;afficher.
-
-   ![](assets/reporting_edit_a_report.png)
-
-1. Cliquez sur le lien **[!UICONTROL Retour]** situé en haut de l&#39;écran pour revenir à la liste des rapports.
-
-   ![](assets/reporting_back_button.png)
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/ac-reports/built-in-reports){target=_blank}
 
 Les autres actions possibles sur un rapport en cours d&#39;édition sont présentées dans [cette page](../../reporting/using/actions-on-reports.md).
-
-Les rapports spécifiques à une opération ou à une diffusion sont accessibles à partir de leur tableau de bord respectif.
-
-![](assets/reporting_on_a_delivery.png)
-
-Le principe est le même pour les listes, les services, les offres, etc., comme dans l&#39;exemple ci-dessous :
-
-![](assets/reporting_on_an_offer.png)

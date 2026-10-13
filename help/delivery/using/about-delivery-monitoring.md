@@ -45,10 +45,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 586c6688e2abd3b6e55389bd1fa219d2c596d07d
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 98%
+source-wordcount: '1023'
+ht-degree: 89%
 ---
 # Prise en main de la surveillance des diffusions {#about-delivery-monitoring}
 
@@ -99,18 +99,18 @@ Dans Adobe Campaign Classic, la **su de la délivrabilité** est gérée par l
 
 **Pour les installations on-premise** vous pouvez utiliser les outils de surveillance suivants :
 
-* Rapport **[!UICONTROL Débit de diffusion]**, qui donne une vue d’ensemble du débit global de la plateforme pour une période donnée. Voir à ce propos [cette section](../../reporting/using/global-reports.md#delivery-throughput).
+* Rapport **[!UICONTROL Débit de diffusion]**, qui donne une vue d’ensemble du débit global de la plateforme pour une période donnée. Pour plus d’informations à ce sujet, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-throughput){target="_blank"} (documentation de Campaign v8).
 * Chaque diffusion génère un rapport de statistiques de diffusion pour les différents fournisseurs d’accès à internet (FAI). Il présente certaines mesures de réputation et de qualité des données qui peuvent avoir un impact sur votre délivrabilité, notamment les chiffres suivants :
   * **[!UICONTROL Rebonds définitifs]**, qui indiquent la qualité des données. Ce chiffre doit être inférieur à 2 %.
   * **[!UICONTROL Rebonds temporaires]**, qui indiquent la réputation. Cette valeur ne doit pas être supérieure à 10 % pour un fournisseur d’accès à internet donné.
 
-  Pour plus d&#39;informations, consultez la section [Statistiques de diffusion](../../reporting/using/global-reports.md#delivery-statistics).
+  Pour plus d’informations à ce sujet, consultez la section [Statistiques de diffusion](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-statistics){target="_blank"} (documentation de Campaign v8) .
 
 #### Instructions de surveillance {#monitoring-guidelines}
 
 **Pour les installations on-premise**, voici quelques instructions supplémentaires pour l de la délivrabilité :
 
-* Vérifiez régulièrement le [débit des diffusions](../../reporting/using/global-reports.md#delivery-throughput) pour l’ensemble de la plateforme afin de contrôler qu’il correspond à la configuration d’origine.
+* Vérifiez régulièrement la [débit de diffusion](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-throughput){target="_blank"} (documentation de Campaign v8) de l’ensemble de la plateforme pour vérifier si elle est cohérente avec la configuration d’origine.
 * Vérifiez que les [reprises](delivery-failures-quarantine.md#retries-after-a-delivery-temporary-failure) sont paramétrées correctement (30 minutes pour la période des reprises et plus de 20 reprises) dans les modèles de diffusion.
 * Vérifiez régulièrement que la boîte des [emails rebonds](delivery-failures-quarantine.md#bounce-mail-management) est accessible et que le compte n’arrive pas à expiration.
 * Vérifiez chaque débit de diffusion, accessible à partir du [tableau de bord de diffusion](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-dashboard){target="_blank"}, pour vous assurer qu’il correspond à la validité du contenu de la diffusion (par exemple, les ventes Flash doivent être diffusées en quelques minutes et non en plusieurs jours).

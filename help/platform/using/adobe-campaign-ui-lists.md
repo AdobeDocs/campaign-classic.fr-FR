@@ -30,7 +30,7 @@ subfeature_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
 workflow-type: tm+mt
 source-wordcount: '78'
 ht-degree: 100%
@@ -113,7 +113,7 @@ Another way to add columns, for example if you want to display data which is not
    >
    >Fields are identified by specific icons: SQL fields, linked tables, calculated fields, etc. For each field selected, the description is displayed under the list of available fields. [Learn more](#configuring-lists).  
    >
-   >You can also sort and filter data. See [this section](../../platform/using/filtering-options.md).
+   >You can also sort and filter data. See [this section](creating-filters.md).
 
 1. Repeat for each column to be displayed.
 1. Use the arrows to modify the **display order**. The highest column will be on the left in the list of records.

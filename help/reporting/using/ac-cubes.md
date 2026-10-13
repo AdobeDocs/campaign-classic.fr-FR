@@ -27,10 +27,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 586c6688e2abd3b6e55389bd1fa219d2c596d07d
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 100%
+source-wordcount: '398'
+ht-degree: 90%
 ---
 # Prise en main des cubes{#about-cubes}
 
@@ -66,4 +66,6 @@ Le module Marketing Analytics de Campaign vous permet de :
 1. Construire des requêtes à partir des données calculées et agrégées dans un cube.
 1. Identifier des populations et les référencer dans des listes.
 
-Découvrez comment créer et utiliser des modèles de diffusion dans la [documentation d’Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes.html?lang=fr){target="_blank"}.
+Dans le cadre de la transition de Campaign v7 vers v8, le jeu de documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour savoir comment créer et utiliser des cubes, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes){target=_blank}.
+
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/cubes/gs-cubes){target=_blank}

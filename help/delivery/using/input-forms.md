@@ -38,16 +38,16 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 100%
+source-wordcount: '894'
+ht-degree: 89%
 ---
 # Formulaires de saisie{#input-forms}
 
 Vous trouverez ci-après quelques principes généraux sur l&#39;utilisation des formulaires de saisie dans Adobe Campaign.
 
-Les formulaires sont présentés dans [cette section](../../configuration/using/identifying-a-form.md).
+Les Forms sont détaillées dans [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentation de Campaign v8).
 
 ## Structure d&#39;un formulaire {#form-structure}
 
@@ -105,7 +105,7 @@ Par défaut, chaque champ est affiché sur une seule ligne et occupe tout l&#39;
 
 La disposition des contrôles entre eux ressemble à celle utilisée dans les tableaux HTML, avec la possibilité de diviser un contrôle en plusieurs colonnes, d’entrelacer des éléments ou de spécifier l’occupation de l’espace disponible. N’oubliez toutefois pas que la mise en forme autorise uniquement la répartition des proportions ; vous ne pouvez pas spécifier des dimensions fixes pour un objet.
 
-Pour plus d’informations, consultez [cette section](../../configuration/using/form-structure.md#formatting).
+Pour en savoir plus à ce sujet, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms#formatting){target="_blank"} (documentation de Campaign v8).
 
 ## Contrôles de type liste {#list-type-controls}
 
@@ -214,7 +214,7 @@ Utilisez les boutons de la barre d&#39;outils pour ajouter ou supprimer des él�
 
 Les conteneurs permettent de regrouper un ensemble de contrôles. Ils existent via l’élément **`<container>`**. Ils ont déjà été utilisés pour mettre en forme les contrôles dans plusieurs colonnes et pour contrôler la liste d’onglets.
 
-Les containers et leur utilisation dans les formulaires de saisie sont présentés dans [cette section](../../configuration/using/form-structure.md#containers).
+Pour plus d’informations sur les conteneurs et leur utilisation dans les formulaires de saisie, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"} (documentation de Campaign v8).
 
 ## Editer les formulaires {#editing-forms}
 
@@ -226,4 +226,4 @@ L&#39;onglet **[!UICONTROL Aperçu]** permet de visualiser le formulaire de sais
 
 ![](assets/d_ncs_content_form13.png)
 
-En savoir plus sur la [modification des formulaires](../../configuration/using/editing-forms.md) et la [structure des formulaires](../../configuration/using/form-structure.md).
+En savoir plus sur la [modification des formulaires](../../configuration/using/editing-forms.md) et la [structure des formulaires](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentation de Campaign v8).

@@ -48,10 +48,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 86e1df82ff7fe9142b0ba75b697d3262e8d7a9d5
 workflow-type: tm+mt
-source-wordcount: '1800'
-ht-degree: 100%
+source-wordcount: '1827'
+ht-degree: 98%
 ---
 # Validation de la diffusion {#validating-the-delivery}
 
@@ -232,7 +232,7 @@ Vous pouvez visualiser et éditer les règles de validation, leur contenu, leur 
 
 Vous pouvez créer des règles et définir de nouvelles typologies à partir de ce nœud. Ces tâches sont toutefois réservées aux utilisateurs et utilisatrices experts qui connaissent JavaScript.
 
-Pour plus d’informations sur les règles de typologie, consultez [cette page ](../../campaign-opt/using/about-campaign-typologies.md).
+Pour plus d’informations sur les règles de typologie, consultez [cette page](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-optimization/campaign-typologies){target="_blank"} (documentation de Campaign v8).
 
 Vous pouvez également éditer la typologie courante en cliquant sur l’icône **[!UICONTROL Editer le lien]** situé à droite du champ **[!UICONTROL Typologie]**.
 
@@ -244,7 +244,7 @@ L’onglet **[!UICONTROL Règle]** donne la liste des règles de typologie à ap
 
 >[!NOTE]
 >
->Les typologies de type **[!UICONTROL Arbitrage]** sont utilisées dans le cadre de la gestion de la pression commerciale. Pour plus d’informations, consultez [cette section](../../mrm/using/about-marketing-resource-management.md).
+>Les typologies de type **[!UICONTROL Arbitrage]** sont utilisées dans le cadre de la gestion de la pression commerciale. Pour en savoir plus à ce sujet, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/automation/mrm/about-marketing-resource-management){target="_blank"} (documentation de Campaign v8).
 
 ## Changer le mode de validation {#changing-the-approval-mode}
 

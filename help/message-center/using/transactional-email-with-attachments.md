@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 100%
+source-wordcount: '703'
+ht-degree: 96%
 ---
 # Cas d&#39;utilisation : envoi d&#39;e-mails transactionnels avec des pièces jointes {#transactional-email-with-attachments}
 
@@ -87,7 +87,7 @@ Pour ajouter à la volée une pièce jointe à un message transactionnel, procé
 
 1. Vous pouvez envoyer des emails via un déclencheur de message SOAP. Un appel SOAP contient un paramètre d’URL (attachmentURL).
 
-   Pour plus d&#39;informations sur les requêtes SOAP, voir la section [Description des événements](../../message-center/using/event-description.md).
+   Pour plus d’informations sur les requêtes SOAP, voir [Description des événements](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/real-time/event/event-description){target="_blank"} (documentation de Campaign v8).
 
 1. Lors de la conception de votre email, cliquez sur **[!UICONTROL Pièce jointe]**.
 

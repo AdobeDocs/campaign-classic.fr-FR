@@ -38,7 +38,7 @@ subfeature_v2:
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 100%
@@ -69,9 +69,9 @@ Supported CRM and versions are detailed in Campaign [Compatibility matrix](../..
 
 ### Implementation steps {#crm-implementation-steps}
 
-Learn step-by-step procedure to connect Campaign and Microsoft Dynamics [in this section](../../platform/using/crm-ms-dynamics.md)
+Learn step-by-step procedure to connect Campaign and Microsoft Dynamics [in this section](crm-connectors.md)
 
 
-Learn step-by-step procedure to connect Campaign and Salesforce [in this section](../../platform/using/crm-sfdc.md)
+Learn step-by-step procedure to connect Campaign and Salesforce [in this section](crm-connectors.md)
 
 -->

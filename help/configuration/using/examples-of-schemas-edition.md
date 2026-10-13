@@ -26,10 +26,10 @@ subfeature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 100%
+source-wordcount: '702'
+ht-degree: 97%
 ---
 # Exemples dʼédition de schémas{#examples-of-schemas-edition}
 
@@ -355,7 +355,7 @@ L&#39;interface utilisateur n&#39;affiche pas de lien mais un champ. Lorsque l�
 
 * Découvrez comment **utiliser les énumérations** dans la [documentation d’Adobe Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/enumerations){target=_blank}.
 
-* [Prise en main des schémas de Campaign](../../configuration/using/about-schema-edition.md)
+* [Prise en main des schémas de Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentation de Campaign v8)
 
 * [Mettre à jour la structure de la base de données](../../configuration/using/updating-the-database-structure.md)
 
