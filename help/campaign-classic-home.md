@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 72%
+source-wordcount: '707'
+ht-degree: 61%
 ---
 # Documentation de Campaign Classic v7 {#campaign-classic-documentation}
 
@@ -104,7 +104,7 @@ Certaines modifications importantes apportées au service Android FCM (Firebas
     <td>
       <img src="assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Commencer</strong><br/><a href="platform/using/adobe-campaign-workspace.md">Interface d’utilisation</a> – <a href="platform/using/launching-adobe-campaign.md">Se connecter à Campaign</a> – <a href="platform/using/get-started-data-import-export.md">Importer et exporter des données</a> – <a href="platform/using/access-management.md">Autorisations</a>
+      <strong>Prise en main</strong><br/><a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui" target="_blank">Interface utilisateur</a> (documentation de Campaign v8) - <a href="platform/using/launching-adobe-campaign.md">Se connecter à Campaign</a> - <a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/import" target="_blank">Importer et exporter des données</a> (documentation de Campaign v8) - <a href="platform/using/access-management.md">Autorisations</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-experience.svg" width="35px">
@@ -114,14 +114,14 @@ Certaines modifications importantes apportées au service Android FCM (Firebas
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
     <br/>
-      <strong>Envoyer des messages</strong><br/><a href="delivery/using/communication-channels.md">Canaux de communication</a> - <a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/create-message" target="_blank">Envoyer des BAT</a> (documentation de Campaign v8) - <a href="delivery/using/get-started-a-b-testing.md">Tests A/B</a> - <a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">Suivi des messages</a> - <a href="delivery/using/about-deliverability.md">Délivrabilité</a> - <a href="message-center/using/about-transactional-messaging.md">Messages transactionnels</a>
+      <strong>Envoyer des messages</strong><br/><a href="delivery/using/communication-channels.md">Canaux de communication</a> - <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-message" target="_blank">Envoyer des BAT</a> (documentation de Campaign v8) - <a href="delivery/using/get-started-a-b-testing.md">Tests A/B</a> - <a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">Suivi des messages</a> - <a href="delivery/using/about-deliverability.md">Délivrabilité</a> - <a href="message-center/using/about-transactional-messaging.md">Messages transactionnels</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="assets/do-not-localize/icon_profile-audience.svg" width="35px">
       <br/>
-      <strong>Profils et audiences</strong><br/> <a href="platform/using/creating-and-managing-lists.md">Créer des listes</a> – <a href="delivery/using/about-services-and-subscriptions.md">Services et abonnements</a> – <a href="platform/using/privacy-management.md">Confidentialité et consentement</a>
+      <strong>Profils et audiences</strong><br/> <a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-audiences/create-audiences" target="_blank">Créer des listes</a> (documentation de Campaign v8) - <a href="delivery/using/about-services-and-subscriptions.md">Services et abonnements</a> - <a href="platform/using/privacy-management.md">Confidentialité et consentement</a>
     </td>
     <td>
       <img src="assets/do-not-localize/icon-configure.svg" width="35px">

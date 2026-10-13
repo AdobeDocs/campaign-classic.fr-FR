@@ -19,10 +19,10 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 100%
+source-wordcount: '914'
+ht-degree: 98%
 ---
 # Gestion des réponses{#managing-answers}
 
@@ -108,7 +108,7 @@ Pour chaque formulaire, les réponses fournies peuvent être réutilisées dans 
 
 >[!NOTE]
 >
->Pour les autres types de champs, la syntaxe à utiliser est présentée dans [cette section](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign).
+>Pour les autres types de champs, la syntaxe est détaillée dans [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"} (documentation de Campaign v8).
 
 ### Paramètres de stockage {#storage-settings}
 

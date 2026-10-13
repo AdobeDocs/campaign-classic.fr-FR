@@ -28,10 +28,10 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '1266'
-ht-degree: 100%
+source-wordcount: '1280'
+ht-degree: 99%
 ---
 # Modifier le contenu{#editing-content}
 
@@ -47,7 +47,7 @@ Pour ajouter une condition de visibilité, sélectionnez un bloc et saisissez la
 
 >[!NOTE]
 >
->L&#39;édition d&#39;expression avancée est présentée dans [cette page](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign).
+>L’édition avancée d’expressions est présentée sur [cette page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"} (documentation de Campaign v8).
 
 ![](assets/dce_popup_visibilitycondition.png)
 
