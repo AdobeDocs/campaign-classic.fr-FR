@@ -46,7 +46,7 @@ Vous pouvez suivre l&#39;exécution de vos traitements d&#39;import et d&#39;exp
 ![](assets/s_ncs_user_export_list_and_details.png)
 
 * L&#39;onglet **[!UICONTROL Journal]** permet de consulter les messages de logs relatifs à l&#39;exécution.
-* L’onglet **[!UICONTROL Rejets]** contient les enregistrements rejetés. Voir [cette section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import#behavior-in-the-event-of-an-error){target="_blank"} (documentation de Campaign v8).
+* L’onglet **[!UICONTROL Rejets]** contient les enregistrements rejetés. Voir [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/import#behavior-in-the-event-of-an-error){target="_blank"} (documentation de Campaign v8).
 
 Dans l&#39;onglet **[!UICONTROL Général]**, le champ **[!UICONTROL Statut]** indique le statut actuel d&#39;un traitement.
 

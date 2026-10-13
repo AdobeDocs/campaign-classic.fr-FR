@@ -74,9 +74,9 @@ Pour en savoir plus sur les profils, leur création et leur modification, consul
 
 Découvrez comment modifier, gérer et ajouter des profils dans la **documentation de Campaign v8** :
 
-* [Ajouter des profils](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/create-profiles){target=_blank} : principales étapes pour ajouter et créer des profils.
+* [Ajouter des profils](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/add-profiles/create-profiles){target=_blank} : principales étapes pour ajouter et créer des profils.
 * [Modifier les profils](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/view-profiles){target=_blank} : affichez et modifiez les profils existants.
-* [Gérer les profils](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/folders-and-views){target=_blank} : accédez à vos profils existants et gérez-les à l’aide de l’outil de gestion des dossiers.
+* [Gérer les profils](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/folders-and-views){target=_blank} : accédez à vos profils existants et gérez-les à l’aide de l’outil de gestion des dossiers.
 
 >[!TAB Importer/exporter des profils]
 
@@ -100,7 +100,7 @@ Profiles can be identified based on storage space. This means that a profile can
 
 Delivery recipients are stored in the database as profiles containing the information linked to them: last name, first name, address, subscriptions, deliveries, etc. When you create campaigns, you can define the target of the deliveries to a selection of the profiles in the base according to simple or advanced criteria.
 
-You can also create campaigns aimed at recipients whose profiles are stored not in the database, but in files. These are known as "external" deliveries. For more information about this type of delivery, refer to [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-message#selecting-external-recipients){target="_blank"} (Campaign v8 documentation).
+You can also create campaigns aimed at recipients whose profiles are stored not in the database, but in files. These are known as "external" deliveries. For more information about this type of delivery, refer to [this page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/create-message#selecting-external-recipients){target="_blank"} (Campaign v8 documentation).
 
 The main methods for creating recipient profiles are as follows:
 
@@ -110,7 +110,7 @@ The main methods for creating recipient profiles are as follows:
 
 >[!NOTE]
 >
->To find out how files and web forms are imported, refer to [Generic imports and exports](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import){target="_blank"} (Campaign v8 documentation).
+>To find out how files and web forms are imported, refer to [Generic imports and exports](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/import){target="_blank"} (Campaign v8 documentation).
 
 ## Profiles and targets {#profiles-and-targets}
 
@@ -120,11 +120,11 @@ The **[!UICONTROL Profiles and targets]** link lets you display recipients store
 
 It also gives you access to:
 
-* lists - [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-audiences){target="_blank"} (Campaign v8 documentation)
+* lists - [Learn more](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-audiences/create-audiences){target="_blank"} (Campaign v8 documentation)
 * subscription services - [Learn more](../../delivery/using/managing-subscriptions.md)
 * web applications - [Learn more](../../web/using/about-web-applications.md)
-* imports and exports (jobs) - [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/import){target="_blank"} (Campaign v8 documentation)
-* targeting workflows - [Learn more](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/build-a-workflow){target="_blank"} (Campaign v8 documentation)
+* imports and exports (jobs) - [Learn more](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/import){target="_blank"} (Campaign v8 documentation)
+* targeting workflows - [Learn more](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/introduction/build-a-workflow){target="_blank"} (Campaign v8 documentation)
 
 The recipients page lets you perform frequent operations on profiles: edits, updates, adds, deletions, sorts.
 
@@ -132,21 +132,21 @@ For more advanced profile manipulations, you need to edit the Adobe Campaign tre
 
 By default, recipients are stored in the **[!UICONTROL Profiles and Targets > Recipients]** node of the tree. You can create recipients from this view, as well as:
 
-* sort and filter the profiles of the database - [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-filters){target="_blank"} (Campaign v8 documentation)
+* sort and filter the profiles of the database - [Learn more](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-filters){target="_blank"} (Campaign v8 documentation)
 * move, copy or delete profiles from the database - [Learn more](about-profiles.md),
 * update profiles - [Learn more](../../platform/using/updating-data.md)
 * export recipients - [Learn more](about-profiles.md)
-* create recipient groups - [Learn more](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/create-audiences/create-audiences){target="_blank"} (Campaign v8 documentation)
+* create recipient groups - [Learn more](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-audiences/create-audiences){target="_blank"} (Campaign v8 documentation)
 
 To access advanced functionalities and configurations, you need to click the **[!UICONTROL Explorer]** icon. 
 
 ![](assets/d_ncs_user_interface01.png)
 
-The general layout of the Adobe Campaign explorer is presented in [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} (Campaign v8 documentation).
+The general layout of the Adobe Campaign explorer is presented in [this page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} (Campaign v8 documentation).
 
 >[!NOTE]
 >
->You can also display an advanced view of this list from the Adobe Campaign tree by clicking the **[!UICONTROL Profiles and targets > Recipients]** link. The list display can be configured to suit your needs. You can add or delete columns, define column order, sort data, etc. List display configuration is described in [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/ui-settings){target="_blank"} (Campaign v8 documentation).  
+>You can also display an advanced view of this list from the Adobe Campaign tree by clicking the **[!UICONTROL Profiles and targets > Recipients]** link. The list display can be configured to suit your needs. You can add or delete columns, define column order, sort data, etc. List display configuration is described in [this page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/ui-settings){target="_blank"} (Campaign v8 documentation).  
 >
 >You can also define recipient views. For further information about this functionality, refer to [this section](access-management.md).
 
@@ -154,9 +154,9 @@ The general layout of the Adobe Campaign explorer is presented in [this page](ht
 
 An active profile is a profile that customer has attempted to communicate with during the past 12 months via any channel.
 
-According to your contract, each of your Campaign instances is provisioned with a specific amount of active profiles that are counted for billing purposes. Please refer to your latest contract for reference on number of purchased active profiles. Learn more in [Adobe Campaign product description](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+According to your contract, each of your Campaign instances is provisioned with a specific amount of active profiles that are counted for billing purposes. Please refer to your latest contract for reference on number of purchased active profiles. Learn more in [Adobe Campaign product description](https://helpx.adobe.com/fr/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
-You can monitor the number of active profiles on your instance directly from Campaign Control Panel. For more on this, refer to the [Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html){target="_blank"}.
+You can monitor the number of active profiles on your instance directly from Campaign Control Panel. For more on this, refer to the [Control Panel documentation](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=fr){target="_blank"}.
 
 The following guardrails and limitations apply:
 
@@ -174,14 +174,14 @@ This video also explains the compliance of Adobe Campaign Classic with General D
 
 >[!VIDEO](https://video.tv.adobe.com/v/35611?quality=12)
 
-Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html).
+Additional Campaign Classic how-to videos are available [here](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).
 
 **See also**
 
-* [Privacy management in Campaign](https://helpx.adobe.com/campaign/kb/acc-privacy.html)
+* [Privacy management in Campaign](https://helpx.adobe.com/fr/campaign/kb/acc-privacy.html)
 
-* [Create queries and segment data in workflows](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows){target="_blank"} (Campaign v8 documentation)
+* [Create queries and segment data in workflows](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows){target="_blank"} (Campaign v8 documentation)
 
-* [Select target mapping](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/target-mappings){target="_blank"} (Campaign v8 documentation)
+* [Select target mapping](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/add-profiles/target-mappings){target="_blank"} (Campaign v8 documentation)
 
 -->

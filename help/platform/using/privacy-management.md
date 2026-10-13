@@ -100,9 +100,9 @@ Pour faciliter la préparation à la protection des données, Adobe Campaign pe
 Pour découvrir comment créer des demandes **d’accès** et **de suppression** et comment elles sont traitées par Adobe Campaign, consultez la [procédure d’implémentation](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/privacy/privacy){target="_blank"} (documentation de Campaign v8).
 
 <!--
-Tutorials on Privacy management in Campaign Standard are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html).
+Tutorials on Privacy management in Campaign Standard are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=fr).
 
-https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html
+https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=fr
 -->
 
 ## Consentement, conservation des données et rôles {#consent-retention-roles}
