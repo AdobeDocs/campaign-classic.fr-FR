@@ -30,10 +30,10 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '475'
+ht-degree: 96%
 ---
 # Cas d’utilisation : configurer la substitution des champs{#use-case-configuring-the-field-substitution}
 
@@ -85,7 +85,7 @@ Pour que cette modification du schéma de données soit visible dans le **Formul
 
    ![](assets/dlv_seeds_usecase_25.png)
 
-1. Paramétrez votre liste de diffusion et vos adresses de contrôle. Consultez la section [Identification des populations cibles](steps-defining-the-target-population.md).
+1. Paramétrez votre liste de diffusion et vos adresses de contrôle. Consultez la section [Identification des populations cibles](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-message){target="_blank"} (documentation de Campaign v8).
 
    Dans cet exemple, vous choisissez comme population cible principale les clientes ou clients dont le **genre littéraire préféré** est la Science-Fiction.
 

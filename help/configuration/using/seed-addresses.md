@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 93%
+source-wordcount: '356'
+ht-degree: 87%
 ---
 # Adresses de contrôle{#seed-addresses}
 
@@ -45,7 +45,7 @@ Si la table des personnes destinataires est une table personnalisée, vous devez
 
 ![](assets/s_ncs_user_seedlist_new_tab.png)
 
-Pour plus d’informations sur l’utilisation des adresses de contrôle, consultez [cette section](../../delivery/using/about-seed-addresses.md).
+Pour plus d’informations sur l’utilisation des adresses de contrôle, consultez [cette section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/test-profiles){target="_blank"} (documentation de Campaign v8).
 
 ## Mise en œuvre {#implementation}
 
@@ -107,7 +107,7 @@ Les étapes sont les suivantes :
    >    
    >
 
-1. Modifiez le formulaire **[!UICONTROL seedMember]** en conséquence pour définir un nouvel onglet « Destinataire interne » dans la fenêtre **[!UICONTROL Adresses de contrôle]**. Voir à ce propos [cette page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentation de Campaign v8).
+1. Modifiez le formulaire **[!UICONTROL seedMember]** en conséquence pour définir un nouvel onglet « Destinataire interne » dans la fenêtre **[!UICONTROL Adresses de contrôle]**. Voir à ce propos [cette page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentation de Campaign v8).
 
    ```
    <container colcount="2" label="Internal recipient" name="internal"

@@ -37,71 +37,18 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 100%
+source-wordcount: '917'
+ht-degree: 94%
 ---
-# Automatisation à l&#39;aide de workflows{#automating-via-workflows}
+# Automatiser avec des workflows{#automating-via-workflows}
 
-## Activité Gestion de contenu {#content-management-activity}
+La création, la modification et la publication de contenu de gestion de contenu peuvent être automatisées à l’aide d’un workflow.
 
-La création, l&#39;édition et la publication d&#39;un contenu peuvent être automatisées à partir d&#39;un workflow paramétré depuis l&#39;interface cliente Adobe Campaign.
+Dans le cadre de la transition de Campaign v7 vers v8, le jeu de documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour découvrir comment configurer l&#39;activité **Gestion de contenu**, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/content-management){target=_blank}.
 
-L&#39;activité **Gestion de contenu** est accessible à partir de la barre d&#39;outils **[!UICONTROL Outils]** du diagramme de workflow.
-
-Les propriétés de l&#39;activité se divisent en quatre étapes :
-
-* **[!UICONTROL Contenu]** : permet de renseigner un contenu déjà existant ou de le créer,
-* **[!UICONTROL Mettre à jour du contenu]** : permet de modifier l’objet du contenu ou de mettre à jour le contenu à partir d’un flux de données XML,
-* **[!UICONTROL Action à effectuer]** : permet d&#39;enregistrer ou de générer le contenu,
-* **[!UICONTROL Transition]** : permet de générer ou non une transition sortante et, si elle existe, de la nommer.
-
-![](assets/d_ncs_content_wf.png)
-
-### Content {#content}
-
-* **Spécifié par la transition**
-
-  Le contenu à utiliser a été créé précédemment. Les processus porteront sur l’instance de contenu propagée par l’événement entrant. L’identifiant du contenu est accessible à partir de la variable « contentId » de l’événement.
-
-* **Explicite**
-
-  Permet de choisir un contenu déjà créé.
-
-* **Calculé par un script**
-
-  Sélectionne une instance de contenu à partir d’un modèle JavaScript. Le code à évaluer permet de récupérer l’identifiant du contenu.
-
-* **Nouveau, créé depuis un modèle de publication**
-
-  Crée un nouveau contenu depuis un modèle de publication. L’instance de contenu sera enregistrée dans le dossier « Chaîne » renseigné.
-
-### Mettre à jour le contenu {#update-the-content}
-
-* **Objet**
-
-  Permet de modifier l’objet de l’action de diffusion lors d’une publication.
-
-* **Accès aux données provenant d&#39;un flux XML**
-
-  Le contenu est mis à jour à partir d’un flux XML provenant d’une source externe. Une URL doit être saisie pour que le téléchargement de données se produise.
-
-  Une feuille de style XSL peut être utilisée pour transformer les données XML entrantes.
-
-### Action à effectuer {#action-to-execute}
-
-* **Enregistrer**
-
-  Enregistre le contenu créé ou modifié. L’identifiant du contenu enregistré est propagé dans la variable « contentId » de l’événement sortant.
-
-* **Générer**
-
-  Génère les fichiers de sortie de chacun des modèles de transformation avec une publication de type « Fichier ». La transition sortante est activée pour chacun des fichiers générés avec pour paramètre l’identifiant du contenu enregistré dans la variable « contentId » et le nom du fichier dans la variable « filename ».
-
-### Transition {#transition}
-
-L’option **Générer une transition sortante** permet d’ajouter une transition en sortie de l’activité de **[!UICONTROL Gestion de contenu]** afin de lier l’exécution du workflow à une nouvelle activité. Après avoir coché cette option, saisissez un libellé pour la transition.
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/content-management){target=_blank}
 
 ## Exemples {#examples}
 
@@ -240,11 +187,6 @@ La cible à diffuser est renseignée à partir de l&#39;événement entrant.
 Le contenu de la diffusion est renseigné à partir de l&#39;événement entrant.
 
 L&#39;action finale de l&#39;activité est de préparer et de lancer la diffusion.
-
-### Import du contenu depuis FTP {#importing-content-from-ftp}
-
-Si le contenu de votre diffusion figure dans un fichier HTML qui se trouve sur un serveur FTP ou SFTP, vous pouvez facilement charger ce contenu dans les diffusions Adobe Campaign. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=fr){target="_blank"}.
-
 
 ### Import du contenu depuis le connecteur Amazon Simple Storage Service (S3) {#importing-content-from-amazon-simple-storage-service--s3--connector}
 

@@ -29,30 +29,18 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 100%
+source-wordcount: '247'
+ht-degree: 76%
 ---
 # Détection des URL de tracking
 
-## Exemple de non-détection
+Adobe Campaign détecte les URL à suivre dans votre contenu lors de l’analyse de la diffusion.
 
-`<%= getURL("http://mynewsletter.com") %>` fonctionne et envoie le contenu de la page web par email aux destinataires. Mais aucun des liens n&#39;est tracké. La raison en est que le MTA exécute `"<%=getURL(..."` pour chaque email avant de l’envoyer. Cela peut être différent pour chaque destinataire, de sorte qu’Adobe Campaign ne peut pas connaître les URL de tracking et leur attribuer un identifiant de balise.
+Dans le cadre de la transition de Campaign v7 vers v8, le jeu de documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour découvrir comment les URL sont détectées et les modèles à utiliser, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/personalized-links#url-detection){target=_blank}.
 
-Lorsque la page à télécharger est identique pour tous les destinataires, il est recommandé d’effectuer les opérations suivantes :
-
-`<%@ include url="http://mynewsletter.com" %>`
-
-Dans ce cas, la page est téléchargée pendant l’analyse, avant la détection du tracking. Adobe Campaign peut ainsi découvrir les liens, attribuer un identifiant de balise et les tracké.
-
-## Modèle recommandé
-
-Après avoir traité les instructions `<%@`, l’URL à tracker possède la syntaxe suivante : `<a href="http://myurl.com/a.php?param1=aaa&param2=<%=escapeUrl(recipient.xxx)%>&param3=<%=escapeUrl(recipient.xxx)%>">`
-
->[!IMPORTANT]
->
->Tous les autres modèles ne sont pas pris en charge par Adobe et doivent être évités afin d&#39;éviter les éventuelles lacunes en matière de sécurité.
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/tracking/personalized-links#url-detection){target=_blank}
 
 ## Modèle non sécurisé
 

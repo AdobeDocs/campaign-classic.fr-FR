@@ -41,9 +41,9 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '2704'
+source-wordcount: '2718'
 ht-degree: 98%
 ---
 # Versions 2021{#release-2021}
@@ -124,7 +124,7 @@ _5 juin 2021_
 <td>
 <p>La nouvelle activité de workflow <b>Modifier la source de données</b> permet de modifier la source de données de la table de travail d’un workflow. Cela offre plus de flexibilité pour la gestion des données entre différentes sources de données (FDA et base de données locale).</p>
 <p>Dans les workflows Adobe Campaign, les données sont gérées à l’aide de tables de travail (ou temporaires). Au fur et à mesure de l’exécution d’un workflow, les tables de travail partagent les données entre les activités du workflow. Par défaut, les tables de travail sont créées dans la même base de données que la source des données sur lesquelles nous effectuons des requêtes.</p>
-<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/change-data-source" target="_blank">documentation détaillée</a> (documentation de Campaign v8).</p>
+<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/targeting-activities/change-data-source" target="_blank">documentation détaillée</a> (documentation de Campaign v8).</p>
 </td>
 </tr>
 </tbody>
@@ -162,7 +162,7 @@ _5 juin 2021_
 <li><p>Prise en charge de l’API d’enregistrement de partenaire LINE</p></li>
 <li><p>Prise en charge des reprises d’envoi de messages en cas d’erreur côté serveur LINE ou de temporisation du réseau</p></li>
 </ul>
-<p>Pour plus d’informations, consultez la <a href="../../delivery/using/line-channel.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line" target="_blank">documentation détaillée</a> (documentation de Campaign v8).</p>
 </td> 
 </tr> 
 </tbody> 

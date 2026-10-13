@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Optimization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '1404'
-ht-degree: 100%
+source-wordcount: '1448'
+ht-degree: 97%
 ---
 # Installation des packages natifs de Campaign Classic{#installing-campaign-standard-packages}
 
@@ -133,7 +133,7 @@ Le tableau ci-après répertorie tous les packages natifs de Campaign.
   </tr> 
   <tr> 
    <td> Canal LINE<br /> </td> 
-   <td> Envoie les diffusions à l’aide du canal LINE avec Adobe Campaign. Facultatif. Messagerie transactionnelle (package Message Center) obligatoire. <a href="../../delivery/using/line-channel.md">En savoir plus</a> <br /> </td> 
+   <td> Envoie les diffusions à l’aide du canal LINE avec Adobe Campaign. Facultatif. Messagerie transactionnelle (package Message Center) obligatoire. <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line" target="_blank">En savoir plus</a> (documentation de Campaign v8) <br /> </td> 
    <td> Tous<br /> </td> 
   </tr> 
   <tr> 
@@ -143,7 +143,7 @@ Le tableau ci-après répertorie tous les packages natifs de Campaign.
   </tr> 
   <tr> 
    <td> Canal mobile (SMS) <br /> </td> 
-   <td> Envoie les diffusions à l’aide du canal Mobile/SMS avec Adobe Campaign. Facultatif. <a href="../../delivery/using/sms-channel.md">En savoir plus </a> <br /> </td> 
+   <td> Envoie les diffusions à l’aide du canal Mobile/SMS avec Adobe Campaign. Facultatif. <a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/sms/sms" target="_blank">En savoir plus</a> (documentation de Campaign v8) <br /> </td> 
    <td> Tous<br /> </td> 
   </tr> 
    <tr> 
@@ -283,7 +283,7 @@ Dans le cadre dʼune configuration de midsourcing, procédez comme suit :
 
 * Installez le package [!DNL LINE] sur les instances Marketing et MID.
 
-* Configurez le compte externe [!DNL LINE] sur lʼinstance mkt pour quʼil pointe vers lʼinstance MID en changeant le mode de diffusion. [En savoir plus](../../delivery/using/line-channel.md#configure-line-external)
+* Configurez le compte externe [!DNL LINE] sur lʼinstance mkt pour quʼil pointe vers lʼinstance MID en changeant le mode de diffusion. [ En savoir plus ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/other-channels/line#configure-line-external){target="_blank"} (documentation de Campaign v8)
 
 * Configurez les informations dʼidentification [!DNL LINE] dans le compte externe sur l’instance MID.
 
