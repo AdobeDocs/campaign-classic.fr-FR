@@ -8,9 +8,9 @@ user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1739'
 ht-degree: 100%
 ---
 
@@ -86,73 +86,27 @@ ht-degree: 100%
   + [Commencer avec les messages](delivery/using/communication-channels.md)
   + {hide-from-toc}[Paramètres de diffusion - MASQUÉ](delivery/using/delivery-settings.md)
   + Démarrage rapide {#key-steps-when-creating-a-delivery}
-    + {hide-from-toc}[Commencer avec les diffusions - MASQUÉ](delivery/using/steps-about-delivery-creation-steps.md)
-    + {hide-from-toc}[Créer et identifier une diffusion - MASQUÉ](delivery/using/steps-create-and-identify-the-delivery.md)
-    + {hide-from-toc}[Définir l’audience - MASQUÉ](delivery/using/steps-defining-the-target-population.md)
-    + {hide-from-toc}[Valider la diffusion - MASQUÉ](delivery/using/steps-validating-the-delivery.md)
     + {hide-from-toc}[Envoyer la diffusion - MASQUÉ](delivery/using/steps-sending-the-delivery.md)
-    + {hide-from-toc}[Bonnes pratiques de diffusion - MASQUÉ](delivery/using/delivery-best-practices.md)
-  + Bonnes pratiques de diffusion {#delivery-bestpractices}
-    + {hide-from-toc}[Optimiser la diffusion - MASQUÉ](delivery/using/optimize-delivery.md)
-    + {hide-from-toc}[Utiliser des modèles - MASQUÉ](delivery/using/use-templates.md)
-    + {hide-from-toc}[Créer du contenu personnalisé - MASQUÉ](delivery/using/design-and-personalize.md)
-    + {hide-from-toc}[Définir l’audience appropriée - MASQUÉ](delivery/using/define-the-right-audience.md)
-    + {hide-from-toc}[Vérifier avant envoi - MASQUÉ](delivery/using/check-before-sending.md)
   + [Envoyer des e-mails](delivery/using/about-email-channel.md)
-  + Envoyer des e-mails {#sending-emails}
-    + {hide-from-toc}[Créer une diffusion par e-mail - MASQUÉ](delivery/using/creating-an-email-delivery.md)
-    + {hide-from-toc}[Définir le contenu de l’e-mail - MASQUÉ](delivery/using/defining-the-email-content.md)
-    + {hide-from-toc}[Définir le contenu interactif - MASQUÉ](delivery/using/defining-interactive-content.md)
-    + Envoyer la diffusion par e-mail {#sending-an-email}
-      + {hide-from-toc}[Étapes principales de l’envoi d’un e-mail - MASQUÉ](delivery/using/sending-messages.md)
-      + {hide-from-toc}[Paramètres de l’e-mail - MASQUÉ](delivery/using/email-parameters.md)
-      + {hide-from-toc}[Envoyer sur des mobiles japonais - MASQUÉ](delivery/using/sending-emails-on-japanese-mobiles.md)
-    + {hide-from-toc}[Joindre des fichiers - MASQUÉ](delivery/using/attaching-files.md)
   + Envoyer un SMS {#sending-messages-on-mobiles}
-    + [Prise en main des SMS](delivery/using/sms-channel.md)
     + Configurer le canal SMS {#sms-set-up}
       + [Configurer les SMS sur une instance autonome](delivery/using/sms-set-up.md)
       + [Configurer les SMS sur une infrastructure midsourcing](delivery/using/sms-set-up-mid.md)
       + [Protocole et paramètres du connecteur SMS](delivery/using/sms-protocol.md)
       + [Configuration supplémentaire](delivery/using/sms-send.md)
       + [Résolution des problèmes de SMS](delivery/using/troubleshooting-sms.md)
-    + {hide-from-toc}[Créer un SMS - MASQUÉ](delivery/using/sms-create.md)
     + {hide-from-toc}[Migrer vers le connecteur SMPP générique étendu](delivery/using/unsupported-connector-migration.md)
-  + [Envoi de messages LINE](delivery/using/line-channel.md)
   + [Envoyer des notifications push](delivery/using/about-mobile-app-channel.md)
   + Envoyer des notifications push {#sending-push-notifications}
-    + {hide-from-toc}[Intégrer le SDK Campaign dans l’application mobile](delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)
     + Configurer l’application mobile{#configure-the-mobile-app}
       + {hide-from-toc}[Commencer avec la configuration de l’application - MASQUÉ](delivery/using/get-started-app-config.md)
       + {hide-from-toc}[Étapes de configuration pour iOS - MASQUÉ](delivery/using/configuring-the-mobile-application.md)
       + {hide-from-toc}[Étapes de configuration pour Android - MASQUÉ](delivery/using/configuring-the-mobile-application-android.md)
-    + Créer une notification push{#create-a-push-msg}
-      + {hide-from-toc}[Créer un message push pour iOS - MASQUÉ](delivery/using/create-notifications-ios.md)
-      + {hide-from-toc}[Créer un message push pour Android - MASQUÉ](delivery/using/create-notifications-android.md)
     + {hide-from-toc}[Résolution des problèmes - MASQUÉ](delivery/using/troubleshooting.md)
   + [Envoyer des courriers](delivery/using/about-direct-mail-channel.md)
-  + Envoyer un courrier {#sending-direct-mail}
-    + {hide-from-toc}[Créer une diffusion par courrier - MASQUÉ](delivery/using/creating-a-direct-mail-delivery.md)
-    + {hide-from-toc}[Définir le contenu du courrier - MASQUÉ](delivery/using/defining-the-direct-mail-content.md)
-    + {hide-from-toc}[Valider - MASQUÉ](delivery/using/validating.md)
-  + Utiliser des modèles de diffusion {#using-delivery-templates}
-    + {hide-from-toc}[Utiliser des modèles de diffusion - MASQUÉ](delivery/using/about-templates.md)
-    + {hide-from-toc}[Créer un modèle de diffusion - MASQUÉ](delivery/using/creating-a-delivery-template.md)
-    + {hide-from-toc}[Sélectionner un mapping de ciblage - MASQUÉ](delivery/using/selecting-a-target-mapping.md)
-    + {hide-from-toc}[Créer une diffusion à partir d’un modèle - MASQUÉ](delivery/using/creating-a-delivery-from-a-template.md)
   + Personnaliser les diffusions {#personalizing-deliveries}
     + [À propos de la personnalisation](delivery/using/about-personalization.md)
-    + {hide-from-toc}[Champs de personnalisation - MASQUÉ](delivery/using/personalization-fields.md)
-    + {hide-from-toc}[Blocs de personnalisation - MASQUÉ](delivery/using/personalization-blocks.md)
-    + {hide-from-toc}[Contenu conditionnel - MASQUÉ](delivery/using/conditional-content.md)
-    + {hide-from-toc}[Coupons personnalisés - MASQUÉ](delivery/using/personalized-coupons.md)
-    + {hide-from-toc}[Générer des documents PDF personnalisés - MASQUÉ](delivery/using/generating-personalized-pdf-documents.md)
-    + {hide-from-toc}[Personnaliser la liste des émoticônes](delivery/using/customizing-emoticon-list.md)
   + Utiliser des adresses de contrôle {#using-seed-addresses}
-    + [À propos des adresses de contrôle](delivery/using/about-seed-addresses.md)
-    + [Création d’adresses de contrôle](delivery/using/creating-seed-addresses.md)
-    + [Ajout d’adresses de contrôle](delivery/using/adding-seed-addresses.md)
-    + [Utilisation d’une table de destinataires externe](delivery/using/using-an-external-recipient-table.md)
     + [Cas d’utilisation : sélectionner des adresses de contrôle selon des critères](delivery/using/use-case-selecting-seed-addresses-on-criteria.md)
     + [Cas d’utilisation : configurer la substitution des champs](delivery/using/use-case-configuring-the-field-substitution.md)
   + Tests A/B {#a-b-testing}
@@ -180,9 +134,7 @@ ht-degree: 100%
     + [Avancé : personnalisation des logs de diffusion](delivery/using/customize-delivery-logs.md)
   + Gestion de la délivrabilité {#deliverability-management}
     + [Qu’est-ce que la délivrabilité ?](delivery/using/about-deliverability.md)
-    + [Contrôler le contenu du message](delivery/using/control-message-content.md)
     + [Rendu de la boîte de réception](delivery/using/inbox-rendering.md)
-    + [SpamAssassin](delivery/using/spamassassin.md)
     + [Résolution des problèmes](delivery/using/deliverability-faq.md)
   + Module de gestion de contenu {#content-management}
     + [À propos de la gestion de contenu](delivery/using/about-content-management.md)
@@ -593,8 +545,6 @@ ht-degree: 100%
     + {hide-from-toc}[Migrer vers l’API Adobe Analytics 2.0](technotes/using/analytics-2-migration.md)
   + Emails et notifications push{#technotes-email}
     + [Protection de la confidentialité des emails sur Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
-    + [Mise à jour des rebonds définitifs incorrects](delivery/using/update-bounce-qualification.md)
-    + {hide-from-toc}[Mettre à jour les rebonds définitifs incorrects après une panne d’un FAI](delivery/using/update-bounces.md)
     + [Mise à jour du certificat iOS](technotes/using/ios-certificate-update.md)
     + {hide-from-toc}[Mise à jour des URL suivies](technotes/using/tracked-urls.md)
   + Migration vers Adobe Managed Services{#dc-migration}

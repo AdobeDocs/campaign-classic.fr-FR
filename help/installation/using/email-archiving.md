@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
 source-wordcount: '1270'
 ht-degree: 100%
@@ -166,7 +166,7 @@ To do this, make the following changes to the **`config-<instance>.xml`** file:
 1. Set the **compressionFormat** parameter to **1** if needed.
 1. Set the **archivingType** parameter to **1**.
 
-Once email BCC is configured, make sure you select the **[!UICONTROL Email BCC]** option in the delivery template or the delivery. For more on this, see [this section](../../delivery/using/sending-messages.md#archiving-emails).
+Once email BCC is configured, make sure you select the **[!UICONTROL Email BCC]** option in the delivery template or the delivery. For more on this, see [this section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/emails/email-bcc){target="_blank"} (Campaign v8 documentation).
 -->
 
 ## Bonnes pratiques en matière d&#39;Email Cci {#best-practices}

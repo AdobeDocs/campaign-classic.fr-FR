@@ -43,10 +43,10 @@ topic_v2:
     internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '1787'
-ht-degree: 100%
+source-wordcount: '1814'
+ht-degree: 98%
 ---
 # Fonctionnalités obsolètes et supprimées {#deprecated-and-removed-features}
 
@@ -181,11 +181,11 @@ Cette section répertorie les fonctionnalités supprimées de Campaign Classic.
   </tr> 
    <tr> 
    <td>Canal mobile - Messages MMS et WAP Push</td>
-   <td>À compter de la version 18.4 de Campaign, les canaux MMS et Wap Push ne sont plus disponibles. À titre de remplacement, vous pouvez tirer parti des diffusions <a href="../../delivery/using/sms-channel.md">SMS</a> et <a href="../../delivery/using/about-mobile-app-channel.md">Push</a>.</td>
+   <td>À compter de la version 18.4 de Campaign, les canaux MMS et Wap Push ne sont plus disponibles. En remplacement, vous pouvez utiliser les diffusions <a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/sms/sms" target="_blank">SMS</a> (documentation de Campaign v8) et <a href="../../delivery/using/about-mobile-app-channel.md">Push</a>.</td>
   </tr> 
    <tr> 
    <td>Canal mobile - LINE v1</td>
-   <td>À compter de la version 18.4 de Campaign, le package LINE Connect n’est plus disponible. Adobe recommande d’utiliser le nouveau package Canal LINE pour le remplacer. <a href="../../delivery/using/line-channel.md">En savoir plus</a></td>
+   <td>À compter de la version 18.4 de Campaign, le package LINE Connect n’est plus disponible. Adobe recommande d’utiliser le nouveau package Canal LINE pour le remplacer. <a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/other-channels/line" target="_blank"> En savoir plus </a> (documentation de Campaign v8)</td>
   </tr>
  </tbody> 
 </table>
@@ -250,7 +250,7 @@ Depuis la version 19.1 du printemps, Adobe Campaign n’est plus compatible av
 
 Adobe ne prend pas en charge les moteurs de base de données ci-après, car ils ont été abandonnés par leur éditeur. Les clients utilisant ces versions doivent effectuer la mise à niveau vers la version la plus récente ou passer à une autre.
 
-Consultez la [matrice de compatibilité de Campaign ](../../rn/using/compatibility-matrix.md) pour accéder à la liste des versions compatibles.
+Consultez la [matrice de compatibilité de Campaign &#x200B;](../../rn/using/compatibility-matrix.md) pour accéder à la liste des versions compatibles.
 
 **FEDERATED DATA ACCESS (FDA)**
 

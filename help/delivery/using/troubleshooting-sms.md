@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
 source-wordcount: '3088'
 ht-degree: 100%
@@ -148,7 +148,7 @@ Comment résoudre les problèmes de stabilité de connexion :
 
 ## Problème lors de l&#39;envoi d&#39;un MT (SMS régulier envoyé à un utilisateur final){#issue-MT}
 
-* Vérifiez que la connexion est stable. Une connexion SMPP doit durer au moins une heure en continu, sauf pour les émetteurs sur Adobe Campaign Classic. Pour plus d&#39;informations, consultez la section [Problème de connexion instable](sms-protocol.md#issues-unstable-connection).
+* Vérifiez que la connexion est stable. Une connexion SMPP doit durer au moins une heure en continu, sauf pour les émetteurs sur Adobe Campaign Classic. Pour plus d&#39;informations, consultez la section [Problème de connexion instable](#issues-unstable-connection).
 
 * Si le redémarrage du MTA entraîne lenvoi de MT à nouveau opérationnel pendant une petite période de temps, vous avez probablement un ralentissement dû à une connexion instable. Pour plus d&#39;informations, consultez la section [Problème de connexions instables](troubleshooting-sms.md#issues-unstable-connection).
 

@@ -41,9 +41,9 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '2704'
+source-wordcount: '2718'
 ht-degree: 98%
 ---
 # Versions 2021{#release-2021}
@@ -162,7 +162,7 @@ _5 juin 2021_
 <li><p>Prise en charge de l’API d’enregistrement de partenaire LINE</p></li>
 <li><p>Prise en charge des reprises d’envoi de messages en cas d’erreur côté serveur LINE ou de temporisation du réseau</p></li>
 </ul>
-<p>Pour plus d’informations, consultez la <a href="../../delivery/using/line-channel.md">documentation détaillée</a>.</p>
+<p>Pour plus d’informations, consultez la <a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/other-channels/line" target="_blank">documentation détaillée</a> (documentation de Campaign v8).</p>
 </td> 
 </tr> 
 </tbody> 

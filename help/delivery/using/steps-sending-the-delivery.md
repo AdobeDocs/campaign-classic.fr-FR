@@ -37,32 +37,22 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 86e1df82ff7fe9142b0ba75b697d3262e8d7a9d5
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '1665'
-ht-degree: 98%
+source-wordcount: '546'
+ht-degree: 89%
 ---
 # Configurer et envoyer la diffusion {#configuring-and-sending-the-delivery}
 
-## Autorisations{#delivery-permissions}
+Cette page décrit les paramètres d’envoi de diffusion spécifiques aux installations on-premise et hybrides de Campaign Classic v7.
 
-Seule la personne propriétaire de la diffusion peut démarrer une diffusion. Pour que d’autres opérateurs (ou groupes d’opérateurs) puissent démarrer une diffusion, ajoutez-les en tant que validants dans le champ **[!UICONTROL Démarrage de la diffusion :]**. [&#x200B; En savoir plus &#x200B;](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval#select-reviewers){target="_blank"} (documentation de Campaign v8).
+Dans le cadre de la transition de Campaign v7 vers v8, le jeu de documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur les paramètres d’envoi des diffusions, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/validate/configure-and-send){target=_blank}.
+
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/validate/configure-and-send){target=_blank}
 
 ## Paramètres supplémentaires de diffusion {#delivery-additiona-parameters}
 
 Avant d’envoyer la diffusion, vous pouvez définir les paramètres d’envoi dans les propriétés de la diffusion, via l’onglet **[!UICONTROL Diffusion]**.
-
-![](assets/s_ncs_user_wizard_delivery.png)
-
-* **[!UICONTROL Priorité de diffusion]** : cette option vous permet de modifier l’ordre d’envoi des diffusions en indiquant leur niveau de priorité (normal, élevé ou faible).
-
-* **[!UICONTROL Nombre de messages groupés]** : cette option permet de définir le nombre de messages regroupés dans un même package d’envoi XML. Si le paramètre est défini sur 0, les messages sont automatiquement regroupés. La taille du paquet est définie par le calcul `<delivery size>/1024`, avec un minimum de 8 messages et un maximum de 256 messages par package.
-
-  >[!IMPORTANT]
-  >
-  >Lorsque vous créez la diffusion en dupliquant une diffusion existante, vous réinitialisez également ce paramètre.
-
-* **[!UICONTROL Envoyer en plusieurs vagues]** : cette option vous permet d’envoyer vos messages par lots, plutôt qu’à toute votre audience en même temps. [En savoir plus](#sending-using-multiple-waves).
 
 * **[!UICONTROL Tester la diffusion via SMTP]** : cette option vous permet de tester la diffusion par SMTP. La diffusion est traitée jusqu’à la connexion au serveur SMTP mais n’est pas envoyée : pour chaque destinataire de la diffusion, Campaign se connecte au serveur du fournisseur SMTP, exécute la commande SMTP RCPT TO et ferme la connexion avant la commande SMTP DATA.
 
@@ -72,134 +62,7 @@ Avant d’envoyer la diffusion, vous pouvez définir les paramètres d’envoi d
   >
   >* Pour en savoir plus sur la configuration du serveur SMTP, voir [cette section](../../installation/using/configure-delivery-settings.md).
 
-* **[!UICONTROL E-mail Cci]** : cette option vous permet de stocker vos e-mails dans un système externe à l’aide de l’option Cci en ajoutant simplement une adresse e-mail à la cible des messages. [En savoir plus](sending-messages.md#archiving-emails).
-
-## Confirmer la diffusion {#confirming-delivery}
-
-Une fois la diffusion paramétrée et prête à être envoyée, effectuez son analyse.
-
-Pour ce faire, cliquez sur **[!UICONTROL Envoyer]**, sélectionnez l’action souhaitée et cliquez sur **[!UICONTROL Analyser]**. [En savoir plus](steps-validating-the-delivery.md#analyzing-the-delivery).
-
-![](assets/s_ncs_user_email_del_send.png)
-
-Une fois que vous avez terminé, cliquez sur **[!UICONTROL Confirmer l’envoi]** pour lancer la diffusion des messages.
-
-Vous pouvez ensuite fermer l’assistant de diffusion et suivre l’exécution de la diffusion depuis l’onglet **[!UICONTROL Diffusion]** accessible à partir du détail de cette diffusion ou depuis la liste des diffusions.
-
-Après l&#39;envoi des messages, vous pouvez surveiller et suivre vos diffusions. Pour plus d’informations, consultez les sections suivantes :
-
-* [Surveillance d’une diffusion](about-delivery-monitoring.md)
-* [Présentation des diffusions en échec](delivery-failures-quarantine.md)
-* [À propos du tracking des messages](about-message-tracking.md)
-
-## Planification de lʼenvoi de la diffusion {#scheduling-the-delivery-sending}
-
-Vous pouvez reporter l’envoi du message en planifiant la diffusion.
-
-1. Cliquez sur le bouton **[!UICONTROL Envoyer]** et sélectionnez l’option **[!UICONTROL Différer la diffusion]**.
-
-1. Indiquez une date de début dans le champ **[!UICONTROL Date de contact]**.
-
-![](assets/dlv_email_del_plan.png)
-
-1. Vous pouvez ensuite lancer l’analyse de la diffusion, puis confirmer son envoi. Toutefois, cet envoi ne démarrera pas avant la date indiquée dans le champ **[!UICONTROL Date de contact]**.
-
->[!IMPORTANT]
->
->Une fois l’analyse lancée, la date de contact que vous avez définie est fixe. Si vous modifiez cette date, vous devrez redémarrer l’analyse afin que vos modifications soient prises en compte.
-
-![](assets/s_ncs_user_email_del_start_delayed.png)
-
-Dans la liste des diffusions, la diffusion apparaît avec le statut **[!UICONTROL En attente]**.
-
-![](assets/s_ncs_user_email_del_waiting.png)
-
-La planification peut aussi être paramétrée en amont via le bouton **[!UICONTROL Planification]** de la diffusion.
-
-![](assets/s_ncs_user_email_del_save_in_calendar_ico.png)
-
-Elle vous permet de différer la diffusion à une date ultérieure ou enregistrer la diffusion dans le calendrier prévisionnel.
-
-* L&#39;option **[!UICONTROL Planifier la diffusion (pas d&#39;exécution automatique)]** permet de planifier une analyse prévisionnelle de la diffusion.
-
-  Lorsque cette configuration est enregistrée, la diffusion passe au statut **[!UICONTROL Ciblage en attente]**. L’analyse sera lancée à la date indiquée.
-
-* L&#39;option **[!UICONTROL Planifier la diffusion (exécution automatique à la date prévue)]** permet d&#39;indiquer la date de contact.
-
-  Cliquez sur **[!UICONTROL Envoyer]** et sélectionnez **[!UICONTROL Différer la diffusion]**, puis lancez l’analyse et confirmez la diffusion. Une fois l’analyse terminée, la cible de la diffusion est prête et les messages seront automatiquement envoyés à la date indiquée.
-
-Les dates et heures sont entendues dans le fuseau horaire de l&#39;opérateur courant. La liste déroulante **[!UICONTROL Fuseau horaire]** située sous la zone de saisie de la date de contact permet d&#39;adapter automatiquement la date et l&#39;heure saisie dans le fuseau horaire sélectionné.
-
-Ainsi, si vous planifiez une diffusion pour qu&#39;elle s&#39;exécute automatiquement à 8h heure de Londres, l&#39;heure est automatiquement convertie dans le fuseau sélectionné :
-
-![](assets/s_ncs_user_email_del_plan_calendar_timezone.png)
-
-## Envoi en plusieurs vagues {#sending-using-multiple-waves}
-
-Pour équilibrer la charge, vous pouvez diviser les diffusions en plusieurs lots. Configurez le nombre de lots et leur proportion par rapport à l’ensemble de la diffusion.
-
->[!NOTE]
->
->Vous ne pouvez définir la taille et le délai qu’entre deux vagues consécutives. Le critère de sélection des personnes destinataires pour chaque vague ne peut pas être configuré.
-
-1. Ouvrez la fenêtre des propriétés de la diffusion, puis cliquez sur l&#39;onglet **[!UICONTROL Diffusion]**.
-1. Sélectionnez l&#39;option **[!UICONTROL Envoyer en plusieurs vagues]**, puis cliquez sur le lien **[!UICONTROL Définition des vagues...]**.
-
-   ![](assets/s_ncs_user_wizard_waves.png)
-
-1. Pour configurer des vagues, vous pouvez effectuer l&#39;une des opérations suivantes :
-
-   * Définissez la taille de chaque vague. Par exemple, si vous saisissez **[!UICONTROL 30 %]** dans le champ correspondant, chaque vague représentera 30 % des messages inclus dans l’envoi, à l’exception de la dernière vague qui représentera 10 % des messages.
-
-     Dans le champ **[!UICONTROL Période]**, définissez le délai entre le démarrage de deux vagues consécutives. Par exemple, si vous saisissez **[!UICONTROL 2 j]**, la première vague démarre immédiatement, la deuxième démarre dans deux jours, la troisième dans quatre jours, etc.
-
-     ![](assets/s_ncs_user_wizard_waves_create_size.png)
-
-   * Définissez un calendrier pour l&#39;envoi de chaque vague.
-
-     Dans la colonne **[!UICONTROL Début]**, indiquez le délai entre le démarrage de deux vagues consécutives. Dans la colonne **[!UICONTROL Taille]**, saisissez un nombre fixe ou un pourcentage.
-
-     Dans l’exemple ci-dessous, la première vague représente 25 % du nombre total de messages inclus dans la diffusion et démarrera immédiatement. Les deux vagues suivantes terminent la diffusion et sont définies pour commencer à six heures d’intervalle.
-
-     ![](assets/s_ncs_user_wizard_waves_create.png)
-
-   Une règle de typologie spécifique, la **[!UICONTROL Vérification de la planification des vagues]**, garantit que la dernière vague est planifiée avant la limite de validité de la diffusion. Les typologies de campagne et leurs règles, paramétrées dans l’onglet **[!UICONTROL Typologie]** des propriétés d’une diffusion, sont présentées dans la section [Processus de validation avec des typologies](steps-validating-the-delivery.md#validation-process-with-typologies).
-
-   >[!IMPORTANT]
-   >
-   >Veillez à ce que les dernières vagues ne dépassent pas la date limite de la diffusion qui est définie dans l’onglet **[!UICONTROL Validité]**. Sinon, certains messages peuvent ne pas être envoyés.
-   >
-   >Lors de la configuration des dernières vagues, veillez également à prévoir assez de temps pour les reprises. Consultez [cette section](steps-sending-the-delivery.md#configuring-retries).
-
-1. Pour su vos envois, accédez aux logs de diffusion. Voir [cette page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#delivery-logs-and-history){target="_blank"}.
-
-   Vous pouvez visualiser les diffusions qui ont déjà été envoyées dans les vagues traitées (statut **[!UICONTROL Envoyé]**) et celles à envoyer dans les vagues restantes (statut **[!UICONTROL En attente]**).
-
-Les deux exemples ci-dessous constituent les cas d&#39;utilisation les plus fréquents de plusieurs vagues.
-
-* **Lors de la phase de démarrage**
-
-  Lorsque vous envoyez des e-mails à l’aide d’une nouvelle plateforme, rien n’est plus suspect pour un FAI (fournisseur d’accès internet) que les adresses IP qui ne sont pas reconnues. Si des e-mails sont subitement envoyés en masse, le FAI les range souvent dans le courrier indésirable.
-
-  Pour éviter que les e-mails soient marqués comme spam, vous pouvez augmenter progressivement le volume d’envoi à l’aide de vagues. Cela permet d’entamer la phase de démarrage en douceur et de réduire le nombre total d’adresses invalides.
-
-  Pour ce faire, utilisez l’option **[!UICONTROL Planifier les vagues selon un calendrier]**. Par exemple, définissez la première vague sur 10 %, la deuxième sur 15 %, etc.
-
-  ![](assets/s_ncs_user_wizard_waves_ramp-up.png)
-
-* **Campagnes impliquant un centre d’appels**
-
-  Lorsque vous gérez une campagne de fidélisation par téléphone, votre organisation a une capacité de traitement des appels limitée pour contacter les personnes abonnées.
-
-  Grâce aux vagues, vous pouvez limiter le nombre de messages à 20 par jour, par exemple, ce qui correspond à la capacité de traitement quotidienne d’un centre d’appel.
-
-  Pour ce faire, sélectionnez l’option **[!UICONTROL Planification de plusieurs vagues de même taille]**. Saisissez **[!UICONTROL 20]** comme taille de vague et **[!UICONTROL 1 j]** dans le champ **[!UICONTROL Période]**.
-
-  ![](assets/s_ncs_user_wizard_waves_call_center.png)
-
 ## Configuration des reprises {#configuring-retries}
-
-Les messages temporairement non diffusés en raison d&#39;une erreur **Soft** ou **Ignoré** sont soumis à une nouvelle reprise automatique. Les types et les raisons d&#39;échec de diffusion sont présentés dans cette [section](delivery-failures-quarantine.md#delivery-failure-types-and-reasons).
 
 >[!IMPORTANT]
 >
@@ -218,8 +81,6 @@ Une fois la diffusion lancée, les messages (et les éventuelles reprises) peuve
 ![](assets/s_ncs_user_email_del_valid_period.png)
 
 * Le champ **[!UICONTROL Durée de diffusion]** permet de saisir la limite pour les reprises globales de diffusion. Concrètement, Adobe Campaign diffuse les messages à partir de la date de début. Puis, pour les messages en erreur uniquement, des reprises régulières et paramétrables sont effectuées tant que la limite de validité n’est pas atteinte.
-
-  Vous pouvez également choisir de spécifier des dates. Pour ce faire, sélectionnez **[!UICONTROL Fixer explicitement les dates de validité]**. Dans ce cas, les dates limites de diffusion et de validité permettent également de définir l’heure. L’heure actuelle est utilisée par défaut, mais vous pouvez la modifier directement dans le champ de saisie.
 
   >[!IMPORTANT]
   >

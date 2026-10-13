@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 100%
+source-wordcount: '651'
+ht-degree: 93%
 ---
 # Instructions de pré-traitement {#pre-processing-instructions}
 
@@ -44,6 +44,10 @@ Il existe trois types d’instructions :
 * **[!DNL foreach]** : pour exécuter en boucle un tableau chargé en tant qu’objet personnalisé. [En savoir plus](#foreach)
 
 Elles peuvent être testées directement à partir de l’assistant de diffusion. Elles s’appliquent dans la prévisualisation du contenu et lorsque vous cliquez sur le bouton de tracking pour afficher la liste des URL.
+
+Dans le cadre de la transition de Campaign v7 vers v8, le jeu de documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur les instructions de pré-traitement, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/tracking/personalized-links#pre-processing-instructions){target=_blank}.
+
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/tracking/personalized-links#pre-processing-instructions){target=_blank}
 
 ## [!DNL include] {#include}
 
@@ -150,19 +154,6 @@ Par exemple :
 ## [!DNL foreach] {#foreach}
 
 Cette instruction permet une itération sur un tableau d&#39;objets chargés dans la diffusion pour tracker les liens individuels associés aux objets.
-
-Syntaxe :
-
-```
-<%@ foreach object="myObject" xpath="myLink" index="3" item="myItem" %> <%@ end %>
-```
-
-Où :
-
-* **[!DNL object]** : nom de l’objet où commencer, généralement un objet de script supplémentaire, mais il peut s’agir d’une diffusion.
-* **[!DNL xpath]** (facultatif) : xpath de la collection à exécuter en boucle. La valeur par défaut est « . », ce qui signifie que l’objet est le tableau à exécuter en boucle.
-* **[!DNL index]** (facultatif) : si xpath n’est pas « . » et l’objet lui-même est un tableau, index d’élément de l’objet (démarre à 0).
-* **[!DNL item]** (facultatif) : nom d’un nouvel objet accessible avec &lt;%@ value dans la boucle foreach. Par défaut le nom du lien dans le schéma.
 
 Exemple :
 

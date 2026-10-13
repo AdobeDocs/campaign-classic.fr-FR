@@ -52,10 +52,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 94%
+source-wordcount: '1057'
+ht-degree: 92%
 ---
 # Étapes de configuration pour Android
 
@@ -68,7 +68,7 @@ Les étapes clés sont les suivantes :
 1. [Création de l’application mobile dans Campaign](#creating-android-app)
 1. [Étendre le schéma de l’application avec des données supplémentaires](#extend-subscription-schema)
 
-Vous pourrez alors [créer une notification Android enrichie](create-notifications-android.md).
+Vous pourrez ensuite [créer une notification Android enrichie](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/push/rich-push/rich-push-android){target="_blank"} (documentation de Campaign v8).
 
 >[!IMPORTANT]
 >
@@ -135,7 +135,7 @@ Après avoir créé votre service, vous devez maintenant créer votre applicatio
 
    ![](assets/nmac_android.png)
 
-1. Assurez-vous que la même **[!UICONTROL clé d’intégration]** est définie dans Adobe Campaign et dans le code de l’application via le SDK.<!--For more on this, refer to [this section](integrating-campaign-sdk-into-the-mobile-application.md).-->
+1. Assurez-vous que la même **[!UICONTROL clé d’intégration]** est définie dans Adobe Campaign et dans le code de l’application via le SDK.<!--For more on this, refer to [this section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation).-->
 
    >[!NOTE]
    >
@@ -201,4 +201,4 @@ Vous devez étendre la valeur **appsubscriptionRcp** pour définir de nouveaux c
 
    >[!CAUTION]
    >
-   >Assurez-vous que les noms des paramètres dans l’onglet **[!UICONTROL Paramètres d’abonnement]** sont les mêmes que dans le code de l’application mobile.<!--Refer to [this section](integrating-campaign-sdk-into-the-mobile-application.md).-->
+   >Assurez-vous que les noms des paramètres dans l’onglet **[!UICONTROL Paramètres d’abonnement]** sont les mêmes que dans le code de l’application mobile.<!--Refer to [this section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation).-->

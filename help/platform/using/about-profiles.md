@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 100%
@@ -100,7 +100,7 @@ Profiles can be identified based on storage space. This means that a profile can
 
 Delivery recipients are stored in the database as profiles containing the information linked to them: last name, first name, address, subscriptions, deliveries, etc. When you create campaigns, you can define the target of the deliveries to a selection of the profiles in the base according to simple or advanced criteria.
 
-You can also create campaigns aimed at recipients whose profiles are stored not in the database, but in files. These are known as "external" deliveries. For more information about this type of delivery, refer to [this page](../../delivery/using/steps-defining-the-target-population.md#selecting-external-recipients).
+You can also create campaigns aimed at recipients whose profiles are stored not in the database, but in files. These are known as "external" deliveries. For more information about this type of delivery, refer to [this page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/create-message#selecting-external-recipients){target="_blank"} (Campaign v8 documentation).
 
 The main methods for creating recipient profiles are as follows:
 
@@ -182,6 +182,6 @@ Additional Campaign Classic how-to videos are available [here](https://experienc
 
 * [Create queries and segment data in workflows](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows){target="_blank"} (Campaign v8 documentation)
 
-* [Select target mapping](../../delivery/using/steps-defining-the-target-population.md#select-a-target-mapping)
+* [Select target mapping](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/add-profiles/target-mappings){target="_blank"} (Campaign v8 documentation)
 
 -->

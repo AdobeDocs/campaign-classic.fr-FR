@@ -50,10 +50,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '6917'
-ht-degree: 95%
+source-wordcount: '6932'
+ht-degree: 94%
 ---
 # Glossaire Adobe Campaign{#ac-glossary}
 
@@ -509,7 +509,7 @@ En savoir plus sur [Interaction](../../interaction/using/interaction-and-offer-m
 
 The functionality that supplies the images embedded in emails to the delivery's recipients. The insertion of the images based on an emails system's "download images" functionality is what generates an "open" entry in Campaign's tracking logs.
 
-Learn more about [Image serving](../../delivery/using/defining-the-email-content.md#adding-images).
+Learn more about [Image serving](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/emails/defining-the-email-content#adding-images){target="_blank"} (Campaign v8 documentation).
 +++
 -->
 
@@ -933,7 +933,7 @@ En savoir plus sur les [extensions de schéma](../../configuration/using/extendi
 
 Les adresses de contrôle sont utilisées pour cibler des personnes destinataires qui ne correspondent pas aux critères de ciblage définis. Ainsi, les personnes destinataires qui ne font pas partie de la portée de la diffusion peuvent la recevoir, comme toute autre personne destinataire cible. Elles sont ajoutées à l’audience d’un message afin de détecter toute utilisation frauduleuse de votre base de données de destinataires ou d’assurer la diffusion.
 
-En savoir plus sur les [adresses de contrôle](../../delivery/using/about-seed-addresses.md).
+En savoir plus sur [les adresses de contrôle](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/add-profiles/test-profiles){target="_blank"} (documentation de Campaign v8).
 +++
 
 <!--

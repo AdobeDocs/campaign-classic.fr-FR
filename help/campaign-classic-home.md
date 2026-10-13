@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 82%
+source-wordcount: '679'
+ht-degree: 72%
 ---
 # Documentation de Campaign Classic v7 {#campaign-classic-documentation}
 
@@ -114,7 +114,7 @@ Certaines modifications importantes apportées au service Android FCM (Firebas
     <td>
       <img src="assets/do-not-localize/icon-send.svg" width="35px">
     <br/>
-      <strong>Envoyer des messages</strong><br/><a href="delivery/using/communication-channels.md">Canaux de communication</a> – <a href="delivery/using/steps-about-delivery-creation-steps.md#sending-a-proof">Envoyer des BAT</a> – <a href="delivery/using/get-started-a-b-testing.md">Tests AB</a> – <a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">Tracking des messages</a> – <a href="delivery/using/about-deliverability.md">Délivrabilité</a> – <a href="message-center/using/about-transactional-messaging.md">Messages transactionnels</a>
+      <strong>Envoyer des messages</strong><br/><a href="delivery/using/communication-channels.md">Canaux de communication</a> - <a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/create-message" target="_blank">Envoyer des BAT</a> (documentation de Campaign v8) - <a href="delivery/using/get-started-a-b-testing.md">Tests A/B</a> - <a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/tracking/tracking" target="_blank">Suivi des messages</a> - <a href="delivery/using/about-deliverability.md">Délivrabilité</a> - <a href="message-center/using/about-transactional-messaging.md">Messages transactionnels</a>
     </td>
   </tr>
   <tr style="border: 0;">

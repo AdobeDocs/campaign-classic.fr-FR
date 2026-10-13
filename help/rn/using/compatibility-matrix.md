@@ -33,7 +33,7 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 100%
@@ -474,7 +474,7 @@ Téléchargez Microsoft Edge WebView2 à partir du [site Microsoft Developer]
 
 Vous pouvez utiliser Campaign pour [envoyer des notifications push](../../delivery/using/about-mobile-app-channel.md) via le SDK mobile Adobe Experience Platform en configurant l’extension Adobe Campaign dans l’interface utilisateur de collecte de données.
 
-Le SDK Campaign est [obsolète](deprecated-features.md) à partir de Campaign 7.4. Pour garantir une transition fluide de la mise en œuvre existante vers le SDK mobile d’AEP, vous pouvez toujours utiliser AEP sur les systèmes d’exploitation répertoriés ci-dessous<!--, using the associated [mobile SDK](../../delivery/using/integrating-campaign-sdk-into-the-mobile-application.md)-->.
+Le SDK Campaign est [obsolète](deprecated-features.md) à partir de Campaign 7.4. Pour garantir une transition fluide de la mise en œuvre existante vers le SDK mobile d’AEP, vous pouvez toujours utiliser AEP sur les systèmes d’exploitation répertoriés ci-dessous<!--, using the associated [mobile SDK](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation)-->.
 
 
 <table>

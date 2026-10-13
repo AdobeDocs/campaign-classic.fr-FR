@@ -23,10 +23,10 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 98%
+source-wordcount: '1259'
+ht-degree: 95%
 ---
 # Architecture des messages transactionnels {#transactional-messaging-architecture}
 
@@ -201,7 +201,7 @@ Pour utiliser le module des messages transactionnels avec LINE, les éléments s
 
 * Installez le package **[!UICONTROL LINE Connect]** sur les deux instances.
 * Installez le package **[!UICONTROL Contrôle des messages transactionnels]** sur l’instance marketing et le package **[!UICONTROL Exécution des messages transactionnels]** sur l’instance d’exécution.
-* Créez un **compte externe** et **service** LINE sur les deux instances avec des noms identiques pour les synchroniser. Pour plus d&#39;informations sur la création d&#39;un compte externe et d&#39;un service LINE, consultez [cette section](../../delivery/using/line-channel.md#setting-up-line-channel).
+* Créez un **compte externe** et **service** LINE sur les deux instances avec des noms identiques pour les synchroniser. Pour plus d’informations sur la création d’un compte externe et d’un service LINE, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/other-channels/line#setting-up-line-channel){target="_blank"} (documentation de Campaign v8).
 
 Depuis l&#39;**[!UICONTROL Explorateur]**, dans **[!UICONTROL Plateforme]** > **[!UICONTROL Compte externe]**, vous devez ensuite configurer les différents comptes externes sur les deux instances :
 

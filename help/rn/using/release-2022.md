@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '2187'
-ht-degree: 98%
+source-wordcount: '2204'
+ht-degree: 97%
 ---
 # Versions 2022{#release-2022}
 
@@ -60,7 +60,7 @@ _1er juillet 2022_
 <tbody> 
 <tr> 
 <td> <p>Avec iOS 15, Apple a ajouté une notion de notification urgente qui permet à la personne qui développe l’application de contourner le mode Focus lorsqu’une notification est considérée comme urgente et doit atteindre l’utilisateur ou l’utilisatrice en temps réel.</p>
-<p>Découvrez comment créer une notification urgente dans la <a href="../../delivery/using/create-notifications-ios.md">documentation détaillée</a>.</p>
+<p>Découvrez comment créer une notification urgente dans la <a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/push/rich-push/rich-push-ios" target="_blank">documentation détaillée</a> (documentation de Campaign v8).</p>
 </td> 
 </tr> 
 </tbody> 

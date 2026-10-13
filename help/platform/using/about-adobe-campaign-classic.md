@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Customer engagement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 586c6688e2abd3b6e55389bd1fa219d2c596d07d
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 100%
@@ -121,7 +121,7 @@ Adobe Campaign offers a set of capabilities to help you implementing and optimiz
 
 The following capabilities are available. Depending on your license agreement, some of these capabilities can be available or not in your instance.
 
-* [Channels](../../delivery/using/steps-about-delivery-creation-steps.md) - design and send deliveries on various channels: email, SMS, Line, mobile app, direct mail,
+* [Channels](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/create-message){target="_blank"} (Campaign v8 documentation) - design and send deliveries on various channels: email, SMS, Line, mobile app, direct mail,
 * [Campaign](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-orchestration/set-up-campaigns){target="_blank"} (Campaign v8 documentation) - orchestrate cross-channel campaigns,
 * [MRM](https://experienceleague.adobe.com/fr/docs/campaign/automation/mrm/about-marketing-resource-management){target="_blank"} (Campaign v8 documentation) - manage marketing resources and budgets,
 * [Interaction](../../interaction/using/interaction-and-offer-management.md) - managing offers with Campaign,

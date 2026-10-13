@@ -41,14 +41,18 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 100%
+source-wordcount: '598'
+ht-degree: 95%
 ---
 # Résolution des problèmes de délivrabilité{#deliverability-faq}
 
 Vous rencontrez un problème de délivrabilité ? La solution se trouve peut-être ici.
+
+Dans le cadre de la transition de Campaign v7 vers v8, le jeu de documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur les quarantaines, leur place sur la liste bloquée et la manière d’en supprimer une adresse, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/quarantines){target=_blank}.
+
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/quarantines){target=_blank}
 
 ## Erreur de règle MX {#mx-rule-error}
 
@@ -75,29 +79,7 @@ Si vous recevez toujours le même message d&#39;erreur pour un FAI, il se peut q
 
 Si le problème persiste, contactez les services commerciaux, les services chargés de la délivrabilité ou l&#39;[Assistance clientèle d’Adobe Campaign](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
-## Liste bloquée et quarantaine {#denylist-versus-quarantine}
-
-* **Quelle est la différence entre une adresse email en liste bloquée et une adresse email en quarantaine ?**
-
-  * Le statut **[!UICONTROL Placé sur la liste bloquée]** signifie qu’une personne a déclaré un message comme étant un spam.
-
-  * L’application du statut **[!UICONTROL Quarantaine]** est le résultat d’un rebond temporaire ou définitif.
-
-  Voir à ce propos [cette section](delivery-failures-quarantine.md#quarantine-vs-denylist).
-
-* **À quoi correspondent les différentes raisons de mise en quarantaine ?**
-
-  Il existe dix raisons de mise en quarantaine : non définie, utilisateur inconnu, domaine invalide, sur liste bloquée, refusé, erreur ignorée, inatteignable, compte désactivé, boîte pleine, non connecté.
-
-  Pour plus d’informations, voir [Comprendre la gestion des quarantaines](delivery-failures-quarantine.md).
-
-## Retrait de la liste bloquée {#remove-from-denylist}
-
-* **Un de mes destinataires a été ajouté par erreur à la liste bloquée. Comment puis-je le retirer de la liste bloquée pour pouvoir lui envoyer à nouveau des messages ?**
-
-  * Sélectionnez **[!UICONTROL Administration > Gestion de campagne > Gestion des NP@I > NP@I et Adresses]**.
-  * Dans l’écran de détails de l’enregistrement correspondant, changez la valeur du champ **[!UICONTROL Statut]** à **[!UICONTROL Valide]**.
-  * Sauvegardez l’enregistrement.
+## Suppression d’une adresse IP d’un place sur la liste bloquée {#remove-from-denylist}
 
 * **Comment puis-je savoir si l&#39;une de mes adresses IP est sur une liste bloquée ? Comment supprimer mes adresses IP d’une liste bloquée ?**
 

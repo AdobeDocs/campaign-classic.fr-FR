@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
 workflow-type: tm+mt
-source-wordcount: '1771'
-ht-degree: 100%
+source-wordcount: '1797'
+ht-degree: 98%
 ---
 # Diffusions en échec et gestion des quarantaines {#delivery-failures-quarantine}
 
@@ -105,7 +105,7 @@ Les statuts de qualification des mails rebonds sont les suivants :
 
 >[!NOTE]
 >
->En cas de panne d&#39;un fournisseur de services Internet, les emails envoyés par le biais de Campaign seront incorrectement marqués comme des rebonds. Pour corriger ce problème, vous devez mettre à jour la qualification des rebonds. Pour plus d’informations à ce sujet, consultez [cette page](update-bounce-qualification.md).
+>En cas de panne d&#39;un fournisseur de services Internet, les emails envoyés par le biais de Campaign seront incorrectement marqués comme des rebonds. Pour corriger ce problème, vous devez mettre à jour la qualification des rebonds. Pour plus d’informations à ce sujet, consultez [cette page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (documentation de Campaign v8).
 
 ### Configuration des règles de gestion des e-mails {#email-management-rules}
 
@@ -245,7 +245,7 @@ Pour plus d’informations sur les scénarios de mise en quarantaine des SMS et 
 * [Statuts de diffusion](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-statuses){target="_blank"} (documentation de Campaign v8)
 * [Workflow de nettoyage de la base de données](../../production/using/database-cleanup-workflow.md) (v7 hybride/on-premise)
 * [Configuration des reprises de diffusion](communication-channels.md) (v7 hybride/on-premise)
-* [Mise à jour de la qualification des rebonds](update-bounce-qualification.md) (v7 hybride/on-premise)
+* [Mettre à jour la qualification des bounces](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/quarantines){target="_blank"} (documentation de Campaign v8) (v7 hybride/on-premise)
 * [Configuration de la délivrabilité des e-mails](../../installation/using/email-deliverability.md) (v7 hybride/on-premise)
 * [Déploiement d’une instance](../../installation/using/deploying-an-instance.md#managing-bounced-emails) (v7 hybride/on-premise)
 
