@@ -82,7 +82,7 @@ Vous pouvez aussi vous connecter à l’aide d’un identifiant et d’un mot de
 
 1. Cliquez sur **[!UICONTROL SE CONNECTER]** pour valider.
 
-Vous pouvez désormais accéder à [l’espace de travail ](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} (documentation de Campaign v8).
+Vous pouvez désormais accéder à [l’espace de travail &#x200B;](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} (documentation de Campaign v8).
 
 ## Configurer des connexions {#setting-up-connections}
 

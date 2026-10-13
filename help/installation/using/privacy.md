@@ -117,7 +117,7 @@ Pour activer la signature d&#39;URL, procédez comme suit sur tous les serveurs 
 
 Vous devez vous assurer que l’accès aux mots de passe chiffrés est impossible pour toute personne authentifiée disposant de privilèges restreints. Pour cela, vous devez restreindre l’accès aux champs de mots de passe uniquement ou à l’entité entière (une version >= 8770 est requise).
 
-Cette restriction vous permet de supprimer les champs de mots de passe. Le compte externe reste toutefois accessible par tous les utilisateurs dans l’interface. [ En savoir plus ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/restrict-pi-view){target="_blank"} (documentation de Campaign v8).
+Cette restriction vous permet de supprimer les champs de mots de passe. Le compte externe reste toutefois accessible par tous les utilisateurs dans l’interface. [&#x200B; En savoir plus &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/restrict-pi-view){target="_blank"} (documentation de Campaign v8).
 
 Pour ce faire, suivez les étapes ci-après :
 
