@@ -32,10 +32,10 @@ subfeature_v2:
     internal-label: Access management
   - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
     internal-label: Monitoring guidelines
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 100%
+source-wordcount: '211'
+ht-degree: 89%
 ---
 # Surveillance de l’exécution des traitements {#monitoring-job-execution}
 
@@ -46,7 +46,7 @@ Vous pouvez suivre l&#39;exécution de vos traitements d&#39;import et d&#39;exp
 ![](assets/s_ncs_user_export_list_and_details.png)
 
 * L&#39;onglet **[!UICONTROL Journal]** permet de consulter les messages de logs relatifs à l&#39;exécution.
-* L’onglet **[!UICONTROL Rejets]** contient les enregistrements rejetés. Consultez [cette section](../../platform/using/executing-import-jobs.md#behavior-in-the-event-of-an-error).
+* L’onglet **[!UICONTROL Rejets]** contient les enregistrements rejetés. Voir [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/import#behavior-in-the-event-of-an-error){target="_blank"} (documentation de Campaign v8).
 
 Dans l&#39;onglet **[!UICONTROL Général]**, le champ **[!UICONTROL Statut]** indique le statut actuel d&#39;un traitement.
 

@@ -39,7 +39,7 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 100%
@@ -143,7 +143,7 @@ For the three types of packages, the assistant offers the following steps:
 
    >[!NOTE]
    >
-   >The query editor is presented in [this section](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign).
+   >The query editor is presented in [this section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"} (Campaign v8 documentation).
 
 1. Click **[!UICONTROL Next]** and select the sorting columns to order the data during extraction:
 

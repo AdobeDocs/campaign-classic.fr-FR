@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Customer engagement
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
+source-git-commit: 7b7f6d2ad5e5d09880f05c7e99ea8ede770532ab
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 100%
+source-wordcount: '241'
+ht-degree: 82%
 ---
 # Prise en main de Campaign Classic{#about-adobe-campaign-classic}
 
@@ -57,9 +57,9 @@ Adobe Campaign permet de coordonner la création de campagnes marketing convers
 
 >[!TAB Commencer avec Campaign]
 
-Pour en savoir plus sur les fonctionnalités d’Adobe Campaign et sur la manière de commencer à les utiliser, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/get-started){target=_blank}.
+Pour découvrir comment commencer à utiliser la console cliente Adobe Campaign et son interface utilisateur, reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
 
-[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/get-started){target=_blank}
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
 
 >[!TAB Lancer Campaign]
 
@@ -69,9 +69,9 @@ Pour en savoir plus sur les fonctionnalités d’Adobe Campaign et sur la mani�
 
 >[!TAB Parcourir l’interface d’utilisation de Campaign]
 
-* Découvrez l’interface d’utilisation d’Adobe Campaign [sur cette page](adobe-campaign-workspace.md).
+* Découvrez l’interface utilisateur d’Adobe Campaign [sur cette page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} (documentation de Campaign v8).
 
-* Découvrez comment utiliser [l’explorateur de Campaign](adobe-campaign-workspace.md#using-adobe-campaign-explorer).
+* Découvrez comment utiliser l&#39;[explorateur Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui#ac-explorer-ui){target="_blank"} (documentation de Campaign v8).
 
 >[!ENDTABS]
 
@@ -95,7 +95,7 @@ Profile management basics are explained in [About profiles](../../platform/using
 
 ### Targeted segmentation {#targeted-segmentation}
 
-Adobe Campaign has powerful, user-friendly segmentation and targeting features that let you create highly targeted, differentiated offers. The descriptive analysis functionality lets you analyze information upstream and downstream of your marketing campaigns, and the filter management and [graphical query editor](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign) functionality lets you filter your subscriber population and sample or create target groups based on an unlimited number of criteria. The analysis and targeting features are described in [this page](../../reporting/using/about-descriptive-analysis.md) and in the [Creating filters](../../platform/using/creating-filters.md) section.
+Adobe Campaign has powerful, user-friendly segmentation and targeting features that let you create highly targeted, differentiated offers. The descriptive analysis functionality lets you analyze information upstream and downstream of your marketing campaigns, and the filter management and [graphical query editor](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"} (Campaign v8 documentation) functionality lets you filter your subscriber population and sample or create target groups based on an unlimited number of criteria. The analysis and targeting features are described in [this page](../../reporting/using/about-descriptive-analysis.md) and in the [Creating filters](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-filters){target="_blank"} (Campaign v8 documentation) section.
 
 The advanced Data Management functionality extends the data processing capabilities. It simplifies and optimizes the targeting process by including data not modeled in the datamart. This functionality is detailed in [this page](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/introduction/wf-type/targeting-workflows){target="_blank"} (Campaign v8 documentation).
 

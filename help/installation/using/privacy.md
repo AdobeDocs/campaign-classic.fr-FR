@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 98%
+source-wordcount: '936'
+ht-degree: 94%
 ---
 # Personnalisation et confidentialité {#privacy}
 
@@ -60,7 +60,7 @@ Lorsque vous ajoutez des liens personnalisés à votre contenu, évitez toujours
 
 ### Recommandation
 
-Pour valider et vous assurer que vous n’utilisez pas les éléments ci-dessus, exécutez une requête sur la table des URL de tracking à l’aide du [requêteur générique de Campaign](../../platform/using/adobe-campaign-workspace.md#about-queries-in-campaign) ou créez un workflow avec des critères de filtre dans l’activité de requête. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=fr){target="_blank"}.
+Pour valider et vous assurer que vous n’utilisez pas ce qui précède, exécutez une requête sur la table des URL de tracking via [Éditeur de requêtes générique Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"} (documentation de Campaign v8) ou créez un workflow avec des critères de filtre dans l’activité de requête. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=fr){target="_blank"}.
 
 Exemple :
 

@@ -22,10 +22,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 100%
+source-wordcount: '920'
+ht-degree: 98%
 ---
 # Publier, suivre et utiliser les données collectées{#publish-track-and-use-collected-data}
 
@@ -125,7 +125,7 @@ Les réponses à un questionnaire peuvent être exportées dans un fichier exter
 
    >[!NOTE]
    >
-   >Le déroulement d&#39;un export de données et les étapes de son paramétrage sont détaillés dans [cette section](../../platform/using/about-generic-imports-exports.md).
+   >Les exportations de données et les étapes de leur configuration sont détaillées dans [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/import){target="_blank"} (documentation de Campaign v8).
 
 ## Utiliser les données collectées {#using-the-collected-data}
 

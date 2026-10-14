@@ -8,9 +8,9 @@ user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '1739'
+source-wordcount: '1657'
 ht-degree: 100%
 ---
 
@@ -32,36 +32,22 @@ ht-degree: 100%
 + Commencer {#getting-started}
   + [Prise en main d’Adobe Campaign Classic](platform/using/about-adobe-campaign-classic.md)
   + [Lancement d’Adobe Campaign](platform/using/launching-adobe-campaign.md)
-  + [Découvrir l’interface d’utilisation de Campaign](platform/using/adobe-campaign-workspace.md)
-  + {hide-from-toc}[Utiliser l’explorateur de Campaign - MASQUÉ](platform/using/adobe-campaign-explorer.md)
-  + {hide-from-toc}[Parcourir et personnaliser les listes - MASQUÉ](platform/using/adobe-campaign-ui-lists.md)
-  + {hide-from-toc}[Énumérations - MASQUÉ](platform/using/managing-enumerations.md)
   + [Connecteurs Campaign](platform/using/about-connectors.md)
   + Questions fréquentes {#faq}
     + [Questions fréquentes sur Campaign Classic](platform/using/faq-campaign-classic-v7.md)
     + [Mise à niveau de build](platform/using/faq-build-upgrade.md)
-  + {hide-from-toc}[Glossaire - MASQUÉ](platform/using/ac-glossary.md)
   + Confidentialité {#privacy}
     + [Confidentialité et consentement](platform/using/privacy-and-recommendations.md)
     + [Gestion de la confidentialité](platform/using/privacy-management.md)
     + Demandes d&#39;accès à des informations personnelles {#privacy-requests}
-      + [À propos des demandes d&#39;accès à des informations personnelles](platform/using/privacy-requests.md)
       + [Créer et gérer les demandes d’accès à des informations personnelles](platform/using/privacy-requests-ui.md)
       + [Processus automatique de demande d&#39;accès à des informations personnelles](platform/using/privacy-requests-api.md)
     + [Droit d&#39;opposition (opt-out) à la vente des informations personnelles](platform/using/privacy-requests-ccpa.md)
   + Gestion des profils {#profile-management}
     + [À propos des profils](platform/using/about-profiles.md)
     + [Mise à jour de données](platform/using/updating-data.md)
-    + [Créer et gérer des listes](platform/using/creating-and-managing-lists.md)
   + Importer et exporter des données {#importing-and-exporting-data}
-    + [Prise en main de l&#39;import et de l&#39;export de données](platform/using/get-started-data-import-export.md)
-    + [Utilisation de workflows pour importer et exporter des données](platform/using/import-export-workflows.md)
     + Créer des imports et des exports génériques {#generic-imports-exports}
-      + [Prise en main des imports et exports génériques](platform/using/about-generic-imports-exports.md)
-      + [Création de modèles d’import et d’export](platform/using/creating-import-export-templates.md)
-      + [Création de traitements d’import et d’export](platform/using/creating-import-export-jobs.md)
-      + [Configuration des traitements d’import](platform/using/executing-import-jobs.md)
-      + [Configuration des traitements d’export](platform/using/executing-export-jobs.md)
       + [Surveillance de l’exécution des traitements](platform/using/monitoring-jobs-execution.md)
       + [Exemples d&#39;import générique](platform/using/import-operations-samples.md)
     + Gérer le chiffrement et la compression des données {#managing-data-encryption-compression}
@@ -70,16 +56,11 @@ ht-degree: 100%
     + Bonnes pratiques et résolution des problèmes {#best-practices}
       + [Bonnes pratiques en matière d&#39;import et d&#39;export](platform/using/import-export-best-practices.md)
       + [Bonnes pratiques et résolution des problèmes liés au serveur SFTP](platform/using/sftp-server-usage.md)
-  + Filtrer des données {#filtering-data}
-    + {hide-from-toc}[Créer des filtres - MASQUÉ](platform/using/creating-filters.md)
-  + {hide-from-toc}[Procédure à suivre pour créer une requête - MASQUÉ](platform/using/steps-to-create-a-query.md)
-  + {hide-from-toc}[Définir des conditions de filtre - MASQUÉ](platform/using/defining-filter-conditions.md)
   + Autorisations {#permissions}
     + [Commencer avec les autorisations](platform/using/access-management.md)
     + Authentification native (héritée) {#native}
       + [Création et gestion d’opérateurs](platform/using/access-management-operators.md)
       + [Création et gestion de groupes](platform/using/access-management-groups.md)
-    + [Utiliser des droits nommés pour configurer des autorisations](platform/using/access-management-named-rights.md)
   + Connecteurs CRM {#connectors}
     + [Prise en main des connecteurs CRM](platform/using/crm-connectors.md)
 + Créer et envoyer des messages {#sending-messages}

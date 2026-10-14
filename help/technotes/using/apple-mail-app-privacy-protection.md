@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 586c6688e2abd3b6e55389bd1fa219d2c596d07d
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '2179'
-ht-degree: 98%
+source-wordcount: '2191'
+ht-degree: 97%
 ---
 # Protection de la confidentialité des e-mails dans l’application Mail d’Apple
 
@@ -369,7 +369,7 @@ Pour toutes ces raisons, il est vivement recommandé d’exporter ces données d
 
 #### Comment conserver les données de tracking ?
 
-Pour conserver les données de tracking, vous devez les exporter depuis Adobe Campaign pour les transférer vers votre système d’informations. [En savoir plus](../../platform/using/get-started-data-import-export.md).
+Pour conserver les données de tracking, vous devez les exporter depuis Adobe Campaign pour les transférer vers votre système d’informations. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/import){target="_blank"} (documentation de Campaign v8).
 
 >[!IMPORTANT]
 >

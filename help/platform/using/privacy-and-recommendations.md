@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 100%
@@ -155,7 +155,7 @@ Privacy management refer to all the processes and tools that can help you comply
 Adobe Campaign provides you with various sets of features dedicated to privacy management:
 * Consent management, data Retention and user Roles. See [this section](#consent).
 * Privacy requests (Right to Access and Right to be Forgotten). See [this section](#privacy-requests).
-* Opt-out for the Sale of Personal Information (CCPA-specific). See [this section](../../platform/using/privacy-requests.md#sale-of-personal-information-ccpa).
+* Opt-out for the Sale of Personal Information (CCPA-specific). See [this section](privacy-requests-ccpa.md).
 
 The main Privacy capabilities in Campaign and an example of the personas involved are presented in [this section](https://helpx.adobe.com/campaign/kb/campaign-privacy-more.html#gdprpersonasandflow).
 
@@ -179,7 +179,7 @@ Adobe Campaign provides additional capabilities to help you facilitate your read
 
 The **Access** and **Delete** requests are presented in [this section](../../platform/using/privacy-management.md#right-access-forgotten).
 
-The implementation steps to create these requests are detailed in [this section](../../platform/using/privacy-requests.md).
+The implementation steps to create these requests are detailed in [this section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/privacy/privacy){target="_blank"} (Campaign v8 documentation).
 
 ## Tracking capabilities {#tracking-capabilities}
 

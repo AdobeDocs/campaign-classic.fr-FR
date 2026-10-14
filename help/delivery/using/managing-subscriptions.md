@@ -38,10 +38,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 100%
+source-wordcount: '1182'
+ht-degree: 99%
 ---
 # Gestion des abonnements{#managing-subscriptions}
 
@@ -156,7 +156,7 @@ Pour inscrire des destinataires à un service d&#39;information, vous pouvez :
 * Abonnez automatiquement un ensemble de personnes destinataires à ce service. La liste des personnes destinataires peut provenir d’une opération de filtrage, d’un groupe, d’un dossier, d’un import ou d’une sélection manuelle directe à l’aide de la souris. Pour abonner ces destinataires, sélectionnez les profils et cliquez avec le bouton droit de la souris. Sélectionnez **[!UICONTROL Actions > Abonner la sélection à un service]**, puis sélectionnez le service concerné et lancez l&#39;opération.
 * Importez des destinataires et abonnez-les automatiquement à un service d’information. Pour cela, sélectionnez le service concerné dans la dernière étape de l’assistant d’import.
 
-  Pour plus d’informations, consultez [cette section](../../platform/using/executing-import-jobs.md).
+  Pour en savoir plus à ce sujet, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/import){target="_blank"} (documentation de Campaign v8).
 
 * Utiliser un formulaire web pour que les destinataires puissent s&#39;abonner à un service.
 

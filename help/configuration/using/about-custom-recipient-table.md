@@ -34,10 +34,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
+source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 100%
+source-wordcount: '710'
+ht-degree: 97%
 ---
 # Utilisation d’une table des destinataires personnalisée{#about-custom-recipient-table}
 
@@ -84,7 +84,7 @@ L’utilisation d’une table de destinataires personnalisée implique les limit
 
 * Il n&#39;est pas possible d&#39;ajouter manuellement des profils dans une liste.
 
-  Ainsi, le fonctionnement présenté dans [cette section](../../platform/using/creating-and-managing-lists.md) n&#39;est pas applicable sans une configuration supplémentaire.
+  Par conséquent, la procédure détaillée dans [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-audiences/create-audiences){target="_blank"} (documentation de Campaign v8) n’est pas applicable sans configuration supplémentaire.
 
   >[!NOTE]
   >
