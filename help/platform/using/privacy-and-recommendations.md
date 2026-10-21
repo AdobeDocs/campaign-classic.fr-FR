@@ -79,7 +79,7 @@ Adobe Campaign is part of the Adobe Experience Cloud solutions. The way privacy 
 
     >[!NOTE]
     >
-    >As for all Adobe products, Campaign collects information about app and website users. For more on this, see the [Adobe Privacy Policy](https://www.adobe.com/privacy/policy.html).
+    >As for all Adobe products, Campaign collects information about app and website users. For more on this, see the [Adobe Privacy Policy](https://www.adobe.com/fr/privacy/policy.html).
 
 * **How Adobe Experience Cloud is used to collect information**
 
