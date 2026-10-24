@@ -20,7 +20,7 @@ subfeature_v2:
 source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
 workflow-type: tm+mt
 source-wordcount: '925'
-ht-degree: 96%
+ht-degree: 100%
 ---
 # Migrer vers l’API Adobe Analytics 2.0 {#analytics-2-migration}
 
@@ -28,7 +28,7 @@ Les API d’Adobe Analytics 1.4 [arrivent en fin de vie](https://developer.ado
 
 >[!CAUTION]
 >
->La mise à niveau réimporte les deux workflows techniques intégrés qui alimentent le connecteur, [!UICONTROL webAnalyticsSendMetrics] et [!UICONTROL webAnalyticsGetWebEvents] (voir la [référence des workflows Web Analytics](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows){target="_blank"} (documentation de Campaign v8) pour savoir ce que chacun fait). Toute personnalisation effectuée en plus de ces workflows est remplacée par la réimportation. Évitez de modifier directement ces workflows intégrés : créez plutôt votre personnalisation dans un workflow personnalisé distinct, de sorte que les futures mises à niveau ne la remplacent pas. La mise à niveau met également à jour les fichiers JavaScript Analytics intégrés : si l’un de vos workflows personnalisés fait référence à ces fichiers, il cessera de fonctionner et devra être adapté au nouveau code.
+>La mise à niveau réimporte les deux workflows techniques intégrés qui alimentent le connecteur, [!UICONTROL webAnalyticsSendMetrics] et [!UICONTROL webAnalyticsGetWebEvents] (consultez la [référence des workflows Web Analytics](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows){target="_blank"} (documentation de Campaign v8) pour connaître le rôle de chacun). Toute personnalisation effectuée en plus de ces workflows est remplacée par la réimportation. Évitez de modifier directement ces workflows intégrés : créez plutôt votre personnalisation dans un workflow personnalisé distinct, de sorte que les futures mises à niveau ne la remplacent pas. La mise à niveau met également à jour les fichiers JavaScript Analytics intégrés : si l’un de vos workflows personnalisés fait référence à ces fichiers, il cessera de fonctionner et devra être adapté au nouveau code.
 
 ## Cela vous concerne-t-il ? {#are-you-impacted}
 
