@@ -44,9 +44,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '919'
-ht-degree: 97%
+ht-degree: 100%
 ---
 # Gestion de la confidentialité {#privacy-management}
 
@@ -97,12 +97,12 @@ Pour faciliter la préparation à la protection des données, Adobe Campaign pe
 
 * Également appelé « Effacement de données », le **Droit à l’oubli** (demande de suppression) autorise le titulaire de données à demander au contrôleur de données d’effacer ses données personnelles, de cesser la diffusion des données et de faire éventuellement cesser le traitement des données par des tiers.
 
-Pour découvrir comment créer des demandes **d’accès** et **de suppression** et comment elles sont traitées par Adobe Campaign, consultez la [procédure d’implémentation](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/privacy/privacy){target="_blank"} (documentation de Campaign v8).
+Pour découvrir comment créer des demandes d’**accès** et de **suppression**, ainsi que leur traitement par Adobe Campaign, consultez la section [Étapes de mise en œuvre](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/privacy/privacy){target="_blank"} (documentation de Campaign v8).
 
 <!--
-Tutorials on Privacy management in Campaign Standard are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=fr).
+Tutorials on Privacy management in Campaign Standard are also available [here](https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html).
 
-https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html?lang=fr
+https://experienceleague.adobe.com/docs/campaign-standard-learn/tutorials/privacy/privacy-overview.html
 -->
 
 ## Consentement, conservation des données et rôles {#consent-retention-roles}

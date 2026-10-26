@@ -39,9 +39,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3901'
-ht-degree: 97%
+ht-degree: 100%
 ---
 # Liste des options de Campaign Classic{#configuring-campaign-options}
 
@@ -202,7 +202,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsInmail_AllowlistEmails</span> <br /> </td> 
-   <td> Liste des adresses e-mail de transfert autorisées (à partir du module de traitement des e-mails entrants). Les adresses doivent être séparées par des virgules (ou * pour autoriser tout). E.g. xyz@abc.com,pqr@abc.com.<br /> </td> 
+   <td> Liste des adresses e-mail de transfert autorisées (à partir du module de traitement des e-mails entrants). Les adresses doivent être séparées par des virgules (ou * pour autoriser tout). Par exemple xyz@abc.com,pqr@abc.com.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NmsLine_AESKey</span> <br /> </td> 
@@ -714,7 +714,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">XtkSequence_AutoGeneration</span> <br /> </td> 
-   <td> Tous les schémas personnalisés créés après cette période et qui comprennent autopk=« true », mais pas l’attribut « pkSequence », obtiendront une séquence générée automatiquement « auto_ 
+   <td> Tous les schémas personnalisés, créés après cette période, avec autopk="true" et sans l’attribut « pkSequence » obtiendront une séquence générée automatiquement « auto_ 
     &lt;schemanamespace&gt; 
      &lt;schemaname&gt;
        _seq. 
@@ -722,7 +722,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">NlMigration_KeepFolderStructure</span> <br /> </td> 
-   <td> Lors de la migration, l’arborescence est automatiquement réorganisée en fonction des nouvelles normes de version.<br /> Cette option permet de désactiver la migration automatique de l’arborescence de navigation. Si vous l'utilisez, après la migration vous devrez supprimer les dossiers obsolètes, ajouter les nouveaux dossiers et effectuer toutes les vérifications nécessaires.<br /> 
+   <td> Pendant la migration, la structure arborescente est automatiquement réorganisée selon les normes de la nouvelle version.<br /> Cette option vous permet de désactiver la migration automatique de l’arbre de navigation. Si vous l'utilisez, après la migration vous devrez supprimer les dossiers obsolètes, ajouter les nouveaux dossiers et effectuer toutes les vérifications nécessaires.<br /> 
     <ul> 
      <li> <p> <span class="uicontrol">Type de données :</span> entier</p> </li> 
      <li> <p> <span class="uicontrol">Valeur (texte)</span> : 1 </p> </li> 
@@ -763,7 +763,7 @@ Le nœud **[!UICONTROL Administration / Plateforme / Options]** vous permet de p
   </tr> 
   <tr> 
    <td> <span class="uicontrol">LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</span> <br /> </td> 
-   <td> Cette option est utilisée lors de l’importation de données à partir d’un système tiers via un connecteur CRM. L'activation de cette option permet de ne collecter que les objets modifiés depuis la dernière exécution de l'import. Cette option doit être créée et renseignée manuellement comme ci-dessous : 
+   <td> Cette option est utilisée lors de l’import de données à partir d’un système tiers via un connecteur CRM. L’activation de l’option permet de ne collecter que les objets modifiés depuis la dernière exécution de l’import. Cette option doit être créée et renseignée manuellement comme suit : 
     <ul> 
      <li> <p> <span class="uicontrol">Nom interne</span> : LASTIMPORT_&lt;%=instance.internalName%&gt;_&lt;%=activityName%&gt;</p> </li> 
      <li> <p> <span class="uicontrol">Valeur (champ)</span>:mm: : date de la dernière importation au format aaaa/mm/jj hh:mm:ss. </p> </li> 

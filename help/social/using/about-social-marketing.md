@@ -24,7 +24,7 @@ subfeature_v2:
   - id: c35aa8ae-39a1-5077-a11b-97cb512e4004
     internal-label: Social Marketing
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '99'
 ht-degree: 100%
 ---

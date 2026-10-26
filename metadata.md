@@ -1,7 +1,7 @@
 ---
 cloud: Experience Cloud
 description: Documentation de Campaign Classic
-git-repo: https://github.com/AdobeDocs/campaign-classic.fr-FR
+git-repo: https://github.com/AdobeDocs/campaign-classic.en
 solution: Campaign, Campaign Classic v7
 usetq: true
 version: Campaign Classic v7
@@ -15,7 +15,7 @@ product_v2:
   - id: fd6e6e36-54e4-4f1a-96fc-1a750e400d50
     internal-label: Campaign Classic v7
 source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8'
 ht-degree: 100%
 ---

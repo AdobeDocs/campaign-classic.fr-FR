@@ -30,9 +30,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
 source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '432'
-ht-degree: 91%
+ht-degree: 100%
 ---
 # Implémentation des méthodes SOAP{#implementing-soap-methods}
 
@@ -53,13 +53,13 @@ La création d&#39;une bibliothèque de méthodes se divise en deux parties :
 
 ### Déclaration {#declaration}
 
-Commencez par déclarer les méthodes dans les schémas (pour plus d’informations sur la création et la modification des schémas, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentation de Campaign v8)).
+Les méthodes doivent d’abord être déclarées dans les schémas (pour en savoir plus sur la création et la modification des schémas, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentation de Campaign v8)).
 
 Leur déclaration est similaire à celle des méthodes natives. La seule différence est l’ajout de l’attribut &#39;library&#39; spécifiant le nom de la bibliothèque de méthodes dans laquelle se trouve la définition.
 
 Ce nom correspond au nom (avec l&#39;espace de noms) de l&#39;entité de type &#39;Code JavaScript&#39;.
 
-Exemple:
+Exemple :
 
 La méthode testLog(msg) est déclarée dans une extension nms:recipient.
 
@@ -93,7 +93,7 @@ Le nom de la fonction doit respecter le format suivant :
  <schema-namespace>_<schema-name>_<method-name>
 ```
 
-Exemple:
+Exemple :
 
 La fonction JavaScript suivante correspond à l&#39;implémentation de la méthode déclarée plus haut. Elle doit être définie dans l’entité de type « Code JavaScript » et de nom « cus:test ».
 
@@ -129,7 +129,7 @@ function nms_recipient_setLastName(self, name)
 
 Lorsque plusieurs valeurs doivent être renvoyées, elles doivent l’être sous la forme d’un tableau.
 
-Exemple:
+Exemple :
 
 ```
 function nms_recipient_getKey(self)

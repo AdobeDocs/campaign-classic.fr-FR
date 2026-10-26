@@ -17,7 +17,7 @@ subfeature_v2:
   - id: a72a22e0-8c8d-4019-ba42-3f2644aa91a3
     internal-label: Schema extension
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '209'
 ht-degree: 100%
 ---

@@ -31,9 +31,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: 7b7f6d2ad5e5d09880f05c7e99ea8ede770532ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '941'
-ht-degree: 97%
+ht-degree: 100%
 ---
 # Cas d’utilisation : sélectionner des adresses de contrôle selon des critères{#use-case-selecting-seed-addresses-on-criteria}
 
@@ -65,7 +65,7 @@ Pour créer une valeur commune comme celle utilisée dans notre exemple (Service
 
 ### Extension du schéma de données {#extending-the-data-schema}
 
-Pour plus d’informations sur les extensions de schéma, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/extend-schema){target="_blank"} (documentation de Campaign v8).
+Pour plus d’informations sur les extensions de schéma, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/extend-schema){target="_blank"} (documentation de Campaign v8).
 
 1. Dans le noeud **[!UICONTROL Administration > Paramétrage > Schémas de données]**, cliquez sur l&#39;icône **[!UICONTROL Nouveau]**.
 1. Dans la fenêtre **[!UICONTROL Création d&#39;un schéma de données]** sélectionnez l&#39;option **[!UICONTROL Extension d&#39;un schéma]** et cliquez sur **[!UICONTROL Suivant]**.

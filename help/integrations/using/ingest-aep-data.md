@@ -25,7 +25,7 @@ subfeature_v2:
   - id: b1fd1501-3105-4d6b-b4d4-9af53126df75
     internal-label: Target integration
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '324'
 ht-degree: 100%
 ---

@@ -53,9 +53,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1057'
-ht-degree: 92%
+ht-degree: 100%
 ---
 # Étapes de configuration pour Android
 
@@ -68,7 +68,7 @@ Les étapes clés sont les suivantes :
 1. [Création de l’application mobile dans Campaign](#creating-android-app)
 1. [Étendre le schéma de l’application avec des données supplémentaires](#extend-subscription-schema)
 
-Vous pourrez ensuite [créer une notification Android enrichie](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/push/rich-push/rich-push-android){target="_blank"} (documentation de Campaign v8).
+Vous pourrez alors [créer une notification Android enrichie](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/push/rich-push/rich-push-android){target="_blank"} (documentation de Campaign v8).
 
 >[!IMPORTANT]
 >
@@ -88,11 +88,11 @@ Pour sélectionner le connecteur à utiliser, procédez comme suit :
 1. Sélectionnez le compte externe de **[!UICONTROL routage Android]**.
 1. Dans l&#39;onglet **[!UICONTROL Connecteur]**, renseignez le champ **[!UICONTROL JavaScript du connecteur]** :
 
-   Pour Android V2 : https://localhost:8080/nms/jsp/androidPushConnectorV2.js
+   Pour Android V2 : https://localhost:8080/nms/jsp/androidPushConnectorV2.js
 
    >[!NOTE]
    >
-   > Vous pouvez également le configurer comme suit https://localhost:8080/nms/jsp/androidPushConnector.js mais nous vous conseillons d’utiliser la version 2 du connecteur.
+   > Vous pouvez également le configurer comme suit : https://localhost:8080/nms/jsp/androidPushConnector.js, mais nous vous conseillons d’utiliser la version 2 du connecteur.
 
    ![](assets/nmac_connectors3.png)
 
@@ -102,7 +102,7 @@ Pour sélectionner le connecteur à utiliser, procédez comme suit :
 
 ## Configuration d&#39;un service Android {#configuring-android-service}
 
-![](assets/do-not-localize/how-to-video.png) [Découvrez en vidéo comment configurer un service Android](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=fr#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign){target="_blank"}.
+![](assets/do-not-localize/how-to-video.png)[Découvrez en vidéo comment configurer un service Android](https://experienceleague.adobe.com/docs/campaign-classic-learn/getting-started-with-push-notifications-for-android/configuring-an-android-service-in-campaign.html?lang=fr#configuring-an-android-service-and-creating-an-android-mobile-application-in-campaign){target="_blank"}.
 
 1. Dans l&#39;arborescence, positionnez-vous sur le nœud **[!UICONTROL Profils et Cibles > Services et abonnements]** et cliquez sur le bouton **[!UICONTROL Nouveau]**.
 
@@ -135,7 +135,7 @@ Après avoir créé votre service, vous devez maintenant créer votre applicatio
 
    ![](assets/nmac_android.png)
 
-1. Assurez-vous que la même **[!UICONTROL clé d’intégration]** est définie dans Adobe Campaign et dans le code de l’application via le SDK.<!--For more on this, refer to [this section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation).-->
+1. Assurez-vous que la même **[!UICONTROL clé d’intégration]** est définie dans Adobe Campaign et dans le code de l’application via le SDK. <!--For more on this, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation).-->
 
    >[!NOTE]
    >
@@ -195,10 +195,10 @@ Vous trouverez ci-dessous les noms de payload FCM pour personnaliser davantage v
 
 Vous devez étendre la valeur **appsubscriptionRcp** pour définir de nouveaux champs supplémentaires afin de stocker les paramètres de l’application dans la base de données Campaign. Ces champs seront utilisés notamment pour la personnalisation. Pour ce faire :
 
-1. Créez une extension du schéma **[!UICONTROL Applications abonnées (nms:appsubscriptionRcp)]** et définissez les nouveaux champs. En savoir plus sur l’extension de schéma dans [cette page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentation de Campaign v8)
+1. Créez une extension du schéma **[!UICONTROL Applications abonnées (nms:appsubscriptionRcp)]** et définissez les nouveaux champs. En savoir plus sur l’extension de schéma dans [cette page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentation de Campaign v8)
 
 1. Définissez le mapping dans l’onglet **[!UICONTROL Paramètres d’abonnement]**.
 
    >[!CAUTION]
    >
-   >Assurez-vous que les noms des paramètres dans l’onglet **[!UICONTROL Paramètres d’abonnement]** sont les mêmes que dans le code de l’application mobile.<!--Refer to [this section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation).-->
+   >Assurez-vous que les noms des paramètres dans l’onglet **[!UICONTROL Paramètres d’abonnement]** sont les mêmes que dans le code de l’application mobile. <!--Refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/push-config){target="_blank"} (Campaign v8 documentation).-->

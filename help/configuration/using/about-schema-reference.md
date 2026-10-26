@@ -29,9 +29,9 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
 source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
-ht-degree: 77%
+ht-degree: 100%
 ---
 # Prise en main des schémas {#about-schema-reference}
 
@@ -39,7 +39,7 @@ ht-degree: 77%
 
 Ce chapitre explique comment configurer des schémas d’extension afin d’étendre le modèle conceptuel de données de la base de données Adobe Campaign.
 
-Pour une meilleure compréhension des tables intégrées de Campaign et de leur interaction, reportez-vous à la section [Modèle de données de &#x200B;](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/datamodel){target="_blank"} (documentation de Campaign v8).
+Pour une meilleure compréhension des tables intégrées de Campaign et de leur interaction, consultez la section [Modèle de données Campaign Classic](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/datamodel){target="_blank"} (documentation de Campaign v8).
 
 Dans Adobe Campaign, la structure physique et logique des données véhiculées dans l’application est décrite en XML. Un **schéma** est un document XML lié à une table de base de données. Il définit la structure des données et décrit la définition SQL de la table :
 
@@ -62,6 +62,6 @@ L&#39;illustration suivante montre la place des schémas dans le système de don
 
 ![](assets/reference_schema_intro.png)
 
-Dans le cadre de la transition de Campaign v7 vers v8, le jeu de documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur la syntaxe et l&#39;identification des schémas, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target=_blank}.
+Dans le cadre de la transition de Campaign v7 vers v8, la documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur la syntaxe et l’identification des schémas, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target=_blank}.
 
 [![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target=_blank}

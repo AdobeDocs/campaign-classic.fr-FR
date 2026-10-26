@@ -25,7 +25,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1197'
 ht-degree: 100%
 ---
@@ -188,6 +188,6 @@ Pour vous connecter à une instance existante, procédez comme suit :
 
 Cette vidéo explique comment installer et configurer le client Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/38267?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35124?quality=12)
 
 D’autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

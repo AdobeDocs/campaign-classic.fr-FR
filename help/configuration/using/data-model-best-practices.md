@@ -46,17 +46,17 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4135'
-ht-degree: 97%
+ht-degree: 100%
 ---
 # Bonnes pratiques relatives au modèle de données{#data-model-best-practices}
 
 Ce document présente les principales recommandations lors de la conception de votre modèle de données Adobe Campaign.
 
-Pour une meilleure compréhension des tables intégrées de Campaign et de leur interaction, reportez-vous à [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/datamodel){target="_blank"} (documentation de Campaign v8) .
+Pour une meilleure compréhension des tables intégrées de Campaign et de leur interaction, reportez-vous à [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/datamodel){target="_blank"} (documentation de Campaign v8).
 
-Pour commencer à utiliser les schémas de Campaign, lisez cette [documentation](../../configuration/using/about-schema-reference.md). Découvrez comment configurer des schémas d’extension afin d’étendre le modèle de données conceptuel de la base de données Adobe Campaign dans [ce document](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentation de Campaign v8).
+Pour commencer à utiliser les schémas de Campaign, lisez [cette documentation](../../configuration/using/about-schema-reference.md). Découvrez comment configurer des schémas d’extension afin d’étendre le modèle de données conceptuel de la base de données Adobe Campaign en consultant [ce document](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentation de Campaign v8).
 
 ## Vue d&#39;ensemble {#overview}
 
@@ -82,7 +82,7 @@ Le modèle de données par défaut d’Adobe Campaign est présenté dans ce [d
 
 >[!NOTE]
 >
->Adobe Campaign Classic permet de créer une table client personnalisée. Cependant, dans la plupart des cas, il est recommandé d’utiliser la [table de destinataires](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} standard (documentation de Campaign v8), qui contient des tables et des fonctionnalités supplémentaires préconfigurées.
+>Adobe Campaign Classic permet de créer une table client personnalisée. Cependant, dans la plupart des cas, il est recommandé de tirer profit de la [table des destinataires](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/datamodel#ootb-profiles){target="_blank"} standard (documentation de Campaign v8) qui contient des tables et des fonctionnalités supplémentaires préconfigurées.
 
 ### Données pour Adobe Campaign {#data-for-campaign}
 
@@ -185,7 +185,7 @@ Lorsqu’une table personnalisée est créée dans Adobe Campaign avec une clé
 
 Par défaut, une séquence personnalisée aura des valeurs comprises entre +1 000 et +2,1 milliards. Techniquement, il est possible d’obtenir un intervalle complet de 4 milliards de valeurs en activant les id négatifs. Cette approche doit être utilisée avec précaution. En effet, un id sera perdu lors du passage d’un nombre négatif à un nombre positif : l’enregistrement 0 est généralement ignoré par Adobe Campaign dans les requêtes SQL générées.
 
-Pour en savoir plus sur l’épuisement des séquences, regardez cette [vidéo](https://helpx.adobe.com/fr/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
+Pour en savoir plus sur l’épuisement des séquences, regardez cette [vidéo](https://helpx.adobe.com/customer-care-office-hours/campaign/sequences-exhaustion-campaign-classic.html).
 
 ## des index ; {#indexes}
 

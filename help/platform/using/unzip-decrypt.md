@@ -37,7 +37,7 @@ subfeature_v2:
   - id: d0dbac2b-cbd2-42b3-956e-60af02966728
     internal-label: Encryption
 source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '861'
 ht-degree: 100%
 ---
@@ -132,6 +132,6 @@ Les étapes pour traiter ce cas pratique sont les suivantes :
 
 Cette vidéo montre comment utiliser une clé GPG pour déchiffrer des données.
 
->[!VIDEO](https://video.tv.adobe.com/v/41358?captions=fre_fr&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/36482?quality=12)
 
 D&#39;autres vidéos pratiques sur Campaign Classic sont disponibles [ici](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=fr).

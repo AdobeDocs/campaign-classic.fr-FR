@@ -42,7 +42,7 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1557'
 ht-degree: 100%
 ---
@@ -111,7 +111,7 @@ Ce programme a trois objectifs principaux :
 
 À cet effet, les comptes nécessitant cette migration recevront un email de la part d’Adobe avec un calendrier et un accès à la documentation. Cette notification indiquera que la migration de votre compte est planifiée.
 
-Il est possible de déclencher une migration en [ouvrant un nouveau ticket de support auprès de l’Assistance clientèle](https://experienceleague.adobe.com/fr?support-solution=Campaign&lang=fr#support). Utilisez la ligne d’objet « Migration vers AWS ».
+Il est possible de déclencher une migration en [ouvrant un nouveau ticket de support auprès de l’Assistance clientèle](https://experienceleague.adobe.com/?support-solution=Campaign&lang=fr#support). Utilisez la ligne d’objet « Migration vers AWS ».
 
 ### Cette migration est-elle obligatoire ?
 

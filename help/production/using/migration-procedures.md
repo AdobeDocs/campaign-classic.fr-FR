@@ -3,7 +3,7 @@ product: campaign
 title: Procédures de migration
 description: Procédures de migration
 feature: Monitoring, Upgrade
-badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/fr/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 hide: true
@@ -26,7 +26,7 @@ subfeature_v2:
   - id: eff19c99-440a-4318-b319-444edc4d8d8f
     internal-label: Upgrade
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '104'
 ht-degree: 100%
 ---

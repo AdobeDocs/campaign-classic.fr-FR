@@ -3,7 +3,7 @@ product: campaign
 title: Surveillance des processus
 description: Découvrez comment surveiller les processus de Campaign
 feature: Monitoring
-badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/fr/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: production-procedures
@@ -30,9 +30,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3846'
-ht-degree: 99%
+ht-degree: 100%
 ---
 # Surveillance des processus{#monitoring-processes}
 
@@ -572,7 +572,7 @@ Cet élément permet de renseigner le paramétrage des mails, soit :
 * **mailServer** : serveur MTP utilisé pour envoyer les emails (ex : smtp.domain.net).
 * **mailFrom** : adresse email de l&#39;expéditeur du rapport (ex : monitoring@domain.net).
 * **recipientList** : liste des adresses email des destinataires d. Les adresses doivent être séparées par des virgules (sans espaces).
-* Le mode « **nuit** » (facultatif) permet d’éviter d’envoyer des emails entre les heures spécifiées. Au lieu de cela, les données sont consolidées et un e-mail concernant l’activité de la nuit est envoyé après l’heure de fin (7 h par défaut).
+* Le mode « **nuit** » (facultatif) permet d’éviter d’envoyer des emails entre les heures spécifiées. Les données sont alors consolidées et un e-mail concernant l’activité nocturne est envoyé après l’heure de fin (7 h 00 par défaut).
 * Le sous-élément **buildRange** (facultatif) vous permet de spécifier un nombre de build minimal et maximal. Une erreur sera générée pour toutes les machines dont le numéro de build ne tombe pas dans cette plage.
 
   ```

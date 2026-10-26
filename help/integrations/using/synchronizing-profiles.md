@@ -26,7 +26,7 @@ subfeature_v2:
   - id: bea9e610-36b4-4df2-94bb-0fb6fe46cb50
     internal-label: ACS Connector
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1255'
 ht-degree: 100%
 ---

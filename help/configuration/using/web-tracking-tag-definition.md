@@ -21,9 +21,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '362'
-ht-degree: 84%
+ht-degree: 100%
 ---
 # Balise de tracking web : définition{#web-tracking-tag-definition}
 
@@ -91,8 +91,8 @@ Le tableau ci-dessous donne la liste des paramètres spéciaux supportés par le
                               <p>paramètre d'URL</p> 
                            </td>
                            <td>
-                              <p>Identifiant de la diffusion à utiliser en l'absence de cookie de session. Cette valeur doit être
-                                 exprimé en hexadécimal.
+                              <p>Identifiant de diffusion à utiliser s’il n’y a pas de cookie de session. Cette valeur doit être
+                                 exprimée en hexadécimal.
                               </p> 
                            </td> 
                         </tr>
@@ -104,9 +104,9 @@ Le tableau ci-dessous donne la liste des paramètres spéciaux supportés par le
                               <p>paramètre d'URL</p> 
                            </td>
                            <td>
-                              <p>Paramètre utilisé pour identifier l'internaute. Le format de ce paramètre est « name=value »,
+                              <p>Paramètre permettant d’identifier l’internaute. Le format de ce paramètre est « nom=valeur »,
                                  où le nom est un champ du schéma des destinataires. Ce paramètre a la priorité sur
-                                 identifiant contenu dans le cookie de session.
+                                 l’identifiant contenu dans le cookie de session.
                               </p> 
                            </td> 
                         </tr> 
@@ -121,17 +121,17 @@ Le tableau ci-dessous donne la liste des paramètres spéciaux supportés par le
 
 * Collecte des informations relatives au chiffre d&#39;affaires
 
-  **https://myserver.adobe.com/r/4567?tagid=command&amount=100&article=2l**
+  **https://myserver.adobe.com/r/4567?tagid=command&amp;amount=100&amp;article=2l**
 
 * Spécification d&#39;un champ pour retrouver le destinataire
 
-  **https://myserver.adobe.com/r/2353?tagid=home&rcpid=saccount%3D10**
+  **https://myserver.adobe.com/r/2353?tagid=home&amp;rcpid=saccount%3D10**
 
   Un destinataire dont le numéro de compte est 10 est passé sur la page d&#39;accueil.
 
 * Utilisation d&#39;une diffusion par défaut
 
-  **https://myserver.adobe.com/r/2456?tagid=home&jobid=e6**
+  **https://myserver.adobe.com/r/2456?tagid=home&amp;jobid=e6**
 
   Une personne destinataire est envoyée sur la page d’accueil. Cette information sera stockée dans la diffusion dont l’identifiant est 230 (soit e6 dans la base de données 16), si aucun cookie de session contenant un identifiant de diffusion n’est envoyé avec cette requête.
 

@@ -29,9 +29,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '923'
-ht-degree: 94%
+ht-degree: 100%
 ---
 # Configurations supplémentaires {#mc-additional-configurations}
 
@@ -39,7 +39,7 @@ ht-degree: 94%
 
 ## Surveillance des seuils {#monitoring-thresholds}
 
-Vous pouvez configurer les seuils d’avertissement (orange) et d’alerte (rouge) des indicateurs qui apparaissent dans les rapports **Qualité de service Message Center** et **Temps de traitement Message Center** (voir la section [Accès aux rapports des messages transactionnels](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/real-time/event/delivery-execution){target="_blank"} (documentation de Campaign v8)).
+Vous pouvez configurer les seuils d’avertissement (orange) et d’alerte (rouge) des indicateurs qui apparaissent dans les rapports **Niveau de service du centre de messages** et **Temps de traitement du centre de messages** (consultez la section [Accéder aux rapports des messages transactionnels](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/real-time/event/delivery-execution){target="_blank"} (documentation de Campaign v8)).
 
 Pour ce faire, procédez comme suit :
 

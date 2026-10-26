@@ -26,7 +26,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '274'
 ht-degree: 100%
 ---
@@ -57,7 +57,7 @@ Si votre environnement a été mis à niveau vers Campaign Classic v7.3 (ou ve
   Pour ce faire, respectez les étapes suivantes sur tous vos environnements (MKT, MID, RT) :
 
   1. Modifiez le fichier de configuration du serveur Campaign (`serverConf.xml`).
-  1. Dans le module `<web>`, définissez `webView2Mode = "1"`.
+  1. Dans le module `<web>`, définissez `webView2Mode = "1"`
   1. Exécutez la commande suivante pour recharger la configuration du serveur :
 
      ```

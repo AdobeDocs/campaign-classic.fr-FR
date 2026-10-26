@@ -28,7 +28,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1118'
 ht-degree: 100%
 ---
@@ -163,7 +163,7 @@ Dans cet exemple, nous allons créer une hypothèse liée à une diffusion. Cett
 
 Nous affinerons ensuite la requête héritée du modèle pour émettre une hypothèse sur un article spécifique de la table d’achat.
 
-1. Créez une campagne et une diffusion. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=fr){target=_blank}.
+1. Créez une campagne et une diffusion. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-orchestration/set-up-campaigns){target=_blank}.
 
    Dans notre exemple, la diffusion est de type courrier.
 

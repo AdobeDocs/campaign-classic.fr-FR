@@ -37,9 +37,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2964'
-ht-degree: 99%
+ht-degree: 100%
 ---
 # Workflow de nettoyage de la base de données{#database-cleanup-workflow}
 
@@ -349,7 +349,7 @@ Cette tâche purge chaque instance de workflow à l’aide de son identifiant (*
 
 >[!NOTE]
 >
->La fréquence de purge de l’historique est définie pour chaque workflow dans le champ **Jours d’historique** (valeur par défaut de 30 jours). Ce champ se situe sur l’onglet **Exécution** des propriétés du workflow. Pour en savoir plus à ce sujet, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/advanced-management/workflow-properties#execution){target="_blank"} (documentation de Campaign v8).
+>La fréquence de purge de l’historique est définie pour chaque workflow dans le champ **Jours d’historique** (valeur par défaut de 30 jours). Ce champ se situe sur l’onglet **Exécution** des propriétés du workflow. Pour en savoir plus, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/advanced-management/workflow-properties#execution){target="_blank"} (documentation de Campaign v8).
 
 1. Pour récupérer la liste des workflows à supprimer, la requête suivante est utilisée :
 

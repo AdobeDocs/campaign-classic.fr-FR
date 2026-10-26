@@ -46,7 +46,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1364'
 ht-degree: 100%
 ---
@@ -128,7 +128,7 @@ Pour connaître les étapes de résolution des problèmes de tracking de base da
 
 Ce processus lit la mémoire partagée IIS/serveur web et écrit les logs de redirection.
 
-Vous pouvez y accéder à partir de la page d’accueil en sélectionnant l’onglet Surveillance dans votre instance. Vous pouvez également exécuter la commande suivante sur l’instance : `<user>@<instance>:~$ nlserver pdump`.
+Vous pouvez y accéder à partir de la page d’accueil en sélectionnant l’onglet Surveillance dans votre instance. Vous pouvez également exécuter la commande suivante sur l’instance : `<user>@<instance>:~$ nlserver pdump`
 
 Si le processus trackinglogd n’apparaît pas dans la liste, lancez-le avec la commande suivante sur l’instance : `<user>@<instance>:~$ nlserver start trackinglogd`
 

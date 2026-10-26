@@ -38,7 +38,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '388'
 ht-degree: 100%
 ---
@@ -48,7 +48,7 @@ Avec Adobe Campaign, créez des diffusions par courrier pour envoyer des messag
 
 Le courrier demeure un canal puissant pour établir des connexions tangibles avec votre clientèle. Il est idéal pour diffuser des offres imprimées, des catalogues, des messages de fidélité ou des lettres personnalisées qui renforcent la présence de votre marque au-delà des points de contact numériques. Découvrez comment configurer et gérer efficacement des campagnes par courrier, de la préparation des données et la génération des fichiers pour les partenaires de routage au suivi des résultats de la diffusion, dans la [documentation d’Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/direct-mail.html?lang=fr){target=_blank}.
 
-Dans le cadre de la transition de Campaign v7 vers v8, le jeu de documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8.
+Dans le cadre de la transition de Campaign v7 vers v8, la documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8.
 
 >[!BEGINTABS]
 

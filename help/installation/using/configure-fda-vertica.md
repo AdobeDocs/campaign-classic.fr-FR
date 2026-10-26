@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Configurer l’accès à [!DNL Vertica Analytics]
-description: Découvrez comment configurer l’accès à [!DNL Vertica Analytics] dans FDA
+description: Découvrir comment configurer l’accès à [!DNL Vertica Analytics] dans FDA
 feature: Installation, Federated Data Access
 audience: platform
 content-type: reference
@@ -27,9 +27,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 97%
+ht-degree: 100%
 ---
 # Configurer l’accès à [!DNL Vertica Analytics] {#configure-fda-vertica}
 

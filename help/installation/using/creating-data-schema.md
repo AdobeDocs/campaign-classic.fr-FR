@@ -27,7 +27,7 @@ subfeature_v2:
   - id: ee3dfd63-9a21-4961-9f24-ea3385284a21
     internal-label: Federated Data Access
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '201'
 ht-degree: 100%
 ---

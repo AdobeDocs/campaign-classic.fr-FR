@@ -48,9 +48,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '811'
-ht-degree: 97%
+ht-degree: 100%
 ---
 # Performances des diffusions et résolution des problèmes {#delivery-performance-troubleshooting}
 
@@ -124,7 +124,7 @@ La cause de cette erreur est liée à des problèmes de performances dans lesque
 
 **Pour les installations on-premise**, effectuez un nettoyage et une réindexation de la base de données. Pour plus d’informations sur la maintenance de la base de données, consultez [cette section](../../production/using/recommendations.md).
 
-Vous devez également redémarrer tous les workflows avec une activité planifiée et tous ceux dans un état en échec. Reportez-vous à [cette section](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"} (documentation de Campaign v8).
+Vous devez également redémarrer tous les workflows avec une activité planifiée et tous ceux dans un état en échec. Consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler){target="_blank"} (documentation de Campaign v8).
 
 ### Surveillance des workflows techniques
 

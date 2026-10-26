@@ -42,9 +42,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '587'
-ht-degree: 97%
+ht-degree: 100%
 ---
 # Avancé : personnalisation des logs de diffusion {#customize-delivery-logs}
 
@@ -139,7 +139,7 @@ Pour ce faire, accédez aux logs de diffusion et ajoutez la colonne &quot;Identi
 
 >[!NOTE]
 >
->Pour savoir comment configurer des listes dans l’interface de Campaign Classic, consultez [cette page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} (documentation de Campaign v8).
+>Pour savoir comment configurer des listes dans l’interface de Campaign Classic, consultez [cette page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} (documentation de Campaign v8).
 
 Vous trouverez ci-dessous ce que vous devez voir dans l’onglet **[!UICONTROL Diffusion]** après les modifications :
 

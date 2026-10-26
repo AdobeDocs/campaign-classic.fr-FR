@@ -18,7 +18,7 @@ subfeature_v2:
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
     internal-label: Triggers
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '377'
 ht-degree: 100%
 ---
@@ -91,7 +91,7 @@ Ajoutez ou modifiez les Triggers Experience Cloud sous le tableau « triggers�
 Assurez-vous que le fichier JSON est valide à l’aide de ce [site Web](https://jsonlint.com/).
 
 * &quot;name&quot; est l&#39;identifiant du déclencheur. Un caractère générique &quot;*&quot; capture tous les déclencheurs.
-* &quot;Consumer&quot; est formé de toute chaîne unique qui identifie de manière unique l&#39;instance nlserver. Il peut s&#39;agir généralement du nom de l&#39;instance lui-même. Pour plusieurs environnements (dev/stage/prod), veillez à ce qu&#39;il soit unique pour chacun d&#39;eux afin que chaque instance reçoive une copie du message.
+* &quot;Consumer&quot; est formé de toute chaîne unique qui identifie de manière unique linstance nlserver. Il peut s&#39;agir généralement du nom de l&#39;instance lui-même. Pour plusieurs environnements (dev/stage/prod), veillez à ce qu&#39;il soit unique pour chacun d&#39;eux afin que chaque instance reçoive une copie du message.
 * [!DNL Pipelined] prend également en charge le topic « alias ».
 
 Redémarrez [!DNL pipelined] après avoir apporté des modifications.

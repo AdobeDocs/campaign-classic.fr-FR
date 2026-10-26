@@ -39,7 +39,7 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1210'
 ht-degree: 100%
 ---
@@ -146,7 +146,7 @@ Le « décalage » du dernier événement récupéré est stocké dans la base
 
 Ce pointeur est spécifique à chaque instance et à chaque consommateur. Par conséquent, lorsque de nombreuses instances accèdent au même pipeline avec des consommateurs différents, ils reçoivent tous les messages et dans le même ordre.
 
-Le paramètre **consumer** de l&#39;option de pipeline identifie l&#39;instance appelante.
+Le paramètre **consumer** de loption de pipeline identifie linstance appelante.
 
 Actuellement, il n&#39;existe aucun moyen d&#39;avoir des files d&#39;attente différentes pour des environnements distincts tels que &#39;staging&#39; ou &#39;dev&#39;.
 

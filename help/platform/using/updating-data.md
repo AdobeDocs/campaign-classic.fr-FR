@@ -33,11 +33,11 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
 source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '809'
-ht-degree: 98%
+ht-degree: 100%
 ---
-# Mise à jour de données{#updating-data}
+# Mettre à jour des données{#updating-data}
 
 >[!NOTE]
 >
@@ -118,7 +118,7 @@ Le contenu d’une liste peut être exporté. Pour configurer et exécuter l’e
 
    ![](assets/s_ncs_user_export_list_start.png)
 
-   Pour plus d’informations sur la configuration de l’assistant d’exportation, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/import){target="_blank"} (documentation de Campaign v8).
+   Pour en savoir plus sur la configuration de l’assistant d’export, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/import){target="_blank"} (documentation de Campaign v8).
 
 ## S’abonner à un service {#subscribing-to-a-service}
 
