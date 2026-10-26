@@ -143,7 +143,7 @@ For the three types of packages, the assistant offers the following steps:
 
    >[!NOTE]
    >
-   >The query editor is presented in [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"} (Campaign v8 documentation).
+   >The query editor is presented in [this section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"} (Campaign v8 documentation).
 
 1. Click **[!UICONTROL Next]** and select the sorting columns to order the data during extraction:
 
@@ -168,7 +168,7 @@ This mechanism is defined by two rules:
 
 >[!NOTE]
 >
->Integrity types linked to schema elements are defined in [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/database-links){target="_blank"} (Campaign v8 documentation).
+>Integrity types linked to schema elements are defined in [this section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/database-links){target="_blank"} (Campaign v8 documentation).
 
 #### Export a campaign {#exporting-a-campaign}
 
