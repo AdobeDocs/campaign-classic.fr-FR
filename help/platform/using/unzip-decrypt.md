@@ -37,7 +37,7 @@ subfeature_v2:
   - id: d0dbac2b-cbd2-42b3-956e-60af02966728
     internal-label: Encryption
 source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '861'
 ht-degree: 100%
 ---

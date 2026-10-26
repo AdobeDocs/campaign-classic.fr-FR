@@ -39,7 +39,7 @@ topic_v2:
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
     internal-label: Content structure
 source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '238'
 ht-degree: 100%
 ---

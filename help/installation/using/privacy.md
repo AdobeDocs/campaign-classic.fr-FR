@@ -42,9 +42,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '936'
-ht-degree: 94%
+ht-degree: 100%
 ---
 # Personnalisation et confidentialité {#privacy}
 
@@ -60,7 +60,7 @@ Lorsque vous ajoutez des liens personnalisés à votre contenu, évitez toujours
 
 ### Recommandation
 
-Pour valider et vous assurer que vous n’utilisez pas ce qui précède, exécutez une requête sur la table des URL de tracking via [Éditeur de requêtes générique Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"} (documentation de Campaign v8) ou créez un workflow avec des critères de filtre dans l’activité de requête. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=fr){target="_blank"}.
+Pour valider et vous assurer que vous n’utilisez pas les éléments ci-dessus, exécutez une requête sur la table des URL de suivi à l’aide du [requêteur générique de Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/query/query-editor){target="_blank"} (documentation de Campaign v8) ou créez un workflow avec des critères de filtre dans l’activité de requête. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=fr){target="_blank"}.
 
 Exemple :
 
@@ -117,7 +117,7 @@ Pour activer la signature d&#39;URL, procédez comme suit sur tous les serveurs 
 
 Vous devez vous assurer que l’accès aux mots de passe chiffrés est impossible pour toute personne authentifiée disposant de privilèges restreints. Pour cela, vous devez restreindre l’accès aux champs de mots de passe uniquement ou à l’entité entière (une version >= 8770 est requise).
 
-Cette restriction vous permet de supprimer les champs de mots de passe. Le compte externe reste toutefois accessible par tous les utilisateurs dans l’interface. [&#x200B; En savoir plus &#x200B;](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/restrict-pi-view){target="_blank"} (documentation de Campaign v8).
+Cette restriction vous permet de supprimer les champs de mots de passe. Le compte externe reste toutefois accessible par tous les utilisateurs dans l’interface. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/restrict-pi-view){target="_blank"} (documentation de Campaign v8).
 
 Pour ce faire, suivez les étapes ci-après :
 

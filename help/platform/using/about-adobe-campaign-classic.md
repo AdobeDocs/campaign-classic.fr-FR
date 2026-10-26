@@ -42,9 +42,9 @@ topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
 source-git-commit: 7b7f6d2ad5e5d09880f05c7e99ea8ede770532ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '241'
-ht-degree: 82%
+ht-degree: 100%
 ---
 # Prise en main de Campaign Classic{#about-adobe-campaign-classic}
 
@@ -57,7 +57,7 @@ Adobe Campaign permet de coordonner la création de campagnes marketing convers
 
 >[!TAB Commencer avec Campaign]
 
-Pour découvrir comment commencer à utiliser la console cliente Adobe Campaign et son interface utilisateur, reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
+Pour savoir comment commencer avec la console cliente d’Adobe Campaign et son interface d’utilisation, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}.
 
 [![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target=_blank}
 
@@ -69,9 +69,9 @@ Pour découvrir comment commencer à utiliser la console cliente Adobe Campaign 
 
 >[!TAB Parcourir l’interface d’utilisation de Campaign]
 
-* Découvrez l’interface utilisateur d’Adobe Campaign [sur cette page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} (documentation de Campaign v8).
+* Découvrez l’interface d’utilisation d’Adobe Campaign [sur cette page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} (documentation de Campaign v8).
 
-* Découvrez comment utiliser l&#39;[explorateur Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui#ac-explorer-ui){target="_blank"} (documentation de Campaign v8).
+* Découvrez comment utiliser l’[explorateur de Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui#ac-explorer-ui){target="_blank"} (documentation de Campaign v8).
 
 >[!ENDTABS]
 

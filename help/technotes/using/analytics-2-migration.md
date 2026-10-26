@@ -18,7 +18,7 @@ subfeature_v2:
   - id: cbcf4d90-26be-46e2-b16a-aebc529dc41e
     internal-label: Analytics integration
 source-git-commit: 9c678f353d367115bc188da80f07e018c44e2612
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '925'
 ht-degree: 100%
 ---
@@ -57,7 +57,7 @@ Si vous utilisez un déploiement **on-premise ou hybride**, procédez comme suit
       nlserver javascript -instance:<instance_name> -arg:host=<sftp_host_url>#user=<sftp_user> -file <path_to_the_file>/aaremarketingLocation.js
       ```
 
-      Exemple:
+      Exemple :
 
       ```
       nlserver javascript -instance:test_mkt_stage2 -arg:host=test-mkt-stage1.campaign.adobe.com#user=test -file ./nl6/datakit/nms/eng/js/aaremarketingLocation.js

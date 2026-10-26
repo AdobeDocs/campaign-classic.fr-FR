@@ -3,7 +3,7 @@ product: campaign
 title: Principe de fonctionnement
 description: Principe de fonctionnement
 feature: Monitoring
-badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/fr/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: production-procedures
@@ -30,7 +30,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
 ht-degree: 100%
 ---
@@ -100,7 +100,7 @@ Les modules disponibles sont décrits dans le tableau suivant :
 
 L&#39;usage d&#39;un module et la syntaxe de ses paramètres sont affichés à partir de la commande : **nlserver.`[module]`-?**
 
-Exemple:
+Exemple :
 
 **nlserver config -?**
 

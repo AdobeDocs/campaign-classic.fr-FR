@@ -3,7 +3,7 @@ product: campaign
 title: Problèmes de performance et de débit
 description: Problèmes de performance et de débit
 feature: Monitoring
-badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/fr/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: troubleshooting
@@ -32,9 +32,9 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
 source-git-commit: 586c6688e2abd3b6e55389bd1fa219d2c596d07d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '811'
-ht-degree: 96%
+ht-degree: 100%
 ---
 # Problèmes de performance et de débit{#performance-and-throughput-issues}
 
@@ -46,7 +46,7 @@ Consultez les [Notes de mise à jour](../../rn/using/latest-release.md) pour plu
 
 Les instructions générales concernant les exigences matérielles pour Campaign Classic on-premise sont présentées dans cette [page](https://helpx.adobe.com/fr/campaign/kb/hardware-sizing-guide.html).
 
-L’équipe conseil peut fournir aux clientes et clients hébergés un outil qui permet d’afficher facilement l’espace utilisé par divers types de tables dans la base de données, ainsi que celui utilisé sur le site SFTP. Elle propose également des outils permettant de nettoyer les données inutiles. Contactez l&#39;[Assistance clientèle d&#39;Adobe &#x200B;](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) si vous avez besoin que cet outil soit implémenté. Voici quelques éléments importants à vérifier lors de l&#39;utilisation de cet outil :
+L’équipe conseil peut fournir aux clientes et clients hébergés un outil qui permet d’afficher facilement l’espace utilisé par divers types de tables dans la base de données, ainsi que celui utilisé sur le site SFTP. Elle propose également des outils permettant de nettoyer les données inutiles. Contactez l&#39;[Assistance clientèle d&#39;Adobe ](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) si vous avez besoin que cet outil soit implémenté. Voici quelques éléments importants à vérifier lors de l&#39;utilisation de cet outil :
 
 * Un nettoyage est requis si la taille de l’index est supérieure à la taille de la table.
 * Vérifiez les tables les plus remplies. Si celles-ci sont fréquemment utilisées, il est important de les nettoyer.
@@ -92,7 +92,7 @@ Voici une liste des bonnes pratiques et des articles liés à la délivrabilité
   >L’engagement de l’équipe chargée de la délivrabilité repose sur un contrat. La clientèle doit contacter son représentant ou sa représentante Adobe pour obtenir des informations relatives à l’engagement en matière de délivrabilité.
 
 * Configuration de l’affinité IP : une configuration incorrecte de l’affinité IP peut stopper complètement les emails (nom d’opérateur incorrect/affinité incorrecte dans la configuration) ou réduire le débit (petit nombre d’IP dans l’affinité). Voir cette [page](../../installation/using/email-deliverability.md#list-of-ip-addresses-to-use).
-* Taille des e-mails : la taille des e-mails joue un rôle important dans le débit. La taille maximale recommandée pour les e-mails est de 60 Ko. Consultez cette [page](https://helpx.adobe.com/fr/legal/product-descriptions/campaign.html). Dans le rapport [&#x200B; Débit de diffusion &#x200B;](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-throughput){target="_blank"} (documentation de Campaign v8), vérifiez le nombre d’octets transférés par heure.
+* Taille des e-mails : la taille des e-mails joue un rôle important dans le débit. La taille maximale recommandée pour les e-mails est de 60 Ko. Consultez cette [page](https://helpx.adobe.com/fr/legal/product-descriptions/campaign.html). Dans le rapport [Débit de diffusion](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#delivery-throughput){target="_blank"} (documentation de Campaign v8), vérifiez le nombre d’octets transférés par heure.
 * Grand nombre de personnes destinataires non valides : lorsque de nombreuses personnes destinataires ne sont pas valides, cela peut avoir un impact sur le débit. Le MTA tente de renvoyer les e-mails aux destinataires non valides. Assurez-vous que votre base de données est bien tenue à jour.
 * Niveau de personnalisation : si le statut d’une diffusion reste en « Personnalisation en cours », vérifiez le JavaScript utilisé dans les blocs de personnalisation.
 

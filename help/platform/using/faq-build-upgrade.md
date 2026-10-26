@@ -41,7 +41,7 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: 4bc1e76d129c6a6aa15b7e3915232043bd6f4286
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2108'
 ht-degree: 100%
 ---

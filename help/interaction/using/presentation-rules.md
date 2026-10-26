@@ -25,9 +25,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: 323ff901668895588a6e9587fa2a8b7804cf2fb4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '492'
-ht-degree: 95%
+ht-degree: 100%
 ---
 # Règles de présentation{#presentation-rules}
 
@@ -113,7 +113,7 @@ Nous voulons envoyer une première proposition d’offre appartenant à la caté
 
    ![](assets/offer_typology_example_016.png)
 
-1. Insérez vos offres dans le corps du message et envoyez la diffusion. Voir à ce sujet la section [À propos des canaux sortants](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"} (documentation de Campaign v8).
+1. Insérez vos offres dans le corps du message et envoyez la diffusion. Pour en savoir plus à ce sujet, consultez la section [À propos des canaux sortants](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"} (documentation de Campaign v8).
 
    Votre destinataire a bien reçu l&#39;offre pour laquelle il est éligible.
 

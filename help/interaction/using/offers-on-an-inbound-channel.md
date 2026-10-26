@@ -25,9 +25,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: 323ff901668895588a6e9587fa2a8b7804cf2fb4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2212'
-ht-degree: 96%
+ht-degree: 100%
 ---
 # Offres sur canal entrant{#offers-on-an-inbound-channel}
 
@@ -47,7 +47,7 @@ Pour mettre en place cette interaction, vous allez :
 
 ### Créer un environnement anonyme {#creating-an-anonymous-environment}
 
-Suivez la procédure décrite dans [Création d’un environnement d’offres](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} (documentation de Campaign v8) pour créer votre environnement anonyme en fonction des dimensions **Visiteurs**.
+Suivez la procédure détaillée dans la section [Créer un environnement d’offre](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} (documentation de Campaign v8) afin de créer votre environnement anonyme basé sur la dimension des **Visiteurs et visiteuses**.
 
 Vous obtenez une arborescence contenant votre nouvel environnement :
 
@@ -147,9 +147,9 @@ Vous obtenez une arborescence contenant votre nouvel environnement :
 
 ### Paramétrer l&#39;emplacement de l&#39;offre dans le site web {#configure-the-web-offer-space-on-the-website}
 
-Afin que les offres que vous venez de paramétrer apparaissent dans le site web, vous allez insérer un code JavaScript dans la page HTML de votre site destiné à appeler le moteur d&#39;Interaction (voir à ce sujet la section [&#x200B; À propos des canaux entrants &#x200B;](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"} (documentation de Campaign v8)).
+Afin que les offres que vous venez de configurer apparaissent dans le site web, insérez un code JavaScript dans la page HTML de votre site destiné à appeler le moteur d’interaction (pour en savoir plus à ce sujet, consultez la section [À propos des canaux entrants](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"} (documentation de Campaign v8)).
 
-1. Accédez à votre page HTML et insérez un attribut @id dont la valeur correspond au nom interne de l&#39;emplacement anonyme créé précédemment (voir [Créer des emplacements anonymes &#x200B;](#creating-anonymous-offer-spaces)), précédé de **i_**.
+1. Accédez à votre page HTML et insérez un attribut @id dont la valeur correspond au nom interne de l&#39;emplacement anonyme créé précédemment (voir [Créer des emplacements anonymes ](#creating-anonymous-offer-spaces)), précédé de **i_**.
 
    ![](assets/offer_inbound_anonymous_example_019.png)
 
@@ -211,7 +211,7 @@ Les étapes sont les suivantes :
 
 ### Créer un environnement destiné aux contacts anonymes {#creating-an-environment-for-anonymous-contacts}
 
-1. Créez un environnement d’offres pour les interactions entrantes anonymes via l’assistant de mapping de diffusion (mapping des **visiteurs et visiteuses**). Voir à ce sujet la section [Créer un environnement d&#39;offres](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} (documentation de Campaign v8).
+1. Créez un environnement d’offres pour les interactions entrantes anonymes via l’assistant de mapping de diffusion (mapping des **visiteurs et visiteuses**). Pour plus d’informations à ce sujet, consultez [Créer un environnement d’offre](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} (documentation de Campaign v8).
 
    ![](assets/offer_env_anonymous_003.png)
 

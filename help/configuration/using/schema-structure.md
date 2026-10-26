@@ -39,17 +39,17 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 67%
+ht-degree: 100%
 ---
 # Comprendre la structure d&#39;un schéma {#schema-structure}
 
-Cette page répertorie la manière dont les types de données Adobe Campaign sont associés aux types de données de chaque système de gestion de base de données.
+Cette page répertorie la manière dont les types de données Adobe Campaign correspondent aux types de données de chaque système de gestion de base de données.
 
-Dans le cadre de la transition de Campaign v7 vers v8, le jeu de documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur la structure des schémas, consultez la documentation [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure){target=_blank}.
+Dans le cadre de la transition de Campaign v7 vers v8, la documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur la structure des schémas, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure){target=_blank}.
 
-[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure){target=_blank}
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure){target=_blank}
 
 ## Mapping des types de données Adobe Campaign/SGBD {#mapping-the-types-of-adobe-campaign-dbms-data}
 
@@ -141,5 +141,5 @@ Pour en savoir plus, consultez les liens suivants :
 
 * [Prise en main des schémas](about-schema-reference.md)
 * [Mapping de la base de données](database-mapping.md)
-* [Gestion des liens](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/database-links){target="_blank"} (documentation de Campaign v8)
+* [Gestion des liens](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/database-links){target="_blank"} (Documentation de Campaign v8)
 * [Gestion des clés](database-keys.md)

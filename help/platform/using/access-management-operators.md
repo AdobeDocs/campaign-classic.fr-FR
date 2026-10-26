@@ -47,9 +47,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1355'
-ht-degree: 97%
+ht-degree: 100%
 ---
 # Création et gestion d’opérateurs {#operators}
 
@@ -151,7 +151,7 @@ Le lien **[!UICONTROL Editer les paramètres d&#39;accès...]** permet d&#39;acc
   >
   >Même si son compte est désactivé, l’opérateur peut toujours recevoir des alertes ou des notifications de la part de Campaign. Pour arrêter l’envoi de notifications Campaign à cet opérateur, Adobe vous recommande de supprimer l’adresse e-mail de son profil.
 
-* L&#39;option **[!UICONTROL Interdire l&#39;accès depuis la console cliente]** permet de restreindre l&#39;utilisation d&#39;Adobe Campaign à l&#39;[accès web](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui#ui-access){target="_blank"} (documentation de Campaign v8) ou par le biais d&#39;API : l&#39;accès à la console cliente Adobe Campaign n&#39;est plus disponible.
+* L’option **[!UICONTROL Interdire l’accès depuis la console cliente]** permet de restreindre l’utilisation d’Adobe Campaign à un [accès web](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui#ui-access){target="_blank"} (documentation de Campaign v8) ou par le biais d’API : l’accès à la console cliente Adobe Campaign n’est plus disponible.
 * Vous pouvez associer une zone de sécurité à l&#39;opérateur. Pour plus d’informations, consultez [cette page](../../installation/using/security-zones.md).
 * Vous pouvez également définir un masque IP de confiance à partir du lien correspondant.
 

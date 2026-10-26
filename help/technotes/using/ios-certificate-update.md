@@ -23,7 +23,7 @@ subfeature_v2:
   - id: a4657621-810c-498b-8a27-7ced9c176dda
     internal-label: Push notifications
 source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '160'
 ht-degree: 100%
 ---

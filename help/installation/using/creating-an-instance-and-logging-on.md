@@ -22,9 +22,9 @@ subfeature_v2:
   - id: e656c701-3899-4db3-989c-de0980ddfffa
     internal-label: Installation
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '615'
-ht-degree: 96%
+ht-degree: 100%
 ---
 # Création et connexion à une instance{#creating-an-instance-and-logging-on}
 
@@ -74,7 +74,7 @@ Pour créer une instance, procédez comme suit :
 
    Vous pouvez définir ici une liste de valeurs séparées par des virgules.
 
-   Les caractères ? et &#42; peuvent être utilisés comme caractères génériques pour remplacer un ou plusieurs caractères (DNS, port, etc.). Par exemple, la valeur **demo&#42;** fonctionne avec « https://demo » comme avec « https://demo:8080 » et même « https://demo2 ».
+   Les caractères ? et &#42; peuvent être utilisés comme caractères génériques pour remplacer un ou plusieurs caractères (DNS, port, etc.). Par exemple, la valeur **demo&#42;** fonctionne avec « https://demo », ainsi qu’avec « https://demo:8080 » ou encore « https://demo2 ».
 
    Les noms utilisés doivent être définis dans votre DNS. Vous pouvez également indiquer la correspondance entre un nom DNS et une adresse IP dans le fichier **c:/windows/system32/drivers/etc/hosts** sous Windows et dans le fichier **/etc/hosts** sous Linux. Pour vous connecter à l&#39;instance choisie, vous devez donc modifier les paramètres de connexion afin d&#39;utiliser ce nom DNS.
 

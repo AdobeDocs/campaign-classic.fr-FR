@@ -38,7 +38,7 @@ topic_v2:
 source-git-commit: 63ece0ce7bfca75468776da84e2eac8b34b13af8
 workflow-type: tm+mt
 source-wordcount: '1451'
-ht-degree: 90%
+ht-degree: 91%
 ---
 # Dernière version {#latest-release}
 
@@ -76,15 +76,15 @@ Adobe a publié des mises à jour de sécurité pour Adobe Campaign Classic qu
 Un redémarrage du serveur Adobe Campaign (nlserver) est nécessaire pour charger le build et terminer le déploiement. Le correctif est actif par défaut après le redémarrage.
 
 
-### Build 9402 {#build-9402}
+### Version 9402 {#build-9402}
 
 [!BADGE Obsolète]{type=negative url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=fr#rn-statuses" tooltip="Obsolète"}
 
-_1 septembre 2026_
+_11 septembre 2026_
 
 #### Améliorations de la sécurité {#security-7-4-4-9402}
 
-Adobe a publié des mises à jour de sécurité pour Adobe Campaign Classic qui traitent des vulnérabilités critiques. Nous encourageons les clientes et clients disposant de déploiements on-premise et hybrides à installer les mises à jour dès que possible. Les instances hébergées par Adobe ont déjà été corrigées et ne nécessitent aucune action de la part du client ou de la cliente. Vous trouverez plus d’informations dans le [bulletin de sécurité](https://helpx.adobe.com/au/security/products/campaign/apsb26-142.html){target="_blank"}.
+Adobe a publié des mises à jour de sécurité pour Adobe Campaign Classic qui traitent des vulnérabilités critiques. Nous encourageons les clientes et clients disposant de déploiements on-premise et hybrides à installer les mises à jour dès que possible. Les instances hébergées par Adobe ont déjà été corrigées et ne nécessitent aucune action de la part du client ou de la cliente. Vous trouverez plus d’informations dans le [bulletin de sécurité](https://helpx.adobe.com/fr/security/products/campaign/apsb26-142.html){target="_blank"}.
 
 Un redémarrage du serveur Adobe Campaign (nlserver) est nécessaire pour charger le build et terminer le déploiement. Le correctif est actif par défaut après le redémarrage.
 

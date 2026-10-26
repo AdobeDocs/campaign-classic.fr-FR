@@ -20,9 +20,9 @@ subfeature_v2:
   - id: eff19c99-440a-4318-b319-444edc4d8d8f
     internal-label: Upgrade
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2602'
-ht-degree: 97%
+ht-degree: 100%
 ---
 # Paramétrages généraux{#general-configurations}
 
@@ -39,11 +39,11 @@ En complément :
 
 Dans la version 6.02, le mode « à plusieurs fuseaux horaires » n’était disponible que pour les moteurs de base de données PostgreSQL. Il est désormais proposé quel que soit le type de moteur de base de données utilisé. Nous vous recommandons vivement de transformer votre base en une base « à plusieurs fuseaux horaires ».
 
-Pour utiliser le mode TIMESTAMP WITH TIMEZONE, vous devez également ajouter l&#39;option **-userTimestamptz:1** à la ligne de commande postupgrade.
+Pour utiliser le mode TIMESTAMP WITH TIMEZONE, vous devez également ajouter l’option **-userTimestamptz:1** dans la ligne de commande de l’opération de post-mise à niveau.
 
 >[!IMPORTANT]
 >
->Si le paramètre **-usetimestamptz:1** est utilisé avec un moteur de base de données incompatible, votre base de données sera corrompue et vous devrez restaurer une sauvegarde de votre base de données et exécuter à nouveau la commande ci-dessus.
+>Si le paramètre **-usetimestamptz:1** est utilisé avec un moteur de base de données incompatible, votre base de données sera corrompue et vous devrez restaurer une sauvegarde de votre base de données et réexécuter la commande ci-dessus.
 
 >[!NOTE]
 >
@@ -401,7 +401,7 @@ L&#39;alias est facultatif
 
 Dans un élément `<subQuery>`, pour référencer un champ ‘field&#39; de l&#39;élément `<queryDef>` principal, la syntaxe suivante doit être employée : `[../@field]`
 
-Exemple:
+Exemple :
 
 ```
 <queryDef operation="select" schema="xtk:jobLog" startPath="/" xtkschema="xtk:queryDef">

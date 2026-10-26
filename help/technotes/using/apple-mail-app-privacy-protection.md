@@ -42,9 +42,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2191'
-ht-degree: 97%
+ht-degree: 100%
 ---
 # Protection de la confidentialité des e-mails dans l’application Mail d’Apple
 
@@ -95,7 +95,7 @@ Pour collecter des informations à partir des données Adobe Campaign, vous pou
 
 * Rapport sur les **[!UICONTROL Systèmes d’exploitation]**
 
-  Pour identifier la proportion de visiteurs par système d’exploitation et par version, utilisez ce rapport. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#operating-systems){target="_blank"} (documentation de Campaign v8).
+  Pour identifier la proportion de visiteurs par système d’exploitation et par version, utilisez ce rapport. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#operating-systems){target="_blank"} (documentation de Campaign v8).
 
   Vous pouvez afficher la répartition des visiteurs par système d’exploitation au regard du nombre total de visiteurs.
 
@@ -107,7 +107,7 @@ Pour collecter des informations à partir des données Adobe Campaign, vous pou
 
 * Rapport sur la **[!UICONTROL Répartition des ouvertures]**
 
-  Utilisez ce rapport pour identifier la proportion d’ouvertures d’e-mails par système d’exploitation. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#breakdown-of-opens){target="_blank"} (documentation de Campaign v8).
+  Utilisez ce rapport pour identifier la proportion d’ouvertures d’e-mails par système d’exploitation. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports#breakdown-of-opens){target="_blank"} (documentation de Campaign v8).
 
   ![](../../reporting/using/assets/dlv_useragent_report.png)
 
@@ -369,7 +369,7 @@ Pour toutes ces raisons, il est vivement recommandé d’exporter ces données d
 
 #### Comment conserver les données de tracking ?
 
-Pour conserver les données de tracking, vous devez les exporter depuis Adobe Campaign pour les transférer vers votre système d’informations. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/import){target="_blank"} (documentation de Campaign v8).
+Pour conserver les données de tracking, vous devez les exporter depuis Adobe Campaign pour les transférer vers votre système d’informations. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/import){target="_blank"} (documentation de Campaign v8).
 
 >[!IMPORTANT]
 >

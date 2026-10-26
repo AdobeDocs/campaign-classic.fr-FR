@@ -9,7 +9,7 @@ sub-product: adobe campaign classic
 type: Documentation
 nudge: false
 source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1657'
 ht-degree: 100%
 ---
@@ -45,7 +45,7 @@ ht-degree: 100%
     + [Droit d&#39;opposition (opt-out) à la vente des informations personnelles](platform/using/privacy-requests-ccpa.md)
   + Gestion des profils {#profile-management}
     + [À propos des profils](platform/using/about-profiles.md)
-    + [Mise à jour de données](platform/using/updating-data.md)
+    + [Mettre à jour des données](platform/using/updating-data.md)
   + Importer et exporter des données {#importing-and-exporting-data}
     + Créer des imports et des exports génériques {#generic-imports-exports}
       + [Surveillance de l’exécution des traitements](platform/using/monitoring-jobs-execution.md)
@@ -466,7 +466,7 @@ ht-degree: 100%
     + [Régénération des schémas](configuration/using/regenerating-schemas.md)
     + [Exemples d&#39;édition de schémas](configuration/using/examples-of-schemas-edition.md)
   + Formulaires de saisie {#input-forms}
-    + [Modification de formulaires](configuration/using/editing-forms.md)
+    + [Modifier des formulaires](configuration/using/editing-forms.md)
   + API {#api}
     + [À propos des services web](configuration/using/about-web-services.md)
     + [Appels Web Service](configuration/using/web-service-calls.md)

@@ -3,7 +3,7 @@ product: campaign
 title: Configuration technique du canal e-mail
 description: Découvrez comment configurer Campaign pour contrôler la sortie de vos instances lors de la diffusion des e-mails.
 feature: Installation, Deliverability
-badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/fr/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: additional-configurations
@@ -34,7 +34,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3218'
 ht-degree: 100%
 ---
@@ -250,7 +250,7 @@ Si le document **[!UICONTROL Gestion des MX]** n’existe pas dans le nœud, vou
 
 Le serveur de statistiques doit être redémarré pour que les modifications soient prises en compte.
 
-Pour recharger la configuration sans redémarrer le serveur de statistiques, utilisez la commande suivante sur la machine hébergeant le serveur :`nlserver stat -reload`
+Pour recharger la configuration sans redémarrer le serveur de statistiques, utilisez la commande suivante sur la machine hébergeant le serveur : `nlserver stat -reload`
 
 >[!NOTE]
 >

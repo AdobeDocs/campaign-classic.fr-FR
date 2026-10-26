@@ -26,18 +26,18 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '244'
-ht-degree: 77%
+ht-degree: 100%
 ---
 # Création d&#39;une liste de profils avec un workflow{#creating-a-profile-list-with-a-workflow}
 
 
 Pour créer une liste de type **[!UICONTROL Liste]** basée sur la nouvelle table des destinataires, vous devez créer un workflow de ciblage qui va générer la liste.
 
-Pour plus d’informations sur les listes dans Campaign, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-audiences/create-audiences#create-a-list-of-contacts){target="_blank"} (documentation de Campaign v8).
+Pour plus d’informations sur les listes dans Campaign, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-audiences/create-audiences#create-a-list-of-contacts){target="_blank"} (documentation de Campaign v8).
 
-![](assets/do-not-localize/how-to-video.png) [Découvrez cette fonctionnalité en vidéo](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-audiences/create-audiences#create-a-list-wf){target="_blank"} (documentation de Campaign v8)
+![](assets/do-not-localize/how-to-video.png) [Découvrir cette fonctionnalité en vidéo](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/create-audiences/create-audiences#create-a-list-wf){target="_blank"} (documentation de Campaign v8)
 
 Pour créer un workflow de ciblage et mettre à jour des destinataires dans une table de destinataires personnalisée, procédez comme suit :
 

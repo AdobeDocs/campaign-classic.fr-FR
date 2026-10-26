@@ -42,9 +42,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '436'
-ht-degree: 94%
+ht-degree: 100%
 ---
 # Prise en main des profils{#about-profiles}
 

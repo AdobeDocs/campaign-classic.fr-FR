@@ -33,9 +33,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1254'
-ht-degree: 95%
+ht-degree: 100%
 ---
 # Cas dʼutilisation : création dʼune gestion de contenu{#use-case-creating-content-management}
 
@@ -82,7 +82,7 @@ Un schéma de données est un document XML associé à du contenu. Il décrit la
 
 >[!NOTE]
 >
->La création et la configuration des schémas de données dans Adobe Campaign sont présentées dans [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentation de Campaign v8).
+>Pour en savoir plus sur la création et le paramétrage des schémas de données dans Adobe Campaign, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentation de Campaign v8).
 >
 >Les éléments de paramétrage spécifiques à la gestion de contenu sont décrits dans [Schémas de données](data-schemas.md).
 
@@ -194,7 +194,7 @@ La description d’un formulaire est un document XML structuré respectant la gr
 
 >[!NOTE]
 >
->La création et la configuration des formulaires dans Adobe Campaign sont présentées dans [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentation de Campaign v8).
+>Pour en savoir plus sur la création et le paramétrage des formulaires dans Adobe Campaign, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentation de Campaign v8).
 >
 >Les éléments de paramétrage spécifiques à la gestion de contenu sont décrits dans [Formlaires de saisie](input-forms.md).
 

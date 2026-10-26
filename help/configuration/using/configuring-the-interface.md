@@ -25,9 +25,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '309'
-ht-degree: 91%
+ht-degree: 100%
 ---
 # Configuration de l’interface{#configuring-the-interface}
 
@@ -57,7 +57,7 @@ La création d&#39;un nouveau formulaire va permettre de visualiser et d&#39;éd
 
    >[!NOTE]
    >
-   >Pour en savoir plus sur les fichiers de type **form**, consultez [cette page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentation de Campaign v8).
+   >Pour en savoir plus sur les fichiers de type **formulaire**, reportez-vous à [cette page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentation de Campaign v8).
 
    Dans cet exemple, le fichier **form** doit être basé sur le schéma **cus:individual** et donc posséder la mise en page suivante :
 

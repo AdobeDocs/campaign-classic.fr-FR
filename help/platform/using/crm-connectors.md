@@ -39,7 +39,7 @@ topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
 source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '149'
 ht-degree: 100%
 ---

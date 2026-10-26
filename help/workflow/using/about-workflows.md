@@ -24,11 +24,11 @@ subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
 source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '298'
 ht-degree: 100%
 ---
-# Automatisation à l’aide de workflows {#gs-workflows}
+# Automatiser avec des workflows {#gs-workflows}
 
 Les workflows d’Adobe Campaign permettent à votre équipe de rationaliser et d’automatiser les processus d’entreprise de bout en bout sur la plateforme. Grâce à une interface graphique intuitive, vous pouvez concevoir et gérer des workflows qui coordonnent des tâches telles que la segmentation des données, l’exécution de campagnes, la gestion de fichiers et même les approbations de personnes, le tout à un seul endroit.
 

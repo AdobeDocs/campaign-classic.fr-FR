@@ -3,7 +3,7 @@ product: campaign
 title: Installation des packages natifs de Campaign Classic
 description: Découvrez comment installer les packages natifs de Campaign
 feature: Installation, Application Settings
-badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/fr/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models" tooltip="Applies to on-premise and hybrid deployments only"
 exl-id: 2bc077c4-ed65-4157-bfc9-df5d0442f476
 TQID: 'https://experienceleague.adobe.com/o-8uf081NQCy3ZB8mmLk0Gm8J9Pu--Zh4znqn3HUjr0'
 product_v2:
@@ -27,9 +27,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1448'
-ht-degree: 97%
+ht-degree: 100%
 ---
 # Installation des packages natifs de Campaign Classic{#installing-campaign-standard-packages}
 
@@ -133,7 +133,7 @@ Le tableau ci-après répertorie tous les packages natifs de Campaign.
   </tr> 
   <tr> 
    <td> Canal LINE<br /> </td> 
-   <td> Envoie les diffusions à l’aide du canal LINE avec Adobe Campaign. Facultatif. Messagerie transactionnelle (package Message Center) obligatoire. <a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/other-channels/line" target="_blank">En savoir plus</a> (documentation de Campaign v8) <br /> </td> 
+   <td> Envoie les diffusions à l’aide du canal LINE avec Adobe Campaign. Facultatif. Messagerie transactionnelle (package Message Center) obligatoire. <a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/other-channels/line" target="_blank">En savoir plus</a> (documentation de Campaign v8) <br /> </td> 
    <td> Tous<br /> </td> 
   </tr> 
   <tr> 
@@ -143,7 +143,7 @@ Le tableau ci-après répertorie tous les packages natifs de Campaign.
   </tr> 
   <tr> 
    <td> Canal mobile (SMS) <br /> </td> 
-   <td> Envoie les diffusions à l’aide du canal Mobile/SMS avec Adobe Campaign. Facultatif. <a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/sms/sms" target="_blank">En savoir plus</a> (documentation de Campaign v8) <br /> </td> 
+   <td> Envoie les diffusions à l’aide du canal Mobile/SMS avec Adobe Campaign. Facultatif. <a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/sms/sms" target="_blank">En savoir plus</a> (documentation de Campaign v8) <br /> </td> 
    <td> Tous<br /> </td> 
   </tr> 
    <tr> 
@@ -283,7 +283,7 @@ Dans le cadre dʼune configuration de midsourcing, procédez comme suit :
 
 * Installez le package [!DNL LINE] sur les instances Marketing et MID.
 
-* Configurez le compte externe [!DNL LINE] sur lʼinstance mkt pour quʼil pointe vers lʼinstance MID en changeant le mode de diffusion. [&#x200B; En savoir plus &#x200B;](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/other-channels/line#configure-line-external){target="_blank"} (documentation de Campaign v8)
+* Configurez le compte externe [!DNL LINE] sur lʼinstance mkt pour quʼil pointe vers lʼinstance MID en changeant le mode de diffusion. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/other-channels/line#configure-line-external){target="_blank"} (documentation de Campaign v8)
 
 * Configurez les informations dʼidentification [!DNL LINE] dans le compte externe sur l’instance MID.
 

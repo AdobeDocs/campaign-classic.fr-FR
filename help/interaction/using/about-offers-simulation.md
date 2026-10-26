@@ -23,9 +23,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
 source-git-commit: 323ff901668895588a6e9587fa2a8b7804cf2fb4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '289'
-ht-degree: 85%
+ht-degree: 100%
 ---
 # À propos de la simulation des offres{#about-offers-simulation}
 
@@ -33,7 +33,7 @@ ht-degree: 85%
 
 Le module **Simulation** vous permet de tester la répartition des offres d&#39;une catégorie ou d&#39;un environnement avant de lancer votre proposition auprès de vos destinataires.
 
-La simulation prend en compte les contextes et les règles d&#39;éligibilité précédemment appliqués aux offres (voir la section [&#x200B; Présentation du catalogue d&#39;offres](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/interaction-offer-catalog){target="_blank"} (documentation de Campaign v8)), ainsi que leurs règles de présentation (voir la section [&#x200B; Gestion de la présentation des offres](../../interaction/using/managing-offer-presentation.md)). Il est ainsi possible de tester et d&#39;affiner différentes versions de votre proposition sans utiliser effectivement une offre ou solliciter excessivement ou insuffisamment une cible. La simulation n&#39;a en effet aucun impact sur les destinataires ciblés.
+La simulation prend en compte les contextes et les règles d’éligibilité précédemment appliqués aux offres (consultez la section [Vue d’ensemble du catalogue d’offres](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/interaction-offer-catalog){target="_blank"} (documentation de Campaign v8)), ainsi que leurs règles de présentation (consultez la section [Gérer la présentation des offres](../../interaction/using/managing-offer-presentation.md)). Il est ainsi possible de tester et d&#39;affiner différentes versions de votre proposition sans utiliser effectivement une offre ou solliciter excessivement ou insuffisamment une cible. La simulation n&#39;a en effet aucun impact sur les destinataires ciblés.
 
 Pour savoir comment simuler une offre, procédez comme suit.
 

@@ -22,7 +22,7 @@ feature_v2:
   - id: ea08db70-4682-59a2-9408-9aedd9548e07
     internal-label: Offers
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '162'
 ht-degree: 100%
 ---

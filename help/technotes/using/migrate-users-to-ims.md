@@ -26,9 +26,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: 4bc1e76d129c6a6aa15b7e3915232043bd6f4286
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '676'
-ht-degree: 87%
+ht-degree: 100%
 ---
 # Migrer les opérateurs et opératrices de Campaign vers Adobe Identity Management System (IMS) {#migrate-users-to-ims}
 
@@ -72,7 +72,7 @@ Les étapes clés de cette migration sont répertoriées ci-dessous :
 1. Mettez à niveau vos environnements vers Campaign v7.4.1 (ou une [version compatible avec la migration IMS](#ims-versions)).
 1. Après la mise à niveau, vous pouvez toujours créer de nouveaux utilisateurs et de nouvelles utilisatrices avec les deux méthodes, en tant qu’utilisateur natif ou utilisatrice native ou avec IMS.
 1. Votre administrateur ou administratrice Campaign interne doit configurer Adobe IMS comme décrit dans [cette section](../../integrations/using/configuring-ims.md).
-1. Ajoutez ensuite des adresses e-mails uniques à tous les utilisateurs natifs et à toutes les utilisatrices natives sur la console cliente Campaign. Cette étape est détaillée dans [cette section](https://experienceleague.adobe.com/fr/docs/campaign/technotes-ac/tn-new/migrate-users-to-ims#ims-migration-id){target="_blank"} (documentation de Campaign v8).
+1. Ajoutez ensuite des adresses e-mails uniques à tous les utilisateurs natifs et à toutes les utilisatrices natives sur la console cliente Campaign. Cette étape est détaillée dans [cette section](https://experienceleague.adobe.com/fr/docs/campaign/technotes-ac/tn-new/migrate-users-to-ims#ims-migration-id){target="_blank"} (documentation de Campaign v8).
 1. Créez des utilisateurs, des utilisatrices et des profils de produits dans Adobe Admin Console, comme indiqué dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/manage-permissions.html?lang=fr){target="_blank"}.
 1. Activez l’option **Se connecter avec un Adobe ID** pour tous les opérateurs et opératrices.
 1. Implémentez Adobe IMS pour votre connexion, comme décrit dans [cette page](../../integrations/using/implementing-ims.md).
@@ -81,7 +81,7 @@ Vous pouvez désormais migrer vos opérateurs et opératrices techniques vers Ad
 
 ## Forum aux questions {#ims-migration-faq}
 
-Pour obtenir des réponses aux questions courantes sur la migration (création d’utilisateurs après la migration, ajout d’e-mails pour les utilisateurs natifs, connexion via IMS, temps d’arrêt, organisations qui utilisent déjà IMS, affichage du type d’authentification des opérateurs), reportez-vous à la note technique [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/technotes-ac/tn-new/migrate-users-to-ims#ims-migration-faq){target=_blank} (documentation de Campaign v8).
+Pour obtenir des réponses aux questions courantes sur la migration (créer des utilisateurs et utilisatrices après la migration, ajouter des adresses e-mail pour les utilisateurs et utilisatrices natifs, connexion via IMS, temps d’arrêt, organisations utilisant déjà IMS, afficher le type d’authentification des opérateurs et opératrices), reportez-vous à la [note technique Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/technotes-ac/tn-new/migrate-users-to-ims#ims-migration-faq){target=_blank} (documentation de Campaign v8).
 
 >[!MORELIKETHIS]
 >

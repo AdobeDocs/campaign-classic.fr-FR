@@ -37,9 +37,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '487'
-ht-degree: 97%
+ht-degree: 100%
 ---
 # Lancement d’Adobe Campaign {#launching-adobe-campaign}
 
@@ -82,7 +82,7 @@ Vous pouvez aussi vous connecter à l’aide d’un identifiant et d’un mot de
 
 1. Cliquez sur **[!UICONTROL SE CONNECTER]** pour valider.
 
-Vous pouvez désormais accéder à [l’espace de travail &#x200B;](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} (documentation de Campaign v8).
+Vous pouvez maintenant accéder à l’[espace de travail d’Adobe Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} (documentation de Campaign v8).
 
 ## Configurer des connexions {#setting-up-connections}
 

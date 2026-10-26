@@ -36,9 +36,9 @@ topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
 source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '558'
-ht-degree: 95%
+ht-degree: 100%
 ---
 # Bonnes pratiques en matière d&#39;import et d&#39;export {#import-export-best-practices}
 
@@ -56,7 +56,7 @@ Pour de nombreux projets, les imports sont construits sans activité de **[!UICO
 
 Ne partez pas de l’hypothèse selon laquelle les données entrantes sont cohérentes et justes ou que le service informatique ou la personne responsable d’Adobe Campaign s’en occupera. Pendant le projet, gardez à l’esprit l’importance de la normalisation des données. Dédupliquez, réconciliez et maintenez la cohérence lorsque vous importez des données.
 
-Un exemple de modèle de workflow générique conçu pour importer des données est disponible dans la section [Exemple : modèle de workflow pour importer des données](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/import){target="_blank"} (documentation de Campaign v8) .
+Un exemple de modèle de workflow générique conçu pour importer des données est disponible dans la section [Exemple : modèle de workflow pour importer des données](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/data/import){target="_blank"} (documentation de Campaign v8).
 
 ## Utiliser des formats de fichier plat {#using-flat-file-formats}
 

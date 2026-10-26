@@ -37,9 +37,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: 86e1df82ff7fe9142b0ba75b697d3262e8d7a9d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1077'
-ht-degree: 93%
+ht-degree: 100%
 ---
 # Effectuer une mise à jour vers le nouveau serveur de délivrabilité {#acc-deliverability}
 
@@ -78,9 +78,9 @@ Dans le cadre de la nouvelle intégration du serveur de délivrabilité, Campaig
 
 >[!AVAILABILITY]
 >
-> Les informations d’identification du compte de service (JWT) sont en train d’être abandonnées par Adobe. Les intégrations de Campaign aux solutions et applications Adobe doivent désormais s’appuyer sur les informations d’identification de serveur à serveur OAuth. </br>
+> Les informations d’identification de compte de service (JWT) étant abandonnées par Adobe, les intégrations de Campaign aux solutions et aux applications Adobe doivent désormais utiliser les informations d’identification OAuth serveur à serveur. </br>
 >
-> * Si vous avez implémenté des intégrations entrantes pour Campaign, vous devez migrer votre compte technique comme décrit dans [cette documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). Les [informations d’identification de compte de service (JWT)](../../integrations/using/oauth-technical-account.md) existantes continueront de fonctionner jusqu’au 27 janvier 2025.</br>
+> * Si vous avez implémenté des intégrations entrantes pour Campaign, vous devez migrer votre compte technique comme décrit dans [cette documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). Les [informations d’identification de compte de service (JWT)](../../integrations/using/oauth-technical-account.md) existantes continueront de fonctionner jusqu’au 27 janvier 2025. </br>
 >
 > * Si vous avez implémenté des intégrations sortantes, telles qu’une intégration Campaign-Analytics ou une intégration Experience Cloud Triggers, celles-ci continueront de fonctionner jusqu’au 27 janvier 2025. Toutefois, avant cette date, vous devez mettre à niveau votre environnement Campaign vers la version 7.4.1 et migrer votre compte technique vers OAuth.
 
@@ -101,7 +101,7 @@ En tant que client On-Premise, vous devez également vérifier qu’un **[!UICON
 
 1. En tant qu’administrateur ou administratrice, connectez-vous à [Adobe Admin Console](https://adminconsole.adobe.com/){_blank}.
 1. Accédez à la section **Produit et services** et vérifiez qu’**Adobe Campaign** est répertorié.
-Si vous ne pouvez pas voir **&#x200B;**&#x200B;contactez l’assistance clientèle d’Adobe [&#128279;](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} pour l’ajouter.
+Si vous ne voyez pas **Adobe Campaign**, contactez l’[assistance clientèle d’Adobe](https://helpx.adobe.com/fr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){_blank} pour l’ajouter.
 1. Cliquez sur **Adobe Campaign** et sélectionnez votre organisation.
    **Attention** : si vous avez plusieurs organisations, veillez à choisir la bonne. Pour en savoir plus sur les organisations, consultez [cette page](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=fr#ims-org-id){_blank}.
 
@@ -150,4 +150,4 @@ Toute instance de Campaign non mise à niveau d’ici le 31 août ne pourra plus
 
 Si vous ne mettez pas à niveau votre environnement, les paramètres d’e-mail ne seront plus synchronisés (règles de gestion MX, règles relatives aux e-mails entrants, règles de gestion des domaines et règles de qualification des rebonds). Cela peut affecter votre délivrabilité au fil du temps. Si une modification importante est apportée à ces règles, celles-ci doivent être appliquées manuellement à partir de ce point.
 
-Pour les instances MKT, seule la [Liste de suppression globale](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-optimization/filtering-rules#default-deliverability-exclusion-rules){target="_blank"} (documentation de Campaign v8) est affectée.
+Pour les instances MKT, seule la [Liste de suppression globale](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-optimization/filtering-rules#default-deliverability-exclusion-rules){target="_blank"} (documentation de Campaign v8) est affectée.

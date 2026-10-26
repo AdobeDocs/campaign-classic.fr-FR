@@ -22,9 +22,9 @@ subfeature_v2:
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
     internal-label: Triggers
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
-ht-degree: 92%
+ht-degree: 100%
 ---
 # Configuration de Developer Console pour Adobe Experience Cloud Triggers {#configuring-adobe-io}
 
@@ -52,7 +52,7 @@ Avant de commencer cette implémentation, vérifiez que vous disposez des élém
 
 >[!AVAILABILITY]
 >
-> Les informations d’identification du compte de service (JWT) sont en train d’être abandonnées par Adobe. Les intégrations de Campaign aux solutions et applications Adobe doivent désormais s’appuyer sur les informations d’identification de serveur à serveur OAuth. </br>
+> Les informations d’identification de compte de service (JWT) étant abandonnées par Adobe, les intégrations de Campaign aux solutions et aux applications Adobe doivent désormais utiliser les informations d’identification OAuth serveur à serveur. </br>
 >
 > * Si vous avez implémenté des intégrations entrantes pour Campaign, vous devez migrer votre compte technique comme décrit dans [cette documentation](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/#_blank). Les [informations d’identification de compte de service (JWT)](oauth-technical-account.md) existantes continueront de fonctionner jusqu’au 27 janvier 2025.</br>
 >

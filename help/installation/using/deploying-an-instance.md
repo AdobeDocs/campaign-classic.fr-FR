@@ -3,7 +3,7 @@ product: campaign
 title: Déploiement d’une instance
 description: En savoir plus sur l’assistant de déploiement de Campaign
 feature: Installation, Instance Settings, Deployment
-badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/fr/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models" tooltip="Applies to on-premise and hybrid deployments only"
 audience: installation
 content-type: reference
 topic-tags: initial-configuration
@@ -36,9 +36,9 @@ topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3621'
-ht-degree: 99%
+ht-degree: 100%
 ---
 # Déploiement d’une instance{#deploying-an-instance}
 
@@ -230,7 +230,7 @@ Lorsque vous activez le tracking sur une instance, les URL présentes dans les d
 
 ![](assets/s_ncs_install_deployment_wiz_08.png)
 
-Pour garantir l&#39;efficacité du tracking sur cette instance, les informations suivantes doivent être affichées :
+Pour garantir l’efficacité du suivi sur cette instance, les informations suivantes doivent être affichées :
 <!--With Mid-sourcing architecture, you can externalize tracking management. To do this:-->
 
 * **[!UICONTROL URL externe]** et/ou **[!UICONTROL URL externe sécurisée]** : saisir l&#39;URL de redirection à utiliser dans les emails à envoyer.
@@ -407,7 +407,7 @@ Dans une diffusion, vous pouvez utiliser des images stockées dans la bibliothè
 
   Cette valeur peut être surchargée au niveau de chaque diffusion.
 
-* Pour les ressources publiques, l’URL **https://** serveur **/res/** instance **&#x200B;**&#x200B;où&#x200B;**instance**&#x200B;est le nom de l’instance de tracking.
+* Pour les ressources publiques, l’URL **https://** serveur **/res/** instance ****où&#x200B;**instance**est le nom de l’instance de tracking.
 
 ### Détection des images d’une diffusion {#delivery-image-detection}
 

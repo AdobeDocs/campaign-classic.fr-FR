@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Modification de formulaires
-description: Modification de formulaires
+title: Modifier des formulaires
+description: Modifier des formulaires
 feature: Configuration
 role: Developer
 badge-v8: label="Also applies to v8" type="Positive" tooltip="Also applies to Campaign v8"
@@ -31,11 +31,11 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1933'
-ht-degree: 88%
+ht-degree: 100%
 ---
-# Modification de formulaires{#editing-forms}
+# Modifier des formulaires{#editing-forms}
 
 ## Vue d’ensemble
 
@@ -46,7 +46,7 @@ Vous pouvez créer et modifier des formulaires de saisie :
 * Vous pouvez modifier les formulaires de saisie d’usine fournis par défaut. Les formulaires de saisie d’usine sont basés sur les schémas de données d’usine.
 * Vous pouvez créer des formulaires de saisie personnalisés, en fonction des schémas de données que vous définissez.
 
-Les formulaires sont des entités de type `xtk:form`. Vous pouvez afficher la structure du formulaire de saisie dans le schéma `xtk:form`. Pour afficher ce schéma, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Schémas de données]** à partir du menu. En savoir plus sur [la structure des formulaires](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentation de Campaign v8).
+Les formulaires sont des entités de type `xtk:form`. Vous pouvez afficher la structure du formulaire de saisie dans le schéma `xtk:form`. Pour afficher ce schéma, sélectionnez **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Schémas de données]** à partir du menu. En savoir plus sur la [structure des formulaires](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"} (documentation de Campaign v8).
 
 Pour accéder aux formulaires de saisie, sélectionnez **[!UICONTROL Administration] > [!UICONTROL Configuration] > [!UICONTROL Formulaires de saisie]** à partir du menu :
 
@@ -56,7 +56,7 @@ Pour concevoir des formulaires, modifiez le contenu XML dans l’éditeur XML :
 
 ![](assets/d_ncs_integration_form_edit.png)
 
-[En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms#formatting){target="_blank"} (documentation de Campaign v8).
+[En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms#formatting){target="_blank"} (documentation de Campaign v8).
 
 Pour prévisualiser un formulaire, cliquez sur l’onglet **[!UICONTROL Aperçu]** :
 
@@ -80,7 +80,7 @@ Vous pouvez créer différents types de formulaires de saisie. Le type de formul
 
 * Assistant
 
-  Ce formulaire comprend plusieurs écrans flottants organisés en séquences spécifiques. Les utilisateurs peuvent naviguer d’un écran à l’autre. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms#wizards){target="_blank"} (documentation de Campaign v8).
+  Ce formulaire comprend plusieurs écrans flottants organisés en séquences spécifiques. Les utilisateurs peuvent naviguer d’un écran à l’autre. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms#wizards){target="_blank"} (documentation de Campaign v8).
 
 * Iconbox
 
@@ -110,7 +110,7 @@ Dans les formulaires, vous pouvez utiliser des conteneurs à diverses fins :
 * Définition de l’accès aux champs de saisie
 * Imbrication de formulaires dans d’autres formulaires
 
-[En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"} (documentation de Campaign v8).
+[En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"} (documentation de Campaign v8).
 
 ### Organisation du contenu
 
@@ -119,7 +119,7 @@ Utilisez des conteneurs pour organiser le contenu dans les formulaires :
 * Vous pouvez regrouper des champs en sections.
 * Vous pouvez ajouter des pages à des formulaires de plusieurs pages.
 
-Pour insérer un conteneur, utilisez l’élément `<container>`. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"} (documentation de Campaign v8).
+Pour insérer un conteneur, utilisez l’élément `<container>`. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"} (documentation de Campaign v8).
 
 #### Regroupement de champs
 
@@ -232,7 +232,7 @@ Pour créer un formulaire, procédez comme suit :
 
 1. Insérez les éléments de formulaire.
 
-   Par exemple, pour insérer un champ de saisie, utilisez l’élément `<input>`. Définissez l’attribut `xpath` sur la référence du champ en tant qu’expression XPath. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure#reference-with-xpath){target="_blank"} (documentation de Campaign v8).
+   Par exemple, pour insérer un champ de saisie, utilisez l’élément `<input>`. Définissez l’attribut `xpath` sur la référence du champ en tant qu’expression XPath. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/schema-structure#reference-with-xpath){target="_blank"} (documentation de Campaign v8).
 
    Cet exemple montre des champs de saisie basés sur le schéma `nms:recipient`.
 
@@ -265,7 +265,7 @@ Pour créer un formulaire, procédez comme suit :
    | Case à cocher | `type="checkbox"` |
    | Modifier l’arborescence | `type="tree"` |
 
-   En savoir plus sur les [&#x200B; contrôles de liste de mémoire &#x200B;](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms#memory-list-controls){target="_blank"} (documentation de Campaign v8).
+   En savoir plus sur les [contrôles de liste mémoire](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms#memory-list-controls){target="_blank"} (documentation de Campaign v8).
 
 1. Vous pouvez éventuellement définir l’accès aux champs :
 
@@ -482,7 +482,7 @@ Vous pouvez inclure des contrôles de validation dans les formulaires.
 
 ### Octroi d’accès en lecture seule aux champs
 
-Pour octroyer l’accès en lecture seule à un champ, utilisez l’attribut `readOnly="true"`. Par exemple, vous pouvez vouloir afficher la clé primaire d’un enregistrement, mais avec un accès en lecture seule. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms#non-editable-fields){target="_blank"} (documentation de Campaign v8).
+Pour octroyer l’accès en lecture seule à un champ, utilisez l’attribut `readOnly="true"`. Par exemple, vous pouvez vouloir afficher la clé primaire d’un enregistrement, mais avec un accès en lecture seule. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms#non-editable-fields){target="_blank"} (documentation de Campaign v8).
 
 Dans cet exemple, la clé primaire (`iRecipientId`) du schéma `nms:recipient` s’affiche en mode d’accès en lecture seule :
 
@@ -508,11 +508,11 @@ Dans cet exemple, l’adresse e-mail est requise et un message d’erreur s’af
 </leave>
 ```
 
-En savoir plus sur les [champs d’expression](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms#expression-field){target="_blank"} (documentation de Campaign v8) et [contexte du formulaire](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms#context-of-forms){target="_blank"} (documentation de Campaign v8).
+En savoir plus sur les [champs d’expression](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms#expression-field){target="_blank"} (documentation de Campaign v8) et sur le [contexte de formulaire](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms#context-of-forms){target="_blank"} (documentation de Campaign v8).
 
 ### Validation des valeurs
 
-Vous pouvez utiliser des appels SOAP JavaScript pour valider les données de formulaire à partir de la console. Utilisez ces appels pour une validation complexe, par exemple pour comparer une valeur à une liste de valeurs autorisées. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms#soap-methods){target="_blank"} (documentation de Campaign v8).
+Vous pouvez utiliser des appels SOAP JavaScript pour valider les données de formulaire à partir de la console. Utilisez ces appels pour une validation complexe, par exemple pour comparer une valeur à une liste de valeurs autorisées. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms#soap-methods){target="_blank"} (documentation de Campaign v8).
 
 1. Créez une fonction de validation dans un fichier JS.
 
@@ -569,4 +569,4 @@ Cet exemple montre comment effectuer des appels de service depuis les formulaire
 </enter>
 ```
 
-Dans cet exemple, l’entrée est un identifiant, qui correspond à une clé primaire. Lorsque les utilisateurs remplissent le formulaire pour cet identifiant, un appel SOAP est effectué avec cet identifiant comme paramètre d’entrée. La sortie est une valeur booléenne qui est écrite dans ce champ : `/tmp/@count`. Vous pouvez utiliser cette valeur booléenne dans le formulaire. En savoir plus sur [le contexte du formulaire](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms#context-of-forms){target="_blank"} (documentation de Campaign v8).
+Dans cet exemple, l’entrée est un identifiant, qui correspond à une clé primaire. Lorsque les utilisateurs remplissent le formulaire pour cet identifiant, un appel SOAP est effectué avec cet identifiant comme paramètre d’entrée. La sortie est une valeur booléenne qui est écrite dans ce champ : `/tmp/@count`. Vous pouvez utiliser cette valeur booléenne dans le formulaire. En savoir plus sur le [contexte de formulaire](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms#context-of-forms){target="_blank"} (documentation de Campaign v8).

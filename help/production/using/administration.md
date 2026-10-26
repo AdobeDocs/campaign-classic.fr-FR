@@ -3,7 +3,7 @@ product: campaign
 title: Administration
 description: Administration
 feature: Monitoring
-badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/fr/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: production-procedures
@@ -26,7 +26,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '437'
 ht-degree: 100%
 ---
@@ -75,7 +75,7 @@ Voici une liste des commandes usuelles d&#39;administration accessibles sous Lin
 
   Vous pouvez également utiliser la commande **nlserver restart`<module>[@<instance>]`** pour redémarrer un module.
 
-  Exemple:
+  Exemple :
 
   **nlserver start web**
 
@@ -96,7 +96,7 @@ Voici une liste des commandes usuelles d&#39;administration accessibles sous Lin
   >* Utilisez l’option **-noconsole** pour assurer que le module lancé n’affiche rien sur la console. Ses logs seront écrits sur le disque via le module **syslogd**.
   >* Utilisez l’option **-verbose** pour afficher davantage d&#39;informations sur les actions du processus.
   >
-  >   Exemple:
+  >   Exemple :
   >
   >   **nlserver restart web -verbose**
   >

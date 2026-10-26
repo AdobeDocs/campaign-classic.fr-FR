@@ -26,7 +26,7 @@ topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
 source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '362'
 ht-degree: 100%
 ---
@@ -42,7 +42,7 @@ Pour en savoir plus sur la gestion de campagne, consultez la [documentation de C
 
 Découvrez les étapes clés liées à la gestion de campagnes :
 
-* [Prise en main](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=fr){target=_blank} : découvrez, étape par étape, comment créer et exécuter une campagne marketing dans Adobe Campaign.
+* [Prise en main](https://experienceleague.adobe.com/fr/docs/campaign/automation/campaign-orchestration/set-up-campaigns){target=_blank} : découvrez, étape par étape, comment créer et exécuter une campagne marketing dans Adobe Campaign.
 
 * [Créer votre première campagne](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=fr){target=_blank} : découvrez comment planifier et configurer la logique pour orchestrer vos campagnes. Une campagne centralise tous les éléments relatifs à une campagne marketing : diffusions, règles de ciblage, coûts, fichiers d’export, documents associés, etc.
 

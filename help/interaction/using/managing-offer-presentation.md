@@ -25,9 +25,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: 323ff901668895588a6e9587fa2a8b7804cf2fb4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1111'
-ht-degree: 98%
+ht-degree: 100%
 ---
 # Gérer la présentation des offres{#managing-offer-presentation}
 
@@ -87,7 +87,7 @@ La **[!UICONTROL Dimension de ciblage]** correspond à la table des destinataire
 
 >[!NOTE]
 >
->Vous pouvez également utiliser des tables non standard. Si vous souhaitez utiliser une dimension de ciblage spécifique, vous devez créer des tables ainsi qu’un environnement dédié à l’aide du mapping de ciblage. Voir à ce sujet la section [Créer un environnement d&#39;offres](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} (documentation de Campaign v8).
+>Vous pouvez également utiliser des tables non standard. Si vous souhaitez utiliser une dimension de ciblage spécifique, vous devez créer des tables ainsi qu’un environnement dédié à l’aide du mapping de ciblage. Pour en savoir plus à ce sujet, consultez [Créer un environnement d’offre](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/interaction-settings/interaction-env#create-an-offer-environment){target="_blank"} (documentation de Campaign v8).
 
 ### Période {#period}
 

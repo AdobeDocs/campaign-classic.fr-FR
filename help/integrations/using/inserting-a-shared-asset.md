@@ -28,9 +28,9 @@ subfeature_v2:
   - id: 2e08b477-1993-5928-975d-5f4cabe8fbe0
     internal-label: Asset Sharing
 source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '261'
-ht-degree: 93%
+ht-degree: 100%
 ---
 # Insérer une ressource partagée{#inserting-a-shared-asset}
 
@@ -54,7 +54,7 @@ Les ressources partagées depuis Adobe Experience Cloud peuvent être utilisé
 
      >[!NOTE]
      >
-     >Vous ne pouvez pas insérer d’images partagées depuis Adobe Campaign dans [accès web](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui#ui-access){target="_blank"} (documentation de Campaign v8) lors de l’utilisation du DCE.
+     >Vous ne pouvez pas insérer d’images partagées depuis Adobe Campaign dans l’[accès web](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui#ui-access){target="_blank"} (documentation de Campaign v8) si vous utilisez le DCE.
 
 1. Dans la fenêtre de sélection qui s&#39;ouvre, sélectionnez une image, puis validez.
 

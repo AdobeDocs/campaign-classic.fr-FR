@@ -3,7 +3,7 @@ product: campaign
 title: Prise en main des mises à niveau de build
 description: Découvrez les étapes principales d’une mise à niveau vers un nouveau build
 feature: Monitoring, Upgrade
-badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=fr" tooltip="Applies to on-premise and hybrid deployments only"
+badge-v7-prem: label="On-premise/hybrid only" type="Caution" url="https://experienceleague.adobe.com/fr/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models" tooltip="Applies to on-premise and hybrid deployments only"
 audience: production
 content-type: reference
 topic-tags: updating-adobe-campaign
@@ -30,7 +30,7 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: 4bc1e76d129c6a6aa15b7e3915232043bd6f4286
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2410'
 ht-degree: 100%
 ---

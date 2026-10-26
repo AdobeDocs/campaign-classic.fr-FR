@@ -25,9 +25,9 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
 source-git-commit: 7b7f6d2ad5e5d09880f05c7e99ea8ede770532ab
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '150'
-ht-degree: 84%
+ht-degree: 100%
 ---
 # Régénération des schémas{#regenerating-schemas}
 
@@ -37,7 +37,7 @@ Lorsque vous modifiez un schéma et enregistrez les modifications, le schéma é
 1. Cliquez avec le bouton droit et sélectionnez **[!UICONTROL Actions > Régénérer les schémas sélectionnés...]** .
 1. Cliquez sur **[!UICONTROL OK]** pour valider et lancer le processus.
 
-Vous pouvez ensuite vérifier la structure du schéma généré dans les onglets Aperçu et Documentation. Pour plus d’informations à ce sujet, consultez la section [Principes](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentation de Campaign v8) .
+Vous pouvez ensuite vérifier la structure du schéma généré dans les onglets Aperçu et Documentation. Pour en savoir plus, consultez la section [Principes](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentation de Campaign v8).
 
 >[!NOTE]
 >

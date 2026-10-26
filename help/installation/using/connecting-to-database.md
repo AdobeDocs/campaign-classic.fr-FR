@@ -31,9 +31,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '701'
-ht-degree: 95%
+ht-degree: 100%
 ---
 # Connexion à la base de données {#connecting-to-the-database}
 
@@ -126,4 +126,4 @@ Si nécessaire, vous pouvez créer le schéma pour le traitement des données da
 
 >[!NOTE]
 >
->Pour plus d&#39;informations sur la création de schémas dans Adobe Campaign et la définition d&#39;un nouveau mapping des données, consultez [cette page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentation de Campaign v8).
+>Pour plus d’informations sur la création de schémas dans Adobe Campaign et la définition d’un nouveau mappage des données, consultez [cette page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/schemas){target="_blank"} (documentation de Campaign v8).

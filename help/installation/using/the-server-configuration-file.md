@@ -31,9 +31,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
 source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '8113'
-ht-degree: 99%
+ht-degree: 100%
 ---
 # Le fichier de configuration du serveur{#the-server-configuration-file}
 
@@ -810,7 +810,7 @@ Voici les différents paramètres du nœud **module**. Il s’agit de la configu
 
 ## monitoring {#monitoring}
 
-Voici les différents paramètres du nœud **&#x200B;**. Il s’agit de la configuration du service de surveillance.
+Voici les différents paramètres du nœud ****. Il s’agit de la configuration du service de surveillance.
 
 <table> 
  <thead> 
@@ -1644,11 +1644,11 @@ Voici les différents paramètres du nœud **mta**. Il s’agit de la configurat
   </tr>
   <tr> 
    <td> statServerAddress<br /> </td> 
-   <td> Adresse du serveur des statistiques d’envois, au format : 
-    &lt;dns ou ip&gt; 
-      <code>&lbrack;</code>: 
+   <td> Adresse du serveur des statistiques des diffusions, sous la forme 
+    &lt;dns or ip&gt; 
+      <code>[</code>: 
      &lt;port&gt; 
-       <code>&rbrack;</code>. Voir 
+       <code>]</code>. Voir 
       <a href="../../installation/using/email-deliverability.md#coordinates-of-the-statistics-server" target="_blank">Coordonnées du serveur de statistiques</a>. 
       <br /> 
      </td> 
