@@ -34,9 +34,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
 source-git-commit: f079b19ac78b331499a6f3cf5fcc21e55827998c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1204'
-ht-degree: 86%
+ht-degree: 100%
 ---
 # Mise à jour des versions {#rn-overview}
 
@@ -81,15 +81,15 @@ Pour cette raison, il est essentiel que vous **exécutiez la dernière build sta
 
 En tant qu’utilisateur hébergé, vous bénéficiez automatiquement de la mise à niveau avec la dernière build stable sans que vous n’ayez aucune action à effectuer. En savoir plus dans la section [Mise à niveau annuelle](#yearly-upgrade). Si vous migrez depuis une ancienne build, Adobe vous recommande d’effectuer d’abord la mise à niveau vers cette build.
 
-## Correctifs {#hotflixes}
+## Correctifs urgents {#hotflixes}
 
-Dans des cas exceptionnels, Adobe peut fournir un correctif spécifique au client pour résoudre un problème avant qu’un correctif ne soit disponible dans une version standard. Les demandes de correctif sont évaluées au cas par cas et ne font pas partie du cycle de publication standard.
+Dans des cas exceptionnels, Adobe peut fournir un correctif spécifique à la clientèle pour résoudre un problème avant qu’un correctif ne soit disponible dans une version standard. Les demandes de correctif sont évaluées au cas par cas et ne font pas partie du cycle standard de publication de la version.
 
-Les demandes de correctif doivent être envoyées via l’assistance clientèle d’Adobe. S’il est approuvé, un correctif est préparé pour le client et la version de produit concernés. Un correctif n’est pas une version générale pour tous les clients et clientes ; Adobe peut approuver son partage avec d’autres clients et clientes concernés après révision.
+Les demandes de correctif doivent être envoyées via l’assistance clientèle d’Adobe. Si la demande est approuvée, un correctif est préparé pour la cliente ou le client et la version du produit. Un correctif n’est pas une version générale pour toute la clientèle ; Adobe peut approuver son partage avec d’autres clientes et clients concernés après examen.
 
 Les détails du correctif ne sont pas nécessairement inclus dans les notes de mise à jour publiques lors de la diffusion du correctif. Adobe peut inclure ultérieurement un correctif dans une version standard pour la version applicable. L’inclusion et le calendrier ne sont pas garantis. Consultez les notes de mise à jour pour connaître les modifications incluses dans chaque version standard.
 
-Ce processus de correctif spécifique au client est distinct de la politique de correctif de sécurité critique décrite ci-dessus, en vertu de laquelle Adobe peut appliquer des correctifs de sécurité critiques aux environnements hébergés sans préavis.
+Ce processus de correctif spécifique à la cliente ou au client est distinct de la politique relative aux correctifs de sécurité critiques décrite ci-dessus, en vertu de laquelle Adobe peut appliquer des correctifs de sécurité critiques aux environnements hébergés sans préavis.
 
 ### Correctifs de sécurité pour les environnements hébergés {#security-patching}
 
