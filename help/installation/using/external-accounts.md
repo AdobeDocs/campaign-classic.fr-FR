@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 75d65377f93a40be104f7ec817e6a7609cccaf93
-workflow-type: ht
-source-wordcount: '2157'
-ht-degree: 100%
+source-git-commit: a119d402631c5d2dd3ab8d6d11dfd0cdba0d662f
+workflow-type: tm+mt
+source-wordcount: '2208'
+ht-degree: 97%
 ---
 # Comptes externes{#external-accounts}
 
@@ -483,4 +483,8 @@ Pour configurer le **[!UICONTROL compte externe Azure]** afin de l’utiliser av
 
 * **[!UICONTROL Clé d’accès]**
 
-  Pour savoir où trouver votre **** clé d’accès[, consultez cette page](https://docs.microsoft.com/fr-fr/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
+  Pour savoir où trouver votre **&#x200B;**&#x200B;clé d’accès[, consultez cette page](https://docs.microsoft.com/fr-fr/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
+
+  >[!NOTE]
+  >
+  >Le stockage Blob d’Azure filtre les fichiers par préfixe de nom, et non par motif. Un astérisque de fin (`*`) dans un masque de fichier est supprimé, de sorte `TEST_EXPORT_AZURE_*` correspond à tous les fichiers commençant par `TEST_EXPORT_AZURE_`. Les caractères après l’astérisque, comme dans `TEST_EXPORT_AZURE_*.csv`, ne sont pas pris en charge. [En savoir plus dans la documentation de Microsoft](https://learn.microsoft.com/en-us/rest/api/storageservices/list-blobs){target="_blank"}.
