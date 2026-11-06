@@ -28,9 +28,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a119d402631c5d2dd3ab8d6d11dfd0cdba0d662f
+source-git-commit: 2e00628a95aa333698f11233e851b54423f11f29
 workflow-type: tm+mt
-source-wordcount: '2208'
+source-wordcount: '2221'
 ht-degree: 97%
 ---
 # Comptes externes{#external-accounts}
@@ -333,7 +333,7 @@ Le compte externe **[!UICONTROL AEM (instance AEM)]** vous permet de gérer le c
 
   Mot de passe utilisé pour se connecter à l&#39;instance de création Adobe Experience Manager.
 
-Voir à ce propos cette [section](../../integrations/using/about-adobe-experience-manager.md).
+Pour en savoir plus à ce sujet, consultez cette [section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"} (documentation de Campaign v8).
 
 ## Comptes externes du connecteur CRM
 
@@ -483,7 +483,7 @@ Pour configurer le **[!UICONTROL compte externe Azure]** afin de l’utiliser av
 
 * **[!UICONTROL Clé d’accès]**
 
-  Pour savoir où trouver votre **&#x200B;**&#x200B;clé d’accès[, consultez cette page](https://docs.microsoft.com/fr-fr/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
+  Pour savoir où trouver votre **** clé d’accès[, consultez cette page](https://docs.microsoft.com/fr-fr/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
 
   >[!NOTE]
   >

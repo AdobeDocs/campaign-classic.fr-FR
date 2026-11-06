@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Optimization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: ht
-source-wordcount: '1448'
+source-git-commit: 2e00628a95aa333698f11233e851b54423f11f29
+workflow-type: tm+mt
+source-wordcount: '1461'
 ht-degree: 100%
 ---
 # Installation des packages natifs de Campaign Classic{#installing-campaign-standard-packages}
@@ -218,7 +218,7 @@ Le tableau ci-après répertorie tous les packages natifs de Campaign.
   </tr> 
   <tr> 
    <td> Intégration AEM<br /> </td> 
-   <td> Permet de gérer le contenu de vos diffusions email ainsi que vos formulaires directement dans Adobe Experience Manager afin de bénéficier des fonctionnalités d’édition de contenu d’AEM et des capacités de diffusion d’Adobe Campaign. <a href="../../integrations/using/about-adobe-experience-manager.md">En savoir plus</a> <br /> </td> 
+   <td> Permet de gérer le contenu de vos diffusions email ainsi que vos formulaires directement dans Adobe Experience Manager afin de bénéficier des fonctionnalités d’édition de contenu d’AEM et des capacités de diffusion d’Adobe Campaign. <a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/connect/ac-aem" target="_blank">En savoir plus</a> (documentation de Campaign v8) <br /> </td> 
    <td> Marketing</td> 
   </tr> 
   <tr> 
