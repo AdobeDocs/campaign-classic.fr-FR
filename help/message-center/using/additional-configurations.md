@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
-workflow-type: ht
-source-wordcount: '923'
-ht-degree: 100%
+source-git-commit: cce1f22c34cbd13d063850a7ca636a3b0dfc62f6
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 91%
 ---
 # Configurations supplémentaires {#mc-additional-configurations}
 
+Cette page présente les configurations supplémentaires pour les messages transactionnels dans Campaign Classic v7.
 
+Dans le cadre de la transition de Campaign v7 vers v8, la documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur la purge des événements de messagerie transactionnelle et les workflows techniques, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/transactional-msg-settings){target=_blank}.
+
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/transactional-msg-settings){target=_blank}
 
 ## Surveillance des seuils {#monitoring-thresholds}
 
@@ -53,65 +57,11 @@ Pour ce faire, procédez comme suit :
 
 >[!NOTE]
 >
->Le nombre d&#39;événements en attente dans la file est affiché dans la section [Indicateurs système](../../production/using/monitoring-processes.md#system-indicators) de la page de su des processus Adobe Campaign. Pour plus d&#39;informations sur l&#39;assistant de déploiement, consultez [cette section](../../installation/using/deploying-an-instance.md#deployment-assistant).
-
-## Purge des événements {#purging-events}
-
-Vous pouvez utiliser l&#39;[assistant de déploiement](../../production/using/database-cleanup-workflow.md#deployment-assistant) pour configurer la durée pendant laquelle vous souhaitez conserver les événements en base dans la base de données.
-
-La purge des événements est effectuée automatiquement par le [workflow de nettoyage de la base de données](../../production/using/database-cleanup-workflow.md). Ce workflow purge les événements reçus et stockés sur les instances d’exécution et les événements archivés sur une instance de pilotage.
-
-Pour modifier les paramètres de purge, utilisez la flèche ascendante et descendante.
-
-Paramètres de purge des événements sur une instance de pilotage :
-
-![](assets/messagecenter_delete_events_001.png)
-
-Paramètres de purge des événements sur une instance d&#39;exécution :
-
-![](assets/messagecenter_delete_events_002.png)
-
-Pour plus d&#39;informations sur le workflow de nettoyage de la base, consultez [cette section](../../production/using/database-cleanup-workflow.md).
-
+>Le nombre d&#39;événements en attente dans la file est affiché dans la section [Indicateurs système](../../production/using/monitoring-processes.md#system-indicators) de la page de surveillance des processus Adobe Campaign. Pour plus d&#39;informations sur l&#39;assistant de déploiement, consultez [cette section](../../installation/using/deploying-an-instance.md#deployment-assistant).
 
 ## Workflows techniques {#technical-workflows}
 
 Vous devez vous assurer que les workflows techniques de l&#39;instance de pilotage et des différentes instances d&#39;exécution sont bien créés et démarrés avant de procéder au déploiement des modèles de messages transactionnels.
-
-Les différents workflows techniques associés aux messages transactionnels (Message Center) sont répartis entre l&#39;instance de pilotage et la ou les instances d&#39;exécution.
-
-### Workflows de l&#39;instance de pilotage {#control-instance-workflows}
-
-Sur l&#39;instance de pilotage, qu&#39;une ou plusieurs instances d&#39;exécution soient enregistrées, vous devez créer un workflow d&#39;archivage pour chaque compte externe d&#39;**[!UICONTROL instance d&#39;exécution Message Center]**. Cliquez sur le bouton **[!UICONTROL Créer le workflow d&#39;archivage]** pour créer et démarrer le processus.
-
-![](assets/messagecenter_archiving_002.png)
-
-Ces workflows sont ensuite accessibles à partir du dossier **Administration > Production > Message Center**. Une fois créés, les workflows d&#39;archivage sont automatiquement démarrés.
-
-<!--
-**Minimal architecture**
-
-Once the control and execution modules are installed on the same instance, you must create the archiving workflow using the deployment wizard. Click the **[!UICONTROL Create the archiving workflow]** button to create and start the workflow.
-
-![](assets/messagecenter_archiving_001.png)
--->
-
-### Workflows de l&#39;instance d&#39;exécution {#execution-instance-workflows}
-
-Sur la ou les instances d’exécution, les workflows techniques des messages transactionnels sont accessibles depuis le dossier **Administration > Exploitation > Message Center**. Vous devez simplement les démarrer. La liste des workflows est la suivante :
-
-* **[!UICONTROL Traitement des événements batch]** (nom interne : **[!UICONTROL batchEventsProcessing]**) : ce workflow permet de répartir les événements batch dans une file d&#39;attente avant qu&#39;ils ne soient associés à un modèle de message.
-* **[!UICONTROL Traitement des événements temps réel]** (nom interne : **[!UICONTROL rtEventsProcessing]**) : ce workflow permet de répartir les événements temps réel dans une file d&#39;attente avant qu&#39;ils ne soient associés à un modèle de message.
-* **[!UICONTROL Mise à jour du statut des événements]** (nom interne : **[!UICONTROL updateEventsStatus]**) : ce workflow permet d&#39;attribuer un statut à l&#39;événement.
-
-  Les statuts d&#39;un événement sont les suivants :
-
-  * **[!UICONTROL En attente]** : l’événement se trouve dans la file d’attente. Aucun modèle de message ne lui a encore été associé.
-  * **[!UICONTROL En attente de diffusion]** : l&#39;événement est dans la file d&#39;attente, un modèle de message lui a été associé et il est en cours de traitement par la diffusion.
-  * **[!UICONTROL Envoyé]** : ce statut est copié depuis les logs de diffusion. Il signifie que la diffusion a été envoyée.
-  * **[!UICONTROL Ignoré par la diffusion]** : ce statut est copié depuis les logs de diffusion. Il signifie que la diffusion a été ignorée.
-  * **[!UICONTROL Erreur de diffusion]** : ce statut est copié depuis les logs de diffusion. Il signifie que la diffusion a échoué.
-  * **[!UICONTROL Événement non pris en charge]** : l’association de l’événement à un modèle de message a échoué. L’événement ne sera pas traité.
 
 ### Planning du workflow d’archivage
 

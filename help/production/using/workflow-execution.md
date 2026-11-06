@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
-source-wordcount: '766'
-ht-degree: 100%
+source-git-commit: cce1f22c34cbd13d063850a7ca636a3b0dfc62f6
+workflow-type: tm+mt
+source-wordcount: '779'
+ht-degree: 98%
 ---
 # Exécution des workflows{#workflow-execution}
 
@@ -46,7 +46,7 @@ La section ci-dessous présente des informations sur les problèmes courants li�
 
 Pour plus d&#39;informations sur les workflows, consultez les sections suivantes :
 
-* [À propos des workflows](../../workflow/using/about-workflows.md)
+* [À propos des workflows](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} (documentation de Campaign v8)
 * [Démarrage d’un workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html?lang=fr){target="_blank"}
 * [Cycle de vie d’un workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=fr){target="_blank"}
 * [Bonnes pratiques relatives à l’utilisation des workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=fr){target="_blank"}

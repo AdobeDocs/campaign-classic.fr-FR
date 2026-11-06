@@ -41,12 +41,20 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: ht
-source-wordcount: '936'
-ht-degree: 100%
+source-git-commit: 9753491edbeba9df2c0a9dcf53b3bd5ea87c32ca
+workflow-type: tm+mt
+source-wordcount: '848'
+ht-degree: 92%
 ---
 # Personnalisation et confidentialité {#privacy}
+
+Cette page traite de la personnalisation des URL, de leur signature et de la protection des pages contenant des informations personnelles.
+
+Dans le cadre de la transition de Campaign v7 vers v8, la documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur les demandes de restriction et de confidentialité des données, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security#data-restriction){target=_blank}.
+
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security#data-restriction){target=_blank}
+
+Dans Campaign Classic v7, la restriction de l’accès à l’entité entière nécessite la version 8770 ou ultérieure.
 
 ## Personnalisation des URL {#url-personalization}
 
@@ -113,79 +121,6 @@ Pour activer la signature d&#39;URL, procédez comme suit sur tous les serveurs 
 1. Redémarrez le service **nlserver**.
 1. Sur le serveur `tracking`, redémarrez le serveur `web` (apache2 sur Debian, httpd sur CentOS/RedHat et IIS sous Windows).
 
-## Restriction des données
-
-Vous devez vous assurer que l’accès aux mots de passe chiffrés est impossible pour toute personne authentifiée disposant de privilèges restreints. Pour cela, vous devez restreindre l’accès aux champs de mots de passe uniquement ou à l’entité entière (une version >= 8770 est requise).
-
-Cette restriction vous permet de supprimer les champs de mots de passe. Le compte externe reste toutefois accessible par tous les utilisateurs dans l’interface. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/restrict-pi-view){target="_blank"} (documentation de Campaign v8).
-
-Pour ce faire, suivez les étapes ci-après :
-
-1. Accédez au dossier **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Schémas de données]** de l’explorateur Campaign.
-
-1. Créez un schéma de données sous la forme d’une **[!UICONTROL extension d’un schéma]**.
-
-   ![](assets/privacy-data-restriction.png)
-
-1. Sélectionnez **[!UICONTROL Compte externe]** (extAccount).
-
-1. Dans le dernier écran de l’assistant, modifiez le nouveau « srcSchema » afin de restreindre l’accès à tous les champs de mot de passe :
-
-   Vous pouvez remplacer l&#39;élément principal (`<element name="extAccount" ... >`) par :
-
-   ```sql
-   <element name="extAccount">
-       <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
-       <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
-   
-       <element name="s3Account">
-           <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="awsSecret"/>
-       </element>
-       <element name="wapPush">
-           <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
-           <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
-       </element>
-       <element name="mms">
-           <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
-           <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
-       </element>
-   </element>
-   ```
-
-   Le srcSchema étendu peut ressembler à ceci :
-
-   ```sql
-   <srcSchema _cs="External Accounts (cus)" created="2017-05-12 07:53:49.691Z" createdBy-id="0"
-               desc="Definition of external accounts (Email, SMS...) used by the modules"
-               entitySchema="xtk:srcSchema" extendedSchema="nms:extAccount" img="" label="External Accounts"
-               labelSingular="External account" lastModified="2017-05-12 08:33:49.365Z"
-               mappingType="sql" md5="E9BB0CD6A4375F500027C86EA854E101" modifiedBy-id="0"
-               name="extAccount" namespace="cus" xtkschema="xtk:srcSchema">
-       <createdBy _cs="Administrator (admin)"/>
-       <modifiedBy _cs="Administrator (admin)"/>
-       <element name="extAccount">
-           <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
-           <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
-   
-           <element name="s3Account">
-               <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="awsSecret"/>
-           </element>
-           <element name="wapPush">
-               <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
-               <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
-           </element>
-           <element name="mms">
-               <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
-               <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
-           </element>
-       </element>
-   </srcSchema>    
-   ```
-
-   >[!NOTE]
-   >
-   >Vous pouvez remplacer `$(loginId) = 0 or $(login) = 'admin'` par `hasNamedRight('admin')` pour permettre à tous les utilisateurs disposant de droits d’administration de voir ces mots de passe.
-
 ## Protéger les pages contenant des informations personnelles
 
 Nous conseillons fortement aux utilisateur(utilisatrice)s On-premise de protéger les pages pouvant contenir des informations personnelles (PI), telles que les pages miroir, les applications web, etc.
@@ -214,8 +149,3 @@ Pour protéger vos pages, procédez comme suit :
    Outre le fichier **robots.txt**, il est conseillé d’ajouter un en-tête **X-Robots-Tag**. Vous pouvez le faire dans Apache ou IIS, ainsi que dans le fichier de configuration **serverConf.xml**.
 
    Pour plus d’informations, reportez-vous à [cet article](https://developers.google.com/search/reference/robots_meta_tag).
-
-
-## Demandes d’accès à des informations personnelles
-
-Reportez-vous à [cette page](../../platform/using/privacy-management.md) pour obtenir des informations générales sur la gestion de la protection des données et les étapes de son implémentation dans Adobe Campaign. Vous trouverez également des bonnes pratiques, ainsi qu’une vue d’ensemble du processus utilisateur et des acteurs impliqués.

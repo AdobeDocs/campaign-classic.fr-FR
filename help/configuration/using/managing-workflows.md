@@ -25,10 +25,10 @@ subfeature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
-source-wordcount: '137'
-ht-degree: 100%
+source-git-commit: cce1f22c34cbd13d063850a7ca636a3b0dfc62f6
+workflow-type: tm+mt
+source-wordcount: '150'
+ht-degree: 85%
 ---
 # Gestion des workflows{#managing-workflows}
 
@@ -42,6 +42,6 @@ En basant vos nouveaux workflows sur le modèle nouvellement créé, votre table
 
 Toutes les activités utilisées dans votre workflow utiliseront ainsi votre table personnalisée sans besoin de paramétrage manuel supplémentaire.
 
-Pour plus d&#39;informations sur les workflows, voir [cette section](../../workflow/using/about-workflows.md).
+Pour plus d’informations sur les workflows, consultez [cette section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} (documentation de Campaign v8).
 
 ![](assets/cfg_external_table_workflow.png)

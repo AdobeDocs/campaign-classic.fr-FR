@@ -8,9 +8,9 @@ user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: 4ae19a379120bb39444c3e81392a7dbb0b6da3ba
+source-git-commit: b2b42bcbab0d09197126d140da3ecb1f4aa0d869
 workflow-type: tm+mt
-source-wordcount: '1580'
+source-wordcount: '1560'
 ht-degree: 100%
 ---
 
@@ -117,7 +117,6 @@ ht-degree: 100%
     + [Utilisation d’un modèle de contenu](delivery/using/using-a-content-template.md)
     + [Enrichissement du contenu](delivery/using/enriching-content.md)
     + [Automatisation par workflows](delivery/using/automating-via-workflows.md)
-+ [Orchestrer des campagnes marketing](campaign/using/about-marketing-campaigns.md)
 + Gestion de la réaction {#response-manager}
   + [Prise en main de la gestion de la réaction](response/using/about-response-manager.md)
   + [Configuration](response/using/configuration.md)
@@ -129,9 +128,6 @@ ht-degree: 100%
     + [Bonnes pratiques en matière de reporting](reporting/using/best-practices.md)
   + Accéder aux rapports intégrés {#accessing-built-in-reports}
     + [À propos des rapports natifs](reporting/using/about-campaign-built-in-reports.md)
-    + [Liste des rapports](reporting/using/list-of-reports.md)
-  + Rapports sur les diffusions{#reports-on-deliveries}
-    + [Calcul des indicateurs](reporting/using/indicator-calculation.md)
   + Analyser les populations {#analyzing-populations}
     + [Présentation de l’analyse descriptive](reporting/using/about-descriptive-analysis.md)
     + [Création de votre premier rapport d’analyse descriptive](reporting/using/using-the-descriptive-analysis-wizard.md)
@@ -220,7 +216,6 @@ ht-degree: 100%
     + [Configuration de l’intégration](integrations/using/configuring-the-integration.md)
   + Adobe Target {#adobe-target}
     + [Configuration de l’intégration avec [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
-+ [Automatiser avec des workflows](workflow/using/about-workflows.md)
 + Gestion des offres {#managing-offers}
   + Commencer avec Interaction {#interaction-overview}
     + [Interaction et la gestion des offres](interaction/using/interaction-and-offer-management.md)
@@ -323,7 +318,6 @@ ht-degree: 100%
     + [Configurer des comptes externes](installation/using/external-accounts.md)
     + Configurer Federated Data Access{#configure-fda}
       + [Prise en main de Federated Data Access](installation/using/about-fda.md)
-      + [Bonnes pratiques et limites](installation/using/fda-best-practices.md)
       + Directives de configuration {#config-databases}
         + [Étapes de configuration](installation/using/configure-fda.md)
         + [Configurer Amazon Redshift](installation/using/configure-fda-redshift.md)
@@ -364,7 +358,6 @@ ht-degree: 100%
     + [Fichiers de log](production/using/log-files.md)
     + [Surveillance des processus](production/using/monitoring-processes.md)
     + [Commandes usuelles](production/using/usual-commands.md)
-    + [Journal d’audit](production/using/audit-trail.md)
   + Traitement des données {#data-processing}
     + [Sauvegarde](production/using/backup.md)
     + [Restauration](production/using/restoration.md)

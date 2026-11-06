@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
-source-wordcount: '377'
-ht-degree: 100%
+source-git-commit: 9753491edbeba9df2c0a9dcf53b3bd5ea87c32ca
+workflow-type: tm+mt
+source-wordcount: '393'
+ht-degree: 93%
 ---
 # Gestion des accès {#access-management}
 
@@ -62,7 +62,7 @@ N’utilisez pas l’opérateur admin (ou ne le partagez pas). Créez un opérat
 
 Évitez d’ajouter trop d’opérateurs dans le groupe d’administrateurs et d’administratrices (ou avec des droits nommés d’administration). Il s’agit d’opérateurs très puissants (ils peuvent effectuer toutes les instructions SQL, exécuter des commandes sur le serveur et bien d’autres actions).
 
-Adobe Campaign propose trois privilèges de niveau supérieur par le biais des [droits nommés](../../platform/using/access-management.md#named-rights) :
+Adobe Campaign fournit trois privilèges de haut niveau par le biais de [droits nommés](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/permissions/manage-permissions#use-named-rights){target="_blank"} (documentation de Campaign v8) :
 
 * **ADMINISTRATION** (admin) : donne accès à tout et permet d’effectuer toutes les tâches en contournant les contrôles des droits nommés. Il comprend donc les droits nommés EXÉCUTION DE PROGRAMMES (createProcess) et SQL.
 
