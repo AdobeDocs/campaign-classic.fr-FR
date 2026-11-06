@@ -37,7 +37,7 @@ ht-degree: 42%
 ---
 # Documentation de Campaign Classic v7 {#campaign-classic-documentation}
 
-Cette documentation couvre Campaign Classic v7 pour les déploiements **on-premise et hybrides** : installation, configuration, mises à niveau, opérations et fonctionnalités spécifiques à la v7. Si votre instance est hébergée par Adobe (Managed Cloud Services), reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/campaign-home){target="_blank"}. Le contenu que Campaign v8 documente de la même manière n’est plus dupliqué ici : consultez la section [ De v7 à v8](#from-v7-to-v8).
+Cette documentation couvre Campaign Classic v7 pour les déploiements **on-premise et hybrides** : installation, configuration, mises à niveau, opérations et fonctionnalités spécifiques à la v7. Si votre instance est hébergée par Adobe (Managed Cloud Services), reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/campaign-home){target="_blank"}. Le contenu que Campaign v8 documente de la même manière n’est plus dupliqué ici : consultez la section [&#x200B; De v7 à v8](#from-v7-to-v8).
 
 <!--![](platform/using/assets/do-not-localize/banner_acc_doc.jpg) -->
 
