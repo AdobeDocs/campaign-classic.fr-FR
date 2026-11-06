@@ -38,8 +38,8 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
+source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
+workflow-type: tm+mt
 source-wordcount: '450'
 ht-degree: 100%
 ---
@@ -72,7 +72,7 @@ La gestion des accès joue un rôle important dans le renforcement de la sécuri
 * Vérifiez que chaque opérateur dispose des droits d&#39;accès adéquats.
 * Évitez d&#39;utiliser l&#39;opérateur admin et d&#39;ajouter trop d&#39;opérateurs au groupe admin.
 
-[En savoir plus](../../installation/using/access-management.md)
+[En savoir plus](../../installation/using/secure-access-management.md)
 
 ## Instructions relatives aux scripts et au codage
 

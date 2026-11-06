@@ -24,8 +24,8 @@ subfeature_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
-workflow-type: ht
+source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
+workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 100%
 ---
@@ -57,7 +57,7 @@ Chaque hypothèse est liée à une seule table des transactions. Une diffusion o
 
 ## Étapes dʼimplémentation {#method}
 
-Avant d&#39;utiliser le Response Manager, consultez la section [Configuration](configuration.md) et procédez aux paramétrages qui vous sont nécessaires.
+Avant d&#39;utiliser le Response Manager, consultez la section [Configuration](configure-response-manager.md) et procédez aux paramétrages qui vous sont nécessaires.
 
 Pour pouvoir lancer une hypothèse sur une diffusion ou une offre, vous devez préalablement définir son contexte dans un modèle auquel vous ferez référence pour chaque hypothèse créée.
 

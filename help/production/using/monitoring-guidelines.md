@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a26a9642d4b60f0f095596584929ba5e98c3180a
+source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 98%
@@ -166,7 +166,7 @@ Des ressources techniques sont disponibles dans la documentation Campaign Classi
 
 **Principes généraux**
 
-* [Architecture Campaign Classic](../../production/using/general-architecture.md)
+* [Architecture Campaign Classic](../../production/using/architecture-and-open-ports.md)
 * [Modules Campaign Classic](../../production/using/operating-principle.md)
 * [Options Campaign Classic](../../installation/using/configuring-campaign-options.md)
 * [Configuration du démarrage automatique des modules](../../production/using/administration.md)

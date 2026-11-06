@@ -8,10 +8,10 @@ user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: 186021e65b592522f3c491fb518594b5bac5d003
+source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
 workflow-type: tm+mt
-source-wordcount: '1563'
-ht-degree: 98%
+source-wordcount: '1577'
+ht-degree: 97%
 ---
 
 # Documentation Adobe Campaign Classic v7 {#using}
@@ -75,7 +75,7 @@ ht-degree: 98%
   + Paramètres relatifs à la sécurité et à la confidentialité {#security-privacy}
     + [Liste de contrôle relative à la sécurité et à la confidentialité](installation/using/get-started-security-privacy.md)
     + [Personnalisation et confidentialité](installation/using/privacy.md)
-    + [Gestion des accès sécurisés](installation/using/access-management.md)
+    + [Gestion des accès sécurisés](installation/using/secure-access-management.md)
     + [Instructions relatives aux scripts et au codage](installation/using/scripting-coding-guidelines.md)
     + [Réseau, base de données et SSL/TLS](installation/using/network-database.md)
     + [Paramètres de sécurité du serveur](installation/using/server-configuration.md)
@@ -166,13 +166,13 @@ ht-degree: 98%
 + Fonctionnement et surveillance {#monitoring-campaign-classic}
   + Introduction {#introduction}
     + [Avant-propos](production/using/foreword.md)
-    + [Architecture générale](production/using/general-architecture.md)
+    + [Architecture et ports ouverts](production/using/architecture-and-open-ports.md)
     + [Directives de su](production/using/monitoring-guidelines.md)
   + Procédures d’exploitation {#production-procedures}
     + [Principe de configuration](production/using/configuration-principle.md)
     + [Principe de fonctionnement](production/using/operating-principle.md)
     + [Administration](production/using/administration.md)
-    + [Configuration](production/using/configuration.md)
+    + [Port et zones de sécurité Syslogd](production/using/syslogd-port-and-security-zones.md)
     + [Fichiers de log](production/using/log-files.md)
     + [Surveillance des processus](production/using/monitoring-processes.md)
     + [Commandes usuelles](production/using/usual-commands.md)
@@ -182,7 +182,7 @@ ht-degree: 98%
     + [Duplication d&#39;environnements](production/using/duplicating-environments.md)
     + [Workflow de nettoyage de la base de données](production/using/database-cleanup-workflow.md)
   + Mettre à jour Adobe Campaign {#updating-adobe-campaign}
-    + [Introduction](production/using/introduction.md)
+    + [À propos de la mise à jour de Campaign](production/using/introduction.md)
     + [Exécution d’une mise à niveau de build](production/using/build-upgrade.md)
     + [Procédure de mise à niveau (On-Premise)](production/using/upgrading.md)
     + [Basculement vers Unicode](production/using/switching-to-unicode.md)
@@ -229,7 +229,7 @@ ht-degree: 98%
     + [Mapping de la base de données](configuration/using/database-mapping.md)
     + [Gestion des clés](configuration/using/database-keys.md)
     + Éléments et attributs {#elements-attributes}
-      + [Introduction](configuration/using/schema-introduction.md)
+      + [Présentation des éléments et attributs](configuration/using/schema-introduction.md)
       + [Attribut](configuration/using/schema/attribute.md)
       + [Compute string](configuration/using/schema/compute-string.md)
       + [Condition](configuration/using/schema/condition.md)
@@ -301,7 +301,7 @@ ht-degree: 98%
       + [Résolution des problèmes de SMS](delivery/using/troubleshooting-sms.md)
   + [Envoyer des notifications push](delivery/using/about-mobile-app-channel.md)
   + Envoyer des notifications push {#sending-push-notifications}
-    + {hide-from-toc}[Résolution des problèmes - MASQUÉ](delivery/using/troubleshooting.md)
+    + {hide-from-toc}[Résolution des problèmes - MASQUÉ](delivery/using/push-troubleshooting.md)
   + [Envoyer des courriers](delivery/using/about-direct-mail-channel.md)
   + Personnaliser les diffusions {#personalizing-deliveries}
     + [À propos de la personnalisation](delivery/using/about-personalization.md)
@@ -420,7 +420,7 @@ ht-degree: 98%
     + [Offres sur canal sortant](interaction/using/offers-on-an-outbound-channel.md)
 + Gestion de la réaction {#response-manager}
   + [Prise en main de la gestion de la réaction](response/using/about-response-manager.md)
-  + [Configuration](response/using/configuration.md)
+  + [Configuration de Response Manager](response/using/configure-response-manager.md)
   + [Modèles d&#39;hypothèse](response/using/hypothesis-templates.md)
   + [Création d’hypothèses](response/using/creating-hypotheses.md)
   + [Suivi des hypothèses](response/using/hypothesis-tracking.md)
@@ -468,7 +468,7 @@ ht-degree: 98%
     + [Partage des audiences avec [!DNL Adobe Experience Cloud]](integrations/using/sharing-audiences-with-adobe-experience-cloud.md)
     + [Envoi d’une requête à Adobe](integrations/using/submitting-request-to-adobe.md)
     + [Configuration de l’intégration des audiences partagées dans [!DNL Adobe Campaign]](integrations/using/configuring-shared-audiences-integration-in-adobe-campaign.md)
-    + {hide-from-toc}[Résolution des problèmes](integrations/using/troubleshooting.md)
+    + {hide-from-toc}[Résolution des problèmes](integrations/using/integrations-troubleshooting.md)
     + [Importation et exportation des audiences](integrations/using/importing-and-exporting-audiences.md)
   + Partage de ressources {#asset-sharing}
     + [Partage de ressources avec [!DNL Adobe Experience Cloud]](integrations/using/sharing-assets-with-adobe-experience-cloud.md)
@@ -498,7 +498,7 @@ ht-degree: 98%
     + [Protection de la confidentialité des emails sur Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
     + [Mise à jour du certificat iOS](technotes/using/ios-certificate-update.md)
   + Migration vers Adobe Managed Services{#dc-migration}
-    + {hide-from-toc}[&#x200B; Migration vers le cloud public &#x200B;](technotes/using/dc-migration.md)
+    + {hide-from-toc}[ Migration vers le cloud public ](technotes/using/dc-migration.md)
     + {hide-from-toc}[FAQ](technotes/using/dc-migration-faq.md)
   + [Fonctions basées sur GCM](technotes/using/gcm-functions.md)
 + [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)
