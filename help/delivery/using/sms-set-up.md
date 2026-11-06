@@ -49,8 +49,8 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
+source-git-commit: 4ae19a379120bb39444c3e81392a7dbb0b6da3ba
+workflow-type: tm+mt
 source-wordcount: '1844'
 ht-degree: 100%
 ---
@@ -91,7 +91,7 @@ Pour ce faire, procédez comme suit :
 
    >[!CAUTION]
    >
-   > À partir de la version 20.2, les anciens connecteurs sont abandonnés et ne sont plus pris en charge. Nous vous recommandons d’utiliser le connecteur **[!UICONTROL SMPP générique étendu]**. Pour plus d’informations sur la migration vers le connecteur recommandé, voir cette [page](unsupported-connector-migration.md).
+   > À partir de la version 20.2, les anciens connecteurs sont abandonnés et ne sont plus pris en charge. Nous vous recommandons d’utiliser le connecteur **[!UICONTROL SMPP générique étendu]**. Pour plus d’informations sur la migration vers le connecteur recommandé, voir cette [page](sms-set-up.md).
 
 1. L’option **[!UICONTROL Activer les traces SMPP en mode verbeux dans le fichier journal]** permet de vider tout le trafic SMPP des fichiers journaux. Cette option doit être activée pour dépanner le connecteur et pour comparer le trafic affiché chez le fournisseur.
 

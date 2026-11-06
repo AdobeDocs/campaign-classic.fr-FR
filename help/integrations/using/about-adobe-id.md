@@ -34,14 +34,14 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
+source-git-commit: 4ae19a379120bb39444c3e81392a7dbb0b6da3ba
+workflow-type: tm+mt
 source-wordcount: '194'
 ht-degree: 100%
 ---
 # À propos des Adobe ID {#about-adobe-id}
 
-Le système Adobe IDentity Management System (IMS) permet aux administrateurs de créer et de gérer l&#39;accès des utilisateurs aux applications et services. Pour plus d’informations sur les différents types d’Adobe ID, consultez [cette page](https://helpx.adobe.com/fr/enterprise/using/identity.html).
+Le système de gestion des identités (IMS) Adobe permet aux administrateurs de créer et de gérer l&#39;accès des utilisateurs aux applications et services. Pour plus d’informations sur les différents types d’Adobe ID, consultez [cette page](https://helpx.adobe.com/fr/enterprise/using/identity.html).
 
 Les utilisateurs et utilisatrices de Campaign peuvent se connecter à la console Adobe Campaign à l’aide de leur Adobe ID, plutôt que via l’[authentification native utilisateur/mot de passe](../../platform/using/access-management-operators.md). Cette implémentation présente les avantages suivants :
 
@@ -65,10 +65,10 @@ Les utilisateurs et utilisatrices de Campaign peuvent se connecter à la console
 >
 >Depending on your current version, you must upgrade to one of the following releases: 
 >
-> * [Campaign [!DNL Gold Standard] 11](../../rn/using/gold-standard.md)
+> * [Campaign [!DNL Gold Standard] 11](../../rn/using/rn-overview.md)
 > * [Campaign 21.1.4](../../rn/using/latest-release.md)
 >
->[Learn more about IMS updates](../../technotes/using/ims-updates.md)
+>[Learn more about IMS updates](../../technotes/using/ac-ims.md)
 -->
 
 ## Plus de ressources

@@ -40,10 +40,10 @@ role_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
-source-wordcount: '109'
-ht-degree: 100%
+source-git-commit: 4ae19a379120bb39444c3e81392a7dbb0b6da3ba
+workflow-type: tm+mt
+source-wordcount: '123'
+ht-degree: 84%
 ---
 # Résolution des problèmes{#troubleshooting}
 
@@ -60,4 +60,4 @@ Connecteur HTTP/2 : vous devez autoriser les communications à destination et e
 
 >[!NOTE]
 >
->Pour plus d’informations sur les deux connecteurs, voir la section [Paramétrage de l’application mobile dans Adobe Campaign](configuring-the-mobile-application.md).
+>Pour plus d&#39;informations sur les deux connecteurs, consultez la section [Configuration de l&#39;application mobile dans Adobe Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/push/push-settings){target="_blank"} (documentation de Campaign v8).

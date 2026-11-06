@@ -8,9 +8,9 @@ user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: ht
-source-wordcount: '1657'
+source-git-commit: 4ae19a379120bb39444c3e81392a7dbb0b6da3ba
+workflow-type: tm+mt
+source-wordcount: '1580'
 ht-degree: 100%
 ---
 
@@ -23,10 +23,6 @@ ht-degree: 100%
   + Versions précédentes {#previous-releases}
     + [2025](rn/using/release-2025.md)
     + [2024](rn/using/release-2024.md)
-    + {hide-from-toc}[2023 - MASQUÉ](rn/using/release-2023.md)
-    + {hide-from-toc}[2022 - MASQUÉ](rn/using/release-2022.md)
-    + {hide-from-toc}[2021 - MASQUÉ](rn/using/release-2021.md)
-    + {hide-from-toc}[[!DNL Gold Standard - HIDDEN]](rn/using/gold-standard.md)
   + [Fonctionnalités obsolètes](rn/using/deprecated-features.md)
   + [Matrice de compatibilité](rn/using/compatibility-matrix.md)
 + Commencer {#getting-started}
@@ -45,7 +41,7 @@ ht-degree: 100%
     + [Droit d&#39;opposition (opt-out) à la vente des informations personnelles](platform/using/privacy-requests-ccpa.md)
   + Gestion des profils {#profile-management}
     + [À propos des profils](platform/using/about-profiles.md)
-    + [Mettre à jour des données](platform/using/updating-data.md)
+    + [Mise à jour de données](platform/using/updating-data.md)
   + Importer et exporter des données {#importing-and-exporting-data}
     + Créer des imports et des exports génériques {#generic-imports-exports}
       + [Surveillance de l’exécution des traitements](platform/using/monitoring-jobs-execution.md)
@@ -66,8 +62,6 @@ ht-degree: 100%
 + Créer et envoyer des messages {#sending-messages}
   + [Commencer avec les messages](delivery/using/communication-channels.md)
   + {hide-from-toc}[Paramètres de diffusion - MASQUÉ](delivery/using/delivery-settings.md)
-  + Démarrage rapide {#key-steps-when-creating-a-delivery}
-    + {hide-from-toc}[Envoyer la diffusion - MASQUÉ](delivery/using/steps-sending-the-delivery.md)
   + [Envoyer des e-mails](delivery/using/about-email-channel.md)
   + Envoyer un SMS {#sending-messages-on-mobiles}
     + Configurer le canal SMS {#sms-set-up}
@@ -76,13 +70,8 @@ ht-degree: 100%
       + [Protocole et paramètres du connecteur SMS](delivery/using/sms-protocol.md)
       + [Configuration supplémentaire](delivery/using/sms-send.md)
       + [Résolution des problèmes de SMS](delivery/using/troubleshooting-sms.md)
-    + {hide-from-toc}[Migrer vers le connecteur SMPP générique étendu](delivery/using/unsupported-connector-migration.md)
   + [Envoyer des notifications push](delivery/using/about-mobile-app-channel.md)
   + Envoyer des notifications push {#sending-push-notifications}
-    + Configurer l’application mobile{#configure-the-mobile-app}
-      + {hide-from-toc}[Commencer avec la configuration de l’application - MASQUÉ](delivery/using/get-started-app-config.md)
-      + {hide-from-toc}[Étapes de configuration pour iOS - MASQUÉ](delivery/using/configuring-the-mobile-application.md)
-      + {hide-from-toc}[Étapes de configuration pour Android - MASQUÉ](delivery/using/configuring-the-mobile-application-android.md)
     + {hide-from-toc}[Résolution des problèmes - MASQUÉ](delivery/using/troubleshooting.md)
   + [Envoyer des courriers](delivery/using/about-direct-mail-channel.md)
   + Personnaliser les diffusions {#personalizing-deliveries}
@@ -228,19 +217,9 @@ ht-degree: 100%
     + [Configuration de l’accès à [!DNL Assets]](integrations/using/configuring-access-to-assets.md)
     + [Insertion d’une ressource partagée](integrations/using/inserting-a-shared-asset.md)
   + Adobe Experience Manager {#adobe-experience-manager}
-    + [Utilisation d’ [!DNL Adobe Experience Manager]](integrations/using/about-adobe-experience-manager.md)
     + [Configuration de l’intégration](integrations/using/configuring-the-integration.md)
-    + [Création d’une [!DNL Experience Manager] newsletter](integrations/using/creating-an-experience-manager-newsletter.md)
   + Adobe Target {#adobe-target}
-    + [Utilisation d’ [!DNL Adobe Target]](integrations/using/integrating-with-adobe-target.md)
     + [Configuration de l’intégration avec [!DNL Adobe Target]](integrations/using/configuring-the-integration-with-adobe-target.md)
-    + [Insertion d’une image dynamique](integrations/using/inserting-a-dynamic-image.md)
-  + Connecteur ACS {#acs-connector}
-    + {hide-from-toc}[Commencer avec  [!DNL ACS Connector]  - MASQUÉ](integrations/using/acs-connector-principles-and-data-cycle.md)
-    + {hide-from-toc}[Synchroniser des profils - MASQUÉ](integrations/using/synchronizing-profiles.md)
-    + {hide-from-toc}[Synchroniser des audiences - MASQUÉ](integrations/using/synchronizing-audiences.md)
-    + {hide-from-toc}[Synchroniser des applications web - MASQUÉ](integrations/using/synchronizing-web-applications.md)
-    + {hide-from-toc}[Résoudre des problèmes liés au  [!DNL ACS Connector]  - MASQUÉ](integrations/using/troubleshooting-the-acs-connector.md)
 + [Automatiser avec des workflows](workflow/using/about-workflows.md)
 + Gestion des offres {#managing-offers}
   + Commencer avec Interaction {#interaction-overview}
@@ -519,15 +498,12 @@ ht-degree: 100%
     + [Impact de l’interface après la migration IMS](technotes/using/impact-ims-migration.md)
   + Mises à niveau et compatibilité{#technote-migration}
     + [Activer Microsoft Edge Chromium](technotes/using/edge-chromium.md)
-    + {hide-from-toc}[Nouveau serveur de délivrabilité](technotes/using/deliverability-server.md)
     + {hide-from-toc}[Mise à niveau de la sécurité d’Apache](technotes/using/acc-apache-upgrade.md)
     + {hide-from-toc}[Mises à niveau du système en 2023](technotes/using/tech-stack-upgrade.md)
-    + {hide-from-toc}[Mises à jour dʼIMS](technotes/using/ims-updates.md)
     + {hide-from-toc}[Migrer vers l’API Adobe Analytics 2.0](technotes/using/analytics-2-migration.md)
   + Emails et notifications push{#technotes-email}
     + [Protection de la confidentialité des emails sur Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
     + [Mise à jour du certificat iOS](technotes/using/ios-certificate-update.md)
-    + {hide-from-toc}[Mise à jour des URL suivies](technotes/using/tracked-urls.md)
   + Migration vers Adobe Managed Services{#dc-migration}
     + [Migration vers le cloud public](technotes/using/dc-migration.md)
     + [FAQ](technotes/using/dc-migration-faq.md)
