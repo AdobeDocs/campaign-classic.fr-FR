@@ -38,10 +38,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: ht
-source-wordcount: '1182'
-ht-degree: 100%
+source-git-commit: cce1f22c34cbd13d063850a7ca636a3b0dfc62f6
+workflow-type: tm+mt
+source-wordcount: '1195'
+ht-degree: 97%
 ---
 # Gestion des abonnements{#managing-subscriptions}
 
@@ -166,7 +166,7 @@ Pour inscrire des destinataires à un service d&#39;information, vous pouvez :
 
   ![](assets/s_ncs_user_subscribe_from_wf.png)
 
-  Les workflows et leur utilisation sont présentés dans [cette section](../../workflow/using/about-workflows.md).
+  Les workflows et leur utilisation sont détaillés dans [cette section](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} (documentation de Campaign v8).
 
 ### Désinscrire un destinataire d&#39;un service {#unsubscribing-a-recipient-from-a-service}
 

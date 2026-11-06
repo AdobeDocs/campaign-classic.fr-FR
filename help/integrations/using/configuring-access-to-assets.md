@@ -28,10 +28,10 @@ subfeature_v2:
     internal-label: Target integration
   - id: 2e08b477-1993-5928-975d-5f4cabe8fbe0
     internal-label: Asset Sharing
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
-source-wordcount: '553'
-ht-degree: 100%
+source-git-commit: 2e00628a95aa333698f11233e851b54423f11f29
+workflow-type: tm+mt
+source-wordcount: '566'
+ht-degree: 96%
 ---
 # Configuration de l’accès à Assets {#configuring-access-to-assets}
 
@@ -76,7 +76,7 @@ Pour intégrer AEM Assets avec Adobe Campaign, vous devez tout d’abord confi
 * l&#39;installation du package intégré **[!UICONTROL AEM Integration]**.
 * la configuration d&#39;un compte externe spécifique à Adobe Experience Manager.
 
-Découvrez comment intégrer Adobe Campaign et Adobe Experience Manager dans la [documentation détaillée](../../integrations/using/about-adobe-experience-manager.md).
+Découvrez comment intégrer Adobe Campaign et Adobe Experience Manager dans la [documentation détaillée](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"} (documentation de Campaign v8).
 
 Une fois cette intégration configurée, vous pouvez configurer un nouveau modèle de diffusion dans Adobe Campaign afin d’utiliser la bibliothèque AEM Assets. Pour ce faire, procédez comme suit :
 

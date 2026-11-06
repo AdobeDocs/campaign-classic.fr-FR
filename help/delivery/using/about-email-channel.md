@@ -32,10 +32,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: ht
-source-wordcount: '453'
-ht-degree: 100%
+source-git-commit: d679815c3415f1d7603ae5fe87e1c587208b6a8f
+workflow-type: tm+mt
+source-wordcount: '454'
+ht-degree: 97%
 ---
 # Commencer avec le canal e-mail{#about-email-channel}
 
@@ -71,7 +71,7 @@ Découvrez les étapes clés de la création d’une diffusion par e-mail dans l
 Consultez les pages suivantes pour en savoir plus sur les paramètres d’e-mail dans la **documentation de Campaign v8** :
 
 * [Lien vers la page miroir](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/mirror-page.html?lang=fr){target="_blank"} : configurez la page miroir pour garantir à votre clientèle une expérience d’affichage optimale.
-* [Ajouter une adresse CCI](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-bcc.html?lang=fr){target="_blank"} : configurez Adobe Campaign pour conserver une copie des emails envoyés depuis votre plateforme.
+* [Ajouter une adresse CCI](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/emails/email-bcc){target="_blank"} : configurez Adobe Campaign pour conserver une copie des emails envoyés depuis votre plateforme.
 * [Définir des paramètres d’email supplémentaires](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/emails/email-parameters.html?lang=fr){target="_blank"} : découvrez les options et paramètres disponibles dans les propriétés de diffusion.
 
 Consultez également cette [page](sending-with-enhanced-mta.md) pour en savoir plus sur le MTA amélioré.

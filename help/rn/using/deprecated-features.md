@@ -43,8 +43,8 @@ topic_v2:
     internal-label: Security
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: ht
+source-git-commit: 4ae19a379120bb39444c3e81392a7dbb0b6da3ba
+workflow-type: tm+mt
 source-wordcount: '1814'
 ht-degree: 100%
 ---
@@ -80,7 +80,7 @@ Il est conseillé aux clients d’évaluer dans quelle mesure ils utilisent la f
   </tr>
   <tr>
  <td>Connecteur SMPP Netsize</td>
- <td><p>Le connecteur SMPP Netsize est désormais obsolète. Nous vous recommandons de migrer vers le connecteur <strong>SMPP générique étendu</strong>. Pour plus d’informations, consultez <a href="../../delivery/using/unsupported-connector-migration.md">cette page</a>.</p>
+ <td><p>Le connecteur SMPP Netsize est désormais obsolète. Nous vous recommandons de migrer vers le connecteur <strong>SMPP générique étendu</strong>. Pour plus d’informations, consultez <a href="../../delivery/using/sms-set-up.md">cette page</a>.</p>
 <p>Date de suppression cible : janvier 2027</p>
 </td>
 </tr>

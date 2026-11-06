@@ -39,8 +39,8 @@ topic_v2:
     internal-label: Troubleshooting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: ht
+source-git-commit: 4ae19a379120bb39444c3e81392a7dbb0b6da3ba
+workflow-type: tm+mt
 source-wordcount: '915'
 ht-degree: 100%
 ---
@@ -58,7 +58,7 @@ To approve your message and send it to the recipients of the delivery being crea
 The detailed process when validating and sending a delivery is presented in the sections below:
 
 * [Validate the delivery](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/validate/delivery-analysis){target="_blank"} (Campaign v8 documentation)
-* [Send the delivery](steps-sending-the-delivery.md)
+* [Send the delivery](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/validate/configure-and-send){target="_blank"} (Campaign v8 documentation)
 -->
 
 ## Paramètres avancés {#advanced-parameters}

@@ -27,8 +27,8 @@ subfeature_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
+source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
+workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 100%
 ---
@@ -75,7 +75,7 @@ Voici une liste des modules concernés par des problèmes courants :
   <tr> 
    <td> syslogd </td> 
    <td> Ecriture des logs<br /> </td> 
-   <td> En cas d’absence de logs dans les fichiers de log : vérifier si le module utilise bien le port 6666. Voir <a href="../../production/using/general-architecture.md#list-of-open-ports" target="_blank">Liste des ports ouverts</a>.<br /> </td> 
+   <td> En cas d’absence de logs dans les fichiers de log : vérifier si le module utilise bien le port 6666. Voir <a href="../../production/using/architecture-and-open-ports.md#list-of-open-ports" target="_blank">Liste des ports ouverts</a>.<br /> </td> 
   </tr> 
   <tr> 
    <td> tracking </td> 

@@ -27,10 +27,10 @@ subfeature_v2:
     internal-label: Target integration
   - id: 2e08b477-1993-5928-975d-5f4cabe8fbe0
     internal-label: Asset Sharing
-source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: ht
-source-wordcount: '261'
-ht-degree: 100%
+source-git-commit: 2e00628a95aa333698f11233e851b54423f11f29
+workflow-type: tm+mt
+source-wordcount: '274'
+ht-degree: 97%
 ---
 # Insérer une ressource partagée{#inserting-a-shared-asset}
 
@@ -64,4 +64,4 @@ Les ressources partagées depuis Adobe Experience Cloud peuvent être utilisé
 
 >[!NOTE]
 >
->Si vous utilisez l&#39;intégration avec Adobe Target, vous pouvez utiliser une image partagée comme image par défaut. Pour plus d’informations, consultez [cette page](../../integrations/using/integrating-with-adobe-target.md).
+>Si vous utilisez l&#39;intégration avec Adobe Target, vous pouvez utiliser une image partagée comme image par défaut. Voir [cette page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/connect/ac-at){target="_blank"} (documentation de Campaign v8).

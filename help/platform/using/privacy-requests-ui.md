@@ -40,16 +40,18 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 3e213ecc670d5a3cb8299c092ccbb5303858327d
-workflow-type: ht
-source-wordcount: '841'
-ht-degree: 100%
+source-git-commit: 9753491edbeba9df2c0a9dcf53b3bd5ea87c32ca
+workflow-type: tm+mt
+source-wordcount: '776'
+ht-degree: 94%
 ---
 # Créer et gérer les demandes d’accès à des informations personnelles {#privacy-request-ui}
 
-
-
 Cette section décrit comment créer des demandes d’accès et de suppression et comment elles sont traitées par Adobe Campaign.
+
+Dans le cadre de la transition de Campaign v7 vers v8, la documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur les tables recherchées lors du traitement des demandes d’accès à des informations personnelles, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/privacy/privacy#list-of-tables){target=_blank}.
+
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/privacy/privacy#list-of-tables){target=_blank}
 
 ## Créer une demande d’accès à des informations personnelles {#create-privacy-request-ui}
 
@@ -74,24 +76,7 @@ Les workflows techniques d&#39;accès à des informations personnelles s&#39;ex�
 
 ![](assets/privacy-request-download.png)
 
-## Liste des tables {#list-of-tables}
-
-Lors de l’exécution d’une demande d’accès ou de suppression de données personnelles, Adobe Campaign recherche toutes les données du titulaire des données en fonction de la **[!UICONTROL Valeur de réconciliation]** dans toutes les tables ayant un lien avec la table du destinataire (type own).
-
-Voici la liste des tables d&#39;usine qui sont prises en compte lors de l&#39;exécution des demandes d&#39;accès à des données personnelles :
-
-* Destinataires (recipient)
-* Log de diffusion des destinataires (broadLogRcp)
-* Log de suivi des destinataires (trackingLogRcp)
-* Log de diffusion d&#39;un événement historisé (broadLogEventHisto)
-* Contenu des listes de destinataires (rcpGrpRel)
-* Proposition d&#39;offre d&#39;un visiteur (propositionVisitor)
-* Visiteurs (visitor)
-* Historique d&#39;abonnement (subHisto)
-* Abonnements (subscription)
-* Proposition d&#39;offre d&#39;un destinataire (propositionRcp)
-
-Si vous avez créé des tables personnalisées ayant un lien vers la table de personnes destinataires (type propre), celles-ci sont également prises en compte. Par exemple, si une table de transactions est liée à la table de personnes destinataires et si une table de détails de transaction est liée à la table de transactions, elles sont toutes deux prises en compte.
+## Requêtes par lots via des workflows
 
 >[!IMPORTANT]
 >

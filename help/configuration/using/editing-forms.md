@@ -30,16 +30,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
-workflow-type: ht
-source-wordcount: '1933'
-ht-degree: 100%
+source-git-commit: 9753491edbeba9df2c0a9dcf53b3bd5ea87c32ca
+workflow-type: tm+mt
+source-wordcount: '1295'
+ht-degree: 98%
 ---
 # Modifier des formulaires{#editing-forms}
 
 ## Vue d’ensemble
 
 Les spécialistes marketing et les opérateurs utilisent des formulaires de saisie pour créer, modifier et prévisualiser des enregistrements. Les formulaires affichent une représentation visuelle des informations.
+
+Dans le cadre de la transition de Campaign v7 vers v8, la documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur les formulaires de saisie, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms){target=_blank}.
+
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms){target=_blank}
 
 Vous pouvez créer et modifier des formulaires de saisie :
 
@@ -101,72 +105,6 @@ Vous pouvez créer différents types de formulaires de saisie. Le type de formul
 * Séparation horizontale
 
   Ce formulaire affiche une liste d’éléments.
-
-## Conteneurs
-
-Dans les formulaires, vous pouvez utiliser des conteneurs à diverses fins :
-
-* Organisation du contenu dans les formulaires
-* Définition de l’accès aux champs de saisie
-* Imbrication de formulaires dans d’autres formulaires
-
-[En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"} (documentation de Campaign v8).
-
-### Organisation du contenu
-
-Utilisez des conteneurs pour organiser le contenu dans les formulaires :
-
-* Vous pouvez regrouper des champs en sections.
-* Vous pouvez ajouter des pages à des formulaires de plusieurs pages.
-
-Pour insérer un conteneur, utilisez l’élément `<container>`. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"} (documentation de Campaign v8).
-
-#### Regroupement de champs
-
-Utilisez des conteneurs pour regrouper les champs de saisie en sections organisées.
-
-Pour insérer une section dans un formulaire, utilisez l’élément suivant : `<container type="frame">`. Vous pouvez éventuellement ajouter un titre de section. Pour ce faire, utilisez l’attribut `label`.
-
-Syntaxe : `<container type="frame" label="`*titre_section*`"> […] </container>`
-
-Dans cet exemple, un conteneur définit la section **Création**, qui comprend les champs de saisie **[!UICONTROL Créé par]** et **[!UICONTROL Nom]** :
-
-```xml
-<form _cs="Coupons (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Coupons"
-      name="coupon" namespace="nms" type="default" xtkschema="xtk:form">
-  <input xpath="@code"/>
-  <input xpath="@type"/>
-  <container label="Creation" type="frame">
-    <input xpath="createdBy"/>
-    <input xpath="createdBy/@name"/>
-  </container>
-</form>
-```
-
-![](assets/console_screen_form.png)
-
-#### Ajout de pages à des formulaires de plusieurs pages
-
-Pour les formulaires à plusieurs pages, utilisez un conteneur pour créer une page de formulaire.
-
-Cet exemple montre les conteneurs pour les pages **Général** et **Détails** d’un formulaire :
-
-```xml
-<container img="ncm:book.png" label="General">
-[…]
-</container>
-<container img="ncm:detail.png" label="Details">
-[…]
-</container>
-```
-
-### Définition de l’accès aux champs
-
-Utilisez des conteneurs pour définir ce qui est visible et l’accès aux champs. Vous pouvez activer ou désactiver des groupes de champs.
-
-### Imbrication de formulaires
-
-Utilisez des conteneurs pour imbriquer des formulaires dans d’autres formulaires. [En savoir plus](#add-pages-to-multipage-forms).
 
 ## Références aux images
 
@@ -303,165 +241,7 @@ Pour créer un formulaire, procédez comme suit :
 
 ## Création d’un formulaire à plusieurs pages {#create-multipage-form}
 
-Vous pouvez créer des formulaires à plusieurs pages. Vous pouvez également imbriquer des formulaires dans d’autres formulaires.
-
-### Création d’un formulaire `iconbox`
-
-Utilisez le type de formulaire `iconbox` pour afficher des icônes à gauche du formulaire, qui redirigent les utilisateurs vers différentes pages du formulaire.
-
-![](assets/iconbox_form_preview.png)
-
-Pour modifier le type d’un formulaire existant en `iconbox`, procédez comme suit :
-
-1. Modifiez l’attribut `type` de l’élément `<form>` en `iconbox` :
-
-   ```xml
-   <form […] type="iconbox">
-   ```
-
-1. Définissez un conteneur pour chaque page de formulaire :
-
-   1. Ajoutez un élément `<container>` comme enfant de l’élément `<form>`.
-   1. Pour définir un libellé et une image pour l’icône, utilisez les attributs `label` et `img`.
-
-      ```xml
-      <form entitySchema="xtk:form" name="Service provider" namespace="nms" type="iconbox" xtkschema="xtk:form">
-          <container img="xtk:properties.png" label="General">
-              <input xpath="@label"/>
-              <input xpath="@name"/>
-              […]
-          </container>
-          <container img="nms:msgfolder.png" label="Details">
-              <input xpath="@address"/>
-              […]
-          </container>
-          <container img="nms:supplier.png" label="Services">
-              […]
-          </container>
-      </form>
-      ```
-
-   Vous pouvez également supprimer l’attribut `type="frame"` des éléments `<container>` existants.
-
-### Création d’un formulaire de type notebook
-
-Utilisez le type de formulaire `notebook` pour afficher des onglets dans la partie supérieure du formulaire, qui redirigent les utilisateurs vers différentes pages.
-
-![](assets/notebook_form_preview.png)
-
-Pour modifier le type d’un formulaire existant en `notebook`, procédez comme suit :
-
-1. Modifiez l’attribut `type` de l’élément `<form>` en `notebook` :
-
-   ```xml
-   <form […] type="notebook">
-   ```
-
-1. Ajoutez un conteneur pour chaque page de formulaire :
-
-   1. Ajoutez un élément `<container>` comme enfant de l’élément `<form>`.
-   1. Pour définir le libellé et l’image de l’icône, utilisez les attributs `label` et `img`.
-
-   ```xml
-     <form entitySchema="xtk:form" name="Service provider" namespace="nms" type="notebook" xtkschema="xtk:form">
-         <container label="General">
-             <input xpath="@label"/>
-             <input xpath="@name"/>
-             […]
-         </container>
-         <container label="Details">
-             <input xpath="@address"/>
-             […]
-         </container>
-         <container label="Services">
-             […]
-         </container>
-     </form>
-   ```
-
-   Vous pouvez également supprimer l’attribut `type="frame"` des éléments `<container>` existants.
-
-### Imbrication de formulaires
-
-Vous pouvez imbriquer des formulaires dans d’autres formulaires. Vous pouvez, par exemple, imbriquer des formulaires de type notebook dans des formulaires de type iconbox.
-
-Le niveau d’imbrication contrôle la navigation. Les utilisateurs peuvent accéder aux sous-formulaires.
-
-Pour imbriquer un formulaire dans un autre formulaire, insérez un élément `<container>` et définissez l’attribut `type` sur le type de formulaire. Vous pouvez définir le type du formulaire de niveau supérieur dans un conteneur externe ou dans l’élément `<form>`.
-
-### Exemple
-
-Cet exemple montre un formulaire complexe :
-
-* Le formulaire de niveau supérieur est un formulaire de type iconbox. Ce formulaire comprend deux conteneurs libellés **Général** et **Détails**.
-
-  Par conséquent, le formulaire externe affiche les pages **Général** et **Détails** au niveau supérieur. Pour accéder à ces pages, les utilisateurs doivent cliquer sur les icônes situées à gauche du formulaire.
-
-* Le sous-formulaire est un formulaire de type notebook imbriqué dans le conteneur **Général**. Le sous-formulaire se compose de deux conteneurs libellés **Nom** et **Contact**.
-
-```xml
-<form _cs="Profile (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Profile" name="profile" namespace="nms" xtkschema="xtk:form">
-  <container type="iconbox">
-    <container img="ncm:general.png" label="General">
-      <container type="notebook">
-        <container label="Name">
-          <input xpath="@firstName"/>
-          <input xpath="@lastName"/>
-        </container>
-        <container label="Contact">
-          <input xpath="@email"/>
-        </container>
-      </container>
-    </container>
-    <container img="ncm:detail.png" label="Details">
-      <input xpath="@birthDate"/>
-    </container>
-  </container>
-</form>
-```
-
-Par conséquent, la page **Général** du formulaire externe affiche les onglets **Nom** et **Contact**.
-
-![](assets/nested_forms_preview.png)
-
-Pour imbriquer un formulaire dans un autre formulaire, insérez un élément `<container>` et définissez l’attribut `type` sur le type de formulaire. Vous pouvez définir le type du formulaire de niveau supérieur dans un conteneur externe ou dans l’élément `<form>`.
-
-### Exemple
-
-Cet exemple montre un formulaire complexe :
-
-* Le formulaire de niveau supérieur est un formulaire de type iconbox. Ce formulaire comprend deux conteneurs libellés **Général** et **Détails**.
-
-  Par conséquent, le formulaire externe affiche les pages **Général** et **Détails** au niveau supérieur. Pour accéder à ces pages, les utilisateurs doivent cliquer sur les icônes situées à gauche du formulaire.
-
-* Le sous-formulaire est un formulaire de type notebook imbriqué dans le conteneur **Général**. Le sous-formulaire se compose de deux conteneurs libellés **Nom** et **Contact**.
-
-```xml
-<form _cs="Profile (nms)" entitySchema="xtk:form" img="xtk:form.png" label="Profile" name="profile" namespace="nms" xtkschema="xtk:form">
-  <container type="iconbox">
-    <container img="ncm:general.png" label="General">
-      <container type="notebook">
-        <container label="Name">
-          <input xpath="@firstName"/>
-          <input xpath="@lastName"/>
-        </container>
-        <container label="Contact">
-          <input xpath="@email"/>
-        </container>
-      </container>
-    </container>
-    <container img="ncm:detail.png" label="Details">
-      <input xpath="@birthDate"/>
-    </container>
-  </container>
-</form>
-```
-
-Par conséquent, la page **Général** du formulaire externe affiche les onglets **Nom** et **Contact**.
-
-![](assets/nested_forms_preview.png)
-
-
+Vous pouvez créer des formulaires à plusieurs pages. Vous pouvez également imbriquer des formulaires dans d’autres formulaires. En savoir plus sur les [&#x200B; conteneurs, notebooks et formulaires iconbox &#x200B;](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"} (documentation de Campaign v8).
 
 ## Modification d’un formulaire de saisie d’usine {#modify-factory-form}
 
@@ -479,16 +259,6 @@ Pour modifier un formulaire d’usine, procédez comme suit :
 ## Validation des formulaires {#validate-forms}
 
 Vous pouvez inclure des contrôles de validation dans les formulaires.
-
-### Octroi d’accès en lecture seule aux champs
-
-Pour octroyer l’accès en lecture seule à un champ, utilisez l’attribut `readOnly="true"`. Par exemple, vous pouvez vouloir afficher la clé primaire d’un enregistrement, mais avec un accès en lecture seule. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms#non-editable-fields){target="_blank"} (documentation de Campaign v8).
-
-Dans cet exemple, la clé primaire (`iRecipientId`) du schéma `nms:recipient` s’affiche en mode d’accès en lecture seule :
-
-```xml
-<value xpath="@iRecipientId" readOnly="true"/>
-```
 
 ### Vérification des champs obligatoires
 

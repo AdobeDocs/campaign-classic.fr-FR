@@ -28,14 +28,18 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a119d402631c5d2dd3ab8d6d11dfd0cdba0d662f
+source-git-commit: 3d6f0751869871f811046dd52bab59dbcf587350
 workflow-type: tm+mt
-source-wordcount: '2208'
-ht-degree: 97%
+source-wordcount: '2076'
+ht-degree: 95%
 ---
 # Comptes externes{#external-accounts}
 
 Un ensemble de comptes externes prédéfinis est livré avec Adobe Campaign. Pour établir des connexions avec des systèmes externes, vous pouvez créer des comptes externes.
+
+Dans le cadre de la transition de Campaign v7 vers v8, la documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur les comptes externes, consultez la documentation [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/external-accounts){target=_blank}.
+
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/external-accounts){target=_blank}
 
 Les comptes externes sont utilisés par les processus techniques comme les workflows techniques ou de campagne. Par exemple, lors de la configuration d&#39;un transfert de fichier dans un workflow ou d&#39;un échange de données avec une autre application (Adobe Target, Experience Manager, etc.), vous devez sélectionner un compte externe.
 
@@ -333,7 +337,7 @@ Le compte externe **[!UICONTROL AEM (instance AEM)]** vous permet de gérer le c
 
   Mot de passe utilisé pour se connecter à l&#39;instance de création Adobe Experience Manager.
 
-Voir à ce propos cette [section](../../integrations/using/about-adobe-experience-manager.md).
+Pour en savoir plus à ce sujet, consultez cette [section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"} (documentation de Campaign v8).
 
 ## Comptes externes du connecteur CRM
 
@@ -432,38 +436,6 @@ Pour ce compte externe, vous devez configurer votre Salesforce CRM à l’aide d
 Pour plus d’informations sur cette configuration, consultez [cette page](../../platform/using/crm-connectors.md).
 
 ## Transfert de données vers des comptes externes
-
-### Amazon Simple Storage Service (S3) {#amazon-simple-storage-service--s3--external-account}
-
-Le connecteur Amazon Simple Storage Service (S3) peut être utilisé pour importer ou exporter des données depuis ou vers Adobe Campaign. Il peut être configuré dans une activité de workflow. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=fr){target="_blank"}.
-
-![](assets/ext_account_3.png)
-
-Lors de la configuration de ce nouveau compte externe, vous devez indiquer les informations suivantes :
-
-* **[!UICONTROL Serveur du compte AWS S3]**
-
-  URL du serveur qui doit être renseignée de la manière suivante :
-
-  ```
-  <S3bucket name>.s3.amazonaws.com/<s3object path>
-  ```
-
-* **[!UICONTROL ID de la clé d&#39;accès AWS]**
-
-  Pour savoir où trouver votre ID de la clé d&#39;accès AWS, consultez [cette page](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) .
-
-* **[!UICONTROL Clé d&#39;accès secrète à AWS]**
-
-  Pour savoir où trouver votre clé d&#39;accès secrète à AWS, consultez [cette page](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/).
-
-* **[!UICONTROL Région AWS]**
-
-  Pour en savoir plus sur la région AWS, consultez cette [page](https://aws.amazon.com/fr/about-aws/global-infrastructure/regions_az/).
-
-* La case à cocher **[!UICONTROL Utiliser le chiffrement coté serveur]** vous permet de stocker votre fichier en mode chiffré dans S3.
-
-Pour savoir où trouver l’ID de la clé d’accès et la clé d’accès secrète, consultez la [documentation](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys) d’Amazon Web Services.
 
 ### Stockage Azure Blob {#azure-blob-external-account}
 

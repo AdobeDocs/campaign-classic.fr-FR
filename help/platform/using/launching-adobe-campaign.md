@@ -36,14 +36,18 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 59d78c785d8984861fd537c2f64f82a7d2d77fbf
-workflow-type: ht
-source-wordcount: '487'
-ht-degree: 100%
+source-git-commit: cce1f22c34cbd13d063850a7ca636a3b0dfc62f6
+workflow-type: tm+mt
+source-wordcount: '430'
+ht-degree: 96%
 ---
 # Lancement d’Adobe Campaign {#launching-adobe-campaign}
 
 La console cliente Campaign est un client riche qui vous permet de vous connecter à votre ou vos serveur(s) applicatif(s) Campaign. Découvrez comment télécharger et configurer la console cliente en consultant [cette page](../../installation/using/installing-the-client-console.md).
+
+Dans le cadre de la transition de Campaign v7 vers v8, la documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur la connexion à Campaign, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/connect){target=_blank}.
+
+[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/connect){target=_blank}
 
 >[!CAUTION]
 >
@@ -61,12 +65,7 @@ La page de connexion de la console cliente permet de configurer ou de sélection
 
 ### Vous connecter avec votre Adobe ID
 
-Les utilisateurs de Campaign se connectent à la console Adobe Campaign à l&#39;aide de leur Adobe ID, via le système IMS (Adobe Identity Management System). Ils peuvent utiliser le même identifiant pour toutes les solutions d&#39;Adobe. La connexion est enregistrée lors de l&#39;utilisation d&#39;Adobe Campaign avec d&#39;autres solutions. Pour en savoir plus sur Adobe IMS, consultez [cette page](https://helpx.adobe.com/fr/enterprise/using/identity.html).
-
 Pour configurer la connexion de Campaign Classic v7 avec le système de gestion des identités Adobe (IMS), consultez [cette page](../../integrations/using/about-adobe-id.md).
-
-Une fois la configuration terminée, découvrez comment vous connecter à Campaign avec votre Adobe ID dans la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/connect){target=_blank}.
-
 
 ### Vous connecter avec un identifiant et un mot de passe
 
@@ -83,14 +82,6 @@ Vous pouvez aussi vous connecter à l’aide d’un identifiant et d’un mot de
 1. Cliquez sur **[!UICONTROL SE CONNECTER]** pour valider.
 
 Vous pouvez maintenant accéder à l’[espace de travail d’Adobe Campaign](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/campaign-ui){target="_blank"} (documentation de Campaign v8).
-
-## Configurer des connexions {#setting-up-connections}
-
-Vous pouvez accéder aux paramètres de connexion au serveur via le lien situé au-dessus de la zone de saisie.
-
-![](assets/s_ncs_user_connections_management.png)
-
-Découvrez comment configurer des connexions dans la [documentation de Campaign v8 (console)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/connect#create-your-connection){target=_blank}.
 
 ## Opérateurs et autorisations {#operators-and-permissions}
 

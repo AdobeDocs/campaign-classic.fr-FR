@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
-source-wordcount: '836'
-ht-degree: 100%
+source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
+workflow-type: tm+mt
+source-wordcount: '862'
+ht-degree: 98%
 ---
 # Instructions de surveillance {#monitoring-guidelines}
 
@@ -65,7 +65,7 @@ Plusieurs méthodes automatiques sont disponibles. pour vous aider à surveiller
 
 **Journal d’audit**
 
-Le journal d’audit vous permet de visualiser l’historique complet des modifications liées aux options, workflows et schémas de votre instance. [Cliquez ici](../../production/using/audit-trail.md) pour plus d’informations.
+Le journal d’audit vous permet de visualiser l’historique complet des modifications liées aux options, workflows et schémas de votre instance. [Cliquez ici](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/audit-trail){target="_blank"} (documentation de Campaign v8) pour plus d’informations.
 
 **Panneau de contrôle**
 
@@ -87,7 +87,7 @@ La carte thermique des workflows fournit une représentation visuelle de tous le
 
 **Journal d’audit**
 
-Le journal d’audit vous permet de visualiser toutes les modifications apportées aux workflows, ainsi que leur état actuel. [Cliquez ici](../../production/using/audit-trail.md).
+Le journal d’audit vous permet de visualiser toutes les modifications apportées aux workflows, ainsi que leur état actuel. [Cliquez ici](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/audit-trail){target="_blank"} (documentation de Campaign v8).
 
 **Résolution des problèmes liés aux workflows**
 
@@ -95,7 +95,7 @@ Des actions spécifiques peuvent être exécutées en cas de problème lié à l
 
 **Surveillance de l’état d’un workflow**
 
-De plus, vous pouvez créer un processus qui vous permettra de surveiller l’état d’un ensemble de workflows et d’envoyer des messages récurrents aux superviseurs. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html?lang=fr){target="_blank"}.
+En plus de la carte thermique, vous pouvez créer un workflow qui vous permettra de surveiller le statut d’un ensemble de workflows et d’envoyer des messages récurrents aux équipes de supervision. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html?lang=fr){target="_blank"}.
 
 **Directives générales**
 
@@ -166,7 +166,7 @@ Des ressources techniques sont disponibles dans la documentation Campaign Classi
 
 **Principes généraux**
 
-* [Architecture Campaign Classic](../../production/using/general-architecture.md)
+* [Architecture Campaign Classic](../../production/using/architecture-and-open-ports.md)
 * [Modules Campaign Classic](../../production/using/operating-principle.md)
 * [Options Campaign Classic](../../installation/using/configuring-campaign-options.md)
 * [Configuration du démarrage automatique des modules](../../production/using/administration.md)

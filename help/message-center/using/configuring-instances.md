@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
-workflow-type: ht
-source-wordcount: '1330'
-ht-degree: 100%
+source-git-commit: 9753491edbeba9df2c0a9dcf53b3bd5ea87c32ca
+workflow-type: tm+mt
+source-wordcount: '1347'
+ht-degree: 96%
 ---
 # Configuration des instances {#creating-a-shared-connection}
 
@@ -49,7 +49,7 @@ Pour utiliser les fonctionnalités des messages transactionnels, vous devez conf
 
 >[!IMPORTANT]
 >
->Les extensions de schéma qui ont eu un impact sur les ressources utilisés par les [workflows techniques de Message Center](../../message-center/using/additional-configurations.md#technical-workflows) sur les instances de pilotage ou d&#39;exécution doivent être dupliquées sur les autres instances utilisées par le module des messages transactionnels.
+>Les extensions de schéma qui ont eu un impact sur les ressources utilisées par [les workflows techniques de Message Center](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/transactional-msg-settings#technical-workflows){target="_blank"} (documentation de Campaign v8) sur les instances de pilotage ou d&#39;exécution doivent être dupliquées sur les autres instances utilisées par le module des messages transactionnels.
 
 Vous devez également spécifier et connecter la ou les instances d&#39;exécution aux instances de pilotage.
 

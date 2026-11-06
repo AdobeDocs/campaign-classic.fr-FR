@@ -22,10 +22,10 @@ feature_v2:
 subfeature_v2:
   - id: e656c701-3899-4db3-989c-de0980ddfffa
     internal-label: Installation
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
-source-wordcount: '713'
-ht-degree: 100%
+source-git-commit: 2e00628a95aa333698f11233e851b54423f11f29
+workflow-type: tm+mt
+source-wordcount: '726'
+ht-degree: 97%
 ---
 # Configuration réseau{#network-configuration}
 
@@ -236,7 +236,7 @@ Ce serveur héberge les formulaires web, pages miroir, etc. Les ports suivants d
 
 ## Intégration avec Adobe Experience Manager {#integration-with-adobe-experience-manager}
 
-L&#39;intégration entre Adobe Campaign et Adobe Experience Manager nécessite l&#39;ouverture de plusieurs ports dans le cas d&#39;une installation &quot;on-premise&quot;. Pour plus d&#39;informations sur la configuration de cette intégration, consultez la [documentation détaillée](../../integrations/using/about-adobe-experience-manager.md).
+L&#39;intégration entre Adobe Campaign et Adobe Experience Manager nécessite l&#39;ouverture de plusieurs ports dans le cas d&#39;une installation &quot;on-premise&quot;. Pour plus d’informations sur la configuration de cette intégration, consultez la [documentation détaillée](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/connect/ac-aem){target="_blank"} (documentation de Campaign v8).
 
 <table> 
  <tbody> 
