@@ -42,6 +42,6 @@ En basant vos nouveaux workflows sur le modèle nouvellement créé, votre table
 
 Toutes les activités utilisées dans votre workflow utiliseront ainsi votre table personnalisée sans besoin de paramétrage manuel supplémentaire.
 
-Pour plus d’informations sur les workflows, consultez [cette section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} (documentation de Campaign v8).
+Pour plus d’informations sur les workflows, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} (documentation de Campaign v8).
 
 ![](assets/cfg_external_table_workflow.png)

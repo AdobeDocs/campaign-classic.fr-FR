@@ -46,7 +46,7 @@ La section ci-dessous présente des informations sur les problèmes courants li�
 
 Pour plus d&#39;informations sur les workflows, consultez les sections suivantes :
 
-* [À propos des workflows](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} (documentation de Campaign v8)
+* [À propos des workflows](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} (documentation de Campaign v8)
 * [Démarrage d’un workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/executing-a-workflow/start-a-workflow.html?lang=fr){target="_blank"}
 * [Cycle de vie d’un workflow](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=fr){target="_blank"}
 * [Bonnes pratiques relatives à l’utilisation des workflows](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=fr){target="_blank"}

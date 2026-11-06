@@ -49,7 +49,7 @@ Pour utiliser les fonctionnalités des messages transactionnels, vous devez conf
 
 >[!IMPORTANT]
 >
->Les extensions de schéma qui ont eu un impact sur les ressources utilisées par [les workflows techniques de Message Center](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/config/settings/transactional-msg-settings#technical-workflows){target="_blank"} (documentation de Campaign v8) sur les instances de pilotage ou d&#39;exécution doivent être dupliquées sur les autres instances utilisées par le module des messages transactionnels.
+>Les extensions de schéma qui ont eu un impact sur les ressources utilisées par [les workflows techniques de Message Center](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/settings/transactional-msg-settings#technical-workflows){target="_blank"} (documentation de Campaign v8) sur les instances de pilotage ou d&#39;exécution doivent être dupliquées sur les autres instances utilisées par le module des messages transactionnels.
 
 Vous devez également spécifier et connecter la ou les instances d&#39;exécution aux instances de pilotage.
 

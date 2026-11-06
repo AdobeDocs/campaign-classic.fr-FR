@@ -166,7 +166,7 @@ Pour inscrire des destinataires à un service d&#39;information, vous pouvez :
 
   ![](assets/s_ncs_user_subscribe_from_wf.png)
 
-  Les workflows et leur utilisation sont détaillés dans [cette section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} (documentation de Campaign v8).
+  Les workflows et leur utilisation sont détaillés dans [cette section](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} (documentation de Campaign v8).
 
 ### Désinscrire un destinataire d&#39;un service {#unsubscribing-a-recipient-from-a-service}
 

@@ -61,7 +61,7 @@ Afin d’optimiser la création, l’utilisation et la pérennité d’un rappor
    * Ajouter des indicateurs à un rapport existant. En savoir plus dans [cette section](../../reporting/using/about-reports-creation-in-campaign.md)
    * Visualiser des données dans la base de données. En savoir plus dans [cette section](../../reporting/using/about-descriptive-analysis.md)
    * Créer un rapport de diffusion. En savoir plus dans [cette section](../../reporting/using/about-reports-creation-in-campaign.md)),
-   * Exporter les données de la base Adobe Campaign (via un workflow, voir [cette section](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} (documentation de Campaign v8)
+   * Exporter les données de la base Adobe Campaign (via un workflow, voir [cette section](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/introduction/about-workflows){target="_blank"} (documentation de Campaign v8)
    * Créer un tableau croisé dynamique. En savoir plus dans [cette section](../../reporting/using/creating-a-table.md#creating-a-breakdown-or-pivot-table)
    * Explorer les données agrégées. En savoir plus dans [cette section](../../reporting/using/ac-cubes.md)
    * Utiliser un assistant pour analyser les données. En savoir plus dans [cette section](../../reporting/using/about-descriptive-analysis.md)
