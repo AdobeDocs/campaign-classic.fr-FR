@@ -491,7 +491,7 @@ ht-degree: 97%
     + [Protection de la confidentialité des emails sur Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
     + [Mise à jour du certificat iOS](technotes/using/ios-certificate-update.md)
   + Migration vers Adobe Managed Services{#dc-migration}
-    + {hide-from-toc}[ Migration vers le cloud public ](technotes/using/dc-migration.md)
+    + {hide-from-toc}[&#x200B; Migration vers le cloud public &#x200B;](technotes/using/dc-migration.md)
     + {hide-from-toc}[FAQ](technotes/using/dc-migration-faq.md)
   + [Fonctions basées sur GCM](technotes/using/gcm-functions.md)
 + [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)
