@@ -67,7 +67,7 @@ Pour cela :
 
    ![](assets/reporting_custom_js.png)
 
-Les scripts référencés doivent être rédigés en Javascript et être compatibles avec les navigateurs courants afin d&#39;assurer leur bonne exécution côté client. Pour en savoir plus, consultez [cette section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/web-forms-answers){target="_blank"} (documentation de Campaign v8).
+Les scripts référencés doivent être rédigés en Javascript et être compatibles avec les navigateurs courants afin d&#39;assurer leur bonne exécution côté client. Pour en savoir plus, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/content/web-forms/web-forms-answers){target="_blank"} (documentation de Campaign v8).
 
 ### Ajout d&#39;une activité Script {#script-activity}
 

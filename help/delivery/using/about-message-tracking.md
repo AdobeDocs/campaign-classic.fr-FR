@@ -108,11 +108,11 @@ Pour les installations on-premise, les informations de tracking sont stockées d
 
 **Tracking d&#39;une application web**
 
-Vous pouvez également tracker et mesurer les visites sur les pages d&#39;application web avec des balises de tracking. Cette fonctionnalité peut être utilisée pour tous les types d&#39;application web, tels que les formulaires et les landing pages. [En savoir plus](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/tracking-a-web-application){target="_blank"} (documentation de Campaign v8)
+Vous pouvez également tracker et mesurer les visites sur les pages d&#39;application web avec des balises de tracking. Cette fonctionnalité peut être utilisée pour tous les types d&#39;application web, tels que les formulaires et les landing pages. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/content/web-applications/tracking-a-web-application){target="_blank"} (documentation de Campaign v8)
 
 **Désinscription (opt-out) du tracking des applications web**
 
-Le processus d’opt-out du tracking des applications web vous permet d&#39;arrêter le tracking des comportements web des utilisateurs finaux qui se désinscrivent du tracking comportemental. Vous pouvez inclure la possibilité d’afficher une bannière dans des applications web ou des landing pages pour permettre aux utilisateurs de se désinscrire. [En savoir plus](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/web-application-tracking-opt-out){target="_blank"} (documentation de Campaign v8)
+Le processus d’opt-out du tracking des applications web vous permet d&#39;arrêter le tracking des comportements web des utilisateurs finaux qui se désinscrivent du tracking comportemental. Vous pouvez inclure la possibilité d’afficher une bannière dans des applications web ou des landing pages pour permettre aux utilisateurs de se désinscrire. [En savoir plus](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/content/web-applications/web-application-tracking-opt-out){target="_blank"} (documentation de Campaign v8)
 
 ## Résolution des problèmes liés au tracking {#tracking-troubleshooting}
 

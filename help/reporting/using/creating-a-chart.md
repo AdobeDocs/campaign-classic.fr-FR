@@ -143,7 +143,7 @@ Ce type de graphique permet de suivre le taux de conversion des éléments mesur
 
 Vous pouvez définir une action lorsque l&#39;utilisateur clique sur le graphique. Ouvrez la fenêtre **[!UICONTROL Evénements d&#39;interaction]** et choisissez l&#39;action à effectuer.
 
-Les types d’interaction possibles et leurs configurations sont détaillés dans [cette section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/static-elements-in-a-web-form#inserting-html-content){target="_blank"} (documentation de Campaign v8).
+Les types d’interaction possibles et leurs configurations sont détaillés dans [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/content/web-forms/static-elements-in-a-web-form#inserting-html-content){target="_blank"} (documentation de Campaign v8).
 
 ![](assets/s_ncs_advuser_report_wizard_017.png)
 

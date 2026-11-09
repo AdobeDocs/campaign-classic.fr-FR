@@ -163,7 +163,7 @@ Le tableau ci-après répertorie tous les packages natifs de Campaign.
   </tr> 
   <tr> 
    <td> Questionnaires en ligne (Survey Manager)<br /> </td> 
-   <td> Crée et gère des formulaires en ligne pour ajouter ou modifier des informations de profil, s'abonner, se désabonner ou générer un formulaire d'inscription à un concours. Facultatif. <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/about-surveys" target="_blank">En savoir plus</a> (documentation de Campaign v8) <br /> </td> 
+   <td> Crée et gère des formulaires en ligne pour ajouter ou modifier des informations de profil, s'abonner, se désabonner ou générer un formulaire d'inscription à un concours. Facultatif. <a href="https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/content/surveys/about-surveys" target="_blank">En savoir plus</a> (documentation de Campaign v8) <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
@@ -173,7 +173,7 @@ Le tableau ci-après répertorie tous les packages natifs de Campaign.
   </tr> 
   <tr> 
    <td> Gestion de la réaction<br /> </td> 
-   <td> Mesure le succès et la rentabilité des campagnes marketing ou des propositions d'offres pour tous les canaux de communication.  Facultatif. <a href="https://experienceleague.adobe.com/en/docs/campaign/automation/response-manager/about-response-manager" target="_blank">En savoir plus</a> (documentation de Campaign v8) <br /> </td> 
+   <td> Mesure le succès et la rentabilité des campagnes marketing ou des propositions d'offres pour tous les canaux de communication.  Facultatif. <a href="https://experienceleague.adobe.com/fr/docs/campaign/automation/response-manager/about-response-manager" target="_blank">En savoir plus</a> (documentation de Campaign v8) <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 

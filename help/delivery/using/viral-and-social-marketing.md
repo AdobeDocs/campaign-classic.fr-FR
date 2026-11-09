@@ -108,7 +108,7 @@ Les étapes sont les suivantes :
    >
    >Ce paramétrage peut être adapté. Pour cela, vous devez modifier l&#39;application Web **Inscription de destinataire** stockée dans le noeud **[!UICONTROL Ressources > On-line > Applications Web]** de l&#39;arborescence.
    >
-   >Pour plus d’informations sur les applications web, consultez [cette section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/about-web-applications){target="_blank"} (documentation de Campaign v8).
+   >Pour plus d’informations sur les applications web, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/content/web-applications/about-web-applications){target="_blank"} (documentation de Campaign v8).
 
    A la validation du formulaire, un message de confirmation est adressé au filleul : il ne sera définitivement inscrit que lorsqu&#39;il aura activé le lien contenu dans le message de confirmation. Ce message est créé à partir du modèle **[!UICONTROL Confirmation d&#39;inscription]**, stocké dans le nœud **[!UICONTROL Administration > Gestion de campagnes > Modèles des diffusions techniques]** de l&#39;arborescence.
 
