@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: a97306b73a2b577841e6f24536c62b2526e9fda9
-workflow-type: ht
-source-wordcount: '2395'
-ht-degree: 100%
+source-git-commit: aeb8e44e8183cad6557fe2f27565cad0343777e5
+workflow-type: tm+mt
+source-wordcount: '2409'
+ht-degree: 99%
 ---
 # Description du modèle de données de Campaign{#data-model-description}
 
@@ -125,7 +125,7 @@ L’arborescence est gérée à l’aide des champs iParentId et iChildCount. Le
 
 ## Diffusion et tracking {#delivery-and-tracking}
 
-Cet ensemble de tables, lié au module **Diffusion**, permet de surveiller les diffusions et les éventuels problèmes rencontrés lors de l’envoi des messages. Pour plus d&#39;informations, consultez la section [Su les diffusions](../../delivery/using/about-delivery-monitoring.md). Pour plus d&#39;informations, consultez la section [Tracker les messages](../../delivery/using/about-message-tracking.md).
+Cet ensemble de tables, lié au module **Diffusion**, permet de surveiller les diffusions et les éventuels problèmes rencontrés lors de l’envoi des messages. Pour plus d&#39;informations, consultez la section [Surveiller les diffusions](../../delivery/using/about-delivery-monitoring.md). Pour plus d&#39;informations, consultez la section [Tracker les messages](../../delivery/using/about-message-tracking.md).
 
 ![](assets/data-model_delivery.png)
 
@@ -162,7 +162,7 @@ Cet ensemble de tables, lié au module **Optimisation de campagne**, permet de c
 
 ## Gestion de la réaction {#response-management}
 
-Cet ensemble de tables, lié au module **Gestion de la réaction**, permet de mesurer le succès et la rentabilité des campagnes marketing ou des propositions d’offres pour tous les canaux de communication. Pour plus d&#39;informations, consultez la section [À propos de la gestion de la réaction](../../response/using/about-response-manager.md).
+Cet ensemble de tables, lié au module **Gestion de la réaction**, permet de mesurer le succès et la rentabilité des campagnes marketing ou des propositions d’offres pour tous les canaux de communication. Pour plus d’informations à ce sujet, voir [À propos de la gestion de la réaction](https://experienceleague.adobe.com/en/docs/campaign/automation/response-manager/about-response-manager){target="_blank"} (documentation de Campaign v8).
 
 ![](assets/data-model_response.png)
 

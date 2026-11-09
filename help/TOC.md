@@ -8,9 +8,9 @@ user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: d5aff6b318cea324297eb7e2e887a67fb18cd504
+source-git-commit: aeb8e44e8183cad6557fe2f27565cad0343777e5
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1558'
 ht-degree: 97%
 ---
 
@@ -417,12 +417,6 @@ ht-degree: 97%
     + [Règles de présentation](interaction/using/presentation-rules.md)
     + [Offres sur canal entrant](interaction/using/offers-on-an-inbound-channel.md)
     + [Offres sur canal sortant](interaction/using/offers-on-an-outbound-channel.md)
-+ Gestion de la réaction {#response-manager}
-  + [Prise en main de la gestion de la réaction](response/using/about-response-manager.md)
-  + [Configuration de Response Manager](response/using/configure-response-manager.md)
-  + [Modèles d&#39;hypothèse](response/using/hypothesis-templates.md)
-  + [Création d’hypothèses](response/using/creating-hypotheses.md)
-  + [Suivi des hypothèses](response/using/hypothesis-tracking.md)
 + Concevoir et partager des rapports {#reporting}
   + Commencer avec les rapports {#reporting-in-adobe-campaign}
     + [Bonnes pratiques en matière de reporting](reporting/using/best-practices.md)
@@ -497,7 +491,7 @@ ht-degree: 97%
     + [Protection de la confidentialité des emails sur Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
     + [Mise à jour du certificat iOS](technotes/using/ios-certificate-update.md)
   + Migration vers Adobe Managed Services{#dc-migration}
-    + {hide-from-toc}[&#x200B; Migration vers le cloud public &#x200B;](technotes/using/dc-migration.md)
+    + {hide-from-toc}[ Migration vers le cloud public ](technotes/using/dc-migration.md)
     + {hide-from-toc}[FAQ](technotes/using/dc-migration-faq.md)
   + [Fonctions basées sur GCM](technotes/using/gcm-functions.md)
 + [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)
