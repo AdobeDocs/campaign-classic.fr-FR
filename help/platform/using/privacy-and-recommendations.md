@@ -41,7 +41,7 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2e00628a95aa333698f11233e851b54423f11f29
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 100%
@@ -79,12 +79,12 @@ Adobe Campaign is part of the Adobe Experience Cloud solutions. The way privacy 
 
     >[!NOTE]
     >
-    >As for all Adobe products, Campaign collects information about app and website users. For more on this, see the [Adobe Privacy Policy](https://www.adobe.com/fr/privacy/policy.html).
+    >As for all Adobe products, Campaign collects information about app and website users. For more on this, see the [Adobe Privacy Policy](https://www.adobe.com/privacy/policy.html).
 
 * **How Adobe Experience Cloud is used to collect information**
 
     * Adobe Experience Cloud solutions use cookies and similar technologies, such as web beacons (also known as tags or pixels), to enable you to collect information. For more on cookies and tracking capabilities with Adobe Campaign, see [this section](#tracking-capabilities).
-    * You may also use Adobe Experience Cloud technologies within your mobile apps. For more on sending mobile deliveries with Campaign, see [SMS channel](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/sms/sms){target="_blank"} (Campaign v8 documentation) and [Mobile app channel](../../delivery/using/about-mobile-app-channel.md).
+    * You may also use Adobe Experience Cloud technologies within your mobile apps. For more on sending mobile deliveries with Campaign, see [SMS channel](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/sms/sms){target="_blank"} (Campaign v8 documentation) and [Mobile app channel](../../delivery/using/about-mobile-app-channel.md).
 
 * **You users' privacy choices about your use of Adobe Experience Cloud**
 
@@ -143,8 +143,8 @@ Here is the general flow for this use case:
 
 Adobe Campaign enables you to collect data, including personal and sensitive information. It is therefore essential that you receive and monitor consent from your recipients.
 
-* Always have recipients agree to receive communications. To do this, keep honoring opt-out requests as quickly as possible and verify consent through a double opt-in process. For more on this, see [Create a subscription form with double opt-in](../../web/using/use-cases-web-forms.md#create-a-subscription--form-with-double-opt-in).
-* Do not import fraudulent lists and use seed addresses to check that your client file is not being used fraudulently. For more on this, see [About seed addresses](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/audience/add-profiles/test-profiles){target="_blank"} (Campaign v8 documentation).
+* Always have recipients agree to receive communications. To do this, keep honoring opt-out requests as quickly as possible and verify consent through a double opt-in process. For more on this, see [Create a subscription form with double opt-in](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/use-cases-web-forms#create-a-subscription--form-with-double-opt-in){target="_blank"} (Campaign v8 documentation).
+* Do not import fraudulent lists and use seed addresses to check that your client file is not being used fraudulently. For more on this, see [About seed addresses](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/audience/add-profiles/test-profiles){target="_blank"} (Campaign v8 documentation).
 * Through consent and rights management, you can track your recipients' preferences as well as manage who within your organization can access which data. For more on this, see [this section](#consent).
 * Facilitate and manage Privacy requests from your recipients. For more on this, see [this section](#privacy-requests).
 
@@ -179,7 +179,7 @@ Adobe Campaign provides additional capabilities to help you facilitate your read
 
 The **Access** and **Delete** requests are presented in [this section](../../platform/using/privacy-management.md#right-access-forgotten).
 
-The implementation steps to create these requests are detailed in [this section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/privacy/privacy){target="_blank"} (Campaign v8 documentation).
+The implementation steps to create these requests are detailed in [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/privacy){target="_blank"} (Campaign v8 documentation).
 
 ## Tracking capabilities {#tracking-capabilities}
 
@@ -190,7 +190,7 @@ Thanks to its tracking functionalities, Adobe Campaign enables you to track the 
 * A **session** cookie: the **nlid** cookie contains the identifier of the email sent to the contact (**broadlogId**) and the identifier of the message template (**deliveryId**). It is added when the contact clicks a URL included in an email sent by Adobe Campaign and enables you to track their behavior on the web. This session cookie is erased automatically when the browser is closed. The contact can configure their browser to refuse cookies.
 
 * Two **permanent** cookies: 
-    * The **UUID** (Universal Unique IDentifier) cookie is shared between Adobe Experience Cloud solutions. It is set once until it disappears from the client browser when a new value is generated. This cookie enables you to identify the users who interact with the Experience Cloud solutions when they visit a website. It can be deposited by a landing page (to associate unknown customer activities to a recipient) or by a delivery. The description of this cookie is available on [this page](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html?lang=fr#ec-cookies).
+    * The **UUID** (Universal Unique IDentifier) cookie is shared between Adobe Experience Cloud solutions. It is set once until it disappears from the client browser when a new value is generated. This cookie enables you to identify the users who interact with the Experience Cloud solutions when they visit a website. It can be deposited by a landing page (to associate unknown customer activities to a recipient) or by a delivery. The description of this cookie is available on [this page](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-mc.html#ec-cookies).
     * The **nllastdelid** cookie (introduced in Campaign Classic 20.3) is a permanent cookie which contains the **deliveryId** of the last delivery that user clicked the link from. This cookie is used - when the session cookie is missing - to identify the tracking table that will be used.
 
 Regulations such as the General Data Protection Regulation (GDPR) state that companies require the agreement of website users before installing any cookies.
@@ -202,13 +202,13 @@ Regulations such as the General Data Protection Regulation (GDPR) state that com
 
 Adobe Campaign lets you track the emails sent and the behavior of your delivery recipients: opening, clicks on links, unsubscriptions, etc. For more on this, see [About message tracking](../../delivery/using/about-message-tracking.md).
 
-To do this, add tracked links to your messages in order to measure the impact of your delivery and recipient behavior in the [Tracking](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#tracking-logs){target="_blank"} tab of the delivery dashboard. Learn how to [configure tracked links in Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/tracked-links){target="_blank"}. Tracking data is interpreted in the [Tracking indicators](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports#tracking-indicators){target="_blank"} (Campaign v8 documentation) report.
+To do this, add tracked links to your messages in order to measure the impact of your delivery and recipient behavior in the [Tracking](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/monitor/delivery-dashboard#tracking-logs){target="_blank"} tab of the delivery dashboard. Learn how to [configure tracked links in Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/tracked-links){target="_blank"}. Tracking data is interpreted in the [Tracking indicators](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports#tracking-indicators){target="_blank"} (Campaign v8 documentation) report.
 
 ### Web tracking {#web-tracking}
 
-Adobe Campaign also lets you monitor how recipients browse your website: insert tracking tags to collect information and measure visits on web application pages. For more on this, see [Tracking a web application](../../web/using/tracking-a-web-application.md).
+Adobe Campaign also lets you monitor how recipients browse your website: insert tracking tags to collect information and measure visits on web application pages. For more on this, see [Tracking a web application](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/tracking-a-web-application){target="_blank"} (Campaign v8 documentation).
 
 The configuration of web tracking is presented in [this section](../../configuration/using/about-web-tracking.md).
 
-To further manage tracking, Adobe Campaign enables you to display an opt-out banner to stop tracking web behaviors of end users who opt-out of behavioral tracking. For more on this, see [Web application tracking opt-out](../../web/using/web-application-tracking-opt-out.md).
+To further manage tracking, Adobe Campaign enables you to display an opt-out banner to stop tracking web behaviors of end users who opt-out of behavioral tracking. For more on this, see [Web application tracking opt-out](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/web-application-tracking-opt-out){target="_blank"} (Campaign v8 documentation).
 -->

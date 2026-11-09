@@ -8,9 +8,9 @@ user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: aeb8e44e8183cad6557fe2f27565cad0343777e5
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1395'
 ht-degree: 97%
 ---
 
@@ -354,45 +354,6 @@ ht-degree: 97%
   + Modèles de message {#message-templates}
     + [Test de modèles de message](message-center/using/testing-message-templates.md)
   + [Cas d’utilisation](message-center/using/transactional-email-with-attachments.md)
-+ Concevoir du contenu web {#designing-content}
-  + Applications web {#web-applications}
-    + [Prise en main des applications web](web/using/about-web-applications.md)
-    + [Création d’une application web](web/using/creating-a-new-web-application.md)
-    + [Conception d’une application web](web/using/designing-a-web-application.md)
-    + [Cas d’utilisation : création de vues d’ensemble](web/using/use-cases-creating-overviews.md)
-    + [Traduction d’une application web](web/using/translating-a-web-application.md)
-    + [Tracking des visites sur une application web](web/using/tracking-a-web-application.md)
-    + [Désinscription (opt-out) du tracking des applications web](web/using/web-application-tracking-opt-out.md)
-  + Modifier du contenu HTML {#editing-html-content}
-    + [Prise en main de l’éditeur HTML](web/using/about-campaign-html-editor.md)
-    + [Gestion des modèles](web/using/template-management.md)
-    + [Interface de l&#39;éditeur de contenu](web/using/content-editor-interface.md)
-    + [Modification du contenu](web/using/editing-content.md)
-    + [Bonnes pratiques relatives à l&#39;édition de contenu](web/using/content-editing-best-practices.md)
-    + [Création d’une landing page](web/using/creating-a-landing-page.md)
-    + [Cas d’utilisation : création d’une diffusion email](web/using/use-case-creating-an-email-delivery.md)
-  + Formulaires web {#web-forms}
-    + [Prise en main des formulaires web](web/using/about-web-forms.md)
-    + [Utilisation d’un modèle de formulaire web](web/using/using-a-web-form-template.md)
-    + [Ajout de champs à un formulaire web](web/using/adding-fields-to-a-web-form.md)
-    + [Eléments statiques dans un formulaire web](web/using/static-elements-in-a-web-form.md)
-    + [Définition de la disposition des formulaires web](web/using/defining-web-forms-layout.md)
-    + [Rendu du formulaire](web/using/form-rendering.md)
-    + [Définition de l’enchaînement des pages](web/using/defining-web-forms-page-sequencing.md)
-    + [Enregistrement des réponses aux formulaires web](web/using/web-forms-answers.md)
-    + [Publication d’un formulaire web](web/using/publishing-a-web-form.md)
-    + [Définition des propriétés des formulaires web](web/using/defining-web-forms-properties.md)
-    + [Traduction d’un formulaire web](web/using/translating-a-web-form.md)
-    + [Cas pratiques : formulaires web](web/using/use-cases-web-forms.md)
-+ Créer des questionnaires en ligne {#online-surveys}
-  + [Prise en main des questionnaires](surveys/using/about-surveys.md)
-  + [Étapes clés de création d’un questionnaire](surveys/using/getting-started-with-surveys.md)
-  + [Conception d’un questionnaire](surveys/using/building-a-survey.md)
-  + [Gestion des réponses](surveys/using/managing-answers.md)
-  + [Publier, suivre et utiliser les données collectées](surveys/using/publish-track-and-use-collected-data.md)
-  + [Configuration des questionnaires](surveys/using/configuring-surveys.md)
-  + [Cas d’utilisation : création d’un formulaire de référence](surveys/using/use-case-creating-a-refer-a-friend-form.md)
-  + [Cas d’utilisation : affichage d’un rapport sur les réponses à un questionnaire en ligne](surveys/using/use-case-displaying-report-on-answers-to-an-online-survey.md)
 + Gestion des offres {#managing-offers}
   + Commencer avec Interaction {#interaction-overview}
     + [Interaction et la gestion des offres](interaction/using/interaction-and-offer-management.md)
@@ -491,7 +452,7 @@ ht-degree: 97%
     + [Protection de la confidentialité des emails sur Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
     + [Mise à jour du certificat iOS](technotes/using/ios-certificate-update.md)
   + Migration vers Adobe Managed Services{#dc-migration}
-    + {hide-from-toc}[&#x200B; Migration vers le cloud public &#x200B;](technotes/using/dc-migration.md)
+    + {hide-from-toc}[ Migration vers le cloud public ](technotes/using/dc-migration.md)
     + {hide-from-toc}[FAQ](technotes/using/dc-migration-faq.md)
   + [Fonctions basées sur GCM](technotes/using/gcm-functions.md)
 + [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)

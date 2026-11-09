@@ -27,10 +27,10 @@ subfeature_v2:
     internal-label: Target integration
   - id: 2e08b477-1993-5928-975d-5f4cabe8fbe0
     internal-label: Asset Sharing
-source-git-commit: 2e00628a95aa333698f11233e851b54423f11f29
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 97%
+source-wordcount: '292'
+ht-degree: 83%
 ---
 # Insérer une ressource partagée{#inserting-a-shared-asset}
 
@@ -48,7 +48,7 @@ Les ressources partagées depuis Adobe Experience Cloud peuvent être utilisé
 
      ![](assets/dam_insert_image_standard.png)
 
-   * si vous utilisez le [mode d&#39;édition avancé](../../web/using/about-campaign-html-editor.md) (DCE), placez-vous sur un bloc de type image, puis via le menu contextuel, sélectionnez **[!UICONTROL Sélectionner une ressource partagée]**.
+   * Si vous utilisez le [mode d’édition avancé](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/editing-html-content/about-campaign-html-editor){target="_blank"} (documentation de Campaign v8) (DCE), accédez à un bloc d’image, puis, via le menu contextuel, sélectionnez **[!UICONTROL Sélectionner une ressource partagée]**.
 
      ![](assets/dam_insert_image_dce.png)
 
