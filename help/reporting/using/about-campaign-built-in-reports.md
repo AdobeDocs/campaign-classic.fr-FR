@@ -28,8 +28,8 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 586c6688e2abd3b6e55389bd1fa219d2c596d07d
-workflow-type: ht
+source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
+workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 100%
 ---
@@ -55,8 +55,10 @@ Les types de rapports disponibles sont les suivants :
 
 Vous pouvez accéder aux rapports à partir de la page d’accueil de la console cliente, du tableau de bord des rapports ou de la liste des diffusions. Le mode d’affichage d’un rapport dépend de son contexte. La liste des principaux rapports est disponible sur la page d’accueil et permet d’accéder rapidement aux données de diffusion. Cette liste peut être modifiée en fonction de vos besoins. Pour plus d’informations, consultez [cette section](../../reporting/using/about-reports-creation-in-campaign.md).
 
-Dans le cadre de la transition de Campaign v7 vers v8, la documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour savoir comment accéder aux rapports intégrés et les utiliser, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/ac-reports/built-in-reports){target=_blank}.
-
-[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/ac-reports/built-in-reports){target=_blank}
+>[!NOTE]
+>
+>Dans le cadre de la transition de Campaign v7 vers v8, la documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour savoir comment accéder aux rapports intégrés et les utiliser, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/ac-reports/built-in-reports){target=_blank}.
+>
+>[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/analytics/reports/ac-reports/built-in-reports){target=_blank}
 
 Les autres actions possibles sur un rapport en cours d’édition sont présentées dans [cette page](../../reporting/using/actions-on-reports.md).

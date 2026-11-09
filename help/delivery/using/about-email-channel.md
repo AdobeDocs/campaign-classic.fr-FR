@@ -32,7 +32,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: d679815c3415f1d7603ae5fe87e1c587208b6a8f
+source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
 workflow-type: tm+mt
 source-wordcount: '454'
 ht-degree: 97%
@@ -43,7 +43,9 @@ Avec Adobe Campaign, créez des diffusions par e-mail pour envoyer des e-mails 
 
 Les e-mails restent l’un des canaux les plus puissants et les plus flexibles pour interagir avec les personnes au-delà de votre application ou site web. Que vous diffusiez du contenu personnalisé, des annonces ou des messages promotionnels, les e-mails vous permettent de contrôler entièrement le message et l’audience. Découvrez comment configurer et utiliser au mieux le canal e-mail : personnalisation du contenu, ciblage de segments d’utilisation spécifiques et intégration d’éléments multimédias riches pour optimiser l’impact et l’engagement dans la [documentation d’Adobe Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/emails/email){target=_blank}.
 
-Dans le cadre de la transition de Campaign v7 vers v8, la documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8.
+>[!NOTE]
+>
+>Dans le cadre de la transition de Campaign v7 vers v8, la documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8.
 
 >[!BEGINTABS]
 

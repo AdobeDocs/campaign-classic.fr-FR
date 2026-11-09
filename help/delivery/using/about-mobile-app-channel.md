@@ -37,7 +37,7 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: cce1f22c34cbd13d063850a7ca636a3b0dfc62f6
+source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 91%
@@ -46,9 +46,11 @@ ht-degree: 91%
 
 Avec Adobe Campaign, créez des diffusions de notifications push pour envoyer des messages personnalisés aux utilisateurs et utilisatrices de votre application mobile.
 
-Dans le cadre de la transition de Campaign v7 vers v8, la documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur le canal de notification push, consultez la documentation [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/push/push){target=_blank}.
-
-[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/push/push){target=_blank}
+>[!NOTE]
+>
+>Dans le cadre de la transition de Campaign v7 vers v8, la documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur le canal de notification push, consultez la documentation [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/push/push){target=_blank}.
+>
+>[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/push/push){target=_blank}
 
 Les informations suivantes concernent uniquement Campaign Classic.
 

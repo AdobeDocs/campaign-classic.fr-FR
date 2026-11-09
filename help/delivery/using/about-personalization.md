@@ -36,8 +36,8 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: d7e5f68c0d2e0b94fd5cfdf2981bed29f33d9f62
-workflow-type: ht
+source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
+workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 100%
 ---
@@ -47,7 +47,9 @@ Avec Adobe Campaign, personnalisez vos diffusions pour envoyer des messages qui
 
 La personnalisation vous permet de rendre vos messages plus pertinents et plus attrayants. Vous pouvez utiliser les données des personnes destinataires pour adapter votre contenu, ajouter des champs dynamiques ou afficher différentes informations en fonction de conditions spécifiques. Découvrez comment configurer et utiliser les fonctionnalités de personnalisation dans vos diffusions dans la [documentation d’Adobe Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html?lang=fr){target=_blank}.
 
-Dans le cadre de la transition de Campaign v7 vers v8, la documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8.
+>[!NOTE]
+>
+>Dans le cadre de la transition de Campaign v7 vers v8, la documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8.
 
 >[!BEGINTABS]
 

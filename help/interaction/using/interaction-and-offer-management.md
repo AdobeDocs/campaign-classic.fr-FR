@@ -22,8 +22,8 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 323ff901668895588a6e9587fa2a8b7804cf2fb4
-workflow-type: ht
+source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
+workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 100%
 ---
@@ -39,9 +39,11 @@ Vous pouvez créer un catalogue d’offres qui sert d’interface avec les canau
 
 Interaction vous permet de créer et de gérer un catalogue d’offres, et de configurer les règles d’éligibilité et les thèmes d’application qui lui sont associés. Selon le canal choisi, le contenu de l’offre peut être personnalisé grâce à différentes fonctions de rendu. Enfin, vous pouvez utiliser le module de simulation pour calculer l’impact d’une présentation des offres.
 
-Dans le cadre de la transition de Campaign v7 vers v8, la documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur l’interaction, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/interaction){target=_blank}.
-
-[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/interaction){target=_blank}
+>[!NOTE]
+>
+>Dans le cadre de la transition de Campaign v7 vers v8, la documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur l’interaction, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/interaction){target=_blank}.
+>
+>[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/interaction){target=_blank}
 
 Cette section couvre uniquement les fonctionnalités d’interaction qui ne sont pas décrites dans la documentation de Campaign v8 : [simulation de l’offre](about-offers-simulation.md), [présentation de l’offre](managing-offer-presentation.md), [validation de l’offre](approving-and-activating-an-offer.md), [modèles de l’offre](managing-offer-templates.md) et [paramètres avancés](using-advanced-parameters.md).
 
