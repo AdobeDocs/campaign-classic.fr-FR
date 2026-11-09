@@ -243,7 +243,7 @@ Pour créer un formulaire, procédez comme suit :
 
 ## Création d’un formulaire à plusieurs pages {#create-multipage-form}
 
-Vous pouvez créer des formulaires à plusieurs pages. Vous pouvez également imbriquer des formulaires dans d’autres formulaires. En savoir plus sur les [ conteneurs, notebooks et formulaires iconbox ](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"} (documentation de Campaign v8).
+Vous pouvez créer des formulaires à plusieurs pages. Vous pouvez également imbriquer des formulaires dans d’autres formulaires. En savoir plus sur les [&#x200B; conteneurs, notebooks et formulaires iconbox &#x200B;](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"} (documentation de Campaign v8).
 
 ## Modification d’un formulaire de saisie d’usine {#modify-factory-form}
 
