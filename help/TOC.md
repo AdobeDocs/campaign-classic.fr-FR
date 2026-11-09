@@ -8,9 +8,9 @@ user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
+source-git-commit: d5aff6b318cea324297eb7e2e887a67fb18cd504
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1574'
 ht-degree: 97%
 ---
 
@@ -152,7 +152,6 @@ ht-degree: 97%
     + [Création d’instances](installation/using/creating-new-instances.md)
     + [Liste des options de Campaign](installation/using/configuring-campaign-options.md)
     + {hide-from-toc}[Désinstaller Campaign](installation/using/uninstalling-campaign.md)
-    + [Installation de nouvelles polices](installation/using/install-fonts.md)
 + Guide de migration {#migrating-to-a-new-version}
   + {hide-from-toc}[Migrer vers Adobe Campaign v7](migration/using/about-migration.md)
   + Procédure de migration {#migration-procedure}
@@ -498,7 +497,7 @@ ht-degree: 97%
     + [Protection de la confidentialité des emails sur Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
     + [Mise à jour du certificat iOS](technotes/using/ios-certificate-update.md)
   + Migration vers Adobe Managed Services{#dc-migration}
-    + {hide-from-toc}[&#x200B; Migration vers le cloud public &#x200B;](technotes/using/dc-migration.md)
+    + {hide-from-toc}[ Migration vers le cloud public ](technotes/using/dc-migration.md)
     + {hide-from-toc}[FAQ](technotes/using/dc-migration-faq.md)
   + [Fonctions basées sur GCM](technotes/using/gcm-functions.md)
 + [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)
