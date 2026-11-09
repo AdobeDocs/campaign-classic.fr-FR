@@ -8,9 +8,9 @@ user-guide-description: Documentation du produit Adobe Campaign Classic v7.
 sub-product: adobe campaign classic
 type: Documentation
 nudge: false
-source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
+source-git-commit: 77efa1dcdb82a478e93565e84099d568f6a5f5fe
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1353'
 ht-degree: 97%
 ---
 
@@ -357,27 +357,13 @@ ht-degree: 97%
 + Gestion des offres {#managing-offers}
   + Commencer avec Interaction {#interaction-overview}
     + [Interaction et la gestion des offres](interaction/using/interaction-and-offer-management.md)
-  + Gérer le catalogue d’offres {#managing-an-offer-catalog}
-    + [Validation et activation d’une offre](interaction/using/approving-and-activating-an-offer.md)
-    + [Gestion des modèles d’offre](interaction/using/managing-offer-templates.md)
-    + [Gestion de la présentation des offres](interaction/using/managing-offer-presentation.md)
-  + Simulation d’offres{#simulating-offers}
-    + [À propos de la simulation des offres](interaction/using/about-offers-simulation.md)
-    + [Paramètres d&#39;exécution](interaction/using/execution-settings.md)
-    + [Périmètre de la simulation](interaction/using/simulation-scope.md)
-    + [Suivi des simulations](interaction/using/simulation-tracking.md)
   + Paramètres avancés {#advanced-parameters}
     + [Utilisation des paramètres avancés](interaction/using/using-advanced-parameters.md)
     + [Additional data](interaction/using/additional-data.md)
-    + [Exemple d&#39;extension](interaction/using/extension-example.md)
     + [Création d’un environnement de test](interaction/using/creating-a-test-environment.md)
     + [Modifier le comportement standard du moteur](interaction/using/hooks.md)
     + [Architectures réparties](interaction/using/distributed-architectures.md)
     + [Configuration du buffer de données](installation/using/interaction-data-buffer.md)
-  + Cas d’utilisation {#case-study}
-    + [Règles de présentation](interaction/using/presentation-rules.md)
-    + [Offres sur canal entrant](interaction/using/offers-on-an-inbound-channel.md)
-    + [Offres sur canal sortant](interaction/using/offers-on-an-outbound-channel.md)
 + Concevoir et partager des rapports {#reporting}
   + Commencer avec les rapports {#reporting-in-adobe-campaign}
     + [Bonnes pratiques en matière de reporting](reporting/using/best-practices.md)
@@ -452,7 +438,7 @@ ht-degree: 97%
     + [Protection de la confidentialité des emails sur Apple iOS](technotes/using/apple-mail-app-privacy-protection.md)
     + [Mise à jour du certificat iOS](technotes/using/ios-certificate-update.md)
   + Migration vers Adobe Managed Services{#dc-migration}
-    + {hide-from-toc}[&#x200B; Migration vers le cloud public &#x200B;](technotes/using/dc-migration.md)
+    + {hide-from-toc}[ Migration vers le cloud public ](technotes/using/dc-migration.md)
     + {hide-from-toc}[FAQ](technotes/using/dc-migration-faq.md)
   + [Fonctions basées sur GCM](technotes/using/gcm-functions.md)
 + [Panneau de contrôle Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=fr)

@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
+source-git-commit: 77efa1dcdb82a478e93565e84099d568f6a5f5fe
 workflow-type: tm+mt
-source-wordcount: '2409'
-ht-degree: 99%
+source-wordcount: '2425'
+ht-degree: 98%
 ---
 # Description du modèle de données de Campaign{#data-model-description}
 
@@ -222,7 +222,7 @@ Elle contient un enregistrement qui représente la réaction d’une personne à
 
 ## Simulation et diffusion {#simulation-and-delivery}
 
-Cet ensemble de tables est lié au module **Simulation**. Il permet de tester la distribution d’offres appartenant à une catégorie ou à un environnement avant d’envoyer votre proposition aux destinataires. Voir à ce sujet la section [À propos de la simulation des offres](../../interaction/using/about-offers-simulation.md).
+Cet ensemble de tables est lié au module **Simulation**. Il permet de tester la distribution d’offres appartenant à une catégorie ou à un environnement avant d’envoyer votre proposition aux destinataires. Pour plus d&#39;informations, consultez la section [ À propos de la simulation des offres ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/simulating-offers/about-offers-simulation){target="_blank"} (documentation de Campaign v8).
 
 ![](assets/data-model_simulation.png)
 
