@@ -222,7 +222,7 @@ Elle contient un enregistrement qui représente la réaction d’une personne à
 
 ## Simulation et diffusion {#simulation-and-delivery}
 
-Cet ensemble de tables est lié au module **Simulation**. Il permet de tester la distribution d’offres appartenant à une catégorie ou à un environnement avant d’envoyer votre proposition aux destinataires. Pour plus d&#39;informations, consultez la section [ À propos de la simulation des offres ](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/simulating-offers/about-offers-simulation){target="_blank"} (documentation de Campaign v8).
+Cet ensemble de tables est lié au module **Simulation**. Il permet de tester la distribution d’offres appartenant à une catégorie ou à un environnement avant d’envoyer votre proposition aux destinataires. Pour plus d&#39;informations, consultez la section [&#x200B; À propos de la simulation des offres &#x200B;](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/simulating-offers/about-offers-simulation){target="_blank"} (documentation de Campaign v8).
 
 ![](assets/data-model_simulation.png)
 
