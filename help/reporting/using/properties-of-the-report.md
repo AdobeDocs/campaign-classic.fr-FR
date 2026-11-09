@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Reporting
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
     internal-label: Accessibility
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
-source-wordcount: '453'
-ht-degree: 100%
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
+workflow-type: tm+mt
+source-wordcount: '470'
+ht-degree: 93%
 ---
 # Propriétés du rapport{#properties-of-the-report}
 
@@ -86,7 +86,7 @@ La langue d’édition correspond à la langue dans laquelle vous rédigez. Lors
 
 >[!NOTE]
 >
->Pour en savoir plus sur la localisation des pages web dans Campaign, consultez [cette section](../../web/using/translating-a-web-form.md).
+>Pour plus d’informations sur la localisation des pages web dans Campaign, consultez [cette section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/translating-a-web-form){target="_blank"} (documentation de Campaign v8).
 
 ## Personnalisation du rendu HTML {#personalizing-html-rendering}
 

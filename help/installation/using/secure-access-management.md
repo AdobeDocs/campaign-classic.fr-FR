@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: fbeb3bb6f89cd0b03d1fb4551496f96eda0cbf10
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 93%
+source-wordcount: '410'
+ht-degree: 88%
 ---
 # Gestion des accès {#access-management}
 
@@ -52,7 +52,7 @@ L’opérateur webApp par défaut est un administrateur. Pour améliorer la séc
 
   1. Saisissez un nom pour chaque doublon. Par exemple : webapp_brand, webapp_brand2, etc.
 
-  1. Dupliquez un modèle d’application web pour disposer d’un modèle par marque et modifiez les propriétés afin de changer l’opérateur en sélectionnant l’option Utiliser un compte spécifique.  En savoir plus sur [cette page](../../web/using/defining-web-forms-properties.md).
+  1. Dupliquez un modèle d’application web pour disposer d’un modèle par marque et modifiez les propriétés afin de changer l’opérateur en sélectionnant l’option Utiliser un compte spécifique.  En savoir plus sur [cette page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-properties){target="_blank"} (documentation de Campaign v8).
 
 ## Groupes de sécurité et opérateurs admin
 

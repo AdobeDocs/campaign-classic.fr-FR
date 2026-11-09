@@ -28,10 +28,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
-source-wordcount: '254'
-ht-degree: 100%
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 82%
 ---
 # Définition d’un contenu conditionnel{#defining-a-conditional-content}
 
@@ -49,7 +49,7 @@ Pour rendre l&#39;affichage d&#39;une partie d&#39;un rapport conditionnel, vous
 
 Les conditions de visibilité peuvent dépendre par exemple du statut de l&#39;opérateur ou des éléments qu&#39;il a sélectionnés ou renseignés dans la page du rapport.
 
-Des exemples d&#39;affichages conditionnels des éléments d&#39;une page sont proposés dans [cette section](../../web/using/form-rendering.md#defining-fields-conditional-display).
+Vous trouverez des exemples d’affichage conditionnel des éléments sur une page dans [cette section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/form-rendering#defining-fields-conditional-display){target="_blank"} (documentation de Campaign v8).
 
 Dans l&#39;exemple suivant, la condition d&#39;affichage dépend de la langue :
 
@@ -72,6 +72,6 @@ Le principe de fonctionnement de cette activité est le suivant :
 
 1. Sélectionnez l&#39;option **[!UICONTROL Activer le branchement par défaut]** pour ajouter une transition, dans le cas où aucune des conditions paramétrées ne soit remplie.
 
-   Pour plus d’informations, consultez [cette section](../../web/using/defining-web-forms-page-sequencing.md#conditional-page-display).
+   Pour en savoir plus, consultez [cette section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-page-sequencing#conditional-page-display){target="_blank"} (documentation de Campaign v8).
 
 Une activité **[!UICONTROL Test]** peut être positionnée en début de diagramme afin de conditionner l&#39;affichage selon le contexte par exemple, ou le profil de l&#39;opérateur.

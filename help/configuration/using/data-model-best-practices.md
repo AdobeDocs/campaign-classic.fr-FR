@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
+source-git-commit: 0fdce84d7da1ff42a406ace8f1a180f6a426646a
 workflow-type: tm+mt
 source-wordcount: '3908'
 ht-degree: 99%
@@ -58,7 +58,7 @@ Ce document présente les principales recommandations lors de la conception de v
 >
 >Dans le cadre de la transition de Campaign v7 vers v8, la documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur les bonnes pratiques relatives aux modèles de données, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/implement/datamodel-best-practices){target=_blank}.
 >
->[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/implement/datamodel-best-practices){target=_blank}
+>[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/config/implement/datamodel-best-practices){target="_blank"}
 
 Pour une meilleure compréhension des tables intégrées de Campaign et de leur interaction, reportez-vous à [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/datamodel){target="_blank"} (documentation de Campaign v8).
 

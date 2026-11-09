@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
-source-wordcount: '613'
-ht-degree: 100%
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
+workflow-type: tm+mt
+source-wordcount: '629'
+ht-degree: 95%
 ---
 # Marketing viral et réseaux sociaux{#viral-and-social-marketing}
 
@@ -108,7 +108,7 @@ Les étapes sont les suivantes :
    >
    >Ce paramétrage peut être adapté. Pour cela, vous devez modifier l&#39;application Web **Inscription de destinataire** stockée dans le noeud **[!UICONTROL Ressources > On-line > Applications Web]** de l&#39;arborescence.
    >
-   >Pour plus d&#39;informations sur les applications Web, consultez [cette section](../../web/using/about-web-applications.md).
+   >Pour plus d’informations sur les applications web, consultez [cette section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/about-web-applications){target="_blank"} (documentation de Campaign v8).
 
    A la validation du formulaire, un message de confirmation est adressé au filleul : il ne sera définitivement inscrit que lorsqu&#39;il aura activé le lien contenu dans le message de confirmation. Ce message est créé à partir du modèle **[!UICONTROL Confirmation d&#39;inscription]**, stocké dans le nœud **[!UICONTROL Administration > Gestion de campagnes > Modèles des diffusions techniques]** de l&#39;arborescence.
 

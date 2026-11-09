@@ -20,10 +20,10 @@ feature_v2:
     internal-label: Interaction
   - id: ea08db70-4682-59a2-9408-9aedd9548e07
     internal-label: Offers
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
-source-wordcount: '117'
-ht-degree: 100%
+source-git-commit: 77efa1dcdb82a478e93565e84099d568f6a5f5fe
+workflow-type: tm+mt
+source-wordcount: '132'
+ht-degree: 81%
 ---
 # Utilisation des paramètres avancés{#using-advanced-parameters}
 
@@ -36,7 +36,7 @@ Ce chapitre présente les différents paramétrages avancés possibles dans Inte
 >Le chapitre suivant s&#39;adresse aux **administrateurs techniques**.
 
 * Vous pouvez utiliser des données contextuelles additionnelles. Pour plus d&#39;informations, consultez la section [Données additionnelles](../../interaction/using/additional-data.md).
-* Vous avez la possibilité d’enrichir les contextes d’application des offres proposées via un canal entrant. Pour ce faire, le schéma d’interaction **nms:interaction** doit être étendu. Reportez-vous à l’[exemple d’extension](../../interaction/using/extension-example.md) pour connaître la procédure à suivre.
+* Vous avez la possibilité d’enrichir les contextes d’application des offres proposées via un canal entrant. Pour ce faire, le schéma d’interaction **nms:interaction** doit être étendu. Reportez-vous à la section [Exemple d’extension](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/advanced-parameters/extension-example){target="_blank"} (documentation de Campaign v8) pour la procédure complète.
 * La création d’un environnement de test est présentée dans la section [Créer un environnement de test](../../interaction/using/creating-a-test-environment.md).
 * Vous pouvez modifier le comportement standard du moteur à l’aide de points d’extension. Pour plus d&#39;informations, consultez la section [Points d’extension](../../interaction/using/hooks.md).
 * Enfin, l’utilisation d’Interaction avec une architecture répartie est présentée dans la section [Architectures réparties](../../interaction/using/distributed-architectures.md).

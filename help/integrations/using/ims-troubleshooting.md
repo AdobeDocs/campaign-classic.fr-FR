@@ -33,7 +33,7 @@ subfeature_v2:
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
+source-git-commit: 0fdce84d7da1ff42a406ace8f1a180f6a426646a
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 96%
@@ -47,7 +47,7 @@ Les conseils de dépannage suivants aideront les clientes et clients **On-Premis
 >
 >Dans le cadre de la transition de Campaign v7 vers v8, la documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur la connexion à Adobe ID et la résolution des problèmes de connexion, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/connect){target=_blank}.
 >
->[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/connect){target=_blank}
+>[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/new/connect){target="_blank"}
 
 **Compte externe**
 

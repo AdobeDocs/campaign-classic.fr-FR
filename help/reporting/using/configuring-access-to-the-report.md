@@ -28,10 +28,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: a43e591a565a18d79f583d975e3e812c5435b0c0
-workflow-type: ht
-source-wordcount: '801'
-ht-degree: 100%
+source-git-commit: 00c9aab788ae3d4fb600d08b9ab9604e3a14d7af
+workflow-type: tm+mt
+source-wordcount: '817'
+ht-degree: 95%
 ---
 # Configuration de l’accès au rapport{#configuring-access-to-the-report}
 
@@ -141,7 +141,7 @@ Voir à ce sujet la section [Contexte d&#39;affichage des rapports](#report-disp
 
 Vous disposez également de paramètres qui vous permettent de contrôler les erreurs. Le paramètre **_uuid** est présent dans l&#39;URL du rapport. Vous pouvez lui adjoindre les paramètres **&amp;_preview** ou **&amp;_debug**.
 
-Pour plus d&#39;informations sur ces paramètres, consultez la section **Définir les propriétés d&#39;un formulaire web** du chapitre [Formulaires Web](../../web/using/about-web-forms.md).
+Pour en savoir plus sur ces paramètres, reportez-vous à la section **Définition des propriétés de formulaire web** du chapitre [Formulaires web](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/about-web-forms){target="_blank"} (documentation de Campaign v8).
 
 ## Publication du rapport {#publishing-the-report}
 

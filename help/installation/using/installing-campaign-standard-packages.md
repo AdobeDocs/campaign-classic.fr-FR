@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Optimization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2e00628a95aa333698f11233e851b54423f11f29
+source-git-commit: 5e2aa587f61d79eab6d356ea5f91bc4e0f1b24c6
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 100%
+source-wordcount: '1489'
+ht-degree: 98%
 ---
 # Installation des packages natifs de Campaign Classic{#installing-campaign-standard-packages}
 
@@ -163,7 +163,7 @@ Le tableau ci-après répertorie tous les packages natifs de Campaign.
   </tr> 
   <tr> 
    <td> Questionnaires en ligne (Survey Manager)<br /> </td> 
-   <td> Crée et gère des formulaires en ligne pour ajouter ou modifier des informations de profil, s'abonner, se désabonner ou générer un formulaire d'inscription à un concours. Facultatif. <a href="../../surveys/using/about-surveys.md">En savoir plus</a> <br /> </td> 
+   <td> Crée et gère des formulaires en ligne pour ajouter ou modifier des informations de profil, s'abonner, se désabonner ou générer un formulaire d'inscription à un concours. Facultatif. <a href="https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/about-surveys" target="_blank">En savoir plus</a> (documentation de Campaign v8) <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
@@ -173,7 +173,7 @@ Le tableau ci-après répertorie tous les packages natifs de Campaign.
   </tr> 
   <tr> 
    <td> Gestion de la réaction<br /> </td> 
-   <td> Mesure le succès et la rentabilité des campagnes marketing ou des propositions d'offres pour tous les canaux de communication.  Facultatif. <a href="../../response/using/about-response-manager.md">En savoir plus</a> <br /> </td> 
+   <td> Mesure le succès et la rentabilité des campagnes marketing ou des propositions d'offres pour tous les canaux de communication.  Facultatif. <a href="https://experienceleague.adobe.com/en/docs/campaign/automation/response-manager/about-response-manager" target="_blank">En savoir plus</a> (documentation de Campaign v8) <br /> </td> 
    <td> Marketing<br /> </td> 
   </tr> 
   <tr> 
