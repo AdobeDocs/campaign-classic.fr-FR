@@ -52,9 +52,9 @@ Cette page traite de la personnalisation des URL, de leur signature et de la pro
 
 >[!NOTE]
 >
->Dans le cadre de la transition de Campaign v7 vers v8, la documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur les demandes de restriction et de confidentialité des données, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security#data-restriction){target=_blank}.
+>Dans le cadre de la transition de Campaign v7 vers v8, la documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur les demandes de restriction et de confidentialité des données, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/privacy/security#data-restriction){target=_blank}.
 >
->[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/privacy/security#data-restriction){target=_blank}
+>[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/privacy/security#data-restriction){target=_blank}
 
 Dans Campaign Classic v7, la restriction de l’accès à l’entité entière nécessite la version 8770 ou ultérieure.
 
