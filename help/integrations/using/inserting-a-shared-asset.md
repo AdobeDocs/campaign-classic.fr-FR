@@ -48,7 +48,7 @@ Les ressources partagées depuis Adobe Experience Cloud peuvent être utilisé
 
      ![](assets/dam_insert_image_standard.png)
 
-   * Si vous utilisez le [mode d’édition avancé](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/editing-html-content/about-campaign-html-editor){target="_blank"} (documentation de Campaign v8) (DCE), accédez à un bloc d’image, puis, via le menu contextuel, sélectionnez **[!UICONTROL Sélectionner une ressource partagée]**.
+   * Si vous utilisez le [mode d’édition avancé](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/content/editing-html-content/about-campaign-html-editor){target="_blank"} (documentation de Campaign v8) (DCE), accédez à un bloc d’image, puis, via le menu contextuel, sélectionnez **[!UICONTROL Sélectionner une ressource partagée]**.
 
      ![](assets/dam_insert_image_dce.png)
 

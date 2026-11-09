@@ -86,7 +86,7 @@ La langue d’édition correspond à la langue dans laquelle vous rédigez. Lors
 
 >[!NOTE]
 >
->Pour plus d’informations sur la localisation des pages web dans Campaign, consultez [cette section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/translating-a-web-form){target="_blank"} (documentation de Campaign v8).
+>Pour plus d’informations sur la localisation des pages web dans Campaign, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/content/web-forms/translating-a-web-form){target="_blank"} (documentation de Campaign v8).
 
 ## Personnalisation du rendu HTML {#personalizing-html-rendering}
 

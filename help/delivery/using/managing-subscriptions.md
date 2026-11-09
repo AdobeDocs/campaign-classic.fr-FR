@@ -66,7 +66,7 @@ Les opérations d&#39;abonnement/désabonnement aux services peuvent être réal
 
 >[!NOTE]
 >
->Un exemple de création d’un formulaire d’abonnement avec double opt-in est présenté dans [cette section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/use-cases-web-forms#create-a-subscription--form-with-double-opt-in){target="_blank"} (documentation de Campaign v8).
+>Un exemple de création d’un formulaire d’abonnement avec double opt-in est présenté dans [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/content/web-forms/use-cases-web-forms#create-a-subscription--form-with-double-opt-in){target="_blank"} (documentation de Campaign v8).
 
 ## Créer un service d&#39;information {#creating-an-information-service}
 
@@ -160,7 +160,7 @@ Pour inscrire des destinataires à un service d&#39;information, vous pouvez :
 
 * Utiliser un formulaire web pour que les destinataires puissent s&#39;abonner à un service.
 
-  Pour en savoir plus, consultez [cette section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-applications/about-web-applications){target="_blank"} (documentation de Campaign v8).
+  Pour en savoir plus, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/content/web-applications/about-web-applications){target="_blank"} (documentation de Campaign v8).
 
 * Créer un workflow de ciblage et utiliser une boîte de type **[!UICONTROL Service d&#39;inscriptions]**.
 
@@ -176,7 +176,7 @@ Les diffusions par e-mail doivent contenir un lien de désinscription, conformé
 
 Le lien de désinscription par défaut est inséré via le dernier bouton de la barre d’outils de l’éditeur de contenu fourni dans l’assistant de diffusion (voir [À propos de la personnalisation](about-personalization.md)). Lorsque le destinataire clique sur ce lien, le profil est ajouté à la liste bloquée (opt-out), ce qui signifie que ce destinataire ne sera plus ciblé par aucune action de diffusion.
 
-Les personnes destinataires peuvent toutefois choisir de se désinscrire d’un service sans se désinscrire de tous les services. Pour ce faire, vous pouvez utiliser un formulaire web (voir [cette section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/adding-fields-to-a-web-form#subscription-checkboxes){target="_blank"} (documentation de Campaign v8) ou insérer un lien de désinscription personnalisé. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=fr){target="_blank"}.
+Les personnes destinataires peuvent toutefois choisir de se désinscrire d’un service sans se désinscrire de tous les services. Pour ce faire, vous pouvez utiliser un formulaire web (voir [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/content/web-forms/adding-fields-to-a-web-form#subscription-checkboxes){target="_blank"} (documentation de Campaign v8) ou insérer un lien de désinscription personnalisé. Consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/personalize/personalization-blocks.html?lang=fr){target="_blank"}.
 
 Vous pouvez également désinscrire manuellement une personne destinataire à partir de son profil. Pour cela, cliquez sur l&#39;onglet **[!UICONTROL Abonnements]** du destinataire visé, sélectionnez le ou les services d&#39;information concernés et cliquez sur **[!UICONTROL Supprimer]**.
 

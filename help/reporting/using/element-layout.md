@@ -39,7 +39,7 @@ ht-degree: 86%
 
 En complément des variantes du graphique disponibles, [présentées ici](../../reporting/using/creating-a-chart.md#chart-types-and-variants), vous pouvez adapter lʼaffichage et ajouter des éléments dans la ou les pages du rapport.
 
-Vous pouvez utiliser les conteneurs : ils permettent de regrouper plusieurs éléments d&#39;une page et d&#39;en paramétrer la mise en page en colonnes et/ou en cellules. Leur utilisation est détaillée dans [cette section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-layout#creating-containers){target="_blank"} (documentation de Campaign v8).
+Vous pouvez utiliser les conteneurs : ils permettent de regrouper plusieurs éléments d&#39;une page et d&#39;en paramétrer la mise en page en colonnes et/ou en cellules. Leur utilisation est détaillée dans [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-layout#creating-containers){target="_blank"} (documentation de Campaign v8).
 
 Vous pouvez configurer la mise en page du rapport à la racine de l’arborescence et la surcharger pour chaque conteneur. Les pages sont triées en colonnes. Les conteneurs sont également triés en colonnes. Seuls les éléments statiques et graphiques sont triés dans des cellules.
 
@@ -53,7 +53,7 @@ L&#39;onglet **[!UICONTROL Général]**, vous permet de modifier le titre de la 
 
 Le champ **[!UICONTROL Titre]** permet de personnaliser le libellé qui apparaît dans l&#39;en-tête de la page du rapport. Le titre de la fenêtre est quant à lui paramétrable depuis la fenêtre **[!UICONTROL Propriétés]** du rapport. Pour plus d&#39;informations, voir la section [Ajouter un en-tête et un pied de page](#adding-a-header-and-a-footer).
 
-Les options des **[!UICONTROL Paramètres d&#39;affichage]** permettent de choisir la position de la légende des contrôles dans la page d&#39;un rapport et de définir le nombre de colonnes de la page. Pour plus d’informations sur la mise en page, reportez-vous à la section **Mise en page des éléments** de [cette section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-layout#positioning-the-fields-on-the-page){target="_blank"} (documentation de Campaign v8).
+Les options des **[!UICONTROL Paramètres d&#39;affichage]** permettent de choisir la position de la légende des contrôles dans la page d&#39;un rapport et de définir le nombre de colonnes de la page. Pour plus d’informations sur la mise en page, reportez-vous à la section **Mise en page des éléments** de [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-layout#positioning-the-fields-on-the-page){target="_blank"} (documentation de Campaign v8).
 
 Sélectionnez les différentes options de la section **[!UICONTROL Navigation]** pour autoriser ou non le passage entre les différentes pages du rapport. Lorsque l&#39;option **[!UICONTROL Ne pas autoriser le retour à la page précédente]** ou **[!UICONTROL Ne pas autoriser le passage à la page suivante]** est sélectionnée, les boutons **[!UICONTROL Suivant]** ou **[!UICONTROL Précédent]** ne sont plus disponibles dans la page du rapport.
 

@@ -142,7 +142,7 @@ Une **[!UICONTROL Page]** peut contenir les éléments suivants :
 * Des **[!UICONTROL Éléments statiques]** de type Valeur, Lien, HTML, Image, etc.
 * Des **[!UICONTROL Conteneurs]** pour assurer la mise en page des composants.
 
-Le mode de configuration d’une page et de ses composants est présenté dans [cette section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/about-web-forms){target="_blank"} (documentation de Campaign v8).
+Le mode de configuration d’une page et de ses composants est présenté dans [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/content/web-forms/about-web-forms){target="_blank"} (documentation de Campaign v8).
 
 La barre d&#39;outils vous permet d&#39;ajouter ou supprimer les contrôles et d&#39;organiser l&#39;ordre dans lequel ils doivent apparaître dans la ou les pages de votre rapport.
 
@@ -150,7 +150,7 @@ La barre d&#39;outils vous permet d&#39;ajouter ou supprimer les contrôles et d
 
 ### Eléments statiques {#static-elements}
 
-Les éléments statiques vous permettent d&#39;afficher des informations dans le rapport, des éléments graphiques ou des scripts, avec lequel l&#39;utilisateur n&#39;aura pas d&#39;interaction. Pour plus d’informations, consultez [cette section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/static-elements-in-a-web-form#inserting-html-content){target="_blank"} (documentation de Campaign v8).
+Les éléments statiques vous permettent d&#39;afficher des informations dans le rapport, des éléments graphiques ou des scripts, avec lequel l&#39;utilisateur n&#39;aura pas d&#39;interaction. Pour plus d’informations, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/content/web-forms/static-elements-in-a-web-form#inserting-html-content){target="_blank"} (documentation de Campaign v8).
 
 ![](assets/s_advuser_report_page_activity_03.png)
 
@@ -158,7 +158,7 @@ Les éléments statiques vous permettent d&#39;afficher des informations dans le
 
 Les contrôles de saisie et de sélection permettent de filtrer les informations affichées dans le rapport. Pour plus d&#39;informations sur la mise en œuvre de ce type de filtrage, consultez [Options de filtrage dans les requêtes](../../reporting/using/collecting-data-to-analyze.md#filtering-options-in-the-queries).
 
-Pour en savoir plus sur la création et la configuration des champs de saisie et de sélection, consultez [cette section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/about-web-forms){target="_blank"} (documentation de Campaign v8).
+Pour en savoir plus sur la création et la configuration des champs de saisie et de sélection, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/content/web-forms/about-web-forms){target="_blank"} (documentation de Campaign v8).
 
 Vous pouvez intégrer un ou plusieurs contrôles de saisie dans vos rapports. Ce type de contrôle vous permet de filtrer les informations affichées selon une valeur saisie.
 

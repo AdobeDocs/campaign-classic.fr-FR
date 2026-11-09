@@ -52,7 +52,7 @@ L’opérateur webApp par défaut est un administrateur. Pour améliorer la séc
 
   1. Saisissez un nom pour chaque doublon. Par exemple : webapp_brand, webapp_brand2, etc.
 
-  1. Dupliquez un modèle d’application web pour disposer d’un modèle par marque et modifiez les propriétés afin de changer l’opérateur en sélectionnant l’option Utiliser un compte spécifique.  En savoir plus sur [cette page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-properties){target="_blank"} (documentation de Campaign v8).
+  1. Dupliquez un modèle d’application web pour disposer d’un modèle par marque et modifiez les propriétés afin de changer l’opérateur en sélectionnant l’option Utiliser un compte spécifique.  En savoir plus sur [cette page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-properties){target="_blank"} (documentation de Campaign v8).
 
 ## Groupes de sécurité et opérateurs admin
 

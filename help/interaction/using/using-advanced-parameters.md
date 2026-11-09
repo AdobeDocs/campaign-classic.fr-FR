@@ -36,7 +36,7 @@ Ce chapitre présente les différents paramétrages avancés possibles dans Inte
 >Le chapitre suivant s&#39;adresse aux **administrateurs techniques**.
 
 * Vous pouvez utiliser des données contextuelles additionnelles. Pour plus d&#39;informations, consultez la section [Données additionnelles](../../interaction/using/additional-data.md).
-* Vous avez la possibilité d’enrichir les contextes d’application des offres proposées via un canal entrant. Pour ce faire, le schéma d’interaction **nms:interaction** doit être étendu. Reportez-vous à la section [Exemple d’extension](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/advanced-parameters/extension-example){target="_blank"} (documentation de Campaign v8) pour la procédure complète.
+* Vous avez la possibilité d’enrichir les contextes d’application des offres proposées via un canal entrant. Pour ce faire, le schéma d’interaction **nms:interaction** doit être étendu. Reportez-vous à la section [Exemple d’extension](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/advanced-parameters/extension-example){target="_blank"} (documentation de Campaign v8) pour la procédure complète.
 * La création d’un environnement de test est présentée dans la section [Créer un environnement de test](../../interaction/using/creating-a-test-environment.md).
 * Vous pouvez modifier le comportement standard du moteur à l’aide de points d’extension. Pour plus d&#39;informations, consultez la section [Points d’extension](../../interaction/using/hooks.md).
 * Enfin, l’utilisation d’Interaction avec une architecture répartie est présentée dans la section [Architectures réparties](../../interaction/using/distributed-architectures.md).

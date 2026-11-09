@@ -49,7 +49,7 @@ Pour rendre l&#39;affichage d&#39;une partie d&#39;un rapport conditionnel, vous
 
 Les conditions de visibilité peuvent dépendre par exemple du statut de l&#39;opérateur ou des éléments qu&#39;il a sélectionnés ou renseignés dans la page du rapport.
 
-Vous trouverez des exemples d’affichage conditionnel des éléments sur une page dans [cette section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/form-rendering#defining-fields-conditional-display){target="_blank"} (documentation de Campaign v8).
+Vous trouverez des exemples d’affichage conditionnel des éléments sur une page dans [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/content/web-forms/form-rendering#defining-fields-conditional-display){target="_blank"} (documentation de Campaign v8).
 
 Dans l&#39;exemple suivant, la condition d&#39;affichage dépend de la langue :
 
@@ -72,6 +72,6 @@ Le principe de fonctionnement de cette activité est le suivant :
 
 1. Sélectionnez l&#39;option **[!UICONTROL Activer le branchement par défaut]** pour ajouter une transition, dans le cas où aucune des conditions paramétrées ne soit remplie.
 
-   Pour en savoir plus, consultez [cette section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-page-sequencing#conditional-page-display){target="_blank"} (documentation de Campaign v8).
+   Pour en savoir plus, consultez [cette section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-page-sequencing#conditional-page-display){target="_blank"} (documentation de Campaign v8).
 
 Une activité **[!UICONTROL Test]** peut être positionnée en début de diagramme afin de conditionner l&#39;affichage selon le contexte par exemple, ou le profil de l&#39;opérateur.
