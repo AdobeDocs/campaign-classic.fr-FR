@@ -22,7 +22,7 @@ topic_v2:
     internal-label: Implementation
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
+source-git-commit: 0fdce84d7da1ff42a406ace8f1a180f6a426646a
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 100%
@@ -43,7 +43,7 @@ Interaction vous permet de créer et de gérer un catalogue d’offres, et de co
 >
 >Dans le cadre de la transition de Campaign v7 vers v8, la documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur l’interaction, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/interaction){target=_blank}.
 >
->[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/interaction){target=_blank}
+>[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/interaction){target="_blank"}
 
 Cette section couvre uniquement les fonctionnalités d’interaction qui ne sont pas décrites dans la documentation de Campaign v8 : [simulation de l’offre](about-offers-simulation.md), [présentation de l’offre](managing-offer-presentation.md), [validation de l’offre](approving-and-activating-an-offer.md), [modèles de l’offre](managing-offer-templates.md) et [paramètres avancés](using-advanced-parameters.md).
 

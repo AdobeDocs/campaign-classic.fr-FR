@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
+source-git-commit: 0fdce84d7da1ff42a406ace8f1a180f6a426646a
 workflow-type: tm+mt
 source-wordcount: '1295'
 ht-degree: 98%
@@ -45,7 +45,7 @@ Les spécialistes marketing et les opérateurs utilisent des formulaires de sais
 >
 >Dans le cadre de la transition de Campaign v7 vers v8, la documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur les formulaires de saisie, consultez la documentation de [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms){target=_blank}.
 >
->[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms){target=_blank}
+>[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms){target="_blank"}
 
 Vous pouvez créer et modifier des formulaires de saisie :
 
@@ -243,7 +243,7 @@ Pour créer un formulaire, procédez comme suit :
 
 ## Création d’un formulaire à plusieurs pages {#create-multipage-form}
 
-Vous pouvez créer des formulaires à plusieurs pages. Vous pouvez également imbriquer des formulaires dans d’autres formulaires. En savoir plus sur les [&#x200B; conteneurs, notebooks et formulaires iconbox &#x200B;](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"} (documentation de Campaign v8).
+Vous pouvez créer des formulaires à plusieurs pages. Vous pouvez également imbriquer des formulaires dans d’autres formulaires. En savoir plus sur les [ conteneurs, notebooks et formulaires iconbox ](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/forms#containers){target="_blank"} (documentation de Campaign v8).
 
 ## Modification d’un formulaire de saisie d’usine {#modify-factory-form}
 

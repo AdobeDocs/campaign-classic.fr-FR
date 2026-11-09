@@ -2,7 +2,6 @@
 product: campaign
 title: Commencer avec les autorisations
 description: Découvrez comment octroyer l’accès aux fonctionnalités Campaign
-badge: label="v7" type="Informative" tooltip="S’applique uniquement à Campaign\_Classic\_v7"
 feature: Access Management, Permissions
 exl-id: 9b616715-33cd-43ba-8548-8d96a179408e
 TQID: 'https://experienceleague.adobe.com/03hVUeg0dRIFz0J20RfxH4EdSmAhe9h2c9BfKB-qJUs'
@@ -34,22 +33,12 @@ topic_v2:
     internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
+source-git-commit: 0fdce84d7da1ff42a406ace8f1a180f6a426646a
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 88%
+source-wordcount: '282'
+ht-degree: 57%
 ---
 # Commencer avec les autorisations{#access-management}
-
-
->[!CAUTION]
->
->À partir de Campaign Classic v7.3.1, l’ensemble des opérateurs et opératrices doivent utiliser le [système de gestion des identités Adobe (IMS)](https://helpx.adobe.com/fr/enterprise/using/identity.html){target="_blank"} pour se connecter à Campaign.
->
->Dans le cadre de ses efforts constants pour renforcer la sécurité et le processus d’authentification, Adobe Campaign recommande vivement de faire passer le mode d’authentification de l’ensemble des opérateurs et opératrices de l’authentification native par nom d’utilisateur/mot de passe au système de gestion des identités (IMS) Adobe. Découvrez comment effectuer la migration de vos opérateurs et opératrices sur [cette page](../../technotes/using/migrate-users-to-ims.md).
-> 
->À l’issue de cette migration, notez que la section suivante ne s’applique plus.  Découvrez comment configurer des autorisations avec Adobe IMS dans la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/admin/permissions/gs-permissions.html?lang=fr){target="_blank"}.
-
 
 Adobe Campaign permet de définir et de gérer les droits attribués aux différents opérateurs. Ces ensembles de droits et de restrictions permettent d&#39;autoriser ou de refuser :
 
@@ -59,15 +48,26 @@ Adobe Campaign permet de définir et de gérer les droits attribués aux diffé
 
 >[!NOTE]
 >
->Dans le cadre de la transition de Campaign v7 vers v8, la documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur les autorisations, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/permissions/gs-permissions){target=_blank}.
+>Dans le cadre de la transition de Campaign v7 vers v8, la documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour en savoir plus sur les autorisations et la définition des autorisations sur les dossiers, consultez la documentation de Campaign v8 :
 >
->[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/permissions/gs-permissions){target=_blank}
+>* [Prise en main des autorisations](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/permissions/gs-permissions){target="_blank"}
+>* [Ajouter des autorisations sur les dossiers](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/permissions/folder-permissions){target="_blank"}
+>
+>[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/permissions/gs-permissions){target="_blank"}
 
-Pour savoir comment définir des autorisations sur les dossiers, reportez-vous à la documentation de [Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/permissions/folder-permissions){target=_blank}.
+## Mode d’authentification {#authentication-mode}
 
-L’authentification native avec identifiant et mot de passe et toujours disponible dans Campaign v7. Cependant, afin de renforcer la sécurité et le processus d’authentification, Adobe Campaign recommande vivement de [migrer le mode d’authentification de l’utilisateur ou de l’utilisatrice](../../technotes/using/ac-ims.md) de l’authentification native vers le système de gestion des identités Adobe (IMS). Notez que dans Campaign v8, la connexion via l’authentification native n’est pas autorisée.
+>[!CAUTION]
+>
+>À compter de Campaign Classic v7.3.1, l’ensemble des opérateurs et opératrices doivent utiliser le [système de gestion des identités Adobe (IMS)](https://helpx.adobe.com/fr/enterprise/using/identity.html){target="_blank"} pour se connecter à Campaign.
+>
+>L’authentification native avec le nom d’utilisateur/mot de passe est toujours disponible dans Campaign v7. Toutefois, pour renforcer la sécurité et le processus d’authentification, Adobe Campaign vous recommande vivement de migrer tous les opérateurs existants de l’authentification native vers Adobe IMS. Notez que dans Campaign v8, la connexion via l’authentification native n’est pas autorisée.
 
-[![Image](../../assets/do-not-localize/learn-more-button.svg)](../../technotes/using/ac-ims.md)
+* Pour migrer vos opérateurs, voir [Migration des utilisateurs vers IMS](../../technotes/using/migrate-users-to-ims.md).
+* Pour migrer le mode d’authentification des utilisateurs finaux, reportez-vous à la section [Migration du mode d’authentification de l’utilisateur final](../../technotes/using/ac-ims.md).
+
+Après cette migration, les autorisations sont gérées avec Adobe IMS. Découvrez comment les configurer dans la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/permissions/gs-permissions){target="_blank"}.
+
 
 <!--
 The permissions apply to operator profiles or operator groups.
@@ -78,12 +78,12 @@ There are two types of permissions you can grant to a user:
 
 * You can define groups of operators to which you attribute rights, then associate the operators with one or more groups. This enables you to reuse rights and make operator profiles more consistent. It also facilitates the management and maintenance of profiles. Group creation and management are presented in [this section](access-management-groups.md).
 
-* You can attribute named rights directly to users, in some cases to overload the rights allocated via groups. These rights are presented in [this page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/permissions/manage-permissions){target="_blank"} (Campaign v8 documentation).
+* You can attribute named rights directly to users, in some cases to overload the rights allocated via groups. These rights are presented in [this page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/permissions/manage-permissions){target="_blank"} (Campaign v8 documentation).
 
 >[!NOTE]
 >
-> * Before starting defining permissions, Adobe recommends you to read the [Security configuration checklist](https://helpx.adobe.com/fr/campaign/kb/acc-security.html).
-> * To learn more about permissions, please refer to the detailed explanation on the [Campaign v8 documentation](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target=_blank}.
+> * Before starting defining permissions, Adobe recommends you to read the [Security configuration checklist](https://helpx.adobe.com/campaign/kb/acc-security.html).
+> * To learn more about permissions, please refer to the detailed explanation on the [Campaign v8 documentation](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/admin/permissions/gs-permissions){target=_blank}.
 
 Learn how to grant access and set up permissions in these sections:
 
@@ -91,7 +91,7 @@ Learn how to grant access and set up permissions in these sections:
 
 * [Define groups](access-management-groups.md)
 
-* [Add Named rights](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/permissions/manage-permissions){target="_blank"} (Campaign v8 documentation)
+* [Add Named rights](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/permissions/manage-permissions){target="_blank"} (Campaign v8 documentation)
 
 * [Manage Campaign folder access](access-management.md)
 
@@ -100,9 +100,9 @@ Learn how to grant access and set up permissions in these sections:
 
 See also:
 
-* [Manage permissions for workflows](https://experienceleague.adobe.com/fr/docs/campaign/automation/workflows/advanced-management/managing-rights){target="_blank"} (Campaign v8 documentation)
-* [Manage permissions for distributed marketing](https://experienceleague.adobe.com/fr/docs/campaign/automation/distributed-marketing/about-distributed-marketing#operators-and-entities){target="_blank"} (Campaign v8 documentation)
-* [Manage permissions for the interaction module](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators){target="_blank"} (Campaign v8 documentation)
-* [Filter access to schemas](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/filter-schema){target="_blank"} (Campaign v8 documentation)
-* [Restricting PI view](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/developer/schemas-forms/restrict-pi-view){target="_blank"} (Campaign v8 documentation)
+* [Manage permissions for workflows](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/advanced-management/managing-rights){target="_blank"} (Campaign v8 documentation)
+* [Manage permissions for distributed marketing](https://experienceleague.adobe.com/en/docs/campaign/automation/distributed-marketing/about-distributed-marketing#operators-and-entities){target="_blank"} (Campaign v8 documentation)
+* [Manage permissions for the interaction module](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/offers/interaction-settings/interaction-operators){target="_blank"} (Campaign v8 documentation)
+* [Filter access to schemas](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/filter-schema){target="_blank"} (Campaign v8 documentation)
+* [Restricting PI view](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/developer/schemas-forms/restrict-pi-view){target="_blank"} (Campaign v8 documentation)
 -->

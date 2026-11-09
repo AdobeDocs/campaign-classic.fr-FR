@@ -36,7 +36,7 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
+source-git-commit: 0fdce84d7da1ff42a406ace8f1a180f6a426646a
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 100%
@@ -58,7 +58,7 @@ La personnalisation vous permet de rendre vos messages plus pertinents et plus a
 Pour en savoir plus sur la personnalisation du contenu, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html?lang=fr){target=_blank}.
 
 
-[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html?lang=fr){target=_blank}
+[![Image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/personalize/personalize.html?lang=fr){target="_blank"}
 
 
 >[!TAB Personnalisation et contenu conditionnel]
@@ -90,16 +90,16 @@ Adobe Campaign lets you mass deliver personalized electronic messages to a targe
 Before starting sending emails:
 
 * Make sure recipient profiles contain at least an email address.
-* Learn more about the Adobe Campaign [Delivery best practices](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/delivery-best-practices){target="_blank"} (Campaign v8 documentation).
-* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=fr).
+* Learn more about the Adobe Campaign [Delivery best practices](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/delivery-best-practices){target="_blank"} (Campaign v8 documentation).
+* Read out these sections to learn more about Deliverability: [Deliverability management in Campaign](about-deliverability.md) and [Deliverability best practices guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html).
 
 The key steps to send an email are as follows:
 
-* [Create an email delivery](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/emails/email){target="_blank"} (Campaign v8 documentation)
-* [Define the target population](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/create-message){target="_blank"} (Campaign v8 documentation)
-* [Define the email content](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/emails/defining-the-email-content){target="_blank"} (Campaign v8 documentation)
-* [Send the email](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/emails/send){target="_blank"} (Campaign v8 documentation)
+* [Create an email delivery](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/email){target="_blank"} (Campaign v8 documentation)
+* [Define the target population](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-message){target="_blank"} (Campaign v8 documentation)
+* [Define the email content](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/defining-the-email-content){target="_blank"} (Campaign v8 documentation)
+* [Send the email](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/emails/send){target="_blank"} (Campaign v8 documentation)
 * [Monitor the delivery](about-delivery-monitoring.md)
 
-The sections below provide information that is specific to the email channel. For global information on how to create a delivery, refer to [this section](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/create-message){target="_blank"} (Campaign v8 documentation).
+The sections below provide information that is specific to the email channel. For global information on how to create a delivery, refer to [this section](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/send/create-message){target="_blank"} (Campaign v8 documentation).
 -->
