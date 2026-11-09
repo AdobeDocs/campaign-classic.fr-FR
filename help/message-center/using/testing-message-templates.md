@@ -26,8 +26,8 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 617db6f51887118c965b8938b2b9f14335293875
-workflow-type: ht
+source-git-commit: 758d5159759b19f7ef32e8cc8f6237547599e727
+workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 100%
 ---
@@ -35,9 +35,11 @@ ht-degree: 100%
 
 Une fois que votre [modèle de message](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/real-time/transactional-template){target="_blank"} (documentation de Campaign v8) est prêt, suivez les étapes ci-dessous pour le prévisualiser et le tester.
 
-Dans le cadre de la transition de Campaign v7 vers v8, la documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour savoir comment ajouter des adresses de contrôle, prévisualiser un message transactionnel et envoyer un BAT, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/real-time/transactional-template#test-message-template){target=_blank}.
-
-[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/real-time/transactional-template#test-message-template){target=_blank}
+>[!NOTE]
+>
+>Dans le cadre de la transition de Campaign v7 vers v8, la documentation de Campaign Classic a été rationalisé et réorganisé. Les fonctionnalités communes sont désormais disponibles exclusivement dans le jeu de documentation de Campaign v8. Pour savoir comment ajouter des adresses de contrôle, prévisualiser un message transactionnel et envoyer un BAT, consultez la [documentation de Campaign v8](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/real-time/transactional-template#test-message-template){target=_blank}.
+>
+>[![image](../../assets/do-not-localize/learn-more-button.svg)](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/send/real-time/transactional-template#test-message-template){target=_blank}
 
 ## Données de personnalisation {#personalization-data}
 
