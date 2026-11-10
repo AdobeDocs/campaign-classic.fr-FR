@@ -52,7 +52,7 @@ L’opérateur webApp par défaut est un administrateur. Pour améliorer la séc
 
   1. Saisissez un nom pour chaque doublon. Par exemple : webapp_brand, webapp_brand2, etc.
 
-  1. Dupliquez un modèle d’application web pour disposer d’un modèle par marque et modifiez les propriétés afin de changer l’opérateur en sélectionnant l’option Utiliser un compte spécifique.  En savoir plus sur [cette page](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-properties){target="_blank"} (documentation de Campaign v8).
+  1. Dupliquez un modèle d’application web pour disposer d’un modèle par marque et modifiez les propriétés afin de changer l’opérateur en sélectionnant l’option Utiliser un compte spécifique.  En savoir plus sur [cette page](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/content/web-forms/defining-web-forms-properties){target="_blank"} (documentation de Campaign v8).
 
 ## Groupes de sécurité et opérateurs admin
 
@@ -62,7 +62,7 @@ N’utilisez pas l’opérateur admin (ou ne le partagez pas). Créez un opérat
 
 Évitez d’ajouter trop d’opérateurs dans le groupe d’administrateurs et d’administratrices (ou avec des droits nommés d’administration). Il s’agit d’opérateurs très puissants (ils peuvent effectuer toutes les instructions SQL, exécuter des commandes sur le serveur et bien d’autres actions).
 
-Adobe Campaign fournit trois privilèges de haut niveau par le biais de [droits nommés](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/permissions/manage-permissions#use-named-rights){target="_blank"} (documentation de Campaign v8) :
+Adobe Campaign fournit trois privilèges de haut niveau par le biais de [droits nommés](https://experienceleague.adobe.com/fr/docs/campaign/campaign-v8/permissions/manage-permissions#use-named-rights){target="_blank"} (documentation de Campaign v8) :
 
 * **ADMINISTRATION** (admin) : donne accès à tout et permet d’effectuer toutes les tâches en contournant les contrôles des droits nommés. Il comprend donc les droits nommés EXÉCUTION DE PROGRAMMES (createProcess) et SQL.
 
